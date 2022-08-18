@@ -1,15 +1,15 @@
 ## UI
 
-ui-disposal-unit-title = Disposal Unit
+ui-disposal-unit-title = Unidade de Descarte
 
-ui-disposal-unit-label-state = State:
-ui-disposal-unit-label-pressure = Pressure:
-ui-disposal-unit-label-status = Ready
+ui-disposal-unit-label-state = Estado:
+ui-disposal-unit-label-pressure = Pressão:
+ui-disposal-unit-label-status = Pronto
 
-ui-disposal-unit-button-flush = Flush
-ui-disposal-unit-button-eject = Eject Contents
-ui-disposal-unit-button-power = Power
+ui-disposal-unit-button-flush = Descarga
+ui-disposal-unit-button-eject = Ejetar Conteúdos
+ui-disposal-unit-button-power = Energia
 
 ## No hands
 
-disposal-unit-no-hands = You don't have hands!
+disposal-unit-no-hands = Você não tem mãos!

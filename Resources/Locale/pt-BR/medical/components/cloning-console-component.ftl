@@ -18,9 +18,9 @@ cloning-console-mind-present-text = Interface Neural: [color=green]Consciência 
 cloning-console-component-msg-ready = Pronto para Clonar
 cloning-console-component-msg-empty = Nenhum Corpo Detectado
 cloning-console-component-msg-scanner-occupant-alive = Não Pronto: Ocupante do Scanner está Vivo
-cloning-console-component-msg-already-alive = Not Ready: Metaphysical Conflict
-cloning-console-component-msg-occupied = Not Ready: The Pod Already Contains A Clone
-cloning-console-component-msg-already-cloning = Not Ready: Pod Network Conflict
-cloning-console-component-msg-incomplete = Not Ready: Cloning In Progress
-cloning-console-component-msg-no-cloner = Not Ready: No Cloner Detected
-cloning-console-component-msg-no-mind = Not Ready: No Soul Activity Detected
+cloning-console-component-msg-already-alive = Não Pronto: Conflito Metafísico
+cloning-console-component-msg-occupied = Não Pronto: O Pod já tem um clone
+cloning-console-component-msg-already-cloning = Não Pronto: Conflito de rede do Pod
+cloning-console-component-msg-incomplete = Não Pronto: Clonagem em processo
+cloning-console-component-msg-no-cloner = Não Pronto: Nenhum Clonador detectado
+cloning-console-component-msg-no-mind = Não Pronto: Nenhuma atividade de alma detectada

@@ -23,4 +23,4 @@ player-join-message = O jogador {$name} entrou no servidor!
 player-leave-message = O jogador {$name} saiu do servidor!
 
 latejoin-arrival-announcement = {$character} ({$job}) chegou a estação!
-latejoin-arrival-sender = Station
+latejoin-arrival-sender = Estação

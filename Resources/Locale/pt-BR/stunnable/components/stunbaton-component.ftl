@@ -1,6 +1,6 @@
 ### Stunbaton component
 
-comp-stunbaton-stun = Stunned
+comp-stunbaton-stun = Atordoado
 
 ## Used when examining the stunbaton
 

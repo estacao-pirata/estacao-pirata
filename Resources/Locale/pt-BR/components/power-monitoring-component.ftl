@@ -1,4 +1,4 @@
-power-monitoring-window-title = Power Monitoring Console
+power-monitoring-window-title = Console de Monitoramento de Energia
 power-monitoring-window-tab-sources = Fontes
 power-monitoring-window-tab-loads = Cargas
 power-monitoring-window-total-sources = Fontes totais:

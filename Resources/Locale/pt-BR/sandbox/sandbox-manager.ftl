@@ -1,4 +1,4 @@
-sandbox-window-title = Painel de Sandbox
+sandbox-window-title = Painel Sandbox
 sandbox-window-respawn-button = Respawnar
 sandbox-window-spawn-entities-button = Spawnar Entidades
 sandbox-window-spawn-tiles-button = Spawnar Azulejos

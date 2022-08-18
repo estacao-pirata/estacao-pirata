@@ -10,8 +10,8 @@ ent-CrateMaterialPlastic = Caixa de placas de plastico
 ent-CrateMaterialWood = Caixa com madeira
     .desc = Um tanto de tábuas de madeira.
 
-ent-CrateMaterialPlasteel = Caixa de plástico-aço
+ent-CrateMaterialPlasteel = Caixa de placas de plástico-aço
     .desc = 90 placas de plástico-aço.
 
-ent-CrateMaterialPlasma = Caixa de plasma sólido
+ent-CrateMaterialPlasma = Caixa de placas de plasma sólido
     .desc = 90 placas de plasma.

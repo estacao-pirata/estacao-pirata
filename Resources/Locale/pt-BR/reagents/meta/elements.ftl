@@ -20,7 +20,7 @@ reagent-name-hydrogen = hydrogen
 reagent-desc-hydrogen = Um gás leve e inflamável.
 
 reagent-name-iodine = iodine
-reagent-desc-iodine = Commonly added to table salt as a nutrient. On its own it tastes far less pleasing.
+reagent-desc-iodine = Normalmente adicionado ao sal de cozinha como um nutriente. Por si só tem gosto muito menos prazeroso.
 
 reagent-name-iron = iron
 reagent-desc-iron = Um metal cinza-prateado que forma óxidos de ferro (ferrugem) em contato com o ar. Comumente ligado com outros elementos para criar ligas como o aço.
@@ -35,22 +35,22 @@ reagent-name-potassium = potassium
 reagent-desc-potassium = Um metal cinza macio e brilhante. Ainda mais reativo que o lítio.
 
 reagent-name-phosphorus = phosphorus
-reagent-desc-phosphorus = A reactive metal used in pyrotechnics and weapons.
+reagent-desc-phosphorus = Um metal reativo usado em pirotecnias e armas.
 
 reagent-name-radium = radium
-reagent-desc-radium = A radioactive metal, silvery-white in its pure form. It glows due to its radioactivity and is highly toxic.
+reagent-desc-radium = Um metal radioativo, branco-prateado em sua forma pura. Brilha devido à sua radioatividade e é altamente tóxico.
 
 reagent-name-silicon = silicon
-reagent-desc-silicon = A hard and brittle crystalline solid with a blue-grey color.
+reagent-desc-silicon = Um duro, quebradiço e cristalino sólido, com uma cor azul-cinzento.
 
 reagent-name-silver = silver
-reagent-desc-silver = A soft, white, lustrous transition metal, it has the highest electrical conductivity of any element and the highest thermal conductivity of any metal.
+reagent-desc-silver = Um macio, branco e lustroso metal de transição, tem a maior conductibilidade elétrica de qualquer elemento e a maior condutividade térmica de qualquer metal.
 
 reagent-name-sulfur = sulfur
-reagent-desc-sulfur = A yellow, crystalline solid.
+reagent-desc-sulfur = UM amarelo e cristalino sólido.
 
 reagent-name-sodium = sodium
-reagent-desc-sodium = A silvery-white alkali metal. Highly reactive in its pure form. #thanks visne <3
+reagent-desc-sodium = Um branco-prateado metal alcalino. Altamente reativo em sua forma pura. #thanks visne <3
 
 reagent-name-uranium = uranium
-reagent-desc-uranium = A grey metallic chemical element in the actinide series, weakly radioactive.
+reagent-desc-uranium = Um cinza e metálico elemento químico na série dos actinídeos, fracamente radioativo.

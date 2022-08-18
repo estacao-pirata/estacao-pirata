@@ -7,7 +7,7 @@ gravity-generator-window-title = Gerador de gravidade
 ## UI field names
 
 gravity-generator-window-status = Status:
-gravity-generator-window-power = Poder:
+gravity-generator-window-power = Energia:
 gravity-generator-window-eta = ETA:
 gravity-generator-window-charge = Carregar:
 

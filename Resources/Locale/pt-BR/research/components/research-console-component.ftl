@@ -1,6 +1,6 @@
 ## UI
 
-research-console-menu-title = R&D Console
+research-console-menu-title = Console de Pequisa
 research-console-menu-unlocked-technologies-label = Tecnologia liberada
 research-console-menu-unlockable-technologies-label = Tecnologia desbloqueável
 research-console-menu-future-technologies-label = Tecnologia futura

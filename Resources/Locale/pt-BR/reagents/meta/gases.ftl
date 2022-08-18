@@ -17,7 +17,7 @@ reagent-name-miasma = miasma
 reagent-desc-miasma = Fedido!
 
 reagent-name-nitrous-oxide = nitrous oxide
-reagent-desc-nitrous-oxide = You know how everything seems funnier when you're tired? Well...
+reagent-desc-nitrous-oxide = Sabe quando tudo parece mais engraçado quando você tá cansado? Bem...
 
 reagent-name-frezon = frezon
-reagent-desc-frezon = A highly effective coolant.. and hallucinogenic.
+reagent-desc-frezon = Um resfriante muito efetivo... e alucinógeno.

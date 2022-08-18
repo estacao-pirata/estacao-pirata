@@ -42,4 +42,4 @@ cargo-shuttle-console-menu-title = Console da Nave da Cargo
 cargo-shuttle-console-station-unknown = Desconhecida
 cargo-shuttle-console-shuttle-not-found = Não encontrada
 cargo-shuttle-console-organics = Formas de vida orgânica encontradas na nave
-cargo-no-shuttle = No cargo shuttle found!
+cargo-no-shuttle = Nenhuma nave de carga encontrada!

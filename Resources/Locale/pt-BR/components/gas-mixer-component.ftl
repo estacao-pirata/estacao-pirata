@@ -7,7 +7,7 @@ comp-gas-mixer-ui-mixer-output-pressure = Saída de Pressão (kPa):
 comp-gas-mixer-ui-mixer-node-primary = Porta Primária:
 comp-gas-mixer-ui-mixer-node-side = Porta Secundária:
 
-comp-gas-mixer-ui-mixer-set = Set
+comp-gas-mixer-ui-mixer-set = Definir
 comp-gas-mixer-ui-mixer-max = Máximo
 
 comp-gas-mixer-ui-needs-anchor = Fixe-o no chão primeiro!

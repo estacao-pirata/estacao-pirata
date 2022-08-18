@@ -4,7 +4,7 @@ reagent-desc-absinthe = A anise-flavoured spirit derived from botanicals.
 reagent-name-ale = ale
 reagent-desc-ale = A dark alchoholic beverage made by malted barley and yeast.
 
-reagent-name-beer = beer
+reagent-name-beer = cerveja
 reagent-desc-beer = An alcoholic beverage made from malted grains, hops, yeast, and water.
 
 reagent-name-blue-curacao = blue curacao
@@ -16,7 +16,7 @@ reagent-desc-cognac = A sweet and strongly alcoholic drink, twice distilled and 
 reagent-name-dead-rum = deadrum
 reagent-desc-dead-rum = Distilled alcoholic drink made from saltwater.
 
-reagent-name-ethanol = ethanol
+reagent-name-ethanol = etanol
 reagent-desc-ethanol = A simple alcohol, makes you drunk if consumed, flammable.
 
 reagent-name-gin = gin
@@ -31,7 +31,7 @@ reagent-desc-melon-liquor = A relatively sweet and fruity 46 proof liquor.
 reagent-name-n-t-cahors = NeoTheology Cahors Wine
 reagent-desc-n-t-cahors = Fortified dessert wine made from cabernet sauvignon, saperavi and other grapes.
 
-reagent-name-poison-wine = poison wine
+reagent-name-poison-wine = vinho de veneno
 reagent-desc-poison-wine = Is this even wine? Toxic! Hallucinogenic! Probably consumed in boatloads by your superiors!
 
 reagent-name-rum = rum
@@ -55,7 +55,7 @@ reagent-desc-cachaca = Clear distilled alcoholic beverage that originates from B
 reagent-name-whiskey = whiskey
 reagent-desc-whiskey = A type of distilled alcoholic beverage made from fermented grain mash.
 
-reagent-name-wine = wine
+reagent-name-wine = vinho
 reagent-desc-wine = An premium alchoholic beverage made from distilled grape juice.
 
 reagent-name-acid-spit = acidspit
@@ -76,7 +76,7 @@ reagent-desc-andalusia = A nice, strangely named drink.
 reagent-name-antifreeze = antifreeze
 reagent-desc-antifreeze = Ultimate refreshment.
 
-reagent-name-atomic-bomb = atomic bomb
+reagent-name-atomic-bomb = bomba atômica
 reagent-desc-atomic-bomb = Nuclear proliferation never tasted so good.
 
 reagent-name-b52 = b-52
@@ -133,7 +133,7 @@ reagent-desc-gargle-blaster = Whoah, this stuff looks volatile!
 reagent-name-gin-fizz = gin fizz
 reagent-desc-gin-fizz = Refreshingly lemony, deliciously dry.
 
-reagent-name-gin-tonic = gin and tonic
+reagent-name-gin-tonic = gin e tônica
 reagent-desc-gin-tonic = An all time classic, mild cocktail.
 
 reagent-name-goldschlager = Goldschlager
@@ -172,7 +172,7 @@ reagent-desc-manhattan = The Detective's undercover drink of choice. He never co
 reagent-name-manhattan-project = manhattan project
 reagent-desc-manhattan-project = A scientist's drink of choice, for pondering ways to blow up the ship.
 
-reagent-name-manly-dorf = manly dorf
+reagent-name-manly-dorf = pinga anã
 reagent-desc-manly-dorf = Beer and Ale, brought together in a delicious mix. Intended for stout dwarves only.
 
 reagent-name-margarita = margarita
@@ -190,7 +190,7 @@ reagent-desc-mojito = If it's good enough for Spesscuba, it's good enough for yo
 reagent-name-moonshine = moonshine
 reagent-desc-moonshine = Artisanal homemade liquor. What could go wrong?
 
-reagent-name-neurotoxin = neurotoxin
+reagent-name-neurotoxin = neurotoxina
 reagent-desc-neurotoxin = A strong neurotoxin that puts the subject into a death-like state.
 
 reagent-name-patron = patron

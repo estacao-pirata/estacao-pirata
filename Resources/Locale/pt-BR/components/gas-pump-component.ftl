@@ -2,7 +2,7 @@ comp-gas-pump-ui-pump-status = Status:
 comp-gas-pump-ui-status-enabled = Ligado
 comp-gas-pump-ui-status-disabled = Desligado
 
-comp-gas-pump-ui-pump-set-rate = Set
+comp-gas-pump-ui-pump-set-rate = Definir
 comp-gas-pump-ui-pump-set-max = Máximo
 
 comp-gas-pump-ui-pump-output-pressure = Saída de Pressão (kPa):

@@ -159,13 +159,13 @@ ui-options-function-loadout7 = Hotbar Loadout 7
 ui-options-function-loadout8 = Hotbar Loadout 8
 ui-options-function-loadout9 = Hotbar Loadout 9
 
-ui-options-function-shuttle-strafe-up = Strafe up
-ui-options-function-shuttle-strafe-right = Strafe right
-ui-options-function-shuttle-strafe-left = Strafe left
-ui-options-function-shuttle-strafe-down = Strafe down
-ui-options-function-shuttle-rotate-left = Rotate left
-ui-options-function-shuttle-rotate-right = Rotate right
-ui-options-function-shuttle-brake = Brake
+ui-options-function-shuttle-strafe-up = Andar para cima
+ui-options-function-shuttle-strafe-right = Andar para direita
+ui-options-function-shuttle-strafe-left = Andar pra esquerda
+ui-options-function-shuttle-strafe-down = Andar para baixo
+ui-options-function-shuttle-rotate-left = Rotacionar para esquerda
+ui-options-function-shuttle-rotate-right = Rotacionar para direita
+ui-options-function-shuttle-brake = Freiar
 
 ## Network menu
 
