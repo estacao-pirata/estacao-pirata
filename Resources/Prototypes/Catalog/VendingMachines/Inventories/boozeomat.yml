@@ -3,7 +3,6 @@
   name: Booze-O-Mat
   spriteName: boozeomat
   startingInventory:
-
     DrinkGlass: 30 #Kept glasses at top for ease to differentiate from booze.
     DrinkShotGlass: 10
     DrinkShaker: 5
@@ -11,6 +10,7 @@
     DrinkAleBottleFull: 5
     DrinkBeer: 5 # Needs to be renamed DrinkBeerBottleFull
     DrinkBlueCuracaoBottleFull: 2
+    DrinkCachacaBottleFull: 5
     DrinkCognacBottleFull: 4
     DrinkColaBottleFull: 4
     DrinkCreamCarton: 5

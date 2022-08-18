@@ -3,42 +3,41 @@
   id: DrinkBottleBaseFull
   abstract: true
   components:
-  - type: Drink
-    openSounds:
-      collection: bottleOpenSounds
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 100
-  - type: Sprite
-    state: icon
-  - type: DamageOnLand
-    damage:
-      types:
-        Blunt: 5
-  - type: DamageOtherOnHit
-    damage:
-      types:
-        Blunt: 4
-  - type: Damageable
-    damageContainer: Inorganic
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 5
-      behaviors:
-      - !type:PlaySoundBehavior
-        sound:
-          collection: GlassBreak
-      - !type:SpillBehavior { }
-      - !type:SpawnEntitiesBehavior
-        spawn:
-          BrokenBottle:
-            min: 1
-            max: 1
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
+    - type: Drink
+      openSounds:
+        collection: bottleOpenSounds
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 100
+    - type: Sprite
+      state: icon
+    - type: DamageOnLand
+      damage:
+        types:
+          Blunt: 5
+    - type: DamageOtherOnHit
+      damage:
+        types:
+          Blunt: 4
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: Destructible
+      thresholds:
+        - trigger: !type:DamageTrigger
+            damage: 5
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: GlassBreak
+            - !type:SpillBehavior {}
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                BrokenBottle:
+                  min: 1
+                  max: 1
+            - !type:DoActsBehavior
+              acts: ["Destruction"]
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -46,14 +45,14 @@
   name: Jailbreaker Verte
   description: One sip of this and you just know you're gonna have a good time.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Absinthe
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/absinthebottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Absinthe
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/absinthebottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -61,14 +60,14 @@
   name: Miss Blue Curacao
   description: A fruity, exceptionally azure drink. Does not allow the imbiber to use the fifth magic.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: BlueCuracao
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/alco-blue.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: BlueCuracao
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/alco-blue.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -76,14 +75,14 @@
   name: bottle of nothing
   description: A bottle filled with nothing.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Nothing
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/bottleofnothing.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Nothing
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/bottleofnothing.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -91,14 +90,14 @@
   name: cognac bottle
   description: A sweet and strongly alchoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Cognac
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/cognacbottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Cognac
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/cognacbottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -106,15 +105,14 @@
   name: space cola bottle
   description: Cola. In space.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Cola
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/colabottle.rsi
-
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Cola
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/colabottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -122,16 +120,16 @@
   name: briar rose grenadine syrup bottle
   description: Sweet and tangy, a bar syrup used to add color or flavor to drinks.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Grenadine
-          Quantity: 100
-  - type: Drink
-    isOpen: true
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/grenadinebottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Grenadine
+              Quantity: 100
+    - type: Drink
+      isOpen: true
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/grenadinebottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -139,14 +137,14 @@
   name: Griffeater Gin
   description: A bottle of high quality gin, produced in the New London Space Station.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Gin
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/ginbottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Gin
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/ginbottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -154,14 +152,14 @@
   name: goldschlager bottle
   description: 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Goldschlager
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/goldschlagerbottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Goldschlager
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/goldschlagerbottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -169,14 +167,14 @@
   name: kahlua bottle
   description: A widely known, Mexican coffee-flavoured liqueur. In production since 1936, HONK.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Kahlua
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/kahluabottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Kahlua
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/kahluabottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -184,14 +182,14 @@
   name: emeraldine melon liquor
   description: A bottle of 46 proof Emeraldine Melon Liquor. Sweet and light.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: MelonLiquor
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/alco-green.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: MelonLiquor
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/alco-green.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -199,14 +197,14 @@
   name: wrapp artiste patron bottle
   description: Silver laced tequilla, served in space night clubs across the galaxy.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Patron
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/patronbottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Patron
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/patronbottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -214,14 +212,14 @@
   name: warlock's velvet bottle
   description: What a delightful packaging for a surely high quality wine! The vintage must be amazing!
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: PoisonWine
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/pwinebottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: PoisonWine
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/pwinebottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -229,14 +227,14 @@
   name: captain pete's cuban spiced rum
   description: This isn't just rum, oh no. It's practically GRIFF in a bottle.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Rum
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/rumbottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Rum
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/rumbottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -244,15 +242,15 @@
   name: space mountain wind bottle
   description: Blows right through you like a space wind.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: SpaceMountainWind
-          Quantity: 100
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/space_mountain_wind_bottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: SpaceMountainWind
+              Quantity: 100
+    - type: Drink
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/space_mountain_wind_bottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -260,15 +258,15 @@
   name: space-up bottle
   description: Tastes like a hull breach in your mouth.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: SpaceUp
-          Quantity: 100
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/space-up_bottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: SpaceUp
+              Quantity: 100
+    - type: Drink
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/space-up_bottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -276,14 +274,14 @@
   name: caccavo guaranteed quality tequila bottle
   description: Made from premium petroleum distillates, pure thalidomide and other fine quality ingredients!
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Tequila
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/tequillabottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Tequila
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/tequillabottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -291,14 +289,14 @@
   name: goldeneye vermouth bottle
   description: Sweet, sweet dryness!
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Vermouth
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/vermouthbottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Vermouth
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/vermouthbottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -306,14 +304,14 @@
   name: vodka bottle
   description: Aah, vodka. Prime choice of drink AND fuel by Russians worldwide.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Vodka
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/vodkabottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Vodka
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/vodkabottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -321,14 +319,14 @@
   name: uncle git's special reserve
   description: A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Whiskey
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/whiskeybottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Whiskey
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/whiskeybottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -336,32 +334,32 @@
   name: doublebearded bearded special wine bottle
   description: A faint aura of unease and asspainery surrounds the bottle.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Wine
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/winebottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Wine
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/winebottle.rsi
 
 # Small Bottles
 
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkBeer # Needs to be renamed DrinkBeerBottleFull
-  name: beer  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
+  name: beer # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
   description: An alcoholic beverage made from malted grains, hops, yeast, and water.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: Beer
-          Quantity: 50
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 50
+          reagents:
+            - ReagentId: Beer
+              Quantity: 50
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/beer.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -369,15 +367,15 @@
   name: Magm-Ale
   description: A true dorf's drink of choice.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: Ale
-          Quantity: 50
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/alebottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 50
+          reagents:
+            - ReagentId: Ale
+              Quantity: 50
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/alebottle.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -385,16 +383,16 @@
   name: water bottle
   description: Simple clean water of unknown origin. You think that maybe you dont want to know it.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: Water
-          Quantity: 50
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/waterbottle.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 50
+          reagents:
+            - ReagentId: Water
+              Quantity: 50
+    - type: Drink
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/waterbottle.rsi
 
 # Cartons, TODO: this needs to be moved elsewhere eventually, since cartons shouldnt smash into glass shards
 
@@ -404,16 +402,16 @@
   name: lime juice
   description: Sweet-sour goodness.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: JuiceLime
-          Quantity: 50
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/limejuice.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 50
+          reagents:
+            - ReagentId: JuiceLime
+              Quantity: 50
+    - type: Drink
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/limejuice.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -421,16 +419,16 @@
   name: orange juice
   description: Full of vitamins and deliciousness!
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: JuiceOrange
-          Quantity: 50
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/orangejuice.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 50
+          reagents:
+            - ReagentId: JuiceOrange
+              Quantity: 50
+    - type: Drink
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/orangejuice.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -438,16 +436,16 @@
   name: tomato juice
   description: Well, at least it LOOKS like tomato juice. You can't tell with all that redness.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: JuiceTomato
-          Quantity: 50
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/tomatojuice.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 50
+          reagents:
+            - ReagentId: JuiceTomato
+              Quantity: 50
+    - type: Drink
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/tomatojuice.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -455,16 +453,16 @@
   name: Milk Cream
   description: It's cream. Made from milk. What else did you think you'd find in there?
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: Cream
-          Quantity: 50
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/cream.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 50
+          reagents:
+            - ReagentId: Cream
+              Quantity: 50
+    - type: Drink
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/cream.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -472,15 +470,15 @@
   name: milk
   description: An opaque white liquid produced by the mammary glands of mammals.
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 100
-        reagents:
-        - ReagentId: Milk
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/milk.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 100
+          reagents:
+            - ReagentId: Milk
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/milk.rsi
 
 - type: entity
   parent: DrinkBottleBaseFull
@@ -488,13 +486,28 @@
   name: soy milk
   description: White and nutritious soy goodness!
   components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 100
-        reagents:
-        - ReagentId: MilkSoy
-          Quantity: 100
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/soymilk.rsi
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 100
+          reagents:
+            - ReagentId: MilkSoy
+              Quantity: 100
+    - type: Drink
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/soymilk.rsi
+
+- type: entity
+  parent: DrinkBottleBaseFull
+  id: DrinkCachacaBottleFull
+  name: cachaça bottle
+  description: Aah, cachaça.
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          reagents:
+            - ReagentId: Cachaca
+              Quantity: 100
+    - type: Sprite
+      sprite: Objects/Consumable/Drinks/cachacabottle.rsi
