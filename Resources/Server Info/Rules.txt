@@ -1,62 +1,57 @@
-[color=#ff0000]You must be 16 or older to play. Users under 16 will be banned immediately and be unbanned when they are old enough.[/color]
+[color=#ff0000]Você deve ter 16 anos ou mais para jogar. Usuários menores de 16 anos serão banidos imediatamente e desbanidos quando tiverem idade suficiente.[/color]
 
-[color=#a4885c]The[/color] [color=#ffd700]Golden[/color] [color=#a4885c]Rule.[/color] Admins can disregard any and all of these rules if they deem it in the best interest of the current round, server, and/or community at large. They will of course be held fully accountable for their actions if they exercise this privilege.
+[color=#a4885c]A[/color] [color=#a4885c]Regra de[/color] [color=#ffd700]Ouro[/color]. Os administradores podem desconsiderar todas e quaisquer dessas regras se julgarem que é do melhor interesse da rodada atual, servidor e/ou comunidade em geral. É claro que eles serão totalmente responsabilizados por suas ações se exercerem esse privilégio.
 
-[color=#a4885c]1.[/color] Don’t be a dick. We’re all here to have fun.
-    - Antagonists have lots of leeway here since ruining the round is kind of their job, but if your actions degrade the experience for most of the server, you may be asked to refrain from doing it in the future.
-    - Be considerate of what other players want. If everyone is dead, don't stall the end of the round to finish your personal projects (such as building a shuttle), and don't call the shuttle early just because you don't feel like playing anymore or want a different gamemode.
-    - Just because the shuttle has departed does not mean the round is over. Standard rules still apply until the round summary screen pops up.
+[color=#a4885c]1.[/color] Não seja um idiota. Estamos todos aqui para nos divertir.
+    - Antagonistas têm muita margem de manobra aqui, já que arruinar a rodada é meio que trabalho deles, mas se suas ações degradarem a experiência da maior parte do servidor, você pode ser solicitado a abster-se de fazê-lo no futuro.
+    - Seja atencioso com o que os outros jogadores querem. Se todos estiverem mortos, não atrase o final da rodada para terminar seus projetos pessoais (como construir uma nave) e não chame a nave cedo só porque você não sente mais vontade de jogar ou quer um modo de jogo diferente.
+    - Só porque a nave partiu não significa que a rodada acabou. As regras padrão ainda se aplicam até que a tela de resumo da rodada apareça.
 
-[color=#a4885c]2.[/color] These are english servers. Do not speak other languages in IC or OOC, our staff cannot moderate it and you will be asked to stop.
+[color=#a4885c]2.[/color] Esses servidores são "Low Roleplay", o que significa que, embora você não precise estar perfeitamente no personagem, padrões básicos de roleplaying como não usar emoji/emoticons ou textpeak (😃, 😄, xD, lol, etc.) fala, e usando nomes reais para personagens, devem ser seguidos.
 
-[color=#a4885c]3.[/color] These servers are "Low Roleplay", meaning that while you don't need to be perfectly in character, basic roleplaying standards like not using emoji/emoticons or textspeak (:), :D, xD, lol, etc.) in speech, and using real names for characters, are expected to be followed.
+[color=#a4885c]3.[/color] Siga o bom senso básico - [color=#ff0000]você não pode matar alguém porque eles o derrubaram em uma casca de banana[/color].
+    - Este jogo não é um deathmatch, seja humano.
+    - O que é considerado um motivo razoável para escalar o conflito está listado abaixo em REGRAS DE ESCALA e fica a critério dos administradores.
+    - Declarar uma revolução ou entrar em greve é ​​uma atividade exclusivamente antagônica. "Cargonia" e outras revoluções departamentais são proibidas, a menos que a permissão do administrador seja obtida.
 
-[color=#a4885c]4.[/color] Follow basic common sense--you cannot murder someone because they slipped you on a banana.
-    - This isn't a deathmatch, be humane.
-    - What is considered a reasonable reason to escalate conflict is listed below under ESCALATION RULES and is at the discretion of admins.
-    - Declaring a revolution or going on strike is an antagonist only activity. "Cargonia" and other departmental revolutions are prohibited unless admin permission is obtained.
+[color=#a4885c]4.[/color] Roleplay Erótico (ERP) [color=#ff0000]não é permitido em nenhuma circunstância[/color].
 
-[color=#a4885c]5.[/color] Erotic Roleplay (ERP) is [color=#ff0000]not allowed under any circumstance[/color]. This includes any direct or implied sexual acts as well as explicit mentions of sexual behavior.
+[color=#a4885c]5.[/color] O assédio de outros jogadores por motivos OOC/meta [color=#ff0000]não é permitido[/color].
+    - Aborrecer alguém em uma rodada por razões de IC/RP não tem problema. Fazê-lo consistentemente em várias rodadas por motivos OOC (“Eu não gosto deste jogador” AKA metagrudging) até o ponto em que se torna seriamente problemático para o(s) outro(s) jogador(es) [color=#ff0000]não é[/color].
 
-[color=#a4885c]6.[/color] Harassment of other players for OOC/meta reasons is [color=#ff0000]not allowed[/color].
-	- Annoying somebody in a round for IC/RP reasons is fine. Doing it consistently across multiple rounds for OOC reasons (“I don’t like this player” AKA metagrudging) to the point where it becomes seriously problematic for the other player(s) is [color=#ff0000]not[/color].
+[color=#a4885c]6.[/color] Discurso de ódio, insultos e intolerância [color=#ff0000]não são permitidos[/color].
+	- A tentativa intencional de rebaixar os outros devido à sua raça, sexo, gênero, orientação sexual ou algo semelhante, real ou percebido, não é tolerado.
+    - Palavras que estão intimamente ligadas a insultos da vida real não são permitidas.
 
-[color=#a4885c]7.[/color] Hate speech, slurs and bigotry are not allowed.
-	- Intentionally seeking to demean others due to their actual or perceived race, sex, gender, sexual orientation or the like is not tolerated.
-	- Words that are closely tied to real life slurs are [color=#ff0000]not allowed[/color].
-    - Species-ism (IC or OOC bigotry against other in-game species) is also NOT ALLOWED. Not even for roleplay or because it's your "character".
+[color=#a4885c]7.[/color] Nomes e descrições de personagens ofensivos/ruins/fora do personagem colocam você à mercê dos administradores, desde receber danos cerebrais até se tornar válido até ser banido imediatamente, dependendo de quão ruim eles são.
+	- Os nomes dos personagens devem ser algo que um membro dessa espécie razoavelmente teria.
 
-[color=#a4885c]8.[/color] Offensive/bad/out-of-character character names and descriptions put you at the mercy of administrators, from receiving brain damage to becoming valid to straight up getting banned on the spot depending on how bad they are.
-    - Character names should be something that a member of that species would reasonably have.
-    - No famous real or fictional names of characters.
+[color=#a4885c]8.[/color] Não é permitido o uso consciente de exploits, programas externos ou outras mecânicas de jogo não intencionais para obter vantagens no jogo ou para atrasar/travar o servidor.
 
-[color=#a4885c]9.[/color] Knowingly using exploits, external programs, or other unintended game mechanics to gain in-game advantages or to lag/crash the server is [color=#ff0000]not allowed[/color].
+[color=#a4885c]9.[/color] Multi-keying/Alts no mesmo servidor [color=#ff0000]não é permitido[/color].
+    - Os administradores podem pedir aos jogadores que possuam várias contas alternativas para escolher uma para jogar e banir as outras contas.
+    - Se você for pego conscientemente usando contas alt, pode ter sua conta principal banida também.
 
-[color=#a4885c]10.[/color] Multi-keying/Alts on the same server is [color=#ff0000]not allowed[/color].
-	- Admins may ask players in possession of multiple alt accounts to choose one to play on and ban the other accounts.
-	- If you are caught knowingly using alt accounts you may have your main account banned as well.
+[color=#a4885c]10.[/color] Não é permitido usar informações obtidas fora do jogo para sua vantagem. IC e OOC devem ser mantidos separados em todos os momentos.
+	- Metacomunicação, ou comunicação com outros jogadores através de métodos fora do jogo (como Discord) para obter uma vantagem injusta também é estritamente proibida.
+	- Este é um jogo de RPG, portanto, conflitos de IC só devem ser resolvidos com chat de IC (Local). A utilização de bate-papo por voz, chamadas do outro lado da sala, OOC ou outros métodos de comunicação fora do jogo para coordenar ações no jogo é proibido e resultará em um banimento permanente apenas para apelação na maioria dos casos.
+    - Não é permitido usar emotes ou LOOC para contornar as restrições de bate-papo do IC (sotaques, inconsciência, morte).
+    - O espaçamento preventivo ou a destruição de itens de alto risco também se enquadram nesta regra.
 
-[color=#a4885c]11.[/color] Using information gained outside the game to your advantage is [color=#ff0000]not allowed[/color]. IC and OOC are to be kept separate at all times.
-	- Metacommunication, or communicating with other players via out of game methods (such as Discord) to gain an unfair advantage is also strictly [color=#ff0000]prohibited[/color].
-    - This is a roleplaying game, thus IC conflicts must only be resolved with IC (Local) chat. Utilizing voice chat, calling across the room, OOC, or other out-of-game communication methods to coordinate in-game actions is forbidden and will result in a [color=#ff0000]appeal-only permanent ban[/color] in most cases.
-    - Using emotes or LOOC to bypass IC chat restrictions (accents, unconsciousness, death) is not allowed.
-    - Preemptive spacing or destruction of high-risk items also falls under this rule.
+[color=#a4885c]11.[/color] Espera-se que a segurança use medidas não letais, a menos que seja confrontada com força letal ou uma situação em que medidas não letais não sejam possíveis.
+    - Se você ainda conseguir matar alguém como segurança, faça com que eles sejam clonados imediatamente e certifique-se de que suas coisas sejam devolvidas, a menos que sejam um antagonista confirmado. A segurança deve fazer seu melhor esforço para manter os criminosos vivos e sob custódia.
 
-[color=#a4885c]12.[/color] Security is expected to use non-lethal measures unless faced with lethal force or a situation where non-lethal measures aren't possible.
-    - If you still manage to kill someone as security, get them cloned immediately, and make sure their stuff is returned, unless they are a confirmed antagonist. Security should make their best effort to keep criminals alive and in custody.
+[color=#a4885c]12.[/color] Em geral, os presos [color=#ff0000]não devem receber sentenças superiores a 10 minutos[/color]. Antagonistas ou reincidentes podem ser permabrigged, e apenas nos piores casos aprovados pelo Capitão, executados.
+    - Como não existe uma lei espacial oficial para este servidor, os seguranças geralmente atuam para manter a ordem e segurança na estação e proteger os ativos da Nanotrasen.
 
-[color=#a4885c]13.[/color] Prisoners should generally not be given sentences longer than 10 minutes. Antagonists or repeat offenders may be permabrigged, and only [color=#ff0000]in the very worst cases approved by the Captain[/color], executed.
-    - As there is no official space law for this server, security generally act to maintain order and safety on station and protect Nanotrasen assets.
+REGRAS DE ESCALA
 
-ESCALATION RULES
+A autodefesa é sempre permitida, a ponto de salvar sua própria vida. Atacar/mutilar preventivamente alguém ou bater em alguém enquanto ele já está incapacitado não é considerado autodefesa. Armas de choque nas mãos de alguém com intenção de matar são consideradas da mesma gravidade que armas letais para fins de autodefesa.
 
-Self-defense is always allowed, to the extent of saving your own life. Preemptively attacking/maiming someone or hitting someone while they are already incapacitated is not considered self-defense. Stun weapons in the hands of someone with intent to kill are considered to be of the same severity as lethal weapons for the purposes of self-defense.
+Pequenos conflitos e brigas são permitidos, desde que a parte prejudicada tenha justificativa razoável. Se você for injustiçado, espera-se que você lide com o conflito de forma não letal sempre que possível, aumentando a gravidade à medida que o conflito continua.
 
-Minor conflicts and scuffles are allowed, given that the wronged party has reasonable justification. If you are wronged, you are expected to handle the conflict non-lethally whenever possible, escalating in severity as the conflict continues.
-As the defending party the rate of escalation increases with you, up to and including violence, while the instigator is always able to respond in kind.
+Se um conflito levar à violência e um dos participantes estiver incapacitado, espera-se que o participante em pé faça um esforço para tratar o outro, a menos que tenha motivos para acreditar que o outro era um antagonista.
+Uma vez tratado, o conflito termina; qualquer novo conflito com qualquer um dos indivíduos deve aumentar novamente. Se você entrar em conflito novamente com esse indivíduo, ele poderá ser removido permanentemente da rodada.
 
-If a conflict leads to violence and either participant is incapacitated, the standing participant is expected to make an effort to treat the other, unless they have reason to believe the other was an antagonist.
-Once treated the conflict is over; any new conflict with either individual must escalate once again. If you get into a conflict again with that individual, they may be removed permanently from the round.
-
-Not all conflicts should be solved in character. If a non-antagonist conflict has escalated to the point of interfering with the round in a detrimental way, Admin Help is preferred as a solution.
-If you're unsure whether escalation is justified in a given conflict, don't be afraid to use Admin Help and ask for clarification.
+Nem todos os conflitos devem ser resolvidos em caráter. Se um conflito não-antagonista tiver escalado a ponto de interferir com a rodada de forma prejudicial, a Ajuda do Administrador é preferível como solução.
+Se você não tiver certeza se o escalonamento é justificado em um determinado conflito, não tenha medo de usar a Ajuda do administrador e pedir esclarecimentos.

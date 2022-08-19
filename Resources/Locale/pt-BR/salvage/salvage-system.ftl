@@ -9,7 +9,7 @@ salvage-system-announcement-spawn-debris-disintegrated = Destroço desintegrado 
 
 salvage-system-report-already-active = O imã de coleta já está ativo.
 salvage-system-report-cooling-down = O imã de coleta está esfriando.
-salvage-system-report-activate-success = O imá de coleta está puxando um destroço!
+salvage-system-report-activate-success = O imã de coleta está puxando um destroço!
 
 salvage-system-magnet-examined-inactive = O imã de coleta está inativo.
 salvage-system-magnet-examined-pulling-in = O imã de coleta está tentando puxar o destroço.
