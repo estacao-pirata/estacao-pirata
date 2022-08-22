@@ -1,21 +1,21 @@
 ### Gas tank entity prototype data.
 
-ent-gas-tank-base = gas tank
-    .desc = It's a gas tank. It contains gas.
+ent-gas-tank-base = tanque de gás
+    .desc = É um tanque de gás. contém gás.
 
-ent-oxygen-tank = oxygen tank
-    .desc = A tank of oxygen.
+ent-oxygen-tank = tanque de oxigênio
+    .desc = Um tanque de oxigênio.
 ent-yellow-oxygen-tank = { ent-oxygen-tank }
-    .desc = A tank of oxygen. This one is in yellow.
+    .desc = Um tanque de oxigênio amarelo.
 ent-red-oxygen-tank = { ent-oxygen-tank }
-    .desc = A tank of oxygen. This one is in red.
-ent-emergency-oxygen-tank = emergency oxygen tank
-    .desc = Used for emergencies. Contains very little oxygen, so try to conserve it until you actually need it.
-ent-extended-emergency-oxygen-tank = extended-capacity emergency oxygen tank
-ent-double-emergency-oxygen-tank = double emergency oxygen tank
+    .desc = Um tanque de oxigênio vermelho.
+ent-emergency-oxygen-tank = tanque de oxigênio emergencial
+    .desc = Usado para emergências. Contém muito pouco oxigênio, conserve para quando você realmente precisar.
+ent-extended-emergency-oxygen-tank = tanque de oxigênio emergencial extendido
+ent-double-emergency-oxygen-tank = tanque de oxigênio emergencial duplo
 
-ent-air-tank = air tank
-    .desc = Mixed anyone?
+ent-air-tank = tanque de ar
+    .desc = Misturado?
 
-ent-plasma-tank = plasma tank
-    .desc = Contains dangerous plasma. Do not inhale. Warning: extremely flammable.
+ent-plasma-tank = tanque de plasma
+    .desc = Contém plasma. Não inale. Aviso: extremamente inflamável.

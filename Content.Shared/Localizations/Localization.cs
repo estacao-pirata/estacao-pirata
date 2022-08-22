@@ -6,7 +6,7 @@ namespace Content.Shared.Localizations
     public static class Localization
     {
         // If you want to change your codebase's language, do it here.
-        private const string Culture = "pt-BR";
+        private const string Culture = "en-US";
 
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
@@ -37,7 +37,7 @@ namespace Content.Shared.Localizations
 
         private static ILocValue FormatLoc(LocArgs args)
         {
-            var id = ((LocValueString)args.Args[0]).Value;
+            var id = ((LocValueString) args.Args[0]).Value;
 
             return new LocValueString(Loc.GetString(id));
         }
