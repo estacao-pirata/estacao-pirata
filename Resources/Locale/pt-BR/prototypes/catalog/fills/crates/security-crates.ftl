@@ -13,7 +13,7 @@ ent-CrateSecurityLaser = caixa de lazers
 ent-CrateSecurityRiot = caixa da SWAT
     .desc = Contém dois conjuntos de armaduras de corpo pesadas com capacetes e duas espingardas com 6 tiros de cartuchos de feijão cada. Precisa de acesso ao Arsenal para abrir.
 
-ent-CrateSecuritySupplies = caixa de suprimentos de segurançasecurity supplies crate
+ent-CrateSecuritySupplies = caixa de suprimentos de segurança
     .desc = Contém vários suprimentos para o time de Segurança da estação. Precisa de acesso à Segurança para abrir.
 
 ent-CrateRestraints = caixa de contenção
