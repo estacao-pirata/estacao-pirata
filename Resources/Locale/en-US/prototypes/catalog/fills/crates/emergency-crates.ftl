@@ -10,5 +10,5 @@ ent-CrateEmergencyInternals = Caixa de respiradores
 ent-CrateEmergencyRadiation = Caixa de proteção contra radiação
     .desc = Sobreviva o Apocalipse Nuclear, o Motor de Supermatéria e coisas do tipo com dois conjuntos de trajes de radiação. Cada conjunto contém um capacete, traje e contador Geiger. Nós vamos até mandar uma garrafa de vodka e alguns óculos também, considerando a expectativa de vida das pessoas que encomendam isso.
 
-ent-CrateEmergencyInflatablewall = Caixa de paredes infláveisInflatable wall crate
+ent-CrateEmergencyInflatablewall = Inflatable wall crate
     .desc = Três pilhas de paredes infláveis para quando as paredes de metal da estação não querem segurar a atmosfera mais.

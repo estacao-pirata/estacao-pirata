@@ -19,7 +19,7 @@ reagent-desc-juice-grape = Freshly squeezed juice from red grapes. Quite sweet.
 reagent-name-juice-lemon = suco de limão
 reagent-desc-juice-lemon = This juice is VERY sour.
 
-reagent-name-juice-lime = suco de lima
+reagent-name-juice-lime = limonada
 reagent-desc-juice-lime = The sweet-sour juice of limes.
 
 reagent-name-juice-orange = suco de laranja

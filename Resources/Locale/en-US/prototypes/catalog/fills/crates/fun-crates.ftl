@@ -1,7 +1,7 @@
-ent-CrateFunPlushie = Caixa de pelúciasPlushie crate
+ent-CrateFunPlushie = Caixa de pelúcias
     .desc = Um monte de pelúcias macias. Jogue-os por aí e então pense como você vai explicar essa compra para a NT.
 
-ent-CrateFunInstruments = Coleção de instrumentos de banda grande
+ent-CrateFunInstruments = Coleção de instrumentos grandes de banda 
     .desc = Faça a sua estação triste dançar e festejar com essa fina coleção! Contém treze diferentes instrumentos.
 
 ent-CrateFunBrass = Caixa de instrumentos de sopro
