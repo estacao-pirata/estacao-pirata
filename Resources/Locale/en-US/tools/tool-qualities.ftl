@@ -1,23 +1,23 @@
-tool-quality-anchoring-name = Anchoring
-tool-quality-anchoring-tool-name = Wrench
+tool-quality-anchoring-name = Fixando
+tool-quality-anchoring-tool-name = Chave inglesa
 
-tool-quality-prying-name = Prying
-tool-quality-prying-tool-name = Crowbar
+tool-quality-prying-name = Arrombando
+tool-quality-prying-tool-name = Pé de cabra
 
-tool-quality-screwing-name = Screwing
-tool-quality-screwing-tool-name = Screwdriver
+tool-quality-screwing-name = Desparafusando
+tool-quality-screwing-tool-name = Chave de fenda
 
-tool-quality-cutting-name = Cutting
-tool-quality-cutting-tool-name = Wirecutter
+tool-quality-cutting-name = Cortando
+tool-quality-cutting-tool-name = Alicate
 
-tool-quality-welding-name = Welding
-tool-quality-welding-tool-name = Welder
+tool-quality-welding-name = Soldando
+tool-quality-welding-tool-name = Soldador
 
-tool-quality-pulsing-name = Pulsing
+tool-quality-pulsing-name = Pulsando
 tool-quality-pulsing-tool-name = Multitool
 
-tool-quality-slicing-name = Slicing
-tool-quality-slicing-tool-name = Knife
+tool-quality-slicing-name = Cortando
+tool-quality-slicing-tool-name = Faca
 
-tool-quality-sawing-name = Sawing
-tool-quality-sawing-tool-name = Saw
+tool-quality-sawing-name = Serrando
+tool-quality-sawing-tool-name = Serra
