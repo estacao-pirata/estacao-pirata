@@ -7,16 +7,16 @@ reagent-desc-changeling-sting = You take a tiny sip and feel a burning sensation
 reagent-name-dr-gibb = Dr. Gibb
 reagent-desc-dr-gibb = A delicious blend of 42 different flavours.
 
-reagent-name-energy-drink = energético
+reagent-name-energy-drink = Energy Drink
 reagent-desc-energy-drink = A dose of energy! Nanotrasen is not responsible if you grow avian appendages.
 
-reagent-name-grape-soda = refri de uva
+reagent-name-grape-soda = grape soda
 reagent-desc-grape-soda = It's Graaaaaape!
 
 reagent-name-ice-cream = ice cream
 reagent-desc-ice-cream = It was either this or the microwave, and nobody wants ice cream soup!
 
-reagent-name-lemon-lime = refri limãonada
+reagent-name-lemon-lime = lemon-lime
 reagent-desc-lemon-lime = tangy lime and lemon soda
 
 reagent-name-pwr-game = Pwr Game

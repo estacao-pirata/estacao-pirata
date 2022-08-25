@@ -1,2 +1,2 @@
-construction-examine-condition-any-conditions = Uma dessas condições devem ser verdadeiras:
-construction-guide-condition-any-conditions = Uma dessas condições abaixo devem ser verdadeiras
+construction-examine-condition-any-conditions = Any of these conditions must be true:
+construction-guide-condition-any-conditions = Any of the conditions below must be true
