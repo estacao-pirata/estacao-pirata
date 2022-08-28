@@ -1,14 +1,14 @@
-store-currency-inserted = {CAPITALIZE(THE($used))} é inserido n{THE($target)}.
+store-currency-inserted = {CAPITALIZE(THE($used))} is inserted into the {THE($target)}.
 
-store-currency-free = Grátis
-store-currency-balance-display-debugdollar = Debug Dólar: {$amount}
+store-currency-free = Free
+store-currency-balance-display-debugdollar = Debug Dollar: {$amount}
 store-currency-price-display-debugdollar = {$amount ->
-    [one] {$amount} Debug Dólar
-    *[other] {$amount} Debug Dólares
+    [one] {$amount} Debug Dollar
+    *[other] {$amount} Debug Dollars
 }
 
 store-currency-balance-display-telecrystal = TC: {$amount}
 store-currency-price-display-telecrystal = {$amount} TC
 
-store-currency-balance-display-stolen-essence = Essências Roubadas: {$amount}
-store-currency-price-display-stolen-essence = {$amount} Essências Roubadas
+store-currency-balance-display-stolen-essence = Stolen Essence: {$amount}
+store-currency-price-display-stolen-essence = {$amount} Stolen Essence

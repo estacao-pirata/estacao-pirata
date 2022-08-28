@@ -1,1 +1,1 @@
-construction-step-condition-no-windows-in-tile = Não pode ter nenhuma janela neste chão.
+construction-step-condition-no-windows-in-tile = There can be no windows in that tile.
