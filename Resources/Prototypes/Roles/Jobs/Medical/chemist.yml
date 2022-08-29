@@ -3,9 +3,8 @@
   name: job-name-chemist
   playTimeTracker: JobChemist
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Medical
-      time: 1800
+    - !type:OverallPlaytimeRequirement
+      time: 18000
   startingGear: ChemistGear
   icon: "Chemist"
   supervisors: job-supervisors-cmo

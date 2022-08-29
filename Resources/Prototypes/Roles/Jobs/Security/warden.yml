@@ -3,9 +3,8 @@
   name: job-name-warden
   playTimeTracker: JobWarden
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 10800
+    - !type:OverallPlaytimeRequirement
+      time: 18000
   startingGear: WardenGear
   icon: "Warden"
   supervisors: job-supervisors-hos

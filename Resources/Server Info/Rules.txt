@@ -1,57 +1,76 @@
-[color=#ff0000]Você deve ter 16 anos ou mais para jogar. Usuários menores de 16 anos serão banidos imediatamente e desbanidos quando tiverem idade suficiente.[/color]
+[color=#ff0000]Você deve ter 16 anos ou mais para jogar. Usuários menores de 16 anos serão banidos imediatamente.[/color]
+[color=#ff0000]Fale português, por favor.[/color]
 
-[color=#a4885c]A[/color] [color=#a4885c]Regra de[/color] [color=#ffd700]Ouro[/color]. Os administradores podem desconsiderar todas e quaisquer dessas regras se julgarem que é do melhor interesse da rodada atual, servidor e/ou comunidade em geral. É claro que eles serão totalmente responsabilizados por suas ações se exercerem esse privilégio.
+A Estação Pirata é um servidor de Roleplay. Definimos isso como o desempenhar a sua função. Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer o que se espera de seu departamento. Fizemos o possível para que as leis fossem corretas e curtas, por favor, leia todas elas.
 
-[color=#a4885c]1.[/color] Não seja um idiota. Estamos todos aqui para nos divertir.
-    - Antagonistas têm muita margem de manobra aqui, já que arruinar a rodada é meio que trabalho deles, mas se suas ações degradarem a experiência da maior parte do servidor, você pode ser solicitado a abster-se de fazê-lo no futuro.
-    - Seja atencioso com o que os outros jogadores querem. Se todos estiverem mortos, não atrase o final da rodada para terminar seus projetos pessoais (como construir uma nave) e não chame a nave cedo só porque você não sente mais vontade de jogar ou quer um modo de jogo diferente.
-    - Só porque a nave partiu não significa que a rodada acabou. As regras padrão ainda se aplicam até que a tela de resumo da rodada apareça.
+[color=#a4885c]A Regra de[/color] [color=#ffd700]Ouro[/color]. Os administradores podem desconsiderar todas e quaisquer dessas regras se julgarem que é do melhor interesse da rodada atual, servidor e/ou comunidade em geral. É claro que eles serão totalmente responsabilizados por suas ações se exercerem esse privilégio.
 
-[color=#a4885c]2.[/color] Esses servidores são "Low Roleplay", o que significa que, embora você não precise estar perfeitamente no personagem, padrões básicos de roleplaying como não usar emoji/emoticons ou textpeak (😃, 😄, xD, lol, etc.) fala, e usando nomes reais para personagens, devem ser seguidos.
+A distinção entre o seu personagem e você fora do personagem é aplicada com rigor. Se você quiser conversar sobre assuntos OOC com as pessoas próximas a você, basta usar o canal de bate-papo "LOOC".
 
-[color=#a4885c]3.[/color] Siga o bom senso básico - [color=#ff0000]você não pode matar alguém porque eles o derrubaram em uma casca de banana[/color].
-    - Este jogo não é um deathmatch, seja humano.
-    - O que é considerado um motivo razoável para escalar o conflito está listado abaixo em REGRAS DE ESCALA e fica a critério dos administradores.
-    - Declarar uma revolução ou entrar em greve é ​​uma atividade exclusivamente antagônica. "Cargonia" e outras revoluções departamentais são proibidas, a menos que a permissão do administrador seja obtida.
+[color=#a4885c]1.[/color] Este não é um deathmatch, seja humano. Faça tudo o que é possível para clonar ou salvar pessoas da morte.
 
-[color=#a4885c]4.[/color] Roleplay Erótico (ERP) [color=#ff0000]não é permitido em nenhuma circunstância[/color].
+[color=#a4885c]2.[/color] Novos jogadores são bem-vindos, mas, por favor, não assumam cargos de chefia a menos que estejam familiarizados. Se você precisar deslogar e tem uma função principal, informe um administrador.
 
-[color=#a4885c]5.[/color] O assédio de outros jogadores por motivos OOC/meta [color=#ff0000]não é permitido[/color].
-    - Aborrecer alguém em uma rodada por razões de IC/RP não tem problema. Fazê-lo consistentemente em várias rodadas por motivos OOC (“Eu não gosto deste jogador” AKA metagrudging) até o ponto em que se torna seriamente problemático para o(s) outro(s) jogador(es) [color=#ff0000]não é[/color].
+[color=#a4885c]3.[/color] Se você não é um antagonista, não estrague a partida dos outros jogadores.
+    - Comportamentos como envenamento em massa ou sumir com o corpo de outra pessoa para que ela não seja clonada, não serão tolerados.
+    - Sabotagem em areás principais não é permitido.
 
-[color=#a4885c]6.[/color] Discurso de ódio, insultos e intolerância [color=#ff0000]não são permitidos[/color].
-	- A tentativa intencional de rebaixar os outros devido à sua raça, sexo, gênero, orientação sexual ou algo semelhante, real ou percebido, não é tolerado.
-    - Palavras que estão intimamente ligadas a insultos da vida real não são permitidas.
+[color=#a4885c]4.[/color] Aja como uma pessoa razoável no lugar de seu personagem. Siga o bom-senso básico.
+    - O que é considerado uma pessoa razoável está listado abaixo em REGRAS DE ESCALA e fica a critério dos administradores.
+    - Declarar uma revolução não é permitido, mesmo como antagonista. Fica confuso para os não-antagonistas. Peça permissão aos administradores primeiro.
+    - Só porque a nave de evacuação partiu não significa que a rodada acabou. As regras padrão ainda se aplicam até que a tela de resumo da rodada apareça.
 
-[color=#a4885c]7.[/color] Nomes e descrições de personagens ofensivos/ruins/fora do personagem colocam você à mercê dos administradores, desde receber danos cerebrais até se tornar válido até ser banido imediatamente, dependendo de quão ruim eles são.
-	- Os nomes dos personagens devem ser algo que um membro dessa espécie razoavelmente teria.
+[color=#a4885c]5.[/color] Roleplay Erótico (ERP) [color=#ff0000]não é permitido.[/color].
 
-[color=#a4885c]8.[/color] Não é permitido o uso consciente de exploits, programas externos ou outras mecânicas de jogo não intencionais para obter vantagens no jogo ou para atrasar/travar o servidor.
+[color=#a4885c]6.[/color] O assédio de outros jogadores por motivos OOC/meta [color=#ff0000]não são permitidos[/color].
 
-[color=#a4885c]9.[/color] Multi-keying/Alts no mesmo servidor [color=#ff0000]não é permitido[/color].
-    - Os administradores podem pedir aos jogadores que possuam várias contas alternativas para escolher uma para jogar e banir as outras contas.
-    - Se você for pego conscientemente usando contas alt, pode ter sua conta principal banida também.
+[color=#a4885c]7.[/color] Insultos e intolerância não são permitidos.
+    - Tentar intencionalmente rebaixar os outros devido à sua raça, sexo, gênero, orientação ou afins não é tolerado.
+    - Em uma estação cheia de estranhos e colegas de trabalho alienígenas, o comentário ocasional pode ser tolerado. Não interprete um personagem "racista" ou discrimine ninguém.
 
-[color=#a4885c]10.[/color] Não é permitido usar informações obtidas fora do jogo para sua vantagem. IC e OOC devem ser mantidos separados em todos os momentos.
-	- Metacomunicação, ou comunicação com outros jogadores através de métodos fora do jogo (como Discord) para obter uma vantagem injusta também é estritamente proibida.
-	- Este é um jogo de RPG, portanto, conflitos de IC só devem ser resolvidos com chat de IC (Local). A utilização de bate-papo por voz, chamadas do outro lado da sala, OOC ou outros métodos de comunicação fora do jogo para coordenar ações no jogo é proibido e resultará em um banimento permanente apenas para apelação na maioria dos casos.
-    - Não é permitido usar emotes ou LOOC para contornar as restrições de bate-papo do IC (sotaques, inconsciência, morte).
-    - O espaçamento preventivo ou a destruição de itens de alto risco também se enquadram nesta regra.
+[color=#a4885c]8.[/color] Preferimos que você use nomes realistas.
 
-[color=#a4885c]11.[/color] Espera-se que a segurança use medidas não letais, a menos que seja confrontada com força letal ou uma situação em que medidas não letais não sejam possíveis.
-    - Se você ainda conseguir matar alguém como segurança, faça com que eles sejam clonados imediatamente e certifique-se de que suas coisas sejam devolvidas, a menos que sejam um antagonista confirmado. A segurança deve fazer seu melhor esforço para manter os criminosos vivos e sob custódia.
+[color=#a4885c]9.[/color] Se comunicar fora do jogo não é permitido.
 
-[color=#a4885c]12.[/color] Em geral, os presos [color=#ff0000]não devem receber sentenças superiores a 10 minutos[/color]. Antagonistas ou reincidentes podem ser permabrigged, e apenas nos piores casos aprovados pelo Capitão, executados.
-    - Como não existe uma lei espacial oficial para este servidor, os seguranças geralmente atuam para manter a ordem e segurança na estação e proteger os ativos da Nanotrasen.
+[color=#a4885c]10.[/color] Após ser clonado ou virar um fantasma, você [color=#ff0000]esquece sua vida anterior[/color].
+    - A ideia principal é não descrever quem ou o que matou você. Você não tem que agir como um amnésico total.
+    - Esqueça tudo o que você viu enquanto era um fantasma.
+
+[color=#a4885c]11.[/color] Se você ver algum jogador AFK, você pode mandar um ahelp (F1) para que ele seja removido graciosamente do round.
+
+REGRAS PARA SEGURANÇAS
+[color=#a4885c]1.[/color] Espera-se que a segurança use medidas não letais, a menos que seja confrontada com força letal.
+    - Se você ainda conseguir matar alguém como segurança, faça com que eles sejam clonados imediatamente e certifique-se de que suas coisas sejam devolvidas.
+
+[color=#a4885c]2.[/color] Os prisioneiros que não mataram ninguém não devem ser presos por mais de 10 minutos.
+
+[color=#a4885c]3.[/color] Os prisioneiros de crimes capitais têm direito a um julgamento. Temos advogados, use-os.
+    - Os julgamentos devem incluir um juiz, promotor, réu e júri.
+    - Não esperamos que você seja especialista em processos judiciais da vida real, a principal medida para determinar se um julgamento foi bom o suficiente foi que todos se esforçassem para interpretar.
+
+[color=#a4885c]4.[/color] Todos os itens de uplink são da mesma classe de contrabando que as armas do arsenal e é assim que eles devem ser tratados.
+
+REGRAS PARA ANTAGONISTAS
+[color=#a4885c]1.[/color] Os danos causados ​​pelos antagonistas devem ser aproximadamente proporcionais aos seus objetivos.
+    - Isso é obviamente um pouco subjetivo, mas matar todos os médicos quando você só precisa roubar algo da engenharia é desaprovado.
+
+[color=#a4885c]2.[/color] Trapaças e campers de arrival são proibidos.
+
+[color=#a4885c]3.[/color] Outros antagonistas não são necessariamente seus amigos. Traidores, reis ratos e possivelmente até dragões espaciais são agentes livres, mas ninguém deveria trabalhar junto com xenos, nukes ou zumbis.
+
+REGRAS PARA ADMINISTRADORES E MODERADORES
+[color=#a4885c]1.[/color] Em caso de problemas, antes de qualquer coisa, você deve conversar com a pessoa.
+    - Se o problema não for resolvido, você pode aplicar o banimento, mencionando para que a pessoa entre em contato via discord ou via email(estacaoespacialpirata@gmail.com) para a apelação.
+
+[color=#a4885c]2.[/color] Não use poderes de administrador enquanto joga. Se você está jogando com um personagem, é obrigatório usar o comando DEADMIN.
+
+[color=#a4885c]3.[/color] Se você baniu alguém, você não deve participar da resolução da apelação de outro jogador.
 
 REGRAS DE ESCALA
+[color=#a4885c]1.[/color] A autodefesa é sempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio.
+    - Isso é apenas para salvar a sua própria vida. Na maioria das circunstâncias, as pessoas deixam de ser uma ameaça quando não apresentam mais perigo ou quando entram em estado crítico.
 
-A autodefesa é sempre permitida, a ponto de salvar sua própria vida. Atacar/mutilar preventivamente alguém ou bater em alguém enquanto ele já está incapacitado não é considerado autodefesa. Armas de choque nas mãos de alguém com intenção de matar são consideradas da mesma gravidade que armas letais para fins de autodefesa.
+[color=#a4885c]2.[/color] Não escale as situações desnecessariamente. Poucas coisas merecem uma luta até a morte. Tente responder a palavras com palavras, punhos com punhos e assim por diante.
 
-Pequenos conflitos e brigas são permitidos, desde que a parte prejudicada tenha justificativa razoável. Se você for injustiçado, espera-se que você lide com o conflito de forma não letal sempre que possível, aumentando a gravidade à medida que o conflito continua.
-
-Se um conflito levar à violência e um dos participantes estiver incapacitado, espera-se que o participante em pé faça um esforço para tratar o outro, a menos que tenha motivos para acreditar que o outro era um antagonista.
-Uma vez tratado, o conflito termina; qualquer novo conflito com qualquer um dos indivíduos deve aumentar novamente. Se você entrar em conflito novamente com esse indivíduo, ele poderá ser removido permanentemente da rodada.
-
-Nem todos os conflitos devem ser resolvidos em caráter. Se um conflito não-antagonista tiver escalado a ponto de interferir com a rodada de forma prejudicial, a Ajuda do Administrador é preferível como solução.
-Se você não tiver certeza se o escalonamento é justificado em um determinado conflito, não tenha medo de usar a Ajuda do administrador e pedir esclarecimentos.
+[color=#a4885c]3.[/color] Armas, espadas e outras armas mortais sinalizam intenção letal.
+    - Não os use para resolver conflitos mesquinhos e não os use se não quiser deixar claro que está pronto para matar ou ser morto.
