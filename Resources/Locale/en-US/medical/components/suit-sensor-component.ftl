@@ -1,21 +1,21 @@
-## Modes
+﻿## Modes
 
-suit-sensor-mode-off = Desligado
-suit-sensor-mode-binary = Binários
-suit-sensor-mode-vitals = Vitais
-suit-sensor-mode-cords = Coordenadas
+suit-sensor-mode-off = Off
+suit-sensor-mode-binary = Binary
+suit-sensor-mode-vitals = Vitals
+suit-sensor-mode-cords = Coordinates
 
 ## Popups
-suit-sensor-mode-state = Sensores: {$mode}
+suit-sensor-mode-state = Suit sensors: {$mode}
 
 ## Components
 
-suit-sensor-component-unknown-name = Desconhecido
-suit-sensor-component-unknown-job = Sem Emprego
+suit-sensor-component-unknown-name = Unknown
+suit-sensor-component-unknown-job = No job
 
 ## Examine
 
-suit-sensor-examine-off = Os sensores aparentam estar [color=darkred]desligados[/color].
-suit-sensor-examine-binary = Os sensores binários aparentam estar ligados.
-suit-sensor-examine-vitals = Os sensores vitais aparentam estar ligados.
-suit-sensor-examine-cords = Os sensores de coordenadas aparentam estar ligados.
+suit-sensor-examine-off = Its sensors appear to be [color=darkred]disabled[/color].
+suit-sensor-examine-binary = Its binary life sensors appear to be enabled.
+suit-sensor-examine-vitals = Its vital tracker appears to be enabled.
+suit-sensor-examine-cords = Its vital tracker and tracking beacon appear to be enabled.
