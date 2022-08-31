@@ -1,1 +1,1 @@
-construction-step-condition-wallmount = Você deve construir isso em uma parede.
+construction-step-condition-wallmount = You must build it on a wall.

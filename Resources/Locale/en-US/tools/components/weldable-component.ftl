@@ -1,1 +1,1 @@
-weldable-component-examine-is-welded = Isto foi soldado.
+weldable-component-examine-is-welded = It has been welded shut.

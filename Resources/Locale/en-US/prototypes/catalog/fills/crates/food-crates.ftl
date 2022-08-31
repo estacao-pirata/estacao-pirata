@@ -1,11 +1,11 @@
-ent-CrateFoodPizza = Entrega de pizza de emergência
-    .desc = Ajude fazendo a sua parte para acaber com a fome da estação distribuindo pizza para departamentos pobres!
+ent-CrateFoodPizza = Emergency pizza delivery
+    .desc = Help do your part to end station hunger by distributing pizza to underfunded departments!
 
-ent-CrateFoodMRE = Caixa de MRE
-    .desc = Uma refeição estilo militar feita para alimentar um departamento inteiro.
+ent-CrateFoodMRE = MRE crate
+    .desc = A military style meal fit to feed a whole department.
 
-ent-CrateFoodCooking = Caixa de suprimentos de cozinha
-    .desc = Suprimentos de cozinha extras, caso botânicos estejam ausentes.
+ent-CrateFoodCooking = Kitchen supplies crate
+    .desc = Extra kitchen supplies, in case the botanists are absent.
 
-ent-CrateFoodKvassTank = Caixa de tanque de kvassKvass tank crate
-    .desc = Um tanque com kvass refrescante, que ajuda muito no calor.
+ent-CrateFoodKvassTank = Kvass tank crate
+    .desc = A tank with refreshing kvass, which helps so much in the heat.
