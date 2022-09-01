@@ -1,1 +1,1 @@
-action-name-scream = Gritar
+action-name-scream = Scream

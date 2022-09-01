@@ -1,20 +1,20 @@
-ent-CrateFunPlushie = Caixa de pelúcias
-    .desc = Um monte de pelúcias macias. Jogue-os por aí e então pense como você vai explicar essa compra para a NT.
+ent-CrateFunPlushie = Plushie crate
+    .desc = A buncha soft plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
 
-ent-CrateFunInstruments = Coleção de instrumentos grandes de banda 
-    .desc = Faça a sua estação triste dançar e festejar com essa fina coleção! Contém treze diferentes instrumentos.
+ent-CrateFunInstruments = Big band instrument collection
+    .desc = Get your sad station movin' and groovin' with this fine collection! Contains thirteen different instruments.
 
-ent-CrateFunBrass = Caixa de instrumentos de sopro
-    .desc = Traga o jazz para a estação com o conjunto de sopro. Contém uma variedade de instrumentos de sopro para uma estação inteira tocar.
+ent-CrateFunBrass = Brass instrument ensemble crate
+    .desc = Bring some jazz to the station with the brass ensemble. Contains a variety of brass instruments for the whole station to play.
 
-ent-CrateFunArtSupplies = Suprimentos artísticos
-    .desc = Faça alguns pequenos e felizes acidentes com um monte de gizes!
+ent-CrateFunArtSupplies = Art supplies
+    .desc = Make some happy little accidents with lots of crayons!
 
-ent-CrateFunBoardGames = Caixa de jogos de tabuleiro
-    .desc = Noites de jogos foram provadas de diminuir o tédio ou aumentar crimes de ódio dependendo do jogo.
+ent-CrateFunBoardGames = Board game crate
+    .desc = Game nights have been proven to either decrease boredom or increase murderous rage depending on the game.
 
-ent-CrateFunATV = Caixa de ATV
-    .desc = Vrum vrum, Bi bi bi.
+ent-CrateFunATV = ATV crate
+    .desc = Bring some jazz to the station with the brass ensemble. Contains a variety of brass instruments for the whole station to play.
 
-ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
-    .desc = Weeeeee!
+ent-CrateFunSyndicateSegway = Syndicate segway crate
+    .desc = Bring some jazz to the station with the brass ensemble. Contains a variety of brass instruments for the whole station to play.

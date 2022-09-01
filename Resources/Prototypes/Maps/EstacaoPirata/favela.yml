@@ -1,0 +1,16 @@
+- type: gameMap
+  id: favela
+  mapName: "Favela"
+  mapPath: /Maps/EstacaoPirata/favela.yml
+  minPlayers: 0
+  maxPlayers: 35
+  votable: true
+  stations:
+    Favela:
+      mapNameTemplate: "{0} Favela {1}"
+      nameGenerator: !type:NanotrasenNameGenerator
+        prefixCreator: "R4" # R4407/Goon. GS isn't as cool sounding.
+      overflowJobs:
+        - Passenger
+      availableJobs:
+        Passenger: [-1, -1]

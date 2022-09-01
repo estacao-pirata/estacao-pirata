@@ -1,2 +1,2 @@
-ent-CrateSalvageEquipment = Caixa de equipamento de salvagem
-    .desc = Para os ousados.
+ent-CrateSalvageEquipment = Salvage equipment crate
+    .desc = For the daring.

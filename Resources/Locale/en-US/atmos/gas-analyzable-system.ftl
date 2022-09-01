@@ -1,7 +1,7 @@
-gas-analyzable-system-internal-error-missing-component = O seu Analisador de Gases solta um zumbido, e então para.
-gas-anlayzable-system-internal-error-no-gas-node = O seu Analisador de Gases mostra, "NENHUM GÁS ENCONTRADO".
-gas-analyzable-system-verb-name = Analisar
-gas-analyzable-system-verb-tooltip = Use um Analisador de Gases para examinar os conteúdos desse dispositivo.
-gas-analyzable-system-header = O seu Analisador de Gases mostra uma lista de estatísticas:
-gas-analyzable-system-statistics = Pressão: {PRESSURE($pressure)}
-                                   Temperatura: {$tempK}K ({$tempC}°C)
+gas-analyzable-system-internal-error-missing-component = Your gas analyzer whirrs for a while, then stops.
+gas-anlayzable-system-internal-error-no-gas-node = Your gas analyzer reads, "NO GAS FOUND".
+gas-analyzable-system-verb-name = Analyze
+gas-analyzable-system-verb-tooltip = Use a gas analyzer to examine the contents of this device.
+gas-analyzable-system-header = Your gas analyzer shows a list of statistics:
+gas-analyzable-system-statistics = Pressure: {PRESSURE($pressure)}
+                                   Temperature: {$tempK}K ({$tempC}°C)

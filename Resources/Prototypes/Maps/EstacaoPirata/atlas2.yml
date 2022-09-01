@@ -4,7 +4,7 @@
   mapPath: /Maps/EstacaoPirata/atlas2.yml
   minPlayers: 0
   maxPlayers: 35
-  votable: True
+  votable: true
   stations:
     Atlas:
       mapNameTemplate: "{0} Atlas2 {1}"

@@ -1,8 +1,8 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/Lobby/poeira-estelar.ogg
-    - /Audio/Lobby/seu-jorge-space-oddity.ogg
+    - /Audio/Lobby/poeira_estelar.ogg
+    - /Audio/Lobby/space_oddity.ogg
     - /Audio/Lobby/thunderdome.ogg
     - /Audio/Lobby/absconditus.ogg
     - /Audio/Lobby/space_asshole.ogg
