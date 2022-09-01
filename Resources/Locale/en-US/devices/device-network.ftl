@@ -1,20 +1,19 @@
 # named frequencies
-device-frequency-prototype-name-atmos = Atmospheric Devices
-device-frequency-prototype-name-suit-sensors = Suit Sensors
-device-frequency-prototype-name-lights = Smart Lights
-device-frequency-prototype-name-mailing-units = Mailing Units
+device-frequency-prototype-name-atmos = Dispositivos Atmosféricos
+device-frequency-prototype-name-suit-sensors = Sensores de Traje
+device-frequency-prototype-name-lights = Luzes Inteligentes
 
 ## camera frequencies
-device-frequency-prototype-name-surveillance-camera-test = Subnet Test
-device-frequency-prototype-name-surveillance-camera-engineering = Engineering Cameras
-device-frequency-prototype-name-surveillance-camera-security = Security Cameras
-device-frequency-prototype-name-surveillance-camera-science = Science Cameras
-device-frequency-prototype-name-surveillance-camera-supply = Supply Cameras
-device-frequency-prototype-name-surveillance-camera-command = Command Cameras
-device-frequency-prototype-name-surveillance-camera-service = Service Cameras
-device-frequency-prototype-name-surveillance-camera-medical = Medical Cameras
-device-frequency-prototype-name-surveillance-camera-general = General Cameras
-device-frequency-prototype-name-surveillance-camera-entertainment = Entertainment Cameras
+device-frequency-prototype-name-surveillance-camera-test = Teste Subnet
+device-frequency-prototype-name-surveillance-camera-engineering = Câmeras da Engenharia
+device-frequency-prototype-name-surveillance-camera-security = Câmeras da Segurança
+device-frequency-prototype-name-surveillance-camera-science = Câmeras da Ciência
+device-frequency-prototype-name-surveillance-camera-supply = Câmeras da Cargo
+device-frequency-prototype-name-surveillance-camera-command = Câmeras da Ponte
+device-frequency-prototype-name-surveillance-camera-service = Câmeras de Serviço
+device-frequency-prototype-name-surveillance-camera-medical = Câmeras da Medbay
+device-frequency-prototype-name-surveillance-camera-general = Câmeras gerais
+device-frequency-prototype-name-surveillance-camera-entertainment = Câmeras do Entretenimento
 
 # prefixes for randomly generated device addresses
 device-address-prefix-vent = Vnt-
