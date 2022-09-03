@@ -1,22 +1,22 @@
-# Popups
+﻿# Popups
 
-network-configurator-device-saved = O dispositivo de rede {$device} foi salvo com sucesso com o endereço {$address}!
-network-configurator-device-failed = Falha ao salvar o dispositio de rede {$device}! Nenhum endereço assinado!
-network-configurator-device-already-saved = dispositivo de rede: {$device} já está salvo.
-network-configurator-device-access-denied = Acesso negado!
+network-configurator-device-saved = Successfully saved network device {$device} with address {$address}!
+network-configurator-device-failed = Failed to save network device {$device}! No address assigned!
+network-configurator-device-already-saved = network device: {$device} is already saved.
+network-configurator-device-access-denied = Access denied!
 
 # Verbs
-network-configurator-save-device = Salvar Dispositivo
-network-configurator-configure = Configurar
+network-configurator-save-device = Save device
+network-configurator-configure = Configure
 
 # ui
-network-configurator-ui-clear-button = Limpar
-network-configurator-ui-count-label = {$count} Dispositivos
+network-configurator-ui-clear-button = Clear
+network-configurator-ui-count-label = {$count} Devices
 
 # tooltips
-network-configurator-tooltip-set = Define a lista de dispositivos alvo
-network-configurator-tooltip-add = Adiciona para a lista de dispositivos alvo
-network-configurator-tooltip-edit = Edita a lista de dispositivos alvo
-network-configurator-tooltip-clear = Limpa a lista de dispositivos alvo
-network-configurator-tooltip-copy = Copia a lista de dispositivos alvo para a multiferramenta
-network-configurator-tooltip-show = Mostra uma visualização holográfica da lista de dispositivos alvo
+network-configurator-tooltip-set = Sets targets device list
+network-configurator-tooltip-add = Adds to targets device list
+network-configurator-tooltip-edit = Edit targets device list
+network-configurator-tooltip-clear = Clear targets device list
+network-configurator-tooltip-copy = Copy targets device list to multitool
+network-configurator-tooltip-show = Show a holographic visualization of targets device list
