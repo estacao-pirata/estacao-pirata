@@ -1,0 +1,8 @@
+- type: instantAction
+  id: Laugh
+  useDelay: 10
+  icon: EstacaoPirata/Interface/Actions/laugh.png
+  name: action-name-laugh
+  description: HAHAHA
+  serverEvent: !type:LaughActionEvent
+  checkCanInteract: false

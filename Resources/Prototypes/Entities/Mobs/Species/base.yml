@@ -319,6 +319,7 @@
   - type: Speech
     speechSounds: Alto
   - type: Vocal
+  - type: Laugh
   - type: Emoting
   - type: Grammar
     attributes:
