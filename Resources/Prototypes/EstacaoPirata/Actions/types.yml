@@ -6,3 +6,12 @@
   description: HAHAHA
   serverEvent: !type:LaughActionEvent
   checkCanInteract: false
+
+- type: instantAction
+  id: Fart
+  useDelay: 60
+  icon: EstacaoPirata/Interface/Actions/fart.png
+  name: action-name-fart
+  description: BRAAAAAAAAAAAAAAAAAAAAAAP
+  serverEvent: !type:FartActionEvent
+  checkCanInteract: false

@@ -17,7 +17,7 @@ namespace Content.Server.Speech;
 /// <remarks>
 ///     Or I guess other vocalizations, like laughing. If fun is ever legalized on the station.
 /// </remarks>
-public sealed class LaughSystem : EntitySystem
+public sealed class FartSystem : EntitySystem
 {
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;
@@ -28,38 +28,38 @@ public sealed class LaughSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<LaughComponent, LaughActionEvent>(OnActionPerform);
-        SubscribeLocalEvent<LaughComponent, ComponentStartup>(OnStartup);
-        SubscribeLocalEvent<LaughComponent, ComponentShutdown>(OnShutdown);
+        SubscribeLocalEvent<FartComponent, FartActionEvent>(OnActionPerform);
+        SubscribeLocalEvent<FartComponent, ComponentStartup>(OnStartup);
+        SubscribeLocalEvent<FartComponent, ComponentShutdown>(OnShutdown);
     }
 
-    private void OnStartup(EntityUid uid, LaughComponent component, ComponentStartup args)
+    private void OnStartup(EntityUid uid, FartComponent component, ComponentStartup args)
     {
-        if (component.LaughAction == null
+        if (component.FartAction == null
             && _proto.TryIndex(component.ActionId, out InstantActionPrototype? act))
         {
-            component.LaughAction = new(act);
+            component.FartAction = new(act);
         }
 
-        if (component.LaughAction != null)
-            _actions.AddAction(uid, component.LaughAction, null);
+        if (component.FartAction != null)
+            _actions.AddAction(uid, component.FartAction, null);
     }
 
-    private void OnShutdown(EntityUid uid, LaughComponent component, ComponentShutdown args)
+    private void OnShutdown(EntityUid uid, FartComponent component, ComponentShutdown args)
     {
-        if (component.LaughAction != null)
-            _actions.RemoveAction(uid, component.LaughAction);
+        if (component.FartAction != null)
+            _actions.RemoveAction(uid, component.FartAction);
     }
 
-    private void OnActionPerform(EntityUid uid, LaughComponent component, LaughActionEvent args)
+    private void OnActionPerform(EntityUid uid, FartComponent component, FartActionEvent args)
     {
         if (args.Handled)
             return;
 
-        args.Handled = TryLaugh(uid, component);
+        args.Handled = TryFart(uid, component);
     }
 
-    public bool TryLaugh(EntityUid uid, LaughComponent? component = null)
+    public bool TryFart(EntityUid uid, FartComponent? component = null)
     {
         if (!Resolve(uid, ref component, false))
             return false;
@@ -71,20 +71,10 @@ public sealed class LaughSystem : EntitySystem
         if (TryComp(uid, out HumanoidAppearanceComponent? humanoid))
             sex = humanoid.Sex;
 
-        var scale = (float) _random.NextGaussian(1, LaughComponent.Variation);
+        var scale = (float) _random.NextGaussian(1, FartComponent.Variation);
         var pitchedParams = component.AudioParams.WithPitchScale(scale);
 
-        switch (sex)
-        {
-            case Sex.Male:
-                SoundSystem.Play(component.MaleLaugh.GetSound(), Filter.Pvs(uid), uid, pitchedParams);
-                break;
-            case Sex.Female:
-                SoundSystem.Play(component.FemaleLaugh.GetSound(), Filter.Pvs(uid), uid, pitchedParams);
-                break;
-            default:
-                throw new ArgumentOutOfRangeException();
-        }
+        SoundSystem.Play(component.Fart.GetSound(), Filter.Pvs(uid), uid, pitchedParams);
 
         return true;
     }

@@ -320,6 +320,7 @@
     speechSounds: Alto
   - type: Vocal
   - type: Laugh
+  - type: Fart
   - type: Emoting
   - type: Grammar
     attributes:

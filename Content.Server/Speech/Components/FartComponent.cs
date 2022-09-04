@@ -6,16 +6,13 @@ using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototy
 namespace Content.Server.Speech.Components;
 
 /// <summary>
-///     Component required for entities to be able to Laugh.
+///     Component required for entities to be able to Fart.
 /// </summary>
 [RegisterComponent]
-public sealed class LaughComponent : Component
+public sealed class FartComponent : Component
 {
-    [DataField("maleLaugh")]
-    public SoundSpecifier MaleLaugh = new SoundCollectionSpecifier("MaleLaughs");
-
-    [DataField("femaleLaugh")]
-    public SoundSpecifier FemaleLaugh = new SoundCollectionSpecifier("FemaleLaughs");
+    [DataField("fart")]
+    public SoundSpecifier Fart = new SoundCollectionSpecifier("Farts");
 
     [DataField("audioParams")]
     public AudioParams AudioParams = AudioParams.Default.WithVolume(4f);
@@ -23,10 +20,10 @@ public sealed class LaughComponent : Component
     public const float Variation = 0.125f;
 
     [DataField("actionId", customTypeSerializer: typeof(PrototypeIdSerializer<InstantActionPrototype>))]
-    public string ActionId = "Laugh";
+    public string ActionId = "Fart";
 
     [DataField("action")] // must be a data-field to properly save cooldown when saving game state.
-    public InstantAction? LaughAction = null;
+    public InstantAction? FartAction = null;
 }
 
-public sealed class LaughActionEvent : InstantActionEvent { };
+public sealed class FartActionEvent : InstantActionEvent { };
