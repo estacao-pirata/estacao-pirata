@@ -1,1 +1,1 @@
-control-mob-verb-get-data-text = Controlar Mob
+control-mob-verb-get-data-text = Control Mob
