@@ -15,7 +15,7 @@ public sealed class FartComponent : Component
     public SoundSpecifier Fart = new SoundCollectionSpecifier("Farts");
 
     [DataField("audioParams")]
-    public AudioParams AudioParams = AudioParams.Default.WithVolume(4f);
+    public AudioParams AudioParams = AudioParams.Default.WithVolume(2f);
 
     public const float Variation = 0.125f;
 

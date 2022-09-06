@@ -18,7 +18,7 @@ public sealed class LaughComponent : Component
     public SoundSpecifier FemaleLaugh = new SoundCollectionSpecifier("FemaleLaughs");
 
     [DataField("audioParams")]
-    public AudioParams AudioParams = AudioParams.Default.WithVolume(4f);
+    public AudioParams AudioParams = AudioParams.Default.WithVolume(2f);
 
     public const float Variation = 0.125f;
 
