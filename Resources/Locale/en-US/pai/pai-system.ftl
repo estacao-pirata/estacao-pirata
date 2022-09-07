@@ -8,10 +8,10 @@ pai-system-role-description = Seja o amigo eletrônico de alguém!
                               (Memórias *não* inclusas.)
 
 pai-system-wipe-device-verb-text = Remover pAI
-pai-system-wiped-device = A IAp for removida do dispositivo.
+pai-system-wiped-device = A pAI for removida do dispositivo.
 
 pai-system-stop-searching-verb-text = Parar de procurar
 pai-system-stopped-searching = O dispositivo parou de procurar por pAI's.
 
-pai-system-pai-name = { CAPITALIZE(THE($owner)) } pAI
+pai-system-pai-name = pAI d{ THE($owner) }
 
