@@ -5,7 +5,7 @@ ent-CrateNPCButterflies = Caixa de borboletas
     .desc = A crate containing five butterflies.
 
 ent-CrateNPCCat = Caixa de gato
-    .desc = Miau miau, porra.
+    .desc = Uma caixa contendo um único gato.
 
 ent-CrateNPCChicken = Caixa de galinhas
     .desc = A crate containing four fully grown chickens.
@@ -14,7 +14,7 @@ ent-CrateNPCDuck = Caixa de patos
     .desc = A crate containing six fully grown ducks.
 
 ent-CrateNPCCorgi = Caixa de Corgi
-    .desc = Au au, caralho.
+    .desc = Uma caixa contendo um único corgi.
 
 ent-CrateNPCCow = Caixa de vaca
     .desc = Uma vaca com um leite muuuuito gostoso e uma carne melhor ainda.

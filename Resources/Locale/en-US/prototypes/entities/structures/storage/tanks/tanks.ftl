@@ -17,7 +17,7 @@ ent-WaterTankHighCapacity = Tanque de água de alta capacidade
     .desc = Um tanque de água altamente pressurizado feito para armazenar quantidades massivas de água.
 
 ent-KvassTank = КВАС
-    .desc = Uma refrescante bebida com saber de socialismo.
+    .desc = Uma refrescante bebida com sabor de socialismo.
 
 ent-KvassTankFull = { ent-KvassTank }
     .desc = { ent-KvassTank.desc }

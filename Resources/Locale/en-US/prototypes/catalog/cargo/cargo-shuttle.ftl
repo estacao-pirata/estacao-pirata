@@ -5,4 +5,4 @@ ent-ShuttleGyroscope = { ent-Gyroscope }
     .desc = { ent-Gyroscope.desc }
 
 ent-ShuttlePowerKit = Caixa de energização de nave
-    .desc = Contém placas para utilidades de energia de parede.
+    .desc = Contém placas de máquinas de parede úteis para energizar sua nave.

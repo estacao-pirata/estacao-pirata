@@ -4,11 +4,11 @@ reagent-desc-juice-apple = Um pequeno pedaço do Eden.
 reagent-name-juice-banana = suco de banana
 reagent-desc-juice-banana = A essência pura de uma banana. HONK.
 
-reagent-name-juice-berry = suco de bagas
-reagent-desc-juice-berry = Uma mistura deliciosa de várias bagas diferentes.
+reagent-name-juice-berry = suco de frutas vermelhas
+reagent-desc-juice-berry = Uma mistura deliciosa de vários frutos diferentes.
 
-reagent-name-juice-berry-poison = suco de bagas venenosas
-reagent-desc-juice-berry-poison = Um surpreendentemente saboroso suco misturado de várias bagas mortais e tóxicas.
+reagent-name-juice-berry-poison = suco de frutas venenosas
+reagent-desc-juice-berry-poison = Um surpreendentemente saboroso suco misturado de vários frutos mortais e tóxicos.
 
 reagent-name-juice-carrot = suco de cenoura
 reagent-desc-juice-carrot = É tipo uma cenoura, mas menos crocante.
@@ -16,10 +16,10 @@ reagent-desc-juice-carrot = É tipo uma cenoura, mas menos crocante.
 reagent-name-juice-grape = suco de uva
 reagent-desc-juice-grape = Suco fresco de uvas vermelhas esmagadas. Bastante doce.
 
-reagent-name-juice-lemon = suco de limão
+reagent-name-juice-lemon = suco de limão siciliano
 reagent-desc-juice-lemon = Esse suco é MUITO azedo. Melhor beber uma limonada.
 
-reagent-name-juice-lime = suco de lima
+reagent-name-juice-lime = suco de limão
 reagent-desc-juice-lime = O doce-azedo suco de limas.
 
 reagent-name-juice-orange = suco de laranja

@@ -1,7 +1,7 @@
 ent-CrateEngineeringGear = Caixa de equipamento de engenharia
     .desc = Various engineering gear parts.
 
-ent-CrateEngineeringToolbox = Caixa de caixas de ferramentas
+ent-CrateEngineeringToolbox = Caixa de ferramentas
     .desc = Two mechanical and two electrical toolboxes.
 
 ent-CrateEngineeringPowercell = Caixe de AME

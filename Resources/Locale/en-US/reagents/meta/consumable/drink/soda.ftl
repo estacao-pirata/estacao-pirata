@@ -17,7 +17,7 @@ reagent-name-ice-cream = sorvete
 reagent-desc-ice-cream = Era isso ou o microondas, e ninguém quer sopa de sorvete!
 
 reagent-name-lemon-lime = refri lima-limão
-reagent-desc-lemon-lime = Lima picante e refri de limão.
+reagent-desc-lemon-lime = Refri picante de limão e limão siciliano.
 
 reagent-name-pwr-game = Pwr Game
 reagent-desc-pwr-game = A única bebida com o PDR que os verdadeiros gamers almejam.

@@ -1,10 +1,10 @@
-ent-CrateEngineeringAMEShielding = Caixa de reator antimatéria embalado
+ent-CrateEngineeringAMEShielding = Caixa de AME embalado
     .desc = 9 parts for the main body of an antimatter reactor, or for expanding an existing one.
 
-ent-CrateEngineeringAMEJar = Caixa de tanques de contenção de antimatéria
+ent-CrateEngineeringAMEJar = Caixa de tanques de combustível AME
     .desc = 3 antimatter jars, for fuelling an antimatter reactor.
 
-ent-CrateEngineeringAMEControl = Caixa de unidade de controle antimatéria
+ent-CrateEngineeringAMEControl = Caixa de unidade de controle AME
     .desc = The control unit of an antimatter reactor.
 
 ent-CrateEngineeringSingularityEmitter = Caixa de emissor
@@ -19,7 +19,7 @@ ent-CrateEngineeringSingularityContainment = Caixa de gerador de campo de conten
 ent-CrateEngineeringSingularityGenerator = Caixa de gerador de singularidade
     .desc = A singularity generator, the mother of the beast.
 
-ent-CrateEngineeringParticleAccelerator = Caixa de acelerador de partículas
+ent-CrateEngineeringParticleAccelerator = Caixa de PA
     .desc = Complex to setup, but rewarding as fuck.
 
 ent-CrateEngineeringGenerator = Caixa de gerador

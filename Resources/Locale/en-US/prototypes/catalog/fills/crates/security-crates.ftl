@@ -10,7 +10,7 @@ ent-CrateSecurityNonlethal = Caixa de não-letais
 ent-CrateSecurityLaser = Caixa de lasers
     .desc = Contains three lethal, high-energy laser guns. Requires Security access to open.
 
-ent-CrateSecurityRiot = Caixa da SWAT
+ent-CrateSecurityRiot = Caixa de tropa de choque
     .desc = Contains two sets of heavy body armor and helmets and 2 shotguns with 6 rounds of beanbag shells each. Requires Armory access to open.
 
 ent-CrateSecuritySupplies = Caixa de suprimentos de segurança

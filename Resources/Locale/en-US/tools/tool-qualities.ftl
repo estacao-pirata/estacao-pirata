@@ -8,7 +8,7 @@ tool-quality-screwing-name = Aparafusar
 tool-quality-screwing-tool-name = Chave de fenda
 
 tool-quality-cutting-name = Cortar
-tool-quality-cutting-tool-name = Alicate
+tool-quality-cutting-tool-name = Alicate de Fios
 
 tool-quality-welding-name = Soldar
 tool-quality-welding-tool-name = Soldador

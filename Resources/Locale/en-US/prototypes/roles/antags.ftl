@@ -2,7 +2,7 @@
 roles-antag-syndicate-agent-objective = Complete seus objetivos sem ser pego.
 
 roles-antag-initial-infected-name = Paciente Zero
-roles-antag-initial-infected-objective = Assim que transformar, infecte o máximo de tripulantes possíveis.
+roles-antag-initial-infected-objective = Assim que você se transformar, infecte o máximo de tripulantes possíveis.
 
 roles-antag-zombie-name = Zumbi
 roles-antag-zombie-objective = Transforme o máximo de humanos possíveis em zumbis.

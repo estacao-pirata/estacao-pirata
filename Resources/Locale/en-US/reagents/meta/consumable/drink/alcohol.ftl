@@ -7,10 +7,10 @@ reagent-desc-ale = Uma bebida alcólica escura feita de cevada maltada e ferment
 reagent-name-beer = cerveja
 reagent-desc-beer = Vai uma brejinha? Feita de grãos maltados, lúpulos, fermento e água.
 
-reagent-name-blue-curacao = curaçau
+reagent-name-blue-curacao = curaçau azul
 reagent-desc-blue-curacao = Uma bebida exótica azul, destilado de laranjas de Curaçao.
 
-reagent-name-cognac = cognac
+reagent-name-cognac = conhaque
 reagent-desc-cognac = Uma bebida alcólica doce e forte, destilada duas vezes e deixada para envelhecer por muitos anos.
 
 reagent-name-dead-rum = deadrum
@@ -25,7 +25,7 @@ reagent-desc-gin = Uma bebida destilada que tem seu sabor principal vindo de bag
 reagent-name-kahlua = kahlua
 reagent-desc-kahlua = Um licor mexicano sabor de café amplamente conhecido.
 
-reagent-name-melon-liquor = midori
+reagent-name-melon-liquor = licor de melão
 reagent-desc-melon-liquor = Um licor relativamente doce feito de melão.
 
 reagent-name-n-t-cahors = NeoTheology Cahors Wine
@@ -37,13 +37,13 @@ reagent-desc-poison-wine = Isso sequer é vinho? Tóxico! Alucinógeno! Provavel
 reagent-name-rum = rum
 reagent-desc-rum = Bebida alcólica destilada feita de subprodutos da cana-de-açucar.
 
-reagent-name-sake = sake
+reagent-name-sake = saquê
 reagent-desc-sake = Bebida alcólica feita fermentando arroz que foi polído.
 
 reagent-name-tequila = tequila
 reagent-desc-tequila = Uma spirit forte e suavemente saborizada, produzida por mexicanos.
 
-reagent-name-vermouth = vermouth
+reagent-name-vermouth = vermute
 reagent-desc-vermouth = Aromatizado, fortificado vinho branco saborizado com vários botânicos.
 
 reagent-name-vodka = vodka
@@ -52,7 +52,7 @@ reagent-desc-vodka = Bebida alcólica destilada que origina da Polônia e Rússi
 reagent-name-cachaca = cachaça
 reagent-desc-cachaca = Uma bebida destilada brasileira, para quando ela não te quer mais.
 
-reagent-name-whiskey = whiskey
+reagent-name-whiskey = whisky
 reagent-desc-whiskey = Uma bebida alcólica destilada feita de grãos esmagados fermentados.
 
 reagent-name-wine = vinho
@@ -73,14 +73,14 @@ reagent-desc-amasec = Bebida oficial do Clube de Armas!
 reagent-name-andalusia = andalusia
 reagent-desc-andalusia = Uma boa e estranhamente nomeada bebida.
 
-reagent-name-antifreeze = antifreeze
+reagent-name-antifreeze = anticongelante
 reagent-desc-antifreeze = O refresco definitivo.
 
 reagent-name-atomic-bomb = bomba atômica
 reagent-desc-atomic-bomb = Ploriferação nuclear nunca teve um gosto tão bom.
 
 reagent-name-b52 = b-52
-reagent-desc-b52 = Café, creme irlandês e cognac. Você vai ser bombardeado.
+reagent-desc-b52 = Café, creme irlandês e conhaque. Você vai ser bombardeado.
 
 reagent-name-bahama-mama = bahama mama
 reagent-desc-bahama-mama = Coquetel tropical.
@@ -172,7 +172,7 @@ reagent-desc-manhattan = A escolha de um detetive. Ele nunca poderia mandar um g
 reagent-name-manhattan-project = manhattan project
 reagent-desc-manhattan-project = A escolha de um cientista. para pensar formas de explodir a estação.
 
-reagent-name-manly-dorf = pinga anã
+reagent-name-manly-dorf = cerveja anã
 reagent-desc-manly-dorf = Cerveja e Ale, juntos numa mistura deliciosa. Apenas para anões robustos.
 
 reagent-name-margarita = margarita
@@ -238,10 +238,10 @@ reagent-desc-vodka-martini = Vodka com vermouth. Não exatamente como o 007 bebi
 reagent-name-vodka-tonic = vodka e tônica
 reagent-desc-vodka-tonic = Pra quando gin e tônica não é russo o suficiente.
 
-reagent-name-whiskey-cola = whiskey cola
+reagent-name-whiskey-cola = whisky cola
 reagent-desc-whiskey-cola = Whiskey, misturado com refri de cola. Surpreendentemente refrescante.
 
-reagent-name-whiskey-soda = refri de whiskey
+reagent-name-whiskey-soda = refri de whisky
 reagent-desc-whiskey-soda = Para os mais refinados.
 
 reagent-name-white-russian = white russian
