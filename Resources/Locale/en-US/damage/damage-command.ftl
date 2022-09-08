@@ -1,15 +1,15 @@
-﻿## Damage command loc.
+## Damage command loc.
 
-damage-command-description = Add or remove damage to an entity. 
-damage-command-help = Usage: {$command} <type/group> <amount> [ignoreResistances] [uid]
+damage-command-description = Adicione ou remova dano de uma entidade. 
+damage-command-help = Uso: {$command} <tipo/grupo> <quantidade> [ignoreResistances] [uid]
 
-damage-command-arg-type = <damage type or group>
-damage-command-arg-quantity = [quantity]
-damage-command-arg-target = [target euid]
+damage-command-arg-type = <tipo ou grupo de dano>
+damage-command-arg-quantity = [quantidade]
+damage-command-arg-target = [euid do alvo]
 
-damage-command-error-type = {$arg} is not a valid damage group or type.
-damage-command-error-euid = {$arg} is not a valid entity uid.
-damage-command-error-quantity = {$arg} is not a valid quantity.
-damage-command-error-bool = {$arg} is not a valid bool.
-damage-command-error-player = No entity attached to session. You must specify a target uid
-damage-command-error-args = Invalid number of arguments 
+damage-command-error-type = {$arg} não é um tipo ou grupo de dano válido.
+damage-command-error-euid = {$arg} não é um uid de entidade válido.
+damage-command-error-quantity = {$arg} não é uma quantidade válida.
+damage-command-error-bool = {$arg} não é um valor booleano válido.
+damage-command-error-player = Nenhuma entidade atrubuída a essa sessão. Você deve especificar um uid alvo
+damage-command-error-args = Número de argumentos inválido

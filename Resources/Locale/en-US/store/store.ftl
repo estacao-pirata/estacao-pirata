@@ -1,4 +1,4 @@
-store-ui-default-title = Store
-store-ui-default-withdraw-text = Withdraw
+store-ui-default-title = Loja
+store-ui-default-withdraw-text = Sacar
 
-store-withdraw-button-ui = Withdraw {$currency}
+store-withdraw-button-ui = Sacar {$currency}
