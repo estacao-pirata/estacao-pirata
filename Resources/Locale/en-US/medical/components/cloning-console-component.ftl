@@ -26,4 +26,4 @@ cloning-console-component-msg-no-cloner = Não Está Pronto: Nenhum Clone Detect
 cloning-console-component-msg-no-mind = Não Está Pronto: Nenhuma Atividade De Alma Detectada
 
 cloning-console-chat-error = ERRO: BIOMASSA INSUFICIENTE. A CLONAGEM DESTE CORPO REQUER {$units} UNIDADES DE BIOMASSA.
-cloning-console-cellular-warning = ATENÇÃO: PONTUAÇÃO DE CONFIANÇA GENEFSCK É {$percent}%. A CLONAGEM PODE TER RESULTADOS INESPERADOS.
+cloning-console-cellular-warning = ATENÇÃO: PONTUAÇÃO DE CONFIANÇA GENÉTICA É {$percent}%. A CLONAGEM PODE TER RESULTADOS INESPERADOS.

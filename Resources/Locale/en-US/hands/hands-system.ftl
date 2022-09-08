@@ -4,5 +4,5 @@ hands-system-empty-equipment-slot = {$slotName} tem nada para ser removido!
 
 
 # Examine text after when they're holding something (in-hand)
-comp-hands-examine = { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE($user) } está segurando um(a){ $item }.    
+comp-hands-examine = { CAPITALIZE(SUBJECT($user)) } está segurando { THE($item) }.    
 
