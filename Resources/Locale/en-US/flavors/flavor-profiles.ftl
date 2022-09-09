@@ -1,6 +1,6 @@
-flavor-profile = Tastes {$flavor}.
-flavor-profile-multiple = Tastes {$flavors} and {$lastFlavor}.
-flavor-profile-unknown = Tastes indescribable.
+flavor-profile = Tem gosto {$flavor}.
+flavor-profile-multiple = Tem gosto {$flavors} e {$lastFlavor}.
+flavor-profile-unknown = Tem um gosto indescritível.
 
 # Base flavors. Use these when you can't think of anything.
 # These are specifically flavors that are placed in front
@@ -29,7 +29,7 @@ flavor-base-oily = gorduroso
 flavor-base-peppery = apimentado
 flavor-base-slimy = viscoso
 flavor-base-magical = mágico
-flavor-base-fiber = fibrous
+flavor-base-fiber = fibroso
 flavor-base-cold = frio
 flavor-base-spooky = assustador
 flavor-base-smokey = fumacento
@@ -125,7 +125,7 @@ flavor-complex-juice = de suco
 
 ## Basic drinks
 flavor-complex-water = de água
-flavor-complex-beer = de urina
+flavor-complex-beer = de cerveja
 flavor-complex-ale = de pão
 flavor-complex-cola = de coca-cola
 flavor-complex-vodka = de grãos fermentados
@@ -142,26 +142,26 @@ flavor-complex-tea = de chá
 flavor-complex-ice = de água congelada
 
 ## Cocktails
-flavor-complex-long-island = suspeitosamente dechá gelado
+flavor-complex-long-island = suspeitosamente de chá gelado
 flavor-complex-three-mile-island = de chá feito em chernobyl
 flavor-complex-whiskey-cola = de melaço carbonatado
 flavor-complex-singulo = de um poço sem fundo
 flavor-complex-syndie-bomb = de whisky amargo
 flavor-complex-tequila-sunrise = de uma manhã mexicana
 flavor-complex-irish-coffee = de um despertador alcoólico
-flavor-complex-iced-beer = de urina frio como gelo
+flavor-complex-iced-beer = de cerveja fria como gelo
 flavor-complex-gargle-blaster = como se alguém tivesse esmagado a sua cabeça com um tijolode ouro coberto de limão
 flavor-complex-bloody-mary = de um rolê ruim
 flavor-complex-beepsky = de óleo e whisky
 flavor-complex-banana-honk = de milkshake de banana
 flavor-complex-atomic-bomb = de chernobyl
 flavor-complex-atomic-cola = like hoarding bottle caps(?)
-flavor-complex-cuba-libre = like spiked cola(?)
-flavor-complex-gin-tonic = like spiked lemon-lime soda(?)
-flavor-complex-screwdriver = like spiked orange juice(?)
+flavor-complex-cuba-libre = de coca-cola drogada
+flavor-complex-gin-tonic = de refri lima-limão drogado
+flavor-complex-screwdriver = de suco de laranja drogado
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
-flavor-complex-pilk = like sweet milk
+flavor-complex-pilk = de leite doce
 
 # Medicine/chemical-specific flavors.
 
