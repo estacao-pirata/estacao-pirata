@@ -2,8 +2,8 @@
 
 # Displayed in the Character prefs window
 humanoid-character-profile-summary = 
-    Este(a) é {$name}. {$gender ->
-    [male] Ele tem
-    [female] Ela tem
-    *[other] Eles tem
-} {$age} anos.
+    This is {$name}. {$gender ->
+    [male] He is
+    [female] She is
+    *[other] They are
+} {$age} years old.

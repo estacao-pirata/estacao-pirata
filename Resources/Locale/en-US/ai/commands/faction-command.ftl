@@ -1,8 +1,8 @@
-faction-command-no-target-faction-error = Precisa determinar uma facção alvo
-faction-command-unknown-faction-argument-error = Argumento de facção desconhecido
+faction-command-no-target-faction-error = Need to supply a target faction
+faction-command-unknown-faction-argument-error = Unknown faction argument
 
-faction-command-description = Atualiza / lista relações de facções com os NPCs.
-faction-command-help-text = facção <source> <friendly/hostile> alvo
-                            facção <source> Lista: Facções hostis
-faction-command-invalid-faction-error = Facção inválida
-faction-command-invalid-target-faction-error = Facção do alvo inválida
+faction-command-description = Update / list factional relationships for NPCs.
+faction-command-help-text = faction <source> <friendly/hostile> target
+                            faction <source> list: hostile factions
+faction-command-invalid-faction-error = Invalid faction
+faction-command-invalid-target-faction-error = Invalid target faction

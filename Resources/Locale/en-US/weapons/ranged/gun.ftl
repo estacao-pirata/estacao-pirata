@@ -1,29 +1,29 @@
 
-gun-selected-mode-examine = O modo de disparo é [color={$color}]{$mode}[/color].
-gun-fire-rate-examine = A taxa de tiro é [color={$color}]{$fireRate}[/color] por segundo.
-gun-selector-verb = Mudar para {$mode}
-gun-selected-mode = Modo {$mode}
-gun-disabled = Você não pode usar armas!
+gun-selected-mode-examine = Current selected fire mode is [color={$color}]{$mode}[/color].
+gun-fire-rate-examine = Fire rate is [color={$color}]{$fireRate}[/color] per second.
+gun-selector-verb = Change to {$mode}
+gun-selected-mode = Selected {$mode}
+gun-disabled = You can't use guns!
 
 # SelectiveFire
-gun-SemiAuto = semi-automático
-gun-Burst = rajada
-gun-FullAuto = automático
+gun-SemiAuto = semi-auto
+gun-Burst = burst
+gun-FullAuto = full-auto
 
 # BallisticAmmoProvider
-gun-ballistic-cycle = Carregar
-gun-ballistic-cycled = Carregado
-gun-ballistic-cycled-empty = Vazio
+gun-ballistic-cycle = Cycle
+gun-ballistic-cycled = Cycled
+gun-ballistic-cycled-empty = Cycled (empty)
 
 # BatteryAmmoProvider
-gun-battery-examine = Há carga suficiente para [color={$color}]{$count} tiros.
+gun-battery-examine = It has enough charge for [color={$color}]{$count} shots.
 
 # MagazineAmmoProvider
-gun-magazine-examine = Há [color={$color}]{$count}[/color] tiros restantes.
+gun-magazine-examine = It has [color={$color}]{$count}[/color] shots remaining.
 
 # RevolverAmmoProvider
-gun-revolver-empty = Revólver vazio
-gun-revolver-full = Revólver carregado
-gun-revolver-insert = Inserido
-gun-revolver-spin = Girar revólver
-gun-revolver-spun = Girou
+gun-revolver-empty = Empty revolver
+gun-revolver-full = Revolver full
+gun-revolver-insert = Inserted
+gun-revolver-spin = Spin revolver
+gun-revolver-spun = Spun

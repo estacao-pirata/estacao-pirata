@@ -33,61 +33,59 @@ zzzz-fmt-power-joules = { TOSTRING($divided, "G3") } { $places ->
 }
 
 # Used internally by the THE() function.
-zzzz-the = { GENDER($ent) ->
-   *[male] o { $ent }
-    [female] a { $ent }
-    [epicene] os { $ent }
-    [neuter] as { $ent }
-    } 
+zzzz-the = { PROPER($ent) ->
+    *[false] the { $ent }
+     [true] { $ent }
+    }
 
 # Used internally by the SUBJECT() function.
 zzzz-subject-pronoun = { GENDER($ent) ->
-   *[male] ele
-    [female] ela
-    [epicene] eles
-    [neuter] elas
+    [male] he
+    [female] she
+    [epicene] they
+   *[neuter] it
    }
 
 # Used internally by the OBJECT() function.
 zzzz-object-pronoun = { GENDER($ent) ->
-   *[male] dele
-    [female] dela
-    [epicene] deles
-    [neuter] delas
+    [male] him
+    [female] her
+    [epicene] them
+   *[neuter] it
    }
 
 # Used internally by the POSS-PRONOUN() function.
 zzzz-possessive-pronoun = { GENDER($ent) ->
-   *[male] dele
-    [female] dela
-    [epicene] deles
-    [neuter] delas
+    [male] his
+    [female] hers
+    [epicene] theirs
+   *[neuter] its
    }
 
 # Used internally by the POSS-ADJ() function.
 zzzz-possessive-adjective = { GENDER($ent) ->
-   *[male] seu
-    [female] sua
-    [epicene] seus
-    [neuter] suas
+    [male] his
+    [female] her
+    [epicene] their
+   *[neuter] its
    }
 
 # Used internally by the REFLEXIVE() function.
 zzzz-reflexive-pronoun = { GENDER($ent) ->
-   *[male] ele mesmo
-    [female] ela mesma
-    [epicene] eles mesmos
-    [neuter] elas mesmas
+    [male] himself
+    [female] herself
+    [epicene] themselves
+   *[neuter] itself
    }
 
 # Used internally by the CONJUGATE-BE() function.
 zzzz-conjugate-be = { GENDER($ent) ->
-    [epicene] são
-   *[other] é
+    [epicene] are
+   *[other] is
    }
 
 # Used internally by the CONJUGATE-HAVE() function.
 zzzz-conjugate-have = { GENDER($ent) ->
-    [epicene] têm
-   *[other] tem
+    [epicene] have
+   *[other] has
    }

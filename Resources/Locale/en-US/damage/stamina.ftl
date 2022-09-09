@@ -1,1 +1,1 @@
-stamina-resist = Resistiu
+stamina-resist = Resisted
