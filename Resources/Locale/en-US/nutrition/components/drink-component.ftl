@@ -15,8 +15,9 @@ drink-component-try-use-drink-had-enough = Você não consegue beber mais!
 drink-component-try-use-drink-cannot-drink-other = Ele não pode beber nada!
 drink-component-try-use-drink-had-enough-other = Ele não consegue beber mais!
 drink-component-try-use-drink-success-slurp = Slurp
-drink-component-force-feed = {$user} está te fazendo beber algo!
-drink-component-force-feed-success = {$user} forçou você a beber algo!
+drink-component-try-use-drink-success-slurp-taste = Slurp. {$flavors}
+drink-component-force-feed = {CAPITALIZE(THE($user))} está te fazendo beber algo!
+drink-component-force-feed-success = {CAPITALIZE(THE($user))} forçou você a beber algo!
 drink-component-force-feed-success-user = Você alimentou o(a) {$target}
 
 
