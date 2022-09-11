@@ -67,29 +67,29 @@
   id: CrateHydroponicsSeeds
   parent: CrateHydroponics
   components:
-    - type: StorageFill
-      contents:
-        - id: ChiliSeeds
-          amount: 1
-        - id: CornSeeds
-          amount: 1
-        - id: EggplantSeeds
-          amount: 1
-        - id: TomatoSeeds
-          amount: 1
-        - id: WheatSeeds
-          amount: 1
-        - id: CarrotSeeds
-          amount: 1
-        - id: ChanterelleSeeds
-          amount: 1
-        - id: PotatoSeeds
-          amount: 1
-        - id: SugarcaneSeeds
-          amount: 1
-        #     - id: LemonSeeds No recipes, limejuice in reagent dispenser
-        #       amount: 1
-        #     - id: OatSeeds No recipes, nothing uses oatmilk
-        #       amount: 1
-        - id: OnionSeeds
-          amount: 1
+  - type: StorageFill
+    contents:
+      - id: ChiliSeeds
+        amount: 1
+      - id: CornSeeds
+        amount: 1
+      - id: EggplantSeeds
+        amount: 1
+      - id: TomatoSeeds
+        amount: 1
+      - id: WheatSeeds
+        amount: 1
+      - id: CarrotSeeds
+        amount: 1
+      - id: ChanterelleSeeds
+        amount: 1
+      - id: PotatoSeeds
+        amount: 1
+      - id: SugarcaneSeeds
+        amount: 1
+      - id: LemonSeeds
+        amount: 1
+      - id: OatSeeds
+        amount: 1
+      - id: OnionSeeds
+        amount: 1
