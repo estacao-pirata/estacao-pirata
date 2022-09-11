@@ -1,8 +1,8 @@
-nukeops-title = Operação Nuclear
-nukeops-description = Agentes nucleares têm como alvo a estação. Tente evitar de eles armarem e detonarem a bomba nuclear ao proteger o disco de autenticação!
+﻿nukeops-title = Nuclear Operatives
+nukeops-description = Nuclear operatives have targeted the station. Try to keep them from arming and detonating the nuke by protecting the nuke disk!
 
-nukeops-ops-won = A bomba nuclear explodiu. Os agentes nucleares tiveram sucesso!
-nukeops-crew-won = A estação conseguiu derrotar os agentes nucleares.
-nukeops-list-start = Os agentes nucleares eram:
-nukeops-not-enough-ready-players = Nem todos os jogadores deram "pronto" para iniciar a partida! Tinham {$readyPlayersCount} jogadores prontos de {$minimumPlayers} necessários. Não foi possível iniciar operação nuclear.
-nukeops-no-one-ready = Nenhum jogador deu pronto! Não é possivel iniciar operação nuclear.
+nukeops-ops-won = The nuke exploded. The nuclear operatives were successful!
+nukeops-crew-won = The crew managed to defeat the nuclear operatives.
+nukeops-list-start = The nuke ops were:
+nukeops-not-enough-ready-players = Not enough players readied up for the game! There were {$readyPlayersCount} players readied up out of {$minimumPlayers} needed. Can't start Nukeops.
+nukeops-no-one-ready = No players readied up! Can't start Nukeops.
