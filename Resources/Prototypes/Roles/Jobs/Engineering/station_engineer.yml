@@ -3,8 +3,9 @@
   name: job-name-engineer
   playTimeTracker: JobStationEngineer
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 18000
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 1800
   startingGear: StationEngineerGear
   icon: "StationEngineer"
   supervisors: job-supervisors-ce

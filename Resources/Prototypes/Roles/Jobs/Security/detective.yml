@@ -3,8 +3,9 @@
   name: job-name-detective
   playTimeTracker: JobDetective
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 18000
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 3600
   startingGear: DetectiveGear
   icon: "Detective"
   supervisors: job-supervisors-hos
