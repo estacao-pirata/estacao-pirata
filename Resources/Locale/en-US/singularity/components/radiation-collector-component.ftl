@@ -1,3 +1,3 @@
-radiation-collector-component-use-on = O coletor ligou.
-radiation-collector-component-use-off = O coletor desligou.
+radiation-collector-component-use-on = The collector turns on.
+radiation-collector-component-use-off = The collector turns off.
 

@@ -1,1 +1,1 @@
-verb-follow-text = Seguir
+﻿verb-follow-text = Follow
