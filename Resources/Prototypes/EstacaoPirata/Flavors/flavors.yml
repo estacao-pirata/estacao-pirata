@@ -1,0 +1,9 @@
+- type: flavor
+  id: caipirinha
+  flavorType: Complex
+  description: flavor-complex-caipirinha
+
+- type: flavor
+  id: cachaca
+  flavorType: Complex
+  description: flavor-complex-cachaca
