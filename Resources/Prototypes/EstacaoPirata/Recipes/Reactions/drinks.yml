@@ -1,7 +1,7 @@
 - type: reaction
   id: Caipirinha
   reactants:
-    LemonLime:
+    JuiceLime:
       amount: 2
     Cachaca:
       amount: 2
