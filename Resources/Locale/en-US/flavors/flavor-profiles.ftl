@@ -159,6 +159,7 @@ flavor-complex-atomic-cola = like hoarding bottle caps(?)
 flavor-complex-cuba-libre = de coca-cola drogada
 flavor-complex-gin-tonic = de refri lima-limão drogado
 flavor-complex-screwdriver = de suco de laranja drogado
+flavor-complex-caipirinha = de limão azedinho
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 flavor-complex-pilk = de leite doce

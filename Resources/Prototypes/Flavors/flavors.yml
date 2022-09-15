@@ -620,6 +620,11 @@
   description: flavor-complex-screwdriver
 
 - type: flavor
+  id: caipirinha
+  flavorType: Complex
+  description: flavor-complex-caipirinha
+
+- type: flavor
   id: pilk
   flavorType: Complex
   description: flavor-complex-pilk

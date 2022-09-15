@@ -21,6 +21,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-caipirinha
   physicalDesc: reagent-physical-desc-strong-smelling
+  flavor: caipirinha
   color: "#87ffa9"
   spritePath: caipirinhaglass.rsi
   metabolisms:
