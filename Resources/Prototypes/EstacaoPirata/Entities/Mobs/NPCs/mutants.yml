@@ -9,7 +9,7 @@
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: produce
-      sprite: Nyanotrasen/Mobs/Mutants/killer_tomato.rsi
+      sprite: EstacaoPirata/Mobs/Mutants/killer_tomato.rsi
   - type: Fixtures
     fixtures:
     - shape:
