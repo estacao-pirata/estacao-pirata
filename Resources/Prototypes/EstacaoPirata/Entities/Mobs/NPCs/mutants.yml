@@ -9,7 +9,7 @@
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: produce
-      sprite: EstacaoPirata/Mobs/Mutants/killer_tomato.rsi
+      sprite: Nyanotrasen/Mobs/Mutants/killer_tomato.rsi
   - type: Fixtures
     fixtures:
     - shape:
@@ -60,6 +60,6 @@
   - type: ReplacementAccent
     accent: genericAggressive
   - type: Produce
-  - type: AiFactionTag
+  - type: Faction
     factions:
     - SimpleHostile
