@@ -15,6 +15,6 @@ materials-biomass = Biomassa
 materials-cloth = Tecido
 materials-durathread = Durathread
 materials-plasma = Plasma
-materials-plastic = Plastico
+materials-plastic = Plástico
 materials-wood = Madeira
 materials-uranium = Urânio
