@@ -3,41 +3,44 @@
   id: DrinkBottleBaseFull
   abstract: true
   components:
-    - type: Drink
-      openSounds:
-        collection: bottleOpenSounds
-    - type: SolutionContainerManager
-      solutions:
-        drink:
-          maxVol: 100
-    - type: Sprite
-      state: icon
-    - type: DamageOnLand
-      damage:
-        types:
-          Blunt: 5
-    - type: DamageOtherOnHit
-      damage:
-        types:
-          Blunt: 4
-    - type: Damageable
-      damageContainer: Inorganic
-    - type: Destructible
-      thresholds:
-        - trigger: !type:DamageTrigger
-            damage: 5
-          behaviors:
-            - !type:PlaySoundBehavior
-              sound:
-                collection: GlassBreak
-            - !type:SpillBehavior {}
-            - !type:SpawnEntitiesBehavior
-              spawn:
-                BrokenBottle:
-                  min: 1
-                  max: 1
-            - !type:DoActsBehavior
-              acts: ["Destruction"]
+  - type: Drink
+    openSounds:
+      collection: bottleOpenSounds
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 100
+  - type: Sprite
+    state: icon
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 5
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 4
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 5
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+      - !type:SpillBehavior { }
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          BrokenBottle:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: TrashOnEmpty
+    solution: drink
 
 - type: entity
   parent: DrinkBottleBaseFull
