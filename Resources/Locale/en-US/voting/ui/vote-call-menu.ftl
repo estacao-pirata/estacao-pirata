@@ -1,23 +1,23 @@
-ui-vote-type-restart = Reiniciar rodada
-ui-vote-type-gamemode = Próximo modo de jogo
-ui-vote-type-map = Próximo mapa
+ui-vote-type-restart = Restart round
+ui-vote-type-gamemode = Next gamemode
+ui-vote-type-map = Next map
 
 # Window title of the vote create menu
-ui-vote-create-title = Criar votação
+ui-vote-create-title = Call Vote
 
 # Submit button in the vote create button
-ui-vote-create-button = Criar votação
+ui-vote-create-button = Call Vote
 
 # Timeout text if a standard vote type is currently on timeout.
-ui-vote-type-timeout = Esta votação foi criada muito recentemente ({$remaining})
+ui-vote-type-timeout = This vote was called too recently ({$remaining})
 
 # Unavailable text if a vote type has been disabled manually.
-ui-vote-type-not-available = Esta votação foi desativada
+ui-vote-type-not-available = This vote type has been disabled
 
 # Hue hue hue
-ui-vote-fluff = Oferecimento Robust™ Anti-Tamper Technology
+ui-vote-fluff = Powered by Robust™ Anti-Tamper Technology
 
 ## Vote menu command
 
-ui-vote-menu-command-description = Abre o menu de votação
-ui-vote-menu-command-help-text = Uso: votemenu
+ui-vote-menu-command-description = Opens the voting menu
+ui-vote-menu-command-help-text = Usage: votemenu

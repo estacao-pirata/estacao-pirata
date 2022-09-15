@@ -1,1 +1,1 @@
-lung-behavior-gasp = Sufoca
+lung-behavior-gasp = Gasp
