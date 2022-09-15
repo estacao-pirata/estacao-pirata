@@ -2,22 +2,22 @@
 
 # Shown when a stack is examined in details range
 comp-stack-examine-detail-count = {$count ->
-    [one] Há [color={$markupCountColor}]{$count}[/color] coisa
-    *[other] Há [color={$markupCountColor}]{$count}[/color] coisas
-} na pilha.
+    [one] There is [color={$markupCountColor}]{$count}[/color] thing
+    *[other] There are [color={$markupCountColor}]{$count}[/color] things
+} in the stack.
 
 # Stack status control
-comp-stack-status = Quantidade: [color=white]{$count}[/color]
+comp-stack-status = Count: [color=white]{$count}[/color]
 
 ### Interaction Messages
 
 # Shown when attempting to add to a stack that is full
-comp-stack-already-full = A Pilha já está cheia.
+comp-stack-already-full = Stack is already full.
 
 # Shown when a stack becomes full
-comp-stack-becomes-full = A Pilha agora está cheia.
+comp-stack-becomes-full = Stack is now full.
 
 # Text related to splitting a stack
-comp-stack-split = Você separa a pilha.
-comp-stack-split-halve = Dividir no Meio
-comp-stack-split-too-small = A Pilha é muito pequena para separar.
+comp-stack-split = You split the stack.
+comp-stack-split-halve = Halve
+comp-stack-split-too-small = Stack is too small to split.
