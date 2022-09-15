@@ -4,6 +4,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-cachaca
   physicalDesc: reagent-physical-desc-strong-smelling
+  flavor: cachaca
   color: "#d1d1d155"
   spritePath: ginvodkaglass.rsi
   metabolisms:
