@@ -1,1 +1,1 @@
-machine-insert-item = You insert {THE($item)} into {THE($machine)}.
+machine-insert-item = Você insere {THE($item)} na {THE($machine)}.
