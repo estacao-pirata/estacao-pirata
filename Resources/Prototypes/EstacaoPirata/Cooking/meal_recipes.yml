@@ -1,0 +1,10 @@
+- type: microwaveMealRecipe
+  id: RecipeMeatShrimp
+  name: cooked shrimp recipe
+  result: FoodMeatShrimpCooked
+  time: 10
+  reagents:
+    TableSalt: 1
+  solids:
+    FoodMeatShrimp: 1
+    FoodPlateSmall: 1

@@ -84,6 +84,8 @@
     spawned:
     - id: ClothingHeadHatCthulhu #how did that get there?
       amount: 1
+    - id: FoodMeatShrimp
+      amount: 6
   - type: DiseaseCarrier
     carrierDiseases:
     - VentCough
