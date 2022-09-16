@@ -82,7 +82,7 @@
     - Service
   - type: Butcherable
     spawned:
-    - id: ClothingHeadHatFancyCrown #how did that get there?
+    - id: ClothingHeadHatCthulhu #how did that get there?
       amount: 1
   - type: DiseaseCarrier
     carrierDiseases:

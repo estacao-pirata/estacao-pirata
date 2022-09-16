@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCthulhu
+  name: cthulhu hat
+  description: It smells like dead prawn. Lets you speak like one!
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Head/Misc/cthulhu.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Head/Misc/cthulhu.rsi
+  - type: MobPrice
+    price: 3000
+  - type: AddAccentClothing
+    accent: MobsterAccent
