@@ -1,74 +1,4 @@
 Entries:
-- author: EmoGarbage404
-  changes:
-  - {message: Lawyers now have security headsets., type: Fix}
-  id: 1817
-  time: '2022-06-27T16:43:16.0000000+00:00'
-- author: KIBORG04
-  changes:
-  - {message: Puddle slippery again!, type: Tweak}
-  id: 1818
-  time: '2022-06-27T17:30:06.0000000+00:00'
-- author: Rane
-  changes:
-  - {message: Removed plants with no current uses from botany vendors and crates.,
-    type: Remove}
-  id: 1819
-  time: '2022-06-27T18:12:03.0000000+00:00'
-- author: Sammy Boy
-  changes:
-  - {message: Delta level alarm's volume has been decreased substantially to avoid
-      causing tinnitus!, type: Tweak}
-  id: 1820
-  time: '2022-06-27T20:45:01.0000000+00:00'
-- author: Ablankmann
-  changes:
-  - {message: Added the Syndicate Shoulder Holster and the Outlaw's Hat to the Uplink.,
-    type: Add}
-  id: 1821
-  time: '2022-06-27T23:25:22.0000000+00:00'
-- author: keronshb
-  changes:
-  - {message: 'Adds thieving component, which lets you steal stuff faster from someone!',
-    type: Add}
-  - {message: Adds thieving gloves for traitors!, type: Add}
-  - {message: Space Ninja Gloves now have thieving!, type: Tweak}
-  id: 1822
-  time: '2022-06-28T00:14:51.0000000+00:00'
-- author: EmoGarbage404
-  changes:
-  - {message: Inflatable doors are now transparent., type: Fix}
-  id: 1823
-  time: '2022-06-28T00:15:47.0000000+00:00'
-- author: ODJ
-  changes:
-  - {message: Proper Evac support for Split!, type: Add}
-  id: 1824
-  time: '2022-06-28T01:20:33.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Xenos can now pry doors., type: Add}
-  id: 1825
-  time: '2022-06-28T10:50:58.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Research console should work again I guess., type: Fix}
-  id: 1826
-  time: '2022-06-28T12:54:08.0000000+00:00'
-- author: Peptide90
-  changes:
-  - {message: Changed salvage locker loadout and probability. Now chance of makeshift
-      laser rifles., type: Tweak}
-  id: 1827
-  time: '2022-06-28T13:21:46.0000000+00:00'
-- author: Rane
-  changes:
-  - {message: Research disks have been ported from Nyanotrasen MRP. They're in salvage
-      and maintenance loot tables., type: Add}
-  - {message: 'The first time a unique disease is scanned at a disease diagnoser,
-      it prints a 5000 point research disk.', type: Add}
-  id: 1828
-  time: '2022-06-28T14:41:09.0000000+00:00'
 - author: themias
   changes:
   - {message: Sterile masks can't be used with oxygen tanks anymore, type: Fix}
@@ -2931,3 +2861,68 @@ Entries:
   - {message: Soda water can no longer breaks into glass shards, type: Fix}
   id: 2316
   time: '2022-09-15T19:07:12.0000000+00:00'
+- author: lapatison
+  changes:
+  - {message: chance to find salami lid in a pizza crate has been decreased, type: Tweak}
+  id: 2317
+  time: '2022-09-15T22:15:45.0000000+00:00'
+- author: ashtronaut
+  changes:
+  - {message: Added icons for Lock and Unlock in the right click menu!, type: Add}
+  id: 2318
+  time: '2022-09-15T23:26:49.0000000+00:00'
+- author: Peptide90
+  changes:
+  - {message: NSS Pillar has been rebuilt from scratch! Expect a lot of changes and
+      follow the directional signs not to get lost., type: Add}
+  id: 2319
+  time: '2022-09-16T02:55:43.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Gas tanks can now also be sold (no longer just canisters)., type: Add}
+  id: 2320
+  time: '2022-09-16T14:04:25.0000000+00:00'
+- author: JustinTrotter
+  changes:
+  - {message: Gas canisters now come with access locks., type: Add}
+  id: 2321
+  time: '2022-09-16T14:06:30.0000000+00:00'
+- author: och
+  changes:
+  - {message: Fix all clones being young neuter humans, type: Fix}
+  id: 2322
+  time: '2022-09-16T14:13:46.0000000+00:00'
+- author: rolfero
+  changes:
+  - {message: Added strip button to examine tooltip., type: Add}
+  id: 2323
+  time: '2022-09-16T14:16:10.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Bible heal has been reduced from 70 damage per 5 seconds to 10 damage
+      per 5 seconds., type: Tweak}
+  id: 2324
+  time: '2022-09-16T14:27:05.0000000+00:00'
+- author: lapatison
+  changes:
+  - {message: 'Added 2 bottle boxes to chemistry supplies crate, price slightly increased',
+    type: Add}
+  id: 2325
+  time: '2022-09-16T14:27:28.0000000+00:00'
+- author: rolfero
+  changes:
+  - {message: Deconstructing certain things dont leave their materials stuck in the
+      wall., type: Fix}
+  id: 2326
+  time: '2022-09-16T14:41:21.0000000+00:00'
+- author: Morb0
+  changes:
+  - {message: More variants of equipped headsets sprite, type: Add}
+  id: 2327
+  time: '2022-09-16T14:43:18.0000000+00:00'
+- author: Jukereise
+  changes:
+  - {message: Beginners can now spend up to 2 hours (90 extra minutes after unlocking
+      the non-beginner jobs) as an intern (originally 30 minutes), type: Tweak}
+  id: 2328
+  time: '2022-09-16T14:45:20.0000000+00:00'
