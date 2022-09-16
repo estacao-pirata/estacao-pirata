@@ -1,0 +1,115 @@
+- type: entity
+  parent: FoodInjectableBase
+  id: FoodShrimpBase
+  abstract: true
+  components:
+  - type: FlavorProfile
+    flavors:
+      - meaty
+  - type: Food
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Consumable/Food/meat.rsi
+    netsync: false
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 1
+  - type: Item
+    size: 5
+
+- type: entity
+  name: raw shrimp meat
+  parent: FoodShrimpBase
+  id: FoodMeatShrimp
+  description: A slab of raw shrimp. Remember to wash your hands!
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: Sprite
+    state: shrimp
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 9
+  - type: SliceableFood
+    count: 3
+    slice: FoodMeatShrimpCutlet
+
+- type: entity
+  name: cooked shrimp
+  parent: FoodShrimpBase
+  id: FoodMeatShrimpCooked
+  description: A cooked piece of shrimp. Best used in other recipes.
+  components:
+  - type: Tag
+    tags:
+    - Cooked
+  - type: Food
+    trash: FoodPlateSmall
+  - type: Sprite
+    layers:
+    - state: plate-meat
+    - state: shrimp-cooked
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+        - ReagentId: Protein
+          Quantity: 5
+  - type: SliceableFood
+    count: 3
+    slice: FoodMeatShrimpCutletCooked
+    
+- type: entity
+  name: raw shrimp cutlet
+  parent: FoodMeatBase
+  id: FoodMeatShrimpCutlet
+  description: A cutlet of raw shrimp. Remember to wash your hands!
+  components:
+  - type: Tag
+    tags:
+    - Raw
+    - Cutlet
+  - type: Sprite
+    state: cutlet
+    color: "#E29A86"
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 3
+
+- type: entity
+  name: shrimp cutlet
+  parent: FoodMeatBase
+  id: FoodMeatShrimpCutletCooked
+  description: A cutlet of cooked shrimp. Remember to wash your hands!
+  components:
+  - type: Tag
+    tags:
+    - Cooked
+    - Cutlet
+  - type: Sprite
+    state: cutlet-cooked
+    color: "#E9967A"
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 2
+        - ReagentId: Protein
+          Quantity: 2
