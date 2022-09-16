@@ -1,30 +1,30 @@
-ent-CrateEngineeringAMEShielding = Caixa de AME embalado
+ent-CrateEngineeringAMEShielding = Packaged antimatter reactor crate
     .desc = 9 parts for the main body of an antimatter reactor, or for expanding an existing one.
 
-ent-CrateEngineeringAMEJar = Caixa de tanques de combustível AME
+ent-CrateEngineeringAMEJar = Antimatter containment jar crate
     .desc = 3 antimatter jars, for fuelling an antimatter reactor.
 
-ent-CrateEngineeringAMEControl = Caixa de unidade de controle AME
+ent-CrateEngineeringAMEControl = Antimatter control unit crate
     .desc = The control unit of an antimatter reactor.
 
-ent-CrateEngineeringSingularityEmitter = Caixa de emissor
+ent-CrateEngineeringSingularityEmitter = Emitter crate
     .desc = An emitter, best used for singularity engines.
 
-ent-CrateEngineeringSingularityCollector = Caixa de coletor de radiação
+ent-CrateEngineeringSingularityCollector = Radiation collector crate
     .desc = A radiation collector, best used for singularity engines.
 
-ent-CrateEngineeringSingularityContainment = Caixa de gerador de campo de contenção
+ent-CrateEngineeringSingularityContainment = Containment field generator crate
     .desc = A containment field generator, keeps the singulo in submission.
 
-ent-CrateEngineeringSingularityGenerator = Caixa de gerador de singularidade
+ent-CrateEngineeringSingularityGenerator = Singularity generator crate
     .desc = A singularity generator, the mother of the beast.
 
-ent-CrateEngineeringParticleAccelerator = Caixa de PA
+ent-CrateEngineeringParticleAccelerator = PA crate
     .desc = Complex to setup, but rewarding as fuck.
 
-ent-CrateEngineeringGenerator = Caixa de gerador
+ent-CrateEngineeringGenerator = Generator crate
 
-ent-CrateEngineeringSolar = Caixa de partes solares
+ent-CrateEngineeringSolar = Solar assembly crate
     .desc = Parts for constructing solar panels and trackers.
 
-ent-CrateEngineeringShuttle = Caixa de energização de nave
+ent-CrateEngineeringShuttle = Shuttle powering crate
