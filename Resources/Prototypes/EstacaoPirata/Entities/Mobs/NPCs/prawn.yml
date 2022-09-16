@@ -1,0 +1,103 @@
+- type: entity
+  name: Prawn
+  id: MobPrawn
+  parent: SimpleMobBase
+  description: He's da prawn. He make da roolz.
+  components:
+  - type: CombatMode
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3.75
+    baseSprintSpeed : 3.75
+  - type: InputMover
+  - type: MobMover
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: Faction
+    factions:
+    - SimpleHostile
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: EstacaoPirata/Mobs/Animals/prawn.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: prawn
+  - type: Physics
+    bodyType: KinematicController
+  - type: Fixtures
+    fixtures:
+    - shape:
+        !type:PhysShapeCircle
+        radius: 0.3
+      mass: 65
+      mask:
+      - MobMask
+      layer:
+      - MobLayer
+  - type: MobState
+    thresholds:
+      0: Alive
+      150: Critical
+      200: Dead
+  - type: MeleeWeapon
+    hidden: true
+    range: 1
+    arcwidth: 0
+    arc: claw
+    damage:
+      types:
+        Slash: 12
+        Piercing: 8
+  - type: Body
+    template: AnimalTemplate
+    preset: AnimalPreset
+  - type: Appearance
+  - type: DamageStateVisuals
+    rotate: true
+    states:
+      Alive:
+        Base: prawn
+      Critical:
+        Base: dead
+      Dead:
+        Base: dead
+  - type: Puller
+    needsHands: false
+  - type: GhostTakeoverAvailable
+    makeSentient: true
+    name: Prawn
+    description: You are the Prawn, scavenge trash in order to produce prawn minions to do your bidding.
+    rules: You are an antagonist, scavenge, attack, and grow your hoard!
+  - type: Tag
+    tags:
+      - CannotSuicide
+      - DoorBumpOpener
+      - FootstepSound
+  - type: NoSlip
+  - type: MobsterAccent
+  - type: Access #he's so baller he gets his own access. NT got nothing on him
+    tags:
+    - Maintenance
+    - Service
+  - type: Butcherable
+    spawned:
+    - id: ClothingHeadHatFancyCrown #how did that get there?
+      amount: 1
+  - type: DiseaseCarrier
+    carrierDiseases:
+    - VentCough
+    - AMIV
+    - SpaceCold
+    - SpaceFlu
+    - BirdFlew
+    - VanAusdallsRobovirus
+    - BleedersBite
+    - Plague
+    - TongueTwister
+  - type: MobPrice
+    price: 2500 # rat wealth
+  - type: RandomMetadata
+    nameSegments:
+    - PrawnNameKingdom
+    - PrawnNameTitle

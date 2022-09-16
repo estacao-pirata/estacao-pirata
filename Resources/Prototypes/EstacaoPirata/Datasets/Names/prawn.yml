@@ -1,0 +1,29 @@
+- type: dataset
+  id: PrawnNameKingdom
+  values:
+    - Rei
+    - Lord
+    - Príncipe
+    - Imperador
+    - Supremo
+    - Soberano
+    - Mestre
+    - Shogun
+    - Tsar
+    - Apreciador
+    - Presidente
+    - Prefeito
+    - Chefe
+    - Profeta
+
+- type: dataset
+  id: PrawnNameTitle
+  values:
+    - Invertebrado
+    - Lagostinha
+    - Camarão
+    - Artrópode
+    - Marinho
+    - Crustáceo
+    - Camarão
+    - Lagosta
