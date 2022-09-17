@@ -33,6 +33,8 @@
   - type: Faction
     factions:
     - NanoTrasen
+  - type: Laugh
+  - type: Fart
 
 - type: entity
   name: CentCom official
