@@ -35,4 +35,6 @@
       damageRecovery:
         types:
           Asphyxiation: -1.0
+    - type: Laugh
+    - type: Fart
 #Weh
