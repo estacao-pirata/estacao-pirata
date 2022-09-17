@@ -229,3 +229,141 @@
           amount: 1
         - id: FoodMeatShrimp
           amount: 5
+    - type: NoSlip
+    - type: GhostTakeoverAvailable
+      makeSentient: true
+      name: Prawn
+      description: You are the Prawn, scavenge food in order to produce prawn minions to do your bidding.
+      rules: You are an antagonist, scavenge, attack, and grow your hoard!
+    - type: Prawn
+      actionRaiseArmy:
+        useDelay: 4
+        icon: Interface/Actions/ratKingArmy.png
+        name: prawn-raise-army-name
+        description: prawn-raise-army-description
+        itemIconStyle: NoItem
+        event: !type:PrawnRaiseArmyActionEvent
+      thirstPerArmyUse: 75
+      actionDomain:
+        useDelay: 10
+        icon: Interface/Actions/ratKingDomain.png
+        name: prawn-domain-name
+        description: prawn-domain-description
+        itemIconStyle: NoItem
+        event: !type:PrawnDomainActionEvent
+      thirstPerDomainUse: 150
+    - type: DiseaseCarrier
+      carrierDiseases:
+      - VentCough
+      - AMIV
+      - SpaceCold
+      - SpaceFlu
+      - BirdFlew
+      - VanAusdallsRobovirus
+      - BleedersBite
+      - Plague
+      - TongueTwister
+    - type: MobPrice
+      price: 2500
+    - type: Hunger
+    - type: Thirst
+
+- type: entity
+  name: Prawn Servant
+  id: MobPrawnServant
+  parent: SimpleMobBase
+  description: He is a mini prawn. He don't make the rules.
+  components:
+  - type: CombatMode
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3.5
+    baseSprintSpeed : 3.5
+  - type: InputMover
+  - type: MobMover
+  - type: HTN
+    rootTask: SimpleHostileCompound
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: Faction
+    factions:
+    - SimpleHostile
+  - type: Sprite
+    drawdepth: SmallMobs
+    sprite: EstacaoPirata/Mobs/Animals/prawn.rsi
+    scale: 0.7, 0.7
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: prawn
+  - type: Physics
+    bodyType: KinematicController
+  - type: Fixtures
+    fixtures:
+    - shape:
+        !type:PhysShapeCircle
+        radius: 0.2
+      mass: 4 #Bulky by mouse standards...
+      mask:
+      - SmallMobMask
+      layer:
+      - SmallMobLayer
+  - type: MobState
+    thresholds:
+      0: Alive
+      30: Critical
+      60: Dead
+  - type: MeleeWeapon
+    hidden: true
+    range: 1
+    arcwidth: 0
+    arc: claw
+    damage:
+      types:
+        Slash: 5
+        Piercing: 3
+  - type: Body
+    template: HumanoidTemplate
+    preset: PrawnPreset
+  - type: Appearance
+  - type: DamageStateVisuals
+    rotate: true
+    states:
+      Alive:
+        Base: prawn
+      Critical:
+        Base: crit
+      Dead:
+        Base: dead
+  - type: Puller
+    needsHands: false
+  - type: DiseaseCarrier
+    carrierDiseases:
+    - VentCough
+    - AMIV
+    - SpaceCold
+    - SpaceFlu
+    - BirdFlew
+    - VanAusdallsRobovirus
+    - BleedersBite
+    - Plague
+    - TongueTwister
+  - type: Vocal
+    maleScream: /Audio/EstacaoPirata/Voice/Prawn/prawn_scream.ogg
+    femaleScream: /Audio/EstacaoPirata/Voice/Prawn/prawn_scream.ogg
+    wilhelmProbability: 0.001
+  - type: GhostTakeoverAvailable
+    makeSentient: true
+    name: Prawn Servant
+    description: You are a Prawn Servant. You must follow your king's orders.
+    rules: You are an antagonist, scavenge, attack, and serve your king!
+  - type: Tag
+    tags:
+      - CannotSuicide
+      - DoorBumpOpener
+      - FootstepSound
+  - type: NoSlip
+  - type: MobPrice
+    price: 500 # prawn wealth
+  - type: LobsterAccent
+    isBoss: false
