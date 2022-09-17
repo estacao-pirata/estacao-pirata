@@ -2,7 +2,7 @@
   save: false
   name: Prawn
   id: MobPrawn
-  description: A miserable pile of seafood.
+  description: A miserable member of seafood gang.
   components:
   - type: RangedDamageSound
     soundGroups:
@@ -335,3 +335,4 @@
     nameSegments:
     - PrawnNameKingdom
     - PrawnNameTitle
+  - type: LobsterAccent
