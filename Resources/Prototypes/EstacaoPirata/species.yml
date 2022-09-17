@@ -1,0 +1,7 @@
+- type: species
+  id: Prawn
+  name: species-name-prawn
+  roundStart: false
+  prototype: MobPrawn
+  dollPrototype: MobPrawnDummy
+  skinColoration: Hues
