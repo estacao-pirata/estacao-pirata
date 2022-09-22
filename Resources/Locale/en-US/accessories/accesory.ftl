@@ -1,2 +1,2 @@
-accessory-HairBald = Bald
-accessory-FacialHairShaved = Shaved
+accessory-HairBald = Careca
+accessory-FacialHairShaved = Raspado
