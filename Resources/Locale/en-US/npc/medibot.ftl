@@ -1,2 +1,2 @@
-medibot-start-inject = Fique parado, por obséquio.
-medibot-finish-inject = Prontinho.
+medibot-start-inject = Hold still, please.
+medibot-finish-inject = All done.
