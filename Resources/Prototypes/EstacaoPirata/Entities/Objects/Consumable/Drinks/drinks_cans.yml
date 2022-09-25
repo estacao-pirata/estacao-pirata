@@ -1,7 +1,7 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkGuaranaCan
-  name: Guaraná Antartica Lata
+  name: guarana antartica lata
   description: Refrigerante de guaraná.
   components:
   - type: SolutionContainerManager
