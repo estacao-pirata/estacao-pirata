@@ -17,7 +17,7 @@ reagent-name-dead-rum = deadrum
 reagent-desc-dead-rum = Bebida alcólica destilada feita de água salgada.
 
 reagent-name-ethanol = etanol
-reagent-desc-ethanol = Um alcoól simples, te deixa bêbado. Inflamável.
+reagent-desc-ethanol = Um álcool simples, te deixa bêbado. Inflamável.
 
 reagent-name-gin = gin
 reagent-desc-gin = Uma bebida destilada que tem seu sabor principal vindo de bagas de zimbro.
@@ -107,7 +107,7 @@ reagent-name-booger = booger
 reagent-desc-booger = Eca...
 
 reagent-name-brave-bull = brave bull
-reagent-desc-brave-bull = Já ouviu falar de coragem por intoxicação de alcoól?
+reagent-desc-brave-bull = Já ouviu falar de coragem por intoxicação de álcool?
 
 reagent-name-cuba-libre = cuba libre
 reagent-desc-cuba-libre = Rum, misturado com refri de cola. Viva la revolucion.
@@ -146,7 +146,7 @@ reagent-name-hippies-delight = hippies delight
 reagent-desc-hippies-delight = Sabe cara, você só não entende, tendeu brooo?
 
 reagent-name-hooch = hooch
-reagent-desc-hooch = Ou a falha de alguém em fazer coquetéis ou na tentativa de produzir alcoól. De qualquer forma, você realmente vai beber isso?
+reagent-desc-hooch = Ou a falha de alguém em fazer coquetéis ou na tentativa de produzir álcool. De qualquer forma, você realmente vai beber isso?
 
 reagent-name-iced-beer = cerveja geladassa
 reagent-desc-iced-beer = Uma cerveja tão gelada que o ar envolta dela congela.
@@ -241,7 +241,7 @@ reagent-desc-vodka-tonic = Pra quando gin e tônica não é russo o suficiente.
 reagent-name-whiskey-cola = whisky cola
 reagent-desc-whiskey-cola = Whiskey, misturado com refri de cola. Surpreendentemente refrescante.
 
-reagent-name-whiskey-soda = refri de whisky
+reagent-name-whiskey-soda = whisky soda
 reagent-desc-whiskey-soda = Para os mais refinados.
 
 reagent-name-white-russian = white russian

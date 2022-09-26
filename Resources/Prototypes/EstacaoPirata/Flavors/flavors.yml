@@ -7,3 +7,8 @@
   id: cachaca
   flavorType: Complex
   description: flavor-complex-cachaca
+
+- type: flavor
+  id: guarana
+  flavorType: Complex
+  description: flavor-complex-guarana

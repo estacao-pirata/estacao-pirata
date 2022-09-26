@@ -34,8 +34,8 @@
 - type: entity
   parent: DrinkPlasticBottleBaseFull
   id: DrinkGuaranaBottleFull
-  name: Guaraná Antartica
-  description: Refrigerante de Guaraná
+  name: guaraná bottle
+  description: Um doce e carbonatado refrigerante. Livre de cafeína.
   components:
     - type: SolutionContainerManager
       solutions:
