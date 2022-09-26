@@ -1,6 +1,6 @@
 welder-component-welder-not-lit-message = O soldador está desligado!
 welder-component-cannot-weld-message = O soldador não tem combustível o suficiente para isso!
-welder-component-no-fuel-message = O soldador está sem cobustível!
+welder-component-no-fuel-message = O soldador está sem combustível!
 welder-component-no-fuel-in-tank = O {$owner} está vazio.
 welder-component-on-examine-welder-lit-message = [color=orange]Aceso[/color]
 welder-component-on-examine-welder-not-lit-message = Apagado

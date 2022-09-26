@@ -2,6 +2,7 @@
 device-frequency-prototype-name-atmos = Dispositivos Atmosféricos
 device-frequency-prototype-name-suit-sensors = Sensores de Traje
 device-frequency-prototype-name-lights = Luzes Inteligentes
+device-frequency-prototype-name-mailing-units = Dispositivos Correios
 
 ## camera frequencies
 device-frequency-prototype-name-surveillance-camera-test = Teste Subnet
@@ -18,3 +19,8 @@ device-frequency-prototype-name-surveillance-camera-entertainment = Câmeras do 
 # prefixes for randomly generated device addresses
 device-address-prefix-vent = Vnt-
 device-address-prefix-scrubber = Scr-
+device-address-prefix-sensor = Sns-
+device-address-prefix-fire-alarm = Fir-
+device-address-prefix-air-alarm = Air-
+
+device-address-examine-message = O endereço do dispositivo é {$address}.

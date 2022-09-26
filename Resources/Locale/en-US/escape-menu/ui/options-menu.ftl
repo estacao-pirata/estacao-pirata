@@ -8,6 +8,7 @@ ui-options-tab-network = Rede
 
 ui-options-apply = Aplicar
 ui-options-reset-all = Redefinir
+ui-options-default = Padrão
 
 ## Audio menu
 
@@ -66,6 +67,7 @@ ui-options-bind-reset = Resetar
 ui-options-key-prompt = Aperte uma tecla...
 
 ui-options-header-movement = Movimentação
+ui-options-header-camera = Camera
 ui-options-header-interaction-basic = Interação Básica
 ui-options-header-interaction-adv = Interação Avançada
 ui-options-header-ui = Interface do Usuário
@@ -83,6 +85,10 @@ ui-options-function-move-left = Mover pra Esquerda
 ui-options-function-move-down = Mover pra Baixo
 ui-options-function-move-right = Mover pra Direita
 ui-options-function-walk = Andar
+
+ui-options-function-camera-rotate-left = Girar para esquerda
+ui-options-function-camera-rotate-right = Girar para direita
+ui-options-function-camera-reset = Resetar
 
 ui-options-function-use = Usar
 ui-options-function-wide-attack = Ataque Amplo
@@ -169,4 +175,25 @@ ui-options-function-shuttle-brake = Freiar
 
 ## Network menu
 
-ui-options-net-interp-ratio = Suavização de Rede
+ui-options-net-interp-ratio = Tamanho do buffer de estado
+ui-options-net-interp-ratio-tooltip = Aumentar isso geralmente tornará o jogo mais resistente 
+                                      para servidor->cliente perda de pacotes, no entanto, ao fazê-lo, 
+                                      efetivamente adiciona um pouco mais de latência e requer o 
+                                      cliente para prever mais ticks futuros.
+
+ui-options-net-predict-tick-bias = Previsão de ticks
+ui-options-net-predict-tick-bias-tooltip = Aumentar isso geralmente tornará o jogo mais resistente 
+                                           para cliente->servidor perda de pacotes, no entanto, ao fazê-lo 
+                                           efetivamente adiciona um pouco mais de latência e requer o
+                                           cliente para prever mais ticks futuros.
+
+ui-options-net-pvs-entry = Orçamento da entidade PVS
+ui-options-net-pvs-entry-tooltip = Isso limita a taxa na qual o servidor enviará novos 
+                                       entidades ao cliente. Reduzir isso pode ajudar a reduzir 
+                                       gagueira devido à geração de entidade, mas pode levar a pop-in.
+
+ui-options-net-pvs-leave = Taxa de desprendimento de PVS
+ui-options-net-pvs-leave-tooltip = Isso limita a taxa na qual o cliente removerá 
+                                       entidades fora de vista. Reduzir isso pode ajudar a reduzir 
+                                       gaguejando ao caminhar, mas pode ocasionalmente 
+                                       levar a previsões erradas e outros problemas.

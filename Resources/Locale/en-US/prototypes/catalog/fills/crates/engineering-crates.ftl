@@ -21,3 +21,6 @@ ent-CrateEngineeringCableBulk = Caixa de cabos gerais
 
 ent-CrateEngineeringElectricalSupplies = Caixa de suprimentos elétricos
     .desc = NT is not responsible for any workplace infighting relating to the insulated gloves included within these crates.
+
+ent-CrateEngineeringJetpack = Caixa de Jetpack
+    .desc = Two jetpacks for those who don't know how to use fire extinguishers.
