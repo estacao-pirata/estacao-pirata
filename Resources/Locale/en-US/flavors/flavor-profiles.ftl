@@ -119,15 +119,15 @@ flavor-complex-validhunting = de caça-antag
 # Drink-specific flavors.
 
 ## Generic alcohol/soda taste. This should be replaced with an actual flavor profile.
-flavor-complex-alcohol = de alcoól
-flavor-complex-soda = de refri
+flavor-complex-alcohol = de álcool
+flavor-complex-soda = de refrigerante
 flavor-complex-juice = de suco
 
 ## Basic drinks
 flavor-complex-water = de água
 flavor-complex-beer = de cerveja
 flavor-complex-ale = de pão
-flavor-complex-cola = de coca-cola
+flavor-complex-cola = de cola
 flavor-complex-vodka = de grãos fermentados
 flavor-complex-tequila = de morte fermentada
 flavor-complex-sake = de doce e alcoólico arroz
@@ -156,8 +156,8 @@ flavor-complex-beepsky = de óleo e whisky
 flavor-complex-banana-honk = de milkshake de banana
 flavor-complex-atomic-bomb = de chernobyl
 flavor-complex-atomic-cola = like hoarding bottle caps(?)
-flavor-complex-cuba-libre = de coca-cola drogada
-flavor-complex-gin-tonic = de refri lima-limão drogado
+flavor-complex-cuba-libre = de cola drogada
+flavor-complex-gin-tonic = de refrigerante lima-limão drogado
 flavor-complex-screwdriver = de suco de laranja drogado
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
