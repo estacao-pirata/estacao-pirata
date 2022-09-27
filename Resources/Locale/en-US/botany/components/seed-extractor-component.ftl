@@ -1,3 +1,3 @@
 ## Entity
 
-seed-extractor-component-interact-message = Você extrai algumas sementes de {$name}.
+seed-extractor-component-interact-message = You extract some seeds from the {$name}.

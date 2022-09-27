@@ -1,3 +1,3 @@
-anchorable-anchored = Fixo
-anchorable-unanchored = Solto
-anchorable-occupied = Quadrado Ocupado
+anchorable-anchored = Anchored
+anchorable-unanchored = Unanchored
+anchorable-occupied = Tile occupied

@@ -1,3 +1,3 @@
-magic-mirror-component-activate-user-has-no-hair = Você não pode ter nenhum cabelo!
+magic-mirror-component-activate-user-has-no-hair = You can't have any hair!
 
-magic-mirror-window-title = Espelho Mágico
+magic-mirror-window-title = Magic Mirror
