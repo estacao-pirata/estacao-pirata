@@ -1,2 +1,2 @@
-marking-CatEars = Orelhas de Gato
-marking-CatTail = Rabo de Gato
+marking-CatEars = Cat Ears
+marking-CatTail = Cat Tail
