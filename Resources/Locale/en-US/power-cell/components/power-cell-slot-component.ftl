@@ -1,8 +1,8 @@
 # Default examine descriptions
-power-cell-slot-component-description-default = It uses {$size} power cells.
-power-cell-slot-component-description-size-small = small
-power-cell-slot-component-description-size-medium = medium-sized
-power-cell-slot-component-description-size-large = large
+power-cell-slot-component-description-default = Isto usa células {$size} de energia.
+power-cell-slot-component-description-size-small = pequenas
+power-cell-slot-component-description-size-medium = médias
+power-cell-slot-component-description-size-large = grandes
 
 # Verbs
-power-cell-slot-component-slot-name-default = Power cell
+power-cell-slot-component-slot-name-default = Célula de Energia
