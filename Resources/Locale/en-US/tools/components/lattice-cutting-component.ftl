@@ -1,1 +1,1 @@
-﻿comp-lattice-cutting-unsafe-warning = Você sente ar assoprar por seus dedos... Talvez você deva reconsiderar?
+﻿comp-lattice-cutting-unsafe-warning = You feel air blow past your fingers... Maybe you should reconsider?

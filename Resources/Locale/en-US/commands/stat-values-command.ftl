@@ -1,15 +1,15 @@
-stat-values-desc = Despeja todas as estatísticas de uma categoria específica em uma tabela.
-stat-values-server = Não pode ser executado no servidor!
-stat-values-args = Número inválido de argumentos, preciso de 1
-stat-values-invalid = {$arg} não é uma estatística válida!
+stat-values-desc = Dumps all stats for a particular category into a table.
+stat-values-server = Can't be run on the server!
+stat-values-args = Invalid number of args, need 1
+stat-values-invalid = {$arg} is not a valid stat!
 
 # Cargo
-stat-cargo-values = Preços de venda de carga
+stat-cargo-values = Cargo sell prices
 stat-cargo-id = ID
-stat-cargo-price = Preço
+stat-cargo-price = Price
 
 # Lathe
-stat-lathe-values = Preços de venda da Lathe
+stat-lathe-values = Lathe sell prices
 stat-lathe-id = ID
-stat-lathe-cost = Custo
-stat-lathe-sell = Preço de venda
+stat-lathe-cost = Cost
+stat-lathe-sell = Sell price
