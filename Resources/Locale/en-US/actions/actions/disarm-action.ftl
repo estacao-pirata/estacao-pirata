@@ -1,6 +1,7 @@
-disarm-action-disarmable = {THE($targetName)} is not disarmable!
-disarm-action-popup-message-other-clients = {CAPITALIZE(THE($performerName))} disarmed {THE($targetName)}!
-disarm-action-popup-message-cursor = Disarmed {THE($targetName)}!
+disarm-action-free-hand = Você precisa usar sua mão livre para desarmar!
 
-action-name-disarm = [color=red]Disarm[/color]
-action-description-disarm = Attempt to [color=red]disarm[/color] someone.
+disarm-action-popup-message-other-clients = {$performerName} falhou em desarmar {$targetName}!
+disarm-action-popup-message-cursor = Você falha em desarmar {$targetName}!
+
+action-name-disarm = [color=red]Desarmar[/color]
+action-description-disarm = Tentativa de [color=red]desarmar[/color] alguém.
