@@ -77,16 +77,16 @@
     actionRaiseArmy:
       useDelay: 4
       icon: Interface/Actions/ratKingArmy.png
-      name: rat-king-raise-army-name
-      description: rat-king-raise-army-description
+      name: giant-tarantula-raise-army-name
+      description: giant-tarantula-raise-army-description
       itemIconStyle: NoItem
       event: !type:GiantTarantulaRaiseArmyActionEvent
     hungerPerArmyUse: 25
     actionDomain:
       useDelay: 10
       icon: Interface/Actions/ratKingDomain.png
-      name: rat-king-domain-name
-      description: rat-king-domain-description
+      name: giant-tarantula-domain-name
+      description: giant-tarantula-domain-description
       itemIconStyle: NoItem
       event: !type:GiantTarantulaDomainActionEvent
     hungerPerDomainUse: 1
@@ -118,3 +118,11 @@
     interactSuccessString: petting-success-tarantula
     interactFailureString: petting-failure-generic
   - type: BypassWeb
+
+- type: entity
+  name: tarantula
+  parent: MobGiantSpiderAngry
+  id: MobTarantulaServant
+  suffix: Angry
+  components:
+    - type: BypassWeb

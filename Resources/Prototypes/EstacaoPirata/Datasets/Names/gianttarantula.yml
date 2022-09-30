@@ -1,39 +1,26 @@
 - type: dataset
   id: GiantTarantulaNameKingdom
   values:
-  - Plague
-  - Miasma
-  - Maintenance
-  - Trash
-  - Garbage
-  - Rat
-  - Vermin
-  - Cheese
-  - Munching
-  - Big
-  - Filth
-  - Sewer
-  - Disposal
-  - Service
-  - The
+  - Rainha
+  - Lady
+  - Princesa
+  - Imperadora
+  - Suprema
+  - Soberana
+  - Mestra
+  - Apreciadora
+  - Presidenta
+  - Prefeita
+  - Chefa
+  - Profeta
 
 - type: dataset
   id: GiantTarantulaNameTitle
   values:
-  - King
-  - Lord
-  - Prince
-  - Emperor
-  - Supreme
-  - Overlord
-  - Master
-  - Shogun
-  - Bojar
-  - Tsar
-  - Fan #vs
-  - Enjoyer
-  - President
-  - Mayor
-  - Boss
-  - Prophet
-  - Cheese
+  - Teia
+  - Peluda
+  - Caranguejeira
+  - Aracnídeo
+  - Venenosa
+  - Aranha
+  - Tarantula

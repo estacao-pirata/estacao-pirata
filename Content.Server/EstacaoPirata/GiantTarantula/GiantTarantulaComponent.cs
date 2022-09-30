@@ -23,7 +23,7 @@ namespace Content.Server.GiantTarantula
         ///     The entity prototype of the mob that Raise Army summons
         /// </summary>
         [ViewVariables(VVAccess.ReadWrite), DataField("armyMobSpawnId", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
-        public string ArmyMobSpawnId = "MobGiantSpiderAngry";
+        public string ArmyMobSpawnId = "MobTarantulaServant";
 
         /// <summary>
         ///     The action for the Domain ability

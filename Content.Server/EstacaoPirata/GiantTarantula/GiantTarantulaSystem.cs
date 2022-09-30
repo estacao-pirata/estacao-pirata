@@ -49,7 +49,7 @@ namespace Content.Server.GiantTarantula
             //make sure the hunger doesn't go into the negatives
             if (hunger.CurrentHunger < component.HungerPerArmyUse)
             {
-                _popup.PopupEntity(Loc.GetString("rat-king-too-hungry"), uid, Filter.Entities(uid));
+                _popup.PopupEntity(Loc.GetString("giant-tarantula-too-hungry"), uid, Filter.Entities(uid));
                 return;
             }
             args.Handled = true;
@@ -72,7 +72,7 @@ namespace Content.Server.GiantTarantula
             //make sure the hunger doesn't go into the negatives
             if (hunger.CurrentHunger < component.HungerPerDomainUse)
             {
-                _popup.PopupEntity(Loc.GetString("rat-king-too-hungry"), uid, Filter.Entities(uid));
+                _popup.PopupEntity(Loc.GetString("giant-tarantula-too-hungry"), uid, Filter.Entities(uid));
                 return;
             }
             args.Handled = true;
