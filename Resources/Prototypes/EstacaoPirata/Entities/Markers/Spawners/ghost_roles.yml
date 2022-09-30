@@ -13,4 +13,4 @@
     sprite: Markers/jobs.rsi
     layers:
       - state: green
-      - texture: Mobs/Animals/regalrat.rsi/icon.png
+      - texture: Mobs/Animals/spider.rsi/icon.png

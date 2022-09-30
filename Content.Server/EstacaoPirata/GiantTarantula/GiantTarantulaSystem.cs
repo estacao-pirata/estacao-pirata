@@ -1,16 +1,19 @@
 using Content.Server.Actions;
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Nutrition.Components;
+using Content.Server.Coordinates.Helpers;
 using Content.Server.Popups;
 using Content.Shared.Actions;
 using Content.Shared.Atmos;
 using Robust.Server.GameObjects;
 using Robust.Shared.Player;
+using Robust.Shared.Random;
 
 namespace Content.Server.GiantTarantula
 {
     public sealed class GiantTarantulaSystem : EntitySystem
     {
+        [Dependency] private readonly IRobustRandom _random = default!;
         [Dependency] private readonly PopupSystem _popup = default!;
         [Dependency] private readonly ActionsSystem _action = default!;
         [Dependency] private readonly AtmosphereSystem _atmos = default!;
@@ -74,7 +77,13 @@ namespace Content.Server.GiantTarantula
             }
             args.Handled = true;
             hunger.CurrentHunger -= component.HungerPerDomainUse;
-            Spawn(component.WebSpawnId, Transform(uid).Coordinates);
+
+            if (_random.Prob(0.5f))
+            {
+                Spawn("Web2", Transform(uid).Coordinates.SnapToGrid(EntityManager));
+            } else {
+                Spawn("Web", Transform(uid).Coordinates.SnapToGrid(EntityManager));
+            }
         }
     }
 

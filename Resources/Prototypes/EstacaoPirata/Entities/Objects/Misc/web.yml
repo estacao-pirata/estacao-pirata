@@ -4,8 +4,6 @@
   description: Spider web
   placement:
     mode: SnapgridCenter
-    snap:
-      - Wall
   components:
     - type: MeleeSound
       soundGroups:
@@ -15,7 +13,6 @@
     - type: Sprite
       sprite: EstacaoPirata/Objects/Misc/web.rsi
       state: web_1
-      drawdepth: Overdoors
       netsync: false
     - type: Appearance
     - type: Clickable
@@ -58,6 +55,19 @@
       groups:
         Flammable: [Touch]
         Extinguish: [Touch]
-    - type: SlowContacts
-      walkSpeedModifier: 0.03
-      sprintSpeedModifier: 0.03
+    - type: WebSlowContacts
+      walkSpeedModifier: 0.02
+      sprintSpeedModifier: 0.02
+
+- type: entity
+  id: Web2
+  parent: Web
+  name: web
+  description: Spider web
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Objects/Misc/web.rsi
+      state: web_2
+      netsync: false

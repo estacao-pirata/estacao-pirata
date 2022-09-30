@@ -36,11 +36,5 @@ namespace Content.Server.GiantTarantula
         /// </summary>
         [ViewVariables(VVAccess.ReadWrite), DataField("hungerPerDomainUse", required: true)]
         public float HungerPerDomainUse = 1f;
-
-        /// <summary>
-        ///     The entity prototype of the mob that Raise Army summons
-        /// </summary>
-        [ViewVariables(VVAccess.ReadWrite), DataField("webSpawnId", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
-        public string WebSpawnId = "Web";
     }
 };
