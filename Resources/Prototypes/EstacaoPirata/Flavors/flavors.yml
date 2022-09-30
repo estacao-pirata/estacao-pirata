@@ -12,3 +12,13 @@
   id: guarana
   flavorType: Complex
   description: flavor-complex-guarana
+
+- type: flavor
+  id: pudim
+  flavorType: Complex
+  description: flavor-complex-pudim
+
+- type: flavor
+  id: pudimchocolate
+  flavorType: Complex
+  description: flavor-complex-pudimchocolate
