@@ -39,8 +39,8 @@
   - type: MobState
     thresholds:
       0: Alive
-      150: Critical
-      200: Dead
+      350: Critical
+      400: Dead
   - type: MeleeWeapon
     hidden: true
     range: 1
@@ -74,39 +74,28 @@
       - FootstepSound
   - type: NoSlip
   - type: GiantTarantula
-    actionRaiseArmy:
-      useDelay: 4
-      icon: Interface/Actions/ratKingArmy.png
-      name: giant-tarantula-raise-army-name
-      description: giant-tarantula-raise-army-description
-      itemIconStyle: NoItem
-      event: !type:GiantTarantulaRaiseArmyActionEvent
-    hungerPerArmyUse: 25
     actionDomain:
-      useDelay: 10
+      useDelay: 2
       icon: Interface/Actions/ratKingDomain.png
       name: giant-tarantula-domain-name
       description: giant-tarantula-domain-description
       itemIconStyle: NoItem
       event: !type:GiantTarantulaDomainActionEvent
     hungerPerDomainUse: 1
+    actionRaiseArmy:
+      useDelay: 5
+      icon: Interface/Actions/ratKingArmy.png
+      name: giant-tarantula-raise-army-name
+      description: giant-tarantula-raise-army-description
+      itemIconStyle: NoItem
+      event: !type:GiantTarantulaRaiseArmyActionEvent
+    hungerPerArmyUse: 25
   - type: ReplacementAccent
     accent: xeno
   - type: Butcherable
     spawned:
     - id: FoodMeatSpider
       amount: 4
-  - type: DiseaseCarrier
-    carrierDiseases:
-    - VentCough
-    - AMIV
-    - SpaceCold
-    - SpaceFlu
-    - BirdFlew
-    - VanAusdallsRobovirus
-    - BleedersBite
-    - Plague
-    - TongueTwister
   - type: MobPrice
     price: 2500
   - type: RandomMetadata
@@ -126,3 +115,13 @@
   suffix: Angry
   components:
     - type: BypassWeb
+    - type: Fixtures
+      fixtures:
+      - shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        mass: 50
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer

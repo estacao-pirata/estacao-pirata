@@ -42,7 +42,7 @@
   name: pudim de chocolate
   parent: FoodPuddingBase
   id: FoodPuddingChocolate
-  description: cremoso, molhadinho e com um leve gosto de doce de leite e chocolate.
+  description: Cremoso, molhadinho e com um leve gosto de doce de leite e chocolate.
   components:
   - type: FlavorProfile
     flavors:
