@@ -125,3 +125,5 @@
         - SmallMobMask
         layer:
         - SmallMobLayer
+    - type: Puller
+      needsHands: false
