@@ -1,11 +1,9 @@
 ## ExamineSystem
 
-examine-system-entity-does-not-exist = That entity doesn't exist
+examine-system-entity-does-not-exist = Esta entidade não existe
 
-examine-system-cant-see-entity = You can't make out whatever that is.
+examine-verb-name = Básico
 
-examine-verb-name = Basic
+examinable-anchored = Isto está fixado ao chão
 
-examinable-anchored = It is anchored to the floor
-
-examinable-unanchored = It is unanchored from the floor
+examinable-unanchored = Isto foi desafixado do chão
