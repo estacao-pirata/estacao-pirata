@@ -1,3 +1,3 @@
-### Messages that can be utilized by multiple reagents.
+﻿### Messages that can be utilized by multiple reagents.
 
-generic-reagent-effect-burning-insides = Você sente seus interiores ardendo!
+generic-reagent-effect-burning-insides = You feel your insides burning up!
