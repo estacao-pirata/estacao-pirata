@@ -1,2 +1,2 @@
-ui-actionslot-charges = Usos restantes: {$charges}
+ui-actionslot-charges = Uses left: {$charges}
 
