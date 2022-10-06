@@ -13,7 +13,7 @@
       department: Security
       time: 3600
     - !type:OverallPlaytimeRequirement
-      time: 108000
+      time: 21600
   weight: 20
   startingGear: HoPGear
   icon: "HeadOfPersonnel"
