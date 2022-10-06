@@ -120,7 +120,7 @@
       - shape:
           !type:PhysShapeCircle
           radius: 0.35
-        mass: 50
+        density: 50
         mask:
         - SmallMobMask
         layer:
