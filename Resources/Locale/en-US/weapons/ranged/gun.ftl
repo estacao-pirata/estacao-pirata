@@ -4,6 +4,7 @@ gun-fire-rate-examine = A taxa de tiro é [color={$color}]{$fireRate}[/color] po
 gun-selector-verb = Mudar para {$mode}
 gun-selected-mode = Modo {$mode}
 gun-disabled = Você não pode usar armas!
+gun-clumsy = A arma explodiu na sua cara!
 
 # SelectiveFire
 gun-SemiAuto = semi-automático
@@ -14,6 +15,10 @@ gun-FullAuto = automático
 gun-ballistic-cycle = Carregar
 gun-ballistic-cycled = Carregado
 gun-ballistic-cycled-empty = Vazio
+
+# CartridgeAmmo
+gun-cartridge-spent = Ele [color=red]está gasto[/color].
+gun-cartridge-unspent = Ele [color=lime]não está gasto[/color].
 
 # BatteryAmmoProvider
 gun-battery-examine = Há carga suficiente para [color={$color}]{$count} tiros.

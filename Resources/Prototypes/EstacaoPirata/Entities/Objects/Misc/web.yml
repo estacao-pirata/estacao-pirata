@@ -1,7 +1,7 @@
 - type: entity
   id: Web
   name: web
-  description: Spider web
+  description: The network of silken thread spun by a big spider.
   placement:
     mode: SnapgridCenter
   components:
@@ -56,14 +56,14 @@
         Flammable: [Touch]
         Extinguish: [Touch]
     - type: WebSlowContacts
-      walkSpeedModifier: 0.02
-      sprintSpeedModifier: 0.02
+      walkSpeedModifier: 0.03
+      sprintSpeedModifier: 0.03
 
 - type: entity
   id: Web2
   parent: Web
   name: web
-  description: Spider web
+  description: The network of silken thread spun by a big spider.
   placement:
     mode: SnapgridCenter
   components:
