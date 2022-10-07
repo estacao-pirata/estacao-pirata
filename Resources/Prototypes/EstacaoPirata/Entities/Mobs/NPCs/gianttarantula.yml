@@ -72,6 +72,7 @@
       - CannotSuicide
       - DoorBumpOpener
       - FootstepSound
+      - Spider
   - type: NoSlip
   - type: GiantTarantula
     actionDomain:
@@ -106,7 +107,6 @@
     successChance: 0.5
     interactSuccessString: petting-success-tarantula
     interactFailureString: petting-failure-generic
-  - type: BypassWeb
 
 - type: entity
   name: tarantula
@@ -114,7 +114,6 @@
   id: MobTarantulaServant
   suffix: Angry
   components:
-    - type: BypassWeb
     - type: Fixtures
       fixtures:
       - shape:

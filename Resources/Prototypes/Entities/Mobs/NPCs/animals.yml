@@ -1302,6 +1302,9 @@
     interactSuccessString: petting-success-tarantula
     interactFailureString: petting-failure-generic
   - type: Puller
+  - type: Tag
+    tags:
+    - Spider
 
 - type: entity
   name: tarantula
