@@ -1,1 +1,1 @@
-traitor-overlay-traitor-text = Traidor
+traitor-overlay-traitor-text = Traitor
