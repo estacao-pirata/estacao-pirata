@@ -10,7 +10,7 @@
       department: Cargo
       time: 18000
     - !type:OverallPlaytimeRequirement
-      time: 21600
+      time: 5400
   weight: 10
   startingGear: QuartermasterGear
   icon: "QuarterMaster"
