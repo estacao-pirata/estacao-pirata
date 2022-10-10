@@ -7,6 +7,7 @@
       department: Medical
       time: 1800
   startingGear: ChemistGear
+  setPreference: false
   icon: "Chemist"
   supervisors: job-supervisors-cmo
   access:
@@ -22,6 +23,7 @@
     shoes: ClothingShoesColorWhite
     outerClothing: ClothingOuterCoatLabChem
     id: ChemistryPDA
+    neck: ClothingNeckStethoscope
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedical
     pocket1: HandLabeler
