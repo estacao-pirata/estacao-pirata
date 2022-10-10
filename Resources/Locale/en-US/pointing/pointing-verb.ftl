@@ -1,1 +1,1 @@
-pointing-verb-get-data-text = Apontar
+pointing-verb-get-data-text = Point at
