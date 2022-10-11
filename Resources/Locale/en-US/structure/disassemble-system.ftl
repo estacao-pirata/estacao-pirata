@@ -1,1 +1,1 @@
-disassemble-system-verb-disassemble = Desconstruir
+disassemble-system-verb-disassemble = Disassemble
