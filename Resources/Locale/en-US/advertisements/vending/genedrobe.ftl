@@ -1,1 +1,1 @@
-advertisement-genedrobe-1 = Perfeito para o cientista louco em você!
+advertisement-genedrobe-1 = Perfect for the mad scientist in you!

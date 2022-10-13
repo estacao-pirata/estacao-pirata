@@ -1,1 +1,1 @@
-set-outfit-verb-get-data-text = Escolher vestimenta
+set-outfit-verb-get-data-text = Set Outfit
