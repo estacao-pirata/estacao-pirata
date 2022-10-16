@@ -1,36 +1,36 @@
-ent-SeatBase = chair
-    .desc = You sit in this. Either by will or force.
+ent-SeatBase = cadeira
+    .desc = Você senta nisso. Seja voluntariamente ou à força.
 
 ent-Chair = chair
-    .desc = You sit in this. Either by will or force.
+    .desc = Você senta nisso. Seja voluntariamente ou à força.
 
-ent-Stool = stool
-    .desc = Apply butt.
+ent-Stool = banco
+    .desc = Aplicar bunda.
 
-ent-StoolBar = bar stool
-    .desc = Apply butt.
+ent-StoolBar = bacno de bar
+    .desc = Aplicar bunda.
 
-ent-ChairOfficeLight = white office chair
-    .desc = Apply butt.
+ent-ChairOfficeLight = cadeira de escritório branca
+    .desc = Aplicar bunda.
 
-ent-ChairOfficeDark = dark office chair
-    .desc = Apply butt.
+ent-ChairOfficeDark = cadeira de escritório escura
+    .desc = Aplicar bunda.
 
-ent-ComfyChair = comfy chair
-    .desc = It looks comfy.
+ent-ComfyChair = cadeira confortável
+    .desc = Parece confortável.
 
-ent-ChairPilotSeat = pilot seat
-    .desc = The pilot seat of a prestigious ship.
+ent-ChairPilotSeat = acento de piloto
+    .desc = O acento de piloto de uma nave prestigiosa.
 
-ent-ChairWood = wooden chair
-    .desc = The pilot seat of a prestigious ship.
+ent-ChairWood = cadeira de madeira
+    .desc = O acento de piloto de uma nave prestigiosa.
 
-ent-ChairRitual = ritual chair
-    .desc = Looks uncomfortable.
+ent-ChairRitual = cadeira ritual
+    .desc = Parece desconfortável.
 
-ent-ChairCursed = cursed chair
-    .desc = It's staring back.
+ent-ChairCursed = cadeira amaldiçoada
+    .desc = Está encarando de volta.
 
-ent-ChairFolding = folding chair
-    .desc = If you carry six of these you become the coolest kid at church.
+ent-ChairFolding = cadeira dobrável
+    .desc = Se você carregar seis dessas você se tornará a pessoa mais legal na igreja.
 
