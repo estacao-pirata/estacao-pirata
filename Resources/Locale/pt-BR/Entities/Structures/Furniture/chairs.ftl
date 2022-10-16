@@ -1,7 +1,7 @@
 ent-SeatBase = cadeira
     .desc = Você senta nisso. Seja voluntariamente ou à força.
 
-ent-Chair = chair
+ent-Chair = cadeira
     .desc = Você senta nisso. Seja voluntariamente ou à força.
 
 ent-Stool = banco
