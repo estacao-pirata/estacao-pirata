@@ -29466,7 +29466,7 @@ entities:
     parent: 100
     type: Transform
 - uid: 780
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -18.5,38.5
     parent: 100
@@ -137132,13 +137132,13 @@ entities:
     parent: 100
     type: Transform
 - uid: 15938
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -19.5,37.5
     parent: 100
     type: Transform
 - uid: 15939
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -18.5,37.5
     parent: 100
@@ -140121,7 +140121,7 @@ entities:
     parent: 100
     type: Transform
 - uid: 16365
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -18.5,36.5
     parent: 100

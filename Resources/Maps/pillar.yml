@@ -68627,25 +68627,25 @@ entities:
     - entity_storage
     type: Construction
 - uid: 6386
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: 29.5,-4.5
     parent: 8
     type: Transform
 - uid: 6387
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: 29.5,-3.5
     parent: 8
     type: Transform
 - uid: 6388
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: 29.5,-8.5
     parent: 8
     type: Transform
 - uid: 6389
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: 29.5,-9.5
     parent: 8

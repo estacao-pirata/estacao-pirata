@@ -156779,7 +156779,7 @@ entities:
     parent: 82
     type: Transform
 - uid: 18077
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -31.5,-28.5
     parent: 82
@@ -185468,7 +185468,7 @@ entities:
     parent: 82
     type: Transform
 - uid: 22253
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -29.5,-25.5
     parent: 82

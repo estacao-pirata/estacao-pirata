@@ -44411,7 +44411,7 @@ entities:
     parent: 2
     type: Transform
 - uid: 5071
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: 53.5,-4.5
     parent: 2
@@ -54544,7 +54544,7 @@ entities:
     parent: 2
     type: Transform
 - uid: 6650
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: 50.5,-4.5
     parent: 2

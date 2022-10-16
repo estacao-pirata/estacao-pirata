@@ -69090,13 +69090,13 @@ entities:
       stash: !type:ContainerSlot {}
     type: ContainerContainer
 - uid: 6766
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -7.5,-9.5
     parent: 30
     type: Transform
 - uid: 6767
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -6.5,-9.5
     parent: 30
@@ -170310,7 +170310,7 @@ entities:
     parent: 30
     type: Transform
 - uid: 21675
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -7.5,-10.5
     parent: 30

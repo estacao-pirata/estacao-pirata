@@ -80099,13 +80099,13 @@ entities:
     parent: 69
     type: Transform
 - uid: 7927
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -49.5,-38.5
     parent: 69
     type: Transform
 - uid: 7928
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -49.5,-41.5
     parent: 69
@@ -80179,13 +80179,13 @@ entities:
     parent: 69
     type: Transform
 - uid: 7940
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -44.5,-41.5
     parent: 69
     type: Transform
 - uid: 7941
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -47.5,-37.5
     parent: 69

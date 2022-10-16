@@ -31431,7 +31431,7 @@ entities:
     parent: 60
     type: Transform
 - uid: 933
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: 39.5,-28.5
     parent: 60
@@ -43384,7 +43384,7 @@ entities:
     parent: 60
     type: Transform
 - uid: 2531
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: 39.5,-30.5
     parent: 60
@@ -43465,7 +43465,7 @@ entities:
     parent: 60
     type: Transform
 - uid: 2544
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: 39.5,-29.5
     parent: 60

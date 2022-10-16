@@ -58349,13 +58349,13 @@ entities:
     parent: 0
     type: Transform
 - uid: 6648
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -11.5,-16.5
     parent: 0
     type: Transform
 - uid: 6649
-  type: SpawnPointChemist
+  type: SpawnPointMedicalDoctor
   components:
   - pos: -9.5,-16.5
     parent: 0
