@@ -1,6 +1,5 @@
 ent-BaseBarSign = bar sign
     .desc = { "" }
-    .suffix = { "" }
 
 ent-BarSign = bar sign
     .desc = { "" }

@@ -1,22 +1,17 @@
 ent-BaseWall = basewall
     .desc = Keeps the air in and the greytide out.
-    .suffix = { "" }
 
 ent-WallBrick = brick wall
     .desc = Keeps the air in and the greytide out.
-    .suffix = { "" }
 
 ent-WallClock = clock wall
     .desc = Keeps the air in and the greytide out.
-    .suffix = { "" }
 
 ent-WallClown = clown wall
     .desc = Keeps the air in and the greytide out.
-    .suffix = { "" }
 
 ent-WallCult = cult wall
     .desc = Keeps the air in and the greytide out.
-    .suffix = { "" }
 
 ent-WallDebug = debug wall
     .desc = Keeps the air in and the greytide out.

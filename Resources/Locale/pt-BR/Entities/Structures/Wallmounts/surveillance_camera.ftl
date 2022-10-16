@@ -1,6 +1,5 @@
 ent-SurveillanceCameraBase = camera
     .desc = A surveillance camera. It's watching you. Kinda.
-    .suffix = { "" }
 
 ent-SurveillanceCameraConstructed = camera
     .desc = A surveillance camera. It's watching you. Kinda.

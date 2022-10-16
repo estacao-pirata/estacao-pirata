@@ -8,9 +8,7 @@ ent-SprayBottleWater = spray bottle
 
 ent-SprayBottleSpaceCleaner = space cleaner
     .desc = BLAM!-brand non-foaming space cleaner!
-    .suffix = { "" }
 
 ent-Vapor = vapor
     .desc = BLAM!-brand non-foaming space cleaner!
-    .suffix = { "" }
 

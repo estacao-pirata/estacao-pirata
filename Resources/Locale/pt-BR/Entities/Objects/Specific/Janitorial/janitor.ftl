@@ -1,6 +1,5 @@
 ent-MopItem = mop
     .desc = A mop that can't be stopped, viscera cleanup detail awaits.
-    .suffix = { "" }
 
 ent-MopBucket = mop bucket
     .desc = Holds water and the tears of the janitor.

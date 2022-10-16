@@ -1,6 +1,5 @@
 ent-GasPipeBase = pipe
     .desc = Holds gas.
-    .suffix = { "" }
 
 ent-GasPipeHalf = pipe
     .desc = Holds gas.

@@ -1,10 +1,8 @@
 ent-BaseAPC = APC
     .desc = A control terminal for the area's electrical systems.
-    .suffix = { "" }
 
 ent-APCFrame = APC frame
     .desc = A control terminal for the area's electrical systems, lacking the electronics.
-    .suffix = { "" }
 
 ent-APCConstructed = APC frame
     .desc = A control terminal for the area's electrical systems, lacking the electronics.

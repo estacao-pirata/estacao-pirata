@@ -1,10 +1,8 @@
 ent-SolarPanelBasePhysSprite = solar panel
     .desc = { "" }
-    .suffix = { "" }
 
 ent-SolarPanel = solar panel
     .desc = A solar panel that generates power.
-    .suffix = { "" }
 
 ent-SolarPanelBroken = solar panel
     .desc = A broken solar panel.

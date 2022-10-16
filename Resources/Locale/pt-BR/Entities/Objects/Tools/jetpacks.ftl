@@ -1,6 +1,5 @@
 ent-BaseJetpack = Jetpack
     .desc = It's a jetpack.
-    .suffix = { "" }
 
 ent-JetpackBlue = jetpack
     .desc = It's a jetpack.

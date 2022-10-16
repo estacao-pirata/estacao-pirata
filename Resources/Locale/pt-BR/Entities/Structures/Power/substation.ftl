@@ -1,10 +1,8 @@
 ent-BaseSubstation = substation
     .desc = Reduces the voltage of electricity put into it.
-    .suffix = { "" }
 
 ent-BaseSubstationWall = wallmount substation
     .desc = A substation designed for compact shuttles and spaces.
-    .suffix = { "" }
 
 ent-SubstationBasic = wallmount substation
     .desc = A substation designed for compact shuttles and spaces.

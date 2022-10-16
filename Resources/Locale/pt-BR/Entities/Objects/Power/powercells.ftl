@@ -1,6 +1,5 @@
 ent-PowerCellPotato = potato battery
     .desc = Someone's stuck two nails and some wire in a large potato. Somehow it provides a little charge.
-    .suffix = { "" }
 
 ent-PowerCellSmall = small-capacity power cell
     .desc = A rechargeable power cell. This is the cheapest kind you can find.

@@ -1,14 +1,11 @@
 ent-BaseGenerator = generator
     .desc = A high efficiency thermoelectric generator.
-    .suffix = { "" }
 
 ent-BaseGeneratorWallmount = wallmount generator
     .desc = A high efficiency thermoelectric generator stuffed in a wall cabinet.
-    .suffix = { "" }
 
 ent-BaseGeneratorWallmountFrame = wallmount generator frame
     .desc = A construction frame for a wallmount generator.
-    .suffix = { "" }
 
 ent-GeneratorBasic = wallmount generator frame
     .desc = A construction frame for a wallmount generator.

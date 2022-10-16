@@ -1,6 +1,5 @@
 ent-GasFilter = gas filter
     .desc = Very useful for filtering gases.
-    .suffix = { "" }
 
 ent-GasFilterFlipped = gas filter
     .desc = Very useful for filtering gases.

@@ -1,26 +1,20 @@
 ent-DisposalHolder = disposal holder
     .desc = { "" }
-    .suffix = { "" }
 
 ent-DisposalPipeBroken = broken disposal pipe
     .desc = A BBP (big broken pipe)
-    .suffix = { "" }
 
 ent-DisposalPipe = disposal pipe segment
     .desc = A huge pipe segment used for constructing disposal systems.
-    .suffix = { "" }
 
 ent-DisposalTagger = disposal pipe tagger
     .desc = A pipe that tags entities for routing.
-    .suffix = { "" }
 
 ent-DisposalTrunk = disposal trunk
     .desc = A pipe trunk used as an entry point for disposal systems.
-    .suffix = { "" }
 
 ent-DisposalRouter = disposal router
     .desc = A three-way router. Entities with matching tags get routed to the side via configurable filters.
-    .suffix = { "" }
 
 ent-DisposalRouterFlipped = disposal router
     .desc = A three-way router. Entities with matching tags get routed to the side.

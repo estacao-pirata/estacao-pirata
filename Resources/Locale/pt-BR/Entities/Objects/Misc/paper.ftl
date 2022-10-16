@@ -1,34 +1,26 @@
 ent-Paper = paper
     .desc = A piece of white paper.
-    .suffix = { "" }
 
 ent-PaperWritten = paper
     .desc = A piece of white paper.
-    .suffix = { "" }
 
 ent-NukeCodePaper = nuclear authentication codes
     .desc = A piece of white paper.
-    .suffix = { "" }
 
 ent-Pen = pen
     .desc = A dark ink pen.
-    .suffix = { "" }
 
 ent-CyberPen = Cybersun pen
     .desc = A high-tech pen straight from Cybersun's legal department, capable of refracting hard-light at impossible angles through its diamond tip in order to write.
-    .suffix = { "" }
 
 ent-PenCap = captain's fountain pen
     .desc = A luxurious fountain pen for the captain of the station.
-    .suffix = { "" }
 
 ent-PenHop = hop's fountain pen
     .desc = A luxurious fountain pen for the hop of the station.
-    .suffix = { "" }
 
 ent-BoxFolderBase = folder
     .desc = A folder filled with top secret paperwork.
-    .suffix = { "" }
 
 ent-BoxFolderRed = folder
     .desc = A folder filled with top secret paperwork.

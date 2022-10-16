@@ -1,14 +1,11 @@
 ent-MobHuman = Urist McHands
     .desc = { "" }
-    .suffix = { "" }
 
 ent-MobHumanCentcomOfficial = CentCom official
     .desc = { "" }
-    .suffix = { "" }
 
 ent-MobHumanERTLeader = ERT leader
     .desc = { "" }
-    .suffix = { "" }
 
 ent-MobHumanERTLeaderEVA = ERT leader
     .desc = { "" }

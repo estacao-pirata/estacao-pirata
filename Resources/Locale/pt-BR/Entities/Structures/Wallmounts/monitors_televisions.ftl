@@ -1,6 +1,5 @@
 ent-WallmountTelescreenFrame = telescreen frame
     .desc = Finally, some decent reception around here...
-    .suffix = { "" }
 
 ent-WallmountTelescreen = telescreen
     .desc = Finally, some decent reception around here...

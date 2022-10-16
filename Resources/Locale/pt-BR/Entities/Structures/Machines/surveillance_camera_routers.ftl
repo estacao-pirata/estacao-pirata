@@ -1,6 +1,5 @@
 ent-SurveillanceCameraRouterBase = camera router
     .desc = A surveillance camera router. It routes. Perhaps.
-    .suffix = { "" }
 
 ent-SurveillanceCameraRouterConstructed = camera router
     .desc = A surveillance camera router. It routes. Perhaps.

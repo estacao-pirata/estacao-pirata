@@ -1,30 +1,23 @@
 ent-ClothingMaskGas = gas mask
     .desc = A face-covering mask that can be connected to an air supply.
-    .suffix = { "" }
 
 ent-ClothingMaskGasSecurity = security gas mask
     .desc = A standard issue Security gas mask.
-    .suffix = { "" }
 
 ent-ClothingMaskGasSyndicate = syndicate gas mask
     .desc = A close-fitting tactical mask that can be connected to an air supply.
-    .suffix = { "" }
 
 ent-ClothingMaskGasAtmos = atmospheric gas mask
     .desc = Improved gas mask utilized by atmospheric technicians. It's flameproof!
-    .suffix = { "" }
 
 ent-ClothingMaskGasCaptain = captain's gas mask
     .desc = Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
-    .suffix = { "" }
 
 ent-ClothingMaskGasCentcom = CentCom gas mask
     .desc = Oooh, gold and green. Fancy! This should help as you sit in your office.
-    .suffix = { "" }
 
 ent-ClothingMaskGasExplorer = explorer gas mask
     .desc = A military-grade gas mask that can be connected to an air supply.
-    .suffix = { "" }
 
 ent-ClothingMaskGasVoiceMasker = gas mask
     .desc = A face-covering mask that can be connected to an air supply. There are switches and knobs underneath the mask.

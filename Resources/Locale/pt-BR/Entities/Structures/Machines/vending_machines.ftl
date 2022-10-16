@@ -1,62 +1,47 @@
 ent-VendingMachine = vending machine
     .desc = Just add capitalism!
-    .suffix = { "" }
 
 ent-VendingMachineAmmo = Liberation Station
     .desc = An overwhelming amount of ancient patriotism washes over you just by looking at the machine.
-    .suffix = { "" }
 
 ent-VendingMachineBooze = Booze-O-Mat
     .desc = A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
-    .suffix = { "" }
 
 ent-VendingMachineCart = PTech
     .desc = PTech vending! Providing a ROBUST selection of PDAs, cartridges, and anything else a dull paper pusher needs!
-    .suffix = { "" }
 
 ent-VendingMachineCigs = ShadyCigs Deluxe
     .desc = If you want to get cancer, might as well do it in style.
-    .suffix = { "" }
 
 ent-VendingMachineClothing = ClothesMate
     .desc = A vending machine for clothing.
-    .suffix = { "" }
 
 ent-VendingMachineCoffee = Solar's Best Hot Drinks
     .desc = Served boiling so it stays hot all shift!
-    .suffix = { "" }
 
 ent-VendingMachineCola = Robust Softdrinks
     .desc = A softdrink vendor provided by Robust Industries, LLC.
-    .suffix = { "" }
 
 ent-VendingMachineDinnerware = Plasteel Chef's Dinnerware Vendor
     .desc = A kitchen and restaurant equipment vendor.
-    .suffix = { "" }
 
 ent-VendingMachineMagivend = MagiVend
     .desc = A magic vending machine.
-    .suffix = { "" }
 
 ent-VendingMachineDiscount = Discount Dan's
     .desc = A vending machine containing discount snacks from the infamous 'Discount Dan' franchise.
-    .suffix = { "" }
 
 ent-VendingMachineEngivend = Engi-Vend
     .desc = Spare tool vending. What? Did you expect some witty description?
-    .suffix = { "" }
 
 ent-VendingMachineMedical = NanoMed Plus
     .desc = It's a medical drug dispenser. Natural chemicals only!
-    .suffix = { "" }
 
 ent-VendingMachineNutri = NutriMax
     .desc = A vending machine containing nutritional substances for plants and botanical tools.
-    .suffix = { "" }
 
 ent-VendingMachineSec = SecTech
     .desc = A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
-    .suffix = { "" }
 
 ent-VendingMachineSeedsUnlocked = MegaSeed Servitor
     .desc = For when you need seeds fast. Hands down the best seed selection on the station!

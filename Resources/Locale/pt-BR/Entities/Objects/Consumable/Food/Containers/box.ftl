@@ -1,10 +1,8 @@
 ent-FoodBoxDonut = donut box
     .desc = Mmm, Donuts.
-    .suffix = { "" }
 
 ent-FoodContainerEgg = egg carton
     .desc = Don't drop 'em!
-    .suffix = { "" }
 
 ent-EggBoxBroken = egg carton
     .desc = Don't drop 'em!

@@ -1,14 +1,11 @@
 ent-SpaceCash = zorkmids
     .desc = You gotta have money.
-    .suffix = { "" }
 
 ent-Credit = zorkmid
     .desc = You gotta have money.
-    .suffix = { "" }
 
 ent-Credit = zorkmids
     .desc = You gotta have money.
-    .suffix = { "" }
 
 ent-SpaceCash10 = zorkmids
     .desc = You gotta have money.

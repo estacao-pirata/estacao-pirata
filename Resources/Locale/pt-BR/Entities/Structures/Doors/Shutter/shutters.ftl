@@ -1,10 +1,8 @@
 ent-BaseShutter = shutter
     .desc = One shudders to think about what might be behind this shutter.
-    .suffix = { "" }
 
 ent-ShuttersNormal = shutter
     .desc = One shudders to think about what might be behind this shutter.
-    .suffix = { "" }
 
 ent-ShuttersNormalOpen = shutter
     .desc = One shudders to think about what might be behind this shutter.

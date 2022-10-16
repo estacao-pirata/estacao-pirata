@@ -1,6 +1,5 @@
 ent-MobRatKing = Moustagogue
     .desc = He's da rat. He make da roolz.
-    .suffix = { "" }
 
 ent-MobRatKingBuff = Moustagogue
     .desc = He's da rat. He make da roolz.

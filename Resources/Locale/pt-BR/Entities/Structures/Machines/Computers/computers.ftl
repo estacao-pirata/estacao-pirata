@@ -1,30 +1,23 @@
 ent-ComputerAlert = alerts computer
     .desc = Used to access the station's automated alert system.
-    .suffix = { "" }
 
 ent-ComputerEmergencyShuttle = emergency shuttle console
     .desc = Handles authorization to early launch the shuttle.
-    .suffix = { "" }
 
 ent-BaseComputerShuttle = shuttle console
     .desc = Used to pilot a shuttle.
-    .suffix = { "" }
 
 ent-ComputerShuttle = shuttle console
     .desc = Used to pilot a shuttle.
-    .suffix = { "" }
 
 ent-ComputerShuttleSyndie = syndicate shuttle console
     .desc = Used to pilot a syndicate shuttle.
-    .suffix = { "" }
 
 ent-ComputerShuttleCargo = cargo shuttle console
     .desc = Used to pilot the cargo shuttle.
-    .suffix = { "" }
 
 ent-ComputerIFF = IFF computer
     .desc = Allows you to control the IFF characteristics of this vessel.
-    .suffix = { "" }
 
 ent-ComputerIFFSyndicate = IFF computer
     .desc = Allows you to control the IFF and stealth characteristics of this vessel.
