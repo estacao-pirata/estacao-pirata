@@ -1,44 +1,4 @@
 Entries:
-- author: metalgearsloth
-  changes:
-  - {message: Mobs are now properly throwable, type: Tweak}
-  id: 1969
-  time: '2022-07-16T03:04:14.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Throwing pushback reduced to half when weightless., type: Tweak}
-  - {message: Weightless distance for touching upped to 1m as 0.6m to be more forgiving
-      when weightless., type: Tweak}
-  - {message: Vehicles are now predicted. Vehicles are also now generally higher speed
-      but lower acceleration than mobs. ATVs are fastest but have lowest acceleration.,
-    type: Tweak}
-  - {message: Changed mobs back to 4.5 speed., type: Tweak}
-  - {message: Shuttle strafing and rotation now have their own keybinds. Shuttle braking
-      has been implemented on spacebar., type: Tweak}
-  id: 1970
-  time: '2022-07-16T03:51:52.0000000+00:00'
-- author: Zumorica
-  changes:
-  - {message: Fixed the makeshift laser recipe not accepting certain diamonds sometimes.,
-    type: Fix}
-  id: 1971
-  time: '2022-07-16T17:43:24.0000000+00:00'
-- author: SunbearDev
-  changes:
-  - {message: added an error as an object!, type: Add}
-  id: 1972
-  time: '2022-07-16T22:33:30.0000000+00:00'
-- author: 13spacemen
-  changes:
-  - {message: 'Added purple research airlocks, green virology airlocks, (not mapped
-      in yet)', type: Add}
-  id: 1973
-  time: '2022-07-16T22:35:39.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Shuttle braking now uses thrusters., type: Tweak}
-  id: 1974
-  time: '2022-07-17T09:36:09.0000000+00:00'
 - author: metalgearsloth and DogZeroX
   changes:
   - {message: 'FTL mechanics have been added allowing you to go (for now, limited)
@@ -2945,3 +2905,37 @@ Entries:
   - {message: Buckle teleporting should be fixed for now., type: Fix}
   id: 2468
   time: '2022-10-16T06:38:05.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: If you try to swing melee out of range it doesn't waste the swing.,
+    type: Tweak}
+  id: 2469
+  time: '2022-10-16T15:54:43.0000000+00:00'
+- author: moony
+  changes:
+  - {message: The action bar no longer shows the keybind for empty slots., type: Tweak}
+  id: 2470
+  time: '2022-10-16T16:42:19.0000000+00:00'
+- author: vulppine
+  changes:
+  - {message: 'NanoTrasen has given some of your television cameras microphones. Now
+      you can actually hear the news, instead of having to either lip read the newscasters,
+      or have them ring in your headset all the events of the station!', type: Add}
+  id: 2471
+  time: '2022-10-16T17:44:14.0000000+00:00'
+- author: themias
+  changes:
+  - {message: Added voice trigger for modular grenades, type: Add}
+  id: 2472
+  time: '2022-10-16T17:44:51.0000000+00:00'
+- author: Scribbles0
+  changes:
+  - {message: 'Fixed, removed, and changed some of Cluster''s lights around.', type: Tweak}
+  id: 2473
+  time: '2022-10-16T18:20:22.0000000+00:00'
+- author: Nairod
+  changes:
+  - {message: Added spare passenger headsets for the HoP in their locker and vendor,
+    type: Add}
+  id: 2474
+  time: '2022-10-16T18:21:02.0000000+00:00'
