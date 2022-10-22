@@ -30,7 +30,6 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using Content.Server.Station.Systems;
-using Content.Shared.Localizations;
 
 namespace Content.Server.Entry
 {
@@ -87,7 +86,6 @@ namespace Content.Server.Entry
                 logManager.GetSawmill("Storage").Level = LogLevel.Info;
                 logManager.GetSawmill("db.ef").Level = LogLevel.Info;
 
-                IoCManager.Resolve<ContentLocalizationManager>().Initialize();
                 IoCManager.Resolve<IAdminLogManager>().Initialize();
                 IoCManager.Resolve<IConnectionManager>().Initialize();
                 IoCManager.Resolve<IServerDbManager>().Init();

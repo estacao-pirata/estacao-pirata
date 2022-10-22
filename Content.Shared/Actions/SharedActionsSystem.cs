@@ -268,7 +268,7 @@ public abstract class SharedActionsSystem : EntitySystem
         return _interactionSystem.InRangeUnobstructed(user, coords, range: action.Range);
     }
 
-    public void PerformAction(ActionsComponent component, ActionType action, BaseActionEvent? actionEvent, TimeSpan curTime)
+    protected void PerformAction(ActionsComponent component, ActionType action, BaseActionEvent? actionEvent, TimeSpan curTime)
     {
         var handled = false;
 

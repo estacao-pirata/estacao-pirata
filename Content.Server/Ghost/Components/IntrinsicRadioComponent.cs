@@ -6,7 +6,6 @@ using Content.Shared.Radio;
 using Robust.Server.GameObjects;
 using Robust.Shared.Network;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.Set;
-using Robust.Shared.Utility;
 
 namespace Content.Server.Ghost.Components
 {
@@ -38,14 +37,12 @@ namespace Content.Server.Ghost.Components
                 name = Identity.Name(speaker, _entMan);
             }
 
-            message = FormattedMessage.EscapeText(message);
-            name = FormattedMessage.EscapeText(name);
-
             var msg = new MsgChatMessage
             {
                 Channel = ChatChannel.Radio,
                 Message = message,
-                WrappedMessage = Loc.GetString("chat-radio-message-wrap", ("color", channel.Color), ("channel", $"\\[{channel.LocalizedName}\\]"), ("name", name), ("message", message))
+                //Square brackets are added here to avoid issues with escaping
+                MessageWrap = Loc.GetString("chat-radio-message-wrap", ("color", channel.Color), ("channel", $"\\[{channel.LocalizedName}\\]"), ("name", name))
             };
 
             _netManager.ServerSendMessage(msg, playerChannel);

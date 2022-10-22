@@ -23,9 +23,9 @@ namespace Content.Client.Chat
         public ChatChannel Channel { get; set; }
 
         /// <summary>
-        ///     Modified message with some wrapping text. E.g. 'Joe says: "HELP!"'
+        ///     What to "wrap" the message contents with. Example is stuff like 'Joe says: "{0}"'
         /// </summary>
-        public string WrappedMessage { get; set; }
+        public string MessageWrap { get; set; }
 
         /// <summary>
         /// The override color of the message
@@ -44,7 +44,7 @@ namespace Content.Client.Chat
         {
             Message = netMsg.Message;
             Channel = netMsg.Channel;
-            WrappedMessage = netMsg.WrappedMessage;
+            MessageWrap = netMsg.MessageWrap;
             MessageColorOverride = netMsg.MessageColorOverride;
         }
     }

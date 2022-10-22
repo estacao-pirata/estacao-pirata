@@ -1,10 +1,12 @@
-using System.Threading;
+﻿using System.Threading;
 using Content.Server.DoAfter;
 using Content.Server.Gatherable.Components;
 using Content.Shared.Damage;
 using Content.Shared.EntityList;
 using Content.Shared.Interaction;
 using Content.Shared.Tag;
+using Robust.Shared.Audio;
+using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
@@ -12,11 +14,10 @@ namespace Content.Server.Gatherable;
 
 public sealed class GatherableSystem : EntitySystem
 {
-    [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly DoAfterSystem _doAfterSystem = default!;
     [Dependency] private readonly DamageableSystem _damageableSystem = default!;
-    [Dependency] private readonly IRobustRandom _random = default!;
-    [Dependency] private readonly TagSystem _tagSystem = default!;
+    [Dependency] private readonly IRobustRandom _random = null!;
+    [Dependency] private readonly TagSystem _tagSystem = Get<TagSystem>();
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
     public override void Initialize()
@@ -63,12 +64,11 @@ public sealed class GatherableSystem : EntitySystem
 
         // Complete the gathering process
         _damageableSystem.TryChangeDamage(ev.Resource, tool.Damage, origin: ev.Player);
-        _audio.PlayPvs(tool.GatheringSound, ev.Resource);
+        SoundSystem.Play(tool.GatheringSound.GetSound(), Filter.Pvs(ev.Resource, entityManager: EntityManager), ev.Resource);
         tool.GatheringEntities.Remove(ev.Resource);
 
         // Spawn the loot!
-        if (component.MappedLoot == null)
-            return;
+        if (component.MappedLoot == null) return;
 
         var playerPos = Transform(ev.Player).MapPosition;
 
@@ -76,8 +76,7 @@ public sealed class GatherableSystem : EntitySystem
         {
             if (tag != "All")
             {
-                if (!_tagSystem.HasTag(tool.Owner, tag))
-                    continue;
+                if (!_tagSystem.HasTag(tool.Owner, tag)) continue;
             }
             var getLoot = _prototypeManager.Index<EntityLootTablePrototype>(table);
             var spawnLoot = getLoot.GetSpawns();

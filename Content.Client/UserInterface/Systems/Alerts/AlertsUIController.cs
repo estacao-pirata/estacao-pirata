@@ -49,11 +49,6 @@ public sealed class AlertsUIController : UIController, IOnStateEntered<GameplayS
         }
 
         // initially populate the frame if system is available
-        SyncAlerts();
-    }
-
-    public void SyncAlerts()
-    {
         var alerts = _alertsSystem?.ActiveAlerts;
         if (alerts != null)
         {

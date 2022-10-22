@@ -187,12 +187,8 @@ namespace Content.Server.Light.EntitySystems
 
         public bool TurnOff(HandheldLightComponent component, bool makeNoise = true)
         {
-            if (!component.Activated || !TryComp<PointLightComponent>(component.Owner, out var pointLightComponent))
-            {
-                return false;
-            }
+            if (!component.Activated) return false;
 
-            pointLightComponent.Enabled = false;
             SetActivated(component.Owner, false, component, makeNoise);
             component.Level = null;
             _activeLights.Remove(component);
@@ -201,10 +197,7 @@ namespace Content.Server.Light.EntitySystems
 
         public bool TurnOn(EntityUid user, HandheldLightComponent component)
         {
-            if (component.Activated || !TryComp<PointLightComponent>(component.Owner, out var pointLightComponent))
-            {
-                return false;
-            }
+            if (component.Activated) return false;
 
             if (!_powerCell.TryGetBatteryFromSlot(component.Owner, out var battery) &&
                 !TryComp(component.Owner, out battery))
@@ -224,7 +217,6 @@ namespace Content.Server.Light.EntitySystems
                 return false;
             }
 
-            pointLightComponent.Enabled = true;
             SetActivated(component.Owner, true, component, true);
             _activeLights.Add(component);
 

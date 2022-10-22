@@ -30,13 +30,14 @@ public sealed class AdminUIController : UIController, IOnStateEntered<GameplaySt
     [UISystemDependency] private readonly VerbSystem _verbs = default!;
 
     private AdminMenuWindow? _window;
-    private MenuButton? AdminButton => UIManager.GetActiveUIWidgetOrNull<MenuBar.Widgets.GameTopMenuBar>()?.AdminButton;
+    private MenuButton? _adminButton;
 
     public void OnStateEntered(GameplayState state)
     {
         DebugTools.Assert(_window == null);
 
         _window = UIManager.CreateWindow<AdminMenuWindow>();
+        _adminButton = UIManager.GetActiveUIWidget<MenuBar.Widgets.GameTopMenuBar>().AdminButton;
         LayoutContainer.SetAnchorPreset(_window, LayoutContainer.LayoutPreset.Center);
 
         _window.PlayerTabControl.OnEntryPressed += PlayerTabEntryPressed;
@@ -44,6 +45,7 @@ public sealed class AdminUIController : UIController, IOnStateEntered<GameplaySt
         _window.OnOpen += OnWindowOpen;
         _window.OnClose += OnWindowClosed;
         _admin.AdminStatusUpdated += AdminStatusUpdated;
+        _adminButton.OnPressed += AdminButtonPressed;
 
         _input.SetInputCommand(ContentKeyFunctions.OpenAdminMenu,
             InputCmdHandler.FromDelegate(_ => Toggle()));
@@ -51,36 +53,16 @@ public sealed class AdminUIController : UIController, IOnStateEntered<GameplaySt
         AdminStatusUpdated();
     }
 
-    public void UnloadButton()
-    {
-        if (AdminButton == null)
-        {
-            return;
-        }
-
-        AdminButton.OnPressed -= AdminButtonPressed;
-    }
-
-    public void LoadButton()
-    {
-        if (AdminButton == null)
-        {
-            return;
-        }
-
-        AdminButton.OnPressed += AdminButtonPressed;
-    }
-
     private void OnWindowOpen()
     {
-        if (AdminButton != null)
-            AdminButton.Pressed = true;
+        if (_adminButton != null)
+            _adminButton.Pressed = true;
     }
 
     private void OnWindowClosed()
     {
-        if (AdminButton != null)
-            AdminButton.Pressed = false;
+        if (_adminButton != null)
+            _adminButton.Pressed = false;
     }
 
     public void OnStateExited(GameplayState state)
@@ -98,12 +80,19 @@ public sealed class AdminUIController : UIController, IOnStateEntered<GameplaySt
 
         _admin.AdminStatusUpdated -= AdminStatusUpdated;
 
+        if (_adminButton != null)
+        {
+            _adminButton.Pressed = false;
+            _adminButton.OnPressed -= AdminButtonPressed;
+            _adminButton = null;
+        }
+
         CommandBinds.Unregister<AdminUIController>();
     }
 
     private void AdminStatusUpdated()
     {
-        AdminButton!.Visible = _conGroups.CanAdminMenu();
+        _adminButton!.Visible = _conGroups.CanAdminMenu();
     }
 
     private void AdminButtonPressed(ButtonEventArgs args)

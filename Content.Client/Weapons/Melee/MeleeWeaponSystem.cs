@@ -81,8 +81,6 @@ public sealed partial class MeleeWeaponSystem : SharedMeleeWeaponSystem
             return;
         }
 
-        // TODO using targeted actions while combat mode is enabled should NOT trigger attacks.
-
         var useDown = _inputSystem.CmdStates.GetState(EngineKeyFunctions.Use);
         var altDown = _inputSystem.CmdStates.GetState(EngineKeyFunctions.UseSecondary);
         var currentTime = Timing.CurTime;

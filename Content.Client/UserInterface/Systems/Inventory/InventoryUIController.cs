@@ -1,6 +1,5 @@
 using Content.Client.Gameplay;
 using Content.Client.Hands;
-using Content.Client.Hands.Systems;
 using Content.Client.Inventory;
 using Content.Client.Storage;
 using Content.Client.UserInterface.Controls;
@@ -21,32 +20,31 @@ using static Robust.Client.UserInterface.Controls.BaseButton;
 namespace Content.Client.UserInterface.Systems.Inventory;
 
 public sealed class InventoryUIController : UIController, IOnStateEntered<GameplayState>, IOnStateExited<GameplayState>,
-    IOnSystemChanged<ClientInventorySystem>, IOnSystemChanged<HandsSystem>
+    IOnSystemChanged<ClientInventorySystem>
 {
     [Dependency] private readonly IEntityManager _entities = default!;
 
     [UISystemDependency] private readonly ClientInventorySystem _inventorySystem = default!;
-    [UISystemDependency] private readonly HandsSystem _handsSystem = default!;
 
     private ClientInventoryComponent? _playerInventory;
     private readonly Dictionary<string, ItemSlotButtonContainer> _slotGroups = new();
 
     private StrippingWindow? _strippingWindow;
     private ItemSlotButtonContainer? _inventoryHotbar;
-    private MenuButton? InventoryButton => UIManager.ActiveScreen?.GetWidget<MenuBar.Widgets.GameTopMenuBar>()?.InventoryButton;
-
-    private SlotControl? _lastHovered = null;
+    private MenuButton? _inventoryButton;
 
     public void OnStateEntered(GameplayState state)
     {
         DebugTools.Assert(_strippingWindow == null);
         _strippingWindow = UIManager.CreateWindow<StrippingWindow>();
+        _inventoryButton = UIManager.GetActiveUIWidget<MenuBar.Widgets.GameTopMenuBar>().InventoryButton;
         LayoutContainer.SetAnchorPreset(_strippingWindow, LayoutContainer.LayoutPreset.Center);
 
         //bind open inventory key to OpenInventoryMenu;
         CommandBinds.Builder
             .Bind(ContentKeyFunctions.OpenInventoryMenu, InputCmdHandler.FromDelegate(_ => ToggleInventoryBar()))
             .Register<ClientInventorySystem>();
+        _inventoryButton.OnPressed += InventoryButtonPressed;
     }
 
     public void OnStateExited(GameplayState state)
@@ -62,27 +60,14 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
             _inventoryHotbar.Visible = false;
         }
 
+        if (_inventoryButton != null)
+        {
+            _inventoryButton.OnPressed -= InventoryButtonPressed;
+            _inventoryButton.Pressed = false;
+            _inventoryButton = null;
+        }
+
         CommandBinds.Unregister<ClientInventorySystem>();
-    }
-
-    public void UnloadButton()
-    {
-        if (InventoryButton == null)
-        {
-            return;
-        }
-
-        InventoryButton.OnPressed -= InventoryButtonPressed;
-    }
-
-    public void LoadButton()
-    {
-        if (InventoryButton == null)
-        {
-            return;
-        }
-
-        InventoryButton.OnPressed += InventoryButtonPressed;
     }
 
     private SlotButton CreateSlotButton(SlotData data)
@@ -181,14 +166,14 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
         if (_inventoryHotbar.Visible)
         {
             _inventoryHotbar.Visible = false;
-            if (InventoryButton != null)
-                InventoryButton.Pressed = false;
+            if (_inventoryButton != null)
+                _inventoryButton.Pressed = false;
         }
         else
         {
             _inventoryHotbar.Visible = true;
-            if (InventoryButton != null)
-                InventoryButton.Pressed = true;
+            if (_inventoryButton != null)
+                _inventoryButton.Pressed = true;
         }
     }
 
@@ -252,12 +237,6 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
 
     private void SlotButtonHovered(GUIMouseHoverEventArgs args, SlotControl control)
     {
-        UpdateHover(control);
-        _lastHovered = control;
-    }
-
-    public void UpdateHover(SlotControl control)
-    {
         var player = _playerInventory?.Owner;
 
         if (!control.MouseIsHovering ||
@@ -298,11 +277,6 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
             return;
 
         slotGroup.RemoveButton(data.SlotName);
-    }
-
-    public void ReloadSlots()
-    {
-        _inventorySystem.ReloadInventory();
     }
 
     private void LoadSlots(ClientInventoryComponent clientInv)
@@ -348,47 +322,12 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
         if (_slotGroups.TryAdd(slotContainer.SlotGroup, slotContainer))
             return true;
 
+        Logger.Warning("Could not add container for slotgroup: " + slotContainer.SlotGroup);
         return false;
     }
 
     public void RemoveSlotGroup(string slotGroupName)
     {
         _slotGroups.Remove(slotGroupName);
-    }
-
-    // Monkey Sees Action
-    // Neuron Activation
-    // Monkey copies code
-    public void OnSystemLoaded(HandsSystem system)
-    {
-        _handsSystem.OnPlayerItemAdded += OnItemAdded;
-        _handsSystem.OnPlayerItemRemoved += OnItemRemoved;
-        _handsSystem.OnPlayerSetActiveHand += SetActiveHand;
-    }
-
-    public void OnSystemUnloaded(HandsSystem system)
-    {
-        _handsSystem.OnPlayerItemAdded -= OnItemAdded;
-        _handsSystem.OnPlayerItemRemoved -= OnItemRemoved;
-        _handsSystem.OnPlayerSetActiveHand -= SetActiveHand;
-    }
-
-
-    private void OnItemAdded(string name, EntityUid entity)
-    {
-        if (_lastHovered != null)
-            UpdateHover(_lastHovered);
-    }
-
-    private void OnItemRemoved(string name, EntityUid entity)
-    {
-        if (_lastHovered != null)
-            UpdateHover(_lastHovered);
-    }
-
-    private void SetActiveHand(string? handName)
-    {
-        if (_lastHovered != null)
-            UpdateHover(_lastHovered);
     }
 }

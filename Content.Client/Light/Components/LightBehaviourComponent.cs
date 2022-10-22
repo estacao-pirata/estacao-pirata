@@ -177,14 +177,6 @@ namespace Content.Client.Light.Components
     [UsedImplicitly]
     public sealed class FadeBehaviour : LightBehaviourAnimationTrack
     {
-        /// <summary>
-        /// Automatically reverse the animation when EndValue is reached. In this particular case, MaxTime specifies the
-        /// time of the full animation, including the reverse interpolation.
-        /// </summary>
-        [DataField("reverseWhenFinished")]
-        [ViewVariables]
-        public bool ReverseWhenFinished { get; set; }
-
         public override (int KeyFrameIndex, float FramePlayingTime) AdvancePlayback(
             object context, int prevKeyFrameIndex, float prevPlayingTime, float frameTime)
         {
@@ -197,41 +189,21 @@ namespace Content.Client.Light.Components
                 return (-1, playingTime);
             }
 
-            // From 0 to MaxTime/2, we go from StartValue to EndValue. From MaxTime/2 to MaxTime, we reverse this interpolation.
-            if (ReverseWhenFinished)
-            {
-                if (interpolateValue < 0.5f)
-                {
-                    ApplyInterpolation(StartValue, EndValue, interpolateValue*2);
-                }
-                else
-                {
-                    ApplyInterpolation(EndValue, StartValue, (interpolateValue-0.5f)*2);
-                }
-            }
-            else
-            {
-                ApplyInterpolation(StartValue, EndValue, interpolateValue);
-            }
-
-            return (-1, playingTime);
-        }
-
-        private void ApplyInterpolation(float start, float end, float interpolateValue)
-        {
             switch (InterpolateMode)
             {
                 case AnimationInterpolationMode.Linear:
-                    ApplyProperty(InterpolateLinear(start, end, interpolateValue));
+                    ApplyProperty(InterpolateLinear(StartValue, EndValue, interpolateValue));
                     break;
                 case AnimationInterpolationMode.Cubic:
-                    ApplyProperty(InterpolateCubic(end, start, end, start, interpolateValue));
+                    ApplyProperty(InterpolateCubic(EndValue, StartValue, EndValue, StartValue, interpolateValue));
                     break;
                 default:
                 case AnimationInterpolationMode.Nearest:
-                    ApplyProperty(interpolateValue < 0.5f ? start : end);
+                    ApplyProperty(interpolateValue < 0.5f ? StartValue : EndValue);
                     break;
             }
+
+            return (-1, playingTime);
         }
     }
 
@@ -397,8 +369,11 @@ namespace Content.Client.Light.Components
         [ViewVariables(VVAccess.ReadOnly)]
         private readonly List<AnimationContainer> _animations = new();
 
-        [ViewVariables(VVAccess.ReadOnly)]
-        private Dictionary<string, object> _originalPropertyValues = new();
+        private float _originalRadius;
+        private float _originalEnergy;
+        private Angle _originalRotation;
+        private Color _originalColor;
+        private bool _originalEnabled;
 
         void ISerializationHooks.AfterDeserialization()
         {
@@ -419,6 +394,8 @@ namespace Content.Client.Light.Components
         protected override void Startup()
         {
             base.Startup();
+
+            CopyLightSettings();
 
             // TODO: Do NOT ensure component here. And use eventbus events instead...
             Owner.EnsureComponent<AnimationPlayerComponent>();
@@ -468,15 +445,15 @@ namespace Content.Client.Light.Components
         /// <summary>
         /// If we disable all the light behaviours we want to be able to revert the light to its original state.
         /// </summary>
-        private void CopyLightSettings(string property)
+        private void CopyLightSettings()
         {
             if (_entMan.TryGetComponent(Owner, out PointLightComponent? light))
             {
-                var propertyValue = AnimationHelper.GetAnimatableProperty(light, property);
-                if (propertyValue != null)
-                {
-                    _originalPropertyValues.Add(property, propertyValue);
-                }
+                _originalColor = light.Color;
+                _originalEnabled = light.Enabled;
+                _originalEnergy = light.Energy;
+                _originalRadius = light.Radius;
+                _originalRotation = light.Rotation;
             }
             else
             {
@@ -502,7 +479,6 @@ namespace Content.Client.Light.Components
                 {
                     if (!animation.HasRunningAnimation(KeyPrefix + container.Key))
                     {
-                        CopyLightSettings(container.LightBehaviour.Property);
                         container.LightBehaviour.UpdatePlaybackValues(container.Animation);
                         animation.Play(container.Animation, KeyPrefix + container.Key);
                     }
@@ -550,27 +526,12 @@ namespace Content.Client.Light.Components
 
             if (resetToOriginalSettings && _entMan.TryGetComponent(Owner, out PointLightComponent? light))
             {
-                foreach (var (property, value) in _originalPropertyValues)
-                {
-                    AnimationHelper.SetAnimatableProperty(light, property, value);
-                }
+                light.Color = _originalColor;
+                light.Enabled = _originalEnabled;
+                light.Energy = _originalEnergy;
+                light.Radius = _originalRadius;
+                light.Rotation = _originalRotation;
             }
-
-            _originalPropertyValues.Clear();
-        }
-
-        /// <summary>
-        /// Checks if at least one behaviour is running.
-        /// </summary>
-        /// <returns>Whether at least one behaviour is running, false if none is.</returns>
-        public bool HasRunningBehaviours()
-        {
-            if (!_entMan.TryGetComponent(Owner, out AnimationPlayerComponent? animation))
-            {
-                return false;
-            }
-
-            return _animations.Any(container => animation.HasRunningAnimation(KeyPrefix + container.Key));
         }
 
         /// <summary>

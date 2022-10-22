@@ -35,7 +35,6 @@ using Robust.Shared.Audio;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Content.Server.Administration.Commands;
-using Content.Server.Humanoid.Systems;
 using Content.Shared.Preferences;
 using Content.Server.Preferences.Managers;
 
@@ -58,7 +57,6 @@ public sealed class NukeopsRuleSystem : GameRuleSystem
     [Dependency] private readonly RoundEndSystem _roundEndSystem = default!;
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
     [Dependency] private readonly GameTicker _ticker = default!;
-    [Dependency] private readonly RandomHumanoidSystem _randomHumanoid = default!;
 
 
     private enum WinType
@@ -734,7 +732,7 @@ public sealed class NukeopsRuleSystem : GameRuleSystem
 
             if (sessions.TryGetValue(i, out var session))
             {
-                var mob = _randomHumanoid.SpawnRandomHumanoid(_nukeopsRuleConfig.RandomHumanoidSettingsPrototype, _random.Pick(spawns), string.Empty);
+                var mob = EntityManager.SpawnEntity(_nukeopsRuleConfig.SpawnEntityPrototype, _random.Pick(spawns));
                 var profile = _prefs.GetPreferences(session.UserId).SelectedCharacter as HumanoidCharacterProfile;
                 SetupOperativeEntity(mob, spawnDetails.Name, spawnDetails.Gear, profile);
 
