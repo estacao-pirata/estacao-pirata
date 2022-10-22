@@ -115,8 +115,9 @@ namespace Content.Client.Lobby
 
             if (_gameTicker.IsGameStarted)
             {
-                _lobby.StartTime.Text = string.Empty;
-                _lobby.StationTime.Text = Loc.GetString("lobby-state-player-status-station-time", ("stationTime", _gameTiming.CurTime.Subtract(_gameTicker.RoundStartTimeSpan).ToString("hh\\:mm")));
+                _lobby!.StartTime.Text = string.Empty;
+                var roundTime = _gameTiming.CurTime.Subtract(_gameTicker.RoundStartTimeSpan);
+                _lobby!.StationTime.Text = Loc.GetString("lobby-state-player-status-round-time", ("hours", roundTime.Hours), ("minutes", roundTime.Minutes));
                 return;
             }
 
@@ -140,8 +141,8 @@ namespace Content.Client.Lobby
                 }
             }
 
-            _lobby.StationTime.Text =  Loc.GetString("lobby-state-player-status-station-time", ("stationTime", TimeSpan.Zero.ToString("hh\\:mm")));
-            _lobby.StartTime.Text = Loc.GetString("lobby-state-round-start-countdown-text", ("timeLeft", text));
+            _lobby!.StationTime.Text =  Loc.GetString("lobby-state-player-status-round-not-started");
+            _lobby!.StartTime.Text = Loc.GetString("lobby-state-round-start-countdown-text", ("timeLeft", text));
         }
 
         private void LobbyStatusUpdated()

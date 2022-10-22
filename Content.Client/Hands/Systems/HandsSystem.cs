@@ -275,6 +275,10 @@ namespace Content.Client.Hands.Systems
             if (!Resolve(uid, ref handComp, ref sprite, false))
                 return;
 
+            // visual update might involve changes to the entity's effective sprite -> need to update hands GUI.
+            if (uid == _playerManager.LocalPlayer?.ControlledEntity)
+                OnPlayerItemAdded?.Invoke(hand.Name, held);
+
             if (!handComp.ShowInHands)
                 return;
 
