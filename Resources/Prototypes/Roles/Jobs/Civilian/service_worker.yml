@@ -4,7 +4,6 @@
   playTimeTracker: JobServiceWorker
   startingGear: ServiceWorkerGear
   icon: "ServiceWorker"
-  setPreference: false
   supervisors: job-supervisors-service
   canBeAntag: false
   access:

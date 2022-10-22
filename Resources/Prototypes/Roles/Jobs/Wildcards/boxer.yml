@@ -3,6 +3,7 @@
   name: job-name-boxer
   playTimeTracker: JobBoxer
   startingGear: BoxerGear
+  setPreference: false
   icon: "Boxer"
   supervisors: job-supervisors-hop
   access:

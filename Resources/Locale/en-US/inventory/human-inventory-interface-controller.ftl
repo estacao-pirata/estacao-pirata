@@ -1,1 +1,1 @@
-human-inventory-window-title = Seu inventário
+human-inventory-window-title = Your Inventory

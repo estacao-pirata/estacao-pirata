@@ -1,2 +1,2 @@
-radiation-command-description = Alternar a visibilidade dos raios de radiação provenientes de fontes de radiação
-radiation-command-help = Uso: showradiation
+radiation-command-description = Toggle visibility of radiation rays coming from rad sources
+radiation-command-help = Usage: showradiation

@@ -1,1 +1,1 @@
-make-ghost-role-verb-get-data-text = Criar função fantasma
+make-ghost-role-verb-get-data-text = Make Ghost Role
