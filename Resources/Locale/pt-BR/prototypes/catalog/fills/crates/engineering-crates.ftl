@@ -1,26 +1,26 @@
 ent-CrateEngineeringGear = Caixa de equipamento de engenharia
-    .desc = Various engineering gear parts.
+    .desc = Várias peças de engrenagem de engenharia.
 
 ent-CrateEngineeringToolbox = Caixa de ferramentas
-    .desc = Two mechanical and two electrical toolboxes.
+    .desc = Duas caixas de ferramentas mecânicas e duas elétricas.
 
 ent-CrateEngineeringPowercell = Caixe de AME
-    .desc = Three microcreactor powercells.
+    .desc = Três células de potência do microcriador.
 
 ent-CrateEngineeringCableLV = Caixa de cabos LV
-    .desc = 3 coils of LV cables.
+    .desc = 3 bobinas de cabos de BT.
 
 ent-CrateEngineeringCableMV = Caixa de cabos MV
-    .desc = 3 coils of MV cables.
+    .desc = 3 bobinas de cabos MT.
 
 ent-CrateEngineeringCableHV = Caixa de cabos HV
-    .desc = 3 coils of HV cables.
+    .desc = 3 bobinas de cabos de alta tensão.
 
 ent-CrateEngineeringCableBulk = Caixa de cabos gerais
-    .desc = 2 coils each for every cable type.
+    .desc = 2 bobinas cada para cada tipo de cabo.
 
 ent-CrateEngineeringElectricalSupplies = Caixa de suprimentos elétricos
-    .desc = NT is not responsible for any workplace infighting relating to the insulated gloves included within these crates.
+    .desc = A NT não é responsável por nenhuma briga interna no local de trabalho relacionada às luvas isoladas incluídas nessas caixas.
 
 ent-CrateEngineeringJetpack = Caixa de Jetpack
-    .desc = Two jetpacks for those who don't know how to use fire extinguishers.
+    .desc = Dois jetpacks para quem não sabe usar extintores.

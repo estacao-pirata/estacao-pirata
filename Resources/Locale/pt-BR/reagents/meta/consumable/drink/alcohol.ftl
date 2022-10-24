@@ -164,7 +164,7 @@ reagent-name-kira-special = kira special
 reagent-desc-kira-special = Vida longa ao cara que todo mundo confundiu com uma menina. Baka!
 
 reagent-name-long-island-iced-tea = long island iced tea
-reagent-desc-long-island-iced-tea = The liquor cabinet, brought together in a delicious mix. Feito para mulheres alcólicas de meia idade, apenas.
+reagent-desc-long-island-iced-tea = O armário de bebidas, reunido em uma deliciosa mistura. Feito para mulheres alcoólicas de meia idade, apenas.
 
 reagent-name-manhattan = manhattan
 reagent-desc-manhattan = A escolha de um detetive. Ele nunca poderia mandar um gin pra dentro...

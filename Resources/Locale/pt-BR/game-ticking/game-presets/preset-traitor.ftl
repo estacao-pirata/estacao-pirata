@@ -16,7 +16,7 @@ traitor-user-was-a-traitor-with-objectives = [color=gray]{$user}[/color] era um 
 traitor-user-was-a-traitor-with-objectives-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color]) era um traidor que tinha como objetivos:
 traitor-was-a-traitor-with-objectives-named = [color=White]{$name}[/color] era um traidor que tinha os seguintes objetivos:
 
-preset-traitor-objective-issuer-syndicate = [color=#87cefa]The Syndicate[/color]
+preset-traitor-objective-issuer-syndicate = [color=#87cefa]O Sindicato[/color]
 
 # Shown at the end of a round of Traitor
 traitor-objective-condition-success = {$condition} | [color={$markupColor}]Sucesso![/color]

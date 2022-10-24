@@ -1,4 +1,4 @@
-lathe-menu-title = Lathe Menu
+lathe-menu-title = Menu do Torno
 lathe-menu-queue = Fila
 lathe-menu-server-list = Servidores
 lathe-menu-sync = Sincronizar

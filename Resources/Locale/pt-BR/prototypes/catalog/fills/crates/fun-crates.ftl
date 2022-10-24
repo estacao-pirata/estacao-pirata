@@ -1,17 +1,17 @@
 ent-CrateFunPlushie = Caixa de pelúcias
-    .desc = A buncha soft plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
+    .desc = Um monte de pelúcias macias. Jogue-os ao redor e depois se pergunte como você vai explicar essa compra para o NT.
 
 ent-CrateFunInstruments = Coleção de instrumentos
-    .desc = Get your sad station movin' and groovin' with this fine collection! Contains thirteen different instruments.
+    .desc = Faça sua estação triste se mexer e curtir com esta bela coleção! Contém treze instrumentos diferentes.
 
 ent-CrateFunBrass = Caixa de intrumentos de sopro
-    .desc = Bring some jazz to the station with the brass ensemble. Contains a variety of brass instruments for the whole station to play.
+    .desc = Traga um pouco de jazz para a estação com o conjunto de metais. Contém uma variedade de instrumentos de sopro para toda a estação tocar.
 
 ent-CrateFunArtSupplies = Suprimentos Artísticos
-    .desc = Make some happy little accidents with lots of crayons!
+    .desc = Faça alguns pequenos acidentes felizes com muitos lápis de cor!
 
 ent-CrateFunBoardGames = Caixa de jogos de tabuleiro
-    .desc = Game nights have been proven to either decrease boredom or increase murderous rage depending on the game.
+    .desc = As noites de jogos comprovadamente diminuem o tédio ou aumentam a raiva assassina, dependendo do jogo.
 
 ent-CrateFunATV = Caixa de ATV
     .desc = Vruuuum, bibibi.

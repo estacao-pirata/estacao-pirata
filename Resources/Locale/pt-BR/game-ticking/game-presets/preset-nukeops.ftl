@@ -1,7 +1,7 @@
 nukeops-title = Operação Nuclear
 nukeops-description = Agentes nucleares têm como alvo a estação. Tente evitar de eles armarem e detonarem a bomba nuclear ao proteger o disco de autenticação!
 
-nukeops-welcome = You are a nuclear operative. Your goal is to blow up {$station}, and ensure that it is nothing but a pile of rubble. Your bosses, the Syndicate, have provided you with the tools you'll need for the task.
+nukeops-welcome = Você é um agente nuclear. Seu objetivo é explodir {$station} e garantir que não seja nada além de uma pilha de escombros. Seus chefes, o Sindicato, forneceram as ferramentas necessárias para a tarefa.
 
 nukeops-opsmajor = Grande vitória do sindicato!
 nukeops-opsminor = Pequena vitória do sindicato!

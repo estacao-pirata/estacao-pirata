@@ -47,10 +47,10 @@ cmd-playtime_save-error-args = Experado exatamente um argumento
 
 ## 'playtime_flush' command'
 
-cmd-playtime_flush-desc = Flush active trackers to stored in playtime tracking.
-cmd-playtime_flush-help = Usage: {$command} [user name]
-    This causes a flush to the internal storage only, it does not flush to DB immediately.
-    If a user is provided, only that user is flushed.
+cmd-playtime_flush-desc = Descarregue os rastreadores ativos para armazenados no rastreamento de tempo de reprodução.
+cmd-playtime_flush-help = Uso: {$command} [user name]
+    Isso causa uma liberação apenas para o armazenamento interno, não libera para o banco de dados imediatamente.
+    Se um usuário for fornecido, somente esse usuário será liberado.
 
-cmd-playtime_flush-error-args = Expected zero or one arguments
+cmd-playtime_flush-error-args = Esperado zero ou um argumento
 cmd-playtime_flush-arg-user = [user name]

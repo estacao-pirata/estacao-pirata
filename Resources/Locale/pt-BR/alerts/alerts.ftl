@@ -1,85 +1,85 @@
-alerts-low-oxygen-name = [color=red]Low Oxygen[/color]
-alerts-low-oxygen-desc = There is [color=red]not enough oxygen[/color] in the air you are breathing. Put on [color=green]internals[/color].
+alerts-low-oxygen-name = [color=red]Baixo Oxigênio[/color]
+alerts-low-oxygen-desc = Não há [color=red]oxigênio suficiente[/color] no ar que você está respirando. Coloque [color=green]internos[/color].
 
-alerts-high-toxin-name = [color=red]High Toxin Level[/color]
-alerts-high-toxin-desc = There are [color=red]too many toxins[/color] in the air you are breathing. Put on [color=green]internals[/color] or get away.
+alerts-high-toxin-name = [color=red]Alto Nível de Toxina[/color]
+alerts-high-toxin-desc = Existem [color=red]muitas toxinas[/color] no ar que você está respirando. Coloque [color=green]interno[/color] ou vá embora.
 
-alerts-low-pressure-name = [color=red]Low Pressure[/color]
-alerts-low-pressure-desc = The air around you is [color=red]hazardously thin[/color]. A [color=green]space suit[/color] would protect you.
+alerts-low-pressure-name = [color=red]Baixa Pressão[/color]
+alerts-low-pressure-desc = O ar ao seu redor é [color=red]extremamente rarefeito[/color]. Um [color=green]traje espacial[/color] protegeria você.
 
-alerts-high-pressure-name = [color=red]High Pressure[/color]
-alerts-high-pressure-desc = The air around you is [color=red]hazardously thick[/color]. A [color=green]pressurized suit[/color] would be enough protect you.
+alerts-high-pressure-name = [color=red]Alta Pressão[/color]
+alerts-high-pressure-desc = O ar ao seu redor é [color=red]especialmente espesso[/color]. Um [color=green]fato pressurizado[/color] seria suficiente para protegê-lo.
 
-alerts-on-fire-name = [color=red]On Fire[/color]
-alerts-on-fire-desc = You're [color=red]on fire[/color]. Click the alert to stop, drop and roll to put the fire out or move to a vacuum area.
+alerts-on-fire-name = [color=red]Em chamas[/color]
+alerts-on-fire-desc = Você está [color=red]em chamas[/color]. Clique no alerta para parar, soltar e rolar para apagar o fogo ou passar para uma área de vácuo.
 
-alerts-too-cold-name = [color=cyan]Too Cold[/color]
-alerts-too-cold-desc = You're [color=cyan]freezing cold![/color] Get somewhere warmer and take off any insulating clothing like a space suit.
+alerts-too-cold-name = [color=cyan]Muito frio[/color]
+alerts-too-cold-desc = Você está [color=cyan]muito frio![/color] Vá para um lugar mais quente e tire qualquer roupa isolante como um traje espacial.
 
-alerts-too-hot-name = [color=red]Too Hot[/color]
-alerts-too-hot-desc = It's [color=red]too hot![/color] Get somewhere colder, take off any insulating clothing like a space suit, or at least get away from the flames.
+alerts-too-hot-name = [color=red]Muito quente[/color]
+alerts-too-hot-desc = Está [color=red]muito quente![/color] Vá para um lugar mais frio, tire qualquer roupa isolante como um traje espacial, ou pelo menos fique longe das chamas.
 
-alerts-weightless-name = Weightless
+alerts-weightless-name = Sem peso
 alerts-weightless-desc =
-    Gravity has ceased affecting you, and you're floating around aimlessly. Find something sturdy to hold onto, or throw or shoot something in a direction opposite of you.
-    Mag-boots or jetpacks would help you move with more control.
+    A gravidade deixou de afetá-lo e você está flutuando sem rumo. Encontre algo resistente para segurar, ou jogue ou atire em algo na direção oposta a você.
+    Botas magnéticas ou mochilas a jato ajudariam você a se mover com mais controle.
 
-alerts-stunned-name = [color=yellow]Stunned[/color]
-alerts-stunned-desc = You're [color=yellow]stunned[/color]! Something is impairing your ability to move or interact with objects.
+alerts-stunned-name = [color=yellow]Atordoado[/color]
+alerts-stunned-desc = Você está [color=yellow]atordoado[/color]! Algo está prejudicando sua capacidade de se mover ou interagir com objetos.
 
-alerts-handcuffed-name = [color=yellow]Handcuffed[/color]
-alerts-handcuffed-desc = You're [color=yellow]handcuffed[/color] and can't use your hands. If anyone drags you, you won't be able to resist.
+alerts-handcuffed-name = [color=yellow]Algemado[/color]
+alerts-handcuffed-desc = Você está [color=yellow]algemado[/color] e não pode usar as mãos. Se alguém te arrastar, você não conseguirá resistir.
 
-alerts-ensnared-name = [color=yellow]Ensnared[/color]
-alerts-ensnared-desc = You're [color=yellow]ensnared[/color] and is impairing your ability to move.
+alerts-ensnared-name = [color=yellow]Enredado[/color]
+alerts-ensnared-desc = Você está [color=yellow]enredado[/color] e está prejudicando sua capacidade de se mover.
 
-alerts-buckled-name = [color=yellow]Buckled[/color]
-alerts-buckled-desc = You've been [color=yellow]buckled[/color] to something. Click the alert to unbuckle unless you're [color=yellow]handcuffed.[/color]
+alerts-buckled-name = [color=yellow]Afivelado[/color]
+alerts-buckled-desc = Você foi [color=yellow]afivelado[/color] a alguma coisa. Clique no alerta para desafivelar, a menos que você esteja [color=yellow]algemado.[/color]
 
-alerts-crit-name = [color=red]Critical Condition[/color]
-alerts-crit-desc = You're severely injured and unconscious.
+alerts-crit-name = [color=red]Condição crítica[/color]
+alerts-crit-desc = Você está gravemente ferido e inconsciente.
 
-alerts-dead-name = Dead
-alerts-dead-desc = You're dead, note that you can still be revived!
+alerts-dead-name = Morto
+alerts-dead-desc = Você está morto, note que você ainda pode ser revivido!
 
-alerts-health-name = Health
-alerts-health-desc = [color=green]Green[/color] good. [color=red]Red[/color] bad.
+alerts-health-name = Saúde
+alerts-health-desc = [color=green]Verde[/color] bom. [color=red]Vermelho[/color] ruim.
 
-alerts-internals-name = Toggle internals
-alerts-internals-desc = Toggles your gas tank internals on or off.
+alerts-internals-name = Alternar internos
+alerts-internals-desc = Ativa ou desativa os componentes internos do tanque de gasolina.
 
-alerts-internals-name = Toggle internals
-alerts-internals-desc = Toggles your gas tank internals on or off.
+alerts-internals-name = Alternar internos
+alerts-internals-desc = Ativa ou desativa os componentes internos do tanque de gasolina.
 
-alerts-piloting-name = Piloting Shuttle
-alerts-piloting-desc = You are piloting a shuttle. Click the alert to stop.
+alerts-piloting-name = Ônibus Piloto
+alerts-piloting-desc = Você está pilotando um ônibus espacial. Clique no alerta para parar.
 
-alerts-hunger-name = [color=yellow]Peckish[/color]
-alerts-hunger-desc = Some food would be good right about now.
+alerts-hunger-name = [color=yellow]Com fome[/color]
+alerts-hunger-desc = Alguma comida seria boa agora.
 
-alerts-stamina-name = Stamina
-alerts-stamina-desc = Stuns you if it is too low.
+alerts-stamina-name = Energia
+alerts-stamina-desc = Atordoa você se estiver muito baixo.
 
-alerts-starving-name = [color=red]Starving[/color]
-alerts-starving-desc = You're severely malnourished. The hunger pains make moving around a chore.
+alerts-starving-name = [color=red]Faminto[/color]
+alerts-starving-desc = Você está gravemente desnutrido. As dores da fome tornam a locomoção uma tarefa árdua.
 
-alerts-thirsty-name = [color=yellow]Thirsty[/color]
-alerts-thirsty-desc = Something to drink would be good right about now.
+alerts-thirsty-name = [color=yellow]Com sede[/color]
+alerts-thirsty-desc = Algo para beber seria bom agora.
 
-alerts-parched-name = [color=red]Parched[/color]
-alerts-parched-desc = You're severely thirsty. The thirst makes moving around a chore.
+alerts-parched-name = [color=red]Ressecado[/color]
+alerts-parched-desc = Você está com muita sede. A sede torna o movimento uma tarefa árdua.
 
-alerts-muted-name = Muted
-alerts-muted-desc = You have lost the ability to speak.
+alerts-muted-name = Silenciado
+alerts-muted-desc = Você perdeu a capacidade de falar.
 
-alerts-vow-silence-name = Vow of Silence
-alerts-vow-silence-desc = You have taken a vow of silence as part of initiation into the Mystiko Tagma Mimon. Click to break your vow.
+alerts-vow-silence-name = Voto de silêncio
+alerts-vow-silence-desc = Você fez um voto de silêncio como parte da iniciação na Mystiko Tagma Mimon. Clique para quebrar seu voto.
 
-alerts-vow-broken-name = Vow Broken
-alerts-vow-broken-desc = You've broken your vows to Mimes everywhere. You can speak, but you've lost your powers for at least 5 entire minutes!!! Click to try and retake your vow.
+alerts-vow-broken-name = Voto quebrado
+alerts-vow-broken-desc = Você quebrou seus votos para Mimes em todos os lugares. Você pode falar, mas perdeu seus poderes por pelo menos 5 minutos inteiros!!! Clique para tentar retomar seu voto.
 
-alerts-pulled-name = Pulled
-alerts-pulled-desc = You're being pulled. Move to break free.
+alerts-pulled-name = Retirado
+alerts-pulled-desc = Você está sendo puxado. Mova-se para se libertar.
 
-alerts-pulling-name = Pulling
-alerts-pulling-desc = You're pulling something. Click the alert to stop.
+alerts-pulling-name = Puxar
+alerts-pulling-desc = Você está puxando alguma coisa. Clique no alerta para parar.

@@ -1,2 +1,2 @@
-objective-condition-other-traitor-progress-title = Ensure fellow traitor {$targetName}, {CAPITALIZE($job)} achieves at least half their objectives.
-objective-condition-other-traitor-progress-description = Identify yourself at your own risk. We just need them to succeed.
+objective-condition-other-traitor-progress-title = Garanta que o colega traidor {$targetName}, {CAPITALIZE($job)} atinja pelo menos metade de seus objetivos.
+objective-condition-other-traitor-progress-description = Identifique-se por sua conta e risco. Só precisamos deles para ter sucesso.
