@@ -1,5 +1,5 @@
-action-name-jetpack-toggle = Alternar Jetpack
-action-description-jetpack-toggle = Liga o jetpack, te dando movimento fora da estação.
+action-name-jetpack-toggle = Toggle jetpack
+action-description-jetpack-toggle = Toggles the jetpack, giving you movement outside the station.
 
-jetpack-no-station = Não pode usar jetpack sob gravidade
-jetpack-to-grid = O jetpack desliga
+jetpack-no-station = Can't use jetpacks under gravity
+jetpack-to-grid = The jetpack turns off

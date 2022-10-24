@@ -1,5 +1,5 @@
-job-greet-station-name = Bem vindo a bordo da {$stationName}.
-job-greet-introduce-job-name = O seu trabalho é: {$jobName}.
-job-greet-important-disconnect-admin-notify = Você está com um trabalho que é importante para o progresso do jogo. Se você precisar se desconectar, Por favor notifique os administradores via Ahelp.
-job-greet-supervisors-warning = Você como um {$jobName} responde diretamente {$supervisors}. Circunstâncias especiais podem mudar isso.
-job-greet-crew-shortages = Como esta estação foi inicialmente comandada com uma tripulação fantasma, acesso adicional foi dado ao seu ID.
+job-greet-station-name = Welcome aboard {$stationName}.
+job-greet-introduce-job-name = Your role is: {$jobName}.
+job-greet-important-disconnect-admin-notify = You are playing a job that is important for Game Progression. If you have to disconnect, please notify the admins via ahelp.
+job-greet-supervisors-warning = As the {$jobName} you answer directly to {$supervisors}. Special circumstances may change this.
+job-greet-crew-shortages = As this station was initially staffed with a skeleton crew, additional access has been added to your ID card.

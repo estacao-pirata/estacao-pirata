@@ -1,23 +1,23 @@
 ### UI
 
-chat-manager-max-message-length = Sua mensagem excedeu o limite de {$maxMessageLength} caractéres
-chat-manager-ooc-chat-enabled-message = Chat OOC foi habilitado.
-chat-manager-ooc-chat-disabled-message = Chat OOC foi desabilitado.
-chat-manager-looc-chat-enabled-message = Chat LOOC foi habilitado.
-chat-manager-looc-chat-disabled-message = Chat LOOC foi desabilitado.
-chat-manager-dead-looc-chat-enabled-message = Jogadores mortos agora podem usar LOOC.
-chat-manager-dead-looc-chat-disabled-message = Jogadores mortos não podem mais usar LOOC.
-chat-manager-admin-ooc-chat-enabled-message = Chat Admin OOC foi habilitado.
-chat-manager-admin-ooc-chat-disabled-message = Chat Admin OOC foi desabilitado.
-chat-manager-max-message-length-exceeded-message = Sua mensagem excedeu o limite de {$limit} caractéres
-chat-manager-no-headset-on-message = Você não tem um headset ligado!
-chat-manager-no-such-channel = Não existe tal canal!
-chat-manager-whisper-headset-on-message = Você não pode sussurrar no rádio!
+chat-manager-max-message-length = Your message exceeds {$maxMessageLength} character limit
+chat-manager-ooc-chat-enabled-message = OOC chat has been enabled.
+chat-manager-ooc-chat-disabled-message = OOC chat has been disabled.
+chat-manager-looc-chat-enabled-message = LOOC chat has been enabled.
+chat-manager-looc-chat-disabled-message = LOOC chat has been disabled.
+chat-manager-dead-looc-chat-enabled-message = Dead players can now use LOOC.
+chat-manager-dead-looc-chat-disabled-message = Dead players can no longer use LOOC.
+chat-manager-admin-ooc-chat-enabled-message = Admin OOC chat has been enabled.
+chat-manager-admin-ooc-chat-disabled-message = Admin OOC chat has been disabled.
+chat-manager-max-message-length-exceeded-message = Your message exceeded {$limit} character limit
+chat-manager-no-headset-on-message = You don't have a headset on!
+chat-manager-no-such-channel = There is no such channel!
+chat-manager-whisper-headset-on-message = You can't whisper on the radio!
 chat-manager-server-wrap-message = SERVER: {"{0}"}
-chat-manager-sender-announcement-wrap-message = Anúncio de {$sender}:
+chat-manager-sender-announcement-wrap-message = {$sender} Announcement:
                                                 {"{0}"}
-chat-manager-entity-say-wrap-message = {$entityName} diz: "{"{0}"}"
-chat-manager-entity-whisper-wrap-message = {$entityName} sussurra: "{"{0}"}"
+chat-manager-entity-say-wrap-message = {$entityName} says: "{"{0}"}"
+chat-manager-entity-whisper-wrap-message = {$entityName} whispers: "{"{0}"}"
 chat-manager-entity-me-wrap-message = {$entityName} {"{0}"}
 chat-manager-entity-looc-wrap-message = LOOC: {$entityName}: {"{0}"}
 chat-manager-send-ooc-wrap-message = OOC: {$playerName}: {"{0}"}
@@ -28,5 +28,5 @@ chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: {$playerName}: 
 chat-manager-send-admin-announcement-wrap-message = {$adminChannelName}: {"{0}"}
 chat-manager-send-hook-ooc-wrap-message = OOC: (D){$senderName}: {"{0}"}
 
-chat-manager-dead-channel-name = MORTO
+chat-manager-dead-channel-name = DEAD
 chat-manager-admin-channel-name = ADMIN
