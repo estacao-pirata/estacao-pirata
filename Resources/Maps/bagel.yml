@@ -656,8 +656,8 @@ entities:
   - pos: 0.4558292,0.42837813
     parent: 943
     type: Transform
-  - index: 0
-    type: MapGrid
+  - type: MapGrid
+  - type: Broadphase
   - id: Bagel
     type: BecomesStation
   - angularDamping: 0.05
@@ -31560,6 +31560,9 @@ entities:
   components:
   - index: 4
     type: Map
+  - type: Broadphase
+  - type: PhysicsMap
+  - type: OccluderTree
 - uid: 944
   type: ScalpelLaser
   components:

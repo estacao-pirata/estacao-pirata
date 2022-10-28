@@ -39,6 +39,7 @@ namespace Content.Client.Inventory
 
         public override void Initialize()
         {
+            UpdatesOutsidePrediction = true;
             base.Initialize();
 
             SubscribeLocalEvent<ClientInventoryComponent, PlayerAttachedEvent>(OnPlayerAttached);
@@ -157,6 +158,18 @@ namespace Content.Client.Inventory
             {
                 TryAddSlotDef(uid, (ClientInventoryComponent)component, slot);
             }
+        }
+
+        public void ReloadInventory(ClientInventoryComponent? component = null)
+        {
+            var player = _playerManager.LocalPlayer?.ControlledEntity;
+            if (player == null || !Resolve(player.Value, ref component, false))
+            {
+                return;
+            }
+
+            OnUnlinkInventory?.Invoke();
+            OnLinkInventory?.Invoke(component);
         }
 
         public void SetSlotHighlight(EntityUid owner, ClientInventoryComponent component, string slotName, bool state)
