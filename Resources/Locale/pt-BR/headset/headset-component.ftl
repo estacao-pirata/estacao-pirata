@@ -1,5 +1,5 @@
 # Chat window radio wrap (prefix and postfix)
-chat-radio-message-wrap = [color={$color}]{$channel} {$name} diz, "{"{"}0{"}"}"[/color]
+chat-radio-message-wrap = [color={$color}]{$channel} {$name} diz: "{$message}"[/color]
 
 examine-radio-frequency = Está na frequência {$frequency}.
 
