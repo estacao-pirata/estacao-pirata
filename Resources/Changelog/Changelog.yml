@@ -1,18 +1,6 @@
 Entries:
 - author: jessicamaybe
   changes:
-  - {message: Muting lobby music will now also mute the restart sound (APC DESTROYED),
-    type: Tweak}
-  id: 2084
-  time: '2022-08-04T00:43:54.0000000+00:00'
-- author: JustinTrotter
-  changes:
-  - {message: crew monitoring console now has proper window size, type: Fix}
-  - {message: id card console limits name and job lengths to 30 characters, type: Fix}
-  id: 2085
-  time: '2022-08-04T00:46:03.0000000+00:00'
-- author: jessicamaybe
-  changes:
   - {message: You can no longer spill closed drinks, type: Tweak}
   id: 2086
   time: '2022-08-04T00:47:14.0000000+00:00'
@@ -2966,3 +2954,14 @@ Entries:
   - {message: Added practice laser gun., type: Add}
   id: 2583
   time: '2022-11-05T15:32:00.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Stunned individuals can no longer attack., type: Fix}
+  id: 2584
+  time: '2022-11-06T16:31:23.0000000+00:00'
+- author: rolfero
+  changes:
+  - {message: You can now inspect/strip someone through the examine tooltip again.,
+    type: Fix}
+  id: 2585
+  time: '2022-11-06T16:33:17.0000000+00:00'
