@@ -13,4 +13,4 @@
     sprite: Markers/jobs.rsi
     layers:
       - state: green
-      - texture: Mobs/Animals/spider.rsi/icon.png
+      - texture: EstacaoPirata/Mobs/Animals/spider.rsi/icon.png
