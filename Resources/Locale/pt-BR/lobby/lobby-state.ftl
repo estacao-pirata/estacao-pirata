@@ -1,7 +1,7 @@
 lobby-state-paused = Pausado
 lobby-state-right-now-question = Agora?
 lobby-state-right-now-confirmation = Agora
-lobby-state-round-start-countdown-text = A rodada começará em: {$timeLeft}
+lobby-state-round-start-countdown-text = A rodada começa em: {$timeLeft}
 lobby-state-ready-button-join-state = Entrar
 lobby-state-ready-button-ready-up-state = Pronto
 lobby-state-player-status-not-ready = Não Pronto
