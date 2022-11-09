@@ -7,9 +7,18 @@ game-ticker-delay-start = O inicio da partida foi atrasado para {$seconds} segun
 game-ticker-pause-start = A inicialização de partida foi pausada.
 game-ticker-pause-start-resumed = A contagem para iniciar a partida voltou.
 game-ticker-player-join-game-message = Boas vindas à estação espacial 14! Se essa é sua primeira vez jogando, se certifique de ler as regras do jogo, e não tenha vergonha de pedir ajuda no chat OOC.
-game-ticker-get-info-text = Olá e bem-vindo a [color=white]Estação Espacial 14![/color]
+game-ticker-get-info-text = Olá e bem-vindo a [color=white]Estação Pirata![/color]
                             A rodada atual é: [color=white]#{$roundId}[/color]
-                            A quantidade de jogadores conectados são: [color=white]{$playerCount}[/color]
+                            A quantidade de jogadores conectados é: [color=white]{$playerCount}[/color]
+                            O mapa atual é: [color=white]{$mapName}[/color]
+                            O modo de jogo atual é: [color=white]{$gmTitle}[/color]
+                            >[color=yellow]{$desc}[/color]
+game-ticker-get-info-preround-text = Olá e bem-vindo a [color=white]Estação Pirata![/color]
+                            A rodada atual é: [color=white]#{$roundId}[/color]
+                            A quantidade de jogadores conectados é: [color=white]{$playerCount}[/color] ([color=white]{$readyCount}[/color] {$readyCount ->
+                                [one] está
+                                *[other] estão
+                            } pronto(s))
                             O mapa atual é: [color=white]{$mapName}[/color]
                             O modo de jogo atual é: [color=white]{$gmTitle}[/color]
                             >[color=yellow]{$desc}[/color]
