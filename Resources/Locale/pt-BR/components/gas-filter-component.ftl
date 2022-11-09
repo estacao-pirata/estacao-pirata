@@ -8,5 +8,6 @@ comp-gas-filter-ui-filter-set-rate = Definir
 comp-gas-filter-ui-filter-gas-current = Atualmente Filtrando:
 comp-gas-filter-ui-filter-gas-select = Selecione um gás para filtrar:
 comp-gas-filter-ui-filter-gas-confirm = Definir Gás
+comp-gas-filter-ui-filter-gas-none = Nada
 
 comp-gas-filter-ui-needs-anchor = Fixe-o no chão primeiro!
