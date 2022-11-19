@@ -1,39 +1,39 @@
-analysis-console-menu-title = analysis console
-analysis-console-server-list-button = Server List
-analysis-console-scan-button = Scan
-analysis-console-scan-tooltip-info = Scan artifacts to learn information about their structure.
-analysis-console-print-button = Print
-analysis-console-print-tooltip-info = Print out the current information about the artifact.
-analysis-console-destroy-button = Destroy
-analysis-console-destroy-button-info = Destroy artifacts to generate points based on how much has been unlocked.
+analysis-console-menu-title = console de análise
+analysis-console-server-list-button = Lista de servidores
+analysis-console-scan-button = Varredura
+analysis-console-scan-tooltip-info = Escaneie artefatos para obter informações sobre sua estrutura.
+analysis-console-print-button = Imprimir
+analysis-console-print-tooltip-info = Imprima as informações atuais sobre o artefato.
+analysis-console-destroy-button = Destruir
+analysis-console-destroy-button-info = Destrua artefatos para gerar pontos com base em quanto foi desbloqueado.
 
-analysis-console-info-no-scanner = No analyzer connected! Please connect one using a multitool.
-analysis-console-info-no-artifact = No artifact present! Place one on the pad then scan for information.
-analysis-console-info-ready = Systems operational. Ready to scan.
+analysis-console-info-no-scanner = Nenhum analisador conectado! Conecte um usando uma multiferramenta.
+analysis-console-info-no-artifact = Nenhum artefato presente! Coloque um no bloco e procure informações.
+analysis-console-info-ready = Sistemas operacionais. Pronto para digitalizar.
 
 analysis-console-info-id = NODE_ID: {$id}
-analysis-console-info-depth = DEPTH: {$depth}
-analysis-console-info-triggered-true = ACTIVATED: TRUE
-analysis-console-info-triggered-false = ACTIVATED: FALSE
-analysis-console-info-effect = REACTION: {$effect}
-analysis-console-info-trigger = STIMULUS: {$trigger}
-analysis-console-info-edges = EDGES: {$edges}
-analysis-console-info-completion = COMPLETION_PERCENTAGE: {$percentage}%
+analysis-console-info-depth = PROFUNDIDADE: {$depth}
+analysis-console-info-triggered-true = ATIVADO: VERDADEIRO
+analysis-console-info-triggered-false = ATIVADO: FALSO
+analysis-console-info-effect = REAÇÃO: {$effect}
+analysis-console-info-trigger = ESTÍMULO: {$trigger}
+analysis-console-info-edges = BORDAS: {$edges}
+analysis-console-info-value = VALOR_ATUAL: {$value}
 
-analysis-console-info-scanner = Scanning...
+analysis-console-info-scanner = Digitalizando...
 analysis-console-progress-text = {$seconds ->
-    [one] T-{$seconds} second
-    *[other] T-{$seconds} seconds
+    [one] T-{$seconds} segundo
+    *[other] T-{$seconds} segundos
 }
 
-analysis-destroy-window-title = Confirm Destruction
-analysis-destroy-window-text = Destroy the artifact, converting it into research points?
-analysis-destroy-window-yes = Yes
-analysis-destroy-window-no = No
+analysis-destroy-window-title = Confirmar Destruição
+analysis-destroy-window-text = Destruir o artefato, convertendo-o em pontos de pesquisa?
+analysis-destroy-window-yes = Sim
+analysis-destroy-window-no = Não
 
-analyzer-artifact-component-upgrade-analysis = analysis duration
+analyzer-artifact-component-upgrade-analysis = duração da análise
 
-analysis-console-print-popup = The console printed out a report.
-analyzer-artifact-destroy-popup = The artifact disintegrated into energy!
+analysis-console-print-popup = O console imprimiu um relatório.
+analyzer-artifact-destroy-popup = O artefato se desintegrou em energia!
 
-analysis-report-title = Artifact Report: Node {$id}
+analysis-report-title = Relatório de Artefato: Node {$id}
