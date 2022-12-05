@@ -20,10 +20,10 @@ SERVER_FILES = [
 ]
 
 VERSION = os.environ['GITHUB_SHA']
-FORK_ID = "nyanotrasen"
-BUILD_URL = f"https://builds.nyanotrasen.moe/{{FORK_ID}}/builds/{{FORK_VERSION}}/{FILE}"
-MANIFEST_URL = f"https://cdn.nyanotrasen.moe/version/{{FORK_VERSION}}/manifest"
-MANIFEST_DOWNLOAD_URL = f"https://cdn.nyanotrasen.moe/version/{{FORK_VERSION}}/download"
+FORK_ID = "pirata"
+BUILD_URL = f"http://152.67.46.236/static/{{FORK_VERSION}}/{FILE}"
+MANIFEST_URL = f"http://152.67.46.236/cdn/version/{{FORK_VERSION}}/manifest"
+MANIFEST_DOWNLOAD_URL = f"http://152.67.46.236/cdn/version/{{FORK_VERSION}}/download"
 
 def main() -> None:
     client_file = os.path.join("release", FILE)
