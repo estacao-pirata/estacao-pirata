@@ -35,7 +35,7 @@ reagent-name-lexorin = lexorin
 reagent-desc-lexorin = Um produto químico de ação rápida usado para asfixiar pessoas rapidamente.
 
 reagent-name-mindbreaker-toxin = mindbreaker toxin
-reagent-desc-mindbreaker-toxin = Um potente composto alucinógeno que era conhecido como LSD.
+reagent-desc-mindbreaker-toxin = Um potente composto danoso ao cérebro que pode remover habilidades psiônicas.
 
 reagent-name-histamine = histamine
 reagent-desc-histamine = Um produto químico causado pela alergenia reagindo com anticorpos. Letal em grandes quantidades.
@@ -75,3 +75,8 @@ reagent-desc-vestine = Tem uma reação adversa no corpo, causando grande agita�
 
 reagent-name-tazinide = tazinide
 reagent-desc-tazinide = Uma mistura metálica altamente perigosa que pode interferir na maior parte dos movimentos através de uma corrente eletrizante.
+reagent-name-prometheum = prometheum
+reagent-desc-prometheum = A complex superdrug our bodies could produce if we could only unlock our potential.
+
+reagent-name-soulbreaker-toxin = soulbreaker toxin
+reagent-desc-soulbreaker-toxin = An anti-psionic about 4 times as powerful as mindbreaker toxin.

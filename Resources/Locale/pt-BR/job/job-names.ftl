@@ -47,6 +47,10 @@ job-name-boxer = boxeador
 job-name-zookeeper = funcionário do zoológico
 job-name-visitor = visitante
 
+#Nyano
+job-name-mystagogue = mystagogue
+job-name-mantis = forensic mantis
+
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
 JobBartender = bartender
