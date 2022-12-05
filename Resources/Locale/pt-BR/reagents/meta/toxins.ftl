@@ -29,7 +29,7 @@ reagent-name-lexorin = lexorin
 reagent-desc-lexorin = Interrompe temporariamente a respiração e causa danos nos tecidos. Grandes doses são fatais e farão com que as pessoas desmaiem muito rapidamente. Dexalin e Dexalin Plus irão removê-lo, no entanto.
 
 reagent-name-mindbreaker-toxin = mindbreaker toxin
-reagent-desc-mindbreaker-toxin = Um potente composto alucinógeno que é ilegal sob a lei espacial. Anteriormente conhecido como LSD.
+reagent-desc-mindbreaker-toxin = Um potente composto danoso ao cérebro que pode remover habilidades psiônicas.
 
 reagent-name-histamine = histamine
 reagent-desc-histamine = Os efeitos da histamina tornam-se mais perigosos dependendo da quantidade de dosagem. Eles variam de levemente irritantes a incrivelmente letais.
@@ -51,3 +51,9 @@ reagent-desc-uncooked-animal-proteins = Isso é muito arriscado para os estômag
 
 reagent-name-allicin = allicin
 reagent-desc-allicin = Um composto organossulfurado encontrado em álios, como alho, cebola e plantas relacionado.
+
+reagent-name-prometheum = prometheum
+reagent-desc-prometheum = A complex superdrug our bodies could produce if we could only unlock our potential.
+
+reagent-name-soulbreaker-toxin = soulbreaker toxin
+reagent-desc-soulbreaker-toxin = An anti-psionic about 4 times as powerful as mindbreaker toxin.

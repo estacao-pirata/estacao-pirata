@@ -20,7 +20,7 @@ air-alarm-ui-window-alarm-state = {$state}
 
 air-alarm-ui-window-tab-vents = Ventilações
 air-alarm-ui-window-tab-scrubbers = Depuradores
-air-alarm-ui-window-tab-sensors = Sensores
+air-alarm-ui-window-tab-thresholds = Limites
 
 air-alarm-ui-gases = {$gas}: {$amount} mol ({$percentage}%)
 

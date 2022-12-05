@@ -1,5 +1,5 @@
 reagent-name-cryptobiolin = cryptobiolin
-reagent-desc-cryptobiolin = Causa confusão e tontura. Isso é essencial para fazer Spaceacillin.
+reagent-desc-cryptobiolin = Causa confusão e tontura. Temporariamente protege de e neutraliza habilidades psiônicas.
 
 reagent-name-dylovene = dylovene
 reagent-desc-dylovene = Antitoxina de amplo espectro, que trata os danos causados pela toxina na corrente sanguínea. A sobredosagem causará vómitos, tonturas e dor.

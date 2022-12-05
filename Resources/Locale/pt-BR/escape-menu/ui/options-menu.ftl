@@ -179,32 +179,32 @@ ui-options-function-shuttle-brake = Freiar
 
 ## Network menu
 
-ui-options-net-predict = Client-side prediction
+ui-options-net-predict = Previsão client-side
 
-ui-options-net-interp-ratio = State buffer size
-ui-options-net-interp-ratio-tooltip = Increasing this will generally make the game more resistant
-                                      to server->client packet-loss, however in doing so it
-                                      effectively adds slightly more latency and requires the
-                                      client to predict more future ticks.
+ui-options-net-interp-ratio = Tamanho do buffer de estado
+ui-options-net-interp-ratio-tooltip = Aumentar isso geralmente tornará o jogo mais resistente
+                                      para servidor->cliente perda de pacotes, no entanto, ao fazê-lo,
+                                      efetivamente adiciona um pouco mais de latência e requer o
+                                      cliente para prever mais ticks futuros.
 
-ui-options-net-predict-tick-bias = Prediction tick bias
-ui-options-net-predict-tick-bias-tooltip = Increasing this will generally make the game more resistant
-                                           to client->server packet-loss, however in doing so it
-                                           effectively adds slightly more latency and requires the
-                                           client to predict more future ticks.
+ui-options-net-predict-tick-bias = Previsão de ticks
+ui-options-net-predict-tick-bias-tooltip = Aumentar isso geralmente tornará o jogo mais resistente
+                                           para cliente->servidor perda de pacotes, no entanto, ao fazê-lo
+                                           efetivamente adiciona um pouco mais de latência e requer o
+                                           cliente para prever mais ticks futuros.
 
-ui-options-net-pvs-spawn = PVS entity spawn budget
-ui-options-net-pvs-spawn-tooltip = This limits the rate at which the server will send newly spawned
-                                       entities to the client. Lowering this can help reduce
-                                       stuttering due to entity spawning, but can lead to pop-in.
+ui-options-net-pvs-spawn = Orçamento de spawn de PVS
+ui-options-net-pvs-spawn-tooltip = Isso limita a taxa na qual o servidor enviará entidades recém
+                                       spawnadas para o cliente. Reduzir isso pode ajudar reduzir
+                                       gagueira devido à spawn de entidades, mas pode levar a pop-in.
 
-ui-options-net-pvs-entry = PVS entity budget
-ui-options-net-pvs-entry-tooltip = This limits the rate at which the server will send newly visible
-                                       entities to the client. Lowering this can help reduce
-                                       stuttering, but can lead to pop-in.
+ui-options-net-pvs-entry = Orçamento da entidade PVS
+ui-options-net-pvs-entry-tooltip = Isso limita a taxa na qual o servidor enviará entidades recentemente
+                                       visíveis ao cliente. Reduzir isso pode ajudar a reduzir
+                                       gagueira, mas pode levar a pop-in.
 
-ui-options-net-pvs-leave = PVS detach rate
-ui-options-net-pvs-leave-tooltip = This limits the rate at which the client will remove
-                                       out-of-view entities. Lowering this can help reduce
-                                       stuttering when walking around, but could occasionally
-                                       lead to mispredicts and other issues.
+ui-options-net-pvs-leave = Taxa de desprendimento de PVS
+ui-options-net-pvs-leave-tooltip = Isso limita a taxa na qual o cliente removerá
+                                       entidades fora de vista. Reduzir isso pode ajudar a reduzir
+                                       gaguejando ao caminhar, mas pode ocasionalmente
+                                       levar a previsões erradas e outros problemas.

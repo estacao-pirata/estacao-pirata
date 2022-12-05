@@ -15,7 +15,7 @@ device-frequency-prototype-name-surveillance-camera-service = Câmeras de Servi�
 device-frequency-prototype-name-surveillance-camera-medical = Câmeras da Medbay
 device-frequency-prototype-name-surveillance-camera-general = Câmeras gerais
 device-frequency-prototype-name-surveillance-camera-entertainment = Câmeras do Entretenimento
-
+device-frequency-prototype-name-surveillance-camera-silicon = Built-In Silicon Cameras
 # prefixes for randomly generated device addresses
 device-address-prefix-vent = Vnt-
 device-address-prefix-scrubber = Scr-
