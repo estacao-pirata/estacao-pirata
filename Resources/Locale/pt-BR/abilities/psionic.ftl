@@ -25,9 +25,6 @@ accept-psionics-window-prompt-text-part = Você rolou um poder psiônico!
 action-name-psionic-invisibility = Invisibilidade Psiônica
 action-description-psionic-invisibility = Torne-se invisível para qualquer entidade que teria o potencial de se tornar psíquica. Borgs, bichos e assim por diante não são afetados.
 
-action-name-psionic-invisibility = Invisibilidade Psiônica
-action-description-psionic-invisibility = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
-
 action-name-psionic-invisibility-off = Desligar Invisibilidade Psiônica
 action-description-psionic-invisibility-off = Volta à visibilidade e fica atordoado.
 
@@ -46,5 +43,23 @@ action-description-psionic-regeneration = Leve o seu metabolismo ao limite para 
 glimmer-report = Nivel atual de vislumbre: {$level}μΨ.
 glimmer-event-report-generic = descarga noösférica detectada. Nivel de vislumbre diminuiu {$decrease} até {$level}μΨ.
 
-noospheric-zap-seize = You seize up! (oi aqui é o rber. tire um screenshot disso por favor)
-noospheric-zap-seize-potential-regained = You seize up! Some mental block seems to have cleared, too. (oi aqui é o rber. tire um screenshot disso por favor)
+noospheric-zap-seize = Você se convulsiona!
+noospheric-zap-seize-potential-regained = Você se convulsion! Some mental block seems to have cleared, too.
+
+mindswap-trapped = Parece que você está preso neste vaso.
+
+telegnostic-trapped-entity-name = projeção telegnóstica rompida
+telegnostic-trapped-entity-desc = Seus muitos olhos traem tristeza.
+
+psionic-burns-up = {CAPITALIZE(THE($item))} queima com um arco de estranha energia!
+psionic-burn-resist = Estranhos arcos dançam pel{THE($item)}!
+
+action-name-noospheric-zap = Zap Noosférico
+action-description-noospheric-zap = Eletrocuta a consciência do alvo e os deixa atordoados e gagejando.
+
+action-name-pyrokinesis = Pyrokinese
+action-description-pyrokinesis = Abre chama em um alvo inflamável.
+pyrokinesis-power-used = Uma língua de chama engolfa {THE($target)}, incendiando {OBJECT($target)}!
+
+action-name-rf-sensitivity = Toggle Sensibilidade RF
+action-desc-rf-sensitivity = Ativa ou desativa sua habilidade de interpretar ondas de rádio.
