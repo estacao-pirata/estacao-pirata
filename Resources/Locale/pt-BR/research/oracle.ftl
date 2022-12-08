@@ -10,3 +10,6 @@ oracle-demand-9 = Traga-me um {$item} ou deleite-se em vossa ignorância, vermes
 oracle-demand-10 = Se você ainda quiser perfurar o véu dessa falsa existntência, você precisa me trazer um {$item}!
 oracle-demand-11 = Eu vou me certificar que o próximo vaso que você habitar neste inferno material seja um daqueles macacos que você tortura se não me trouxer um {$item}!
 oracle-demand-12 = Um {$item}, um passo no caminho ao divino.
+
+oracle-current-item = Item atualmente pedido: {$item}
+oracle-previous-item = Último item pedido, ainda aceito: {$item}
