@@ -50,7 +50,7 @@ job-name-mail-carrier = carteiro
 job-name-cataloguer = arquivista
 job-name-cyborg = borgue
 job-name-medical-ciborgue = borgue médico
-job-name-salvage-technician = salvage technician
+job-name-salvage-technician = técnico em salvamento
 job-name-gladiator = gladiador
 job-name-fugitive = fugitivo
 
