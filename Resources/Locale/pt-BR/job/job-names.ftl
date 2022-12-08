@@ -43,7 +43,16 @@ job-name-zookeeper = funcionário do zoológico
 
 #Nyano
 job-name-mystagogue = mystagogue
-job-name-mantis = forensic mantis
+job-name-mantis = mantis forênsica
+job-name-epistemologist = acólito
+job-name-boxer = boxer
+job-name-mail-carrier = carteiro
+job-name-cataloguer = arquivista
+job-name-cyborg = borgue
+job-name-medical-ciborgue = borgue médico
+job-name-salvage-technician = salvage technician
+job-name-gladiator = gladiador
+job-name-fugitive = fugitivo
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
