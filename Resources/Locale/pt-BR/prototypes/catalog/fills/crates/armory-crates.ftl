@@ -6,3 +6,4 @@ ent-CrateArmoryShotgun = Caixa de espingardas
 
 ent-CrateTrackingImplants = Caixa de implantes rastreadores
     .desc = Contém um punhado de implantes rastreadores. Bom para prisioneiros que você gostaria de soltar mas ainda quer poder encontrar.
+
