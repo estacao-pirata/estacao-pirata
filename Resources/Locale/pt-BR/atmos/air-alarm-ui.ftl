@@ -15,14 +15,20 @@ air-alarm-ui-window-resync-devices-label = Ressincronizar
 air-alarm-ui-window-mode-label = Modo
 
 air-alarm-ui-window-pressure = {$pressure} kPa
+air-alarm-ui-window-pressure-indicator = Pressão: [color={$color}]{$pressure} kPa[/color]
 air-alarm-ui-window-temperature = {$tempC} C ({$temperature} K)
-air-alarm-ui-window-alarm-state = {$state}
+air-alarm-ui-window-temperature-indicator = Temperatura: [color={$color}]{$tempC} C ({$temperature} K)[/color]
+air-alarm-ui-window-alarm-state = [color={$color}]{$state}[/color]
+air-alarm-ui-window-alarm-state-indicator = Estado: [color={$color}]{$state}[/color]
 
 air-alarm-ui-window-tab-vents = Ventilações
 air-alarm-ui-window-tab-scrubbers = Depuradores
-air-alarm-ui-window-tab-thresholds = Limites
+air-alarm-ui-window-tab-sensors = Sensors
 
 air-alarm-ui-gases = {$gas}: {$amount} mol ({$percentage}%)
+air-alarm-ui-gases-indicator = {$gas}: [color={$color}]{$amount} mol ({$percentage}%)[/color]
+air-alarm-ui-window-temperature = {$tempC} C ({$temperature} K)
+air-alarm-ui-window-alarm-state = {$state}
 
 air-alarm-ui-mode-filtering = Filtragem
 air-alarm-ui-mode-wide-filtering = Filtragem (wide)
@@ -55,10 +61,10 @@ air-alarm-ui-scrubber-wide-net-label = Rede Local
 
 air-alarm-ui-sensor-gases = Gases
 air-alarm-ui-sensor-thresholds = Limites
-air-alarm-ui-thresholds-pressure-title = Pressão (kPa)
-air-alarm-ui-thresholds-temperature-title = Temperatura (K)
-air-alarm-ui-thresholds-gas-title = {$gas} (%)
-air-alarm-ui-thresholds-upper-bound = Limite superior
-air-alarm-ui-thresholds-lower-bound = Limite inferior
-air-alarm-ui-thresholds-upper-warning-bound = Aviso do limite superior
-air-alarm-ui-thresholds-lower-warning-bound = Aviso do limite inferior
+air-alarm-ui-thresholds-pressure-title = Thresholds (kPa)
+air-alarm-ui-thresholds-temperature-title = Thresholds (K)
+air-alarm-ui-thresholds-gas-title = Thresholds (%)
+air-alarm-ui-thresholds-upper-bound = Perigo abaixo
+air-alarm-ui-thresholds-lower-bound = Perigo acima
+air-alarm-ui-thresholds-upper-warning-bound = Aviso acima
+air-alarm-ui-thresholds-lower-warning-bound = Aviso abaixo

@@ -20,6 +20,7 @@ petting-success-space-cat = Você acaricia {THE($target)} em sua cabeça envolta
 petting-success-tarantula = Você acaricia {THE($target)} em sua peluda cabecinha.
 petting-success-holo = Você acaricia {THE($target)} em sua espinhosa e metálica cabeça.
 petting-success-dragon = Esquivando de dentes, garras, e chamas, você acaricia {THE($target)} em sua massiva e escamosa cabeça.
+petting-success-hamster = Voce acaricia {THE($target)} em {POSS-ADJ($target)} fofa cabecinha.
 
 petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
 
@@ -32,6 +33,7 @@ petting-failure-possum = Você tenta acariciar {THE($target)}, mas é recebido c
 petting-failure-sloth = Você tenta acariciar {THE($target)}, mas ele(a) de algum jeito desvia com uma velocidade ridícula!
 petting-failure-holo = Você tenta acariciar {THE($target)}, mas os espinhos dele(a) quase impalam sua mão!
 petting-failure-dragon = Você levanta sua mão, mas quando {THE($target)} solta um rugido, você decide que é melhor não arriscar virar franguinho assado.
+petting-failure-hamster = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} tenta morder o seu dedo e por pouco seus reflexos te salvam de um ferimento quase fatal.
 
 ## Petting silicons
 

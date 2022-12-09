@@ -53,6 +53,7 @@ job-name-medical-cyborg = borgue médico
 job-name-salvage-technician = técnico em salvamento
 job-name-gladiator = gladiador
 job-name-fugitive = fugitivo
+job-name-prisoner = prisioneiro
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
