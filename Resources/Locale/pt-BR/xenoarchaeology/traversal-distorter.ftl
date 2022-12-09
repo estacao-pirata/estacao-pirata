@@ -1,7 +1,7 @@
-traversal-distorter-set-in = Traversal bias set to "in"
-traversal-distorter-set-out = Traversal bias set to "out"
+traversal-distorter-set-in = Bias de travessia posto em "pra dentro"
+traversal-distorter-set-out = Bias de travessia posto em "pra fora"
 
-traversal-distorter-desc-in = The affected artifact's traversal now favors moving inwards to the beginning.
-traversal-distorter-desc-out = The affected artifact's traversal now favors moving outwards towards more dangerous nodes.
+traversal-distorter-desc-in = A travessia do artefato ativado agora favorece mover pra dentro em direção ao começo.
+traversal-distorter-desc-out = A travessia do artefato ativado agora favorece mover pra fora em direção a nós mais perigosos.
 
-traversal-distorter-upgrade-bias = Bias effectiveness
+traversal-distorter-upgrade-bias = Eficácia do bias

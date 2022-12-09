@@ -127,7 +127,7 @@ ui-options-function-open-character-menu = Abrir menu de personagem
 ui-options-function-open-context-menu = Abrir menu de contexto
 ui-options-function-open-crafting-menu = Abrir menu de criação
 ui-options-function-open-inventory-menu = Abrir inventário
-ui-options-function-open-ahelp = Abrir AHelp
+ui-options-function-open-a-help = Abrir AHelp
 ui-options-function-open-abilities-menu = Abrir menu de ação
 ui-options-function-open-entity-spawn-window = Abrir menu de spawn de entidades
 ui-options-function-open-sandbox-window = Abrir menu sandbox
@@ -168,7 +168,8 @@ ui-options-function-loadout5 = Hotbar Loadout 5
 ui-options-function-loadout6 = Hotbar Loadout 6
 ui-options-function-loadout7 = Hotbar Loadout 7
 ui-options-function-loadout8 = Hotbar Loadout 8
-ui-options-function-loadout9 = Hotbar Loadout 9
+ui-options-function-loadout0 = Hotbar Loadout 0
+
 
 ui-options-function-shuttle-strafe-up = Andar para cima
 ui-options-function-shuttle-strafe-right = Andar para direita

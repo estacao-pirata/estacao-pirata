@@ -16,5 +16,11 @@ ent-CrateFunBoardGames = Caixa de jogos de tabuleiro
 ent-CrateFunATV = Caixa de ATV
     .desc = Vruuuum, bibibi.
 
+ent-CrateFunSadTromboneImplants = Implantes de Trombone Triste
+    .desc = A morte nunca foi tão divertida antes! Implante esses para que morrer seja um pouco mais feliz.
+
+ent-CrateFunLightImplants = Implantes de Lâmpada
+    .desc = Acenda a sua pele com esses implantes!
+
 ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
     .desc = Para dar fuga na segurança.
