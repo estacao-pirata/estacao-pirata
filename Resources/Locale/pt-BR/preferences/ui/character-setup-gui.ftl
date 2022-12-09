@@ -5,3 +5,4 @@ character-setup-gui-character-setup-close-button = Fechar
 character-setup-gui-create-new-character-button = Criar novo slot...
 character-setup-gui-create-new-character-button-tooltip = Um máximo de {$maxCharacters} personagens são permitidos.
 character-setup-gui-character-picker-button-delete-button = Deletar
+character-setup-gui-character-picker-button-confirm-delete-button = Confirmar
