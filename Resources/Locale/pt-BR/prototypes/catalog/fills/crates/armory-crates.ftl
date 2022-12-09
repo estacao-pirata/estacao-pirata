@@ -3,3 +3,4 @@ ent-CrateArmorySMG = Caixa de SMG
 
 ent-CrateArmoryShotgun = Caixa de espingardas
     .desc = Para quando o inimigo absolutamente precisa ser substituído por chumbo. Contém duas espingardas de combate Enforcer e alguns cartuchos de espingarda padrão. Requer acesso ao Arsenal para abrir.
+
