@@ -40,6 +40,7 @@ job-name-ertmedic = médico da ERT
 job-name-ertjanitor = zelador da ERT
 job-name-boxer = boxeador
 job-name-zookeeper = funcionário do zoológico
+job-name-prisoner = prisioneiro
 
 #Nyano
 job-name-mystagogue = mystagogue
