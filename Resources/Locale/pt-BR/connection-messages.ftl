@@ -23,3 +23,6 @@ ban-banned-2 = O motivo do ban é: "{$reason}"
 
 soft-player-cap-full = O servidor está cheio!
 panic-bunker-account-denied = Este servidor está em modo Pânico e você foi rejeitado. Entre em contato com o administrador do servidor para obter ajuda.
+panic-bunker-account-denied-reason = Este servidor está em modo Pânico e você foi rejeitado. Razão: "{$reason}"
+panic-bunker-account-reason-account = Tempo de vida da conta precisa ser maior que {$minutes} minutes
+panic-bunker-account-reason-overall = O tempo mínimo requerido total de jogo é {$hours} horas

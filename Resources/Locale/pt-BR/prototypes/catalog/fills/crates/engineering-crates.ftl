@@ -24,3 +24,6 @@ ent-CrateEngineeringElectricalSupplies = Caixa de suprimentos elétricos
 
 ent-CrateEngineeringJetpack = Caixa de Jetpack
     .desc = Dois jetpacks para quem não sabe usar extintores.
+
+ent-CrateAirlockKit = Kit portas de câmaras de ar
+    .desc = Um kit para contruir 6 portas de câmaras de ar, não inclui ferramentas.
