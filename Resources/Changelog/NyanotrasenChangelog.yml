@@ -1362,3 +1362,86 @@ Entries:
     type: Fix
   id: 145
   time: '2022-12-05T18:24:25.0000000+00:00'
+- author: fallingmonkey
+  changes:
+  - message: Added new medium salvage map!
+    type: Add
+  id: 146
+  time: '2022-12-06T20:25:05.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Salvage tech has an antag penalty equal to engineer.
+    type: Tweak
+  - message: Removed unused uniforms from uniform printer.
+    type: Remove
+  id: 147
+  time: '2022-12-06T20:24:11.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Rat servants now follow the rat king around.
+    type: Add
+  - message: Rat servants are neutral by default.
+    type: Tweak
+  - message: The rat king can toggle his servants are neutral or hostile.
+    type: Tweak
+  id: 148
+  time: '2022-12-06T20:23:25.0000000+00:00'
+- author: Leander-0
+  changes:
+  - message: Kudzu will grow a lot more slowly.
+    type: Tweak
+  id: 149
+  time: '2022-12-06T23:56:54.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Added vampire spiders.
+    type: Add
+  id: 150
+  time: '2022-12-07T04:10:38.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Fixed oneirophage spawners being visible.
+    type: Fix
+  - message: Tweaked a few other things with them.
+    type: Fix
+  - message: Reduced metapsionic pulse range to 6 so it's slightly easier to tell
+      if it's nearby.
+    type: Tweak
+  id: 151
+  time: '2022-12-07T16:24:06.0000000+00:00'
+- author: Vordenburg
+  changes:
+  - message: You will no longer stun yourself with melee attacks.
+    type: Tweak
+  id: 152
+  time: '2022-12-07T18:30:00.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Noospheric storm scales with intensity in survival mode.
+    type: Tweak
+  - message: Tortuga min players bumped up to 50.
+    type: Tweak
+  - message: Arachne webs are now world target actions.
+    type: Tweak
+  - message: Rat servant pathfinding seems slightly better.
+    type: Fix
+  id: 153
+  time: '2022-12-07T20:01:32.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Added prisoner role.
+    type: Add
+  - message: 'Gladiators are a type of prisoner and will spawn in their cell. Announcement
+      system SOON:tm:'
+    type: Tweak
+  id: 154
+  time: '2022-12-07T20:33:25.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Oneirophage injects more venom, but has a lower reserve it will burn
+      through faster.
+    type: Tweak
+  - message: Webs have an uglier but better for gameplay drawdepth.
+    type: Fix
+  id: 155
+  time: '2022-12-08T01:27:22.0000000+00:00'
