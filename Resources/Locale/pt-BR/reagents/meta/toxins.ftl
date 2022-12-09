@@ -57,3 +57,6 @@ reagent-desc-prometheum = A complex superdrug our bodies could produce if we cou
 
 reagent-name-soulbreaker-toxin = soulbreaker toxin
 reagent-desc-soulbreaker-toxin = An anti-psionic about 4 times as powerful as mindbreaker toxin.
+
+reagent-name-lotophagoi-oil = óleo lotophagoi oil
+reagent-desc-lotophagoi-oil = Uma droga super potente que é muito melhor em induzir psiônicas do que halucinôgenos normais, mas com efeitos colaterais piores.

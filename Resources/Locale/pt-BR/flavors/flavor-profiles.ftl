@@ -169,6 +169,9 @@ flavor-complex-pilk = de leite doce
 ## Generic flavors.
 flavor-complex-medicine = de remédio
 
+## Nyano???
+flavor-complex-enthralling = enthralling
+
 flavor-complex-carpet = de pelo
 flavor-complex-bee = inacreditável
 flavor-complex-sax = de jazz
