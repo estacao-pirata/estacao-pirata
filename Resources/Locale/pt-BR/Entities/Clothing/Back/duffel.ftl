@@ -1,53 +1,53 @@
-ent-ClothingBackpackDuffel = duffel bag
-    .desc = A large duffel bag for holding extra things.
+ent-ClothingBackpackDuffel = Mochila de Viagem
+    .desc = Uma mochila maior, perfeita para armazenar umas coisas a mais.
 
-ent-ClothingBackpackDuffelEngineering = engineering duffel bag
-    .desc = A large duffel bag for holding extra tools and supplies.
+ent-ClothingBackpackDuffelEngineering = Mochila Grande de Engenheiro
+    .desc = Uma mochila ainda maior e mais resistente! Perfeita para os ocorridos diários da estação.
 
-ent-ClothingBackpackDuffelMedical = medical duffel bag
-    .desc = A large duffel bag for holding extra medical supplies.
+ent-ClothingBackpackDuffelMedical = Mochila Grande de Médico
+    .desc = Uma mochila esterilizada ainda maior. Perfeita para armazenar medicamentos e outras coisas de médicos.
 
-ent-ClothingBackpackDuffelCaptain = captain's duffel bag
-    .desc = A large duffel bag for holding extra captainly goods.
+ent-ClothingBackpackDuffelCaptain = Mochila Grande do Capitão
+    .desc = Uma mochila pertencente ao Capitão da Estação, bem grande para satisfazer o Cap.
 
-ent-ClothingBackpackDuffelClown = clown duffel bag
-    .desc = A large duffel bag for holding extra honk goods.
+ent-ClothingBackpackDuffelClown = Mochila Grande de Buzina
+    .desc = Uma bolzina, uma mochina, uma bolsa grande e barulhenta.
 
-ent-ClothingBackpackDuffelSecurity = security duffel bag
-    .desc = A large duffel bag for holding extra security related goods.
+ent-ClothingBackpackDuffelSecurity = Mochila Grande de Segurança
+    .desc = Uma mochila grande para seguranças, do tamanho da Space Law!
 
-ent-ClothingBackpackDuffelChemistry = chemistry duffel bag
-    .desc = A large duffel bag for holding extra beakers and test tubes.
+ent-ClothingBackpackDuffelChemistry = Mochila Grande de Químico
+    .desc = Uma mochila ainda maior para armazenar substâncias e remédios.
 
-ent-ClothingBackpackDuffelMime = mime duffel bag
-    .desc = A large duffel bag for holding... mime... stuff.
+ent-ClothingBackpackDuffelMime = Mochila Grande do Mímico
+    .desc = Uma mochila enorme, infelizmente o espaço é insuficiente para caberem todas as emoções do mímico..
 
-ent-ClothingBackpackDuffelScience = science duffel bag
-    .desc = A large duffel bag for holding extra science related goods.
+ent-ClothingBackpackDuffelScience = Mochila Grande de Cientista
+    .desc = Uma mochila bem grandona, perfeita para guardar granad...C-Coisas de cientista!
 
-ent-ClothingBackpackDuffelHydroponics = hydroponic's duffel bag
-    .desc = A large duffel bag for holding extra gardening tools.
+ent-ClothingBackpackDuffelHydroponics = Mochila Hidropônica
+    .desc = Uma mochila grande. Não sei o que significa "hidropônica" mas provavelmente é algo bom, então perfeito!
 
-ent-ClothingBackpackDuffelSalvage = salvage duffel bag
-    .desc = A large duffel bag for holding extra exotic treasures.
+ent-ClothingBackpackDuffelSalvage = Mochila Grande de Salvagem
+    .desc = Uma mochila ainda maior para armazenar ainda mais tesouros de outros mundos!
 
-ent-ClothingBackpackDuffelSyndicate = syndicate duffel bag
-    .desc = A large duffel bag for holding various traitor goods.
+ent-ClothingBackpackDuffelSyndicate = Mochila Grande do Sindicato
+    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateBundle = syndicate duffel bag
-    .desc = A large duffel bag for holding various traitor goods.
+ent-ClothingBackpackDuffelSyndicateBundle = Mochila Grande do Sindicato
+    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateAmmo = syndicate duffel bag
-    .desc = A large duffel bag for holding various traitor goods.
+ent-ClothingBackpackDuffelSyndicateAmmo = Mochila Grande do Sindicato
+    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateAmmoBundle = syndicate duffel bag
-    .desc = A large duffel bag for holding various traitor goods.
+ent-ClothingBackpackDuffelSyndicateAmmoBundle = Mochila Grande do Sindicato
+    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateMedical = syndicate duffel bag
-    .desc = A large duffel bag for holding various traitor goods.
+ent-ClothingBackpackDuffelSyndicateMedical = Mochila Grande do Sindicato
+    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateMedicalBundle = syndicate duffel bag
-    .desc = A large duffel bag for holding various traitor goods.
+ent-ClothingBackpackDuffelSyndicateMedicalBundle = Mochila Grande do Sindicato
+    .desc = AIsso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
 
 ent-ClothingBackpackDuffelHolding = duffelbag of holding
     .desc = A duffelbag that opens into a localized pocket of bluespace.

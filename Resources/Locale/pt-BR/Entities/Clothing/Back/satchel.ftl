@@ -1,29 +1,29 @@
-ent-ClothingBackpackSatchel = satchel
-    .desc = A trendy looking satchel.
+ent-ClothingBackpackSatchel = Pochete
+    .desc = Uma Pochete muito elegante.
 
-ent-ClothingBackpackSatchelEngineering = engineering satchel
-    .desc = A tough satchel with extra pockets.
+ent-ClothingBackpackSatchelEngineering = Pochete de Engenheiro
+    .desc = Uma pochete resistente com alguns bolsos a mais.
 
-ent-ClothingBackpackSatchelMedical = medical satchel
-    .desc = A sterile satchel used in medical departments.
+ent-ClothingBackpackSatchelMedical = Pochete de Médico
+    .desc = Uma pochete esterilizada, utilizada pelos departamentos médicos.
 
-ent-ClothingBackpackSatchelChemistry = chemistry satchel
-    .desc = A sterile satchel with chemist colours.
+ent-ClothingBackpackSatchelChemistry = Pochete de Químico
+    .desc = Uma pochete esterilizada, customizada em cores que representam os Químicos.
 
-ent-ClothingBackpackSatchelScience = science satchel
-    .desc = Useful for holding research materials.
+ent-ClothingBackpackSatchelScience = Pochete de Cientista
+    .desc = Uma pochete útil no armazenamento de substancias nocivas.
 
-ent-ClothingBackpackSatchelSecurity = security satchel
-    .desc = A robust satchel for security related needs.
+ent-ClothingBackpackSatchelSecurity = Pochete de Segurança
+    .desc = Uma pochete robusta, tem cheiro de corrupção.
 
-ent-ClothingBackpackSatchelCaptain = captain's satchel
-    .desc = An exclusive satchel for Nanotrasen officers.
+ent-ClothingBackpackSatchelCaptain = Pochete do Capitão
+    .desc = Uma pochete feita exclusivamente para oficiais Nanotrasen.
 
-ent-ClothingBackpackSatchelHydroponics = hydroponics satchel
-    .desc = A satchel made of all natural fibers.
+ent-ClothingBackpackSatchelHydroponics = Pochete Hidropônica
+    .desc = Uma pochete 100% vegana! Se é que isso é possível...
 
-ent-ClothingBackpackSatchelSalvage = salvage satchel
-    .desc = A robust satchel for stashing your loot.
+ent-ClothingBackpackSatchelSalvage = Pochete de Salvagem
+    .desc = Uma pochete surrada. Pode conter tesouros de outro mundo!
 
 ent-ClothingBackpackSatchelHolding = satchel of holding
     .desc = A satchel that opens into a localized pocket of bluespace.
