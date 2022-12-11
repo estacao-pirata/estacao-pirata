@@ -1,48 +1,48 @@
-ent-ClothingHeadset = headset
+ent-ClothingHeadset = Headset
     .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
 
-ent-ClothingHeadsetCargo = cargo headset
-    .desc = A headset used by supply employees.
+ent-ClothingHeadsetCargo = Headset da Cargo
+    .desc = Um headset usado pelos funcionários da Cargo.
 
-ent-ClothingHeadsetQM = qm headset
-    .desc = A headset used by quartermasters.
+ent-ClothingHeadsetQM = Headset dos Quartermasters
+    .desc = Um headset usado pelos Quartermasters.
 
-ent-ClothingHeadsetCentCom = CentCom headset
-    .desc = A headset used by the upper echelons of Nanotrasen.
+ent-ClothingHeadsetCentCom = Headset da Centcom
+    .desc = Um headset usado pelos escalão mais alto da Nanotrasen.
 
-ent-ClothingHeadsetCommand = command headset
-    .desc = A headset with a commanding channel.
+ent-ClothingHeadsetCommand = Headset de Comandante
+    .desc = Um headset conectado ao canal dos Comandantes..
 
-ent-ClothingHeadsetEngineering = engineering headset
-    .desc = A headset for engineers to chat while the station burns around them.
+ent-ClothingHeadsetEngineering = Headset de Engenheiro
+    .desc = Um headset conectado ao canal dos Engenheiros. Perfeito para discussões de biscoito ou bolacha enquanto a estação pega fogo.
 
-ent-ClothingHeadsetCE = ce headset
-    .desc = A headset for the chief engineer to ignore all emergency calls on.
+ent-ClothingHeadsetCE = Headset do Chefe Engenheiro
+    .desc = Um headset exclusivo do Chefe Engenheiro, perfeito para ele ignorar os chamados de emergência.
 
-ent-ClothingHeadsetMedical = medical headset
-    .desc = A headset for the trained staff of the medbay.
+ent-ClothingHeadsetMedical = Headset de Médico
+    .desc = Um headset feito para médicos altamente treinados e capazes! Ou não..
 
-ent-ClothingHeadsetMedicalScience = medical research headset
-    .desc = A headset that is a result of the mating between medical and science.
+ent-ClothingHeadsetMedicalScience = Headset de Pesquisa e Medicina
+    .desc = Uma fusão entre Medicina e Ciência, tudo isso em um misero headset!
 
-ent-ClothingHeadsetMining = mining headset
-    .desc = Headset used by shaft miners.
+ent-ClothingHeadsetMining = Headset de Minerador
+    .desc = Um headset utilizado pelos mineradores.
 
-ent-ClothingHeadsetRobotics = robotics headset
-    .desc = Made specifically for the roboticists, who cannot decide between departments.
+ent-ClothingHeadsetRobotics = Headset Robótico
+    .desc = Feito especialmente para os robotiscistas (se é que isso existe), que não se decidem de qual departamento serão.
 
-ent-ClothingHeadsetScience = science headset
-    .desc = A sciency headset. Like usual.
+ent-ClothingHeadsetScience = Headset de Cientista
+    .desc = Um headset usado pelos cientistas. Alerta de Nerd!
 
-ent-ClothingHeadsetRD = rd headset
-    .desc = Lamarr used to love chewing on this...
+ent-ClothingHeadsetRD = Headset do Diretor de Pesquisas
+    .desc = O Lamarr adorava mastigar isso...
 
-ent-ClothingHeadsetSecurity = security headset
-    .desc = This is used by your elite security force.
+ent-ClothingHeadsetSecurity = Headset da Segurança
+    .desc = Utilizado pelos responsáveis em manter a ordem na estação (ou não).
 
-ent-ClothingHeadsetService = service headset
-    .desc = Headset used by the service staff, tasked with keeping the station full, happy and clean.
+ent-ClothingHeadsetService = Headset de Serviço
+    .desc = Um headset utilizado pelo pessoal do Departamento de Serviços, aqueles que mantém a estação limpa e organizada.
 
-ent-ClothingHeadsetGrey = passenger headset
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+ent-ClothingHeadsetGrey = Headset de Passageiro
+    .desc = Um headset utilizado pela população desempregada.
 
