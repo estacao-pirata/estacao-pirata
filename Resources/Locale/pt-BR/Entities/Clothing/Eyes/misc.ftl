@@ -1,6 +1,6 @@
-ent-ClothingEyesEyepatch = Tapa-Olho
+ent-ClothingEyesEyepatch = tapa-olho
     .desc = Arr.
 
-ent-ClothingEyesBlindfold = Venda
+ent-ClothingEyesBlindfold = venda
     .desc = Siga a luz no fim do túnel.
 
