@@ -31,7 +31,7 @@ ent-ClothingBackpackScience = mochila de cientista
 ent-ClothingBackpackVirology = mochila de virologia
     .desc = Uma mochila feita com material desconhecido, capaz de armazenar bioarmas, doenças e coisas do tipo... Por algum motivo tem cheiro de macaco.
 
-ent-ClothingBackpackSalvage = Mochila de salvagem
+ent-ClothingBackpackSalvage = mochila de salvagem
     .desc = Uma mochila surrada. Pode conter tesouros de outro mundo!
 
 ent-ClothingBackpackERTLeader = mochila de comandante ert
