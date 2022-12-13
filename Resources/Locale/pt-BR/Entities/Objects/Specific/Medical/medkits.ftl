@@ -1,24 +1,24 @@
-ent-Medkit = first aid kit
-    .desc = It's an emergency medical kit for those serious boo-boos.
+ent-Medkit = kit de primeiros socorros
+    .desc = Um kit médico pensado para emergências, quando não se há tempo de chegar até um hospital.
 
-ent-MedkitBurn = burn treatment kit
-    .desc = A specialized medical kit for when the toxins lab spontaneously burns down.
+ent-MedkitBurn = kit de queimados
+    .desc = Um kit médico contendo itens especializados no tratamento de queimaduras.
 
-ent-MedkitToxin = toxin treatment kit
-    .desc = Used to treat toxic blood content.
+ent-MedkitToxin = kit de toxina
+    .desc = Um kit médico contendo itens especilaizados no tratamento de toxinas.
 
-ent-MedkitO2 = oxygen deprivation treatment kit
-    .desc = A box full of oxygen goodies.
+ent-MedkitO2 = kit de sufocamento
+    .desc = Um kit médico contendo itens especializados no tratamento de sufocamento.
 
-ent-MedkitBrute = brute trauma treatment kit
-    .desc = A first aid kit for when you get toolboxed.
+ent-MedkitBrute = kit de trauma bruto
+    .desc = Um kit médico contendo itens utilizados no tratemtento de traumas brutos.
 
-ent-MedkitAdvanced = advanced first aid kit
-    .desc = An advanced kit to help deal with advanced wounds.
+ent-MedkitAdvanced = kit médico avançado
+    .desc = Um kit médico de alto padrão.
 
-ent-MedkitRadiation = radiation treatment kit
-    .desc = If you took your Rad-X you wouldn't need this.
+ent-MedkitRadiation = kit de radiação
+    .desc = Um kit médico contendo itens especializados no tratamento de danos por radiação.
 
-ent-MedkitCombat = combat medical kit
-    .desc = For the big weapons among us.
+ent-MedkitCombat = kit médico de combate
+    .desc = Lembre-se: trocar para a pistola é muito mais rápido que recarregar.
 

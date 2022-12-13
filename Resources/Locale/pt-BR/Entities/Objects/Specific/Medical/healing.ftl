@@ -1,53 +1,53 @@
-ent-Ointment = ointment
-    .desc = Used to treat those nasty burns.
+ent-Ointment = pomada
+    .desc = Utilizada para tratar queimaduras.
 
-ent-Brutepack = bruise pack
-    .desc = A therapeutic gel pack and bandages designed to treat blunt-force trauma.
+ent-Brutepack = gel anestésico
+    .desc = Um pacote contendo bandaids especiais, perfeitos para tratar feridas causadas por dano bruto.
 
-ent-Gauze = roll of gauze
-    .desc = Some sterile gauze to wrap around bloody stumps.
+ent-Gauze = rolo de gaze
+    .desc = Um rolo estéril de gaze, capaz de cobrir feridas.
 
-ent-Gauze1 = roll of gauze
-    .desc = Some sterile gauze to wrap around bloody stumps.
+ent-Gauze1 = rolo de gaze
+    .desc = Um rolo estéril de gaze, capaz de cobrir feridas.
 
 ent-AloeCream = aloe cream
     .desc = A topical cream for burns.
 
-ent-PillDexalin = dexalin pill
+ent-PillDexalin = pílula de dexalin
+    .desc = Um remédio utilizado no tratamento de sufocamento.
+
+ent-PillDylovene = pílula de dylovene
+    .desc = Um remédio utilizado no tratamento de toxinas.
+
+ent-PillHyronalin = pílula de hyronalin
+    .desc = Um remédio utilizado no tratamento de radiação.
+
+ent-PillIron = pílula de ferro
+    .desc = Um remédio utilizado no tratamento de sangramentos.
+
+ent-PillKelotane = pílula de kelotane
+    .desc = Um remédio utilizado no tratamento de queimaduras.
+
+ent-PillSpaceDrugs = pílula de space drugs
+    .desc = Alucinógeno ilegal, possue um efeito forte e duradouro.
+
+ent-PillTricordrazine = pílula de tricordrazine
+    .desc = Um estimulante de emergência, é utilizado como reforço em outros tipos de tratamentos.
+
+ent-PillRomerol = pílula de romerol
     .desc = A topical cream for burns.
 
-ent-PillDylovene = dylovene pill
-    .desc = A topical cream for burns.
+ent-SyringeEphedrine = seringa de ephedrine
+    .desc = Uma seringa contendo Ephedrine, um narcótico potente capaz de aumentar a resistência e a velocidade do usuário. Pode causar overdose.
 
-ent-PillHyronalin = hyronalin pill
-    .desc = A topical cream for burns.
-
-ent-PillIron = iron pill
-    .desc = A topical cream for burns.
-
-ent-PillKelotane = kelotane pill
-    .desc = A topical cream for burns.
-
-ent-PillSpaceDrugs = space drugs
-    .desc = A topical cream for burns.
-
-ent-PillTricordrazine = tricordrazine pill
-    .desc = A topical cream for burns.
-
-ent-PillRomerol = romerol pill
-    .desc = A topical cream for burns.
-
-ent-SyringeEphedrine = ephedrine syringe
-    .desc = A topical cream for burns.
-
-ent-SyringeInaprovaline = inaprovaline syringe
-    .desc = A topical cream for burns.
+ent-SyringeInaprovaline = seringa de inaprovaline
+    .desc = Uma seringa contendo Inaprovaline, remédio utilizado no tratamento de sangramentos.
 
 ent-SyringeTranexamicAcid = tranexamic acid syringe
     .desc = A topical cream for burns.
 
-ent-SyringeSpaceacillin = spaceacillin syringe
-    .desc = A topical cream for burns.
+ent-SyringeSpaceacillin = seringa de spaceallin
+    .desc = Uma seringa contendo Spaceallin, remédio utilizado no tratamento de doenças e infecções.
 
 ent-SyringeIpecac = ipecac syringe
     .desc = A topical cream for burns.

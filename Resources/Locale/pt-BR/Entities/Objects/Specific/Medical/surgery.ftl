@@ -1,36 +1,36 @@
-ent-Cautery = cautery
-    .desc = A surgical tool used to cauterize open wounds.
+ent-Cautery = cauterizador
+    .desc = Uma ferramenta cirúrgica utilizada para cauterizar feridas abertas.
 
-ent-Drill = drill
-    .desc = A surgical drill for making holes into hard material.
+ent-Drill = furadeira
+    .desc = Uma furadeira cirúrgica.
 
-ent-Scalpel = scalpel
-    .desc = A surgical tool used to make incisions into flesh.
+ent-Scalpel = bisturi
+    .desc = Uma lâmina utilizada para fazer incisões no paciente.
 
-ent-ScalpelShiv = shiv
-    .desc = A pointy piece of glass, abraded to an edge and wrapped in tape for a handle.
+ent-ScalpelShiv = bisturi caseiro
+    .desc = Nada higiênico, porém extremamente útil em caso de emergências.
 
-ent-ScalpelAdvanced = advanced scalpel
-    .desc = Made of more expensive materials, sharper and generally more reliable.
+ent-ScalpelAdvanced = bisturi avançado
+    .desc = Um bisturi com lâminas de obsidiana, 1000x mais afiado.
 
-ent-ScalpelLaser = laser scalpel
-    .desc = A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
+ent-ScalpelLaser = bisturi laser
+    .desc = Um bisturi mais afiado ainda, com uma lâmina a laser. Para cirurgias mais delicadas.
 
-ent-Retractor = retractor
-    .desc = A surgical tool used to hold open incisions.
+ent-Retractor = retrator
+    .desc = Uma ferramenta cirúrgica utilizada para manter cortes abertos.
 
-ent-Hemostat = hemostat
-    .desc = A surgical tool used to compress blood vessels to prevent bleeding.
+ent-Hemostat = hermoestato
+    .desc = Uma ferramenta cirúrgica utilizda para evitar grampear artérias, assim evitando sangramentos.
 
-ent-Saw = metal saw
-    .desc = For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
+ent-Saw = serra de metal
+    .desc = Para cortar madeira, ou em caso de emergência, até mesmo ossos.
 
 ent-SawImprov = choppa
     .desc = A wicked serrated blade made of whatever nasty sharp things you could find.
 
-ent-SawElectric = circular saw
-    .desc = For heavy duty cutting.
+ent-SawElectric = serra circular
+    .desc = Para cortes pesados.
 
-ent-SawAdvanced = advanced circular saw
-    .desc = You think you can cut anything with it.
+ent-SawAdvanced = serra circular avançada
+    .desc = Você pode cortar literalmente qualquer coisa com isso.
 
