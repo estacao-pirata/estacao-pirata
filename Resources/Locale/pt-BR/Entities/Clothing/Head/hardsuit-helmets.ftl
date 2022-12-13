@@ -1,72 +1,72 @@
-ent-ClothingHeadHelmetHardsuitAtmos = atmos hardsuit helmet
-    .desc = A special hardsuit helmet designed for working in low-pressure, high thermal environments.
+ent-ClothingHeadHelmetHardsuitAtmos = capacete da hardsuit atmos
+    .desc = Um capacete espacial, planejado para funcionar em ambientes de baixa pressão e de altas temperaturas.
 
-ent-ClothingHeadHelmetHardsuitCap = captain's hardsuit helmet
-    .desc = Special hardsuit helmet, made for the captain of the station.
+ent-ClothingHeadHelmetHardsuitCap = capacete da hardsuit do cap
+    .desc = Um capacete espacial, feito para o capitão da estação.
 
-ent-ClothingHeadHelmetHardsuitDeathsquad = deathsquad hardsuit helmet
-    .desc = A robust helmet for special operations.
+ent-ClothingHeadHelmetHardsuitDeathsquad = capacete da hardsuit do deathsquad
+    .desc = Um capacete espacial robusto, feito para operações especiais.
 
-ent-ClothingHeadHelmetHardsuitEngineering = engineering hardsuit helmet
-    .desc = An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
+ent-ClothingHeadHelmetHardsuitEngineering = capacete da hardsuit de engenheiro
+    .desc = Um capacete espacial, planejado para funcionar em ambientes de baixa pressão e de altas temperaturas.
 
-ent-ClothingHeadHelmetHardsuitEngineeringWhite = chief engineer's hardsuit helmet
-    .desc = Special hardsuit helmet, made for the chief engineer of the station.
+ent-ClothingHeadHelmetHardsuitEngineeringWhite = capacete da hardsuit do chefe engenheiro
+    .desc = Um capacete espacial, exclusivo para o Chefe dos EngenheirosSpecial hardsuit helmet, made for the chief engineer of the station.
 
-ent-ClothingHeadHelmetIHSVoidHelm = IHS voidhelm
-    .desc = A robust, tactical IHS helmet.
+ent-ClothingHeadHelmetIHSVoidHelm = capacete espacial de médico
+    .desc = Disk 193, os médicos irão aonde você estiver.. Até mesmo no meio do espaço!
 
-ent-ClothingHeadHelmetHardsuitMedical = chief medical officer's hardsuit helmet
-    .desc = Lightweight medical hardsuit helmet that doesn't restrict your head movements.
+ent-ClothingHeadHelmetHardsuitMedical = capacete da hardsuit do médico chefe
+    .desc = Um capacete espacial leve, que não restringe os movimentos do seu pescoço. Exclusivo para o Médico Chefe.
 
-ent-ClothingHeadHelmetHardsuitRd = experimental research hardsuit helmet
-    .desc = Lightweight hardsuit helmet that has a galaxy-first psionic passthrough system.
+ent-ClothingHeadHelmetHardsuitRd = capacete da hardsuit experimental
+    .desc = Um capacete espacial leve, capaz de interceptar sinais psiônicos!! Professor Xavier que aguarde.
 
-ent-ClothingHeadHelmetHardsuitSalvage = salvage hardsuit helmet
-    .desc = A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
+ent-ClothingHeadHelmetHardsuitSalvage = capacete da hardsuit de salvagem
+    .desc = Um capacete espacial especial planejado especialmente para os membros da Salvagem, conta com não uma... mas DUAS Lanternas!
 
-ent-ClothingHeadHelmetHardsuitSecurity = security hardsuit helmet
-    .desc = Armored hardsuit helmet for security needs.
+ent-ClothingHeadHelmetHardsuitSecurity = capacete da hardsuit de segurança
+    .desc = Um capacete espacial blindado, perfeito para ocasiões "especiais"...
 
-ent-ClothingHeadHelmetHardsuitSecurityRed = head of security's hardsuit helmet
-    .desc = Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
+ent-ClothingHeadHelmetHardsuitSecurityRed = capacete da hardsuit do hos
+    .desc = Um capacete espacial blindado, equipado com um visor NT-HUD top de linha! Pertence ao Chefe dos Seguranças.
 
-ent-ClothingHeadHelmetHardsuitSyndie = blood red hardsuit helmet
-    .desc = An advanced red hardsuit helmet designed for work in special operations.
+ent-ClothingHeadHelmetHardsuitSyndie = capacete da hardsuit do sindicato
+    .desc = Um capacete vermelho espacial, criado exclusivamente para operações especiais.
 
-ent-ClothingHeadHelmetHardsuitWizard = wizard hardsuit helmet
-    .desc = A bizarre gem-encrusted helmet that radiates magical energies.
+ent-ClothingHeadHelmetHardsuitWizard = capacete da hardsuit do mago
+    .desc = Um capacete espacial bizarramente bizarro, mágicamente mágico, inacreditávelmente inacreditável!! Facilita a receptação e a uitlização de forças mágicas.
 
-ent-ClothingHeadHelmetHardsuitLing = organic space helmet
-    .desc = A spaceworthy biomass of pressure and temperature resistant tissue.
+ent-ClothingHeadHelmetHardsuitLing = capacete orgânico
+    .desc = Um capacete espacial 100% vegano. Tem cheiro de milho.
 
-ent-ClothingHeadHelmetHardsuitSpatio = spationaut hardsuit helmet
-    .desc = A sturdy helmet designed for complex industrial operations in space.
+ent-ClothingHeadHelmetHardsuitSpatio = capacete da hardsuit de espaçonauta
+    .desc = Um capacete exageradamente exagerado, planejado especialmente para operações indústriais no espaço.
 
 ent-ClothingHeadHelmetHardsuitCybersun = cybersun juggernaut helmet
     .desc = Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
 
-ent-ClothingHeadHelmetHardsuitSyndieCommander = syndicate commander helmet
-    .desc = A syndicate hardsuit helmet custom designed for commanders of syndicate operative squads.
+ent-ClothingHeadHelmetHardsuitSyndieCommander = capacete de comandante do sindicato
+    .desc = Um capacete do sindicato, customizado exclusivamente para os comandantes operativos.
 
-ent-ClothingHeadHelmetHardsuitSyndieElite = syndicate elite helmet
-    .desc = A variant of the blood red helmet designed by the gorlax marauders to be exceptionally fireproof and pressure proof.
+ent-ClothingHeadHelmetHardsuitSyndieElite = capacete de elite do sindicato
+    .desc = Uma variante do capacete espacial do sindicato, ainda mais resistente!
 
-ent-ClothingHeadHelmetCBURN = syndicate elite helmet
-    .desc = A pressure resistant and fireproof hood worn by special cleanup units.
+ent-ClothingHeadHelmetCBURN = capacete de elite CBURN
+    .desc = Um capacete espacial, resistente ao calor e impactos.
 
-ent-ClothingHeadHelmetHardsuitERTLeader = ERT leader hardsuit helmet
-    .desc = A special hardsuit helmet worn by members of an emergency response team.
+ent-ClothingHeadHelmetHardsuitERTLeader = capacete de líder ert
+    .desc = Um capacete especialmente planejado para comandantes de unidades ERT.
 
-ent-ClothingHeadHelmetHardsuitERTEngineer = ERT engineer hardsuit helmet
-    .desc = A special hardsuit helmet worn by members of an emergency response team.
+ent-ClothingHeadHelmetHardsuitERTEngineer = capacete de engenheiro ert
+    .desc = Um capacete especialmente planejado para unidades ERT.
 
-ent-ClothingHeadHelmetHardsuitERTMedical = ERT medic hardsuit helmet
-    .desc = A special hardsuit helmet worn by members of an emergency response team.
+ent-ClothingHeadHelmetHardsuitERTMedical = capacete de médico ert
+    .desc = Um capacete especialmente planejado para unidades ERT.
 
-ent-ClothingHeadHelmetHardsuitERTSecurity = ERT security hardsuit helmet
-    .desc = A special hardsuit helmet worn by members of an emergency response team.
+ent-ClothingHeadHelmetHardsuitERTSecurity = capacete de segurança ert
+    .desc = Um capacete especialmente planejado para unidades ERT.
 
-ent-ClothingHeadHelmetHardsuitERTJanitor = ERT janitor hardsuit helmet
-    .desc = A special hardsuit helmet worn by members of an emergency response team.
+ent-ClothingHeadHelmetHardsuitERTJanitor = capacete de zelador ert
+    .desc = Um capacete especialmente planejado para unidades ERT.
 

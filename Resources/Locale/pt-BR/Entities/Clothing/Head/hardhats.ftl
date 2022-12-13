@@ -1,15 +1,15 @@
-ent-ClothingHeadHatHardhatBlue = blue hard hat
-    .desc = A hard hat, painted in blue, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+ent-ClothingHeadHatHardhatBlue = chapéu azul de construtor
+    .desc = Um Chapéu de Construtor de coloração azul, geralmente utilizado em obras para proteger a cabeça do usuário. Lanterna inclusa!
 
-ent-ClothingHeadHatHardhatOrange = orange hard hat
-    .desc = A hard hat, painted in orange, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+ent-ClothingHeadHatHardhatOrange = chapéu de construtor
+    .desc = Um Chapéu de Construtor, geralmente utilizado em obras para proteger a cabeça do usuário. Lanterna inclusa!
 
-ent-ClothingHeadHatHardhatRed = red hard hat
-    .desc = A hard hat, painted in red, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+ent-ClothingHeadHatHardhatRed = chapéu vermelho de construtor
+    .desc = Um Chapéu de Construtor de coloração vermelha, geralmente utilizado em obras para proteger a cabeça do usuário. Lanterna inclusa!
 
-ent-ClothingHeadHatHardhatWhite = white hard hat
-    .desc = A hard hat, painted in white, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+ent-ClothingHeadHatHardhatWhite = chapéu branco de construtor
+    .desc = Um Chapéu de Construtor de coloração branca, geralmente utilizado em obras para proteger a cabeça do usuário. Lanterna inclusa!
 
-ent-ClothingHeadHatHardhatYellow = yellow hard hat
-    .desc = A hard hat, painted in yellow, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+ent-ClothingHeadHatHardhatYellow = chapéu amarelo de construtor
+    .desc = Um Chapéu de Construtor de coloração amarela, geralmente utilizado em obras para proteger a cabeça do usuário. Lanterna inclusa!
 
