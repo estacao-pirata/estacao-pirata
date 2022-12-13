@@ -1,4 +1,4 @@
-ent-ClothingHandsGlovesColorPurple = luvas roxass
+ent-ClothingHandsGlovesColorPurple = luvas roxas
     .desc = Um par de luvas Roxas.
 
 ent-ClothingHandsGlovesColorRed = luvas vermelhas
