@@ -1,15 +1,15 @@
 ent-WeldingMaskBase = welding mask
     .desc = { "" }
 
-ent-ClothingHeadHatWelding = welding mask
-    .desc = A head-mounted face cover designed to protect the wearer completely from space-arc eye.
+ent-ClothingHeadHatWelding = máscara de solda
+    .desc = Uma máscara de solda, evita que você fique cego ao soldar algo. Reza a lenda que ameniza os efeitos da flashbang.
 
-ent-ClothingHeadHatWeldingMaskFlame = flame welding mask
-    .desc = A painted welding helmet, this one has flames on it.
+ent-ClothingHeadHatWeldingMaskFlame = máscara de solda chamas
+    .desc = Uma máscara de solda, evita que você fique cego ao soldar algo. Reza a lenda que ameniza os efeitos da flashbang.
 
-ent-ClothingHeadHatWeldingMaskFlameBlue = blue-flame welding mask
-    .desc = A painted welding helmet, this one has blue flames on it.
+ent-ClothingHeadHatWeldingMaskFlameBlue = máscara de solda azul
+    .desc = Uma máscara de solda, evita que você fique cego ao soldar algo. Reza a lenda que ameniza os efeitos da flashbang.
 
-ent-ClothingHeadHatWeldingMaskPainted = painted welding mask
-    .desc = A welding helmet, painted in crimson.
+ent-ClothingHeadHatWeldingMaskPainted = máscara de solda vermelha
+    .desc = Uma máscara de solda, evita que você fique cego ao soldar algo. Reza a lenda que ameniza os efeitos da flashbang.
 
