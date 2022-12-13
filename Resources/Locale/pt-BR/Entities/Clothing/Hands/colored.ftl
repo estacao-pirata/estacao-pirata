@@ -1,36 +1,36 @@
-ent-ClothingHandsGlovesColorPurple = purple gloves
-    .desc = Regular purple gloves that do not keep you from frying.
+ent-ClothingHandsGlovesColorPurple = luvas roxass
+    .desc = Um par de luvas Roxas.
 
-ent-ClothingHandsGlovesColorRed = red gloves
-    .desc = Regular red gloves that do not keep you from frying.
+ent-ClothingHandsGlovesColorRed = luvas vermelhas
+    .desc = Um par de luvas Vermelhas.
 
-ent-ClothingHandsGlovesColorBlack = black gloves
-    .desc = Regular black gloves that do not keep you from frying.
+ent-ClothingHandsGlovesColorBlack = luvas pretas
+    .desc = Um par de luvas Pretas.
 
-ent-ClothingHandsGlovesColorBlue = blue gloves
-    .desc = Regular blue gloves that do not keep you from frying.
+ent-ClothingHandsGlovesColorBlue = luvas azuis
+    .desc = Um par de luvas Azuis.
 
-ent-ClothingHandsGlovesColorBrown = brown gloves
-    .desc = Regular brown gloves that do not keep you from frying.
+ent-ClothingHandsGlovesColorBrown = luvas marrons
+    .desc = Um par de luvas Marrons.
 
-ent-ClothingHandsGlovesColorGray = grey gloves
-    .desc = Regular grey gloves that do not keep you from frying.
+ent-ClothingHandsGlovesColorGray = luvas cinzas
+    .desc = Um par de luvas Cinzas.
 
-ent-ClothingHandsGlovesColorGreen = green gloves
-    .desc = Regular green gloves that do not keep you from frying.
+ent-ClothingHandsGlovesColorGreen = luvas verdes
+    .desc = Um par de luvas Verdes.
 
-ent-ClothingHandsGlovesColorLightBrown = light brown gloves
-    .desc = Regular light brown gloves that do not keep you from frying.
+ent-ClothingHandsGlovesColorLightBrown = luvas marrom-claro
+    .desc = Um par de luvas Marrom-Claro.
 
-ent-ClothingHandsGlovesColorOrange = orange gloves
-    .desc = Regular orange gloves that do not keep you from frying.
+ent-ClothingHandsGlovesColorOrange = luvas laranjas
+    .desc = Um par de luvas Laranjas.
 
-ent-ClothingHandsGlovesColorWhite = white gloves
-    .desc = Those gloves look fancy.
+ent-ClothingHandsGlovesColorWhite = luvas brancas.
+    .desc = Um par de luvas brancas, você é muito elegante.
 
-ent-ClothingHandsGlovesColorYellow = insulated gloves
-    .desc = These gloves will protect the wearer from electric shocks.
+ent-ClothingHandsGlovesColorYellow = luvas de eletricista
+    .desc = Esse par de luvas evita que você tome choques elétricos! 100% Original!
 
-ent-ClothingHandsGlovesColorYellowBudget = budget insulated gloves
-    .desc = These gloves are cheap knockoffs of the coveted ones - no way this can end badly.
+ent-ClothingHandsGlovesColorYellowBudget = luvas de eletricista da shoppee
+    .desc = Uma cópia das Luvas de Eletricista.. Talvez sejam boas?! Made in China.
 
