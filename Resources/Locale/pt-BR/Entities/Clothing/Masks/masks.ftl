@@ -1,57 +1,57 @@
-ent-ClothingMaskGas = gas mask
-    .desc = A face-covering mask that can be connected to an air supply.
+ent-ClothingMaskGas = máscara de gás
+    .desc = Uma máscara que pode ser conectada a um Tanque de Oxigênio.
 
-ent-ClothingMaskGasSecurity = security gas mask
-    .desc = A standard issue Security gas mask.
+ent-ClothingMaskGasSecurity = máscara de gás da segurança
+    .desc = Equipamento padrão da Segurança.
 
-ent-ClothingMaskGasSyndicate = syndicate gas mask
-    .desc = A close-fitting tactical mask that can be connected to an air supply.
+ent-ClothingMaskGasSyndicate = máscara de gás do sindicato
+    .desc = Uma máscara de gás tática que pode ser conectada a um Tanque de Oxigênio.
 
-ent-ClothingMaskGasAtmos = atmospheric gas mask
-    .desc = Improved gas mask utilized by atmospheric technicians. It's flameproof!
+ent-ClothingMaskGasAtmos = máscara de gás atmosférica
+    .desc = Uma máscara de gás mais tecnológica, é aprova de chamas!
 
-ent-ClothingMaskGasCaptain = captain's gas mask
-    .desc = Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
+ent-ClothingMaskGasCaptain = máscara de gás do capitão
+    .desc = Uma máscara mais refinada e tecnológica, ou deveria ser...
 
-ent-ClothingMaskGasCentcom = CentCom gas mask
-    .desc = Oooh, gold and green. Fancy! This should help as you sit in your office.
+ent-ClothingMaskGasCentcom = máscara de gás da centcom
+    .desc = Eita! Verde e dourada.. Linda! Deve ser muito útil pra quem fica o dia inteiro sentado em um escritório.
 
-ent-ClothingMaskGasExplorer = explorer gas mask
-    .desc = A military-grade gas mask that can be connected to an air supply.
+ent-ClothingMaskGasExplorer = máscara de gás de explorador
+    .desc = Uma máscara de gás de nível militar, pode ser conectada a um Tanque de Oxigênio.
 
-ent-ClothingMaskGasVoiceMasker = gas mask
-    .desc = A face-covering mask that can be connected to an air supply. There are switches and knobs underneath the mask.
+ent-ClothingMaskGasVoiceMasker = máscara de gás
+    .desc = Uma máscara que pode ser conectada a um Tanque de Oxigênio. Tem alguns botões escondidos dentro dela...
     .suffix = Voice Mask
 
-ent-ClothingMaskBreathMedical = medical mask
-    .desc = A close-fitting sterile mask that can be connected to an air supply.
+ent-ClothingMaskBreathMedical = máscara médica
+    .desc = Uma pequena máscara que pode ser conectada a um Tanque de Oxigênio.
     .suffix = Voice Mask
 
-ent-ClothingMaskBreath = breath mask
-    .desc = Might as well keep this on 24/7.
+ent-ClothingMaskBreath = máscara simples
+    .desc = Uma máscara simples, pode ser conectada a um Tanque de Oxigênio.
     .suffix = Voice Mask
 
-ent-ClothingMaskClown = clown wig and mask
-    .desc = A true prankster's facial attire. A clown is incomplete without his wig and mask.
+ent-ClothingMaskClown = máscara buzinástica
+    .desc = Um palhaço sem maquiagem é tipo um rasta que não fuma.
     .suffix = Voice Mask
 
-ent-ClothingMaskJoy = joy mask
-    .desc = Express your happiness or hide your sorrows with this laughing face with crying tears of joy cutout.
+ent-ClothingMaskJoy = máscara de emoji
+    .desc = Esconda sua tristeza com essa máscara sorridente.
     .suffix = Voice Mask
 
-ent-ClothingMaskMime = mime mask
-    .desc = The traditional mime's mask. It has an eerie facial posture.
+ent-ClothingMaskMime = maquiagem de mímico
+    .desc = Essa maquiagem é obrigatória para aqueles que fizeram o voto de silêncio.
     .suffix = Voice Mask
 
-ent-ClothingMaskSterile = sterile mask
-    .desc = A sterile mask designed to help prevent the spread of diseases.
+ent-ClothingMaskSterile = máscara descartável
+    .desc = Uma máscara descartável feita para prevenir doenças que se transmitem pelo ar ou por fluídos.
     .suffix = Voice Mask
 
-ent-ClothingMaskMuzzle = muzzle
-    .desc = To stop that awful noise.
+ent-ClothingMaskMuzzle = mordaça
+    .desc = Faça-o calar a boca!
     .suffix = Voice Mask
 
-ent-ClothingMaskPlague = plague doctor mask
-    .desc = A bad omen.
+ent-ClothingMaskPlague = máscara de médico da peste
+    .desc = Eu tenho um mal pressentimento sobre isso.
     .suffix = Voice Mask
 
