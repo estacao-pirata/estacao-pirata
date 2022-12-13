@@ -1,3 +1,3 @@
-ent-OreBag = ore bag
-    .desc = A robust bag for salvage specialists and miners alike to carry large amounts of ore.
+ent-OreBag = bolsa de minérios
+    .desc = Uma bolsa surrada, perfeita para armazenar os bens extraídos da natureza. Viva ao capitalismo!
 
