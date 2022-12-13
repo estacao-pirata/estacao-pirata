@@ -1,18 +1,18 @@
-ent-ClothingNeckMantleCap = captain's mantle
-    .desc = A comfortable and chique mantle befitting of only the most experienced captain.
+ent-ClothingNeckMantleCap = manto do capitão
+    .desc = Um manto chique e confortável.
 
-ent-ClothingNeckMantleCE = chief engineer's mantle
-    .desc = High visibility, check. RIG system, check. High capacity cell, check. Everything a chief engineer could need in a stylish mantle.
+ent-ClothingNeckMantleCE = manto do chefe engenheiro
+    .desc = Dane-se a segurança, o que importa é o drip.
 
-ent-ClothingNeckMantleCMO = chief medical officer's mantle
-    .desc = For a CMO that has been in enough medbays to know that more PPE means less central command dry cleaning visits when the shift is over.
+ent-ClothingNeckMantleCMO = manto do médico chefe
+    .desc = Para um médico chefe experiente.. Ou não.
 
-ent-ClothingNeckMantleHOP = head of personnel's mantle
-    .desc = A good HOP knows that paper pushing is only half the job... petting your dog and looking fashionable is the other half.
+ent-ClothingNeckMantleHOP = manto do chefe dos funcionários
+    .desc = Um bom hop sabe que a papelada é só uma parte do trabalho, ter uma boa aparência e cuidar do Ian é a outra.
 
-ent-ClothingNeckMantleHOS = head of security's mantle
-    .desc = Shootouts with nukies are just another tuesday for this HoS. This mantle is a symbol of commitment to the station.
+ent-ClothingNeckMantleHOS = manto do segurança chefe
+    .desc = Tiroteios e Nukies são só mais um dia de trabalho na vida dos HoS..
 
-ent-ClothingNeckMantleRD = research director's mantle
-    .desc = For when long days in the office consist of explosives, poisonous gas, murder robots, and a fresh pizza from cargo; this mantle will keep you comfy.
+ent-ClothingNeckMantleRD = manto do diretor de pesquisas
+    .desc = Para um dia produtivo.. Cheio de explosões, gases venenosos, artefatos alienígenas, etc.
 
