@@ -1,78 +1,78 @@
-ent-ClothingHeadHatBluesoft = blue cap
-    .desc = It's a baseball hat in a tasteless blue colour.
+ent-ClothingHeadHatBluesoft = boné azul
+    .desc = Um boné de beisebol, azul.
 
-ent-ClothingHeadHatBluesoftFlipped = blue cap flipped
-    .desc = It's a baseball hat in a tasteless blue colour. Flipped.
+ent-ClothingHeadHatBluesoftFlipped = boné ao contrário
+    .desc = Um boné ao contrário, azul.
 
-ent-ClothingHeadHatCargosoft = cargo cap
-    .desc = It's a baseball hat painted in Cargo colours.
+ent-ClothingHeadHatCargosoft = boné da cargo
+    .desc = Vive La Cargonia! Tem cheiro de graxa.
 
-ent-ClothingHeadHatCargosoftFlipped = cargo cap flipped
-    .desc = It's a baseball hat painted in Cargo colours. Flipped.
+ent-ClothingHeadHatCargosoftFlipped = boné da cargo ao contrário
+    .desc = Vive La Cargonia! Tem cheiro de graxa.
 
-ent-ClothingHeadHatQMsoft = quartermaster's cap
-    .desc = It's a baseball hat painted in the Quartermaster's colors.
+ent-ClothingHeadHatQMsoft = boné do quartermaster
+    .desc = Um boné comum, nas cores de um Quartermaster.
 
-ent-ClothingHeadHatQMsoftFlipped = quartermaster's cap flipped
-    .desc = It's a baseball hat painted in the Quartermaster's colors. Flipped.
+ent-ClothingHeadHatQMsoftFlipped = boné do quartermaster ao contrário.
+    .desc = Um boné comum, nas cores de um Quartermaster. Ao contrário.
 
-ent-ClothingHeadHatCorpsoft = corporate cap
-    .desc = A baseball bat in corporation colors.
+ent-ClothingHeadHatCorpsoft = boné corporativo
+    .desc = Um boné comum nas cores da corporação.
 
-ent-ClothingHeadHatCorpsoftFlipped = corporate cap flipped
-    .desc = A baseball bat in corporation colors. Flipped.
+ent-ClothingHeadHatCorpsoftFlipped = boné corporativo ao contrário
+    .desc = Um boné comum nas cores da corporação. Ao contrário.
 
-ent-ClothingHeadHatGreensoft = green cap
-    .desc = It's a baseball hat in a tasteless green colour.
+ent-ClothingHeadHatGreensoft = boné verde
+    .desc = Um boné comum, só que verde.
 
-ent-ClothingHeadHatGreensoftFlipped = green cap flipped
-    .desc = It's a baseball hat in a tasteless green colour. Flipped.
+ent-ClothingHeadHatGreensoftFlipped = boné verde ao contrário
+    .desc = Um boné comum, só que verde. Ao contrário.
 
-ent-ClothingHeadHatGreysoft = grey cap
-    .desc = It's a baseball hat in a tasteless grey colour.
+ent-ClothingHeadHatGreysoft = boné cinza
+    .desc = Um boné comum, só que cinza.
 
-ent-ClothingHeadHatGreysoftFlipped = grey cap flipped
-    .desc = It's a baseball hat in a tasteless grey colour. Flipped.
+ent-ClothingHeadHatGreysoftFlipped = boné cinza ao contrário
+    .desc = Um boné comum, só que cinza. Ao contrário.
 
-ent-ClothingHeadHatMimesoft = mime cap
-    .desc = It's a baseball hat in a tasteless white colour.
+ent-ClothingHeadHatMimesoft = boné do mímico
+    .desc = Um boné pertencente ao mímico.
 
-ent-ClothingHeadHatMimesoftFlipped = mime cap flipped
-    .desc = It's a baseball hat in a tasteless white colour. Flipped.
+ent-ClothingHeadHatMimesoftFlipped = boné do mímico ao contrário
+    .desc = Um boné pertencente ao mímico. Ao contrário
 
-ent-ClothingHeadHatOrangesoft = orange cap
-    .desc = It's a baseball hat in a good-looking orange colour.
+ent-ClothingHeadHatOrangesoft = boné laranja
+    .desc = Um boné comum, só que laranja.
 
-ent-ClothingHeadHatOrangesoftFlipped = orange cap flipped
-    .desc = It's a baseball hat in a good-looking orange colour. Flipped.
+ent-ClothingHeadHatOrangesoftFlipped = boné laranja ao contrário
+    .desc = Um boné comum, só que laranja. Ao contrário.
 
-ent-ClothingHeadHatPurplesoft = purple cap
-    .desc = It's a baseball hat in a tasteless purple colour.
+ent-ClothingHeadHatPurplesoft = boné roxo
+    .desc = Um boné comum, só que roxo.
 
-ent-ClothingHeadHatPurplesoftFlipped = purple cap flipped
-    .desc = It's a baseball hat in a tasteless purple colour. Flipped.
+ent-ClothingHeadHatPurplesoftFlipped = boné roxo ao contrário
+    .desc = Um boné comum, só que roxo. Ao contrário.
 
-ent-ClothingHeadHatRedsoft = red cap
-    .desc = It's a baseball hat in a tasteless red colour.
+ent-ClothingHeadHatRedsoft = boné vermelho
+    .desc = Um boné comum, só que vermelho.
 
-ent-ClothingHeadHatRedsoftFlipped = red cap flipped
-    .desc = It's a baseball hat in a tasteless purple colour. Flipped.
+ent-ClothingHeadHatRedsoftFlipped = boné vermelho ao contrário
+    .desc = Um boné comum, só que vermelho. Ao contrário.
 
-ent-ClothingHeadHatSecsoft = security cap
-    .desc = It's a robust baseball hat in tasteful red colour.
+ent-ClothingHeadHatSecsoft = boné de segurança
+    .desc = Um boné robusto e estiloso, com cheiro de abuso de autoridade.
 
-ent-ClothingHeadHatSecsoftFlipped = security cap flipped
-    .desc = It's a robust baseball hat in tasteful red colour. Flipped.
+ent-ClothingHeadHatSecsoftFlipped = boné de segurança ao contrário
+    .desc = Um boné robusto e estiloso, com cheiro de abuso de autoridade. Ao contrário.
 
-ent-ClothingHeadHatYellowsoft = yellow cap
-    .desc = A yellow baseball hat.
+ent-ClothingHeadHatYellowsoft = boné amarelo
+    .desc = Um boné amarelo.
 
-ent-ClothingHeadHatYellowsoftFlipped = yellow cap flipped
-    .desc = A yellow flipped baseball hat.
+ent-ClothingHeadHatYellowsoftFlipped = boné amarelo ao contrário
+    .desc = Um bone amarelo, só que ao contrário.
 
-ent-ClothingHeadHatBizarreSoft = troublemaker's soft
-    .desc = A truly.. bizarre accessory.
+ent-ClothingHeadHatBizarreSoft = boné de valentão
+    .desc = Isso foi uma JOJO REFERENCE??!!
 
-ent-ClothingHeadHatBizarreSoftFlipped = troublemaker's soft flipped
-    .desc = A truly.. bizarre accessory, flipped.
+ent-ClothingHeadHatBizarreSoftFlipped = boné de valentão ao contrário
+    .desc = Isso foi uma JOJO REFERENCE??!!
 

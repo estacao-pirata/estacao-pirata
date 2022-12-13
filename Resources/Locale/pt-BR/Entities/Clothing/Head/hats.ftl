@@ -1,129 +1,129 @@
-ent-ClothingHeadHatBeaverHat = beaver hat
-    .desc = Gentlemen?
+ent-ClothingHeadHatBeaverHat = chapéu de castor
+    .desc = Um belo caçador, um belo lenhador.
 
-ent-ClothingHeadHatBeret = beret
-    .desc = A beret, an artists favorite headwear.
+ent-ClothingHeadHatBeret = boina
+    .desc = Uma boina, o acessório favorito dos diretores de cinema!
 
-ent-ClothingHeadHatBeretEngineering = engineering beret
-    .desc = A beret with the engineering insignia emblazoned on it. For engineers that are more inclined towards style than safety.
+ent-ClothingHeadHatBeretEngineering = boina de engenheiro
+    .desc = Uma boina com a insígnia de engenheiro estampada. Dane-se a segurança, o que importa é o estilo!
 
-ent-ClothingHeadHatBeretHoS = head of security's beret
-    .desc = A black beret with a commander's rank emblem. For officers that are more inclined towards style than safety.
+ent-ClothingHeadHatBeretHoS = boina de hos
+    .desc = Uma boina preta com uma insígnia de patente nela, pertencente ao Chefe dos Seguranças.
 
-ent-ClothingHeadHatBeretWarden = warden's beret
-    .desc = A corporate blue beret with a warden's rank emblem. For officers that are more inclined towards style than safety.
+ent-ClothingHeadHatBeretWarden = boina de carcereiro
+    .desc = Uma boina corporativa com a insígnia de carcereiro.
 
-ent-ClothingHeadHatBowlerHat = bowler hat
-    .desc = Stylish bowler hat.
+ent-ClothingHeadHatBowlerHat = chapéu de boliche
+    .desc = Bola não inclusa.
 
-ent-ClothingHeadHatCaptain = captain's hardhat
-    .desc = It's good being the king.
+ent-ClothingHeadHatCaptain = chapéu do capitão
+    .desc = Como é bom ser o rei..
 
-ent-ClothingHeadHatCardborg = cardborg helmet
-    .desc = A hat made out of a box.
+ent-ClothingHeadHatCardborg = chapéu de caixobô
+    .desc = Um chapéu feito por uma criança de 5 anos.
 
-ent-ClothingHeadHatCentcom = CentCom brand hat
-    .desc = It's good to be the emperor.
+ent-ClothingHeadHatCentcom = chapéu da centcom
+    .desc = Como é bom ser imperador...
 
-ent-ClothingHeadHatChef = chefs hat
-    .desc = It's a hat used by chefs to keep hair out of your food. Judging by the food in the mess, they don't work.
+ent-ClothingHeadHatChef = chapéu de chef
+    .desc = É um chapeu nem um pouco estiloso, geralmente utilizado pelos chefs de cozinha da estação. Não os provoque, já que eles podem cuspir na sua comida.
 
-ent-ClothingHeadHatFedoraBrown = brown fedora
-    .desc = It's a brown fedora.
+ent-ClothingHeadHatFedoraBrown = fedora marrom
+    .desc = Torne-se um agiota com essa Fedora Marrom!
 
-ent-ClothingHeadHatFedoraGrey = grey fedora
-    .desc = It's a grey fedora.
+ent-ClothingHeadHatFedoraGrey = fedora cinza
+    .desc = Torne-se um agiota com essa Fedora Cinza!
 
 ent-ClothingHeadHatFez = fez
-    .desc = A red fez.
+    .desc = Esse chapéu não faz nada, mas ele já fez.
 
-ent-ClothingHeadHatHopcap = head of personnel's cap
-    .desc = A grand, stylish captain cap.
+ent-ClothingHeadHatHopcap = boné do hop
+    .desc = Moda casual de luxo, tô chique confortável...
 
-ent-ClothingHeadHatHoshat = head of security's hat
-    .desc = There's a new sheriff in station.
+ent-ClothingHeadHatHoshat = chapéu do hos
+    .desc = Essa cidade é pequena de mais para dois xerifes..
 
-ent-ClothingHeadHatOutlawHat = outlaw's hat
-    .desc = A hat that makes you look like you carry a notched pistol, numbered one and nineteen more.
+ent-ClothingHeadHatOutlawHat = chapéu de fora da lei
+    .desc = Irrá! Atrás da dama!
 
-ent-ClothingHeadHatWitch1 = witch hat
-    .desc = A witch hat.
+ent-ClothingHeadHatWitch1 = chapéu de bruxo
+    .desc = Wingardium Leviosa!
 
-ent-ClothingHeadHatPaper = paper hat
-    .desc = A hat made of paper.
+ent-ClothingHeadHatPaper = chapéu de papel
+    .desc = Um chapéu de papel.
 
-ent-ClothingHeadHatPirate = pirate hat
-    .desc = Yo ho ho and a bottle of rum!
+ent-ClothingHeadHatPirate = chapéu de pirata
+    .desc = Arr! Uma garrafa de rum, por favor.
 
-ent-ClothingHeadHatPlaguedoctor = plague doctor hat
-    .desc = These were once used by plague doctors.
+ent-ClothingHeadHatPlaguedoctor = chapéu de médico da peste
+    .desc = Eu sou a cura.
 
-ent-ClothingHeadHatRedwizard = red wizard hat
-    .desc = Strange-looking red hat-wear that most certainly belongs to a real magic user.
+ent-ClothingHeadHatRedwizard = chapéu de mago vermelho
+    .desc = Um chapéu magicamente mágico, inacreditávelmente inacreditável!
 
-ent-ClothingHeadHatSantahat = santa hat
-    .desc = A festive hat worn by Santa Claus
+ent-ClothingHeadHatSantahat = chapéu de papai noel
+    .desc = Um chapéu festivo. Renas não são inclusas.
 
 ent-ClothingHeadHatSombrero = sombrero
-    .desc = Perfectly for Space Mexico, si?
+    .desc = Burrito, Taco!
 
-ent-ClothingHeadHatSurgcapBlue = surgical cap
-    .desc = A blue cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+ent-ClothingHeadHatSurgcapBlue = touca de cirurgião
+    .desc = Uma touca de cirurgião, utilizada nos procedimentos médicos mais complexos.
 
-ent-ClothingHeadHatSurgcapGreen = surgical cap
-    .desc = A green cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+ent-ClothingHeadHatSurgcapGreen = touca de cirurgião verde
+    .desc = Uma touca de cirurgião verde, utilizada nos procedimentos médicos mais complexos.
 
-ent-ClothingHeadHatSurgcapPurple = surgical cap
-    .desc = A purple cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+ent-ClothingHeadHatSurgcapPurple = touca de cirurgião roxa
+    .desc = Uma touca de cirurgião roxa, utilizada nos procedimentos médicos mais complexos.
 
-ent-ClothingHeadHatTophat = tophat
-    .desc = A stylish black tophat.
+ent-ClothingHeadHatTophat = cartola
+    .desc = Uma cartola.. Reza a lenda que há coelhos dentro!
 
 ent-ClothingHeadHatUshanka = ushanka
-    .desc = Perfect for winter in Siberia, da?
+    .desc = Pe'r'rfei'tah p'arah os' am'antee'es d'e v'uo'dka!
 
-ent-ClothingHeadHatVioletwizard = violet wizard hat
-    .desc = Strange-looking violet hat-wear that most certainly belongs to a real magic user.
+ent-ClothingHeadHatVioletwizard = chapéu de mago violeta
+    .desc = Um chapéu magicamente mágico, inacreditávelmente inacreditável!
 
-ent-ClothingHeadHatWarden = warden's cap
-    .desc = A police officer's Hat. This hat emphasizes that you are THE LAW
+ent-ClothingHeadHatWarden = chapéu de carcereiro
+    .desc = Eu sou a lei.
 
-ent-ClothingHeadHatWitch = witch hat
-    .desc = A witch hat.
+ent-ClothingHeadHatWitch = chapéu de bruxo
+    .desc = Wingardium Leviosa!
 
-ent-ClothingHeadHatWizardFake = fake wizard hat
-    .desc = It has WIZZARD written across it in sequins. Comes with a cool beard.
+ent-ClothingHeadHatWizardFake = chapéu de mago da shoppee
+    .desc = Um chapéu magicamente mágico, inacreditávelmente inac... Pera, isso é falso!
 
-ent-ClothingHeadHatWizard = wizard hat
-    .desc = Strange-looking blue hat-wear that most certainly belongs to a powerful magic user.
+ent-ClothingHeadHatWizard = chapéu de mago
+    .desc = Um chapéu poderosamente poderoso!
 
-ent-ClothingHeadHatXmasCrown = xmas crown
-    .desc = Happy Christmas!
+ent-ClothingHeadHatXmasCrown = coroa de natal
+    .desc = Feliz Natal!
 
-ent-ClothingHeadHatTrucker = truckers hat
-    .desc = Formerly Chucks, this hat is yours now.
+ent-ClothingHeadHatTrucker = boné de caminhoneiro
+    .desc = Não existem mais caminhoneiros, porém o estilo é o que prevalece!
 
-ent-ClothingHeadPyjamaSyndicateBlack = syndicate black pyjama hat
-    .desc = For keeping that traitor head of yours warm.
+ent-ClothingHeadPyjamaSyndicateBlack = pijama preto do sindicato
+    .desc = Até mesmo os mais malvados precisam de uma boa noite de sono.
 
-ent-ClothingHeadPyjamaSyndicatePink = syndicate pink pyjama hat
-    .desc = For keeping that traitor head of yours warm.
+ent-ClothingHeadPyjamaSyndicatePink = pijama rosa do sindicato
+    .desc = Até mesmo os mais malvados precisam de uma boa noite de sono.
 
-ent-ClothingHeadPyjamaSyndicateRed = syndicate red pyjama hat
-    .desc = For keeping that traitor head of yours warm.
+ent-ClothingHeadPyjamaSyndicateRed = pijama vermelho do sindicato
+    .desc = Até mesmo os mais malvados precisam de uma boa noite de sono.
 
-ent-ClothingHeadPaperSack = papersack hat
-    .desc = A paper sack with crude holes cut out for eyes. Useful for hiding one's identity or ugliness.
+ent-ClothingHeadPaperSack = saco de pão
+    .desc = Você não é feio, não há necessidade de usar isso!
 
-ent-ClothingHeadPaperSackSmile = smiling papersack hat
-    .desc = A paper sack with crude holes cut out for eyes and a sketchy smile drawn on the front. Not creepy at all.
+ent-ClothingHeadPaperSackSmile = saco de pão sorridente
+    .desc = Você é feio, mas pelo menos não está triste!
 
-ent-ClothingHeadFishCap = fishing cap
-    .desc = Women fear me. Fish fear me. Men turn their eyes away from me. As I walk no beast dares make a sound in my presence. I am alone on this barren Earth.
+ent-ClothingHeadFishCap = boné de pescador
+    .desc = As mulheres temem a mim. Os peixes me odeiam. Mas o que eu vejo, todos querem saber.
 
-ent-ClothingHeadNurseHat = nurse hat
-    .desc = Somehow I feel I'm not supposed to leave this place.
+ent-ClothingHeadNurseHat = chapéu de enfermeiro
+    .desc = Sou apenas um estagiário!
 
-ent-ClothingHeadRastaHat = rasta hat
-    .desc = Right near da beach, boyee.
+ent-ClothingHeadRastaHat = chapéu rasta
+    .desc = As fumaças falarão por mim...
 

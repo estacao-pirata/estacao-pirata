@@ -1,51 +1,51 @@
-ent-ClothingBeltUtility = utility belt
-    .desc = Can hold various things.
+ent-ClothingBeltUtility = cinto de utilidades
+    .desc = Pode armazenar diversas coisas.
 
-ent-ClothingBeltChiefEngineer = chief engineer's toolbelt
-    .desc = Holds tools, looks snazzy.
+ent-ClothingBeltChiefEngineer = cinto do chefe engenheiro
+    .desc = Segura ferramentas, tem uma aparência elegante.
 
-ent-ClothingBeltAssault = assault belt
-    .desc = A tactical assault belt.
+ent-ClothingBeltAssault = cinto tático
+    .desc = Um cinto de utilidades tático.
 
-ent-ClothingBeltJanitor = janibelt
-    .desc = A belt used to hold most janitorial supplies.
+ent-ClothingBeltJanitor = cinto de zelador
+    .desc = Um cinto capaz de segurar produtos de limpeza.
 
-ent-ClothingBeltMedical = medical belt
-    .desc = Can hold various medical equipment.
+ent-ClothingBeltMedical = cinto médico
+    .desc = Pode segurar vários tipos de equipamentos médicos.
 
-ent-ClothingBeltPlant = botanical belt
-    .desc = A belt used to hold most hydroponics supplies. Suprisingly, not green.
+ent-ClothingBeltPlant = cinto de botânico
+    .desc = Um cinto capaz de segurar vários equipamentos hidropônicos. Não é 100% vegano.
 
-ent-ClothingBeltSecurity = security belt
-    .desc = Can hold security gear like handcuffs and flashes.
+ent-ClothingBeltSecurity = cinto de segurança
+    .desc = Pode segurar equipamentos de segurança, como algemas e até mesmo um stunstick.
 
-ent-ClothingBeltSheath = sabre sheath
-    .desc = An ornate sheath designed to hold an officer's blade.
+ent-ClothingBeltSheath = bainha
+    .desc = Uma Bainha elegante, capaz de armazenar um Sabre.
 
-ent-ClothingBeltBandolier = bandolier
-    .desc = A bandolier for holding shotgun ammunition.
+ent-ClothingBeltBandolier = bandoleira
+    .desc = Uma Bandoleira para cartuchos de Escopeta.
 
-ent-ClothingBeltChampion = championship belt
-    .desc = Proves to the world that you are the strongest!
+ent-ClothingBeltChampion = cinturão de ouro
+    .desc = Prove para o mundo que você é o maior!
 
-ent-ClothingBeltHolster = shoulder holster
-    .desc = A holster to carry a handgun and ammo. WARNING: Badasses only.
+ent-ClothingBeltHolster = coldre
+    .desc = Um coldre capaz de suportar uma pistola e munição. AVISO: Somente para os mais fodas!
 
-ent-ClothingBeltSyndieHolster = syndicate shoulder holster
-    .desc = A deep shoulder holster capable of holding many types of ballistics.
+ent-ClothingBeltSyndieHolster = coldre do sindicato
+    .desc = Um coldre capaz de suportar armamentos e munição.
 
-ent-ClothingBeltSecurityWebbing = security webbing
-    .desc = Unique and versatile chest rig, can hold security gear.
+ent-ClothingBeltSecurityWebbing = colete de segurança
+    .desc = Um colete tático e robusto, pode armazenar equipamentos de segurança.
 
-ent-ClothingBeltMilitaryWebbing = chest rig
-    .desc = A set of tactical webbing worn by Syndicate boarding parties.
+ent-ClothingBeltMilitaryWebbing = colete tático
+    .desc = Um colete tático, utilizado pelo Sindicato.
 
-ent-ClothingBeltMilitaryWebbingMed = medical chest rig
+ent-ClothingBeltMilitaryWebbingMed = colete médico
     .desc = A set of tactical webbing worn by Gorlax Marauder medic operatives.
 
-ent-ClothingBeltSuspenders = suspenders
-    .desc = For holding your pants up.
+ent-ClothingBeltSuspenders = suspensórios
+    .desc = Evita que suas calças caiam em público.
 
-ent-ClothingBeltWand = wand belt
+ent-ClothingBeltWand = cinto mágico
     .desc = A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
 

@@ -1,39 +1,39 @@
-ent-ClothingNeckCloakCap = captain's cloak
-    .desc = A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
+ent-ClothingNeckCloakCap = capa do capitão
+    .desc = Uma elegante capa azul com uma belíssima Moldura dourada.
 
-ent-ClothingNeckCloakHos = head of security's cloak
-    .desc = An exquisite dark and red cloak fitting for those who can assert dominance over wrongdoers. Take a stab at being civil in prosecution!
+ent-ClothingNeckCloakHos = capa do segurança chefe
+    .desc = Uma amedrontadora capa preta e vermelha, perfeito para aqueles que gostam de intimidar os outros.
 
-ent-ClothingNeckCloakCe = chief engineer's cloak
-    .desc = A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.
+ent-ClothingNeckCloakCe = capa do engenheiro chefe
+    .desc = Uma capa verde escura, com pequenos detalhes em azul claro, concedido para aqueles que dominaram a área de engenharia... Ou não.
 
-ent-ClothingCloakCmo = chief medical officer's cloak
-    .desc = A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others.
+ent-ClothingCloakCmo = capa do médico chefe
+    .desc = Uma capa estéril e azul, com detalhes em verde, concedido para aqueles que demonstram interesse em ajudar os outros... Ou não.
 
-ent-ClothingNeckCloakRd = research director's cloak
-    .desc = A white cloak with violet stripes, showing your status as the arbiter of cutting-edge technology.
+ent-ClothingNeckCloakRd = capa do diretor de pesquisas
+    .desc = Uma capa branca com detalhes em violeta, a coisa mais nerd possível.
 
-ent-ClothingNeckCloakQm = quartermaster's cloak
-    .desc = A strong brown cloak with a reflective stripe, while not as fancy as others, it does show your managing skills.
+ent-ClothingNeckCloakQm = capa do quartermaster
+    .desc = Uma capa marrom resistente, apesar de não ser tão bonita, é bem útil para exibir suas habilidades em gerenciar um departamento.
 
-ent-ClothingNeckCloakHop = head of personnel's cloak
-    .desc = A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
+ent-ClothingNeckCloakHop = capa do chefe dos funcionários
+    .desc = Uma capa azul com detalhes vermelhos, concedido para aqueles que se dizem "porteiros" de todas airlocks da estação.
 
-ent-ClothingNeckCloakHerald = herald's cloak
-    .desc = An evil-looking red cloak with spikes on its shoulders.
+ent-ClothingNeckCloakHerald = capa do herald
+    .desc = Uma amedrontadora capa vermelha com espinhos nos ombros. Macabro.
 
-ent-ClothingNeckCloakNanotrasen = nanotrasen cloak
-    .desc = A stately blue cloak to represent NanoTrasen.
+ent-ClothingNeckCloakNanotrasen = capa nanotrasen
+    .desc = Uma capa azul que representa os membros da Nanotrasen.
 
-ent-ClothingNeckCloakCapFormal = captain's formal cloak
-    .desc = A lavish and decorated cloak for special occasions.
+ent-ClothingNeckCloakCapFormal = capa formal do capitão
+    .desc = Para as ocasiões mais formais, como por exemplo a visita de um esquadrão nuclear.
 
-ent-ClothingNeckCloakAdmin = admin cloak
-    .desc = Weh!
+ent-ClothingNeckCloakAdmin = capa do administrador
+    .desc = /ban mui
 
-ent-ClothingNeckCloakMiner = miner's cloak
-    .desc = Worn by the most skilled miners, for one who has moved mountains and filled valleys.
+ent-ClothingNeckCloakMiner = capa do minerador
+    .desc = Utilizada pelos mineradores mais habilidosos, aqueles que são capazes de derrubar montanhas por uma simples pedrinha brilhante.
 
-ent-ClothingNeckCloakTrans = vampire cloak
-    .desc = Worn by high ranking vampires of the transylvanian society of vampires.
+ent-ClothingNeckCloakTrans = capa de vampiro
+    .desc = Tem cheiro de vinho.
 
