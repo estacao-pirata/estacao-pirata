@@ -18,8 +18,8 @@ air-alarm-ui-window-pressure = {$pressure} kPa
 air-alarm-ui-window-pressure-indicator = Pressão: [color={$color}]{$pressure} kPa[/color]
 air-alarm-ui-window-temperature = {$tempC} C ({$temperature} K)
 air-alarm-ui-window-temperature-indicator = Temperatura: [color={$color}]{$tempC} C ({$temperature} K)[/color]
-air-alarm-ui-window-alarm-state = [color={$color}]{$state}[/color]
-air-alarm-ui-window-alarm-state-indicator = Estado: [color={$color}]{$state}[/color]
+air-alarm-ui-window-alarm-state = {$state}
+air-alarm-ui-window-alarm-state-indicator = Status: [color={$color}]{$state}[/color]
 
 air-alarm-ui-window-tab-vents = Ventilações
 air-alarm-ui-window-tab-scrubbers = Depuradores

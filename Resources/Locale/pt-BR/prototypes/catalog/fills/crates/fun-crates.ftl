@@ -1,20 +1,26 @@
-ent-CrateFunPlushie = Caixa de pelúcias
-    .desc = Um monte de pelúcias macias. Jogue-os ao redor e depois se pergunte como você vai explicar essa compra para o NT.
+ent-CrateFunPlushie = Plushie crate
+    .desc = A buncha soft plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
 
-ent-CrateFunInstruments = Coleção de instrumentos
-    .desc = Faça sua estação triste se mexer e curtir com esta bela coleção! Contém treze instrumentos diferentes.
+ent-CrateFunInstruments = Big band instrument collection
+    .desc = Get your sad station movin' and groovin' with this fine collection! Contains thirteen different instruments.
 
-ent-CrateFunBrass = Caixa de intrumentos de sopro
-    .desc = Traga um pouco de jazz para a estação com o conjunto de metais. Contém uma variedade de instrumentos de sopro para toda a estação tocar.
+ent-CrateFunBrass = Brass instrument ensemble crate
+    .desc = Bring some jazz to the station with the brass ensemble. Contains a variety of brass instruments for the whole station to play.
 
-ent-CrateFunArtSupplies = Suprimentos Artísticos
-    .desc = Faça alguns pequenos acidentes felizes com muitos lápis de cor!
+ent-CrateFunArtSupplies = Art supplies
+    .desc = Make some happy little accidents with lots of crayons!
 
-ent-CrateFunBoardGames = Caixa de jogos de tabuleiro
-    .desc = As noites de jogos comprovadamente diminuem o tédio ou aumentam a raiva assassina, dependendo do jogo.
+ent-CrateFunBoardGames = Board game crate
+    .desc = Game nights have been proven to either decrease boredom or increase murderous rage depending on the game.
 
-ent-CrateFunATV = Caixa de ATV
-    .desc = Vruuuum, bibibi.
+ent-CrateFunATV = ATV crate
+    .desc = An Absolutely Taxable Vehicle to help cargo with hauling.
 
-ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
-    .desc = Para dar fuga na segurança.
+ent-CrateFunSadTromboneImplants = Sad Trombone Implants
+    .desc = Death's never been so fun before! Implant these to make dying a bit more happy.
+
+ent-CrateFunLightImplants = Light Implants
+    .desc = Light up your skin with these implants!
+
+ent-CrateFunSyndicateSegway = Syndicate segway crate
+    .desc = A crate containing a two-wheeler that will help you escape from the security officers. Or not.
