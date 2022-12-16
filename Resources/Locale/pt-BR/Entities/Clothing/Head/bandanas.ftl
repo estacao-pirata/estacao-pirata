@@ -1,24 +1,24 @@
-ent-HatBandBlack = black bandana
-    .desc = A black bandana to make you look cool.
+ent-HatBandBlack = bandana preta
+    .desc = Uma bandana preta, te deixa descolado. Utilizada por rappers de todas as idades.
 
-ent-HatBandBlue = blue bandana
-    .desc = A blue bandana to make you look cool.
+ent-HatBandBlue = bandana azul
+    .desc = Uma bandana azul, te deixa descolado. Utilizada por rappers de todas as idades.
 
-ent-HatBandBotany = botany bandana
-    .desc = A botany bandana to make you look cool, made from natural fibers.
+ent-HatBandBotany = bandana de botânico
+    .desc = Uma bandana verde, 100% vegana!
 
-ent-HatBandGold = gold bandana
-    .desc = A gold bandana to make you look cool.
+ent-HatBandGold = bandana dourada
+    .desc = Uma bandana dourada, te deixa descolado. Utilizada por rappers de todas as idades.
 
-ent-HatBandGreen = green bandana
-    .desc = A green bandana to make you look cool.
+ent-HatBandGreen = bandana verde
+    .desc = Uma bandana verde, te deixa descolado. Utilizada por rappers de todas as idades.
 
-ent-HatBandGrey = grey bandana
-    .desc = A grey bandana to make you look cool.
+ent-HatBandGrey = bandana cinza
+    .desc = Uma bandana cinza, te deixa descolado. Utilizada por rappers de todas as idades.
 
-ent-HatBandRed = red bandana
-    .desc = A red bandana to make you look cool.
+ent-HatBandRed = bandana vermelha
+    .desc = Uma bandana vermelha, te deixa descolado. Utilizada por rappers de todas as idades.
 
-ent-HatBandSkull = skull bandana
-    .desc = A bandana with a skull to make you look even cooler.
+ent-HatBandSkull = bandana de caveira
+    .desc = Uma bandana preta com uma caveira desenhada. Alerta de emo!
 

@@ -1,46 +1,46 @@
-ent-ClothingHandsGlovesBoxingRed = red boxing gloves
-    .desc = Red gloves for competitive boxing.
+ent-ClothingHandsGlovesBoxingRed = luvas de boxe vermelhas
+    .desc = Regras do clube da luta: - Jamais fale sobre o clube da luta...
 
-ent-ClothingHandsGlovesBoxingBlue = blue boxing gloves
-    .desc = Blue gloves for competitive boxing.
+ent-ClothingHandsGlovesBoxingBlue = luvas de boxe azuis
+    .desc = Regras do clube da luta: - Jamais fale sobre o clube da luta...
 
-ent-ClothingHandsGlovesBoxingGreen = green boxing gloves
-    .desc = Green gloves for competitive boxing.
+ent-ClothingHandsGlovesBoxingGreen = luvas de boxe verdes
+    .desc = Regras do clube da luta: - Jamais fale sobre o clube da luta...
 
-ent-ClothingHandsGlovesBoxingYellow = yellow boxing gloves
-    .desc = Yellow gloves for competitive boxing.
+ent-ClothingHandsGlovesBoxingYellow = luvas de boxe amarelas
+    .desc = Regras do clube da luta: - Jamais fale sobre o clube da luta...
 
-ent-ClothingHandsGlovesCaptain = captain gloves
-    .desc = Regal blue gloves, with a nice gold trim. Swanky.
+ent-ClothingHandsGlovesCaptain = luvas do capitão
+    .desc = Um elegante par de luvas azuis molduradas em ouro.
 
-ent-ClothingHandsGlovesIhscombat = IHS combat gloves
-    .desc = These tactical gloves are somewhat fire and impact resistant.
+ent-ClothingHandsGlovesIhscombat = luvas táticas
+    .desc = Essas luvas feitas em kevlar são resistentes a fogo e impactos.
 
-ent-ClothingHandsGlovesLatex = latex gloves
-    .desc = Thin sterile latex gloves. Basic PPE for any doctor.
+ent-ClothingHandsGlovesLatex = luvas de látex
+    .desc = Um par de luvas finas e estéreis, perfeitas para Médicos!
 
-ent-ClothingHandsGlovesNitrile = nitrile gloves
-    .desc = High-quality nitrile gloves. Expensive medical PPE.
+ent-ClothingHandsGlovesNitrile = luvas de nítrilo
+    .desc = Luvas de estéreis de altíssima qualidade, com certeza o SUS não tem verba pra isso!
 
-ent-ClothingHandsGlovesLeather = botanist's leather gloves
-    .desc = These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
+ent-ClothingHandsGlovesLeather = luvas de couro do botânico
+    .desc = Essas luvas de couro previnem acidentes com espinhos, enxadas, foices, plantas assasinas, explosões nucleares, etc. São até que bem quentinhas..
 
 ent-ClothingHandsGlovesPowerglove = power gloves
     .desc = Now I'm playin' with power! Wait, they are turned off.
 
-ent-ClothingHandsGlovesRobohands = robohands gloves
-    .desc = Beep boop borp!
+ent-ClothingHandsGlovesRobohands = luvas robóticas
+    .desc = Bip bup!
 
-ent-ClothingHandsGlovesSpaceNinja = space ninja gloves
-    .desc = These black nano-enhanced gloves insulate from electricity and provide fire resistance.
+ent-ClothingHandsGlovesSpaceNinja = luvas de ninja espacial
+    .desc = Esse par de luvas pretas feitas em nanofibras são capazes de evitar choques elétricos e acidentes com fogo.
 
-ent-ClothingHandsGlovesCombat = combat gloves
-    .desc = These tactical gloves are fireproof and shock resistant.
+ent-ClothingHandsGlovesCombat = luvas de combate
+    .desc = Reza a lenda que os Diamond Dogs utilizavam luvas assim! Previnem choques elétricos e acidentes com fogo.
 
-ent-ClothingHandsGlovesFingerless = fingerless gloves
-    .desc = Plain black gloves without fingertips for the hard working.
+ent-ClothingHandsGlovesFingerless = luvas sem dedo
+    .desc = Um par de luva pretas, sem os dedos. Somente para os mais descolados.
 
-ent-ThievingGloves = black gloves
-    .desc = Seemingly regular black gloves. The fingertips are outfitted with nanotech that makes stealing a breeze.
+ent-ThievingGloves = luvas pretas
+    .desc = Aparentemente inofensivas, mas contam com uma tecnologia nanotech nas pontas dos dedos que facilitam o furto.
     .suffix = Thieving
 

@@ -1,15 +1,15 @@
-ent-ClothingHeadHatAnimalCat = grey cat hat
-    .desc = A cute and fluffy head of a grey cat.
+ent-ClothingHeadHatAnimalCat = chapéu de gato cinza
+    .desc = Um chapéu fofo e macio, com formato de gato.
 
-ent-ClothingHeadHatAnimalCatBrown = brown cat hat
-    .desc = A cute and fluffy head of a brown cat.
+ent-ClothingHeadHatAnimalCatBrown = chapéu de gato marrom
+    .desc = Um chapéu fofo e macio, com formato de gato.
 
-ent-ClothingHeadHatAnimalCatBlack = black cat hat
-    .desc = A cute and fluffy head of a black cat.
+ent-ClothingHeadHatAnimalCatBlack = chapéu de gato preto
+    .desc = Um chapéu fofo e macio, com formato de gato.
 
-ent-ClothingHeadHatAnimalHeadslime = headslime hat
-    .desc = A green, sticky headslime, you put it on your head.
+ent-ClothingHeadHatAnimalHeadslime = chapéu de slime
+    .desc = Um chapeu verde e grudento, com formato de slime.
 
-ent-ClothingHeadHatAnimalMonkey = monkey hat
-    .desc = That's a monkey head. It has a hole on a mouth to eat bananas.
+ent-ClothingHeadHatAnimalMonkey = chapéu de macaco
+    .desc = O homem macaco que não tem alma e nem coração.
 
