@@ -1,5 +1,5 @@
-ent-ClothingEyesGlassesBeer = beer goggles
-    .desc = A pair of sunglasses outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion.
+ent-ClothingEyesGlassesBeer = óculos de sol cerveja
+    .desc = Um par de óculos, capaz de identificar reagentes e suas viscosidades.
 
 ent-ClothingEyesGlassesGar = gar glasses
     .desc = Go beyond impossible and kick reason to the curb!
@@ -10,18 +10,18 @@ ent-ClothingEyesGlassesGarOrange = orange gar glasses
 ent-ClothingEyesGlassesGarGiga = giga gar glasses
     .desc = We evolve past the person we were a minute before. Little by little we advance with each turn. That's how a drill works!
 
-ent-ClothingEyesGlassesMeson = engineering goggles
-    .desc = Green-tinted goggles using a proprietary polymer that provides protection from eye damage of all types.
+ent-ClothingEyesGlassesMeson = óculos de engenheiro
+    .desc = Um par de óculos capaz de proteger os olhos do usuário de qualquer tipo de dano a visão.
 
-ent-ClothingEyesGlasses = glasses
-    .desc = A pair of spectacular spectacles with prescription lenses.
+ent-ClothingEyesGlasses = óculos
+    .desc = Um espetacular par de óculos espetaculares espetacularmente bons!
 
-ent-ClothingEyesGlassesSunglasses = sun glasses
-    .desc = Useful both for security and cargonia.
+ent-ClothingEyesGlassesSunglasses = óculos de sol
+    .desc = Aparenta te deixar fodão.
 
-ent-ClothingEyesGlassesSecurity = security sunglasses
-    .desc = Strangely ancient technology used to help provide rudimentary eye cover. Enhanced shielding blocks many flashes. Often worn by budget security officers.
+ent-ClothingEyesGlassesSecurity = óculos de sol da segurança
+    .desc = Uma tecnologia estranhamente antiga. Se ver um holofote em formato de morcego, não vá ao local.
 
-ent-ClothingEyesGlassesThermal = optical thermal scanner
-    .desc = Thermals in the shape of glasses.
+ent-ClothingEyesGlassesThermal = óculos de visão térmica
+    .desc = Um visor térmico portátil.
 

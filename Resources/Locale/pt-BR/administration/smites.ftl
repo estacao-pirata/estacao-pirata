@@ -11,6 +11,7 @@ admin-smite-remove-hands-other = As mãos do(a) {CAPITALIZE($name)} caem!
 admin-smite-turned-ash-other = {CAPITALISE($name)} virou pó!
 admin-smite-stomach-removal-self = Seu estômago parece vazio...
 admin-smite-run-walk-swap-prompt = Você tem que pressionar shift para correr!
+admin-smite-super-speed-prompt = Você se move a mach 0.8!
 admin-smite-lung-removal-self = Você não pode respirar!
 
 
@@ -47,6 +48,7 @@ admin-smite-maid-description = Converte-os à força em uma empregada doméstica
 admin-smite-zoom-in-description = Amplia sua visão para que eles não possam mais ver seus arredores.
 admin-smite-flip-eye-description = Inverte sua visão, efetivamente revertendo seus controles e tornando o jogo chato de jogar.
 admin-smite-run-walk-swap-description = Troca corrida e caminhada, forçando-os a segurar o turno para se mover rapidamente.
+admin-smite-super-speed-description = Makes them really fast, causing them to turn into gibs when hitting a wall.
 admin-smite-stomach-removal-description = Remove o estômago, tornando-os incapazes de comer.
 admin-smite-speak-backwards-description = Força-os a falar ao contrário, para que não possam pedir ajuda.
 admin-smite-lung-removal-description = Remove seus pulmões, afogando-os.

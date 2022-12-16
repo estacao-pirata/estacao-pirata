@@ -1,39 +1,39 @@
-ent-ClothingHeadHatBunny = bunny ears
-    .desc = Cute bunny ears.
+ent-ClothingHeadHatBunny = orelhas de coelho
+    .desc = Você quer uma cenoura?
 
-ent-ClothingHeadHatCake = cake hat
-    .desc = You put the cake on your head. Brilliant.
+ent-ClothingHeadHatCake = chapéu de bolo
+    .desc = Você senta no bolo ou come ele?
 
-ent-ClothingHeadHatChickenhead = chicken head
-    .desc = It's a chicken head. Bok bok bok!
+ent-ClothingHeadHatChickenhead = chapéu de frango
+    .desc = Pó!
 
-ent-ClothingHeadHatFlowerCrown = flower crown
-    .desc = A coronet of fresh and fragrant flowers.
+ent-ClothingHeadHatFlowerCrown = coroa de flores
+    .desc = Para a rainha flora.
 
-ent-ClothingHeadHatHairflower = hairflower
-    .desc = A red rose for beautiful ladies.
+ent-ClothingHeadHatHairflower = rosa
+    .desc = Uma bela rosa vermelha, para uma bela dama.
 
-ent-ClothingHeadHatPumpkin = pumpkin hat
-    .desc = A jack o' lantern! Believed to ward off evil spirits.
+ent-ClothingHeadHatPumpkin = chapéu de abóbora
+    .desc = Cuidado para não assutar uma criança!
 
 ent-ClothingHeadHatPwig = pwig
-    .desc = To be honest, those look ridiculous.
+    .desc = Honestamente, que merda é essa?
 
 ent-ClothingHeadHatRichard = richard
-    .desc = Do you like hurting people?
+    .desc = Você gosta de ferir pessoas?
 
-ent-ClothingHeadHatSkub = skub hat
-    .desc = Best paired with the Skub Suit.
+ent-ClothingHeadHatSkub = chapéu skub
+    .desc = Ha! Skub.
 
 ent-ClothingHeadHatShrineMaidenWig = shrine maiden's wig
     .desc = The tag reads "All proceeds go to the Hakurei Shrine."
 
-ent-ClothingHeadHatCone = warning cone
-    .desc = This cone is trying to warn you of something!
+ent-ClothingHeadHatCone = cone de sinalização
+    .desc = Esse cone está tentando te dizer algo!
 
-ent-ClothingHeadHatFancyCrown = fancy crown
-    .desc = It smells like dead rat. Lets you speak like one!
+ent-ClothingHeadHatFancyCrown = coroa linda
+    .desc = Tem cheiro de rato morto.
 
-ent-ClothingHeadHatCatEars = cat ears
-    .desc = NYAH!
+ent-ClothingHeadHatCatEars = orelhas de gato
+    .desc = ALERTA DE FURRY!!!!
 
