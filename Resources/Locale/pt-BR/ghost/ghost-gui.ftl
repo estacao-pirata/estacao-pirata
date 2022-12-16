@@ -1,15 +1,15 @@
 ghost-gui-return-to-body-button = Voltar pro Corpo
 ghost-gui-ghost-warp-button = Teleportar
 ghost-gui-ghost-roles-button = Funções Fantasmas ({$count})
-ghost-gui-toggle-ghost-visibility-name = Toggle Ghosts
-ghost-gui-toggle-ghost-visibility-desc = Toggle the visibility of other ghosts.
-ghost-gui-toggle-ghost-visibility-popup = Toggled visibility of ghosts.
-ghost-gui-toggle-lighting-manager-name = Toggle All Lighting
-ghost-gui-toggle-lighting-manager-desc = Toggle all light rendering to better observe dark areas.
-ghost-gui-toggle-lighting-manager-popup = Toggled all lighting.
-ghost-gui-toggle-fov-name = Toggle FoV
-ghost-gui-toggle-fov-desc = Toggles field-of-view in order to see what players see.
-ghost-gui-toggle-fov-popup = Toggled field-of-view.
+ghost-gui-toggle-ghost-visibility-name = Alternar Fantasmas
+ghost-gui-toggle-ghost-visibility-desc = Alternar a visibilidade de outros fantasmas.
+ghost-gui-toggle-ghost-visibility-popup = Alternou visibilidade de fantasmas.
+ghost-gui-toggle-lighting-manager-name = Alternar Toda a Iluminação
+ghost-gui-toggle-lighting-manager-desc = Alternar toda a renderização de iluminação para observar melhor as áreas escuras.
+ghost-gui-toggle-lighting-manager-popup = Alternou toda a iluminação.
+ghost-gui-toggle-fov-name = Alternar campo de visão
+ghost-gui-toggle-fov-desc = Alterna campo de visão de modo a ver o que os jogadores vêem.
+ghost-gui-toggle-fov-popup = Alternou o campo de visão.
 
 ghost-target-window-title = Teleportar
 ghost-target-window-current-button = Teleportar: {$name}

@@ -22,11 +22,11 @@ ent-CrateEngineeringCableBulk = Bulk cable crate
 ent-CrateEngineeringElectricalSupplies = Electrical Supplies Crate
     .desc = NT is not responsible for any workplace infighting relating to the insulated gloves included within these crates.
 
-ent-CrateEngineeringJetpack = Jetpack crate
-    .desc = Two jetpacks for those who don't know how to use fire extinguishers.
+ent-CrateEngineeringJetpack = Caixa de jetpack
+    .desc = Dois jetpacks para quem não sabe usar extintores.
+    
+ent-CrateEngineeringMiniJetpack = Caixa de mini jetpack
+    .desc = Dois mini jetpacks para quem quer um desafio extra.
 
-ent-CrateEngineeringMiniJetpack = Mini jetpack crate
-    .desc = Two mini jetpacks for those who want an extra challenge.
-
-ent-CrateAirlockKit = Airlock kit
-    .desc = A kit for building 6 airlocks, doesn't include tools.
+ent-CrateAirlockKit = Kit portas de câmaras de ar
+    .desc = Um kit para contruir 6 portas de câmaras de ar, não inclui ferramentas.

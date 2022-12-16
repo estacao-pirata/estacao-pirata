@@ -12,20 +12,20 @@ ent-CrateMedicalSurgery = Surgical supplies crate
 ent-CrateMedicalScrubs = Medical scrubs crate
     .desc = Medical clothings.
 
-ent-CrateEmergencyBurnKit = Emergency burn kit
-    .desc = Crate filled with four burn treatment kits 
+ent-CrateEmergencyBurnKit = Kit de emergência para queimaduras
+    .desc = Caixa com quatro kits para tratar queimaduras
 
-ent-CrateEmergencyToxinKit = Emergency toxin kit
-    .desc = Crate filled with four toxin treatment kits
+ent-CrateEmergencyToxinKit = Kit de emergência antitoxinas
+    .desc = Caixa com quatro kits de tratamento contra toxinas
 
-ent-CrateEmergencyO2Kit = Emergency O2 kit
-    .desc = Crate filled with four O2 treatment kits
+ent-CrateEmergencyO2Kit = Kit de emergência O²
+    .desc = Caixa com quatro kits de tratamento para baixa saturação de O²
 
-ent-CrateEmergencyBruteKit = Emergency brute kit
-    .desc = Crate filled with four brute treatment kits
+ent-CrateEmergencyBruteKit = Kit de emergência bruto
+    .desc = Caixa com quatro kits de tratamento contra ferimentos do tipo bruto
 
-ent-CrateEmergencyAdvancedKit = Emergency advanced kit
-    .desc = Crate filled with four advanced treatment kits
+ent-CrateEmergencyAdvancedKit = Kit de emergência avançado
+    .desc = Caixa com quatro kits de tratamento avançados
 
-ent-CrateEmergencyRadiationKit = Emergency radiation kit
-    .desc = Crate filled with four radiation treatment kits
+ent-CrateEmergencyRadiationKit = Kit de emergência para lesões por radiação
+    .desc = Caixa com quatro kits de tratamento contra lesões causadas por exposição à radiação

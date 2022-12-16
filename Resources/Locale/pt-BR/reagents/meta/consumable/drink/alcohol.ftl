@@ -124,8 +124,8 @@ reagent-desc-doctors-delight = Um gole por dia mantém o MediBot longe. Isso pro
 reagent-name-driest-martini = driest martini
 reagent-desc-driest-martini = Apenas para os experientes. Você acha que tem areia flutuando no copo.
 
-reagent-name-erika-suprise = erika suprise
-reagent-desc-erika-suprise = A surpresa é, que é verde!
+reagent-name-erika-surprise = erika suprise
+reagent-desc-erika-surprise = A surpresa é, que é verde!
 
 reagent-name-gargle-blaster = Pan-Galactic Gargle Blaster
 reagent-desc-gargle-blaster = Uoa, isso parece volátil!
