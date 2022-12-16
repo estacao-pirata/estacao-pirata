@@ -28,9 +28,9 @@ ent-ClothingHandsGlovesColorOrange = luvas laranjas
 ent-ClothingHandsGlovesColorWhite = luvas brancas.
     .desc = Um par de luvas brancas, você é muito elegante.
 
-ent-ClothingHandsGlovesColorYellow = luvas de eletricista
+ent-ClothingHandsGlovesColorYellow = luvas isolantes
     .desc = Esse par de luvas evita que você tome choques elétricos! 100% Original!
 
-ent-ClothingHandsGlovesColorYellowBudget = luvas de eletricista da shoppee
-    .desc = Uma cópia das Luvas de Eletricista.. Talvez sejam boas?! Made in China.
+ent-ClothingHandsGlovesColorYellowBudget = luvas isolantes de baixo custo
+    .desc = Uma cópia das Luvas Isolantes.. Talvez sejam boas?! Made in China.
 
