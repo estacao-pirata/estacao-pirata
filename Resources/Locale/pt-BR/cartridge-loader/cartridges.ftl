@@ -1,6 +1,6 @@
-﻿default-program-name = Program
+﻿default-program-name = Programa
 
-ent-notekeeper-cartridge = notekeeper cartridge
-    .desc = A program for keeping notes
+ent-notekeeper-cartridge = cartucho de bloco de notas
+    .desc = Um programa para armazenar anotações.
 
-notekeeper-program-name = Notekeeper
+notekeeper-program-name = Bloco de notas
