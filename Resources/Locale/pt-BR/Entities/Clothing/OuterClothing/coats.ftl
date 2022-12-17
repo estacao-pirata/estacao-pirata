@@ -1,33 +1,33 @@
-ent-ClothingOuterCoatBomber = bomber jacket
-    .desc = A thick, well-worn WW2 leather bomber jacket.
+ent-ClothingOuterCoatBomber = jaqueta bomber
+    .desc = Uma estilosa jaqueta bomber.
 
-ent-ClothingOuterCoatDetective = detective trenchcoat
-    .desc = A rugged canvas trenchcoat, designed and created by TX Fabrication Corp. The coat is externally impact resistant - perfect for your next act of autodefenestration!
+ent-ClothingOuterCoatDetective = sobretudo do detetive
+    .desc = Um sobretudo surrado, resistente a impactos. Tem cheiro de cigarro e bebida alcoólica.
 
-ent-ClothingOuterCoatGentle = gentle coat
-    .desc = A gentle coat for a gentle man, or woman.
+ent-ClothingOuterCoatGentle = casaco elegante
+    .desc = Um casaco elegante, para uma dama ou um cavaleiro.
 
-ent-ClothingOuterCoatHoSTrench = head of security's trenchcoat
-    .desc = This trenchcoat was specifically designed for asserting superior authority.
+ent-ClothingOuterCoatHoSTrench = sobretudo do segurança chefe
+    .desc = Esse sobretudo foi feito especialmente para causar uma sensação de superioridade no usuário.
 
-ent-ClothingOuterCoatInspector = inspectors coat
-    .desc = A strict inspector coat for being intimidating during inspections.
+ent-ClothingOuterCoatInspector = casaco de inspetor
+    .desc = Um casaco surrado. Tem cheiro de cigarro e bebida alcóolica.
 
-ent-ClothingOuterCoatJensen = jensen coat
-    .desc = A jensen coat.
+ent-ClothingOuterCoatJensen = casaco jensen
+    .desc = Um casaco jensen.
 
-ent-ClothingOuterCoatLab = lab coat
-    .desc = A suit that protects against minor chemical spills.
+ent-ClothingOuterCoatLab = jaleco
+    .desc = Um jaleco.
 
-ent-ClothingOuterCoatLabChem = lab coat (chem)
-    .desc = A suit that protects against minor chemical spills. Has an orange stripe on the shoulder.
+ent-ClothingOuterCoatLabChem = jaleco de químico
+    .desc = Um jaleco com detalhes em laranja nos ombros.
 
-ent-ClothingOuterCoatLabCmo = chief medical officer's lab coat
-    .desc = Bluer than the standard model.
+ent-ClothingOuterCoatLabCmo = jaleco do médico chefe
+    .desc = Um jaleco azul.
 
-ent-ClothingOuterCoatPirate = pirate garb
-    .desc = Yarr.
+ent-ClothingOuterCoatPirate = casaco de pirata
+    .desc = Arr.
 
-ent-ClothingOuterCoatWarden = warden's armored jacket
-    .desc = A sturdy, utilitarian jacket designed to protect a warden from any brig-bound threats.
+ent-ClothingOuterCoatWarden = jaqueta blindada do carcereiro
+    .desc = Uma jaqueta utilitária e resistente, planejada para proteger o carcereiro de ameaças iminentes.
 
