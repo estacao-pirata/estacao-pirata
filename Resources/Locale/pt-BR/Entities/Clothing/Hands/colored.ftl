@@ -31,6 +31,6 @@ ent-ClothingHandsGlovesColorWhite = luvas brancas.
 ent-ClothingHandsGlovesColorYellow = luvas isolantes
     .desc = Esse par de luvas evita que você tome choques elétricos! 100% Original!
 
-ent-ClothingHandsGlovesColorYellowBudget = luvas isolantes de baixo custo
+ent-ClothingHandsGlovesColorYellowBudget = luvas isolantes da shoppee
     .desc = Uma cópia das Luvas Isolantes.. Talvez sejam boas?! Made in China.
 
