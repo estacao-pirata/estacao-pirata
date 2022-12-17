@@ -1,6 +1,6 @@
-ent-ClothingNeckTieRed = red-tie
-    .desc = A neosilk clip-on red tie.
+ent-ClothingNeckTieRed = gravata vermelha
+    .desc = Uma gravata vermelha.
 
-ent-ClothingNeckTieDet = detective's tie
-    .desc = A loosely tied necktie, a perfect accessory for the over-worked detective.
+ent-ClothingNeckTieDet = gravata de detetive
+    .desc = Uma gravata solta e desleixada, um acessório perfeito para detetives exaustos de tanto trabalhar. Tem cheiro de cigarro.
 

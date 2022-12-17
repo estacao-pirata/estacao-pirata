@@ -1,12 +1,12 @@
-ent-ClothingNeckScarfStripedRed = striped red scarf
-    .desc = A stylish striped red scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+ent-ClothingNeckScarfStripedRed = cachecol vermelho listrado
+    .desc = Um cachecol vermelho muito estiloso, com listras. O acessório perfeito para se usar no inverno... Ou num desfile de moda.
 
-ent-ClothingNeckScarfStripedBlue = striped blue scarf
-    .desc = A stylish striped blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+ent-ClothingNeckScarfStripedBlue = cachecol azul listrado
+    .desc = Um cachecol azul muito estiloso, com listras. O acessório perfeito para se usar no inverno... Ou num desfile de moda.
 
-ent-ClothingNeckScarfStripedGreen = striped green scarf
-    .desc = A stylish striped green scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+ent-ClothingNeckScarfStripedGreen = cachecol verde listrado
+    .desc = Um cachecol verde muito estiloso, com listras. O acessório perfeito para se usar no inverno... Ou num desfile de moda.
 
-ent-ClothingNeckScarfStripedZebra = zebra scarf
-    .desc = A striped scarf, a mandatory accessory for artists.
+ent-ClothingNeckScarfStripedZebra = cachecol zebra
+    .desc = Um cachecol listrado, o principal acessório dos artistas.
 
