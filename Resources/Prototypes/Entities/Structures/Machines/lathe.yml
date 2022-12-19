@@ -160,10 +160,13 @@
     dynamicRecipes:
       - LightTube
       - LightBulb
-      - SheetSteel #these sheet recipe costs don't scale with upgrades
-      - SheetGlass1
-      - SheetRGlass
+      - SheetSteel
       - SheetPlastic
+      - SheetPlasteel
+      - SheetPlasma
+      - SheetRGlass
+      - SheetGlass1
+      - BluespaceCrystal
       - CableStack
       - CableMVStack
       - CableHVStack
@@ -182,49 +185,37 @@
       - Hemostat
       - Beaker
       - LargeBeaker
-      - CryostasisBeaker
       - Dropper
       - Syringe
       - Implanter
       - PillCanister
       - ChemistryEmptyBottle01
-      - Drone
       - Flash
       - MicroManipulatorStockPart
       - ScanningModuleStockPart
       - MicroLaserStockPart
       - MatterBinStockPart
       - CapacitorStockPart
-      - AdvancedCapacitorStockPart
-      - AdvancedMatterBinStockPart
-      - HighPowerMicroLaserStockPart
-      - NanoManipulatorStockPart
-      - AdvancedScanningModuleStockPart
       - FirelockElectronics
       - DoorElectronics
       - APCElectronics
       - AirAlarmElectronics
       - FireAlarmElectronics
+      - IntercomElectronics
       - MailingUnitElectronics
       - Bucket
       - MopItem
       - SprayBottle
       - FireExtinguisher
-      - KitchenKnife
-      - ButchCleaver
       - FlashlightLantern
       - TimerTrigger
-      - ChemicalPayload
-      - FlashPayload
       - Signaller
       - SignalTrigger
       - VoiceTrigger
       - PowerCellSmall
       - PowerCellMedium
-      - PowerCellHigh  
+      - PowerCellHigh
       - SynthesizerInstrument
-      - RPED
-      - HolofanProjector
 
 - type: entity
   parent: Protolathe
@@ -256,6 +247,7 @@
       - AirAlarmElectronics
       - FireAlarmElectronics
       - MailingUnitElectronics
+      - IntercomElectronics
       - SMESMachineCircuitboard
       - SubstationMachineCircuitboard
       - ThermomachineFreezerMachineCircuitBoard
@@ -282,6 +274,7 @@
       - ProtolatheMachineCircuitboard
       - ReagentGrinderMachineCircuitboard
       - MicrowaveMachineCircuitboard
+      - DeepFryerMachineCircuitboard
       - UniformPrinterMachineCircuitboard
       - ShuttleConsoleCircuitboard
       - RadarConsoleCircuitboard
@@ -365,16 +358,20 @@
   - type: Lathe
     idleState: icon
     runningState: icon
-    staticRecipes:
+    dynamicRecipes:
       - Flash
       - FlashPayload
       - Handcuffs
       - Zipties
       - Stunbaton
+      - InsulativeHeadcage
+      - ShockCollar
       - ForensicPad
       - ClothingEyesGlassesSecurity
       - RiotShield
       - CartridgePistol
+      - ShellShotgun
+      - CartridgeLightRifle
       - CartridgeMagnum
       - CartridgePistolRubber
       - CartridgeMagnumRubber
@@ -382,13 +379,31 @@
       - ShellShotgunBeanbag
       - ShellShotgunFlare
       - ShellTranquilizer
-      - CartridgeLightRifle
-      - CartridgeCaselessRifleRubber
-      - CartridgeLightRifleRubber
-      - CartridgeRifleRubber
+      - ShellSoulbreaker
       - TargetHuman
       - TargetSyndicate
       - TargetClown
+      - CartridgeLightRifle
+      - CartridgeCaselessRifleRubber
+      - CartridgeLightRifleRubber
+      - CartridgeRifleRubber  #Everything below this is shared with other lathes
+      - FlashlightLantern
+      - Bucket
+      - MopItem
+      - SprayBottle
+      - FireExtinguisher
+      - LightTube
+      - LightBulb
+      - SheetSteel
+      - SheetPlastic
+      - SheetPlasteel
+      - SheetPlasma
+      - SheetRGlass
+      - SheetGlass1
+      - BluespaceCrystal
+      - CableStack
+      - CableMVStack
+      - CableHVStack
   - type: MaterialStorage
     whitelist:
       tags:
@@ -433,6 +448,7 @@
       - Drill
       - Saw
       - Hemostat
+      - ChemicalPayload
       - Beaker
       - LargeBeaker
       - CryostasisBeaker
@@ -441,7 +457,24 @@
       - Implanter
       - PillCanister
       - BodyBag
-      - ChemistryEmptyBottle01
+      - PillCanister #Everything below this is shared with other lathes
+      - FlashlightLantern
+      - Bucket
+      - MopItem
+      - SprayBottle
+      - FireExtinguisher
+      - LightTube
+      - LightBulb
+      - SheetSteel
+      - SheetPlastic
+      - SheetPlasteel
+      - SheetPlasma
+      - SheetRGlass
+      - SheetGlass1
+      - BluespaceCrystal
+      - CableStack
+      - CableMVStack
+      - CableHVStack
   - type: Machine
     board: MedicalTechFabCircuitboard
 
@@ -482,13 +515,9 @@
       - ClothingUniformJumpskirtChaplain
       - ClothingUniformJumpsuitChef
       - ClothingUniformJumpskirtChef
-      - ClothingUniformJumpsuitChemistry
-      - ClothingUniformJumpskirtChemistry
       - ClothingUniformJumpsuitClown
       - ClothingUniformJumpsuitCMO
       - ClothingUniformJumpskirtCMO
-      - ClothingUniformJumpsuitDetective
-      - ClothingUniformJumpskirtDetective
       - ClothingUniformJumpsuitEngineering
       - ClothingUniformJumpskirtEngineering
       - ClothingUniformJumpsuitHoP
@@ -500,8 +529,6 @@
       - ClothingUniformJumpsuitJanitor
       - ClothingUniformJumpskirtJanitor
       - ClothingUniformJumpsuitLawyerBlack
-      - ClothingUniformJumpsuitLibrarian
-      - ClothingUniformJumpskirtColorLightBrown
       - ClothingUniformJumpsuitMedicalDoctor
       - ClothingUniformJumpskirtMedicalDoctor
       - ClothingUniformJumpsuitMime
@@ -513,10 +540,6 @@
       - ClothingUniformJumpskirtPrisoner
       - ClothingUniformJumpsuitQM
       - ClothingUniformJumpskirtQM
-      - ClothingUniformJumpsuitResearchDirector
-      - ClothingUniformJumpskirtResearchDirector
-      - ClothingUniformJumpsuitScientist
-      - ClothingUniformJumpskirtScientist
       - ClothingUniformJumpsuitSec
       - ClothingUniformJumpskirtSec
       - ClothingUniformJumpsuitWarden
@@ -527,13 +550,11 @@
       - ClothingOuterWinterHoP
       - ClothingOuterWinterHoS
       - ClothingOuterWinterQM
-      - ClothingOuterWinterRD
       - ClothingNeckMantleCap
       - ClothingNeckMantleCE
       - ClothingNeckMantleCMO
       - ClothingNeckMantleHOP
       - ClothingNeckMantleHOS
-      - ClothingNeckMantleRD
       - ClothingOuterWinterMusician
       - ClothingOuterWinterClown
       - ClothingOuterWinterMime
@@ -579,5 +600,5 @@
         - SheetPGlass30
         - SheetRPGlass30
         - SheetUranium1
-        - IngotGold1
         - IngotSilver1
+        - IngotGold1

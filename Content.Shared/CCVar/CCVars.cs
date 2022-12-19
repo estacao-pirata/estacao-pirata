@@ -100,7 +100,7 @@ namespace Content.Shared.CCVar
             CVarDef.Create("status.mommiurl", "", CVar.SERVERONLY);
 
         public static readonly CVarDef<string> StatusMoMMIPassword =
-            CVarDef.Create("status.mommipassword", "", CVar.SERVERONLY | CVar.CONFIDENTIAL);
+            CVarDef.Create("status.mommipassword", "", CVar.SERVERONLY);
 
         /*
          * Events
@@ -253,22 +253,17 @@ namespace Content.Shared.CCVar
             CVarDef.Create("game.panic_bunker.enabled", false, CVar.SERVERONLY);
 
         /// <summary>
-        /// Show reason of disconnect for user or not.
+        /// Panic bunker when no admins are on.
         /// </summary>
-        public static readonly CVarDef<bool> PanicBunkerShowReason =
-            CVarDef.Create("game.panic_bunker.show_reason", false, CVar.SERVERONLY);
+        public static readonly CVarDef<bool> AdminPanic =
+            CVarDef.Create("game.admin_panic.enabled", false, CVar.SERVERONLY);
+        /// Show reason of disconnect for user or not.
 
         /// <summary>
         /// Minimum age of the account (from server's PoV, so from first-seen date) in minutes.
         /// </summary>
         public static readonly CVarDef<int> PanicBunkerMinAccountAge =
             CVarDef.Create("game.panic_bunker.min_account_age", 1440, CVar.SERVERONLY);
-
-        /// <summary>
-        /// Minimal overall played time.
-        /// </summary>
-        public static readonly CVarDef<int> PanicBunkerMinOverallHours =
-            CVarDef.Create("game.panic_bunker.min_overall_hours", 10, CVar.SERVERONLY);
 
         /// <summary>
         /// Make people bonk when trying to climb certain objects like tables.
@@ -434,7 +429,7 @@ namespace Content.Shared.CCVar
             CVarDef.Create("database.pg_username", "postgres", CVar.SERVERONLY);
 
         public static readonly CVarDef<string> DatabasePgPassword =
-            CVarDef.Create("database.pg_password", "", CVar.SERVERONLY | CVar.CONFIDENTIAL);
+            CVarDef.Create("database.pg_password", "", CVar.SERVERONLY);
 
         // Basically only exists for integration tests to avoid race conditions.
         public static readonly CVarDef<bool> DatabaseSynchronous =
@@ -537,7 +532,10 @@ namespace Content.Shared.CCVar
 
         public static readonly CVarDef<bool> NPCEnabled = CVarDef.Create("npc.enabled", true);
 
-        public static readonly CVarDef<bool> NPCCollisionAvoidance = CVarDef.Create("npc.collision_avoidance", true);
+        /// <summary>
+        /// Should NPCs pathfind when steering. For debug purposes.
+        /// </summary>
+        public static readonly CVarDef<bool> NPCPathfinding = CVarDef.Create("npc.pathfinding", true);
 
         /*
          * Net
@@ -837,12 +835,6 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<bool> HolidaysEnabled = CVarDef.Create("holidays.enabled", true, CVar.SERVERONLY);
 
         /*
-         * Branding stuff
-         */
-
-        public static readonly CVarDef<bool> BrandingSteam = CVarDef.Create("branding.steam", false, CVar.CLIENTONLY);
-
-        /*
          * OOC
          */
 
@@ -890,13 +882,19 @@ namespace Content.Shared.CCVar
         ///     Controls whether the server will deny any players that are not whitelisted in the DB.
         /// </summary>
         public static readonly CVarDef<bool> WhitelistEnabled =
-            CVarDef.Create("whitelist.enabled", false, CVar.SERVERONLY);
+            CVarDef.Create("whitelist.enabled", false, CVar.REPLICATED);
 
         /// <summary>
         ///     The loc string to display as a disconnect reason when someone is not whitelisted.
         /// </summary>
         public static readonly CVarDef<string> WhitelistReason =
             CVarDef.Create("whitelist.reason", "whitelist-not-whitelisted", CVar.SERVERONLY);
+
+        /// <summary>
+        ///     How many players are let in before a whitelist is required to join.
+        /// </summary>
+        public static readonly CVarDef<int> WhitelistMinPlayers =
+            CVarDef.Create("whitelist.min_players", 35, CVar.SERVERONLY | CVar.ARCHIVE);
 
         /*
          * VOTE
@@ -908,12 +906,11 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<bool> VoteEnabled =
             CVarDef.Create("vote.enabled", true, CVar.SERVERONLY);
 
-        // TODO HUD REFACTOR REENABLE
         /// <summary>
         ///     See vote.enabled, but specific to restart votes
         /// </summary>
         public static readonly CVarDef<bool> VoteRestartEnabled =
-            CVarDef.Create("vote.restart_enabled", false, CVar.SERVERONLY);
+            CVarDef.Create("vote.restart_enabled", true, CVar.SERVERONLY);
 
         /// <summary>
         ///     See vote.enabled, but specific to preset votes
@@ -1134,8 +1131,7 @@ namespace Content.Shared.CCVar
          */
 
         public static readonly CVarDef<string> UILayout =
-            CVarDef.Create("ui.layout", "Default", CVar.CLIENTONLY | CVar.ARCHIVE);
-
+            CVarDef.Create("ui.layout", "Separated", CVar.CLIENTONLY | CVar.ARCHIVE);
 
 
         /*

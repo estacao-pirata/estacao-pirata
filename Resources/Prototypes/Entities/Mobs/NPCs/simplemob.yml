@@ -113,7 +113,9 @@
     - Electrocution
     - ForcedSleep
     - TemporaryBlindness
+    - SeeingRainbows
     - Pacified
+  - type: Blindable
   - type: Body
     prototype: Animal
   - type: InjectableSolution
@@ -143,8 +145,6 @@
     safe: false
   - type: StandingState
   - type: Alerts
-  - type: NameIdentifier
-    group: GenericNumber
   - type: SlowOnDamage
     speedModifierThresholds:
       60: 0.7
@@ -222,4 +222,5 @@
     bloodMaxVolume: 150
   - type: MobPrice
     price: 150
-
+  - type: SentienceTarget
+    flavorKind: animal
