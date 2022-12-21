@@ -1,84 +1,84 @@
-ent-ClothingOuterHardsuitAtmos = atmos hardsuit
-    .desc = A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
+ent-ClothingOuterHardsuitAtmos = hardsuit atmos
+    .desc = Um traje espacial que protege o usuário de ambientes perigosos ou despressurizados. Possue blindagem térmica.
 
-ent-ClothingOuterHardsuitCap = captain's armored spacesuit
-    .desc = A formal armored spacesuit, made for the station's captain.
+ent-ClothingOuterHardsuitCap = traje espacial do capitão
+    .desc = Um traje espacial blindado, feito para o capitão da estação.
 
-ent-ClothingOuterHardsuitDeathsquad = deathsquad hardsuit
-    .desc = An advanced hardsuit favored by commandos for use in special operations.
+ent-ClothingOuterHardsuitDeathsquad = hardsuit da deathsquad
+    .desc = Uma hardsuit avançada, a escolha favorita dos commandos em operações espaciais.
 
-ent-ClothingOuterHardsuitEngineering = engineering hardsuit
-    .desc = A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+ent-ClothingOuterHardsuitEngineering = hardsuit de engenheiro
+    .desc = Um traje espacial que protege o usuário de ambientes perigosos ou despressurizados. Oferece proteção a radiação.
 
-ent-ClothingOuterHardsuitEngineeringWhite = chief engineer's hardsuit
-    .desc = A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station.
+ent-ClothingOuterHardsuitEngineeringWhite = hardsuit do engenheiro chefe
+    .desc = Um traje espacial que protege o usuário de ambientes perigosos ou despressurizados. Feito exclusivamente para o engenheiro chefe.
 
-ent-IHSVoidsuit = IHS voidsuit
-    .desc = A special void suit that protects against hazardous, low pressure environments.
+ent-IHSVoidsuit = voidsuit ihs
+    .desc = Um traje especial que protege o usuário de ambientes perigosos ou despressurizados.
 
-ent-ClothingOuterHardsuitEVA = EVA suit
-    .desc = A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
+ent-ClothingOuterHardsuitEVA = traje eva
+    .desc = Um traje espacial leve, utilizado para proteger o usuário dos efeitos causados pelo vácuo. Perfeito para situações de emergência.
 
-ent-ClothingOuterHardsuitSyndicate = syndicate EVA suit
-    .desc = Has a tag on it 'Totally not property of an enemy corporation, honest!'
+ent-ClothingOuterHardsuitSyndicate = traje eva do sindicato
+    .desc = Tem uma etiqueta nele 'Definitivamente não é propriedade da corporação inimiga, honestidade acima de tudo!'.
 
-ent-ClothingOuterHardsuitEVAPrisoner = prisoner EVA suit
-    .desc = A lightweight space suit for prisoners to protect them from the vacuum of space during emergencies.
+ent-ClothingOuterHardsuitEVAPrisoner = traje eva de prisioneiro
+    .desc = Um traje espacial leve, feito para proteger os prisioneiros dos efeitos causados pelo vácuo. Perfeito para situações de emergência.
 
-ent-ClothingOuterHardsuitMedical = chief medical officer's hardsuit
-    .desc = A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement.
+ent-ClothingOuterHardsuitMedical = hardsuit do médico chefe
+    .desc = Um traje espacial que protege o usuário de ambientes perigosos ou despressurizados. Construído com materiais leves para facilitar o movimento do usuário.
 
-ent-ClothingOuterHardsuitRd = experimental research hardsuit
-    .desc = A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+ent-ClothingOuterHardsuitRd = hardsuit experimental de pesquisas
+    .desc = Um traje espacial que protege o usuário de ambientes perigosos ou despressurizados. Tem uma camada extra de blindagem.
 
-ent-ClothingOuterHardsuitSalvage = salvage hardsuit
-    .desc = A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
+ent-ClothingOuterHardsuitSalvage = hardsuit de salvagem
+    .desc = Um traje espacial que protege o usuário de ambientes perigosos ou despressurizados. Tem uma camada extra de placas pensadas no encontro de vidas selvagens.
 
-ent-ClothingOuterHardsuitSecurity = security hardsuit
-    .desc = A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+ent-ClothingOuterHardsuitSecurity = hardsuit da segurança
+    .desc = Um traje espacial que protege o usuário de ambientes perigosos ou despressurizados. Tem uma camada extra de blindagem
 
-ent-ClothingOuterHardsuitSecurityRed = head of security's hardsuit
-    .desc = A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+ent-ClothingOuterHardsuitSecurityRed = hardsuit do segurança chefe
+    .desc = Um traje espacial que protege o usuário de ambientes perigosos ou despressurizados. Tem uma camada extra de blindagem
 
-ent-ClothingOuterHardsuitSyndie = blood red hardsuit
-    .desc = A heavily armored and agile advanced hardsuit designed for work in special operations.
+ent-ClothingOuterHardsuitSyndie = hardsuit vermelha
+    .desc = Uma hardsuit extremamente blindada e ágil planejada para operações espaciais.
 
-ent-ClothingOuterHardsuitWizard = wizard hardsuit
-    .desc = A bizarre gem-encrusted suit that radiates magical energies.
+ent-ClothingOuterHardsuitWizard = hardsuit de mago
+    .desc = Um traje bizarro moldado em jóias que radiam energias mágicas.
 
-ent-ClothingOuterHardsuitLing = organic space suit
-    .desc = A spaceworthy biomass of pressure and temperature resistant tissue.
+ent-ClothingOuterHardsuitLing = traje espacial orgânico
+    .desc = Um traje espacial feito com biomassa, resistente a despressurização e baixas temperaturas. 100% vegano!
 
-ent-ClothingOuterHardsuitSpatio = spationaut hardsuit
-    .desc = A lightweight hardsuit designed for industrial eva activies in zero grav.
+ent-ClothingOuterHardsuitSpatio = hardsuit de espaçonauta
+    .desc = Uma hardsuit leve, pertencente a era industrial para atividades em gravidade zero.
 
-ent-ClothingOuterHardsuitVoidParamed = Paramedic Void Suit
-    .desc = A void suit made for paramedics.
+ent-ClothingOuterHardsuitVoidParamed = traje espacial de médico
+    .desc = Disk 193, os médicos irão aonde você estiver.. Até mesmo no meio do espaço!
 
 ent-ClothingOuterHardsuitJuggernaut = cybersun juggernaut suit
     .desc = A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
 
-ent-ClothingOuterHardsuitSyndieCommander = syndicate commander hardsuit
-    .desc = A blood red hardsuit heavily modified for use by the commander of operative squads.
+ent-ClothingOuterHardsuitSyndieCommander = hardsuit de comandante do sindicato
+    .desc = Uma hardsuit altamente modificada, planejada exclusivamente para o comandante das operações espaciais.
 
-ent-ClothingOuterHardsuitSyndieElite = syndicate elite hardsuit
-    .desc = An upgraded version of the blood red hardsuit that features enhanced fireproofing, pressure resist, and superior armor.
+ent-ClothingOuterHardsuitSyndieElite = hardsuit de elite do sindicato
+    .desc = Uma versão melhorada da hardsuit vermelha que contém novidades, como resistência a chamas, maior resistência ao vácuo, e ainda mais blindagem.
 
-ent-ClothingOuterHardsuitCBURN = CBURN exosuit
-    .desc = A lightweight yet strong exosuit used for special cleanup operations.
+ent-ClothingOuterHardsuitCBURN = exosuit cburn
+    .desc = Um traje leve e resistente utilizdo em operações espaciais.
 
-ent-ClothingOuterHardsuitERTLeader = ERT leader's hardsuit
-    .desc = A protective hardsuit worn by members of an emergency response team.
+ent-ClothingOuterHardsuitERTLeader = hardsuit de líder ert
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
 
-ent-ClothingOuterHardsuitERTEngineer = ERT engineer's hardsuit
-    .desc = A protective hardsuit worn by members of an emergency response team.
+ent-ClothingOuterHardsuitERTEngineer = hardsuit de engenheiro ert
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
 
-ent-ClothingOuterHardsuitERTMedical = ERT medic's hardsuit
-    .desc = A protective hardsuit worn by members of an emergency response team.
+ent-ClothingOuterHardsuitERTMedical = hardsuit de paramédico ert
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
 
-ent-ClothingOuterHardsuitERTSecurity = ERT security's hardsuit
-    .desc = A protective hardsuit worn by members of an emergency response team.
+ent-ClothingOuterHardsuitERTSecurity = hardsuit de segurança ert
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
 
-ent-ClothingOuterHardsuitERTJanitor = ERT janitor's hardsuit
-    .desc = A protective hardsuit worn by members of an emergency response team.
+ent-ClothingOuterHardsuitERTJanitor = hardsuit de zelador ert
+    .desc = Uma hardsuit de proteção utilizada pelos membros do esquadrão ert.
 
