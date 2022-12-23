@@ -7,7 +7,7 @@ ent-Chair = cadeira
 ent-Stool = banco
     .desc = Aplicar bunda.
 
-ent-StoolBar = bacno de bar
+ent-StoolBar = banco de bar
     .desc = Aplicar bunda.
 
 ent-ChairOfficeLight = cadeira de escritório branca
