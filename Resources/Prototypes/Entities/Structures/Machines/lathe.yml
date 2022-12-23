@@ -170,6 +170,8 @@
       - CableStack
       - CableMVStack
       - CableHVStack
+      - PowerDrill
+      - MiningDrill
       - ConveyorBeltAssembly
       - AppraisalTool
       - RCDAmmo
@@ -215,6 +217,7 @@
       - PowerCellSmall
       - PowerCellMedium
       - PowerCellHigh
+      - SynthesizerInstrument
 
 - type: entity
   parent: Protolathe
@@ -288,6 +291,8 @@
       - WallmountGeneratorAPUElectronics
       - WallmountSubstationElectronics
       - EmitterCircuitboard
+      - ThrusterMachineCircuitboard
+      - GyroscopeMachineCircuitboard
       - GasRecyclerMachineCircuitboard
       - SeedExtractorMachineCircuitboard
       - AnalysisComputerCircuitboard
