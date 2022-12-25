@@ -1,5 +1,5 @@
-ent-ClothingHeadHatBeaverHat = chapéu de castor
-    .desc = Um belo caçador, um belo lenhador.
+ent-ClothingHeadHatBeaverHat = cartola beaver
+    .desc = Um bom mágico jamais revela seus truques.
 
 ent-ClothingHeadHatBeret = boina
     .desc = Uma boina, o acessório favorito dos diretores de cinema!
