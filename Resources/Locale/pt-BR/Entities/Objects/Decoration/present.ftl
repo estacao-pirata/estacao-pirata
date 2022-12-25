@@ -1,3 +1,3 @@
-ent-Present = Present
-    .desc = A little box with incredible surprises inside.
+ent-Present = presente
+    .desc = Uma caixinha de surpresas.
 
