@@ -14,7 +14,7 @@ alerts-on-fire-name = [color=red]Em chamas[/color]
 alerts-on-fire-desc = Você está [color=red]em chamas[/color]. Clique no alerta para parar, soltar e rolar para apagar o fogo ou passar para uma área de vácuo.
 
 alerts-too-cold-name = [color=cyan]Muito frio[/color]
-alerts-too-cold-desc = Você está [color=cyan]muito frio![/color] Vá para um lugar mais quente e tire qualquer roupa isolante como um traje espacial.
+alerts-too-cold-desc = Você está com [color=cyan]muito frio![/color] Vá para um lugar mais quente e tire qualquer roupa isolante como um traje espacial.
 
 alerts-too-hot-name = [color=red]Muito quente[/color]
 alerts-too-hot-desc = Está [color=red]muito quente![/color] Vá para um lugar mais frio, tire qualquer roupa isolante como um traje espacial, ou pelo menos fique longe das chamas.
