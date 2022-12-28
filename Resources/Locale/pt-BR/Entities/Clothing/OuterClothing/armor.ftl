@@ -1,36 +1,36 @@
-ent-ClothingOuterArmorReflective = reflective vest
-    .desc = An armored vest with advanced shielding to protect against energy weapons.
+ent-ClothingOuterArmorReflective = colete refletor
+    .desc = Um colete de proteção contendo uma tecnologia avançada de blindagem. Para proteger o usuário contra armas de energia.
 
-ent-ClothingOuterArmorBulletproof = bulletproof vest
-    .desc = An armored vest with heavy plates to protect against ballistic projectiles.
+ent-ClothingOuterArmorBulletproof = colete a prova de balas
+    .desc = Um colee de proteção feito com placas de kevlar. Para proteger o usuário de projéteis balísticos.
 
-ent-ClothingOuterArmorCult = acolyte armor
-    .desc = An evil-looking piece of cult armor, made of bones.
+ent-ClothingOuterArmorCult = armadura acolyte
+    .desc = Uma armadura cultista malígna, feita de ósssos.
 
-ent-ClothingOuterArmorHeavy = heavy armor suit
-    .desc = A heavily armored suit that protects against excessive damage.
+ent-ClothingOuterArmorHeavy = armadura militar
+    .desc = Um traje altamente resistente feito com placas de cerâmica balística. Capaz de proteger o usuário de danos excessívos.
 
-ent-ClothingOuterArmorHeavyGreen = green heavy armor suit
-    .desc = A heavily armored suit with green accents that protects against excessive damage.
+ent-ClothingOuterArmorHeavyGreen = armadura militar verde
+    .desc = Um traje altamente resistente com traços em verde. Capaz de proteger o usuário de danos excessívos.
 
-ent-ClothingOuterArmorHeavyRed = red heavy armor suit
-    .desc = A heavily armored suit with red accents that protects against excessive damage.
+ent-ClothingOuterArmorHeavyRed = armadura militar vermelha
+    .desc = Um traje altamente resistente com traços em vermelho. Capaz de proteger o usuário de danos excessívos.
 
-ent-ClothingOuterArmorMagusblue = blue magus armor
-    .desc = An blue armored suit that provides good protection.
+ent-ClothingOuterArmorMagusblue = armadura magus azul
+    .desc = Um traje blindado azul.
 
-ent-ClothingOuterArmorMagusred = red magus armor
-    .desc = A red armored suit that provides good protection.
+ent-ClothingOuterArmorMagusred = armadura magus vermelha
+    .desc = Um traje blindado vermelho.
 
-ent-ClothingOuterArmorRiot = riot suit
-    .desc = An armored vest with heavy padding to protect against melee attacks, perfect for fighting delinquents around the station.
+ent-ClothingOuterArmorRiot = traje anti-motim
+    .desc = Um traje resistente a ataques corpo a corpo, perfeito para combater delinquentes pela estação.
 
-ent-ClothingOuterArmorScaf = scaf suit
+ent-ClothingOuterArmorScaf = traje scaf
     .desc = A green and brown tactical suit for combat situations.
 
-ent-ClothingOuterArmorCaptainCarapace = captain's carapace
+ent-ClothingOuterArmorCaptainCarapace = armadura do capitão
     .desc = An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
 
-ent-ClothingOuterArmorChangeling = chitinous armor
+ent-ClothingOuterArmorChangeling = armadura chitinous
     .desc = Inflates the changeling's body into an all-consuming chitinous mass of armor.
 

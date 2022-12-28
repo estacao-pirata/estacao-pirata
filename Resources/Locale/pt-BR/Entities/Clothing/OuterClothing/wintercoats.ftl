@@ -1,84 +1,84 @@
-ent-ClothingOuterWinterCoat = winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterCoat = agasalho
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterAtmos = atmospherics winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterAtmos = agasalho de atmos
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterBar = bartender winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterBar = agasalho de bartender
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterCap = captain's winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterCap = agasalho de capitão
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterCargo = cargo winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterCargo = agasalho da cargo
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterCE = chief engineer's winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterCE = agasalho do engenheiro chefe
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterCentcom = CentCom winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterCentcom = agasalho da centcom
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterChem = chemistry winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterChem = agasalho de químico
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterCMO = chief medical officer's winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterCMO = agasalho do médico chefe
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterClown = clown winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterClown = agasalho de palhaço
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterEngi = engineering winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterEngi = agasalho de engenheiro
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterGen = genetics winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterGen = agasalho genético
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterHoP = head of personnel's winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterHoP = agasalho do hop
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterHoS = head of security's winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterHoS = agasalho do hos
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterHydro = hydroponics winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterHydro = agasalho hidropônico
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterJani = janitorial winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterJani = agasalho de zelador
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterMed = medical winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterMed = agasalho de médico
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterMime = mime winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterMime = agasalho de mímico
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterMiner = mining winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterMiner = agasalho de minerador
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterPara = paramedic winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterPara = agasalho de paramédico
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterQM = quartermaster's winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterQM = agasalho do quartermaster
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterRD = research director's winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterRD = agasalho do diretor de pesquisas
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterRobo = robotics winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterRobo = agasalho robótico
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterSci = science winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterSci = agasalho de cientista
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterSec = security winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterSec = agasalho da segurança
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterViro = virology winter coat
-    .desc = A heavy jacket made from 'synthetic' animal furs.
+ent-ClothingOuterWinterViro = agasalho de virologia
+    .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterWarden = warden's armored winter coat
-    .desc = A sturdy, utilitarian winter coat designed to protect a warden from any brig-bound threats and hypothermic events.
+ent-ClothingOuterWinterWarden = agasalho blindado do carcereiro
+    .desc = Uma roupa de frio utilitária e robusta, projetada para proteger o carcereiro das ameaças encontradas diáriamente nas celas.
 
-ent-ClothingOuterWinterMusician = musician's winter coat
-    .desc = An oversized, plasticine space tuxedo that'll have people asking "do you know me?"
+ent-ClothingOuterWinterMusician = agasalho de músico
+    .desc = Um tuxedo largo, utilizado por um músico de classe.
 
