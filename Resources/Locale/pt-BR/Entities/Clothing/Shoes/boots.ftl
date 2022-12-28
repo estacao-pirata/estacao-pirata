@@ -1,18 +1,18 @@
-ent-ClothingShoesBootsWork = workboots
-    .desc = Engineering lace-up work boots for the especially blue-collar.
+ent-ClothingShoesBootsWork = botas de obra
+    .desc = Um par de botas duras, projetadas para proteger os pés do usuário contra possíveis acidentes.
 
-ent-ClothingShoesBootsJack = jackboots
-    .desc = Nanotrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
+ent-ClothingShoesBootsJack = coturnos
+    .desc = Um par de coturnos, projetados para unidades de combate e segurança.
 
-ent-ClothingShoesBootsSalvage = salvage boots
-    .desc = Steel-toed salvage boots for salvaging in hazardous environments.
+ent-ClothingShoesBootsSalvage = botas de salvagem
+    .desc = Um par de botas duras, projetadas para a proteção do usuário em ambientes perigosos.
 
-ent-ClothingShoesBootsPerformer = performer's boots
-    .desc = These boots provide great traction for when you're up on stage.
+ent-ClothingShoesBootsPerformer = sapatos
+    .desc = Esse par de sapatos disponibilizam uma boa tração em palcos.
 
-ent-ClothingShoesBootsCombat = combat boots
-    .desc = Robust combat boots for combat scenarios or combat situations. All combat, all the time.
+ent-ClothingShoesBootsCombat = coturno de combate
+    .desc = Um par de coturnos de alta qualidade, perfeitos para situações de combate.
 
-ent-ClothingShoesBootsLaceup = laceup shoes
-    .desc = The height of fashion, and they're pre-polished!
+ent-ClothingShoesBootsLaceup = tênis
+    .desc = O ápice do fashionismo!
 

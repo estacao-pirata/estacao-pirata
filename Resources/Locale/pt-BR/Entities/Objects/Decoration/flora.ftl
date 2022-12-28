@@ -1,68 +1,68 @@
-ent-FloraRockSolid01 = rock
-    .desc = Yep, it's a tree.
+ent-FloraRockSolid01 = pedra
+    .desc = Sim, é uma pedra.
 
-ent-FloraRockSolid02 = rock
-    .desc = Yep, it's a tree.
+ent-FloraRockSolid02 = pedra
+    .desc = Sim, é uma pedra.
 
-ent-FloraRockSolid03 = rock
-    .desc = Yep, it's a tree.
+ent-FloraRockSolid03 = pedra
+    .desc = Sim, é uma pedra.
 
-ent-FloraTree01 = tree
-    .desc = Yep, it's a tree.
+ent-FloraTree01 = árvore
+    .desc = Sim, é uma árvore.
 
-ent-FloraTree02 = tree
-    .desc = Yep, it's a tree.
+ent-FloraTree02 = árvore
+    .desc = Sim, é uma árvore.
 
-ent-FloraTree03 = tree
-    .desc = Yep, it's a tree.
+ent-FloraTree03 = árvore
+    .desc = Sim, é uma árvore.
 
-ent-FloraTree04 = tree
-    .desc = Yep, it's a tree.
+ent-FloraTree04 = árvore
+    .desc = Sim, é uma árvore.
 
-ent-FloraTree05 = tree
-    .desc = Yep, it's a tree.
+ent-FloraTree05 = árvore
+    .desc = Sim, é uma árvore.
 
-ent-FloraTree06 = tree
-    .desc = Yep, it's a tree.
+ent-FloraTree06 = árvore
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeSnow01 = snowy tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeSnow01 = árvore coberta de neve
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeSnow02 = snowy tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeSnow02 = árvore coberta de neve
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeSnow03 = snowy tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeSnow03 = árvore coberta de neve
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeSnow04 = snowy tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeSnow04 = árvore coberta de neve
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeSnow05 = snowy tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeSnow05 = árvore coberta de neve
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeSnow06 = snowy tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeSnow06 = árvore coberta de neve
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeStump = tree stump
-    .desc = Yep, it's a tree.
+ent-FloraTreeStump = árvore
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeLarge01 = large tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeLarge01 = árvore grande
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeLarge02 = large tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeLarge02 = árvore grande
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeLarge03 = large tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeLarge03 = árvore grande
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeLarge04 = large tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeLarge04 = árvore grande
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeLarge05 = large tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeLarge05 = árvore grande
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeLarge06 = large tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeLarge06 = árvore grande
+    .desc = Sim, é uma árvore.
 
 ent-FloraTreeConifer01 = snowy conifer
     .desc = Yep, it's a tree.
@@ -73,12 +73,12 @@ ent-FloraTreeConifer02 = snowy conifer
 ent-FloraTreeConifer03 = snowy conifer
     .desc = Yep, it's a tree.
 
-ent-FloraTreeChristmas01 = christmas tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeChristmas01 = árvore de natal
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeChristmas02 = christmas tree
-    .desc = Yep, it's a tree.
+ent-FloraTreeChristmas02 = árvore de natal
+    .desc = Sim, é uma árvore.
 
 ent-FloraTreeStumpConifer = tree stump
-    .desc = Yep, it's a tree.
+    .desc = Sim, é uma árvore.
 

@@ -1,79 +1,79 @@
-ent-ClothingOuterApron = apron
-    .desc = A fancy apron for a stylish person.
+ent-ClothingOuterApron = avental
+    .desc = Um avental estiloso para uma pessoa estilosa.
 
-ent-ClothingOuterApronBotanist = apron
-    .desc = A thick blue-apron, perfect for insulating your soft flesh from spills, soil and thorns.
+ent-ClothingOuterApronBotanist = avental
+    .desc = Um avental estiloso, perfeito para ficar manchado de terra.
     .suffix = Botanical
 
-ent-ClothingOuterApronChef = apron
-    .desc = An apron-jacket used by a high class chef.
+ent-ClothingOuterApronChef = avental
+    .desc = Um avental estiloso, com algumas manchas de molho de tomate.
     .suffix = Chef
 
-ent-ClothingOuterJacketChef = chef jacket
-    .desc = An apron-jacket used by a high class chef.
+ent-ClothingOuterJacketChef = jaqueta de chef
+    .desc = Uma jaqueta suja de molho.
     .suffix = Chef
 
-ent-ClothingOuterHoodieBlack = black hoodie
-    .desc = Oh my God, it's a black hoodie!
+ent-ClothingOuterHoodieBlack = moletom preto
+    .desc = Meu deus!! É um Moletom preto!!!!!
     .suffix = Chef
 
-ent-ClothingOuterHoodieGrey = grey hoodie
-    .desc = A grey hoodie.
+ent-ClothingOuterHoodieGrey = moletom cinz
+    .desc = Um moletom cinza.
     .suffix = Chef
 
-ent-ClothingOuterCardborg = cardborg costume
-    .desc = An ordinary cardboard box with holes cut in the sides.
+ent-ClothingOuterCardborg = fantasia de caixobô
+    .desc = Uma fantasia feita por uma criança de 5 anos.
     .suffix = Chef
 
-ent-ClothingOuterHoodieChaplain = chaplain hoodie
-    .desc = Black and strict chaplain hoodie.
+ent-ClothingOuterHoodieChaplain = moletom de capelão
+    .desc = Um moletom preto de capelão.
     .suffix = Chef
 
-ent-ClothingOuterPonchoClassic = classic poncho
-    .desc = A warm and comfy classic poncho.
+ent-ClothingOuterPonchoClassic = poncho antigo
+    .desc = Uma vestimenta quente e confortável, é um poncho... Só que antigo.
     .suffix = Chef
 
-ent-ClothingOuterRobesCult = cult robes
-    .desc = There's no cult without classic red/crimson cult robes.
+ent-ClothingOuterRobesCult = túnica de cultista
+    .desc = Culto?? Que culto?
     .suffix = Chef
 
-ent-ClothingOuterRobesJudge = judge robes
-    .desc = This robe commands authority.
+ent-ClothingOuterRobesJudge = túnica de juíz
+    .desc = Ordem no tribunal!
     .suffix = Chef
 
 ent-ClothingOuterPoncho = poncho
-    .desc = A warm and comfy poncho.
+    .desc = Uma vestimenta quente e confortável, é um poncho.
     .suffix = Chef
 
-ent-ClothingOuterSanta = santa suit
+ent-ClothingOuterSanta = roupa de papai-noel
     .desc = Ho ho ho!
     .suffix = Chef
 
-ent-ClothingOuterStraightjacket = straight jacket
-    .desc = A straight jacket.
+ent-ClothingOuterStraightjacket = camisa de força
+    .desc = Eu não sou louco... EU NÃO SOU LOUCOOOO!!
     .suffix = Chef
 
-ent-ClothingOuterWizardViolet = violet wizard robes
-    .desc = A bizarre gem-encrusted violet robe that radiates magical energies.
+ent-ClothingOuterWizardViolet = túnica de mago violeta
+    .desc = Uma túnica de mago magicamente mágica.
     .suffix = Chef
 
-ent-ClothingOuterWizard = wizard robes
-    .desc = A bizarre gem-encrusted blue robe that radiates magical energies.
+ent-ClothingOuterWizard = túnica de mago
+    .desc = Uma túnica de mago magicamente mágica.
     .suffix = Chef
 
-ent-ClothingOuterWizardRed = red wizard robes
-    .desc = Strange-looking, red, hat-wear that most certainly belongs to a real magic user.
+ent-ClothingOuterWizardRed = túnica de mago vermelho
+    .desc = Uma túnica de mago magicamente mágica.
     .suffix = Chef
 
-ent-ClothingOuterSkub = skub suit
-    .desc = Skub is crudely written on the outside of this cylindrical suit.
+ent-ClothingOuterSkub = fantasia de skub
+    .desc = Ha! Skub.
     .suffix = Chef
 
-ent-ClothingOuterPlagueSuit = plague doctor suit
-    .desc = A bad omen.
+ent-ClothingOuterPlagueSuit = traje de médico da peste
+    .desc = Tenho um mal pressentimento sobre isso...
     .suffix = Chef
 
-ent-ClothingOuterNunRobe = nun robe
-    .desc = Maximum piety in this star system.
+ent-ClothingOuterNunRobe = túnica de freira
+    .desc = A Fé move montanhas.
     .suffix = Chef
 
