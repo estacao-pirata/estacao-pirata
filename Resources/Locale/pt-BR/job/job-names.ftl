@@ -10,7 +10,7 @@ job-name-intern = médico estagiário
 job-name-doctor = médico
 job-name-cmo = médico chefe
 job-name-chemist = químico
-job-name-assistant = assistente técnico
+job-name-technical-assistant = assistente técnico
 job-name-engineer = engenheiro da estação
 job-name-atmostech = técnico atmosférico
 job-name-hop = chefe dos funcionários
@@ -40,7 +40,6 @@ job-name-ertmedic = médico da ERT
 job-name-ertjanitor = zelador da ERT
 job-name-boxer = boxeador
 job-name-zookeeper = funcionário do zoológico
-job-name-prisoner = prisioneiro
 
 #Nyano
 job-name-mystagogue = mystagogue
