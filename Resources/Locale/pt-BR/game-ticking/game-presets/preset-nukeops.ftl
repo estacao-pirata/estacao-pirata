@@ -24,6 +24,7 @@ nukeops-cond-somenukiesalive = Alguns agentes nucleares morreram.
 nukeops-cond-allnukiesalive = Nenhum agente nuclear morreu.
 
 nukeops-list-start = Os agentes nucleares eram:
+nukeops-list-name = - [color=White]{$name}[/color] ([color=gray]{$user}[/color])
 nukeops-not-enough-ready-players = Nem todos os jogadores deram "pronto" para iniciar a partida! Tinham {$readyPlayersCount} jogadores prontos de {$minimumPlayers} necessários. Não foi possível iniciar operação nuclear.
 nukeops-no-one-ready = Nenhum jogador deu pronto! Não é possivel iniciar operação nuclear.
 
