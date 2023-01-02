@@ -12,9 +12,9 @@ using Content.Server.Administration.Logs;
 using Content.Server.Atmos.Components;
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Atmos.Miasma;
+using Content.Server.Audio;
 using Content.Server.Body.Components;
 using Content.Server.Body.Systems;
-using Content.Server.Buckle.Components;
 using Content.Server.Cargo.Systems;
 using Content.Server.Chemistry.Components;
 using Content.Server.Chemistry.Components.SolutionManager;
@@ -36,6 +36,7 @@ using Content.Server.Temperature.Components;
 using Content.Server.Temperature.Systems;
 using Content.Server.UserInterface;
 using Content.Shared.Audio;
+using Content.Shared.Buckle.Components;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.Damage;
@@ -86,6 +87,7 @@ namespace Content.Server.Kitchen.EntitySystems
         [Dependency] private readonly SpillableSystem _spillableSystem = default!;
         [Dependency] private readonly TemperatureSystem _temperature = default!;
         [Dependency] private readonly UserInterfaceSystem _uiSystem = default!;
+        [Dependency] private readonly AmbientSoundSystem _ambientSoundSystem = default!;
 
         private static readonly string CookingDamageType = "Heat";
         private static readonly float CookingDamageAmount = 10.0f;
@@ -183,7 +185,6 @@ namespace Content.Server.Kitchen.EntitySystems
                             Loc.GetString("deep-fryer-oil-volume-low",
                                 ("deepFryer", uid)),
                             uid,
-                            Filter.Pvs(uid),
                             PopupType.SmallCaution);
 
                         continue;
@@ -203,7 +204,8 @@ namespace Content.Server.Kitchen.EntitySystems
                         Loc.GetString("deep-fryer-oil-purity-low",
                             ("deepFryer", uid)),
                         uid,
-                        Filter.Pvs(uid, PvsWarningRange));
+                        Filter.Pvs(uid, PvsWarningRange),
+                        true);
                     continue;
                 }
 
@@ -251,15 +253,7 @@ namespace Content.Server.Kitchen.EntitySystems
 
         private void UpdateAmbientSound(EntityUid uid, DeepFryerComponent component)
         {
-            if (TryComp<AmbientSoundComponent>(uid, out var ambientSoundComponent))
-            {
-                bool enabled = HasBubblingOil(uid, component);
-                if (enabled != ambientSoundComponent.Enabled)
-                {
-                    ambientSoundComponent.Enabled = enabled;
-                    Dirty(ambientSoundComponent);
-                }
-            }
+            _ambientSoundSystem.SetAmbience(uid, HasBubblingOil(uid, component));
         }
 
         private void UpdateNextFryTime(EntityUid uid, DeepFryerComponent component)
@@ -575,7 +569,8 @@ namespace Content.Server.Kitchen.EntitySystems
                     Loc.GetString("deep-fryer-blacklist-item-failed",
                         ("item", item), ("deepFryer", uid)),
                     uid,
-                    Filter.Pvs(uid, PvsWarningRange));
+                    Filter.Pvs(uid, PvsWarningRange),
+                    true);
                 return;
             }
 
@@ -685,8 +680,7 @@ namespace Content.Server.Kitchen.EntitySystems
             {
                 _popupSystem.PopupEntity(
                     Loc.GetString("deep-fryer-thrown-missed"),
-                    uid,
-                    Filter.Pvs(uid));
+                    uid);
 
                 if (args.User != null)
                     _adminLogManager.Add(LogType.Action, LogImpact.Low,
@@ -698,13 +692,11 @@ namespace Content.Server.Kitchen.EntitySystems
             if (GetOilVolume(uid, component) < component.SafeOilVolume)
                 _popupSystem.PopupEntity(
                     Loc.GetString("deep-fryer-thrown-hit-oil-low"),
-                    uid,
-                    Filter.Pvs(uid));
+                    uid);
             else
                 _popupSystem.PopupEntity(
                     Loc.GetString("deep-fryer-thrown-hit-oil"),
-                    uid,
-                    Filter.Pvs(uid));
+                    uid);
 
             if (args.User != null)
                 _adminLogManager.Add(LogType.Action, LogImpact.Low,
@@ -731,7 +723,6 @@ namespace Content.Server.Kitchen.EntitySystems
                     ("victim", Identity.Entity(args.Entity, EntityManager)),
                     ("deepFryer", uid)),
                 uid,
-                Filter.Pvs(uid),
                 PopupType.SmallCaution);
         }
 
@@ -750,7 +741,7 @@ namespace Content.Server.Kitchen.EntitySystems
                 _popupSystem.PopupEntity(
                     Loc.GetString("deep-fryer-interact-using-not-item"),
                     uid,
-                    Filter.Entities(user));
+                    user);
                 return false;
             }
 
@@ -760,7 +751,7 @@ namespace Content.Server.Kitchen.EntitySystems
                     Loc.GetString("deep-fryer-storage-no-fit",
                         ("item", item)),
                     uid,
-                    Filter.Entities(user));
+                    user);
                 return false;
             }
 
@@ -769,7 +760,7 @@ namespace Content.Server.Kitchen.EntitySystems
                 _popupSystem.PopupEntity(
                     Loc.GetString("deep-fryer-storage-full"),
                     uid,
-                    Filter.Entities(user));
+                    user);
                 return false;
             }
 
@@ -869,7 +860,7 @@ namespace Content.Server.Kitchen.EntitySystems
                 _popupSystem.PopupEntity(
                     Loc.GetString("deep-fryer-need-liquid-container-in-hand"),
                     fryer,
-                    Filter.Entities(user));
+                    user);
 
                 return false;
             }
@@ -916,7 +907,7 @@ namespace Content.Server.Kitchen.EntitySystems
                 _popupSystem.PopupEntity(
                     Loc.GetString("deep-fryer-oil-no-slag"),
                     uid,
-                    Filter.Entities(user.Value));
+                    user.Value);
 
                 return;
             }
