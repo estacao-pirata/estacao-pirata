@@ -17,12 +17,11 @@ using Content.Server.Body.Components;
 using Content.Server.Climbing;
 using Content.Server.Construction;
 using Content.Server.DoAfter;
-using Content.Server.Humanoid;
 using Content.Server.Mind.Components;
 using Content.Server.Stack;
+using Content.Shared.Humanoid;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Popups;
-using Robust.Shared.Player;
 using Robust.Shared.Random;
 using Robust.Shared.Configuration;
 using Robust.Server.Player;
@@ -111,7 +110,7 @@ namespace Content.Server.Medical.BiomassReclaimer
             if (TryComp<ApcPowerReceiverComponent>(uid, out var power) && !power.Powered)
                 return;
 
-            _popup.PopupEntity(Loc.GetString("biomass-reclaimer-suicide-others", ("victim", args.Victim)), uid, Filter.Pvs(uid), PopupType.LargeCaution);
+            _popup.PopupEntity(Loc.GetString("biomass-reclaimer-suicide-others", ("victim", args.Victim)), uid, PopupType.LargeCaution);
             StartProcessing(args.Victim, component);
             args.SetHandled(SuicideKind.Blunt);
         }
