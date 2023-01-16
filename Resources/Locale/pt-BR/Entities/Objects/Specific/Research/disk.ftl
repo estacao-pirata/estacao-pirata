@@ -1,9 +1,9 @@
-ent-ResearchDisk = research point disk (1000)
-    .desc = A disk for the R&D server containing 1000 points.
+ent-ResearchDisk = disco de pesquisa (1000)
+    .desc = Um disco de pesquisa contendo 1000 pontos de ciência.
 
-ent-ResearchDisk5000 = research point disk (5000)
-    .desc = A disk for the R&D server containing 5000 points.
+ent-ResearchDisk5000 = disco de pesquisa (5000)
+    .desc = Um disco de pesquisa contendo 5000 pontos de ciência.
 
-ent-ResearchDisk10000 = research point disk (10000)
-    .desc = A disk for the R&D server containing 10000 points.
+ent-ResearchDisk10000 = disco de pesquisa (10000)
+    .desc = Um disco de pesquisa contendo 10000 pontos de ciência.
 

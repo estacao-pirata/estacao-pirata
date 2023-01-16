@@ -1,7 +1,8 @@
 ghost-gui-return-to-body-button = Voltar pro Corpo
 ghost-gui-ghost-warp-button = Teleportar
 ghost-gui-ghost-roles-button = Funções Fantasmas ({$count})
-ghost-gui-toggle-ghost-visibility-button = Alternar Fantasmas
+ghost-gui-toggle-ghost-visibility-name = Alternar Fantasmas
+ghost-gui-toggle-ghost-visibility-desc = Alternar a visibilidade de outros fantasmas.
 ghost-gui-toggle-ghost-visibility-popup = Alternou visibilidade de fantasmas.
 ghost-gui-toggle-lighting-manager-name = Alternar Toda a Iluminação
 ghost-gui-toggle-lighting-manager-desc = Alternar toda a renderização de iluminação para observar melhor as áreas escuras.

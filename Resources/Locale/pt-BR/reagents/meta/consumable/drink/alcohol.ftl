@@ -22,8 +22,8 @@ reagent-desc-ethanol = Um álcool simples, te deixa bêbado. Inflamável.
 reagent-name-gin = gin
 reagent-desc-gin = Uma bebida destilada que tem seu sabor principal vindo de bagas de zimbro.
 
-reagent-name-kahlua = kahlua
-reagent-desc-kahlua = Um licor mexicano sabor de café amplamente conhecido.
+reagent-name-coffeeliqueur = licor de café
+reagent-desc-coffeeliqueur = Licor aromatizado com café e especiarias.
 
 reagent-name-melon-liquor = licor de melão
 reagent-desc-melon-liquor = Um licor relativamente doce feito de melão.

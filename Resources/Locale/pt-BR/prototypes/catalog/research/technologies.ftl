@@ -60,3 +60,23 @@ technologies-adv-parts-technology-description = Bom para atualizar máquinas.
 
 technologies-robotics-technology = Tecnologia robótica
 technologies-robotics-technology-description = Partes do robô.
+technologies-basic-powercell-printing = Basic powercell printing
+technologies-basic-powercell-printing-description = Print standard powercells.
+
+technologies-advanced-powercell-printing = Advanced powercell printing
+technologies-advanced-powercell-printing-description = Print advanced powercells.
+
+technologies-super-powercell-printing = Super powercell printing
+technologies-super-powercell-printing-description = Print super powercells.
+
+technologies-scientific-technology = Scientific technology
+technologies-scientific-technology-description = The basics of a research team's supplies.
+
+technologies-archaeology = Archeological equipment
+technologies-archaeology-description = Advanced equipment for uncovering the secrets of artifacts.
+
+technologies-ripley-technology = Exosuit: Ripley
+technologies-ripley-technology-description = The latest and greatest in mechanized cargo construction.
+
+technologies-adv-parts-technology-description = Like the previous ones, but better!
+technologies-adv-parts-technology = Advanced parts technology

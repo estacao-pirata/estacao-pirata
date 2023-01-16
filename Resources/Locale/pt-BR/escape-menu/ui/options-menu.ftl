@@ -94,7 +94,7 @@ ui-options-function-camera-rotate-right = Girar para direita
 ui-options-function-camera-reset = Resetar
 
 ui-options-function-use = Usar
-ui-options-function-use-secondary = Use secundário
+ui-options-function-use-secondary = Usar secundário
 ui-options-function-alt-use = Alt use
 ui-options-function-wide-attack = Ataque Amplo
 ui-options-function-activate-item-in-hand = Ativar item na mão
@@ -168,8 +168,8 @@ ui-options-function-loadout5 = Hotbar Loadout 5
 ui-options-function-loadout6 = Hotbar Loadout 6
 ui-options-function-loadout7 = Hotbar Loadout 7
 ui-options-function-loadout8 = Hotbar Loadout 8
+ui-options-function-loadout9 = Hotbar Loadout 9
 ui-options-function-loadout0 = Hotbar Loadout 0
-
 
 ui-options-function-shuttle-strafe-up = Andar para cima
 ui-options-function-shuttle-strafe-right = Andar para direita
