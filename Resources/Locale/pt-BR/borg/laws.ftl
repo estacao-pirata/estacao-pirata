@@ -1,9 +1,9 @@
 state-laws-action = Enuncie Suas Leis
 state-laws-action-desc = Declare as leis às quais você está vinculado.
 
-law-window-title = Laws
-silicon-laws-label = Your Laws:
-silicon-laws-law-heading = Law {$lawDisplayNumber}
+law-window-title = Leis
+silicon-laws-label = Suas Leis:
+silicon-laws-law-heading = Lei {$lawDisplayNumber}
 
 command-lslaws-description = Listar leis em uma entitade.
 command-lslaws-help = Recebe como argumento um uid de entidade ou nome de usuário.

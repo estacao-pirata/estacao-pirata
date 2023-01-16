@@ -13,6 +13,9 @@ ent-CrateNPCChicken = Caixa de galinhas
 ent-CrateNPCDuck = Caixa de patos
     .desc = A crate containing six fully grown ducks.
 
+ent-CrateNPCPibble = pitbull crate
+    .desc = Note from the shelter: Lab mix. Looking for a home without cats or children. Anxious when pet.
+
 ent-CrateNPCCorgi = Caixa de Corgi
     .desc = Uma caixa contendo um único corgi.
 
@@ -39,6 +42,9 @@ ent-CrateNPCParrot = Caixa de papagaios
 
 ent-CrateNPCPenguin = Caixa de penguins
     .desc = A crate containing two penguins.
+
+ent-CrateNPCPig = Pig crate
+    .desc = A crate containing a single pig.
 
 ent-CrateNPCSnake = Caixa de cobras
     .desc = A crate containing three snakes.

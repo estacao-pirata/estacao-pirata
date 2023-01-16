@@ -54,6 +54,8 @@ job-name-salvage-technician = técnico em salvamento
 job-name-gladiator = gladiador
 job-name-fugitive = fugitivo
 job-name-prisoner = prisioneiro
+job-name-valet = valet
+job-name-paramedic = paramédico
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico

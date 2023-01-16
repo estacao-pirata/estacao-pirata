@@ -25,6 +25,9 @@ technologies-advanced-life-support-description = A vanguarda da vida e da morte.
 technologies-industrial-engineering = Engenharia industrial
 technologies-industrial-engineering-description = Um novo curso em tecnologia de engenharia moderna.
 
+technologies-rapid-upgrade = Rapid upgrade
+technologies-rapid-upgrade-description = The ability to quickly improve the station like never before.
+
 technologies-material-sheet-printing = Impressão de placas de materiais
 technologies-material-sheet-printing-description = Imprima essas folhas!
 

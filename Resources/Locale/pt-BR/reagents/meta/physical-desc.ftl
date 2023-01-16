@@ -79,3 +79,7 @@ reagent-physical-desc-sweet = doce
 reagent-physical-desc-electric = elétrica
 reagent-physical-desc-chewy = mastigável
 reagent-physical-desc-volatile = volátil
+reagent-physical-desc-inky = tintoso
+reagent-physical-desc-enigmatic = enigmático
+reagent-physical-desc-porous = poroso
+reagent-physical-desc-exotic-smelling = com um cheiro exótico
