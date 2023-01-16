@@ -79,7 +79,6 @@
       - id: DoorRemoteService
       - id: ClothingNeckGoldmedal
       - id: RubberStampHop
-      - id: Telebaton
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -137,6 +136,7 @@
       - id: ClothingNeckCloakRd
       - id: ClothingHeadsetMedicalScience
       - id: ClothingOuterHardsuitRd
+      - id: HandTeleporter
       - id: PlushieSlime
         prob: 0.1
       - id: DoorRemoteResearch

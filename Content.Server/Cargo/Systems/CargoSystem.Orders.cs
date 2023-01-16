@@ -159,9 +159,7 @@ namespace Content.Server.Cargo.Systems
 
             _idCardSystem.TryFindIdCard(player, out var idCard);
             order.SetApproverData(idCard);
-
-
-            SoundSystem.Play(component.ConfirmSound.GetSound(), Filter.Pvs(uid, entityManager: EntityManager), uid);
+            _audio.PlayPvs(_audio.GetSound(component.ConfirmSound), uid);
 
             // Log order approval
             _adminLogger.Add(LogType.Action, LogImpact.Low,
@@ -233,7 +231,7 @@ namespace Content.Server.Cargo.Systems
 
         private void PlayDenySound(EntityUid uid, CargoOrderConsoleComponent component)
         {
-            SoundSystem.Play(component.ErrorSound.GetSound(), Filter.Pvs(uid, entityManager: EntityManager), uid);
+            _audio.PlayPvs(_audio.GetSound(component.ErrorSound), uid);
         }
 
         private CargoOrderData GetOrderData(CargoConsoleAddOrderMessage args, int index)
@@ -306,7 +304,7 @@ namespace Content.Server.Cargo.Systems
             Dirty(component);
         }
 
-        private void DeductFunds(StationBankAccountComponent component, int amount)
+        public void DeductFunds(StationBankAccountComponent component, int amount)
         {
             component.Balance = Math.Max(0, component.Balance - amount);
             Dirty(component);
