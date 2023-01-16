@@ -2037,3 +2037,477 @@ Entries:
     type: Remove
   id: 237
   time: '2023-01-01T20:50:59.0000000+00:00'
+- author: Kromabae
+  changes:
+  - message: Pebble Christmas stuff
+    type: Remove
+  id: 238
+  time: '2023-01-02T15:48:37.0000000+00:00'
+- author: Vordenburg
+  changes:
+  - message: Liquid storage tanks are more resilient now.
+    type: Tweak
+  - message: Liquid storage tanks will no longer explode from piercing damage alone.
+    type: Remove
+  id: 239
+  time: '2023-01-04T15:35:42.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Merged a lot of bug fixes from upstream, and mirrorcult's new teleporters.
+    type: Add
+  - message: Mystagogue's locker contents have been shuffled around.
+    type: Tweak
+  id: 240
+  time: '2023-01-04T16:51:06.0000000+00:00'
+- author: eoineoineoin
+  changes:
+  - message: The laws UI looks much nicer now.
+    type: Tweak
+  id: 241
+  time: '2023-01-04T17:42:41.0000000+00:00'
+- author: Rane
+  changes:
+  - message: You can no longer cheese your way through reinforced walls and windows
+      by punching them 1000 times.
+    type: Fix
+  - message: Reinforced walls no longer use the same modifier set as regular walls.
+    type: Fix
+  id: 242
+  time: '2023-01-04T17:58:48.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Added a borrowed UI restyling from Mirrorcult.
+    type: Add
+  id: 243
+  time: '2023-01-04T18:13:20.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Popups now appear in chat.
+    type: Add
+  id: 244
+  time: '2023-01-04T18:12:40.0000000+00:00'
+- author: Colin-Tel
+  changes:
+  - message: Added a new small-ish original map to rotation.
+    type: Add
+  id: 245
+  time: '2023-01-04T21:51:59.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Small, regular popups no longer appear in chat. If you feel a popup should
+      be upgraded to medium, please note it in discord.
+    type: Tweak
+  id: 246
+  time: '2023-01-04T21:58:10.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Added a new funny event.
+    type: Add
+  id: 247
+  time: '2023-01-04T23:56:33.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Evil twins are a bit closer to their targets.
+    type: Fix
+  - message: Evil twin spawn fallback is more robust.
+    type: Fix
+  id: 248
+  time: '2023-01-05T17:59:21.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Replaced the cloning pod with the metempsychotic machine.
+    type: Add
+  - message: Cloning pods might still be out there somewhere...
+    type: Add
+  - message: Primates have a PDA slot (don't ask.)
+    type: Tweak
+  id: 249
+  time: '2023-01-05T20:19:30.0000000+00:00'
+- author: ODJ
+  changes:
+  - message: Lighthouse Improvements
+    type: Add
+  id: 250
+  time: '2023-01-05T21:48:03.0000000+00:00'
+- author: Colin-Tel
+  changes:
+  - message: Fixed cargo's plastic flaps not being airtight on Shoukou.
+    type: Fix
+  id: 251
+  time: '2023-01-06T17:14:26.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Fixed a number of bugs with the metempsychotic machine.
+    type: Fix
+  - message: There's some new visuals for the metempsychotic machine while it is running.
+    type: Add
+  - message: 'The # of times you have been through the metempsychotic machine is now
+      tracked.'
+    type: Add
+  - message: Non-humanoid results of the metempsychotic machine can be sacrificed
+      if they are psionic.
+    type: Tweak
+  - message: Brushed up monkeys and gorillas.
+    type: Tweak
+  id: 252
+  time: '2023-01-06T17:17:19.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Sensitive airlocks like security now close much, much faster.
+    type: Tweak
+  - message: You can pray at Oracle.
+    type: Tweak
+  id: 253
+  time: '2023-01-06T17:28:00.0000000+00:00'
+- author: Colin-Tel
+  changes:
+  - message: Added RPG-7s to the Shoukou armory.
+    type: Add
+  id: 254
+  time: '2023-01-06T18:14:38.0000000+00:00'
+- author: Velcroboy
+  changes:
+  - message: added Arena/Tortuga Engi QoL!
+    type: Add
+  - message: added drastically better lighting in Tortuga Arrivals
+    type: Add
+  id: 255
+  time: '2023-01-06T18:49:15.0000000+00:00'
+- author: Colin-Tel
+  changes:
+  - message: Added max player count of 65 for Shoukou to be selected in lobby.
+    type: Add
+  id: 256
+  time: '2023-01-09T14:44:47.0000000+00:00'
+- author: deltanedas
+  changes:
+  - message: Added a craftable fish labeler for your fish labeling needs
+    type: Add
+  id: 257
+  time: '2023-01-09T18:22:18.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Updated to latest upstream. Notably, deconstructing stuff with material
+      storage will now spawn the materials inside. Lathes should be much harder to
+      accidentally grief now.
+    type: Add
+  id: 258
+  time: '2023-01-09T18:28:44.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Rat servants are much weaker but much cheaper and more spammable. They
+      are also items now and can be eaten by felinids like mice.
+    type: Tweak
+  - message: Chance for survival rounds has been reduced.
+    type: Tweak
+  - message: Survival max chaos and ramping time adjusted.
+    type: Tweak
+  - message: Oracle and the sophic grammateus will not fade their sprite when you
+      stand behind them.
+    type: Add
+  - message: Added some more busted items to oracle blacklist.
+    type: Fix
+  - message: Drills are now properly in the engineering lathe.
+    type: Fix
+  - message: Circuit imprinter now correctly uses the engineering board sprite.
+    type: Fix
+  - message: Removed a lobby song that was too good for you philistines.
+    type: Remove
+  - message: Primates can disarm now. Monkeys and gorillas' natural weapons make sense.
+    type: Fix
+  id: 259
+  time: '2023-01-09T19:09:47.0000000+00:00'
+- author: Rane
+  changes:
+  - message: 'Metempsychotic machine changes to karma: Your chance for humanoid is
+      now 75% + 25% for each tier of medical scanner part upgrades. This means at
+      tier 1 your chance on first metempsychosis for a humanoid is 100%. However,
+      the penalty for consecutive metempsychoses has been increased to 25%.'
+    type: Tweak
+  - message: The biomass cost reduction upgrade now works on the metempsychotic machine.
+    type: Fix
+  id: 260
+  time: '2023-01-09T19:41:49.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Rat servants can escape inventory and attack people holding them.
+    type: Fix
+  - message: Felinids can't eat rats when the felinid is overfed.
+    type: Fix
+  - message: Rats are grindable.
+    type: Fix
+  id: 261
+  time: '2023-01-09T22:46:09.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Doors and a few other high health metallic entities now have the minimum
+      damage requirement like rwindows and walls do.
+    type: Tweak
+  id: 262
+  time: '2023-01-10T02:29:29.0000000+00:00'
+- author: ZeroDayDaemon
+  changes:
+  - message: Added fun!
+    type: Add
+  - message: Removed fun!
+    type: Remove
+  id: 263
+  time: '2023-01-10T02:46:39.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Rat servants should be able to attack when you pick them up now...
+    type: Fix
+  id: 264
+  time: '2023-01-10T03:41:41.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Added CPR.
+    type: Add
+  - message: Helping people up works again.
+    type: Fix
+  id: 265
+  time: '2023-01-10T19:47:42.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Rat servant attack range from 1.5m to 1m.
+    type: Tweak
+  - message: Rat servant attack damage from 5 slash 3 piercing to 4 slash 2 piercing.
+    type: Tweak
+  - message: Added new AI factions for rats and cats.
+    type: Add
+  - message: Cats are now always hostile to rats.
+    type: Add
+  - message: A bunch of other factions that weren't hostile before are now hostile
+      to either passive rats or all rats.
+    type: Add
+  id: 266
+  time: '2023-01-10T21:54:41.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Borgs have lost a few particular accesses before we get a Butlerian jihad.
+    type: Remove
+  - message: Cancer Mouse has a built in radio so he can soapbox more effectively.
+    type: Add
+  - message: CPR requires removing any outer clothing, like coats.
+    type: Tweak
+  - message: Non-medically trained people can crack the sternum during CPR. The chance
+      scales off of relative mass.
+    type: Tweak
+  - message: Medipens will no longer go through hardsuits.
+    type: Tweak
+  - message: Fixed knocking.
+    type: Fix
+  - message: Ghosts can see binary chat.
+    type: Fix
+  - message: Spiders can no longer spin webs from inside containers.
+    type: Fix
+  id: 267
+  time: '2023-01-10T22:07:12.0000000+00:00'
+- author: Velcroboy
+  changes:
+  - message: Added slimmer, trimmer arena on Arena Station
+    type: Add
+  - message: Unlocks gladiator lounge and arena area. Gladiators no longer confined
+      to cell on round start.
+    type: Add
+  - message: Added better viewing areas for arena fans to watch. Can now see entire
+      fighting pit.
+    type: Add
+  - message: Added live ducks!
+    type: Add
+  id: 268
+  time: '2023-01-11T02:04:30.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Cats will chase mice now.
+    type: Add
+  - message: Rats won't chase too far from the rat king.
+    type: Tweak
+  id: 269
+  time: '2023-01-11T02:06:02.0000000+00:00'
+- author: ZeroDayDaemon
+  changes:
+  - message: Added fun!
+    type: Add
+  - message: Removed fun!
+    type: Remove
+  id: 270
+  time: '2023-01-11T04:16:30.0000000+00:00'
+- author: DEATHB4DEFEAT
+  changes:
+  - message: Added a Brief command for admins, allowing transferring to and from a
+      mob of choice with a custom outfit and name.
+    type: Add
+  id: 271
+  time: '2023-01-11T16:57:25.0000000+00:00'
+- author: Colin-Tel
+  changes:
+  - message: Added recipes for some mixed drinks, as well as giving them ethanol content.
+    type: Add
+  id: 272
+  time: '2023-01-11T17:58:39.0000000+00:00'
+- author: EmoGarbage404
+  changes:
+  - message: Refactored research.
+    type: Fix
+  - message: Added technology disks.
+    type: Add
+  id: 273
+  time: '2023-01-11T18:21:35.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Pibble gaming
+    type: Add
+  id: 274
+  time: '2023-01-11T19:38:53.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Welding doors makes it so that rats and such cannot walk under them.
+    type: Add
+  id: 275
+  time: '2023-01-11T19:44:45.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Added a pitbull crate.
+    type: Add
+  id: 276
+  time: '2023-01-11T22:58:29.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Rat king can now point at a target to have their servants attack it.
+    type: Add
+  id: 277
+  time: '2023-01-12T00:00:02.0000000+00:00'
+- author: Rane
+  changes:
+  - message: You can cuff monkeys.
+    type: Fix
+  - message: Rat king will not open doors when he bumps into them.
+    type: Fix
+  - message: Fixed bugged price for bluespace.
+    type: Fix
+  id: 278
+  time: '2023-01-12T00:32:39.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Merged upstream.
+    type: Add
+  id: 279
+  time: '2023-01-12T01:45:35.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Midround antags should no longer be unusually common.
+    type: Tweak
+  - message: Midround antags will no longer spawn below 12 players.
+    type: Tweak
+  - message: Midround antags will no longer spawn within less than 5 minutes of each
+      other.
+    type: Tweak
+  id: 280
+  time: '2023-01-12T02:08:15.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Livestock crates and closets/lockers except the freezer are no longer
+      airtight.
+    type: Fix
+  id: 281
+  time: '2023-01-12T18:20:37.0000000+00:00'
+- author: Rane
+  changes:
+  - message: 'EXPERIMENTAL CHANGE: All alert levels use the same emergency shuttle
+      time.'
+    type: Tweak
+  id: 282
+  time: '2023-01-12T18:38:09.0000000+00:00'
+- author: CharcoalGungan
+  changes:
+  - message: Added Arrow Shuttle
+    type: Add
+  id: 283
+  time: '2023-01-12T18:45:30.0000000+00:00'
+- author: Rane
+  changes:
+  - message: Fixed cloning zombies.
+    type: Fix
+  id: 284
+  time: '2023-01-12T19:01:30.0000000+00:00'
+- author: Vordenburg
+  changes:
+  - message: Nuke operatives no longer receive station mail.
+    type: Fix
+  id: 285
+  time: '2023-01-12T19:01:46.0000000+00:00'
+- author: Rane
+  changes:
+  - message: The scream popup is now better integrated.
+    type: Fix
+  id: 286
+  time: '2023-01-12T19:18:42.0000000+00:00'
+- author: deltanedas
+  changes:
+  - message: You can now buy crewmate crates with 5 small amongs.
+    type: Add
+  id: 287
+  time: '2023-01-12T19:27:40.0000000+00:00'
+- author: Colin-Tel
+  changes:
+  - message: Added Technology Disk machines on both Angle and Shoukou.
+    type: Add
+  id: 288
+  time: '2023-01-13T19:41:51.0000000+00:00'
+- author: Vordenburg
+  changes:
+  - message: Vending machines are worth zero zorkmids now.
+    type: Tweak
+  - message: The default price of items has been reduced from 20 to 2.
+    type: Tweak
+  - message: The law of supply and demand now affects what is sold on the cargo shuttle.
+    type: Add
+  id: 289
+  time: '2023-01-14T03:33:00.0000000+00:00'
+- author: Vordenburg
+  changes:
+  - message: Shovels can now be used to dig up earthen tiles.
+    type: Add
+  - message: Dirt, grass, snow, and other earthen tiles will hide wires and pipes
+      again.
+    type: Fix
+  id: 290
+  time: '2023-01-14T15:08:17.0000000+00:00'
+- author: ODJ
+  changes:
+  - message: Re-added Glacier! Please report any issues!
+    type: Add
+  id: 291
+  time: '2023-01-14T15:08:06.0000000+00:00'
+- author: checkraze
+  changes:
+  - message: The Shipyard Market has arrived to sell some (mostly) New Ships to successful
+      crews
+    type: Add
+  id: 292
+  time: '2023-01-14T17:55:28.0000000+00:00'
+- author: deltanedas
+  changes:
+  - message: Added moldy loaf for more efficient bread molding.
+    type: Add
+  id: 293
+  time: '2023-01-14T18:09:22.0000000+00:00'
+- author: Colin-Tel
+  changes:
+  - message: Removed shuttle building components from Angle's Salvage.
+    type: Remove
+  id: 294
+  time: '2023-01-14T20:44:46.0000000+00:00'
+- author: Colin-Tel
+  changes:
+  - message: Added the Nomad and Tote to the shipyard roster.
+    type: Add
+  id: 295
+  time: '2023-01-14T22:13:34.0000000+00:00'
+- author: Vordenburg
+  changes:
+  - message: Sinks and water coolers will slowly regenerate water.
+    type: Add
+  id: 296
+  time: '2023-01-15T18:39:48.0000000+00:00'

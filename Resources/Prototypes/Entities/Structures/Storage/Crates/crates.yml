@@ -280,6 +280,8 @@
     node: cratelivestock
     containers:
     - entity_storage
+  - type: EntityStorage
+    airtight: false
 
 - type: entity
   parent: CrateGeneric
@@ -322,7 +324,7 @@
         bounds: "-0.4,-0.4,0.4,0.29"
       density: 80
       mask:
-      - SmallMobMask
+      - LargeMobMask
       layer:
-      - SmallMobLayer
+      - LargeMobLayer
 
