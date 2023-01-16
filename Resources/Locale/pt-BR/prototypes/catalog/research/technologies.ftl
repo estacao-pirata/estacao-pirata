@@ -1,63 +1,65 @@
-technologies-basic-research-technology = Basic research technology
-technologies-basic-research-technology-description = Nanotrasen basic research technologies.
+technologies-basic-research-technology = Tecnologia de pesquisa básica
+technologies-basic-research-technology-description = Tecnologias de pesquisa básica Nanotrasen.
 
-technologies-cleaning-technology = Cleaning technology
-technologies-cleaning-technology-description = Start to a shiny clean station.
+technologies-cleaning-technology = Tecnologia de limpeza
+technologies-cleaning-technology-description = Comece com uma estação limpa e brilhante.
 
-technologies-biological-technology = Biological technology
-technologies-biological-technology-description = Investigations into the natural world.
+technologies-biological-technology = Tecnologia biológica
+technologies-biological-technology-description = Investigações sobre o mundo natural.
 
-technologies-advanced-botany = Advanced botany
-technologies-advanced-botany-description = A better understanding of botany.
+technologies-advanced-botany = Botânica avançada
+technologies-advanced-botany-description = Uma melhor compreensão da botânica.
 
-technologies-virology = Virology
-technologies-virology-description = The secrets of the immune system.
+technologies-advanced-surgery = Cirurgia avançada
+technologies-advanced-surgery-description = Pesquisar novos procedimentos cirúrgicos.
 
-technologies-advanced-surgery = Advanced surgery
-technologies-advanced-surgery-description = Research new surgical procedures.
+technologies-chemistry-technology = Tecnologia química
+technologies-chemistry-technology-description = Um curso intensivo de química.
 
-technologies-chemistry-technology = Chemistry technology
-technologies-chemistry-technology-description = A crash course in chemistry.
+technologies-medical-machinery = Maquinário médico
+technologies-medical-machinery-description = Máquinas que qualquer medbay que se preze precisaria.
 
-technologies-medical-machinery = Medical machinery
-technologies-medical-machinery-description = Machines any self-respecting medbay would need.
+technologies-advanced-life-support = Sistemas de suporte a vida avançados
+technologies-advanced-life-support-description = A vanguarda da vida e da morte.
 
-technologies-advanced-life-support = Advanced life support systems
-technologies-advanced-life-support-description = The cutting edge of life and death.
+technologies-industrial-engineering = Engenharia industrial
+technologies-industrial-engineering-description = Um novo curso em tecnologia de engenharia moderna.
 
-technologies-salvage-equipment = Salvage equipment
-technologies-salvage-equipment-description = Newer and faster resource collection.
+technologies-material-sheet-printing = Impressão de placas de materiais
+technologies-material-sheet-printing-description = Imprima essas folhas!
 
-technologies-spacefaring = Spacefaring technology
-technologies-spacefaring-description = Able to bring you into the stars!
+technologies-advanced-atmospherics-technology = Tecnologia atmosférica avançada
+technologies-advanced-atmospherics-technology-description = Como se pudesse ficar mais avançado.
 
-technologies-surveillance = Surveillance technology
-technologies-surveillance-description = Retro-styled cameras straight from the year 1984!
+technologies-avionics-systems = Sistemas aviônicos
+technologies-avionics-systems-description = O mais recente em tecnologia fly-by-LV-wire
 
-technologies-industrial-engineering = Industrial engineering
-technologies-industrial-engineering-description = A refresher course on modern engineering technology.
+technologies-electromagnetic-theory = Teoria eletromagnética
+technologies-electromagnetic-theory-description = Tente não se fritar.
 
-technologies-rapid-upgrade = Rapid upgrade
-technologies-rapid-upgrade-description = The ability to quickly upgrade the station like never before.
+technologies-compact-power-technology = Tecnologia de energia compacta
+technologies-compact-power-technology-description = Potência, mas menor.
 
-technologies-material-sheet-printing = Material sheet printing
-technologies-material-sheet-printing-description = Print those sheets!
+technologies-applied-musicology = Musicologia aplicada
+technologies-applied-musicology-description = Trazendo para você o que há de mais moderno em tecnologia de áudio-áudio.
 
-technologies-electromagnetic-theory = Electromagnetic theory
-technologies-electromagnetic-theory-description = Try not to fry yourself.
+technologies-basic-powercell-printing = Impressão de baterias básica
+technologies-basic-powercell-printing-description = Imprima células de potência padrão.
 
-technologies-electrical-engineering = Electrical engineering
-technologies-electrical-engineering-description = Machinery used to keep the station stable.
+technologies-advanced-powercell-printing = Impressão de baterias avançada
+technologies-advanced-powercell-printing-description = Imprima células de potência avançadas.
 
-technologies-advanced-atmospherics-technology = Advanced atmospherics technology
-technologies-advanced-atmospherics-technology-description = As if it can get more advanced.
+technologies-super-powercell-printing = Super impressão de baterias
+technologies-super-powercell-printing-description = Imprima super powercells.
 
-technologies-compact-power-technology = Compact power technology
-technologies-compact-power-technology-description = Power, but smaller.
+technologies-basic-parts-technology = Tecnologia de partes básicas
+technologies-basic-parts-technology-description = Eles não são ótimos, mas pelo menos são alguma coisa.
 
-technologies-applied-musicology = Applied musicology
-technologies-applied-musicology-description = Bringing you the latest in audio-audio technology.
+technologies-adv-parts-technology = Tecnologia de partes avançadas
+technologies-adv-parts-technology-description = Bom para atualizar máquinas.
 
+technologies-robotics-technology = Tecnologia robótica
+technologies-robotics-technology-description = Partes do robô.
 technologies-basic-powercell-printing = Basic powercell printing
 technologies-basic-powercell-printing-description = Print standard powercells.
 
@@ -69,9 +71,6 @@ technologies-super-powercell-printing-description = Print super powercells.
 
 technologies-scientific-technology = Scientific technology
 technologies-scientific-technology-description = The basics of a research team's supplies.
-
-technologies-robotics-technology = Robotics technology
-technologies-robotics-technology-description = Parts needed for constructing mechanized friends.
 
 technologies-archaeology = Archeological equipment
 technologies-archaeology-description = Advanced equipment for uncovering the secrets of artifacts.

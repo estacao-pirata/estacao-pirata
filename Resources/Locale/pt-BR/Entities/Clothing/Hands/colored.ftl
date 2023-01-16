@@ -29,8 +29,8 @@ ent-ClothingHandsGlovesColorWhite = luvas brancas.
     .desc = Um par de luvas brancas, você é muito elegante.
 
 ent-ClothingHandsGlovesColorYellow = luvas isolantes
-    .desc = Esse par de luvas evita que você tome choques elétricos! 100% Original!
+    .desc = Esse par de luvas isola até mesmo contra alta tensões. Norma ABNT NBR 16295 classe 4 36kV.
 
-ent-ClothingHandsGlovesColorYellowBudget = luvas isolantes da shoppee
-    .desc = Uma cópia das Luvas Isolantes.. Talvez sejam boas?! Made in China.
+ent-ClothingHandsGlovesColorYellowBudget = luvas isolantes sem certificação
+    .desc = São luvas isolantes... Parece borracha. Tá escrito 36 000 V. Talvez sejam boas?!
 

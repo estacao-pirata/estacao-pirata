@@ -1,11 +1,11 @@
-ent-CrateArmorySMG = SMG crate
-    .desc = Contains two high-powered, semiautomatic rifles with four mags. Requires Armory access to open.
+ent-CrateArmorySMG = Caixa de SMG
+    .desc = Contém dois rifles semiautomáticos de alta potência com quatro carregadores. Requer acesso ao Arsenal para abrir.
 
-ent-CrateArmoryShotgun = Shotgun crate
-    .desc = For when the enemy absolutely needs to be replaced with lead. Contains two Enforcer Combat Shotguns, and some standard shotgun shells. Requires Armory access to open.
+ent-CrateArmoryShotgun = Caixa de espingardas
+    .desc = Para quando o inimigo absolutamente precisa ser substituído por chumbo. Contém duas espingardas de combate Enforcer e alguns cartuchos de espingarda padrão. Requer acesso ao Arsenal para abrir.
+ent-CrateTrackingImplants = Caixa de implantes rastreadores
+    .desc = Contém um punhado de implantes rastreadores. Bom para prisioneiros que você gostaria de soltar mas ainda quer poder encontrar.
 
-ent-CrateTrackingImplants = Tracking implants
-    .desc = Contains a handful of tracking implanters. Good for prisoners you'd like to release but still keep track of.
 
 ent-CrateArmoryLaser = lasers crate
     .desc = Contains three lethal, high-energy laser guns. Requires Armory access to open.
