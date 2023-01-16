@@ -1,3 +1,5 @@
+construction-condition-machine-container-empty = Remova partes do quadro usando um [color=cyan]Pé de cabra[/color].
+
 # MachineFrameComplete
 construction-condition-machine-frame-requirement-label = Necessita:
 construction-condition-machine-frame-insert-circuit-board-message = Insira [color=cyan]qualquer placa de circuito[/color].
