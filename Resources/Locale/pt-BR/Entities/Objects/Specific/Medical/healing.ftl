@@ -1,7 +1,7 @@
 ent-Ointment = pomada
     .desc = Utilizada para tratar queimaduras.
 
-ent-Brutepack = gel anestésico
+ent-Brutepack = pacote de bandaids
     .desc = Um pacote contendo bandaids especiais, perfeitos para tratar feridas causadas por dano bruto.
 
 ent-Gauze = rolo de gaze
