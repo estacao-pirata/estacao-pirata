@@ -12,7 +12,7 @@
   - type: Sprite
     netsync: false
     drawdepth: Mobs
-    sprite: EstacaoPirata\Mobs\Humans\saci.rsi
+    sprite: EstacaoPirata/Mobs/Humans/saci.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: saci
@@ -23,6 +23,4 @@
     - Furacao
   - type: Inventory
     templateId: saci
-
-
-
+  - type: MobsterAccent
