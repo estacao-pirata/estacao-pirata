@@ -19,6 +19,7 @@ using Content.Client.Screenshot;
 using Content.Client.Singularity;
 using Content.Client.Stylesheets;
 using Content.Client.Viewport;
+using Content.Client.Redial;
 using Content.Client.Voting;
 using Content.Shared.Administration;
 using Content.Shared.Ame;
@@ -66,6 +67,7 @@ namespace Content.Client.Entry
         [Dependency] private readonly GhostKickManager _ghostKick = default!;
         [Dependency] private readonly ExtendedDisconnectInformationManager _extendedDisconnectInformation = default!;
         [Dependency] private readonly JobRequirementsManager _jobRequirements = default!;
+        [Dependency] private readonly RedialManager _redial = default!;
         [Dependency] private readonly ContentLocalizationManager _contentLoc = default!;
         [Dependency] private readonly ContentReplayPlaybackManager _playbackMan = default!;
         [Dependency] private readonly IResourceManager _resourceManager = default!;
@@ -136,6 +138,7 @@ namespace Content.Client.Entry
             _changelogManager.Initialize();
             _rulesManager.Initialize();
             _viewportManager.Initialize();
+            _redial.Initialize();
             _ghostKick.Initialize();
             _extendedDisconnectInformation.Initialize();
             _jobRequirements.Initialize();
