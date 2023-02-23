@@ -38,6 +38,7 @@ flavor-base-creamy = cremoso
 flavor-base-fizzy = espumante
 flavor-base-shocking = chocante
 flavor-base-cheap = barato
+flavor-base-piquant = piquant
 
 # lmao
 flavor-base-terrible = terrível
@@ -83,6 +84,7 @@ flavor-complex-pineapple = de abacaxi
 flavor-complex-onion = de cebola
 flavor-complex-eggplant = de beringela
 flavor-complex-carrot = de cenoura
+flavor-complex-cabbage = de repolho
 flavor-complex-potatoes = de batata
 flavor-complex-mushroom = de cogumelo
 flavor-complex-tomato = de tomate

@@ -26,3 +26,10 @@ panic-bunker-account-denied = Este servidor está em modo Pânico e você foi re
 panic-bunker-account-denied-reason = Este servidor está em modo Pânico e você foi rejeitado. Razão: "{$reason}"
 panic-bunker-account-reason-account = Tempo de vida da conta precisa ser maior que {$minutes} minutes
 panic-bunker-account-reason-overall = O tempo mínimo requerido total de jogo é {$hours} horas
+
+whitelist-playercount-invalid = {$min ->
+    [0] A whitelist para este servidor só se aplica com menos de {$max} jogadores.
+    *[other] A whitelist para este servidor só se aplica com mais de {$min} {$max ->
+        [2147483647] -> jogadores, então talvez você possa entrar mais tarde.
+            }
+}
