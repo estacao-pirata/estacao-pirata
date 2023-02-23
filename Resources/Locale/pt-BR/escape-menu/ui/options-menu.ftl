@@ -134,6 +134,7 @@ ui-options-function-open-sandbox-window = Abrir menu sandbox
 ui-options-function-open-tile-spawn-window = Abrir menu de spawn de azulejos
 ui-options-function-open-decal-spawn-window = Abrir menu de decalque
 ui-options-function-open-admin-menu = Abrir menu de admin
+ui-options-function-open-guidebook = Abrir livro guia
 
 ui-options-function-take-screenshot = Tirar screenshot
 ui-options-function-take-screenshot-no-ui = Tirar screenshot (Sem UI)
@@ -210,3 +211,6 @@ ui-options-net-pvs-leave-tooltip = Isso limita a taxa na qual o cliente remover�
                                        entidades fora de vista. Reduzir isso pode ajudar a reduzir
                                        gaguejando ao caminhar, mas pode ocasionalmente
                                        levar a previsões erradas e outros problemas.
+
+cmd-options-desc = Abre o menu de opções, opcionalmente com uma certa aba selecionada.
+cmd-options-help = Uso: options [aba]

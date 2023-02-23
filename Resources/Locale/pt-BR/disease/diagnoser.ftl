@@ -10,7 +10,7 @@ diagnoser-disease-report-cureresist-none = Resistência para Spaceacillin: [colo
 diagnoser-disease-report-cureresist-low = Resistência para Spaceacillin: [color=yellow]Baixa[/color]
 diagnoser-disease-report-cureresist-medium = Resistência para Spaceacillin: [color=orange]Média[/color]
 diagnoser-disease-report-cureresist-high = Resistência para Spaceacillin: [color=red]Alta[/color]
-diagnoser-cure-none = A doença não apresenta curas especificas.
+diagnoser-no-cures = A doença não tem curas especificas.
 diagnoser-cure-has = A doença apresenta as seguintes curas:
 diagnoser-cure-bedrest = Descansar em cama por {$time} segundos.
 diagnoser-cure-reagent = Consumir pelo menos {$units}u de {$reagent}.

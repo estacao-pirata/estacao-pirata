@@ -1,7 +1,11 @@
 # Chat window radio wrap (prefix and postfix)
 chat-radio-message-wrap = [color={$color}]{$channel} {$name} diz: "{$message}"[/color]
 
-examine-radio-frequency = Está na frequência {$frequency}.
+headset-encryption-key-successfully-installed = Você coloca a chave no fone.
+headset-encryption-key-slots-already-full = Não tem espaço pra outra chave.
+headset-encryption-keys-all-extracted = Você ejeta as chaves criptográficas do fone!
+headset-encryption-keys-no-keys = Este fone não possui chaves criptográficas!
+headset-encryption-keys-are-locked = As chaves do fone estão trancadas e você não pode adicionar ou remover chave nenhuma.
 
 examine-headset = Uma tela pequena no headset mostra as seguintes frequências disponíveis:
 examine-headset-channel = [color={$color}]:{$key} para {$id} ({$freq})[/color]

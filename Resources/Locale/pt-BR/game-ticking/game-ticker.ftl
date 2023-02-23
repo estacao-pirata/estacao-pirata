@@ -26,10 +26,11 @@ game-ticker-no-map-selected = [color=red]Nenhum mapa selecionado![/color]
 game-ticker-player-no-jobs-available-when-joining = Ao tentar entrar no jogo, nenhum trabalho está disponível.
 
 # Displayed in chat to admins when a player joins
-player-join-message = O jogador {$name} entrou no servidor!
+player-join-message = O jogador {$name} entrou.
+player-first-join-message = O jogador {$name} entrou pela primeira vez.
 
 # Displayed in chat to admins when a player leaves
-player-leave-message = O jogador {$name} saiu do servidor!
+player-leave-message = O jogador {$name} saiu.
 
 latejoin-arrival-announcement = {$character} ({$job}) chegou a estação!
 latejoin-arrival-sender = Estação
