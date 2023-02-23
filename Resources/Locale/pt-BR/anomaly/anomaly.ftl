@@ -1,30 +1,38 @@
-anomaly-vessel-component-anomaly-assigned = Anomaly assigned to vessel.
-anomaly-vessel-component-not-assigned = This vessel is not assigned to any anomaly. Try using a scanner on it.
-anomaly-vessel-component-assigned = This vessel is currently assigned to an anomaly.
+anomaly-component-contact-damage = A anomalia torra fora sua pele!
 
-anomaly-particles-delta = Delta particles
-anomaly-particles-epsilon = Epsilon particles
-anomaly-particles-zeta = Zeta particles
+anomaly-vessel-component-anomaly-assigned = Anomalia atribuida a vassalo.
+anomaly-vessel-component-not-assigned = Este vassalo não está atrobuído a nenhuma anomalia. Tente usar um scanner nele.
+anomaly-vessel-component-assigned = Este vassalo está atualmente atribuído a uma anomalia.
+anomaly-vessel-component-upgrade-output = apontar saída
 
-anomaly-scanner-component-scan-complete = Scan complete!
+anomaly-particles-delta = Partículas Delta
+anomaly-particles-epsilon = Partículas Epsilon
+anomaly-particles-zeta = Partículas Zeta
 
-anomaly-scanner-ui-title = anomaly scanner
-anomaly-scanner-no-anomaly = No anomaly currently scanned.
-anomaly-scanner-severity-percentage = Current severity: [color=gray]{$percent}[/color]
-anomaly-scanner-stability-low = Current anomaly state: [color=gold]Decaying[/color]
-anomaly-scanner-stability-medium = Current anomaly state: [color=forestgreen]Stable[/color]
-anomaly-scanner-stability-high = Current anomaly state: [color=crimson]Growing[/color]
-anomaly-scanner-point-output = Approximate point output: [color=gray]{$point}[/color]
-anomaly-scanner-particle-readout = Particle Reaction Analysis:
-anomaly-scanner-particle-danger = - [color=crimson]Danger type:[/color] {$type}
-anomaly-scanner-particle-unstable = - [color=plum]Unstable type:[/color] {$type}
-anomaly-scanner-particle-containment = - [color=goldenrod]Containment type:[/color] {$type}
-anomaly-scanner-pulse-timer = Time until next pulse: [color=gray]{$time}[/color]
+anomaly-scanner-component-scan-complete = Escan completao!
 
-anomaly-generator-ui-title = anomaly generator
-anomaly-generator-fuel-display = Fuel:
+anomaly-scanner-ui-title = escaner de anomalia
+anomaly-scanner-no-anomaly = Nenhuma anomalia escaneda atualmente.
+anomaly-scanner-severity-percentage = Severidade atual: [color=gray]{$percent}[/color]
+anomaly-scanner-stability-low = Estado atual da anomalia: [color=gold]Decaying[/color]
+anomaly-scanner-stability-medium = Estado atual da anomalia: [color=forestgreen]Stable[/color]
+anomaly-scanner-stability-high = Estado atual da anomalia: [color=crimson]Growing[/color]
+anomaly-scanner-point-output = Ponto aproximado de saída: [color=gray]{$point}[/color]
+anomaly-scanner-particle-readout = Análise de Reação a Partículas:
+anomaly-scanner-particle-danger = - [color=crimson]Tipo perigoso:[/color] {$type}
+anomaly-scanner-particle-unstable = - [color=plum]Tipo instável:[/color] {$type}
+anomaly-scanner-particle-containment = - [color=goldenrod]Tipo de contensão:[/color] {$type}
+anomaly-scanner-pulse-timer = Tempo até próximo pulso: [color=gray]{$time}[/color]
+
+anomaly-generator-ui-title = gerador de anomalia
+anomaly-generator-fuel-display = Combustível:
 anomaly-generator-cooldown = Cooldown: [color=gray]{$time}[/color]
 anomaly-generator-no-cooldown = Cooldown: [color=gray]Complete[/color]
-anomaly-generator-yes-fire = Status: [color=forestgreen]Ready[/color]
-anomaly-generator-no-fire = Status: [color=crimson]Not ready[/color]
-anomaly-generator-generate = Generate Anomaly
+anomaly-generator-yes-fire = Estado: [color=forestgreen]Ready[/color]
+anomaly-generator-no-fire = Estado: [color=crimson]Not ready[/color]
+anomaly-generator-generate = Gerar Anomalia
+anomaly-generator-charges = {$charges -> 
+    [one] {$charges} carga
+    *[other] {$charges} cargas
+}
+anomaly-generator-announcement = Uma anomalia foi gerada!

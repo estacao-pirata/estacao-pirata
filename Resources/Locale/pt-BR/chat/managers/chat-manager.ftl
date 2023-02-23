@@ -11,13 +11,14 @@ chat-manager-admin-ooc-chat-enabled-message = Chat Admin OOC foi habilitado.
 chat-manager-admin-ooc-chat-disabled-message = Chat Admin OOC foi desabilitado.
 chat-manager-max-message-length-exceeded-message = Sua mensagem excedeu o limite de {$limit} caractéres
 chat-manager-no-headset-on-message = Você não tem um headset ligado!
-chat-manager-no-such-channel = Não existe tal canal!
+chant-manager-no-radio-key = Nenhuma chave de canal selecionada!
+chat-manager-no-such-channel = Não existe canal com a chave '{$key}'!
 chat-manager-whisper-headset-on-message = Você não pode sussurrar no rádio!
 chat-manager-server-wrap-message = SERVER: {$message}
 chat-manager-sender-announcement-wrap-message = Anúncio de {$sender}:
                                                 {$message}
-chat-manager-entity-say-wrap-message = {$entityName} diz: "{$message}"
-chat-manager-entity-whisper-wrap-message = {$entityName} sussurra: "{$message}"
+chat-manager-entity-say-wrap-message = {$entityName} diz, "{$message}"
+chat-manager-entity-whisper-wrap-message = {$entityName} sussurra, "{$message}"
 chat-manager-entity-me-wrap-message = {$entityName} {$message}
 chat-manager-entity-looc-wrap-message = LOOC: {$entityName}: {$message}
 chat-manager-send-ooc-wrap-message = OOC: {$playerName}: {$message}

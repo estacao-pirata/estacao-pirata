@@ -4,10 +4,10 @@ alert-level-green = Verde
 alert-level-green-announcement = Agora é seguro voltar para seus postos de trabalho.
 
 alert-level-blue = Azul
-alert-level-blue-announcement = Há uma ameaça desconhecida na estação. A segurança está autorizada à fazer revistas. Os tripulantes são aconselhados à obedecer comandos feitos por qualquer autoridade relevante.
+alert-level-blue-announcement = Há uma ameaça desconhecida na estação. A segurança está autorizada à fazer revistas. Os tripulantes são aconselhados à ficarem atentos e informarem a segurança de qualquer atividade suspeita.
 
 alert-level-red = Vermelho
-alert-level-red-announcement = Há uma ameaça conhecida na estação. Segurança está autorizada à usar força letal se necessário. Os tripulantes devem achar um local seguro para se abrigar, e são aconselhados em seguir qualquer autoridade presente.
+alert-level-red-announcement = Há uma ameaça conhecida na estação. Segurança deve se preparar para usar força letal se necessário está autorizada à usar força letal se necessário. Os tripulantes devem achar um local seguro para se abrigar, e são aconselhados em seguir as ordens de qualquer autoridade presente.
 
 alert-level-violet = Violeta
 alert-level-violet-announcement = Há uma ameaça viral na estação. O departamento médico é aconselhado à isolar tripulantes com algum sintoma. Os tripulantes são aconselhados à manter distancia um do outro e manter qualquer medida de segurança para previnir a propagação.

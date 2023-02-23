@@ -1,6 +1,7 @@
 # named frequencies
 device-frequency-prototype-name-atmos = Dispositivos Atmosféricos
 device-frequency-prototype-name-suit-sensors = Sensores de Traje
+device-frequency-prototype-name-crew-monitor = Monitor da Tripulação
 device-frequency-prototype-name-lights = Luzes Inteligentes
 device-frequency-prototype-name-mailing-units = Dispositivos Correios
 

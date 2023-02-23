@@ -17,4 +17,4 @@ fax-machine-ui-paper = Papel:
 fax-machine-ui-paper-inserted = Papel na bandeja
 fax-machine-ui-paper-not-inserted = Não há papel
 
-fax-machine-chat-notify = Nova mensagem de fax recebida no fax "{$fax}"
+fax-machine-chat-notify = Nova mensagem de fax recebida do fax "{$fax}"
