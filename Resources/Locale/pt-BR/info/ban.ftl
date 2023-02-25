@@ -1,6 +1,6 @@
 # ban
 cmd-ban-desc = Bane alguém.
-cmd-ban-help = Uso: {$Command} <name or user ID> <reason> [duration in minutes, leave out or 0 for permanent ban]
+cmd-ban-help = Uso: {$Command} <nome ou ID do usuário> <razão> [duração em minutos, deixe vazio ou 0 para ban permanente]
 cmd-ban-player = Não foi possível encontrar um usuário com esse nome.
 cmd-ban-self = Você não pode se banir!
 cmd-ban-hint = <nome/ID do usuário>
