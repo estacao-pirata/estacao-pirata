@@ -6,7 +6,7 @@ uplink-revolver-python-name = Python
 uplink-revolver-python-desc = Um revólver barulhento e mortal. Usa .45 Magnum.
 
 uplink-pistol-cobra-name = Cobra
-uplink-pistol-cobra-desc = Uma pistola robusta e robusta com silenciador embutido. Use carregadores de pistola (.25 sem estojo).
+uplink-pistol-cobra-desc = Uma pistola robusta com silenciador embutido. Use carregadores de pistola (.25 sem estojo).
 
 uplink-rifle-mosin-name = Rifle Excedente
 uplink-rifle-mosin-desc = Um rifle de serviço de ação de ferrolho que viu muitas guerras. Não nada moderno, carregado à mão e com terrível recuo, mas é barato.
