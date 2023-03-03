@@ -50,7 +50,7 @@ uplink-speedloader-magnum-name = Speedloader (.45 magnum)
 uplink-speedloader-magnu-desc = Carregador rápido de revolver com 6 cartuchos. Compatível com a Python.
 
 uplink-mosin-ammo-name = Caixa de pentes de rifle .30
-uplink-mosin-ammo-desc = Uma caixa de cartuchos para o rifle excedente.
+uplink-mosin-ammo-desc = Uma caixa de pentes para o rifle excedente.
 
 # Utility
 uplink-holopara-kit-name = Kit Holoparasita
