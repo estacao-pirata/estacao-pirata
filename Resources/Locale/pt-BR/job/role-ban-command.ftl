@@ -11,7 +11,10 @@ cmd-roleban-hint-4 = [duração em minutos, ignore ou deixe 0 para um ban perman
 
 cmd-roleban-hint-duration-1 = Permanente
 cmd-roleban-hint-duration-2 = 1 dia
-cmd-roleban-hint-duration-3 = 1 semana
+cmd-roleban-hint-duration-3 = 3 dias
+cmd-roleban-hint-duration-4 = 1 semana
+cmd-roleban-hint-duration-5 = 2 semanas
+cmd-roleban-hint-duration-6 = 1 mês
 
 
 ### Localization for role unban command
