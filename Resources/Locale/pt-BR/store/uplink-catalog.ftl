@@ -76,7 +76,10 @@ uplink-stealth-box-name = Caixa Stealth
 uplink-stealth-box-desc = Uma caixa equipada com tecnologia de camuflagem, esgueire-se com isso mas não se mova muito rápido agora!
 
 uplink-headset-name = Fone sobre-a-orelha do Sindicato
-uplink-headset-desc = Um fone de rádio que permite ouvir em canais departamentais ou entrar em contato com outros traidores.
+uplink-headset-desc = Um fone de rádio que permite ouvir em canais departamentais ou entrar em contato com outros traidores. Tem 4 entradas pra chaves criptográficas
+
+uplink-encryption-key-name = Chave Criptográfica do Sindicato
+uplink-encryption-key-desc = Uma chave de criptografia para acesso à frequência secreta de nossos agentes especiais. Ninguém saberá sobre o seu canal especial com amigos... ou rivais.
 
 uplink-hypopen-name = Hypopen
 uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 15u de reagentes. Começa a ficar vazio.
