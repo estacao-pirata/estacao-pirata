@@ -7,10 +7,16 @@ headset-encryption-keys-all-extracted = Você ejeta as chaves criptográficas do
 headset-encryption-keys-no-keys = Este fone não possui chaves criptográficas!
 headset-encryption-keys-are-locked = As chaves do fone estão trancadas e você não pode adicionar ou remover chave nenhuma.
 
-examine-headset = Uma tela pequena no headset mostra as seguintes frequências disponíveis:
-examine-headset-channel = [color={$color}]:{$key} para {$id} ({$freq})[/color]
+examine-encryption-key-channels-prefix = It is providing these frequencies to the headset:
 
-examine-headset-channel = Use {$prefix} para a o canal default ([color={$color}]{$channel}[/color]).
+examine-radio-frequency = It's set to broadcast over the {$frequency} frequency.
+
+examine-headset-channels-prefix = Uma tela pequena no headset mostra as seguintes frequências disponíveis:
+examine-headset-channel = [color={$color}]:{$key} para {$id} ({$freq})[/color]
+examine-headset-no-keys = Parece quebrado. Não há chaves criptográficas nele.
+examine-headset-chat-prefix = Use o prefixo {$prefix} para a o canal do seu departamento.
+examine-headset-default-channel = Está indicado que o canal default pra esse fone é [color={$color}]{$channel}[/color].
+examine-encryption-key-default-channel = Parece que [color={$color}]{$channel}[/color] é um canal default.
 
 chat-radio-common = Geral
 chat-radio-centcom = CentCom
