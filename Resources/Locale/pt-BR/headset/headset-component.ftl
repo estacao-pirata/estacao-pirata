@@ -10,7 +10,7 @@ headset-encryption-keys-are-locked = As chaves do fone estão trancadas e você 
 examine-headset = Uma tela pequena no headset mostra as seguintes frequências disponíveis:
 examine-headset-channel = [color={$color}]:{$key} para {$id} ({$freq})[/color]
 
-examine-headset-chat-prefix = Use {$prefix} para a frequência sintonizada.
+examine-headset-channel = Use {$prefix} para a o canal default ([color={$color}]{$channel}[/color]).
 
 chat-radio-common = Geral
 chat-radio-centcom = CentCom

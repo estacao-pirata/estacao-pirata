@@ -11,6 +11,7 @@ admin-logs-reset-with-id = Reiniciar Rodada (#{$id})
 admin-logs-search-types-placeholder = Procurar Tipos (OR)
 admin-logs-select-all = Tudo
 admin-logs-select-none = Nenhum
+admin-logs-include-non-player = Incluir Não-jogadores
 
 # Players
 admin-logs-search-players-placeholder = Procurar Jogadores (OR)
