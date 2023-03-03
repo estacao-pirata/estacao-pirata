@@ -28,6 +28,13 @@
     - yells!
     - yelled
     - yelling
+    - aa
+    - aaa
+    - aaaa
+    - aaaaa
+    - grita
+    - berra
+    - urra
 
 - type: emote
   id: Laugh
@@ -52,6 +59,11 @@
     - giggles!
     - giggling
     - giggled
+    - ri
+    - dá risada
+    - da risada
+    - gargalha
+    - risos
 
 # hand emotes
 - type: emote
@@ -65,6 +77,10 @@
     - claps!
     - clapping
     - clapped
+    - palma
+    - palmas
+    - bate palma
+    - bate palmas
 
 - type: emote
   id: Snap
@@ -84,4 +100,8 @@
     - snaps their fingers!
     - snapping fingers
     - snapped fingers
+    - estala
+    - estala os dedos
+    - estrala os dedos
+    - estrala
 
