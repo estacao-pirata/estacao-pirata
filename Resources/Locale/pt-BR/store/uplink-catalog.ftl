@@ -190,7 +190,7 @@ uplink-nocturine-chemistry-bottle-name = Garrafa de Nocturine
 uplink-nocturine-chemistry-bottle-desc = Um produto químico que torna muito difícil para o seu alvo se levantar.
 
 uplink-stimpack-name = Stimpack
-uplink-stimpack-name = O lendário produto químico produzido pela Donk Co. para o Syndicate. Injetar-se com isso aumentará sua velocidade de corrida e permitirá que você se recupere de atordoamentos mais rápido por 5 minutos.
+uplink-stimpack-desc = O lendário produto químico produzido pela Donk Co. para o Syndicate. Injetar-se com isso aumentará sua velocidade de corrida e permitirá que você se recupere de atordoamentos mais rápido por 5 minutos.
 
 uplink-stimkit-name = Stimkit
 uplink-stimkit-desc = Um medkit contendo 6 microinjetores estimulantes, que cada um injeta em estimulantes suficientes para durar um minuto.
