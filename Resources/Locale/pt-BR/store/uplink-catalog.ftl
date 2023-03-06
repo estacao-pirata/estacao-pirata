@@ -69,8 +69,8 @@ uplink-agent-id-card-desc = Um cartão de ID modificado que pode copiar acessos 
 uplink-black-jetpack-name = Jetpack Preto
 uplink-black-jetpack-desc = Um jetpack preto. Ele permite que você voe no espaço. Combustível adicional não incluído.
 
-uplink-reinforcement-teleporter-name = Teleportador de Reforço
-uplink-reinforcement-teleporter-desc = Teleporte em um agente de qualidade extremamente questionável. Sem botão de desligar, compre isto se estiver pronto para a festa. Eles têm uma pistola sem munição reserva, e uma faca. É isso mesmo.
+uplink-reinforcement-radio-name = Teleportador de Reforço
+uplink-reinforcement-radio-desc = Teleporte em um agente de qualidade extremamente questionável. Sem botão de desligar, compre isto se estiver pronto para a festa. Eles têm uma pistola sem munição reserva, e uma faca. É isso mesmo.
 
 uplink-stealth-box-name = Caixa Stealth
 uplink-stealth-box-desc = Uma caixa equipada com tecnologia de camuflagem, esgueire-se com isso mas não se mova muito rápido agora!
