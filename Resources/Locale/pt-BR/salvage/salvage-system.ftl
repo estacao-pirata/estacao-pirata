@@ -18,4 +18,4 @@ salvage-system-magnet-examined-active = O imã está segurando um destroço. Con
     *[other] { $timeLeft } segundos.
 }
 salvage-system-magnet-examined-releasing = O imã está soltando o destroço.
-salvage-system-magnet-examined-cooling-down = O imã está resfriando.
+salvage-system-magnet-examined-cooling-down = O imã está resfriando. Estará pronto em: {$timeLeft} segundos.

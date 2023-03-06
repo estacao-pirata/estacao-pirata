@@ -4,6 +4,12 @@ reagent-desc-desoxyephedrine = A desoxiefedrina é um estimulante potente com ef
 reagent-name-ephedrine = ephedrine
 reagent-desc-ephedrine = Aumenta a resistência ao atordoamento e a velocidade de movimento, causando cãibras nas mãos. Overdose causa dano de toxina e inibe a respiração.
 
+reagent-name-stimulants = estimulantes
+reagent-desc-stimulants = Um coquetel químico desenvolvido pela Donk Co. que permite que os agentes se recuperem de atordoamentos mais rápido, se movam mais rapidamente e concedem uma pequena cura enquanto perto de condições críticas. Devido à natureza complexa do produto químico, é muito mais difícil para o corpo purgar naturalmente.
+
+reagent-name-experimental-stimulants = estimulantes experimentais
+reagent-desc-experimental-stimulants = Uma versão protótipo da mistura química de Estimulante. O uso concede imunidade virtual ao armamento de atordoamento, regeneração rápida de tecidos, velocidade de corrida extrema por reduzir o acúmulo de ácido láctico e uma sensação geral de euforia. Os efeitos colaterais podem incluir níveis extremos de anticoagulação, visão de túnel, acúmulo extremo de toxinas na corrente sanguínea e falência rápida do fígado. Não dê aos animais.
+
 reagent-name-thc = THC
 reagent-desc-thc = O principal composto psicoativo da cannabis.
 

@@ -95,6 +95,7 @@ flavor-complex-bungo = de bungo
 flavor-complex-raisins = de uva passa
 flavor-complex-orange = de laranja
 flavor-complex-watermelon = de melancia
+flavor-complex-garlic = de alho
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
