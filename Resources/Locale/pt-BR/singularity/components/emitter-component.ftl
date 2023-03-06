@@ -10,3 +10,9 @@ comp-emitter-turned-off = O {$target} desligou.
 
 # Shows if the user attempts to activate the emitter while it's un-anchored.
 comp-emitter-not-anchored = O {$target} não está fixado ao chão!
+
+# Upgrades
+emitter-component-upgrade-fire-rate = fire rate
+
+emitter-component-current-type = The current selected type is: {$type}.
+emitter-component-type-set = Type set to: {$type}
