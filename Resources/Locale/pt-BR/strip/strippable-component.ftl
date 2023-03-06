@@ -10,6 +10,11 @@ strippable-component-alert-owner = {$user} está removendo seu(sua) {$item}!
 strippable-component-alert-owner-hidden = Você sente alguém mexendo no(a) seu(sua) {$slot}!
 strippable-component-alert-owner-insert = {$user} está colocando {$item} em você!
 
+# generic warning for when a user interacts with your equipped items.
+# TODO: usar o pronome possessivo do gênero certo, concordando com o gênero do item - pra não ficar "om o seu boina" por exemplo
+strippable-component-alert-owner-interact = {$user} está fuçando com o seu {$item}!
+
+
 # StripVerb
 strip-verb-get-data-text = Pilhar
 
