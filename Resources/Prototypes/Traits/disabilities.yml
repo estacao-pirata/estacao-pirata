@@ -17,11 +17,11 @@
       timeBetweenIncidents: 300, 600
       durationOfIncident: 10, 30
 
-- type: trait
-  id: Pacifist
-  name: trait-pacifist-name
-  components:
-    - type: Pacifist
+# - type: trait
+#   id: Pacifist
+#   name: trait-pacifist-name
+#   components:
+#     - type: Pacifist
 
 - type: trait
   id: Colorblindness
