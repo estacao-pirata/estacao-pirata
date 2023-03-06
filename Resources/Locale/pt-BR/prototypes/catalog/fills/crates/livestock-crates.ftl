@@ -20,25 +20,28 @@ ent-CrateNPCCow = Caixa de vaca
     .desc = Uma vaca com um leite muuuuito gostoso e uma carne melhor ainda.
 
 ent-CrateNPCGoat = Caixa de cabra
-    .desc = A crate containing a single goat.
+    .desc = Uma caixa contendo um único goat.
 
 ent-CrateNPCGoose = Caixa de gansos
-    .desc = A crate containing two geese.
+    .desc = Uma caixa contendo dois gansos.
 
 ent-CrateNPCGorilla = Caixa de gorila
-    .desc = A crate containing a single gorilla.
+    .desc = Uma caixa contendo um único gorila.
 
 ent-CrateNPCMonkeyCube = Caixa de macacos em cubos
-    .desc = A crate containing three boxes of monkey cubes.
+    .desc = Uma caixa contedo três caixas de macacos em cubos.
 
 ent-CrateNPCMouse = Caixa de ratos
-    .desc = A crate containing five mice.
+    .desc = Uma caixa contendo cinco ratos.
 
 ent-CrateNPCParrot = Caixa de papagaios
-    .desc = A crate containing three parrots.
+    .desc = Uma caixa contendo três papagaios.
 
-ent-CrateNPCPenguin = Caixa de penguins
-    .desc = A crate containing two penguins.
+ent-CrateNPCPenguin = Caixa de pinguins
+    .desc = Uma caixa contendo dois pinguins.
 
 ent-CrateNPCSnake = Caixa de cobras
-    .desc = A crate containing three snakes.
+    .desc = Uma caixa contendo três snakes.
+
+ent-CrateNPCLizard = Lizard crate
+    .desc = Uma caixa contendo um lizard.
