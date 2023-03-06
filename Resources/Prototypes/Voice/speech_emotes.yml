@@ -2,7 +2,7 @@
 - type: emote
   id: Scream
   category: Vocal
-  chatMessages: [screams!]
+  chatMessages: [grita!]
   chatTriggers:
     - scream
     - screams
@@ -39,7 +39,7 @@
 - type: emote
   id: Laugh
   category: Vocal
-  chatMessages: [laughs]
+  chatMessages: [ri]
   chatTriggers:
     - laugh
     - laughs
@@ -69,7 +69,7 @@
 - type: emote
   id: Clap
   category: Hands
-  chatMessages: [claps!]
+  chatMessages: [bate palma!]
   chatTriggers:
     - clap
     - claps
@@ -85,7 +85,7 @@
 - type: emote
   id: Snap
   category: Hands
-  chatMessages: [snaps fingers] # snaps <{THEIR($ent)}> fingers?
+  chatMessages: [estala os dedos] # snaps <{THEIR($ent)}> fingers?
   chatTriggers:
     - snap
     - snaps
