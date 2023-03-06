@@ -27,9 +27,9 @@ anomaly-scanner-pulse-timer = Tempo até próximo pulso: [color=gray]{$time}[/co
 anomaly-generator-ui-title = gerador de anomalia
 anomaly-generator-fuel-display = Combustível:
 anomaly-generator-cooldown = Cooldown: [color=gray]{$time}[/color]
-anomaly-generator-no-cooldown = Cooldown: [color=gray]Complete[/color]
-anomaly-generator-yes-fire = Estado: [color=forestgreen]Ready[/color]
-anomaly-generator-no-fire = Estado: [color=crimson]Not ready[/color]
+anomaly-generator-no-cooldown = Cooldown: [color=gray]Completo[/color]
+anomaly-generator-yes-fire = Estado: [color=forestgreen]Pronto[/color]
+anomaly-generator-no-fire = Estado: [color=crimson]Não pronto[/color]
 anomaly-generator-generate = Gerar Anomalia
 anomaly-generator-charges = {$charges -> 
     [one] {$charges} carga
