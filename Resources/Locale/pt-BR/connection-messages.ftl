@@ -31,5 +31,6 @@ whitelist-playercount-invalid = {$min ->
     [0] A whitelist para este servidor só se aplica com menos de {$max} jogadores.
     *[other] A whitelist para este servidor só se aplica com mais de {$min} {$max ->
         [2147483647] -> jogadores, então talvez você possa entrar mais tarde.
-            }
+        *[other] -> jogadores e menos de {$max} jogadores, então talvez você possa entrar mais tarde.
+    }
 }

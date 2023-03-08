@@ -31,7 +31,7 @@ traitor-no-one-ready = Nenhum jogador deu "pronto"! Impossível iniciar modo tra
 
 ## TraitorDeathMatch
 traitor-death-match-title = Mata-mata de traidor
-traitor-death-match-description = Todos são traidores. Todo mundo quer matar os outros.
+traitor-death-match-description = NÃO É BATTLE ROYALE! Não vai ganhar nada sobrevivendo escondido, procure seus oponentes, acumule TCs! Todos são traidores. Todo mundo quer matar uns aos outros.
 traitor-death-match-station-is-too-unsafe-announcement = A estação está muito perigosa para continuar. Você tem um minuto.
 traitor-death-match-end-round-description-first-line = Os PDAs se recuperaram depois...
 traitor-death-match-end-round-description-entry = PDA de {$originalName}, com {$tcBalance} TC
