@@ -20,7 +20,7 @@ reagent-name-ketchup = ketchup
 reagent-desc-ketchup = Feito de tomates amassado e temperado com especiarias.
 
 reagent-name-ketchunaise = ketchunese
-reagente-desc-ketchunaise - O assim chamado molho russo, popular entre os americanos do espaço.
+reagente-desc-ketchunaise = O assim chamado molho russo, popular entre os americanos do espaço.
 
 reagente-nome-mayo = maionese
 reagente-desc-mayo = molho cremoso, feito de óleo, ovo e alguns (comestíveis) ácido.
@@ -28,7 +28,7 @@ reagente-desc-mayo = molho cremoso, feito de óleo, ovo e alguns (comestíveis) 
 reagente-nome-vinaigrette = vinagrete
 reagente-desc-vinaigrette = Um molho básico de salada feito com óleo, vinagre e tempero.
 
-reagente-desc-ketchunaise - O assim chamado molho russo, popular entre os americanos do espaço.
+reagente-desc-ketchunaise = O assim chamado molho russo, popular entre os americanos do espaço.
 
 reagente-nome-mayo = maionese
 reagente-desc-mayo = molho cremoso, feito de óleo, ovo e alguns (comestíveis) ácido.

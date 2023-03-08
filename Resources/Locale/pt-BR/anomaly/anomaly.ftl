@@ -14,9 +14,9 @@ anomaly-scanner-component-scan-complete = Escan completao!
 anomaly-scanner-ui-title = escaner de anomalia
 anomaly-scanner-no-anomaly = Nenhuma anomalia escaneda atualmente.
 anomaly-scanner-severity-percentage = Severidade atual: [color=gray]{$percent}[/color]
-anomaly-scanner-stability-low = Estado atual da anomalia: [color=gold]Decaying[/color]
-anomaly-scanner-stability-medium = Estado atual da anomalia: [color=forestgreen]Stable[/color]
-anomaly-scanner-stability-high = Estado atual da anomalia: [color=crimson]Growing[/color]
+anomaly-scanner-stability-low = Estado atual da anomalia: [color=gold]Decaindo[/color]
+anomaly-scanner-stability-medium = Estado atual da anomalia: [color=forestgreen]Estável[/color]
+anomaly-scanner-stability-high = Estado atual da anomalia: [color=crimson]Crescendo[/color]
 anomaly-scanner-point-output = Ponto aproximado de saída: [color=gray]{$point}[/color]
 anomaly-scanner-particle-readout = Análise de Reação a Partículas:
 anomaly-scanner-particle-danger = - [color=crimson]Tipo perigoso:[/color] {$type}
