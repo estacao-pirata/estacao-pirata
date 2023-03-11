@@ -39,6 +39,9 @@ uplink-c4-desc = Use-o para quebrar paredes, portas ou equipamentos de sabotagem
 uplink-c4-bundle-name = C-4 bundle
 uplink-c4-bundle-desc = Porque às vezes a quantidade é de qualidade. Contém 8 explosivos de plástico C-4.
 
+uplink-emp-grenade-name = Granada EMP
+uplink-emp-grenade-desc = Libera pulsos eletromagnéticos que perturbam ou danificam diversos dispositivos eletrônicos ou drenam células de energia.
+
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
 uplink-pistol-magazine-desc = Pente de pistola com 10 cartuchos. Compativel com a Viper.
