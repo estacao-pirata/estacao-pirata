@@ -4,6 +4,9 @@ technologies-basic-research-technology-description = Nanotrasen basic research t
 technologies-cleaning-technology = Cleaning technology
 technologies-cleaning-technology-description = Start to a shiny clean station.
 
+technologies-foodbev-technology = Food and beverage technology
+technologies-food-and-beverage-technology-description = Robust service from better technology.
+
 technologies-biological-technology = Biological technology
 technologies-biological-technology-description = Investigations into the natural world.
 
@@ -67,8 +70,11 @@ technologies-advanced-powercell-printing-description = Print advanced powercells
 technologies-super-powercell-printing = Super powercell printing
 technologies-super-powercell-printing-description = Print super powercells.
 
-technologies-scientific-technology = Scientific technology
+technologies-scientific-technology = Research technology
 technologies-scientific-technology-description = The basics of a research team's supplies.
+
+technologies-anomaly-technology = Anomaly technology
+technologies-anomaly-technology-description = Machines for advanced anomaly containment.
 
 technologies-robotics-technology = Robotics technology
 technologies-robotics-technology-description = Parts needed for constructing mechanized friends.
@@ -78,6 +84,9 @@ technologies-archaeology-description = Advanced equipment for uncovering the sec
 
 technologies-adv-parts-technology = Advanced parts technology
 technologies-adv-parts-technology-description = Like the previous ones, but better!
+
+technologies-super-parts-technology = Super parts technology
+technologies-super-parts-technology-description = New heights of machine performance.
 
 technologies-security-technology = Security technology
 technologies-security-technology-descritpion =  Learn to replace and restock our current security equipment.
@@ -91,8 +100,11 @@ technologies-direct-energy-technology-description = Leverage our advances in pow
 technologies-non-lethal-technology = Non-lethal technology
 technologies-non-lethal-technology-description = Less lethal options for security.
 
-technologies-space-time-technology = Spacetime technology
-technologies-space-time-technology-description = Pushing the limits of the universe.
-
 technologies-ripley-technology = Exosuit: Ripley
 technologies-ripley-technology-description = The latest and greatest in mechanized cargo construction.
+
+technologies-bluespace-technology = Bluespace technology
+technologies-bluespace-technology-description = Extradimensional storage.
+
+technologies-teleportation-technology = Teleportation technology
+technologies-teleportation-technology-description = The ability to move matter instantly from one place to another.

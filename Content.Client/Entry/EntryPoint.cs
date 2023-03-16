@@ -4,6 +4,7 @@ using Content.Client.Chat.Managers;
 using Content.Client.Eui;
 using Content.Client.Flash;
 using Content.Client.GhostKick;
+using Content.Client.Guidebook;
 using Content.Client.Info;
 using Content.Client.Input;
 using Content.Client.IoC;
@@ -17,6 +18,7 @@ using Content.Client.Screenshot;
 using Content.Client.Singularity;
 using Content.Client.Stylesheets;
 using Content.Client.Viewport;
+using Content.Client.Redial;
 using Content.Client.Voting;
 using Content.Shared.Administration;
 using Content.Shared.AME;
@@ -60,9 +62,11 @@ namespace Content.Client.Entry
         [Dependency] private readonly IVoteManager _voteManager = default!;
         [Dependency] private readonly IGamePrototypeLoadManager _gamePrototypeLoadManager = default!;
         [Dependency] private readonly NetworkResourceManager _networkResources = default!;
+        [Dependency] private readonly DocumentParsingManager _documentParsingManager = default!;
         [Dependency] private readonly GhostKickManager _ghostKick = default!;
         [Dependency] private readonly ExtendedDisconnectInformationManager _extendedDisconnectInformation = default!;
         [Dependency] private readonly PlayTimeTrackingManager _playTimeTracking = default!;
+        [Dependency] private readonly RedialManager _redial = default!;
         [Dependency] private readonly ContentLocalizationManager _contentLoc = default!;
 
         public override void Init()
@@ -125,6 +129,7 @@ namespace Content.Client.Entry
             _changelogManager.Initialize();
             _rulesManager.Initialize();
             _viewportManager.Initialize();
+            _redial.Initialize();
             _ghostKick.Initialize();
             _extendedDisconnectInformation.Initialize();
             _playTimeTracking.Initialize();
@@ -156,6 +161,7 @@ namespace Content.Client.Entry
             _gamePrototypeLoadManager.Initialize();
             _networkResources.Initialize();
             _userInterfaceManager.SetDefaultTheme("SS14DefaultTheme");
+            _documentParsingManager.Initialize();
 
             _baseClient.RunLevelChanged += (_, args) =>
             {

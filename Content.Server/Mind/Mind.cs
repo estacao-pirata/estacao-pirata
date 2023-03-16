@@ -4,12 +4,12 @@ using Content.Server.Administration.Logs;
 using Content.Server.GameTicking;
 using Content.Server.Ghost.Components;
 using Content.Server.Mind.Components;
-using Content.Server.MobState;
 using Content.Server.Objectives;
 using Content.Server.Players;
 using Content.Server.Roles;
 using Content.Shared.Database;
-using Content.Shared.MobState.Components;
+using Content.Shared.Mobs.Components;
+using Content.Shared.Mobs.Systems;
 using Robust.Server.GameObjects;
 using Robust.Server.Player;
 using Robust.Shared.Network;
@@ -121,6 +121,13 @@ namespace Content.Server.Mind
         [ViewVariables(VVAccess.ReadWrite)]
         [DataField("preventGhosting")]
         public bool PreventGhosting { get; set; }
+
+        /// <summary>
+        ///     Prevents user from suiciding
+        /// </summary>
+        [ViewVariables(VVAccess.ReadWrite)]
+        [DataField("preventSuicide")]
+        public bool PreventSuicide { get; set; }
 
         /// <summary>
         ///     The session of the player owning this mind.
@@ -311,7 +318,7 @@ namespace Content.Server.Mind
         /// <exception cref="ArgumentException">
         ///     Thrown if <paramref name="entity"/> is already owned by another mind.
         /// </exception>
-        public void TransferTo(EntityUid? entity, bool ghostCheckOverride = false)
+        public void TransferTo(EntityUid? entity, bool ghostCheckOverride = false, bool respectOtherPlayers = true)
         {
             // Looks like caller just wants us to go back to normal.
             if (entity == OwnedEntity)
@@ -329,7 +336,7 @@ namespace Content.Server.Mind
                 {
                     component = _entityManager.AddComponent<MindComponent>(entity.Value);
                 }
-                else if (component!.HasMind)
+                else if (component.HasMind)
                 {
                     _gameTickerSystem.OnGhostAttempt(component.Mind!, false);
                 }
@@ -337,7 +344,7 @@ namespace Content.Server.Mind
                 if (_entityManager.TryGetComponent<ActorComponent>(entity.Value, out var actor))
                 {
                     // Happens when transferring to your currently visited entity.
-                    if (actor.PlayerSession != Session)
+                    if (respectOtherPlayers && actor.PlayerSession != Session)
                     {
                         throw new ArgumentException("Visit target already has a session.", nameof(entity));
                     }

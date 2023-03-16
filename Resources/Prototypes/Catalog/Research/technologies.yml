@@ -39,6 +39,25 @@
   - TrashBag
   - WetFloorSign
 
+# Food/Bev Service Technology Tree
+
+- type: technology
+  name: technologies-foodbev-technology
+  id: FoodBevTechnology
+  description: technologies-food-and-beverage-technology-description
+  icon:
+    sprite: Objects/Weapons/Melee/cleaver.rsi
+    state: butch
+  requiredPoints: 5000
+  requiredTechnologies:
+  - BasicResearch
+  unlockedRecipes:
+  - ButchCleaver
+  - KitchenKnife
+  - MicrowaveMachineCircuitboard
+  - BoozeDispenserMachineCircuitboard
+  - SodaDispenserMachineCircuitboard
+
 # Biological Technology Tree
 
 - type: technology
@@ -55,10 +74,21 @@
   - HydroponicsToolScythe
   - HydroponicsToolHatchet
   - Shovel
+  - MiniHoe
+  - Spade
+  - Clippers
   - ButchCleaver
   - KitchenKnife
   - MicrowaveMachineCircuitboard
   - DeepFryerMachineCircuitboard
+  - Medkit
+  - MedkitBurn
+  - MedkitToxin
+  - MedkitO2
+  - MedkitBrute
+  - MedkitAdvanced
+  - MedkitRadiation
+  - MedkitCombat
 
 - type: technology
   name: technologies-advanced-botany
@@ -159,8 +189,8 @@
   id: AdvancedLifeSupport
   description: technologies-advanced-life-support-description
   icon:
-    sprite: Structures/Machines/cloning.rsi
-    state: pod_0
+    sprite: Clothing/Eyes/Hud/med.rsi
+    state: icon
   requiredPoints: 20000
   requiredTechnologies:
   - MedicalMachinery
@@ -171,6 +201,7 @@
   - StasisBedMachineCircuitboard
   - CloningConsoleComputerCircuitboard
   - CryoPodMachineCircuitboard
+  - ClothingEyesHudMedical
 
 # Security Technology Tree
 
@@ -243,7 +274,6 @@
     - ShellSoulbreaker
     - CartridgePistolRubber
     - CartridgeMagnumRubber
-    - CartridgeCaselessRifleRubber
     - CartridgeLightRifleRubber
     - CartridgeRifleRubber
     - ShockCollar
@@ -301,23 +331,6 @@
   - AppraisalTool
   - MiningDrill
   - OreProcessorMachineCircuitboard
-
-- type: technology
-  name: technologies-spacefaring
-  id: SpacefaringTechnology
-  description: technologies-spacefaring-description
-  icon:
-    sprite: Structures/Shuttles/gyroscope.rsi
-    state: base
-  requiredPoints: 10000
-  requiredTechnologies:
-  - SalvageEquipment
-  - IndustrialEngineering
-  unlockedRecipes:
-  - ShuttleConsoleCircuitboard
-  - RadarConsoleCircuitboard
-  - ThrusterMachineCircuitboard
-  - GyroscopeMachineCircuitboard
 
 - type: technology
   name: technologies-ripley-technology
@@ -407,6 +420,11 @@
   - SignalTrigger
   - VoiceTrigger
   - TimerTrigger
+  - CapacitorStockPart
+  - MatterBinStockPart
+  - MicroLaserStockPart
+  - MicroManipulatorStockPart
+  - ScanningModuleStockPart
 
 - type: technology
   name: technologies-electrical-engineering
@@ -428,6 +446,7 @@
   - SolarControlComputerCircuitboard
   - EmitterCircuitboard
   - Holoprojector
+  - RadarConsoleCircuitboard
 
 - type: technology
   name: technologies-advanced-atmospherics-technology
@@ -513,6 +532,61 @@
   unlockedRecipes:
   - PowerCellHigh
 
+- type: technology
+  name: technologies-adv-parts-technology
+  id: AdvancedPartsTechnology
+  description: technologies-adv-parts-technology-description
+  icon:
+    sprite: Objects/Misc/stock_parts.rsi
+    state: adv_capacitor
+  requiredPoints: 15000
+  requiredTechnologies:
+  - CompactPowerTechnology
+  - ElectricalEngineering
+  unlockedRecipes:
+  - AdvancedCapacitorStockPart
+  - AdvancedMatterBinStockPart
+  - HighPowerMicroLaserStockPart
+  - NanoManipulatorStockPart
+  - AdvancedScanningModuleStockPart
+  - ReverseEngineeringMachineCircuitboard
+
+- type: technology
+  name: technologies-super-parts-technology
+  id: SuperPartsTechnology
+  description: technologies-super-parts-technology-description
+  icon:
+    sprite: Objects/Misc/stock_parts.rsi
+    state: super_capacitor
+  requiredPoints: 20000
+  requiredTechnologies:
+  - AdvancedPartsTechnology
+  - CompactPowerTechnology
+  unlockedRecipes:
+  - SuperCapacitorStockPart
+  - SuperMatterBinStockPart
+  - UltraHighPowerMicroLaserStockPart
+  - PicoManipulatorStockPart
+  - PhasicScanningModuleStockPart
+
+- type: technology
+  name: technologies-robotics-technology
+  id: RoboticsTechnology
+  description: technologies-robotics-technology-description
+  icon:
+    sprite: Mobs/Silicon/Bots/honkbot.rsi
+    state: honkbot
+  requiredPoints: 7500
+  requiredTechnologies:
+  - CompactPowerTechnology
+  unlockedRecipes:
+  - ProximitySensor
+  - LeftArmBorg
+  - RightArmBorg
+  - Drone
+  - ExosuitFabricatorMachineCircuitboard
+  - ClothingEyesHudDiagnostic
+
 # Entertainment Technology Tree
 
 - type: technology
@@ -543,29 +617,22 @@
   - BasicResearch
   unlockedRecipes:
   - TechDiskComputerCircuitboard
-  - CapacitorStockPart
-  - MatterBinStockPart
-  - MicroLaserStockPart
-  - MicroManipulatorStockPart
-  - ScanningModuleStockPart
   - NodeScanner
+  - AnomalyScanner
 
 - type: technology
-  name: technologies-robotics-technology
-  id: RoboticsTechnology
-  description: technologies-robotics-technology-description
+  name: technologies-anomaly-technology
+  id: AnomalyTechnology
+  description: technologies-anomaly-technology-description
   icon:
-    sprite: Mobs/Silicon/Bots/honkbot.rsi
-    state: honkbot
-  requiredPoints: 7500
+    sprite: Structures/Machines/Anomaly/ape.rsi
+    state: base
+  requiredPoints: 10000
   requiredTechnologies:
   - ScientificTechnology
   unlockedRecipes:
-  - ProximitySensor
-  - LeftArmBorg
-  - RightArmBorg
-  - Drone
-  - ExosuitFabricatorMachineCircuitboard
+  - AnomalyVesselCircuitboard
+  - APECircuitboard
 
 - type: technology
   name: technologies-archaeology
@@ -583,42 +650,34 @@
   - TraversalDistorterMachineCircuitboard
 
 - type: technology
-  name: technologies-adv-parts-technology
-  id: AdvancedPartsTechnology
-  description: technologies-adv-parts-technology-description
+  name: technologies-bluespace-technology
+  id: BluespaceTechnology
+  description: technologies-bluespace-technology-description
   icon:
-    sprite: Objects/Misc/stock_parts.rsi
-    state: adv_capacitor
+    sprite: Nyanotrasen/Objects/Materials/materials.rsi
+    state: bluespace
   requiredPoints: 15000
   requiredTechnologies:
-  - ScientificTechnology
-  - CompactPowerTechnology
+    - SuperPartsTechnology
+    - AnomalyTechnology
   unlockedRecipes:
-  - AdvancedCapacitorStockPart
-  - AdvancedMatterBinStockPart
-  - HighPowerMicroLaserStockPart
-  - NanoManipulatorStockPart
-  - AdvancedScanningModuleStockPart
-
-# Spacetime - the end point...
-- type: technology
-  name: technologies-space-time-technology
-  id: SpaceTimeTechnology
-  description: technologies-space-time-technology-description
-  icon:
-    sprite: Nyanotrasen/Objects/Devices/QSI.rsi
-    state: icon
-  requiredPoints: 20000
-  requiredTechnologies:
-    - CompactPowerTechnology
-    - AdvancedPartsTechnology
-    - ArchaeologicalEquipment
-    - ChemistryTechnology
-  unlockedRecipes:
-    - QSI
     - BluespaceBeaker
     - BackpackOfHolding
     - SatchelOfHolding
     - DuffelbagOfHolding
     - TrashBagOfHolding
-    - NormalityCrystal
+
+- type: technology
+  name: technologies-teleportation-technology
+  id: TeleportationTechnology
+  description: technologies-teleporation-technology-description
+  icon:
+    sprite: Nyanotrasen/Objects/Devices/QSI.rsi
+    state: icon
+  requiredPoints: 15000
+  requiredTechnologies:
+    - SuperPartsTechnology
+    - AnomalyTechnology
+  unlockedRecipes:
+    - QSI
+    - HandTeleporter

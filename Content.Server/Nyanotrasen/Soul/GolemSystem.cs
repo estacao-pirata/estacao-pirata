@@ -5,7 +5,7 @@ using Content.Shared.Toggleable;
 using Content.Shared.Soul;
 using Content.Shared.Borgs;
 using Content.Shared.Dataset;
-using Content.Shared.MobState;
+using Content.Shared.Mobs;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Humanoid;
 using Content.Server.Borgs;
@@ -58,7 +58,7 @@ namespace Content.Server.Soul
             if (!TryComp<ActorComponent>(args.User, out var userActor))
                 return;
 
-            if (!HasComp<HumanoidComponent>(args.User))
+            if (!HasComp<HumanoidAppearanceComponent>(args.User))
                 return;
 
             if (!_uiSystem.TryGetUi(args.Target.Value, GolemUiKey.Key, out var ui))
@@ -105,7 +105,7 @@ namespace Content.Server.Soul
 
         private void OnMobStateChanged(EntityUid uid, GolemComponent component, MobStateChangedEvent args)
         {
-            if (args.CurrentMobState != DamageState.Dead)
+            if (args.NewMobState != MobState.Dead)
                 return;
 
             QueueDel(uid);

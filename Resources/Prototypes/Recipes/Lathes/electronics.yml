@@ -32,7 +32,6 @@
 
 - type: latheRecipe
   id: IntercomElectronics
-  icon: { sprite: Objects/Misc/module.rsi, state: id_mod }
   result: IntercomElectronics
   completetime: 2
   materials:
@@ -46,6 +45,15 @@
   materials:
      Steel: 50
      Plastic: 50
+
+- type: latheRecipe
+  id: CloningPodMachineCircuitboard
+  result: CloningPodMachineCircuitboard
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 900
+     Gold: 100
 
 - type: latheRecipe
   id: ThermomachineFreezerMachineCircuitBoard
@@ -75,7 +83,6 @@
 
 - type: latheRecipe
   id: CryoPodMachineCircuitboard
-  icon: Objects/Misc/module.rsi/id_mod.png
   result: CryoPodMachineCircuitboard
   completetime: 4
   materials:
@@ -194,6 +201,22 @@
      Gold: 100
 
 - type: latheRecipe
+  id: AnomalyVesselCircuitboard
+  result: AnomalyVesselCircuitboard
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 900
+
+- type: latheRecipe
+  id: APECircuitboard
+  result: APECircuitboard
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 900
+
+- type: latheRecipe
   id: ReagentGrinderMachineCircuitboard
   result: ReagentGrinderMachineCircuitboard
   completetime: 4
@@ -203,7 +226,6 @@
 
 - type: latheRecipe
   id: HotplateMachineCircuitboard
-  icon: { sprite: Objects/Misc/module.rsi, state: id_mod }
   result: HotplateMachineCircuitboard
   completetime: 4
   materials:
@@ -221,7 +243,6 @@
 
 - type: latheRecipe
   id: TechDiskComputerCircuitboard
-  icon: { sprite: Objects/Misc/module.rsi, state: cpu_science }
   result: TechDiskComputerCircuitboard
   completetime: 4
   materials:
@@ -236,15 +257,6 @@
   materials:
      Steel: 100
      Glass: 900
-
-- type: latheRecipe
-  id: ShuttleConsoleCircuitboard
-  result: ShuttleConsoleCircuitboard
-  completetime: 4
-  materials:
-     Steel: 100
-     Glass: 900
-     Gold: 100
 
 - type: latheRecipe
   id: RadarConsoleCircuitboard
@@ -282,7 +294,6 @@
 
 - type: latheRecipe
   id: RipleyCentralElectronics
-  icon: Objects/Misc/module.rsi/mainboard.png
   result: RipleyCentralElectronics
   completetime: 4
   materials:
@@ -292,7 +303,6 @@
 
 - type: latheRecipe
   id: RipleyPeripheralsElectronics
-  icon: Objects/Misc/module.rsi/id_mod.png
   result: RipleyPeripheralsElectronics
   completetime: 4
   materials:
@@ -471,24 +481,6 @@
     Glass: 900
 
 - type: latheRecipe
-  id: ThrusterMachineCircuitboard
-  icon: { sprite: Objects/Misc/module.rsi, state: id_mod }
-  result: ThrusterMachineCircuitboard
-  completetime: 4
-  materials:
-    Steel: 100
-    Glass: 900
-
-- type: latheRecipe
-  id: GyroscopeMachineCircuitboard
-  icon: { sprite: Objects/Misc/module.rsi, state: id_mod }
-  result: GyroscopeMachineCircuitboard
-  completetime: 4
-  materials:
-    Steel: 100
-    Glass: 900
-
-- type: latheRecipe
   id: GasRecyclerMachineCircuitboard
   result: GasRecyclerMachineCircuitboard
   completetime: 4
@@ -503,3 +495,38 @@
   materials:
     Steel: 100
     Glass: 900
+
+- type: latheRecipe
+  id: BoozeDispenserMachineCircuitboard
+  result: BoozeDispenserMachineCircuitboard
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 900
+
+- type: latheRecipe
+  id: SodaDispenserMachineCircuitboard
+  result: SodaDispenserMachineCircuitboard
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 900
+
+- type: latheRecipe
+  id: ClothingEyesHudMedical
+  icon: { sprite: Clothing/Eyes/Hud/med.rsi, state: icon }
+  result: ClothingEyesHudMedical
+  completetime: 4
+  materials:
+    Steel: 100
+    Glass: 300
+    Plasma: 200
+
+- type: latheRecipe
+  id: ClothingEyesHudDiagnostic
+  icon: { sprite: Clothing/Eyes/Hud/diag.rsi, state: icon }
+  result: ClothingEyesHudDiagnostic
+  completetime: 4
+  materials:
+    Steel: 300
+    Glass: 300

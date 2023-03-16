@@ -11,23 +11,31 @@
       job: ForensicMantis
 
 - type: entity
-  parent: ResearchIDCard
+  parent: IDCardStandard
   id: EpistemicsIDCard
-  name: epistemologist ID card
+  name: acolyte ID card
   components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idscientist
   - type: PresetIdCard
     job: Epistemologist
 
 - type: entity
-  parent: RDIDCard
+  parent: IDCardStandard
   id: MystaIDCard
   name: mystagogue ID card
   components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idresearchdirector
   - type: PresetIdCard
     job: Mystagogue
 
 - type: entity
-  parent: SalvageIDCard
+  parent: EngineeringIDCard
   id: SalvageTechIDCard
   components:
   - type: PresetIdCard
@@ -78,3 +86,51 @@
     - state: orange #Placeholder?
   - type: PresetIdCard
     job: Gladiator
+
+- type: entity
+  parent: IDCardStandard
+  id: ValetIDCard
+  name: valet ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idintern-service
+  - type: PresetIdCard
+    job: Valet
+
+- type: entity
+  parent: IDCardStandard
+  id: CataloguerIDCard
+  name: cataloguer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idscientist
+  - type: PresetIdCard
+    job: Cataloguer
+
+- type: entity
+  parent: IDCardStandard
+  id: GuardIDCard
+  name: guard ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsecurityofficer
+  - type: PresetIdCard
+    job: PrisonGuard
+
+- type: entity
+  parent: IDCardStandard
+  id: MartialArtistIDCard
+  name: martial artist ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idboxer
+  - type: PresetIdCard
+    job: MartialArtist

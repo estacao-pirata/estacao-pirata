@@ -1,5 +1,14 @@
 - type: entity
   parent: ClothingNeckBase
+  id: ClothingNeckSalvager
+  name: salvager's cloak
+  description: Worn by dangerous people who've deconstructed stations with ease.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/salvage.rsi
+
+- type: entity
+  parent: ClothingNeckBase
   id: ClothingNeckCloakCap
   name: captain's cloak
   description: A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
@@ -114,3 +123,19 @@
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/trans.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakGoliathCloak
+  name: goliath cloak
+  description: A cloak made from the hide of resilient fauna from a distant planet, though its protective value has faded with its age.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/goliathcloak.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodGoliathCloak
+    requiredSlot:
+    - neck
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}

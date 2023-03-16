@@ -69,6 +69,7 @@
       - DrinkMojito
       - DrinkNTCahors
       - DrinkPatronGlass
+      - DrinkPoscaGlass
       - DrinkRedMeadGlass
       - DrinkRewriter
       - DrinkRootBeerFloatGlass
@@ -92,6 +93,13 @@
       - DrinkWineGlass
       - DrinkShakeBlue
       - DrinkShakeWhite
+      - DrinkOrangeCreamiceGlass
+      - DrinkSilverjackGlass
+      - DrinkClownBloodGlass
+      - DrinkSapoPicanteGlass
+      - DrinkGraveyardGlass
+      - DrinkPinkDrinkGlass
+      - DrinkBubbleTeaGlass
     chance: 0.8
     offset: 0.0
     #rare
@@ -109,4 +117,7 @@
       - DrinkShakeRobo
       - DrinkHoochGlass
       - DrinkBeepskySmashGlass
+      - DrinkAtomicPunchGlass
+      - DrinkCircusJuiceGlass
+      - DrinkBrainbombGlass
     rareChance: 0.05

@@ -105,6 +105,7 @@ namespace Content.Shared.Humanoid
                 HumanoidSkinColor.HumanToned => Humanoid.SkinColor.HumanSkinTone(speciesPrototype.DefaultHumanSkinTone),
                 HumanoidSkinColor.Hues => speciesPrototype.DefaultSkinTone,
                 HumanoidSkinColor.TintedHues => Humanoid.SkinColor.TintedHues(speciesPrototype.DefaultSkinTone),
+                HumanoidSkinColor.None => Color.White,
                 _ => Humanoid.SkinColor.ValidHumanSkinTone
             };
 
@@ -162,6 +163,9 @@ namespace Content.Shared.Humanoid
                     var tone = random.Next(0, 100);
                     newSkinColor = Humanoid.SkinColor.HumanSkinTone(tone);
                     break;
+                case HumanoidSkinColor.None:
+                    newSkinColor = Color.White;
+                    break;
                 case HumanoidSkinColor.Hues:
                 case HumanoidSkinColor.TintedHues:
                     var rbyte = random.Next(0, 255);
@@ -217,7 +221,6 @@ namespace Content.Shared.Humanoid
             {
                 markingSet = new MarkingSet(appearance.Markings, speciesProto.MarkingPoints, markingManager, proto);
                 markingSet.EnsureValid(markingManager);
-                markingSet.FilterSpecies(species, markingManager);
 
                 switch (speciesProto.SkinColoration)
                 {
@@ -236,6 +239,7 @@ namespace Content.Shared.Humanoid
 
                         break;
                 }
+                markingSet.EnsureSpecies(species, skinColor, markingManager);
             }
 
             return new HumanoidCharacterAppearance(

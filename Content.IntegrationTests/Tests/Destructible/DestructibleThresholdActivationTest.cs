@@ -7,11 +7,12 @@ using Content.Server.Destructible.Thresholds.Triggers;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Prototypes;
 using Content.Shared.FixedPoint;
+using Content.Shared.CCVar;
 using NUnit.Framework;
 using Robust.Shared.GameObjects;
 using Robust.Shared.IoC;
-using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Configuration;
 using static Content.IntegrationTests.Tests.Destructible.DestructibleTestPrototypes;
 
 namespace Content.IntegrationTests.Tests.Destructible
@@ -30,6 +31,7 @@ namespace Content.IntegrationTests.Tests.Destructible
             var sEntityManager = server.ResolveDependency<IEntityManager>();
             var sPrototypeManager = server.ResolveDependency<IPrototypeManager>();
             var sEntitySystemManager = server.ResolveDependency<IEntitySystemManager>();
+            var sConfigManager = server.ResolveDependency<IConfigurationManager>();
 
             var testMap = await PoolManager.CreateTestMap(pairTracker);
 
@@ -51,6 +53,8 @@ namespace Content.IntegrationTests.Tests.Destructible
                 sTestThresholdListenerSystem.ThresholdsReached.Clear();
 
                 sDamageableSystem = sEntitySystemManager.GetEntitySystem<DamageableSystem>();
+
+                sConfigManager.SetCVar(CCVars.DamageVariance, 0f);
             });
 
             await server.WaitRunTicks(5);
@@ -133,7 +137,7 @@ namespace Content.IntegrationTests.Tests.Destructible
                 // Heal the entity for 40 damage, down to 60
                 sDamageableSystem.TryChangeDamage(sDestructibleEntity, bluntDamage*-4, true);
 
-                // Thresholds don't work backwards
+                // ThresholdsLookup don't work backwards
                 Assert.That(sTestThresholdListenerSystem.ThresholdsReached, Is.Empty);
 
                 // Damage for 10, up to 70
@@ -145,7 +149,7 @@ namespace Content.IntegrationTests.Tests.Destructible
                 // Heal by 30, down to 40
                 sDamageableSystem.TryChangeDamage(sDestructibleEntity, bluntDamage*-3, true);
 
-                // Thresholds don't work backwards
+                // ThresholdsLookup don't work backwards
                 Assert.That(sTestThresholdListenerSystem.ThresholdsReached, Is.Empty);
 
                 // Damage up to 50 again

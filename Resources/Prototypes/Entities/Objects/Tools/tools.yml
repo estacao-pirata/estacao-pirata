@@ -24,7 +24,7 @@
     range: 1.6
     damage:
       types:
-        Slash: 6.5
+        Blunt: 6.5
   - type: Tool
     qualities:
       - Cutting
@@ -66,7 +66,8 @@
     attackRate: 1.5
     damage:
       types:
-        Piercing: 7
+        Blunt: 5
+        Slash: 2
   - type: Tool
     qualities:
       - Screwing
@@ -254,6 +255,10 @@
           path: /Audio/Items/change_drill.ogg
   - type: DynamicPrice
     price: 60
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - PowerDrill
 
 - type: entity
   name: RCD
@@ -284,7 +289,7 @@
   components:
   - type: RCD
     ammo: 0
-  
+
 - type: entity
   name: RCD Ammo
   parent: BaseItem
@@ -300,6 +305,10 @@
     heldPrefix: ammo
   - type: DynamicPrice
     price: 60
+  - type: ReverseEngineering
+    difficulty: 3
+    recipes:
+      - RCDAmmo
 
 - type: entity
   name: shovel

@@ -57,6 +57,18 @@
     BeepskySmash: 2
 
 - type: reaction
+  id: HolyWater
+  reactants:
+    Water:
+      amount: 1
+    Wine:
+      amount: 1
+    Mercury:
+      amount: 1
+  products:
+    HolyWater: 3
+
+- type: reaction
   id: Bilk
   reactants:
     Beer:
@@ -431,6 +443,18 @@
       amount: 1
   products:
     Patron: 10
+
+- type: reaction
+  id: Posca
+  reactants:
+    TableSalt:
+      amount: 1
+    Vinegar:
+      amount: 1
+    Water:
+      amount: 1
+  products:
+    Posca: 3
 
 - type: reaction
   id: Rewriter

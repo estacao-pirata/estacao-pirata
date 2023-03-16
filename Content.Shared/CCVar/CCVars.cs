@@ -30,6 +30,12 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<string> RulesHeader =
             CVarDef.Create("server.rules_header", "ui-rules-header", CVar.REPLICATED | CVar.SERVER);
 
+        /// <summary>
+        ////    A txt file containing other servers that we're happy redialing to.
+        /// </summary>
+        public static readonly CVarDef<string> RedialAddressesFile =
+            CVarDef.Create("server.redial_addresses", "RedialAddresses.txt", CVar.REPLICATED | CVar.SERVER);
+
         /*
          * Ambience
          */
@@ -207,7 +213,7 @@ namespace Content.Shared.CCVar
         /// Is map rotation enabled?
         /// </summary>
         public static readonly CVarDef<bool>
-            GameMapRotation = CVarDef.Create<bool>("game.map_rotation", true, CVar.SERVERONLY);
+            GameMapRotation = CVarDef.Create("game.map_rotation", true, CVar.SERVERONLY);
 
         /// <summary>
         /// If roles should be restricted based on time.
@@ -250,7 +256,7 @@ namespace Content.Shared.CCVar
         /// Whether or not panic bunker is currently enabled.
         /// </summary>
         public static readonly CVarDef<bool> PanicBunkerEnabled =
-            CVarDef.Create("game.panic_bunker.enabled", false, CVar.SERVERONLY);
+            CVarDef.Create("game.panic_bunker.enabled", false, CVar.NOTIFY | CVar.REPLICATED);
 
         /// <summary>
         /// Panic bunker when no admins are on.
@@ -279,6 +285,12 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<int> RoundStartFailShutdownCount =
             CVarDef.Create("game.round_start_fail_shutdown_count", 5, CVar.SERVERONLY | CVar.SERVER);
 #endif
+
+        /*
+         * Damage
+         */
+        public static readonly CVarDef<float> DamageVariance =
+            CVarDef.Create("damage.variance", 0.15f, CVar.SERVER | CVar.REPLICATED);
 
         /*
          * Discord
@@ -321,6 +333,16 @@ namespace Content.Shared.CCVar
 
         public static readonly CVarDef<int> SuspicionMaxTimeSeconds =
             CVarDef.Create("suspicion.max_time_seconds", 300);
+
+
+        /*
+         * Survival
+         */
+        /// <summary>
+        /// Survival mode goal, in minutes.
+        /// </summary>
+        public static readonly CVarDef<int>
+            SurvivalGoal = CVarDef.Create("survival.goal_time", 120, CVar.ARCHIVE | CVar.SERVERONLY);
 
         /*
          * Traitor
@@ -385,6 +407,35 @@ namespace Content.Shared.CCVar
 
         public static readonly CVarDef<int> PiratesPlayersPerOp =
             CVarDef.Create("pirates.players_per_pirate", 5);
+
+        /*
+         * Tips
+         */
+
+        /// <summary>
+        ///     Whether tips being shown is enabled at all.
+        /// </summary>
+        public static readonly CVarDef<bool> TipsEnabled =
+            CVarDef.Create("tips.enabled", true);
+
+        /// <summary>
+        ///     The dataset prototype to use when selecting a random tip.
+        /// </summary>
+        public static readonly CVarDef<string> TipsDataset =
+            CVarDef.Create("tips.dataset", "Tips");
+
+        /// <summary>
+        ///     The number of seconds between each tip being displayed when the round is not actively going
+        ///     (i.e. postround or lobby)
+        /// </summary>
+        public static readonly CVarDef<float> TipFrequencyOutOfRound =
+            CVarDef.Create("tips.out_of_game_frequency", 60f * 1.5f);
+
+        /// <summary>
+        ///     The number of seconds between each tip being displayed when the round is actively going
+        /// </summary>
+        public static readonly CVarDef<float> TipFrequencyInRound =
+            CVarDef.Create("tips.in_game_frequency", 60f * 60);
 
         /*
          * Console
@@ -772,14 +823,14 @@ namespace Content.Shared.CCVar
         ///     Needs <see cref="MonstermosEqualization"/> to be enabled to work.
         /// </summary>
         public static readonly CVarDef<bool> MonstermosDepressurization =
-            CVarDef.Create<bool>("atmos.monstermos_depressurization", true, CVar.SERVERONLY);
+            CVarDef.Create("atmos.monstermos_depressurization", true, CVar.SERVERONLY);
 
         /// <summary>
         ///     Whether monstermos explosive depressurization will rip tiles..
         ///     Needs <see cref="MonstermosEqualization"/> and <see cref="MonstermosDepressurization"/> to be enabled to work.
         /// </summary>
         public static readonly CVarDef<bool> MonstermosRipTiles =
-            CVarDef.Create<bool>("atmos.monstermos_rip_tiles", true, CVar.SERVERONLY);
+            CVarDef.Create("atmos.monstermos_rip_tiles", true, CVar.SERVERONLY);
 
         /// <summary>
         ///     Whether explosive depressurization will cause the grid to gain an impulse.
@@ -1005,6 +1056,12 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<bool> CargoShuttles =
             CVarDef.Create("shuttle.cargo", true, CVar.SERVERONLY);
 
+        /// <summary>
+        /// Whether the Shipyard is enabled.
+        /// </summary>
+        public static readonly CVarDef<bool> Shipyard =
+            CVarDef.Create("shuttle.shipyard", true, CVar.SERVERONLY);
+
         /*
          * Emergency
          */
@@ -1108,6 +1165,16 @@ namespace Content.Shared.CCVar
             CVarDef.Create("biomass.easy_mode", true, CVar.SERVERONLY);
 
         /*
+         * Anomaly
+         */
+
+        /// <summary>
+        ///     A scale factor applied to a grid's bounds when trying to find a spot to randomly generate an anomaly.
+        /// </summary>
+        public static readonly CVarDef<float> AnomalyGenerationGridBoundsScale =
+            CVarDef.Create("anomaly.generation_grid_bounds_scale", 0.6f, CVar.SERVERONLY);
+
+        /*
          * VIEWPORT
          */
 
@@ -1157,6 +1224,15 @@ namespace Content.Shared.CCVar
 
         public static readonly CVarDef<bool> ChatShowTypingIndicator =
             CVarDef.Create("chat.show_typing_indicator", true, CVar.CLIENTONLY);
+
+        /// <summary>
+        /// A message broadcast to each player that joins the lobby.
+        /// May be changed by admins ingame through use of the "set-motd" command.
+        /// In this case the new value, if not empty, is broadcast to all connected players and saved between rounds.
+        /// May be requested by any player through use of the "get-motd" command.
+        /// </summary>
+        public static readonly CVarDef<string> MOTD =
+            CVarDef.Create("chat.motd", "", CVar.SERVER | CVar.SERVERONLY | CVar.ARCHIVE, "A message broadcast to each player that joins the lobby.");
 
         /*
          * AFK

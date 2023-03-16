@@ -61,6 +61,9 @@ reagent-desc-tonic-water = It tastes strange but at least the quinine keeps the 
 reagent-name-water = water
 reagent-desc-water = A colorless liquid that humans need in order to survive.
 
+reagent-name-holywater = holy water
+reagent-desc-holywater = Water blessed by some otherworldly powers.
+
 reagent-name-ice = ice
 reagent-desc-ice = Frozen water.
 
@@ -73,5 +76,17 @@ reagent-desc-hot-ramen = Hot noodles.
 reagent-name-pilk = pilk
 reagent-desc-pilk = A sickening mixture of milk and cola.
 
+reagent-name-posca = posca
+reagent-desc-posca = Poor warriors' drink from a forgotten era.
+
 reagent-name-kvass = kvass
 reagent-desc-kvass = A cool refreshing drink with a taste of socialism.
+
+reagent-name-atomicpunch = atomic punch
+reagent-desc-atomicpunch = Will NOT make you immune to bullets; Isotopes included!
+
+reagent-name-pinkdrink = pink drink
+reagent-desc-pinkdrink = Entire civilizations have crumbled trying to decide if this drink really tastes like pink...
+
+reagent-name-bubbletea = bubble tea
+reagent-desc-bubbletea = Big straw not included.

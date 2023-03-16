@@ -36,6 +36,7 @@
       layer:
       - SmallMobLayer
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       150: Critical
@@ -154,6 +155,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: regalrat
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       300: Critical
@@ -221,6 +223,7 @@
       layer:
       - SmallMobLayer
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       12: Critical
@@ -283,9 +286,10 @@
     - Plague
     - TongueTwister
   - type: Vocal
-    # mice are gender neutral who cares
-    maleScream: /Audio/Animals/mouse_squeak.ogg
-    femaleScream: /Audio/Animals/mouse_squeak.ogg
+    sounds:
+      Male: Mouse
+      Female: Mouse
+      Unsexed: Mouse
     wilhelmProbability: 0.001
   - type: GhostTakeoverAvailable
     makeSentient: true
@@ -295,7 +299,6 @@
   - type: Tag
     tags:
       - CannotSuicide
-      - DoorBumpOpener
       - FootstepSound
   - type: NoSlip
   - type: MobPrice

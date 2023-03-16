@@ -1,3 +1,4 @@
+using Content.Server.Database;
 using Content.Server.Players;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Shared.GameTicking;
@@ -16,12 +17,14 @@ namespace Content.Server.GameTicking
     {
         [Dependency] private readonly IPlayerManager _playerManager = default!;
         [Dependency] private readonly PlayTimeTrackingManager _playTimeTrackingManager = default!;
+        [Dependency] private readonly IServerDbManager _dbManager = default!;
+
         private void InitializePlayer()
         {
             _playerManager.PlayerStatusChanged += PlayerStatusChanged;
         }
 
-        private void PlayerStatusChanged(object? sender, SessionStatusEventArgs args)
+        private async void PlayerStatusChanged(object? sender, SessionStatusEventArgs args)
         {
             var session = args.Session;
 
@@ -41,7 +44,13 @@ namespace Content.Server.GameTicking
                     // timer time must be > tick length
                     Timer.Spawn(0, args.Session.JoinGame);
 
-                    _chatManager.SendAdminAnnouncement(Loc.GetString("player-join-message", ("name", args.Session.Name)));
+                    var record = await _dbManager.GetPlayerRecordByUserId(args.Session.UserId);
+                    var firstConnection = record != null &&
+                                          Math.Abs((record.FirstSeenTime - record.LastSeenTime).TotalMinutes) < 1;
+
+                    _chatManager.SendAdminAnnouncement(firstConnection
+                        ? Loc.GetString("player-first-join-message", ("name", args.Session.Name))
+                        : Loc.GetString("player-join-message", ("name", args.Session.Name)));
 
                     if (LobbyEnabled && _roundStartCountdownHasNotStartedYetDueToNoPlayers)
                     {
@@ -129,6 +138,7 @@ namespace Content.Server.GameTicking
             _chatManager.DispatchServerMessage(session, Loc.GetString("game-ticker-player-join-game-message"));
 
             _playerGameStatuses[session.UserId] = PlayerGameStatus.JoinedGame;
+            _db.AddRoundPlayers(RoundId, session.UserId);
 
             RaiseNetworkEvent(new TickerJoinGameEvent(), session.ConnectedClient);
         }
@@ -136,6 +146,7 @@ namespace Content.Server.GameTicking
         private void PlayerJoinLobby(IPlayerSession session)
         {
             _playerGameStatuses[session.UserId] = LobbyEnabled ? PlayerGameStatus.NotReadyToPlay : PlayerGameStatus.ReadyToPlay;
+            _db.AddRoundPlayers(RoundId, session.UserId);
 
             var client = session.ConnectedClient;
             RaiseNetworkEvent(new TickerJoinLobbyEvent(), client);

@@ -98,6 +98,7 @@
       layer:
       - FlyingMobLayer
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       5: Critical
@@ -326,6 +327,7 @@
       layer:
       - FlyingMobLayer
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       5: Critical
@@ -663,6 +665,15 @@
         Base: kangaroo-dead
 
 - type: entity
+  name: guidebook monkey
+  parent: MobMonkey
+  noSpawn: true
+  id: MobGuidebookMonkey
+  description: A hopefully helpful monkey whose only purpose in life is for you to click on. Does this count as having a monkey give you a tutorial?
+  components:
+    - type: GuidebookControlsTest
+
+- type: entity
   name: mouse
   parent: SimpleMobBase
   id: MobMouse
@@ -697,12 +708,13 @@
     - shape:
         !type:PhysShapeCircle
         radius: 0.2
-      density: 100
+      density: 5
       mask:
       - SmallMobMask
       layer:
       - SmallMobLayer
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       10: Critical
@@ -755,10 +767,10 @@
       types:
         Blunt: 0.1
   - type: Vocal
-    # mice are gender neutral who cares
-    maleScream: /Audio/Animals/mouse_squeak.ogg
-    femaleScream: /Audio/Animals/mouse_squeak.ogg
-    unsexedScream: /Audio/Animals/mouse_squeak.ogg
+    sounds:
+      Male: Mouse
+      Female: Mouse
+      Unsexed: Mouse
     wilhelmProbability: 0.001
   # TODO: Remove CombatMode when Prototype Composition is added
   - type: CombatMode
@@ -1077,6 +1089,11 @@
     interactFailureString: petting-failure-generic
     interactSuccessSound:
       path: /Audio/Animals/penguin_squawk.ogg
+  - type: Temperature
+    coldDamageThreshold: 235
+    coldDamage:
+      types:
+        Cold: 0.1 #per second, scales with temperature & other constants
 
 - type: entity
   name: grenade penguin
@@ -1536,9 +1553,12 @@
         Slash: 5
   - type: InputMover
   - type: MobMover
+  - type: Psionic
+    removable: false
   - type: Faction
     factions:
     - SimpleHostile
+    - PsionicInterloper
   - type: InteractionPopup
     successChance: 0 # Override the automatic success that would normally be inherited from MobCorgi.
     interactSuccessString: petting-success-corrupted-corgi # Normally impossible but added an easter egg just in case.
@@ -1557,7 +1577,7 @@
         Bloodloss:
           -0.25
   - type: Damageable
-    damageContainer: Biological
+    damageContainer: CorporealSpirit
     damageModifierSet: Infernal
   - type: Temperature
     heatDamageThreshold: 4000 #They come from hell, so...
@@ -1725,6 +1745,13 @@
   - type: Grammar
     attributes:
       gender: epicene
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: DiseaseProtection
+    protection: 0.05
+  - type: Temperature
+    coldDamageThreshold: 0
 
 - type: entity
   name: caracal cat
@@ -1898,6 +1925,7 @@
       layer:
       - SmallMobLayer
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       40: Critical

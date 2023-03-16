@@ -1,5 +1,5 @@
 using Content.Shared.Damage;
-using Content.Shared.MobState.Components;
+using Content.Shared.Mobs.Components;
 using Content.Server.NPC.Components;
 using Content.Server.Destructible;
 using Robust.Shared.Timing;
@@ -28,7 +28,22 @@ namespace Content.Server.NPC.Systems
         {
             base.Initialize();
             SubscribeLocalEvent<NPCComponent, DamageChangedEvent>(OnDamageChanged);
+            SubscribeLocalEvent<NPCCombatTargetComponent, GetNearbyHostilesEvent>(OnAddHostiles);
             SubscribeLocalEvent<NPCEngagerComponent, ComponentShutdown>(OnShutdown);
+        }
+
+        public void StartHostility(EntityUid offended, EntityUid offender)
+        {
+            if (Deleted(offended) || Deleted(offender))
+                return;
+
+            var engaged = EnsureComp<NPCCombatTargetComponent>(offended);
+            engaged.EngagingEnemies.Add(offender);
+
+            var engager = EnsureComp<NPCEngagerComponent>(offender);
+            engager.EngagedEnemies.Add(offended);
+
+            engager.RemoveWhen = _timing.CurTime + engager.Decay;
         }
 
         private void OnDamageChanged(EntityUid uid, NPCComponent component, DamageChangedEvent args)
@@ -42,15 +57,13 @@ namespace Content.Server.NPC.Systems
             if (!HasComp<MobStateComponent>(args.Origin) && !HasComp<DestructibleComponent>(args.Origin))
                 return;
 
-            var engaged = EnsureComp<NPCCombatTargetComponent>(uid);
-            engaged.EngagingEnemies.Add(args.Origin.Value);
-
-            var engager = EnsureComp<NPCEngagerComponent>(args.Origin.Value);
-            engager.EngagedEnemies.Add(uid);
-
-            engager.RemoveWhen = _timing.CurTime + engager.Decay;
+            StartHostility(uid, args.Origin.Value);
         }
 
+        private void OnAddHostiles(EntityUid uid, NPCCombatTargetComponent component, ref GetNearbyHostilesEvent args)
+        {
+            args.ExceptionalHostiles.UnionWith(component.EngagingEnemies);
+        }
         private void OnShutdown(EntityUid uid, NPCEngagerComponent component, ComponentShutdown args)
         {
             foreach (var enemy in component.EngagedEnemies)

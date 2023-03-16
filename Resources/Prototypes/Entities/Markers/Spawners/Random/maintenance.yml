@@ -16,14 +16,23 @@
         - ClothingHeadHelmetTemplar
         - ClothingNeckCloakTrans
         - ClothingNeckCloakAdmin
+        - ClothingNeckCloakGoliathCloak
         - ToySkeleton
         - Basketball
         - Football
         - BalloonCorgi
         - PonderingOrb
         - Skub
-        - ClothingHeadHatCatEars
         - DrinkMugDog
+        - ClothingNeckLGBTPin
+        - ClothingNeckAromanticPin
+        - ClothingNeckAsexualPin
+        - ClothingNeckBisexualPin
+        - ClothingNeckIntersexPin
+        - ClothingNeckLesbianPin
+        - ClothingNeckNonBinaryPin
+        - ClothingNeckPansexualPin
+        - ClothingNeckTransPin
       rareChance: 0.01
       prototypes:
         - Lighter
@@ -58,7 +67,6 @@
           state: high
     - type: RandomSpawner
       rarePrototypes:
-        - lanternextrabright
         - PowerCellHigh
         - NetProbeCartridge
       rareChance: 0.08
@@ -95,6 +103,7 @@
         - Machete
         - BaseBallBat
         - CombatKnife
+        - LidOSaws
       rareChance: 0.05
       prototypes:
         - FlashlightLantern

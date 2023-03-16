@@ -64,7 +64,6 @@ namespace Content.Client.ContextMenu.UI
         {
             _updating = true;
             _cfg.OnValueChanged(CCVars.EntityMenuGroupingType, OnGroupingChanged, true);
-            _context.OnContextMouseEntered += OnMouseEntered;
             _context.OnContextKeyEvent += OnKeyBindDown;
 
             CommandBinds.Builder
@@ -77,7 +76,6 @@ namespace Content.Client.ContextMenu.UI
             _updating = false;
             Elements.Clear();
             _cfg.UnsubValueChanged(CCVars.EntityMenuGroupingType, OnGroupingChanged);
-            _context.OnContextMouseEntered -= OnMouseEntered;
             _context.OnContextKeyEvent -= OnKeyBindDown;
             CommandBinds.Unregister<EntityMenuUIController>();
         }
@@ -99,25 +97,6 @@ namespace Content.Client.ContextMenu.UI
 
             var box = UIBox2.FromDimensions(_userInterfaceManager.MousePositionScaled.Position, (1, 1));
             _context.RootMenu.Open(box);
-        }
-
-        public void OnMouseEntered(ContextMenuElement element)
-        {
-            if (element is not EntityMenuElement entityElement)
-                return;
-
-            // get an entity associated with this element
-            var entity = entityElement.Entity;
-
-            // if there is none, this is a group, so don't open verbs
-            if (entity == null)
-                return;
-
-            // Deleted() automatically checks for null & existence.
-            if (_entityManager.Deleted(entity))
-                return;
-
-            _verb.OpenVerbMenu(entity.Value, popup: element.SubMenu);
         }
 
         public void OnKeyBindDown(ContextMenuElement element, GUIBoundKeyEventArgs args)
@@ -237,13 +216,7 @@ namespace Content.Client.ContextMenu.UI
             // If there is only a single group. We will just directly list individual entities
             if (entityGroups.Count == 1)
             {
-                foreach (var entity in entityGroups[0])
-                {
-                    var element = new EntityMenuElement(entity);
-                    element.SubMenu = new ContextMenuPopup(_context, element);
-                    _context.AddElement(_context.RootMenu, element);
-                    Elements.TryAdd(entity, element);
-                }
+                AddGroupToMenu(entityGroups[0], _context.RootMenu);
                 return;
             }
 
@@ -252,14 +225,12 @@ namespace Content.Client.ContextMenu.UI
                 if (group.Count > 1)
                 {
                     AddGroupToUI(group);
-                    continue;
                 }
-
-                // this group only has a single entity, add a simple menu element
-                var element = new EntityMenuElement(group[0]);
-                element.SubMenu = new ContextMenuPopup(_context, element);
-                _context.AddElement(_context.RootMenu, element);
-                Elements.TryAdd(group[0], element);
+                else
+                {
+                    // this group only has a single entity, add a simple menu element
+                    AddEntityToMenu(group[0], _context.RootMenu);
+                }
             }
 
         }
@@ -272,16 +243,34 @@ namespace Content.Client.ContextMenu.UI
             EntityMenuElement element = new();
             ContextMenuPopup subMenu = new(_context, element);
 
-            foreach (var entity in group)
-            {
-                var subElement = new EntityMenuElement(entity);
-                subElement.SubMenu = new ContextMenuPopup(_context, subElement);
-                _context.AddElement(subMenu, subElement);
-                Elements.TryAdd(entity, subElement);
-            }
+            AddGroupToMenu(group, subMenu);
 
             UpdateElement(element);
             _context.AddElement(_context.RootMenu, element);
+        }
+
+        /// <summary>
+        ///     Add the group of entities to the menu
+        /// </summary>
+        private void AddGroupToMenu(List<EntityUid> group, ContextMenuPopup menu)
+        {
+            foreach (var entity in group)
+            {
+                AddEntityToMenu(entity, menu);
+            }
+        }
+
+        /// <summary>
+        ///     Add the entity to the menu
+        /// </summary>
+        private void AddEntityToMenu(EntityUid entity, ContextMenuPopup menu)
+        {
+            var element = new EntityMenuElement(entity);
+            element.SubMenu = new ContextMenuPopup(_context, element);
+            element.SubMenu.OnPopupOpen += () => _verb.OpenVerbMenu(entity, popup: element.SubMenu);
+            element.SubMenu.OnPopupHide += element.SubMenu.MenuBody.DisposeAllChildren;
+            _context.AddElement(menu, element);
+            Elements.TryAdd(entity, element);
         }
 
         /// <summary>

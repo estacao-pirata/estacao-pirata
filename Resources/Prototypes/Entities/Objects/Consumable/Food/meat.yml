@@ -25,6 +25,8 @@
           Quantity: 1
   - type: Item
     size: 5
+  - type: Temperature
+    currentTemperature: 290
 
 - type: Tag
   id: Raw
@@ -57,6 +59,10 @@
   - type: SliceableFood
     count: 3
     slice: FoodMeatCutlet
+  - type: Construction
+    graph: MeatSteak
+    node: start
+    defaultTarget: meat steak
 
 - type: entity
   name: raw carp fillet
@@ -130,6 +136,10 @@
   - type: SliceableFood
     count: 3
     slice: FoodMeatBearCutlet
+  - type: Construction
+    graph: BearSteak
+    node: start
+    defaultTarget: filet migrawr
 
 - type: entity
   name: raw penguin meat
@@ -151,6 +161,10 @@
   - type: SliceableFood
     count: 3
     slice: FoodMeatPenguinCutletSlice
+  - type: Construction
+    graph: PenguinSteak
+    node: start
+    defaultTarget: cooked penguin
 
 - type: entity
   name: raw chicken meat
@@ -172,6 +186,10 @@
   - type: SliceableFood
     count: 3
     slice: FoodMeatChickenCutlet
+  - type: Construction
+    graph: ChickenSteak
+    node: start
+    defaultTarget: cooked chicken
 
 - type: entity
   name: raw duck meat
@@ -193,6 +211,10 @@
   - type: SliceableFood
     count: 3
     slice: FoodMeatDuckCutlet
+  - type: Construction
+    graph: DuckSteak
+    node: start
+    defaultTarget: cooked duck
 
 - type: entity
   name: prime-cut corgi meat
@@ -231,6 +253,10 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 1
+  - type: Construction
+    graph: CrabSteak
+    node: start
+    defaultTarget: cooked crab
 
 - type: entity
   name: raw goliath meat
@@ -249,6 +275,10 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
+  - type: Construction
+    graph: GoliathSteak
+    node: start
+    defaultTarget: goliath steak
 
 - type: entity
   name: dragon flesh
@@ -314,6 +344,10 @@
   - type: SliceableFood
     count: 3
     slice: FoodMeatLizardCutlet
+  - type: Construction
+    graph: LizardSteak
+    node: start
+    defaultTarget: lizard steak
 
 - type: entity
   name: raw plant meat
@@ -442,13 +476,22 @@
   id: FoodMeatSalami
   description: A large tube of salami. Best not to ask what went into it.
   components:
-  - type: Tag
-    tags:
-    - Raw
   - type: Sprite
     state: salami
   - type: SliceableFood
+    count: 6
     slice: FoodMeatSalamiSlice
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 12
+        - ReagentId: Protein
+          Quantity: 12
+        - ReagentId: TableSalt
+          Quantity: 6
 
 - type: entity
   name: meat clown
@@ -481,6 +524,26 @@
     state: meatball
 
 - type: entity
+  name: meat patty
+  parent: FoodMeatBase
+  id: FoodMeatPatty
+  description: Flippin'.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: Sprite
+    state: patty
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 9
+        - ReagentId: TableSalt
+          Quantity: 3
+
+- type: entity
   name: slimeball
   parent: FoodMeatBase
   id: FoodMeatSlime
@@ -510,7 +573,6 @@
     trash: FoodPlateSmall
   - type: Sprite
     layers:
-    - state: plate-meat
     - state: plain-cooked
   - type: SolutionContainerManager
     solutions:
@@ -534,7 +596,6 @@
     tags:
     - Cooked
   - type: Food
-    trash: FoodPlateSmall
   - type: Sprite
     netsync: true
     layers:
@@ -566,10 +627,8 @@
     tags:
     - Cooked
   - type: Food
-    trash: FoodPlateSmall
   - type: Sprite
     layers:
-    - state: plate-meat
     - state: product-cooked
   - type: SolutionContainerManager
     solutions:
@@ -593,10 +652,8 @@
     tags:
     - Cooked
   - type: Food
-    trash: FoodPlateSmall
   - type: Sprite
     layers:
-    - state: plate-meat
     - state: bird-cooked
   - type: SolutionContainerManager
     solutions:
@@ -620,10 +677,8 @@
     tags:
     - Cooked
   - type: Food
-    trash: FoodPlateSmall
   - type: Sprite
     layers:
-    - state: plate-meat
     - state: bird-cooked
   - type: SolutionContainerManager
     solutions:
@@ -678,10 +733,8 @@
     tags:
     - Cooked
   - type: Food
-    trash: FoodPlateSmall
   - type: Sprite
     layers:
-    - state: plate-meat
     - state: bird-cooked
   - type: SolutionContainerManager
     solutions:
@@ -705,10 +758,8 @@
     tags:
     - Cooked
   - type: Food
-    trash: FoodPlateSmall
   - type: Sprite
     layers:
-    - state: plate-meat
     - state: crab-cooked
   - type: SolutionContainerManager
     solutions:
@@ -729,10 +780,8 @@
     tags:
     - Cooked
   - type: Food
-    trash: FoodPlateSmall
   - type: Sprite
     layers:
-    - state: plate-meat
     - state: goliath-cooked
   - type: SolutionContainerManager
     solutions:
@@ -753,10 +802,8 @@
     tags:
     - Cooked
   - type: Food
-    trash: FoodPlateSmall
   - type: Sprite
     layers:
-    - state: plate-meat
     - state: lizard-cooked
   - type: SolutionContainerManager
     solutions:
@@ -780,10 +827,8 @@
     tags:
     - Cooked
   - type: Food
-    trash: FoodPlateSmall
   - type: Sprite
     layers:
-    - state: plate-meat
     - state: spiderleg-cooked
   - type: SolutionContainerManager
     solutions:
@@ -1013,17 +1058,19 @@
   components:
   - type: Tag
     tags:
-    - Raw
     - Cutlet
   - type: Sprite
     state: salami-slice
   - type: SolutionContainerManager
     solutions:
       food:
+        maxVol: 5
         reagents:
         - ReagentId: Nutriment
-          Quantity: 1
+          Quantity: 2
         - ReagentId: Protein
+          Quantity: 2
+        - ReagentId: TableSalt
           Quantity: 1
 
 # Cooked

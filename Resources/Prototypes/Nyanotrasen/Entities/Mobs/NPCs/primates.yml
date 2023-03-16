@@ -62,7 +62,8 @@
   - type: Tag
     tags:
     - GunsDisabled
-  - type: Cuffable
+  # These require a cuffable layer to be added to the sprite now...?
+  # - type: Cuffable
   - type: MeleeWeapon
     hidden: true
     angle: 0
@@ -124,6 +125,7 @@
         Asphyxiation: 2
     stamDamageBonus: 1.7
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       100: Critical

@@ -172,9 +172,6 @@
       - CableHVStack
       - ConveyorBeltAssembly
       - AppraisalTool
-      - HydroponicsToolScythe
-      - HydroponicsToolHatchet
-      - Shovel
       - HandheldCrewMonitor
       - Scalpel
       - Retractor
@@ -270,6 +267,7 @@
       - HydroponicsTrayMachineCircuitboard
       - SolarControlComputerCircuitboard
       - PowerComputerCircuitboard
+      - ReverseEngineeringMachineCircuitboard
       - AutolatheMachineCircuitboard
       - ProtolatheMachineCircuitboard
       - ReagentGrinderMachineCircuitboard
@@ -277,9 +275,9 @@
       - MicrowaveMachineCircuitboard
       - DeepFryerMachineCircuitboard
       - UniformPrinterMachineCircuitboard
-      - ShuttleConsoleCircuitboard
       - RadarConsoleCircuitboard
       - CircuitImprinterMachineCircuitboard
+      - CloningPodMachineCircuitboard
       - TechDiskComputerCircuitboard
       - DawInstrumentMachineCircuitboard
       - CloningConsoleComputerCircuitboard
@@ -293,14 +291,16 @@
       - WallmountGeneratorAPUElectronics
       - WallmountSubstationElectronics
       - EmitterCircuitboard
-      - ThrusterMachineCircuitboard
-      - GyroscopeMachineCircuitboard
       - GasRecyclerMachineCircuitboard
       - SeedExtractorMachineCircuitboard
       - AnalysisComputerCircuitboard
       - ExosuitFabricatorMachineCircuitboard
+      - AnomalyVesselCircuitboard
+      - APECircuitboard
       - ArtifactAnalyzerMachineCircuitboard
       - TraversalDistorterMachineCircuitboard
+      - BoozeDispenserMachineCircuitboard
+      - SodaDispenserMachineCircuitboard
   - type: MaterialStorage
     whitelist:
       tags:
@@ -312,7 +312,7 @@
   parent: Protolathe
   id: ExosuitFabricator
   name: exosuit fabricator
-  description: Creates parts for robotics and other mechanical needs
+  description: Creates parts for mechs and hardsuits.
   components:
   - type: Sprite
     netsync: false
@@ -339,6 +339,10 @@
     - RipleyLLeg
     - RipleyRLeg
     - MechEquipmentGrabber
+    - ClothingOuterHardsuitSyndieReverseEngineered
+    - ClothingOuterHardsuitJuggernautReverseEngineered
+    - JetpackBlue
+    - JetpackMini
   - type: MaterialStorage
     whitelist:
       tags:
@@ -392,11 +396,19 @@
       - ShellShotgunFlare
       - ShellTranquilizer
       - ShellSoulbreaker
+      - EncryptionKeySyndie
       - TargetHuman
       - TargetSyndicate
       - TargetClown
+      - MagazineBoxPistol
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnum
+      - MagazineBoxMagnumRubber
+      - MagazineBoxRifle
+      - MagazineBoxRifleRubber
+      - MagazineBoxLightRifle
+      - MagazineBoxLightRifleRubber
       - CartridgeLightRifle
-      - CartridgeCaselessRifleRubber
       - CartridgeLightRifleRubber
       - CartridgeRifleRubber  #Everything below this is shared with other lathes
       - FlashlightLantern
@@ -469,7 +481,16 @@
       - Implanter
       - PillCanister
       - BodyBag
-      - PillCanister #Everything below this is shared with other lathes
+      - ChemistryEmptyBottle01
+      - Medkit
+      - MedkitBurn
+      - MedkitToxin
+      - MedkitO2
+      - MedkitBrute
+      - MedkitAdvanced
+      - MedkitRadiation
+      - MedkitCombat
+      - ClothingEyesHudMedical
       - FlashlightLantern
       - Bucket
       - MopItem

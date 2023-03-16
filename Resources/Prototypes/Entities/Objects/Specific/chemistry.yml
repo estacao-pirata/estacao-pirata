@@ -82,6 +82,9 @@
         Blunt: 5
   - type: DynamicPrice
     price: 30
+  - type: GuideHelp
+    guides:
+    - Chemistry
 
 - type: entity
   name: beaker
@@ -231,6 +234,9 @@
         visible: false
       - state: syringe_base0
         map: ["enum.SolutionContainerLayers.Base"]
+  - type: Icon
+    sprite: Objects/Specific/Chemistry/syringe.rsi
+    state: "syringe_base0"
   - type: Item
     sprite: Objects/Specific/Chemistry/syringe.rsi
     heldPrefix: 0
@@ -290,6 +296,9 @@
     grindableSolutionName: food
   - type: DynamicPrice
     price: 0
+  - type: GuideHelp
+    guides:
+    - Chemistry
 
 - type: entity
   name: pill canister
@@ -315,3 +324,7 @@
     whitelist:
       tags:
         - Pill
+  - type: Dumpable
+  - type: GuideHelp
+    guides:
+    - Chemistry

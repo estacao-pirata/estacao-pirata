@@ -28,6 +28,7 @@
       180: 0.4
       240: 0.2
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       300: Dead
@@ -225,6 +226,8 @@
   - type: Faction
     factions:
     - NanoTrasen
+  - type: TypingIndicator
+    proto: robot
 
 - type: entity
   parent: PlayerCyborgBase
@@ -282,3 +285,5 @@
       autoPopulate: false
       name: action-name-disarm
   - type: FabricateCandy
+  - type: ShowHealthBars
+    damageContainer: Biological
