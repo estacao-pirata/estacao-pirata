@@ -79,9 +79,6 @@ technologies-anomaly-technology-description = Máquinas para contenção avança
 technologies-robotics-technology = Tecnologia robótica
 technologies-robotics-technology-description = Partes do robô.
 
-technologies-basic-powercell-printing = Basic powercell printing
-technologies-basic-powercell-printing-description = Print standard powercells.
-
 technologies-archaeology = Archeological equipment
 technologies-archaeology-description = Advanced equipment for uncovering the secrets of artifacts.
 
@@ -90,3 +87,6 @@ technologies-ripley-technology-description = The latest and greatest in mechaniz
 
 technologies-adv-parts-technology-description = Like the previous ones, but better!
 technologies-adv-parts-technology = Advanced parts technology
+
+technologies-super-parts-technology = Tecnologia de super partes
+technologies-super-parts-technology-description = Novos patamares de desempenho das máquinas.
