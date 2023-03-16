@@ -39,6 +39,7 @@ flavor-base-fizzy = espumante
 flavor-base-shocking = chocante
 flavor-base-cheap = barato
 flavor-base-piquant = piquant
+flavor-base-sharp = intenso
 
 # lmao
 flavor-base-terrible = terrível
@@ -178,3 +179,4 @@ flavor-complex-enthralling = enthralling
 flavor-complex-carpet = de pelo
 flavor-complex-bee = inacreditável
 flavor-complex-sax = de jazz
+flavor-complex-bottledlightning = como um relâmpago engarrafado

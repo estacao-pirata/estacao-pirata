@@ -52,6 +52,21 @@ reagent-desc-uncooked-animal-proteins = Isso é muito arriscado para os estômag
 reagent-name-allicin = allicin
 reagent-desc-allicin = Um composto organossulfurado encontrado em álios, como alho, cebola e plantas relacionado.
 
+reagent-name-human-muta-tox = toxina de mutação humana
+reagent-name-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
+
+reagent-name-slime-person-muta-tox =  toxina de mutação slime
+reagent-desc-slime-person-muta-tox = Uma droga capaz de transformar qualquer humanóide em pessoa slime.
+
+reagent-name-skeleton-muta-tox = skin hurting juice
+reagent-desc-skeleton-muta-tox = Uma droga que dói em tudo, seguido de tudo menos os essenciais cairem. Transforma qualquer humanóide em um esqueleto.
+
+reagent-name-reptilian-muta-tox =  toxina de mutação reptiliana
+reagent-desc-reptilian-muta-tox = Uma droga capaz de transformar qualquer humanóide em reptiliano.
+
+reagent-name-monkey-muta-tox =  toxina de mutação de macaco
+reagent-desc-monkey-muta-tox = Uma droga capaz de transformar qualquer humanóide em macaco.
+
 reagent-name-prometheum = prometheum
 reagent-desc-prometheum = A complex superdrug our bodies could produce if we could only unlock our potential.
 

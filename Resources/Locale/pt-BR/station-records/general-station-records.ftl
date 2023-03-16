@@ -7,3 +7,4 @@ general-station-record-console-record-age = Idade: {$age}
 general-station-record-console-record-title = Trabalho: {$job}
 general-station-record-console-record-species = Espécie: {$species}
 general-station-record-console-record-gender = Gênero: {$gender}
+general-station-record-console-record-fingerprint = Impressão biométrica: {$fingerprint}
