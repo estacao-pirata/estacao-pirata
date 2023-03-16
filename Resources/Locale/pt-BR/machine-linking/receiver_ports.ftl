@@ -46,6 +46,18 @@ signal-port-description-pressurize = Faz com que o dispositivo começe a soltar 
 signal-port-name-depressurize = Despressurizar
 signal-port-description-depressurize = Faz com que o dispositivo começe a puxar ar até atingir uma pressão alvo.
 
+signal-port-name-pod-sender = Pod de Clonagem
+signal-port-description-pod-sender = Emissor de sinal do pod de clonagem
+
+signal-port-name-pod-receiver = Pod de Clonagem
+signal-port-description-pod-receiver = Receptor de sinal do pod de clonagem
+
+signal-port-name-med-scanner-sender = Escâner médico
+signal-port-description-med-scanner-sender = Emissor de sinal do escâner médico
+
+signal-port-name-med-scanner-receiver = Escâner médico
+signal-port-description-med-scanner-receiver = Receptor de sinal do escâner médico
+
 signal-port-name-pod-sender = Cloning pod
 signal-port-description-pod-sender = Cloning pod signal sender
 
