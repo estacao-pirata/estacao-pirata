@@ -61,3 +61,9 @@ accent-words-chicken-1 = Poooó!
 accent-words-chicken-2 = Pópô.
 accent-words-chicken-3 = Pópôpó?
 accent-words-chicken-4 = Pó Popopó Poooó!
+
+# Pig
+accent-words-pig-1 = Oinc.
+accent-words-pig-2 = Oinc?
+accent-words-pig-3 = Oinc!
+accent-words-pig-4 = Iiiihhh!
