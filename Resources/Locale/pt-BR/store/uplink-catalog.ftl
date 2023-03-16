@@ -88,7 +88,7 @@ uplink-hypopen-name = Hypopen
 uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 15u de reagentes. Começa a ficar vazio.
 
 uplink-voice-mask-name = Máscara de Voz
-uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para quem quer que possa pensar.
+uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para quem quer que possa pensar. Também utiliza tecnologia camaleão de ponta.
 
 # Implants
 uplink-storage-implanter-name = Implanter de Armazenamento
