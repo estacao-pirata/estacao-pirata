@@ -12,6 +12,7 @@ petting-success-crab = Você acaricia {THE($target)} em sua cabecinha suave.
 petting-success-dog = Você acaricia {THE($target)} em sua macia e fofa cabeça.
 petting-success-frog = Você acaricia {THE($target)} em sua slippery cabecinha.
 petting-success-goat = Você acaricia {THE($target)} em sua fofa cabeça com chifres.
+petting-success-pig = Você acaricia {THE($target)} em sua cabeça peluda.
 petting-success-goose = Contra todas as possibilidades, você consegue acariciar {THE($target)} em sua horrível cabecinha.
 petting-success-possum = Você acaricia {THE($target)} em sua horrível cabecinha.
 petting-success-pig = Você acaricia {THE($target)} em sua cabeluda cabecinha.
