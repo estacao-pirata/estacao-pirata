@@ -6,7 +6,9 @@
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: cachaca
   color: "#d1d1d155"
-  spritePath: ginvodkaglass.rsi
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/ginvodkaglass.rsi
+    state: icon
   metabolisms:
     Drink:
       effects:
@@ -24,7 +26,9 @@
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: caipirinha
   color: "#87ffa9"
-  spritePath: caipirinhaglass.rsi
+  metamorphicSprite:
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/caipirinhaglass.rsi
+    state: icon
   metabolisms:
     Drink:
       effects:
