@@ -11,8 +11,10 @@
     DrinkAleBottleFull: 5
     DrinkBeer: 5 # Needs to be renamed DrinkBeerBottleFull
     DrinkBlueCuracaoBottleFull: 2
+    DrinkCachacaBottleFull: 5
     DrinkCognacBottleFull: 4
     DrinkColaBottleFull: 4
+    DrinkGuaranaBottleFull: 5
     DrinkCreamCarton: 5
     DrinkGinBottleFull: 3
     DrinkGoldschlagerBottleFull: 1

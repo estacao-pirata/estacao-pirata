@@ -2,10 +2,10 @@
   id: Caipirinha
   reactants:
     JuiceLime:
-      amount: 2
+      amount: 1
     Cachaca:
-      amount: 2
+      amount: 1
     Sugar:
       amount: 1
   products:
-    Caipirinha: 5
+    Caipirinha: 3
