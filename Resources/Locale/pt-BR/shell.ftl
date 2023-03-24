@@ -8,6 +8,7 @@ shell-invalid-command = Comando inválido.
 shell-invalid-command-specific = {$commandName} comando inválido.
 shell-cannot-run-command-from-server = Você não pode executar esse comando do servidor.
 shell-only-players-can-run-this-command = Apenas jogadores podem executar esse comando.
+shell-must-be-attached-to-entity = Você deve estar vinculado a uma entidade para executar este comando.
 
 ## Arguments
 
@@ -17,6 +18,8 @@ shell-argument-must-be-number = Argumento precisa ser um numero.
 shell-argument-must-be-boolean = Argumento precisa ser um booleano.
 shell-wrong-arguments-number = Numero errado de argumentos.
 shell-need-between-arguments = Precisa de {$lower} para {$upper} argumentos!
+
+shell-argument-uid = EntityUid
 
 ## Guards
 
