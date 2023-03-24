@@ -3,6 +3,7 @@
 Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer o que se espera de seu departamento.
 
 [color=#a4885c]A Regra de[/color] [color=#ffd700]Ouro[/color]. Os administradores podem desconsiderar todas e quaisquer dessas regras se julgarem que é do melhor interesse da rodada atual, servidor e/ou comunidade em geral. É claro que eles serão totalmente responsabilizados por suas ações se exercerem esse privilégio.
+    - Do not grief / spawnkill players on the arrivals station, arrivals shuttle, or other newly spawned areas. This applies if you are an antagonist.
 
 [color=#a4885c]1.[/color] Este não é um deathmatch, seja humano. Faça tudo o que é possível para clonar ou salvar pessoas da morte.
 
