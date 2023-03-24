@@ -1,3 +1,3 @@
-cmd-weather-desc = Define o clima para o mapa atual.
-cmd-weather-help = clima <mapId> <prototype / null>
-cmd-weather-hint = Protótipo do clima
+cmd-weather-desc = Sets the weather for the current map.
+cmd-weather-help = weather <mapId> <prototype / null>
+cmd-weather-hint = Weather prototype

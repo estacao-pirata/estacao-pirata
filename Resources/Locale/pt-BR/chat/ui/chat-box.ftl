@@ -2,6 +2,7 @@ hud-chatbox-info = T para falar, Tab para trocar entre canais.
 
 hud-chatbox-select-name-prefixed = {$prefix} {$name}
 hud-chatbox-select-channel-Admin = Admin
+hud-chatbox-channel-AdminAlert = Alerta Admin
 hud-chatbox-select-channel-Console = Console
 hud-chatbox-select-channel-Dead = Morto
 hud-chatbox-select-channel-Emotes = Emotes
