@@ -42,6 +42,9 @@ uplink-c4-bundle-desc = Porque às vezes a quantidade é de qualidade. Contém 8
 uplink-emp-grenade-name = Granada EMP
 uplink-emp-grenade-desc = Libera pulsos eletromagnéticos que perturbam ou danificam diversos dispositivos eletrônicos ou drenam células de energia.
 
+uplink-exploding-pen-name = Caneta explosiva
+uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
+
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
 uplink-pistol-magazine-desc = Pente de pistola com 10 cartuchos. Compativel com a Viper.
