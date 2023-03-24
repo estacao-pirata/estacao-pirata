@@ -16,10 +16,13 @@ command-whitelistremove-not-found = Usuário '{$username}' não encontrado
 command-kicknonwhitelisted-description = Expulsar todos os jogadores que não estão na whitelist.
 command-kicknonwhitelisted-help = kicknonwhitelisted
 
-ban-banned-permanent = Este ban só expira através de apelatravés do formulário no Dyno: https://dyno.gg/form/ec57c834
-ban-expires = Este ban dura {$duration} minutos e irá expirar em {$time} UTC. Se quiser apele pelo formulário no Dyno: https://dyno.gg/form/ec57c834
+ban-banned-permanent = Este ban só será removido através de apelo.
+ban-banned-permanent-appeal = Este ban só será removido através de apelo através do link {$link}
+ban-expires = Este ban dura {$duration} minutos e irá expirar em {$time} UTC.
 ban-banned-1 = Você ou outro usuário desse computador ou conexão estão banidos aqui.
 ban-banned-2 = O motivo do ban é: "{$reason}"
+ban-banned-3 = Tentativas de contornar o ban tal como criar uma conta nova serão registradas.
+
 
 soft-player-cap-full = O servidor está cheio!
 panic-bunker-account-denied = Este servidor está em modo Pânico e você foi rejeitado. Entre em contato com o administrador do servidor para obter ajuda.
