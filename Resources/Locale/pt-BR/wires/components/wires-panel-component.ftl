@@ -1,0 +1,2 @@
+wires-component-on-examine-panel-open = O [color=lightgray]painel de manutenção[/color] está [color=red]aberto[/color].
+wires-component-on-examine-panel-closed = O [color=lightgray]painel de manutenção[/color] está [color=darkgreen]fechado[/color].

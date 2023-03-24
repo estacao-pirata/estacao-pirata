@@ -43,7 +43,7 @@ uplink-emp-grenade-name = Granada EMP
 uplink-emp-grenade-desc = Libera pulsos eletromagnéticos que perturbam ou danificam diversos dispositivos eletrônicos ou drenam células de energia.
 
 uplink-exploding-pen-name = Caneta explosiva
-uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
+uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.  
 
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
@@ -127,7 +127,7 @@ uplink-super-surplus-bundle-desc = Contém itens completamente aleatórios do Si
 
 # Tools
 uplink-toolbox-name = Caixa de ferramentas
-uplink-toolbox-desc = Um complemento completo de ferramentas para o traidor mecanicamente inclinado. Inclui um par de luvas de combate isoladas, máscara de gás sindicar e um coldre de ombro.
+uplink-toolbox-desc = Um complemento completo de ferramentas para o traidor mecanicamente inclinado. Inclui um par de luvas de combate isoladas, máscara de gás sindicar e um cinto de utilidades.
 
 uplink-syndicate-jaws-of-life-name = Jaws Of Life
 uplink-syndicate-jaws-of-life-desc = Uma ferramenta combinada de forçar e corte. É útil para entrar na estação ou em seus departamentos.
@@ -150,6 +150,9 @@ uplink-necronomicon-desc = Um livro profano capaz de invocar um familiar demoní
 
 uplink-revolver-cap-gun-fake-name = Arma de Festim Falsa
 uplink-revolver-cap-gun-fake-desc = Engane o seu inimigo! Cabe balas de festim e de magnum. Vem carregada com balas de magnum.
+
+uplink-banana-peel-explosive-name = Casca de Banana Explosiva
+uplink-banana-peel-explosive-desc = Eles vão cair na gargalhada quando eles escorregarem nela!
 
 # Armor
 uplink-chameleon-name = Kit Camaleão
