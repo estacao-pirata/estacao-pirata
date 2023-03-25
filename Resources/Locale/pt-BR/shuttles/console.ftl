@@ -26,7 +26,7 @@ shuttle-console-angular-velocity = Velocidade angular:
 
 shuttle-console-dock-label = Docando
 shuttle-console-docked = {$index} (Docado)
-shuttle-console-dock-button = Docar {$suffix}
+shuttle-console-dock-button = Doca {$suffix}
 
 shuttle-console-hyperspace-label = Destinos FTL
 shuttle-console-hyperspace-none = Nenhum destino encontrado
