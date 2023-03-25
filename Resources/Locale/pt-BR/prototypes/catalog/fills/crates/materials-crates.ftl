@@ -7,6 +7,9 @@ ent-CrateMaterialTextiles = Caixa de têxteis
 
     .desc = 60 peças de tecido e 30 peças de durathread.
 
+ent-CrateMaterialTextiles = Caixa de têxteis
+    .desc = 60 peças de tecido e 30 peças de durathread.
+
 ent-CrateMaterialPlastic = Caixa de placas de plástico
     .desc = 90 sheets of plastic.
 
