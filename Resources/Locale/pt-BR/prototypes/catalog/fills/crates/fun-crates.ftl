@@ -22,8 +22,8 @@ ent-CrateFunSadTromboneImplants = Implantes de Trombone Triste
 ent-CrateFunLightImplants = Implantes de Lâmpada
     .desc = Acenda a sua pele com esses implantes!
 
-ent-CrateFunParty = Party Crate
-    .desc = An entire party just waiting for you to open it. Includes party favors, party beverages, and even a cake.
+ent-CrateFunParty = Caixa de festa
+    .desc = Uma festa inteira apenas esperando você desembrulhar. Inclui favores do partido, bebidas de festa e até mesmo um bolo.
 
 ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
     .desc = Para dar fuga na segurança.
