@@ -1,4 +1,4 @@
-docking-component-dock = Docar
+docking-component-dock = Doca
 docking-component-undock = Desdocar
 
 cmd-dock-desc = Tenta acoplar 2 airlocks juntos. Não verifica se é válido.
