@@ -22,10 +22,12 @@ verb-categories-split = Dividir
 verb-categories-smite = Castigos
 verb-categories-tricks = Truques
 verb-categories-instrument-style = Alterar Estilo do Instrumento
+verb-categories-channel-select = Canais
 verb-categories-set-sensor = Configurar Sensores
 verb-categories-timer = Escolher Tempo
 verb-categories-lever = Alavancar
 verb-categories-select-type = Escolher Tipo
+verb-categories-fax = Definir destino
 
 verb-common-toggle-light = Ligar luz
 verb-common-close = Fechar
