@@ -20,7 +20,7 @@ reagent-name-lemon-lime = refri lima-limão
 reagent-desc-lemon-lime = Refri picante de limão e limão siciliano.
 
 reagent-name-pwr-game = Pwr Game
-reagent-desc-pwr-game = A única bebida com o PDR que os verdadeiros gamers almejam.
+reagent-desc-pwr-game = A única bebida com o PDR que os verdadeiros gamers almejam. Quando um jogador fala sobre o gamerfuel, isso é o que eles estão se referindo literalmente.
 
 reagent-name-root-beer = root beer
 reagent-desc-root-beer = Uma bebida norte-americana carbonatada e muito doce que lembra sarsaparrila. Cai bem com sorvete.
@@ -39,3 +39,6 @@ reagent-desc-starkist = Um refrigerante doce sabor laranja.
 
 reagent-name-fourteen-loko = Fourteen Loko
 reagent-desc-fourteen-loko = Uma substânica líquida altamente processada passando por pouco os parâmetros de saúde intergaláticos de um refrigerante.
+
+reagent-name-shamblers-juice = Shambler's Juice
+reagent-desc-shamblers-juice = ~Agite-me um pouco desse Shambler's Juice!~

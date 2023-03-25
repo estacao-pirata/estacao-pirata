@@ -16,5 +16,5 @@ ent-CrateEmergencyInflatablewall = caixa de paredes infláveis
 ent-CrateGenericBiosuit = Trajes de emergência com bioproteção
     .desc = Contém 2 trajes de emergência com bioproteção para garantir que nenhuma doença irá distraí-lo do que você está fazendo por lá.
 
-ent-CrateSlimepersonLifeSupport = caixa de vida de suporte de Pessoas Slimeperson life support crate
+ent-CrateSlimepersonLifeSupport = caixa de suporta à vida de pessoas slime
     .desc = Contêm 4 máscaras respiradores e quatro tanques de nitrogênio grandes.

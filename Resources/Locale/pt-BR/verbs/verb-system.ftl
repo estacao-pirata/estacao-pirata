@@ -25,6 +25,7 @@ verb-categories-instrument-style = Alterar Estilo do Instrumento
 verb-categories-set-sensor = Configurar Sensores
 verb-categories-timer = Escolher Tempo
 verb-categories-lever = Alavancar
+verb-categories-select-type = Escolher Tipo
 
 verb-common-toggle-light = Ligar luz
 verb-common-close = Fechar
