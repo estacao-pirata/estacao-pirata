@@ -15,6 +15,9 @@ gun-FullAuto = automático
 gun-ballistic-cycle = Carregar
 gun-ballistic-cycled = Carregado
 gun-ballistic-cycled-empty = Vazio
+gun-ballistic-transfer-invalid = {CAPITALIZE(THE($ammoEntity))} não vai caber dentro {THE($targetEntity)}!
+gun-ballistic-transfer-empty = {CAPITALIZE(THE($entity))} está vazio.
+gun-ballistic-transfer-target-full = {CAPITALIZE(THE($entity))} já está totalmente carregado.
 
 # CartridgeAmmo
 gun-cartridge-spent = Ele [color=red]está gasto[/color].
@@ -32,3 +35,4 @@ gun-revolver-full = Revólver carregado
 gun-revolver-insert = Inserido
 gun-revolver-spin = Girar revólver
 gun-revolver-spun = Girou
+gun-speedloader-empty = Carregador rapido vazio

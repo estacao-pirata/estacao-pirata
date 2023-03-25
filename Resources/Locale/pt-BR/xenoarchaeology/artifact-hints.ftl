@@ -10,6 +10,7 @@ artifact-effect-hint-consumption = Consumo de energia
 artifact-effect-hint-release = Liberação de energia
 artifact-effect-hint-biochemical = Distúrbio bioquímico
 artifact-effect-hint-destruction = Destruição da estação inteira
+artifact-effect-hint-gun = Acelerador de entidade pequena
 artifact-effect-hint-psionic = Distúrbio noösférico disturbance
 artifact-effect-hint-gun = Acelerador de pequenas entidades
 artifact-effect-hint-multitool = Conglomerado de utilidades
