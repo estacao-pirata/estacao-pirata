@@ -43,5 +43,5 @@ ent-CrateNPCPenguin = Caixa de pinguins
 ent-CrateNPCSnake = Caixa de cobras
     .desc = Uma caixa contendo três snakes.
 
-ent-CrateNPCLizard = Lizard crate
-    .desc = Uma caixa contendo um lizard.
+ent-CrateNPCLizard = Caixa de lagarto
+    .desc = Uma caixa contendo um lagarto.
