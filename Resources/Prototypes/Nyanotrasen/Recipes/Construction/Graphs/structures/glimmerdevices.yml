@@ -11,6 +11,7 @@
           steps:
             - material: Plasteel
               amount: 5
+              doAfter: 8
             - material: Cable
               amount: 5
 

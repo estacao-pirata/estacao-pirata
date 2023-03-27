@@ -1,5 +1,4 @@
-﻿using System.Threading;
-using Content.Shared.Actions.ActionTypes;
+﻿using Content.Shared.Actions.ActionTypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.Dictionary;
 using Content.Shared.Damage;
 using Robust.Shared.Audio;
