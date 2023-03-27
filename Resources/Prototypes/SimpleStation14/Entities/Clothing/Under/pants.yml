@@ -12,6 +12,7 @@
       state: icon
     - type: TemperatureProtection
       coefficient: 0.80
+    - type: Unremoveable
 
 - type: entity
   parent: ClothingUnderPantsBase
