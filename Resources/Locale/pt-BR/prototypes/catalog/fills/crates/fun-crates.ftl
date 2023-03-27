@@ -22,8 +22,8 @@ ent-CrateFunSadTromboneImplants = Implantes de Trombone Triste
 ent-CrateFunLightImplants = Implantes de Lâmpada
     .desc = Acenda a sua pele com esses implantes!
 
-ent-CrateFunCrewmates = Crewmate crate
-    .desc = A set of five crewmates, impostors not included. Or are they?
+ent-CrateFunParty = Caixa de festa
+    .desc = Uma festa inteira apenas esperando você desembrulhar. Inclui favores do partido, bebidas de festa e até mesmo um bolo.
 
 ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
     .desc = Para dar fuga na segurança.

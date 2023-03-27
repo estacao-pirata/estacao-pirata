@@ -22,6 +22,3 @@ injector-component-target-is-empty-message = {$target} está vazio!
 
 injector-component-injecting-user = Você começa a inserir a agulha.
 injector-component-injecting-target = {$user} está tentando te picar com uma agulha!
-
-## failure
-injector-component-failure-hardsuit = Você não consege perfurar a chapa de aço com a agulha!

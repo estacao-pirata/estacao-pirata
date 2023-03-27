@@ -18,6 +18,3 @@ roles-antag-nuclear-operative-commander-objective = Lidere o seu time para a des
 
 roles-antag-nuclear-operative-name = Operativo nuclear
 roles-antag-nuclear-operative-objective = Encontre o disco nuclear e exploda a estação.
-
-roles-antag-evil-twin-name = Gêmeo Mau
-roles-antag-evil-twin-description = Substitua seu gêmeo.

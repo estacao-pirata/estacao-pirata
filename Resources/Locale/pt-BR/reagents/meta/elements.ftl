@@ -1,8 +1,14 @@
 reagent-name-aluminium = aluminium
 reagent-desc-aluminium = Um metal prateado, macio, não magnético e dúctil.
 
+reagent-name-ash = cinza
+reagent-desc-ash = Pó residual cinza claro
+
 reagent-name-carbon = carbon
 reagent-desc-carbon = Um sólido preto e cristalino.
+
+reagent-name-charcoal = carvão vegetal
+reagent-desc-charcoal = Um sólido negro poroso
 
 reagent-name-chlorine = chlorine
 reagent-desc-chlorine = Um gás amarelo-esverdeado que é tóxico para os seres humanos.

@@ -20,6 +20,3 @@ ame-window-toggle-injection-button = Ligar/Desligar Injeção
 ame-window-eject-button = Ejetar
 ame-window-increase-fuel-button = Aumentar
 ame-window-decrease-fuel-button = Diminuir
-
-# nyano
-ame-controller-warning = AVISO: Combustível do AME em {$percentage}%!

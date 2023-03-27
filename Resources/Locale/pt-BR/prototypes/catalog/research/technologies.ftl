@@ -46,12 +46,6 @@ technologies-rapid-upgrade-description = A capacidade de melhorar rapidamente a 
 technologies-material-sheet-printing = Impressão de placas de materiais
 technologies-material-sheet-printing-description = Imprima essas folhas!
 
-technologies-advanced-atmospherics-technology = Tecnologia atmosférica avançada
-technologies-advanced-atmospherics-technology-description = Como se pudesse ficar mais avançado.
-
-technologies-avionics-systems = Sistemas aviônicos
-technologies-avionics-systems-description = O mais recente em tecnologia fly-by-LV-wire
-
 technologies-electromagnetic-theory = Teoria eletromagnética
 technologies-electromagnetic-theory-description = Tente não se fritar.
 
@@ -79,14 +73,8 @@ technologies-super-powercell-printing-description = Imprima super powercells.
 technologies-scientific-technology = Tecnologia básica
 technologies-scientific-technology-description = Os fundamentos dos suprimentos de uma equipe de pesquisa.
 
-technologies-basic-parts-technology = Tecnologia de partes básicas
-technologies-basic-parts-technology-description = Eles não são ótimos, mas pelo menos são alguma coisa.
-
 technologies-anomaly-technology = Tecnologo de anomalias
 technologies-anomaly-technology-description = Máquinas para contenção avançada de anomalias.
-
-technologies-adv-parts-technology = Tecnologia de partes avançadas
-technologies-adv-parts-technology-description = Bom para atualizar máquinas.
 
 technologies-robotics-technology = Tecnologia robótica
 technologies-robotics-technology-description = Partes do robô.

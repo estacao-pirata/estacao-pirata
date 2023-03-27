@@ -13,9 +13,6 @@ ent-LivestockChicken = { ent-CrateNPCChicken }
 ent-LivestockDuck = { ent-CrateNPCDuck }
     .desc = { ent-CrateNPCDuck.desc }
 
-ent-LivestockPibble = { ent-CrateNPCPibble }
-    .desc = { ent-CrateNPCPibble.desc }
-
 ent-LivestockCorgi = { ent-CrateNPCCorgi }
     .desc = { ent-CrateNPCCorgi.desc }
 

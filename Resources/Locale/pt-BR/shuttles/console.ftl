@@ -3,6 +3,7 @@ shuttle-pilot-end = Parou de pilotar
 
 shuttle-console-in-ftl = Não pode usar FTL enquanto estiver em FTL!
 shuttle-console-proximity = Perto demais de objetos próximos
+shuttle-console-prevent = Você não consegue pilotar esta nave.
 
 # Display
 shuttle-console-display-label = Exibir
@@ -25,7 +26,7 @@ shuttle-console-angular-velocity = Velocidade angular:
 
 shuttle-console-dock-label = Docando
 shuttle-console-docked = {$index} (Docado)
-shuttle-console-dock-button = Docar {$suffix}
+shuttle-console-dock-button = Doca {$suffix}
 
 shuttle-console-hyperspace-label = Destinos FTL
 shuttle-console-hyperspace-none = Nenhum destino encontrado

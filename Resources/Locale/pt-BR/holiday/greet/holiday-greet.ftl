@@ -43,7 +43,6 @@ holiday-name-bastille-day = Dia da Bastilha
 holiday-name-friendship-day = Dia do Amigo
 holiday-name-beer-day = Dia da Cerveja
 holiday-name-talk-like-a-pirate-day = Dia de Falar como um Pirata
-holiday-name-cirno-day = Cirno Day
 holiday-name-programmers-day = Dia do Programador
 holiday-name-bisexual-pride-day = Dia do Orgulho Bissexual
 holiday-name-stupid-questions-day = Dia de Fazer uma Pergunta Estúpida

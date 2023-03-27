@@ -19,6 +19,3 @@ ghost-role-information-hamster-description = Uma rabugenta pequena bola de pêlo
 
 ghost-role-information-hamlet-name = Hamlet o hamster.
 ghost-role-information-hamlet-description = Vive na ponte de comando da estação, é um tanto temperamentál e está sempre com fome.
-
-ghost-role-information-cancer-mouse-name = Rato Canceroso
-ghost-role-information-cancer-mouse-description = Um Rato Canceroso.
