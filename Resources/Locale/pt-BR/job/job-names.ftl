@@ -25,7 +25,7 @@ job-name-lawyer = advogado
 job-name-mime = mímico
 job-name-ce = engenheiro chefe
 job-name-janitor = zelador
-job-name-chaplain = padre
+job-name-chaplain = golemante
 job-name-botanist = botânico
 job-name-bartender = bartender
 job-name-passenger = passageiro
@@ -41,6 +41,22 @@ job-name-ertmedic = médico da ERT
 job-name-ertjanitor = zelador da ERT
 job-name-boxer = boxeador
 job-name-zookeeper = funcionário do zoológico
+
+#Nyano
+job-name-mystagogue = mystagogue
+job-name-mantis = mantis forênsica
+job-name-epistemologist = acólito
+job-name-boxer = boxer
+job-name-mail-carrier = carteiro
+job-name-cataloguer = arquivista
+job-name-cyborg = borgue
+job-name-medical-cyborg = borgue médico
+job-name-salvage-technician = técnico em salvamento
+job-name-gladiator = gladiador
+job-name-fugitive = fugitivo
+job-name-prisoner = prisioneiro
+job-name-valet = valet
+job-name-paramedic = paramédico
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico

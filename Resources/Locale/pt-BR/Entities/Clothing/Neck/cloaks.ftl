@@ -29,7 +29,7 @@ ent-ClothingNeckCloakCapFormal = capa formal do capitão
     .desc = Para as ocasiões mais formais, como por exemplo a visita de um esquadrão nuclear.
 
 ent-ClothingNeckCloakAdmin = capa do administrador
-    .desc = Eu sou a lei.
+    .desc = Faz o L
 
 ent-ClothingNeckCloakMiner = capa do minerador
     .desc = Utilizada pelos mineradores mais habilidosos, aqueles que são capazes de derrubar montanhas por uma simples pedrinha brilhante.

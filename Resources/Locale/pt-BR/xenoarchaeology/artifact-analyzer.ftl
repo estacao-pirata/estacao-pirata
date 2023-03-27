@@ -4,8 +4,8 @@ analysis-console-scan-button = Varredura
 analysis-console-scan-tooltip-info = Escaneie artefatos para obter informações sobre sua estrutura.
 analysis-console-print-button = Imprimir
 analysis-console-print-tooltip-info = Imprima as informações atuais sobre o artefato.
-analysis-console-destroy-button = Destruir
-analysis-console-destroy-button-info = Destrua artefatos para gerar pontos com base em quanto foi desbloqueado.
+analysis-console-destroy-button = Sacrificar
+analysis-console-destroy-button-info = Funde o artefato à noösfera, gerando pontos de pesquisa.
 
 analysis-console-info-no-scanner = Nenhum analisador conectado! Conecte um usando uma multiferramenta.
 analysis-console-info-no-artifact = Nenhum artefato presente! Coloque um no bloco e procure informações.
@@ -26,12 +26,13 @@ analysis-console-progress-text = {$seconds ->
     *[other] T-{$seconds} segundos
 }
 
-analysis-destroy-window-title = Confirmar Destruição
-analysis-destroy-window-text = Destruir o artefato, convertendo-o em pontos de pesquisa?
+analysis-destroy-window-title = Confirmar Sacrifício
+analysis-destroy-window-text = Sacrifica o artefato, convertendo-o em pontos de pesquisa e glimmer?
 analysis-destroy-window-yes = Sim
 analysis-destroy-window-no = Não
 
 analyzer-artifact-component-upgrade-analysis = duração da análise
+analyzer-artifact-component-upgrade-sacrifice = pontos de pesquisa por vislumbre
 
 analysis-console-print-popup = O console imprimiu um relatório.
 analyzer-artifact-destroy-popup = O artefato se desintegrou em energia!

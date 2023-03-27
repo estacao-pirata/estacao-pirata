@@ -5,3 +5,5 @@ department-Engineering = engenharia
 department-Medical = médico
 department-Security = segurança
 department-Science = pesquisa & desenvolvimento
+department-Epistemics = epistemics
+department-Silicon = silicon

@@ -127,7 +127,7 @@ uplink-super-surplus-bundle-desc = Contém itens completamente aleatórios do Si
 
 # Tools
 uplink-toolbox-name = Caixa de ferramentas
-uplink-toolbox-desc = Um complemento completo de ferramentas para o traidor mecanicamente inclinado. Inclui um par de luvas de combate isoladas, máscara de gás sindicar e um cinto de utilidades.
+uplink-toolbox-desc = Um complemento completo de ferramentas para o traidor mecanicamente inclinado. Inclui um par de luvas de combate isoladas, máscara de gás sindicar e um coldre de ombro.
 
 uplink-syndicate-jaws-of-life-name = Jaws Of Life
 uplink-syndicate-jaws-of-life-desc = Uma ferramenta combinada de forçar e corte. É útil para entrar na estação ou em seus departamentos.

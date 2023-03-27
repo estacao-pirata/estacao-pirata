@@ -34,4 +34,3 @@ player-leave-message = O jogador {$name} saiu.
 
 latejoin-arrival-announcement = {$character} ({$job}) chegou a estação!
 latejoin-arrival-sender = Estação
-latejoin-arrivals-direction = Uma nave pra te transferir pra a sua estação chegará em breve.

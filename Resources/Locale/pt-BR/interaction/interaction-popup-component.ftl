@@ -15,6 +15,7 @@ petting-success-goat = Você acaricia {THE($target)} em sua fofa cabeça com chi
 petting-success-pig = Você acaricia {THE($target)} em sua cabeça peluda.
 petting-success-goose = Contra todas as possibilidades, você consegue acariciar {THE($target)} em sua horrível cabecinha.
 petting-success-possum = Você acaricia {THE($target)} em sua horrível cabecinha.
+petting-success-pig = Você acaricia {THE($target)} em sua cabeluda cabecinha.
 petting-success-reptile = Você acaricia {THE($target)} em sua escamosa cabecinha.
 petting-success-sloth = Você acaricia {THE($target)} em sua lenta cabeça.
 petting-success-space-cat = Você acaricia {THE($target)} em sua cabeça envolta em vidro.

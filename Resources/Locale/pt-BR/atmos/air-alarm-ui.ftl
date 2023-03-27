@@ -33,7 +33,7 @@ air-alarm-ui-window-alarm-state = {$state}
 air-alarm-ui-mode-filtering = Filtragem
 air-alarm-ui-mode-wide-filtering = Filtragem (wide)
 air-alarm-ui-mode-fill = Encher
-air-alarm-ui-mode-panic = Pânico
+air-alarm-ui-mode-panic = Dreno de Pânico
 air-alarm-ui-mode-none = Nenhum
 
 ## Widgets
