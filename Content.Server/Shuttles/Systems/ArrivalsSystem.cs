@@ -327,6 +327,7 @@ public sealed class ArrivalsSystem : EntitySystem
         {
             EnsureComp<ArrivalsSourceComponent>(id);
             EnsureComp<ProtectedGridComponent>(id);
+            EnsureComp<PreventPilotComponent>(id);
         }
 
         // Handle roundstart stations.
