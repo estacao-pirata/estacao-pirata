@@ -36,9 +36,6 @@ public sealed partial class MarkingPicker : Control
 
     private string _currentSpecies = SharedHumanoidAppearanceSystem.DefaultSpecies;
     public Color CurrentSkinColor = Color.White;
-    public Color CurrentEyeColor = Color.Black;
-    public Marking? HairMarking;
-    public Marking? FacialHairMarking;
 
     private readonly HashSet<MarkingCategories> _ignoreCategories = new();
 
@@ -80,7 +77,7 @@ public sealed partial class MarkingPicker : Control
         }
     }
 
-    public void SetData(List<Marking> newMarkings, string species, Color skinColor, Color eyeColor)
+    public void SetData(List<Marking> newMarkings, string species, Color skinColor)
     {
         var pointsProto = _prototypeManager
             .Index<SpeciesPrototype>(species).MarkingPoints;
@@ -88,36 +85,33 @@ public sealed partial class MarkingPicker : Control
 
         if (!IgnoreSpecies)
         {
-            _currentMarkings.EnsureSpecies(species, skinColor, _markingManager); // should be validated server-side but it can't hurt
+            _currentMarkings.FilterSpecies(species); // should be validated server-side but it can't hurt
         }
 
         _currentSpecies = species;
         CurrentSkinColor = skinColor;
-        CurrentEyeColor = eyeColor;
 
         Populate();
         PopulateUsed();
     }
 
-    public void SetData(MarkingSet set, string species, Color skinColor, Color eyeColor)
+    public void SetData(MarkingSet set, string species, Color skinColor)
     {
         _currentMarkings = set;
 
         if (!IgnoreSpecies)
         {
-            _currentMarkings.EnsureSpecies(species, skinColor, _markingManager); // should be validated server-side but it can't hurt
+            _currentMarkings.FilterSpecies(species); // should be validated server-side but it can't hurt
         }
 
         _currentSpecies = species;
         CurrentSkinColor = skinColor;
-        CurrentEyeColor = eyeColor;
 
         Populate();
         PopulateUsed();
     }
 
     public void SetSkinColor(Color color) => CurrentSkinColor = color;
-    public void SetEyeColor(Color color) => CurrentEyeColor = color;
 
     public MarkingPicker()
     {
@@ -210,7 +204,7 @@ public sealed partial class MarkingPicker : Control
 
         if (!IgnoreSpecies)
         {
-            _currentMarkings.EnsureSpecies(_currentSpecies, null, _markingManager); 
+            _currentMarkings.FilterSpecies(_currentSpecies, _markingManager);
         }
 
         // walk backwards through the list for visual purposes
@@ -314,7 +308,7 @@ public sealed partial class MarkingPicker : Control
         var speciesPrototype = _prototypeManager.Index<SpeciesPrototype>(species);
 
         _currentMarkings = new(markingList, speciesPrototype.MarkingPoints, _markingManager, _prototypeManager);
-        _currentMarkings.EnsureSpecies(species, null, _markingManager);
+        _currentMarkings.FilterSpecies(species);
 
         Populate();
         PopulateUsed();
@@ -344,7 +338,7 @@ public sealed partial class MarkingPicker : Control
         _selectedMarking = CMarkingsUsed[item.ItemIndex];
         var prototype = (MarkingPrototype) _selectedMarking.Metadata!;
 
-        if (prototype.ForcedColoring)
+        if (prototype.FollowSkinColor)
         {
             CMarkingColors.Visible = false;
 
@@ -421,40 +415,12 @@ public sealed partial class MarkingPicker : Control
         }
 
         var marking = (MarkingPrototype) _selectedUnusedMarking.Metadata!;
+
+
         var markingObject = marking.AsMarking();
-
-        // We need add hair markings in cloned set manually because _currentMarkings doesn't have it
-        var markingSet = new MarkingSet(_currentMarkings);
-        if (HairMarking != null)
+        for (var i = 0; i < markingObject.MarkingColors.Count; i++)
         {
-            markingSet.AddBack(MarkingCategories.Hair, HairMarking);
-        }
-        if (FacialHairMarking != null) 
-        {
-            markingSet.AddBack(MarkingCategories.FacialHair, FacialHairMarking);
-        }
-
-        if (!_markingManager.MustMatchSkin(_currentSpecies, marking.BodyPart, _prototypeManager))
-        {
-            // Do default coloring
-            var colors = MarkingColoring.GetMarkingLayerColors(
-                marking,
-                CurrentSkinColor,
-                CurrentEyeColor,
-                markingSet
-            );
-            for (var i = 0; i < colors.Count; i++)
-            {
-                markingObject.SetColor(i, colors[i]);
-            }
-        }
-        else
-        {
-            // Color everything in skin color
-            for (var i = 0; i < marking.Sprites.Count; i++)
-            {
-                markingObject.SetColor(i, CurrentSkinColor);
-            }
+            markingObject.SetColor(i, CurrentSkinColor);
         }
 
         markingObject.Forced = Forced;

@@ -211,7 +211,6 @@
       - PowerCellSmall
       - PowerCellMedium
       - PowerCellHigh
-      - SynthesizerInstrument
 
 - type: entity
   parent: Protolathe
@@ -340,7 +339,6 @@
     - RipleyRLeg
     - MechEquipmentGrabber
     - ClothingOuterHardsuitSyndieReverseEngineered
-    - ClothingOuterHardsuitJuggernautReverseEngineered
     - JetpackBlue
     - JetpackMini
   - type: MaterialStorage

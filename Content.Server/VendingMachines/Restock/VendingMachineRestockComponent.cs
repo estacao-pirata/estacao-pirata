@@ -8,6 +8,8 @@ namespace Content.Server.VendingMachines.Restock
     [RegisterComponent]
     public sealed class VendingMachineRestockComponent : Component
     {
+        public CancellationTokenSource? CancelToken;
+
         /// <summary>
         /// The time (in seconds) that it takes to restock a machine.
         /// </summary>

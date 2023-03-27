@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using Content.Client.CombatMode;
 using Content.Client.ContextMenu.UI;
@@ -7,7 +9,12 @@ using Content.Shared.Verbs;
 using Robust.Client.Player;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controllers;
+using Robust.Shared.GameObjects;
 using Robust.Shared.Input;
+using Robust.Shared.IoC;
+using Robust.Shared.Localization;
+using Robust.Shared.Maths;
+using static Robust.Client.UserInterface.Controls.BoxContainer;
 
 namespace Content.Client.Verbs.UI
 {

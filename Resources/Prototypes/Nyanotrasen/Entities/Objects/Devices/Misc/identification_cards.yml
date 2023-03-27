@@ -114,15 +114,3 @@
     - state: idsecurityofficer
   - type: PresetIdCard
     job: PrisonGuard
-
-- type: entity
-  parent: IDCardStandard
-  id: MartialArtistIDCard
-  name: martial artist ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: default
-    - state: idboxer
-  - type: PresetIdCard
-    job: MartialArtist

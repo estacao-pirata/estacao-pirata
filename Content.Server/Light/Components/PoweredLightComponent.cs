@@ -64,8 +64,7 @@ namespace Content.Server.Light.Components
         [DataField("togglePort", customTypeSerializer: typeof(PrototypeIdSerializer<ReceiverPortPrototype>))]
         public string TogglePort = "Toggle";
 
-        //Delay for the lights interactions
-        public TimeSpan CooldownEnd;
+        public CancellationTokenSource? CancelToken;
 
         /// <summary>
         /// How long it takes to eject a bulb from this

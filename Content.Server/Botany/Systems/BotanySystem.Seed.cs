@@ -6,7 +6,6 @@ using Content.Server.Kitchen.Components;
 using Content.Server.Popups;
 using Content.Shared.Botany;
 using Content.Shared.Examine;
-using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Popups;
 using Content.Shared.Random.Helpers;
 using Content.Shared.Slippery;
@@ -23,7 +22,6 @@ namespace Content.Server.Botany.Systems;
 public sealed partial class BotanySystem : EntitySystem
 {
     [Dependency] private readonly AppearanceSystem _appearance = default!;
-    [Dependency] private readonly SharedHandsSystem _hands = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly PopupSystem _popupSystem = default!;
     [Dependency] private readonly IRobustRandom _robustRandom = default!;
@@ -90,12 +88,9 @@ public sealed partial class BotanySystem : EntitySystem
 
     #region SeedPrototype prototype stuff
 
-    /// <summary>
-    /// Spawns a new seed packet on the floor at a position, then tries to put it in the user's hands if possible.
-    /// </summary>
-    public EntityUid SpawnSeedPacket(SeedData proto, EntityCoordinates coords, EntityUid user)
+    public EntityUid SpawnSeedPacket(SeedData proto, EntityCoordinates transformCoordinates)
     {
-        var seed = Spawn(proto.PacketPrototype, coords);
+        var seed = Spawn(proto.PacketPrototype, transformCoordinates);
         var seedComp = EnsureComp<SeedComponent>(seed);
         seedComp.Seed = proto;
 
@@ -111,8 +106,6 @@ public sealed partial class BotanySystem : EntitySystem
         var val = Loc.GetString("botany-seed-packet-name", ("seedName", name), ("seedNoun", noun));
         MetaData(seed).EntityName = val;
 
-        // try to automatically place in user's other hand
-        _hands.TryPickupAnyHand(user, seed);
         return seed;
     }
 

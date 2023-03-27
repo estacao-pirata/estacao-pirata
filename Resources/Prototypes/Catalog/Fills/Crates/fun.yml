@@ -123,8 +123,6 @@
         amount: 1
       - id: d6Dice
         amount: 4
-      - id: ShogiBoard
-        amount: 1
 
 - type: entity
   id: CrateFunATV

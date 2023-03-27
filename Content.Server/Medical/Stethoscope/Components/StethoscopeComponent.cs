@@ -12,6 +12,8 @@ namespace Content.Server.Medical.Components
     {
         public bool IsActive = false;
 
+        public CancellationTokenSource? CancelToken;
+
         [DataField("delay")]
         public float Delay = 2.5f;
 

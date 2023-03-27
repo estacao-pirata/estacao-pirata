@@ -25,7 +25,6 @@ using Content.Server.Station.Systems;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.Damage;
-using Content.Shared.Emag.Components;
 using Content.Shared.Destructible;
 using Content.Shared.Emag.Systems;
 using Content.Shared.Examine;
@@ -170,7 +169,7 @@ namespace Content.Server.Mail
             if (idCard == null) /// Return if we still haven't found an id card.
                 return;
 
-            if (!HasComp<EmaggedComponent>(uid))
+            if (access.Enabled)
             {
                 if (idCard.FullName != component.Recipient || idCard.JobTitle != component.RecipientJob)
                 {
@@ -667,8 +666,7 @@ namespace Content.Server.Mail
 
             if (!_containerSystem.TryGetContainer(uid, "contents", out var contents))
             {
-                // I silenced this error because it fails non deterministically in tests and doesn't seem to effect anything else.
-                // _sawmill.Error($"Mail {ToPrettyString(uid)} was missing contents container!");
+                _sawmill.Error($"Mail {ToPrettyString(uid)} was missing contents container!");
                 return;
             }
 

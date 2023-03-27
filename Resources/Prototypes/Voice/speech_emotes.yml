@@ -2,7 +2,7 @@
 - type: emote
   id: Scream
   category: Vocal
-  chatMessages: [grita!]
+  chatMessages: [screams!]
   chatTriggers:
     - scream
     - screams
@@ -17,9 +17,7 @@
     - shrieking
     - shrieked
     - screech
-    - screeches
-    - screeches.
-    - screeches!
+    - screechs
     - screeching
     - screeched
     - yell
@@ -28,18 +26,11 @@
     - yells!
     - yelled
     - yelling
-    - aa
-    - aaa
-    - aaaa
-    - aaaaa
-    - grita
-    - berra
-    - urra
 
 - type: emote
   id: Laugh
   category: Vocal
-  chatMessages: [ri]
+  chatMessages: [laughs]
   chatTriggers:
     - laugh
     - laughs
@@ -59,17 +50,12 @@
     - giggles!
     - giggling
     - giggled
-    - ri
-    - dá risada
-    - da risada
-    - gargalha
-    - risos
 
 # hand emotes
 - type: emote
   id: Clap
   category: Hands
-  chatMessages: [bate palma!]
+  chatMessages: [claps!]
   chatTriggers:
     - clap
     - claps
@@ -77,15 +63,11 @@
     - claps!
     - clapping
     - clapped
-    - palma
-    - palmas
-    - bate palma
-    - bate palmas
 
 - type: emote
   id: Snap
   category: Hands
-  chatMessages: [estala os dedos] # snaps <{THEIR($ent)}> fingers?
+  chatMessages: [snaps fingers] # snaps <{THEIR($ent)}> fingers?
   chatTriggers:
     - snap
     - snaps
@@ -100,8 +82,4 @@
     - snaps their fingers!
     - snapping fingers
     - snapped fingers
-    - estala
-    - estala os dedos
-    - estrala os dedos
-    - estrala
 

@@ -58,7 +58,6 @@ job-name-prisoner = prisoner
 job-name-valet = valet
 job-name-paramedic = paramedic
 job-name-guard = prison guard
-job-name-martialartist =  martial artist
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = atmospheric technician

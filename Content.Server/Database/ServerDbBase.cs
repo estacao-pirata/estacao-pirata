@@ -747,25 +747,14 @@ namespace Content.Server.Database
                 query = query.Where(log => log.Date > filter.After);
             }
 
-            if (filter.IncludePlayers)
+            if (filter.AnyPlayers != null)
             {
-                if (filter.AnyPlayers != null)
-                {
-                    query = query.Where(log =>
-                        log.Players.Any(p => filter.AnyPlayers.Contains(p.PlayerUserId)) ||
-                        log.Players.Count == 0 && filter.IncludeNonPlayers);
-                }
-
-                if (filter.AllPlayers != null)
-                {
-                    query = query.Where(log =>
-                        log.Players.All(p => filter.AllPlayers.Contains(p.PlayerUserId)) ||
-                        log.Players.Count == 0 && filter.IncludeNonPlayers);
-                }
+                query = query.Where(log => log.Players.Any(p => filter.AnyPlayers.Contains(p.PlayerUserId)));
             }
-            else
+
+            if (filter.AllPlayers != null)
             {
-                query = query.Where(log => log.Players.Count == 0);
+                query = query.Where(log => log.Players.All(p => filter.AllPlayers.Contains(p.PlayerUserId)));
             }
 
             if (filter.LastLogId != null)

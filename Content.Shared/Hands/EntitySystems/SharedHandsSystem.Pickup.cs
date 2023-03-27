@@ -11,22 +11,9 @@ namespace Content.Shared.Hands.EntitySystems;
 public abstract partial class SharedHandsSystem : EntitySystem
 {
     /// <summary>
-    ///     Maximum pickup distance for which the pickup animation plays.
-    /// </summary>
-    public const float MaxAnimationRange = 10;
-
-    /// <summary>
     ///     Tries to pick up an entity to a specific hand. If no explicit hand is specified, defaults to using the currently active hand.
     /// </summary>
-    public bool TryPickup(
-        EntityUid uid,
-        EntityUid entity,
-        string? handName = null,
-        bool checkActionBlocker = true,
-        bool animateUser = false,
-        bool animate = true,
-        SharedHandsComponent? handsComp = null,
-        ItemComponent? item = null)
+    public bool TryPickup(EntityUid uid, EntityUid entity, string? handName = null, bool checkActionBlocker = true, bool animateUser = false, SharedHandsComponent? handsComp = null, ItemComponent? item = null)
     {
         if (!Resolve(uid, ref handsComp, false))
             return false;
@@ -38,7 +25,7 @@ public abstract partial class SharedHandsSystem : EntitySystem
         if (hand == null)
             return false;
 
-        return TryPickup(uid, entity, hand, checkActionBlocker, animateUser, animate, handsComp, item);
+        return TryPickup(uid, entity, hand, checkActionBlocker, animateUser, handsComp, item);
     }
 
     /// <summary>
@@ -48,14 +35,7 @@ public abstract partial class SharedHandsSystem : EntitySystem
     ///     If one empty hand fails to pick up the item, this will NOT check other hands. If ever hand-specific item
     ///     restrictions are added, there a might need to be a TryPickupAllHands or something like that.
     /// </remarks>
-    public bool TryPickupAnyHand(
-        EntityUid uid,
-        EntityUid entity,
-        bool checkActionBlocker = true,
-        bool animateUser = false,
-        bool animate = true,
-        SharedHandsComponent? handsComp = null,
-        ItemComponent? item = null)
+    public bool TryPickupAnyHand(EntityUid uid, EntityUid entity, bool checkActionBlocker = true, bool animateUser = false, SharedHandsComponent? handsComp = null, ItemComponent? item = null)
     {
         if (!Resolve(uid, ref handsComp, false))
             return false;
@@ -63,18 +43,10 @@ public abstract partial class SharedHandsSystem : EntitySystem
         if (!TryGetEmptyHand(uid, out var hand, handsComp))
             return false;
 
-        return TryPickup(uid, entity, hand, checkActionBlocker, animateUser, animate, handsComp, item);
+        return TryPickup(uid, entity, hand, checkActionBlocker, animateUser, handsComp, item);
     }
 
-    public bool TryPickup(
-        EntityUid uid,
-        EntityUid entity,
-        Hand hand,
-        bool checkActionBlocker = true,
-        bool animateUser = false,
-        bool animate = true,
-        SharedHandsComponent? handsComp = null,
-        ItemComponent? item = null)
+    public bool TryPickup(EntityUid uid, EntityUid entity, Hand hand, bool checkActionBlocker = true, bool animateUser = false, SharedHandsComponent? handsComp = null, ItemComponent? item = null)
     {
         if (!Resolve(uid, ref handsComp, false))
             return false;
@@ -85,20 +57,12 @@ public abstract partial class SharedHandsSystem : EntitySystem
         if (!CanPickupToHand(uid, entity, hand, checkActionBlocker, handsComp, item))
             return false;
 
-        if (animate)
-        {
-            var xform = Transform(uid);
-            var coordinateEntity = xform.ParentUid.IsValid() ? xform.ParentUid : uid;
-            var itemPos = Transform(entity).MapPosition;
+        // animation
+        var xform = Transform(uid);
+        var coordinateEntity = xform.ParentUid.IsValid() ? xform.ParentUid : uid;
+        var initialPosition = EntityCoordinates.FromMap(EntityManager, coordinateEntity, Transform(entity).MapPosition);
 
-            if (itemPos.MapId == xform.MapID
-                && (itemPos.Position - xform.MapPosition.Position).Length <= MaxAnimationRange
-                && MetaData(entity).VisibilityMask == MetaData(uid).VisibilityMask) // Don't animate aghost pickups.
-            {
-                var initialPosition = EntityCoordinates.FromMap(coordinateEntity, itemPos, EntityManager);
-                PickupAnimation(entity, initialPosition, xform.LocalPosition, animateUser ? null : uid);
-            }
-        }
+        PickupAnimation(entity, initialPosition, xform.LocalPosition, animateUser ? null : uid);
         DoPickup(uid, hand, entity, handsComp);
 
         return true;
@@ -143,19 +107,12 @@ public abstract partial class SharedHandsSystem : EntitySystem
     /// <summary>
     ///     Puts an item into any hand, preferring the active hand, or puts it on the floor.
     /// </summary>
-    public void PickupOrDrop(
-        EntityUid? uid,
-        EntityUid entity,
-        bool checkActionBlocker = true,
-        bool animateUser = false,
-        bool animate = true,
-        SharedHandsComponent? handsComp = null,
-        ItemComponent? item = null)
+    public void PickupOrDrop(EntityUid? uid, EntityUid entity, bool checkActionBlocker = true, bool animateUser = false, SharedHandsComponent? handsComp = null, ItemComponent? item = null)
     {
         if (uid == null
             || !Resolve(uid.Value, ref handsComp, false)
             || !TryGetEmptyHand(uid.Value, out var hand, handsComp)
-            || !TryPickup(uid.Value, entity, hand, checkActionBlocker, animateUser, animate, handsComp, item))
+            || !TryPickup(uid.Value, entity, hand, checkActionBlocker, animateUser, handsComp, item))
         {
             // TODO make this check upwards for any container, and parent to that.
             // Currently this just checks the direct parent, so items can still teleport through containers.

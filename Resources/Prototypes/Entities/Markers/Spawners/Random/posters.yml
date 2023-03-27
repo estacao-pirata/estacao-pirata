@@ -88,7 +88,6 @@
       - PosterContrabandRise
       - PosterContrabandSaucerNumberOne
       - PosterContrabandBreadLies
-      - PosterContrabandSMSyndie
     chance: 1
 
 - type: entity
@@ -152,15 +151,4 @@
       - PosterLegitMoreBread
       - PosterLegitPieSlice
       - PosterLegitPizzaHope
-      - PosterLegitShoukou
-      - PosterLegitSMPoisoning
-      - PosterLegitSMBoH
-      - PosterLegitSMHardhats
-      - PosterLegitSMFires
-      - PosterLegitSMPiping
-      - PosterLegitSMMeth
-      - PosterLegitSMEpi
-      - PosterLegitSMPills
-      - PosterLegitSMAnomalies
-      - PosterLegitSMGlimmer
     chance: 1

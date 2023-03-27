@@ -2,9 +2,12 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Content.Client.Administration.Managers;
 using Content.Client.Administration.Systems;
+using Content.Client.Administration.UI;
 using Content.Client.Administration.UI.Bwoink;
+using Content.Client.Administration.UI.CustomControls;
 using Content.Client.Gameplay;
 using Content.Client.UserInterface.Controls;
+using Content.Client.UserInterface.Systems.Info;
 using Content.Shared.Administration;
 using Content.Shared.Input;
 using JetBrains.Annotations;
@@ -19,6 +22,7 @@ using Robust.Shared.Input.Binding;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Utility;
+using BwoinkPanel = Content.Client.Administration.UI.Bwoink.BwoinkPanel;
 
 namespace Content.Client.UserInterface.Systems.Bwoink;
 
@@ -192,7 +196,6 @@ public sealed class AHelpUIController: UIController, IOnStateChanged<GameplaySta
         helper.Control.Orphan();
         helper.Window.Dispose();
         helper.Window = null;
-        helper.EverOpened = false;
 
         var monitor = _clyde.EnumerateMonitors().First();
 
@@ -217,7 +220,7 @@ public sealed class AHelpUIController: UIController, IOnStateChanged<GameplaySta
 }
 
 // please kill all this indirection
-public interface IAHelpUIHandler : IDisposable
+public interface IAHelpUIHandler: IDisposable
 {
     public bool IsAdmin { get; }
     public bool IsOpen { get; }
@@ -239,7 +242,6 @@ public sealed class AdminAHelpUIHandler : IAHelpUIHandler
     private readonly Dictionary<NetUserId, BwoinkPanel> _activePanelMap = new();
     public bool IsAdmin => true;
     public bool IsOpen => Window is { Disposed: false, IsOpen: true } || ClydeWindow is { IsDisposed: false };
-    public bool EverOpened;
 
     public BwoinkWindow? Window;
     public WindowRoot? WindowRoot;
@@ -251,17 +253,6 @@ public sealed class AdminAHelpUIHandler : IAHelpUIHandler
         var panel = EnsurePanel(message.UserId);
         panel.ReceiveLine(message);
         Control?.OnBwoink(message.UserId);
-    }
-
-    private void OpenWindow()
-    {
-        if (Window == null)
-            return;
-
-        if (EverOpened)
-            Window.Open();
-        else
-            Window.OpenCentered();
     }
 
     public void Close()
@@ -291,11 +282,14 @@ public sealed class AdminAHelpUIHandler : IAHelpUIHandler
     public void ToggleWindow()
     {
         EnsurePanel(_ownerId);
-
         if (IsOpen)
+        {
             Close();
+        }
         else
-            OpenWindow();
+        {
+            Window!.OpenCentered();
+        }
     }
 
     public event Action? OnClose;
@@ -305,7 +299,7 @@ public sealed class AdminAHelpUIHandler : IAHelpUIHandler
     public void Open(NetUserId channelId)
     {
         SelectChannel(channelId);
-        OpenWindow();
+        Window?.OpenCentered();
     }
 
     public void OnRequestClosed(WindowRequestClosedEventArgs args)
@@ -321,11 +315,7 @@ public sealed class AdminAHelpUIHandler : IAHelpUIHandler
         Window = new BwoinkWindow();
         Control = Window.Bwoink;
         Window.OnClose += () => { OnClose?.Invoke(); };
-        Window.OnOpen += () =>
-        {
-            OnOpen?.Invoke();
-            EverOpened = true;
-        };
+        Window.OnOpen += () => { OnOpen?.Invoke(); };
 
         // need to readd any unattached panels..
         foreach (var (_, panel) in _activePanelMap)
@@ -366,10 +356,8 @@ public sealed class AdminAHelpUIHandler : IAHelpUIHandler
         Window = null;
         Control = null;
         _activePanelMap.Clear();
-        EverOpened = false;
     }
 }
-
 public sealed class UserAHelpUIHandler : IAHelpUIHandler
 {
     private readonly NetUserId _ownerId;

@@ -6,7 +6,6 @@ using Content.Shared.Database;
 using Content.Shared.Verbs;
 using Robust.Server.GameObjects;
 using Robust.Shared.Configuration;
-using Robust.Shared.Utility;
 
 namespace Content.Server.Administration.Systems;
 
@@ -38,7 +37,7 @@ public sealed partial class AdminVerbSystem
         {
             Text = "Make Traitor",
             Category = VerbCategory.Antag,
-            Icon = new SpriteSpecifier.Rsi((new ResourcePath("/Textures/Structures/Wallmounts/posters.rsi")), "poster5_contraband"),
+            IconTexture = "/Textures/Structures/Wallmounts/posters.rsi/poster5_contraband.png",
             Act = () =>
             {
                 if (targetMindComp.Mind == null || targetMindComp.Mind.Session == null)
@@ -89,7 +88,7 @@ public sealed partial class AdminVerbSystem
         {
             Text = "Make Zombie",
             Category = VerbCategory.Antag,
-            Icon = new SpriteSpecifier.Rsi(new ResourcePath("/Textures/Structures/Wallmounts/signs.rsi"), "bio"),
+            IconTexture = "/Textures/Structures/Wallmounts/signs.rsi/bio.png",
             Act = () =>
             {
                 TryComp(args.Target, out MindComponent? mindComp);
@@ -108,7 +107,7 @@ public sealed partial class AdminVerbSystem
         {
             Text = "Make nuclear operative",
             Category = VerbCategory.Antag,
-            Icon = new SpriteSpecifier.Rsi(new ResourcePath("/Textures/Structures/Wallmounts/signs.rsi"), "radiation"),
+            IconTexture = "/Textures/Structures/Wallmounts/signs.rsi/radiation.png",
             Act = () =>
             {
                 if (targetMindComp.Mind == null || targetMindComp.Mind.Session == null)
@@ -125,7 +124,7 @@ public sealed partial class AdminVerbSystem
         {
             Text = "Make Pirate",
             Category = VerbCategory.Antag,
-            Icon = new SpriteSpecifier.Rsi(new ResourcePath("/Textures/Clothing/Head/Hats/pirate.rsi"), "icon"),
+            IconTexture = "/Textures/Clothing/Head/Hats/pirate.rsi/icon.png",
             Act = () =>
             {
                 if (targetMindComp.Mind == null || targetMindComp.Mind.Session == null)

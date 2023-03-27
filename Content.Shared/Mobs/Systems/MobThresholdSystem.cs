@@ -340,17 +340,7 @@ public sealed class MobThresholdSystem : EntitySystem
         if (args.Current is not MobThresholdComponentState state)
             return;
 
-        if (component.Thresholds.Count != state.Thresholds.Count ||
-            !component.Thresholds.SequenceEqual(state.Thresholds))
-        {
-            component.Thresholds.Clear();
-
-            foreach (var threshold in state.Thresholds)
-            {
-                component.Thresholds.Add(threshold.Key, threshold.Value);
-            }
-        }
-
+        component.Thresholds = new SortedDictionary<FixedPoint2, MobState>(state.Thresholds);
         component.CurrentThresholdState = state.CurrentThresholdState;
     }
 

@@ -1,3 +1,4 @@
+using System.Threading;
 using Robust.Shared.Audio;
 
 namespace Content.Server.Psionics.NPC.GlimmerWisp
@@ -5,7 +6,8 @@ namespace Content.Server.Psionics.NPC.GlimmerWisp
     [RegisterComponent]
     public sealed class GlimmerWispComponent : Component
     {
-        public bool IsDraining = false;
+        public CancellationTokenSource? CancelToken;
+
         /// <summary>
         /// The time (in seconds) that it takes to drain an entity.
         /// </summary>

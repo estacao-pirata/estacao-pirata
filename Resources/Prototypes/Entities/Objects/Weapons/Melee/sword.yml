@@ -17,7 +17,7 @@
   - type: MeleeBloodletter
     bloodReduction:
       types:
-        Slash: 15.0
+        Slash: 25.0
   - type: Item
     size: 15
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
@@ -25,7 +25,6 @@
     tags:
     - CaptainSabre
   - type: DisarmMalus
-    malus: 0.25
 
 - type: entity
   name: katana
@@ -48,7 +47,7 @@
   - type: MeleeBloodletter
     bloodReduction:
       types:
-        Slash: 12.0
+        Slash: 22.0
   - type: Item
     size: 15
     sprite: Objects/Weapons/Melee/katana.rsi
@@ -75,7 +74,7 @@
   - type: MeleeBloodletter
     bloodReduction:
       types:
-        Slash: 20.0
+        Slash: 30.0
   - type: StaminaDamageOnHit
     damage: 15
   - type: MeleeStaminaCost
@@ -104,7 +103,7 @@
   - type: MeleeBloodletter
     bloodReduction:
       types:
-        Slash: 30.0
+        Slash: 40.0
   - type: MeleeStaminaCost
     swing: 10
     hit: 10

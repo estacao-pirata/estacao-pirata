@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using Content.Server.Botany.Components;
 using Content.Server.Botany.Systems;
 using Content.Shared.Atmos;
@@ -6,9 +7,10 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.List;
 using Robust.Shared.Utility;
-using Robust.Shared.Audio;
 
 namespace Content.Server.Botany;
+
+
 
 [Prototype("seed")]
 public sealed class SeedPrototype : SeedData, IPrototype
@@ -142,8 +144,6 @@ public class SeedData
 
     [DataField("weedTolerance")] public float WeedTolerance = 5f;
 
-    [DataField("weedHighLevelThreshold")] public float WeedHighLevelThreshold = 10f;
-
     #endregion
 
     #region General traits
@@ -155,8 +155,6 @@ public class SeedData
     [DataField("maturation")] public float Maturation;
     [DataField("production")] public float Production;
     [DataField("growthStages")] public int GrowthStages = 6;
-
-    [ViewVariables(VVAccess.ReadWrite)]
     [DataField("harvestRepeat")] public HarvestType HarvestRepeat = HarvestType.NoRepeat;
 
     [DataField("potency")] public float Potency = 1f;
@@ -210,20 +208,12 @@ public class SeedData
 
     [DataField("plantIconState")] public string PlantIconState { get; set; } = "produce";
 
-    [DataField("screamSound")]
-    public SoundSpecifier ScreamSound = new SoundPathSpecifier("/Audio/Voice/Human/malescream_1.ogg");
-
-
-    [DataField("screaming")] public bool CanScream;
-
     [DataField("bioluminescent")] public bool Bioluminescent;
+
     [DataField("bioluminescentColor")] public Color BioluminescentColor { get; set; } = Color.White;
 
     public float BioluminescentRadius = 2f;
 
-    [DataField("kudzuPrototype", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))] public string KudzuPrototype = "WeakKudzu";
-
-    [DataField("turnIntoKudzu")] public bool TurnIntoKudzu;
     [DataField("splatPrototype")] public string? SplatPrototype { get; set; }
 
     #endregion
@@ -275,8 +265,6 @@ public class SeedData
             PlantRsi = PlantRsi,
             PlantIconState = PlantIconState,
             Bioluminescent = Bioluminescent,
-            CanScream = CanScream,
-            TurnIntoKudzu = TurnIntoKudzu,
             BioluminescentColor = BioluminescentColor,
             SplatPrototype = SplatPrototype,
 

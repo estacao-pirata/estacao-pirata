@@ -94,7 +94,7 @@ namespace Content.Server.Power.Components
             set => NetworkBattery.CanCharge = value;
         }
 
-        [DataField("canDischarge")]
+        [DataField("canDisharge")]
         [ViewVariables(VVAccess.ReadWrite)]
         public bool CanDischarge
         {

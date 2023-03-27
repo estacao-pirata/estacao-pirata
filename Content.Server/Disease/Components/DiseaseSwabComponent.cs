@@ -1,3 +1,4 @@
+using System.Threading;
 using Content.Shared.Disease;
 
 namespace Content.Server.Disease.Components
@@ -18,6 +19,10 @@ namespace Content.Server.Disease.Components
         /// If this swab has been used
         /// </summary>
         public bool Used = false;
+        /// <summary>
+        /// Token for interrupting swabbing do after.
+        /// </summary>
+        public CancellationTokenSource? CancelToken;
         /// <summary>
         /// The disease prototype currently on the swab
         /// </summary>

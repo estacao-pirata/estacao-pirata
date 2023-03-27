@@ -9,7 +9,3 @@
     layers:
     - state: icon
   - type: HandTeleporter
-  - type: ReverseEngineering
-    difficulty: 4
-    recipes:
-      - HandTeleporter

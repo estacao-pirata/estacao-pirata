@@ -2,7 +2,6 @@ using System.Threading;
 using Content.Shared.Verbs;
 using Content.Shared.Item;
 using Content.Shared.Hands;
-using Content.Shared.DoAfter;
 using Content.Shared.IdentityManagement;
 using Content.Server.Storage.Components;
 using Content.Server.Storage.EntitySystems;
@@ -24,15 +23,14 @@ namespace Content.Server.Item.PseudoItem
             SubscribeLocalEvent<PseudoItemComponent, EntGotRemovedFromContainerMessage>(OnEntRemoved);
             SubscribeLocalEvent<PseudoItemComponent, GettingPickedUpAttemptEvent>(OnGettingPickedUpAttempt);
             SubscribeLocalEvent<PseudoItemComponent, DropAttemptEvent>(OnDropAttempt);
-            SubscribeLocalEvent<PseudoItemComponent, DoAfterEvent>(OnDoAfter);
+
+            SubscribeLocalEvent<InsertSuccessfulEvent>(OnInsertSuccessful);
+            SubscribeLocalEvent<InsertCancelledEvent>(OnInsertCancelled);
         }
 
         private void AddInsertVerb(EntityUid uid, PseudoItemComponent component, GetVerbsEvent<InnateVerb> args)
         {
             if (!args.CanInteract || !args.CanAccess)
-                return;
-
-            if (component.Active)
                 return;
 
             if (!TryComp<ServerStorageComponent>(args.Target, out var targetStorage))
@@ -74,7 +72,7 @@ namespace Content.Server.Item.PseudoItem
             {
                 Act = () =>
                 {
-                    StartInsertDoAfter(args.User, uid, args.Hands.ActiveHandEntity.Value, component);
+                    StartInsertDoAfter(args.User, uid, targetStorage.Owner, component);
                 },
                 Text = Loc.GetString("action-name-insert-other", ("target", Identity.Entity(args.Target, EntityManager))),
                 Priority = 2
@@ -84,9 +82,6 @@ namespace Content.Server.Item.PseudoItem
 
         private void OnEntRemoved(EntityUid uid, PseudoItemComponent component, EntGotRemovedFromContainerMessage args)
         {
-            if (!component.Active)
-                return;
-
             RemComp<ItemComponent>(uid);
             component.Active = false;
         }
@@ -105,35 +100,46 @@ namespace Content.Server.Item.PseudoItem
             if (component.Active)
                 args.Cancel();
         }
-        private void OnDoAfter(EntityUid uid, PseudoItemComponent component, DoAfterEvent args)
+
+        private void OnInsertCancelled(InsertCancelledEvent ev)
         {
-            if (args.Handled || args.Cancelled || args.Args.Used == null)
+            if (!TryComp<PseudoItemComponent>(ev.ToInsert, out var pseudoItem))
                 return;
 
-            args.Handled = TryInsert(args.Args.Used.Value, uid, component);
+            pseudoItem.CancelToken?.Cancel();
+            pseudoItem.CancelToken = null;
         }
 
-        public bool TryInsert(EntityUid storageUid, EntityUid toInsert, PseudoItemComponent component, ServerStorageComponent? storage = null)
+        private void OnInsertSuccessful(InsertSuccessfulEvent ev)
+        {
+            if (!TryComp<PseudoItemComponent>(ev.ToInsert, out var pseudoItem))
+                return;
+            pseudoItem.CancelToken?.Cancel();
+            pseudoItem.CancelToken = null;
+
+            TryInsert(ev.TargetStorage, ev.ToInsert, pseudoItem);
+        }
+
+        public void TryInsert(EntityUid storageUid, EntityUid toInsert, PseudoItemComponent component, ServerStorageComponent? storage = null)
         {
             if (!Resolve(storageUid, ref storage))
-                return false;
+                return;
 
             if (component.Size > storage.StorageCapacityMax - storage.StorageUsed)
-                return false;
+                return;
 
             var item = EnsureComp<ItemComponent>(toInsert);
             _itemSystem.SetSize(toInsert, component.Size, item);
 
-            if (!_storageSystem.Insert(storageUid, toInsert, storage))
+            component.Active = true;
+
+            if (!_storageSystem.Insert(storage.Owner, toInsert, storage))
             {
                 component.Active = false;
                 RemComp<ItemComponent>(toInsert);
-                return false;
             } else
             {
-                component.Active = true;
                 Transform(storageUid).AttachToGridOrMap();
-                return true;
             }
         }
         private void StartInsertDoAfter(EntityUid inserter, EntityUid toInsert, EntityUid storageEntity, PseudoItemComponent? pseudoItem = null)
@@ -141,16 +147,42 @@ namespace Content.Server.Item.PseudoItem
             if (!Resolve(toInsert, ref pseudoItem))
                 return;
 
-            _doAfter.DoAfter(new DoAfterEventArgs(inserter, 5f, target: toInsert, used: storageEntity)
+            if (pseudoItem.CancelToken != null)
+                return;
+
+            pseudoItem.CancelToken = new CancellationTokenSource();
+            _doAfter.DoAfter(new DoAfterEventArgs(inserter, 5f,  pseudoItem.CancelToken.Token, target: toInsert)
             {
-                RaiseOnTarget = true,
-                RaiseOnUser = false,
-                RaiseOnUsed = false,
+                BroadcastFinishedEvent = new InsertSuccessfulEvent(toInsert, storageEntity, inserter),
+                BroadcastCancelledEvent = new InsertCancelledEvent(toInsert),
                 BreakOnTargetMove = true,
                 BreakOnUserMove = true,
                 BreakOnStun = true,
                 NeedHand = true
             });
+        }
+
+        private sealed class InsertCancelledEvent : EntityEventArgs
+        {
+            public EntityUid ToInsert;
+
+            public InsertCancelledEvent(EntityUid toInsert)
+            {
+                ToInsert = toInsert;
+            }
+        }
+
+        private sealed class InsertSuccessfulEvent : EntityEventArgs
+        {
+            public EntityUid Inserter;
+            public EntityUid ToInsert;
+            public EntityUid TargetStorage;
+            public InsertSuccessfulEvent(EntityUid toInsert, EntityUid targetStorage, EntityUid inserter)
+            {
+                ToInsert = toInsert;
+                TargetStorage = targetStorage;
+                Inserter = inserter;
+            }
         }
     }
 }

@@ -39,7 +39,7 @@ public sealed class PolymorphCommand : IConsoleCommand
         }
 
         var entityManager = IoCManager.Resolve<IEntityManager>();
-        var polySystem = entityManager.EntitySysManager.GetEntitySystem<PolymorphSystem>();
+        var polySystem = entityManager.EntitySysManager.GetEntitySystem<PolymorphableSystem>();
 
         entityManager.EnsureComponent<PolymorphableComponent>(entityUid);
         polySystem.PolymorphEntity(entityUid, polyproto);

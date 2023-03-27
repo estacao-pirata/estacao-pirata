@@ -1,6 +1,5 @@
 using System.Threading;
 using Content.Shared.Verbs;
-using Content.Shared.DoAfter;
 using Content.Shared.Abilities.Psionics;
 using Content.Shared.Body.Components;
 using Content.Shared.Psionics.Glimmer;
@@ -44,7 +43,8 @@ namespace Content.Server.Chapel
             base.Initialize();
             SubscribeLocalEvent<SacrificialAltarComponent, GetVerbsEvent<AlternativeVerb>>(AddSacrificeVerb);
             SubscribeLocalEvent<SacrificialAltarComponent, BuckleChangeEvent>(OnBuckleChanged);
-            SubscribeLocalEvent<SacrificialAltarComponent, DoAfterEvent<SacrificeData>>(OnDoAfter);
+            SubscribeLocalEvent<SacrificeSuccessfulEvent>(OnSacrificeSuccessful);
+            SubscribeLocalEvent<SacrificeCancelledEvent>(OnSacrificeCancelled);
         }
 
         private void AddSacrificeVerb(EntityUid uid, SacrificialAltarComponent component, GetVerbsEvent<AlternativeVerb> args)
@@ -83,59 +83,66 @@ namespace Content.Server.Chapel
                 component.CancelToken.Cancel();
         }
 
-        private void OnDoAfter(EntityUid uid, SacrificialAltarComponent component, DoAfterEvent<SacrificeData> args)
+        private void OnSacrificeSuccessful(SacrificeSuccessfulEvent args)
         {
-            component.SacrificeStingStream?.Stop();
-            component.CancelToken?.Cancel();
-            component.CancelToken = null;
-
-            if (args.Cancelled || args.Handled || args.Args.Target == null)
+            if (!TryComp<SacrificialAltarComponent>(args.Altar, out var altarComp))
                 return;
 
             // note: we checked this twice in case they could have gone SSD in the doafter time.
-            if (!TryComp<ActorComponent>(args.Args.Target.Value, out var actor))
+            if (!TryComp<ActorComponent>(args.Target, out var actor))
                 return;
 
-            _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(args.Args.User):player} sacrificed {ToPrettyString(args.Args.Target.Value):target} on {ToPrettyString(uid):altar}");
+            altarComp.CancelToken = null;
 
-            if (!_prototypeManager.TryIndex<WeightedRandomPrototype>(component.RewardPool, out var pool))
+            _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(args.User):player} sacrificed {ToPrettyString(args.Target):target} on {ToPrettyString(args.Altar):altar}");
+
+            if (!_prototypeManager.TryIndex<WeightedRandomPrototype>(altarComp.RewardPool, out var pool))
                 return;
 
-            var chance = HasComp<BibleUserComponent>(args.Args.User) ? component.RewardPoolChanceBibleUser : component.RewardPoolChance;
+            var chance = HasComp<BibleUserComponent>(args.User) ? altarComp.RewardPoolChanceBibleUser : altarComp.RewardPoolChance;
 
             if (_robustRandom.Prob(chance))
-                Spawn(pool.Pick(), Transform(uid).Coordinates);
+                Spawn(pool.Pick(), Transform(args.Altar).Coordinates);
 
-            int i = _robustRandom.Next(component.BluespaceRewardMin, component.BlueSpaceRewardMax);
+            int i = _robustRandom.Next(altarComp.BluespaceRewardMin, altarComp.BlueSpaceRewardMax);
 
             while (i > 0)
             {
-                Spawn("MaterialBluespace1", Transform(uid).Coordinates);
+                Spawn("MaterialBluespace", Transform(args.Altar).Coordinates);
                 i--;
             }
 
-            int reduction = _robustRandom.Next(component.GlimmerReductionMin, component.GlimmerReductionMax);
+            int reduction = _robustRandom.Next(altarComp.GlimmerReductionMin, altarComp.GlimmerReductionMax);
             _glimmerSystem.Glimmer -= reduction;
 
             if (actor.PlayerSession.ContentData()?.Mind != null)
             {
-                var trap = Spawn(component.TrapPrototype, Transform(uid).Coordinates);
+                var trap = Spawn(altarComp.TrapPrototype, Transform(args.Altar).Coordinates);
                 actor.PlayerSession.ContentData()?.Mind?.TransferTo(trap);
 
                 if (TryComp<SoulCrystalComponent>(trap, out var crystalComponent))
-                    crystalComponent.TrueName = MetaData(args.Args.Target.Value).EntityName;
+                    crystalComponent.TrueName = MetaData(args.Target).EntityName;
 
-                MetaData(trap).EntityName = Loc.GetString("soul-entity-name", ("trapped", args.Args.Target));
-                MetaData(trap).EntityDescription = Loc.GetString("soul-entity-desc", ("trapped", args.Args.Target));
+                MetaData(trap).EntityName = Loc.GetString("soul-entity-name", ("trapped", args.Target));
+                MetaData(trap).EntityDescription = Loc.GetString("soul-entity-desc", ("trapped", args.Target));
             }
 
-            if (TryComp<BodyComponent>(args.Args.Target, out var body))
+            if (TryComp<BodyComponent>(args.Target, out var body))
             {
-                _bodySystem.GibBody(args.Args.Target, true, body, false);
+                _bodySystem.GibBody(args.Target, true, body, false);
             } else
             {
-                QueueDel(args.Args.Target.Value);
+                QueueDel(args.Target);
             }
+        }
+
+        private void OnSacrificeCancelled(SacrificeCancelledEvent args)
+        {
+            if (!TryComp<SacrificialAltarComponent>(args.Altar, out var altarComponent))
+                return;
+
+            altarComponent.CancelToken = null;
+            altarComponent.SacrificeStingStream?.Stop();
         }
 
         public void AttemptSacrifice(EntityUid agent, EntityUid patient, EntityUid altar, SacrificialAltarComponent? component = null)
@@ -198,20 +205,37 @@ namespace Content.Server.Chapel
 
             component.SacrificeStingStream = _audioSystem.PlayPvs(component.SacrificeSoundPath, altar);
             component.CancelToken = new CancellationTokenSource();
-
-            var data = new SacrificeData();
-            var args = new DoAfterEventArgs(agent, (float) component.SacrificeTime.TotalSeconds, component.CancelToken.Token, target: patient, used: altar)
+            _doAfterSystem.DoAfter(new DoAfterEventArgs(agent, (float) component.SacrificeTime.TotalSeconds, component.CancelToken.Token, target: patient)
             {
+                BroadcastFinishedEvent = new SacrificeSuccessfulEvent(agent, (EntityUid) patient, altar),
+                BroadcastCancelledEvent = new SacrificeCancelledEvent(component.Owner),
                 BreakOnTargetMove = true,
                 BreakOnUserMove = true,
                 BreakOnStun = true,
                 NeedHand = true
-            };
+            });
+        }
+        private sealed class SacrificeCancelledEvent : EntityEventArgs
+        {
+            public EntityUid Altar;
 
-            _doAfterSystem.DoAfter(args, data);
+            public SacrificeCancelledEvent(EntityUid altar)
+            {
+                Altar = altar;
+            }
         }
 
-        private record struct SacrificeData()
-        {};
+        private sealed class SacrificeSuccessfulEvent : EntityEventArgs
+        {
+            public EntityUid User;
+            public EntityUid Target;
+            public EntityUid Altar;
+            public SacrificeSuccessfulEvent(EntityUid user, EntityUid target, EntityUid altar)
+            {
+                User = user;
+                Target = target;
+                Altar = altar;
+            }
+        }
     }
 }

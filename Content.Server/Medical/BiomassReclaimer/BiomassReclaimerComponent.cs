@@ -9,6 +9,8 @@ namespace Content.Server.Medical.BiomassReclaimer
     [RegisterComponent]
     public sealed class BiomassReclaimerComponent : Component
     {
+        public CancellationTokenSource? CancelToken;
+
         /// <summary>
         /// This gets set for each mob it processes.
         /// When it hits 0, there is a chance for the reclaimer to either spill blood or throw an item.

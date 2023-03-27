@@ -1,12 +1,13 @@
+using System.Threading;
 using System.Diagnostics.CodeAnalysis;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Damage;
-using Content.Shared.DoAfter;
+using Content.Shared.Verbs;
 using Content.Shared.Chemistry.Components;
+using Content.Shared.Interaction.Events;
 using Content.Shared.Popups;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Interaction;
-using Content.Shared.FixedPoint;
 using Content.Server.DoAfter;
 using Content.Server.Popups;
 using Content.Server.NPC.Components;
@@ -31,7 +32,8 @@ namespace Content.Server.Silicons.Bots
         {
             base.Initialize();
             SubscribeLocalEvent<MedibotComponent, InteractNoHandEvent>(PlayerInject);
-            SubscribeLocalEvent<MedibotComponent, DoAfterEvent<MedibotInjectData>>(OnDoAfter);
+            SubscribeLocalEvent<TargetInjectSuccessfulEvent>(OnInjectSuccessful);
+            SubscribeLocalEvent<InjectCancelledEvent>(OnInjectCancelled);
         }
 
         private void PlayerInject(EntityUid uid, MedibotComponent component, InteractNoHandEvent args)
@@ -48,20 +50,6 @@ namespace Content.Server.Silicons.Bots
             TryStartInject(uid, component, args.Target.Value, injectable);
         }
 
-        private void OnDoAfter(EntityUid uid, MedibotComponent component, DoAfterEvent<MedibotInjectData> args)
-        {
-            component.IsInjecting = false;
-
-            if (args.Cancelled || args.Handled || args.Args.Target == null)
-                return;
-
-            _audioSystem.PlayPvs(component.InjectFinishSound, args.Args.Target.Value);
-            _solution.TryAddReagent(args.Args.Target.Value, args.AdditionalData.Solution, args.AdditionalData.Drug, args.AdditionalData.Amount, out var acceptedQuantity);
-            _popups.PopupEntity(Loc.GetString("hypospray-component-feel-prick-message"), args.Args.Target.Value, args.Args.Target.Value);
-            EnsureComp<NPCRecentlyInjectedComponent>(args.Args.Target.Value);
-            args.Handled = true;
-        }
-
         public bool NPCStartInject(EntityUid uid, EntityUid target, MedibotComponent? component = null)
         {
             if (!Resolve(uid, ref component))
@@ -75,7 +63,7 @@ namespace Content.Server.Silicons.Bots
 
         private bool TryStartInject(EntityUid performer, MedibotComponent component, EntityUid target, Solution injectable)
         {
-            if (component.IsInjecting)
+            if (component.CancelToken != null)
                 return false;
 
             if (!_blocker.CanInteract(performer, target))
@@ -94,24 +82,44 @@ namespace Content.Server.Silicons.Bots
                 return false;
             }
 
+            component.CancelToken = new CancellationTokenSource();
             component.InjectTarget = target;
 
             _popups.PopupEntity(Loc.GetString("medibot-inject-receiver", ("bot", performer)), target, target, PopupType.Medium);
             _popups.PopupEntity(Loc.GetString("medibot-inject-actor", ("target", target)), performer, performer, PopupType.Medium);
 
-            var data = new MedibotInjectData(injectable, drug, injectAmount);
-            var args = new DoAfterEventArgs(performer, component.InjectDelay, target: target)
+            _doAfter.DoAfter(new DoAfterEventArgs(performer, component.InjectDelay, component.CancelToken.Token, target: target)
             {
+                BroadcastFinishedEvent = new TargetInjectSuccessfulEvent(performer, target, injectable, drug, injectAmount),
+                BroadcastCancelledEvent = new InjectCancelledEvent(performer, target),
                 BreakOnTargetMove = true,
                 BreakOnUserMove = true,
                 BreakOnStun = true,
                 NeedHand = false
-            };
-
-            component.IsInjecting = true;
-            _doAfter.DoAfter(args, data);
+            });
 
             return true;
+        }
+
+        private void OnInjectSuccessful(TargetInjectSuccessfulEvent ev)
+        {
+            if (!TryComp<MedibotComponent>(ev.Injector, out var medibot))
+                return;
+
+            medibot.CancelToken = null;
+
+            _audioSystem.PlayPvs(medibot.InjectFinishSound, ev.Target);
+            _solution.TryAddReagent(ev.Target, ev.Injectable, ev.Drug, ev.Amount, out var acceptedQuantity);
+            _popups.PopupEntity(Loc.GetString("hypospray-component-feel-prick-message"), ev.Target, ev.Target);
+            EnsureComp<NPCRecentlyInjectedComponent>(ev.Target);
+        }
+
+        private void OnInjectCancelled(InjectCancelledEvent ev)
+        {
+            if (!TryComp<MedibotComponent>(ev.Injector, out var medibot))
+                return;
+
+            medibot.CancelToken = null;
         }
 
         private bool SharedInjectChecks(EntityUid uid, EntityUid target, [NotNullWhen(true)] out Solution? injectable)
@@ -158,11 +166,33 @@ namespace Content.Server.Silicons.Bots
             return false;
         }
 
-        private record struct MedibotInjectData(Solution Solution, string Drug, FixedPoint2 Amount)
+        private sealed class InjectCancelledEvent : EntityEventArgs
         {
-            public Solution Solution = Solution;
-            public string Drug = Drug;
-            public FixedPoint2 Amount = Amount;
+            public EntityUid Injector;
+            public EntityUid Target;
+
+            public InjectCancelledEvent(EntityUid injector, EntityUid target)
+            {
+                Injector = injector;
+                Target = target;
+            }
+        }
+
+        private sealed class TargetInjectSuccessfulEvent : EntityEventArgs
+        {
+            public EntityUid Injector;
+            public EntityUid Target;
+            public Solution Injectable;
+            public string Drug;
+            public float Amount;
+            public TargetInjectSuccessfulEvent(EntityUid injector, EntityUid target, Solution injectable, string drug, float amount)
+            {
+                Injector = injector;
+                Target = target;
+                Injectable = injectable;
+                Drug = drug;
+                Amount = amount;
+            }
         }
     }
 }

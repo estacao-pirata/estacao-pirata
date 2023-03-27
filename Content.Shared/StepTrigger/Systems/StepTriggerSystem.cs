@@ -150,17 +150,11 @@ public sealed class StepTriggerSystem : EntitySystem
         component.IntersectRatio = state.IntersectRatio;
         component.Active = state.Active;
 
-        if (!component.CurrentlySteppedOn.SetEquals(state.CurrentlySteppedOn))
-        {
-            component.CurrentlySteppedOn.Clear();
-            component.CurrentlySteppedOn.UnionWith(state.CurrentlySteppedOn);
-        }
+        component.CurrentlySteppedOn.Clear();
+        component.Colliding.Clear();
 
-        if (!component.Colliding.SetEquals(state.Colliding))
-        {
-            component.Colliding.Clear();
-            component.Colliding.UnionWith(state.Colliding);
-        }
+        component.CurrentlySteppedOn.UnionWith(state.CurrentlySteppedOn);
+        component.Colliding.UnionWith(state.Colliding);
 
         if (component.Colliding.Count > 0)
         {

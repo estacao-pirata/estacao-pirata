@@ -105,12 +105,9 @@ public sealed class StationSpawningSystem : EntitySystem
             return jobEntity;
         }
 
-        if (!_prototypeManager.TryIndex(profile?.Species ?? HumanoidAppearanceSystem.DefaultSpecies, out SpeciesPrototype? species))
-        {
-            species = _prototypeManager.Index<SpeciesPrototype>(HumanoidAppearanceSystem.DefaultSpecies);
-        }
-
-        var entity = EntityManager.SpawnEntity(species.Prototype, coordinates);
+        var entity = EntityManager.SpawnEntity(
+            _prototypeManager.Index<SpeciesPrototype>(profile?.Species ?? HumanoidAppearanceSystem.DefaultSpecies).Prototype,
+            coordinates);
 
         if (job?.StartingGear != null)
         {

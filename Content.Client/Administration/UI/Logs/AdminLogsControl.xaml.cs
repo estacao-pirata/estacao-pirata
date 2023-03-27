@@ -34,7 +34,6 @@ public sealed partial class AdminLogsControl : Control
         SelectAllTypesButton.OnPressed += SelectAllTypes;
         SelectNoTypesButton.OnPressed += SelectNoTypes;
 
-        IncludeNonPlayersButton.OnPressed += IncludeNonPlayers;
         SelectAllPlayersButton.OnPressed += SelectAllPlayers;
         SelectNoPlayersButton.OnPressed += SelectNoPlayers;
 
@@ -54,7 +53,6 @@ public sealed partial class AdminLogsControl : Control
     public string Search => LogSearch.Text;
     private int ShownLogs { get; set; }
     private int TotalLogs { get; set; }
-    public bool IncludeNonPlayerLogs { get; set; }
 
     public HashSet<LogType> SelectedTypes { get; } = new();
 
@@ -141,13 +139,6 @@ public sealed partial class AdminLogsControl : Control
         UpdateLogs();
     }
 
-    private void IncludeNonPlayers(ButtonEventArgs args)
-    {
-        IncludeNonPlayerLogs = args.Button.Pressed;
-
-        UpdateLogs();
-    }
-
     private void SelectAllPlayers(ButtonEventArgs args)
     {
         SelectedPlayers.Clear();
@@ -178,32 +169,6 @@ public sealed partial class AdminLogsControl : Control
             }
 
             player.Pressed = false;
-        }
-
-        UpdateLogs();
-    }
-
-    public void SetTypesSelection(HashSet<LogType> selectedTypes, bool invert = false)
-    {
-        SelectedTypes.Clear();
-
-        foreach (var control in TypesContainer.Children)
-        {
-            if (control is not AdminLogTypeButton type)
-            {
-                continue;
-            }
-
-            if (selectedTypes.Contains(type.Type) ^ invert)
-            {
-                type.Pressed = true;
-                SelectedTypes.Add(type.Type);
-            }
-            else
-            {
-                type.Pressed = false;
-                type.Visible = ShouldShowType(type);
-            }
         }
 
         UpdateLogs();
@@ -268,33 +233,12 @@ public sealed partial class AdminLogsControl : Control
                button.Text.Contains(PlayerSearch.Text, StringComparison.OrdinalIgnoreCase);
     }
 
-    private bool LogMatchesPlayerFilter(AdminLogLabel label)
-    {
-        if (label.Log.Players.Length == 0)
-            return SelectedPlayers.Count == 0 || IncludeNonPlayerLogs;
-
-        return SelectedPlayers.Overlaps(label.Log.Players);
-    }
-
     private bool ShouldShowLog(AdminLogLabel label)
     {
-        // Check log type
-        if (!SelectedTypes.Contains(label.Log.Type))
-            return false;
-
-        // Check players
-        if (!LogMatchesPlayerFilter(label))
-            return false;
-
-        // Check impact
-        if (!SelectedImpacts.Contains(label.Log.Impact))
-            return false;
-
-        // Check search
-        if (!label.Log.Message.Contains(LogSearch.Text, StringComparison.OrdinalIgnoreCase))
-            return false;
-
-        return true;
+        return SelectedTypes.Contains(label.Log.Type) &&
+               (SelectedPlayers.Count + label.Log.Players.Length == 0 || SelectedPlayers.Overlaps(label.Log.Players)) &&
+               SelectedImpacts.Contains(label.Log.Impact) &&
+               label.Log.Message.Contains(LogSearch.Text, StringComparison.OrdinalIgnoreCase);
     }
 
     private void TypeButtonPressed(ButtonEventArgs args)
@@ -511,7 +455,6 @@ public sealed partial class AdminLogsControl : Control
         SelectAllTypesButton.OnPressed -= SelectAllTypes;
         SelectNoTypesButton.OnPressed -= SelectNoTypes;
 
-        IncludeNonPlayersButton.OnPressed -= IncludeNonPlayers;
         SelectAllPlayersButton.OnPressed -= SelectAllPlayers;
         SelectNoPlayersButton.OnPressed -= SelectNoPlayers;
 

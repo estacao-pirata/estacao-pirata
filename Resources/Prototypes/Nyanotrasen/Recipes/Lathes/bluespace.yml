@@ -11,19 +11,6 @@
     Plastic: 250
 
 - type: latheRecipe
-  id: HandTeleporter
-  icon:
-    sprite: /Textures/Objects/Devices/hand_teleporter.rsi
-    state: icon
-  result: HandTeleporter
-  completetime: 8
-  materials:
-    Bluespace: 600
-    Steel: 200
-    Plastic: 200
-    Gold: 200
-
-- type: latheRecipe
   id: BluespaceBeaker
   icon:
     sprite: Objects/Specific/Chemistry/beaker_bluespace.rsi
@@ -43,7 +30,7 @@
   result: ClothingBackpackHolding
   completetime: 4
   materials:
-    Bluespace: 600
+    Bluespace: 400
     Durathread: 1500
     Plastic: 400
 
@@ -55,7 +42,7 @@
   result: ClothingBackpackSatchelHolding
   completetime: 4
   materials:
-    Bluespace: 600
+    Bluespace: 400
     Durathread: 1500
     Plastic: 400
 
@@ -67,7 +54,7 @@
   result: ClothingBackpackDuffelHolding
   completetime: 4
   materials:
-    Bluespace: 600
+    Bluespace: 400
     Durathread: 1500
     Plastic: 400
 
@@ -88,7 +75,7 @@
   icon:
     sprite: Nyanotrasen/Objects/Materials/materials.rsi
     state: bluespace
-  result: MaterialBluespace1
+  result: MaterialBluespace
   applyMaterialDiscount: false
   completetime: 4
   materials:

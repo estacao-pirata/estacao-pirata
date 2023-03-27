@@ -57,14 +57,6 @@ namespace Content.Server.Administration.Managers
             return null;
         }
 
-        public AdminData? GetAdminData(EntityUid uid, bool includeDeAdmin = false)
-        {
-            if (_playerManager.TryGetSessionByEntity(uid, out var session) && session is IPlayerSession playerSession)
-                return GetAdminData(playerSession, includeDeAdmin);
-
-            return null;
-        }
-
         public void DeAdmin(IPlayerSession session)
         {
             if (!_admins.TryGetValue(session, out var reg))

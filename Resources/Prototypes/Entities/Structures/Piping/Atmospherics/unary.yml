@@ -230,7 +230,6 @@
     - type: Sprite
       netsync: false
       sprite: Structures/Piping/Atmospherics/thermomachine.rsi
-      noRot: true
     - type: Appearance
     - type: PipeColorVisuals
     - type: Rotatable
@@ -255,8 +254,6 @@
           pipeDirection: South
     - type: DynamicPrice
       price: 500
-    - type: Transform
-      noRot: false
 
 - type: entity
   parent: BaseGasThermoMachine

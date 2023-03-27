@@ -127,9 +127,6 @@
         {
 			"name": "headset"
 		},
-        {
-			"name": "encryptokey"
-		},
 		{
             "name": "inhand-left",
             "directions": 4

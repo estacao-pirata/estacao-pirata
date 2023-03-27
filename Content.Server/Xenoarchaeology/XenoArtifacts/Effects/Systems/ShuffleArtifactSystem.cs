@@ -38,8 +38,7 @@ public sealed class ShuffleArtifactSystem : EntitySystem
 
         foreach (var xform in toShuffle)
         {
-            var xformUid = xform.Owner;
-            _xform.SetCoordinates(xformUid, xform, _random.PickAndTake(allCoords));
+            _xform.SetCoordinates(xform, _random.PickAndTake(allCoords));
         }
     }
 }

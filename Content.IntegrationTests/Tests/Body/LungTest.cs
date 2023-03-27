@@ -1,13 +1,11 @@
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Content.Server.Atmos.Components;
-using Content.Server.Atmos.EntitySystems;
 using Content.Server.Body.Components;
 using Content.Server.Body.Systems;
 using Content.Shared.Body.Components;
 using NUnit.Framework;
 using Robust.Server.GameObjects;
-using Robust.Shared;
-using Robust.Shared.Configuration;
+using Robust.Server.Maps;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Maths;
@@ -136,7 +134,6 @@ namespace Content.IntegrationTests.Tests.Body
 
             var mapManager = server.ResolveDependency<IMapManager>();
             var entityManager = server.ResolveDependency<IEntityManager>();
-            var cfg = server.ResolveDependency<IConfigurationManager>();
             var mapLoader = entityManager.System<MapLoaderSystem>();
 
             MapId mapId;
@@ -156,13 +153,9 @@ namespace Content.IntegrationTests.Tests.Body
 
             await server.WaitAssertion(() =>
             {
-                var center = new Vector2(0.5f, 0.5f);
-
+                var center = new Vector2(0.5f, -1.5f);
                 var coordinates = new EntityCoordinates(grid.Value, center);
                 human = entityManager.SpawnEntity("HumanBodyDummy", coordinates);
-
-                var mixture = entityManager.System<AtmosphereSystem>().GetContainingMixture(human);
-                Assert.That(mixture.TotalMoles, Is.GreaterThan(0));
 
                 Assert.True(entityManager.HasComponent<BodyComponent>(human));
                 Assert.True(entityManager.TryGetComponent(human, out respirator));
@@ -171,10 +164,7 @@ namespace Content.IntegrationTests.Tests.Body
 
             var increment = 10;
 
-            // 20 seconds
-            var total = 20 * cfg.GetCVar(CVars.NetTickrate);
-
-            for (var tick = 0; tick < total; tick += increment)
+            for (var tick = 0; tick < 600; tick += increment)
             {
                 await server.WaitRunTicks(increment);
                 await server.WaitAssertion(() =>

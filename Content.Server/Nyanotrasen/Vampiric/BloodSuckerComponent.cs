@@ -1,8 +1,12 @@
+using System.Threading;
+
 namespace Content.Server.Vampiric
 {
     [RegisterComponent]
     public sealed class BloodSuckerComponent : Component
     {
+        public CancellationTokenSource? CancelToken;
+
         /// <summary>
         /// How much to succ each time we succ.
         /// </summary>

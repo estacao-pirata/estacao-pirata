@@ -49,9 +49,11 @@ public sealed class ExamineButton : ContainerButton
             SetHeight = ElementHeight
         };
 
-        if (verb.Icon != null)
+        if (verb.IconTexture != null)
         {
-            Icon.Texture = verb.Icon.Frame0();
+            var icon = new SpriteSpecifier.Texture(new ResourcePath(verb.IconTexture));
+
+            Icon.Texture = icon.Frame0();
             Icon.Stretch = TextureRect.StretchMode.KeepAspectCentered;
 
             AddChild(Icon);

@@ -65,11 +65,10 @@ namespace Content.Server.Research.Oracle
             "MobTomatoKiller",
             "Drone",
             "QSI",
-            "HandTeleporter",
             "BluespaceBeaker",
-            "ClothingBackpackHolding",
-            "ClothingBackpackSatchelHolding",
-            "ClothingBackpackDuffelHolding",
+            "BackpackOfHolding",
+            "SatchelOfHolding",
+            "DuffelbagOfHolding",
             "TrashBagOfHolding",
             "BluespaceCrystal",
             "InsulativeHeadcage",
@@ -206,7 +205,7 @@ namespace Content.Server.Research.Oracle
 
             while (i != 0)
             {
-                EntityManager.SpawnEntity("MaterialBluespace1", Transform(args.User).Coordinates);
+                EntityManager.SpawnEntity("MaterialBluespace", Transform(args.User).Coordinates);
                 i--;
             }
 

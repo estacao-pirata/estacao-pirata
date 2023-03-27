@@ -10,7 +10,8 @@ namespace Content.Client.Chat.Managers
         ///     Will refresh perms.
         /// </summary>
         event Action PermissionsUpdated;
-        public void SendMessage(string text, ChatSelectChannel channel);
+        public void SendMessage(ReadOnlyMemory<char> text, ChatSelectChannel channel);
+
         public void UpdatePermissions();
     }
 }

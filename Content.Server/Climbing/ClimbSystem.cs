@@ -11,7 +11,6 @@ using Content.Shared.Buckle.Components;
 using Content.Shared.Climbing;
 using Content.Shared.Climbing.Events;
 using Content.Shared.Damage;
-using Content.Shared.DoAfter;
 using Content.Shared.DragDrop;
 using Content.Shared.GameTicking;
 using Content.Shared.IdentityManagement;
@@ -20,6 +19,8 @@ using Content.Shared.Popups;
 using Content.Shared.SimpleStation14.Traits;
 using Content.Shared.Verbs;
 using JetBrains.Annotations;
+using Robust.Server.GameObjects;
+using Robust.Shared.Configuration;
 using Robust.Shared.GameStates;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Collision.Shapes;
@@ -34,6 +35,7 @@ namespace Content.Server.Climbing;
 [UsedImplicitly]
 public sealed class ClimbSystem : SharedClimbSystem
 {
+    [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly ActionBlockerSystem _actionBlockerSystem = default!;
     [Dependency] private readonly BodySystem _bodySystem = default!;
     [Dependency] private readonly DamageableSystem _damageableSystem = default!;
@@ -42,6 +44,7 @@ public sealed class ClimbSystem : SharedClimbSystem
     [Dependency] private readonly PopupSystem _popupSystem = default!;
     [Dependency] private readonly InteractionSystem _interactionSystem = default!;
     [Dependency] private readonly StunSystem _stunSystem = default!;
+    [Dependency] private readonly AudioSystem _audioSystem = default!;
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
     [Dependency] private readonly BonkSystem _bonkSystem = default!;
 
@@ -58,7 +61,7 @@ public sealed class ClimbSystem : SharedClimbSystem
         SubscribeLocalEvent<ClimbableComponent, GetVerbsEvent<AlternativeVerb>>(AddClimbableVerb);
         SubscribeLocalEvent<ClimbableComponent, DragDropTargetEvent>(OnClimbableDragDrop);
 
-        SubscribeLocalEvent<ClimbingComponent, DoAfterEvent<ClimbExtraEvent>>(OnDoAfter);
+        SubscribeLocalEvent<ClimbingComponent, ClimbFinishedEvent>(OnClimbFinished);
         SubscribeLocalEvent<ClimbingComponent, EndCollideEvent>(OnClimbEndCollide);
         SubscribeLocalEvent<ClimbingComponent, BuckleChangeEvent>(OnBuckleChange);
         SubscribeLocalEvent<ClimbingComponent, ComponentGetState>(OnClimbingGetState);
@@ -124,22 +127,13 @@ public sealed class ClimbSystem : SharedClimbSystem
             BreakOnUserMove = true,
             BreakOnDamage = true,
             BreakOnStun = true,
-            RaiseOnUser = user == entityToMove,
-            RaiseOnTarget = user != entityToMove,
-            RaiseOnUsed = false,
-        };
-
-        _doAfterSystem.DoAfter(args, ev);
+            UsedFinishedEvent = new ClimbFinishedEvent(user, climbable, entityToMove)
+        });
     }
 
-    private void OnDoAfter(EntityUid uid, ClimbingComponent component, DoAfterEvent<ClimbExtraEvent> args)
+    private void OnClimbFinished(EntityUid uid, ClimbingComponent climbing, ClimbFinishedEvent args)
     {
-        if (args.Handled || args.Cancelled || args.Args.Target == null || args.Args.Used == null)
-            return;
-
-        Climb(uid, args.Args.User, args.Args.Used.Value, args.Args.Target.Value, climbing: component);
-
-        args.Handled = true;
+        Climb(uid, args.User, args.Instigator, args.Climbable, climbing: climbing);
     }
 
     private void Climb(EntityUid uid, EntityUid user, EntityUid instigator, EntityUid climbable, bool silent = false, ClimbingComponent? climbing = null,
@@ -438,11 +432,20 @@ public sealed class ClimbSystem : SharedClimbSystem
     {
         _fixtureRemoveQueue.Clear();
     }
+}
 
-    private sealed class ClimbExtraEvent : EntityEventArgs
+internal sealed class ClimbFinishedEvent : EntityEventArgs
+{
+    public ClimbFinishedEvent(EntityUid user, EntityUid climbable, EntityUid instigator)
     {
-        //Honestly this is only here because otherwise this activates on every single doafter on a human
+        User = user;
+        Climbable = climbable;
+        Instigator = instigator;
     }
+
+    public EntityUid User { get; }
+    public EntityUid Climbable { get; }
+    public EntityUid Instigator { get; }
 }
 
 /// <summary>

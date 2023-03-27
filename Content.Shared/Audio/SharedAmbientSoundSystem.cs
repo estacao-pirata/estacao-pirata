@@ -1,4 +1,3 @@
-using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 
 namespace Content.Shared.Audio
@@ -46,24 +45,12 @@ namespace Content.Shared.Audio
             Dirty(ambience);
         }
 
-        public virtual void SetSound(EntityUid uid, SoundSpecifier path, AmbientSoundComponent? ambience = null)
-        {
-            if (!Resolve(uid, ref ambience, false) || ambience.Sound == path)
-                return;
-
-            ambience.Sound = path;
-            QueueUpdate(uid, ambience);
-            Dirty(ambience);
-        }
-
         private void HandleCompState(EntityUid uid, AmbientSoundComponent component, ref ComponentHandleState args)
         {
             if (args.Current is not AmbientSoundComponentState state) return;
             SetAmbience(uid, state.Enabled, component);
             SetRange(uid, state.Range, component);
             SetVolume(uid, state.Volume, component);
-            if (state.Sound != null)
-                SetSound(uid, state.Sound, component);
         }
 
         private void GetCompState(EntityUid uid, AmbientSoundComponent component, ref ComponentGetState args)
@@ -73,7 +60,6 @@ namespace Content.Shared.Audio
                 Enabled = component.Enabled,
                 Range = component.Range,
                 Volume = component.Volume,
-                Sound = component.Sound,
             };
         }
     }

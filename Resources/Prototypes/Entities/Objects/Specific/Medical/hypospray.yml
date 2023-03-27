@@ -21,8 +21,6 @@
     pierceArmor: true
   - type: DynamicPrice
     price: 750
-  - type: UseDelay
-    delay: 0.5
 
 - type: entity
   name: gorlax hypospray
@@ -45,8 +43,6 @@
     solution: hypospray
   - type: Hypospray
     pierceArmor: true
-  - type: UseDelay
-    delay: 0.5
 
 - type: entity
   name: chemical medipen
@@ -208,5 +204,3 @@
     - Write
   - type: DynamicPrice
     price: 75
-  - type: UseDelay
-    delay: 0.5

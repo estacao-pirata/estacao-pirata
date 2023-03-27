@@ -57,6 +57,7 @@ public sealed class EnsnaringComponent : Component
     [DataField("canMoveBreakout")]
     public bool CanMoveBreakout;
 
+    public CancellationTokenSource? CancelToken;
 }
 
 /// <summary>

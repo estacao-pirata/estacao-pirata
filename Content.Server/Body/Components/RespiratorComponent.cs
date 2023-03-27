@@ -1,3 +1,4 @@
+using System.Threading;
 using Content.Server.Body.Systems;
 using Content.Shared.Damage;
 using Robust.Shared.Audio;
@@ -76,7 +77,7 @@ namespace Content.Server.Body.Components
 
         public IPlayingAudioStream? CPRPlayingStream;
 
-        public bool IsReceivingCPR = false;
+        public CancellationTokenSource? CancelToken;
     }
 }
 

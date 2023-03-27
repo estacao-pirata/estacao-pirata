@@ -4,7 +4,6 @@ using Content.Server.DoAfter;
 using Content.Server.Popups;
 using Content.Server.RCD.Components;
 using Content.Shared.Database;
-using Content.Shared.DoAfter;
 using Content.Shared.Examine;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;

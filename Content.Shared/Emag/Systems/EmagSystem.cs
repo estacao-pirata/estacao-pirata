@@ -130,8 +130,7 @@ namespace Content.Shared.Emag.Systems
 
             if (component.Charges <= 0)
             {
-                if (_net.IsServer)
-                    _popupSystem.PopupEntity(Loc.GetString("emag-no-charges"), user, user);
+                _popupSystem.PopupEntity(Loc.GetString("emag-no-charges"), user, user);
                 return false;
             }
 
@@ -157,19 +156,12 @@ namespace Content.Shared.Emag.Systems
         /// </summary>
         public bool DoEmagEffect(EntityUid user, EntityUid target)
         {
-            // prevent emagging twice
-            if (HasComp<EmaggedComponent>(target))
-                return false;
-
             var emaggedEvent = new GotEmaggedEvent(user);
             RaiseLocalEvent(target, ref emaggedEvent);
-
-            if (!emaggedEvent.Repeatable)
-                EnsureComp<EmaggedComponent>(target);
             return emaggedEvent.Handled;
         }
     }
 
     [ByRefEvent]
-    public record struct GotEmaggedEvent(EntityUid UserUid, bool Handled = false, bool Repeatable = false);
+    public record struct GotEmaggedEvent(EntityUid UserUid, bool Handled = false);
 }

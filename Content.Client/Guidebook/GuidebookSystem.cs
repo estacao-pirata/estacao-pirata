@@ -14,7 +14,6 @@ using Robust.Shared.Input;
 using Robust.Shared.Input.Binding;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Utility;
 
 namespace Content.Client.Guidebook;
 
@@ -57,7 +56,7 @@ public sealed class GuidebookSystem : EntitySystem
         args.Verbs.Add(new()
         {
             Text = Loc.GetString("guide-help-verb"),
-            Icon = new SpriteSpecifier.Texture(new ResourcePath("/Textures/Interface/VerbIcons/information.svg.192dpi.png")),
+            IconTexture = "/Textures/Interface/VerbIcons/information.svg.192dpi.png",
             Act = () => OpenGuidebook(component.Guides, includeChildren: component.IncludeChildren, selected: component.Guides[0]),
             ClientExclusive = true,
             CloseMenu = true

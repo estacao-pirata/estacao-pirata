@@ -17,13 +17,13 @@ namespace Content.Server.Polymorph.Components
         /// The original entity that the player will revert back into
         /// </summary>
         [DataField("parent", required: true)]
-        public EntityUid Parent;
+        public EntityUid Parent = new();
 
         /// <summary>
         /// The amount of time that has passed since the entity was created
         /// used for tracking the duration
         /// </summary>
         [DataField("time")]
-        public float Time;
+        public float Time = 0;
     }
 }

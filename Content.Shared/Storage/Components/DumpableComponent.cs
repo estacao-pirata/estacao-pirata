@@ -16,9 +16,8 @@ namespace Content.Shared.Storage.Components
         public TimeSpan DelayPerItem = TimeSpan.FromSeconds(0.2);
 
         /// <summary>
-        /// The multiplier modifier
+        /// Cancellation token for the doafter.
         /// </summary>
-        [DataField("multiplier")]
-        public float Multiplier = 1.0f;
+        public CancellationTokenSource? CancelToken;
     }
 }

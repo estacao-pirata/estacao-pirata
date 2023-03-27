@@ -116,6 +116,5 @@
     group: Standard
   - type: DynamicPrice
     price: 150
-  - type: AccessReader
   placement:
     mode: SnapgridCenter

@@ -102,6 +102,8 @@ namespace Content.Server.Dragon
                 Params = AudioParams.Default.WithVolume(3f),
             };
 
+        public CancellationTokenSource? CancelToken;
+
         [ViewVariables(VVAccess.ReadWrite), DataField("devourWhitelist")]
         public EntityWhitelist? DevourWhitelist = new()
         {

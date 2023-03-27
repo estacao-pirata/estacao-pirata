@@ -85,7 +85,4 @@ public enum LogType
     AdminMessage = 78,
     Anomaly = 79,
     WireHacking = 80,
-    Teleport = 81,
-    EntityDelete = 82,
-    Vote = 83,
 }

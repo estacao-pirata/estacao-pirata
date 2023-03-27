@@ -29,9 +29,7 @@ public abstract class BaseToggleWireAction : BaseWireAction
 
     public override bool Cut(EntityUid user, Wire wire)
     {
-        if (!base.Cut(user, wire))
-            return false;
-
+        base.Cut(user, wire);
         ToggleValue(wire.Owner, false);
 
         if (TimeoutKey != null)
@@ -44,9 +42,7 @@ public abstract class BaseToggleWireAction : BaseWireAction
 
     public override bool Mend(EntityUid user, Wire wire)
     {
-        if (!base.Mend(user, wire))
-            return false;
-
+        base.Mend(user, wire);
         ToggleValue(wire.Owner, true);
 
         return true;

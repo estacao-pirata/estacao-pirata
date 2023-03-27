@@ -11,7 +11,6 @@ using JetBrains.Annotations;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Player;
-using Robust.Shared.Utility;
 
 namespace Content.Server.Light.EntitySystems
 {
@@ -184,7 +183,7 @@ namespace Content.Server.Light.EntitySystems
             ActivationVerb verb = new()
             {
                 Text = Loc.GetString("expendable-light-start-verb"),
-                Icon = new SpriteSpecifier.Texture(new ResourcePath("/Textures/Interface/VerbIcons/light.svg.192dpi.png")),
+                IconTexture = "/Textures/Interface/VerbIcons/light.svg.192dpi.png",
                 Act = () => TryActivate(component)
             };
             args.Verbs.Add(verb);

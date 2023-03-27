@@ -1,5 +1,4 @@
 #nullable enable
-using System;
 using System.Threading.Tasks;
 using Content.Server.NodeContainer;
 using Content.Server.NodeContainer.Nodes;
@@ -311,8 +310,8 @@ namespace Content.IntegrationTests.Tests.Power
             });
 
             // Exact values can/will be off by a tick, add tolerance for that.
-            var tickPeriod = (float) gameTiming.TickPeriod.TotalSeconds;
-            var tickDev = 400 * tickPeriod * 1.1f;
+            var tickRate = (float) gameTiming.TickPeriod.TotalSeconds;
+            var tickDev = 400 * tickRate * 1.1f;
 
             server.RunTicks(1);
 
@@ -323,9 +322,7 @@ namespace Content.IntegrationTests.Tests.Power
                 Assert.That(consumer.ReceivedPower, Is.EqualTo(100).Within(0.1));
             });
 
-            // run for 0.25 seconds (minus the previous tick)
-            var ticks = (int) Math.Round(0.25 * gameTiming.TickRate) - 1;
-            server.RunTicks(ticks);
+            server.RunTicks(14);
 
             await server.WaitAssertion(() =>
             {
@@ -335,11 +332,7 @@ namespace Content.IntegrationTests.Tests.Power
                 Assert.That(consumer.ReceivedPower, Is.EqualTo(200).Within(tickDev));
             });
 
-
-
-            // run for 0.75 seconds
-            ticks = (int) Math.Round(0.75 * gameTiming.TickRate);
-            server.RunTicks(ticks);
+            server.RunTicks(45);
 
             await server.WaitAssertion(() =>
             {
@@ -394,8 +387,8 @@ namespace Content.IntegrationTests.Tests.Power
             });
 
             // Exact values can/will be off by a tick, add tolerance for that.
-            var tickPeriod = (float) gameTiming.TickPeriod.TotalSeconds;
-            var tickDev = 400 * tickPeriod * 1.1f;
+            var tickRate = (float) gameTiming.TickPeriod.TotalSeconds;
+            var tickDev = 400 * tickRate * 1.1f;
 
             server.RunTicks(1);
 
@@ -406,9 +399,7 @@ namespace Content.IntegrationTests.Tests.Power
                 Assert.That(consumer.ReceivedPower, Is.EqualTo(100).Within(0.1));
             });
 
-            // run for 0.25 seconds (minus the previous tick)
-            var ticks = (int) Math.Round(0.25 * gameTiming.TickRate) - 1;
-            server.RunTicks(ticks);
+            server.RunTicks(14);
 
             await server.WaitAssertion(() =>
             {
@@ -422,9 +413,7 @@ namespace Content.IntegrationTests.Tests.Power
                 Assert.That(battery.CurrentCharge, Is.EqualTo(startingCharge - spentExpected).Within(tickDev));
             });
 
-            // run for 0.75 seconds
-            ticks = (int) Math.Round(0.75 * gameTiming.TickRate);
-            server.RunTicks(ticks);
+            server.RunTicks(45);
 
             await server.WaitAssertion(() =>
             {
@@ -535,7 +524,6 @@ namespace Content.IntegrationTests.Tests.Power
             await using var pairTracker = await PoolManager.GetServerClient(new PoolSettings{NoClient = true, ExtraPrototypes = Prototypes});
             var server = pairTracker.Pair.Server;
             var mapManager = server.ResolveDependency<IMapManager>();
-            var gameTiming = server.ResolveDependency<IGameTiming>();
             var entityManager = server.ResolveDependency<IEntityManager>();
             PowerSupplierComponent supplier = default!;
             BatteryComponent battery = default!;
@@ -566,9 +554,7 @@ namespace Content.IntegrationTests.Tests.Power
                 netBattery.Efficiency = 0.5f;
             });
 
-            // run for 0.5 seconds
-            var ticks = (int) Math.Round(0.5 * gameTiming.TickRate);
-            server.RunTicks(ticks);
+            server.RunTicks(30); // 60 TPS, 0.5 seconds
 
             await server.WaitAssertion(() =>
             {
@@ -631,11 +617,11 @@ namespace Content.IntegrationTests.Tests.Power
             });
 
             // Run some ticks so everything is stable.
-            server.RunTicks(gameTiming.TickRate);
+            server.RunTicks(60);
 
             // Exact values can/will be off by a tick, add tolerance for that.
-            var tickPeriod = (float) gameTiming.TickPeriod.TotalSeconds;
-            var tickDev = 400 * tickPeriod * 1.1f;
+            var tickRate = (float) gameTiming.TickPeriod.TotalSeconds;
+            var tickDev = 400 * tickRate * 1.1f;
 
             await server.WaitAssertion(() =>
             {
@@ -706,11 +692,11 @@ namespace Content.IntegrationTests.Tests.Power
             });
 
             // Run some ticks so everything is stable.
-            server.RunTicks(gameTiming.TickRate);
+            server.RunTicks(60);
 
             // Exact values can/will be off by a tick, add tolerance for that.
-            var tickPeriod = (float) gameTiming.TickPeriod.TotalSeconds;
-            var tickDev = 400 * tickPeriod * 1.1f;
+            var tickRate = (float) gameTiming.TickPeriod.TotalSeconds;
+            var tickDev = 400 * tickRate * 1.1f;
 
             await server.WaitAssertion(() =>
             {

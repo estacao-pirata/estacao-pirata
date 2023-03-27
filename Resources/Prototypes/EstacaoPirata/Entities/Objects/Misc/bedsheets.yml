@@ -1,9 +1,0 @@
-﻿- type: entity
-  id: BedsheetBRA
-  parent: BedsheetBase
-  name: BRA bedsheet
-  components:
-  - type: Sprite
-    state: sheetBRA
-  - type: Clothing
-    sprite: EstacaoPirata/Clothing/Neck/Bedsheets/BRA.rsi

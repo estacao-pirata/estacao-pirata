@@ -47,6 +47,5 @@ namespace Content.Shared.Audio
         public bool Enabled { get; init; }
         public float Range { get; init; }
         public float Volume { get; init; }
-        public SoundSpecifier? Sound { get; init; }
     }
 }

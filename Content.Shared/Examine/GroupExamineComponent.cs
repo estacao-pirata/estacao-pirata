@@ -15,7 +15,6 @@ namespace Content.Shared.Examine
         [DataField("group")]
         public List<ExamineGroup> ExamineGroups = new()
         {
-            // TODO Remove hardcoded component names.
             new ExamineGroup()
             {
                 Components = new()
@@ -31,7 +30,7 @@ namespace Content.Shared.Examine
     public sealed class ExamineGroup
     {
         /// <summary>
-        ///     The title of the Examine Group. Localized string that gets added to the examine tooltip.
+        ///     The title of the Examine Group, the .
         /// </summary>
         [DataField("title")]
         [ViewVariables(VVAccess.ReadWrite)]
@@ -43,8 +42,6 @@ namespace Content.Shared.Examine
         [DataField("entries")]
         public List<ExamineEntry> Entries = new();
 
-        // TODO custom type serializer, or just make this work via some other automatic grouping process that doesn't
-        // rely on manually specifying component names in yaml.
         /// <summary>
         ///     A list of all components this ExamineGroup encompasses.
         /// </summary>
@@ -55,13 +52,13 @@ namespace Content.Shared.Examine
         ///     The icon path for the Examine Group.
         /// </summary>
         [DataField("icon")]
-        public SpriteSpecifier Icon = new SpriteSpecifier.Texture(new ResourcePath("/Textures/Interface/examine-star.png"));
+        public string Icon = "/Textures/Interface/examine-star.png";
 
         /// <summary>
         ///     The text shown in the context verb menu.
         /// </summary>
         [DataField("contextText")]
-        public string ContextText = "verb-examine-group-other";
+        public string ContextText = string.Empty;
 
         /// <summary>
         ///     Details shown when hovering over the button.

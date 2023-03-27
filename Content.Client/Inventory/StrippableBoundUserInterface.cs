@@ -1,30 +1,24 @@
-using System.Linq;
-using Content.Client.Cuffs;
+using Content.Client.Cuffs.Components;
 using Content.Client.Examine;
 using Content.Client.Hands;
 using Content.Client.Strip;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Controls;
 using Content.Client.UserInterface.Systems.Hands.Controls;
-using Content.Client.Verbs;
-using Content.Client.Verbs.UI;
-using Content.Shared.Cuffs;
-using Content.Shared.Cuffs.Components;
 using Content.Shared.Ensnaring.Components;
 using Content.Shared.Hands.Components;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Input;
 using Content.Shared.Inventory;
 using Content.Shared.Strip.Components;
-using Content.Shared.Verbs;
 using JetBrains.Annotations;
 using Robust.Client.GameObjects;
+using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Input;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Utility;
 using static Content.Client.Inventory.ClientInventorySystem;
 using static Robust.Client.UserInterface.Control;
 
@@ -37,10 +31,8 @@ namespace Content.Client.Inventory
 
         [Dependency] private readonly IPrototypeManager _protoMan = default!;
         [Dependency] private readonly IEntityManager _entMan = default!;
-        [Dependency] private readonly IUserInterfaceManager _ui = default!;
         private ExamineSystem _examine = default!;
         private InventorySystem _inv = default!;
-        private readonly SharedCuffableSystem _cuffable;
 
         [ViewVariables]
         private StrippingMenu? _strippingMenu;
@@ -53,7 +45,6 @@ namespace Content.Client.Inventory
             IoCManager.InjectDependencies(this);
             _examine = _entMan.EntitySysManager.GetEntitySystem<ExamineSystem>();
             _inv = _entMan.EntitySysManager.GetEntitySystem<InventorySystem>();
-            _cuffable = _entMan.System<SharedCuffableSystem>();
             var title = Loc.GetString("strippable-bound-user-interface-stripping-menu-title", ("ownerName", Identity.Name(Owner.Owner, _entMan)));
             _strippingMenu = new StrippingMenu(title, this);
             _strippingMenu.OnClose += Close;
@@ -163,7 +154,7 @@ namespace Content.Client.Inventory
             if (_entMan.TryGetComponent(hand.HeldEntity, out HandVirtualItemComponent? virt))
             {
                 button.Blocked = true;
-                if (_entMan.TryGetComponent(Owner.Owner, out CuffableComponent? cuff) && _cuffable.GetAllCuffs(cuff).Contains(virt.BlockingEntity))
+                if (_entMan.TryGetComponent(Owner.Owner, out CuffableComponent? cuff) && cuff.Container.Contains(virt.BlockingEntity))
                     button.BlockedRect.MouseFilter = MouseFilterMode.Ignore;
             }
 
@@ -179,16 +170,15 @@ namespace Content.Client.Inventory
             if (ev.Function == EngineKeyFunctions.Use)
             {
                 SendMessage(new StrippingSlotButtonPressed(slot.SlotName, slot is HandButton));
+            }
+            else if (ev.Function == ContentKeyFunctions.ExamineEntity && slot.Entity != null)
+            {
+                _examine.DoExamine(slot.Entity.Value);
                 return;
             }
 
-            if (slot.Entity == null)
+            if (ev.Function != EngineKeyFunctions.Use)
                 return;
-
-            if (ev.Function == ContentKeyFunctions.ExamineEntity)
-                _examine.DoExamine(slot.Entity.Value);
-            else if (ev.Function == EngineKeyFunctions.UseSecondary)
-                _ui.GetUIController<VerbMenuUIController>().OpenVerbMenu(slot.Entity.Value);
         }
 
         private void AddInventoryButton(string slotId, InventoryTemplatePrototype template, InventoryComponent inv)

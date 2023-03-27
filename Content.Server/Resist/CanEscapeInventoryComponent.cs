@@ -11,8 +11,8 @@ public sealed class CanEscapeInventoryComponent : Component
     [DataField("baseResistTime")]
     public float BaseResistTime = 5f;
 
-    [DataField("isEscaping")]
-    public bool IsEscaping;
-
+    /// <summary>
+    /// Cancellation token used to cancel the DoAfter if the mob is removed before it's complete
+    /// </summary>
     public CancellationTokenSource? CancelToken;
 }

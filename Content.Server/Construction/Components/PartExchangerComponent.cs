@@ -27,4 +27,6 @@ public sealed class PartExchangerComponent : Component
     public SoundSpecifier ExchangeSound = new SoundPathSpecifier("/Audio/Items/rped.ogg");
 
     public IPlayingAudioStream? AudioStream;
+
+    public CancellationTokenSource? Token;
 }

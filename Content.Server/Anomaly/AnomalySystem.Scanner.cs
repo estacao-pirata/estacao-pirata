@@ -1,7 +1,7 @@
 ﻿using Content.Server.Anomaly.Components;
+using Content.Server.DoAfter;
 using Content.Shared.Anomaly;
 using Content.Shared.Anomaly.Components;
-using Content.Shared.DoAfter;
 using Content.Shared.Interaction;
 using Robust.Server.GameObjects;
 using Robust.Shared.Utility;
@@ -17,7 +17,8 @@ public sealed partial class AnomalySystem
     {
         SubscribeLocalEvent<AnomalyScannerComponent, BoundUIOpenedEvent>(OnScannerUiOpened);
         SubscribeLocalEvent<AnomalyScannerComponent, AfterInteractEvent>(OnScannerAfterInteract);
-        SubscribeLocalEvent<AnomalyScannerComponent, DoAfterEvent>(OnDoAfter);
+        SubscribeLocalEvent<AnomalyScannerComponent, AnomalyScanFinishedEvent>(OnScannerDoAfterFinished);
+        SubscribeLocalEvent<AnomalyScannerComponent, AnomalyScanCancelledEvent>(OnScannerDoAfterCancelled);
 
         SubscribeLocalEvent<AnomalyShutdownEvent>(OnScannerAnomalyShutdown);
         SubscribeLocalEvent<AnomalySeverityChangedEvent>(OnScannerAnomalySeverityChanged);
@@ -72,29 +73,38 @@ public sealed partial class AnomalySystem
 
     private void OnScannerAfterInteract(EntityUid uid, AnomalyScannerComponent component, AfterInteractEvent args)
     {
+        if (component.TokenSource != null)
+            return;
+
         if (args.Target is not { } target)
             return;
         if (!HasComp<AnomalyComponent>(target))
             return;
 
-        _doAfter.DoAfter(new DoAfterEventArgs(args.User, component.ScanDoAfterDuration, target:target, used:uid)
+        component.TokenSource = new();
+        _doAfter.DoAfter(new DoAfterEventArgs(args.User, component.ScanDoAfterDuration, component.TokenSource.Token, target, uid)
         {
-            DistanceThreshold = 2f
+            DistanceThreshold = 2f,
+            UsedFinishedEvent = new AnomalyScanFinishedEvent(target, args.User),
+            UsedCancelledEvent = new AnomalyScanCancelledEvent()
         });
     }
 
-    private void OnDoAfter(EntityUid uid, AnomalyScannerComponent component, DoAfterEvent args)
+    private void OnScannerDoAfterFinished(EntityUid uid, AnomalyScannerComponent component, AnomalyScanFinishedEvent args)
     {
-        if (args.Cancelled || args.Handled || args.Args.Target == null)
-            return;
+        component.TokenSource = null;
 
         Audio.PlayPvs(component.CompleteSound, uid);
         Popup.PopupEntity(Loc.GetString("anomaly-scanner-component-scan-complete"), uid);
-        UpdateScannerWithNewAnomaly(uid, args.Args.Target.Value, component);
+        UpdateScannerWithNewAnomaly(uid, args.Anomaly, component);
 
-        if (TryComp<ActorComponent>(args.Args.User, out var actor)) _ui.TryOpen(uid, AnomalyScannerUiKey.Key, actor.PlayerSession);
+        if (TryComp<ActorComponent>(args.User, out var actor))
+            _ui.TryOpen(uid, AnomalyScannerUiKey.Key, actor.PlayerSession);
+    }
 
-        args.Handled = true;
+    private void OnScannerDoAfterCancelled(EntityUid uid, AnomalyScannerComponent component, AnomalyScanCancelledEvent args)
+    {
+        component.TokenSource = null;
     }
 
     public void UpdateScannerUi(EntityUid uid, AnomalyScannerComponent? component = null)

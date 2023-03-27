@@ -71,7 +71,14 @@ namespace Content.Shared.Verbs
         /// <summary>
         ///     Sprite of the icon that the user sees on the verb button.
         /// </summary>
-        public SpriteSpecifier? Icon;
+        public SpriteSpecifier? Icon
+        {
+            get => _icon ??=
+                IconTexture == null ? null : new SpriteSpecifier.Texture(new ResourcePath(IconTexture));
+            set => _icon = value;
+        }
+        [NonSerialized]
+        private SpriteSpecifier? _icon;
 
         /// <summary>
         ///     Name of the category this button is under. Used to group verbs in the context menu.
@@ -106,6 +113,11 @@ namespace Content.Shared.Verbs
         ///     Bigger is higher priority (appears first, gets executed preferentially).
         /// </remarks>
         public int Priority;
+
+        /// <summary>
+        ///     Raw texture path used to load the <see cref="Icon"/> for displaying on the client.
+        /// </summary>
+        public string? IconTexture;
 
         /// <summary>
         ///     If this is not null, and no icon or icon texture were specified, a sprite view of this entity will be
@@ -199,12 +211,11 @@ namespace Content.Shared.Verbs
             }
 
             // Finally, compare icon texture paths. Note that this matters for verbs that don't have any text (e.g., the rotate-verbs)
-            return string.Compare(Icon?.ToString(), otherVerb.Icon?.ToString(), StringComparison.CurrentCulture);
+            return string.Compare(IconTexture, otherVerb.IconTexture, StringComparison.CurrentCulture);
         }
 
-        // I hate this. Please somebody allow generics to be networked.
         /// <summary>
-        ///     Collection of all verb types,
+        ///     Collection of all verb types, along with string keys.
         /// </summary>
         /// <remarks>
         ///     Useful when iterating over verb types, though maybe this should be obtained and stored via reflection or
@@ -213,14 +224,13 @@ namespace Content.Shared.Verbs
         /// </remarks>
         public static List<Type> VerbTypes = new()
         {
-            typeof(Verb),
-            typeof(InteractionVerb),
-            typeof(UtilityVerb),
-            typeof(InnateVerb),
-            typeof(AlternativeVerb),
-            typeof(ActivationVerb),
-            typeof(ExamineVerb),
-            typeof(EquipmentVerb) 
+            { typeof(Verb) },
+            { typeof(InteractionVerb) },
+            { typeof(UtilityVerb) },
+            { typeof(InnateVerb)},
+            { typeof(AlternativeVerb) },
+            { typeof(ActivationVerb) },
+            { typeof(ExamineVerb) }
         };
     }
 
@@ -334,16 +344,5 @@ namespace Content.Shared.Verbs
         public override bool CloseMenuDefault => false; // for examine verbs, this will close the examine tooltip.
 
         public bool ShowOnExamineTooltip = true;
-    }
-
-    /// <summary>
-    ///     Verbs specifically for interactions that occur with equipped entities. These verbs should be accessible via
-    ///     the stripping UI, and may optionally also be accessible via a verb on the equipee if the via inventory relay
-    ///     events.get-verbs event.
-    /// </summary>
-    [Serializable, NetSerializable]
-    public sealed class EquipmentVerb : Verb
-    {
-        public override int TypePriority => 5;
     }
 }

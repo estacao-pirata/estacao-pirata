@@ -121,14 +121,3 @@
         amount: 1
       - id: AntiPoisonMedipen
         amount: 1
-
-- type: entity
-  id: StimkitFilled
-  suffix: Stimkit, Filled
-  parent: Medkit
-  components:
-  - type: StorageFill
-    contents:
-      - id: StimpackMini
-        amount: 6
-        

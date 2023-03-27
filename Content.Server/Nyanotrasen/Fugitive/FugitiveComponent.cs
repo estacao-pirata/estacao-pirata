@@ -7,8 +7,5 @@ namespace Content.Server.Fugitive
     {
         [DataField("spawnSound")]
         public SoundSpecifier SpawnSoundPath = new SoundPathSpecifier("/Audio/Effects/clang.ogg");
-
-        [DataField("firstMindAdded")]
-        public bool FirstMindAdded = false;
     }
 }

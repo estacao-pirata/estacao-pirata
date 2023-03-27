@@ -3,7 +3,6 @@ using Content.Shared.Database;
 using Content.Shared.Verbs;
 using Robust.Server.GameObjects;
 using Robust.Shared.Console;
-using Robust.Shared.Utility;
 
 namespace Content.Server.Administration.Notes;
 
@@ -34,7 +33,7 @@ public sealed class AdminNotesSystem : EntitySystem
         {
             Text = Loc.GetString("admin-notes-verb-text"),
             Category = VerbCategory.Admin,
-            Icon = new SpriteSpecifier.Texture(new ResourcePath("/Textures/Interface/VerbIcons/examine.svg.192dpi.png")),
+            IconTexture = "/Textures/Interface/VerbIcons/examine.svg.192dpi.png",
             Act = () => _console.RemoteExecuteCommand(user, $"{OpenAdminNotesCommand.CommandName} \"{target.UserId}\""),
             Impact = LogImpact.Low
         };

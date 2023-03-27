@@ -319,9 +319,6 @@ namespace Content.Server.Construction
                 newConstruction.InteractionQueue.Enqueue(ev);
             }
 
-            if (newConstruction.InteractionQueue.Count > 0 && _queuedUpdates.Add(newUid))
-                    _constructionUpdateQueue.Enqueue(newUid);
-
             // Transform transferring.
             var newTransform = Transform(newUid);
             newTransform.LocalRotation = transform.LocalRotation;

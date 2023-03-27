@@ -17,8 +17,6 @@
           - material: Steel
             amount: 2
             doAfter: 1
-          - material: Cable
-            amount: 1
   - node: LeverNode
     entity: TwoWayLever
     edges:
@@ -39,8 +37,6 @@
             - material: Steel
               amount: 1
               doAfter: 2.0
-            - material: Cable
-              amount: 1
     - node: LightSwitchNode
       entity: ApcNetSwitch
       edges:
@@ -65,8 +61,6 @@
             - material: Steel
               amount: 1
               doAfter: 2.0
-            - material: Cable
-              amount: 1
     - node: SignalSwitchNode
       entity: SignalSwitch
       edges:
@@ -79,7 +73,7 @@
               prototype: SheetSteel1
               amount: 1
             - !type:DeleteEntity {}
-
+            
 - type: constructionGraph
   id: SignalButtonGraph
   start: start
@@ -91,8 +85,6 @@
             - material: Steel
               amount: 1
               doAfter: 2.0
-            - material: Cable
-              amount: 1
     - node: SignalButtonNode
       entity: SignalButton
       edges:
@@ -105,7 +97,7 @@
               prototype: SheetSteel1
               amount: 1
             - !type:DeleteEntity {}
-
+            
 - type: constructionGraph
   id: LightSwitchDirectionalGraph
   start: start
@@ -117,8 +109,6 @@
             - material: Steel
               amount: 1
               doAfter: 2.0
-            - material: Cable
-              amount: 1
     - node: LightSwitchDirectionalNode
       entity: ApcNetSwitchDirectional
       edges:
@@ -143,8 +133,6 @@
             - material: Steel
               amount: 1
               doAfter: 2.0
-            - material: Cable
-              amount: 1
     - node: SignalSwitchDirectionalNode
       entity: SignalSwitchDirectional
       edges:
@@ -157,7 +145,7 @@
               prototype: SheetSteel1
               amount: 1
             - !type:DeleteEntity {}
-
+            
 - type: constructionGraph
   id: SignalButtonDirectionalGraph
   start: start
@@ -169,8 +157,6 @@
             - material: Steel
               amount: 1
               doAfter: 2.0
-            - material: Cable
-              amount: 1
     - node: SignalButtonDirectionalNode
       entity: SignalButtonDirectional
       edges:

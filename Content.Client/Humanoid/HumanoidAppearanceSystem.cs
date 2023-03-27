@@ -1,4 +1,3 @@
-using System.Linq;
 using Content.Shared.Ghost;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Markings;
@@ -43,7 +42,6 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         component.PermanentlyHidden = new(state.PermanentlyHidden);
 
         component.CustomBaseLayers = state.CustomBaseLayers.ShallowClone();
-
         UpdateLayers(component, sprite);
 
         ApplyMarkingSet(uid, state.Markings, component, sprite);
@@ -136,66 +134,22 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         var customBaseLayers = new Dictionary<HumanoidVisualLayers, CustomBaseLayerInfo>();
 
         var speciesPrototype = _prototypeManager.Index<SpeciesPrototype>(profile.Species);
-        var markings = new MarkingSet(speciesPrototype.MarkingPoints, _markingManager, _prototypeManager);
-
-        // Add markings that doesn't need coloring. We store them until we add all other markings that doesn't need it.
-        var markingFColored = new Dictionary<Marking, MarkingPrototype>();
-        foreach (var marking in profile.Appearance.Markings)
-        {
-            if (_markingManager.TryGetMarking(marking, out var prototype))
-            {
-                if (!prototype.ForcedColoring)
-                {
-                    markings.AddBack(prototype.MarkingCategory, marking);
-                }
-                else
-                {
-                    markingFColored.Add(marking, prototype);
-                }
-            }
-        }
+        var markings = new MarkingSet(profile.Appearance.Markings, speciesPrototype.MarkingPoints, _markingManager,
+            _prototypeManager);
+        markings.EnsureDefault(profile.Appearance.SkinColor, _markingManager);
 
         // legacy: remove in the future?
-        //markings.RemoveCategory(MarkingCategories.Hair);
-        //markings.RemoveCategory(MarkingCategories.FacialHair);
+        markings.RemoveCategory(MarkingCategories.Hair);
+        markings.RemoveCategory(MarkingCategories.FacialHair);
 
-        // We need to ensure hair before applying it or coloring can try depend on markings that can be invalid
-        var hairColor = _markingManager.MustMatchSkin(profile.Species, HumanoidVisualLayers.Hair, _prototypeManager)
-            ? profile.Appearance.SkinColor : profile.Appearance.HairColor;
-        var hair = new Marking(profile.Appearance.HairStyleId,
-            new[] { hairColor });
-    
-        var facialHairColor = _markingManager.MustMatchSkin(profile.Species, HumanoidVisualLayers.FacialHair, _prototypeManager)
-            ? profile.Appearance.SkinColor : profile.Appearance.FacialHairColor;
+        var hair = new Marking(profile.Appearance.HairStyleId, new[] { profile.Appearance.HairColor });
+        markings.AddBack(MarkingCategories.Hair, hair);
+
         var facialHair = new Marking(profile.Appearance.FacialHairStyleId,
-            new[] { facialHairColor });
+            new[] { profile.Appearance.FacialHairColor });
+        markings.AddBack(MarkingCategories.FacialHair, facialHair);
 
-        if (_markingManager.CanBeApplied(profile.Species, hair, _prototypeManager))
-        {
-            markings.AddBack(MarkingCategories.Hair, hair);
-        }
-        if (_markingManager.CanBeApplied(profile.Species, facialHair, _prototypeManager))
-        {
-            markings.AddBack(MarkingCategories.FacialHair, facialHair);
-        }
-        
-        // Finally adding marking with forced colors
-        foreach (var (marking, prototype) in markingFColored)
-        {
-            var markingColors = MarkingColoring.GetMarkingLayerColors(
-                prototype,
-                profile.Appearance.SkinColor,
-                profile.Appearance.EyeColor,
-                markings
-            );
-            markings.AddBack(prototype.MarkingCategory, new Marking(marking.MarkingId, markingColors));
-        }
-        
-        markings.EnsureSpecies(profile.Species, profile.Appearance.SkinColor, _markingManager, _prototypeManager);
-        markings.EnsureDefault(
-            profile.Appearance.SkinColor, 
-            profile.Appearance.EyeColor,
-            _markingManager);
+        markings.FilterSpecies(profile.Species, _markingManager, _prototypeManager);
 
         DebugTools.Assert(uid.IsClientSide());
 
@@ -285,6 +239,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
             spriteComp.RemoveLayer(index);
         }
     }
+
     private void ApplyMarking(EntityUid uid,
         MarkingPrototype markingPrototype,
         IReadOnlyList<Color>? colors,
@@ -318,19 +273,22 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
             }
 
             sprite.LayerSetVisible(layerId, visible);
-            
+
             if (!visible || setting == null) // this is kinda implied
             {
                 continue;
             }
 
-            if (colors != null) 
+            if (markingPrototype.FollowSkinColor || colors == null || setting.MarkingsMatchSkin)
             {
-                sprite.LayerSetColor(layerId, colors[j]);
+                var skinColor = humanoid.SkinColor;
+                skinColor.A = setting.LayerAlpha;
+
+                sprite.LayerSetColor(layerId, skinColor);
             }
             else
             {
-                sprite.LayerSetColor(layerId, Color.White);
+                sprite.LayerSetColor(layerId, colors[j]);
             }
         }
     }

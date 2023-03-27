@@ -1,4 +1,4 @@
-using Content.Shared.DoAfter;
+using Content.Client.Resources;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Shared.Enums;
@@ -54,11 +54,11 @@ public sealed class DoAfterOverlay : Overlay
             var index = 0;
             var worldMatrix = Matrix3.CreateTranslation(worldPosition);
 
-            foreach (var doAfter in comp.DoAfters.Values)
+            foreach (var (_, doAfter) in comp.DoAfters)
             {
-                var elapsed = doAfter.Elapsed;
+                var elapsed = doAfter.Accumulator;
                 var displayRatio = MathF.Min(1.0f,
-                    (float)elapsed.TotalSeconds / doAfter.Delay);
+                    elapsed / doAfter.Delay);
 
                 Matrix3.Multiply(scaleMatrix, worldMatrix, out var scaledWorld);
                 Matrix3.Multiply(rotationMatrix, scaledWorld, out var matty);
@@ -94,7 +94,7 @@ public sealed class DoAfterOverlay : Overlay
                 // if we're cancelled then flick red / off.
                 if (cancelled)
                 {
-                    var flash = Math.Floor((float)doAfter.CancelledElapsed.TotalSeconds / flashTime) % 2 == 0;
+                    var flash = Math.Floor(doAfter.CancelledAccumulator / flashTime) % 2 == 0;
                     color = new Color(1f, 0f, 0f, flash ? 1f : 0f);
                 }
                 else

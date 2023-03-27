@@ -47,13 +47,6 @@ namespace Content.Server.GameTicking
         [ViewVariables]
         private bool _startingRound;
 
-        /// <summary>
-        /// If we failed to start a game mode, and fell back to the fallback gamemode,
-        /// we'll give the next round another try at the default gamemode.
-        /// </summary>
-        [ViewVariables]
-        private bool _resetFromFallback;
-
         [ViewVariables]
         private GameRunLevel _runLevel;
 
@@ -187,8 +180,24 @@ namespace Content.Server.GameTicking
 
             RoundLengthMetric.Set(0);
 
+            var playerIds = _playerGameStatuses.Keys.Select(player => player.UserId).ToArray();
+            var serverName = _configurationManager.GetCVar(CCVars.AdminLogsServerName);
+
+            // TODO FIXME AAAAAAAAAAAAAAAAAAAH THIS IS BROKEN
+            // Task.Run as a terrible dirty workaround to avoid synchronization context deadlock from .Result here.
+            // This whole setup logic should be made asynchronous so we can properly wait on the DB AAAAAAAAAAAAAH
+            var task = Task.Run(async () =>
+            {
+                var server = await _db.AddOrGetServer(serverName);
+                return await _db.AddNewRound(server, playerIds);
+            });
+
+            _taskManager.BlockWaitOnTask(task);
+            RoundId = task.GetAwaiter().GetResult();
+
             var startingEvent = new RoundStartingEvent(RoundId);
             RaiseLocalEvent(startingEvent);
+
             var readyPlayers = new List<IPlayerSession>();
             var readyPlayerProfiles = new Dictionary<NetUserId, HumanoidCharacterProfile>();
 
@@ -383,7 +392,6 @@ namespace Content.Server.GameTicking
             LobbySong = _robustRandom.Pick(_lobbyMusicCollection.PickFiles).ToString();
             RandomizeLobbyBackground();
             ResettingCleanup();
-            IncrementRoundNumber();
 
             if (!LobbyEnabled)
             {
@@ -396,14 +404,7 @@ namespace Content.Server.GameTicking
                 else
                     _roundStartTime = _gameTiming.CurTime + LobbyDuration;
 
-                if (_resetFromFallback)
-                {
-                    SetGamePreset(_cfg.GetCVar(CCVars.GameLobbyDefaultPreset));
-                    _resetFromFallback = false;
-                }
-
                 SendStatusToAll();
-                UpdateInfoText();
 
                 ReqWindowAttentionAll();
             }
@@ -437,8 +438,7 @@ namespace Content.Server.GameTicking
 #endif
                 // TODO: Maybe something less naive here?
                 // FIXME: Actually, definitely.
-                if (!Deleted(entity) && !Terminating(entity))
-                    EntityManager.DeleteEntity(entity);
+                EntityManager.DeleteEntity(entity);
 #if EXCEPTION_TOLERANCE
                 }
                 catch (Exception e)

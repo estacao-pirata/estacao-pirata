@@ -1,4 +1,5 @@
-﻿using Content.Server.Atmos;
+﻿using System.Threading;
+using Content.Server.Atmos;
 using Content.Shared.Mech.Components;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
@@ -30,6 +31,8 @@ public sealed class MechComponent : SharedMechComponent
     /// </summary>
     [DataField("batteryRemovalDelay")]
     public float BatteryRemovalDelay = 2;
+
+    public CancellationTokenSource? EntryTokenSource;
 
     /// <summary>
     /// Whether or not the mech is airtight.

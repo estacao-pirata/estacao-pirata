@@ -32,6 +32,3 @@
   - type: UpgradePowerDraw
     powerDrawMultiplier: 0.75
     scaling: Exponential
-  - type: GuideHelp
-    guides:
-    - Chemistry

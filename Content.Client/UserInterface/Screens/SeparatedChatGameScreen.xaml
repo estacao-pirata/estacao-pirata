@@ -13,10 +13,7 @@
     VerticalExpand="False"
     VerticalAlignment="Bottom"
     HorizontalAlignment="Center">
-    <SplitContainer Name="ScreenContainer"
-                    HorizontalExpand="True"
-                    VerticalExpand="True"
-                    SplitWidth="0">
+    <SplitContainer Name="ScreenContainer" HorizontalExpand="True" VerticalExpand="True">
         <LayoutContainer Name="ViewportContainer" HorizontalExpand="True" VerticalExpand="True">
             <controls:MainViewport Name="MainViewport"/>
             <widgets:GhostGui Name="Ghost" Access="Protected" />

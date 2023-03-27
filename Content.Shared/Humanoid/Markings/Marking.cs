@@ -1,6 +1,4 @@
 using System.Linq;
-using Content.Shared.Humanoid.Prototypes;
-using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Humanoid.Markings
@@ -70,14 +68,6 @@ namespace Content.Shared.Humanoid.Markings
 
         public void SetColor(int colorIndex, Color color) =>
             _markingColors[colorIndex] = color;
-
-        public void SetColor(Color color)
-        {
-            for (int i = 0; i < _markingColors.Count; i++)
-            {
-                _markingColors[i] = color;
-            }
-        }
 
         public int CompareTo(Marking? marking)
         {

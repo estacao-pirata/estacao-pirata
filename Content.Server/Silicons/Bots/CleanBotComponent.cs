@@ -1,3 +1,4 @@
+using System.Threading;
 using Robust.Shared.Audio;
 
 namespace Content.Server.Silicons.Bots
@@ -5,7 +6,7 @@ namespace Content.Server.Silicons.Bots
     [RegisterComponent]
     public sealed class CleanBotComponent : Component
     {
-        public bool IsMopping = false;
+        public CancellationTokenSource? CancelToken;
 
         /// <summary>
         /// Used in NPC logic.

@@ -10,7 +10,6 @@
       - id: HandLabeler
       - id: PillMindbreakerToxin
       - id: BoxFolderGrey
-      - id: RubberStampMantis
 
 - type: entity
   noSpawn: true
@@ -20,11 +19,10 @@
     - type: StorageFill
       contents:
       - id: BoxSurvival
+      - id: Lighter
+      - id: CigPackBlack
       - id: BoxForensicPad
       - id: HandLabeler
-      - id: PillMindbreakerToxin
-      - id: BoxFolderGrey
-      - id: RubberStampMantis
 
 - type: entity
   noSpawn: true
@@ -34,11 +32,10 @@
     - type: StorageFill
       contents:
       - id: BoxSurvival
+      - id: Lighter
+      - id: CigPackBlack
       - id: BoxForensicPad
       - id: HandLabeler
-      - id: PillMindbreakerToxin
-      - id: BoxFolderGrey
-      - id: RubberStampMantis
 
 - type: entity
   noSpawn: true

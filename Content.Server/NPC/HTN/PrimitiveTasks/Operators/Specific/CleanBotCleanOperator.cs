@@ -27,7 +27,7 @@ public sealed class CleanBotCleanOperator : HTNOperator
         if (!_entManager.TryGetComponent<CleanBotComponent>(owner, out var cleanbot))
             return HTNOperatorStatus.Failed;
 
-        if (cleanbot.IsMopping)
+        if (cleanbot.CancelToken != null)
             return HTNOperatorStatus.Continuing;
 
         if (cleanbot.CleanTarget == null)

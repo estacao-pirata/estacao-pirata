@@ -1,7 +1,6 @@
 using Content.Server.Cargo.Systems;
 using Content.Server.Power.Components;
 using Content.Shared.Examine;
-using Content.Shared.Rejuvenate;
 using JetBrains.Annotations;
 
 namespace Content.Server.Power.EntitySystems
@@ -14,22 +13,10 @@ namespace Content.Server.Power.EntitySystems
             base.Initialize();
 
             SubscribeLocalEvent<ExaminableBatteryComponent, ExaminedEvent>(OnExamine);
-            SubscribeLocalEvent<PowerNetworkBatteryComponent, RejuvenateEvent>(OnNetBatteryRejuvenate);
-            SubscribeLocalEvent<BatteryComponent, RejuvenateEvent>(OnBatteryRejuvenate);
             SubscribeLocalEvent<BatteryComponent, PriceCalculationEvent>(CalculateBatteryPrice);
 
             SubscribeLocalEvent<NetworkBatteryPreSync>(PreSync);
             SubscribeLocalEvent<NetworkBatteryPostSync>(PostSync);
-        }
-
-        private void OnNetBatteryRejuvenate(EntityUid uid, PowerNetworkBatteryComponent component, RejuvenateEvent args)
-        {
-            component.NetworkBattery.CurrentStorage = component.NetworkBattery.Capacity;
-        }
-
-        private void OnBatteryRejuvenate(EntityUid uid, BatteryComponent component, RejuvenateEvent args)
-        {
-            component.CurrentCharge = component.MaxCharge;
         }
 
         private void OnExamine(EntityUid uid, ExaminableBatteryComponent component, ExaminedEvent args)

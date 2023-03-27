@@ -174,6 +174,8 @@ namespace Content.Server.Nuke
         /// </summary>
         public bool PlayedAlertSound = false;
 
+        public CancellationToken? DisarmCancelToken = null;
+
         public IPlayingAudioStream? AlertAudioStream = default;
     }
 }

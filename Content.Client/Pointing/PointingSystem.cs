@@ -4,7 +4,6 @@ using Content.Shared.Mobs.Systems;
 using Content.Shared.Pointing;
 using Content.Shared.Verbs;
 using Robust.Client.GameObjects;
-using Robust.Shared.Utility;
 using DrawDepth = Content.Shared.DrawDepth.DrawDepth;
 
 namespace Content.Client.Pointing;
@@ -55,7 +54,7 @@ public sealed class PointingSystem : SharedPointingSystem
         Verb verb = new()
         {
             Text = Loc.GetString("pointing-verb-get-data-text"),
-            Icon = new SpriteSpecifier.Texture(new ResourcePath("/Textures/Interface/VerbIcons/point.svg.192dpi.png")),
+            IconTexture = "/Textures/Interface/VerbIcons/point.svg.192dpi.png",
             ClientExclusive = true,
             Act = () => RaiseNetworkEvent(new PointingAttemptEvent(args.Target))
         };

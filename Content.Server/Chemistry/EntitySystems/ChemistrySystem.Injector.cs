@@ -1,20 +1,24 @@
 using Content.Server.Body.Components;
 using Content.Server.Chemistry.Components;
 using Content.Server.Chemistry.Components.SolutionManager;
+using Content.Server.CombatMode;
+using Content.Server.DoAfter;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.Database;
 using Content.Shared.FixedPoint;
+using Content.Shared.Hands;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
-using Content.Shared.DoAfter;
+using Robust.Shared.GameStates;
+using Robust.Shared.Player;
+using System.Threading;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Verbs;
-using Content.Shared.Tag;
-using Content.Shared.Popups;
-using Robust.Shared.GameStates;
 using Robust.Server.GameObjects;
+using Content.Shared.Popups;
+using Content.Shared.Tag;
 
 namespace Content.Server.Chemistry.EntitySystems;
 
@@ -29,11 +33,14 @@ public sealed partial class ChemistrySystem
     {
         SubscribeLocalEvent<InjectorComponent, GetVerbsEvent<AlternativeVerb>>(AddSetTransferVerbs);
         SubscribeLocalEvent<InjectorComponent, SolutionChangedEvent>(OnSolutionChange);
-        SubscribeLocalEvent<InjectorComponent, DoAfterEvent>(OnInjectDoAfter);
+        SubscribeLocalEvent<InjectorComponent, HandDeselectedEvent>(OnInjectorDeselected);
         SubscribeLocalEvent<InjectorComponent, ComponentStartup>(OnInjectorStartup);
         SubscribeLocalEvent<InjectorComponent, UseInHandEvent>(OnInjectorUse);
         SubscribeLocalEvent<InjectorComponent, AfterInteractEvent>(OnInjectorAfterInteract);
         SubscribeLocalEvent<InjectorComponent, ComponentGetState>(OnInjectorGetState);
+
+        SubscribeLocalEvent<InjectionCompleteEvent>(OnInjectionComplete);
+        SubscribeLocalEvent<InjectionCancelledEvent>(OnInjectionCancelled);
     }
 
     private void AddSetTransferVerbs(EntityUid uid, InjectorComponent component, GetVerbsEvent<AlternativeVerb> args)
@@ -57,7 +64,7 @@ public sealed partial class ChemistrySystem
             verb.Act = () =>
             {
                 component.TransferAmount = FixedPoint2.New(amount);
-                _popup.PopupEntity(Loc.GetString("comp-solution-transfer-set-amount", ("amount", amount)), args.User, args.User);
+                args.User.PopupMessage(Loc.GetString("comp-solution-transfer-set-amount", ("amount", amount)));
             };
 
             // we want to sort by size, not alphabetically by the verb text.
@@ -68,7 +75,18 @@ public sealed partial class ChemistrySystem
         }
     }
 
-    private void UseInjector(EntityUid target, EntityUid user, EntityUid injector, InjectorComponent component)
+    private static void OnInjectionCancelled(InjectionCancelledEvent ev)
+    {
+        ev.Component.CancelToken = null;
+    }
+
+    private void OnInjectionComplete(InjectionCompleteEvent ev)
+    {
+        ev.Component.CancelToken = null;
+        UseInjector(ev.Target, ev.User, ev.Component);
+    }
+
+    private void UseInjector(EntityUid target, EntityUid user, InjectorComponent component)
     {
         if (_entMan.TryGetComponent<TagComponent>(target, out var tag))
         {
@@ -84,20 +102,20 @@ public sealed partial class ChemistrySystem
         {
             if (_solutions.TryGetInjectableSolution(target, out var injectableSolution))
             {
-                TryInject(component, injector, target, injectableSolution, user, false);
+                TryInject(component, target, injectableSolution, user, false);
             }
             else if (_solutions.TryGetRefillableSolution(target, out var refillableSolution))
             {
-                TryInject(component, injector, target, refillableSolution, user, true);
+                TryInject(component, target, refillableSolution, user, true);
             }
             else if (TryComp<BloodstreamComponent>(target, out var bloodstream))
             {
-                TryInjectIntoBloodstream(component, injector, target, bloodstream, user);
+                TryInjectIntoBloodstream(component, bloodstream, user);
             }
             else
             {
                 _popup.PopupEntity(Loc.GetString("injector-component-cannot-transfer-message",
-                    ("target", Identity.Entity(target, EntityManager))), injector, user);
+                    ("target", Identity.Entity(target, EntityManager))), component.Owner, user);
             }
         }
         else if (component.ToggleState == SharedInjectorComponent.InjectorToggleMode.Draw)
@@ -105,21 +123,27 @@ public sealed partial class ChemistrySystem
             // Draw from a bloodstream, if the target has that
             if (TryComp<BloodstreamComponent>(target, out var stream))
             {
-                TryDraw(component, injector, target, stream.BloodSolution, user, stream);
+                TryDraw(component, target, stream.BloodSolution, user, stream);
                 return;
             }
 
             // Draw from an object (food, beaker, etc)
             if (_solutions.TryGetDrawableSolution(target, out var drawableSolution))
             {
-                TryDraw(component, injector, target, drawableSolution, user);
+                TryDraw(component, target, drawableSolution, user);
             }
             else
             {
                 _popup.PopupEntity(Loc.GetString("injector-component-cannot-draw-message",
-                    ("target", Identity.Entity(target, EntityManager))), injector, user);
+                    ("target", Identity.Entity(target, EntityManager))), component.Owner, user);
             }
         }
+    }
+
+    private static void OnInjectorDeselected(EntityUid uid, InjectorComponent component, HandDeselectedEvent args)
+    {
+        component.CancelToken?.Cancel();
+        component.CancelToken = null;
     }
 
     private void OnSolutionChange(EntityUid uid, InjectorComponent component, SolutionChangedEvent args)
@@ -137,51 +161,44 @@ public sealed partial class ChemistrySystem
         args.State = new SharedInjectorComponent.InjectorComponentState(currentVolume, maxVolume, component.ToggleState);
     }
 
-    private void OnInjectDoAfter(EntityUid uid, InjectorComponent component, DoAfterEvent args)
-    {
-        if (args.Cancelled)
-        {
-            component.IsInjecting = false;
-            return;
-        }
-
-        if (args.Handled || args.Args.Target == null)
-            return;
-
-        UseInjector(args.Args.Target.Value, args.Args.User, uid, component);
-
-        component.IsInjecting = false;
-        args.Handled = true;
-    }
-
     private void OnInjectorAfterInteract(EntityUid uid, InjectorComponent component, AfterInteractEvent args)
     {
         if (args.Handled || !args.CanReach)
             return;
 
-        //Make sure we have the attacking entity
-        if (args.Target is not { Valid: true } target || !HasComp<SolutionContainerManagerComponent>(uid))
+        if (component.CancelToken != null)
+        {
+            args.Handled = true;
             return;
+        }
+
+        //Make sure we have the attacking entity
+        if (args.Target is not { Valid: true } target ||
+            !HasComp<SolutionContainerManagerComponent>(uid))
+        {
+            return;
+        }
 
         // Is the target a mob? If yes, use a do-after to give them time to respond.
-        if (HasComp<MobStateComponent>(target) || HasComp<BloodstreamComponent>(target))
+        if (HasComp<MobStateComponent>(target) ||
+            HasComp<BloodstreamComponent>(target))
         {
             // Are use using an injector capible of targeting a mob?
             if (component.IgnoreMobs)
                 return;
 
-            InjectDoAfter(component, args.User, target, uid);
+            InjectDoAfter(component, args.User, target);
             args.Handled = true;
             return;
         }
 
-        UseInjector(target, args.User, uid, component);
+        UseInjector(target, args.User, component);
         args.Handled = true;
     }
 
     private void OnInjectorStartup(EntityUid uid, InjectorComponent component, ComponentStartup args)
     {
-        // Necessary for the Client-side InjectorStatusControl to get the appropriate Volume values.
+        // ???? why ?????
         Dirty(component);
     }
 
@@ -190,14 +207,14 @@ public sealed partial class ChemistrySystem
         if (args.Handled)
             return;
 
-        Toggle(component, args.User, uid);
+        Toggle(component, args.User);
         args.Handled = true;
     }
 
     /// <summary>
     /// Toggle between draw/inject state if applicable
     /// </summary>
-    private void Toggle(InjectorComponent component, EntityUid user, EntityUid injector)
+    private void Toggle(InjectorComponent component, EntityUid user)
     {
         if (component.InjectOnly)
         {
@@ -219,22 +236,18 @@ public sealed partial class ChemistrySystem
                 throw new ArgumentOutOfRangeException();
         }
 
-        _popup.PopupEntity(Loc.GetString(msg), injector, user);
+        _popup.PopupEntity(Loc.GetString(msg), component.Owner, user);
     }
 
     /// <summary>
     /// Send informative pop-up messages and wait for a do-after to complete.
     /// </summary>
-    private void InjectDoAfter(InjectorComponent component, EntityUid user, EntityUid target, EntityUid injector)
+    private void InjectDoAfter(InjectorComponent component, EntityUid user, EntityUid target)
     {
         // Create a pop-up for the user
         _popup.PopupEntity(Loc.GetString("injector-component-injecting-user"), target, user);
 
-        if (!_solutions.TryGetSolution(injector, InjectorComponent.SolutionName, out var solution))
-            return;
-
-        //If it found it's injecting
-        if (component.IsInjecting)
+        if (!_solutions.TryGetSolution(component.Owner, InjectorComponent.SolutionName, out var solution))
             return;
 
         var actualDelay = MathF.Max(component.Delay, 1f);
@@ -242,9 +255,7 @@ public sealed partial class ChemistrySystem
         // Injections take 1 second longer per additional 5u
         actualDelay += (float) component.TransferAmount / component.Delay - 1;
 
-        var isTarget = user != target;
-
-        if (isTarget)
+        if (user != target)
         {
             // Create a pop-up for the target
             var userName = Identity.Entity(user, EntityManager);
@@ -276,52 +287,62 @@ public sealed partial class ChemistrySystem
             actualDelay /= 2;
 
             if (component.ToggleState == SharedInjectorComponent.InjectorToggleMode.Inject)
-                _adminLogger.Add(LogType.Ingestion, $"{EntityManager.ToPrettyString(user):user} is attempting to inject themselves with a solution {SolutionContainerSystem.ToPrettyString(solution):solution}.");
+                _adminLogger.Add(LogType.Ingestion,
+                    $"{EntityManager.ToPrettyString(user):user} is attempting to inject themselves with a solution {SolutionContainerSystem.ToPrettyString(solution):solution}.");
         }
 
-        component.IsInjecting = true;
+        component.CancelToken = new CancellationTokenSource();
 
-        _doAfter.DoAfter(new DoAfterEventArgs(user, actualDelay, target:target, used:injector)
+        _doAfter.DoAfter(new DoAfterEventArgs(user, actualDelay, component.CancelToken.Token, target)
         {
-            RaiseOnTarget = isTarget,
-            RaiseOnUser = !isTarget,
             BreakOnUserMove = true,
             BreakOnDamage = true,
             BreakOnStun = true,
             BreakOnTargetMove = true,
-            MovementThreshold = 0.1f
+            MovementThreshold = 0.1f,
+            BroadcastFinishedEvent = new InjectionCompleteEvent()
+            {
+                Component = component,
+                User = user,
+                Target = target,
+            },
+            BroadcastCancelledEvent = new InjectionCancelledEvent()
+            {
+                Component = component,
+            }
         });
     }
 
-    private void TryInjectIntoBloodstream(InjectorComponent component, EntityUid injector, EntityUid target, BloodstreamComponent targetBloodstream, EntityUid user)
+    private void TryInjectIntoBloodstream(InjectorComponent component, BloodstreamComponent targetBloodstream, EntityUid user)
     {
         // Get transfer amount. May be smaller than _transferAmount if not enough room
         var realTransferAmount = FixedPoint2.Min(component.TransferAmount, targetBloodstream.ChemicalSolution.AvailableVolume);
 
         if (realTransferAmount <= 0)
         {
-            _popup.PopupEntity(Loc.GetString("injector-component-cannot-inject-message", ("target", Identity.Entity(target, EntityManager))), injector, user);
+            _popup.PopupEntity(Loc.GetString("injector-component-cannot-inject-message", ("target", Identity.Entity(targetBloodstream.Owner, EntityManager))),
+                component.Owner, user);
             return;
         }
 
         // Move units from attackSolution to targetSolution
         var removedSolution = _solutions.SplitSolution(user, targetBloodstream.ChemicalSolution, realTransferAmount);
 
-        _blood.TryAddToChemicals(target, removedSolution, targetBloodstream);
+        _blood.TryAddToChemicals((targetBloodstream).Owner, removedSolution, targetBloodstream);
 
-        _reactiveSystem.DoEntityReaction(target, removedSolution, ReactionMethod.Injection);
+        removedSolution.DoEntityReaction(targetBloodstream.Owner, ReactionMethod.Injection);
 
         _popup.PopupEntity(Loc.GetString("injector-component-inject-success-message",
                 ("amount", removedSolution.Volume),
-                ("target", Identity.Entity(target, EntityManager))), injector, user);
+                ("target", Identity.Entity(targetBloodstream.Owner, EntityManager))), component.Owner, user);
 
         Dirty(component);
-        AfterInject(component, injector);
+        AfterInject(component);
     }
 
-    private void TryInject(InjectorComponent component, EntityUid injector, EntityUid targetEntity, Solution targetSolution, EntityUid user, bool asRefill)
+    private void TryInject(InjectorComponent component, EntityUid targetEntity, Solution targetSolution, EntityUid user, bool asRefill)
     {
-        if (!_solutions.TryGetSolution(injector, InjectorComponent.SolutionName, out var solution)
+        if (!_solutions.TryGetSolution(component.Owner, InjectorComponent.SolutionName, out var solution)
             || solution.Volume == 0)
         {
             return;
@@ -333,14 +354,14 @@ public sealed partial class ChemistrySystem
         if (realTransferAmount <= 0)
         {
             _popup.PopupEntity(Loc.GetString("injector-component-target-already-full-message", ("target", Identity.Entity(targetEntity, EntityManager))),
-                injector, user);
+                component.Owner, user);
             return;
         }
 
         // Move units from attackSolution to targetSolution
-        var removedSolution = _solutions.SplitSolution(injector, solution, realTransferAmount);
+        var removedSolution = _solutions.SplitSolution(component.Owner, solution, realTransferAmount);
 
-        _reactiveSystem.DoEntityReaction(targetEntity, removedSolution, ReactionMethod.Injection);
+        removedSolution.DoEntityReaction(targetEntity, ReactionMethod.Injection);
 
         if (!asRefill)
         {
@@ -353,35 +374,35 @@ public sealed partial class ChemistrySystem
 
         _popup.PopupEntity(Loc.GetString("injector-component-transfer-success-message",
                 ("amount", removedSolution.Volume),
-                ("target", Identity.Entity(targetEntity, EntityManager))), injector, user);
+                ("target", Identity.Entity(targetEntity, EntityManager))), component.Owner, user);
 
         Dirty(component);
-        AfterInject(component, injector);
+        AfterInject(component);
     }
 
-    private void AfterInject(InjectorComponent component, EntityUid injector)
+    private void AfterInject(InjectorComponent component)
     {
         // Automatically set syringe to draw after completely draining it.
-        if (_solutions.TryGetSolution(injector, InjectorComponent.SolutionName, out var solution)
+        if (_solutions.TryGetSolution(component.Owner, InjectorComponent.SolutionName, out var solution)
             && solution.Volume == 0)
         {
             component.ToggleState = SharedInjectorComponent.InjectorToggleMode.Draw;
         }
     }
 
-    private void AfterDraw(InjectorComponent component, EntityUid injector)
+    private void AfterDraw(InjectorComponent component)
     {
         // Automatically set syringe to inject after completely filling it.
-        if (_solutions.TryGetSolution(injector, InjectorComponent.SolutionName, out var solution)
+        if (_solutions.TryGetSolution(component.Owner, InjectorComponent.SolutionName, out var solution)
             && solution.AvailableVolume == 0)
         {
             component.ToggleState = SharedInjectorComponent.InjectorToggleMode.Inject;
         }
     }
 
-    private void TryDraw(InjectorComponent component, EntityUid injector, EntityUid targetEntity, Solution targetSolution, EntityUid user, BloodstreamComponent? stream = null)
+    private void TryDraw(InjectorComponent component, EntityUid targetEntity, Solution targetSolution, EntityUid user, BloodstreamComponent? stream = null)
     {
-        if (!_solutions.TryGetSolution(injector, InjectorComponent.SolutionName, out var solution)
+        if (!_solutions.TryGetSolution(component.Owner, InjectorComponent.SolutionName, out var solution)
             || solution.AvailableVolume == 0)
         {
             return;
@@ -393,34 +414,34 @@ public sealed partial class ChemistrySystem
         if (realTransferAmount <= 0)
         {
             _popup.PopupEntity(Loc.GetString("injector-component-target-is-empty-message", ("target", Identity.Entity(targetEntity, EntityManager))),
-                injector, user);
+                component.Owner, user);
             return;
         }
 
         // We have some snowflaked behavior for streams.
         if (stream != null)
         {
-            DrawFromBlood(user, injector, targetEntity, component, solution, stream, realTransferAmount);
+            DrawFromBlood(user, targetEntity, component, solution, stream, realTransferAmount);
             return;
         }
 
         // Move units from attackSolution to targetSolution
         var removedSolution = _solutions.Draw(targetEntity, targetSolution, realTransferAmount);
 
-        if (!_solutions.TryAddSolution(injector, solution, removedSolution))
+        if (!_solutions.TryAddSolution(component.Owner, solution, removedSolution))
         {
             return;
         }
 
         _popup.PopupEntity(Loc.GetString("injector-component-draw-success-message",
                 ("amount", removedSolution.Volume),
-                ("target", Identity.Entity(targetEntity, EntityManager))), injector, user);
+                ("target", Identity.Entity(targetEntity, EntityManager))), component.Owner, user);
 
         Dirty(component);
-        AfterDraw(component, injector);
+        AfterDraw(component);
     }
 
-    private void DrawFromBlood(EntityUid user, EntityUid injector, EntityUid target, InjectorComponent component, Solution injectorSolution, BloodstreamComponent stream, FixedPoint2 transferAmount)
+    private void DrawFromBlood(EntityUid user, EntityUid target, InjectorComponent component, Solution injectorSolution, BloodstreamComponent stream, FixedPoint2 transferAmount)
     {
         var drawAmount = (float) transferAmount;
         var bloodAmount = drawAmount;
@@ -434,14 +455,25 @@ public sealed partial class ChemistrySystem
         var bloodTemp = stream.BloodSolution.SplitSolution(bloodAmount);
         var chemTemp = stream.ChemicalSolution.SplitSolution(chemAmount);
 
-        _solutions.TryAddSolution(injector, injectorSolution, bloodTemp);
-        _solutions.TryAddSolution(injector, injectorSolution, chemTemp);
+        _solutions.TryAddSolution(component.Owner, injectorSolution, bloodTemp);
+        _solutions.TryAddSolution(component.Owner, injectorSolution, chemTemp);
 
         _popup.PopupEntity(Loc.GetString("injector-component-draw-success-message",
                 ("amount", transferAmount),
-                ("target", Identity.Entity(target, EntityManager))), injector, user);
+                ("target", Identity.Entity(target, EntityManager))), component.Owner, user);
 
         Dirty(component);
-        AfterDraw(component, injector);
+        AfterDraw(component);
+    }
+    private sealed class InjectionCompleteEvent : EntityEventArgs
+    {
+        public InjectorComponent Component { get; init; } = default!;
+        public EntityUid User { get; init; }
+        public EntityUid Target { get; init; }
+    }
+
+    private sealed class InjectionCancelledEvent : EntityEventArgs
+    {
+        public InjectorComponent Component { get; init; } = default!;
     }
 }

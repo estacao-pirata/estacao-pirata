@@ -4,7 +4,6 @@ using Content.Server.Radio;
 using Robust.Shared.Random;
 using Content.Server.Light.EntitySystems;
 using Content.Server.Light.Components;
-using Content.Shared.Radio.Components;
 
 namespace Content.Server.StationEvents.Events;
 

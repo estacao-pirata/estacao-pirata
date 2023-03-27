@@ -48,8 +48,7 @@ namespace Content.Client.RoundEnd
 
             var roundEndSummaryContainerScrollbox = new ScrollContainer
             {
-                VerticalExpand = true,
-                Margin = new Thickness(10)
+                VerticalExpand = true
             };
             var roundEndSummaryContainer = new BoxContainer
             {
@@ -68,7 +67,7 @@ namespace Content.Client.RoundEnd
             //Duration
             var roundTimeLabel = new RichTextLabel();
             roundTimeLabel.SetMarkup(Loc.GetString("round-end-summary-window-duration-label",
-                                                   ("hours", Math.Truncate(roundDuration.TotalHours)),
+                                                   ("hours", roundDuration.Hours),
                                                    ("minutes", roundDuration.Minutes),
                                                    ("seconds", roundDuration.Seconds)));
             roundEndSummaryContainer.AddChild(roundTimeLabel);
@@ -97,8 +96,7 @@ namespace Content.Client.RoundEnd
 
             var playerInfoContainerScrollbox = new ScrollContainer
             {
-                VerticalExpand = true,
-                Margin = new Thickness(10)
+                VerticalExpand = true
             };
             var playerInfoContainer = new BoxContainer
             {

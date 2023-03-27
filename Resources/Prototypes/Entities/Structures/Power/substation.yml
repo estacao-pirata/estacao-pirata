@@ -170,7 +170,7 @@
 - type: entity
   parent: BaseSubstation
   id: SubstationBasic
-  suffix: Basic, 2.5MJ
+  suffix: Basic, 2.5MW
   components:
   - type: Battery
     maxCharge: 2500000
@@ -187,7 +187,7 @@
 - type: entity
   parent: BaseSubstationWall
   id: SubstationWallBasic
-  suffix: Basic, 2MJ
+  suffix: Basic, 2MW
   components:
   - type: Battery
     maxCharge: 2000000

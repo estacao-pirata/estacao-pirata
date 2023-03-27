@@ -14,6 +14,3 @@ tabletop-backgammon-board-name = Backgammon
 
 ## Checkers
 tabletop-checkers-board-name = Checkers
-
-## Shogi
-tabletop-shogi-board-name = Shogi

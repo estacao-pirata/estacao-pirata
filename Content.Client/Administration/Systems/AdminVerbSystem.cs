@@ -1,6 +1,5 @@
 using Content.Shared.Verbs;
 using Robust.Client.Console;
-using Robust.Shared.Utility;
 
 namespace Content.Client.Administration.Systems
 {
@@ -27,7 +26,7 @@ namespace Content.Client.Administration.Systems
                 Verb verb = new();
                 verb.Category = VerbCategory.Debug;
                 verb.Text = "View Variables";
-                verb.Icon = new SpriteSpecifier.Texture(new ResourcePath("/Textures/Interface/VerbIcons/vv.svg.192dpi.png"));
+                verb.IconTexture = "/Textures/Interface/VerbIcons/vv.svg.192dpi.png";
                 verb.Act = () => _clientConsoleHost.ExecuteCommand($"vv {args.Target}");
                 verb.ClientExclusive = true; // opening VV window is client-side. Don't ask server to run this verb.
                 args.Verbs.Add(verb);

@@ -25,8 +25,6 @@
   id: FoodBreadSliceBase
   abstract: true
   components:
-  - type: Item
-    size: 1
   - type: FlavorProfile
     flavors:
       - bread
@@ -317,12 +315,12 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 48
+        maxVol: 45
         reagents:
         - ReagentId: Nutriment
           Quantity: 30
-        - ReagentId: Protein
-          Quantity: 12
+        - ReagentId: Vitamin
+          Quantity: 5
 # Tastes like bread, tofu.
 
 - type: entity
@@ -343,7 +341,7 @@
         - ReagentId: Nutriment
           Quantity: 6
         - ReagentId: Vitamin
-          Quantity: 2.4
+          Quantity: 1.2
 
 - type: entity
   name: cream cheese bread
@@ -499,10 +497,6 @@
   id: FoodBreadGarlicSlice
   description: Alas, it is limited.
   components:
-  - type: FlavorProfile
-    flavors:
-      - bread
-      - garlic
   - type: Sprite
     layers:
     - state: garlic-slice

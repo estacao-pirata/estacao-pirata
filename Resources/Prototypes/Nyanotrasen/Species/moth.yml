@@ -7,7 +7,7 @@
   defaultSkinTone: "#ffda93"
   markingLimits: MobMothMarkingLimits
   dollPrototype: MobMothDummy
-  skinColoration: None
+  skinColoration: Hues
   maleFirstNames: names_moth_male
   femaleFirstNames: names_moth_female
   lastNames: names_moth_last
@@ -58,15 +58,6 @@
       points: 1
       required: true
       defaultMarkings: [ MothAntennasDefault ]
-    Chest:
-      points: 1
-      required: false
-    Legs:
-      points: 2
-      required: false
-    Arms:
-      points: 2
-      required: false
     Chest:
       points: 1
       required: false
