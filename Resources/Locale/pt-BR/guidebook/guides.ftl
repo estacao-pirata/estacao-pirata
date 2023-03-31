@@ -16,3 +16,6 @@ guide-entry-anomalous-research = Pesquisa anômala
 guide-entry-scanners-and-vessels = Escaners e vassalos
 guide-entry-ape = A.P.E.
 guide-entry-machine-upgrading = Melhorando Máquinas
+
+guide-entry-security = Segurança
+guide-entry-dna = DNA
