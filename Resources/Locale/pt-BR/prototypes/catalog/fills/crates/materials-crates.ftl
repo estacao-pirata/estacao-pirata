@@ -3,8 +3,8 @@ ent-CrateMaterialGlass = Caixa de placas de vidro
 
 ent-CrateMaterialSteel = Caixa de placas de aço
     .desc = 90 sheets of steel.
-
 ent-CrateMaterialTextiles = Caixa de têxteis
+
     .desc = 60 peças de tecido e 30 peças de durathread.
 
 ent-CrateMaterialPlastic = Caixa de placas de plástico
@@ -18,3 +18,6 @@ ent-CrateMaterialPlasteel = Caixa de placas de aço-plástico
 
 ent-CrateMaterialPlasma = Caixa de plasma sólido
     .desc = 90 sheets of plasma.
+
+ent-CrateMaterialCardboard = Caixa contendo papelão
+    .desc = 60 folhas de papelão.
