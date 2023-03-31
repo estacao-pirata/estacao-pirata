@@ -1,6 +1,7 @@
 forensic-scanner-interface-title = Scanner forense
 forensic-scanner-interface-fingerprints = Impressões digitais
 forensic-scanner-interface-fibers = Fibras
+forensic-scanner-interface-dnas = DNAs
 forensic-scanner-interface-no-data = Não há dados no scanner disponíveis
 forensic-scanner-interface-print = Imprimir
 forensic-scanner-report-title = Relátorio forense
