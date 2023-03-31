@@ -20,3 +20,7 @@ disposal-unit-no-hands = Você não tem mãos!
 
 ## missed
 disposal-unit-thrown-missed = Errou!
+
+# state
+disposal-unit-state-Ready = Pronta
+disposal-unit-state-Pressurizing = Pressurizando
