@@ -1,6 +1,6 @@
 guide-entry-engineering = Engenharia
 guide-entry-construction = Construção
-guide-entry-atmospherics = Atmosférica
+guide-entry-atmospherics = Ar
 guide-entry-botany = Botânica
 guide-entry-fires = Fogos e Espaço
 guide-entry-shuttle-craft = Construção de naves
