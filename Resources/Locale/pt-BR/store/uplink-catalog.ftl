@@ -12,7 +12,7 @@ uplink-rifle-mosin-name = Rifle Excedente
 uplink-rifle-mosin-desc = Um rifle de serviço de ação de ferrolho que viu muitas guerras. Não nada moderno, carregado à mão e com terrível recuo, mas é barato.
 
 uplink-esword-name = Espada de Energia
-uplink-esword-desc = Uma espada de energia muito perigosa. Pode ser armazenada em bolsos quando desligado. Faz um monte de barulho quando usado ou ligado.
+uplink-esword-desc = Uma espada de energia muito perigosa capaz de refletir disparos. Pode ser armazenada em bolsos quando desligado. Faz um monte de barulho quando usado ou ligado.
 
 uplink-edagger-name = Adaga de Energia
 uplink-edagger-desc = Uma pequena lâmina de energia convenientemente disfarçada em forma de caneta.
