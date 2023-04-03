@@ -4,6 +4,9 @@ ent-WeldingFuelTank = tanque de combustível
 ent-WeldingFuelTankFull = { ent-WeldingFuelTank }
     .desc = { ent-WeldingFuelTank.desc }
 
+ent-WeldingFuelTankHighCapacity = tanque de combustível de alta capacidade
+    .desc = Um enorme tanque de combustivel feito para para conter quantidades gigantescas de combustível de solda.
+
 ent-WaterTank = tanque de água
     .desc = Um tanque de água. É usado para armazenar grandes quantidades de água.
 
@@ -13,7 +16,7 @@ ent-WaterTankFull = { ent-WaterTank }
 ent-WaterCooler = resfriador de água
     .desc = Parece um bom lugar para ficar parado e gastar tempo.
 
-ent-WaterTankHighCapacity = Tanque de água de alta capacidade
+ent-WaterTankHighCapacity = tanque de água de alta capacidade
     .desc = Um tanque de água altamente pressurizado feito para armazenar quantidades massivas de água.
 
 ent-KvassTank = КВАС
