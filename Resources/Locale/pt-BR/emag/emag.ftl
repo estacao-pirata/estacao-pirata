@@ -1,5 +1,6 @@
 emag-success = O cartão ativa alguma coisa na {THE($target)}.
 emag-no-charges = Descarregado!
+emag-recharging = Faltam [color=yellow]{$seconds}[/color] segundos até a próxima carga.
 emag-charges-remaining = {$charges ->
     [one] Há [color=fuchsia]{$charges}[/color] carga restantes.
     *[other] Há [color=fuchsia]{$charges}[/color] cargas restantes.

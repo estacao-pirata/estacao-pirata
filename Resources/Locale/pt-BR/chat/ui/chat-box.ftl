@@ -12,6 +12,7 @@ hud-chatbox-select-channel-OOC = OOC
 hud-chatbox-select-channel-Damage = Dano
 hud-chatbox-select-channel-Visual = Ações
 hud-chatbox-select-channel-Radio = Rádio
+hud-chatbox-select-channel-Telepathic = Telepático
 
 hud-chatbox-channel-Admin = Misc Admin
 hud-chatbox-channel-AdminAlert = Alerta Admin
@@ -24,6 +25,8 @@ hud-chatbox-channel-LOOC = LOOC
 hud-chatbox-channel-OOC = OOC
 hud-chatbox-channel-Radio = Rádio
 hud-chatbox-channel-Server = Servidor
+hud-chatbox-channel-Telepathic = Telepático
 hud-chatbox-channel-Visual = Visual
 hud-chatbox-channel-Damage = Dano
 hud-chatbox-channel-Unspecified = Não especificado
+hud-chatbox-channel-Telepathic = Telepático

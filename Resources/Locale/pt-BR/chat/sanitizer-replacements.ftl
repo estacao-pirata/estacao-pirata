@@ -13,6 +13,7 @@ chatsan-annoyed = parece incomodado
 chatsan-sighs = suspira
 chatsan-stick-out-tongue = põe a língua pra fora
 chatsan-wide-eyed = parece chocado
+chatsan-surprised = parece surpreso
 chatsan-confused = parece confuso
 chatsan-unimpressed = não parece impressionado
 chatsan-waves = acena
