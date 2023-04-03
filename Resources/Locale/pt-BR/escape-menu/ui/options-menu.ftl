@@ -212,5 +212,6 @@ ui-options-net-pvs-leave-tooltip = Isso limita a taxa na qual o cliente remover�
                                        gaguejando ao caminhar, mas pode ocasionalmente
                                        levar a previsões erradas e outros problemas.
 
+## Toggle window console command
 cmd-options-desc = Abre o menu de opções, opcionalmente com uma certa aba selecionada.
 cmd-options-help = Uso: options [aba]
