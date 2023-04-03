@@ -68,6 +68,7 @@ holiday-name-christmas = Natal
 holiday-name-festive-season = Temporada Festiva
 holiday-name-boxing-day = Boxing Day
 holiday-name-friday-thirteenth = Sexta-Feira 13
+holiday-name-national-coming-out-day = Dia de sair do armário
 
 ## Custom congrats
 

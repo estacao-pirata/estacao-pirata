@@ -2,6 +2,8 @@
 
 network-configurator-device-saved = O dispositivo de rede {$device} foi salvo com sucesso com o endereço {$address}!
 network-configurator-device-failed = Falha ao salvar o dispositio de rede {$device}! Nenhum endereço assinado!
+network-configurator-too-many-devices = Muitos dispositivos armazenados neste dispositivo!
+network-configurator-update-ok = Armazenamento do dispositivo atualizado.
 network-configurator-device-already-saved = dispositivo de rede: {$device} já está salvo.
 network-configurator-device-access-denied = Acesso negado!
 
@@ -12,6 +14,8 @@ network-configurator-configure = Configurar
 # ui
 network-configurator-ui-clear-button = Limpar
 network-configurator-ui-count-label = {$count} Dispositivos
+network-configurator-clear-network-link-overlays = Limpar sobreposições de link de rede
+network-configurator-clear-network-link-overlays-desc = Limpar sobreposições de link de rede.
 
 # tooltips
 network-configurator-tooltip-set = Define a lista de dispositivos alvo
