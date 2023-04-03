@@ -22,4 +22,8 @@ marking-TattooCampbellLeftLeg = Tatuagem na perna esquerda (Campbelle)
 marking-TattooCampbellRightLeg-campbellrightleg = Tatuagem na perna direita (Campbelle)
 marking-TattooCampbellRightLeg = Tatuagem na perna direita (Campbelle)
 
+marking-TattooEyeRight-eyeright = Right Eye
+marking-TattooEyeRight = Right Eye
 
+marking-TattooEyeLeft-eyeleft = Left Eye
+marking-TattooEyeLeft = Left Eye
