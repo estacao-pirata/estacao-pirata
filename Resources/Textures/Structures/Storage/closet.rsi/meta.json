@@ -128,7 +128,16 @@
       "name": "cardboard_special"
     },
     {
-      "name": "cargo"
+        "name": "cargo"
+    },
+    {
+        "name": "bs"
+    },
+    {
+        "name": "bs_open"
+    },
+    {
+        "name": "bs_door"
     },
     {
       "name": "cargo_door"

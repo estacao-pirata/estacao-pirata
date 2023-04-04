@@ -587,3 +587,15 @@
   - type: IdCard
     jobTitle: Cluwne
   - type: Unremoveable
+
+- type: entity
+  parent: IDCardStandard
+  id: BlueshieldIDCard
+  name: ID de Blueshield
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idblueshield
+  - type: PresetIdCard
+    job: Blueshield

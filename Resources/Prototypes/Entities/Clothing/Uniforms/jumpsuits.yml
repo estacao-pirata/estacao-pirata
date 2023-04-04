@@ -1029,3 +1029,14 @@
     sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueshield
+  name: Macacão de Blueshield
+  description: A jumpsuit made of strong material, providing robust protection.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi

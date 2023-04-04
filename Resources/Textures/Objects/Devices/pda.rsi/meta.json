@@ -36,7 +36,10 @@
       "name": "pda-captain"
     },
     {
-      "name": "pda-cargo"
+        "name": "pda-cargo"
+    },
+    {
+        "name": "pda-blueshield"
     },
     {
       "name": "pda-ce"

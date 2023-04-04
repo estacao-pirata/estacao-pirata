@@ -527,3 +527,14 @@
     sprite: Clothing/Head/Hats/beret_cmo.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret_cmo.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueshield
+  name: head of security's beret
+  description: A black beret with a commander's rank emblem. For officers that are more inclined towards style than safety.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
