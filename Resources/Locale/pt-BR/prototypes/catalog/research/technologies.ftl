@@ -82,14 +82,14 @@ technologies-anomaly-technology-description = Máquinas para contenção avança
 technologies-robotics-technology = Tecnologia robótica
 technologies-robotics-technology-description = Partes do robô.
 
-technologies-archaeology = Archeological equipment
-technologies-archaeology-description = Advanced equipment for uncovering the secrets of artifacts.
+technologies-archaeology = Equipamento arqueológico
+technologies-archaeology-description = Equipamento avançado para descobrir os segredos dos artefatos.
 
 technologies-ripley-technology = Exosuit: Ripley
-technologies-ripley-technology-description = The latest and greatest in mechanized cargo construction.
+technologies-ripley-technology-description = O que há de mais moderno e moderno em construção mecanizada de cargas.
 
-technologies-adv-parts-technology-description = Like the previous ones, but better!
-technologies-adv-parts-technology = Advanced parts technology
+technologies-adv-parts-technology-description = Como as anteriores, mas melhor
+technologies-adv-parts-technology = Tecnologia avançada de peças
 
 technologies-super-parts-technology = Tecnologia de super partes
 technologies-super-parts-technology-description = Novos patamares de desempenho das máquinas.

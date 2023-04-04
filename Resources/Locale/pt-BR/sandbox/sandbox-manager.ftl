@@ -12,4 +12,5 @@ sandbox-window-toggle-subfloor-button = Alternar Subfloor
 sandbox-window-toggle-suicide-button = Suicídio
 sandbox-window-show-spawns-button = Mostrar Spawns
 sandbox-window-show-bb-button = Mostrar BB
+sandbox-window-show-npc-button = Mostrar NPC
 sandbox-window-link-machines-button = Ligar Máquinas

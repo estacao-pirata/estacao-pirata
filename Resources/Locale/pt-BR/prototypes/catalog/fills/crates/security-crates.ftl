@@ -7,9 +7,6 @@ ent-CrateSecurityHelmet = Caixa de capacetes
 ent-CrateSecurityNonlethal = Caixa de não-letais
     .desc = Desativar armas. Requer acesso de segurança para abrir.
 
-ent-CrateSecurityLaser = Caixa de lasers
-    .desc = Contém três armas laser letais de alta energia. Requer acesso de segurança para abrir.
-
 ent-CrateSecurityRiot = Caixa de tropa de choque
     .desc = Contém dois conjuntos de armaduras pesadas e capacetes e 2 espingardas com 6 cartuchos de saco de feijão cada. Requer acesso ao Arsenal para abrir.
 

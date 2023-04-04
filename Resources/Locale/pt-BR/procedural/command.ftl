@@ -1,5 +1,4 @@
 cmd-dungen-desc = Gera um calabouço proceduralmente com o preset, posição e semente especificados. Irá spawnar no espaço se o MapId não tiver um MapGridComponent.
-
 cmd-dungen-help = dungen <MapId> <PresetDoDungeon> <PosX> <PosY> [semente]
 cmd-dungen-arg-count = Requer 4 argumentos.
 cmd-dungen-map-parse = Não foi possível interpretar MapId.

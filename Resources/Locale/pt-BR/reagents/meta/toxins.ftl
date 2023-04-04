@@ -52,6 +52,9 @@ reagent-desc-uncooked-animal-proteins = Isso é muito arriscado para os estômag
 reagent-name-allicin = allicin
 reagent-desc-allicin = Um composto organossulfurado encontrado em álios, como alho, cebola e plantas relacionado.
 
+reagent-name-pax = pax
+reagent-desc-pax = A psychiatric drug which prevents the patient from directly harming anyone.
+
 reagent-name-human-muta-tox = toxina de mutação humana
 reagent-name-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
 

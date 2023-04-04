@@ -30,3 +30,6 @@ reagent-desc-nocturine = Faz você se sentir muito cansado e incapaz de se levan
 
 reagent-name-mute-toxin = mute toxin
 reagent-desc-mute-toxin = Torna você incapaz de falar enquanto metaboliza.
+
+reagent-name-norepinephric-acid = norepinephric acid
+reagent-desc-norepinephric-acid = Torna você incapaz de ver enquanto metaboliza.

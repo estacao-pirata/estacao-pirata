@@ -21,5 +21,6 @@ strip-verb-get-data-text = Pilhar
 ## UI
 
 strippable-bound-user-interface-stripping-menu-title = Inventário de {$ownerName}
+strippable-bound-user-interface-stripping-menu-ensnare-button = Remover restrições da perna
 strippable-bound-user-interface-stripping-menu-handcuffs-button = Contenções
 strippable-bound-user-interface-stripping-menu-obfuscate = Ocupado
