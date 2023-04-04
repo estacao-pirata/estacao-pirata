@@ -42,6 +42,8 @@
       - FoodPieCherry
       - FoodPieMeat
       - FoodPieFrosty
+      - FoodPuddingNormal
+      - FoodPuddingChocolate
     chance: 0.8
     offset: 0.0
     #rare
