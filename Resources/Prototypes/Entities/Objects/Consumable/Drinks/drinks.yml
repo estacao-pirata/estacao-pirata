@@ -611,7 +611,7 @@
           Quantity: 30
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/rumglass.rsi
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/deadrum.rsi
 
 - type: entity
   parent: DrinkGlassBase
