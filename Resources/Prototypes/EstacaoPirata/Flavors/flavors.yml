@@ -27,18 +27,3 @@
   id: fantastica
   flavorType: Complex
   description: flavor-complex-fantastica
-
-- type: flavor
-  id: sindkol
-  flavorType: Complex
-  description: flavor-complex-sindkol
-
-- type: flavor
-  id: corote
-  flavorType: Complex
-  description: flavor-complex-corote
-
-- type: flavor
-  id: ChocolateDerretido
-  flavorType: Complex
-  description: flavor-complex-chocolatederretido
