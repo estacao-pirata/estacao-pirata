@@ -5,7 +5,7 @@ ent-CrateFunInstrumentsVariety = Caixa de conjunto de instrumentos variados
     .desc = Faça sua estação triste se mexer e curtir com esta bela coleção! Contém treze instrumentos diferentes.
 
 dent-CrateFunInstrumentsBrass = Caixa de conjunto de metais
-    .desc = Traga um pouco de jazz para a estação com o conjunto de metais. Contém uma variedade de instrumentos de sopro para toda a estação tocar.
+    .desc = Traga um pouco de jazz para a estação com o conjunto de metais. Contém uma variedade de instrumentos do naipe dos metais para toda a estação tocar.
 
 ent-CrateFunInstrumentsString = Caixa de conjunto de cordas
     .desc = Arpejo ou acorde, slap or palheta! Toque uma melodia suave ou derreta os rostos das pessoas com este pacote de instrumentos de cordas.
