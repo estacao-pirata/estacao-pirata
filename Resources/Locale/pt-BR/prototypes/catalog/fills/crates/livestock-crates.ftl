@@ -40,7 +40,7 @@ ent-CrateNPCParrot = Caixa de papagaios
 ent-CrateNPCPenguin = Caixa de pinguins
     .desc = Uma caixa contendo dois pinguins.
 
-ent-CrateNPCPig = Pig crate
+ent-CrateNPCPig = Caixa de porco
     .desc = Uma caixa contendo um porco.
 
 ent-CrateNPCSnake = Caixa de cobras

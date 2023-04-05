@@ -4,4 +4,4 @@ thruster-comp-nozzle-direction = O bico está virado para [color=yellow]{$direct
 thruster-comp-nozzle-exposed = O bico está [color=green]exposto[/color] para o espaço.
 thruster-comp-nozzle-not-exposed = O bico [color=red]não está exposto[/color] para o espaço.
 
-thruster-comp-upgrade-thrust = Força de impulso
+thruster-comp-upgrade-thrust = Empuxo
