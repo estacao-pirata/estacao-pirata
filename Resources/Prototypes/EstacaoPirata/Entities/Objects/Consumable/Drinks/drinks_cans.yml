@@ -19,3 +19,25 @@
     sprite: EstacaoPirata/Objects/Consumable/Drinks/guaranacan.rsi
   - type: Item
     sprite: EstacaoPirata/Objects/Consumable/Drinks/guaranacan.rsi
+
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DrinkFantasticaCan
+  name: fantastica lata
+  description: Um doce e carbonatado refrigerante. Livre de cafeína.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Fantastica
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/fantasticacan.rsi
+  - type: Item
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/fantasticacan.rsi
