@@ -1,67 +1,6 @@
 Entries:
 - author: mirrorcult
   changes:
-  - {message: Hamster cages no longer clip through doors, type: Fix}
-  id: 2826
-  time: '2023-01-02T03:52:30.0000000+00:00'
-- author: mirrorcult
-  changes:
-  - {message: Air alarms should be less annoying around small quantities of water
-      vapor., type: Tweak}
-  id: 2827
-  time: '2023-01-02T05:05:37.0000000+00:00'
-- author: mirrorcult
-  changes:
-  - {message: 'Portals have been added, which teleport you randomly (if unlinked)
-      or between portals (if linked). Expect to see them used more.', type: Add}
-  - {message: 'The research director has received a new device, the ''hand teleporter''.
-      It can create portals at will, and is a traitor steal objective.', type: Add}
-  id: 2828
-  time: '2023-01-03T01:58:25.0000000+00:00'
-- author: ElectroJr
-  changes:
-  - {message: Fixed a bug that would sometimes cause players to appear as if they
-      were dead/horizontal., type: Fix}
-  id: 2829
-  time: '2023-01-03T06:43:35.0000000+00:00'
-- author: mirrorcult
-  changes:
-  - {message: 'Hand teleporter now requires a doafter, and can''t be used when inside
-      anything.', type: Tweak}
-  - {message: Portal random teleport now teleports you less farther away at maximum.,
-    type: Tweak}
-  id: 2830
-  time: '2023-01-03T07:53:16.0000000+00:00'
-- author: mirrorcult
-  changes:
-  - {message: 'Several new, !!fun!! artifact effects have been added.', type: Add}
-  id: 2831
-  time: '2023-01-03T23:13:11.0000000+00:00'
-- author: vanx
-  changes:
-  - {message: Doubled the paper symbol limit, type: Tweak}
-  id: 2832
-  time: '2023-01-04T06:44:17.0000000+00:00'
-- author: Bhijn and Myr
-  changes:
-  - {message: 'The radar shown in mass scanners and shuttle consoles now resizes gracefully,
-      scaling as expected with whatever breathing room it has! (Originally merged
-      on December 30, 2022)', type: Add}
-  - {message: 'The mass scanner and shuttle consoles now have minimum and default
-      sizes to keep things relatively sane-looking (Originally merged on December
-      30, 2022)', type: Tweak}
-  - {message: The mass scanner UI now actually has a default size defined. This was
-      left out of the original PR by mistake, type: Fix}
-  id: 2833
-  time: '2023-01-04T23:34:09.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Trees will now fade out slightly instead of completely occluding you
-      if you are under them., type: Add}
-  id: 2834
-  time: '2023-01-05T05:45:23.0000000+00:00'
-- author: mirrorcult
-  changes:
   - {message: Pulling items through portals should no longer behave weirdly., type: Fix}
   id: 2835
   time: '2023-01-05T11:36:25.0000000+00:00'
@@ -2908,3 +2847,67 @@ Entries:
   - {message: Added new blood pack sprite!, type: Add}
   id: 3325
   time: '2023-04-03T07:50:33.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Fix shuttle airlocks., type: Fix}
+  id: 3326
+  time: '2023-04-03T18:28:27.0000000+00:00'
+- author: mirrorcult
+  changes:
+  - {message: Getting drunk should no longer cause you to bleed, type: Fix}
+  id: 3327
+  time: '2023-04-03T22:48:58.0000000+00:00'
+- author: freeman2651
+  changes:
+  - {message: Five hours minimum overall playtime needed for Security Cadet to become
+      available., type: Tweak}
+  - {message: One hour minimum security playtime needed for Security Officer to become
+      available., type: Tweak}
+  - {message: Two hours minimum security playtime needed for Detective to become available.,
+    type: Tweak}
+  id: 3328
+  time: '2023-04-04T00:10:17.0000000+00:00'
+- author: mirrorcult
+  changes:
+  - {message: Rat king (mobster) & dwarf accents are now more robust with transforming
+      capitalization., type: Tweak}
+  id: 3329
+  time: '2023-04-04T02:50:37.0000000+00:00'
+- author: ElectroJr
+  changes:
+  - {message: You can once again build several structures simultaneously., type: Fix}
+  - {message: Fixed being unable to repair reinforced windows., type: Fix}
+  - {message: Fixed APC-screw driver interaction, type: Fix}
+  - {message: Revenant soul-leeching will now be interrupted if they receive damage,
+    type: Tweak}
+  id: 3330
+  time: '2023-04-04T06:28:56.0000000+00:00'
+- author: adamsong
+  changes:
+  - {message: Added tcoms server to dev map, type: Add}
+  id: 3331
+  time: '2023-04-04T13:26:00.0000000+00:00'
+- author: ElectroJr
+  changes:
+  - {message: Fixed being unable to toggle hardsuit helmets on incapacitated players,
+    type: Fix}
+  - {message: Fixed being unable to open some wiring panels with a screw driver, type: Fix}
+  - {message: Fixed various construction interactions getting stuck in an incomplete
+      state., type: Fix}
+  id: 3332
+  time: '2023-04-05T00:19:28.0000000+00:00'
+- author: Stealthbomber16
+  changes:
+  - {message: Rat servants are now much more susceptible to things like being killed.,
+    type: Tweak}
+  id: 3333
+  time: '2023-04-05T04:01:47.0000000+00:00'
+- author: EnDecc
+  changes:
+  - {message: 'Added String, Woodwind, Keyed and Percussion, and Specialty Music crates
+      to Cargo''s Manifest', type: Add}
+  - {message: 'Renamed ''Big Band'' crate to Variety Instrument collection, tweaked
+      ID of Brass crate to easily identify with other Instrument Crate IDs, and its
+      contents.', type: Tweak}
+  id: 3334
+  time: '2023-04-05T05:05:25.0000000+00:00'
