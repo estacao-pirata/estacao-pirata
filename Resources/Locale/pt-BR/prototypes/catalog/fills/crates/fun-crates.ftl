@@ -8,7 +8,7 @@ dent-CrateFunInstrumentsBrass = Caixa de conjunto de metais
     .desc = Traga um pouco de jazz para a estação com o conjunto de metais. Contém uma variedade de instrumentos de sopro para toda a estação tocar.
 
 ent-CrateFunInstrumentsString = Caixa de conjunto de cordas
-    .desc = Arpejou ou acorde, slap or palheta! Toque uma melodia suave ou derreta os rostos das pessoas com este pacote de instrumentos de cordas.
+    .desc = Arpejo ou acorde, slap or palheta! Toque uma melodia suave ou derreta os rostos das pessoas com este pacote de instrumentos de cordas.
 
 ent-CrateFunInstrumentsWoodwind = Caixa de conjunto de madeiras
     .desc = Se atmos é bom em seu trabalho, use o ar para tocar música com esses instrumentos de sopro! Madeira real não garantida com todos os itens.
