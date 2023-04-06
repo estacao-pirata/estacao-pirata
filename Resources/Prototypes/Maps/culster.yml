@@ -1,12 +1,12 @@
 ﻿- type: gameMap
-  id: Parabole
-  mapName: 'Parabole'
-  mapPath: /Maps/parabole.yml
+  id: Culster
+  mapName: 'Culster'
+  mapPath: /Maps/culster.yml
   minPlayers: 0
   maxPlayers: 35
   stations:
     Cluster:
-      mapNameTemplate: '{0} Parabole Station {1}'
+      mapNameTemplate: '{0} Culster Station {1}'
       nameGenerator:
         !type:NanotrasenNameGenerator
         prefixCreator: '14'
@@ -17,7 +17,7 @@
         Passenger: [ -1, -1 ]
         Bartender: [ 1, 1 ]
         Botanist: [ 2, 2 ]
-        Blueshield: [ 1,1 ]
+        Blueshield: [ 1, 1 ]
         Chef: [ 1, 1 ]
         Clown: [ 1, 1 ]
         Janitor: [ 1, 1 ]

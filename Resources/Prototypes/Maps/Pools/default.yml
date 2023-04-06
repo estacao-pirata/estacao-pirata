@@ -1,6 +1,7 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
+  - Culster
   - Aspid
   - Bagel
   - Barratry
@@ -13,4 +14,3 @@
   - Moose
   - Omega
   - Origin
-  
