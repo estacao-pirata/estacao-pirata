@@ -21,4 +21,5 @@
       - VendingMachineSoda
       - VendingMachineStarkist
       - VendingMachineSpaceUp
+      - VendingMachineBrazuca
     chance: 1
