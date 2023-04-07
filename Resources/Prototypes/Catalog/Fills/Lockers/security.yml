@@ -207,6 +207,7 @@
     contents:
       - id: ClothingHeadHelmetBombSuit
       - id: ClothingOuterSuitBomb
+<<<<<<< HEAD
       # NT is cheap, what can you do...
       - id: Wirecutter
         prob: 0.9
@@ -307,3 +308,28 @@
     contents:
     - id: WeaponLaserCarbine
       amount: 3
+=======
+      - id: ClothingMaskGas
+
+- type: entity
+  id: LockerBSFilled
+  suffix: Filled
+  parent: LockerBS
+  components:
+  - type: StorageFill
+    contents:
+      - id: FlashlightSeclite
+        prob: 0.8
+      - id: WeaponRevolverDeckard
+      - id: SpeedLoaderMagnum
+      - id: ClothingBeltSecurityFilled
+      - id: Flash
+        prob: 0.5
+      - id: ClothingUniformJumpsuitBlueshield
+      - id: ClothingEyesGlassesBlueshield
+      - id: ClothingHeadsetCommand
+      - id: ClothingHeadHatBeretBlueshield
+      - id: ClothingOuterVestBlueshield
+      - id: ClothingHandsGlovesColorBlack
+      - id: ClothingShoesBootsJack
+>>>>>>> 859d751c7f (Blueshield, Tradução, Fotos de lobby)
