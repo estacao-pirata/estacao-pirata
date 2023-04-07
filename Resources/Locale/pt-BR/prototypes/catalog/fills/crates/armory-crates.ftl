@@ -3,9 +3,9 @@ ent-CrateArmorySMG = Caixa de SMG
 
 ent-CrateArmoryShotgun = Caixa de espingardas
     .desc = Para quando o inimigo absolutamente precisa ser substituído por chumbo. Contém duas espingardas de combate Enforcer e alguns cartuchos de espingarda padrão. Requer acesso ao Arsenal para abrir.
+
 ent-CrateTrackingImplants = Caixa de implantes rastreadores
     .desc = Contém um punhado de implantes rastreadores. Bom para prisioneiros que você gostaria de soltar mas ainda quer poder encontrar.
 
-
-ent-CrateArmoryLaser = lasers crate
-    .desc = Contains three lethal, high-energy laser guns. Requires Armory access to open.
+ent-CrateArmoryLaser = caixa de lasers
+    .desc = Contém três armas laser letais de alta energia. Requer acesso ao Armory para abrir.

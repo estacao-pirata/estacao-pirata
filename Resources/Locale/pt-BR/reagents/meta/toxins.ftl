@@ -52,6 +52,22 @@ reagent-desc-uncooked-animal-proteins = Isso é muito arriscado para os estômag
 reagent-name-allicin = allicin
 reagent-desc-allicin = Um composto organossulfurado encontrado em álios, como alho, cebola e plantas relacionado.
 
+reagent-name-pax = pax
+reagent-desc-pax = Uma droga psiquiátrica que impede que o paciente machuque alguém diretamente.
+
+reagent-name-prometheum = prometheum
+reagent-desc-prometheum = A complex superdrug our bodies could produce if we could only unlock our potential.
+
+reagent-name-soulbreaker-toxin = soulbreaker toxin
+reagent-desc-soulbreaker-toxin = Um antipsiônico cerca de 4 vezes mais poderoso que mindbreaker toxin.
+
+reagent-name-lotophagoi-oil = óleo lotophagoi oil
+reagent-desc-lotophagoi-oil = Uma droga super potente que é muito melhor em induzir psiônicas do que halucinôgenos normais, mas com efeitos colaterais piores.
+
+reagent-name-ectoplasm = ectoplasma
+reagent-desc-ectoplasm = O componente físico dos espíritos semicorpóreos.
+
+
 reagent-name-human-muta-tox = toxina de mutação humana
 reagent-name-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
 
@@ -67,11 +83,5 @@ reagent-desc-reptilian-muta-tox = Uma droga capaz de transformar qualquer human�
 reagent-name-monkey-muta-tox =  toxina de mutação de macaco
 reagent-desc-monkey-muta-tox = Uma droga capaz de transformar qualquer humanóide em macaco.
 
-reagent-name-prometheum = prometheum
-reagent-desc-prometheum = A complex superdrug our bodies could produce if we could only unlock our potential.
 
-reagent-name-soulbreaker-toxin = soulbreaker toxin
-reagent-desc-soulbreaker-toxin = An anti-psionic about 4 times as powerful as mindbreaker toxin.
 
-reagent-name-lotophagoi-oil = óleo lotophagoi oil
-reagent-desc-lotophagoi-oil = Uma droga super potente que é muito melhor em induzir psiônicas do que halucinôgenos normais, mas com efeitos colaterais piores.

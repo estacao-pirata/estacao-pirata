@@ -21,5 +21,6 @@ markings-category-Snout = Nariz
 markings-category-Chest = Peito
 markings-category-Arms = Braços
 markings-category-Legs = Pernas
+markings-category-Wings = Asas
 markings-category-Tail = Cauda
 markings-category-Overlay = Sobreposição

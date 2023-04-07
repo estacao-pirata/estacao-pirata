@@ -20,6 +20,12 @@ uplink-edagger-desc = Uma pequena lâmina de energia convenientemente disfarçad
 uplink-fire-axe-flaming-name = Machado de Fogo
 uplink-fire-axe-flaming-desc = Uma arma de estilo clássico infundida com avançada tecnologia de atmos para permitir que ela incendeie alvos.
 
+uplink-kanabou-name = Kanabou
+uplink-kanabou-desc = Uma arma para aqueles que desejam abrir mão da sutileza. Particularmente adequado para oni.
+
+uplink-rickenbacker4001-name = Rickenbacker 4001
+uplink-rickenbacker4001-desc = Quando se trata disso, há muito poucas pessoas que irão balançar o bastão.
+
 # Explosives
 uplink-explosive-grenade-name = Granada explosiva
 uplink-explosive-grenade-desc = Granada que cria uma explosão pequena, mas devastadora.
@@ -41,9 +47,6 @@ uplink-c4-bundle-desc = Porque às vezes a quantidade é de qualidade. Contém 8
 
 uplink-emp-grenade-name = Granada EMP
 uplink-emp-grenade-desc = Libera pulsos eletromagnéticos que perturbam ou danificam diversos dispositivos eletrônicos ou drenam células de energia.
-
-uplink-exploding-pen-name = Caneta explosiva
-uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
 
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
@@ -73,7 +76,7 @@ uplink-agent-id-card-name = Cartão de ID do agente
 uplink-agent-id-card-desc = Um cartão de ID modificado que pode copiar acessos de outros cartões e alterar o nome e o título da tarefa à vontade.
 
 uplink-black-jetpack-name = Jetpack Preto
-uplink-black-jetpack-desc = Um jetpack preto. Ele permite que você voe no espaço. Combustível adicional agora incluso!
+uplink-black-jetpack-desc = Um jetpack preto. Ele permite que você voe no espaço. Combustível adicional não incluído.
 
 uplink-reinforcement-radio-name = Teleportador de Reforço
 uplink-reinforcement-radio-desc = Teleporte em um agente de qualidade extremamente questionável. Sem botão de desligar, compre isto se estiver pronto para a festa. Eles têm uma pistola sem munição reserva, e uma faca. É isso mesmo.
@@ -88,7 +91,7 @@ uplink-encryption-key-name = Chave Criptográfica do Sindicato
 uplink-encryption-key-desc = Uma chave de criptografia para acesso à frequência secreta de nossos agentes especiais. Ninguém saberá sobre o seu canal especial com amigos... ou rivais.
 
 uplink-hypopen-name = Hypopen
-uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 10u de reagentes. Vem vazio.
+uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 15u de reagentes. Começa a ficar vazio.
 
 uplink-voice-mask-name = Máscara de Voz
 uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para quem quer que possa pensar. Também utiliza tecnologia camaleão de ponta.
@@ -127,7 +130,7 @@ uplink-super-surplus-bundle-desc = Contém itens completamente aleatórios do Si
 
 # Tools
 uplink-toolbox-name = Caixa de ferramentas
-uplink-toolbox-desc = Um complemento completo de ferramentas para o traidor mecanicamente inclinado. Inclui um par de luvas de combate isoladas, máscara de gás sindicar e um cinto de utilidades.
+uplink-toolbox-desc = Um complemento completo de ferramentas para o traidor mecanicamente inclinado. Inclui um par de luvas de combate isoladas, máscara de gás sindicar e um coldre de ombro.
 
 uplink-syndicate-jaws-of-life-name = Jaws Of Life
 uplink-syndicate-jaws-of-life-desc = Uma ferramenta combinada de forçar e corte. É útil para entrar na estação ou em seus departamentos.
@@ -150,9 +153,6 @@ uplink-necronomicon-desc = Um livro profano capaz de invocar um familiar demoní
 
 uplink-revolver-cap-gun-fake-name = Arma de Festim Falsa
 uplink-revolver-cap-gun-fake-desc = Engane o seu inimigo! Cabe balas de festim e de magnum. Vem carregada com balas de magnum.
-
-uplink-banana-peel-explosive-name = Casca de Banana Explosiva
-uplink-banana-peel-explosive-desc = Eles vão cair na gargalhada quando eles escorregarem nela!
 
 # Armor
 uplink-chameleon-name = Kit Camaleão
@@ -210,6 +210,9 @@ uplink-experimental-stimpack-desc = Uma versão protótipo do Stimpack retirada 
 uplink-syndicate-segway-crate-name = Segway do Sindicato
 uplink-syndicate-segway-crate-desc = Seja um inimigo da corporação, com estilo!
 
+uplink-nocturine-gland-injector-name = Glândula Injetora Nocturina
+uplink-nocturine-gland-injector-desc = Faz com que suas presas injetem nocturina sempre que você suga sangue.
+
 # Pointless
 uplink-revolver-cap-gun-name = Cap Gun
 uplink-revolver-cap-gun-desc = Parece até parada real! Recomendado para 8 anos e acima.
@@ -237,4 +240,3 @@ uplink-operative-skirt-desc = Uma saia dada aos nossos agentes nucleares com tec
 
 uplink-balloon-name = Syndie Balloon
 uplink-balloon-desc = Dado às bravas almas dos que sobreviveram ao passeio "ciclone atômico" em Syndieland.
-

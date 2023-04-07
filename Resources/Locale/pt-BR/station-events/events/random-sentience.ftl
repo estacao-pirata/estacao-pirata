@@ -27,7 +27,7 @@ station-event-random-sentience-announcement = Baseado em { $data }, nós acredit
 
 ## Ghost role description
 
-station-event-random-sentience-role-description = Você é um { $name } senciente, trazido à vida através da magia espacial.
+station-event-random-sentience-role-description = Você é um { $name } senciente, trazido à vida através da alta quantidade de vislumbre.
 
 # Flavors
 station-event-random-sentience-flavor-mechanical = mecânico

@@ -22,3 +22,9 @@ ghost-role-information-hamlet-description = Vive na ponte de comando da estaçã
 
 ghost-role-information-cancer-mouse-name = Rato Canceroso
 ghost-role-information-cancer-mouse-description = Um Rato Canceroso.
+
+ghost-role-information-medibot-name = Medibot
+ghost-role-information-medibot-description = Clique nas pessoas para curá-las. Cure qualquer pessoa que seu autoinjetor permitir.
+
+ghost-role-information-cleanbot-name = CleanBot
+ghost-role-information-cleanbot-description = Clique nas poças para limpá-las.

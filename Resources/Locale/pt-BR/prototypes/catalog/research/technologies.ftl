@@ -4,9 +4,6 @@ technologies-basic-research-technology-description = Tecnologias de pesquisa bá
 technologies-cleaning-technology = Tecnologia de limpeza
 technologies-cleaning-technology-description = Comece com uma estação limpa e brilhante.
 
-technologies-advanced-cleaning-technology = Tecnologia de limpeza avançada
-technologies-advanced-cleaning-technology-description = O esfregão avançado não impede as pessoas de cagarem a estação, infelizmente. 
-
 technologies-foodbev-technology = Tecnologia de Comes e Bebes
 technologies-food-and-beverage-technology-description = Serviço robusto com tecnologia de ponta.
 
@@ -49,12 +46,6 @@ technologies-rapid-upgrade-description = A capacidade de melhorar rapidamente a 
 technologies-material-sheet-printing = Impressão de placas de materiais
 technologies-material-sheet-printing-description = Imprima essas folhas!
 
-technologies-advanced-atmospherics-technology = Tecnologia atmosférica avançada
-technologies-advanced-atmospherics-technology-description = Como se pudesse ficar mais avançado.
-
-technologies-avionics-systems = Sistemas aviônicos
-technologies-avionics-systems-description = O mais recente em tecnologia fly-by-LV-wire
-
 technologies-electromagnetic-theory = Teoria eletromagnética
 technologies-electromagnetic-theory-description = Tente não se fritar.
 
@@ -82,26 +73,38 @@ technologies-super-powercell-printing-description = Imprima super powercells.
 technologies-scientific-technology = Tecnologia básica
 technologies-scientific-technology-description = Os fundamentos dos suprimentos de uma equipe de pesquisa.
 
-technologies-basic-parts-technology = Tecnologia de partes básicas
-technologies-basic-parts-technology-description = Eles não são ótimos, mas pelo menos são alguma coisa.
-
 technologies-anomaly-technology = Tecnologo de anomalias
 technologies-anomaly-technology-description = Máquinas para contenção avançada de anomalias.
-
-technologies-adv-parts-technology = Tecnologia de partes avançadas
-technologies-adv-parts-technology-description = Bom para atualizar máquinas.
 
 technologies-robotics-technology = Tecnologia robótica
 technologies-robotics-technology-description = Partes do robô.
 
-technologies-archaeology = Archeological equipment
-technologies-archaeology-description = Advanced equipment for uncovering the secrets of artifacts.
+technologies-archaeology = Equipamento arqueológico
+technologies-archaeology-description = Equipamento avançado para descobrir os segredos dos artefatos.
+
+technologies-adv-parts-technology = Tecnologia avançada de peças
+technologies-adv-parts-technology-description = Como as anteriores, mas melhor
+
+technologies-super-parts-technology = Tecnologia de super peças
+technologies-super-parts-technology-description = Novos patamares de desempenho da máquina.
+
+technologies-security-technology = Tecnologia de segurança
+technologies-security-technology-descritpion =  Aprenda a substituir e reabastecer nosso equipamento de segurança atual.
+
+technologies-ballistic-technology = Tecnologia balística
+technologies-ballistic-technology-description = A munição de arma de fogo sempre foi bem compreendida, mas nossos tornos lutam com aspectos de sua produção.
+
+technologies-direct-energy-technology = Tecnologia de energia direta
+technologies-direct-energy-technology-description = Aproveite nossos avanços em tecnologia de energia para fins ofensivos.
+
+technologies-non-lethal-technology = Tecnologia não letal
+technologies-non-lethal-technology-description = Opções menos letais para segurança.
 
 technologies-ripley-technology = Exosuit: Ripley
-technologies-ripley-technology-description = The latest and greatest in mechanized cargo construction.
+technologies-ripley-technology-description = O que há de mais moderno e moderno em construção mecanizada de cargas.
 
-technologies-adv-parts-technology-description = Like the previous ones, but better!
-technologies-adv-parts-technology = Advanced parts technology
+technologies-bluespace-technology = Tecnologia Bluespace
+technologies-bluespace-technology-description = Armazenamento extradimensional.
 
-technologies-super-parts-technology = Tecnologia de super partes
-technologies-super-parts-technology-description = Novos patamares de desempenho das máquinas.
+technologies-teleportation-technology = Tecnologia de teletransporte
+technologies-teleportation-technology-description = A capacidade de mover a matéria instantaneamente de um lugar para outro.

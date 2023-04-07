@@ -37,5 +37,6 @@ humanoid-profile-editor-job-priority-medium-button = Média
 humanoid-profile-editor-job-priority-low-button = Baixa
 humanoid-profile-editor-job-priority-never-button = Nunca
 humanoid-profile-editor-naming-rules-warning = Aviso: Nomes ou descrições ofensivas acarretarão em interverções de administradores. Leia nossas \[Regras\] para mais.
+humanoid-profile-editor-loadouts-tab = Loadout
 humanoid-profile-editor-markings-tab = Marcas
 humanoid-profile-editor-flavortext-tab = Descrição

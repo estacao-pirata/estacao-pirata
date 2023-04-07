@@ -3,6 +3,7 @@
 crew-monitoring-user-interface-title = Monitoramento da Tripulação
 
 crew-monitoring-user-interface-name = Nome
+crew-monitoring-user-interface-job = Trabalho
 crew-monitoring-user-interface-status = Status
 crew-monitoring-user-interface-location = Localização
 

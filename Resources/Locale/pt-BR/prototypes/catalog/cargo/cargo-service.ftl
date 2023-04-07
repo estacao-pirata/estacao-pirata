@@ -7,6 +7,9 @@ ent-ServiceLightsReplacement = { ent-CrateServiceReplacementLights }
 ent-MousetrapBoxes = { ent-CrateMousetrapBoxes }
     .desc = { ent-CrateMousetrapBoxes.desc }
 
+ent-HolyWaterKit = { ent-CrateHolyWaterKit }
+    .desc = { ent-CrateHolyWaterKit.desc }
+
 ent-ServiceSmokeables = { ent-CrateServiceSmokeables }
     .desc = { ent-CrateServiceSmokeables.desc }
 
@@ -18,3 +21,6 @@ ent-ServiceBureaucracy = { ent-CrateServiceBureaucracy }
 
 ent-ServicePersonnel = { ent-CrateServicePersonnel }
     .desc = { ent-CrateServicePersonnel.desc }
+
+ent-ServiceBooks = { ent-CrateServiceBooks }
+    .desc = { ent-CrateServiceBooks.desc }

@@ -1,4 +1,4 @@
-﻿default-program-name = Programa
+﻿﻿default-program-name = Programa
 notekeeper-program-name = Bloco de notas
 
 net-probe-program-name = NetProbe

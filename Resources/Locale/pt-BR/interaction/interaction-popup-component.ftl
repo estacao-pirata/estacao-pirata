@@ -12,7 +12,6 @@ petting-success-crab = Você acaricia {THE($target)} em sua cabecinha suave.
 petting-success-dog = Você acaricia {THE($target)} em sua macia e fofa cabeça.
 petting-success-frog = Você acaricia {THE($target)} em sua slippery cabecinha.
 petting-success-goat = Você acaricia {THE($target)} em sua fofa cabeça com chifres.
-petting-success-pig = Você acaricia {THE($target)} em sua cabeça peluda.
 petting-success-goose = Contra todas as possibilidades, você consegue acariciar {THE($target)} em sua horrível cabecinha.
 petting-success-possum = Você acaricia {THE($target)} em sua horrível cabecinha.
 petting-success-pig = Você acaricia {THE($target)} em sua cabeluda cabecinha.
@@ -23,7 +22,7 @@ petting-success-tarantula = Você acaricia {THE($target)} em sua peluda cabecinh
 petting-success-holo = Você acaricia {THE($target)} em sua espinhosa e metálica cabeça.
 petting-success-dragon = Esquivando de dentes, garras, e chamas, você acaricia {THE($target)} em sua massiva e escamosa cabeça.
 petting-success-hamster = Voce acaricia {THE($target)} em {POSS-ADJ($target)} fofa cabecinha.
-petting-success-bear = Você relutantemente acaricia {THE($target)} em {POSS-ADJ($target)} cabeça mística.
+petting-success-bear = Você relutantemente acaricia {THE($target)} em {POSS-ADJ($target)} cabeça mística
 
 petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
 
@@ -37,6 +36,7 @@ petting-failure-sloth = Você tenta acariciar {THE($target)}, mas ele(a) de algu
 petting-failure-holo = Você tenta acariciar {THE($target)}, mas os espinhos dele(a) quase impalam sua mão!
 petting-failure-dragon = Você levanta sua mão, mas quando {THE($target)} solta um rugido, você decide que é melhor não arriscar virar franguinho assado.
 petting-failure-hamster = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} tenta morder o seu dedo e por pouco seus reflexos te salvam de um ferimento quase fatal.
+petting-failure-pibble = Você tenta acariciar {THE($target)}, e {SUBJECT($target)} avança em você!
 petting-failure-bear = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} rosna, fazendo você pensar duas vezes.
 
 ## Petting silicons
@@ -59,3 +59,6 @@ comp-window-knock = *toc toc*
 hugging-success-generic = Você abraça {THE($target)}.
 hugging-success-generic-others = { CAPITALIZE(THE($user)) } abraçou {THE($target)}.
 hugging-success-generic-target = { CAPITALIZE(THE($user)) } te abraçou.
+hugging-failure-generic = Você tenta abraçar {THE($target)}, mas ele não parecem gostar.
+hugging-failure-generic-others = {CAPITALIZE(THE($user))} tenta abraçar {THE($target)}, ele não parecem gostar.
+hugging-failure-generic-target = {CAPITALIZE(THE($user))} abraça voce, você franze a testa para trás.

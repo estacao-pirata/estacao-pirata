@@ -33,5 +33,6 @@ player-first-join-message = O jogador {$name} entrou pela primeira vez.
 player-leave-message = O jogador {$name} saiu.
 
 latejoin-arrival-announcement = {$character} ({$job}) chegou a estação!
+cryo-departure-announcement = {$character} ({$job}) foi para armazenamento criogênico.
 latejoin-arrival-sender = Estação
 latejoin-arrivals-direction = Uma nave pra te transferir pra a sua estação chegará em breve.

@@ -19,5 +19,17 @@ roles-antag-nuclear-operative-commander-objective = Lidere o seu time para a des
 roles-antag-nuclear-operative-name = Operativo nuclear
 roles-antag-nuclear-operative-objective = Encontre o disco nuclear e exploda a estação.
 
+roles-antag-xeno-queen-name = Xeno queen
+roles-antag-xeno-name = Xeno drone
+roles-antag-xeno-objective = Infecte o máximo de pessoas possível e tome a estação.
+
+roles-antag-fugitive-name = Fugitive
+roles-antag-fugitive-description = Sobrevivar. Escape.
+
 roles-antag-evil-twin-name = Gêmeo Mau
 roles-antag-evil-twin-description = Substitua seu gêmeo.
+
+roles-antag-minor-antag-name = Antag menor
+roles-antag-minor-antag-objective = Faça o seu caminho através de um turno normal, considerando seus motivos ocultos.
+
+roles-antag-not-whitelisted = Você precisa estar na lista de permissões para jogar antagonistas.

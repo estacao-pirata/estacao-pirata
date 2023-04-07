@@ -7,5 +7,5 @@ department-Security-description = Mantenha a paz em torno da estação.
 department-Science-description = Pesquise novas tecnologias e artefatos perigosos.
 
 #Nyano
-department-Epistemics-description = Discover what lies beyond the fabric of reality.
-department-Silicon-description = Follow your laws in service to the humans.
+department-Epistemics-description = Descubra o que está além do tecido da realidade.
+department-Silicon-description = Siga suas leis a serviço dos humanos.

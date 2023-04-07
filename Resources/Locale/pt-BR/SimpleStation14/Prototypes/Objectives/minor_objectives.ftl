@@ -1,26 +1,26 @@
-objective-condition-pickpocket-title = Pickpocket.
-objective-condition-pickpocket-description = You've got sticky fingers, and get a thrill from taking things, regardless of whether or not you should have them. Be smart about it, a rifle from the armory probably isn't worth it, but a pen from the HoP's desk? Score.
+objective-condition-pickpocket-title = Batedor de carteira.
+objective-condition-pickpocket-description = Você tem dedos pegajosos e fica emocionado ao pegar as coisas, independentemente se voce deve ou não tê-los. Seja esperto, um rifle do arsenal provavelmente não vale a pena, mas uma caneta da mesa do HoP? Score.
 
-objective-condition-twitchy-title = Twitchy.
-objective-condition-twitchy-description = You've got a short fuse, and might've had a bad day. You're likely to show others your bad side, and escalate situations more than needed. -Sec.
+objective-condition-twitchy-title = Revoltado.
+objective-condition-twitchy-description = Você tem pavio curto e pode ter tido um dia ruim. É provável que você mostre aos outros o seu lado ruim e aumente as situações mais do que o necessário. -Sec.
 
-objective-condition-poor-worker-title = Poor worker.
-objective-condition-poor-worker-description = You're not much one for sabotage, but you just don't care for your job. The pay's been coming in with little to no effort, and you don't intend to start now. -Command, Warden.
+objective-condition-poor-worker-title = Trabalhador preguiçoso.
+objective-condition-poor-worker-description = Você não é interessado em sabotagem, mas simplesmente não liga para o seu trabalho. O salário está caindo na conta sem nenhum esforço e você não pretende começar trabalhar agora. -Command, Warden.
 
-objective-condition-syndicate-enthusiast-title = Syndicate Enthusiast.
-objective-condition-syndicate-enthusiast-description = You're no terrorist, and you do not intend to get shot, but if you saw a member of a hostile corporation doing something they shouldn't, you may be willing to turn a blind eye, or even open a door. -Sec, Command.
+objective-condition-syndicate-enthusiast-title = Entusiasta do Sindicato.
+objective-condition-syndicate-enthusiast-description = Você não é terrorista e não pretende levar um tiro, mas se vir um membro de uma corporação hostil fazendo algo que não deveria, pode estar disposto a fechar os olhos ou até mesmo abrir uma porta. -Sec, Command.
 
-objective-condition-obsessed-title = Obsessed.
-objective-condition-obsessed-description = Their hair. Their smell. The look in their eyes. You just cannot get enough of this person. You don't want them to be afraid of you, but if there's a opportunity where you can spend more time with them, or see what they're doing, you're going to take it.
+objective-condition-obsessed-title = Obcecado.
+objective-condition-obsessed-description = O cabelo deles. O cheiro deles. O olhar em seus olhos. Você simplesmente não consegue o suficiente dessa pessoa. Você não quer que eles tenham medo de você, mas se houver uma oportunidade em que você possa passar mais tempo com eles ou ver o que eles estão fazendo, você vai aproveitá-la.
 
-objective-condition-litterbug-title = Litterbug.
-objective-condition-litterbug-description = Trashcans? What're those for?? The janitor is your personal maid! -Janitor.
+objective-condition-litterbug-title = Porcalhão.
+objective-condition-litterbug-description = Latas de lixo? Pra que servem?? O zelador é sua empregada pessoal! -Janitor.
 
-objective-condition-graffiti-artist-title = Graffiti Artist.
-objective-condition-graffiti-artist-description = You are an artist, and the world is your canvas. Whether you're laying down messages against the state, or simply making a statement to get your name out, you intend to leave your mark.
+objective-condition-graffiti-artist-title = Grafiteiro.
+objective-condition-graffiti-artist-description = Você é um artista e o mundo é sua tela. Esteja você enviando mensagens contra o estado ou simplesmente fazendo uma declaração para divulgar seu nome, você pretende deixar sua marca.
 
-objective-condition-addict-title = Addict.
-objective-condition-addict-description = You just can't wait to get your next fix- whatever your substance of choice might be. Although you probably won't put someone's safety in jeopardy for it, you're certainly willing to cross some lines to get what you need.
+objective-condition-addict-title = Viciado.
+objective-condition-addict-description = Você simplesmente não pode esperar para obter sua próxima dose - qualquer que seja sua substância de escolha. Embora você provavelmente não coloque a segurança de ninguém em risco por isso, certamente está disposto a cruzar alguns limites para conseguir o que precisa.
 
-objective-condition-dealer-title = Dealer.
-objective-condition-dealer-description = You know that the best way to make bank is getting people hooked on what you're selling- be it chemical, luxury, or pretty much anything else controlled. Clear heavy contraband, like Syndicate equipment and weapons are well outside of your wheel house, but if someone needs their next hit of ephedrine, you might be their guy.
+objective-condition-dealer-title = Distribuidor.
+objective-condition-dealer-description = Você sabe que a melhor maneira de ganhar dinheiro é fazer com que as pessoas fiquem viciadas no que você está vendendo - seja produtos químicos, luxo ou praticamente qualquer outra coisa controlada. O contrabando pesado e claro, como equipamentos e armas do Sindicato, estão bem fora de cogitação, mas se alguém precisar de sua próxima dose de efedrina, você pode ser o cara.

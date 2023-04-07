@@ -71,6 +71,7 @@ holiday-name-boxing-day = Boxing Day
 holiday-name-friday-thirteenth = Sexta-Feira 13
 holiday-name-national-coming-out-day = Dia de sair do armário
 
+
 ## Custom congrats
 
 holiday-custom-cosmonautics-day = Neste dia, a mais de 600 anos, Yuri Gagarin foi o primeiro homem a ir ao espaço!

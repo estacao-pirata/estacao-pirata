@@ -20,3 +20,7 @@ ghost-roles-window-request-role-button-timer = Solicitar ({$time}s)
 ghost-roles-window-follow-role-button = Ir
 ghost-roles-window-no-roles-available-label = Não há Funções Fantasmas disponíveis.
 ghost-roles-window-rules-footer = A Opção estará disponível em {$time} segundos (este tempo é para ter certeza que você leu as regras).
+
+ghost-roles-window-redirect-label = Ou você pode se conectar a outro servidor.
+ghost-roles-window-redirect-label-empty = Você pode se conectar a outro servidor.
+ghost-roles-window-redirect = Conectar

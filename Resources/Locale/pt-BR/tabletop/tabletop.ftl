@@ -14,3 +14,6 @@ tabletop-backgammon-board-name = Gamão
 
 ## Checkers
 tabletop-checkers-board-name = Damas
+
+## Shogi
+tabletop-shogi-board-name = Shogi

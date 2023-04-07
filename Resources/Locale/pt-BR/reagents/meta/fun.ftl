@@ -15,3 +15,6 @@ reagent-desc-saxoite = Tem cheiro de jazz.
 
 reagent-name-licoxide = Licoxide
 reagent-desc-licoxide = Parece... eletrizante.
+
+reagent-name-smonk = Fumar
+reagent-desc-smonk = Nublado, parece fumaça?

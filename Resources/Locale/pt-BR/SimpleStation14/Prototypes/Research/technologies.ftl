@@ -1,2 +1,2 @@
-technologies-cloning = Cloning
-technologies-cloning-description = The cutting edge of pretty much just life.
+technologies-cloning = Clonagem
+technologies-cloning-description = A vanguarda de praticamente apenas a vida.

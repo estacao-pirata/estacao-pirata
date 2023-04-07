@@ -55,6 +55,10 @@ admin-smite-lung-removal-description = Remove seus pulmões, afogando-os.
 admin-smite-remove-hand-description = Remove apenas uma de suas mãos em vez de todas elas.
 admin-smite-disarm-prone-description = Faz com que sejam desarmados 100% do tempo e algemados instantaneamente.
 admin-smite-garbage-can-description = Transforme-os em uma lixeira para enfatizar o que eles lembram.
+admin-smite-bookify-description = Turn them into a spacelaw book.
+admin-smite-smite-description = Play a lightning sound across the grid and zap them.
+admin-smite-roleplay-description = Please roleplay appropriately.
+admin-smite-manup-description = Man up, move on.
 
 
 ## Tricks descriptions

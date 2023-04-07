@@ -1,6 +1,6 @@
 # server.yml
-# guide-entry-server = Server Information
-guide-entry-standardoperatingprocedure = Standard Operating Procedure
-guide-entry-gettingstarted = Getting Started
-guide-entry-serverdifferences = Server Differences
-guide-entry-inworldinfo = In World Information
+# guide-entry-server = Informação do servidor
+guide-entry-standardoperatingprocedure = Procedimento operacional Padrão
+guide-entry-gettingstarted = Começando
+guide-entry-serverdifferences = Diferenças do servidor
+guide-entry-inworldinfo = Informações Gerais
