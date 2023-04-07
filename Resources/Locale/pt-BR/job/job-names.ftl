@@ -11,6 +11,7 @@ job-name-intern = médico estagiário
 job-name-doctor = médico
 job-name-cmo = médico chefe
 job-name-chemist = químico
+job-name-blueshield = Blueshield
 job-name-technical-assistant = assistente técnico
 job-name-engineer = engenheiro da estação
 job-name-atmostech = técnico atmosférico
