@@ -26,5 +26,5 @@ hud-chatbox-channel-Radio = Rádio
 hud-chatbox-channel-Server = Servidor
 hud-chatbox-channel-Telepathic = Telepático
 hud-chatbox-channel-Visual = Visual
+hud-chatbox-channel-Damage = Dano
 hud-chatbox-channel-Unspecified = Não especificado
-hud-chatbox-channel-Telepathic = Telepático

@@ -3,6 +3,7 @@ shuttle-pilot-end = Parou de pilotar
 
 shuttle-console-in-ftl = Não pode usar FTL enquanto estiver em FTL!
 shuttle-console-proximity = Perto demais de objetos próximos
+shuttle-console-prevent = Você não consegue pilotar esta nave.
 
 # Display
 shuttle-console-display-label = Exibir

@@ -6,6 +6,7 @@ research-console-menu-unlockable-technologies-label = Tecnologia desbloqueável
 research-console-menu-future-technologies-label = Tecnologia futura
 research-console-menu-research-points-text = Pontos de pesquisa: {$points}
 research-console-menu-points-per-second-text = Pontos por segundo {$pointsPerSecond}
+research-console-menu-points-limit-text = Limite de Pontos Passivos: {$pointsLimit}
 research-console-menu-server-selection-button = Servidores
 research-console-menu-server-sync-button = Sincronizar
 research-console-menu-server-unlock-button = Destrancar 

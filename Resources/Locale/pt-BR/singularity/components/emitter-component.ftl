@@ -12,7 +12,7 @@ comp-emitter-turned-off = O {$target} desligou.
 comp-emitter-not-anchored = O {$target} não está fixado ao chão!
 
 # Upgrades
-emitter-component-upgrade-fire-rate = fire rate
+emitter-component-upgrade-fire-rate = taxa de disparo
 
-emitter-component-current-type = The current selected type is: {$type}.
-emitter-component-type-set = Type set to: {$type}
+emitter-component-current-type = O tipo selecionado atual é: {$type}.
+emitter-component-type-set = Tipo definido como: {$type}

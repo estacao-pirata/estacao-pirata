@@ -13,5 +13,8 @@ ent-CrateEmergencyRadiation = caixa de proteção contra radiação
 ent-CrateEmergencyInflatablewall = caixa de paredes infláveis
     .desc = Três pilhas de paredes infláveis ​​para quando as paredes metálicas das estações não quiserem mais segurar a atmosfera.
 
-ent-CrateSlimepersonLifeSupport = caixa de vida de suporte de Pessoas Slimeperson life support crate
+ent-CrateGenericBiosuit = Trajes de emergência com bioproteção
+    .desc = Contém 2 trajes de emergência com bioproteção para garantir que nenhuma doença irá distraí-lo do que você está fazendo por lá.
+
+ent-CrateSlimepersonLifeSupport = caixa de suporta à vida de pessoas slime
     .desc = Contêm 4 máscaras respiradores e quatro tanques de nitrogênio grandes.

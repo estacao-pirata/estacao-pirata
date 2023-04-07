@@ -4,7 +4,6 @@ job-name-cadet = segurança cadete
 job-name-hos = segurança chefe
 job-name-detective = detetive
 job-name-scientist = cientista
-job-name-research-assistant = assistente de pesquisa
 job-name-rd = diretor de pesquisa
 job-name-psychologist = psicólogo
 job-name-intern = médico estagiário
@@ -42,11 +41,11 @@ job-name-ertjanitor = zelador da ERT
 job-name-boxer = boxeador
 job-name-zookeeper = funcionário do zoológico
 
+
 #Nyano
 job-name-mystagogue = mystagogue
 job-name-mantis = mantis forênsica
 job-name-epistemologist = acólito
-job-name-boxer = boxer
 job-name-mail-carrier = carteiro
 job-name-cataloguer = arquivista
 job-name-cyborg = borgue
@@ -57,6 +56,8 @@ job-name-fugitive = fugitivo
 job-name-prisoner = prisioneiro
 job-name-valet = valet
 job-name-paramedic = paramédico
+job-name-guard = Guarda prisional
+job-name-martialartist =  artista marcial
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
@@ -102,3 +103,14 @@ JobTechnicalAssistant = assistente técnico
 JobWarden = carcereiro
 JobBoxer = boxeador
 JobZookeeper = funcionário do zoológico
+
+# Nyano role timers
+JobCataloguer = arquivista
+JobCyborg = borgue
+JobEpistemologist = acólito
+JobForensicMantis = mantis forênsica
+JobMailCarrier = carteiro
+JobMystagogue = mystagogue
+JobPrisoner = prisioneiro
+JobSalvageTechnician = técnico em salvamento
+JobValet = valet

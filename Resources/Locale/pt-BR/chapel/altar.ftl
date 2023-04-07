@@ -9,3 +9,4 @@ altar-failure-reason-user = Você não é psiônico ou ritualisticamente treinad
 altar-failure-reason-user-humanoid = Você não é um humanóide!
 altar-failure-reason-target = {CAPITALIZE(THE($target))} não {CONJUGATE-BE($target)} psiônico!
 altar-failure-reason-target-humanoid = {CAPITALIZE(THE($target))} não {CONJUGATE-BE($target)} humanóide!
+altar-failure-reason-target-ssd = {CAPITALIZE(THE($target))} {CONJUGATE-BE($target)} SSD!

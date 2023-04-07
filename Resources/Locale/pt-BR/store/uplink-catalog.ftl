@@ -20,6 +20,12 @@ uplink-edagger-desc = Uma pequena lâmina de energia convenientemente disfarçad
 uplink-fire-axe-flaming-name = Machado de Fogo
 uplink-fire-axe-flaming-desc = Uma arma de estilo clássico infundida com avançada tecnologia de atmos para permitir que ela incendeie alvos.
 
+uplink-kanabou-name = Kanabou
+uplink-kanabou-desc = Uma arma para aqueles que desejam abrir mão da sutileza. Particularmente adequado para oni.
+
+uplink-rickenbacker4001-name = Rickenbacker 4001
+uplink-rickenbacker4001-desc = Quando se trata disso, há muito poucas pessoas que irão balançar o bastão.
+
 # Explosives
 uplink-explosive-grenade-name = Granada explosiva
 uplink-explosive-grenade-desc = Granada que cria uma explosão pequena, mas devastadora.
@@ -204,6 +210,9 @@ uplink-experimental-stimpack-desc = Uma versão protótipo do Stimpack retirada 
 uplink-syndicate-segway-crate-name = Segway do Sindicato
 uplink-syndicate-segway-crate-desc = Seja um inimigo da corporação, com estilo!
 
+uplink-nocturine-gland-injector-name = Glândula Injetora Nocturina
+uplink-nocturine-gland-injector-desc = Faz com que suas presas injetem nocturina sempre que você suga sangue.
+
 # Pointless
 uplink-revolver-cap-gun-name = Cap Gun
 uplink-revolver-cap-gun-desc = Parece até parada real! Recomendado para 8 anos e acima.
@@ -231,4 +240,3 @@ uplink-operative-skirt-desc = Uma saia dada aos nossos agentes nucleares com tec
 
 uplink-balloon-name = Syndie Balloon
 uplink-balloon-desc = Dado às bravas almas dos que sobreviveram ao passeio "ciclone atômico" em Syndieland.
-
