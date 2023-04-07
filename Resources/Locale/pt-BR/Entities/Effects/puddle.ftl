@@ -4,8 +4,8 @@ ent-PuddleGeneric = poça
 ent-PuddleGibblet = vísceras
     .desc = Nojento.
 
-ent-PuddleSmear = borrado
-    .desc = Um borrado. Não queira saber de quê.
+ent-PuddleSmear = poça
+    .desc = Uma poça.
 
 ent-PuddleSplatter = poça
     .desc = Uma poça.
