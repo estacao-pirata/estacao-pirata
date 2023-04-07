@@ -58,6 +58,23 @@ holiday-name-halloween = Halloween
 holiday-name-dia-de-finados = Dia de Finados
 holiday-name-proclamacao-da-republica = Proclamação da República
 holiday-name-natal = Natal
+holiday-name-vegan-day = Dia Vegano
+holiday-name-armistice-day = Dia do Armistício
+holiday-name-kindness-day = Dia da Bondade
+holiday-name-life-day = Dia da Vida
+holiday-name-flowers-day = Dia da Flor
+holiday-name-transgender-remembrance-day = Dia da Memória Transgênero
+holiday-name-saying-hello-day = Dia do Olá
+holiday-name-thanksgiving = Dia de Ação de Graças no Estados Unidos
+holiday-name-sinterklaas = Dia de São Nicolau
+holiday-name-human-rights-day = Dia dos Direitos Humanos
+holiday-name-monkey-day = Dia do Macaco
+holiday-name-mayan-doomsday = Aniversário do Fim do Mundo Maia
+holiday-name-christmas = Natal
+holiday-name-festive-season = Temporada Festiva
+holiday-name-boxing-day = Boxing Day
+holiday-name-friday-thirteenth = Sexta-Feira 13
+holiday-name-national-coming-out-day = Dia de sair do armário
 
 
 ## Custom congrats

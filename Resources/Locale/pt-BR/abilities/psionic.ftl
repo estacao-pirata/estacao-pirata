@@ -45,6 +45,8 @@ action-description-psionic-regeneration = Leve o seu metabolismo ao limite para 
 
 glimmer-report = Nivel atual de vislumbre: {$level}μΨ.
 glimmer-event-report-generic = descarga noösférica detectada. Nivel de vislumbre diminuiu {$decrease} até {$level}μΨ.
+glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O nível de vislumbre diminuiu em {$decrease} para {$level}Ψ.
+glimmer-event-awakened-prefix = acordado {$entity}
 
 noospheric-zap-seize = You seize up! (oi aqui é o rber. tire um screenshot disso por favor)
 noospheric-zap-seize-potential-regained = You seize up! Some mental block seems to have cleared, too. (oi aqui é o rber. tire um screenshot disso por favor)
