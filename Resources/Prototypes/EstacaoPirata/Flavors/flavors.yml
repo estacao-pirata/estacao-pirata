@@ -22,3 +22,13 @@
   id: pudimchocolate
   flavorType: Complex
   description: flavor-complex-pudimchocolate
+
+- type: flavor
+  id: fantastica
+  flavorType: Complex
+  description: flavor-complex-fantastica
+
+- type: flavor
+  id: sindkol
+  flavorType: Complex
+  description: flavor-complex-sindkol

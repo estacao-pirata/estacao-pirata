@@ -37,3 +37,20 @@
         - !type:AdjustReagent
           reagent: Ethanol
           amount: 0.15
+
+- type: reagent
+  id: Sindkol
+  name: reagent-name-sindkol
+  parent: BaseAlcohol
+  desc: reagent-desc-sindkol
+  physicalDesc: reagent-physical-desc-bubbly
+  flavor: sindkol
+  color: "#FFC20E"
+  metabolisms:
+    Drink:
+      effects:
+        - !type:SatiateThirst
+          factor: 2
+        - !type:AdjustReagent
+          reagent: Ethanol
+          amount: 0.15
