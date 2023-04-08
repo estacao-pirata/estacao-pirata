@@ -20,6 +20,8 @@
     Head: MobHumanHead
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
+    HeadTop: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
     Chest: MobHumanTorso
     Eyes: MobHumanoidEyes
     LArm: MobHumanLArm
