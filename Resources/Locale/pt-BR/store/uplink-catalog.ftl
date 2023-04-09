@@ -12,7 +12,7 @@ uplink-rifle-mosin-name = Rifle Excedente
 uplink-rifle-mosin-desc = Um rifle de serviço de ação de ferrolho que viu muitas guerras. Não nada moderno, carregado à mão e com terrível recuo, mas é barato.
 
 uplink-esword-name = Espada de Energia
-uplink-esword-desc = Uma espada de energia muito perigosa. Pode ser armazenada em bolsos quando desligado. Faz um monte de barulho quando usado ou ligado.
+uplink-esword-desc = Uma espada de energia muito perigosa capaz de refletir disparos. Pode ser armazenada em bolsos quando desligado. Faz um monte de barulho quando usado ou ligado.
 
 uplink-edagger-name = Adaga de Energia
 uplink-edagger-desc = Uma pequena lâmina de energia convenientemente disfarçada em forma de caneta.
@@ -73,7 +73,7 @@ uplink-agent-id-card-name = Cartão de ID do agente
 uplink-agent-id-card-desc = Um cartão de ID modificado que pode copiar acessos de outros cartões e alterar o nome e o título da tarefa à vontade.
 
 uplink-black-jetpack-name = Jetpack Preto
-uplink-black-jetpack-desc = Um jetpack preto. Ele permite que você voe no espaço. Combustível adicional não incluído.
+uplink-black-jetpack-desc = Um jetpack preto. Ele permite que você voe no espaço. Combustível adicional agora incluso!
 
 uplink-reinforcement-radio-name = Teleportador de Reforço
 uplink-reinforcement-radio-desc = Teleporte em um agente de qualidade extremamente questionável. Sem botão de desligar, compre isto se estiver pronto para a festa. Eles têm uma pistola sem munição reserva, e uma faca. É isso mesmo.
@@ -88,7 +88,7 @@ uplink-encryption-key-name = Chave Criptográfica do Sindicato
 uplink-encryption-key-desc = Uma chave de criptografia para acesso à frequência secreta de nossos agentes especiais. Ninguém saberá sobre o seu canal especial com amigos... ou rivais.
 
 uplink-hypopen-name = Hypopen
-uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 15u de reagentes. Começa a ficar vazio.
+uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 10u de reagentes. Vem vazio.
 
 uplink-voice-mask-name = Máscara de Voz
 uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para quem quer que possa pensar. Também utiliza tecnologia camaleão de ponta.

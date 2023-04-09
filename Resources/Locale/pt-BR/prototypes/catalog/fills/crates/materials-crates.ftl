@@ -18,3 +18,7 @@ ent-CrateMaterialPlasteel = Caixa de placas de aço-plástico
 
 ent-CrateMaterialPlasma = Caixa de plasma sólido
     .desc = 90 sheets of plasma.
+
+ent-CrateMaterialCardboard = Caixa contendo papelão
+    .desc = 60 folhas de papelão.
+    

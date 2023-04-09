@@ -1,24 +1,24 @@
-ent-PuddleGeneric = puddle
+ent-PuddleGeneric = poça
     .desc = { "" }
 
-ent-PuddleGibblet = gibblets
-    .desc = Gross.
+ent-PuddleGibblet = vísceras
+    .desc = Nojento.
 
-ent-PuddleSmear = puddle
-    .desc = A puddle of liquid.
+ent-PuddleSmear = poça
+    .desc = Uma poça.
 
-ent-PuddleSplatter = puddle
-    .desc = A puddle of liquid.
+ent-PuddleSplatter = poça
+    .desc = Uma poça.
 
-ent-PuddleBlood = blood
-    .desc = This can't be a good sign.
+ent-PuddleBlood = sangue
+    .desc = Isso não pode ser um bom sinal.
 
-ent-PuddleVomit = vomit
-    .desc = Gross.
+ent-PuddleVomit = vômito
+    .desc = Nojento.
 
-ent-PuddleVomitToxin = toxins vomit
-    .desc = You probably don't want to get too close to this.
+ent-PuddleVomitToxin = vômito de toxinas
+    .desc = Você provavelmente não quer chegar muito perto disso.
 
-ent-PuddleWriting = writing
-    .desc = A bit of liquid.
+ent-PuddleWriting = escrita
+    .desc = Um pouco de líquido.
 

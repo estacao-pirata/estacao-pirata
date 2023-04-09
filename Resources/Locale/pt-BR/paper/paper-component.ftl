@@ -1,6 +1,8 @@
 
 ### UI
 
+paper-ui-blank-page-message = Esta página foi intencionalmente deixada em branco
+
 # Shown when paper with words examined details
 paper-component-examine-detail-has-words = {CAPITALIZE(THE($paper))} tem algo escrito.
 # Shown when paper with stamps examined

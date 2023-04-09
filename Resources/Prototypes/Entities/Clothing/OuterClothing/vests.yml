@@ -99,3 +99,23 @@
     sprite: Clothing/OuterClothing/Vests/vest.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Vests/vest.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestBlueshield
+  name: Colete aprova de balas avançado
+  description: isso é só um colete dentro de um colete, duplamente blindado!
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Vests/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Vests/blueshield.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.4
+        Heat: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.9

@@ -30,7 +30,10 @@
       "name": "pda-bartender"
     },
     {
-      "name": "pda-boxer"
+        "name": "pda-boxer"
+    },
+    {
+        "name": "pda-blueshield"
     },
     {
       "name": "pda-captain"

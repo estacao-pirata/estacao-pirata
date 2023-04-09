@@ -1,8 +1,9 @@
-﻿- type: vendingMachineInventory
+- type: vendingMachineInventory
   id: RobustSoftdrinksInventory
   startingInventory:
     DrinkColaCan: 2
-    DrinkGuaranaCan: 3
+    DrinkGuaranaCan: 2
+    DrinkFantasticaCan: 2
     DrinkEnergyDrinkCan: 2
     DrinkGrapeCan: 2
     DrinkRootBeerCan: 2
@@ -12,3 +13,5 @@
     DrinkSpaceUpCan: 2
     DrinkStarkistCan: 2
     DrinkFourteenLokoCan: 2
+  emaggedInventory:
+    DrinkNukieCan: 2

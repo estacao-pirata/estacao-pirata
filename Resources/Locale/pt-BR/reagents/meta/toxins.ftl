@@ -49,8 +49,11 @@ reagent-desc-corpium = Um coquetel Syndicate, cuidadosamente colhido de várias 
 reagent-name-uncooked-animal-proteins = uncooked animal proteins
 reagent-desc-uncooked-animal-proteins = Isso é muito arriscado para os estômagos de formas de vida mais suaves digerirem.
 
-reagent-name-allicin = allicin
+reagent-name-allicin = allicina
 reagent-desc-allicin = Um composto organossulfurado encontrado em álios, como alho, cebola e plantas relacionado.
+
+reagent-name-pax = pax
+reagent-desc-pax = Uma droga psiquiátrica que impede que o paciente machuque alguém diretamente.
 
 reagent-name-human-muta-tox = toxina de mutação humana
 reagent-name-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.

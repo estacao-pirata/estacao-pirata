@@ -1,7 +1,7 @@
-﻿department-Cargo-description = Purchase and deliver useful supplies to the crew.
-department-Civilian-description = Perform small helpful tasks to keep the station sane.
-department-Command-description = Manage the crew and keep them working efficiently.
-department-Engineering-description = Keep the station operational.
-department-Medical-description = Keep the crew healthy.
-department-Security-description = Keep the peace around the station.
-department-Science-description = Research new technologies and dangerous artifacts.
+﻿department-Cargo-description = Compre e entregue suprimentos úteis para a tripulação.
+department-Civilian-description = Realize pequenas tarefas úteis para manter a estação sã.
+department-Command-description = Gerenciar a equipe para mantê-los trabalhando de forma eficiente.
+department-Engineering-description = Manter a estação operacional.
+department-Medical-description = Mantenha a tripulação saudável.
+department-Security-description = Mantenha a paz em torno da estação.
+department-Science-description = Pesquise novas tecnologias e artefatos perigosos.

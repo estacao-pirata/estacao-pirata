@@ -88,5 +88,14 @@ reagent-desc-ultravasculine = Libera rapidamente as toxinas do corpo, mas coloca
 reagent-name-ethylredoxrazine = etilredoxirazina
 reagent-desc-ethylredoxrazine = Neutraliza os efeitos do álcool na corrente sanguínea. Embora seja comumente necessário, raramente é solicitado.
 
+reagent-name-cognizine = cognizina
+reagent-desc-cognizine = Um químico misterioso que é capaz de tornar qualquer criatura não senciente senciente.
+
+reagent-name-ethyloxyephedrine = etiloxiefedrina
+reagent-desc-ethyloxyephedrine = Um medicamento instável derivado da desoxiefedrina. Com os principais efeitos da desoxiefedrina neutralizados, pode ser útil para outra coisa.
+
+reagent-name-diphenylmethylamine = difenilmetilamina
+reagent-desc-diphenylmethylamine = Um medicamento mais estável do que a etiloxiefedrina. Útil para manter alguém acordado.
+
 reagent-name-sigynate = siginato
 reagent-desc-sigynate = Um xarope rosa grosso útil para neutralizar ácidos e cicatrizar regiões corroídas por ácidos. Tem sabor doce!
