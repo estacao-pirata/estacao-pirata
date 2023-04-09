@@ -93,6 +93,8 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "[':", "chatsan-tearfully-smiles" },
         { "('=", "chatsan-tearfully-smiles" },
         { "['=", "chatsan-tearfully-smiles" },
+        { "ss", "chatsan-shake-head-yes" },
+        { "nn", "chatsan-shake-head-no" }
     };
 
     private bool _doSanitize;
