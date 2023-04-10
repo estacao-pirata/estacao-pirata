@@ -42,6 +42,7 @@
     eyes: ClothingEyesGlassesBlueshield
     outerClothing: ClothingOuterVestBlueshield
     belt: ClothingBeltSecurityFilled
+    pocket1: WeaponDisabler
     id: BlueshieldPDA
     ears: ClothingHeadsetAltSecurity
   innerclothingskirt: ClothingUniformJumpskirtHoP
