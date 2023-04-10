@@ -1,0 +1,36 @@
+﻿- type: polymorph
+  id: WhereRatKing
+  entity: MobRatKing
+  transferName: true 
+  transferDamage: true
+  revertOnCrit: false
+  revertOnDeath: true
+  duration: 60
+
+- type: polymorph
+  id: MagicSDragon
+  entity: MobDragon
+  forced: true
+  transferName: true
+  transferDamage: true
+  revertOnCrit: false
+  revertOnDeath: true
+
+- type: polymorph
+  id: WhereSDragon
+  entity: MobDragon
+  transferName: true
+  transferDamage: true
+  revertOnCrit: false
+  revertOnDeath: true
+  duration: 60 
+
+- type: polymorph
+  id: MagicQXeno
+  entity: MobXenoQueen
+  forced: true
+  transferName: false
+  transferDamage: true
+  revertOnCrit: false
+  revertOnDeath: false
+
