@@ -34,7 +34,7 @@
   id: BlueshieldGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueshield
-    back: ClothingBackpackSecurityFilled
+    back: ClothingBackpackHOPFilled
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatBeretBlueshield
     gloves: ClothingHandsGlovesCombat
@@ -44,5 +44,5 @@
     id: BlueshieldPDA
     ears: ClothingHeadsetAltSecurity
   innerclothingskirt: ClothingUniformJumpskirtHoP
-  satchel: ClothingBackpackSatchelSecurityFilled
-  duffelbag: ClothingBackpackDuffelSecurityFilled
+  satchel: ClothingBackpackSatchelHOPFilled
+  duffelbag: ClothingBackpackDuffelHOPFilled
