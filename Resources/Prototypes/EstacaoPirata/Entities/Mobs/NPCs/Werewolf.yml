@@ -6,7 +6,6 @@
   components:
   - type: InputMover
   - type: MobMover
-  - type: Hands
   - type: HTN
     rootTask: SimpleHostileCompound
   - type: Faction
