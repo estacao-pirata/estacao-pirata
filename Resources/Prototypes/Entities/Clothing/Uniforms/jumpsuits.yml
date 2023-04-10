@@ -1042,11 +1042,13 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitBlueshield
-  name: Macacão de Blueshield
-  description: Um uniforme simples azul com uma braçadeira Amarela escrita Blueshield.
+  id: ClothingUniformJumpsuitPirate
+  name: pirate slops
+  description: A pirate variation of a space sailor's jumpsuit.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+    sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+    sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
+  - type: AddAccentClothing
+    accent: PirateAccent
