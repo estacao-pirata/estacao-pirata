@@ -18,6 +18,7 @@
   - Chef
   - Clown
   - HeadOfPersonnel
+  - Blueshield
   - Janitor
   - Lawyer
   - Librarian
@@ -45,7 +46,6 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
-  - Blueshield
 - type: department
   id: Engineering
   description: department-Engineering-description
