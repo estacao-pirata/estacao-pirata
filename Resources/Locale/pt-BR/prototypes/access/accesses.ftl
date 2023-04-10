@@ -6,6 +6,7 @@ id-card-access-level-head-of-security = Chefe de Segurança
 id-card-access-level-security = Segurança
 id-card-access-level-armory = Arsenal
 id-card-access-level-brig = Brig
+id-card-access-level-detective = Detetive
 
 id-card-access-level-chief-engineer = Chefe da Engenharia
 id-card-access-level-engineering = Engenharia
