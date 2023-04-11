@@ -6,10 +6,13 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 3600 
-    - !type:RoleTimeRequirement
-      role: JobWarden
-      time: 18000
+      time: 7200 
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 3600
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 3600
     - !type:OverallPlaytimeRequirement
       time: 108000
   weight: 10
@@ -23,10 +26,8 @@
   - Maintenance
   - Security
   - Service
-  - Research
   - Medical
   - Brig
-  - Engineering
   - External
   
 
@@ -34,15 +35,16 @@
   id: BlueshieldGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueshield
-    back: ClothingBackpackSecurityFilled
+    back: ClothingBackpackHOPFilled
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatBeretBlueshield
     gloves: ClothingHandsGlovesCombat
     eyes: ClothingEyesGlassesBlueshield
     outerClothing: ClothingOuterVestBlueshield
     belt: ClothingBeltSecurityFilled
+    pocket1: WeaponDisabler
     id: BlueshieldPDA
     ears: ClothingHeadsetAltSecurity
   innerclothingskirt: ClothingUniformJumpskirtHoP
-  satchel: ClothingBackpackSatchelSecurityFilled
-  duffelbag: ClothingBackpackDuffelSecurityFilled
+  satchel: ClothingBackpackSatchelHOPFilled
+  duffelbag: ClothingBackpackDuffelHOPFilled

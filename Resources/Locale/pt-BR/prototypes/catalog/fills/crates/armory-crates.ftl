@@ -9,3 +9,6 @@ ent-CrateTrackingImplants = Caixa de implantes rastreadores
 
 ent-CrateArmoryLaser = caixa de lasers
     .desc = Contém três armas laser letais de alta energia. Requer acesso ao Armory para abrir.
+
+ent-CrateArmoryPistols = caixa de pistolas
+    .desc = Contains duas duas pistolas padrão NT com quatro pentes. Requer acesso Armory para abrir.
