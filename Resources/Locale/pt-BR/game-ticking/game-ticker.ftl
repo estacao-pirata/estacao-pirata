@@ -6,7 +6,7 @@ game-ticker-unknown-role = Desconhecido
 game-ticker-delay-start = O inicio da partida foi atrasado para {$seconds} segundos.
 game-ticker-pause-start = A inicialização de partida foi pausada.
 game-ticker-pause-start-resumed = A contagem para iniciar a partida voltou.
-game-ticker-player-join-game-message = Boas vindas à estação espacial 14! Se essa é sua primeira vez jogando, se certifique de ler as regras do jogo, e não tenha vergonha de pedir ajuda no chat OOC.
+game-ticker-player-join-game-message = Bem-vindo à estação espacial 14! Se essa é sua primeira vez jogando, se certifique de ler as regras do jogo, e não tenha vergonha de pedir ajuda no chat OOC.
 game-ticker-get-info-text = Olá e bem-vindo a [color=white]Estação Pirata![/color]
                             A rodada atual é: [color=white]#{$roundId}[/color]
                             A quantidade de jogadores conectados é: [color=white]{$playerCount}[/color]
@@ -24,6 +24,7 @@ game-ticker-get-info-preround-text = Olá e bem-vindo a [color=white]Estação P
                             >[color=yellow]{$desc}[/color]
 game-ticker-no-map-selected = [color=red]Nenhum mapa selecionado![/color]
 game-ticker-player-no-jobs-available-when-joining = Ao tentar entrar no jogo, nenhum trabalho está disponível.
+game-ticker-welcome-to-the-station = Bem-vindo à tripulação da estação, aproveite a sua estada!
 
 # Displayed in chat to admins when a player joins
 player-join-message = O jogador {$name} entrou.
