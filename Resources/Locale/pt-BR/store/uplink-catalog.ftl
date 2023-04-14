@@ -97,6 +97,9 @@ uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para
 uplink-storage-implanter-name = Implanter de Armazenamento
 uplink-storage-implanter-desc = Esconda as paradas dentro de si com a nova tecnologia bluespace!
 
+uplink-radio-jammer-name = Bloqueador de Rádio
+uplink-radio-jammer-desc = Este dispositivo interromperá qualquer tentativa de transmitir rádio nas redondezas quando ativado.
+
 uplink-freedom-implanter-name = Implanter de Liberdade
 uplink-freedom-implanter-desc = Livre-se desses oficiais da seg desagradávis com este implante de três usos!
 
