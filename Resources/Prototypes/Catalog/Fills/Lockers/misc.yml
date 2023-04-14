@@ -32,7 +32,7 @@
       - id: MedkitOxygenFilled
         prob: 0.2
       - id: WeaponFlareGun
-        prob: 0.05
+        prob: 0.0125
       - id: ClothingOuterSuitEmergency
         prob: 0.5
       - id: BoxMRE
@@ -58,7 +58,7 @@
       - id: MedkitOxygenFilled
         prob: 0.2
       - id: WeaponFlareGun
-        prob: 0.05
+        prob: 0.0125
       - id: ClothingOuterSuitEmergency
         prob: 0.5
       - id: BoxMRE
@@ -132,7 +132,7 @@
         - id: ClothingHeadHatCone
           prob: 0.2
         - id: WeaponFlareGun
-          prob: 0.1
+          prob: 0.25
         - id: ClothingHandsGlovesColorYellowBudget
           prob: 0.25
 
@@ -156,7 +156,7 @@
       - id: MedkitOxygenFilled
         prob: 0.2
       - id: WeaponFlareGun
-        prob: 0.05
+        prob: 0.0125
       - id: ClothingOuterSuitEmergency
         prob: 0.5
       - id: BoxMRE
