@@ -32,3 +32,8 @@
   id: sindkol
   flavorType: Complex
   description: flavor-complex-sindkol
+
+- type: flavor
+  id: corote
+  flavorType: Complex
+  description: flavor-complex-corote
