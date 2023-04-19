@@ -117,29 +117,42 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
         if (!_solutionSystem.TryGetRefillableSolution(target, out var refillableSolution, refillable: refillable))
             return false;
 
-        if (refillableSolution.Volume <= 0)
+        if (refillableSolution.Volume < 0)
         {
             var msg = Loc.GetString("mopping-system-target-container-empty", ("target", target));
             _popups.PopupEntity(msg, user, user);
             return false;
         }
 
+        var transferAmount = component.PickupAmount / PuddleSystem.EvaporationReagentRatio -
+            absorberSoln.GetReagentQuantity(PuddleSystem.EvaporationReagent);
+
+        transferAmount = transferAmount > 0 ? transferAmount : 0;
+
         // Remove the non-water reagents.
         // Remove water on target
         // Then do the transfer.
-        var nonWater = absorberSoln.SplitSolutionWithout(component.PickupAmount, PuddleSystem.EvaporationReagent);
+        var water = refillableSolution.RemoveReagent(PuddleSystem.EvaporationReagent, transferAmount);
+
+        // Reads from refillableSolution.AvailableVolume have to
+        // be done after possibly removing some water
+        if (refillableSolution.AvailableVolume == FixedPoint2.Zero){
+            _popups.PopupEntity(Loc.GetString("mopping-system-full", ("used", target)), user, user);
+            // Had it removed any it wouldn't be full
+            DebugTools.Assert(water == FixedPoint2.Zero);
+            return false;
+        }
+
+        var nonWaterAmount = component.PickupAmount > refillableSolution.AvailableVolume ?
+            refillableSolution.AvailableVolume : component.PickupAmount;
+
+        var nonWater = absorberSoln.SplitSolutionWithout(nonWaterAmount, PuddleSystem.EvaporationReagent);
 
         if (nonWater.Volume == FixedPoint2.Zero && absorberSoln.AvailableVolume == FixedPoint2.Zero)
         {
             _popups.PopupEntity(Loc.GetString("mopping-system-puddle-space", ("used", used)), user, user);
             return false;
         }
-
-        var transferAmount = component.PickupAmount < absorberSoln.AvailableVolume ?
-            component.PickupAmount :
-            absorberSoln.AvailableVolume;
-
-        var water = refillableSolution.RemoveReagent(PuddleSystem.EvaporationReagent, transferAmount);
 
         if (water == FixedPoint2.Zero && nonWater.Volume == FixedPoint2.Zero)
         {
@@ -185,14 +198,29 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
             return true;
         }
 
+        // hack to compensate loss due to fractions that would be periodical
+        // and make sure (available / Ratio) * Ratio is not less than available
+        // otherwise the absorber would very annoyingly never fill
+        // it's not necessary if the ratio is not periodical in a decimal base
+        if (PuddleSystem.EvaporationReagentRatio % 2 != 0 &&
+                PuddleSystem.EvaporationReagentRatio % 5 != 0){
+            available += FixedPoint2.Epsilon;
+        }
+        available *= PuddleSystem.EvaporationReagentRatio;
+
         var transferMax = absorber.PickupAmount;
         var transferAmount = available > transferMax ? transferMax : available;
 
         var split = puddleSolution.SplitSolutionWithout(transferAmount, PuddleSystem.EvaporationReagent);
 
-        absorberSoln.RemoveReagent(PuddleSystem.EvaporationReagent, split.Volume);
-        puddleSolution.AddReagent(PuddleSystem.EvaporationReagent, split.Volume);
-        absorberSoln.AddSolution(split, _prototype);
+        absorberSoln.RemoveReagent(PuddleSystem.EvaporationReagent, split.Volume / PuddleSystem.EvaporationReagentRatio);
+        puddleSolution.AddReagent(PuddleSystem.EvaporationReagent, split.Volume / PuddleSystem.EvaporationReagentRatio);
+        absorberSoln.AddSolution(split.SplitSolution(absorberSoln.AvailableVolume), _prototype);
+        // puts back the excess if any, a hack to circumvent it being a differential equation and prevent the
+        // overflow of the absorber due to residual water not being checked for
+        if (split.Volume > 0){
+            puddleSolution.AddSolution(split, _prototype);
+        }
 
         _solutionSystem.UpdateChemicals(used, absorberSoln);
         _solutionSystem.UpdateChemicals(target, puddleSolution);
