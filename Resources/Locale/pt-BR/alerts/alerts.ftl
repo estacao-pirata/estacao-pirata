@@ -83,3 +83,6 @@ alerts-pulled-desc = Você está sendo puxado. Mova-se para se libertar.
 
 alerts-pulling-name = Puxar
 alerts-pulling-desc = Você está puxando alguma coisa. Clique no alerta para parar.
+
+alerts-suit-power-name = Carga do traje
+alerts-suit-power-desc = Quanta carga elétrica o seu traje ninja espacial tem.

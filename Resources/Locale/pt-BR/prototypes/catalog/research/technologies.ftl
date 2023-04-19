@@ -91,5 +91,8 @@ technologies-ripley-technology-description = O que há de mais moderno e moderno
 technologies-adv-parts-technology-description = Como as anteriores, mas melhor
 technologies-adv-parts-technology = Tecnologia avançada de peças
 
+technologies-magboots-technology = Tecnologia de magbotas
+technologies-magboots-technology-description = Magboots para uma fuga espacial, IC mesmo.
+
 technologies-super-parts-technology = Tecnologia de super partes
 technologies-super-parts-technology-description = Novos patamares de desempenho das máquinas.
