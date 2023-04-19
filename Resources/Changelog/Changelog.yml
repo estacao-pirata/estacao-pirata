@@ -2883,3 +2883,8 @@ Entries:
   - {message: Sinks now replenish 1u of water per second, type: Add}
   id: 3449
   time: '2023-04-18T20:49:17.0000000+00:00'
+- author: rber
+  changes:
+  - {message: Quantidade de água necessária pra limpar poças ajustada para um terço ao invés de 1:1, type: Tweak}
+  id: 4000
+  time: '2023-04-19T03:17:27.0000000-03:00'
