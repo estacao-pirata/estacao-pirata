@@ -213,9 +213,6 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
         var transferMax = absorber.PickupAmount;
         var transferAmount = available > transferMax ? transferMax : available;
 
-        var nonEvaporablePuddleVolume = puddleSolution.Volume - puddleSolution.GetReagentQuantity(PuddleSystem.EvaporationReagent);
-        transferAmount = nonEvaporablePuddleVolume > transferAmount ? transferAmount : nonEvaporablePuddleVolume;
-
         var split = puddleSolution.SplitSolutionWithout(transferAmount, PuddleSystem.EvaporationReagent);
 
         absorberSoln.RemoveReagent(PuddleSystem.EvaporationReagent, split.Volume / PuddleSystem.EvaporationReagentRatio);
