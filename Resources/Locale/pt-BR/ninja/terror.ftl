@@ -1,0 +1,2 @@
+terror-dragon = Tripulantes, atenção! Parece que alguém em sua estação fez uma comunicação inesperada com um peixe estranho próximo no espaço.
+terror-revenant = Tripulantes, atenção! Parece que alguém em sua estação fez uma comunicação inesperada com uma energia de outro mundo próximo no espaço.
