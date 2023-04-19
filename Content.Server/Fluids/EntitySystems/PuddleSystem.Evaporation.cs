@@ -7,7 +7,7 @@ namespace Content.Server.Fluids.EntitySystems;
 
 public sealed partial class PuddleSystem
 {
-    private static readonly TimeSpan EvaporationCooldown = TimeSpan.FromSeconds(5);
+    private static readonly TimeSpan EvaporationCooldown = TimeSpan.FromSeconds(1);
 
     public const string EvaporationReagent = "Water";
 
