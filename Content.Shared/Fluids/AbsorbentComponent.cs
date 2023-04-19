@@ -37,4 +37,6 @@ public sealed class AbsorbentComponent : Component
         {
             Params = AudioParams.Default.WithVariation(0.05f).WithVolume(-3f),
         };
+
+    [DataField("wringSound")] public SoundSpecifier WringSound = DefaultTransferSound;
 }

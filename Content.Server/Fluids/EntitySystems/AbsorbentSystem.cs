@@ -140,6 +140,20 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
 
         transferAmount = transferAmount > 0 ? transferAmount : 0;
 
+        if (transferAmount == FixedPoint2.Zero){
+            transferAmount = refillableSolution.AvailableVolume > absorberSoln.Volume ?
+                absorberSoln.Volume : refillableSolution.AvailableVolume;
+            var split = absorberSoln.SplitSolution(transferAmount);
+
+            refillableSolution.AddSolution(split, _prototype);
+
+            _solutionSystem.UpdateChemicals(used, absorberSoln);
+            _solutionSystem.UpdateChemicals(target, refillableSolution);
+            _audio.PlayPvs(component.WringSound, target);
+            _useDelay.BeginDelay(used);
+            return true;
+        }
+
         var water = refillableSolution.RemoveReagent(PuddleSystem.EvaporationReagent, transferAmount);
 
         if (water == FixedPoint2.Zero && nonWater.Volume == FixedPoint2.Zero)
