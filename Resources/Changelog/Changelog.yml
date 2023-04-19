@@ -1,26 +1,4 @@
 Entries:
-- author: sephtasm
-  changes:
-  - {message: Client-side placement mode crash while placing random humanoid mobs,
-    type: Fix}
-  id: 2950
-  time: '2023-01-24T13:42:58.0000000+00:00'
-- author: Scribbles0
-  changes:
-  - {message: 'Added Barratry back into the game, with a remastered new look.', type: Add}
-  id: 2951
-  time: '2023-01-25T06:28:43.0000000+00:00'
-- author: Macoron
-  changes:
-  - {message: 'Added new emotes with sound! Simply type into emote chat: scream, laugh,
-      clap or snap.', type: Add}
-  id: 2952
-  time: '2023-01-25T16:29:42.0000000+00:00'
-- author: lapatison
-  changes:
-  - {message: diagnoser now properly displays no-cure text, type: Fix}
-  id: 2953
-  time: '2023-01-26T00:31:20.0000000+00:00'
 - author: PixelTK
   changes:
   - {message: Adjusted the speed loaders of light rifles so they can both transfer
@@ -2888,3 +2866,25 @@ Entries:
   - {message: Quantidade de água necessária pra limpar poças ajustada para um terço ao invés de 1:1, type: Tweak}
   id: 4000
   time: '2023-04-19T03:17:27.0000000-03:00'
+- author: Whisper
+  changes:
+  - {message: The drunk effect of having a low blood level is now instantly removed
+      when healthy!, type: Fix}
+  - {message: Dead bodies will persist in bleeding after death!, type: Add}
+  id: 3450
+  time: '2023-04-19T03:09:22.0000000+00:00'
+- author: Mumohan
+  changes:
+  - {message: Minibomb now does what it says on the tin and gibs bodies, type: Tweak}
+  id: 3451
+  time: '2023-04-19T04:36:13.0000000+00:00'
+- author: PuroSlavKing
+  changes:
+  - {message: Added Stimpack sprite, type: Add}
+  id: 3452
+  time: '2023-04-19T05:41:10.0000000+00:00'
+- author: DEATHB4DEFEAT
+  changes:
+  - {message: Added a search bar to marking editors in character creation, type: Add}
+  id: 3453
+  time: '2023-04-19T05:44:37.0000000+00:00'
