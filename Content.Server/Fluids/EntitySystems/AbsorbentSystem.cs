@@ -117,21 +117,10 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
         if (!_solutionSystem.TryGetRefillableSolution(target, out var refillableSolution, refillable: refillable))
             return false;
 
-        if (refillableSolution.Volume <= 0)
+        if (refillableSolution.Volume < 0)
         {
             var msg = Loc.GetString("mopping-system-target-container-empty", ("target", target));
             _popups.PopupEntity(msg, user, user);
-            return false;
-        }
-
-        // Remove the non-water reagents.
-        // Remove water on target
-        // Then do the transfer.
-        var nonWater = absorberSoln.SplitSolutionWithout(component.PickupAmount, PuddleSystem.EvaporationReagent);
-
-        if (nonWater.Volume == FixedPoint2.Zero && absorberSoln.AvailableVolume == FixedPoint2.Zero)
-        {
-            _popups.PopupEntity(Loc.GetString("mopping-system-puddle-space", ("used", used)), user, user);
             return false;
         }
 
@@ -140,21 +129,30 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
 
         transferAmount = transferAmount > 0 ? transferAmount : 0;
 
-        if (transferAmount == FixedPoint2.Zero){
-            transferAmount = refillableSolution.AvailableVolume > absorberSoln.Volume ?
-                absorberSoln.Volume : refillableSolution.AvailableVolume;
-            var split = absorberSoln.SplitSolution(transferAmount);
+        // Remove the non-water reagents.
+        // Remove water on target
+        // Then do the transfer.
+        var water = refillableSolution.RemoveReagent(PuddleSystem.EvaporationReagent, transferAmount);
 
-            refillableSolution.AddSolution(split, _prototype);
-
-            _solutionSystem.UpdateChemicals(used, absorberSoln);
-            _solutionSystem.UpdateChemicals(target, refillableSolution);
-            _audio.PlayPvs(component.WringSound, target);
-            _useDelay.BeginDelay(used);
-            return true;
+        // Reads from refillableSolution.AvailableVolume have to
+        // be done after possibly removing some water
+        if (refillableSolution.AvailableVolume == FixedPoint2.Zero){
+            _popups.PopupEntity(Loc.GetString("mopping-system-full", ("used", target)), user, user);
+            // Had it removed any it wouldn't be full
+            DebugTools.Assert(water == FixedPoint2.Zero);
+            return false;
         }
 
-        var water = refillableSolution.RemoveReagent(PuddleSystem.EvaporationReagent, transferAmount);
+        var nonWaterAmount = component.PickupAmount > refillableSolution.AvailableVolume ?
+            refillableSolution.AvailableVolume : component.PickupAmount;
+
+        var nonWater = absorberSoln.SplitSolutionWithout(nonWaterAmount, PuddleSystem.EvaporationReagent);
+
+        if (nonWater.Volume == FixedPoint2.Zero && absorberSoln.AvailableVolume == FixedPoint2.Zero)
+        {
+            _popups.PopupEntity(Loc.GetString("mopping-system-puddle-space", ("used", used)), user, user);
+            return false;
+        }
 
         if (water == FixedPoint2.Zero && nonWater.Volume == FixedPoint2.Zero)
         {
