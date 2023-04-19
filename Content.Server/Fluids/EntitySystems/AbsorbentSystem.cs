@@ -200,7 +200,6 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
             return true;
         }
 
-        available *= PuddleSystem.EvaporationReagentRatio;
         // hack to compensate loss due to fractions that would be periodical
         // and make sure (available / Ratio) * Ratio is not less than available
         // otherwise the absorber would very annoyingly never fill
@@ -209,6 +208,7 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
                 PuddleSystem.EvaporationReagentRatio % 5 != 0){
             available += FixedPoint2.Epsilon;
         }
+        available *= PuddleSystem.EvaporationReagentRatio;
 
         var transferMax = absorber.PickupAmount;
         var transferAmount = available > transferMax ? transferMax : available;
