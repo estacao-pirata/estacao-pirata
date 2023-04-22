@@ -1,5 +1,5 @@
 disease-cured = Você se sente um pouco melhor.
-disease-sick-generic = Você se sente melhor.
+disease-sick-generic = Você se sente doente.
 disease-sneeze = {CAPITALIZE($person)} espirra.
 disease-cough = {CAPITALIZE($person)} tosse.
 disease-screech = {CAPITALIZE($person)} guincha.
