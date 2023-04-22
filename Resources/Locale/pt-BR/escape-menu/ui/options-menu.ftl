@@ -135,7 +135,10 @@ ui-options-function-open-tile-spawn-window = Abrir menu de spawn de azulejos
 ui-options-function-open-decal-spawn-window = Abrir menu de decalque
 ui-options-function-open-admin-menu = Abrir menu de admin
 ui-options-function-open-guidebook = Abrir livro guia
-
+ui-options-function-window-close-all = Fechar todas as janelas
+ui-options-function-window-close-recent = Fechar a janela recente
+ui-options-function-show-escape-menu = Alterna menu do jogo
+ui-options-function-escape-context = Fechar a janela recente ou alterna menu do jogo
 ui-options-function-take-screenshot = Tirar screenshot
 ui-options-function-take-screenshot-no-ui = Tirar screenshot (Sem UI)
 
@@ -212,5 +215,6 @@ ui-options-net-pvs-leave-tooltip = Isso limita a taxa na qual o cliente remover�
                                        gaguejando ao caminhar, mas pode ocasionalmente
                                        levar a previsões erradas e outros problemas.
 
+## Toggle window console command
 cmd-options-desc = Abre o menu de opções, opcionalmente com uma certa aba selecionada.
 cmd-options-help = Uso: options [aba]

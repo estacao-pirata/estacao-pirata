@@ -15,3 +15,4 @@ stamp-component-stamped-name-warden = Diretor de Segurança
 stamp-component-stamped-name-trader = Mercante
 stamp-component-stamped-name-syndicate = Sindicato
 stamp-component-stamped-name-ce = Engenheiro Chefe
+stamp-component-stamped-name-mantis = Mântis Forênsica

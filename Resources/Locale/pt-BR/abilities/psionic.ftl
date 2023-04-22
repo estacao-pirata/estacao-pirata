@@ -1,7 +1,7 @@
 cage-resist-second-person = Você começa a remover sua {$cage}.
 cage-resist-third-person = {CAPITALIZE(THE($user))} começa a remover a {POSS-ADJ($user)} {$cage}.
 
-cage-uncage-verb = desenjaula
+cage-uncage-verb = Desenjaular
 
 action-name-metapsionic = Pulso Metapsiônico
 action-description-metapsionic = Envia um pulso mental através da área para ver se há algum psíquico por perto.
@@ -62,9 +62,12 @@ psionic-burn-resist = Estranhos arcos dançam pel{THE($item)}!
 action-name-noospheric-zap = Zap Noosférico
 action-description-noospheric-zap = Eletrocuta a consciência do alvo e os deixa atordoados e gagejando.
 
-action-name-pyrokinesis = Pyrokinese
+action-name-pyrokinesis = Pirokinese
 action-description-pyrokinesis = Abre chama em um alvo inflamável.
 pyrokinesis-power-used = Uma língua de chama engolfa {THE($target)}, incendiando {OBJECT($target)}!
+
+action-name-psychokinesis = Psicokinese
+action-description-psychokinesis = Dobre a trama do espaço para se mover instantanemanete através dele.
 
 action-name-rf-sensitivity = Toggle Sensibilidade RF
 action-desc-rf-sensitivity = Ativa ou desativa sua habilidade de interpretar ondas de rádio.

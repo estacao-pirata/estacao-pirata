@@ -2,7 +2,7 @@ ent-CrateFunPlushie = Caixa de pelúcias
     .desc = Um monte de pelúcias macias. Jogue-os ao redor e depois se pergunte como você vai explicar essa compra para o NT.
 
 ent-CrateFunCrewmates = Caixa de tripulação
-    .desc = Um conjunto de cinco tripulantes, impostores não incluídos. Ou são eles?
+    .desc = Um conjunto de cinco tripulantes, impostores não incluídos. Ou será que...?
 
 ent-CrateFunInstrumentsVariety = Caixa de conjunto de instrumentos variados
     .desc = Faça sua estação triste se mexer e curtir com esta bela coleção! Contém treze instrumentos diferentes.

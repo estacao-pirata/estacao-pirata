@@ -16,6 +16,9 @@ reagent-desc-bicaridine = Um analgésico que é altamente eficaz no tratamento d
 reagent-name-cryoxadone = cryoxadona
 reagent-desc-cryoxadone = Necessário para o bom funcionamento da criogenia. Cura todos os tipos de dano padrão muito rapidamente, mas só funciona em temperaturas abaixo de 170K (geralmente isso significa células criogênicas). Também pode curar lentamente o dano do clone, como causado por clonagem ou Slimes.
 
+reagent-name-clonexadone = clonexadona
+reagent-desc-clonexadone = Cura o dano padrão da mesma forma que Cryoxadone, com o mesmo requisito de temperatura. Significativamente mais eficaz que o primeiro no tratamento de danos celulares, embora ambos possam ser usados simultaneamente. Melhor usado em células crio.
+
 reagent-name-dermaline = dermalina
 reagent-desc-dermaline = Um produto químico avançado que é mais eficaz no tratamento de queimaduras do que o Kelotane.
 
@@ -97,9 +100,5 @@ reagent-desc-ethyloxyephedrine = Um medicamento instável derivado da desoxiefed
 reagent-name-diphenylmethylamine = difenilmetilamina
 reagent-desc-diphenylmethylamine = Um medicamento mais estável do que a etiloxiefedrina. Útil para manter alguém acordado.
 
-
 reagent-name-sigynate = siginato
 reagent-desc-sigynate = Um xarope rosa grosso útil para neutralizar ácidos e cicatrizar regiões corroídas por ácidos. Tem sabor doce!
-
-reagent-name-clonexadone = clonexadona
-reagent-desc-clonexadone = Cura o dano padrão da mesma forma que Cryoxadone, com o mesmo requisito de temperatura. Significativamente mais eficaz que o primeiro no tratamento de danos celulares, embora ambos possam ser usados simultaneamente. Melhor usado em células crio.

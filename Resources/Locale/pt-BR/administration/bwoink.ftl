@@ -1,6 +1,6 @@
-bwoink-user-title = Admin
+bwoink-user-title = Mensagem Admin
 
 bwoink-system-starmute-message-no-other-users = *Sistema: Ninguém está ativo para responder sua mensagem. Tente pingar um admin no Discord.
 
-bwoink-system-starmute-message-no-other-users-webhook = *Sistema: Sua mensagem foi mandada para admins pelo discord.
+bwoink-system-messages-being-relayed-to-discord = Sua mensagem foi mandada para admins do pirata pelo discord.
 

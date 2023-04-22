@@ -112,5 +112,5 @@ JobForensicMantis = mantis forênsica
 JobMailCarrier = carteiro
 JobMystagogue = mystagogue
 JobPrisoner = prisioneiro
-JobSalvageTechnician = técnico em salvamento
+JobSalvageTechnician = técnico em salvatagem
 JobValet = valet

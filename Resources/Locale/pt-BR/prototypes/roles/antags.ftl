@@ -19,5 +19,10 @@ roles-antag-nuclear-operative-commander-objective = Lidere o seu time para a des
 roles-antag-nuclear-operative-name = Operativo nuclear
 roles-antag-nuclear-operative-objective = Encontre o disco nuclear e exploda a estação.
 
-roles-antag-evil-twin-name = Gêmeo Mau
-roles-antag-evil-twin-description = Substitua seu gêmeo.
+roles-antag-fugitive-name = Fugitivo
+roles-antag-fugitive-description = Sobrevia. Escape.
+
+roles-antag-evil-twin-name = Anomalia Paradoxo
+roles-antag-evil-twin-description = Substitua o seu sósia, ou torne-se amigo dele.
+
+roles-antag-not-whitelisted = Você precisa de whitelist para jogar como antagonista.

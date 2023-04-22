@@ -14,6 +14,7 @@ health-analyzer-window-damage-group-Burn = Queimadura
 health-analyzer-window-damage-type-Heat = Calor
 health-analyzer-window-damage-type-Shock = Choque
 health-analyzer-window-damage-type-Cold = Frio
+health-analyzer-window-damage-type-Caustic = Cáustico
 
 health-analyzer-window-damage-group-Airloss = Perda Aérea
 health-analyzer-window-damage-type-Asphyxiation = Asfixia
@@ -25,8 +26,6 @@ health-analyzer-window-damage-type-Radiation = Radiação
 
 health-analyzer-window-damage-group-Genetic = Genético
 health-analyzer-window-damage-type-Cellular = Celular
-
-health-analyzer-window-damage-group-Caustic = Cáustico
 
 health-analyzer-window-damage-group-Immaterial = Imaterial
 health-analyzer-window-damage-type-Holy = Sagrado

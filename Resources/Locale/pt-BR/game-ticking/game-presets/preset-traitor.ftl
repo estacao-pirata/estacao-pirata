@@ -7,6 +7,8 @@ traitor-round-end-result = {$traitorCount ->
     *[other] Haviam {$traitorCount} traidores.
 }
 
+traitor-round-end-codewords = As palavras chave eram: [color=White]{$codewords}[/color].
+
 # Shown at the end of a round of Traitor
 traitor-user-was-a-traitor = [color=gray]{$user}[/color] era um traidor.
 traitor-user-was-a-traitor-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color]) era um traidor.
@@ -39,5 +41,14 @@ traitor-death-match-end-round-description-entry = PDA de {$originalName}, com {$
 ## TraitorRole
 
 # TraitorRole
-traitor-role-greeting = Olá agente
-traitor-role-codewords = Suas palavras-chave são: {$codewords}
+traitor-role-greeting =
+    Você é um agente do sindicato.
+    Seus objetivos e palavras-chave estão listados no menu de caracteres.
+    Use o uplink carregado no seu PDA para comprar as ferramentas que você precisará para esta missão.
+    Morte à Nanotrasen!
+traitor-role-codewords = Suas: {$codewords}
+traitor-role-codewords =
+    As palavras-chave são:
+    {$codewords}.
+    Palavras-chave podem ser usados em conversas normais para identificar-se discretamente a outros agentes do sindicato.
+    Ouça-as e mantenha-as em segredo.

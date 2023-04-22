@@ -24,7 +24,7 @@ uplink-kanabou-name = Kanabou
 uplink-kanabou-desc = Uma arma para aqueles que desejam abrir mão da sutileza. Particularmente adequado para oni.
 
 uplink-rickenbacker4001-name = Rickenbacker 4001
-uplink-rickenbacker4001-desc = Quando se trata disso, há muito poucas pessoas que irão balançar o bastão.
+uplink-rickenbacker4001-desc = Quando chega na hora H, muito poucas pessoas que irão balançar o bastão.
 
 # Explosives
 uplink-explosive-grenade-name = Granada explosiva
@@ -47,6 +47,9 @@ uplink-c4-bundle-desc = Porque às vezes a quantidade é de qualidade. Contém 8
 
 uplink-emp-grenade-name = Granada EMP
 uplink-emp-grenade-desc = Libera pulsos eletromagnéticos que perturbam ou danificam diversos dispositivos eletrônicos ou drenam células de energia.
+
+uplink-exploding-pen-name = Caneta explosiva
+uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
 
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
@@ -154,6 +157,9 @@ uplink-necronomicon-desc = Um livro profano capaz de invocar um familiar demoní
 uplink-revolver-cap-gun-fake-name = Arma de Festim Falsa
 uplink-revolver-cap-gun-fake-desc = Engane o seu inimigo! Cabe balas de festim e de magnum. Vem carregada com balas de magnum.
 
+uplink-banana-peel-explosive-name = Casca de Banana Explosiva
+uplink-banana-peel-explosive-desc = Eles vão cair na gargalhada quando eles escorregarem nela!
+
 # Armor
 uplink-chameleon-name = Kit Camaleão
 uplink-chameleon-desc = Uma mochila cheia de itens que contêm tecnologia camaleão, permitindo que você se disfarce de praticamente qualquer coisa na estação, e muito mais!
@@ -210,7 +216,7 @@ uplink-experimental-stimpack-desc = Uma versão protótipo do Stimpack retirada 
 uplink-syndicate-segway-crate-name = Segway do Sindicato
 uplink-syndicate-segway-crate-desc = Seja um inimigo da corporação, com estilo!
 
-uplink-nocturine-gland-injector-name = Glândula Injetora Nocturina
+uplink-nocturine-gland-injector-name = Glândula Injetora de Nocturina
 uplink-nocturine-gland-injector-desc = Faz com que suas presas injetem nocturina sempre que você suga sangue.
 
 # Pointless

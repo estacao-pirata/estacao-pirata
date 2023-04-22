@@ -1,5 +1,5 @@
 disease-cured = Você se sente um pouco melhor.
-disease-sick-generic = Você se sente melhor.
+disease-sick-generic = Você se sente doente.
 disease-sneeze = {CAPITALIZE($person)} espirra.
 disease-cough = {CAPITALIZE($person)} tosse.
 disease-screech = {CAPITALIZE($person)} guincha.
@@ -13,4 +13,4 @@ disease-beat-chest-compulsion = {CAPITALIZE(THE($person))} bate em seu peito.
 disease-vomit = {CAPITALIZE(THE($person))} vomita.
 disease-think = Você não consegue pensar direito.
 disease-polymorph = Você sente seu corpo se retorcer e mudar de forma!
-disease-sick-stomach = Você sente vontade de vomitar
+disease-sick-stomach = Você sente ânsia de vômito.

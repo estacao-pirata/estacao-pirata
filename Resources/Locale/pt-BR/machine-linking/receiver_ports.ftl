@@ -51,3 +51,10 @@ signal-port-description-artifact-analyzer-sender = Remetente do sinal do console
 
 signal-port-name-artifact-analyzer-receiver = Pad
 signal-port-description-artifact-analyzer-receiver = Receptor de sinal do analisador de artefatos
+
+#Nyano
+signal-port-name-timer-off-transmitter = Completado
+signal-port-description-timer-off-transmitter = O timer foi completado ou cancelado.
+
+signal-port-name-timer-on-transmitter = Ativado
+signal-port-description-timer-on-transmitter = O timer foi ativado.

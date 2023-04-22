@@ -3,3 +3,6 @@ reagent-desc-acetone = Um líquido escorregadio e levemente cancerígeno. Tem um
 
 reagent-name-phenol = phenol
 reagent-desc-phenol = Um anel aromático de carbono com um grupo hidroxila. Um precursor útil para alguns medicamentos, mas não tem propriedades curativas por conta própria.
+
+reagent-name-sodium-carbonate = Carbonato de Sódio
+reagent-desc-sodium-carbonate = Sal branco, inodoro e solúvel em água que produz uma solução alcalina em água.  Também conhecido como carbonato de sódio.

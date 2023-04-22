@@ -8,7 +8,7 @@ flavor-profile-unknown = Tem um gosto indescritível.
 # will go in front so you don't get this like "Tastes like tomatoes, sweet and spicy",
 # instead, you get "Tastes sweet, spicy and like tomatoes".
 
-flavor-base-acidic = ácido
+flavor-base-acidic = acídico
 flavor-base-savory = salgado
 flavor-base-sweet = doce
 flavor-base-salty = salgado demais

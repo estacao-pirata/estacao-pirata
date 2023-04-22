@@ -34,6 +34,6 @@ nuke-label-nanotrasen = NT-{$serial}
 nuke-label-syndicate = SYN-{$serial}
 
 # Codes
-nuke-codes-message = [color=red]TOP SECRET![/color]
- Nuclear device activation code: {$name} - {$code}
-nuke-codes-fax-paper-name = códigos de autenticação nuclear
+nuke-codes-message = [color=red]ALTAMENTE CONFIDENCIAL![/color]
+nuke-codes-list = {$name} código: {$code}
+nuke-codes-fax-paper-name = códigos de autenticação nucleares
