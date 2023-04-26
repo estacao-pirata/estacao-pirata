@@ -1,6 +1,6 @@
 oracle-demand-1 = Eu exigo um {$item}! Não questione o porquê!
 oracle-demand-2 = Em troca de conhecimento, vocês devem me trazer um {$item}!
-oracle-demand-3 = Te condederei uma dádiva do divino em troca por um {$item}!
+oracle-demand-3 = Te concederei uma dádiva do divino em troca por um {$item}!
 oracle-demand-4 = Traga me um {$item} se você ainda quiser receber uma gota da minha graça!
 oracle-demand-5 = Se você não é ignorante, você me trará um {$item}!
 oracle-demand-6 = Os arcontes tem um pedido a você: um {$item}!

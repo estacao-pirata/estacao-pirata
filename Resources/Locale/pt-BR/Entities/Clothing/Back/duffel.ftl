@@ -19,10 +19,10 @@ ent-ClothingBackpackDuffelSecurity = mochila grande de segurança
 ent-ClothingBackpackDuffelChemistry = mochila grande de químico
     .desc = Uma mochila ainda maior para armazenar substâncias e remédios.
 
-ent-ClothingBackpackDuffelMime = nochila grande do mímico
+ent-ClothingBackpackDuffelMime = mochila grande do mímico
     .desc = Uma mochila enorme, infelizmente o espaço é insuficiente para caberem todas as emoções do mímico..
 
-ent-ClothingBackpackDuffelScience = nochila grande de cientista
+ent-ClothingBackpackDuffelScience = mochila grande de cientista
     .desc = Uma mochila bem grandona, perfeita para guardar granad...C-Coisas de cientista!
 
 ent-ClothingBackpackDuffelHydroponics = mochila hidropônica
