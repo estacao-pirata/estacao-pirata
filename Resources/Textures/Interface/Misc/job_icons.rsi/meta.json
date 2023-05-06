@@ -110,6 +110,9 @@
             "name": "MedicalDoctor"
         },
         {
+            "name": "Paramedic"
+        },
+        {
             "name": "Chef"
         },
         {
