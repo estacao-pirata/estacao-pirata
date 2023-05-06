@@ -60,3 +60,6 @@ reagent-desc-sodium = Um branco-prateado metal alcalino. Altamente reativo em su
 
 reagent-name-uranium = uranium
 reagent-desc-uranium = Um cinza e metálico elemento químico na série dos actinídeos, fracamente radioativo.
+
+reagent-name-bananium = bananium
+reagent-desc-bananium = A yellow radioactive organic solid.

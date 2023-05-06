@@ -205,6 +205,9 @@ reagent-desc-rewriter = O segredo do santuário do Bibliotecário...
 reagent-name-sbiten = sbiten
 reagent-desc-sbiten = Uma Vodka picante! Talvez picante demais para garotinhos!
 
+reagent-name-cogchamp = cogchamp
+reagent-desc-cogchamp = Not even Ratvar's Four Generals could withstand this! Qevax Jryy!
+
 reagent-name-screwdriver-cocktail = screwdriver
 reagent-desc-screwdriver-cocktail = Vodka, misturado com o bom e velho suquinho de laranja. O resultado é impressionantemente delicioso.
 

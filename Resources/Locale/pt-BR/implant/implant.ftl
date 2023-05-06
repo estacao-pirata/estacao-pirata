@@ -23,4 +23,7 @@ activate-micro-bomb-action-name = ativa micro bomba
 activate-micro-bomb-action-description = ativa a sua interna microbomba, destruindo-o completamente junto com seu equipamento
 
 use-freedom-implant-action-name = usar implante quebra algemas
+
+open-uplink-implant-action-name = Open Uplink
+open-uplink-implant-action-description = Opens the syndicate uplink embedded under your skin
 use-freedom-implant-action-description = ativar o implante irá te libertar de quaisquer amarras

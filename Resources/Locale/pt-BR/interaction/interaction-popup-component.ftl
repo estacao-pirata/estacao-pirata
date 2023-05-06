@@ -24,6 +24,7 @@ petting-success-holo = Você acaricia {THE($target)} em sua espinhosa e metálic
 petting-success-dragon = Esquivando de dentes, garras, e chamas, você acaricia {THE($target)} em sua massiva e escamosa cabeça.
 petting-success-hamster = Voce acaricia {THE($target)} em {POSS-ADJ($target)} fofa cabecinha.
 petting-success-bear = Você relutantemente acaricia {THE($target)} em {POSS-ADJ($target)} cabeça mística.
+petting-success-slimes = You pet {THE($target)} on {POSS-ADJ($target)} mucous surface.
 
 petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
 

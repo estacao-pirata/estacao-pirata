@@ -17,6 +17,7 @@ flavor-base-spicy = picante
 flavor-base-metallic = metálico
 flavor-base-meaty = carnudo
 flavor-base-fishy = de peixe
+flavor-base-crabby = crabby
 flavor-base-cheesy = de queijo
 flavor-base-funny = engraçado
 flavor-base-tingly = formigante
@@ -40,6 +41,7 @@ flavor-base-shocking = chocante
 flavor-base-cheap = barato
 flavor-base-piquant = piquant
 flavor-base-sharp = intenso
+flavor-base-syrupy = syrupy
 
 # lmao
 flavor-base-terrible = terrível
@@ -68,6 +70,8 @@ flavor-complex-batter = de massa de bolo
 flavor-complex-butter = de manteiga
 flavor-complex-egg = de ovo
 flavor-complex-bacon = de bacon
+flavor-complex-chicken = like chicken
+flavor-complex-duck = like duck
 flavor-complex-chocolate = de chocolate
 flavor-complex-pasta = de macarrão
 flavor-complex-rice = de arroz
@@ -98,6 +102,11 @@ flavor-complex-orange = de laranja
 flavor-complex-watermelon = de melancia
 flavor-complex-garlic = de alho
 
+flavor-complex-meatballs = like meatballs
+flavor-complex-nettles = like nettles
+flavor-complex-jungle = like jungle
+flavor-complex-vegetables = like vegetables
+# use it when there multiple types of veggies
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
 flavor-complex-pink = rosa
@@ -165,6 +174,8 @@ flavor-complex-cuba-libre = de cola drogada
 flavor-complex-gin-tonic = de refrigerante lima-limão drogado
 flavor-complex-screwdriver = de suco de laranja drogado
 
+flavor-complex-themartinez = like violets and lemon vodka
+flavor-complex-cogchamp = like brass
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 flavor-complex-pilk = de leite doce
 

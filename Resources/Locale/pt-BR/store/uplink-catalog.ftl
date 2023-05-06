@@ -106,6 +106,9 @@ uplink-freedom-implanter-desc = Livre-se desses oficiais da seg desagradávis co
 uplink-macro-bomb-implanter-name = Implanter de Macro Bomba
 uplink-macro-bomb-implanter-desc = Injete isso e, na morte, você criará uma grande explosão. Enorme custo de mores da equipe, uso a seu própria conta e risco. Substitui a micro bomba interna.
 
+uplink-uplink-implanter-name = Uplink Implanter
+uplink-uplink-implanter-desc = Stealthily order equipment without the need for a PDA. Swallow telecrystals to top up the uplink.
+
 # Bundles
 uplink-c20r-bundle-name = Pacote C-20r
 uplink-c20r-bundle-desc = A velha fiel: A clássica submetralhadora C-20r, empacotada com três pentes.
@@ -148,6 +151,9 @@ uplink-carp-dehydrated-desc = Parece uma carpa de brinquedo de pelúcia, mas bas
 uplink-gatfruit-seeds-name = Pacote de Sementes de Gatfruit
 uplink-gatfruit-seeds-desc = E quem diz que as armas não crescem em árvores?
 
+uplink-rigged-boxing-gloves-name = Rigged Boxing Gloves
+uplink-rigged-boxing-gloves-desc = Float like a butterfly, sting like a bee.
+
 uplink-necronomicon-name = Necronomicon
 uplink-necronomicon-desc = Um livro profano capaz de invocar um familiar demoníaco.
 
@@ -156,6 +162,12 @@ uplink-revolver-cap-gun-fake-desc = Engane o seu inimigo! Cabe balas de festim e
 
 uplink-banana-peel-explosive-name = Casca de Banana Explosiva
 uplink-banana-peel-explosive-desc = Eles vão cair na gargalhada quando eles escorregarem nela!
+
+uplink-hot-potato-name = Hot Potato
+uplink-hot-potato-desc = Once activated, this time bomb can't be dropped - only passed to someone else!
+
+uplink-chimp-ammo-name = Box of 10 Omega Cartridges.
+uplink-chimp-ammo-desc = A box of 10 omega particle cartridges for the CHIMP. Omega particles inflict severe burns and cause anomalies to go supercritical.
 
 # Armor
 uplink-chameleon-name = Kit Camaleão
@@ -225,6 +237,9 @@ uplink-cat-ears-desc = UwU
 
 uplink-outlaw-hat-name = Outlaw Hat
 uplink-outlaw-hat-desc = Um chapéu que faz você parecer que carrega uma pistola entalhada, numerada de um e dezenove mais.
+
+uplink-outlaw-glasses-name = Outlaw Glasses
+uplink-outlaw-glasses-desc = A must for every self-respecting undercover agent.
 
 uplink-costume-pyjama-name = Syndicate Pyjama Duffel Bag
 uplink-costume-pyjama-desc = Contém 3 pares de pijamas do sindicato e 3 pelúcias para a melhor festa do pijama.
