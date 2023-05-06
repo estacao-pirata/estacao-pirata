@@ -29,6 +29,7 @@ ui-options-volume-percent = { TOSTRING($volume, "P0") }
 ## Graphics menu
 
 ui-options-show-held-item = Mostrar item segurado próximo ao cursor?
+ui-options-show-combat-mode-indicators = Show combat mode indicators with cursor?
 ui-options-vsync = VSync
 ui-options-fullscreen = Tela cheia
 ui-options-lighting-label = Qualidade de Iluminação:
@@ -92,6 +93,9 @@ ui-options-function-walk = Andar
 ui-options-function-camera-rotate-left = Girar para esquerda
 ui-options-function-camera-rotate-right = Girar para direita
 ui-options-function-camera-reset = Resetar
+ui-options-function-zoom-in = Zoom in
+ui-options-function-zoom-out = Zoom out
+ui-options-function-reset-zoom = Reset zoom
 
 ui-options-function-use = Usar
 ui-options-function-use-secondary = Usar secundário
