@@ -10,6 +10,9 @@ ent-CrateNPCCat = Caixa de gato
 ent-CrateNPCChicken = Caixa de galinhas
     .desc = A crate containing four fully grown chickens.
 
+ent-CrateNPCCrab = Crab crate
+    .desc = A crate containing three huge crabs.
+
 ent-CrateNPCDuck = Caixa de patos
     .desc = A crate containing six fully grown ducks.
 
@@ -48,3 +51,6 @@ ent-CrateNPCSnake = Caixa de cobras
 
 ent-CrateNPCLizard = Caixa de lagarto
     .desc = Uma caixa contendo um lagarto.
+
+ent-CrateNPCKangaroo = Kangaroo crate
+    .desc = A crate containing a kangaroo.

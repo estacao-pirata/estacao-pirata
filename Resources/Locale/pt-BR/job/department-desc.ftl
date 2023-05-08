@@ -5,3 +5,4 @@ department-Engineering-description = Manter a estação operacional.
 department-Medical-description = Mantenha a tripulação saudável.
 department-Security-description = Mantenha a paz em torno da estação.
 department-Science-description = Pesquise novas tecnologias e artefatos perigosos.
+department-Specific-description = Jobs that not all stations have.
