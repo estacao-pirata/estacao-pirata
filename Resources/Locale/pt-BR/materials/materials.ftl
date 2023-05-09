@@ -18,3 +18,7 @@ materials-plasma = Plasma
 materials-plastic = Plástico
 materials-wood = Madeira
 materials-uranium = Urânio
+materials-bananium = bananium
+
+# Material Reclaimer
+material-reclaimer-upgrade-process-rate = taxa de processo

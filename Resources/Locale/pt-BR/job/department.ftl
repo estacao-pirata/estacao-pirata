@@ -5,4 +5,4 @@ department-Engineering = engenharia
 department-Medical = médico
 department-Security = segurança
 department-Science = pesquisa & desenvolvimento
-department-Specific = Station specific
+department-Specific = específico da estação 

@@ -1,20 +1,20 @@
-marking-ArachnidAppendagesDefault = Appendages (long)
-marking-ArachnidAppendagesDefault-long = Appendage
-marking-ArachnidAppendagesDefault-web = Web
+marking-ArachnidAppendagesDefault = Apêndices (longos)
+marking-ArachnidAppendagesDefault-long = Apêndice
+marking-ArachnidAppendagesDefault-web = Teia
 
-marking-ArachnidAppendagesSharp = Appendages (Sharp)
-marking-ArachnidAppendagesSharp-sharp = Appendage
-marking-ArachnidAppendagesSharp-web = Web
+marking-ArachnidAppendagesSharp = Apêndices (Afiado)
+marking-ArachnidAppendagesSharp-sharp = Apêndice
+marking-ArachnidAppendagesSharp-web = Teia
 
 
-marking-ArachnidTorsoStripes = Stripes
-marking-ArachnidTorsoStripes-stripes = Design
+marking-ArachnidTorsoStripes = Listras
+marking-ArachnidTorsoStripes-stripes = Modelo
 
 marking-ArachnidTorsoSlashes = Slashes
-marking-ArachnidTorsoSlashes-slashes = Design
+marking-ArachnidTorsoSlashes-slashes = Modelo
 
 marking-ArachnidTorsoCross = Cross
-marking-ArachnidTorsoCross-cross = Design
+marking-ArachnidTorsoCross-cross = Modelo
 
 marking-ArachnidTorsoX = X
-marking-ArachnidTorsoX-x = Design
+marking-ArachnidTorsoX-x = Modelo

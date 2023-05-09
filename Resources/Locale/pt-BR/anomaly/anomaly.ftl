@@ -36,3 +36,8 @@ anomaly-generator-charges = {$charges ->
     *[other] {$charges} cargas
 }
 anomaly-generator-announcement = Uma anomalia foi gerada!
+
+
+# Flavor text on the footer
+anomaly-generator-flavor-left = Anomalia pode aparecer dentro do operador.
+anomaly-generator-flavor-right = v1.1

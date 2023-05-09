@@ -46,8 +46,8 @@ signal-port-description-med-scanner-sender = Emissor de sinal do escâner médic
 signal-port-name-med-scanner-receiver = Escâner médico
 signal-port-description-med-scanner-receiver = Receptor de sinal do escâner médico
 
-signal-port-name-hold-open = Hold
-signal-port-description-hold-open = Turns off automatic closing.
+signal-port-name-hold-open = Segurar
+signal-port-description-hold-open = Desativa o fechamento automático.
 
 signal-port-name-artifact-analyzer-sender = Console
 signal-port-description-artifact-analyzer-sender = Remetente do sinal do console de análise

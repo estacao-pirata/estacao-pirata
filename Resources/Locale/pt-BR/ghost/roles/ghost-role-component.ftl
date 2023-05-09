@@ -9,9 +9,6 @@ ghost-role-information-mouse-description = Um rato faminto e travesso.
 ghost-role-information-giant-spider-name = Aranha gigante
 ghost-role-information-giant-spider-description = Cause estragos nos habitantes da estação!
 
-ghost-role-information-giant-spider-vampire-name = Onirófago
-ghost-role-information-giant-spider-vampire-description = Aninhe-se. Atraia. Embosque. Consuma.
-
 ghost-role-information-cognizine-description = Feito consciente com a mágica de cognizine.
 
 ghost-role-information-hamster-name = Hamster
@@ -19,3 +16,7 @@ ghost-role-information-hamster-description = Uma rabugenta pequena bola de pêlo
 
 ghost-role-information-hamlet-name = Hamlet o hamster.
 ghost-role-information-hamlet-description = Vive na ponte de comando da estação, é um tanto temperamentál e está sempre com fome.
+
+ghost-role-information-slimes-name = Slime
+ghost-role-information-slimes-description = Um simples Slime sem necessidades ou interesses especiais. Ele apenas vive.
+ghost-role-information-angry-slimes-description = Tudo ao seu redor irrita seus instintos, destrua-os!

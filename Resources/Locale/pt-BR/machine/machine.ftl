@@ -12,9 +12,9 @@ machine-part-name-capacitor = Capacitor
 machine-part-name-manipulator = Manipulator
 machine-part-name-matter-bin = Matter Bin
 
-upgrade-power-draw = power draw
-upgrade-max-charge = max charge
-upgrade-power-supply = power supply
+upgrade-power-draw = consumo de energia
+upgrade-max-charge = carga máxima
+upgrade-power-supply = fonte de energia
 
 two-way-lever-left = empurrar para esquerda
 two-way-lever-right = empurrar para a direita
