@@ -6,7 +6,7 @@ cuffable-component-start-uncuffing-observer = {$user} começa a desalgemar {$tar
 cuffable-component-start-uncuffing-target-message = Você começa desalgemar de {$targetName}.
 cuffable-component-start-uncuffing-by-other-message = {$otherName} começa a desalgemar você!
 
-cuffable-component-remove-cuffs-success-message = Você removeu as algemas.
+cuffable-component-remove-cuffs-success-message = Você removeu as algemas com sucesso.
 cuffable-component-remove-cuffs-by-other-success-message = {$otherName} desalgema suas mãos.
 cuffable-component-remove-cuffs-to-other-partial-success-message = Você remove uma algema. {$cuffedHandCount} mão do(a) {$otherName}'s continua algemada.
 cuffable-component-remove-cuffs-by-other-partial-success-message = {$otherName} remove uma algema. {$cuffedHandCount} mão continua algemada.

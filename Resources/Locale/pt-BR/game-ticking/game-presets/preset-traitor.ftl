@@ -42,14 +42,22 @@ traitor-death-match-end-round-description-entry = PDA de {$originalName}, com {$
 ## TraitorRole
 
 # TraitorRole
-traitor-role-greeting = Olá agente
-traitor-role-codewords = Suas palavras-chave são: {$codewords}
+traitor-role-greeting =
+    Você é um agente do sindicato.
+    Seus objetivos e palavras-código estão listados no menu do personagem.
+    Use o uplink carregado em seu PDA para comprar as ferramentas necessárias para esta missão.
+    Morte para Nanotrasen!
+traitor-role-codewords =
+    As palavras-código são:
+    {$codewords}.
+    As palavras-código podem ser usadas em conversas regulares para se identificar discretamente para outros agentes do sindicato.
+    Ouça-os e mantenha-os em segredo.
 traitor-role-uplink-code =
-    Set your ringtone to the notes {$code} to lock or unlock your uplink.
-    Remember to lock it after, or the stations crew will easily open it too!
+    Defina seu toque para as notas {$code} para bloquear ou desbloquear seu uplink.
+    Lembre-se de trancá-lo depois, ou a equipe da estação também o abrirá facilmente!
 
 # don't need all the flavour text for character menu
 traitor-role-codewords-short =
-    The codewords are:
+    As palavras-código são:
     {$codewords}.
-traitor-role-uplink-code-short = Your uplink code is {$code}.
+traitor-role-uplink-code-short = Seu código de uplink é {$code}.

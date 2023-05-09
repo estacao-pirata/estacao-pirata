@@ -29,7 +29,7 @@ ui-options-volume-percent = { TOSTRING($volume, "P0") }
 ## Graphics menu
 
 ui-options-show-held-item = Mostrar item segurado próximo ao cursor?
-ui-options-show-combat-mode-indicators = Mostrar indicadores de combate próximo ao cursor?
+ui-options-show-combat-mode-indicators = Mostrar indicadores do modo de combate proximo ao cursor?
 ui-options-vsync = VSync
 ui-options-fullscreen = Tela cheia
 ui-options-lighting-label = Qualidade de Iluminação:
@@ -122,7 +122,7 @@ ui-options-function-focus-local-chat-window = Foco no Chat (IC)
 ui-options-function-focus-emote = Foco no Chat (Emote)
 ui-options-function-focus-whisper-chat-window = Foco no Chat (Whisper)
 ui-options-function-focus-radio-window = Foco no Chat (Radio)
-ui-options-function-focus-looc-window = Foco no hat (LOOC)
+ui-options-function-focus-looc-window = Foco no Chat (LOOC)
 ui-options-function-focus-ooc-window = Foco no Chat (OOC)
 ui-options-function-focus-admin-chat-window = Foco no Chat (Admin)
 ui-options-function-focus-dead-chat-window = Foco no Chat (Dead)
