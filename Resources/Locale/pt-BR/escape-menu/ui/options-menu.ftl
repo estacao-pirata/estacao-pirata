@@ -29,7 +29,7 @@ ui-options-volume-percent = { TOSTRING($volume, "P0") }
 ## Graphics menu
 
 ui-options-show-held-item = Mostrar item segurado próximo ao cursor?
-ui-options-show-combat-mode-indicators = Show combat mode indicators with cursor?
+ui-options-show-combat-mode-indicators = Mostrar indicadores de combate próximo ao cursor?
 ui-options-vsync = VSync
 ui-options-fullscreen = Tela cheia
 ui-options-lighting-label = Qualidade de Iluminação:
@@ -119,8 +119,10 @@ ui-options-function-point = Apontar para local
 
 ui-options-function-focus-chat-input-window = Foco no Chat
 ui-options-function-focus-local-chat-window = Foco no Chat (IC)
+ui-options-function-focus-emote = Foco no Chat (Emote)
 ui-options-function-focus-whisper-chat-window = Foco no Chat (Whisper)
 ui-options-function-focus-radio-window = Foco no Chat (Radio)
+ui-options-function-focus-looc-window = Foco no hat (LOOC)
 ui-options-function-focus-ooc-window = Foco no Chat (OOC)
 ui-options-function-focus-admin-chat-window = Foco no Chat (Admin)
 ui-options-function-focus-dead-chat-window = Foco no Chat (Dead)
@@ -143,6 +145,7 @@ ui-options-function-window-close-all = Fechar todas as janelas
 ui-options-function-window-close-recent = Fechar a janela recente
 ui-options-function-show-escape-menu = Alterna menu do jogo
 ui-options-function-escape-context = Fechar a janela recente ou alterna menu do jogo
+
 ui-options-function-take-screenshot = Tirar screenshot
 ui-options-function-take-screenshot-no-ui = Tirar screenshot (Sem UI)
 
