@@ -4,7 +4,6 @@ action-description-combat = Entra em modo combate.
 action-popup-combat-disabled = Modo de combate desligado.
 action-popup-combat-enabled = Modo de combate ligado!
 
-
 action-name-precision = [color=red]Modo de precisão[/color]
 action-description-precision = Entre no modo de precisão para combate, atacando o que está sob seu cursor.
 

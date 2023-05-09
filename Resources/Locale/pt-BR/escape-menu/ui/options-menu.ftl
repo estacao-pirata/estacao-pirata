@@ -29,7 +29,7 @@ ui-options-volume-percent = { TOSTRING($volume, "P0") }
 ## Graphics menu
 
 ui-options-show-held-item = Mostrar item segurado próximo ao cursor?
-ui-options-show-combat-mode-indicators = Mostrar indicadores do modo de combate com o cursor?
+ui-options-show-combat-mode-indicators = Mostrar indicadores de combate próximo ao cursor?
 ui-options-vsync = VSync
 ui-options-fullscreen = Tela cheia
 ui-options-lighting-label = Qualidade de Iluminação:
@@ -145,6 +145,7 @@ ui-options-function-window-close-all = Fechar todas as janelas
 ui-options-function-window-close-recent = Fechar a janela recente
 ui-options-function-show-escape-menu = Alterna menu do jogo
 ui-options-function-escape-context = Fechar a janela recente ou alterna menu do jogo
+
 ui-options-function-take-screenshot = Tirar screenshot
 ui-options-function-take-screenshot-no-ui = Tirar screenshot (Sem UI)
 
