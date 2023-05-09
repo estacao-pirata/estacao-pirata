@@ -92,7 +92,7 @@ barsign-prototype-description-emprah = Curtido por fanáticos, hereges e cliente
 
 ## Spacebucks
 barsign-prototype-name-spacebucks = Spacebucks
-barsign-prototype-description-spacebucks = You can't get away from them, even in space.
+barsign-prototype-description-spacebucks = Você não pode fugir deles, mesmo no espaço.
 
 ## EmpBarSign
 barsign-prototype-description-empbarsign = Algo deu muito errado.

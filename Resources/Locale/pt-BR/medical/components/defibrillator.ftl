@@ -1,3 +1,3 @@
-﻿defibrillator-not-on = The defibrillator isn't turned on.
-defibrillator-no-mind = No intelligence pattern can be detected in patient's brain. Further attempts futile
-defibrillator-ghosted = Resuscitation failed - Mental interface error. Further attempts may be successful.
+﻿defibrillator-not-on = O desfibrilador não está ligado.
+defibrillator-no-mind = Nenhum padrão de inteligência pode ser detectado no cérebro do paciente. Novas tentativas inúteis
+defibrillator-ghosted = Falha na ressuscitação - Erro na interface mental. Novas tentativas podem ser bem-sucedidas.
