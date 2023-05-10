@@ -1,8 +1,8 @@
 reagent-name-flour = farinha
 reagent-desc-flour = Usado para assar.
 
-reagent-name-cornmeal = cornmeal
-reagent-desc-cornmeal = Used for baking.
+reagent-name-cornmeal = farinha de milho
+reagent-desc-cornmeal = Usado para assar.
 
 reagent-name-oats = aveia
 reagent-desc-oats = Usado para uma variedade de propósitos saborosos.

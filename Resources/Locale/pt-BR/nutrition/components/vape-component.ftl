@@ -1,7 +1,7 @@
-vape-component-vape-success = You puffed on the vape.
-vape-component-vape-success-forced = {CAPITALIZE(THE($user))} forced you to puffon the vape.
-vape-component-vape-success-user-forced = You successfully forced to puff {THE($target)}.
-vape-component-try-use-vape-forced = {CAPITALIZE(THE($user))} is trying to make you puff on the vape.
-vape-component-try-use-vape-forced-user = You are forcing {THE($target)} to puff on the vape.
-vape-component-try-use-vape = You are trying to puff on the vape.
-vape-component-vape-empty = The vape is empty!
+vape-component-vape-success = Você deu uma tragada no vape.
+vape-component-vape-success-forced = {CAPITALIZE(THE($user))} forçou você a fumar o vape.
+vape-component-vape-success-user-forced = Você forçou {THE($target)} a fumar com sucesso.
+vape-component-try-use-vape-forced = {CAPITALIZE(THE($user))} está tentando fazer você fumar o vape.
+vape-component-try-use-vape-forced-user = Você está forçando {THE($target)} fumar o vape.
+vape-component-try-use-vape = Você está tentando tragar o vape.
+vape-component-vape-empty = O vape está vazio!
