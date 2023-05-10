@@ -1,8 +1,8 @@
 ent-CrateChemistryP = Chemicals crate (P)
-    .desc = Contains chemicals from the P-Block of elements. Requires Chemistry access to open.
+    .desc = Contém produtos químicos do Bloco-P de elementos. Requer acesso químico para abrir.
 
 ent-CrateChemistryS = Chemicals crate (S)
-    .desc = Contains chemicals from the S-Block of elements. Requires Chemistry access to open.
+    .desc = Contém produtos químicos do Bloco-S de elementos. Requer acesso químico para abrir.
 
 ent-CrateChemistryD = Chemicals crate (D)
-    .desc = Contains chemicals from the D-Block of elements. Requires Chemistry access to open.
+    .desc = Contém produtos químicos do Bloco-D de elementos. Requer acesso químico para abrir.

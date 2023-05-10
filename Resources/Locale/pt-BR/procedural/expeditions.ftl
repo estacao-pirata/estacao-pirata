@@ -1,42 +1,42 @@
-salvage-expedition-structure-examine = This is a [color=#B02E26]destruction[/color] objective
+salvage-expedition-structure-examine = Isto é um objetivo de [color=#B02E26]destruição[/color]
 salvage-expedition-structure-remaining = {$count ->
-    [one] {$count} structure remaining.
-    *[other] {$count} structures remaining.
+    [one] {$count} estrutura restante.
+    *[other] {$count} estruturas restantes.
 }
 
-salvage-expedition-window-title = Salvage expeditions
-salvage-expedition-window-difficulty = Difficulty:
-salvage-expedition-window-details = Details:
-salvage-expedition-window-hostiles = Hostiles:
-salvage-expedition-window-duration = Duration:
-salvage-expedition-window-biome = Biome:
-salvage-expedition-window-modifiers = Modifiers:
-salvage-expedition-window-loot = Loot:
+salvage-expedition-window-title = Expedições de salvamento
+salvage-expedition-window-difficulty = Dificuldade:
+salvage-expedition-window-details = Detalhes:
+salvage-expedition-window-hostiles = Hostis:
+salvage-expedition-window-duration = Duração:
+salvage-expedition-window-biome = Bioma:
+salvage-expedition-window-modifiers = Modificadores:
+salvage-expedition-window-loot = Saque:
 salvage-expedition-window-none = N/A
-salvage-expedition-window-claimed = Claimed
-salvage-expedition-window-claim = Claim
+salvage-expedition-window-claimed = Reivindicado
+salvage-expedition-window-claim = A reivindicação
 
-salvage-expedition-window-next = Next offer
+salvage-expedition-window-next = Próxima oferta
 
 # Expedition descriptions
-salvage-expedition-desc-mining = Collect resources inside the area.
+salvage-expedition-desc-mining = Colete recursos dentro da área.
 #  You will be taxed {$tax}% of the resources collected.
 salvage-expedition-desc-structure = {$count ->
-    [one] Destroy {$count} {$structure} inside the area.
-    *[other] Destroy {$count} {$structure}s inside the area.
+    [one] Destruir {$count} {$structure} dentro da área.
+    *[other] Destruir {$count} {$structure}s dentro da área.
 }
 
-salvage-expedition-type-Mining = Mining
-salvage-expedition-type-Destruction = Destruction
+salvage-expedition-type-Mining = Mineração
+salvage-expedition-type-Destruction = Destruição
 
-salvage-expedition-difficulty-Minimal = Minimal
-salvage-expedition-difficulty-Minor = Minor
-salvage-expedition-difficulty-Moderate = Moderate
-salvage-expedition-difficulty-Hazardous = Hazardous
-salvage-expedition-difficulty-Extreme = Extreme
+salvage-expedition-difficulty-Minimal = Mínima
+salvage-expedition-difficulty-Minor = Pequena
+salvage-expedition-difficulty-Moderate = Moderada
+salvage-expedition-difficulty-Hazardous = Perigosa
+salvage-expedition-difficulty-Extreme = Extrema
 
 # Runner
-salvage-expedition-announcement-countdown-minutes = {$duration} minutes remaining to complete the expedition.
-salvage-expedition-announcement-countdown-seconds = {$duration} seconds remaining to complete the expedition.
-salvage-expedition-announcement-dungeon = Dungeon is located {$direction}.
-salvage-expedition-completed = Expedition is completed.
+salvage-expedition-announcement-countdown-minutes = {$duration} minutos restantes para completar a expedição.
+salvage-expedition-announcement-countdown-seconds = {$duration} segundos restantes para completar a expedição.
+salvage-expedition-announcement-dungeon = A masmorra está localizada {$direction}.
+salvage-expedition-completed = A expedição está concluída.

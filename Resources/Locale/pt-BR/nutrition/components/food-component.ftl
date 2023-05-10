@@ -13,8 +13,10 @@ food-system-remove-mask = Você precisa tirar a {$entity} primeiro.
 
 food-system-you-cannot-eat-any-more = Você não consegue comer mais!
 food-system-you-cannot-eat-any-more-other = Eles não conseguem comer mais!
-food-system-try-use-food-is-empty = {$entity} está vazio(a)!
-food-system-wrong-utensil = Você não pode comer o(a) {$food} com um(a) {$utensil}.
+food-system-try-use-food-is-empty = {CAPITALIZE(THE($entity))} está vazio(a)!
+food-system-wrong-utensil = Você não consegue comer {THE($food)} com {INDEFINITE($utensil)}.
+food-system-cant-digest = Você não consegue digerir {THE($entity)}!
+food-system-cant-digest-other = Eles não conseguem digerir{THE($entity)}!
 
 food-system-verb-eat = Comer
 

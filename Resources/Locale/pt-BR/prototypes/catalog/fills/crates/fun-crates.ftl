@@ -40,5 +40,5 @@ ent-CrateFunParty = Caixa de festa
 ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
     .desc = Para dar fuga na segurança.
 
-ent-CrateFunBoxing = Boxing Crate
-    .desc = Want to set up an underground fight club or host a tournament amongst station crew? This crate is for you!
+ent-CrateFunBoxing = Caixa de boxe
+    .desc = Quer criar um clube de luta clandestino ou hospedar um torneio entre a equipe da estação? Esta caixa é para você!

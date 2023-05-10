@@ -73,5 +73,11 @@ reagent-desc-hot-ramen = Miojo quente.
 reagent-name-pilk = pilk
 reagent-desc-pilk = Uma mistura doentia de leite e refri de cola.
 
+reagent-name-posca = posca
+reagent-desc-posca = A bebida dos pobres guerreiros de uma era esquecida.
+
+reagent-name-the-martinez = O Martinez
+reagent-desc-the-martinez = A lenda do edgerunner. Lembrado por uma bebida, Esquecido por um bêbado.
+
 reagent-name-kvass = kvass
 reagent-desc-kvass = Uma resfrescante bebida com gosto de socialismo.
