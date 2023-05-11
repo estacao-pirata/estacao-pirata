@@ -37,6 +37,8 @@ anomaly-generator-charges = {$charges ->
 }
 anomaly-generator-announcement = Uma anomalia foi gerada!
 
+anomaly-command-pulse = Pulses a target anomaly
+anomaly-command-supercritical = Makes a target anomaly go supercritical
 
 # Flavor text on the footer
 anomaly-generator-flavor-left = Anomalias podem surgir dentro do operador.

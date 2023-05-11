@@ -24,3 +24,13 @@ network-configurator-tooltip-edit = Edita a lista de dispositivos alvo
 network-configurator-tooltip-clear = Limpa a lista de dispositivos alvo
 network-configurator-tooltip-copy = Copia a lista de dispositivos alvo para a multiferramenta
 network-configurator-tooltip-show = Mostra uma visualização holográfica da lista de dispositivos alvo
+
+# examine
+network-configurator-examine-mode-link = [color=red]Link[/color]
+network-configurator-examine-mode-list = [color=green]List[/color]
+network-configurator-examine-current-mode = Current mode: {$mode}
+network-configurator-examine-switch-modes = Press {$key} to switch modes
+
+# item status
+network-configurator-item-status-label = Current mode: {$mode}
+{$keybinding} to switch mode
