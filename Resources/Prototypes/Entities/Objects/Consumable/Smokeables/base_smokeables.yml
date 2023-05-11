@@ -71,6 +71,8 @@
     damage:
       groups:
         Burn: 2
+        Toxin: 2
+        Airloss: 10
   - type: SolutionContainerManager
     solutions:
       smokable:

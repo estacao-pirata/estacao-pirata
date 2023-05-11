@@ -1,14 +1,3 @@
-#Burgers
-- type: microwaveMealRecipe
-  id: RecipeRatBurger
-  name: rat burger recipe
-  result: FoodBurgerRat
-  time: 5
-  solids:
-    FoodBreadBun: 1
-    FoodMeatRat: 1
-    FoodCheeseSlice: 1
-
 #Pudims
 - type: microwaveMealRecipe
   id: RecipePudim
