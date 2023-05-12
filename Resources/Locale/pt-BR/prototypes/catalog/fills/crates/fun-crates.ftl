@@ -37,8 +37,8 @@ ent-CrateFunLightImplants = Implantes de Lâmpada
 ent-CrateFunParty = Caixa de festa
     .desc = Uma festa inteira apenas esperando você desembrulhar. Inclui favores do partido, bebidas de festa e até mesmo um bolo.
 
-ent-CrateFunWaterGuns = Water Gun Crate
-    .desc = A summer special with a variety of brightly colored water guns. Water not included.
+ent-CrateFunWaterGuns = Caixa de pistola de água
+    .desc = Um especial de verão com uma variedade de pistolas de água de cores vivas. Água não incluída.
 
 ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
     .desc = Para dar fuga na segurança.
