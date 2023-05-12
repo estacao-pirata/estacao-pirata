@@ -1,5 +1,5 @@
-signal-port-name-autoclose = Autoclose
-signal-port-description-autoclose = Toggles whether the device should automatically close.
+signal-port-name-autoclose = Fechamento automático
+signal-port-description-autoclose = Alterna se o dispositivo deve fechar automaticamente.
 
 signal-port-name-toggle = Alternar
 signal-port-description-toggle = Alterna o estado de um dispositivo.
@@ -22,8 +22,8 @@ signal-port-description-open = Abre um dispositivo.
 signal-port-name-close = Fechar
 signal-port-description-close = Fecha um dispositivo.
 
-signal-port-name-doorbolt = Door bolt
-signal-port-description-doorbolt = Toggles door bolt.
+signal-port-name-doorbolt = Travar porta
+signal-port-description-doorbolt = Alterna a trava da porta.
 
 signal-port-name-trigger = Acionar
 signal-port-description-trigger = Aciona algum mecânismo no dispositivo.
