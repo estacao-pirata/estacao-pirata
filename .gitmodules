@@ -6,3 +6,5 @@
 	url = ssh://git@github.com/rbertoche/RobustToolbox
 [submodule "pr_map_errornode_clash"]
 	branch = RobustToolbox
+[submodule "fix_yaml"]
+	branch = RobustToolbox
