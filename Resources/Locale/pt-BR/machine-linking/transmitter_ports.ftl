@@ -13,6 +13,9 @@ signal-port-description-left = Essa entrada é chamada sempre que a alavanca é 
 signal-port-name-right = Direita
 signal-port-description-right = Essa entrada é chamada sempre que a alavanca é inclinada mais à direita.
 
+signal-port-name-doorstatus = Estado da porta
+signal-port-description-doorstatus = Esta entrada é chamada sempre que o estado da porta muda.
+
 signal-port-name-middle = Meio
 signal-port-description-middle = Essa entrada é chamada sempre que a alavanca é movida para o meio.
 

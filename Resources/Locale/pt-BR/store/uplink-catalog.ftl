@@ -169,6 +169,9 @@ uplink-hot-potato-desc = Uma vez ativada, esta bomba-relógio não pode ser lan�
 uplink-chimp-ammo-name = Caixa com 10 Cartuchos Omega.
 uplink-chimp-ammo-desc = Uma caixa com 10 cartuchos de partículas ômega para o CHIMP. Partículas ômega infligem queimaduras graves e fazem com que anomalias se tornem supercríticas.
 
+uplink-proximity-mine-name = Mina de proximidade
+uplink-proximity-mine-desc = Uma mina disfarçada de sinal de chão molhado.
+
 # Armor
 uplink-chameleon-name = Kit Camaleão
 uplink-chameleon-desc = Uma mochila cheia de itens que contêm tecnologia camaleão, permitindo que você se disfarce de praticamente qualquer coisa na estação, e muito mais!
