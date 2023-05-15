@@ -8,9 +8,13 @@ machine-upgrade-increased-by-amount = [color=yellow]{CAPITALIZE($upgraded)}[/col
 machine-upgrade-decreased-by-amount = [color=yellow]{CAPITALIZE($upgraded)}[/color] decreased by {$difference}.
 machine-upgrade-not-upgraded = [color=yellow]{CAPITALIZE($upgraded)}[/color] not upgraded.
 
-upgrade-power-draw = power draw
-upgrade-max-charge = max charge
-upgrade-power-supply = power supply
+machine-part-name-capacitor = Capacitor
+machine-part-name-manipulator = Manipulator
+machine-part-name-matter-bin = Matter Bin
+
+upgrade-power-draw = consumo de energia
+upgrade-max-charge = carga máxima
+upgrade-power-supply = fonte de energia
 
 two-way-lever-left = empurrar para esquerda
 two-way-lever-right = empurrar para a direita

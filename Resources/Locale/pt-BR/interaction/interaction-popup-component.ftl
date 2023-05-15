@@ -24,6 +24,7 @@ petting-success-holo = Você acaricia {THE($target)} em sua espinhosa e metálic
 petting-success-dragon = Esquivando de dentes, garras, e chamas, você acaricia {THE($target)} em sua massiva e escamosa cabeça.
 petting-success-hamster = Voce acaricia {THE($target)} em {POSS-ADJ($target)} fofa cabecinha.
 petting-success-bear = Você relutantemente acaricia {THE($target)} em {POSS-ADJ($target)} cabeça mística.
+petting-success-slimes = Voce acaricia {THE($target)} em {POSS-ADJ($target)} superfície mucosa.
 
 petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
 
@@ -43,11 +44,13 @@ petting-failure-bear = Você tenta acariciar {THE($target)}, mas {SUBJECT($targe
 ## Petting silicons
 
 petting-success-honkbot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal escorregadia.
+petting-success-mimebot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal frio.
 petting-success-cleanbot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal úmido.
 petting-success-medibot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal estéril.
 
 petting-failure-honkbot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} buzina em recusa!
 petting-failure-cleanbot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} {CONJUGATE-BE($target)} ocupado esfregando!
+petting-failure-mimebot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} {CONJUGATE-BE($target)} ocupado imitando!
 petting-failure-medibot = Você tenta acariciar {THE($target)}, mas {POSS-ADJ($target)} seringa quase fura sua mão!
 
 ## Knocking on windows

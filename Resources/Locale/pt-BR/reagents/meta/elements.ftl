@@ -53,10 +53,13 @@ reagent-name-silver = silver
 reagent-desc-silver = Um macio, branco e lustroso metal de transição, tem a maior conductibilidade elétrica de qualquer elemento e a maior condutividade térmica de qualquer metal.
 
 reagent-name-sulfur = sulfur
-reagent-desc-sulfur = UM amarelo e cristalino sólido.
+reagent-desc-sulfur = Um amarelo e cristalino sólido.
 
 reagent-name-sodium = sodium
 reagent-desc-sodium = Um branco-prateado metal alcalino. Altamente reativo em sua forma pura. #thanks visne <3
 
 reagent-name-uranium = uranium
 reagent-desc-uranium = Um cinza e metálico elemento químico na série dos actinídeos, fracamente radioativo.
+
+reagent-name-bananium = bananium
+reagent-desc-bananium = Um sólido orgânico radioativo amarelo.

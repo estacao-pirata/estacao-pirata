@@ -1,6 +1,6 @@
 # Weapons
 uplink-pistol-viper-name = Viper
-uplink-pistol-viper-desc = Uma arma pequena, fácil de esconder, mas não muito potente. Use pentes de pistola (.35 auto)
+uplink-pistol-viper-desc = Uma arma pequena, facilmente ocultável, mas um tanto fraca. Equipado com um receptor totalmente automático. Use carregadores de pistola (.35 auto).
 
 uplink-revolver-python-name = Python
 uplink-revolver-python-desc = Um revólver barulhento e mortal. Usa .45 Magnum.
@@ -60,8 +60,8 @@ uplink-mosin-ammo-desc = Uma caixa de pentes para o rifle excedente.
 
 # Utility
 uplink-holopara-kit-name = Kit Holoparasita
-uplink-holopara-kit-desc = O orgulho e a alegria do Cybersun. Contém um injetor que hospeda um guardião metafísico senciente feito de luz dura que reside no corpo do usuário quando não está ativo.
-    O guardião pode socar rapidamente e é imune a ambientes e balas perigosos, mas compartilha qualquer dano que leva com o usuário.
+uplink-holopara-kit-desc = O orgulho e a alegria de Cybersun. Contém um injetor que hospeda um guardião metafísico senciente feito de luz dura que reside no corpo do usuário quando não está ativo.
+    O guardião pode socar rapidamente e é imune a ambientes perigosos, sendo resistente a traumas diretos, mas compartilha qualquer dano que receber com o usuário.
 
 uplink-holster-name = Coldre de Ombro
 uplink-holster-desc = Um coldre de ombro profundo capaz de segurar muitos tipos de balística.
@@ -84,8 +84,8 @@ uplink-stealth-box-desc = Uma caixa equipada com tecnologia de camuflagem, esgue
 uplink-headset-name = Fone sobre-a-orelha do Sindicato
 uplink-headset-desc = Um fone de rádio que permite ouvir em canais departamentais ou entrar em contato com outros traidores. Tem 4 entradas pra chaves criptográficas
 
-uplink-encryption-key-name = Chave Criptográfica do Sindicato
-uplink-encryption-key-desc = Uma chave de criptografia para acesso à frequência secreta de nossos agentes especiais. Ninguém saberá sobre o seu canal especial com amigos... ou rivais.
+uplink-encryption-key-name = Chaves Criptográficas do Sindicato
+uplink-encryption-key-desc = Duas chaves de criptografia para acesso à frequência secreta de nossos agentes especiais. Dê o sobressalente a um amigo, mas certifique-se de que não caia nas mãos do inimigo.
 
 uplink-hypopen-name = Hypopen
 uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 10u de reagentes. Vem vazio.
@@ -105,6 +105,9 @@ uplink-freedom-implanter-desc = Livre-se desses oficiais da seg desagradávis co
 
 uplink-macro-bomb-implanter-name = Implanter de Macro Bomba
 uplink-macro-bomb-implanter-desc = Injete isso e, na morte, você criará uma grande explosão. Enorme custo de mores da equipe, uso a seu própria conta e risco. Substitui a micro bomba interna.
+
+uplink-uplink-implanter-name = Implante de uplink
+uplink-uplink-implanter-desc = Encomende equipamentos furtivamente sem a necessidade de um PDA. Engula telecristais para completar o uplink.
 
 # Bundles
 uplink-c20r-bundle-name = Pacote C-20r
@@ -148,6 +151,9 @@ uplink-carp-dehydrated-desc = Parece uma carpa de brinquedo de pelúcia, mas bas
 uplink-gatfruit-seeds-name = Pacote de Sementes de Gatfruit
 uplink-gatfruit-seeds-desc = E quem diz que as armas não crescem em árvores?
 
+uplink-rigged-boxing-gloves-name = Luvas de boxe
+uplink-rigged-boxing-gloves-desc = Flutue como uma borboleta, pique como uma abelha.
+
 uplink-necronomicon-name = Necronomicon
 uplink-necronomicon-desc = Um livro profano capaz de invocar um familiar demoníaco.
 
@@ -156,6 +162,15 @@ uplink-revolver-cap-gun-fake-desc = Engane o seu inimigo! Cabe balas de festim e
 
 uplink-banana-peel-explosive-name = Casca de Banana Explosiva
 uplink-banana-peel-explosive-desc = Eles vão cair na gargalhada quando eles escorregarem nela!
+
+uplink-hot-potato-name = Batata quente
+uplink-hot-potato-desc = Uma vez ativada, esta bomba-relógio não pode ser lançada - apenas passada para outra pessoa!
+
+uplink-chimp-ammo-name = Caixa com 10 Cartuchos Omega.
+uplink-chimp-ammo-desc = Uma caixa com 10 cartuchos de partículas ômega para o CHIMP. Partículas ômega infligem queimaduras graves e fazem com que anomalias se tornem supercríticas.
+
+uplink-proximity-mine-name = Mina de proximidade
+uplink-proximity-mine-desc = Uma mina disfarçada de sinal de chão molhado.
 
 # Armor
 uplink-chameleon-name = Kit Camaleão
@@ -225,6 +240,9 @@ uplink-cat-ears-desc = UwU
 
 uplink-outlaw-hat-name = Outlaw Hat
 uplink-outlaw-hat-desc = Um chapéu que faz você parecer que carrega uma pistola entalhada, numerada de um e dezenove mais.
+
+uplink-outlaw-glasses-name = Óculos fora da lei
+uplink-outlaw-glasses-desc = Uma obrigação para cada agente secreto que se preze.
 
 uplink-costume-pyjama-name = Syndicate Pyjama Duffel Bag
 uplink-costume-pyjama-desc = Contém 3 pares de pijamas do sindicato e 3 pelúcias para a melhor festa do pijama.

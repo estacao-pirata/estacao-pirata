@@ -55,6 +55,9 @@ reagent-desc-allicin = Um composto organossulfurado encontrado em álios, como a
 reagent-name-pax = pax
 reagent-desc-pax = Uma droga psiquiátrica que impede que o paciente machuque alguém diretamente.
 
+reagent-name-honk = honk
+reagent-desc-honk = Uma toxina encontrada no banânio. Provoca buzina grave e hemorragia interna, também pode causar mutação no paciente.
+
 reagent-name-human-muta-tox = toxina de mutação humana
 reagent-name-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
 

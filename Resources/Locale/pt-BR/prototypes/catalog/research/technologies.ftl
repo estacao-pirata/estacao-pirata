@@ -5,7 +5,10 @@ technologies-cleaning-technology = Tecnologia de limpeza
 technologies-cleaning-technology-description = Comece com uma estação limpa e brilhante.
 
 technologies-advanced-cleaning-technology = Tecnologia de limpeza avançada
-technologies-advanced-cleaning-technology-description = O esfregão avançado não impede as pessoas de cagarem a estação, infelizmente. 
+technologies-advanced-cleaning-technology-description = Ferramentas avançadas não vão impedir as pessoas de sujar a estação, infelizmente. 
+
+technologies-advanced-spray-technology = Tecnologia de spray avançada
+technologies-advanced-spray-technology-description = As novas formas de lavar a estação. Animais imundos.
 
 technologies-foodbev-technology = Tecnologia de Comes e Bebes
 technologies-food-and-beverage-technology-description = Serviço robusto com tecnologia de ponta.
@@ -88,6 +91,9 @@ technologies-archaeology-description = Equipamento avançado para descobrir os s
 technologies-ripley-technology = Exosuit: Ripley
 technologies-ripley-technology-description = O que há de mais moderno e moderno em construção mecanizada de cargas.
 
+technologies-clown-technology = Exosuit: H.O.N.K.
+technologies-clown-technology-description = Honk?!
+
 technologies-adv-parts-technology-description = Como as anteriores, mas melhor
 technologies-adv-parts-technology = Tecnologia avançada de peças
 
@@ -96,3 +102,4 @@ technologies-magboots-technology-description = Magboots para uma fuga espacial, 
 
 technologies-super-parts-technology = Tecnologia de super partes
 technologies-super-parts-technology-description = Novos patamares de desempenho das máquinas.
+

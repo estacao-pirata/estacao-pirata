@@ -17,7 +17,7 @@ anomaly-scanner-severity-percentage = Severidade atual: [color=gray]{$percent}[/
 anomaly-scanner-stability-low = Estado atual da anomalia: [color=gold]Decaindo[/color]
 anomaly-scanner-stability-medium = Estado atual da anomalia: [color=forestgreen]Estável[/color]
 anomaly-scanner-stability-high = Estado atual da anomalia: [color=crimson]Crescendo[/color]
-anomaly-scanner-point-output = Ponto aproximado de saída: [color=gray]{$point}[/color]
+anomaly-scanner-point-output = Ponto de saída: [color=gray]{$point}[/color]
 anomaly-scanner-particle-readout = Análise de Reação a Partículas:
 anomaly-scanner-particle-danger = - [color=crimson]Tipo perigoso:[/color] {$type}
 anomaly-scanner-particle-unstable = - [color=plum]Tipo instável:[/color] {$type}
@@ -31,8 +31,15 @@ anomaly-generator-no-cooldown = Cooldown: [color=gray]Completo[/color]
 anomaly-generator-yes-fire = Estado: [color=forestgreen]Pronto[/color]
 anomaly-generator-no-fire = Estado: [color=crimson]Não pronto[/color]
 anomaly-generator-generate = Gerar Anomalia
-anomaly-generator-charges = {$charges -> 
+anomaly-generator-charges = {$charges ->
     [one] {$charges} carga
     *[other] {$charges} cargas
 }
 anomaly-generator-announcement = Uma anomalia foi gerada!
+
+anomaly-command-pulse = Pulsa um alvo de anomalia
+anomaly-command-supercritical = Faz com que um alvo de anomalia se torne supercrítica
+
+# Flavor text on the footer
+anomaly-generator-flavor-left = Anomalias podem surgir dentro do operador.
+anomaly-generator-flavor-right = v1.1

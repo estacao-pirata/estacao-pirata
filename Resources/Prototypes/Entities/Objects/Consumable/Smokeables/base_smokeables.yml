@@ -8,8 +8,7 @@
   - type: Sprite
     netsync: false
   - type: Appearance
-    visuals:
-      - type: BurnStateVisualizer
+  - type: BurnStateVisuals
   - type: Tag
     tags:
     - Trash
@@ -62,3 +61,23 @@
     solutions:
       smokable:
         maxVol: 20
+
+- type: entity
+  parent: BaseItem
+  id: BaseVape
+  abstract: true
+  components:
+  - type: Vape
+    damage:
+      groups:
+        Burn: 2
+        Toxin: 2
+        Airloss: 10
+  - type: SolutionContainerManager
+    solutions:
+      smokable:
+        maxVol: 10
+  - type: RefillableSolution
+    solution: smokable
+  - type: ExaminableSolution
+    solution: smokable

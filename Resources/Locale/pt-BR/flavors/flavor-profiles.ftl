@@ -17,6 +17,7 @@ flavor-base-spicy = picante
 flavor-base-metallic = metálico
 flavor-base-meaty = carnudo
 flavor-base-fishy = de peixe
+flavor-base-crabby = ranzinza
 flavor-base-cheesy = de queijo
 flavor-base-funny = engraçado
 flavor-base-tingly = formigante
@@ -38,8 +39,9 @@ flavor-base-creamy = cremoso
 flavor-base-fizzy = espumante
 flavor-base-shocking = chocante
 flavor-base-cheap = barato
-flavor-base-piquant = piquant
+flavor-base-piquant = picante
 flavor-base-sharp = intenso
+flavor-base-syrupy = xaroposo
 
 # lmao
 flavor-base-terrible = terrível
@@ -68,6 +70,8 @@ flavor-complex-batter = de massa de bolo
 flavor-complex-butter = de manteiga
 flavor-complex-egg = de ovo
 flavor-complex-bacon = de bacon
+flavor-complex-chicken = de frango
+flavor-complex-duck = de pato
 flavor-complex-chocolate = de chocolate
 flavor-complex-pasta = de macarrão
 flavor-complex-rice = de arroz
@@ -78,8 +82,8 @@ flavor-complex-ice-cream = de sorvete
 flavor-complex-dough = de massa de pão
 flavor-complex-sweet-dough = de massa doce
 flavor-complex-tofu = de tofu
+flavor-complex-miso = como missô
 flavor-complex-muffin = de um muffin
-
 flavor-complex-peas = de ervilhas
 flavor-complex-pineapple = de abacaxi
 flavor-complex-onion = de cebola
@@ -97,6 +101,12 @@ flavor-complex-raisins = de uva passa
 flavor-complex-orange = de laranja
 flavor-complex-watermelon = de melancia
 flavor-complex-garlic = de alho
+flavor-complex-grape = de uva
+flavor-complex-meatballs = de almôndegas
+flavor-complex-nettles = de urtigas
+flavor-complex-jungle = de selva
+flavor-complex-vegetables = como vegetais
+# use it when there multiple types of veggies
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
@@ -117,9 +127,22 @@ flavor-complex-boritos = de gaming
 flavor-complex-nachos = de nachos
 flavor-complex-donk = de pizza barata
 flavor-complex-copypasta = de uma piada repetitiva
+flavor-complex-bad-joke = de uma piada ruim
 flavor-complex-memory-leek = de a fork bomb
 flavor-complex-gunpowder = de pólvora
 flavor-complex-validhunting = de caça-antag
+flavor-complex-people = de pessoas
+flavor-complex-cat = de gato
+flavor-complex-homerun = de um home run
+flavor-complex-grass = de grama
+flavor-complex-flare = de um sinalizador fumegante
+flavor-complex-cobwebs = de teias de aranha
+flavor-complex-sadness = de tristeza
+flavor-complex-hope = de esperança
+flavor-complex-chaos = de o caos
+flavor-complex-squirming = de se contorcer
+flavor-complex-electrons = de elétrons
+flavor-complex-parents = de os pais de alguém
 
 # Drink-specific flavors.
 
@@ -165,6 +188,8 @@ flavor-complex-cuba-libre = de cola drogada
 flavor-complex-gin-tonic = de refrigerante lima-limão drogado
 flavor-complex-screwdriver = de suco de laranja drogado
 
+flavor-complex-themartinez = like violets and lemon vodka
+flavor-complex-cogchamp = like brass
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 flavor-complex-pilk = de leite doce
 

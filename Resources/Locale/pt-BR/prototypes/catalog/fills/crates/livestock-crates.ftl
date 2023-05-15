@@ -1,17 +1,20 @@
 ent-CrateNPCBee = Caixa de abelhas
-    .desc = A crate containing a swarm of eight bees.
+    .desc = Uma caixa contendo um enxame de oito abelhas.
 
 ent-CrateNPCButterflies = Caixa de borboletas
-    .desc = A crate containing five butterflies.
+    .desc = Uma caixa contendo cinco borboletas.
 
 ent-CrateNPCCat = Caixa de gato
     .desc = Uma caixa contendo um único gato.
 
 ent-CrateNPCChicken = Caixa de galinhas
-    .desc = A crate containing four fully grown chickens.
+    .desc = Uma caixa contendo quatro galinhas adultas.
+
+ent-CrateNPCCrab = Caixa de caranguejo
+    .desc = Uma caixa contendo três enormes caranguejos.
 
 ent-CrateNPCDuck = Caixa de patos
-    .desc = A crate containing six fully grown ducks.
+    .desc = Uma caixa contendo seis patos adultos.
 
 ent-CrateNPCCorgi = Caixa de Corgi
     .desc = Uma caixa contendo um único corgi.
@@ -48,3 +51,6 @@ ent-CrateNPCSnake = Caixa de cobras
 
 ent-CrateNPCLizard = Caixa de lagarto
     .desc = Uma caixa contendo um lagarto.
+
+ent-CrateNPCKangaroo = Caixote de canguru
+    .desc = Uma caixa contendo um canguru.
