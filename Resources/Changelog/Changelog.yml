@@ -1,28 +1,4 @@
 Entries:
-- author: Alekshhh
-  changes:
-  - {message: Changed dame dane guy set to be less blue. That was a baka mistake.,
-    type: Tweak}
-  id: 3227
-  time: '2023-03-23T16:51:50.0000000+00:00'
-- author: EmoGarbage404
-  changes:
-  - {message: Paperwork now looks the same as he did before, type: Tweak}
-  id: 3228
-  time: '2023-03-23T16:53:27.0000000+00:00'
-- author: 08A
-  changes:
-  - {message: Fixed welder interaction when it has a fuel shortage problem, type: Fix}
-  id: 3229
-  time: '2023-03-23T17:08:46.0000000+00:00'
-- author: Flareguy
-  changes:
-  - {message: The energy sword now does 30 damage per hit and swings slower., type: Tweak}
-  - {message: The energy sword can now break structures., type: Tweak}
-  - {message: 'The energy sword has received its iconic hitsound back, making it much
-      more obvious and threatening.', type: Tweak}
-  id: 3230
-  time: '2023-03-23T17:17:07.0000000+00:00'
 - author: deltanedas
   changes:
   - {message: Dehydrated carp will fit in lockers now., type: Fix}
@@ -2905,3 +2881,25 @@ Entries:
     type: Add}
   id: 3726
   time: '2023-05-11T13:19:09.0000000+00:00'
+- author: juliangiebel
+  changes:
+  - {message: Fixed not being able to link blast doors and shutters, type: Fix}
+  id: 3727
+  time: '2023-05-11T22:16:02.0000000+00:00'
+- author: freeman2651
+  changes:
+  - {message: Added ChemVends for (limited) bulk chemical storage and dispensing.,
+    type: Add}
+  id: 3728
+  time: '2023-05-12T09:31:20.0000000+00:00'
+- author: crazybrain
+  changes:
+  - {message: You can now examine the ID cards worn by monkeys., type: Fix}
+  id: 3729
+  time: '2023-05-12T13:52:09.0000000+00:00'
+- author: ElectroJr
+  changes:
+  - {message: Entering and leaving kudzu or other slowdown causing entities should
+      no longer cause the screen to stutter/flicker., type: Fix}
+  id: 3730
+  time: '2023-05-12T14:02:51.0000000+00:00'
