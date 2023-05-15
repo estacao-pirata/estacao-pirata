@@ -10,8 +10,6 @@ using Robust.Shared.Physics;
 using Content.Shared.Throwing;
 using Content.Server.Storage.EntitySystems;
 using Content.Shared.Interaction;
-using Content.Server.Disease;
-using Content.Server.Disease.Components;
 using Content.Shared.Item;
 using Content.Shared.Bed.Sleep;
 using System.Linq;
