@@ -9,7 +9,7 @@
       layers:
         - map: ["enum.DamageStateVisualLayers.Base"]
           state: running
-    - type: MobState
+    - type: MobThresholds
       thresholds:
         0: Alive
         350: Critical
