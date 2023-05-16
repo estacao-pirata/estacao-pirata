@@ -14,5 +14,6 @@ action-transform-name = Transformar
 action-transform-description = Altera sua estrutura física para a de outra pessoa.
 
 changeling-dna-obtained = Você obtém o DNA d{THE($target)}.
-changeling-dna-failed-nonHumanoid = Esta criatura não é humanoide.
-changeling-dna-failed-noDna = Esta criatura não possui DNA.
+changeling-dna-failed-nonHumanoid = Esta coisa não é humanoide.
+changeling-dna-failed-noDna = Esta coisa não possui DNA.
+changeling-dna-failed-impossible = Não é possível coletar o DNA disto.

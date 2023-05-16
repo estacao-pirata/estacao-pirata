@@ -1,8 +1,8 @@
 - type: entity
-  name: arm-blade-name
+  name: lâmina de braço
   parent: BaseItem
   id: TrueArmBlade
-  description: arm-blade-description
+  description: Uma lâmina grotesca feita de osso e carne que corta as pessoas como uma faca quente corta a manteiga.
   components:
   - type: Sharp
   - type: Sprite
@@ -12,8 +12,8 @@
     attackRate: 1
     damage:
       types:
-        Slash: 15
-        Piercing: 5
+        Slash: 20
+        Piercing: 10
   - type: Item
     size: 15
     sprite: Objects/Weapons/Melee/armblade.rsi

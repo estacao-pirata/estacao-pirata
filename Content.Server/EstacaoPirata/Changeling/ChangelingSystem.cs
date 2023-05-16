@@ -2,14 +2,11 @@ using Content.Shared.Actions;
 using Content.Shared.Actions.ActionTypes;
 using Content.Shared.EstacaoPirata.Changeling;
 using Content.Shared.Interaction;
-using Robust.Shared.Player;
-using Content.Server.EstacaoPirata.Changeling.Shop;
 using Content.Server.Humanoid;
 using Content.Server.Store.Components;
 using Content.Server.Store.Systems;
 using Robust.Shared.Prototypes;
 using Content.Server.Actions;
-using Content.Server.EstacaoPirata.Changeling.EntitySystems;
 using Content.Server.Forensics;
 using Content.Shared.DoAfter;
 using Content.Server.Mind.Components;
@@ -36,8 +33,6 @@ using Robust.Server.Containers;
 namespace Content.Server.EstacaoPirata.Changeling;
 public sealed partial class ChangelingSystem : EntitySystem
 {
-    [Dependency] private readonly ChangelingShopSystem _changShopSystem = default!;
-    [Dependency] private readonly AbsorbSystem _absorbSystem = default!;
     //[Dependency] private readonly SharedActionsSystem _actionSystem = default!;
     [Dependency] private readonly SharedInteractionSystem _interactionSystem = default!;
     [Dependency] private readonly HumanoidAppearanceSystem _humanoidSystem = default!;
@@ -281,9 +276,17 @@ public sealed partial class ChangelingSystem : EntitySystem
         HumanoidData tempNewHumanoid = new HumanoidData();
 
         if (!TryComp<MetaDataComponent>(target, out var targetMeta))
+        {
+            _popup.PopupEntity(Loc.GetString("changeling-dna-failed-impossible"), user, user);
             return;
+        }
+
         if (!TryPrototype(target, out var prototype, targetMeta))
+        {
+            _popup.PopupEntity(Loc.GetString("changeling-dna-failed-impossible"), user, user);
             return;
+        }
+
         if (!TryComp<DnaComponent>(user, out var dnaComp))
         {
             _popup.PopupEntity(Loc.GetString("changeling-dna-failed-noDna"), user, user);
@@ -366,7 +369,7 @@ public sealed partial class ChangelingSystem : EntitySystem
         RetrievePausedEntity(uid, firstHumanoid, component);
     }
 
-    // TODO: passar as actions compradas, quantia de dinheiro, itens na mao como o armblade
+    // TODO: passar as actions compradas, quantia de dinheiro, itens na mao como o armblade, passar tambem o implante
     private EntityUid? SpawnPauseEntity(EntityUid user, HumanoidData targetHumanoid, ChangelingComponent originalChangelingComponent)
     {
         if(targetHumanoid.EntityPrototype == null ||
