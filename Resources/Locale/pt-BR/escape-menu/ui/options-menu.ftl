@@ -154,6 +154,7 @@ ui-options-function-editor-cancel-place = Cancelar Posicionamento
 ui-options-function-editor-grid-place = Posicionar na Grid
 ui-options-function-editor-line-place = Posicionar Linha
 ui-options-function-editor-rotate-object = Girar
+ui-options-function-editor-flip-object = Virar
 ui-options-function-editor-copy-object = Copiar
 
 ui-options-function-open-abilities-menu = Abrir menu de ação

@@ -61,6 +61,7 @@ reagent-physical-desc-powdery = em pó
 reagent-physical-desc-creamy = cremosa
 reagent-physical-desc-sticky = pegajosa
 reagent-physical-desc-bubbly = borbulhante
+reagent-physical-desc-rocky = rochosa
 reagent-physical-desc-lemony-fresh = de limão fresco
 reagent-physical-desc-crisp = crocante
 reagent-physical-desc-citric = cítrica
