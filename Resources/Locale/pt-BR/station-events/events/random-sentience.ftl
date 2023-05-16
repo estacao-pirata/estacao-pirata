@@ -34,3 +34,4 @@ station-event-random-sentience-flavor-mechanical = mecânico
 station-event-random-sentience-flavor-organic = orgânico
 station-event-random-sentience-flavor-corgi = corgi
 station-event-random-sentience-flavor-primate = primata
+station-event-random-sentience-flavor-slime = slime

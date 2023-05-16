@@ -14,3 +14,5 @@ wieldable-component-not-enough-free-hands = {$number ->
     *[other] Você precisa de { $number } mãos livres para empunhar { THE($item) }.
 }
 wieldable-component-not-in-hands = { CAPITALIZE(THE($item)) } não está em suas mãos!
+
+wieldable-component-requires = { CAPITALIZE(THE($item))} deve ser empunhado!

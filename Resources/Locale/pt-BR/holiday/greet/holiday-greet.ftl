@@ -29,6 +29,7 @@ holiday-name-labor-day = Labor Day
 holiday-name-firefighter-day = Dia do Bombeiro
 holiday-name-mothers-day = Dia das Mães
 holiday-name-owl-and-pussycat-day = Dia da Coruja e a Gatinha
+holiday-name-towel-day = Dia da Toalha
 holiday-name-mommi-day = Dia das Mamães
 holiday-name-garbage-day = Dia do Lixo
 holiday-name-international-picnic-day = Dia do Picnic

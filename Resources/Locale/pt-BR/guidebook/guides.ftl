@@ -23,6 +23,7 @@ guide-entry-xenoarchaeology = Xenoarqueologia
 guide-entry-artifact-reports = Relatórios de artefatos
 guide-entry-traversal-distorter = Distortor transversal
 guide-entry-machine-upgrading = Melhorando Máquinas
+guide-entry-robotics = Robótica
 
 guide-entry-security = Segurança
 guide-entry-dna = DNA

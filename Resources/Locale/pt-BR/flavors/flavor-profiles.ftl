@@ -150,6 +150,7 @@ flavor-complex-parents = de os pais de alguém
 flavor-complex-alcohol = de álcool
 flavor-complex-soda = de refrigerante
 flavor-complex-juice = de suco
+flavor-complex-rocksandstones = de pedra e rocha
 
 ## Basic drinks
 flavor-complex-water = de água

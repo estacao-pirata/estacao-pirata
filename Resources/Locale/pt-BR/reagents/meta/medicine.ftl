@@ -41,7 +41,7 @@ reagent-name-inaprovaline = inaprovalina
 reagent-desc-inaprovaline = A inaprovalina é um estimulante sináptico e cardioestimulante. Comumente usado para estabilizar pacientes - interrompe a perda de oxigênio quando o paciente está em estado crítico de saúde. Também retardará o sangramento em uma boa quantidade. Atua como um analgésico decente.
 
 reagent-name-kelotane = kelotane
-reagent-desc-kelotane = Trata queimaduras e previne infecções.
+reagent-desc-kelotane = Trata dano de queimadura. A superdosagem reduz muito a capacidade do corpo de reter água.
 
 reagent-name-leporazine = leporazina
 reagent-desc-leporazine = Isso mantém a temperatura corporal do paciente estável. Altas doses podem permitir curtos períodos de EVA desprotegido, mas impedem o uso dos tubos criogênicos.
