@@ -16,6 +16,7 @@ using Content.Server.Preferences.Managers;
 using Robust.Server.GameObjects;
 using Robust.Shared.GameObjects;
 using System.Linq;
+using Content.Server.Construction.Completions;
 using Content.Server.Inventory;
 using Content.Server.Traitor;
 using Content.Shared.Hands.EntitySystems;
@@ -27,8 +28,10 @@ using Content.Shared.Popups;
 using Content.Shared.Damage;
 using Content.Shared.Mobs.Systems;
 using Content.Server.Polymorph.Systems;
+using Content.Shared.Mobs;
 using Robust.Shared.Map;
 using Robust.Server.Containers;
+using Content.Shared.Store;
 
 namespace Content.Server.EstacaoPirata.Changeling;
 public sealed partial class ChangelingSystem : EntitySystem
@@ -76,8 +79,12 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         SubscribeLocalEvent<ChangelingComponent, ChangelingTransformEvent>(OnTransform);
 
+        //SubscribeLocalEvent<StoreComponent, sto>(OnBuyRequest);
+
         // Initialize abilities
     }
+
+
 
     private void OnArmBlade(EntityUid uid, ChangelingComponent component, ChangelingArmBladeEvent args)
     {
@@ -97,12 +104,13 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         // TODO: REFATORAR ISSO TUDO PRA USAR ArmBladeMaxHands, nao ficar spawnando e apagando entidade (usar o pause) e tambem fazer com que não se possa tirar o item da mão que está
         // esse codigo ta muito feio
+        // refatorar pra olhar todas as maos pra quando for desativar a lamina
         if (!component.ArmBladeActivated)
         {
             var targetTransformComp = Transform(args.Performer);
             var armbladeEntity = Spawn("TrueArmBlade", targetTransformComp.Coordinates);
 
-            if (handContainer.ContainedEntity != null)
+            if (handContainer.ContainedEntity != null) // usar foreach pra checar e dropar
             {
                 _handsSystem.TryDrop(args.Performer, handsComponent.ActiveHand, targetTransformComp.Coordinates);
             }
@@ -113,18 +121,22 @@ public sealed partial class ChangelingSystem : EntitySystem
         }
         else
         {
-            if (handContainer.ContainedEntity != null)
+            foreach (var item in _hands.EnumerateHeld(uid))
             {
-                if (TryPrototype(handContainer.ContainedEntity.Value, out var protoInHand))
-                {
-                    var result = _proto.HasIndex<EntityPrototype>("TrueArmBlade");
-                    if (result)
-                    {
-                        EntityManager.DeleteEntity(handContainer.ContainedEntity.Value);
-                        component.ArmBladeActivated = false;
-                    }
-                }
+
+                if (!TryPrototype(item, out var protoInHand))
+                    continue;
+
+                var result = protoInHand.ID == "TrueArmBlade";
+
+                if (!result)
+                    continue;
+
+                EntityManager.DeleteEntity(item);
+                component.ArmBladeActivated = false;
+                break;
             }
+
         }
     }
 
@@ -197,6 +209,29 @@ public sealed partial class ChangelingSystem : EntitySystem
                 return;
 
         TryRegisterHumanoidData(uid, (EntityUid) args.Target,  component);
+    }
+
+    private void OnBuyRequest(EntityUid uid, StoreComponent component, StoreBuyListingMessage msg)
+    {
+        var listing = component.Listings.FirstOrDefault(x => x.Equals(msg.Listing));
+
+        if (listing == null)
+        {
+            Logger.Debug("listing does not exist");
+            return;
+        }
+
+        if (listing.ProductAction != null)
+        {
+            var action = new InstantAction(_proto.Index<InstantActionPrototype>(listing.ProductAction));
+
+            if (!TryComp<ChangelingComponent>(uid, out var changelingComponent))
+                return;
+
+            var item = changelingComponent.StoredHumanoids.Find(x => x.EntityUid == uid);
+
+            item.ActionTypes.Add(action);
+        }
     }
 
     // Acho que nao vou usar este
@@ -369,7 +404,7 @@ public sealed partial class ChangelingSystem : EntitySystem
         RetrievePausedEntity(uid, firstHumanoid, component);
     }
 
-    // TODO: passar as actions compradas, quantia de dinheiro, itens na mao como o armblade, passar tambem o implante
+    // TODO: passar as actions compradas, quantia de dinheiro, itens na mao como o armblade, passar tambem o implante, sem fazer spawnar outro igual
     private EntityUid? SpawnPauseEntity(EntityUid user, HumanoidData targetHumanoid, ChangelingComponent originalChangelingComponent)
     {
         if(targetHumanoid.EntityPrototype == null ||
@@ -435,6 +470,33 @@ public sealed partial class ChangelingSystem : EntitySystem
         //     Logger.Info($"Entidade {child} spawnada e enviada para o mapa de pause {PausedMap.Value}");
         // }
 
+        var userActions = EnsureComp<ActionsComponent>(user);
+
+        var childActions = EnsureComp<ActionsComponent>(child);
+
+        // TODO: melhorar esta porra esse Contains n ta funcionando
+        foreach (var action in userActions.Actions)
+        {
+            if (childActions.Actions.Contains(action))
+                continue;
+
+            // coisa feia so pra bandaid
+            if (action.DisplayName is "activate-changeling-shop-action-name" or "action-name-toggle-light")
+                continue;
+
+            Logger.Info($"Entity {child} recieved action {action.DisplayName}");
+            _action.AddAction(child, action, action.Provider);
+        }
+
+        // var item = changelingComponent.StoredHumanoids.Find(x => x.EntityUid == user);
+        //
+        // foreach (var action in item.ActionTypes)
+        // {
+        //     //var item = changelingComponent.StoredHumanoids.Find(x => x.EntityUid == user);
+        //
+        //     _action.AddAction(child, action, action.Provider);
+        // }
+
         SendToPausesMap(child, transformChild);
 
         return child;
@@ -443,8 +505,6 @@ public sealed partial class ChangelingSystem : EntitySystem
 
     private void RetrievePausedEntity(EntityUid user, HumanoidData targetHumanoid, ChangelingComponent originalChangelingComponent)
     {
-        // TODO: fazer com que spawne e resgate os personagens em pause no pausedmap
-
         var childNullable = targetHumanoid.EntityUid;
 
         if (childNullable == null)
@@ -467,10 +527,25 @@ public sealed partial class ChangelingSystem : EntitySystem
             cont.Insert(child);
 
         _inventory.TransferEntityInventories(user, child);
-        foreach (var hand in _hands.EnumerateHeld(user))
+
+        // "transfer" (spawn a new) an unremovable item
+        foreach (var item in _hands.EnumerateHeld(user))
         {
-            _hands.TryDrop(user, hand, checkActionBlocker: false);
-            _hands.TryPickupAnyHand(child, hand);
+            var dropResult = _hands.TryDrop(user, item, checkActionBlocker: false);
+
+
+            if (!dropResult)
+            {
+
+                if(!TryPrototype(item, out var itemPrototype))
+                    return;
+                var proto = itemPrototype.ID;
+                var itemEntity = Spawn(proto, childTransform.Coordinates);
+                EntityManager.DeleteEntity(item);
+                _handsSystem.TryPickup(child, itemEntity);
+            }
+
+            _hands.TryPickupAnyHand(child, item);
         }
 
         var childChangelingComponent = EnsureComp<ChangelingComponent>(child);

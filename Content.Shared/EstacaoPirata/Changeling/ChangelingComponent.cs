@@ -4,6 +4,7 @@ using Robust.Shared.GameStates;
 using Content.Shared.Humanoid;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Prototypes;
+using Content.Shared.Actions.ActionTypes;
 
 namespace Content.Shared.EstacaoPirata.Changeling;
 
@@ -146,4 +147,6 @@ public struct HumanoidData
     public string? Dna;
 
     public EntityUid? EntityUid;
+
+    public List<ActionType> ActionTypes;
 }
