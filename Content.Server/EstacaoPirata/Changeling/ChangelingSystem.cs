@@ -29,6 +29,7 @@ using Content.Shared.Popups;
 using Content.Shared.Damage;
 using Content.Shared.Mobs.Systems;
 using Content.Server.Polymorph.Systems;
+using Content.Shared.FixedPoint;
 using Content.Shared.Mobs;
 using Robust.Shared.Map;
 using Robust.Server.Containers;
@@ -166,6 +167,8 @@ public sealed partial class ChangelingSystem : EntitySystem
         var coords = Transform(uid).Coordinates;
 
         var implant = Spawn("ChangelingShopImplant", coords);
+
+        component.StoreImplantUid = implant;
 
         if (!TryComp<SubdermalImplantComponent>(implant, out var implantComp))
             return;
@@ -351,10 +354,6 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         tempNewHumanoid.EntityUid = childUid;
 
-        //tempNewHumanoid.EntityUid = target; // erradissimo, n e pra eu pegar uid do target, mas sim do novo spawn
-
-        //Dirty(user, userMeta); // TENTANDO FAZER FICAR DIRTY
-
         if (comp.DNAStrandBalance >= comp.DNAStrandCap)
         {
             var lastHumanoidData = comp.StoredHumanoids.Last();
@@ -370,19 +369,6 @@ public sealed partial class ChangelingSystem : EntitySystem
 
 
         _popup.PopupEntity(Loc.GetString("changeling-dna-obtained", ("target", target)), user, user);
-
-        // Coisas para mover para outro metodo
-        //userMeta.EntityName = targetMeta.EntityName;
-        //_humanoidSystem.CloneAppearance(target, user, targetAppearance, userAppearance);
-
-        // MELHOR: refatorar o MobChangeling, ao inves de fazer um mob especifico para ele, fazer um componente que diz se é ou não apenas
-        // isso facilitaria a troca de corpo, pq ai só precisaria criar um novo mob identico ao alvo e passar o componente de changeling pra ele com os valores
-        // if (TryPrototype(target, out var prototipo, targetMeta))
-        // {
-        //     var targetTransformComp = Transform(user);
-        //     var child = Spawn(prototipo.ID, targetTransformComp.Coordinates);
-        //
-        // }
     }
 
     private void OnTransform(EntityUid uid, ChangelingComponent component, ChangelingTransformEvent args)
@@ -449,13 +435,6 @@ public sealed partial class ChangelingSystem : EntitySystem
         childMeta.EntityName = targetHumanoid.MetaDataComponent.EntityName;
         childDna.DNA = targetHumanoid.Dna;
 
-        // _inventory.TransferEntityInventories(user, child);
-        // foreach (var hand in _hands.EnumerateHeld(user))
-        // {
-        //     _hands.TryDrop(user, hand, checkActionBlocker: false);
-        //     _hands.TryPickupAnyHand(child, hand);
-        // }
-
         var changelingComponent = EnsureComp<ChangelingComponent>(child);
 
         changelingComponent.ArmBladeActivated = originalChangelingComponent.ArmBladeActivated;
@@ -465,13 +444,6 @@ public sealed partial class ChangelingSystem : EntitySystem
         changelingComponent.PointBalance = originalChangelingComponent.PointBalance;
         changelingComponent.ArmBladeMaxHands = originalChangelingComponent.ArmBladeMaxHands;
 
-        // EnsurePausesdMap();
-        // if (PausedMap != null)
-        // {
-        //     _transform.SetParent(child, transformChild, PausedMap.Value);
-        //     Logger.Info($"Entidade {child} spawnada e enviada para o mapa de pause {PausedMap.Value}");
-        // }
-
         var userActions = EnsureComp<ActionsComponent>(user);
 
         var childActions = EnsureComp<ActionsComponent>(child);
@@ -480,7 +452,7 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         bool foundAction = false;
 
-        // passa as acoes
+        // passa as acoes de um pra outro
         foreach (var action in userActions.Actions)
         {
             foundAction = false;
@@ -503,21 +475,6 @@ public sealed partial class ChangelingSystem : EntitySystem
             Logger.Info($"Entity {child} recieved action {action.DisplayName}");
             _action.AddAction(child, action, action.Provider);
         }
-            // coisa feia so pra bandaid
-            /*if (action.DisplayName is "activate-changeling-shop-action-name" or "action-name-toggle-light")
-                continue;*/
-
-
-
-
-        // var item = changelingComponent.StoredHumanoids.Find(x => x.EntityUid == user);
-        //
-        // foreach (var action in item.ActionTypes)
-        // {
-        //     //var item = changelingComponent.StoredHumanoids.Find(x => x.EntityUid == user);
-        //
-        //     _action.AddAction(child, action, action.Provider);
-        // }
 
         SendToPausesMap(child, transformChild);
 
@@ -548,8 +505,7 @@ public sealed partial class ChangelingSystem : EntitySystem
         if (_container.TryGetContainingContainer(user, out var cont))
             cont.Insert(child);
 
-        //_inventory.TransferEntityInventories(user, child);
-        TransferAllInventory(user,child);
+        TransferAllInventory(user,child); //_inventory.TransferEntityInventories(user, child);
 
         // "transfer" (spawn a new) an unremovable item
         foreach (var item in _hands.EnumerateHeld(user))
@@ -581,6 +537,18 @@ public sealed partial class ChangelingSystem : EntitySystem
         childChangelingComponent.PointBalance = originalChangelingComponent.PointBalance;
         childChangelingComponent.ArmBladeMaxHands = originalChangelingComponent.ArmBladeMaxHands;
 
+        if (!TryComp<StoreComponent>(originalChangelingComponent.StoreImplantUid, out var originalStoreComponent))
+            return;
+
+        if (!TryComp<StoreComponent>(childChangelingComponent.StoreImplantUid, out var childStoreComponent))
+            return;
+
+        childStoreComponent.Balance = originalStoreComponent.Balance;
+        childStoreComponent.Listings = originalStoreComponent.Listings;
+
+        //childStoreComponent.Categories = originalStoreComponent.Categories; // isso aq e interessante passar as categorias de coisa pra vender
+
+
         if (TryComp<DamageableComponent>(child, out var damageParent) &&
             _mobThreshold.GetScaledDamage(user, child, out var damage) &&
             damage != null)
@@ -588,21 +556,18 @@ public sealed partial class ChangelingSystem : EntitySystem
             _damageable.SetDamage(child, damageParent, damage);
         }
 
+
+
         if (TryComp<MindComponent>(user, out var mind) && mind.Mind != null)
             mind.Mind.TransferTo(child);
-
-
-        //EntityManager.DeleteEntity(user);
 
         SendToPausesMap(user, userTransform);
 
         Dirty(child);
-
-        // criar gameobject com os atributos de HumanoidData
-
-        //_humanoidSystem.CloneAppearance(target, user, targetAppearance, userAppearance);
     }
 
+
+    // TODO: pull request to change this on Wizard maybe
     private void TransferAllInventory(EntityUid uid, EntityUid target)
     {
         if (!_inventory.TryGetContainerSlotEnumerator(uid, out var enumerator))
@@ -623,11 +588,12 @@ public sealed partial class ChangelingSystem : EntitySystem
                     inventoryEntities.Add(slot.Name, containedEntity);
                 }
             }
-            //drops everything in the target's inventory on the ground
+
 
             inventoryContainersToDrop.Add(containerSlot.ID, uid);
         }
 
+        //drops everything in the target's inventory on the ground
         foreach (var (slot, entity) in inventoryContainersToDrop)
         {
             _inventory.TryUnequip(entity, slot, true, true);

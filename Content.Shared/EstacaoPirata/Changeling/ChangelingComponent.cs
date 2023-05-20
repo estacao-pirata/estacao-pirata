@@ -77,6 +77,11 @@ public sealed class ChangelingComponent : Component
 
     #endregion
 
+    /// <summary>
+    /// Store entity uid
+    /// </summary>
+    [ViewVariables(VVAccess.ReadOnly)]
+    public EntityUid? StoreImplantUid;
 
     /// <summary>
     /// List of absorbed entities
