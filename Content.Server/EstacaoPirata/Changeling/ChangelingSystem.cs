@@ -1,3 +1,4 @@
+using System.Collections;
 using Content.Shared.Actions;
 using Content.Shared.Actions.ActionTypes;
 using Content.Shared.EstacaoPirata.Changeling;
@@ -32,6 +33,7 @@ using Content.Shared.Mobs;
 using Robust.Shared.Map;
 using Robust.Server.Containers;
 using Content.Shared.Store;
+using Content.Shared.Inventory;
 
 namespace Content.Server.EstacaoPirata.Changeling;
 public sealed partial class ChangelingSystem : EntitySystem
@@ -474,19 +476,39 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         var childActions = EnsureComp<ActionsComponent>(child);
 
-        // TODO: melhorar esta porra esse Contains n ta funcionando
+        var actionsToPass = new SortedSet<ActionType>();
+
+        bool foundAction = false;
+
+        // passa as acoes
         foreach (var action in userActions.Actions)
         {
-            if (childActions.Actions.Contains(action))
-                continue;
+            foundAction = false;
+            foreach (var childAction in childActions.Actions)
+            {
+                if (action.DisplayName == childAction.DisplayName)
+                {
+                    foundAction = true;
+                    break;
+                }
+            }
 
-            // coisa feia so pra bandaid
-            if (action.DisplayName is "activate-changeling-shop-action-name" or "action-name-toggle-light")
-                continue;
+            if (!foundAction)
+                actionsToPass.Add(action);
 
+        }
+
+        foreach (var action in actionsToPass)
+        {
             Logger.Info($"Entity {child} recieved action {action.DisplayName}");
             _action.AddAction(child, action, action.Provider);
         }
+            // coisa feia so pra bandaid
+            /*if (action.DisplayName is "activate-changeling-shop-action-name" or "action-name-toggle-light")
+                continue;*/
+
+
+
 
         // var item = changelingComponent.StoredHumanoids.Find(x => x.EntityUid == user);
         //
@@ -526,7 +548,8 @@ public sealed partial class ChangelingSystem : EntitySystem
         if (_container.TryGetContainingContainer(user, out var cont))
             cont.Insert(child);
 
-        _inventory.TransferEntityInventories(user, child);
+        //_inventory.TransferEntityInventories(user, child);
+        TransferAllInventory(user,child);
 
         // "transfer" (spawn a new) an unremovable item
         foreach (var item in _hands.EnumerateHeld(user))
@@ -578,6 +601,44 @@ public sealed partial class ChangelingSystem : EntitySystem
         // criar gameobject com os atributos de HumanoidData
 
         //_humanoidSystem.CloneAppearance(target, user, targetAppearance, userAppearance);
+    }
+
+    private void TransferAllInventory(EntityUid uid, EntityUid target)
+    {
+        if (!_inventory.TryGetContainerSlotEnumerator(uid, out var enumerator))
+            return;
+
+        Dictionary<string, EntityUid> inventoryEntities = new();
+        Dictionary<string, EntityUid> inventoryContainersToDrop = new();
+        var slots = _inventory.GetSlots(uid);
+        while (enumerator.MoveNext(out var containerSlot))
+        {
+            //records all the entities stored in each of the target's slots
+            foreach (var slot in slots)
+            {
+                if (_inventory.TryGetSlotContainer(target, slot.Name, out var conslot, out _) &&
+                    conslot.ID == containerSlot.ID &&
+                    containerSlot.ContainedEntity is { } containedEntity)
+                {
+                    inventoryEntities.Add(slot.Name, containedEntity);
+                }
+            }
+            //drops everything in the target's inventory on the ground
+
+            inventoryContainersToDrop.Add(containerSlot.ID, uid);
+        }
+
+        foreach (var (slot, entity) in inventoryContainersToDrop)
+        {
+            _inventory.TryUnequip(entity, slot, true, true);
+        }
+
+        // This takes the objects we removed and stored earlier
+        // and actually equips all of it to the new entity
+        foreach (var (slot, item) in inventoryEntities)
+        {
+            _inventory.TryEquip(target, item, slot , true, true);
+        }
     }
 
     private void SendToPausesMap(EntityUid uid, TransformComponent transform)
