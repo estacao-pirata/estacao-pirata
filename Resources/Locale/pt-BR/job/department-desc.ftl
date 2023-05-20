@@ -5,6 +5,7 @@ department-Engineering-description = Manter a estação operacional.
 department-Medical-description = Mantenha a tripulação saudável.
 department-Security-description = Mantenha a paz em torno da estação.
 department-Science-description = Pesquise novas tecnologias e artefatos perigosos.
+department-Specific-description = Trabalhos que nem todas as estações têm.
 
 #Nyano
 department-Epistemics-description = Descubra o que está além do tecido da realidade.

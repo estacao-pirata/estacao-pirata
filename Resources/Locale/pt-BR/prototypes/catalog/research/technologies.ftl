@@ -4,6 +4,12 @@ technologies-basic-research-technology-description = Tecnologias de pesquisa bá
 technologies-cleaning-technology = Tecnologia de limpeza
 technologies-cleaning-technology-description = Comece com uma estação limpa e brilhante.
 
+technologies-advanced-cleaning-technology = Tecnologia de limpeza avançada
+technologies-advanced-cleaning-technology-description = Ferramentas avançadas não vão impedir as pessoas de sujar a estação, infelizmente. 
+
+technologies-advanced-spray-technology = Tecnologia de spray avançada
+technologies-advanced-spray-technology-description = As novas formas de lavar a estação. Animais imundos.
+
 technologies-foodbev-technology = Tecnologia de Comes e Bebes
 technologies-food-and-beverage-technology-description = Serviço robusto com tecnologia de ponta.
 

@@ -9,3 +9,4 @@ species-name-oni = Oni
 species-name-arachne = Aracne
 species-name-diona = Diona
 species-name-moth = Mariposa
+species-name-arachnid = Arachnid

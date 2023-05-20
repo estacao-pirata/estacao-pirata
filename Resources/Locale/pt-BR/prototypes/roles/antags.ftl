@@ -16,8 +16,14 @@ roles-antag-suspicion-suspect-objective = Mate os inocentes.
 roles-antag-nuclear-operative-commander-name = Comandante de operação nuclear
 roles-antag-nuclear-operative-commander-objective = Lidere o seu time para a destruição da estação.
 
+roles-antag-nuclear-operative-agent-name = Agente operativo nuclear
+roles-antag-nuclear-operative-agent-objective = Como operacional padrão, o tratamento da equipe terá prioridade.
+
 roles-antag-nuclear-operative-name = Operativo nuclear
 roles-antag-nuclear-operative-objective = Encontre o disco nuclear e exploda a estação.
+
+roles-antag-space-ninja-name = Ninja Espacial
+roles-antag-space-ninja-objective = Seja imperceptível como a sombra do gavião sob o lusco fusco mergulhando sobre a presa.
 
 roles-antag-fugitive-name = Fugitivo
 roles-antag-fugitive-description = Sobrevia. Escape.

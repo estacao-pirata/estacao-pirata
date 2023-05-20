@@ -28,3 +28,6 @@ ghost-role-information-medibot-description = Clique nas pessoas para curá-las. 
 
 ghost-role-information-cleanbot-name = CleanBot
 ghost-role-information-cleanbot-description = Clique nas poças para limpá-las.
+
+ghost-role-information-mothroach-name = Mothroach
+ghost-role-information-mothroach-description = Um mothroach bonito, mas travesso.

@@ -7,3 +7,4 @@ admin-player-actions-window-announce = Anunciar
 admin-player-actions-window-shuttle = Chamar a Nave de Volta
 admin-player-actions-window-admin-logs = Logs de Admin
 admin-player-actions-window-admin-notes = Notas de Admin
+admin-player-actions-window-admin-fax = Fax de Admin

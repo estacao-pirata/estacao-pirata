@@ -25,5 +25,11 @@ ent-CrateServicePersonnel = Caixa de funcionário
 ent-CrateServiceBooks = Caixa de livros
     .desc = Contém 10 livros vazios de aparentemente aleatórios
     
+ent-CrateServiceBox = Caixas caixote
+    .desc = Contém 6 caixas multiuso vazias.
+
 ent-CrateJanitorBiosuit = Caixa de traje de bioproteção do zelador
     .desc = Contém 2 trajes de bioproteção para garantir que nenhuma doença irá distraí-lo da limpeza.
+
+ent-CrateServiceTheatre = Caixa de apresentações teatrais
+    .desc = Contém uma capa de mariposa, uniforme de empregada, atributos de palhaço e mímica e outros amuletos de desempenho.

@@ -29,6 +29,7 @@ ui-options-volume-percent = { TOSTRING($volume, "P0") }
 ## Graphics menu
 
 ui-options-show-held-item = Mostrar item segurado próximo ao cursor?
+ui-options-show-combat-mode-indicators = Mostrar indicadores do modo de combate proximo ao cursor?
 ui-options-vsync = VSync
 ui-options-fullscreen = Tela cheia
 ui-options-lighting-label = Qualidade de Iluminação:
@@ -92,6 +93,9 @@ ui-options-function-walk = Andar
 ui-options-function-camera-rotate-left = Girar para esquerda
 ui-options-function-camera-rotate-right = Girar para direita
 ui-options-function-camera-reset = Resetar
+ui-options-function-zoom-in = Zoom in
+ui-options-function-zoom-out = Zoom out
+ui-options-function-reset-zoom = Reset zoom
 
 ui-options-function-use = Usar
 ui-options-function-use-secondary = Usar secundário
@@ -115,8 +119,10 @@ ui-options-function-point = Apontar para local
 
 ui-options-function-focus-chat-input-window = Foco no Chat
 ui-options-function-focus-local-chat-window = Foco no Chat (IC)
+ui-options-function-focus-emote = Foco no Chat (Emote)
 ui-options-function-focus-whisper-chat-window = Foco no Chat (Whisper)
 ui-options-function-focus-radio-window = Foco no Chat (Radio)
+ui-options-function-focus-looc-window = Foco no Chat (LOOC)
 ui-options-function-focus-ooc-window = Foco no Chat (OOC)
 ui-options-function-focus-admin-chat-window = Foco no Chat (Admin)
 ui-options-function-focus-dead-chat-window = Foco no Chat (Dead)
@@ -139,6 +145,7 @@ ui-options-function-window-close-all = Fechar todas as janelas
 ui-options-function-window-close-recent = Fechar a janela recente
 ui-options-function-show-escape-menu = Alterna menu do jogo
 ui-options-function-escape-context = Fechar a janela recente ou alterna menu do jogo
+
 ui-options-function-take-screenshot = Tirar screenshot
 ui-options-function-take-screenshot-no-ui = Tirar screenshot (Sem UI)
 
@@ -147,6 +154,7 @@ ui-options-function-editor-cancel-place = Cancelar Posicionamento
 ui-options-function-editor-grid-place = Posicionar na Grid
 ui-options-function-editor-line-place = Posicionar Linha
 ui-options-function-editor-rotate-object = Girar
+ui-options-function-editor-flip-object = Virar
 ui-options-function-editor-copy-object = Copiar
 
 ui-options-function-open-abilities-menu = Abrir menu de ação

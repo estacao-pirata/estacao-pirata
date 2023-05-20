@@ -6,6 +6,7 @@ device-frequency-prototype-name-lights = Luzes Inteligentes
 device-frequency-prototype-name-mailing-units = Dispositivos Correios
 device-frequency-prototype-name-pdas = PDAs
 device-frequency-prototype-name-fax = Fax
+device-frequency-prototype-name-basic-device = Dispositivos básicos
 
 ## camera frequencies
 device-frequency-prototype-name-surveillance-camera-test = Teste Subnet

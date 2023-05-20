@@ -5,5 +5,6 @@ department-Engineering = engenharia
 department-Medical = médico
 department-Security = segurança
 department-Science = pesquisa & desenvolvimento
+department-Specific = específico da estação
 department-Epistemics = epistemics
 department-Silicon = silicon

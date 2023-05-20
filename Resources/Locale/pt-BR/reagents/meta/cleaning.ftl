@@ -6,3 +6,6 @@ reagent-desc-space-cleaner = É capaz de limpar quase todas as superfícies de q
 
 reagent-name-space-lube = lubrificante espacial
 reagent-desc-space-lube = O lubrificante espacial é um lubrificante de alta qualidade feito para manutenção equipamentos mecânicos extremamente complexos (e obviamente não é usado para fazer pessoas escorregarem).
+
+reagent-name-space-glue = cola espacial
+reagent-desc-space-glue = A Cola Espacial é uma cola de alto desempenho destinada à manutenção de equipamentos mecânicos extremamente complexos (e certamente não é utilizada para fazer as pessoas grudarem no chão).

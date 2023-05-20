@@ -9,3 +9,4 @@ construction-category-weapons = Armas
 construction-category-tiles = Pisos
 construction-category-utilities = Utilidades
 construction-category-misc = Misc
+construction-category-clothing = Roupas

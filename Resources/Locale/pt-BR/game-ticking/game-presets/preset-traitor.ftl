@@ -19,6 +19,7 @@ traitor-user-was-a-traitor-with-objectives-named = [color=White]{$name}[/color] 
 traitor-was-a-traitor-with-objectives-named = [color=White]{$name}[/color] era um traidor que tinha os seguintes objetivos:
 
 preset-traitor-objective-issuer-syndicate = [color=#87cefa]O Sindicato[/color]
+preset-traitor-objective-issuer-spiderclan = [color=#33cc00]Aranha Clã[/color]
 
 # Shown at the end of a round of Traitor
 traitor-objective-condition-success = {$condition} | [color={$markupColor}]Sucesso![/color]
@@ -43,12 +44,20 @@ traitor-death-match-end-round-description-entry = PDA de {$originalName}, com {$
 # TraitorRole
 traitor-role-greeting =
     Você é um agente do sindicato.
-    Seus objetivos e palavras-chave estão listados no menu de caracteres.
-    Use o uplink carregado no seu PDA para comprar as ferramentas que você precisará para esta missão.
-    Morte à Nanotrasen!
-traitor-role-codewords = Suas: {$codewords}
+    Seus objetivos e palavras-código estão listados no menu do personagem.
+    Use o uplink carregado em seu PDA para comprar as ferramentas necessárias para esta missão.
+    Morte para Nanotrasen!
 traitor-role-codewords =
-    As palavras-chave são:
+    As palavras-código são:
     {$codewords}.
-    Palavras-chave podem ser usados em conversas normais para identificar-se discretamente a outros agentes do sindicato.
-    Ouça-as e mantenha-as em segredo.
+    As palavras-código podem ser usadas em conversas regulares para se identificar discretamente para outros agentes do sindicato.
+    Ouça-os e mantenha-os em segredo.
+traitor-role-uplink-code =
+    Defina seu toque para as notas {$code} para bloquear ou desbloquear seu uplink.
+    Lembre-se de trancá-lo depois, ou a equipe da estação também o abrirá facilmente!
+
+# don't need all the flavour text for character menu
+traitor-role-codewords-short =
+    As palavras-código são:
+    {$codewords}.
+traitor-role-uplink-code-short = Seu código de uplink é {$code}.

@@ -2,11 +2,7 @@
 ### UI
 
 # Shown when an RCD is examined in details range
-rcd-component-examine-detail-count = Está no modo {$mode}, ele está {$ammoCount ->
-    *[zero] sem cargas.
-    [one] com uma carga.
-    [other] com {$ammoCount} cargas.
-}
+rcd-component-examine-detail-count = Atualmente está no modo {$mode}.
 
 ### Interaction Messages
 

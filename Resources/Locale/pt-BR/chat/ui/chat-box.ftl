@@ -16,7 +16,7 @@ hud-chatbox-select-channel-Telepathic = Telepático
 
 hud-chatbox-channel-Admin = Misc Admin
 hud-chatbox-channel-AdminAlert = Alerta Admin
-hud-chatbox-channel-AdminChat = Chat Admin
+hud-chatbox-channel-AdminChat = Admin Chat
 hud-chatbox-channel-Dead = Morto
 hud-chatbox-channel-Emotes = Emotes
 hud-chatbox-channel-Local = Local

@@ -1,3 +1,6 @@
+signal-port-name-autoclose = Fechamento automático
+signal-port-description-autoclose = Alterna se o dispositivo deve fechar automaticamente.
+
 signal-port-name-toggle = Alternar
 signal-port-description-toggle = Alterna o estado de um dispositivo.
 
@@ -18,6 +21,9 @@ signal-port-description-open = Abre um dispositivo.
 
 signal-port-name-close = Fechar
 signal-port-description-close = Fecha um dispositivo.
+
+signal-port-name-doorbolt = Travar porta
+signal-port-description-doorbolt = Alterna a trava da porta.
 
 signal-port-name-trigger = Acionar
 signal-port-description-trigger = Aciona algum mecânismo no dispositivo.
@@ -45,6 +51,9 @@ signal-port-description-med-scanner-sender = Emissor de sinal do escâner médic
 
 signal-port-name-med-scanner-receiver = Escâner médico
 signal-port-description-med-scanner-receiver = Receptor de sinal do escâner médico
+
+signal-port-name-hold-open = Segurar
+signal-port-description-hold-open = Desativa o fechamento automático.
 
 signal-port-name-artifact-analyzer-sender = Console
 signal-port-description-artifact-analyzer-sender = Remetente do sinal do console de análise

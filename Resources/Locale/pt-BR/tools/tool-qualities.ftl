@@ -22,5 +22,8 @@ tool-quality-slicing-tool-name = Faca
 tool-quality-sawing-name = Serrar
 tool-quality-sawing-tool-name = Serra
 
+tool-quality-honking-name = Honking
+tool-quality-honking-tool-name = Bike Horn
+
 tool-quality-digging-name = Escavação
 tool-quality-digging-tool-name = Pá

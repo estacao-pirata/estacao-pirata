@@ -49,11 +49,14 @@ reagent-desc-corpium = Um coquetel Syndicate, cuidadosamente colhido de várias 
 reagent-name-uncooked-animal-proteins = uncooked animal proteins
 reagent-desc-uncooked-animal-proteins = Isso é muito arriscado para os estômagos de formas de vida mais suaves digerirem.
 
-reagent-name-allicin = allicin
+reagent-name-allicin = allicina
 reagent-desc-allicin = Um composto organossulfurado encontrado em álios, como alho, cebola e plantas relacionado.
 
 reagent-name-pax = pax
 reagent-desc-pax = Uma droga psiquiátrica que impede que o paciente machuque alguém diretamente.
+
+reagent-name-honk = honk
+reagent-desc-honk = Uma toxina encontrada no banânio. Provoca buzina grave e hemorragia interna, também pode causar mutação no paciente.
 
 reagent-name-prometheum = prometheum
 reagent-desc-prometheum = A complex superdrug our bodies could produce if we could only unlock our potential.
@@ -82,6 +85,3 @@ reagent-desc-reptilian-muta-tox = Uma droga capaz de transformar qualquer human�
 
 reagent-name-monkey-muta-tox =  toxina de mutação de macaco
 reagent-desc-monkey-muta-tox = Uma droga capaz de transformar qualquer humanóide em macaco.
-
-
-
