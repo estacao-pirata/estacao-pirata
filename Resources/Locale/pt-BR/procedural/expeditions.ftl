@@ -14,7 +14,7 @@ salvage-expedition-window-modifiers = Modificadores:
 salvage-expedition-window-loot = Saque:
 salvage-expedition-window-none = N/A
 salvage-expedition-window-claimed = Reivindicado
-salvage-expedition-window-claim = A reivindicação
+salvage-expedition-window-claim = Reivindicar
 
 salvage-expedition-window-next = Próxima oferta
 

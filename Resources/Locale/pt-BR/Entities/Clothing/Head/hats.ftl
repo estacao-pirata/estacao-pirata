@@ -13,7 +13,7 @@ ent-ClothingHeadHatBeretHoS = boina de hos
 ent-ClothingHeadHatBeretWarden = boina de carcereiro
     .desc = Uma boina corporativa com a insígnia de carcereiro.
 
-ent-ClothingHeadHatBowlerHat = chapéu de boliche
+ent-ClothingHeadHatBowlerHat = chapéu coco
     .desc = Bola não inclusa.
 
 ent-ClothingHeadHatCaptain = chapéu do capitão
