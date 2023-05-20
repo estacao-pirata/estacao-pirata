@@ -28,7 +28,7 @@
         - MobMask
         layer:
         - MobLayer
-  - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       60: Dead
@@ -51,10 +51,7 @@
     bloodReagent: DemonsBlood
     bloodMaxVolume: 100
   - type: CombatMode
-    disarmAction:
-      enabled: false
-      autoPopulate: false
-      name: action-name-disarm
+    canDisarm: false
   - type: Temperature
     heatDamageThreshold: 500
     coldDamageThreshold: 200
