@@ -190,6 +190,7 @@ flavor-complex-gin-tonic = de refrigerante lima-limão drogado
 flavor-complex-screwdriver = de suco de laranja drogado
 
 flavor-complex-themartinez = like violets and lemon vodka
+flavor-complex-antifreeze = warm
 flavor-complex-cogchamp = like brass
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 flavor-complex-pilk = de leite doce

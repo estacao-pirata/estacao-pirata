@@ -33,7 +33,7 @@ network-configurator-tooltip-set = Define a lista de dispositivos alvo
 network-configurator-tooltip-add = Adiciona para a lista de dispositivos alvo
 network-configurator-tooltip-edit = Edita a lista de dispositivos alvo
 network-configurator-tooltip-clear = Limpa a lista de dispositivos alvo
-network-configurator-tooltip-copy = Copia a lista de dispositivos alvo para a multiferramenta
+network-configurator-tooltip-copy = Copia a lista de dispositivos alvo para essa ferramenta aí na sua mão
 network-configurator-tooltip-show = Mostra uma visualização holográfica da lista de dispositivos alvo
 
 # examine
