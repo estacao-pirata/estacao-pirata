@@ -5,6 +5,9 @@ zombie-not-enough-ready-players = Jogadores prontos insuficientes! Tinham {$read
 zombie-no-one-ready = Nenhum jogador pronto! Não pode começar o modo Zumbis.
 
 zombie-patientzero-role-greeting = Você é o paciente 0. Esconda sua infecção, pegue suprimentos e esteja preparado para transformar assim que morrer.
+zombie-healing = Você sente a sua carne se agitar
+zombie-infection-warning = Você sente que o vírus zumbi toma conta
+zombie-infection-underway = Seu sangue começa a engrossar
 
 zombie-alone = Você se sente completamente sozinho.
 

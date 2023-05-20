@@ -36,6 +36,8 @@ salvage-expedition-difficulty-Hazardous = Perigosa
 salvage-expedition-difficulty-Extreme = Extrema
 
 # Runner
+salvage-expedition-not-all-present = Nem todos os expedicionários estão a bordo da nave!
+
 salvage-expedition-announcement-countdown-minutes = {$duration} minutos restantes para completar a expedição.
 salvage-expedition-announcement-countdown-seconds = {$duration} segundos restantes para completar a expedição.
 salvage-expedition-announcement-dungeon = A masmorra está localizada {$direction}.
