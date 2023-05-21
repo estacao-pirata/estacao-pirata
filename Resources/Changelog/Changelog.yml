@@ -1,24 +1,4 @@
 Entries:
-- author: PuroSlavKing
-  changes:
-  - {message: Added robust nukie drink to vending machine cola., type: Add}
-  id: 3324
-  time: '2023-04-03T06:42:37.0000000+00:00'
-- author: Whisper
-  changes:
-  - {message: Added new blood pack sprite!, type: Add}
-  id: 3325
-  time: '2023-04-03T07:50:33.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - {message: Fix shuttle airlocks., type: Fix}
-  id: 3326
-  time: '2023-04-03T18:28:27.0000000+00:00'
-- author: mirrorcult
-  changes:
-  - {message: Getting drunk should no longer cause you to bleed, type: Fix}
-  id: 3327
-  time: '2023-04-03T22:48:58.0000000+00:00'
 - author: freeman2651
   changes:
   - {message: Five hours minimum overall playtime needed for Security Cadet to become
@@ -2896,3 +2876,28 @@ Entries:
   - {message: Fix fire stacks not spreading to other players., type: Fix}
   id: 3823
   time: '2023-05-20T03:34:41.0000000+00:00'
+- author: Jackal298
+  changes:
+  - {message: the sprite of a doll with a skull bandana is now showing the skull,
+    type: Tweak}
+  id: 3824
+  time: '2023-05-20T19:46:10.0000000+00:00'
+- author: tom-leys
+  changes:
+  - {message: 'Spacing takes a short time to occur, rather than being totally instant.
+      The decompression will make you cold.', type: Add}
+  - {message: 'Ripped tiles during spacing reflect the wind that passed through that
+      area, ripped tiles tend to be concentrated around the breach.', type: Tweak}
+  id: 3825
+  time: '2023-05-20T19:53:04.0000000+00:00'
+- author: MrGreen and OctoRocket
+  changes:
+  - {message: Added a winterdrobe to store all your scarfs!, type: Add}
+  id: 3826
+  time: '2023-05-21T00:52:23.0000000+00:00'
+- author: deltanedas
+  changes:
+  - {message: The Head Curator has allowed bibles and necronomicons to be stored in
+      bookshelves and book bags., type: Tweak}
+  id: 3827
+  time: '2023-05-21T00:52:48.0000000+00:00'
