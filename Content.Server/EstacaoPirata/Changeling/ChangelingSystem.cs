@@ -336,8 +336,8 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         if (comp.DNAStrandBalance >= comp.DNAStrandCap)
         {
-            var lastHumanoidData = comp.StoredHumanoids.Last();
-            comp.StoredHumanoids.Remove(lastHumanoidData);
+            var humanoidDataToRemove = comp.StoredHumanoids.ElementAt(1);
+            comp.StoredHumanoids.Remove(humanoidDataToRemove);
             comp.StoredHumanoids.Add(tempNewHumanoid);
         }
         else
@@ -588,6 +588,8 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         if (TryComp<MindComponent>(user, out var mind) && mind.Mind != null)
             mind.Mind.TransferTo(child);
+
+        _popup.PopupEntity(Loc.GetString("changeling-transformed-successful", ("target", child)), child, child);
 
         SendToPausesMap(user, userTransform);
 
