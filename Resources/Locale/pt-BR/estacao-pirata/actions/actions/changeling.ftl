@@ -17,3 +17,5 @@ changeling-dna-obtained = Você obtém o DNA d{THE($target)}.
 changeling-dna-failed-nonHumanoid = Esta coisa não é humanoide.
 changeling-dna-failed-noDna = Esta coisa não possui DNA.
 changeling-dna-failed-impossible = Não é possível coletar o DNA disto.
+
+changeling-transformed-successful = Você se transforma n{THE($target)}.
