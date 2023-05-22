@@ -5,6 +5,8 @@ using Content.Shared.Humanoid;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Prototypes;
 using Content.Shared.Actions.ActionTypes;
+using Content.Shared.FixedPoint;
+using Robust.Shared.Serialization;
 
 namespace Content.Shared.EstacaoPirata.Changeling;
 
@@ -30,7 +32,7 @@ public sealed class ChangelingComponent : Component
     /// Starting chemicals that the changeling will have at the start, they can be spent on using abilities
     /// </summary>
     [DataField("startingChemicals")]
-    public int StartingChemicals = 10;
+    public int StartingChemicals = 20;
 
     /// <summary>
     /// Chemical regeneration rate per X seconds
@@ -66,13 +68,13 @@ public sealed class ChangelingComponent : Component
     /// Chemicals balance
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField("chemicalBalance")]
-    public int ChemicalBalance = 0;
+    public FixedPoint2 ChemicalBalance = 0;
 
     /// <summary>
     /// Points balace
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField("pointBalance")]
-    public int PointBalance = 0;
+    public FixedPoint2 PointBalance = 0;
 
 
     #endregion
@@ -82,6 +84,12 @@ public sealed class ChangelingComponent : Component
     /// </summary>
     [ViewVariables(VVAccess.ReadOnly)]
     public EntityUid? StoreImplantUid;
+
+    /// <summary>
+    /// Transformations entity uid
+    /// </summary>
+    [ViewVariables(VVAccess.ReadOnly)]
+    public EntityUid? TransformImplantUid;
 
     /// <summary>
     /// List of absorbed entities
@@ -151,7 +159,7 @@ public struct HumanoidData
 
     public string? Dna;
 
-    public EntityUid? EntityUid;
+    public EntityUid EntityUid;
 
     public List<ActionType> ActionTypes;
 }

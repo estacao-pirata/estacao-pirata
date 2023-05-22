@@ -52,3 +52,15 @@ public sealed class ChangelingFleshmendEvent : InstantActionEvent
 public sealed class ChangelingTransformEvent : InstantActionEvent
 {
 }
+
+[Serializable, NetSerializable]
+public sealed class ChangelingSelectTransformEvent : EntityEventArgs
+{
+    public readonly EntityUid Performer;
+    public readonly EntityUid Target;
+    public ChangelingSelectTransformEvent(EntityUid user, EntityUid target)
+    {
+        Performer = user;
+        Target = target;
+    }
+}

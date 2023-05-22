@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Diagnostics;
 using Content.Shared.Actions;
 using Content.Shared.Actions.ActionTypes;
 using Content.Shared.EstacaoPirata.Changeling;
@@ -14,7 +15,6 @@ using Content.Server.Mind.Components;
 using Content.Shared.Humanoid;
 using Content.Shared.Preferences;
 using Content.Server.Preferences.Managers;
-using Robust.Server.GameObjects;
 using Robust.Shared.GameObjects;
 using System.Linq;
 using Content.Server.Construction.Completions;
@@ -27,30 +27,23 @@ using Content.Shared.Roles;
 using Content.Shared.Hands.Components;
 using Content.Shared.Popups;
 using Content.Shared.Damage;
-using Content.Shared.Mobs.Systems;
-using Content.Server.Polymorph.Systems;
 using Content.Shared.FixedPoint;
-using Content.Shared.Mobs;
+using Content.Shared.Mobs.Systems;
 using Robust.Shared.Map;
-using Robust.Server.Containers;
 using Content.Shared.Store;
-using Content.Shared.Inventory;
+using Robust.Client.GameObjects;
+using Robust.Shared.Utility;
+using ContainerSystem = Robust.Server.Containers.ContainerSystem;
+using TransformSystem = Robust.Server.GameObjects.TransformSystem;
 
 namespace Content.Server.EstacaoPirata.Changeling;
 public sealed partial class ChangelingSystem : EntitySystem
 {
     //[Dependency] private readonly SharedActionsSystem _actionSystem = default!;
-    [Dependency] private readonly SharedInteractionSystem _interactionSystem = default!;
-    [Dependency] private readonly HumanoidAppearanceSystem _humanoidSystem = default!;
     [Dependency] private readonly StoreSystem _store = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;
     [Dependency] private readonly ActionsSystem _action = default!;
     [Dependency] private readonly SharedDoAfterSystem _doAfterSystem = default!;
-    [Dependency] private readonly IServerPreferencesManager _prefs = default!;
-    [Dependency] private readonly EntityManager _entMana = default!;
-    [Dependency] private readonly MetaDataSystem _metaData = default!;
-    [Dependency] private readonly UserInterfaceSystem _userInterfaceSystem = default!;
-    [Dependency] private readonly SharedImplanterSystem _implanterSystem = default!;
     [Dependency] private readonly SharedSubdermalImplantSystem _subdermalImplant = default!;
     [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
@@ -61,7 +54,6 @@ public sealed partial class ChangelingSystem : EntitySystem
     [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly TransformSystem _transform = default!;
     [Dependency] private readonly ContainerSystem _container = default!;
-
     public override void Initialize()
     {
         base.Initialize();
@@ -80,14 +72,24 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         SubscribeLocalEvent<ChangelingComponent, ChangelingDnaStingEvent>(OnDnaSting);
 
-        SubscribeLocalEvent<ChangelingComponent, ChangelingTransformEvent>(OnTransform);
+        SubscribeLocalEvent<SubdermalImplantComponent, ChangelingTransformEvent>(OnTransformImplant);
 
-        //SubscribeLocalEvent<StoreComponent, sto>(OnBuyRequest);
-
-        // Initialize abilities
+        SubscribeLocalEvent<StoreComponent, ChangelingSelectTransformEvent>(OnBoughtTransformation);
     }
 
-
+    // public override void Update(float frameTime)
+    // {
+    //     base.Update(frameTime);
+    //
+    //     foreach (var ling in EntityQuery<ChangelingComponent>())
+    //     {
+    //         if (ling.ChemicalBalance < ling.ChemicalRegenCap)
+    //         {
+    //             ChangeChemicalAmount(ling.Owner, ling.TransformImplantUid, ling.ChemicalRegenRate, ling, false, true);
+    //             //Logger.Info($"Entidade {ling.Owner} esta com {ling.ChemicalBalance} reagentes");
+    //         }
+    //     }
+    // }
 
     private void OnArmBlade(EntityUid uid, ChangelingComponent component, ChangelingArmBladeEvent args)
     {
@@ -153,6 +155,8 @@ public sealed partial class ChangelingSystem : EntitySystem
 
     private void OnStartup(EntityUid uid, ChangelingComponent component, ComponentStartup args)
     {
+        component.ChemicalBalance = component.StartingChemicals;
+        component.PointBalance = component.StartingPoints;
         //update the icon
         //ChangeEssenceAmount(uid, 0, component);
 
@@ -167,21 +171,28 @@ public sealed partial class ChangelingSystem : EntitySystem
         var coords = Transform(uid).Coordinates;
 
         var implant = Spawn("ChangelingShopImplant", coords);
-
         component.StoreImplantUid = implant;
-
         if (!TryComp<SubdermalImplantComponent>(implant, out var implantComp))
             return;
-
         _subdermalImplant.ForceImplant(uid, implant, implantComp);
-
         if (!TryComp<StoreComponent>(implant, out var storeComponent))
             return;
-
         storeComponent.Categories.Add("ChangelingAbilities");
         storeComponent.CurrencyWhitelist.Add("Points");
+        storeComponent.Balance.Add(component.StoreCurrencyName,component.PointBalance);
 
-        storeComponent.Balance.Add(component.StoreCurrencyName,component.StartingPoints);
+        // implante do menu de transformacoes
+        var transformationsImplant = Spawn("ChangelingTransformationImplant", coords);
+        component.TransformImplantUid = transformationsImplant;
+        if (!TryComp<SubdermalImplantComponent>(transformationsImplant, out var transImplantComp))
+            return;
+        _subdermalImplant.ForceImplant(uid, transformationsImplant, transImplantComp);
+        if (!TryComp<StoreComponent>(transformationsImplant, out var transformationStoreComponent))
+            return;
+        transformationStoreComponent.Categories.Add("ChangelingTransformations");
+        transformationStoreComponent.CurrencyWhitelist.Add("Chemicals");
+        transformationStoreComponent.Balance.Add(component.AbilityCurrencyName,component.ChemicalBalance);
+
 
         // TODO: colocar cooldown?
         var dnaStingAction = new EntityTargetAction(_proto.Index<EntityTargetActionPrototype>("ChangelingDnaSting"))
@@ -190,8 +201,8 @@ public sealed partial class ChangelingSystem : EntitySystem
             };
         _action.AddAction(uid, dnaStingAction, null);
 
-        var transformAction = new InstantAction(_proto.Index<InstantActionPrototype>("ChangelingTransform"));
-        _action.AddAction(uid, transformAction, null);
+        // var transformAction = new InstantAction(_proto.Index<InstantActionPrototype>("ChangelingTransform"));
+        // _action.AddAction(uid, transformAction, null);
 
         TryRegisterHumanoidData(uid, component);
 
@@ -214,29 +225,6 @@ public sealed partial class ChangelingSystem : EntitySystem
                 return;
 
         TryRegisterHumanoidData(uid, (EntityUid) args.Target,  component);
-    }
-
-    private void OnBuyRequest(EntityUid uid, StoreComponent component, StoreBuyListingMessage msg)
-    {
-        var listing = component.Listings.FirstOrDefault(x => x.Equals(msg.Listing));
-
-        if (listing == null)
-        {
-            Logger.Debug("listing does not exist");
-            return;
-        }
-
-        if (listing.ProductAction != null)
-        {
-            var action = new InstantAction(_proto.Index<InstantActionPrototype>(listing.ProductAction));
-
-            if (!TryComp<ChangelingComponent>(uid, out var changelingComponent))
-                return;
-
-            var item = changelingComponent.StoredHumanoids.Find(x => x.EntityUid == uid);
-
-            item.ActionTypes.Add(action);
-        }
     }
 
     // Acho que nao vou usar este
@@ -371,26 +359,74 @@ public sealed partial class ChangelingSystem : EntitySystem
         _popup.PopupEntity(Loc.GetString("changeling-dna-obtained", ("target", target)), user, user);
     }
 
-    private void OnTransform(EntityUid uid, ChangelingComponent component, ChangelingTransformEvent args)
+    private void OnTransformImplant(EntityUid uid, SubdermalImplantComponent component, ChangelingTransformEvent args)
     {
+        var changelingComponent = EnsureComp<ChangelingComponent>(args.Performer);
 
-        var storedHumanoids = component.StoredHumanoids;
-
-        if (storedHumanoids.Count < 1)
+        if (!TryComp<StoreComponent>(uid, out var store))
             return;
 
-        var firstHumanoid = storedHumanoids.First();
-        if (firstHumanoid.EntityUid == uid)
-            firstHumanoid = storedHumanoids.Last();
-        if (firstHumanoid.EntityUid == uid)
-            return;
+        store.Listings.Clear();
 
-        storedHumanoids.Remove(firstHumanoid);
-        //var targetAppearance = firstHumanoid.AppearanceComponent;
+        foreach (var humanoid in changelingComponent.StoredHumanoids)
+        {
+            if(humanoid.EntityUid == args.Performer)
+                continue;
 
+            Logger.Info($"Entity {args.Performer} registered {humanoid.MetaDataComponent?.EntityName}");
+            var listingData = new ListingData();
+            Debug.Assert(humanoid.MetaDataComponent != null, "humanoid.MetaDataComponent != null");
+            listingData.Name = humanoid.MetaDataComponent.EntityName;
+            //listingData.Description = humanoid.MetaDataComponent.EntityDescription;
+            //TryComp<SpriteComponent>(humanoid.EntityUid, out var spriteComponent);
+            //listingData.Icon = spriteComponent.Icon.Default;
+            listingData.Categories.Add("ChangelingTransformations");
+            var price = FixedPoint2.New(0); // mudar valor pra 5
+            listingData.Cost.Add("Chemicals",price);
+            object evento = new ChangelingSelectTransformEvent(args.Performer,humanoid.EntityUid); // TODO: fazer isso funcionar
+            listingData.ProductEvent = evento;
 
-        RetrievePausedEntity(uid, firstHumanoid, component);
+            store.Listings.Add(listingData);
+            //RaiseLocalEvent(args.Performer, evento);
+
+            //store.Listings.Add();
+        }
+        //store.Listings.Add();
+
+        _store.ToggleUi(args.Performer, uid, store);
     }
+
+    private void OnBoughtTransformation(EntityUid uid, StoreComponent component, ChangelingSelectTransformEvent args)
+    {
+        var changelingComponent = EnsureComp<ChangelingComponent>(args.Performer);
+
+        var targetHumanoid = changelingComponent.StoredHumanoids.Find(x => x.EntityUid == args.Target);
+
+        RetrievePausedEntity(args.Performer, targetHumanoid, changelingComponent);
+    }
+
+    // private void OnTransformImplant(EntityUid uid, ChangelingComponent component, ChangelingTransformEvent args)
+    // {
+    //
+    //     //_euiManager.OpenEui(new AcceptCloningEui(mind, this), client);
+    //
+    //     var storedHumanoids = component.StoredHumanoids;
+    //
+    //     if (storedHumanoids.Count < 1)
+    //         return;
+    //
+    //     var firstHumanoid = storedHumanoids.First();
+    //     if (firstHumanoid.EntityUid == uid)
+    //         firstHumanoid = storedHumanoids.Last();
+    //     if (firstHumanoid.EntityUid == uid)
+    //         return;
+    //
+    //     storedHumanoids.Remove(firstHumanoid);
+    //     //var targetAppearance = firstHumanoid.AppearanceComponent;
+    //
+    //
+    //     RetrievePausedEntity(uid, firstHumanoid, component);
+    // }
 
     // TODO: passar as actions compradas, quantia de dinheiro, itens na mao como o armblade, passar tambem o implante, sem fazer spawnar outro igual
     private EntityUid? SpawnPauseEntity(EntityUid user, HumanoidData targetHumanoid, ChangelingComponent originalChangelingComponent)
@@ -486,8 +522,8 @@ public sealed partial class ChangelingSystem : EntitySystem
     {
         var childNullable = targetHumanoid.EntityUid;
 
-        if (childNullable == null)
-            return;
+        // if (childNullable == null)
+        //     return;
 
         var child = (EntityUid) childNullable;
 
@@ -616,5 +652,37 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         _transform.SetParent(uid, transform, PausedMap.Value);
         Logger.Info($"Entidade {uid} spawnada e enviada para o mapa de pause {PausedMap.Value}");
+    }
+
+    public bool ChangeChemicalAmount(EntityUid uid, EntityUid? transformationImplant, FixedPoint2 amount, ChangelingComponent? component = null, bool allowDeath = true, bool regenCap = false)
+    {
+        if (!Resolve(uid, ref component))
+            return false;
+
+        if (transformationImplant == null)
+            return false;
+
+        if (!allowDeath && component.ChemicalBalance + amount <= 0)
+            return false;
+
+        component.ChemicalBalance += amount;
+
+        if (regenCap)
+            FixedPoint2.Min(component.ChemicalBalance, component.ChemicalRegenCap);
+
+        if (TryComp<StoreComponent>(transformationImplant, out var store))
+        {
+            //store.Balance.Add("Chemicals", component.ChemicalBalance);
+            _store.UpdateUserInterface(uid, (EntityUid) transformationImplant, store);
+        }
+
+
+        //_alerts.ShowAlert(uid, AlertType.Essence, (short) Math.Clamp(Math.Round(component.Essence.Float() / 10f), 0, 16));
+
+        // if (component.ChemicalBalance <= 0)
+        // {
+        //     QueueDel(uid);
+        // }
+        return true;
     }
 }
