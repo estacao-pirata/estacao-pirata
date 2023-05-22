@@ -171,7 +171,7 @@ public sealed partial class StoreSystem
         //broadcast event
         if (listing.ProductEvent != null)
         {
-            RaiseLocalEvent(listing.ProductEvent);
+            RaiseLocalEvent(uid, listing.ProductEvent, true);
         }
 
         //log dat shit.

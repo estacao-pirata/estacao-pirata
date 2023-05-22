@@ -96,7 +96,7 @@ public class ListingData : IEquatable<ListingData>, ICloneable
             Description != listing.Description ||
             ProductEntity != listing.ProductEntity ||
             ProductAction != listing.ProductAction ||
-            ProductEvent != listing.ProductEvent)
+            ProductEvent?.ToString() != listing.ProductEvent?.ToString())
             return false;
 
         if (Icon != null && !Icon.Equals(listing.Icon))
