@@ -46,15 +46,15 @@ jobs:
         target: "/var/www/html/builds/"
         strip_components: 1
 
-    - name: Update manifest JSON
-      uses: appleboy/ssh-action@master
-      with:
-        host: 152.67.46.236
-        username: ubuntu
-        key : ${{ secrets.CENTCOMM_KEY }}
-        script: node ~/wizards-build-push/builds_dir/push.js ${{ github.sha }}
-    - name: Publish changelog
-      run: Tools/actions_changelogs_since_last_run.py
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
+    # - name: Update manifest JSON
+    #   uses: appleboy/ssh-action@master
+    #   with:
+    #     host: 152.67.46.236
+    #     username: ubuntu
+    #     key : ${{ secrets.CENTCOMM_KEY }}
+    #     script: node ~/wizards-build-push/builds_dir/push.js ${{ github.sha }}
+    # - name: Publish changelog
+    #   run: Tools/actions_changelogs_since_last_run.py
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #     DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
