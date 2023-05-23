@@ -30,14 +30,13 @@ public sealed class DiskConsoleSystem : EntitySystem
     {
         base.Update(frameTime);
 
-        var query = EntityQueryEnumerator<DiskConsolePrintingComponent, DiskConsoleComponent, TransformComponent>();
-        while (query.MoveNext(out var uid, out var printing, out var console, out var xform))
+        foreach (var (printing, console, xform) in EntityQuery<DiskConsolePrintingComponent, DiskConsoleComponent, TransformComponent>())
         {
             if (printing.FinishTime > _timing.CurTime)
                 continue;
 
-            RemComp(uid, printing);
-            Spawn(console.DiskPrototype, xform.Coordinates);
+            RemComp(printing.Owner, printing);
+            EntityManager.SpawnEntity(console.DiskPrototype, xform.Coordinates);
         }
     }
 

@@ -7,27 +7,15 @@ namespace Content.Server.Research.TechnologyDisk.Components;
 [RegisterComponent]
 public sealed class DiskConsoleComponent : Component
 {
-    /// <summary>
-    /// How much it costs to print a disk
-    /// </summary>
     [DataField("pricePerDisk"), ViewVariables(VVAccess.ReadWrite)]
-    public int PricePerDisk = 1000;
+    public int PricePerDisk = 2500;
 
-    /// <summary>
-    /// The prototype of what's being printed
-    /// </summary>
-    [DataField("diskPrototype", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>)), ViewVariables(VVAccess.ReadWrite)]
+    [DataField("diskPrototype", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
     public string DiskPrototype = "TechnologyDisk";
 
-    /// <summary>
-    /// How long it takes to print <see cref="DiskPrototype"/>
-    /// </summary>
-    [DataField("printDuration"), ViewVariables(VVAccess.ReadWrite)]
+    [DataField("printDuration")]
     public TimeSpan PrintDuration = TimeSpan.FromSeconds(1);
 
-    /// <summary>
-    /// The sound made when printing occurs
-    /// </summary>
     [DataField("printSound")]
     public SoundSpecifier PrintSound = new SoundPathSpecifier("/Audio/Machines/printer.ogg");
 }
