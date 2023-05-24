@@ -195,6 +195,9 @@
       - id: MaterialBiomass
         amount: 3
       - id: BoxEncryptionKeyMedical
+      - id: CloningPodMachineCircuitboard
+      - id: CloningConsoleComputerCircuitboard
+      - id: MedicalScannerMachineCircuitboard
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -223,6 +226,9 @@
       - id: MaterialBiomass
         amount: 3
       - id: BoxEncryptionKeyMedical
+      - id: CloningPodMachineCircuitboard
+      - id: CloningConsoleComputerCircuitboard
+      - id: MedicalScannerMachineCircuitboard
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
