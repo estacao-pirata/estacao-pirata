@@ -54,3 +54,23 @@
         - !type:AdjustReagent
           reagent: Ethanol
           amount: 0.15
+
+- type: reagent
+  id: Corote
+  name: reagent-name-corote
+  parent: BaseAlcohol
+  desc: reagent-desc-corote
+  physicalDesc: reagent-physical-desc-strong-smelling
+  flavor: corote
+  color: "#E1E3DC"
+  metamorphicSprite:
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/coroteglass.rsi
+    state: icon
+  metabolisms:
+    Drink:
+      effects:
+        - !type:SatiateThirst
+          factor: 3
+        - !type:AdjustReagent
+          reagent: Ethanol
+          amount: 0.6
