@@ -9,7 +9,7 @@
       layers:
         - map: ["enum.DamageStateVisualLayers.Base"]
           state: running
-    - type: MobState
+    - type: MobThresholds
       thresholds:
         0: Alive
         350: Critical
@@ -21,7 +21,8 @@
       bloodReagent: Slime
     - type: Fixtures
       fixtures:
-        - shape: !type:PhysShapeCircle
+        fix1:
+          shape: !type:PhysShapeCircle
             radius: 0.35
           density: 200
           mask:
