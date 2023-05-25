@@ -50,4 +50,4 @@ research-technology-advanced-cleaning = Limpeza Advançada
 research-technology-meat-manipulation = Manipulação de Carne
 research-technology-honk-mech = Meca H.O.N.K.
 research-technology-advanced-spray = Spray Avançado
-
+research-technology-bluespace-cargo-transport = Bluespace Transporte de Cargas

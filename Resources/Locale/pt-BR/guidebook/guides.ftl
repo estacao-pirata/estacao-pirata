@@ -12,8 +12,10 @@ guide-entry-singularity = Singularidade
 guide-entry-controls = Controles
 guide-entry-radio = Radio
 guide-entry-jobs = Trabalhos
+guide-entry-salvage = Salvamento
 guide-entry-survival = Sobrevivência
 guide-entry-ss14 = Space Station 14
+guide-entry-janitorial = Zeladoria
 
 guide-entry-science = Ciência
 guide-entry-anomalous-research = Pesquisa anômala

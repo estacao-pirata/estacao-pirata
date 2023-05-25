@@ -21,3 +21,4 @@ fibers-orange = laranja
 fibers-white = branco
 fibers-yellow = amarelo
 fibers-regal-blue = azul forte
+fibers-olive = verde-oliva
