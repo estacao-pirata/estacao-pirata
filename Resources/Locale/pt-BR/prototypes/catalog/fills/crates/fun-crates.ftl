@@ -40,5 +40,11 @@ ent-CrateFunLightImplants = Implantes de Lâmpada
 ent-CrateFunParty = Caixa de festa
     .desc = Uma festa inteira apenas esperando você desembrulhar. Inclui favores do partido, bebidas de festa e até mesmo um bolo.
 
+ent-CrateFunWaterGuns = Caixa de pistola de água
+    .desc = Um especial de verão com uma variedade de pistolas de água de cores vivas. Água não incluída.
+
 ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
     .desc = Para dar fuga na segurança.
+
+ent-CrateFunBoxing = Caixa de boxe
+    .desc = Quer criar um clube de luta clandestino ou hospedar um torneio entre a equipe da estação? Esta caixa é para você!

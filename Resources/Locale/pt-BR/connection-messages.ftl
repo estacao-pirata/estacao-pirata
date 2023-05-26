@@ -23,6 +23,7 @@ ban-banned-1 = Você ou outro usuário desse computador ou conexão estão banid
 ban-banned-2 = O motivo do ban é: "{$reason}"
 ban-banned-3 = Tentativas de contornar o ban tal como criar uma conta nova serão registradas.
 
+
 soft-player-cap-full = O servidor está cheio!
 panic-bunker-account-denied = Este servidor está em modo Pânico e você foi rejeitado. Entre em contato com o administrador do servidor para obter ajuda.
 panic-bunker-account-denied-reason = Este servidor está em modo Pânico e você foi rejeitado. Razão: "{$reason}"
