@@ -310,6 +310,7 @@
       - StasisBedMachineCircuitboard
       - MaterialReclaimerMachineCircuitboard
       - OreProcessorMachineCircuitboard
+      - CargoTelepadMachineCircuitboard
       - RipleyCentralElectronics
       - RipleyPeripheralsElectronics
       - HonkerCentralElectronics
