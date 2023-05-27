@@ -55,3 +55,27 @@
       changeColor: false
       maxFillLevels: 1
       fillBaseName: icon-
+
+- type: entity
+  parent: DrinkPlasticBottleBaseFull
+  id: DrinkCoroteBottleFull
+  name: corote
+  description: Introduzindo adolescentes ao alcoolismo desde 1958
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 40
+        reagents:
+          - ReagentId: Corote
+            Quantity: 40
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/corote.rsi
+    layers:
+      - state: corote
+        map: [ "enum.DamageStateVisualLayers.Base" ]
+      - state: corote-tamparotulo
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          corote: Corotesabores

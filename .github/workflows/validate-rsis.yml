@@ -2,7 +2,7 @@ name: RSI Validator
 
 on:
   push:
-    branches: [ staging, trying, merge_master, pirata, changeling ]
+    branches: [ staging, trying, merge_master, pirata, changeling, nyanopirata, parkpirata ]
   merge_group:
   pull_request:
     paths:

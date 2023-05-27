@@ -14,3 +14,20 @@
     - type: Drink
     - type: Sprite
       sprite: EstacaoPirata/Objects/Consumable/Drinks/caipirinhaglass.rsi
+
+- type: entity
+  parent: DrinkGlassBase
+  id: DrinkCoroteGlass
+  name: corote glass
+  description: Medbay te aguarda.
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 30
+          reagents:
+            - ReagentId: Corote
+              Quantity: 30
+    - type: Drink
+    - type: Sprite
+      sprite: EstacaoPirata/Objects/Consumable/Drinks/coroteglass.rsi
