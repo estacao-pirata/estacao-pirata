@@ -35,6 +35,6 @@
 - type: weightedRandom
   id: TechDiskTierWeights
   weights:
-    1: 25
-    2: 10
+    1: 9
+    2: 3
     3: 1
