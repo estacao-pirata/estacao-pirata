@@ -20,7 +20,10 @@ uplink-edagger-desc = Uma pequena lâmina de energia convenientemente disfarçad
 uplink-fire-axe-flaming-name = Machado de Fogo
 uplink-fire-axe-flaming-desc = Uma arma de estilo clássico infundida com avançada tecnologia de atmos para permitir que ela incendeie alvos.
 
-# Explosives
+uplink-gloves-north-star-name = Luvas da Estrela do Norte
+uplink-gloves-north-star-desc = Um par de luvas que reduz drasticamente o tempo de espera do soco, permitindo que você espanque as pessoas até a morte em uma rajada de socos.
+
+# Explosive
 uplink-explosive-grenade-name = Granada explosiva
 uplink-explosive-grenade-desc = Granada que cria uma explosão pequena, mas devastadora.
 
@@ -93,12 +96,12 @@ uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz d
 uplink-voice-mask-name = Máscara de Voz
 uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para quem quer que possa pensar. Também utiliza tecnologia camaleão de ponta.
 
+uplink-radio-jammer-name = Bloqueador de rádio
+uplink-radio-jammer-desc = Este dispositivo interromperá qualquer comunicação de rádio de saída próxima quando ativado.
+
 # Implants
 uplink-storage-implanter-name = Implanter de Armazenamento
 uplink-storage-implanter-desc = Esconda as paradas dentro de si com a nova tecnologia bluespace!
-
-uplink-radio-jammer-name = Bloqueador de Rádio
-uplink-radio-jammer-desc = Este dispositivo interromperá qualquer tentativa de transmitir rádio nas redondezas quando ativado.
 
 uplink-freedom-implanter-name = Implanter de Liberdade
 uplink-freedom-implanter-desc = Livre-se desses oficiais da seg desagradávis com este implante de três usos!
@@ -258,4 +261,10 @@ uplink-operative-skirt-desc = Uma saia dada aos nossos agentes nucleares com tec
 
 uplink-balloon-name = Syndie Balloon
 uplink-balloon-desc = Dado às bravas almas dos que sobreviveram ao passeio "ciclone atômico" em Syndieland.
+
+uplink-scarf-syndie-red-name = lenço vermelho sindicato listrado
+uplink-scarf-syndie-red-desc = Um cachecol listrado vermelho estiloso. O acessório de inverno perfeito para quem tem um senso de moda aguçado e quem está com vontade de roubar alguma coisa.
+
+uplink-scarf-syndie-green-name = cachecol listrado verde sindicato
+uplink-scarf-syndie-green-desc = Um elegante cachecol listrado verde sindicato. O acessório de inverno perfeito para quem tem um senso de moda aguçado e quem está com vontade de roubar alguma coisa.
 
