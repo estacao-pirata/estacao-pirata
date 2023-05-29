@@ -34,6 +34,7 @@ research-technology-basic-xenoarcheology = XenoArqueologia Básica
 research-technology-alternative-research = Pesquisa Alternativa
 research-technology-magnets-tech = Imãs
 research-technology-advanced-parts = Partes Advançadas
+research-technology-grappling = Agarrar
 research-technology-abnormal-artifact-manipulation = Manipulação de Artefatos Anômalos
 research-technology-gravity-manipulation = Manipulação de Gravidade
 research-technology-mobile-anomaly-tech = Tecnologia Móvel de Anomalia
