@@ -7,4 +7,4 @@ role-timer-role-too-high = Você precisa de menos {TOSTRING($time, "0")} minutos
 
 role-timer-locked = Trancado (passe o mouse para mais detalhes)
 
-role-ban = You have been banned from this role.
+role-ban = Você foi banido desta função.
