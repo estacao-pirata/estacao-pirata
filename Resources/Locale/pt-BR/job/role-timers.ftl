@@ -6,3 +6,5 @@ role-timer-role-insufficient = Você precisa de mais {TOSTRING($time, "0")} minu
 role-timer-role-too-high = Você precisa de menos {TOSTRING($time, "0")} minutos como {$job} para jogar nessa função. (Você está tentando desempenhar um papel de trainee?)
 
 role-timer-locked = Trancado (passe o mouse para mais detalhes)
+
+role-ban = Você foi banido desta função.
