@@ -243,6 +243,7 @@
       - HolofanProjector
       - WeaponForceGun
       - WeaponTetherGun
+      - WeaponGrapplingGun
       - ClothingBackpackHolding
       - ClothingBackpackSatchelHolding
       - ClothingBackpackDuffelHolding
@@ -310,6 +311,7 @@
       - StasisBedMachineCircuitboard
       - MaterialReclaimerMachineCircuitboard
       - OreProcessorMachineCircuitboard
+      - CargoTelepadMachineCircuitboard
       - RipleyCentralElectronics
       - RipleyPeripheralsElectronics
       - HonkerCentralElectronics

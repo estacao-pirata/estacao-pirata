@@ -34,6 +34,7 @@ research-technology-basic-xenoarcheology = XenoArqueologia Básica
 research-technology-alternative-research = Pesquisa Alternativa
 research-technology-magnets-tech = Imãs
 research-technology-advanced-parts = Partes Advançadas
+research-technology-grappling = Agarrar
 research-technology-abnormal-artifact-manipulation = Manipulação de Artefatos Anômalos
 research-technology-gravity-manipulation = Manipulação de Gravidade
 research-technology-mobile-anomaly-tech = Tecnologia Móvel de Anomalia
@@ -50,4 +51,4 @@ research-technology-advanced-cleaning = Limpeza Advançada
 research-technology-meat-manipulation = Manipulação de Carne
 research-technology-honk-mech = Meca H.O.N.K.
 research-technology-advanced-spray = Spray Avançado
-
+research-technology-bluespace-cargo-transport = Bluespace Transporte de Cargas
