@@ -60,3 +60,12 @@ signal-port-description-artifact-analyzer-sender = Remetente do sinal do console
 
 signal-port-name-artifact-analyzer-receiver = Pad
 signal-port-description-artifact-analyzer-receiver = Receptor de sinal do analisador de artefatos
+
+signal-port-name-set-particle-delta = Definir tipo de partícula: delta
+signal-port-description-set-particle-delta = Define o tipo de partícula que este dispositivo emite para delta.
+
+signal-port-name-set-particle-epsilon = Definir tipo de partícula: epsilon
+signal-port-description-set-particle-epsilon = Define o tipo de partícula que este dispositivo emite para epsilon.
+
+signal-port-name-set-particle-zeta = Definir tipo de partícula: zeta
+signal-port-description-set-particle-zeta = Define o tipo de partícula que este dispositivo emite para zeta.
