@@ -41,6 +41,7 @@
   - Quartermaster
   - Research
   - Detective
+  - Armory
   - Salvage
   - Security
   - Brig
@@ -48,6 +49,7 @@
   - Atmospherics
   - Cargo
   - Medical
+
 
 - type: startingGear
   id: HoPGear
