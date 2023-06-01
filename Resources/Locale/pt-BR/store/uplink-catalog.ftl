@@ -226,7 +226,7 @@ uplink-stimkit-name = Stimkit
 uplink-stimkit-desc = Um medkit contendo 6 microinjetores estimulantes, que cada um injeta em estimulantes suficientes para durar um minuto.
 
 uplink-experimental-stimpack-name = Stimpack Experimental
-uplink-experimental-stimpack-desc = Uma versão protótipo do Stimpack retirada do mercado devido a efeitos colaterais extremos. Os efeitos incluem virtual imunidade a atordoamentos, velocidade de movimento massivamente aumentada e regeneração rápida dos tecidos, mas o produto químico o envenenará constantemente enquanto estiver na corrente sanguínea.
+uplink-experimental-stimpack-desc = Um stimpack altamente instável e tóxico, use por sua conta e risco. Os efeitos incluem imunidade virtual a atordoamentos, velocidade de movimento massivamente aumentada e rápida regeneração de tecidos, mas o produto químico irá envenená-lo constantemente enquanto estiver em sua corrente sanguínea.
 
 uplink-syndicate-segway-crate-name = Segway do Sindicato
 uplink-syndicate-segway-crate-desc = Seja um inimigo da corporação, com estilo!
