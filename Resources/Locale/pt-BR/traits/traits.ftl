@@ -19,3 +19,6 @@ trait-muted-desc = Você não pode falar
 
 trait-paracusia-name = Paracusia
 trait-paracusia-desc = Você ouve sons que não estão realmente ali
+
+trait-uncloneable-name = Não clonável
+trait-uncloneable-desc = Não pode ser clonado
