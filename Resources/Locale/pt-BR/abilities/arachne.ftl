@@ -10,5 +10,4 @@ cocoon-start-second-person = Você começa a encasular {THE($target)}.
 cocoon-start-third-person = {CAPITALIZE(THE($spider))} começa a encasular {THE($target)}.
 spun-web-second-person = Você cria uma teia.
 spun-web-third-person = {CAPITALIZE(THE($spider))} cria uma teia!
-rest-on-web = Descanse na teia
 cocoon = Casulo

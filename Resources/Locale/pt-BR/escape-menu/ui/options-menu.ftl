@@ -14,15 +14,14 @@ ui-options-default = Padrão
 
 ui-options-master-volume = Volume Geral:
 ui-options-midi-volume = Volume MIDI (Instrumento):
-ui-options-ambience-volume = Volume Ambiente:
+ui-options-ambient-music-volume = Volume da música ambiente:
+ui-options-ambience-volume = Volume de Ambiance:
 ui-options-lobby-volume = Lobby & Round-end volume:
 ui-options-ambience-max-sounds = Ambience simultaneous sounds:
 ui-options-lobby-music = Musica no Lobby & Fim do Round
 ui-options-restart-sounds = Round Restart Sounds
 ui-options-event-music = Música de Evento
 ui-options-admin-sounds = Tocar Som de Admin
-ui-options-station-ambience = Música ambiente da Estação
-ui-options-space-ambience = Música ambiente do Espaço
 ui-options-volume-label = Volume
 ui-options-volume-percent = { TOSTRING($volume, "P0") }
 
