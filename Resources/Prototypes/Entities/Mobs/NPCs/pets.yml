@@ -309,40 +309,6 @@
   parent: MobSloth
   id: MobPaperwork
   description: Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
-  components:
-  - type: Sprite
-    drawdepth: Mobs
-    sprite: Mobs/Pets/paperwork.rsi
-    layers:
-    - map: ["enum.DamageStateVisualLayers.Base"]
-      state: paperwork
-  - type: Appearance
-  - type: DamageStateVisuals
-    states:
-      Alive:
-        Base: paperwork
-      Critical:
-        Base: paperwork_dead
-      Dead:
-        Base: paperwork_dead
-  - type: Butcherable
-    spawned:
-    - id: FoodMeat
-      amount: 3
-  - type: InteractionPopup
-    successChance: 1
-    interactSuccessString: petting-success-sloth
-    interactFailureString: petting-failure-sloth
-  - type: Grammar
-    attributes:
-      proper: true
-      gender: male
-  - type: Faction
-    factions:
-    - Pet
-  - type: Tag
-    tags:
-    - CannotSuicide
 
 - type: entity
   name: Walter

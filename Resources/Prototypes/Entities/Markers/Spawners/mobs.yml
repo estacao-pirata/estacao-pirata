@@ -189,9 +189,6 @@
     layers:
       - state: green
       - state: ai
-  - type: ConditionalSpawner
-    prototypes:
-      - MobPaperwork
 
 - type: entity
   name: Walter Spawner
