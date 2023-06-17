@@ -310,7 +310,7 @@ namespace Content.Server.Cargo.Systems
             return TryAddOrder(component, order);
         }
 
-        private bool TryAddOrder(StationCargoOrderDatabaseComponent component, CargoOrderData data)
+        public bool TryAddOrder(StationCargoOrderDatabaseComponent component, CargoOrderData data)
         {
             component.Orders.Add(data);
             UpdateOrders(component);
@@ -400,7 +400,7 @@ namespace Content.Server.Cargo.Systems
             return false;
         }
 
-        private void DeductFunds(StationBankAccountComponent component, int amount)
+        public void DeductFunds(StationBankAccountComponent component, int amount)
         {
             component.Balance = Math.Max(0, component.Balance - amount);
             Dirty(component);
