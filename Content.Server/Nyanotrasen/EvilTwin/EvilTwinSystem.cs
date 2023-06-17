@@ -10,7 +10,6 @@ using Content.Server.Mind.Components;
 using Content.Server.DetailExaminable;
 using Content.Server.Players;
 using Content.Server.Spawners.Components;
-using Content.Server.Psionics;
 using Content.Server.Jobs;
 using Content.Server.Traitor;
 using Content.Server.Objectives;
@@ -160,9 +159,6 @@ namespace Content.Server.EvilTwin
                 var candUid = candidate.Item1.Owner;
 
                 if (candidate.Item2.Mind?.CurrentJob == null)
-                    continue;
-
-                if (HasComp<MetempsychosisKarmaComponent>(candUid))
                     continue;
 
                 if (HasComp<FugitiveComponent>(candUid) || HasComp<EvilTwinComponent>(candUid) || HasComp<NukeOperativeComponent>(candUid))

@@ -1,10 +1,8 @@
 using Content.Shared.Actions;
 using Content.Shared.Actions.ActionTypes;
 using Content.Shared.CombatMode.Pacification;
-using Content.Shared.Abilities.Psionics;
 using Content.Shared.Damage;
 using Content.Shared.Stunnable;
-using Content.Server.Psionics;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
