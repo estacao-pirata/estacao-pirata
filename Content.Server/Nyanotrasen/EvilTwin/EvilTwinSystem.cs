@@ -35,7 +35,6 @@ namespace Content.Server.EvilTwin
         [Dependency] private readonly StationSpawningSystem _stationSpawningSystem = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
         [Dependency] private readonly HumanoidAppearanceSystem _humanoidSystem = default!;
-        [Dependency] private readonly PsionicsSystem _psionicsSystem = default!;
         [Dependency] private readonly IRobustRandom _random = default!;
         [Dependency] private readonly IServerPreferencesManager _prefs = default!;
 
@@ -225,9 +224,6 @@ namespace Content.Server.EvilTwin
 
                 var twin = EnsureComp<EvilTwinComponent>(uid);
                 twin.TwinMind = candidate.Item2.Mind;
-
-                var psi = EnsureComp<PotentialPsionicComponent>(uid);
-                _psionicsSystem.RollPsionics(uid, psi, false, 100);
 
                 return uid;
             }
