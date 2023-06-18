@@ -30,6 +30,12 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<string> RulesHeader =
             CVarDef.Create("server.rules_header", "ui-rules-header", CVar.REPLICATED | CVar.SERVER);
 
+        /// <summary>
+        ////    A txt file containing other servers that we're happy redialing to.
+        /// </summary>
+        public static readonly CVarDef<string> RedialAddressesFile =
+            CVarDef.Create("server.redial_addresses", "RedialAddresses.txt", CVar.REPLICATED | CVar.SERVER);
+
         /*
          * Ambience
          */
@@ -283,6 +289,12 @@ namespace Content.Shared.CCVar
 #endif
 
         /*
+         * Damage
+         */
+        public static readonly CVarDef<float> DamageVariance =
+            CVarDef.Create("damage.variance", 0.15f, CVar.SERVER | CVar.REPLICATED);
+
+        /*
          * Discord
          */
 
@@ -305,6 +317,24 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<string> DiscordAHelpAvatar =
             CVarDef.Create("discord.ahelp_avatar", string.Empty, CVar.SERVERONLY);
 
+        /// <summary>
+        ///     URL of the Discord webhook which will send round status notifications.
+        /// </summary>
+        public static readonly CVarDef<string> DiscordRoundWebhook =
+            CVarDef.Create("discord.round_webhook", string.Empty, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Discord ID of role which will be pinged on new round start message.
+        /// </summary>
+        public static readonly CVarDef<string> DiscordRoundRoleId =
+            CVarDef.Create("discord.round_roleid", string.Empty, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Send notifications only about a new round begins.
+        /// </summary>
+        public static readonly CVarDef<bool> DiscordRoundStartOnly =
+            CVarDef.Create("discord.round_start_only", false, CVar.SERVERONLY);
+
         /*
          * Suspicion
          */
@@ -323,6 +353,16 @@ namespace Content.Shared.CCVar
 
         public static readonly CVarDef<int> SuspicionMaxTimeSeconds =
             CVarDef.Create("suspicion.max_time_seconds", 300);
+
+
+        /*
+         * Survival
+         */
+        /// <summary>
+        /// Survival mode goal, in minutes.
+        /// </summary>
+        public static readonly CVarDef<int>
+            SurvivalGoal = CVarDef.Create("survival.goal_time", 120, CVar.ARCHIVE | CVar.SERVERONLY);
 
         /*
          * Traitor
@@ -949,7 +989,7 @@ namespace Content.Shared.CCVar
         ///     Controls whether the server will deny any players that are not whitelisted in the DB.
         /// </summary>
         public static readonly CVarDef<bool> WhitelistEnabled =
-            CVarDef.Create("whitelist.enabled", false, CVar.SERVERONLY);
+            CVarDef.Create("whitelist.enabled", false, CVar.REPLICATED);
 
         /// <summary>
         ///     The loc string to display as a disconnect reason when someone is not whitelisted.
@@ -1088,7 +1128,7 @@ namespace Content.Shared.CCVar
         /// Cooldown between arrivals departures. This should be longer than the FTL time or it will double cycle.
         /// </summary>
         public static readonly CVarDef<float> ArrivalsCooldown =
-            CVarDef.Create("shuttle.arrivals_cooldown", 50f, CVar.SERVERONLY);
+            CVarDef.Create("shuttle.arrivals_cooldown", 90f, CVar.SERVERONLY);
 
         /// <summary>
         /// Are players allowed to return on the arrivals shuttle.
@@ -1097,8 +1137,20 @@ namespace Content.Shared.CCVar
             CVarDef.Create("shuttle.arrivals_returns", false, CVar.SERVERONLY);
 
         /// <summary>
+        /// Whether cargo shuttles are enabled.
+        /// </summary>
+        public static readonly CVarDef<bool> CargoShuttles =
+            CVarDef.Create("shuttle.cargo", true, CVar.SERVERONLY);
+
+        /// <summary>
         /// Whether to automatically spawn escape shuttles.
         /// </summary>
+
+        /// <summary>
+        /// Whether the Shipyard is enabled.
+        /// </summary>
+        public static readonly CVarDef<bool> Shipyard =
+            CVarDef.Create("shuttle.shipyard", true, CVar.SERVERONLY);
         public static readonly CVarDef<bool> GridFill =
             CVarDef.Create("shuttle.grid_fill", true, CVar.SERVERONLY);
 
