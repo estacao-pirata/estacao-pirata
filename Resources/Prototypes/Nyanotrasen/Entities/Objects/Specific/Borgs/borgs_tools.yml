@@ -1,0 +1,271 @@
+- type: entity
+  parent: PowerCellMedium
+  id: PowerCellRobotTool
+  name: robot tool power cell
+  description: A small cell that self recharges. Used in robot tools.
+  noSpawn: true
+  components:
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 4
+
+- type: entity
+  parent: BaseItem
+  id: HyposprayBorgStandard
+  name: epinephrine hypospray
+  description: A sterile injector for rapid administration of drugs to patients. It slowly regenerates epinephrine.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/hypospray.rsi
+    state: hypo
+  - type: Item
+    sprite: Objects/Specific/Medical/hypospray.rsi
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 30
+  - type: SolutionRegeneration
+    solution: hypospray
+    generated:
+      reagents:
+        - ReagentId: Epinephrine
+          Quantity: 1
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    pierceArmor: true
+
+- type: entity
+  parent: HyposprayBorgStandard
+  id: HyposprayBorgMedical
+  name: medical robot hypospray
+  description: A sterile injector for rapid administration of drugs to patients. This one can switch through several reagents.
+  noSpawn: true
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 15
+  - type: SolutionRegeneration
+    solution: hypospray
+    generated:
+      reagents:
+        - ReagentId: Epinephrine
+          Quantity: 1
+  - type: SolutionRegenerationSwitcher
+    options:
+      - reagents:
+        - ReagentId: Epinephrine
+          Quantity: 1
+      - reagents:
+        - ReagentId: Tricordrazine
+          Quantity: 1
+      - reagents:
+        - ReagentId: Dylovene
+          Quantity: 1
+      - reagents:
+        - ReagentId: Bicaridine
+          Quantity: 1
+      - reagents:
+        - ReagentId: Kelotane
+          Quantity: 1
+
+- type: entity
+  parent: HoloprojectorEngineering
+  id: HoloprojectorEngineeringBorg
+  name: engineering holoprojector
+  description: Displays a warning sign.
+  noSpawn: true
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellRobotTool
+        locked: true
+
+- type: entity
+  parent: HandheldHealthAnalyzer
+  id: HandheldHealthAnalyzerBorg
+  name: health analyzer
+  description: A hand-held body scanner that runs off of your own power cells, capable of distinguishing vital signs of the subject.
+  noSpawn: true
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellRobotTool
+        locked: true
+
+- type: entity
+  parent: HandheldCrewMonitor
+  id: HandheldCrewMonitorBorg
+  name: handheld crew monitor
+  description: A hand-held crew monitor that runs off of your own power cells, which displays the status of the crew suit sensors.
+  noSpawn: true
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellRobotTool
+        locked: true
+
+- type: entity
+  parent: BaseItem
+  id: StackHolderSteel
+  name: steel sheet holder
+  description: Holds steel sheets inside this borg.
+  components:
+  - type: ItemSlots
+    slots:
+      stack_slot:
+        name: steel stack
+        startingItem: SheetSteel
+        whitelist:
+          tags:
+          - SheetSteel
+  - type: StackHolder
+  - type: Sprite
+    netsync: false
+    sprite: Objects/Materials/Sheets/metal.rsi
+    state: steel
+  - type: ContainerContainer
+    containers:
+      stack_slot: !type:ContainerSlot
+
+- type: entity
+  parent: BaseItem
+  id: StackHolderHealingItem
+  name: healing item holder
+  description: Holds healing items inside this borg
+  components:
+  - type: ItemSlots
+    slots:
+      stack_slot:
+        name: healing item
+        startingItem: Brutepack
+        whitelist:
+          tags:
+          - Brutepack
+          - Ointment
+          - Gauze
+  - type: StackHolder
+  - type: Sprite
+    netsync: false
+    sprite: Objects/Specific/Medical/medical.rsi
+    state: brutepack
+  - type: ContainerContainer
+    containers:
+      stack_slot: !type:ContainerSlot
+
+
+- type: entity
+  parent: BaseItem
+  id: StackHolderFloorTile
+  name: floor tile holder
+  description: Holds floor tiles inside this borg.
+  components:
+  - type: ItemSlots
+    slots:
+      stack_slot:
+        name: floor tile stack
+        startingItem: FloorTileItemSteelFull
+        whitelist:
+          components:
+          - FloorTile
+  - type: StackHolder
+  - type: Sprite
+    netsync: false
+    sprite: Objects/Tiles/tile.rsi
+    state: steel
+  - type: ContainerContainer
+    containers:
+      stack_slot: !type:ContainerSlot
+
+- type: entity
+  parent: BaseItem
+  id: StackHolderCable
+  name: cable holder
+  description: Holds cables inside this borg.
+  components:
+  - type: ItemSlots
+    slots:
+      stack_slot:
+        name: cable stack
+        startingItem: CableApcStack
+        whitelist:
+          components:
+          - CablePlacer
+  - type: StackHolder
+  - type: Sprite
+    netsync: false
+    sprite: Objects/Tools/cable-coils.rsi
+    state: coillv-30
+  - type: ContainerContainer
+    containers:
+      stack_slot: !type:ContainerSlot
+
+- type: entity
+  parent: PartRodMetal
+  id: PartRodMetalInfinite
+  suffix: Infinite
+  components:
+  - type: Stack
+    unlimited: true
+
+- type: entity
+  parent: BaseItem
+  id: BorgToolStandard
+  name: borg tool
+  description: Alternates between prying and anchoring.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/omnitool.rsi
+    state: omnitool-screwing
+  - type: Item
+    sprite: Objects/Tools/omnitool.rsi
+    size: 20
+  - type: TilePrying
+  - type: Tool
+    useSound: !type:SoundPathSpecifier
+      path: /Audio/Items/jaws_pry.ogg
+    qualities:
+      - Prying
+  - type: MultipleTool
+    statusShowBehavior: true
+    entries:
+      - behavior: Prying
+        sprite:
+          sprite: Objects/Tools/omnitool.rsi
+          state: omnitool-prying
+        useSound:
+          path: /Audio/Items/jaws_pry.ogg
+        changeSound:
+          path: /Audio/Items/change_drill.ogg
+      - behavior: Anchoring
+        sprite:
+          sprite: Objects/Tools/omnitool.rsi
+          state: omnitool-wrenching
+        useSound:
+          path: /Audio/Items/ratchet.ogg
+        changeSound:
+          path: /Audio/Items/change_drill.ogg
+
+- type: entity
+  parent: ClothingHeadsetAltCommand
+  id: ClothingHeadsetBorg
+  components:
+  - type: Tag
+    tags:
+    - NoAction
+
+- type: entity
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelFull
+  suffix: Full
+  components:
+  - type: Stack
+    count: 30

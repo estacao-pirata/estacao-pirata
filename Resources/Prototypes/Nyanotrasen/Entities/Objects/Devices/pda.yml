@@ -1,0 +1,139 @@
+- type: entity
+  parent: BasePDA
+  id: MailCarrierPDA
+  name: mail carrier PDA
+  description: Hope this doesn't have any... JUNK MAIL.
+  components:
+  - type: PDA
+    id: MailCarrierIDCard
+    state: pda-mailcarrier
+  - type: Icon
+    state: pda-mailcarrier
+
+- type: entity
+  parent: EngineerPDA
+  id: SalvageTechPDA
+  components:
+  - type: PDA
+    id: SalvageTechIDCard
+
+- type: entity
+  parent: BasePDA
+  id: ForensicMantisPDA
+  name: forensic mantis PDA
+  description: Smells like tobacco, and justice.
+  components:
+  - type: PDA
+    id: ForensicMantisIDCard
+    state: pda-detective
+  - type: Icon
+    state: pda-detective
+
+- type: entity
+  parent: BasePDA
+  id: EpistemicsPDA
+  name: acolyte PDA
+  description: Preinstalled with plenty of brain teasers and religious conversion booklets.
+  components:
+  - type: PDA
+    id: EpistemicsIDCard
+    state: pda-science
+  - type: Icon
+    state: pda-science
+
+- type: entity
+  parent: BasePDA
+  id: MystaPDA
+  name: mystagogue PDA
+  description: Practically radiating psychic energies... They actually have the Pope on speed dial!
+  components:
+  - type: PDA
+    id: MystaIDCard
+    state: pda-rd
+  - type: Icon
+    state: pda-rd
+
+- type: entity
+  parent: BasePDA
+  id: ParamedicPDA
+  name: paramedic PDA
+  description: Sweaty. Whoever uses this must be noided. Has a built-in health analyzer.
+  components:
+  - type: PDA
+    id: ParamedicIDCard
+    state: pda-genetics
+  - type: PDABorderColor
+    borderColor: "#d7d7d0"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-genetics
+  - type: HealthAnalyzer
+    scanDelay: 1.2
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
+
+- type: entity
+  parent: BasePDA
+  id: PrisonerPDA
+  name: prisoner PDA
+  description: Clear, so you can make sure there's nothing being smuggled inside.
+  components:
+  - type: PDA
+    id: PrisonerIDCard
+    state: pda-clear
+  - type: Icon
+    state: pda-clear
+
+- type: entity
+  parent: PrisonerPDA
+  id: GladiatorPDA
+  name: gladiator PDA
+  components:
+  - type: PDA
+    id: GladiatorIDCard
+
+- type: entity
+  parent: BasePDA
+  id: ValetPDA
+  name: valet PDA
+  description: Why isn't it gray?
+  components:
+  - type: PDA
+    id: ValetIDCard
+    state: pda-internservice
+  - type: Icon
+    state: pda-internservice
+
+- type: entity
+  parent: BasePDA
+  id: CataloguerPDA
+  name: cataloguer PDA
+  description: Probably the person most likely to use an antiquated note taking device. Placeholder sprite.
+  components:
+  - type: PDA
+    id: CataloguerIDCard
+  - type: Appearance
+    state: pda-library
+  - type: Icon
+    state: pda-library
+    
+- type: entity
+  parent: BasePDA
+  id: GuardPDA
+  name: guard PDA
+  description: Red to hide the stains of prisoner blood.
+  components:
+  - type: PDA
+    id: GuardIDCard
+    state: pda-security
+  - type: Icon
+    state: pda-guard
+
+- type: entity
+  parent: BoxerPDA
+  id: MartialArtistPDA
+  name: martial artist PDA
+  components:
+  - type: PDA
+    id: MartialArtistIDCard
+    state: pda-boxer

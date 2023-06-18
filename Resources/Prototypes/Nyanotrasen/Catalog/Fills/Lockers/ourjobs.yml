@@ -1,0 +1,58 @@
+- type: entity
+  id: LockerMystagogueFilled
+  suffix: Filled
+  parent: LockerResearchDirector
+  name: mystagogue's locker
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadsetAltMystagogue
+      - id: ClothingOuterHardsuitRd
+      - id: PlushieSlime
+        prob: 0.1
+      - id: DoorRemoteResearch
+      - id: HandTeleporter
+      - id: RubberStampRd
+      - id: ClothingHeadHatBeretMysta
+      - id: BoxEncryptionKeyScience
+
+- type: entity
+  id: LockerEpistemicsFilled
+  suffix: Filled
+  parent: LockerScientist
+  name: acolyte's locker
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadsetScience
+      - id: ClothingMaskSterile
+      - id: ClothingOuterRobeWhite
+      - id: AnomalyScanner
+
+- type: entity
+  id: LockerForensicMantisFilled
+  suffix: Filled
+  parent: LockerForensicMantis
+  components:
+  - type: StorageFill
+    contents:
+      # Tools
+      - id: FlashlightSeclite
+      - id: ForensicScanner
+      - id: BoxForensicPad
+      - id: AntiPsychicKnife
+      # Spare change of clothes
+      - id: ClothingUniformJumpsuitMantis
+      - id: ClothingUniformSkirtMantis
+      - id: ClothingBeltMantis
+      - id: ClothingShoesBootsMantis
+      - id: ClothingHandsGlovesColorWhite
+      - id: ClothingHeadsetMantis
+      - id: ClothingHeadHatFezMantis
+      - id: ClothingOuterCoatMantis
+      - id: ClothingOuterWinterCoatMantis
+      - id: ClothingEyesGlassesSunglasses
+      # Insulative headgear
+      - id: ClothingHeadHelmetInsulated
+      - id: ClothingHeadCage
+      - id: ClothingHeadCage

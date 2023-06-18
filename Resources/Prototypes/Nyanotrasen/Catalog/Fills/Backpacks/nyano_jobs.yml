@@ -1,0 +1,83 @@
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpack
+  id: ClothingBackpackMantisFilled
+  components:
+    - type: StorageFill
+      contents:
+      - id: BoxSurvival
+      - id: BoxForensicPad
+      - id: HandLabeler
+      - id: PillMindbreakerToxin
+      - id: BoxFolderGrey
+      - id: RubberStampMantis
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelMantisFilled
+  components:
+    - type: StorageFill
+      contents:
+      - id: BoxSurvival
+      - id: BoxForensicPad
+      - id: HandLabeler
+      - id: PillMindbreakerToxin
+      - id: BoxFolderGrey
+      - id: RubberStampMantis
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelMantisFilled
+  components:
+    - type: StorageFill
+      contents:
+      - id: BoxSurvival
+      - id: BoxForensicPad
+      - id: HandLabeler
+      - id: PillMindbreakerToxin
+      - id: BoxFolderGrey
+      - id: RubberStampMantis
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpack
+  id: ClothingBackpackSyndicateDiplomatFilled
+  components:
+    - type: StorageFill
+      contents:
+      - id: BoxSurvivalSyndicate
+      - id: Lighter
+      - id: CigPackSyndicate
+      - id: RubberStampSyndicate
+      - id: CyberPen
+      - id: BalloonSyn
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelSyndicate
+  id: ClothingBackpackDuffelSyndicateDiplomatFilled
+  components:
+    - type: StorageFill
+      contents:
+      - id: BoxSurvivalSyndicate
+      - id: Lighter
+      - id: CigPackSyndicate
+      - id: RubberStampSyndicate
+      - id: CyberPen
+      - id: BalloonSyn
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelSyndicateDiplomatFilled
+  components:
+    - type: StorageFill
+      contents:
+      - id: BoxSurvivalSyndicate
+      - id: Lighter
+      - id: CigPackSyndicate
+      - id: RubberStampSyndicate
+      - id: CyberPen
+      - id: BalloonSyn

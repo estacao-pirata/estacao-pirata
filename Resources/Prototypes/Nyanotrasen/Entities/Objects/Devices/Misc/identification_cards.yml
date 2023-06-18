@@ -1,0 +1,142 @@
+- type: entity
+  parent: IDCardStandard
+  id: ForensicMantisIDCard
+  name: forensic mantis ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: iddetective
+    - type: PresetIdCard
+      job: ForensicMantis
+
+- type: entity
+  parent: IDCardStandard
+  id: EpistemicsIDCard
+  name: acolyte ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idscientist
+  - type: PresetIdCard
+    job: Epistemologist
+
+- type: entity
+  parent: IDCardStandard
+  id: MystaIDCard
+  name: mystagogue ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idresearchdirector
+  - type: PresetIdCard
+    job: Mystagogue
+
+- type: entity
+  parent: IDCardStandard
+  id: SalvageTechIDCard
+  name: salvage technician ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idshaftminer
+  - type: PresetIdCard
+    job: SalvageTechnician
+
+- type: entity
+  parent: IDCardStandard
+  id: ParamedicIDCard
+  name: paramedic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idparamedic
+  - type: PresetIdCard
+    job: Paramedic
+
+- type: entity
+  parent: IDCardStandard
+  id: MailCarrierIDCard
+  name: mail carrier ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idmailcarrier
+  - type: PresetIdCard
+    job: MailCarrier
+
+- type: entity
+  parent: IDCardStandard
+  id: PrisonerIDCard
+  name: prisoner ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: orange
+  - type: PresetIdCard
+    job: Prisoner
+
+- type: entity
+  parent: IDCardStandard
+  id: GladiatorIDCard
+  name: gladiator ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: orange #Placeholder?
+    - state: idgladiator
+  - type: PresetIdCard
+    job: Gladiator
+
+- type: entity
+  parent: IDCardStandard
+  id: ValetIDCard
+  name: valet ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idintern-service
+  - type: PresetIdCard
+    job: Valet
+
+- type: entity
+  parent: IDCardStandard
+  id: CataloguerIDCard
+  name: cataloguer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idcurator
+  - type: PresetIdCard
+    job: Cataloguer
+
+- type: entity
+  parent: IDCardStandard
+  id: GuardIDCard
+  name: guard ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsecurityofficer
+  - type: PresetIdCard
+    job: PrisonGuard
+
+- type: entity
+  parent: IDCardStandard
+  id: MartialArtistIDCard
+  name: martial artist ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idmartialartist
+  - type: PresetIdCard
+    job: MartialArtist
