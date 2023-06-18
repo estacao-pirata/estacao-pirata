@@ -1,28 +1,4 @@
 - type: entity
-  id: SpawnPointParamedic
-  parent: SpawnPointJobBase
-  name: paramedic
-  components:
-  - type: SpawnPoint
-    job_id: Paramedic
-  - type: Sprite
-    layers:
-      - state: green
-      - state: paramedic
-
-- type: entity
-  id: SpawnPointBoxer
-  parent: SpawnPointJobBase
-  name: boxer
-  components:
-  - type: SpawnPoint
-    job_id: Boxer
-  - type: Sprite
-    layers:
-      - state: green
-      - state: boxer
-
-- type: entity
   id: SpawnPointGladiator
   parent: SpawnPointJobBase
   name: gladiator
