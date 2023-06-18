@@ -76,7 +76,6 @@
   - type: Hands
   - type: RandomMetadata
     nameSegments: [names_golem]
-  - type: PyrokinesisPower
   - type: Grammar
     attributes:
       proper: true
