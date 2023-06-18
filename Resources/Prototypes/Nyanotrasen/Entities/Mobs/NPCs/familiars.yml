@@ -77,9 +77,6 @@
   - type: Hands
   - type: RandomMetadata
     nameSegments: [names_golem]
-  - type: PotentialPsionic
-  - type: Psionic
-    removable: false
   - type: PyrokinesisPower
   - type: Grammar
     attributes:
@@ -88,7 +85,6 @@
   - type: EyeProtection
   - type: Faction
     factions:
-    - PsionicInterloper
     - NanoTrasen
 
 - type: entity

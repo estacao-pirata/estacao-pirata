@@ -1,6 +1,0 @@
-- type: artifactEffect
-  id: EffectPsionic
-  targetDepth: 2
-  effectHint: artifact-effect-hint-psionic
-  components:
-  - type: PsionicArtifact
