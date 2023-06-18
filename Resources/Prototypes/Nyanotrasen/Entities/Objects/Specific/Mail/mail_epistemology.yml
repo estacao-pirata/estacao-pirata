@@ -40,16 +40,6 @@
 - type: entity
   noSpawn: true
   parent: BaseMail
-  id: MailEpistemologyTinfoilHat
-  suffix: tinfoilhat
-  components:
-  - type: Mail
-    contents:
-    - id: ClothingHeadTinfoil
-
-- type: entity
-  noSpawn: true
-  parent: BaseMail
   id: MailForensicMantisForensicSupplement
   suffix: forensicsupplement
   components:
