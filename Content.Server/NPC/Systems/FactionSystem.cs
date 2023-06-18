@@ -7,7 +7,9 @@ namespace Content.Server.NPC.Systems;
 /// <summary>
 ///     Outlines faction relationships with each other.
 /// </summary>
-public sealed class FactionSystem : EntitySystem
+// Begin Nyano-code: made partial for extensions.
+public partial class FactionSystem : EntitySystem
+// End Nyano-code.
 {
     [Dependency] private readonly FactionExceptionSystem _factionException = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
@@ -27,6 +29,10 @@ public sealed class FactionSystem : EntitySystem
         SubscribeLocalEvent<FactionComponent, ComponentStartup>(OnFactionStartup);
         _protoManager.PrototypesReloaded += OnProtoReload;
         RefreshFactions();
+        // Begin Nyano-code: faction extensions.
+        InitializeCore();
+        InitializeItems();
+        // End Nyano-code.
     }
 
     public override void Shutdown()
@@ -120,8 +126,19 @@ public sealed class FactionSystem : EntitySystem
         if (TryComp<FactionExceptionComponent>(entity, out var factionException))
         {
             // ignore anything from enemy faction that we are explicitly friendly towards
-            return hostiles.Where(target => !_factionException.IsIgnored(factionException, target));
+            // Begin Nyano-code: modified to not return early.
+            hostiles = hostiles.Where(target => !_factionException.IsIgnored(factionException, target));
+            // End Nyano-code.
         }
+
+        // Begin Nyano-code: support for selective hostility.
+        var eHostiles = new HashSet<EntityUid>();
+        var eFriendlies = new HashSet<EntityUid>();
+        var ev = new GetNearbyHostilesEvent(eHostiles, eFriendlies);
+        RaiseLocalEvent(entity, ref ev);
+
+        hostiles = hostiles.Union(ev.ExceptionalHostiles).Where(target => !ev.ExceptionalFriendlies.Contains(target));
+        // End Nyano-code.
 
         return hostiles;
     }
