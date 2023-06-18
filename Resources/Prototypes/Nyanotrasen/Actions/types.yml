@@ -24,16 +24,6 @@
   canTargetSelf: false
   serverEvent: !type:DispelPowerActionEvent
 
-- type: worldTargetAction
-  id: MassSleep
-  name: action-name-mass-sleep
-  description: action-description-mass-sleep
-  icon: Nyanotrasen/Interface/VerbIcons/mass_sleep.png
-  useDelay: 60
-  checkCanAccess: false
-  range: 8
-  event: !type:MassSleepPowerActionEvent
-
 - type: instantAction
   id: PsionicInvisibility
   name: action-name-psionic-invisibility
