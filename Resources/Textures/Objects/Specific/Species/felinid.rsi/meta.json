@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "license": "CC0-1.0",
-  "copyright": "Made By CatBoy Daemon",
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Made by QuizzyQuin",
   "size": {
     "x": 32,
     "y": 32
@@ -9,9 +9,6 @@
   "states": [
     {
       "name": "icon"
-    },
-    {
-        "name": "lidosaws"
     }
   ]
 }

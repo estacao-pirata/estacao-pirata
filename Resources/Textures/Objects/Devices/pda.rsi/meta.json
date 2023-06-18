@@ -80,6 +80,9 @@
       "name": "pda-genetics"
     },
     {
+      "name": "pda-guard"
+    },
+    {
       "name": "pda-hop"
     },
     {
@@ -106,10 +109,12 @@
       ]
     },
     {
-      "name": "pda-medical"
+      "name": "pda-mailcarrier"
     },
     {
-      "name": "pda-paramedic"
+    },
+    {
+      "name": "pda-medical"
     },
     {
       "name": "pda-mime"

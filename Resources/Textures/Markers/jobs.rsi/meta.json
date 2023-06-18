@@ -134,6 +134,9 @@
       "name": "prisoner"
     },
     {
+      "name": "prisonguard"
+    },
+    {
       "name": "psychologist"
     },
     {
@@ -161,6 +164,9 @@
       "name": "miner"
     },
     {
+      "name": "mailcarrier"
+    },
+    {
       "name": "engineer"
     },
     {
@@ -177,6 +183,18 @@
     },
     {
       "name": "musician"
+    },
+    {
+      "name": "valet"
+    },
+    {
+      "name": "gladiator"
+    },
+    {
+      "name": "martialartist"
+    },
+    {
+      "name": "medicalcyborg"
     }
   ]
 }

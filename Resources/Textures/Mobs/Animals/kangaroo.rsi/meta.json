@@ -56,6 +56,10 @@
     },
     {
       "name": "kangaroo-space-dead"
+    },
+    {
+      "name": "kangaroo-judge",
+      "directions": 4
     }
   ]
 }

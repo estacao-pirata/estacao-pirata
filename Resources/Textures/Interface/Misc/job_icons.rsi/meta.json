@@ -147,6 +147,18 @@
         },
         {
             "name": "Zookeeper"
+        },
+        {
+            "name": "Gladiator"
+        },
+        {
+            "name": "MartialArtist"
+        },
+        {
+            "name": "Cyborg"
+        },
+        {
+            "name": "MedicalCyborg"
         }
     ]
 }

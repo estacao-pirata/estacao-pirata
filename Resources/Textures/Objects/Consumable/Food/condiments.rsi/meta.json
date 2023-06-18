@@ -44,6 +44,30 @@
       "name": "bottle-alpha-6"
     },
     {
+      "name": "bottle-s-ketchup"
+    },
+    {
+      "name": "bottle-s-hotsauce"
+    },
+    {
+      "name": "bottle-s-empty"
+    },
+    {
+      "name": "bottle-s-coldsauce"
+    },
+    {
+      "name": "bottle-s-vinegar"
+    },
+    {
+      "name": "bottle-s-alpha-1"
+    },
+    {
+      "name": "bottle-s-alpha-2"
+    },
+    {
+      "name": "bottle-s-alpha-3"
+    },
+    {
       "name": "label-b"
     },
     {
@@ -60,6 +84,18 @@
     },
     {
       "name": "label-v"
+    },
+    {
+      "name": "label-s-c"
+    },
+    {
+      "name": "label-s-h"
+    },
+    {
+      "name": "label-s-k"
+    },
+    {
+      "name": "label-s-v"
     },
     {
       "name": "packet-astrotame"
