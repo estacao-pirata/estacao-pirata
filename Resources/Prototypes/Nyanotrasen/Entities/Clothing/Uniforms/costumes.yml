@@ -1,16 +1,4 @@
 - type: entity
-  parent: ClothingUniformBase
-  id: UniformJabroni
-  name: jabroni outfit
-  description: For artists, performance artists.
-  components:
-  - type: Sprite
-    sprite: Nyanotrasen/Clothing/Uniforms/Costume/jabroni.rsi
-  - type: Clothing
-    sprite: Nyanotrasen/Clothing/Uniforms/Costume/jabroni.rsi
-  - type: JabroniOutfit
-
-- type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingCostumeArcDress
   name: white shirt and purple skirt
@@ -93,7 +81,7 @@
   parent: ClothingUniformBase
   id: ClothingCostumeNaota
   name: turquoise hoodie and shorts
-  description: A hoodie with a small kangaroo pouch. 
+  description: A hoodie with a small kangaroo pouch.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/naota.rsi
