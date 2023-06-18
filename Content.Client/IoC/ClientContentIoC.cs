@@ -14,6 +14,7 @@ using Content.Client.Screenshot;
 using Content.Client.Stylesheets;
 using Content.Client.Viewport;
 using Content.Client.Voting;
+using Content.Client.Redial;
 using Content.Shared.Administration;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Module;
@@ -44,6 +45,7 @@ namespace Content.Client.IoC
             IoCManager.Register<ExtendedDisconnectInformationManager>();
             IoCManager.Register<JobRequirementsManager>();
             IoCManager.Register<DocumentParsingManager>();
+            IoCManager.Register<RedialManager>();
         }
     }
 }

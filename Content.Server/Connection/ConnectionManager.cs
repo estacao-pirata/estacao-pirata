@@ -3,13 +3,14 @@ using System.Threading.Tasks;
 using Content.Server.Database;
 using Content.Server.GameTicking;
 using Content.Server.Preferences.Managers;
+using Content.Server.Redial;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Content.Shared.Players.PlayTimeTracking;
 using Robust.Server.Player;
 using Robust.Shared.Configuration;
 using Robust.Shared.Network;
-
+using Content.Server.Administration.Managers;
 
 namespace Content.Server.Connection
 {
@@ -28,6 +29,8 @@ namespace Content.Server.Connection
         [Dependency] private readonly IServerNetManager _netMgr = default!;
         [Dependency] private readonly IServerDbManager _db = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
+        [Dependency] private readonly IAdminManager _admin = default!;
+        [Dependency] private readonly RedialManager _redial = default!;
         [Dependency] private readonly ILocalizationManager _loc = default!;
 
         public void Initialize()
