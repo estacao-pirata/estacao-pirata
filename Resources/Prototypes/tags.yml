@@ -11,16 +11,25 @@
   id: AppraisalTool
 
 - type: Tag
+  id: ArachneWeb
+
+- type: Tag
   id: ATVKeys
 
 - type: Tag
   id: Baguette
 
 - type: Tag
+  id: BikeHorn
+
+- type: Tag
   id: Bee
 
 - type: Tag
-  id: BikeHorn
+  id: BeltSlotNotBelt #not a 'belt'
+
+- type: Tag
+  id: BluespaceCrystal
 
 - type: Tag
   id: Bloodpack
@@ -72,6 +81,9 @@
 
 - type: Tag
   id: BulletFoam
+
+- type: Tag
+  id: BypassInteractionRangeChecks
 
 - type: Tag
   id: CableCoil
@@ -204,10 +216,16 @@
   id: ComputerTelevisionCircuitboard
 
 - type: Tag
+  id: CoreSilver
+
+- type: Tag
   id: Debug
 
 - type: Tag
   id: Dice
+
+- type: Tag
+  id: Directional
 
 - type: Tag
   id: DiscreteHealthAnalyzer #So construction recipes don't eat medical PDAs
@@ -279,6 +297,9 @@
   id: Flashlight
 
 - type: Tag
+  id: FloorTile
+
+- type: Tag
   id: Flower
 
 - type: Tag
@@ -295,6 +316,12 @@
 
 - type: Tag
   id: ForceNoFixRotations # fixrotations command WON'T target this
+
+- type: Tag
+  id: ForensicBeltEquip
+
+- type: Tag
+  id: FullBodyOuter # this outerclothing wraps around the feet and legs
 
 - type: Tag
   id: GasScrubber
@@ -326,6 +353,8 @@
 - type: Tag
   id: HappyHonk
 
+- type: Tag
+  id: HandLabeler
 
 - type: Tag
   id: Hardsuit # Prevent melee injectors that can't penetrate hardsuits from injecting the wearer (nettles)
@@ -469,6 +498,9 @@
   id: MagazineShotgun
 
 - type: Tag
+  id: MagazineUniversalCaselessRifle
+
+- type: Tag
   id: MagazineMagnumSubMachineGun
 
 - type: Tag
@@ -505,6 +537,12 @@
   id: Multitool
 
 - type: Tag
+  id: NoAction
+
+- type: Tag
+  id: NormalityCrystal
+
+- type: Tag
   id: NoSpinOnThrow
 
 - type: Tag
@@ -520,10 +558,16 @@
   id: Ointment
 
 - type: Tag
+  id: Oneirophage
+
+- type: Tag
   id: Ore
 
 - type: Tag
   id: Payload # for grenade/bomb crafting
+
+- type: Tag
+  id: PlushieCarp
 
 - type: Tag
   id: PaintableAirlock
@@ -569,6 +613,9 @@
 
 - type: Tag
   id: ProximitySensor
+
+- type: Tag
+  id: PussyWagonKeys
 
 - type: Tag
   id: Radio
@@ -624,6 +671,9 @@
 
 - type: Tag
   id: Sheet
+
+- type: Tag
+  id: SheetSteel
 
 - type: Tag
   id: ShellShotgun
