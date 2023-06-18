@@ -38,21 +38,19 @@ public sealed partial class CargoSystem : SharedCargoSystem
     }
 
     [PublicAPI]
-    public void UpdateBankAccount(EntityUid uid, StationBankAccountComponent component, int balanceAdded)
+    public void UpdateBankAccount(StationBankAccountComponent component, int balanceAdded)
     {
         component.Balance += balanceAdded;
-        var query = EntityQueryEnumerator<CargoOrderConsoleComponent>();
-
-        while (query.MoveNext(out var oUid, out var oComp))
+        // TODO: Code bad
+        foreach (var comp in EntityQuery<CargoOrderConsoleComponent>())
         {
-            if (!_uiSystem.IsUiOpen(oUid, CargoConsoleUiKey.Orders))
+            if (!_uiSystem.IsUiOpen(comp.Owner, CargoConsoleUiKey.Orders)) continue;
+
+            var station = _station.GetOwningStation(comp.Owner);
+            if (station != component.Owner)
                 continue;
 
-            var station = _station.GetOwningStation(oUid);
-            if (station != uid)
-                continue;
-
-            UpdateOrderState(oComp, station);
+            UpdateOrderState(comp, station);
         }
     }
 }
