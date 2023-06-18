@@ -5,5 +5,4 @@
   description: Repeats whatever is being said in telepathic chat.
   components:
   - type: TelepathicRepeater
-  - type: Psionic
   - type: Speech

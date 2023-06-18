@@ -18,9 +18,6 @@
     soundHit:
       path: /Audio/Weapons/club.ogg
     bluntStaminaDamageFactor: 1.60 # 25.6 stamina damage
-  - type: MeleeStaminaCost
-    swing: 10
-    wieldCoefficient: 0.35 #if wielded you will only consume 3.5 stam its a weapon after all
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
@@ -50,8 +47,6 @@
         Blunt: 4
     soundHit:
       path: /Audio/Effects/woodhit.ogg
-  - type: MeleeStaminaCost
-    swing: 5
   - type: StaminaDamageOnHit
     damage: 10
   - type: Item

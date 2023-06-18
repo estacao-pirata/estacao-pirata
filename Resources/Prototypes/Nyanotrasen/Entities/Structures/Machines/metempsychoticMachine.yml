@@ -25,4 +25,3 @@
           NoMind: { state: pod_1 }
           Gore: { state: pod_1 }
           Idle: { state: pod_0 }
-  - type: Psionic

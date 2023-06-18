@@ -15,7 +15,6 @@
     layers:
       - state: eyeball
         shader: unshaded
-  - type: Psionic
   - type: Mind
   - type: Clickable
   - type: InteractionOutline
@@ -35,7 +34,6 @@
     baseSprintSpeed: 8
     baseWalkSpeed: 5
   - type: MovementIgnoreGravity
-  - type: PsionicallyInvisible
   - type: InputMover
   - type: Appearance
   - type: Eye
