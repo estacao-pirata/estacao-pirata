@@ -55,6 +55,21 @@ public sealed class TileSystem : EntitySystem
         return DeconstructTile(tileRef);
     }
 
+    public bool DigTile(TileRef tileRef)
+    {
+        var tile = tileRef.Tile;
+
+        if (tile.IsEmpty)
+            return false;
+
+        var tileDef = (ContentTileDefinition) _tileDefinitionManager[tile.TypeId];
+
+        if (!tileDef.CanShovel)
+            return false;
+
+        return DeconstructTile(tileRef);
+    }
+
     public bool ReplaceTile(TileRef tileref, ContentTileDefinition replacementTile)
     {
         if (!TryComp<MapGridComponent>(tileref.GridUid, out var grid))
