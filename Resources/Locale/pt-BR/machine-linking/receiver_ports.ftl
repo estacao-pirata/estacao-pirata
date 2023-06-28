@@ -70,11 +70,11 @@ signal-port-description-set-particle-epsilon = Define o tipo de partícula que e
 signal-port-name-set-particle-zeta = Definir tipo de partícula: zeta
 signal-port-description-set-particle-zeta = Define o tipo de partícula que este dispositivo emite para zeta.
 
-signal-port-name-logic-input-a = Input A
-signal-port-description-logic-input-a = First input of a logic gate.
+signal-port-name-logic-input-a = Entrada A
+signal-port-description-logic-input-a = Primeira entrada de uma porta lógica.
 
-signal-port-name-logic-input-b = Input B
-signal-port-description-logic-input-b = Second input of a logic gate.
+signal-port-name-logic-input-b = Entrada B
+signal-port-description-logic-input-b = Segunda entrada de uma porta lógica.
 
-signal-port-name-logic-input = Input
-signal-port-description-logic-input = Input to the edge detector, cannot be a pulse signal.
+signal-port-name-logic-input = Entrada
+signal-port-description-logic-input = Entrada no detector de borda, não pode ser um sinal de pulso.
