@@ -8,6 +8,7 @@ using Robust.Shared.Prototypes;
 using Content.Server.Actions;
 using Content.Server.Forensics;
 using Content.Shared.DoAfter;
+using Content.Server.Mind.Components;
 using Content.Shared.Humanoid;
 using System.Linq;
 using Content.Server.Inventory;
@@ -23,6 +24,7 @@ using Robust.Shared.Map;
 using Content.Shared.Store;
 using ContainerSystem = Robust.Server.Containers.ContainerSystem;
 using TransformSystem = Robust.Server.GameObjects.TransformSystem;
+using Content.Server.Mind;
 
 namespace Content.Server.EstacaoPirata.Changeling;
 public sealed partial class ChangelingSystem : EntitySystem
@@ -42,6 +44,8 @@ public sealed partial class ChangelingSystem : EntitySystem
     [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly TransformSystem _transform = default!;
     [Dependency] private readonly ContainerSystem _container = default!;
+    [Dependency] private readonly MindSystem _mindSystem = default!;
+
     public override void Initialize()
     {
         base.Initialize();
@@ -582,8 +586,8 @@ public sealed partial class ChangelingSystem : EntitySystem
 
 
 
-        if (TryComp<MindComponent>(user, out var mind) && mind.Mind != null)
-            mind.Mind.TransferTo(child);
+        if (TryComp<MindContainerComponent>(user, out var mind) && mind.Mind != null)
+            _mindSystem.TransferTo(mind.Mind, child);
 
         _popup.PopupEntity(Loc.GetString("changeling-transformed-successful", ("target", child)), child, child);
 
