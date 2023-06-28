@@ -81,3 +81,6 @@ reagent-desc-the-martinez = A lenda do edgerunner. Lembrado por uma bebida, Esqu
 
 reagent-name-kvass = kvass
 reagent-desc-kvass = Uma resfrescante bebida com gosto de socialismo.
+
+reagent-name-white-gilgamesh = gilgamesh branco
+reagent-desc-white-gilgamesh = Uma mistura doentia de leite e cerveja. Faz-te sentir como se fosses feito de madeira.

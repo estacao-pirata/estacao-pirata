@@ -29,7 +29,7 @@ traitor-objective-condition-fail = {$condition} | [color={$markupColor}]Falhou![
 
 traitor-title = Traitor
 traitor-description = Há traidores entre nós...
-traitor-not-enough-ready-players = Faltou mais jogadores prontos para a partida! Haviam {$readyPlayersCount} jogadores prontos de {$minimumPlayers} necessários.
+traitor-not-enough-ready-players = Faltou mais jogadores prontos para a partida! Haviam {$readyPlayersCount} jogadores prontos de {$minimumPlayers} necessários. Impossível iniciar modo traidor.
 traitor-no-one-ready = Nenhum jogador deu "pronto"! Impossível iniciar modo traidor.
 
 ## TraitorDeathMatch

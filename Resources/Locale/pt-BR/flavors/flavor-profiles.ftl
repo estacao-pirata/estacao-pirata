@@ -143,6 +143,8 @@ flavor-complex-chaos = de o caos
 flavor-complex-squirming = de se contorcer
 flavor-complex-electrons = de elétrons
 flavor-complex-parents = de os pais de alguém
+flavor-complex-plastic = de plástico
+flavor-complex-glue = de cola
 
 # Drink-specific flavors.
 
@@ -189,11 +191,10 @@ flavor-complex-cuba-libre = de cola drogada
 flavor-complex-gin-tonic = de refrigerante lima-limão drogado
 flavor-complex-screwdriver = de suco de laranja drogado
 
-flavor-complex-themartinez = como violetas e limão vodka
+lavor-complex-themartinez = como violetas e limão vodka
 flavor-complex-antifreeze = quente
 flavor-complex-cogchamp = como bronze
-### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
-flavor-complex-pilk = de leite doce
+flavor-complex-white-gilgamesh = como creme levemente adocicado
 
 # Medicine/chemical-specific flavors.
 

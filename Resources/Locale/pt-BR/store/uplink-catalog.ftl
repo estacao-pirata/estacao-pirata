@@ -46,7 +46,7 @@ uplink-emp-grenade-name = Granada EMP
 uplink-emp-grenade-desc = Libera pulsos eletromagnéticos que perturbam ou danificam diversos dispositivos eletrônicos ou drenam células de energia.
 
 uplink-exploding-pen-name = Caneta explosiva
-uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.  
+uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
 
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
@@ -268,3 +268,5 @@ uplink-scarf-syndie-red-desc = Um cachecol listrado vermelho estiloso. O acessó
 uplink-scarf-syndie-green-name = cachecol listrado verde sindicato
 uplink-scarf-syndie-green-desc = Um elegante cachecol listrado verde sindicato. O acessório de inverno perfeito para quem tem um senso de moda aguçado e quem está com vontade de roubar alguma coisa.
 
+uplink-esword-double-name = Double Bladed Energy Sword
+uplink-esword-double-desc = Uma alternativa muito mais cara à espada de energia normal: com uma chance de reflexão muito maior, ângulo de ataque maior, maior dano estrutural e balanço mais rápido, tudo ao custo de menos calor e danos em corte. Faz um monte de barulho quando usado ou ligado.

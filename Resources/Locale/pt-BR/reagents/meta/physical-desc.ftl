@@ -66,7 +66,6 @@ reagent-physical-desc-lemony-fresh = de limão fresco
 reagent-physical-desc-crisp = crocante
 reagent-physical-desc-citric = cítrica
 reagent-physical-desc-acidic = ácida
-reagent-physical-desc-bilky = desleixada
 reagent-physical-desc-buzzy = zumbido
 reagent-physical-desc-fibrous = fibrosa
 reagent-physical-desc-strong-smelling = de cheiro forte

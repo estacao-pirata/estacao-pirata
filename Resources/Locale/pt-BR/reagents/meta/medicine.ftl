@@ -13,6 +13,9 @@ reagent-desc-arithrazine = Um medicamento ligeiramente instável usado para o ca
 reagent-name-bicaridine = bicaridina
 reagent-desc-bicaridine = Um analgésico que é altamente eficaz no tratamento de danos brutos. É útil para estabilizar pessoas que foram severamente espancadas, bem como tratar lesões menos fatais. No caso de sangramento (interno ou externo), a bicaridina retardará o sangramento fortemente. Se a dosagem exceder o limite de overdose, vai parar imediatamente.
 
+reagent-name-doxarubixadone = doxarubixadona
+reagent-desc-doxarubixadone = Um produto químico criogênico. Cura certos tipos de danos celulares causados por Slimes e uso inadequado de outros produtos químicos.
+
 reagent-name-cryoxadone = cryoxadona
 reagent-desc-cryoxadone = Necessário para o bom funcionamento da criogenia. Cura todos os tipos de dano padrão muito rapidamente, mas só funciona em temperaturas abaixo de 170K (geralmente isso significa células criogênicas). Também pode curar lentamente o dano do clone, como causado por clonagem ou Slimes.
 

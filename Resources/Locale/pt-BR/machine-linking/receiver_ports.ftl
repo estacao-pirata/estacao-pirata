@@ -23,7 +23,7 @@ signal-port-name-close = Fechar
 signal-port-description-close = Fecha um dispositivo.
 
 signal-port-name-doorbolt = Travar porta
-signal-port-description-doorbolt = Alterna a trava da porta.
+signal-port-description-doorbolt = Trava a porta quando ALTO.
 
 signal-port-name-trigger = Acionar
 signal-port-description-trigger = Aciona algum mecânismo no dispositivo.
@@ -69,3 +69,12 @@ signal-port-description-set-particle-epsilon = Define o tipo de partícula que e
 
 signal-port-name-set-particle-zeta = Definir tipo de partícula: zeta
 signal-port-description-set-particle-zeta = Define o tipo de partícula que este dispositivo emite para zeta.
+
+signal-port-name-logic-input-a = Input A
+signal-port-description-logic-input-a = First input of a logic gate.
+
+signal-port-name-logic-input-b = Input B
+signal-port-description-logic-input-b = Second input of a logic gate.
+
+signal-port-name-logic-input = Input
+signal-port-description-logic-input = Input to the edge detector, cannot be a pulse signal.

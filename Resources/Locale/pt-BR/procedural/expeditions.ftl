@@ -13,8 +13,7 @@ salvage-expedition-window-hostiles = Hostis:
 salvage-expedition-window-duration = Duração:
 salvage-expedition-window-biome = Bioma:
 salvage-expedition-window-modifiers = Modificadores:
-salvage-expedition-window-loot = Saque:
-salvage-expedition-window-none = N/A
+salvage-expedition-window-rewards = Recompensas:
 salvage-expedition-window-claimed = Reivindicado
 salvage-expedition-window-claim = Reivindicar
 
@@ -46,3 +45,4 @@ salvage-expedition-announcement-countdown-minutes = {$duration} minutos restante
 salvage-expedition-announcement-countdown-seconds = {$duration} segundos restantes para completar a expedição.
 salvage-expedition-announcement-dungeon = A masmorra está localizada {$direction}.
 salvage-expedition-completed = A expedição está concluída.
+salvage-expedition-reward-description = Recompensa de conclusão da missão

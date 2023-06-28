@@ -19,3 +19,4 @@ salvage-system-magnet-examined-active = O imã está segurando um destroço. Con
 }
 salvage-system-magnet-examined-releasing = O imã está soltando o destroço.
 salvage-system-magnet-examined-cooling-down = O imã está resfriando. Estará pronto em: {$timeLeft} segundos.
+salvage-system-magnet-delay-upgrade = Atraso de acomplamento/cooldown

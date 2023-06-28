@@ -19,6 +19,7 @@ materials-plastic = Plástico
 materials-wood = Madeira
 materials-uranium = Urânio
 materials-bananium = bananium
+materials-meat = carne
 
 # Material Reclaimer
 material-reclaimer-upgrade-process-rate = taxa de processo

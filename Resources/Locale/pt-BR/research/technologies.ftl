@@ -1,6 +1,7 @@
 research-discipline-none = None
 research-discipline-industrial = Industrial
 research-discipline-biochemical = Bioquímica
+research-discipline-arsenal = arsenal
 research-discipline-experimental = Experimental
 research-discipline-civilian-services = Serviços Civis
 
@@ -25,10 +26,20 @@ research-technology-virology = Virologia
 research-technology-cryogenics = Criogênica
 research-technology-chemical-dispensary = Dispensário Químico
 research-technology-crew-monitoring = Monitoramento da Tripulação
+research-technology-bluespace-chemistry = Química Bluespace
 research-technology-cloning = Clonagem
 
+research-technology-salvage-weapons = Armas de Salvatagem
+research-technology-draconic-munitions = Munições Dracônicas
+research-technology-explosive-technology = Tecnologia Explosiva
+research-technology-advanced-laser-manipulation = Manipulação de Lasers Avançadas
+research-technology-nonlethal-ammunition = Munição Não Letal
+research-technology-optimized-ballistics = Balística Otimizada
+research-technology-concentrated-laser-weaponry = Armamento de Laser Concentrado
+research-technology-wave-particle-harnessing = Aproveitamento de onda-partícula
+research-technology-handheld-electrical-propulsion = Propulsão elétrica de mão
+
 research-technology-basic-robotics = Robótica Básica
-research-technology-signalling-tech = Tecnologia de Sinais
 research-technology-basic-anomalous-research = Pesquisa de Anomalias Básica
 research-technology-basic-xenoarcheology = XenoArqueologia Básica
 research-technology-alternative-research = Pesquisa Alternativa
@@ -44,6 +55,7 @@ research-technology-super-parts = Super Peças
 research-technology-janitorial-equipment = Equipamentos para Zeladoria
 research-technology-laundry-tech = Tecnologia de Lavanderia
 research-technology-basic-hydroponics = Hidroponia Básica
+research-technology-hamtr = Mecha HAMTR
 research-technology-food-service = Serviços de alimentares
 research-technology-advanced-entertainment = Entretenimento Avançado
 research-technology-audio-visual-communication = Comunicação A/V

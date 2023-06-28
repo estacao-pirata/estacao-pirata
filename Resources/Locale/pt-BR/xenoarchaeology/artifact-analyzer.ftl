@@ -2,10 +2,11 @@ analysis-console-menu-title = console de análise
 analysis-console-server-list-button = Lista de servidores
 analysis-console-scan-button = Varredura
 analysis-console-scan-tooltip-info = Escaneie artefatos para obter informações sobre sua estrutura.
+Extrair pontos de um artefato baseado nos nós recém-explorados.x
 analysis-console-print-button = Imprimir
 analysis-console-print-tooltip-info = Imprima as informações atuais sobre o artefato.
 analysis-console-destroy-button = Extrair
-analysis-console-destroy-button-info = Extraia de um artefato os pontos baseados nos nós explorados.
+analysis-console-destroy-button-info = Extrair pontos de um artefato baseado nos nós recém-explorados.
 
 analysis-console-info-no-scanner = Nenhum analisador conectado! Conecte um usando uma multiferramenta.
 analysis-console-info-no-artifact = Nenhum artefato presente! Coloque um no bloco e procure informações.
