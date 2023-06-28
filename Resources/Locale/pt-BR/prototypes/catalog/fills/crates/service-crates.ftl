@@ -21,7 +21,10 @@ ent-CrateServicePersonnel = Caixa de funcionário
 
 ent-CrateServiceBooks = Caixa de livros
     .desc = Contém 10 livros vazios de aparentemente aleatórios
-    
+
+ent-CrateServiceGuidebooks = Caixa de livros guia
+    .desc = Contém livros guia.
+
 ent-CrateServiceBox = Caixas caixote
     .desc = Contém 6 caixas multiuso vazias.
 

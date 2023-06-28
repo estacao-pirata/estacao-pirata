@@ -3,7 +3,7 @@
 
 wire-name-access = ACS
 wire-name-arcade-overflow = SLMT
-wire-name-air-alarm-panic = PANC 
+wire-name-air-alarm-panic = PANC
 wire-name-device-net = REDE
 wire-name-bolt-light = LUZP
 wire-name-door-bolt = PINO
@@ -13,4 +13,8 @@ wire-name-lock = TRAV
 wire-name-power = POT
 wire-name-arcade-invincible = GRNT
 wire-name-vending-contraband = GRNT
-wire-name-vending-eject = EJET
+wire-name-vending-eject = VEND
+wire-name-pa-keyboard = TECL
+wire-name-pa-limiter = LIMT
+wire-name-pa-power = POT
+wire-name-pa-strength = ESTR

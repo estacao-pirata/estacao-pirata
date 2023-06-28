@@ -22,3 +22,6 @@ trait-paracusia-desc = Você ouve sons que não estão realmente ali
 
 trait-uncloneable-name = Não clonável
 trait-uncloneable-desc = Não pode ser clonado
+
+trait-pirate-accent-name = Sotaque Pirata (em inglês)
+trait-pirate-accent-desc = Não podes parar de falar como um pirata!
