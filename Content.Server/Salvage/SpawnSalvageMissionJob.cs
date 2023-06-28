@@ -217,13 +217,6 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
             await SpawnDungeonLoot(dungeon, lootProto, mapUid, grid, random, reservedTiles);
         }
 
-        {
-            if (!lootProto.Guaranteed)
-                continue;
-
-            await SpawnDungeonLoot(dungeon, lootProto, mapUid, grid, random, reservedTiles);
-        }
-
         return true;
     }
 
