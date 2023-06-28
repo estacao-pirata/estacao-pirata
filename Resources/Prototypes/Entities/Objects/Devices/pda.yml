@@ -792,7 +792,7 @@
   name: PDA de Blushield
   description: A guerra nunca muda!.
   components:
-  - type: PDA
+  - type: Pda
     id: BlueshieldIDCard
     state: pda-blueshield
   - type: Icon
