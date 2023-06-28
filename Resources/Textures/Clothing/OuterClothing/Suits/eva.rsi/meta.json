@@ -1,11 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-<<<<<<<< HEAD:Resources/Textures/Clothing/OuterClothing/Vests/blueshield.rsi/meta.json
-  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e",
-========
   "copyright": "Sprites by Flareguy & cboyjet, heavily edited from space suit sprites found in https://github.com/tgstation/tgstation/commit/fb2d71495bfe81446159ef528534193d09dd8d34",
->>>>>>>> master:Resources/Textures/Clothing/OuterClothing/Suits/eva.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32
