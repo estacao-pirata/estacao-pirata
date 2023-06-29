@@ -73,8 +73,8 @@ namespace Content.Server.Medical
             // Adds a tiny amount of the chem stream from earlier along with vomit
             if (TryComp<BloodstreamComponent>(uid, out var bloodStream))
             {
-                var chemMultiplier = 0.1;
-                var vomitMultiplier = 0.9;
+                var chemMultiplier = 0.5;
+                var vomitMultiplier = 0.5;
 
                 // Makes a vomit solution the size of 90% of the chemicals removed from the chemstream
                 var vomitAmount = new Solution("Vomit", solutionSize * vomitMultiplier);
