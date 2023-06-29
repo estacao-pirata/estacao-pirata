@@ -146,6 +146,9 @@
             "name": "SecurityCadet"
         },
         {
+            "name": "Zombie"
+        },
+        {
             "name": "Zookeeper"
         }
     ]
