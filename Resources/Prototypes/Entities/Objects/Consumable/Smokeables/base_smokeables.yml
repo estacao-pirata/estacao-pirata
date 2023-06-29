@@ -68,10 +68,10 @@
   components:
   - type: Vape
     damage:
-      groups:
-        Burn: 2
-        Toxin: 2
-        Airloss: 10
+      types:
+        Heat: 2
+        Poison: 2
+        Asphyxiation: 10
   - type: SolutionContainerManager
     solutions:
       smokable:
