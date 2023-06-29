@@ -34,8 +34,8 @@ ent-ClothingBeltHolster = coldre
 ent-ClothingBeltSyndieHolster = coldre do sindicato
     .desc = Um coldre capaz de suportar armamentos e munição.
 
-ent-ClothingBeltSecurityWebbing = colete de segurança
-    .desc = Um colete tático e robusto, pode armazenar equipamentos de segurança.
+ent-ClothingBeltSecurityWebbing = colete tático da seg
+    .desc = Equipamento de peito exclusivo e versátil, pode segurar equipamentos de segurança. Não oferece proteção.
 
 ent-ClothingBeltMilitaryWebbing = colete tático
     .desc = Um colete tático, utilizado pelo Sindicato.
