@@ -47,6 +47,7 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
+
 - type: department
   id: Engineering
   description: department-Engineering-description

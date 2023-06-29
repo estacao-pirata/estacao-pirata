@@ -51,7 +51,6 @@
   - Cargo
   - Medical
 
-
 - type: startingGear
   id: HoPGear
   equipment:
