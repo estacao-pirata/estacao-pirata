@@ -376,11 +376,10 @@
   name: Armário do BS
   components:
   - type: Appearance
-    visuals:
-    - type: StorageVisualizer
-      state: bs
-      state_open: bs_open
-      state_closed: bs_door
+  - type: EntityStorageVisuals
+    stateBaseClosed: bs
+    stateDoorOpen: bs_open
+    stateDoorClosed: bs_door
   - type: AccessReader
     access: [["Command"]]
 
