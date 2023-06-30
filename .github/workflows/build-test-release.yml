@@ -2,7 +2,7 @@ name: Build & Test Release
 
 on:
   push:
-    branches: [ master, staging, trying, merge_master, pirata, changeling, nyanopirata, parkpirata ]
+    branches: [ master, staging, trying, merge_master, merge_nyano, pirata, changeling, nyanopirata, parkpirata ]
   merge_group:
   pull_request:
     types: [ opened, reopened, synchronize, ready_for_review ]
