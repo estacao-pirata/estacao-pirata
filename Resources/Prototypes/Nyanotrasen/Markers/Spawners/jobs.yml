@@ -23,18 +23,6 @@
       - state: mailcarrier
 
 - type: entity
-  id: SpawnPointForensicMantis
-  parent: SpawnPointJobBase
-  name: forensic mantis
-  components:
-  - type: SpawnPoint
-    job_id: ForensicMantis
-  - type: Sprite
-    layers:
-      - state: green
-      - state: mantis
-
-- type: entity
   id: SpawnPointCyborg
   parent: SpawnPointJobBase
   name: robot
