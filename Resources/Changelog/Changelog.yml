@@ -2938,6 +2938,6 @@ Entries:
   time: '2023-07-03T07:14:03-03:00'
 - author: rber
   changes:
-  - {message: Diversos bugfixes e outras melhorias por cherry-pick; Pra mais detalhes veja o link para os commits no github pelo discord em \#desenvolvimento , type: Fix}
+  - {message: Diversos bugfixes e outras melhorias por cherry-pick; Pra mais detalhes veja o link para os commits no github pelo discord em /#desenvolvimento , type: Fix}
   id: 4667
   time: '2023-07-02T21:17:18+02:00'
