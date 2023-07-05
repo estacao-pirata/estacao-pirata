@@ -424,6 +424,13 @@ namespace Content.Shared.CCVar
             CVarDef.Create("pirates.players_per_pirate", 5);
 
         /*
+         * Shipwrecked
+         */
+
+        public static readonly CVarDef<int> ShipwreckedMaxPlayers =
+            CVarDef.Create("shipwrecked.max_players", 7);
+
+        /*
          * Tips
          */
 
@@ -1248,6 +1255,31 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<float> AnomalyGenerationGridBoundsScale =
             CVarDef.Create("anomaly.generation_grid_bounds_scale", 0.6f, CVar.SERVERONLY);
+
+
+        /*
+         * Glimmer
+         */
+
+        /// <summary>
+        ///    Whether glimmer is enabled.
+        /// </summary>
+        public static readonly CVarDef<bool> GlimmerEnabled =
+            CVarDef.Create("glimmer.enabled", true, CVar.REPLICATED);
+
+        /// <summary>
+        ///     Passive glimmer drain per second.
+        ///     Note that this is randomized and this is an average value.
+        /// </summary>
+        public static readonly CVarDef<float> GlimmerLostPerSecond =
+            CVarDef.Create("glimmer.passive_drain_per_second", 0.1f, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Whether random rolls for psionics are allowed.
+        ///     Guaranteed psionics will still go through.
+        /// </summary>
+        public static readonly CVarDef<bool> PsionicRollsEnabled =
+            CVarDef.Create("psionics.rolls_enabled", true, CVar.SERVERONLY);
 
         /*
          * VIEWPORT
