@@ -1,6 +1,6 @@
 ## Gamemode
 
-shipwrecked-title = N
+shipwrecked-title = Naufragados
 shipwrecked-description = Um grupo de viajantes decola para encontrar apenas desgraça...
 shipwrecked-too-many-ready-players = Muitos jogadores foram preparados para o jogo! Havia jogadores de {$readyPlayersCount} readied, quando {$maximumPlayers} é o máximo.
 shipwrecked-no-one-ready = Nenhum jogador estava pronto! Não é possível começar a Naufrágio.
