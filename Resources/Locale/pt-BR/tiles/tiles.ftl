@@ -93,3 +93,4 @@ tiles-grass-planet-floor = chão de grama planeta
 tiles-basalt-floor = chão de basalto
 tiles-snow-floor = chão de neve
 tiles-wood3 = chão de madeira quebrado
+tiles-asphalt = asfalto 
