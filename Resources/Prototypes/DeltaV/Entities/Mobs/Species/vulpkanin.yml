@@ -6,17 +6,17 @@
   abstract: true
   components:
   - type: HumanoidAppearance
-    species: Vulpkanin
+    species: HumanoidFoxes
   - type: Hunger
   - type: Thirst
   - type: Icon
     sprite: DeltaV/Mobs/Species/Vulpkanin/parts.rsi
     state: full
   - type: Body
-    prototype: Vulpkanin
+    prototype: HumanoidFoxes
     requiredLegs: 2
   - type: Speech
-    speechSounds: Vulpkanin
+    speechSounds: HumanoidFoxes
   - type: Sprite
     netsync: false
     noRot: true
@@ -99,4 +99,4 @@
   description: A dummy vulpkanin meant to be used in character setup.
   components:
   - type: HumanoidAppearance
-    species: Vulpkanin
+    species: HumanoidFoxes
