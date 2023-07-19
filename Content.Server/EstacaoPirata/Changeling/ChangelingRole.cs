@@ -20,7 +20,8 @@ namespace Content.Server.EstacaoPirata.Changeling
 
         public void GreetTraitor()
         {
-            if (Mind.TryGetSession(out var session))
+            var session = Mind.Session;
+            if (session is not null)
             {
                 var chatMgr = IoCManager.Resolve<IChatManager>();
                 chatMgr.DispatchServerMessage(session, Loc.GetString("changeling-role-greeting"));
