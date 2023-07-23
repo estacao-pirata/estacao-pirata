@@ -37,3 +37,9 @@
     1: 9
     2: 3
     3: 1
+
+- type: weightedRandom
+  id: RareTechDiskTierWeights
+  weights:
+    2: 19
+    3: 1

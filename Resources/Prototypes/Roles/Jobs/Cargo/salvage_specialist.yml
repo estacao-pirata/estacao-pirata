@@ -7,6 +7,8 @@
     - !type:DepartmentTimeRequirement
       department: Cargo
       time: 10800 # Corvax-RoleTime
+    - !type:OverallPlaytimeRequirement
+      time: 36000 #10 hrs
   icon: "ShaftMiner"
   startingGear: SalvageSpecialistGear
   supervisors: job-supervisors-qm

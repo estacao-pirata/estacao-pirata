@@ -8,6 +8,7 @@
       time: 36000 # Corvax-RoleTime
     - !type:DepartmentTimeRequirement
       department: Security
+      time: 54000 #15 hrs
       time: 28800 #8 hrs
       inverted: true # stop playing intern if you're good at security!
   startingGear: SecurityCadetGear
@@ -24,9 +25,11 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorRed
     back: ClothingBackpackSecurityFilled
-    shoes: ClothingShoesBootsJack
+    shoes: ClothingShoesBootsCombatFilled
+    outerClothing: ClothingOuterArmorBasic
     id: SecurityCadetPDA
     ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58Nonlethal
   innerclothingskirt: ClothingUniformJumpskirtColorRed
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingBackpackDuffelSecurityFilled
