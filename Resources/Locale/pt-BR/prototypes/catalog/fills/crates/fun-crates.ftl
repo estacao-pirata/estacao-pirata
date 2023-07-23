@@ -45,3 +45,6 @@ ent-CrateFunSyndicateSegway = Caixa de segway do sindicato
 
 ent-CrateFunBoxing = Caixa de boxe
     .desc = Quer criar um clube de luta clandestino ou hospedar um torneio entre a equipe da estação? Esta caixa é para você!
+
+ent-CrateFunBikeHornImplants = Implante de Buzina de Bicicleta Implants
+    .desc = Mil buzinas por dia mantém os agentes de segurança longe!

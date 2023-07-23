@@ -51,7 +51,7 @@ ent-CrateVendingMachineRestockTankDispenser = { ent-CrateVendingMachineRestockTa
 
 ent-CrateVendingMachineRestockHappyHonk = { ent-CrateVendingMachineRestockHappyHonkFilled }
     .desc = { ent-CrateVendingMachineRestockHappyHonkFilled.desc }
-    
+
 ent-CrateVendingMachineRestockGetmoreChocolateCorp = { ent-CrateVendingMachineRestockGetmoreChocolateCorpFilled }
     .desc = { ent-CrateVendingMachineRestockGetmoreChocolateCorpFilled.desc }
 
@@ -63,3 +63,6 @@ ent-CrateVendingMachineRestockDiscountDans = { ent-CrateVendingMachineRestockDis
 
 ent-CrateVendingMachineRestockDonut = { ent-CrateVendingMachineRestockDonutFilled }
     .desc = { ent-CrateVendingMachineRestockDonutFilled.desc }
+
+ent-CrateVendingMachineRestockChemVend = { ent-CrateVendingMachineRestockChemVendFilled }
+    .desc = { CrateVendingMachineRestockChemVendFilled.desc }

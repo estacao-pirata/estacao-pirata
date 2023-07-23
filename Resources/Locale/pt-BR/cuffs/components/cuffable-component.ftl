@@ -1,7 +1,7 @@
 cuffable-component-cannot-interact-message = Você não pode fazer isso!
 cuffable-component-cannot-remove-cuffs-too-far-message = Você está muito longe para remover as algemas.
 
-cuffable-component-start-uncuffing-self = Você começa a se desalgemar.
+cuffable-component-start-uncuffing-self = Você começa a dolorosamente se contorcer de suas algemas.
 cuffable-component-start-uncuffing-observer = {$user} começa a desalgemar {$target}!
 cuffable-component-start-uncuffing-target-message = Você começa desalgemar de {$targetName}.
 cuffable-component-start-uncuffing-by-other-message = {$otherName} começa a desalgemar você!

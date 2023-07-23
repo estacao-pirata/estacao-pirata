@@ -8,7 +8,7 @@ uplink-revolver-python-desc = Um revólver barulhento e mortal. Usa .45 Magnum.
 uplink-pistol-cobra-name = Cobra
 uplink-pistol-cobra-desc = Uma pistola robusta com silenciador embutido. Use carregadores de pistola (.25 sem estojo).
 
-uplink-rifle-mosin-name = Rifle Excedente
+uplink-rifle-mosin-name = Rifle Mosin
 uplink-rifle-mosin-desc = Um rifle de serviço de ação de ferrolho que viu muitas guerras. Não nada moderno, carregado à mão e com terrível recuo, mas é barato.
 
 uplink-esword-name = Espada de Energia
@@ -16,6 +16,9 @@ uplink-esword-desc = Uma espada de energia muito perigosa capaz de refletir disp
 
 uplink-edagger-name = Adaga de Energia
 uplink-edagger-desc = Uma pequena lâmina de energia convenientemente disfarçada em forma de caneta.
+
+uplink-esword-double-name = Double Bladed Energy Sword
+uplink-esword-double-desc = Uma alternativa muito mais cara à espada de energia normal: com uma chance de reflexão muito maior, ângulo de ataque maior, maior dano estrutural e balanço mais rápido, tudo ao custo de menos calor e danos em corte. Faz um monte de barulho quando usado ou ligado. Agora com alça de borracha rugosa!
 
 uplink-fire-axe-flaming-name = Machado de Fogo
 uplink-fire-axe-flaming-desc = Uma arma de estilo clássico infundida com avançada tecnologia de atmos para permitir que ela incendeie alvos.
@@ -25,16 +28,17 @@ uplink-gloves-north-star-desc = Um par de luvas que reduz drasticamente o tempo 
 
 # Explosive
 uplink-explosive-grenade-name = Granada explosiva
-uplink-explosive-grenade-desc = Granada que cria uma explosão pequena, mas devastadora.
+uplink-explosive-grenade-desc = Uma granada simplista com um fusível de dez segundos que é voltada para ferir pessoas. Causa danos mínimos do casco.
+Granada que cria uma explosão pequena, mas devastadora.
 
 uplink-flash-grenade-name = Flashbang
-uplink-flash-grenade-desc = Eeeeeeeeeeeeeeeeeeeeee
+uplink-flash-grenade-desc = Um flashbang de edição padrão, capaz de cegar e retardar qualquer pessoa sem proteção adequada. Isso, é claro, inclui você; certifique-se de que você está devidamente equipado antes de usá-lo.
 
 uplink-mini-bomb-name = Minibomb
-uplink-mini-bomb-desc = Um explosivo de sabotagem de precisão para destruir rapidamente uma máquina, um corpo morto ou o que mais precisar sumir.
+uplink-mini-bomb-desc = Um explosivo de sabotagem de precisão de baixa potência mas alto impacto com um detonador de cinco segundos de comprimento. Perfeito para destruir rapidamente uma máquina, corpo morto, ou qualquer outra coisa que precisar sumir.
 
 uplink-penguin-grenade-name = Pinguim Granada
-uplink-penguin-grenade-desc = Um pequeno pinguim com uma granada amarrada ao redor do pescoço. Colhidado pelo Sindicato de planetas gelados pra caralho.
+uplink-penguin-grenade-desc = Um pinguim pequeno e altamente agressivo com uma granada amarrada em volta do pescoço. Colhido pelo Sindicato de planetas gelados pra caralho.
 
 uplink-c4-name = C-4
 uplink-c4-desc = Use-o para quebrar paredes, portas ou equipamentos de sabotagem. Pode ser afixado a quase todos os objetos e tem um temporizador modificável com uma configuração mínima de 10 segundos.
@@ -42,8 +46,11 @@ uplink-c4-desc = Use-o para quebrar paredes, portas ou equipamentos de sabotagem
 uplink-c4-bundle-name = C-4 bundle
 uplink-c4-bundle-desc = Porque às vezes a quantidade é de qualidade. Contém 8 explosivos de plástico C-4.
 
+uplink-grenadier-rig-name = grenadier chest rig
+uplink-grenadier-rig-desc = Tudo o que você precisa para uma festa barulhenta: 4 granadas explosivas, 2 granadas EMP e 2 minibombas em um rig de peito.
+
 uplink-emp-grenade-name = Granada EMP
-uplink-emp-grenade-desc = Libera pulsos eletromagnéticos que perturbam ou danificam diversos dispositivos eletrônicos ou drenam células de energia.
+uplink-emp-grenade-desc = Uma granada projetada para interromper sistemas eletrônicos. É útil para interromper as comunicações, as armas de energia da segurança e os APCs quando você está em um ponto apertado.
 
 uplink-exploding-pen-name = Caneta explosiva
 uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
@@ -58,8 +65,8 @@ uplink-pistol-magazine-caseless-desc = Pente de pistola com 10 cartuchos. Compat
 uplink-speedloader-magnum-name = Speedloader (.45 magnum)
 uplink-speedloader-magnu-desc = Carregador rápido de revolver com 6 cartuchos. Compatível com a Python.
 
-uplink-mosin-ammo-name = Caixa de pentes de rifle .30
-uplink-mosin-ammo-desc = Uma caixa de pentes para o rifle excedente.
+uplink-mosin-ammo-name = Caixa de munição .30 de rifle
+uplink-mosin-ammo-desc = Uma caixa de pentes para o rifle mosin.
 
 # Utility
 uplink-holopara-kit-name = Kit Holoparasita
@@ -77,6 +84,9 @@ uplink-agent-id-card-desc = Um cartão de ID modificado que pode copiar acessos 
 
 uplink-black-jetpack-name = Jetpack Preto
 uplink-black-jetpack-desc = Um jetpack preto. Ele permite que você voe no espaço. Combustível adicional agora incluso!
+
+uplink-reinforcement-radio-monkey-name = Teletransporte de reforço de macacos
+uplink-reinforcement-radio-monkey-desc = Chamada em macaco treinado para ajudá-lo. Vem com um único cigarro.
 
 uplink-reinforcement-radio-name = Teleportador de Reforço
 uplink-reinforcement-radio-desc = Teleporte em um agente de qualidade extremamente questionável. Sem botão de desligar, compre isto se estiver pronto para a festa. Eles têm uma pistola sem munição reserva, e uma faca. É isso mesmo.
@@ -106,13 +116,31 @@ uplink-storage-implanter-desc = Esconda as paradas dentro de si com a nova tecno
 uplink-freedom-implanter-name = Implanter de Liberdade
 uplink-freedom-implanter-desc = Livre-se desses oficiais da seg desagradávis com este implante de três usos!
 
+uplink-dna-scrambler-implanter-name = Implante de Embaralhamento de DNA
+uplink-dna-scrambler-implanter-desc = Um único implante de uso que pode ser ativado para modificar o seu DNA e dar-lhe uma aparência completamente nova, também tem a função de desfazer a mudança. Incapaz de embaralhar DNA já embaralhado.
+
+uplink-emp-implanter-name = EMP Implanter
+uplink-emp-implanter-desc = Detona um pequeno pulso EMP na ativação que drena a eletrônica próxima de sua potência, pode ser usado três vezes antes que a bateria interna se esgote.
+
+uplink-micro-bomb-implanter-name = Micro Bomb Implanter
+uplink-micro-bomb-implanter-desc = Este implante explode em caso de morte ou ativação manual. Destrui o corpo com todo o equipamento.
+
 uplink-macro-bomb-implanter-name = Implanter de Macro Bomba
 uplink-macro-bomb-implanter-desc = Injete isso e, na morte, você criará uma grande explosão. Enorme custo de mores da equipe, uso a seu própria conta e risco. Substitui a micro bomba interna.
 
 uplink-uplink-implanter-name = Implante de uplink
 uplink-uplink-implanter-desc = Encomende equipamentos furtivamente sem a necessidade de um PDA. Engula telecristais para completar o uplink.
 
+uplink-deathrattle-implant-name = Caixa de implantes Deathrattle
+uplink-deathrattle-implant-desc = Uma caixa contendo implantes deathrattle suficientes para todo o esquadrão. Retransmite uma mensagem contendo sua posição para o canal do sindicato quando você entra em um estado crítico ou morre.
+
 # Bundles
+uplink-meds-bundle-name = Medical Bundle
+uplink-meds-bundle-desc = Tudo o que você precisa para colocar seus companheiros de volta na luta: principalmente um medkit de combate, um desfibrilador e três medidores de combate.
+
+uplink-ammo-bundle-name = Ammo Bundle
+uplink-ammo-bundle-desc = Recarregando! Contém 4 pentes para o C-20r, 4 tambores para o Bulldog e 2 caixas de munição para o L6 SAW.
+
 uplink-c20r-bundle-name = Pacote C-20r
 uplink-c20r-bundle-desc = A velha fiel: A clássica submetralhadora C-20r, empacotada com três pentes.
 
@@ -160,6 +188,9 @@ uplink-rigged-boxing-gloves-desc = Flutue como uma borboleta, pique como uma abe
 uplink-necronomicon-name = Necronomicon
 uplink-necronomicon-desc = Um livro profano capaz de invocar um familiar demoníaco.
 
+uplink-holy-hand-grenade-name = Granada Santa de Mão
+uplink-holy-hand-grenade-desc = Senhor, abençõem esta tua granada de mão, para que com ele possas soprar os teus inimigos em pedacinhos, na tua misericórdia.
+
 uplink-revolver-cap-gun-fake-name = Arma de Festim Falsa
 uplink-revolver-cap-gun-fake-desc = Engane o seu inimigo! Cabe balas de festim e de magnum. Vem carregada com balas de magnum.
 
@@ -174,6 +205,9 @@ uplink-chimp-ammo-desc = Uma caixa com 10 cartuchos de partículas ômega para o
 
 uplink-proximity-mine-name = Mina de proximidade
 uplink-proximity-mine-desc = Uma mina disfarçada de sinal de chão molhado.
+
+uplink-disposable-turret-name = Torreta Balística Descartável
+uplink-disposable-turret-desc = Parece e funciona como uma caixa de ferramentas elétricas normal. Ao acertar a caixa de ferramentas, ele se transformará em uma torre balística, teoricamente atirando em qualquer pessoa, exceto membros do sindicato.
 
 # Armor
 uplink-chameleon-name = Kit Camaleão
@@ -200,7 +234,7 @@ uplink-eva-syndie-desc = Um traje simples EVA que não oferece outra proteção 
 uplink-clothing-outer-hardsuit-juggernaut-name = Traje Cybersun Demolidor
 uplink-clothing-outer-hardsuit-juggernaut-desc = Armadura hiper-resistente feita de materiais testados na instalação da cromosfera Tau. A única coisa que vai atrasar-te é este fato... e tasers.
 
-# Misc
+# Misc/noct
 uplink-cyberpen-name = Caneta Cybersun
 uplink-cyberpen-desc = Caneta do departamento jurídico da Cybersun. Cheira vagamente de luz forte e especulação de guerra.
 
@@ -219,6 +253,12 @@ uplink-ultrabright-lantern-desc = Cega.
 uplink-nocturine-chemistry-bottle-name = Garrafa de Nocturine
 uplink-nocturine-chemistry-bottle-desc = Um produto químico que torna muito difícil para o seu alvo se levantar.
 
+uplink-combat-medkit-name = Combat Medical Kit
+uplink-combat-medkit-desc = Um medkit feito para tratar lesões de combate.
+
+uplink-combat-medipen-name = Combat Medipen
+uplink-combat-medipen-desc = Um medpen de uso único contendo produtos químicos que regeneram a maioria dos tipos de danos
+
 uplink-stimpack-name = Stimpack
 uplink-stimpack-desc = O lendário produto químico produzido pela Donk Co. para o Syndicate. Injetar-se com isso aumentará sua velocidade de corrida e permitirá que você se recupere de atordoamentos mais rápido por 5 minutos.
 
@@ -230,6 +270,9 @@ uplink-experimental-stimpack-desc = Um stimpack altamente instável e tóxico, u
 
 uplink-syndicate-segway-crate-name = Segway do Sindicato
 uplink-syndicate-segway-crate-desc = Seja um inimigo da corporação, com estilo!
+
+uplink-syndicate-sponge-box-name = Caixa de Esponjas do Sindicato
+uplink-syndicate-sponge-box-desc = Uma caixa contendo 6 esponjas sindicais disfarçadas de cubos de macaco, esses cubos se transformam em uma variedade de vida selvagem raivosa depois de entrar em contato com a água.
 
 # Pointless
 uplink-revolver-cap-gun-name = Cap Gun
@@ -267,6 +310,3 @@ uplink-scarf-syndie-red-desc = Um cachecol listrado vermelho estiloso. O acessó
 
 uplink-scarf-syndie-green-name = cachecol listrado verde sindicato
 uplink-scarf-syndie-green-desc = Um elegante cachecol listrado verde sindicato. O acessório de inverno perfeito para quem tem um senso de moda aguçado e quem está com vontade de roubar alguma coisa.
-
-uplink-esword-double-name = Double Bladed Energy Sword
-uplink-esword-double-desc = Uma alternativa muito mais cara à espada de energia normal: com uma chance de reflexão muito maior, ângulo de ataque maior, maior dano estrutural e balanço mais rápido, tudo ao custo de menos calor e danos em corte. Faz um monte de barulho quando usado ou ligado.

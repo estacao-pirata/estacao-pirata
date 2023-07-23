@@ -8,6 +8,7 @@ cmd-roleban-hint-1 = <name or user ID>
 cmd-roleban-hint-2 = <job>
 cmd-roleban-hint-3 = <reason>
 cmd-roleban-hint-4 = [duração em minutos, ignore ou deixe 0 para um ban permanente]
+cmd-roleban-hint-5 = [severity]
 
 cmd-roleban-hint-duration-1 = Permanente
 cmd-roleban-hint-duration-2 = 1 dia
@@ -37,6 +38,7 @@ cmd-rolebanlist-hint-2 = [incluir desbanidos]
 
 
 cmd-roleban-minutes-parse = {$time} não é uma quantidade válida de minutos.\n{$help}
+cmd-roleban-severity-parse = ${severity} não é uma gravidade válida\n{$help}.
 cmd-roleban-arg-count = Quantidade inválida de argumentos.
 cmd-roleban-job-parse = Trabalho {$job} não existe.
 cmd-roleban-name-parse = Não foi possível encontrar um jogador com esse nome.

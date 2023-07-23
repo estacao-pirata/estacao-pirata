@@ -40,3 +40,6 @@ guide-entry-robotics = Robótica
 
 guide-entry-security = Segurança
 guide-entry-dna = DNA
+
+guide-entry-antagonists = Antagonistas
+guide-entry-nuclear-operatives = Operativos Nucleares

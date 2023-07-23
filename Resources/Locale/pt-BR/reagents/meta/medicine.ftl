@@ -11,13 +11,13 @@ reagent-name-arithrazine = arithrazina
 reagent-desc-arithrazine = Um medicamento ligeiramente instável usado para o caso mais extremo de envenenamento por radiação. Reduz o nível de radiação em mais de duas vezes a taxa que Hyronalin faz e cura o dano da toxina ao mesmo tempo. Causa dano bruto muito pequeno ao paciente ao longo do tempo, mas o corpo do paciente normalmente o regenera facilmente.
 
 reagent-name-bicaridine = bicaridina
-reagent-desc-bicaridine = Um analgésico que é altamente eficaz no tratamento de danos brutos. É útil para estabilizar pessoas que foram severamente espancadas, bem como tratar lesões menos fatais. No caso de sangramento (interno ou externo), a bicaridina retardará o sangramento fortemente. Se a dosagem exceder o limite de overdose, vai parar imediatamente.
-
-reagent-name-doxarubixadone = doxarubixadona
-reagent-desc-doxarubixadone = Um produto químico criogênico. Cura certos tipos de danos celulares causados por Slimes e uso inadequado de outros produtos químicos.
+reagent-desc-bicaridine = Um analgésico que é altamente eficaz no tratamento de danos brutos. É útil para estabilizar pessoas que foram severamente espancadas, bem como tratar lesões menos fatais.
 
 reagent-name-cryoxadone = cryoxadona
 reagent-desc-cryoxadone = Necessário para o bom funcionamento da criogenia. Cura todos os tipos de dano padrão muito rapidamente, mas só funciona em temperaturas abaixo de 170K (geralmente isso significa células criogênicas). Também pode curar lentamente o dano do clone, como causado por clonagem ou Slimes.
+
+reagent-name-doxarubixadone = doxarubixadona
+reagent-desc-doxarubixadone = Um produto químico criogênico. Cura certos tipos de danos celulares causados por Slimes e uso inadequado de outros produtos químicos.
 
 reagent-name-clonexadone = clonexadona
 reagent-desc-clonexadone = Cura o dano padrão da mesma forma que Cryoxadone, com o mesmo requisito de temperatura. Significativamente mais eficaz que o primeiro no tratamento de danos celulares, embora ambos possam ser usados simultaneamente. Melhor usado em células crio.
@@ -55,8 +55,11 @@ reagent-desc-barozine = Um medicamento um tanto tóxico que evita danos por pres
 reagent-name-phalanximine = phalanximina
 reagent-desc-phalanximine = Usado no tratamento do câncer, é tão eficaz quanto o Anti-Toxin. Causa radiação moderada e queda de cabelo.
 
-reagent-name-romerol = romerol
-reagent-desc-romerol = Um produto químico difícil de obter usado na reversão do processo de zumbificação. Tem gosto de morte.
+reagent-name-ambuzol = ambuzol
+reagent-desc-ambuzol = Uma substância produto de alta engenharia química capaz de interromper a progressão de uma infecção zumbi.
+
+reagent-name-ambuzol-plus = ambuzol plus
+reagent-desc-ambuzol-plus = Ainda mais desenvolvido com o sangue dos infectados, protege o vivo contra a infecção.
 
 reagent-name-pulped-banana-peel = casca de banana moída
 reagent-desc-pulped-banana-peel = As cascas de banana moída têm alguma eficácia contra o sangramento.
@@ -102,3 +105,6 @@ reagent-desc-diphenylmethylamine = Um medicamento mais estável do que a etiloxi
 
 reagent-name-sigynate = siginato
 reagent-desc-sigynate = Um xarope rosa grosso útil para neutralizar ácidos e cicatrizar regiões corroídas por ácidos. Tem sabor doce!
+
+reagent-name-saline = soro fisiológico
+reagent-desc-saline = "

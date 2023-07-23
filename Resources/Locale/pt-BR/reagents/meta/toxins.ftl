@@ -43,6 +43,9 @@ reagent-desc-amatoxin = Uma toxina potente encontrada em alguns cogumelos.
 reagent-name-vent-crud = vent crud
 reagent-desc-vent-crud = Uma substância negra encontrada em sistemas de ventilação mal mantidos.
 
+reagent-name-romerol = romerol
+reagent-desc-romerol = An otherworldly concoction able to bring the undead to life. If untreated, the effects are irreversible and will bring certain doom upon the station. Handle with care.
+
 reagent-name-corpium = corpium
 reagent-desc-corpium = Um coquetel Syndicate, cuidadosamente colhido de várias fontes. Você não iria querer isso dentro de você.
 
@@ -57,6 +60,9 @@ reagent-desc-pax = Uma droga psiquiátrica que impede que o paciente machuque al
 
 reagent-name-honk = honk
 reagent-desc-honk = Uma toxina encontrada no banânio. Provoca buzina grave e hemorragia interna, também pode causar mutação no paciente.
+
+reagent-name-lead = chumbo
+reagent-desc-lead = Uma toxina de ação lenta, mas incrivelmente letal, encontrada no aço mas apenas em quantidades vestigiais. Sem sabor.
 
 reagent-name-human-muta-tox = toxina de mutação humana
 reagent-name-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
