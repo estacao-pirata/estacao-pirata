@@ -621,6 +621,29 @@ namespace Content.Server.Storage.EntitySystems
             return true;
         }
 
+        private bool CanCombineStacks(
+            ServerStorageComponent storageComp,
+            StackComponent stack)
+        {
+            if (storageComp.Storage == null)
+                return false;
+
+            var stackQuery = GetEntityQuery<StackComponent>();
+            var countLeft = stack.Count;
+            foreach (var ent in storageComp.Storage.ContainedEntities)
+            {
+                if (!stackQuery.TryGetComponent(ent, out var destStack))
+                    continue;
+
+                if (destStack.StackTypeId != stack.StackTypeId)
+                    continue;
+
+                countLeft -= _stack.GetAvailableSpace(stack);
+            }
+
+            return countLeft <= 0;
+        }
+
         // REMOVE: remove and drop on the ground
         public bool RemoveAndDrop(EntityUid uid, EntityUid removeEnt, ServerStorageComponent? storageComp = null)
         {
