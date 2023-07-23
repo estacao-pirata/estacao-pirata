@@ -63,3 +63,6 @@ reagent-desc-uranium = Um cinza e metálico elemento químico na série dos acti
 
 reagent-name-bananium = bananium
 reagent-desc-bananium = Um sólido orgânico radioativo amarelo.
+
+reagent-name-zinc = zinc
+reagent-desc-zinc = Um metal prateado e quebradiço, muitas vezes usado em baterias para carregar.

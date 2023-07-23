@@ -13,6 +13,7 @@ air-alarm-ui-window-device-count-label = Dispositivos Totais
 air-alarm-ui-window-resync-devices-label = Ressincronizar
 
 air-alarm-ui-window-mode-label = Modo
+air-alarm-ui-window-mode-mode-label = Modo Automático
 
 air-alarm-ui-window-pressure = {$pressure} kPa
 air-alarm-ui-window-pressure-indicator = Pressão: [color={$color}]{$pressure} kPa[/color]

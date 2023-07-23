@@ -27,3 +27,22 @@ use-freedom-implant-action-description = ativar o implante irá te libertar de q
 
 open-uplink-implant-action-name = Abrir Uplink
 open-uplink-implant-action-description = Abre o uplink do sindicato embutido sob sua pele
+
+action-name-honk = Honk!
+action-desc-honk = Ativa seu implante buzina, que irá produzir o som de assinatura do palhaço.
+
+use-emp-implant-action-name = Ativar EMP
+use-emp-implant-action-description = Aciona um pequeno pulso EMP em torno de você
+
+use-dna-scrambler-implant-action-name = Scramble DNA
+use-dna-scrambler-implant-action-description = LING IN MAINTS!
+
+## Implant Popups
+
+scramble-attempt-while-scrambled-popup = DNA embaralhado detectado, por favor, extraia o implante antes de desfazer o embaralhamento atual.
+scramble-implant-activated-popup = Você se transformou em {$identity}
+
+## Implant Messages
+
+deathrattle-implant-dead-message = {$user} morreu em {$position}.
+deathrattle-implant-critical-message = Sinais de vida do {$user} estão críticos, assistência imediata necessária em {$position}.

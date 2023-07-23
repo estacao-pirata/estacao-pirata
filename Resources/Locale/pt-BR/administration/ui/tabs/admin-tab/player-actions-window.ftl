@@ -1,5 +1,5 @@
 admin-player-actions-window-title = Player Actions Panel
-admin-player-actions-window-ban = Banir
+admin-player-actions-window-ban = Painel de Ban
 admin-player-actions-window-admin-ghost = Fantasma Admin
 admin-player-actions-window-teleport = Teleportar
 admin-player-actions-window-permissions = Painel de Permissões

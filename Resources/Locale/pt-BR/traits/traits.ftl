@@ -25,3 +25,6 @@ trait-uncloneable-desc = Não pode ser clonado
 
 trait-pirate-accent-name = Sotaque Pirata (em inglês)
 trait-pirate-accent-desc = Não podes parar de falar como um pirata!
+
+trait-archaic-accent-name = Archaic Accent
+trait-archaic-accent-desc = You speak in a way that many others find outdated

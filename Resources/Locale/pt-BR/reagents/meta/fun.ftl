@@ -14,4 +14,4 @@ reagent-name-saxoite = Saxoite
 reagent-desc-saxoite = Tem cheiro de jazz.
 
 reagent-name-licoxide = Licoxide
-reagent-desc-licoxide = Parece... eletrizante.
+reagent-desc-licoxide = Um ácido sintético da bateria. Parece... eletrizante.
