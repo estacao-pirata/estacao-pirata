@@ -36,7 +36,7 @@
     - sandbox
   name: sandbox-title
   description: sandbox-description
-  showInVote: false
+  showInVote: true
   maxPlayers: 5
   rules:
     - Sandbox
@@ -61,7 +61,6 @@
   description: death-match-description
   rules:
     - DeathMatch
-  showInVote: true
 
 - type: gamePreset
   id: Nukeops
