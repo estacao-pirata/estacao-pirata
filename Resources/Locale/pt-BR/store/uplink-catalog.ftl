@@ -29,7 +29,6 @@ uplink-gloves-north-star-desc = Um par de luvas que reduz drasticamente o tempo 
 # Explosive
 uplink-explosive-grenade-name = Granada explosiva
 uplink-explosive-grenade-desc = Uma granada simplista com um fusível de dez segundos que é voltada para ferir pessoas. Causa danos mínimos do casco.
-Granada que cria uma explosão pequena, mas devastadora.
 
 uplink-flash-grenade-name = Flashbang
 uplink-flash-grenade-desc = Um flashbang de edição padrão, capaz de cegar e retardar qualquer pessoa sem proteção adequada. Isso, é claro, inclui você; certifique-se de que você está devidamente equipado antes de usá-lo.
