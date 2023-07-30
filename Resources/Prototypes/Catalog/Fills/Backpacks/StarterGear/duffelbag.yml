@@ -227,6 +227,16 @@
 
 - type: entity
   noSpawn: true
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelReporterFilled
+  components:
+    - type: StorageFill
+      contents:
+      - id: BoxSurvival
+      - id: ComputerMassMediaCircuitboard
+
+- type: entity
+  noSpawn: true
   parent: ClothingBackpackDuffelSalvage
   id: ClothingBackpackDuffelSalvageFilled
   components:
