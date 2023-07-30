@@ -1,15 +1,17 @@
 ﻿zombie-title = Zumbis
-zombie-description = Um vírus capaz de animar os mortos foi lançado na estação! Trabalhe com seus colegas para contem o surto e sobreviver.
+zombie-description = Os mortos-vivos foram soltos na estação! Trabalhe com seus colegas para contem o surto e sobreviver.
 
 zombie-not-enough-ready-players = Jogadores prontos insuficientes! Tinham {$readyPlayersCount} jogadores prontos de {$minimumPlayers} necessários. Não pode começar o modo Zumbis.
 zombie-no-one-ready = Nenhum jogador pronto! Não pode começar o modo Zumbis.
 
-zombie-patientzero-role-greeting = Você é o paciente 0. Esconda sua infecção, pegue suprimentos e esteja preparado para transformar assim que morrer.
+zombie-patientzero-role-greeting = Você é um primeiro infectado. Obtenha suprimentos e prepare-se para sua eventual transformação. Seu objetivo é ultrapassar a estação enquanto infecta o maior número possível de pessoas.
 zombie-healing = Você sente a sua carne se agitar
 zombie-infection-warning = Você sente que o vírus zumbi toma conta
 zombie-infection-underway = Seu sangue começa a engrossar
 
 zombie-alone = Você se sente completamente sozinho.
+
+zombie-shuttle-call = Detectamos que os mortos-vivos já tomaram a estação. Despachando um ônibus de emergência para recolher o pessoal restante.
 
 zombie-round-end-initial-count = {$initialCount ->
     [one] Teve um infectado inicial:

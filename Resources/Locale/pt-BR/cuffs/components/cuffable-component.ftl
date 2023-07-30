@@ -8,8 +8,8 @@ cuffable-component-start-uncuffing-by-other-message = {$otherName} começa a des
 
 cuffable-component-remove-cuffs-success-message = Você removeu as algemas com sucesso.
 cuffable-component-remove-cuffs-by-other-success-message = {$otherName} desalgema suas mãos.
-cuffable-component-remove-cuffs-to-other-partial-success-message = Você remove uma algema. {$cuffedHandCount} mão do(a) {$otherName}'s continua algemada.
-cuffable-component-remove-cuffs-by-other-partial-success-message = {$otherName} remove uma algema. {$cuffedHandCount} mão continua algemada.
+cuffable-component-remove-cuffs-to-other-partial-success-message = Você remove uma algema. {$cuffedHandCount} das mãos do(a) {$otherName}'s continuam algemadas.
+cuffable-component-remove-cuffs-by-other-partial-success-message = {$otherName} remove uma algema. {$cuffedHandCount} das suas mãos continuam algemadas.
 cuffable-component-remove-cuffs-partial-success-message = Você remove uma algema. {$cuffedHandCount} mão continua algemada.
 cuffable-component-remove-cuffs-fail-message = Você falha em remover as algemas.
 
