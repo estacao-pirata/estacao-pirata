@@ -1,9 +1,12 @@
 [color=#ff0000]Você deve ter 16 anos ou mais para jogar. Usuários menores de 16 anos serão banidos imediatamente.[/color]
+[color=#ff0000]Fale português, por favor.[/color]
 
-Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer o que se espera de seu departamento.
+A Estação Pirata é um servidor de Roleplay. Definimos isso como o desempenhar a sua função. Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer o que se espera de seu departamento. Fizemos o possível para que as leis fossem corretas e curtas, por favor, leia todas elas.
 
 [color=#a4885c]A Regra de[/color] [color=#ffd700]Ouro[/color]. Os administradores podem desconsiderar todas e quaisquer dessas regras se julgarem que é do melhor interesse da rodada atual, servidor e/ou comunidade em geral. É claro que eles serão totalmente responsabilizados por suas ações se exercerem esse privilégio.
     - Do not grief / spawnkill players on the arrivals station, arrivals shuttle, or other newly spawned areas. This applies if you are an antagonist.
+
+A distinção entre o seu personagem e você fora do personagem é aplicada com rigor. Se você quiser conversar sobre assuntos OOC com as pessoas próximas a você, basta usar o canal de bate-papo "LOOC".
 
 [color=#a4885c]1.[/color] Este não é um deathmatch, seja humano. Faça tudo o que é possível para clonar ou salvar pessoas da morte.
 
@@ -20,15 +23,49 @@ Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer
 
 [color=#a4885c]5.[/color] Roleplay Erótico (ERP) [color=#ff0000]não é permitido.[/color].
 
-[color=#a4885c]6.[/color] Insultos e intolerância não são permitidos.
+[color=#a4885c]6.[/color] O assédio de outros jogadores por motivos OOC/meta [color=#ff0000]não são permitidos[/color].
+
+[color=#a4885c]7.[/color] Insultos e intolerância não são permitidos.
     - Tentar intencionalmente rebaixar os outros devido à sua raça, sexo, gênero, orientação ou afins não é tolerado.
     - Em uma estação cheia de estranhos e colegas de trabalho alienígenas, o comentário ocasional pode ser tolerado. Não interprete um personagem "racista" ou discrimine ninguém.
 
-[color=#a4885c]7.[/color] Se comunicar fora do jogo não é permitido.
+[color=#a4885c]8.[/color] Preferimos que você use nomes realistas.
 
-[color=#a4885c]8.[/color] Após ser clonado ou virar um fantasma, você [color=#ff0000]esquece sua vida anterior[/color].
+[color=#a4885c]9.[/color] Se comunicar fora do jogo não é permitido.
+
+[color=#a4885c]10.[/color] Após ser clonado ou virar um fantasma, você [color=#ff0000]esquece sua vida anterior[/color].
     - A ideia principal é não descrever quem ou o que matou você. Você não tem que agir como um amnésico total.
     - Esqueça tudo o que você viu enquanto era um fantasma.
+
+[color=#a4885c]11.[/color] Se você ver algum jogador AFK, você pode mandar um ahelp (F1) para que ele seja removido graciosamente do round.
+
+REGRAS PARA SEGURANÇAS
+[color=#a4885c]1.[/color] Espera-se que a segurança use medidas não letais, a menos que seja confrontada com força letal.
+    - Se você ainda conseguir matar alguém como segurança, faça com que eles sejam clonados imediatamente e certifique-se de que suas coisas sejam devolvidas.
+
+[color=#a4885c]2.[/color] Os prisioneiros que não mataram ninguém não devem ser presos por mais de 10 minutos.
+
+[color=#a4885c]3.[/color] Os prisioneiros de crimes capitais têm direito a um julgamento. Temos advogados, use-os.
+    - Os julgamentos devem incluir um juiz, promotor, réu e júri.
+    - Não esperamos que você seja especialista em processos judiciais da vida real, a principal medida para determinar se um julgamento foi bom o suficiente foi que todos se esforçassem para interpretar.
+
+[color=#a4885c]4.[/color] Todos os itens de uplink são da mesma classe de contrabando que as armas do arsenal e é assim que eles devem ser tratados.
+
+REGRAS PARA ANTAGONISTAS
+[color=#a4885c]1.[/color] Os danos causados ​​pelos antagonistas devem ser aproximadamente proporcionais aos seus objetivos.
+    - Isso é obviamente um pouco subjetivo, mas matar todos os médicos quando você só precisa roubar algo da engenharia é desaprovado.
+
+[color=#a4885c]2.[/color] Trapaças e campers de arrival são proibidos.
+
+[color=#a4885c]3.[/color] Outros antagonistas não são necessariamente seus amigos. Traidores, reis ratos e possivelmente até dragões espaciais são agentes livres, mas ninguém deveria trabalhar junto com xenos, nukes ou zumbis.
+
+REGRAS PARA ADMINISTRADORES E MODERADORES
+[color=#a4885c]1.[/color] Em caso de problemas, antes de qualquer coisa, você deve conversar com a pessoa.
+    - Se o problema não for resolvido, você pode aplicar o banimento, mencionando para que a pessoa entre em contato via discord ou via email(estacaoespacialpirata@gmail.com) para a apelação.
+
+[color=#a4885c]2.[/color] Não use poderes de administrador enquanto joga. Se você está jogando com um personagem, é obrigatório usar o comando DEADMIN.
+
+[color=#a4885c]3.[/color] Se você baniu alguém, você não deve participar da resolução da apelação de outro jogador.
 
 REGRAS DE ESCALA
 [color=#a4885c]1.[/color] A autodefesa é sempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio.
