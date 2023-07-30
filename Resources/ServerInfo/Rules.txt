@@ -1,7 +1,7 @@
 [color=#ff0000]Você deve ter 16 anos ou mais para jogar. Usuários menores de 16 anos serão banidos imediatamente.[/color]
 [color=#ff0000]Fale português, por favor.[/color]
 
-A Estação Pirata é um servidor de Roleplay. Definimos isso como o desempenhar a sua função. Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer o que se espera de seu departamento. Fizemos o possível para que as leis fossem corretas e curtas, por favor, leia todas elas.
+A Estação Pirata é um servidor de Roleplay Médio [MRP]. Definimos isso como o desempenhar a sua função. Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer o que se espera de seu departamento. Fizemos o possível para que as leis fossem corretas e curtas, por favor, leia todas elas.
 
 [color=#a4885c]A Regra de[/color] [color=#ffd700]Ouro[/color]. Os administradores podem desconsiderar todas e quaisquer dessas regras se julgarem que é do melhor interesse da rodada atual, servidor e/ou comunidade em geral. É claro que eles serão totalmente responsabilizados por suas ações se exercerem esse privilégio.
     - Do not grief / spawnkill players on the arrivals station, arrivals shuttle, or other newly spawned areas. This applies if you are an antagonist.
@@ -37,8 +37,6 @@ A distinção entre o seu personagem e você fora do personagem é aplicada com 
     - A ideia principal é não descrever quem ou o que matou você. Você não tem que agir como um amnésico total.
     - Esqueça tudo o que você viu enquanto era um fantasma.
 
-[color=#a4885c]11.[/color] Se você ver algum jogador AFK, você pode mandar um ahelp (F1) para que ele seja removido graciosamente do round.
-
 REGRAS PARA SEGURANÇAS
 [color=#a4885c]1.[/color] Espera-se que a segurança use medidas não letais, a menos que seja confrontada com força letal.
     - Se você ainda conseguir matar alguém como segurança, faça com que eles sejam clonados imediatamente e certifique-se de que suas coisas sejam devolvidas.
@@ -52,23 +50,13 @@ REGRAS PARA SEGURANÇAS
 [color=#a4885c]4.[/color] Todos os itens de uplink são da mesma classe de contrabando que as armas do arsenal e é assim que eles devem ser tratados.
 
 REGRAS PARA ANTAGONISTAS
-[color=#a4885c]1.[/color] Os danos causados ​​pelos antagonistas devem ser aproximadamente proporcionais aos seus objetivos.
-    - Isso é obviamente um pouco subjetivo, mas matar todos os médicos quando você só precisa roubar algo da engenharia é desaprovado.
-
+[color=#a4885c]1.[/color] Traidores não devem executar massacres, ou seja, se você matar metade da tripulação, ou departamentos inteiros estará sujeito à moderaçào. 
 [color=#a4885c]2.[/color] Trapaças e campers de arrival são proibidos.
 
 [color=#a4885c]3.[/color] Outros antagonistas não são necessariamente seus amigos. Traidores, reis ratos e possivelmente até dragões espaciais são agentes livres, mas ninguém deveria trabalhar junto com xenos, nukes ou zumbis.
 
-REGRAS PARA ADMINISTRADORES E MODERADORES
-[color=#a4885c]1.[/color] Em caso de problemas, antes de qualquer coisa, você deve conversar com a pessoa.
-    - Se o problema não for resolvido, você pode aplicar o banimento, mencionando para que a pessoa entre em contato via discord ou via email(estacaoespacialpirata@gmail.com) para a apelação.
-
-[color=#a4885c]2.[/color] Não use poderes de administrador enquanto joga. Se você está jogando com um personagem, é obrigatório usar o comando DEADMIN.
-
-[color=#a4885c]3.[/color] Se você baniu alguém, você não deve participar da resolução da apelação de outro jogador.
-
 REGRAS DE ESCALA
-[color=#a4885c]1.[/color] A autodefesa é sempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio.
+[color=#a4885c]1.[/color] A autodefesa é sempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio (borgs/cérebro positrônico/silício).
     - Isso é apenas para salvar a sua própria vida. Na maioria das circunstâncias, as pessoas deixam de ser uma ameaça quando não apresentam mais perigo ou quando entram em estado crítico.
 
 [color=#a4885c]2.[/color] Não escale as situações desnecessariamente. Poucas coisas merecem uma luta até a morte. Tente responder a palavras com palavras, punhos com punhos e assim por diante.
