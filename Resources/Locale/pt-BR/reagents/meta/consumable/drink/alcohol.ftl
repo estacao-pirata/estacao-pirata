@@ -58,6 +58,9 @@ reagent-desc-whiskey = Uma bebida alcólica destilada feita de grãos esmagados 
 reagent-name-wine = vinho
 reagent-desc-wine = Um clássico e elegante, feito de suco de uva destilado.
 
+reagent-name-champagne = champagne
+reagent-desc-champagne = Um vinho espumante finíssimo
+
 reagent-name-acid-spit = acidspit
 reagent-desc-acid-spit = Uma bebida para os ousados, pode ser mortal se preparada incorretamente!
 

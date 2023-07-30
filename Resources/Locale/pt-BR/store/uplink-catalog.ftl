@@ -3,7 +3,7 @@ uplink-pistol-viper-name = Viper
 uplink-pistol-viper-desc = Uma arma pequena, facilmente ocultável, mas um tanto fraca. Equipado com um receptor totalmente automático. Use carregadores de pistola (.35 auto).
 
 uplink-revolver-python-name = Python
-uplink-revolver-python-desc = Um revólver barulhento e mortal. Usa .45 Magnum.
+uplink-revolver-python-desc = Um revólver brutalmente simples, eficaz e alto do Syndicate. Vem carregado com balas perfurantes. Usa cartuchos .45 magnum.
 
 uplink-pistol-cobra-name = Cobra
 uplink-pistol-cobra-desc = Uma pistola robusta com silenciador embutido. Use carregadores de pistola (.25 sem estojo).
@@ -62,8 +62,8 @@ uplink-pistol-magazine-desc = Pente de pistola com 10 cartuchos. Compativel com 
 uplink-pistol-magazine-caseless-name = Pente de Pistola (.25 sem estojo)
 uplink-pistol-magazine-caseless-desc = Pente de pistola com 10 cartuchos. Compativel com a Cobra.
 
-uplink-speedloader-magnum-name = Speedloader (.45 magnum)
-uplink-speedloader-magnu-desc = Carregador rápido de revolver com 6 cartuchos. Compatível com a Python.
+uplink-speedloader-magnum-name = Speedloader (.45 magnum AP)
+uplink-speedloader-magnu-desc = Carregador rápido de revolver com 6 cartuchos perfurantes de armadura, capazes de penetrar qualquer chapa. Compatível com a Python.
 
 uplink-mosin-ammo-name = Caixa de munição .30 de rifle
 uplink-mosin-ammo-desc = Uma caixa de pentes para o rifle mosin.
@@ -135,17 +135,20 @@ uplink-deathrattle-implant-name = Caixa de implantes Deathrattle
 uplink-deathrattle-implant-desc = Uma caixa contendo implantes deathrattle suficientes para todo o esquadrão. Retransmite uma mensagem contendo sua posição para o canal do sindicato quando você entra em um estado crítico ou morre.
 
 # Bundles
-uplink-meds-bundle-name = Medical Bundle
+uplink-meds-bundle-name = Pacote Médico
 uplink-meds-bundle-desc = Tudo o que você precisa para colocar seus companheiros de volta na luta: principalmente um medkit de combate, um desfibrilador e três medidores de combate.
 
-uplink-ammo-bundle-name = Ammo Bundle
+uplink-ammo-bundle-name = Pacote de Munições
 uplink-ammo-bundle-desc = Recarregando! Contém 4 pentes para o C-20r, 4 tambores para o Bulldog e 2 caixas de munição para o L6 SAW.
+
+uplink-sniper-bundle-name = Pacote Sniper
+uplink-sniper-bundle-desc = Uma pasta discreta que contém uma hristov, 30 balas sobressalentes e um disfarce conveniente
 
 uplink-c20r-bundle-name = Pacote C-20r
 uplink-c20r-bundle-desc = A velha fiel: A clássica submetralhadora C-20r, empacotada com três pentes.
 
 uplink-buldog-bundle-name = Pacote Bulldog
-uplink-buldog-bundle-desc = Mau e enxuto: Contém a popular Escopeta Bulldog, um tambor de saco de feijão de 12g e 2 tambores de bala de 12g.
+uplink-buldog-bundle-desc = Mau e enxuto: Contém a popular Escopeta Bulldog, um tambor de saco de feijão de calibre 12 e três tambores de munição calibre 12.
 
 uplink-grenade-launcher-bundle-name = China-Lake Bundle
 uplink-grenade-launcher-bundle-desc = Um antigo lançador de granadas China-Lake empacotado com 8 rodadas de vários capacidade de destruição.
@@ -192,7 +195,7 @@ uplink-holy-hand-grenade-name = Granada Santa de Mão
 uplink-holy-hand-grenade-desc = Senhor, abençõem esta tua granada de mão, para que com ele possas soprar os teus inimigos em pedacinhos, na tua misericórdia.
 
 uplink-revolver-cap-gun-fake-name = Arma de Festim Falsa
-uplink-revolver-cap-gun-fake-desc = Engane o seu inimigo! Cabe balas de festim e de magnum. Vem carregada com balas de magnum.
+uplink-revolver-cap-gun-fake-desc = Engane o seu inimigo! Cabe munições de festim e de magnum. Vem carregada com cartuchos magnum.
 
 uplink-banana-peel-explosive-name = Casca de Banana Explosiva
 uplink-banana-peel-explosive-desc = Eles vão cair na gargalhada quando eles escorregarem nela!

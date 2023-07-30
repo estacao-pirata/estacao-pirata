@@ -28,3 +28,6 @@ trait-pirate-accent-desc = Não podes parar de falar como um pirata!
 
 trait-archaic-accent-name = Archaic Accent
 trait-archaic-accent-desc = You speak in a way that many others find outdated
+
+trait-accentless-name = Sem sotaque
+trait-accentless-desc = Você não tem o sotaque que sua espécie normalmente teria
