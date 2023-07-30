@@ -44,6 +44,10 @@ job-name-ertmedic = médico da ERT
 job-name-ertjanitor = zelador da ERT
 job-name-boxer = boxeador
 job-name-zookeeper = funcionário do zoológico
+job-senior-engineer = engenheiro pleno
+job-senior-officer = segurança tutor
+job-senior-physician = médico pleno
+job-senior-researcher = pesquisador pleno
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
@@ -91,3 +95,7 @@ JobTechnicalAssistant = assistente técnico
 JobWarden = carcereiro
 JobBoxer = boxeador
 JobZookeeper = funcionário do zoológico
+JobSeniorEngineer = engenheiro pleno
+JobSeniorOfficer = segurança tutor
+JobSeniorPhysician = médico pleno
+JobSeniorResearcher = pesquisador pleno

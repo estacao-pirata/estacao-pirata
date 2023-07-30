@@ -166,6 +166,7 @@ flavor-complex-rum = de açucar fermentado
 flavor-complex-coffee-liquor = de forte e amargo café
 flavor-complex-whiskey = de whisky
 flavor-complex-shitty-wine = de cascas de uva
+flavor-complex-champagne = como pão bem fresco
 flavor-complex-iced-tea = de chá gelado
 flavor-complex-coffee = de café
 flavor-complex-milk = de leite

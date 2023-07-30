@@ -1,5 +1,6 @@
 ﻿default-program-name = Programa
 notekeeper-program-name = Bloco de notas
+news-read-program-name = Boletim da estação
 
 net-probe-program-name = NetProbe
 net-probe-scan = Escaneado {$device}!
