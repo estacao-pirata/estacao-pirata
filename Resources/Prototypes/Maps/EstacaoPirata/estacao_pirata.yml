@@ -2,7 +2,7 @@
   id: EstacaoPirata
   mapName: 'Estação Pirata'
   mapPath: /Maps/EstacaoPirata/estacao_pirata.yml
-  minPlayers: 8
+  minPlayers: 0
   maxPlayers: 45
   stations:
     EstacaoPirata:
