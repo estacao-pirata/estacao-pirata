@@ -61,7 +61,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 1
+    weight: 1.5
     duration: 1
     earliestStart: 45
     minimumPlayers: 20
@@ -74,7 +74,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 5
+    weight: 0
     duration: 1
     earliestStart: 45
     minimumPlayers: 20
@@ -151,17 +151,17 @@
     duration: 50
   - type: VentCrittersRule
     entries:
-    - id: MobMouse
-      prob: 0.015
-    - id: MobMouse1
-      prob: 0.015
-    - id: MobMouse2
-      prob: 0.015
+    # - id: MobMouse
+    #   prob: 0.01
+    # - id: MobMouse1
+    #   prob: 0.01
+    # - id: MobMouse2
+    #   prob: 0.01
     - id: MobRatServant
       prob: 0.015
     specialEntries:
     - id: SpawnPointGhostRatKing
-      prob: 0.005
+      prob: 0.0075
 
 - type: entity
   id: PowerGridCheck
@@ -244,11 +244,11 @@
   - type: VentCrittersRule
     entries:
     - id: MobMouse
-      prob: 0.02
+      prob: 0.01
     - id: MobMouse1
-      prob: 0.02
+      prob: 0.01
     - id: MobMouse2
-      prob: 0.02
+      prob: 0.01
 
 - type: entity
   id: SlimesSpawn
@@ -282,7 +282,7 @@
   - type: VentCrittersRule
     entries:
     - id: MobGiantSpiderAngry
-      prob: 0.05
+      prob: 0.1
 
 - type: entity
   id: SpiderClownSpawn
@@ -297,7 +297,7 @@
   - type: VentCrittersRule
     entries:
     - id: MobClownSpider
-      prob: 0.05
+      prob: 0.025
 
 - type: entity
   id: ZombieOutbreak
@@ -306,7 +306,7 @@
   components:
   - type: StationEvent
     earliestStart: 50
-    weight: 2.5
+    weight: 0.5
     duration: 1
   - type: ZombieRule
     minStartDelay: 0 #let them know immediately
