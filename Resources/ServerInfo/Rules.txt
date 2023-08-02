@@ -32,7 +32,7 @@ A distinção entre o seu personagem e você fora do personagem é aplicada com 
     - A ideia principal é não descrever quem ou o que matou você. Você não tem que agir como um amnésico total.
     - Esqueça tudo o que você viu enquanto era um fantasma.
 
-[color=#a4885c]10.[/color] Se você não for antagonista você [color=#a4885c]não pode matar outras pessoas[/color], a única excessão sendo auto-defesa: se for improvável que a pessoa te mate ou se ela não estiver de fato colocando sua vida em risco não é o caso de auto-defesa. Isso é chamado pelo jargão gingo "self antag".
+[color=#a4885c]10.[/color] Se você não for antagonista você [color=#a4885c]não pode matar outras pessoas[/color], a única excessão sendo auto-defesa: se for improvável que a pessoa te mate ou se ela não estiver de fato colocando sua vida em risco não é o caso de auto-defesa. Isso é chamado pelo jargão gingo "self antag", algo como auto-declarado antag.
     Sem ser antagonista você também não pode:
     - Sabotar a estação
     - Fazer armadilhas
