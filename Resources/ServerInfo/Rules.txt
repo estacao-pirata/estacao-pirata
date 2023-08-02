@@ -3,7 +3,7 @@
 A Estação Pirata é um servidor de Roleplay Médio [MRP]. Definimos isso como o desempenhar a sua função. Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer o que se espera de seu departamento. Fizemos o possível para que as leis fossem corretas e curtas, por favor, leia todas elas.
 
 [color=#a4885c]A Regra de[/color] [color=#ffd700]Ouro[/color]. Os administradores podem desconsiderar todas e quaisquer dessas regras se julgarem que é do melhor interesse da rodada atual, servidor e/ou comunidade em geral. É claro que eles serão totalmente responsabilizados por suas ações se exercerem esse privilégio.
-    - Do not grief / spawnkill players on the arrivals station, arrivals shuttle, or other newly spawned areas. This applies if you are an antagonist.
+    - Não faça grief ou spawn camping em jogadores que estão chegando na estaçào, ou na nave de chegadas, ou no terminal. Isso se aplica se você não é um antagonista.
 
 A distinção entre o seu personagem e você fora do personagem é aplicada com rigor. Se você quiser conversar sobre assuntos OOC com as pessoas próximas a você, basta usar o canal de bate-papo "LOOC".
 
@@ -31,6 +31,13 @@ A distinção entre o seu personagem e você fora do personagem é aplicada com 
 [color=#a4885c]9.[/color] Após ser clonado ou virar um fantasma, você [color=#ff0000]esquece sua vida anterior[/color].
     - A ideia principal é não descrever quem ou o que matou você. Você não tem que agir como um amnésico total.
     - Esqueça tudo o que você viu enquanto era um fantasma.
+
+[color=#a4885c]10.[/color] Se você não for antagonista você [color=#a4885c]não pode matar outras pessoas[/color], a única excessão sendo auto-defesa: se for improvável que a pessoa te mate ou se ela não estiver de fato colocando sua vida em risco não é o caso de auto-defesa. Isso é chamado pelo jargão gingo "self antag".
+    Sem ser antagonista você também não pode:
+    - Sabotar a estação
+    - Fazer armadilhas
+    - Envenenar os outros
+    Ative a checkbox dos antagonistas em customizar no lobby e espere sua vez e evite pegar papéis que não queira interpretar caso não ganhe status antag.
 
 REGRAS PARA SEGURANÇAS
 [color=#a4885c]1.[/color] Espera-se que a segurança use medidas não letais, a menos que seja confrontada com força letal.
