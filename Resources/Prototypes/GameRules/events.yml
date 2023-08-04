@@ -306,7 +306,7 @@
   components:
   - type: StationEvent
     earliestStart: 50
-    weight: 0.5
+    weight: 0.1
     duration: 1
   - type: ZombieRule
     minStartDelay: 0 #let them know immediately
