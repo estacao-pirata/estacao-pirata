@@ -1,0 +1,24 @@
+## UI
+bank-atm-menu-title = Banco Galático NT
+bank-atm-menu-balance-label = Saldo da conta:{" "}
+bank-atm-menu-no-bank = Não há conta bancária!
+bank-atm-menu-withdraw-button = Sacar
+bank-atm-menu-deposit-label = Valor do depósito:{" "}
+bank-atm-menu-no-deposit = Vazio
+bank-atm-menu-deposit-button = Depósito
+bank-insufficient-funds = Fundos insuficientes
+bank-atm-menu-transaction-denied = Transação Negada
+bank-atm-menu-deposit-successful = Depósito Aceito
+bank-atm-menu-withdraw-successful = Transferência Aprovada
+bank-atm-menu-wrong-cash = Tipo de moeda errada
+station-bank-atm-menu-title = Administração da Estação
+bank-atm-menu-amount-label = Montante:{" "}
+bank-atm-reason-label = Para:{" "}
+bank-atm-description-label = Descrição:{" "}
+station-bank-payroll = Folha de pagamento
+station-bank-workorder = Ordem de trabalho
+station-bank-supplies = Suprimentos da Estação
+station-bank-bounty = Recompensa
+station-bank-other = Outros
+station-bank-required = {"("}Required{")"}
+station-bank-requires-reason = NT Requer detalhes da transação
