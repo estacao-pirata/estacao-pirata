@@ -25,7 +25,7 @@ shuttle-console-linear-velocity = Velocidade linear:
 shuttle-console-angular-velocity = Velocidade angular:
 
 shuttle-console-dock-label = Docando
-shuttle-console-docked = {$index} (Docado)
+shuttle-console-docked = (Docado)
 shuttle-console-dock-button = Doca {$suffix}
 
 shuttle-console-hyperspace-label = Destinos FTL
