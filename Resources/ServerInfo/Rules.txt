@@ -2,13 +2,13 @@
 
 [color=#ff0000]Frontier Station é um servidor de Medium Roleplay. Tente mergulhar em seu caráter. Isso inclui fazer seu trabalho como membro da estação ou da tripulação da nave e delegar tarefas que estão fora dessa descrição, ou atacar o espaço como capitão de sua nave. Isso não significa que você é forçado a jogar toda a rodada; Frontier Station é projetado com a jogabilidade pop-in-and-out em mente, onde alguns jogadores vão e vêm, mas sua conta bancária permanece persistente entre as reinicializações do servidor.
 
-[color=#a4885c]0 [/color] Os administradores podem ignorar todas e quaisquer regras se o considerarem no melhor interesse da rodada, servidor e/ou comunidade em geral.
+[color=#a4885c]0.[/color] Os administradores podem ignorar todas e quaisquer regras se o considerarem no melhor interesse da rodada, servidor e/ou comunidade em geral.
         - Eles serão responsabilizados plenamente por suas ações se exercerem esse privilégio.
 
-[colora4885c]0.1.[/color] Todas estas regras se aplicam como se pretendem.
+[color=#a4885c]0.1.[/color] Todas estas regras se aplicam como se pretendem.
         - Todo exemplo de uma infração de regras não pode ser definido como escrito, portanto, a aplicação das regras está sujeita à interpretação do pessoal da intenção da regra.
 
-[color=#a4885c]1 [/color] Representação erótica (ERP), conteúdo erótico, ou mais de 18 conteúdos sexuais é [color=#ff0000] não permitido em qualquer circunstância [/color].
+[color=#a4885c]1.[/color] Representação erótica (ERP), conteúdo erótico, ou mais de 18 conteúdos sexuais é [color=#ff0000] não permitido em qualquer circunstância [/color].
 
 [color=#a4885c]2.[/color] Siga as expectativas da comunidade. Isso inclui tanto no jogo quanto em outros lugares da nossa comunidade.
         - Não sejas um idiota nem assediar outros jogadores.
@@ -20,11 +20,11 @@
         - Não respawn para evitar a punição das forças de segurança, ou reaparecer como o mesmo caráter se for dada uma sentença de confinamento permanente.
         - Explorações, abusando de insetos, trapaça, jogos de poder e outros comportamentos extremamente coxos são proibidos.
 
-[colora4885c]3 [/color] Não use informações obtidas fora dos meios no personagem, e não diga coisas In Character (IC) no canal de bate-papo Local Out Of Character (LOOC).
+[color=#a4885c]3.[/color] Não use informações obtidas fora dos meios no personagem, e não diga coisas In Character (IC) no canal de bate-papo Local Out Of Character (LOOC).
         - Ou seja, metagaming. Isso se refere especialmente à comunicação entre jogadores fora do jogo através de coisas como Discord, conhecido como meta-comms. Os personagens podem saber tudo sobre mecânicas ou antagonistas no jogo, bem como manter amizades persistentes e relacionamentos com outros personagens quando não com o propósito de obter vantagem injusta, unindo-se por pouca razão do CI.
         - Não diga coisas LOOC no IC também, como dizer que você “precisa ir afk porque seu cão quer sair”, no bate-papo do CI.
 
-[colora4885c]4 [/color] Depois de clonar, renascer ou assumir um papel de fantasma, você deve seguir a nova regra de vida.
+[color=#a4885c]4.[/color] Depois de clonar, renascer ou assumir um papel de fantasma, você deve seguir a nova regra de vida.
         - Se clonado, ressuscitado ou respawned, você não tem amnésia, mas você só pode se lembrar de detalhes vagos de quem ou o que o matou.
         - Se assumir um papel de fantasma, você não tem lembranças de vidas passadas para a duração de jogar como um papel fantasma.
         - Um período de não-agressão de 15 minutos é necessário após a renascimento, então você não pode entrar imediatamente em um navio e tentar matar quem o matou.
@@ -45,7 +45,7 @@
         - Os antagonistas não são necessariamente seus amigos. Traidores, reis de ratos e às vezes bruxos são agentes livres, mas ninguém deve trabalhar em conjunto com xenomorfos, agentes nucleares, dragões espaciais ou zumbis.
         - Não-piratas podem não ajudar ou trabalhar com tripulações piratas, exemplos são como assistir scanners de massa e derrubá-los de quem atacar, fingir ser reféns, ou conscientemente financiar os piratas para equipamentos / navios.
 
-[coloração4885c]8.[/color] Os papéis das Forças de Segurança e do Estado-Maior da Estação são mantidos em um padrão mais elevado de roleplay e são estritamente não-antagonistas.
+[color=#a4885c]8.[/color] Os papéis das Forças de Segurança e do Estado-Maior da Estação são mantidos em um padrão mais elevado de roleplay e são estritamente não-antagonistas.
         - A interpretação das Forças de Segurança como “policiais ruins” e intencionalmente violar a lei espacial é proibida. A Lei Espacial não é opcional para essas funções, e um conhecimento forte é necessário antes de assumir uma posição de segurança.
         - Os bens apreendidos dos criminosos só podem ser usados para tornar as vítimas inteiras e para pagar por quaisquer multas previstas na lei. Quaisquer excessos financeiros recebidos da venda de bens criminosos devem ser devolvidos aos seus proprietários originais e não devem ser saqueados ou extorquidos pelas forças de segurança. Esta é uma política rigorosa de tolerância zero.
         - Todos os jogadores que são contratados como tripulação para a estação como equipe de segurança ou serviço, ou através de outros trabalhos diretos que trabalham para contracheques da estação, são considerados não-anilhas e funcionários oficiais da Nanotrasen. Engajar-se em quaisquer atividades antagônicas hostis, ou abuso do equipamento fornecido enquanto trabalha nessas funções, é estritamente proibido.
