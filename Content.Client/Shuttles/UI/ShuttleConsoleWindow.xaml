@@ -55,8 +55,8 @@
         <BoxContainer Name="RightDisplay"
                       VerticalAlignment="Top"
                       HorizontalAlignment="Right"
-                      MinWidth="256"
-                      MaxWidth="256"
+                      MinWidth="300"
+                      MaxWidth="300"
                       Align="Center"
                       Orientation="Vertical">
             <controls:StripeBack>
