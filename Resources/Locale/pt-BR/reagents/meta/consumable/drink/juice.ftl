@@ -20,7 +20,7 @@ reagent-name-juice-lemon = suco de limão siciliano
 reagent-desc-juice-lemon = Esse suco é MUITO azedo. Melhor beber uma limonada.
 
 reagent-name-juice-lime = suco de limão
-reagent-desc-juice-lime = O doce-azedo suco de limas.
+reagent-desc-juice-lime = O doce-azedo suco de limão.
 
 reagent-name-juice-orange = suco de laranja
 reagent-desc-juice-orange = Deliciose E rico em vitamina C. O que mais você precisa?
