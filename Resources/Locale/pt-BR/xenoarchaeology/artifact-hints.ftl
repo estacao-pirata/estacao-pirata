@@ -17,6 +17,9 @@ artifact-effect-hint-multitool = Conglomerado de utilidades
 artifact-effect-hint-storage = Câmara interna
 artifact-effect-hint-drill = Rotor serrilhado
 artifact-effect-hint-soap = Superfície lubrificada
+artifact-effect-hint-communication = Comunicação de longa distância
+artifact-effect-hint-phasing = Faseamento estrutural
+artifact-effect-hint-sentience = Atividade neurológica
 
 # the triggers should be more obvious than the effects
 # gives people an idea of what to do: don't be too specific (i.e. no "welders")
@@ -31,7 +34,6 @@ artifact-trigger-hint-magnet = Ondas magnéticas
 artifact-trigger-hint-death = Essência vital
 artifact-trigger-hint-radiation = Radiação
 artifact-trigger-hint-pressure = Pressão extrema
-artifact-trigger-hint-gas = Gás
 artifact-trigger-hint-land = Desaceleração ativa
 artifact-trigger-hint-regular-gases = Gases atmosféricos padrão
 artifact-trigger-hint-plasma = Plasma Gasoso
