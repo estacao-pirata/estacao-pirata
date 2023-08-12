@@ -12,15 +12,15 @@
 
 [color=#a4885c]2.[/color] Siga as expectativas da comunidade. Isso inclui tanto no jogo quanto em outros lugares da nossa comunidade.
         - Não sejas um idiota nem assediar outros jogadores.
-        - Não evitem proibições.
+        - Não evada bans.
         - Não seja racista nem intolerante.
-        - Não tente causar atraso no servidor.
-        - Não luto como um não-antagonista; isso inclui contra AFK e SSD / Cataatonic Players.
+        - Não tente causar lag no servidor.
+        - Não faça grief como um não-antagonista; isso inclui contra AFK e SSD / Cataatonic Players.
         - Não deixe o servidor para evitar a punição da equipe do administrador.
-        - Não respawn para evitar a punição das forças de segurança, ou reaparecer como o mesmo caráter se for dada uma sentença de confinamento permanente.
-        - Explorações, abusando de insetos, trapaça, jogos de poder e outros comportamentos extremamente coxos são proibidos.
+        - Não use respawn para evitar a punição das forças de segurança, ou reaparecer como o mesmo caráter se for dada uma sentença de confinamento permanente.
+        - Exploits, abuso de bugs, trapaça, power games e outros comportamentos extremamente sem graça são proibidos.
 
-[color=#a4885c]3.[/color] Não use informações obtidas fora dos meios no personagem, e não diga coisas In Character (IC) no canal de bate-papo Local Out Of Character (LOOC).
+[color=#a4885c]3.[/color] Não use informações obtidas fora dos meios em personagem, e não diga coisas em personagem, In Character (IC) no canal de bate-papo Local Out Of Character (LOOC).
         - Ou seja, metagaming. Isso se refere especialmente à comunicação entre jogadores fora do jogo através de coisas como Discord, conhecido como meta-comms. Os personagens podem saber tudo sobre mecânicas ou antagonistas no jogo, bem como manter amizades persistentes e relacionamentos com outros personagens quando não com o propósito de obter vantagem injusta, unindo-se por pouca razão do CI.
         - Não diga coisas LOOC no IC também, como dizer que você “precisa ir afk porque seu cão quer sair”, no bate-papo do CI.
 
