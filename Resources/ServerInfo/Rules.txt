@@ -15,7 +15,7 @@
         - Não evada bans.
         - Não seja racista nem intolerante.
         - Não tente causar lag no servidor.
-        - Não faça grief como um não-antagonista; isso inclui contra AFK e SSD / Cataatonic Players.
+        - Não faça grief como um não-antagonista; isso inclui contra AFK e SSD / Jogadores Catatônicos.
         - Não deixe o servidor para evitar a punição da equipe do administrador.
         - Não use respawn para evitar a punição das forças de segurança, ou reaparecer como o mesmo caráter se for dada uma sentença de confinamento permanente.
         - Exploits, abuso de bugs, trapaça, power games e outros comportamentos extremamente sem graça são proibidos.
