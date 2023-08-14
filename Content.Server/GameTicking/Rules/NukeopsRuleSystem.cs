@@ -55,7 +55,7 @@ public sealed class NukeopsRuleSystem : GameRuleSystem<NukeopsRuleComponent>
     [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly IPlayerManager _playerSystem = default!;
     [Dependency] private readonly EmergencyShuttleSystem _emergency = default!;
-    [Dependency] private readonly FactionSystem _faction = default!;
+    [Dependency] private readonly NpcFactionSystem _npcFaction = default!;
     [Dependency] private readonly HumanoidAppearanceSystem _humanoidSystem = default!;
     [Dependency] private readonly RandomHumanoidSystem _randomHumanoidSystem = default!;
     [Dependency] private readonly StationSpawningSystem _stationSpawningSystem = default!;
@@ -87,12 +87,6 @@ public sealed class NukeopsRuleSystem : GameRuleSystem<NukeopsRuleComponent>
     private void OnComponentInit(EntityUid uid, NukeOperativeComponent component, ComponentInit args)
     {
         var query = EntityQueryEnumerator<NukeopsRuleComponent, GameRuleComponent>();
-
-        // Begin Nyano-code:
-        // This is so nuclear operatives don't receive mail.
-        // This should be replaced at some point with a system that adds MailReceiver to valid mobs.
-        RemComp<MailReceiverComponent>(uid);
-        // End Nyano-code.
 
         while (query.MoveNext(out var ruleEnt, out var nukeops, out var gameRule))
         {
@@ -196,9 +190,9 @@ public sealed class NukeopsRuleSystem : GameRuleSystem<NukeopsRuleComponent>
         // we can only currently guarantee that NT stations are the only station to
         // exist in the base game.
 
-        var eligible = EntityQuery<StationEventEligibleComponent, FactionComponent>()
+        var eligible = EntityQuery<StationEventEligibleComponent, NpcFactionMemberComponent>()
             .Where(x =>
-                _faction.IsFactionHostile(component.Faction, x.Item2.Owner, x.Item2))
+                _npcFaction.IsFactionHostile(component.Faction, x.Item2.Owner, x.Item2))
             .Select(x => x.Item1.Owner)
             .ToList();
 
@@ -472,7 +466,7 @@ public sealed class NukeopsRuleSystem : GameRuleSystem<NukeopsRuleComponent>
                 }
             }
 
-            var numNukies = MathHelper.Clamp(ev.PlayerPool.Count / playersPerOperative, 1, maxOperatives);
+            var numNukies = MathHelper.Clamp(_playerSystem.PlayerCount / playersPerOperative, 1, maxOperatives);
 
             for (var i = 0; i < numNukies; i++)
             {
@@ -591,6 +585,15 @@ public sealed class NukeopsRuleSystem : GameRuleSystem<NukeopsRuleComponent>
         // todo: this is kinda awful for multi-nukies
         foreach (var nukeops in EntityQuery<NukeopsRuleComponent>())
         {
+            if (nukeOpSpawner.OperativeName == null
+                || nukeOpSpawner.OperativeStartingGear == null
+                || nukeOpSpawner.OperativeRolePrototype == null)
+            {
+                // I have no idea what is going on with nuke ops code, but I'm pretty sure this shouldn't be possible.
+                Log.Error($"Invalid nuke op spawner: {ToPrettyString(spawner)}");
+                continue;
+            }
+
             SetupOperativeEntity(uid, nukeOpSpawner.OperativeName, nukeOpSpawner.OperativeStartingGear, profile, nukeops);
 
             nukeops.OperativeMindPendingData.Add(uid, nukeOpSpawner.OperativeRolePrototype);
@@ -746,8 +749,8 @@ public sealed class NukeopsRuleSystem : GameRuleSystem<NukeopsRuleComponent>
         if (component.StartingGearPrototypes.TryGetValue(gear, out var gearPrototype))
             _stationSpawningSystem.EquipStartingGear(mob, gearPrototype, profile);
 
-        _faction.RemoveFaction(mob, "NanoTrasen", false);
-        _faction.AddFaction(mob, "Syndicate");
+        _npcFaction.RemoveFaction(mob, "NanoTrasen", false);
+        _npcFaction.AddFaction(mob, "Syndicate");
     }
 
     private void SpawnOperatives(int spawnCount, List<IPlayerSession> sessions, bool addSpawnPoints, NukeopsRuleComponent component)

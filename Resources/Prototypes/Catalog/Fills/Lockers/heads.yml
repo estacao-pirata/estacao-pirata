@@ -6,8 +6,6 @@
   - type: StorageFill
     contents:
       - id: ClothingHeadsetCargo
-      - id: PlushieLizard
-        prob: 0.1
       - id: ClothingHandsGlovesColorBrown
       - id: ClothingOuterSuitFire
         prob: 0.5
@@ -53,6 +51,7 @@
       - id: WeaponAntiqueLaser
       - id: JetpackCaptainFilled
       - id: ClothingHeadHatBeretCap
+      - id: ClothingHeadHatCapcap
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -72,8 +71,6 @@
       - id: WeaponDisabler
       - id: ClothingShoesColorBlack
         prob: 0.7
-      - id: PlushieLizard
-        prob: 0.1
       - id: CigarGoldCase
         prob: 0.10
         # Fuck the HoP they don't deserve fucking cigars.

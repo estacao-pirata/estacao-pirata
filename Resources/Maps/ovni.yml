@@ -2069,6 +2069,7 @@ entities:
             0: 65535
           -7,-4:
             0: 65520
+            2: 9
           -7,-3:
             0: 51455
           -7,-2:
@@ -2155,7 +2156,7 @@ entities:
             0: 65535
           0,-6:
             0: 65527
-            2: 8
+            3: 8
           0,-5:
             0: 65535
           4,0:
@@ -2284,6 +2285,7 @@ entities:
             0: 65528
           -7,-5:
             0: 52479
+            2: 13056
           -6,-6:
             0: 65535
           -6,-5:
@@ -2315,18 +2317,18 @@ entities:
           3,-3:
             0: 65535
           0,-11:
-            3: 15167
+            2: 15167
             0: 50368
           0,-10:
-            3: 15
+            2: 15
             0: 65520
           0,-9:
             0: 65535
           1,-11:
             0: 47800
-            3: 17735
+            2: 17735
           1,-10:
-            3: 7
+            2: 7
             0: 65528
           1,-9:
             0: 65535
@@ -2335,7 +2337,7 @@ entities:
           2,-9:
             0: 8095
             4: 96
-            3: 57344
+            2: 57344
           -3,-10:
             0: 65535
           -3,-9:
@@ -2366,7 +2368,7 @@ entities:
             0: 65535
           0,-7:
             0: 30719
-            2: 34816
+            3: 34816
           1,-8:
             0: 65535
           1,-7:
@@ -2379,7 +2381,7 @@ entities:
             0: 65535
           2,-8:
             0: 65311
-            3: 224
+            2: 224
           2,-7:
             0: 65535
           2,-6:
@@ -3132,6 +3134,14 @@ entities:
             0: 65520
           12,-14:
             0: 4368
+          -8,-4:
+            2: 46
+          -8,-6:
+            2: 35065
+          -8,-5:
+            2: 60040
+          -8,-7:
+            2: 50176
         uniqueMixes:
         - volume: 2500
           temperature: 293.15
@@ -3167,7 +3177,7 @@ entities:
           temperature: 293.15
           moles:
           - 0
-          - 6666.982
+          - 0
           - 0
           - 0
           - 0
@@ -3182,7 +3192,7 @@ entities:
           temperature: 293.15
           moles:
           - 0
-          - 0
+          - 6666.982
           - 0
           - 0
           - 0
@@ -6141,15 +6151,10 @@ entities:
     - pos: 2.5,-41.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close: []
-        Toggle:
-        - port: Pressed
-          uid: 9031
-        - port: Pressed
-          uid: 9505
-      type: SignalReceiver
+    - links:
+      - 9031
+      - 9505
+      type: DeviceLinkSink
 - proto: BlastDoorOpen
   entities:
   - uid: 1300
@@ -6157,300 +6162,197 @@ entities:
     - pos: 48.5,8.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 2796
     components:
     - pos: 10.5,0.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close: []
-        Toggle:
-        - port: Pressed
-          uid: 2125
-      type: SignalReceiver
+    - links:
+      - 2125
+      type: DeviceLinkSink
   - uid: 2803
     components:
     - pos: 10.5,-1.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close: []
-        Toggle:
-        - port: Pressed
-          uid: 2125
-      type: SignalReceiver
+    - links:
+      - 2125
+      type: DeviceLinkSink
   - uid: 4213
     components:
     - pos: 10.5,-0.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close: []
-        Toggle:
-        - port: Pressed
-          uid: 2125
-      type: SignalReceiver
+    - links:
+      - 2125
+      type: DeviceLinkSink
   - uid: 6166
     components:
     - rot: 1.5707963267948966 rad
       pos: -26.5,26.5
       parent: 8
       type: Transform
-    - inputs:
-        Open:
-        - port: On
-          uid: 6298
-        Close:
-        - port: Off
-          uid: 6298
-        Toggle: []
-      type: SignalReceiver
+    - links:
+      - 6298
+      type: DeviceLinkSink
   - uid: 7619
     components:
     - pos: 48.5,9.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7620
     components:
     - rot: -1.5707963267948966 rad
       pos: 45.5,5.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7621
     components:
     - pos: 48.5,10.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7622
     components:
     - pos: 48.5,11.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7623
     components:
     - pos: 48.5,12.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7624
     components:
     - pos: 48.5,13.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7625
     components:
     - pos: 48.5,14.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7626
     components:
     - rot: -1.5707963267948966 rad
       pos: 44.5,5.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7627
     components:
     - rot: -1.5707963267948966 rad
       pos: 43.5,5.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7628
     components:
     - rot: -1.5707963267948966 rad
       pos: 42.5,5.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7629
     components:
     - rot: -1.5707963267948966 rad
       pos: 41.5,5.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7630
     components:
     - rot: -1.5707963267948966 rad
       pos: 41.5,17.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7631
     components:
     - rot: -1.5707963267948966 rad
       pos: 42.5,17.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7632
     components:
     - rot: -1.5707963267948966 rad
       pos: 43.5,17.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7667
     components:
     - rot: -1.5707963267948966 rad
       pos: 44.5,17.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
   - uid: 7684
     components:
     - rot: -1.5707963267948966 rad
       pos: 45.5,17.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close:
-        - port: Pressed
-          uid: 8587
-        Toggle:
-        - port: Pressed
-          uid: 3136
-      type: SignalReceiver
+    - links:
+      - 3136
+      - 8587
+      type: DeviceLinkSink
 - proto: BookDetective
   entities:
   - uid: 3690
@@ -24014,9 +23916,6 @@ entities:
     - linkedPorts:
         1264:
         - OrderSender: OrderReceiver
-      registeredSinks:
-        OrderSender:
-        - 1264
       type: DeviceLinkSource
 - proto: ComputerCloningConsole
   entities:
@@ -24203,229 +24102,127 @@ entities:
     - pos: -16.5,-14.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 7318
-        Forward:
-        - port: Left
-          uid: 7318
-        Off:
-        - port: Middle
-          uid: 7318
-      type: SignalReceiver
+    - links:
+      - 7318
+      type: DeviceLinkSink
   - uid: 323
     components:
     - pos: -16.5,-15.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 7318
-        Forward:
-        - port: Left
-          uid: 7318
-        Off:
-        - port: Middle
-          uid: 7318
-      type: SignalReceiver
+    - links:
+      - 7318
+      type: DeviceLinkSink
   - uid: 445
     components:
     - pos: -16.5,-16.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 7318
-        Forward:
-        - port: Left
-          uid: 7318
-        Off:
-        - port: Middle
-          uid: 7318
-      type: SignalReceiver
+    - links:
+      - 7318
+      type: DeviceLinkSink
   - uid: 474
     components:
     - pos: -16.5,-12.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 7318
-        Forward:
-        - port: Left
-          uid: 7318
-        Off:
-        - port: Middle
-          uid: 7318
-      type: SignalReceiver
+    - links:
+      - 7318
+      type: DeviceLinkSink
   - uid: 476
     components:
     - pos: -16.5,-13.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 7318
-        Forward:
-        - port: Left
-          uid: 7318
-        Off:
-        - port: Middle
-          uid: 7318
-      type: SignalReceiver
+    - links:
+      - 7318
+      type: DeviceLinkSink
   - uid: 477
     components:
     - pos: -16.5,-11.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 7318
-        Forward:
-        - port: Left
-          uid: 7318
-        Off:
-        - port: Middle
-          uid: 7318
-      type: SignalReceiver
+    - links:
+      - 7318
+      type: DeviceLinkSink
   - uid: 3380
     components:
     - pos: 26.5,-14.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 9711
-        Forward:
-        - port: Left
-          uid: 9711
-        Off:
-        - port: Middle
-          uid: 9711
-      type: SignalReceiver
+    - links:
+      - 9711
+      type: DeviceLinkSink
   - uid: 3594
     components:
     - pos: 26.5,-13.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 9711
-        Forward:
-        - port: Left
-          uid: 9711
-        Off:
-        - port: Middle
-          uid: 9711
-      type: SignalReceiver
+    - links:
+      - 9711
+      type: DeviceLinkSink
   - uid: 3946
     components:
     - pos: 26.5,-12.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 9711
-        Forward:
-        - port: Left
-          uid: 9711
-        Off:
-        - port: Middle
-          uid: 9711
-      type: SignalReceiver
+    - links:
+      - 9711
+      type: DeviceLinkSink
   - uid: 8296
     components:
     - pos: -16.5,-41.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Pressed
-          uid: 8348
-        Forward: []
-        Off:
-        - port: Pressed
-          uid: 8350
-      type: SignalReceiver
+    - links:
+      - 8348
+      - 8350
+      type: DeviceLinkSink
   - uid: 8297
     components:
     - pos: -16.5,-40.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Pressed
-          uid: 8348
-        Forward: []
-        Off:
-        - port: Pressed
-          uid: 8350
-      type: SignalReceiver
+    - links:
+      - 8348
+      - 8350
+      type: DeviceLinkSink
   - uid: 8298
     components:
     - pos: -16.5,-39.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Pressed
-          uid: 8348
-        Forward: []
-        Off:
-        - port: Pressed
-          uid: 8350
-      type: SignalReceiver
+    - links:
+      - 8348
+      - 8350
+      type: DeviceLinkSink
   - uid: 8299
     components:
     - pos: -16.5,-38.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Pressed
-          uid: 8348
-        Forward: []
-        Off:
-        - port: Pressed
-          uid: 8350
-      type: SignalReceiver
+    - links:
+      - 8348
+      - 8350
+      type: DeviceLinkSink
   - uid: 8300
     components:
     - pos: -16.5,-37.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Pressed
-          uid: 8348
-        Forward: []
-        Off:
-        - port: Pressed
-          uid: 8350
-      type: SignalReceiver
+    - links:
+      - 8348
+      - 8350
+      type: DeviceLinkSink
   - uid: 8301
     components:
     - pos: -16.5,-36.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Pressed
-          uid: 8348
-        Forward: []
-        Off:
-        - port: Pressed
-          uid: 8350
-      type: SignalReceiver
+    - links:
+      - 8348
+      - 8350
+      type: DeviceLinkSink
 - proto: CrateArtifactContainer
   entities:
   - uid: 877
@@ -53603,17 +53400,9 @@ entities:
     - pos: 26.5,-15.5
       parent: 8
       type: Transform
-    - inputs:
-        Reverse:
-        - port: Right
-          uid: 9711
-        Forward:
-        - port: Left
-          uid: 9711
-        Off:
-        - port: Middle
-          uid: 9711
-      type: SignalReceiver
+    - links:
+      - 9711
+      type: DeviceLinkSink
 - proto: ReinforcedGirder
   entities:
   - uid: 1227
@@ -55888,15 +55677,9 @@ entities:
     - pos: -16.5,-16.5
       parent: 8
       type: Transform
-    - inputs:
-        Open:
-        - port: On
-          uid: 1798
-        Close:
-        - port: Off
-          uid: 1798
-        Toggle: []
-      type: SignalReceiver
+    - links:
+      - 1798
+      type: DeviceLinkSink
 - proto: ShuttersNormalOpen
   entities:
   - uid: 172
@@ -55905,51 +55688,33 @@ entities:
       pos: 9.5,-5.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close: []
-        Toggle:
-        - port: Pressed
-          uid: 2160
-      type: SignalReceiver
+    - links:
+      - 2160
+      type: DeviceLinkSink
   - uid: 2222
     components:
     - pos: -1.5,27.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close: []
-        Toggle:
-        - port: Pressed
-          uid: 178
-      type: SignalReceiver
+    - links:
+      - 178
+      type: DeviceLinkSink
   - uid: 2322
     components:
     - pos: -3.5,27.5
       parent: 8
       type: Transform
-    - inputs:
-        Open: []
-        Close: []
-        Toggle:
-        - port: Pressed
-          uid: 178
-      type: SignalReceiver
+    - links:
+      - 178
+      type: DeviceLinkSink
   - uid: 7323
     components:
     - pos: -16.5,-12.5
       parent: 8
       type: Transform
-    - inputs:
-        Open:
-        - port: Off
-          uid: 1798
-        Close:
-        - port: On
-          uid: 1798
-        Toggle: []
-      type: SignalReceiver
+    - links:
+      - 1798
+      type: DeviceLinkSink
 - proto: SignalButton
   entities:
   - uid: 2160
@@ -55958,11 +55723,10 @@ entities:
       pos: 14.5,-7.5
       parent: 8
       type: Transform
-    - outputs:
-        Pressed:
-        - port: Toggle
-          uid: 172
-      type: SignalTransmitter
+    - linkedPorts:
+        172:
+        - Pressed: Toggle
+      type: DeviceLinkSource
   - uid: 8348
     components:
     - desc: It's a button for activating the conveyor belts.
@@ -55971,21 +55735,20 @@ entities:
     - pos: -18.5,-40.5
       parent: 8
       type: Transform
-    - outputs:
-        Pressed:
-        - port: Reverse
-          uid: 8296
-        - port: Reverse
-          uid: 8297
-        - port: Reverse
-          uid: 8298
-        - port: Reverse
-          uid: 8299
-        - port: Reverse
-          uid: 8300
-        - port: Reverse
-          uid: 8301
-      type: SignalTransmitter
+    - linkedPorts:
+        8296:
+        - Pressed: Reverse
+        8297:
+        - Pressed: Reverse
+        8298:
+        - Pressed: Reverse
+        8299:
+        - Pressed: Reverse
+        8300:
+        - Pressed: Reverse
+        8301:
+        - Pressed: Reverse
+      type: DeviceLinkSource
   - uid: 8350
     components:
     - desc: It's a button for de-activating the conveyor belts.
@@ -55993,21 +55756,20 @@ entities:
     - pos: -14.5,-40.5
       parent: 8
       type: Transform
-    - outputs:
-        Pressed:
-        - port: Off
-          uid: 8296
-        - port: Off
-          uid: 8297
-        - port: Off
-          uid: 8298
-        - port: Off
-          uid: 8299
-        - port: Off
-          uid: 8300
-        - port: Off
-          uid: 8301
-      type: SignalTransmitter
+    - linkedPorts:
+        8296:
+        - Pressed: Off
+        8297:
+        - Pressed: Off
+        8298:
+        - Pressed: Off
+        8299:
+        - Pressed: Off
+        8300:
+        - Pressed: Off
+        8301:
+        - Pressed: Off
+      type: DeviceLinkSource
   - uid: 9031
     components:
     - name: mix chamber door button
@@ -56016,11 +55778,10 @@ entities:
       pos: 2.5,-40.5
       parent: 8
       type: Transform
-    - outputs:
-        Pressed:
-        - port: Toggle
-          uid: 9550
-      type: SignalTransmitter
+    - linkedPorts:
+        9550:
+        - Pressed: Toggle
+      type: DeviceLinkSource
   - uid: 9505
     components:
     - name: mix chamber door button
@@ -56029,11 +55790,10 @@ entities:
       pos: 1.5,-36.5
       parent: 8
       type: Transform
-    - outputs:
-        Pressed:
-        - port: Toggle
-          uid: 9550
-      type: SignalTransmitter
+    - linkedPorts:
+        9550:
+        - Pressed: Toggle
+      type: DeviceLinkSource
 - proto: SignalButtonDirectional
   entities:
   - uid: 178
@@ -56042,27 +55802,25 @@ entities:
       pos: -0.5,28.5
       parent: 8
       type: Transform
-    - outputs:
-        Pressed:
-        - port: Toggle
-          uid: 2222
-        - port: Toggle
-          uid: 2322
-      type: SignalTransmitter
+    - linkedPorts:
+        2222:
+        - Pressed: Toggle
+        2322:
+        - Pressed: Toggle
+      type: DeviceLinkSource
   - uid: 2125
     components:
     - pos: 13.5,5.5
       parent: 8
       type: Transform
-    - outputs:
-        Pressed:
-        - port: Toggle
-          uid: 2796
-        - port: Toggle
-          uid: 4213
-        - port: Toggle
-          uid: 2803
-      type: SignalTransmitter
+    - linkedPorts:
+        2796:
+        - Pressed: Toggle
+        4213:
+        - Pressed: Toggle
+        2803:
+        - Pressed: Toggle
+      type: DeviceLinkSource
   - uid: 3136
     components:
     - desc: It opens and closes the blast doors to perma, great for sealing a breach
@@ -56072,43 +55830,42 @@ entities:
       pos: 30.5,7.5
       parent: 8
       type: Transform
-    - outputs:
-        Pressed:
-        - port: Toggle
-          uid: 7629
-        - port: Toggle
-          uid: 7628
-        - port: Toggle
-          uid: 7627
-        - port: Toggle
-          uid: 7626
-        - port: Toggle
-          uid: 7620
-        - port: Toggle
-          uid: 1300
-        - port: Toggle
-          uid: 7619
-        - port: Toggle
-          uid: 7621
-        - port: Toggle
-          uid: 7622
-        - port: Toggle
-          uid: 7623
-        - port: Toggle
-          uid: 7624
-        - port: Toggle
-          uid: 7625
-        - port: Toggle
-          uid: 7684
-        - port: Toggle
-          uid: 7667
-        - port: Toggle
-          uid: 7632
-        - port: Toggle
-          uid: 7631
-        - port: Toggle
-          uid: 7630
-      type: SignalTransmitter
+    - linkedPorts:
+        7629:
+        - Pressed: Toggle
+        7628:
+        - Pressed: Toggle
+        7627:
+        - Pressed: Toggle
+        7626:
+        - Pressed: Toggle
+        7620:
+        - Pressed: Toggle
+        1300:
+        - Pressed: Toggle
+        7619:
+        - Pressed: Toggle
+        7621:
+        - Pressed: Toggle
+        7622:
+        - Pressed: Toggle
+        7623:
+        - Pressed: Toggle
+        7624:
+        - Pressed: Toggle
+        7625:
+        - Pressed: Toggle
+        7684:
+        - Pressed: Toggle
+        7667:
+        - Pressed: Toggle
+        7632:
+        - Pressed: Toggle
+        7631:
+        - Pressed: Toggle
+        7630:
+        - Pressed: Toggle
+      type: DeviceLinkSource
   - uid: 8587
     components:
     - desc: Great for sealing a breach in a window. It seems to only close the blast
@@ -56119,43 +55876,42 @@ entities:
       pos: 38.5,8.5
       parent: 8
       type: Transform
-    - outputs:
-        Pressed:
-        - port: Close
-          uid: 7629
-        - port: Close
-          uid: 7628
-        - port: Close
-          uid: 7627
-        - port: Close
-          uid: 7626
-        - port: Close
-          uid: 7620
-        - port: Close
-          uid: 1300
-        - port: Close
-          uid: 7619
-        - port: Close
-          uid: 7621
-        - port: Close
-          uid: 7622
-        - port: Close
-          uid: 7623
-        - port: Close
-          uid: 7624
-        - port: Close
-          uid: 7625
-        - port: Close
-          uid: 7684
-        - port: Close
-          uid: 7667
-        - port: Close
-          uid: 7632
-        - port: Close
-          uid: 7631
-        - port: Close
-          uid: 7630
-      type: SignalTransmitter
+    - linkedPorts:
+        7629:
+        - Pressed: Close
+        7628:
+        - Pressed: Close
+        7627:
+        - Pressed: Close
+        7626:
+        - Pressed: Close
+        7620:
+        - Pressed: Close
+        1300:
+        - Pressed: Close
+        7619:
+        - Pressed: Close
+        7621:
+        - Pressed: Close
+        7622:
+        - Pressed: Close
+        7623:
+        - Pressed: Close
+        7624:
+        - Pressed: Close
+        7625:
+        - Pressed: Close
+        7684:
+        - Pressed: Close
+        7667:
+        - Pressed: Close
+        7632:
+        - Pressed: Close
+        7631:
+        - Pressed: Close
+        7630:
+        - Pressed: Close
+      type: DeviceLinkSource
 - proto: SignalSwitch
   entities:
   - uid: 1798
@@ -56163,32 +55919,25 @@ entities:
     - pos: -17.5,-16.5
       parent: 8
       type: Transform
-    - outputs:
-        On:
-        - port: Open
-          uid: 7322
-        - port: Close
-          uid: 7323
-        Off:
-        - port: Close
-          uid: 7322
-        - port: Open
-          uid: 7323
-      type: SignalTransmitter
+    - linkedPorts:
+        7322:
+        - On: Open
+        - Off: Close
+        7323:
+        - On: Close
+        - Off: Open
+      type: DeviceLinkSource
   - uid: 6298
     components:
     - rot: 1.5707963267948966 rad
       pos: -26.5,25.5
       parent: 8
       type: Transform
-    - outputs:
-        On:
-        - port: Open
-          uid: 6166
-        Off:
-        - port: Close
-          uid: 6166
-      type: SignalTransmitter
+    - linkedPorts:
+        6166:
+        - On: Open
+        - Off: Close
+      type: DeviceLinkSource
 - proto: SignAtmos
   entities:
   - uid: 8917
@@ -60885,48 +60634,6 @@ entities:
     - pos: 26.507648,27.63351
       parent: 8
       type: Transform
-- proto: ToyAmongPequeno
-  entities:
-  - uid: 3057
-    components:
-    - pos: -28.383608,34.66852
-      parent: 8
-      type: Transform
-  - uid: 3096
-    components:
-    - pos: 4.377623,40.77873
-      parent: 8
-      type: Transform
-  - uid: 7287
-    components:
-    - pos: 4.408873,40.5911
-      parent: 8
-      type: Transform
-  - uid: 7327
-    components:
-    - pos: -15.632168,-16.451487
-      parent: 8
-      type: Transform
-  - uid: 7758
-    components:
-    - pos: -27.53923,34.57477
-      parent: 8
-      type: Transform
-  - uid: 7759
-    components:
-    - pos: -28.93089,34.66852
-      parent: 8
-      type: Transform
-  - uid: 7760
-    components:
-    - pos: -27.883236,34.715397
-      parent: 8
-      type: Transform
-  - uid: 9664
-    components:
-    - pos: -15.481522,-44.523846
-      parent: 8
-      type: Transform
 - proto: ToyDeathRipley
   entities:
   - uid: 7738
@@ -61010,81 +60717,55 @@ entities:
     - pos: -16.12736,-17.654783
       parent: 8
       type: Transform
-    - outputs:
-        Left:
-        - port: Forward
-          uid: 445
-        - port: Forward
-          uid: 323
-        - port: Forward
-          uid: 2
-        - port: Forward
-          uid: 476
-        - port: Forward
-          uid: 474
-        - port: Forward
-          uid: 477
-        Right:
-        - port: Reverse
-          uid: 445
-        - port: Reverse
-          uid: 323
-        - port: Reverse
-          uid: 2
-        - port: Reverse
-          uid: 476
-        - port: Reverse
-          uid: 474
-        - port: Reverse
-          uid: 477
-        Middle:
-        - port: Off
-          uid: 445
-        - port: Off
-          uid: 323
-        - port: Off
-          uid: 2
-        - port: Off
-          uid: 476
-        - port: Off
-          uid: 474
-        - port: Off
-          uid: 477
-      type: SignalTransmitter
+    - linkedPorts:
+        445:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        323:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        2:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        476:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        474:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        477:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+      type: DeviceLinkSource
   - uid: 9711
     components:
     - pos: 24.5,-13.5
       parent: 8
       type: Transform
-    - outputs:
-        Left:
-        - port: Forward
-          uid: 3946
-        - port: Forward
-          uid: 3594
-        - port: Forward
-          uid: 3380
-        - port: Forward
-          uid: 2299
-        Right:
-        - port: Reverse
-          uid: 3946
-        - port: Reverse
-          uid: 3594
-        - port: Reverse
-          uid: 3380
-        - port: Reverse
-          uid: 2299
-        Middle:
-        - port: Off
-          uid: 3946
-        - port: Off
-          uid: 3594
-        - port: Off
-          uid: 3380
-        - port: Off
-          uid: 2299
-      type: SignalTransmitter
+    - linkedPorts:
+        3946:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        3594:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        3380:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        2299:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+      type: DeviceLinkSource
     - type: ItemCooldown
 - proto: UniformPrinter
   entities:
@@ -61375,6 +61056,15 @@ entities:
     - flags: SessionSpecific
       type: MetaData
     - pos: 2.5,22.5
+      parent: 8
+      type: Transform
+- proto: VendingMachineMNKDrobe
+  entities:
+  - uid: 3057
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: 9.5,-9.5
       parent: 8
       type: Transform
 - proto: VendingMachineNutri
@@ -68936,14 +68626,6 @@ entities:
       pos: 47.5,13.5
       parent: 8
       type: Transform
-- proto: WindoorArmoryLocked
-  entities:
-  - uid: 3689
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: 28.5,16.5
-      parent: 8
-      type: Transform
 - proto: WindoorBarKitchenLocked
   entities:
   - uid: 8452
@@ -68957,67 +68639,6 @@ entities:
     components:
     - rot: -1.5707963267948966 rad
       pos: -3.5,-8.5
-      parent: 8
-      type: Transform
-- proto: WindoorBrigLocked
-  entities:
-  - uid: 4263
-    components:
-    - rot: 3.141592653589793 rad
-      pos: 24.5,-2.5
-      parent: 8
-      type: Transform
-- proto: WindoorChemistryLocked
-  entities:
-  - uid: 304
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -4.5,10.5
-      parent: 8
-      type: Transform
-- proto: WindoorCommandLocked
-  entities:
-  - uid: 1475
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -20.5,-0.5
-      parent: 8
-      type: Transform
-  - uid: 3337
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: 64.5,-20.5
-      parent: 8
-      type: Transform
-  - uid: 3339
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: 64.5,-22.5
-      parent: 8
-      type: Transform
-- proto: WindoorEngineeringLocked
-  entities:
-  - uid: 417
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -8.5,-13.5
-      parent: 8
-      type: Transform
-  - uid: 879
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -8.5,-14.5
-      parent: 8
-      type: Transform
-  - uid: 1212
-    components:
-    - pos: -29.5,8.5
-      parent: 8
-      type: Transform
-  - uid: 5398
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -29.5,6.5
       parent: 8
       type: Transform
 - proto: WindoorKitchenHydroponicsLocked
@@ -69060,7 +68681,113 @@ entities:
       pos: -5.5,0.5
       parent: 8
       type: Transform
-- proto: WindoorMedicalLocked
+- proto: WindoorSecure
+  entities:
+  - uid: 10
+    components:
+    - pos: -0.5,1.5
+      parent: 8
+      type: Transform
+  - uid: 1476
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: -20.5,-0.5
+      parent: 8
+      type: Transform
+  - uid: 5437
+    components:
+    - pos: 38.5,-7.5
+      parent: 8
+      type: Transform
+- proto: WindoorSecureArmoryLocked
+  entities:
+  - uid: 3689
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 28.5,16.5
+      parent: 8
+      type: Transform
+- proto: WindoorSecureBrigLocked
+  entities:
+  - uid: 4263
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 24.5,-2.5
+      parent: 8
+      type: Transform
+- proto: WindoorSecureCargoLocked
+  entities:
+  - uid: 141
+    components:
+    - rot: 3.141592653589793 rad
+      pos: -15.5,-16.5
+      parent: 8
+      type: Transform
+  - uid: 579
+    components:
+    - rot: 3.141592653589793 rad
+      pos: -14.5,-16.5
+      parent: 8
+      type: Transform
+  - uid: 7334
+    components:
+    - pos: -18.5,-12.5
+      parent: 8
+      type: Transform
+- proto: WindoorSecureChemistryLocked
+  entities:
+  - uid: 304
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: -4.5,10.5
+      parent: 8
+      type: Transform
+- proto: WindoorSecureCommandLocked
+  entities:
+  - uid: 1475
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -20.5,-0.5
+      parent: 8
+      type: Transform
+  - uid: 3337
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 64.5,-20.5
+      parent: 8
+      type: Transform
+  - uid: 3339
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 64.5,-22.5
+      parent: 8
+      type: Transform
+- proto: WindoorSecureEngineeringLocked
+  entities:
+  - uid: 417
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -8.5,-13.5
+      parent: 8
+      type: Transform
+  - uid: 879
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -8.5,-14.5
+      parent: 8
+      type: Transform
+  - uid: 1212
+    components:
+    - pos: -29.5,8.5
+      parent: 8
+      type: Transform
+  - uid: 5398
+    components:
+    - rot: 3.141592653589793 rad
+      pos: -29.5,6.5
+      parent: 8
+      type: Transform
+- proto: WindoorSecureMedicalLocked
   entities:
   - uid: 1871
     components:
@@ -69096,7 +68823,7 @@ entities:
     - pos: 11.5,-14.5
       parent: 8
       type: Transform
-- proto: WindoorScienceLocked
+- proto: WindoorSecureScienceLocked
   entities:
   - uid: 9542
     components:
@@ -69104,44 +68831,7 @@ entities:
       pos: -21.5,16.5
       parent: 8
       type: Transform
-- proto: WindoorSecure
-  entities:
-  - uid: 10
-    components:
-    - pos: -0.5,1.5
-      parent: 8
-      type: Transform
-  - uid: 1476
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -20.5,-0.5
-      parent: 8
-      type: Transform
-  - uid: 5437
-    components:
-    - pos: 38.5,-7.5
-      parent: 8
-      type: Transform
-- proto: WindoorSecureCargoLocked
-  entities:
-  - uid: 141
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -15.5,-16.5
-      parent: 8
-      type: Transform
-  - uid: 579
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -14.5,-16.5
-      parent: 8
-      type: Transform
-  - uid: 7334
-    components:
-    - pos: -18.5,-12.5
-      parent: 8
-      type: Transform
-- proto: WindoorSecurityLocked
+- proto: WindoorSecureSecurityLocked
   entities:
   - uid: 607
     components:
