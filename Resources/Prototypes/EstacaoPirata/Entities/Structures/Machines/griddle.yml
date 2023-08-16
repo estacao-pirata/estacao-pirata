@@ -1,0 +1,46 @@
+- type: entity
+  id: Griddle
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
+  name: griddle
+  description: A smooth cooking surface.
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: EstacaoPirata/Structures/Machines/griddle.rsi
+    layers:
+    - state: griddle
+      map: ["enum.GriddleVisualizerLayers.Base"]
+
+  - type: Rotatable
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.40,-0.30,0.40,0.45"
+        density: 400
+        layer:
+          - HalfWallLayer
+        mask:
+          - MachineMask
+#      fix2:
+#        shape:
+#          !type:PhysShapeAabb
+#          bounds: "-0.30,-0.20,0.30,0.35"
+#        layer:
+#          - TableLayer
+#        mask:
+#          - MobMask
+
+  - type: ApcPowerReceiver
+    powerLoad: 400
+
+  - type: StepTrigger
+    requiredTriggeredSpeed: 0
+    intersectRatio: 0.1
+  - type: Climbable
+
+  - type: Griddle
+
+
