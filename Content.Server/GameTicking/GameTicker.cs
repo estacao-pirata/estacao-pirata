@@ -71,6 +71,7 @@ namespace Content.Server.GameTicking
             InitializeGameRules();
             InitMinPlayers();
             InitializeReplays();
+            InitializeRoundFlow();
             _initialized = true;
         }
 
