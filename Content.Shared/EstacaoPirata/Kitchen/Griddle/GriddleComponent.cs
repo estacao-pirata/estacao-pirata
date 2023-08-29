@@ -8,6 +8,9 @@ namespace Content.Shared.EstacaoPirata.Kitchen.Griddle;
 [RegisterComponent]
 public sealed class GriddleComponent : Component
 {
+    [ViewVariables(VVAccess.ReadOnly)]
+    public List<EntityUid> EntitiesOnTop = new List<EntityUid>();
+
     [DataField("temperatureUpperThreshold")]
     public float TemperatureUpperThreshold = 610.15f;
 
@@ -22,12 +25,10 @@ public sealed class GriddleComponent : Component
 
     public sealed class BeingGriddledEvent : HandledEntityEventArgs
     {
-        public EntityUid Griddle;
         public EntityUid? Occupant;
 
-        public BeingGriddledEvent(EntityUid griddle, EntityUid? occupant)
+        public BeingGriddledEvent(EntityUid? occupant)
         {
-            Griddle = griddle;
             Occupant = occupant;
         }
     }

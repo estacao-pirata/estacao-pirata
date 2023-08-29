@@ -6,6 +6,7 @@ using Content.Shared.Tag;
 using Content.Shared.EstacaoPirata.Kitchen.Griddle;
 using Content.Shared.StepTrigger.Components;
 using Content.Shared.StepTrigger.Systems;
+using Robust.Shared.Physics.Components;
 
 namespace Content.Server.EstacaoPirata.Kitchen.Griddle.EntitySystems;
 
@@ -14,8 +15,6 @@ namespace Content.Server.EstacaoPirata.Kitchen.Griddle.EntitySystems;
 /// </summary>
 public sealed class GriddleSystem : EntitySystem
 {
-    /// <inheritdoc/>
-
     [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
     [Dependency] private readonly RecipeManager _recipeManager = default!;
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
@@ -23,23 +22,57 @@ public sealed class GriddleSystem : EntitySystem
     [Dependency] private readonly TagSystem _tag = default!;
     [Dependency] private readonly TemperatureSystem _temperature = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
+
     public override void Initialize()
     {
         SubscribeLocalEvent<GriddleComponent, StepTriggeredEvent>(OnStepTriggered);
         SubscribeLocalEvent<GriddleComponent, StepTriggerAttemptEvent>(OnStepTriggerAttempt);
+        SubscribeLocalEvent<GriddleComponent, GriddleComponent.BeingGriddledEvent>(OnStartBeingGriddled);
     }
+
+
 
     public override void Update(float frameTime)
     {
         var enumerator = EntityQueryEnumerator<GriddleComponent, StepTriggerComponent, TransformComponent>();
-        while (enumerator.MoveNext(out var uid, out _, out _, out _))
+        while (enumerator.MoveNext(out var uid, out _, out _, out var transform))
         {
             var entities = _lookup.GetEntitiesIntersecting(uid, LookupFlags.Dynamic);
 
-            Log.Debug($"{entities.Count} entities on griddle {uid}");
-            var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(uid, entities.First());
-            RaiseLocalEvent(uid, beingGriddledEvent);
+            // var ourAabb = _lookup.GetWorldAABB(uid, transform);
+            // var otherAabb = _lookup.GetWorldAABB(entities.First());
+
+            //if (!ourAabb.Intersects(otherAabb))
+
+            if (entities.Any())
+            {
+                var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(entities.First());
+                RaiseLocalEvent(uid, beingGriddledEvent);
+            }
         }
+    }
+
+    private void OnStartBeingGriddled(EntityUid uid, GriddleComponent component, GriddleComponent.BeingGriddledEvent args)
+    {
+        if (args.Occupant == null)
+            return;
+
+        // if (!TryComp(args.Occupant, out GriddledComponent? comp))
+        //     return;
+
+        // Colocar o ocupante em uma lista
+        // Esta lista pode estar no componente do griddle, pra guardar as coisas em cima dele
+
+        if (component.EntitiesOnTop.Contains(args.Occupant.Value))
+            return;
+
+        component.EntitiesOnTop.Add(args.Occupant.Value);
+
+        // Dar ao ocupante um componente que indique que esta sendo griddled
+        // Para quem tem esse componente, ficar checando se esta no mesmo grid de algum griddle?
+        // Pra quem tem esse componente, adicionar hit box pra trigger para ver se esta em cima?
+
+        Log.Debug($"{args.Occupant} is on {uid}");
     }
 
     private void OnStepTriggerAttempt(EntityUid uid, GriddleComponent component, ref StepTriggerAttemptEvent args)
