@@ -7,6 +7,8 @@ food-you-need-to-hold-utensil = Você precisa estar segurando um(a) {$utensil} p
 food-nom = Nom
 food-swallow = Você engole o(a) {$food}.
 
+food-has-used-storage = Você não pode comer {THE($food)} com um item armazenado dentro.
+
 food-system-remove-mask = Você precisa tirar a {$entity} primeiro.
 
 ## System

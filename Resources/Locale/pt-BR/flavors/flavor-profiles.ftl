@@ -42,6 +42,7 @@ flavor-base-cheap = barato
 flavor-base-piquant = picante
 flavor-base-sharp = intenso
 flavor-base-syrupy = xaroposo
+flavor-base-spaceshroom = misterioso
 
 # lmao
 flavor-base-terrible = terrível
@@ -145,6 +146,7 @@ flavor-complex-electrons = de elétrons
 flavor-complex-parents = de os pais de alguém
 flavor-complex-plastic = de plástico
 flavor-complex-glue = de cola
+flavor-complex-spaceshroom = como umami espacial
 
 # Drink-specific flavors.
 

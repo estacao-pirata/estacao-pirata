@@ -8,7 +8,7 @@ signal-port-name-off-transmitter = Desligado
 signal-port-description-off-transmitter = Essa entrada é chamada sempre que o transmissor é desligado
 
 signal-port-name-status-transmitter = Estado
-signal-port-description-logic-output = Esta porta gera um ALTO ou um BAIXO, dependendo do estado do transmissor.
+signal-port-description-status-transmitter = Esta porta gera um ALTO ou um BAIXO, dependendo do estado do transmissor.
 
 signal-port-name-left = Esquerda
 signal-port-description-left = Essa entrada é chamada sempre que a alavanca é inclinada mais à esquerda.
@@ -36,3 +36,12 @@ signal-port-description-logic-output-high = Esta porta gera um pulso em ALTO sem
 
 signal-port-name-logic-output-low = Low Output
 signal-port-description-logic-output-low = Esta porta gera um pulso em ALTO sempre que a entrada tem uma borda descendente (desce).
+
+signal-port-name-air-danger = Danger
+signal-port-description-air-danger = Essa porta é chamada com ALTO quando em modo perigo e em BAIXO quando não.
+
+signal-port-name-air-warning = Warning
+signal-port-description-air-warning = Essa porta é chamada com ALTO quando em modo aviso e em BAIXO quando não.
+
+signal-port-name-air-normal = Normal
+signal-port-description-air-normal = Essa porta é chamada com ALTO quando em modo normal e em BAIXO quando não.
