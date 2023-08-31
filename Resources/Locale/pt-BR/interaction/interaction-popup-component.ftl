@@ -58,6 +58,10 @@ petting-failure-medibot = Você tenta acariciar {THE($target)}, mas {POSS-ADJ($t
 # Shown when knocking on a window
 comp-window-knock = *toc toc*
 
+## Rattling fences
+
+fence-rattle-success = *chocalha*
+
 ## Hugging players
 
 hugging-success-generic = Você abraça {THE($target)}.

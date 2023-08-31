@@ -1,14 +1,17 @@
 guide-entry-engineering = Engenharia
 guide-entry-construction = Construção
+guide-entry-airlock-security = Upgrades de Portas
 guide-entry-atmospherics = Ar
 guide-entry-botany = Botânica
 guide-entry-fires = Fogos e Espaço
-guide-entry-shuttle-craft = Construção de naves
+guide-entry-shuttle-craft = Construção de Naves
 guide-entry-networking = Rede
-guide-entry-network-configurator = Configurador de rede
+guide-entry-network-configurator = Configurador de Rede
+guide-entry-access-configurator = Configurador de Acesso
 guide-entry-power = Energia
 guide-entry-ame = Motor de antimatéria (AME)
 guide-entry-singularity = Singularidade
+guide-entry-teg = Gerador Termoelétrico (TEG)
 guide-entry-controls = Controles
 guide-entry-radio = Radio
 guide-entry-jobs = Trabalhos
@@ -29,17 +32,20 @@ guide-entry-botanicals = Botânica
 guide-entry-cloning = Clonagem
 guide-entry-cryogenics = Criogênica
 guide-entry-science = Ciência
-guide-entry-anomalous-research = Pesquisa anômala
-guide-entry-scanners-and-vessels = Escaners e vassalos
+guide-entry-anomalous-research = Pesquisa Anômala
+guide-entry-scanners-and-vessels = Escaners e Vassalos
 guide-entry-ape = A.P.E.
 guide-entry-xenoarchaeology = Xenoarqueologia
-guide-entry-artifact-reports = Relatórios de artefatos
-guide-entry-traversal-distorter = Distortor transversal
+guide-entry-artifact-reports = Relatórios de Artefatos
+guide-entry-traversal-distorter = Distortor Transversal
 guide-entry-machine-upgrading = Melhorando Máquinas
 guide-entry-robotics = Robótica
-
 guide-entry-security = Segurança
 guide-entry-dna = DNA
-
 guide-entry-antagonists = Antagonistas
 guide-entry-nuclear-operatives = Operativos Nucleares
+guide-entry-nuclear-traitors = Traidores
+guide-entry-nuclear-zombies = Zumbis
+guide-entry-minor-antagonists = Antagonistas Menores
+
+guide-entry-writing = Escrita

@@ -21,6 +21,9 @@ ghost-role-information-slimes-name = Slime
 ghost-role-information-slimes-description = Um simples Slime sem necessidades ou interesses especiais. Ele apenas vive.
 ghost-role-information-angry-slimes-description = Tudo ao seu redor irrita seus instintos, destrua-os!
 
+ghost-role-information-smile-name = Smile a Slime
+ghost-role-information-smile-description = A criatura mais doce do mundo Smile a Slime.
+
 ghost-role-information-punpun-name = Pun Pun
 ghost-role-information-punpun-description = Um membro honrado da sociedade dos macacos encarregado do bar e ajudando os bartenders de todas as maneiras que pode.
 
@@ -94,6 +97,9 @@ ghost-role-information-guardian-description = Ouça seu dono. Não danifique o t
 ghost-role-information-holoparasite-name = Holoparasite
 ghost-role-information-holoparasite-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
 
+ghost-role-information-holoclown-name = Holopalhaço
+ghost-role-information-holoclown-description = Ouça o seu dono. Utilize seus bolsos e mãos para ajudar seu dono.
+
 ghost-role-information-ifrit-name = Ifrit
 ghost-role-information-ifrit-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
 
@@ -145,3 +151,6 @@ ghost-role-information-centcom-official-description = Inspecionar a estação, f
 
 ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = Você é um antagonista, traga a morte e buzinas para aqueles que não seguem a honkmother.
+
+ghost-role-information-taxibot-name = TaxiBot
+ghost-role-information-taxibot-description = Dirija a tripulação da estação até o seu destino.

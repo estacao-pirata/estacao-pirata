@@ -7,6 +7,10 @@ pai-system-role-name = inteligência artificial pessoal
 pai-system-role-description = Seja o amigo eletrônico de alguém!
                               (Memórias *não* inclusas.)
 
+pai-system-role-name-syndicate = IA pessoal do sindicato
+pai-system-role-description-syndicate = Seja amigo de alguém do Sindicato!
+                                        (Memórias *não* inclusas.)
+
 pai-system-wipe-device-verb-text = Remover IAp
 pai-system-wiped-device = A IAp foi removida do dispositivo.
 

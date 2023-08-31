@@ -1,4 +1,4 @@
-nuke-component-cant-anchor = As trancas ficam bloqueadas sem o disco!
+nuke-component-cant-anchor-floor = Os parafusos de ancoragem não conseguem travar no chão!
 nuke-component-announcement-sender = Explosivo de fissão nuclear
 nuke-component-announcement-armed = Atenção! O mecanismo de auto-destruição da estação foi ativado. {$time} segundos até a detonação.
 nuke-component-announcement-unarmed = A auto-destruição da estação foi desativada! Tenham um bom dia!
@@ -8,7 +8,8 @@ nuke-component-doafter-warning = Você começa a mexer nos fios para desativar a
 # Nuke UI
 nuke-user-interface-title = Explosivo de fissão nuclear
 nuke-user-interface-arm-button = LIGAR
-nuke-user-interface-anchor-button = FIXAR
+nuke-user-interface-disarm-button = DISARMAR
+nuke-user-interface-anchor-button = ANCORAR
 nuke-user-interface-eject-button = EJETAR
 
 ## Upper status

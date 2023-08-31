@@ -7,3 +7,6 @@ lathe-menu-search-filter = Filtrar
 lathe-menu-amount = Quantidade
 lathe-menu-material-display = {$material} {$amount} cm³
 lathe-menu-no-materials-message = Nenhum material carregado
+lathe-menu-tooltip-display = {$amount} cm³ de {$material}
+lathe-menu-materials-ejection = Ejetar materiais
+lathe-menu-materials-ejection = Ejetar materiais
