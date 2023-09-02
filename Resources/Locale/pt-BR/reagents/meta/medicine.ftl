@@ -77,8 +77,7 @@ reagent-name-synaptizine = synaptizina
 reagent-desc-synaptizine = Um produto químico tóxico que reduz pela metade a duração dos choques e knockdowns.
 
 reagent-name-tranexamic-acid = ácido tranexâmico
-reagent-desc-tranexamic-acid = Um medicamento de coagulação do sangue para prevenir sangramento intenso. Muito perigoso em grandes quantidades.
-Um medicamento para coagulação do sangue usado para evitar sangramento profuso. Causa sangramento ainda mais pesado em overdose. Comumente encontrado em pequenas doses dentro de medipens de emergência.
+reagent-desc-tranexamic-acid = Um medicamento para coagulação do sangue usado para evitar sangramento profuso. Causa sangramento ainda mais pesado em overdose. Comumente encontrado em pequenas doses dentro de medipens de emergência.
 
 reagent-name-tricordrazine = tricordrazina
 reagent-desc-tricordrazine = Um estimulante de amplo espectro, originalmente derivado da cordrazina. Trata pequenos danos de todos os tipos básicos de saúde, desde que o usuário não seja gravemente ferido. Melhor usado como um aditivo para outros produtos químicos.

@@ -5,6 +5,4 @@ wires-panel-component-on-examine-security-level3 = Existe uma placa de plasteel 
 wires-panel-component-on-examine-security-level4 = Uma placa de plasteel foi soldada no interior do [color=lightgray]painel de manutenção[/color]. Use uma [color=cyan]Ferramenta de solda[/color] para soltá-lo.
 wires-panel-component-on-examine-security-level5 = O interior do [color=lightgray]painel de manutenção[/color] protegido por uma grade de segurança. Use [color=cyan]Alicates de corte[/color] para removê-la.
 wires-panel-component-on-examine-security-level6 = Há uma placa de plasteel dentro do interior do [color=lightgray]painel de manutenção[/color]. Use o [color=cyan]Pé de Cabra[/color] to remove it.
-Uma placa de plasteel fica dentro do interior do painel de manutenção [color-luzgray][/color]. Use um [color-cyan]Crowbar[/color] para removê-lo.
-wires-panel-component-on-examine-security-level7 =
-Uma placa de gelim soldada protege o interior do[color=lightgray]painel de manutenção[/color]. Use a [color=cyan]Ferramenta de solda[/color] to free it.
+wires-panel-component-on-examine-security-level7 = Uma placa de gelim soldada protege o interior do[color=lightgray]painel de manutenção[/color]. Use a [color=cyan]Ferramenta de solda[/color] to free it.
