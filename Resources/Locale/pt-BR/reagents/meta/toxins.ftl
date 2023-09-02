@@ -1,62 +1,60 @@
 reagent-name-toxin = toxin
-reagent-desc-toxin = Um produto químico tóxico.
+reagent-desc-toxin = Um produto químico não surpreendentemente tóxico. Disponível em um distribuidor chem emagado.
 
 reagent-name-carpotoxin = carpotoxin
-reagent-desc-carpotoxin = Secreções tóxicas de uma carpa espacial. Causa uma sensação dolorosa de queimação.
+reagent-desc-carpotoxin = Um reagente altamente tóxico encontrado em carpas espaciais. Causa uma sensação dolorosa de queimação.
+
 
 reagent-name-mold = mold
-reagent-desc-mold = Frequentemente encontrado em locais escuros e úmidos ou em pão velho.
+reagent-desc-mold = Um crescimento fúngico, muitas vezes encontrado em lugares escuros e úmidos ou em pão expirado. Você vai desenvolver uma doença se ingerir.
 
 reagent-name-polytrinic-acid = polytrinic acid
-reagent-desc-polytrinic-acid = Uma substância química extremamente corrosiva. O menor toque dele derreterá a maioria das máscaras e capacetes, e causará danos extremos a qualquer um que entrar em contato direto com ele.
+reagent-desc-polytrinic-acid = Substância química extremamente corrosiva. Gravemente queima qualquer um que entra diretamente em contato com ele.
 
 reagent-name-chloral-hydrate = chloral hydrate
-reagent-desc-chloral-hydrate = Em doses pequenas te faz sonolento. Em doses maiores, te põe para dormir. Overdose causa entoxicação.
+reagent-desc-chloral-hydrate = Um fármaco sedativo e hipnótico. Comumente usado para colocar outras pessoas para dormir, quer elas queiram quer não.
 
 reagent-name-fluorosulfuric-acid = fluorosulfuric acid
-reagent-desc-fluorosulfuric-acid = Uma substância química extremamente corrosiva.
+reagent-desc-fluorosulfuric-acid = Um produto químico altamente corrosivo, capaz de deixar uma marca na sua pele.
 
 reagent-name-sulfuric-acid = sulfuric acid
-reagent-desc-sulfuric-acid = Líquido altamente corrosivo, oleoso e incolor.
+reagent-desc-sulfuric-acid = Um produto químico corrosivo. Mantenha longe do seu rosto.
 
 reagent-name-unstable-mutagen = unstable mutagen
 reagent-desc-unstable-mutagen = Causa mutações quando injetado em pessoas ou plantas vivas. Altas doses podem ser letais, especialmente em humanos.
 
 reagent-name-heartbreaker-toxin = heartbreaker toxin
-reagent-desc-heartbreaker-toxin = Um composto alucinógeno que é ilegal sob a lei espacial. Uma droga sintética derivada da toxina Mindbreaker, bloqueia alguns sinais neurológicos para o sistema respiratório que causa asfixia.
+reagent-desc-heartbreaker-toxin = Bloqueia sinais neurológicos para o sistema respiratório, causando asfixia.
 
 reagent-name-lexorin = lexorin
-reagent-desc-lexorin = Interrompe temporariamente a respiração e causa danos nos tecidos. Grandes doses são fatais e farão com que as pessoas desmaiem muito rapidamente. Dexalin e Dexalin Plus irão removê-lo, no entanto.
+reagent-desc-lexorin = Um produto químico de ação rápida usado para asfixiar pessoas rapidamente. No entanto dexalin, dexalin plus e epinefrina irão neutralizá-lo.
 
 reagent-name-mindbreaker-toxin = mindbreaker toxin
-reagent-desc-mindbreaker-toxin = Um potente composto alucinógeno que é ilegal sob a lei espacial. Anteriormente conhecido como LSD.
+reagent-desc-mindbreaker-toxin = Um potente composto alucinógeno que era conhecido como LSD.
 
 reagent-name-histamine = histamine
-reagent-desc-histamine = Os efeitos da histamina tornam-se mais perigosos dependendo da quantidade de dosagem. Eles variam de levemente irritantes a incrivelmente letais.
+reagent-desc-histamine = Um produto químico causado pela alergenia reagindo com anticorpos. Letal em grandes quantidades.
 
 reagent-name-theobromine = theobromine
-reagent-desc-theobromine = A teobromina é um alcalóide amargo da planta do cacau encontrado no chocolate e em alguns outros alimentos.
+reagent-desc-theobromine = Um alcalóide amargo da planta de cacau, comumente encontrado no chocolate. Não alimente animais com isso.
 
 reagent-name-amatoxin = amatoxin
-reagent-desc-amatoxin = Uma toxina potente encontrada em alguns cogumelos.
+reagent-desc-amatoxin = Uma toxina mortal encontrada em alguns cogumelos, principalmente fly amanita. As doses pequenas podem ser letais.
 
 reagent-name-vent-crud = vent crud
-reagent-desc-vent-crud = Uma substância negra encontrada em sistemas de ventilação mal mantidos.
+reagent-desc-vent-crud = Substância negra encontrado em sistemas de ventilação mal conservados. Pode causar tosse de ventilação.
 
 reagent-name-romerol = romerol
-reagent-desc-romerol = An otherworldly concoction able to bring the undead to life. If untreated, the effects are irreversible and will bring certain doom upon the station. Handle with care.
-
-reagent-name-corpium = corpium
-reagent-desc-corpium = Um coquetel Syndicate, cuidadosamente colhido de várias fontes. Você não iria querer isso dentro de você.
+reagent-desc-romerol = Uma mistura de outro mundo capaz de trazer os mortos-vivos à vida. Se não forem tratados, os efeitos são irreversíveis e trarão certa desgraça sobre a estação. Manuseie com cuidado.
 
 reagent-name-uncooked-animal-proteins = uncooked animal proteins
-reagent-desc-uncooked-animal-proteins = Isso é muito arriscado para os estômagos de formas de vida mais suaves digerirem.
+reagent-desc-uncooked-animal-proteins = Os estômagos de formas de vida mais moles não digerem isso.
 
 reagent-name-allicin = allicina
 reagent-desc-allicin = Um composto organossulfurado encontrado em álios, como alho, cebola e plantas relacionado.
 
 reagent-name-pax = pax
-reagent-desc-pax = Uma droga psiquiátrica que impede que o paciente machuque alguém diretamente.
+reagent-desc-pax = Um fármaco psiquiátrico que impede que o paciente machuque alguém diretamente.
 
 reagent-name-honk = honk
 reagent-desc-honk = Uma toxina encontrada no banânio. Provoca buzina grave e hemorragia interna, também pode causar mutação no paciente.

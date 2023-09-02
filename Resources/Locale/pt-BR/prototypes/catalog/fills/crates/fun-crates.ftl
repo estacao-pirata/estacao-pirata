@@ -48,3 +48,6 @@ ent-CrateFunBoxing = Caixa de boxe
 
 ent-CrateFunBikeHornImplants = Implante de Buzina de Bicicleta Implants
     .desc = Mil buzinas por dia mantém os agentes de segurança longe!
+
+ent-CrateFunMysteryFigurines = Caixa de Figurinhas Misteriosas
+    .desc = Uma coleção de 10 pacotes de Figurinhas Misteriosas. Repetidas não reembolsáveis.

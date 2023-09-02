@@ -13,22 +13,22 @@ ent-CrateMedicalScrubs = Caixa de roupões médicos
     .desc = Roupas médicas.
 
 ent-CrateEmergencyBurnKit = Kit de emergência para queimaduras
-    .desc = Caixa com quatro kits para tratar queimaduras
+    .desc = Caixa com um kit para tratar queimaduras
 
 ent-CrateEmergencyToxinKit = Kit de emergência antitoxinas
-    .desc = Caixa com quatro kits de tratamento contra toxinas
+    .desc = Caixa com um kit de tratamento contra toxinas
 
 ent-CrateEmergencyO2Kit = Kit de emergência O²
-    .desc = Caixa com quatro kits de tratamento para baixa saturação de O²
+    .desc = Caixa com um kit de tratamento para baixa saturação de O²
 
 ent-CrateEmergencyBruteKit = Kit de emergência bruto
-    .desc = Caixa com quatro kits de tratamento contra ferimentos do tipo bruto
+    .desc = Caixa com um kit de tratamento contra ferimentos do tipo bruto
 
 ent-CrateEmergencyAdvancedKit = Kit de emergência avançado
-    .desc = Caixa com quatro kits de tratamento avançados
+    .desc = Caixa com um kit de tratamento avançados
 
 ent-CrateEmergencyRadiationKit = Kit de emergência para lesões por radiação
-    .desc = Caixa com quatro kits de tratamento contra lesões causadas por exposição à radiação
+    .desc = Caixa com um kit de tratamento contra lesões causadas por exposição à radiação
 
 ent-CrateBodyBags = Caixa de sacos de corpo
     .desc = Contém dez sacos para cadáveres.
