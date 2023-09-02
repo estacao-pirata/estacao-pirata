@@ -593,7 +593,7 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         SendToPausesMap(user, userTransform);
 
-        Dirty(child);
+        DirtyEntity(child);
     }
 
 
