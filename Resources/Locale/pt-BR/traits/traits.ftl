@@ -31,3 +31,6 @@ trait-archaic-accent-desc = You speak in a way that many others find outdated
 
 trait-accentless-name = Sem sotaque
 trait-accentless-desc = Você não tem o sotaque que sua espécie normalmente teria
+
+trait-wheelchair-bound-name = Presa à cadeira de rodas
+trait-wheelchair-bound-desc = Você não pode se mover sem sua cadeira de rodas. Cadeira de rodas incluída.
