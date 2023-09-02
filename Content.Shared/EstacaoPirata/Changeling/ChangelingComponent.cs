@@ -12,7 +12,7 @@ namespace Content.Shared.EstacaoPirata.Changeling;
 
 [RegisterComponent]
 [NetworkedComponent]
-public sealed class ChangelingComponent : Component
+public sealed partial class ChangelingComponent : Component
 {
     #region Points and Chemicals
 
