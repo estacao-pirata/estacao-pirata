@@ -9,3 +9,6 @@ reagent-desc-vitamin = Encontrado em saudáveis e completas refeições.
 
 reagent-name-protein = proteina
 reagent-desc-protein = Encontrado em certas refeiçoes, bom para a saúde corporal.
+
+reagent-name-cocoapowder = cacau em pó
+reagent-desc-cocoapowder = Das melhores variantes de grãos de cacau

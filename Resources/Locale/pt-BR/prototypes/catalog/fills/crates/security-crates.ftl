@@ -8,7 +8,7 @@ ent-CrateSecurityNonlethal = Caixa de não-letais
     .desc = Desativar armas. Requer acesso de segurança para abrir.
 
 ent-CrateSecurityRiot = Caixa de tropa de choque
-    .desc = Contém dois conjuntos de armaduras pesadas e capacetes e 2 espingardas com 6 cartuchos de saco de feijão cada. Requer acesso ao Arsenal para abrir.
+    .desc = Contém dois conjuntos de armaduras anti-motim, capacetes, escudos e enforcers carregadas com balas de borracha. Requer acesso ao Arsenal para abrir.
 
 ent-CrateSecuritySupplies = Caixa de suprimentos de segurança
     .desc = Contém vários suprimentos para a equipe de segurança da estação. Requer acesso de segurança para abrir.
