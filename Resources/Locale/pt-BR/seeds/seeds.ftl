@@ -75,3 +75,5 @@ seeds-watermelon-name = melancia
 seeds-watermelon-display-name = planta de melancia
 seeds-grape-name = uva
 seeds-grape-display-name = planta de uva
+seeds-cocoa-name = cacau
+seeds-cocoa-display-name = pé de cacau

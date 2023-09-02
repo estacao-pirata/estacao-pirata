@@ -5,6 +5,7 @@ gun-selector-verb = Mudar para {$mode}
 gun-selected-mode = Modo {$mode}
 gun-disabled = Você não pode usar armas!
 gun-clumsy = A arma explodiu na sua cara!
+gun-set-fire-mode = Setado para {$mode}
 
 # SelectiveFire
 gun-SemiAuto = semi-automático
@@ -25,6 +26,17 @@ gun-cartridge-unspent = Ele [color=lime]não está gasto[/color].
 
 # BatteryAmmoProvider
 gun-battery-examine = Há carga suficiente para [color={$color}]{$count} tiros.
+
+# CartridgeAmmoProvider
+gun-chamber-bolt-ammo = Arma não acionada
+gun-chamber-bolt = A ação está [color={$color}]{$bolt}[/color].
+gun-chamber-bolt-closed = Ação fechada
+gun-chamber-bolt-opened = Ação aberta
+gun-chamber-bolt-close = Fechar Ação
+gun-chamber-bolt-open = Abrir Ação
+gun-chamber-bolt-closed-state = aberto
+gun-chamber-bolt-open-state = fechado
+gun-chamber-rack = Rack (destravar)
 
 # MagazineAmmoProvider
 gun-magazine-examine = Há [color={$color}]{$count}[/color] tiros restantes.

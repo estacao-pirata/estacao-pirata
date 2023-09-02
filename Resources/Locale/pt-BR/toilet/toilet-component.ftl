@@ -5,3 +5,5 @@ toilet-component-suicide-head-message-others = {CAPITALIZE(THE($victim))} enfia 
 toilet-component-suicide-head-message = Você enfia a cabeça e a {THE($owner)} dá descarga!
 toilet-component-suicide-message-others = {CAPITALIZE(THE($victim))} se bate na {THE($owner)}!
 toilet-component-suicide-message = Você se bate na {THE($owner)}!
+toilet-seat-close = Levantar Tábua
+toilet-seat-open = Abaixar Tábua
