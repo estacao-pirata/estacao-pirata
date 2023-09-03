@@ -33,3 +33,34 @@ chat-manager-send-hook-ooc-wrap-message = OOC: (D){$senderName}: {$message}
 
 chat-manager-dead-channel-name = MORTO
 chat-manager-admin-channel-name = ADMIN
+
+## Speech verbs for chat
+
+chat-speech-verb-suffix-exclamation = !
+chat-speech-verb-suffix-exclamation-strong = !!
+chat-speech-verb-suffix-question = ?
+
+chat-speech-verb-default = diz
+chat-speech-verb-exclamation = exclama
+chat-speech-verb-exclamation-strong = grita
+chat-speech-verb-question = pergunta
+
+chat-speech-verb-insect-1 = chia
+chat-speech-verb-insect-2 = vibra
+
+chat-speech-verb-slime = pia
+
+chat-speech-verb-robotic = afirma
+chat-speech-verb-reptilian = sibila
+
+chat-speech-verb-skeleton = cocalha
+
+chat-speech-verb-small-mob = guincha
+
+chat-speech-verb-large-mob = ruge
+
+chat-speech-verb-monkey = chimpers
+
+chat-speech-verb-cluwne-1 = ri
+chat-speech-verb-cluwne-2 = gargalha
+chat-speech-verb-cluwne-3 = dá risada
