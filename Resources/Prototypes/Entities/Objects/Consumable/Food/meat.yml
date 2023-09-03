@@ -32,6 +32,7 @@
   - type: PhysicalComposition
     materialComposition:
       Meaterial: 300
+  - type: Searable
 
 - type: Tag
   id: Raw

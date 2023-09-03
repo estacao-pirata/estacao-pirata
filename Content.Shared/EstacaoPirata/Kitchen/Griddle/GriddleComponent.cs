@@ -17,19 +17,15 @@ public sealed class GriddleComponent : Component
     [DataField("cookTimeMultiplier"), ViewVariables(VVAccess.ReadWrite)]
     public float CookTimeMultiplier = 1;
 
-    [DataField("basicFryingAudio")]
-    public SoundSpecifier BasicGriddlingAudio = new SoundPathSpecifier("");
-
-    [DataField("fryingCompletedAudio")]
-    public SoundSpecifier GriddlingCompletedAudio = new SoundPathSpecifier("/Audio/EstacaoPirata/Cooking/Griddle/16fthumaf__08_frying-meat");
-
     public sealed class BeingGriddledEvent : HandledEntityEventArgs
     {
         public EntityUid? Occupant;
+        public bool Entering;
 
-        public BeingGriddledEvent(EntityUid? occupant)
+        public BeingGriddledEvent(EntityUid? occupant, bool entering)
         {
             Occupant = occupant;
+            Entering = entering;
         }
     }
 }

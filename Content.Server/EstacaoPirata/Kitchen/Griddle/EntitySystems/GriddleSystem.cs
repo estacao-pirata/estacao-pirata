@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Content.Server.Temperature.Systems;
+using Content.Shared.EstacaoPirata.Kitchen;
 using Content.Shared.Kitchen;
 using Content.Shared.Popups;
 using Content.Shared.Tag;
@@ -34,21 +35,44 @@ public sealed class GriddleSystem : EntitySystem
 
     public override void Update(float frameTime)
     {
-        var enumerator = EntityQueryEnumerator<GriddleComponent, StepTriggerComponent, TransformComponent>();
-        while (enumerator.MoveNext(out var uid, out _, out _, out var transform))
+        var enumerator = EntityQueryEnumerator<GriddleComponent, TransformComponent>();
+        var enumeratorSearables = EntityQueryEnumerator<SearableComponent, TransformComponent>();
+
+        while (enumerator.MoveNext(out var uid, out var griddleComponent,  out var transform))
         {
-            var entities = _lookup.GetEntitiesIntersecting(uid, LookupFlags.Dynamic);
+            //var entities = _lookup.GetEntitiesIntersecting(uid, LookupFlags.Dynamic);
 
-            // var ourAabb = _lookup.GetWorldAABB(uid, transform);
-            // var otherAabb = _lookup.GetWorldAABB(entities.First());
-
-            //if (!ourAabb.Intersects(otherAabb))
-
-            if (entities.Any())
+            while (enumeratorSearables.MoveNext(out var searableUid, out var searableComponent, out var searableTransform))
             {
-                var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(entities.First());
-                RaiseLocalEvent(uid, beingGriddledEvent);
+                var griddleAabb = _lookup.GetWorldAABB(uid, transform);
+                var otherAabb = _lookup.GetWorldAABB(searableUid);
+
+                if (!otherAabb.Intersects(griddleAabb))
+                    continue;
+
+                Log.Debug($"Searable: {searableUid}\nGriddle: {uid}");
+
+                // TODO: ver melhor esta coisa do valor 0.3
+                if (!griddleComponent.EntitiesOnTop.Contains(searableUid) && griddleAabb.IntersectPercentage(otherAabb) >= 0.3)
+                {
+                    griddleComponent.EntitiesOnTop.Add(searableUid);
+                    var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(searableUid, true);
+                    RaiseLocalEvent(uid, beingGriddledEvent);
+                }
+
+                else if (griddleComponent.EntitiesOnTop.Contains(searableUid) && griddleAabb.IntersectPercentage(otherAabb) < 0.3 )
+                {
+                    griddleComponent.EntitiesOnTop.Remove(searableUid);
+                    var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(searableUid, false);
+                    RaiseLocalEvent(uid, beingGriddledEvent);
+                }
             }
+
+            // if (entities.Any())
+            // {
+            //     var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(entities.First());
+            //     RaiseLocalEvent(uid, beingGriddledEvent);
+            // }
         }
     }
 
@@ -57,22 +81,31 @@ public sealed class GriddleSystem : EntitySystem
         if (args.Occupant == null)
             return;
 
+        if (args.Entering)
+        {
+            Log.Debug($"{args.Occupant} is entering {uid}");
+        }
+        else
+        {
+            Log.Debug($"{args.Occupant} is leaving {uid}");
+        }
+
         // if (!TryComp(args.Occupant, out GriddledComponent? comp))
         //     return;
 
         // Colocar o ocupante em uma lista
         // Esta lista pode estar no componente do griddle, pra guardar as coisas em cima dele
 
-        if (component.EntitiesOnTop.Contains(args.Occupant.Value))
-            return;
-
-        component.EntitiesOnTop.Add(args.Occupant.Value);
+        // if (component.EntitiesOnTop.Contains(args.Occupant.Value))
+        //     return;
+        //
+        // component.EntitiesOnTop.Add(args.Occupant.Value);
 
         // Dar ao ocupante um componente que indique que esta sendo griddled
         // Para quem tem esse componente, ficar checando se esta no mesmo grid de algum griddle?
         // Pra quem tem esse componente, adicionar hit box pra trigger para ver se esta em cima?
 
-        Log.Debug($"{args.Occupant} is on {uid}");
+        //Log.Debug($"{args.Occupant} is on {uid}");
     }
 
     private void OnStepTriggerAttempt(EntityUid uid, GriddleComponent component, ref StepTriggerAttemptEvent args)
