@@ -19,7 +19,7 @@
     angle: 60
     animation: WeaponArcSlash
   - type: StaminaDamageOnHit
-    damage: 55
+    damage: 45
     sound: /Audio/Weapons/egloves.ogg
   # - type: StaminaDamageOnCollide
   #   damage: 55
