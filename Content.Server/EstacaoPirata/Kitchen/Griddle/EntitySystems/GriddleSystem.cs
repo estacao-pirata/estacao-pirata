@@ -33,24 +33,19 @@ public sealed class GriddleSystem : EntitySystem
 
 
 
+    // TODO: pensar em como vai funcionar o sistema para "adicionar" calor ao item
     public override void Update(float frameTime)
     {
         var enumerator = EntityQueryEnumerator<GriddleComponent, TransformComponent>();
-        var enumeratorSearables = EntityQueryEnumerator<SearableComponent, TransformComponent>();
 
         while (enumerator.MoveNext(out var uid, out var griddleComponent,  out var transform))
         {
-            //var entities = _lookup.GetEntitiesIntersecting(uid, LookupFlags.Dynamic);
+            var enumeratorSearables = EntityQueryEnumerator<SearableComponent, TransformComponent>();
 
-            while (enumeratorSearables.MoveNext(out var searableUid, out var searableComponent, out var searableTransform))
+            while (enumeratorSearables.MoveNext(out var searableUid, out _, out _))
             {
                 var griddleAabb = _lookup.GetWorldAABB(uid, transform);
                 var otherAabb = _lookup.GetWorldAABB(searableUid);
-
-                if (!otherAabb.Intersects(griddleAabb))
-                    continue;
-
-                Log.Debug($"Searable: {searableUid}\nGriddle: {uid}");
 
                 // TODO: ver melhor esta coisa do valor 0.3
                 if (!griddleComponent.EntitiesOnTop.Contains(searableUid) && griddleAabb.IntersectPercentage(otherAabb) >= 0.3)
@@ -60,19 +55,13 @@ public sealed class GriddleSystem : EntitySystem
                     RaiseLocalEvent(uid, beingGriddledEvent);
                 }
 
-                else if (griddleComponent.EntitiesOnTop.Contains(searableUid) && griddleAabb.IntersectPercentage(otherAabb) < 0.3 )
+                else if (griddleComponent.EntitiesOnTop.Contains(searableUid) && griddleAabb.IntersectPercentage(otherAabb) < 0.3)
                 {
                     griddleComponent.EntitiesOnTop.Remove(searableUid);
                     var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(searableUid, false);
                     RaiseLocalEvent(uid, beingGriddledEvent);
                 }
             }
-
-            // if (entities.Any())
-            // {
-            //     var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(entities.First());
-            //     RaiseLocalEvent(uid, beingGriddledEvent);
-            // }
         }
     }
 
@@ -83,10 +72,12 @@ public sealed class GriddleSystem : EntitySystem
 
         if (args.Entering)
         {
+            // Rodar codigo de entrada
             Log.Debug($"{args.Occupant} is entering {uid}");
         }
         else
         {
+            // Rodar codigo de saida
             Log.Debug($"{args.Occupant} is leaving {uid}");
         }
 
