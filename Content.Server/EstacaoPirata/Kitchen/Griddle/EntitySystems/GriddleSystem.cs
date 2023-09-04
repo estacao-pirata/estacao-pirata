@@ -1,13 +1,14 @@
 ﻿using System.Linq;
+using Content.Server.Power.EntitySystems;
+using Content.Server.Temperature.Components;
 using Content.Server.Temperature.Systems;
 using Content.Shared.EstacaoPirata.Kitchen;
 using Content.Shared.Kitchen;
 using Content.Shared.Popups;
 using Content.Shared.Tag;
 using Content.Shared.EstacaoPirata.Kitchen.Griddle;
-using Content.Shared.StepTrigger.Components;
 using Content.Shared.StepTrigger.Systems;
-using Robust.Shared.Physics.Components;
+using Robust.Shared.Timing;
 
 namespace Content.Server.EstacaoPirata.Kitchen.Griddle.EntitySystems;
 
@@ -23,6 +24,8 @@ public sealed class GriddleSystem : EntitySystem
     [Dependency] private readonly TagSystem _tag = default!;
     [Dependency] private readonly TemperatureSystem _temperature = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
+    [Dependency] private readonly IGameTiming _gameTimingSystem = default!;
+    [Dependency] private readonly PowerReceiverSystem _powerReceiverSystem = default!;
 
     public override void Initialize()
     {
@@ -31,38 +34,25 @@ public sealed class GriddleSystem : EntitySystem
         SubscribeLocalEvent<GriddleComponent, GriddleComponent.BeingGriddledEvent>(OnStartBeingGriddled);
     }
 
-
-
     // TODO: pensar em como vai funcionar o sistema para "adicionar" calor ao item
     public override void Update(float frameTime)
     {
-        var enumerator = EntityQueryEnumerator<GriddleComponent, TransformComponent>();
+        HandleEntityInteractions();
 
-        while (enumerator.MoveNext(out var uid, out var griddleComponent,  out var transform))
-        {
-            var enumeratorSearables = EntityQueryEnumerator<SearableComponent, TransformComponent>();
+        var griddles = EntityQueryEnumerator<GriddleComponent>();
 
-            while (enumeratorSearables.MoveNext(out var searableUid, out _, out _))
-            {
-                var griddleAabb = _lookup.GetWorldAABB(uid, transform);
-                var otherAabb = _lookup.GetWorldAABB(searableUid);
+         while (griddles.MoveNext(out var uid, out var griddleComponent))
+         {
+             if(_gameTimingSystem.CurTime < griddleComponent.NextSearTime || !_powerReceiverSystem.IsPowered(uid))
+                 continue;
 
-                // TODO: ver melhor esta coisa do valor 0.3
-                if (!griddleComponent.EntitiesOnTop.Contains(searableUid) && griddleAabb.IntersectPercentage(otherAabb) >= 0.3)
-                {
-                    griddleComponent.EntitiesOnTop.Add(searableUid);
-                    var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(searableUid, true);
-                    RaiseLocalEvent(uid, beingGriddledEvent);
-                }
+             UpdateNextSearTime(uid,griddleComponent);
 
-                else if (griddleComponent.EntitiesOnTop.Contains(searableUid) && griddleAabb.IntersectPercentage(otherAabb) < 0.3)
-                {
-                    griddleComponent.EntitiesOnTop.Remove(searableUid);
-                    var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(searableUid, false);
-                    RaiseLocalEvent(uid, beingGriddledEvent);
-                }
-            }
-        }
+             foreach (var item in griddleComponent.EntitiesOnTop)
+             {
+                 SearItem(uid,griddleComponent,item);
+             }
+         }
     }
 
     private void OnStartBeingGriddled(EntityUid uid, GriddleComponent component, GriddleComponent.BeingGriddledEvent args)
@@ -108,5 +98,75 @@ public sealed class GriddleSystem : EntitySystem
     private void OnStepTriggered(EntityUid uid, GriddleComponent component, ref StepTriggeredEvent args)
     {
         _popupSystem.PopupEntity("VOCE PISOU EM CIMA", args.Tripper);
+    }
+
+    /// <summary>
+    /// This method will handle Griddle to Item interactions and vice versa
+    /// </summary>
+    private void HandleEntityInteractions()
+    {
+        var enumerator = EntityQueryEnumerator<GriddleComponent, TransformComponent>();
+
+        while (enumerator.MoveNext(out var uid, out var griddleComponent, out var transform))
+        {
+            if(!_powerReceiverSystem.IsPowered(uid))
+                continue;
+
+            var enumeratorSearables = EntityQueryEnumerator<SearableComponent, TransformComponent>();
+
+            while (enumeratorSearables.MoveNext(out var searableUid, out _, out _))
+            {
+                var griddleAabb = _lookup.GetWorldAABB(uid, transform);
+                var otherAabb = _lookup.GetWorldAABB(searableUid);
+
+                // TODO: ver melhor esta coisa do valor 0.3
+                if (!griddleComponent.EntitiesOnTop.Contains(searableUid) &&
+                    griddleAabb.IntersectPercentage(otherAabb) >= 0.3)
+                {
+                    griddleComponent.EntitiesOnTop.Add(searableUid);
+                    var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(searableUid, true);
+                    RaiseLocalEvent(uid, beingGriddledEvent);
+                }
+
+                else if (griddleComponent.EntitiesOnTop.Contains(searableUid) &&
+                         griddleAabb.IntersectPercentage(otherAabb) < 0.3)
+                {
+                    griddleComponent.EntitiesOnTop.Remove(searableUid);
+                    var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(searableUid, false);
+                    RaiseLocalEvent(uid, beingGriddledEvent);
+                }
+            }
+        }
+    }
+
+    /// <summary>
+    /// This is for...
+    /// </summary>
+    /// <param name="uid"></param>
+    /// <param name="component"></param>
+    /// <param name="item"></param>
+    private void SearItem(EntityUid uid, GriddleComponent component, EntityUid item)
+    {
+        if (TryComp<TemperatureComponent>(item, out var temperatureComponent))
+        {
+            var delta = (component.TemperatureUpperLimit - temperatureComponent.CurrentTemperature) * temperatureComponent.AtmosTemperatureTransferEfficiency;
+
+            if (delta > 0f)
+            {
+                _temperature.ChangeHeat(item,delta,false,temperatureComponent);
+            }
+        }
+
+
+    }
+
+    /// <summary>
+    /// This is for...
+    /// </summary>
+    /// <param name="uid"></param>
+    /// <param name="component"></param>
+    private void UpdateNextSearTime(EntityUid uid, GriddleComponent component)
+    {
+        component.NextSearTime = _gameTimingSystem.CurTime + component.SearInterval;
     }
 }
