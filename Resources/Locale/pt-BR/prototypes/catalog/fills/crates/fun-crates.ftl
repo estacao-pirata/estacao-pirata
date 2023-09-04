@@ -4,7 +4,7 @@ ent-CrateFunPlushie = Caixa de pelúcias
 ent-CrateFunInstrumentsVariety = Caixa de conjunto de instrumentos variados
     .desc = Faça sua estação triste se mexer e curtir com esta bela coleção! Contém treze instrumentos diferentes.
 
-dent-CrateFunInstrumentsBrass = Caixa de conjunto de metais
+ent-CrateFunInstrumentsBrass = Caixa de conjunto de metais
     .desc = Traga um pouco de jazz para a estação com o conjunto de metais. Contém uma variedade de instrumentos do naipe dos metais para toda a estação tocar.
 
 ent-CrateFunInstrumentsString = Caixa de conjunto de cordas
