@@ -23,4 +23,6 @@ disposal-unit-thrown-missed = Errou!
 
 # state
 disposal-unit-state-Ready = Pronta
+# Yes they like to break our localization for no effect
+disposal-unit-state-Flushed = Pressurizando
 disposal-unit-state-Pressurizing = Pressurizando
