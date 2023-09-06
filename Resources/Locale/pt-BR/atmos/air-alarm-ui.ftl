@@ -42,6 +42,8 @@ air-alarm-ui-mode-none = Nenhum
 ### General
 
 air-alarm-ui-widget-enable = Habilitado
+air-alarm-ui-widget-copy = Copiar configurações para dispositivos similares
+air-alarm-ui-widget-copy-tooltip = Copia as configurações deste dispositivo para todos os dispositivos nesta aba de alarme de ar.
 air-alarm-ui-widget-ignore = Ignorar
 air-alarm-ui-atmos-net-device-label = Endereço: {$address}
 
