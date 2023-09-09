@@ -25,4 +25,5 @@ ghost-return-to-body-title = Retorne ao corpo
 ghost-return-to-body-text = Você está sendo revivido! Retornar ao seu corpo?
 
 ghost-roles-window-redirect-label = Ou, você pode se conectar em outro server.
+ghost-roles-window-redirect-label-empty = Você pode se conectar em outro server.
 ghost-roles-window-redirect = Conecte
