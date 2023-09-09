@@ -3,6 +3,6 @@
 # 3. Put comments on their own line
 ss14://152.67.46.236:1212
 ss14://164.152.42.60:1215
-ss14://nyanotrasen.moe:1212
-ss14://nyanotrasen.moe:1213
-ss14://nfn.mooo.com:1213
+#ss14://nyanotrasen.moe:1212
+#ss14://nyanotrasen.moe:1213
+#ss14://nfn.mooo.com:1213
