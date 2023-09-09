@@ -49,7 +49,7 @@ alerts-battery-name = Bateria
 alerts-battery-desc = Se a sua bateria se esgotar, você não será capaz de usar suas habilidades.
 
 alerts-no-battery-name = Sem bateria
-alerts-no-battery-desc = Você não possui uma bateria, tornando-se incapaz de recarregar ou usar suas habilidades.
+alerts-no-battery-desc = Você não tem uma bateria, o que lhe torna incapaz de recarregar ou usar suas habilidades.
 
 alerts-internals-name = Alternar internos
 alerts-internals-desc = Ativa ou desativa os componentes internos do tanque de gasolina.
