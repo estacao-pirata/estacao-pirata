@@ -115,7 +115,7 @@
   - type: StationEvent
     earliestStart: 15
     minimumPlayers: 15
-    weight: 5
+    weight: 0
     startDelay: 50
     duration: 240
   - type: KudzuGrowthRule
