@@ -22,6 +22,7 @@
       - id: ClothingHeadsetAltCargo
       - id: BoxEncryptionKeyCargo
 
+
 - type: entity
   id: LockerCaptainFilledHardsuit
   suffix: Filled, Hardsuit
@@ -187,6 +188,8 @@
       - id: DoorRemoteMedical
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard
+      - id: MaterialBiomass
+        amount: 3
       - id: BoxEncryptionKeyMedical
       - id: CloningPodMachineCircuitboard
       - id: CloningConsoleComputerCircuitboard
@@ -213,6 +216,8 @@
       - id: DoorRemoteMedical
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard
+      - id: MaterialBiomass
+        amount: 3
       - id: BoxEncryptionKeyMedical
       - id: CloningPodMachineCircuitboard
       - id: CloningConsoleComputerCircuitboard
