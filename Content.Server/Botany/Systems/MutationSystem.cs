@@ -57,7 +57,7 @@ public sealed class MutationSystem : EntitySystem
         MutateBool(ref seed.Sentient       , true  , 10 , totalbits , severity);
         MutateBool(ref seed.Ligneous       , true  , 10 , totalbits , severity);
         MutateBool(ref seed.Bioluminescent , true  , 10 , totalbits , severity);
-        MutateBool(ref seed.TurnIntoKudzu  , true  , 10 , totalbits , severity);
+        // MutateBool(ref seed.TurnIntoKudzu  , true  , 10 , totalbits , severity);
         MutateBool(ref seed.CanScream      , true  , 10 , totalbits , severity);
         seed.BioluminescentColor = RandomColor(seed.BioluminescentColor, 10, totalbits, severity);
         // ConstantUpgade (10)
@@ -95,7 +95,7 @@ public sealed class MutationSystem : EntitySystem
         CrossBool(ref result.Sentient, a.Sentient);
         CrossBool(ref result.Ligneous, a.Ligneous);
         CrossBool(ref result.Bioluminescent, a.Bioluminescent);
-        CrossBool(ref result.TurnIntoKudzu, a.TurnIntoKudzu);
+        //CrossBool(ref result.TurnIntoKudzu, a.TurnIntoKudzu);
         CrossBool(ref result.CanScream, a.CanScream);
         result.BioluminescentColor = Random(0.5f) ? a.BioluminescentColor : result.BioluminescentColor;
 
