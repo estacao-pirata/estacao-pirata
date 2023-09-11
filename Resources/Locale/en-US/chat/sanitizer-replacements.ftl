@@ -19,5 +19,3 @@ chatsan-waves = waves
 chatsan-salutes = salutes
 chatsan-tearfully-salutes = tearfully salutes
 chatsan-shrugs = shrugs
-chatsan-shake-head-yes = shakes { POSS-ADJ($ent) } head yes
-chatsan-shake-head-no = shakes { POSS-ADJ($ent) } head no

@@ -1,8 +1,9 @@
-﻿action-name-crit-succumb = Sucumbir
-action-description-crit-succumb = Aceite seu destino.
+﻿action-name-crit-succumb = Succumb
+action-description-crit-succumb = Accept your fate.
 
 action-name-crit-fake-death = Fake Death
-action-description-crit-fake-death = Finja o seu último suspiro enquanto ainda vivo.
+action-description-crit-fake-death = Pretend to take your final breath while staying alive.
 
-action-name-crit-last-words = Dizer Últimas Palavras
-action-description-crit-last-words = Sussurre suas últimas palavras para qualquer pessoa por perto e, em seguida, sucumbir ao seu destino. Você tem apenas 30 caracteres.
+action-name-crit-last-words = Say Last Words
+action-description-crit-last-words = Whisper your last words to anyone nearby, and then succumb to your fate. You only have 30 characters to work with.
+
