@@ -1,9 +1,6 @@
-department-Silicon = silicon
-department-Silicon-description = Siga suas leis em serviço aos humanos.
 job-description-guard = Mantenha o controle dos prisioneiros e certifique-se de que eles têm suas necessidades básicas.
 job-name-mail-carrier = carteiro
 job-name-cyborg = borgue
-job-name-medical-cyborg = borgue médico
 job-name-gladiator = gladiador
 job-name-fugitive = fugitivo
 job-name-prisoner = prisioneiro
@@ -12,7 +9,6 @@ job-name-paramedic = paramédico
 job-name-guard = guarda de prisão
 job-name-martialartist = artista marcial
 job-description-mail-carrier = Entregar cartas. Evite cães.
-job-description-cyborg = Leia as suas leis. Leia suas leis. Leia suas leis.
 job-description-valet = Cuidar da estação e seus muitos hóspedes.
 job-description-fugitive = Fuja da estação viva.
 job-description-prisoner = Fique na prisão. Aposte com seus companheiros de cela. Fale com o carcereiro. Escreva suas memórias.

@@ -2,6 +2,7 @@ job-description-technical-assistant = Learn the basics of managing the station's
 job-description-atmostech = Optimize the station's atmospherics setup, and synthesize rare gases to use or sell.
 job-description-bartender = Manage the bar and keep it lively, give out drinks, and listen to the crew's stories.
 job-description-botanist = Grow food for the chef, drugs for medbay, and other plants to keep yourself entertained.
+job-description-borg = Meio-humano, meia-máquina. Siga suas leis, sirva a tripulação e aperte a equipe científica para atualizações.
 job-description-boxer = Fight your way to the top! Challenge the head of personnel and get brigged when you win. Currently available on Core and Origin Station.
 job-description-cadet = Learn the basics of arresting criminals and managing the brig.
 job-description-captain = Keep the station running, delegate work to the other heads of staff, and exert your will.

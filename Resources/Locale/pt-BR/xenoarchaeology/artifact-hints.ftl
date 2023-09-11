@@ -17,6 +17,9 @@ artifact-effect-hint-multitool = Conglomerado de utilidades
 artifact-effect-hint-storage = Câmara interna
 artifact-effect-hint-drill = Rotor serrilhado
 artifact-effect-hint-soap = Superfície lubrificada
+artifact-effect-hint-communication = Comunicação de longa distância
+artifact-effect-hint-phasing = Faseamento estrutural
+artifact-effect-hint-sentience = Atividade neurológica
 
 # the triggers should be more obvious than the effects
 # gives people an idea of what to do: don't be too specific (i.e. no "welders")

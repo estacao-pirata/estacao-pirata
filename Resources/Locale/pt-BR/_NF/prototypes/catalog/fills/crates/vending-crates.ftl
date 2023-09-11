@@ -1,5 +1,5 @@
 ent-CrateVendingMachineRestockAstroVendFilled = Caixa de reabastecimento AstroVend
-    .desc = Contém duas caixas de reabastecimento do fornecedor AstroVend.
+    .desc = Contém duas caixas de reabastecimento para a máquina de vendas AstroVend.
 
 ent-CrateVendingMachineRestockAmmoFilled = Caixa de reabastecimento Liberation
     .desc = Contém duas caixas de reabastecimento para a máquina de venda automática de libertação.

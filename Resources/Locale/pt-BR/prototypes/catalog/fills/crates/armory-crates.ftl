@@ -8,7 +8,7 @@ ent-CrateTrackingImplants = Caixa de implantes rastreadores
     .desc = Contém um punhado de implantes rastreadores. Bom para prisioneiros que você gostaria de soltar mas ainda quer poder encontrar.
 
 ent-CrateArmoryLaser = caixa de lasers
-    .desc = Contém três armas laser letais de alta energia. Requer acesso ao Armory para abrir.
+    .desc = Contém três rifles laser de edição padrão. Requer acesso Armory para abrir.
 
 ent-CrateArmoryPistols = caixa de pistolas
     .desc = Contains duas duas pistolas padrão NT com quatro pentes. Requer acesso Armory para abrir.

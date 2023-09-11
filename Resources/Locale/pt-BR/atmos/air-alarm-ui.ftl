@@ -13,7 +13,7 @@ air-alarm-ui-window-device-count-label = Dispositivos Totais
 air-alarm-ui-window-resync-devices-label = Ressincronizar
 
 air-alarm-ui-window-mode-label = Modo
-air-alarm-ui-window-mode-mode-label = Modo Automático
+air-alarm-ui-window-auto-mode-label = Modo Automático
 
 air-alarm-ui-window-pressure = {$pressure} kPa
 air-alarm-ui-window-pressure-indicator = Pressão: [color={$color}]{$pressure} kPa[/color]
@@ -42,6 +42,8 @@ air-alarm-ui-mode-none = Nenhum
 ### General
 
 air-alarm-ui-widget-enable = Habilitado
+air-alarm-ui-widget-copy = Copiar configurações para dispositivos similares
+air-alarm-ui-widget-copy-tooltip = Copia as configurações deste dispositivo para todos os dispositivos nesta aba de alarme de ar.
 air-alarm-ui-widget-ignore = Ignorar
 air-alarm-ui-atmos-net-device-label = Endereço: {$address}
 

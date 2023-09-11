@@ -35,12 +35,13 @@ use-emp-implant-action-name = Ativar EMP
 use-emp-implant-action-description = Aciona um pequeno pulso EMP em torno de você
 
 use-dna-scrambler-implant-action-name = Scramble DNA
-use-dna-scrambler-implant-action-description = LING IN MAINTS!
+use-dna-scrambler-implant-action-description = Altera aleatoriamente seu nome e aparência.
 
 ## Implant Popups
 
 scramble-attempt-while-scrambled-popup = DNA embaralhado detectado, por favor, extraia o implante antes de desfazer o embaralhamento atual.
 scramble-implant-activated-popup = Você se transformou em {$identity}
+scramble-implant-activated-popup = Você sente na pele sua aparência se alterar por completo
 
 ## Implant Messages
 

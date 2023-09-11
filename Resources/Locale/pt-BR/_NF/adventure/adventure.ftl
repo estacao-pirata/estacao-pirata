@@ -9,9 +9,6 @@ adventure-title = Novo Modo de Aventura Frontier
 adventure-description = Junte-se a uma tripulação de navio ou compre o seu próprio e explore, pesquise, resgate ou transporte o seu caminho para a riqueza!
 currency = pesos
 
-advertisement-astrovend-1 = Escolha de Spessman!
-advertisement-astrovend-2 = Não saia de casa sem um traje!
-
 guide-entry-adventure = Programa Novas Fronteiras
 guide-entry-bank = Banco Galático NT
 guide-entry-shipyard = Estaleiro Frontier

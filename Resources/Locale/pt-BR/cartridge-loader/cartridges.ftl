@@ -2,6 +2,9 @@
 notekeeper-program-name = Bloco de notas
 news-read-program-name = Boletim da estação
 
+crew-manifest-program-name = Manifesto da tripulação
+crew-manifest-cartridge-loading = Carregando ...
+
 net-probe-program-name = NetProbe
 net-probe-scan = Escaneado {$device}!
 net-probe-label-name = Nome

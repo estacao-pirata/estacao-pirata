@@ -73,10 +73,10 @@ ent-MedicalPDA = medical PDA
 ent-ChemistryPDA = chemistry PDA
     .desc = It has a few discolored blotches here and there.
 
-ent-RnDPDA = mystagogue PDA
+ent-RnDPDA = research director PDA
     .desc = It appears surprisingly ordinary.
 
-ent-SciencePDA = epistemics PDA
+ent-SciencePDA = science PDA
     .desc = It's covered with an unknown gooey substance.
 
 ent-HoSPDA = head of security PDA

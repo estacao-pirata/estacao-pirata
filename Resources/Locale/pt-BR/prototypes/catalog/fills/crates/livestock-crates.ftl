@@ -8,7 +8,7 @@ ent-CrateNPCCat = Caixa de gato
     .desc = Uma caixa contendo um único gato.
 
 ent-CrateNPCChicken = Caixa de galinhas
-    .desc = Uma caixa contendo quatro galinhas adultas.
+    .desc = Uma caixa contendo duas galinhas adultas.
 
 ent-CrateNPCCrab = Caixa de caranguejo
     .desc = Uma caixa contendo três enormes caranguejos.
@@ -32,7 +32,7 @@ ent-CrateNPCGorilla = Caixa de gorila
     .desc = Uma caixa contendo um único gorila.
 
 ent-CrateNPCMonkeyCube = Caixa de macacos em cubos
-    .desc = Uma caixa contedo três caixas de macacos em cubos.
+    .desc = Uma caixa contendo apenas uma caixa de macacos em cubos.
 
 ent-CrateNPCMouse = Caixa de ratos
     .desc = Uma caixa contendo cinco ratos.
