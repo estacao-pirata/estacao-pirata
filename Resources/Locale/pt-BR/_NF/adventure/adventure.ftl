@@ -21,3 +21,5 @@ shipyard-rules-default2 =
     Quaisquer ações realizadas por você ou pela sua tripulação que violem a Lei Espacial
     resultará em ação administrativa.
     Obrigado por escolher as forças de segurança Nanotrasen.
+
+shuttle-ftl-proximity = Objetos próximos de muita massa para FTL!
