@@ -26,7 +26,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 0
+    weight: 1
     reoccurrenceDelay: 5
     earliestStart: 1
     duration: 1
@@ -61,7 +61,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 1.5
+    weight: 5
     duration: 1
     earliestStart: 45
     minimumPlayers: 20
@@ -115,7 +115,7 @@
   - type: StationEvent
     earliestStart: 15
     minimumPlayers: 15
-    weight: 0
+    weight: 5
     startDelay: 50
     duration: 240
   - type: KudzuGrowthRule
@@ -127,8 +127,8 @@
   components:
   - type: StationEvent
     earliestStart: 30
-    weight: 5
-    minimumPlayers: 20
+    weight: 7.5
+    minimumPlayers: 10 #Enough to hopefully have at least one engineering guy
     startAnnouncement: station-event-meteor-swarm-start-announcement
     endAnnouncement: station-event-meteor-swarm-end-announcement
     startAudio:
@@ -152,11 +152,11 @@
   - type: VentCrittersRule
     entries:
     # - id: MobMouse
-    #   prob: 0.01
+    #   prob: 0.015
     # - id: MobMouse1
-    #   prob: 0.01
+    #   prob: 0.015
     # - id: MobMouse2
-    #   prob: 0.01
+    #   prob: 0.015
     - id: MobRatServant
       prob: 0.015
     specialEntries:
@@ -176,7 +176,7 @@
       path: /Audio/Announcements/power_off.ogg
       params:
        volume: -4
-    startDelay: 12
+    startDelay: 24
     duration: 60
     maxDuration: 120
   - type: PowerGridCheckRule
@@ -300,7 +300,7 @@
   - type: StationEvent
     earliestStart: 20
     minimumPlayers: 15
-    weight: 2
+    weight: 1
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -314,7 +314,7 @@
   components:
   - type: StationEvent
     earliestStart: 50
-    weight: 0.1
+    weight: 0.3
     duration: 1
   - type: ZombieRule
     minStartDelay: 0 #let them know immediately
