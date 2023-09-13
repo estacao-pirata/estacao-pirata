@@ -1,28 +1,22 @@
 - type: entity
   save: false
   name: Urist McVulp
-  parent: BaseMobSpeciesOrganic
+  parent: BaseMobOrganic
   id: BaseMobVulpkanin
   abstract: true
   components:
   - type: HumanoidAppearance
     species: HumanoidFoxes
   - type: Hunger
-    baseDecayRate: 0.025
   - type: Thirst
-    baseDecayRate: 0.06
   - type: Icon
     sprite: DeltaV/Mobs/Species/Vulpkanin/parts.rsi
     state: full
   - type: Body
     prototype: Vulpkanin
     requiredLegs: 2
-  - type: VulpLanguageSpeaker
-  - type: VulpLangaugeListener
-  - type: VulpGiveTranslator
   - type: Speech
     speechSounds: Vulpkanin
-    speechVerb: Vulpkanin
   - type: Sprite
     netsync: false
     noRot: true
@@ -74,10 +68,22 @@
       - map: [ "head" ]
       - map: [ "pocket1" ]
       - map: [ "pocket2" ]
-  - type: Damageable
-    damageContainer: Biological
-    damageModifierSet: Vulps
+      - map: [ "clownedon" ] # Dynamically generated
+        sprite: "DeltaV/Effects/creampie.rsi"
+        state: "creampie_vulpkanin"
+        visible: false
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Blunt: 1
+        Slash: 5
   - type: Perishable
+#  - type: Carriable
   - type: TemperatureProtection
     coefficient: 0.1
   - type: Temperature
