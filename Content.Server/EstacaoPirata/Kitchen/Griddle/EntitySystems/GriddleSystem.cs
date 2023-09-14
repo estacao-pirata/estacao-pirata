@@ -63,11 +63,13 @@ public sealed class GriddleSystem : EntitySystem
         if (args.Entering)
         {
             // Rodar codigo de entrada
+            RaiseNetworkEvent(new GriddleComponent.EnterGriddleEvent(args.Occupant.Value), uid);
             Log.Debug($"{args.Occupant} is entering {uid}");
         }
         else
         {
             // Rodar codigo de saida
+            RaiseNetworkEvent(new GriddleComponent.ExitGriddleEvent(args.Occupant.Value), uid);
             Log.Debug($"{args.Occupant} is leaving {uid}");
         }
 
@@ -149,7 +151,9 @@ public sealed class GriddleSystem : EntitySystem
     {
         if (TryComp<TemperatureComponent>(item, out var temperatureComponent))
         {
-            var delta = (component.TemperatureUpperLimit - temperatureComponent.CurrentTemperature) * temperatureComponent.AtmosTemperatureTransferEfficiency;
+            var delta = (component.TemperatureUpperLimit - temperatureComponent.CurrentTemperature) * (temperatureComponent.HeatCapacity * 0.01f); // TODO: ver melhor como obter valor
+
+            // quando o item alcancar sua temperatura de sear, iniciar uma contagem de alguns segundos para trocar de sprite
 
             if (delta > 0f)
             {

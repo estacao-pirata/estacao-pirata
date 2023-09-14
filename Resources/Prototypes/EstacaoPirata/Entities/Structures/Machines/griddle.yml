@@ -10,7 +10,6 @@
     layers:
     - state: griddle
       map: ["enum.GriddleVisualizerLayers.Base"]
-
   - type: Rotatable
   - type: Physics
   - type: Fixtures

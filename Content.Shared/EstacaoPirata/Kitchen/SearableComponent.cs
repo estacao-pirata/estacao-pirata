@@ -1,11 +1,12 @@
 ﻿using Robust.Shared.Audio;
+using Robust.Shared.GameStates;
 
 namespace Content.Shared.EstacaoPirata.Kitchen;
 
 /// <summary>
 /// This is used for determining which items are searable,
 /// </summary>
-[RegisterComponent]
+[RegisterComponent,NetworkedComponent]
 public sealed class SearableComponent : Component
 {
     [ViewVariables(VVAccess.ReadOnly)]
