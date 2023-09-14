@@ -8,7 +8,7 @@ using Robust.Shared.Prototypes;
 using Content.Server.Actions;
 using Content.Server.Forensics;
 using Content.Shared.DoAfter;
-using Content.Server.Mind.Components;
+using Content.Shared.Mind.Components;
 using Content.Shared.Humanoid;
 using System.Linq;
 using Content.Server.Inventory;
