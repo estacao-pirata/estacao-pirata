@@ -1,2 +1,2 @@
-action-name-hardsuit = Alternar capacete
-action-description-hardsuit = Lembre-se de equipar o capacete antes de entrar no espaço.
+action-name-hardsuit = Alternar peça do traje
+action-description-hardsuit = Lembre-se de equipar as peças importantes do seu traje antes de entrar em ação.
