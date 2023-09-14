@@ -9,3 +9,6 @@ ent-CrateHydroponicsTools = Caixa de equipamento hidropônico
 
 ent-CrateHydroponicsSeeds = Caixa de sementes
     .desc = Grandes coisas têm pequenos começos. Contém doze sementes diferentes.
+
+ent-CratePlantBGone = Caixa de Bulk Plant-B-Gone
+    .desc = From Monstano. "Ervas daninhas indesejadas, conheça seu grupo celestial!"

@@ -9,6 +9,7 @@ guide-entry-networking = Rede
 guide-entry-network-configurator = Configurador de Rede
 guide-entry-access-configurator = Configurador de Acesso
 guide-entry-power = Energia
+guide-entry-portable-generator = Geradores Portáteis
 guide-entry-ame = Motor de antimatéria (AME)
 guide-entry-singularity = Singularidade
 guide-entry-teg = Gerador Termoelétrico (TEG)
