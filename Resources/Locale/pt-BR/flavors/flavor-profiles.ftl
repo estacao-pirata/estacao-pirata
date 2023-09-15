@@ -165,6 +165,7 @@ flavor-complex-vodka = de grãos fermentados
 flavor-complex-tequila = de bebida fermentada
 flavor-complex-sake = de doce e alcoólico arroz
 flavor-complex-rum = de açucar fermentado
+flavor-complex-champagne = de pão recém assado
 flavor-complex-coffee-liquor = de forte e amargo café
 flavor-complex-whiskey = de whisky
 flavor-complex-shitty-wine = de cascas de uva
@@ -193,11 +194,10 @@ flavor-complex-atomic-cola = de tampinha de garrafa
 flavor-complex-cuba-libre = de cola drogada
 flavor-complex-gin-tonic = de refrigerante lima-limão drogado
 flavor-complex-screwdriver = de suco de laranja drogado
-
-lavor-complex-themartinez = como violetas e limão vodka
-flavor-complex-antifreeze = quente
+flavor-complex-themartinez = como violetas e limão vodka
 flavor-complex-cogchamp = como bronze
 flavor-complex-white-gilgamesh = como creme levemente adocicado
+flavor-complex-antifreeze = quente
 
 # Medicine/chemical-specific flavors.
 
