@@ -88,7 +88,6 @@ uplink-holoclown-kit-name = Kit Holoclown
 uplink-holoclown-kit-desc = Uma joint venture entre Cybersun e Honk.co. Contém um injetor que hospeda um palhaço metafísico senciente feito de luz dura que reside no corpo do usuário quando não está ativo.
     O holoclown tem bolsos para armazenar coisas, uma mão de luz rígida com a qual pode manipular o ambiente e é imune a ambientes perigosos, ao mesmo tempo em que é resistente a traumas diretos, mas compartilha qualquer dano que leva ao usuário.
 
-
 uplink-holster-name = Coldre de Ombro
 uplink-holster-desc = Um coldre de ombro profundo capaz de segurar muitos tipos de balística.
 
@@ -317,6 +316,9 @@ uplink-costume-pyjama-desc = Contém 3 pares de pijamas do sindicato e 3 pelúci
 
 uplink-costume-clown-name = Clown Costume Duffel Bag
 uplink-costume-clown-desc = Contém um traje completo de palhaço. Inclui PDA e rádio de serviço.
+
+uplink-carp-suit-bundle-name = Carp Suit Duffel Bag
+uplink-carp-suit-bundle-desc = Contém um traje de carpa e alguns amigos para brincar.
 
 uplink-operative-suit-name = Operative Jumpsuit
 uplink-operative-suit-desc = Um terno dado aos nossos agentes nucleares com tecido fino para se certificar de que você se destaca, nenhum outro benefício além de parecer foda.
