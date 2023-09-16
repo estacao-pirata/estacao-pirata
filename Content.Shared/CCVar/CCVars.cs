@@ -335,7 +335,7 @@ namespace Content.Shared.CCVar
         /// URL of the Discord webhook which will relay all ahelp messages.
         /// </summary>
         public static readonly CVarDef<string> DiscordAHelpWebhook =
-            CVarDef.Create("discord.ahelp_webhook", string.Empty, CVar.SERVERONLY);
+            CVarDef.Create("discord.ahelp_webhook", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
         /// <summary>
         /// The server icon to use in the Discord ahelp embed footer.
@@ -351,28 +351,16 @@ namespace Content.Shared.CCVar
             CVarDef.Create("discord.ahelp_avatar", string.Empty, CVar.SERVERONLY);
 
         /// <summary>
-        ///     URL of the Discord webhook which will send round status notifications.
+        /// URL of the Discord webhook which will relay round restart messages.
         /// </summary>
-        public static readonly CVarDef<string> DiscordRoundWebhook =
-            CVarDef.Create("discord.round_webhook", string.Empty, CVar.SERVERONLY);
+        public static readonly CVarDef<string> DiscordRoundUpdateWebhook =
+            CVarDef.Create("discord.round_update_webhook", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
         /// <summary>
-        ///     Discord ID of role which will be pinged on new round start message.
+        /// Role id for the Discord webhook to ping when the round ends.
         /// </summary>
-        public static readonly CVarDef<string> DiscordRoundRoleId =
-            CVarDef.Create("discord.round_roleid", string.Empty, CVar.SERVERONLY);
-
-        /// <summary>
-        ///     Send notifications only about a new round begins.
-        /// </summary>
-        public static readonly CVarDef<bool> DiscordRoundStartOnly =
-            CVarDef.Create("discord.round_start_only", true, CVar.SERVERONLY);
-
-        /// <summary>
-        /// URL of the Discord webhook which will relay all round end messages.
-        /// </summary>
-        public static readonly CVarDef<string> DiscordLeaderboardWebhook =
-            CVarDef.Create("discord.leaderboard_webhook", string.Empty, CVar.SERVERONLY);
+        public static readonly CVarDef<string> DiscordRoundEndRoleWebhook =
+            CVarDef.Create("discord.round_end_role", string.Empty, CVar.SERVERONLY);
 
         /*
          * Suspicion
