@@ -1,7 +1,3 @@
-action-name-sleep = Dormir
-action-desc-sleep = Durma.
-action-name-wake = Acordar
-action-desc-wake = Pare de dormir.
 sleep-onomatopoeia = Zzz...
 sleep-examined = [color=lightblue]{CAPITALIZE(SUBJECT($target))} está dormindo.[/color]
 

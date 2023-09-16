@@ -7,8 +7,6 @@ bible-heal-fail-self = Você acerta {THE($target)} com {THE($bible)}, em uma pau
 bible-heal-fail-others = {CAPITALIZE(THE($user))} acerta {THE($target)} com {THE($bible)}, em uma paulada triste, atordoando {OBJECT($target)}!
 bible-sizzle = O Livro treme em sua mão!
 
-bible-summon-verb = Sumonar Familiar
-bible-summon-verb-desc = Sumone um familiar que te ajudará e terá inteligência humana quando habitado por uma alma.
 bible-summon-requested = O seu familiar irá chegar assim que uma alma disposta se voluntariar.
 bible-summon-respawn-ready = {CAPITALIZE(THE($book))} surge com poder etéreo. O seu residente está em casa denovo.
 
