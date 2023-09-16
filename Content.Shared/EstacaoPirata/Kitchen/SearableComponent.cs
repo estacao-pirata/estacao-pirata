@@ -7,7 +7,7 @@ namespace Content.Shared.EstacaoPirata.Kitchen;
 /// This is used for determining which items are searable,
 /// </summary>
 [RegisterComponent,NetworkedComponent]
-public sealed class SearableComponent : Component
+public sealed partial class SearableComponent : Component
 {
     [ViewVariables(VVAccess.ReadOnly)]
     public SearingState State = SearingState.Raw;

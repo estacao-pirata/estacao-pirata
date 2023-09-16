@@ -15,6 +15,9 @@ namespace Content.Server.EstacaoPirata.Kitchen.Griddle.EntitySystems;
 /// <summary>
 /// This handles...
 /// </summary>
+
+// TODO: refatorar o sistema para ser mais generico, seguindo a ideia do hot surface system, para que seja mais facil implementar qualquer entidade que seja capaz de grelhar/fritar
+
 public sealed class GriddleSystem : EntitySystem
 {
     [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
@@ -63,13 +66,13 @@ public sealed class GriddleSystem : EntitySystem
         if (args.Entering)
         {
             // Rodar codigo de entrada
-            RaiseNetworkEvent(new GriddleComponent.EnterGriddleEvent(args.Occupant.Value), uid);
+            RaiseNetworkEvent(new GriddleComponent.BeingGriddledEvent(args.Occupant.Value, args.Entering), uid);
             Log.Debug($"{args.Occupant} is entering {uid}");
         }
         else
         {
             // Rodar codigo de saida
-            RaiseNetworkEvent(new GriddleComponent.ExitGriddleEvent(args.Occupant.Value), uid);
+            RaiseNetworkEvent(new GriddleComponent.BeingGriddledEvent(args.Occupant.Value, args.Entering), uid);
             Log.Debug($"{args.Occupant} is leaving {uid}");
         }
 

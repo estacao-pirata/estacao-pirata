@@ -1,0 +1,17 @@
+- type: entity
+  id: SearingSmokeEffect
+  noSpawn: true
+  name: searing smoke effect
+  components:
+    - type: Sprite
+      drawdepth: Effects
+      noRot: true
+      #offset: 0,0.5
+      layers:
+        - map: [ "enum.SearingSmokeVisualLayers.Base" ]
+          sprite: EstacaoPirata/Effects/searing_smoke.rsi
+          state: sear_smoke
+    - type: Tag
+      tags:
+        - HideContextMenu
+    - type: AnimationPlayer

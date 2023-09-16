@@ -4,7 +4,7 @@
 /// This is used for...
 /// </summary>
 [RegisterComponent]
-public sealed class SearSmokeVisualsComponent : Component
+public sealed partial class SearingSmokeVisualsComponent : Component
 {
-    
+
 }

@@ -9,7 +9,7 @@ namespace Content.Shared.EstacaoPirata.Kitchen.Griddle;
 /// This is used for...
 /// </summary>
 [RegisterComponent, NetworkedComponent]
-public sealed class GriddleComponent : Component
+public sealed partial class GriddleComponent : Component
 {
     [ViewVariables(VVAccess.ReadOnly)]
     public List<EntityUid> EntitiesOnTop = new List<EntityUid>();
@@ -43,28 +43,6 @@ public sealed class GriddleComponent : Component
         {
             Occupant = occupant;
             Entering = entering;
-        }
-    }
-
-    [Serializable, NetSerializable]
-    public sealed class EnterGriddleEvent : EntityEventArgs
-    {
-        public EntityUid Occupant;
-
-        public EnterGriddleEvent(EntityUid occupant)
-        {
-            Occupant = occupant;
-        }
-    }
-
-    [Serializable, NetSerializable]
-    public sealed class ExitGriddleEvent : EntityEventArgs
-    {
-        public EntityUid Occupant;
-
-        public ExitGriddleEvent(EntityUid occupant)
-        {
-            Occupant = occupant;
         }
     }
 }

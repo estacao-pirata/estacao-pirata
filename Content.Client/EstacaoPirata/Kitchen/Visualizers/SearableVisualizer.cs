@@ -6,25 +6,13 @@ namespace Content.Client.EstacaoPirata.Kitchen.Visualizers;
 /// <summary>
 /// This handles...
 /// </summary>
-public sealed class SearableVisualizer : VisualizerSystem<SearSmokeVisualsComponent>
+public sealed class SearableVisualizer : VisualizerSystem<SearingSmokeVisualsComponent>
 {
     /// <inheritdoc/>
     public override void Initialize()
     {
         //SubscribeLocalEvent<GriddleComponent, GriddleComponent.BeingGriddledEvent>(OnStartBeingGriddled);
         SubscribeNetworkEvent<GriddleComponent.BeingGriddledEvent>(OnChangeBeingGriddledState);
-        SubscribeNetworkEvent<GriddleComponent.EnterGriddleEvent>(OnEnterGriddle);
-        SubscribeNetworkEvent<GriddleComponent.ExitGriddleEvent>(OnExitGriddle);
-    }
-
-    private void OnExitGriddle(GriddleComponent.ExitGriddleEvent args)
-    {
-        Log.Debug("OnExitGriddle CHAMADO");
-    }
-
-    private void OnEnterGriddle(GriddleComponent.EnterGriddleEvent args)
-    {
-        Log.Debug("OnEnterGriddle CHAMADO");
     }
 
     // Aparentemente isto nao esta sendo chamado?
