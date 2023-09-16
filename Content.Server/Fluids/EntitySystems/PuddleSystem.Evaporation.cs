@@ -27,7 +27,7 @@ public sealed partial class PuddleSystem
             return;
         }
 
-        if (solution.ContainsPrototype(EvaporationReagent))
+        if (solution.ContainsReagent(EvaporationReagent))
         {
             var evaporation = AddComp<EvaporationComponent>(uid);
             evaporation.NextTick = _timing.CurTime + EvaporationCooldown;
@@ -53,7 +53,7 @@ public sealed partial class PuddleSystem
                 continue;
 
             var reagentTick = evaporation.EvaporationAmount * EvaporationCooldown.TotalSeconds;
-            _solutionContainerSystem.RemoveReagent(uid, puddleSolution, EvaporationReagent, reagentTick);
+            _solutionContainerSystem.TryRemoveReagent(uid, puddleSolution, EvaporationReagent, reagentTick);
 
             // Despawn if we're done
             if (puddleSolution.Volume == FixedPoint2.Zero)
@@ -67,6 +67,6 @@ public sealed partial class PuddleSystem
 
     public bool CanFullyEvaporate(Solution solution)
     {
-        return solution.Contents.Count == 1 && solution.ContainsPrototype(EvaporationReagent);
+        return solution.Contents.Count == 1 && solution.ContainsReagent(EvaporationReagent);
     }
 }
