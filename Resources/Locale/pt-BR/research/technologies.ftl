@@ -34,12 +34,13 @@ research-technology-cloning = Clonagem
 research-technology-salvage-weapons = Armas de Salvatagem
 research-technology-draconic-munitions = Munições Dracônicas
 research-technology-explosive-technology = Tecnologia Explosiva
-research-technology-advanced-laser-manipulation = Manipulação de Lasers Avançadas
+research-technology-weaponized-laser-manipulation = Manipulação de Laser Armada
 research-technology-nonlethal-ammunition = Munição Não Letal
 research-technology-concentrated-laser-weaponry = Armamento de Laser Concentrado
 research-technology-wave-particle-harnessing = Aproveitamento de onda-partícula
 research-technology-handheld-electrical-propulsion = Propulsão elétrica de mão
 research-technology-advanced-riot-control = Controle de Multidão Avançado
+research-technology-portable-microfusion-weaponry = Armamento portátil de microfusão
 
 research-technology-basic-robotics = Robótica Básica
 research-technology-basic-anomalous-research = Pesquisa de Anomalias Básica

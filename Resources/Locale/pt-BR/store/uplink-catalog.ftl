@@ -60,6 +60,9 @@ uplink-emp-grenade-desc = Uma granada projetada para interromper sistemas eletr�
 uplink-exploding-pen-name = Caneta explosiva
 uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
 
+uplink-exploding-syndicate-bomb-name = Bomba do Sindicato
+uplink-exploding-syndicate-bomb-desc = Uma bomba confiável que pode abrir um grande buraco na estação. Útil como distração.
+
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
 uplink-pistol-magazine-desc = Pente de pistola com 10 cartuchos. Compativel com a Viper.
@@ -73,7 +76,7 @@ uplink-pistol-magazine-caseless-desc = Pente de pistola com 10 cartuchos. Compat
 uplink-speedloader-magnum-name = Speedloader (.45 magnum AP)
 uplink-speedloader-magnu-desc = Carregador rápido de revolver com 6 cartuchos perfurantes de armadura, capazes de penetrar qualquer chapa. Compatível com a Python.
 
-uplink-mosin-ammo-name = Caixa de munição ().30 de rifle)
+uplink-mosin-ammo-name = Caixa de munição (.30 de rifle)
 uplink-mosin-ammo-desc = Uma caixa de 50 cartuchos para o rifle mosin.
 
 uplink-sniper-ammo-name = Caixa de munição (.60 antimaterial)
@@ -137,8 +140,6 @@ uplink-dna-scrambler-implanter-desc = Um único implante de uso que pode ser ati
 uplink-emp-implanter-name = EMP Implanter
 uplink-emp-implanter-desc = Detona um pequeno pulso EMP na ativação que drena a eletrônica próxima de sua potência, pode ser usado três vezes antes que a bateria interna se esgote.
 
-uplink-micro-bomb-implanter-name = Micro Bomb Implanter
-uplink-micro-bomb-implanter-desc = Este implante explode em caso de morte ou ativação manual. Destrui o corpo com todo o equipamento.
 
 uplink-macro-bomb-implanter-name = Implanter de Macro Bomba
 uplink-macro-bomb-implanter-desc = Injete isso e, na morte, você criará uma grande explosão. Enorme custo de mores da equipe, uso a seu própria conta e risco. Substitui a micro bomba interna.

@@ -17,6 +17,7 @@ guide-entry-controls = Controles
 guide-entry-radio = Radio
 guide-entry-jobs = Trabalhos
 guide-entry-cargo = Carga
+guide-entry-cargo-bounties = Recompensas da Carga
 guide-entry-salvage = Salvamento
 guide-entry-survival = Sobrevivência
 guide-entry-chemicals = Substâncias Químicas
@@ -43,10 +44,13 @@ guide-entry-machine-upgrading = Melhorando Máquinas
 guide-entry-robotics = Robótica
 guide-entry-security = Segurança
 guide-entry-dna = DNA
+guide-entry-defusal = Large Bomb Defusal
+
 guide-entry-antagonists = Antagonistas
 guide-entry-nuclear-operatives = Operativos Nucleares
 guide-entry-nuclear-traitors = Traidores
 guide-entry-nuclear-zombies = Zumbis
 guide-entry-minor-antagonists = Antagonistas Menores
+guide-entry-space-ninja = Space Ninja
 
 guide-entry-writing = Escrita

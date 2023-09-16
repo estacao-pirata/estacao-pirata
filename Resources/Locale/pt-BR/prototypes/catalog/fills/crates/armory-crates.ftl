@@ -7,6 +7,9 @@ ent-CrateArmoryShotgun = Caixa de espingardas
 ent-CrateTrackingImplants = Caixa de implantes rastreadores
     .desc = Contém um punhado de implantes rastreadores. Bom para prisioneiros que você gostaria de soltar mas ainda quer poder encontrar.
 
+ent-CrateTrainingBombs = Bombas de treinamento
+    .desc = Contém três bombas de treinamento de baixo rendimento para segurança aprender a desarmar e descartar munições seguras, traje EOD não incluído. Requer acesso ao Arsenal para abrir.
+
 ent-CrateArmoryLaser = caixa de lasers
     .desc = Contém três rifles laser de edição padrão. Requer acesso Armory para abrir.
 

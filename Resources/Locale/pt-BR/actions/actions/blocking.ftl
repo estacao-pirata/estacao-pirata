@@ -1,6 +1,3 @@
-action-name-blocking = Bloquear
-action-description-blocking = Levantar ou abaixar seu escudo.
-
 action-popup-blocking-user = Você levanta seu {$shield}!
 action-popup-blocking-disabling-user = Você abaixa seu {$shield}!
 
