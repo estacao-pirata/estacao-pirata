@@ -79,4 +79,5 @@ ban-panel-severity = Gravidade:
 
 # Ban string
 server-ban-string = {$admin} criou um ban de servidor de gravidade {$severity} que expira em {$expires} para [{$name}, {$ip}, {$hwid}], com razão: {$reason}
+server-ban-string-no-pii = {$admin} criou um ban de servidor de gravidade {$severity} que expira em {$expires} para {$name} com razão: {$reason}
 server-ban-string-never = nunca

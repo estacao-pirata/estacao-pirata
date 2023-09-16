@@ -17,7 +17,7 @@
       time: 108000
   weight: 10
   startingGear: BlueshieldGear
-  icon: "Blueshield"
+  icon: "JobIconSecurityOfficer"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false

@@ -17,7 +17,7 @@
       time: 180000 # Corvax-RoleTime
   weight: 20
   startingGear: HoPGear
-  icon: "HeadOfPersonnel"
+  icon: "JobIconHeadOfPersonnel"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
@@ -38,7 +38,6 @@
   # Head level access that isn't their own was deliberately left out, get AA from the captain instead.
   - Chemistry
   - Engineering
-  - Quartermaster
   - Research
   - Detective
   - Armory
@@ -47,7 +46,6 @@
   - Brig
   - Cargo
   - Atmospherics
-  - Cargo
   - Medical
 
 - type: startingGear

@@ -7,3 +7,5 @@ admin-verbs-teleport-to = Teleportar para
 admin-verbs-teleport-here = Teleportar aqui
 admin-verbs-freeze = Congelar
 admin-verbs-unfreeze = Descongelar
+toolshed-verb-mark = Marcar
+toolshed-verb-mark-description = Coloca essa entidade na variável $marked, uma lista de entidades, substituindo seu valor anterior.

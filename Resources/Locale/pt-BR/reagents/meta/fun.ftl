@@ -1,5 +1,5 @@
 reagent-name-carpetium = carpetium
-reagent-desc-carpetium = Um químico místico, geralmente terceirizado do Planeta Palhaço, que cobre tudo que toca em tapete.
+reagent-desc-carpetium = Um químico místico, geralmente terceirizado do Planeta Palhaço, que cobre tudo que toca em tapete. De algum modo filtra a carpotoxina da corrente sanguínea.
 
 reagent-name-fiber = fiber
 reagent-desc-fiber = Matéria-prima, geralmente extraída da lã ou de outros produtos têxteis.

@@ -4,6 +4,7 @@ job-name-cadet = segurança cadete
 job-name-hos = segurança chefe
 job-name-detective = detetive
 job-name-brigmedic = médico do brig
+job-name-borg = ciborgue
 job-name-scientist = cientista
 job-name-research-assistant = assistente de pesquisa
 job-name-rd = diretor de pesquisa
@@ -52,6 +53,7 @@ job-name-senior-researcher = pesquisador pleno
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
 JobBartender = bartender
+JobBorg = borg
 JobBotanist = botânico
 JobCaptain = capitão
 JobCargoTechnician = técnico de carga

@@ -35,6 +35,6 @@ public sealed partial class ChangelingSystem
         _mapManager.SetMapPaused(newmap, true);
         PausedMap = _mapManager.GetMapEntityId(newmap);
 
-        Dirty(PausedMap.Value);
+        DirtyEntity(PausedMap.Value);
     }
 }

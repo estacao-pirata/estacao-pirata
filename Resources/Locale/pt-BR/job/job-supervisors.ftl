@@ -6,6 +6,7 @@ job-supervisors-hos = ao segurança chefe
 job-supervisors-ce = ao engenheiro chefe
 job-supervisors-cmo = ao médico chefe
 job-supervisors-rd = ao diretor de pesquisa
+job-supervisors-qm = ao intendente de carga
 job-supervisors-service = aos chefs de cozinha, botânicos, bartenders, e o chefe dos funcionários
 job-supervisors-engineering = aos engenheiros da estação, técnicos atmosféricos, e o engenheiro chefe
 job-supervisors-medicine = aos médicos, químicos, e o médico chefe

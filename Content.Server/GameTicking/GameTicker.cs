@@ -14,11 +14,11 @@ using Content.Server.Station.Systems;
 using Content.Shared.Chat;
 using Content.Shared.Damage;
 using Content.Shared.GameTicking;
-using Content.Shared.Ghost;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Roles;
 using Robust.Server;
 using Robust.Server.GameObjects;
+using Robust.Server.GameStates;
 using Robust.Shared.Configuration;
 using Robust.Shared.Console;
 #if EXCEPTION_TOLERANCE
@@ -39,7 +39,9 @@ namespace Content.Server.GameTicking
         [Dependency] private readonly SharedTransformSystem _transform = default!;
         [Dependency] private readonly GhostSystem _ghost = default!;
         [Dependency] private readonly MindSystem _mind = default!;
+        [Dependency] private readonly MindTrackerSystem _mindTracker = default!;
         [Dependency] private readonly MobStateSystem _mobState = default!;
+        [Dependency] private readonly PvsOverrideSystem _pvsOverride = default!;
 
         [ViewVariables] private bool _initialized;
         [ViewVariables] private bool _postInitialized;
@@ -79,7 +81,8 @@ namespace Content.Server.GameTicking
             DebugTools.Assert(!_postInitialized);
 
             // We restart the round now that entities are initialized and prototypes have been loaded.
-            RestartRound();
+            if (!DummyTicker)
+                RestartRound();
 
             _postInitialized = true;
         }
@@ -93,11 +96,14 @@ namespace Content.Server.GameTicking
 
         private void SendServerMessage(string message)
         {
-            _chatManager.ChatMessageToAll(ChatChannel.Server, message, "", default, false, true);
+            var wrappedMessage = Loc.GetString("chat-manager-server-wrap-message", ("message", message));
+            _chatManager.ChatMessageToAll(ChatChannel.Server, message, wrappedMessage, default, false, true);
         }
 
         public override void Update(float frameTime)
         {
+            if (DummyTicker)
+                return;
             base.Update(frameTime);
             UpdateRoundFlow(frameTime);
         }

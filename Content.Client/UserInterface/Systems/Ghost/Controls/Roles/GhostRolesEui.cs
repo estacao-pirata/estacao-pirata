@@ -74,6 +74,9 @@ namespace Content.Client.UserInterface.Systems.Ghost.Controls.Roles
                 _window.AddEntry(name, description, group);
             }
 
+            if (ghostState.EnableRedirect)
+                _window.SetRedirect();
+
             var closeRulesWindow = ghostState.GhostRoles.All(role => role.Identifier != _windowRulesId);
             if (closeRulesWindow)
             {
