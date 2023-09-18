@@ -7,6 +7,7 @@ comms-console-menu-recall-shuttle = Chamar nave de emergência de volta
 
 # Popup
 comms-console-permission-denied = Permissão recusada
+comms-console-shuttle-unavailable = A nave não está disponível no momento
 
 # Placeholder values
 comms-console-announcement-sent-by = Enviado por
