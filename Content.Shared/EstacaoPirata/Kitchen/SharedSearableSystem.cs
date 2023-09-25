@@ -1,4 +1,5 @@
 ﻿using Content.Shared.EstacaoPirata.Kitchen.Griddle;
+using Content.Shared.Popups;
 using Robust.Client.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Serialization;
@@ -13,16 +14,26 @@ public abstract class SharedSearableSystem : EntitySystem
 {
     [Dependency] private readonly ISerializationManager _serManager = default!;
     [Dependency] private readonly AnimationPlayerSystem _player = default!;
+    [Dependency] private readonly SharedPopupSystem _popup = default!;
 
     /// <inheritdoc/>
     public override void Initialize()
     {
-        SubscribeNetworkEvent<GriddleComponent.BeingGriddledEvent>(OnBeingGriddled);
+        //SubscribeNetworkEvent<GriddleComponent.BeingGriddledEvent>(OnBeingGriddled);
+        //SubscribeLocalEvent<AboveHotSurface>(OnHotSurface);
     }
+
+    // private void OnHotSurface(AboveHotSurface args)
+    // {
+    //     Log.Debug("Teste onhotsurface");
+    // }
 
     private void OnBeingGriddled(GriddleComponent.BeingGriddledEvent ev)
     {
-        throw new NotImplementedException();
+        if (ev.Occupant == null)
+            return;
+
+        _popup.PopupClient("Subiu no griddle", ev.Occupant.Value, ev.Occupant.Value);
     }
 
     /// <summary>

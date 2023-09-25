@@ -117,3 +117,18 @@
 
   - node: goliath steak
     entity: FoodMeatGoliathCooked
+
+# bacon
+- type: constructionGraph
+  id: Bacon
+  start: start
+  graph:
+
+    - node: start
+      edges:
+        - to: cooked bacon
+          steps:
+            - minTemperature: 335
+
+    - node: cooked bacon
+      entity: FoodMeatBaconCooked

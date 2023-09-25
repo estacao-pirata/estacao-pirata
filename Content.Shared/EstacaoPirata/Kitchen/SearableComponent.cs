@@ -1,5 +1,6 @@
 ﻿using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
+using Robust.Shared.Serialization;
 
 namespace Content.Shared.EstacaoPirata.Kitchen;
 
@@ -9,13 +10,6 @@ namespace Content.Shared.EstacaoPirata.Kitchen;
 [RegisterComponent,NetworkedComponent]
 public sealed partial class SearableComponent : Component
 {
-    [ViewVariables(VVAccess.ReadOnly)]
-    public SearingState State = SearingState.Raw;
-
-    [DataField("temperatureToSear")]
-    [ViewVariables(VVAccess.ReadOnly)]
-    public float TemperatureToSear = 335f;
-
     [DataField("searingAudio")]
     public SoundSpecifier SearingAudio = new SoundPathSpecifier("");
 
@@ -24,10 +18,29 @@ public sealed partial class SearableComponent : Component
 
 
 }
-
-public enum SearingState
+// TODO: usar algo assim no futuro
+[Serializable, NetSerializable]
+public sealed class AboveHotSurface : EntityEventArgs
 {
-    Raw,
-    Done,
-    Burnt
+    public EntityUid Searable;
+    public EntityUid? HotSurface;
+    public bool Entering;
+
+    public AboveHotSurface(EntityUid searable, EntityUid? hotSurface, bool entering)
+    {
+        Searable = searable;
+        HotSurface = hotSurface;
+        Entering = entering;
+    }
+
+}
+
+public sealed class SearingAnimationMessage : EntityEventArgs
+{
+    public EntityUid Entity;
+
+    public SearingAnimationMessage(EntityUid entity)
+    {
+        Entity = entity;
+    }
 }

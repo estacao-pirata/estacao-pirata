@@ -18,7 +18,7 @@ namespace Content.Server.EstacaoPirata.Kitchen.Griddle.EntitySystems;
 
 // TODO: refatorar o sistema para ser mais generico, seguindo a ideia do hot surface system, para que seja mais facil implementar qualquer entidade que seja capaz de grelhar/fritar
 
-public sealed class GriddleSystem : EntitySystem
+public sealed class GriddleSystem : SharedGriddleSystem
 {
     [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
     [Dependency] private readonly RecipeManager _recipeManager = default!;
@@ -34,7 +34,8 @@ public sealed class GriddleSystem : EntitySystem
     {
         SubscribeLocalEvent<GriddleComponent, StepTriggeredEvent>(OnStepTriggered);
         SubscribeLocalEvent<GriddleComponent, StepTriggerAttemptEvent>(OnStepTriggerAttempt);
-        SubscribeLocalEvent<GriddleComponent, GriddleComponent.BeingGriddledEvent>(OnStartBeingGriddled);
+        SubscribeLocalEvent<GriddleComponent, ComponentInit>(OnComponentInit);
+        //SubscribeLocalEvent<SearableComponent, AboveHotSurface>(OnStartBeingGriddled);
     }
 
     // TODO: pensar em como vai funcionar o sistema para "adicionar" calor ao item
@@ -46,6 +47,8 @@ public sealed class GriddleSystem : EntitySystem
 
          while (griddles.MoveNext(out var uid, out var griddleComponent))
          {
+             TryUpdateVisualState(uid, griddleComponent); // TODO: melhorar chamada talvez
+
              if(_gameTimingSystem.CurTime < griddleComponent.NextSearTime || !_powerReceiverSystem.IsPowered(uid))
                  continue;
 
@@ -58,41 +61,25 @@ public sealed class GriddleSystem : EntitySystem
          }
     }
 
-    private void OnStartBeingGriddled(EntityUid uid, GriddleComponent component, GriddleComponent.BeingGriddledEvent args)
+    // TODO: fazer o log das acoes para controles de adm
+    private void OnStartBeingGriddled(EntityUid uid, SearableComponent component, AboveHotSurface args)
     {
-        if (args.Occupant == null)
+        if (args.HotSurface == null)
             return;
 
-        if (args.Entering)
-        {
-            // Rodar codigo de entrada
-            RaiseNetworkEvent(new GriddleComponent.BeingGriddledEvent(args.Occupant.Value, args.Entering), uid);
-            Log.Debug($"{args.Occupant} is entering {uid}");
-        }
-        else
-        {
-            // Rodar codigo de saida
-            RaiseNetworkEvent(new GriddleComponent.BeingGriddledEvent(args.Occupant.Value, args.Entering), uid);
-            Log.Debug($"{args.Occupant} is leaving {uid}");
-        }
+        string logString = args.Entering ? "entering" : "leaving";
+        Log.Info($"{uid} is {logString} {args.HotSurface}");
 
-        // if (!TryComp(args.Occupant, out GriddledComponent? comp))
-        //     return;
+        //RaiseNetworkEvent(new OnHotSurface(args.Occupant.Value, args.Entering), uid);
 
-        // Colocar o ocupante em uma lista
-        // Esta lista pode estar no componente do griddle, pra guardar as coisas em cima dele
-
-        // if (component.EntitiesOnTop.Contains(args.Occupant.Value))
-        //     return;
-        //
-        // component.EntitiesOnTop.Add(args.Occupant.Value);
-
-        // Dar ao ocupante um componente que indique que esta sendo griddled
-        // Para quem tem esse componente, ficar checando se esta no mesmo grid de algum griddle?
-        // Pra quem tem esse componente, adicionar hit box pra trigger para ver se esta em cima?
-
-        //Log.Debug($"{args.Occupant} is on {uid}");
     }
+
+    private void OnComponentInit(EntityUid uid, GriddleComponent component, ComponentInit args)
+    {
+        TryUpdateVisualState(uid, component);
+    }
+
+
 
     private void OnStepTriggerAttempt(EntityUid uid, GriddleComponent component, ref StepTriggerAttemptEvent args)
     {
@@ -106,22 +93,22 @@ public sealed class GriddleSystem : EntitySystem
     }
 
     /// <summary>
-    /// This method will handle Griddle to Item interactions and vice versa
+    /// This method handles Griddle to Item interactions and vice versa
     /// </summary>
     private void HandleEntityInteractions()
     {
         var enumerator = EntityQueryEnumerator<GriddleComponent, TransformComponent>();
 
-        while (enumerator.MoveNext(out var uid, out var griddleComponent, out var transform))
+        while (enumerator.MoveNext(out var griddleUid, out var griddleComponent, out var transform))
         {
-            if(!_powerReceiverSystem.IsPowered(uid))
+            if(!_powerReceiverSystem.IsPowered(griddleUid))
                 continue;
 
             var enumeratorSearables = EntityQueryEnumerator<SearableComponent, TransformComponent>();
 
             while (enumeratorSearables.MoveNext(out var searableUid, out _, out _))
             {
-                var griddleAabb = _lookup.GetWorldAABB(uid, transform);
+                var griddleAabb = _lookup.GetWorldAABB(griddleUid, transform);
                 var otherAabb = _lookup.GetWorldAABB(searableUid);
 
                 // TODO: ver melhor esta coisa do valor 0.3
@@ -129,16 +116,18 @@ public sealed class GriddleSystem : EntitySystem
                     griddleAabb.IntersectPercentage(otherAabb) >= 0.3)
                 {
                     griddleComponent.EntitiesOnTop.Add(searableUid);
-                    var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(searableUid, true);
-                    RaiseLocalEvent(uid, beingGriddledEvent);
+                    var aboveHotSurface = new AboveHotSurface(searableUid, griddleUid, true);
+                    //RaiseLocalEvent(searableUid, aboveHotSurface);
+                    RaiseNetworkEvent(aboveHotSurface);
                 }
 
                 else if (griddleComponent.EntitiesOnTop.Contains(searableUid) &&
                          griddleAabb.IntersectPercentage(otherAabb) < 0.3)
                 {
                     griddleComponent.EntitiesOnTop.Remove(searableUid);
-                    var beingGriddledEvent = new GriddleComponent.BeingGriddledEvent(searableUid, false);
-                    RaiseLocalEvent(uid, beingGriddledEvent);
+                    var aboveHotSurface = new AboveHotSurface(searableUid, griddleUid, false);
+                    //RaiseLocalEvent(searableUid, aboveHotSurface);
+                    RaiseNetworkEvent(aboveHotSurface);
                 }
             }
         }
@@ -154,7 +143,7 @@ public sealed class GriddleSystem : EntitySystem
     {
         if (TryComp<TemperatureComponent>(item, out var temperatureComponent))
         {
-            var delta = (component.TemperatureUpperLimit - temperatureComponent.CurrentTemperature) * (temperatureComponent.HeatCapacity * 0.01f); // TODO: ver melhor como obter valor
+            var delta = (component.TemperatureUpperLimit - temperatureComponent.CurrentTemperature) * (temperatureComponent.HeatCapacity * 0.06f); // TODO: ver melhor como obter valor
 
             // quando o item alcancar sua temperatura de sear, iniciar uma contagem de alguns segundos para trocar de sprite
 
@@ -175,5 +164,16 @@ public sealed class GriddleSystem : EntitySystem
     private void UpdateNextSearTime(EntityUid uid, GriddleComponent component)
     {
         component.NextSearTime = _gameTimingSystem.CurTime + component.SearInterval;
+    }
+
+    private void TryUpdateVisualState(EntityUid uid, GriddleComponent griddleComponent)
+    {
+        var finalState = GriddleComponent.GriddleVisualState.Normal;
+        if (_powerReceiverSystem.IsPowered(uid))
+        {
+            finalState = GriddleComponent.GriddleVisualState.Powered;
+        }
+
+        _appearance.SetData(uid, GriddleComponent.GriddleVisuals.VisualState, finalState);
     }
 }

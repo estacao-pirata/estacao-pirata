@@ -8,18 +8,10 @@
     "copyright": "Taken from tgstation at commit (link), modified by ArcticHusky",
     "states": [
         {
-            "name": "icon"
+            "name": "base"
         },
         {
-            "name": "griddle",
-            "directions": 4
-        },
-        {
-            "name": "griddle_states_unlit"
-        },
-        {
-            "name": "griddle_openpanel",
-            "directions": 4
+            "name": "powered"
         }
     ]
 }

@@ -4,12 +4,18 @@
   name: griddle
   description: A smooth cooking surface.
   components:
+  - type: Griddle
+    normalState: base
+    poweredState: powered
   - type: Appearance
   - type: Sprite
     sprite: EstacaoPirata/Structures/Machines/griddle.rsi
     layers:
-    - state: griddle
-      map: ["enum.GriddleVisualizerLayers.Base"]
+    - state: "base"
+      map: ["enum.GriddleVisualLayers.Base"]
+    - state: "powered"
+      map: ["enum.GriddleVisualLayers.Powered"]
+      shader: unshaded
   - type: Rotatable
   - type: Physics
   - type: Fixtures
@@ -23,23 +29,11 @@
           - HalfWallLayer
         mask:
           - MachineMask
-#      fix2:
-#        shape:
-#          !type:PhysShapeAabb
-#          bounds: "-0.30,-0.20,0.30,0.35"
-#        layer:
-#          - TableLayer
-#        mask:
-#          - MobMask
-
   - type: ApcPowerReceiver
     powerLoad: 400
-
-  - type: StepTrigger
+  - type: StepTrigger # Esquentar alguem caso pise?
     requiredTriggeredSpeed: 0
     intersectRatio: 0.1
   - type: Climbable
-
-  - type: Griddle
 
 

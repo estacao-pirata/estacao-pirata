@@ -155,6 +155,10 @@
           Quantity: 2
         - ReagentId: Fat
           Quantity: 9
+  - type: Construction
+    graph: Bacon
+    node: start
+    defaultTarget: cooked bacon
 
 - type: entity
   name: raw bear meat

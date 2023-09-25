@@ -1,5 +1,7 @@
 ﻿using System.Numerics;
 using Content.Shared.EstacaoPirata.Kitchen;
+using Content.Shared.EstacaoPirata.Kitchen.Griddle;
+using Content.Shared.Popups;
 using Robust.Client.Animations;
 using Robust.Client.GameObjects;
 
@@ -11,11 +13,16 @@ public sealed class SearableSystem : SharedSearableSystem
     /// <inheritdoc/>
     public override void Initialize()
     {
-        base.Initialize();
+        //base.Initialize();
 
+        SubscribeNetworkEvent<AboveHotSurface>(OnAboveHotSurface);
     }
 
-    private static readonly Animation FultonAnimation = new()
+    private void OnAboveHotSurface(AboveHotSurface ev)
+    {
+    }
+
+    private static readonly Animation SearingSmokeAnimation = new()
     {
         Length = TimeSpan.FromSeconds(0.8f),
         AnimationTracks =

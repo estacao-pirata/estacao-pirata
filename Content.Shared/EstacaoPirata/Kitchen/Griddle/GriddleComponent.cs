@@ -11,6 +11,7 @@ namespace Content.Shared.EstacaoPirata.Kitchen.Griddle;
 [RegisterComponent, NetworkedComponent]
 public sealed partial class GriddleComponent : Component
 {
+    // TODO: retirar daqui entidades que nao existem mais
     [ViewVariables(VVAccess.ReadOnly)]
     public List<EntityUid> EntitiesOnTop = new List<EntityUid>();
 
@@ -44,5 +45,30 @@ public sealed partial class GriddleComponent : Component
             Occupant = occupant;
             Entering = entering;
         }
+    }
+
+    [DataField("normalState")]
+    public string? NormalState;
+
+    [DataField("poweredState")]
+    public string? PoweredState;
+
+    [Serializable, NetSerializable]
+    public enum GriddleVisualState
+    {
+        Normal,
+        Powered
+    }
+
+    public enum GriddleVisualLayers : byte
+    {
+        Base,
+        Powered
+    }
+
+    [Serializable, NetSerializable]
+    public enum GriddleVisuals
+    {
+        VisualState
     }
 }

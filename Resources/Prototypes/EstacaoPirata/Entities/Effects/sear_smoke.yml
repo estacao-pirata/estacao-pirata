@@ -7,10 +7,10 @@
       drawdepth: Effects
       noRot: true
       #offset: 0,0.5
-      layers:
-        - map: [ "enum.SearingSmokeVisualLayers.Base" ]
-          sprite: EstacaoPirata/Effects/searing_smoke.rsi
-          state: sear_smoke
+#      layers:
+#        - map: [ "enum.SearingSmokeVisualLayers.Base" ]
+#          sprite: EstacaoPirata/Effects/searing_smoke.rsi
+#          state: sear_smoke
     - type: Tag
       tags:
         - HideContextMenu
