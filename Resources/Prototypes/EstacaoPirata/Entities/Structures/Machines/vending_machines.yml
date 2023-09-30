@@ -28,7 +28,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
-    radius: 2.0
+    radius: 1.5
     energy: 1.6
     color: "#8fd5a5"
 
@@ -62,6 +62,6 @@
         - state: panel
           map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - type: PointLight
-      radius: 2.0
+      radius: 1.5
       energy: 1.6
       color: "#FFFFFF"
