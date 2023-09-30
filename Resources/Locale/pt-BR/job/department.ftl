@@ -1,8 +1,8 @@
-department-Cargo = cargo
-department-Civilian = civil
-department-Command = comando
-department-Engineering = engenharia
-department-Medical = médico
-department-Security = segurança
-department-Science = pesquisa & desenvolvimento
-department-Specific = específico da estação 
+department-Cargo = de Carga
+department-Civilian = Civis
+department-Command = de Comando
+department-Engineering = de Engenharia
+department-Medical = Médicos
+department-Security = de Segurança
+department-Science = de Pesquisa & Desenvolvimento
+department-Specific = Específicos da Estação
