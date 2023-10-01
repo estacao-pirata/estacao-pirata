@@ -97,6 +97,7 @@ public sealed class GriddleSystem : SharedGriddleSystem
     /// </summary>
     private void HandleEntityInteractions()
     {
+        // TODO: ver tbm se esta na mao de alguem
         var enumerator = EntityQueryEnumerator<GriddleComponent, TransformComponent>();
 
         while (enumerator.MoveNext(out var griddleUid, out var griddleComponent, out var transform))
@@ -157,7 +158,7 @@ public sealed class GriddleSystem : SharedGriddleSystem
     }
 
     /// <summary>
-    /// This is for...
+    /// This is for handling when the temperature of the searable item will increase.
     /// </summary>
     /// <param name="uid"></param>
     /// <param name="component"></param>
@@ -166,6 +167,11 @@ public sealed class GriddleSystem : SharedGriddleSystem
         component.NextSearTime = _gameTimingSystem.CurTime + component.SearInterval;
     }
 
+    /// <summary>
+    /// This is for...
+    /// </summary>
+    /// <param name="uid"></param>
+    /// <param name="griddleComponent"></param>
     private void TryUpdateVisualState(EntityUid uid, GriddleComponent griddleComponent)
     {
         var finalState = GriddleComponent.GriddleVisualState.Normal;

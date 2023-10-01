@@ -16,8 +16,16 @@ public sealed partial class SearableComponent : Component
     [DataField("searingCompletedAudio")]
     public SoundSpecifier SearingCompletedAudio = new SoundPathSpecifier("/Audio/EstacaoPirata/Cooking/Griddle/16fthumaf__08_frying-meat.ogg");
 
+    public EntityUid? AnimationEntity;
+
 
 }
+
+public enum SearingSmokeVisualLayers : byte
+{
+    Base
+}
+
 // TODO: usar algo assim no futuro
 [Serializable, NetSerializable]
 public sealed class AboveHotSurface : EntityEventArgs
