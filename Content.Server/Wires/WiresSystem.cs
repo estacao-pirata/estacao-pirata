@@ -59,6 +59,7 @@ public sealed class WiresSystem : SharedWiresSystem
         SubscribeLocalEvent<ActivatableUIRequiresPanelComponent, ActivatableUIOpenAttemptEvent>(OnAttemptOpenActivatableUI);
         SubscribeLocalEvent<ActivatableUIRequiresPanelComponent, PanelChangedEvent>(OnActivatableUIPanelChanged);
     }
+
     private void SetOrCreateWireLayout(EntityUid uid, WiresComponent? wires = null)
     {
         if (!Resolve(uid, ref wires))
@@ -458,9 +459,7 @@ public sealed class WiresSystem : SharedWiresSystem
         if (!TryComp<ToolComponent>(args.Used, out var tool) || !TryComp<WiresPanelComponent>(uid, out var panel))
             return;
 
-        if (panel.Open &&
-            _protoMan.TryIndex<WiresPanelSecurityLevelPrototype>(panel.CurrentSecurityLevelID, out var securityLevelPrototype) &&
-            securityLevelPrototype.WiresAccessible &&
+        if (panel.Open && panel.WiresAccessible &&
             (_toolSystem.HasQuality(args.Used, "Cutting", tool) ||
             _toolSystem.HasQuality(args.Used, "Pulsing", tool)))
         {
@@ -643,14 +642,14 @@ public sealed class WiresSystem : SharedWiresSystem
     {
         component.Visible = visible;
         UpdateAppearance(uid, component);
-        Dirty(uid, component);
+        Dirty(component);
     }
 
     public void TogglePanel(EntityUid uid, WiresPanelComponent component, bool open)
     {
         component.Open = open;
         UpdateAppearance(uid, component);
-        Dirty(uid, component);
+        Dirty(component);
 
         var ev = new PanelChangedEvent(component.Open);
         RaiseLocalEvent(uid, ref ev);
@@ -658,11 +657,16 @@ public sealed class WiresSystem : SharedWiresSystem
 
     public void SetWiresPanelSecurityData(EntityUid uid, WiresPanelComponent component, string wiresPanelSecurityLevelID)
     {
-        component.CurrentSecurityLevelID = wiresPanelSecurityLevelID;
-        Dirty(uid, component);
+        var wiresPanelSecurityLevelPrototype = _protoMan.Index<WiresPanelSecurityLevelPrototype>(wiresPanelSecurityLevelID);
 
-        if (_protoMan.TryIndex<WiresPanelSecurityLevelPrototype>(component.CurrentSecurityLevelID, out var securityLevelPrototype) &&
-            securityLevelPrototype.WiresAccessible)
+        if (wiresPanelSecurityLevelPrototype == null)
+            return;
+
+        component.WiresAccessible = wiresPanelSecurityLevelPrototype.WiresAccessible;
+        component.WiresPanelSecurityExamination = wiresPanelSecurityLevelPrototype.Examine;
+        Dirty(component);
+
+        if (wiresPanelSecurityLevelPrototype?.WiresAccessible == false)
         {
             _uiSystem.TryCloseAll(uid, WiresUiKey.Key);
         }
