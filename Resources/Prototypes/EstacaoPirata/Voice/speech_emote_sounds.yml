@@ -1,0 +1,9 @@
+- type: emoteSounds
+  id: UnisexVulpkanin
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/Voice/Vulpkanin/vulp_scream.ogg
+    Laugh:
+      path: /Audio/Voice/Vulpkanin/vulp_wheeze.ogg

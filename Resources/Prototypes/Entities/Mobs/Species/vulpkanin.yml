@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McFox
-  parent: BaseMobOrganic
+  parent: BaseMobSpeciesOrganic
   id: BaseMobHumanoidFox
   abstract: true
   components:
@@ -28,6 +28,14 @@
     baseWalkSpeed : 3
     baseSprintSpeed : 5
   - type: Perishable
+  - type: Speech
+    speechVerb: Default
+    speechSounds: Vulpkanin
+  - type: Vocal
+    sounds:
+      Male: UnisexVulpkanin
+      Female: UnisexVulpkanin
+      Unsexed: UnisexVulpkanin
 
 - type: entity
   save: false

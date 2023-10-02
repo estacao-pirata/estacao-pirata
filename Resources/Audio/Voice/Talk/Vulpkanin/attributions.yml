@@ -1,0 +1,5 @@
+- files: ["vulp.ogg", "vulp_ask.ogg", "vulp_exclaim"]
+  license: "CC-BY-4.0"
+  copyright: "all taken from goonstation"
+  source: "https://github.com/goonstation/goonstation/commit/da7c8965c4552ca53af367e6c83a83da2affe790"
+

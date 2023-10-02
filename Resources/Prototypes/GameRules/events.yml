@@ -174,7 +174,7 @@
     weight: 5
     duration: 50
   - type: VentCrittersRule
-    # entries:
+    entries:
     # - id: MobMouse
     #   prob: 0.02
     # - id: MobMouse1
