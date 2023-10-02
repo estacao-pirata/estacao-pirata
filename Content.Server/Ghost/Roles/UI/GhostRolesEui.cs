@@ -9,10 +9,8 @@ namespace Content.Server.Ghost.Roles.UI
     {
         public override GhostRolesEuiState GetNewState()
         {
-            // trying to do this the way the obsolete warning suggests results in an NRE :^)
-            var roles = EntitySystem.Get<GhostRoleSystem>().GetGhostRolesInfo();
             var enabled = IoCManager.Resolve<RedialManager>().RedialAvailable();
-            return new GhostRolesEuiState(roles, enabled);
+            return new(EntitySystem.Get<GhostRoleSystem>().GetGhostRolesInfo(), enabled);
         }
 
         public override void HandleMessage(EuiMessageBase msg)

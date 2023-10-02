@@ -7,8 +7,8 @@ comp-gas-tank-examine = Pressão: [color=orange]{PRESSURE($pressure)}[/color].
 comp-gas-tank-connected = Está conectado a um componente externo.
 
 # Examine text when valve is open or closed.
-comp-gas-tank-examine-open-valve = Válvula de liberaçào de gas está [color=red]aberta[/color].
-comp-gas-tank-examine-closed-valve = Válvula de liberação de gas está [color=green]fechada[/color].
+comp-gas-tank-examine-open-valve = A válvula de liberação de gás está [color=red]aberta[/color].
+comp-gas-tank-examine-closed-valve = A válvula de liberação de gás está [color=green]fechada[/color].
 
 ## ControlVerb
 control-verb-open-control-panel-text = Abrir Painel de Controle
