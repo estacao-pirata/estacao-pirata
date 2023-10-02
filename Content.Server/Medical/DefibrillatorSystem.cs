@@ -230,8 +230,15 @@ public sealed class DefibrillatorSystem : EntitySystem
                 // notify them they're being revived.
                 if (mind.CurrentEntity != target)
                 {
-                    _chatManager.TrySendInGameICMessage(uid, Loc.GetString("defibrillator-ghosted"),
-                        InGameICChatType.Speak, true);
+		    // This message is for the defib operator.
+		    // It could inform them that the patient doesn't have a consciousness since it's ghosted
+		    // but maybe no message is really the right move here because it may have succeeded
+		    // and that would be what would happen had the defib attempt succeeded - no message.
+		    // Also when the patient's ghost return to body there they will be alive as long as the
+		    // body is still alive, so telling the operator to defib again may be wrong.
+		    //
+                    // _chatManager.TrySendInGameICMessage(uid, Loc.GetString("defibrillator-ghosted"),
+                    //    InGameICChatType.Speak, true);
                     _euiManager.OpenEui(new ReturnToBodyEui(mind, _mind), session);
                 }
             }
