@@ -1,5 +1,5 @@
 - type: species
-  id: Vulpkanin
+  id: HumanoidFoxes
   name: species-name-vulpkanin
   roundStart: true
   prototype: MobVulpkanin

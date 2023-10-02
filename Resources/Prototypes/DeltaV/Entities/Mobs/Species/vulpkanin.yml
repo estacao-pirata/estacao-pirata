@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: HumanoidAppearance
-    species: Vulpkanin
+    species: HumanoidFoxes
   - type: Hunger
     baseDecayRate: 0.2
   - type: Thirst
@@ -104,4 +104,4 @@
   description: A dummy vulpkanin meant to be used in character setup.
   components:
   - type: HumanoidAppearance
-    species: Vulpkanin
+    species: HumanoidFoxes
