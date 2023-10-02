@@ -1,5 +1,4 @@
-﻿
-using Content.Server.Storage.EntitySystems;
+﻿using Content.Server.Storage.EntitySystems;
 using Content.Shared.Item;
 using Content.Shared.Stacks;
 using Content.Shared.Storage;
