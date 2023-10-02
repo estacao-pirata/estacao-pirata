@@ -26,6 +26,9 @@ namespace Content.Server.GameTicking
         public TimeSpan RoundPreloadTime { get; } = TimeSpan.FromSeconds(15);
 
         [ViewVariables]
+        private TimeSpan _pauseTime;
+
+        [ViewVariables]
         public new bool Paused { get; set; }
 
         [ViewVariables]

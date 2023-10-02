@@ -1,14 +1,8 @@
 ghost-gui-return-to-body-button = Voltar pro Corpo
 ghost-gui-ghost-warp-button = Teleportar
 ghost-gui-ghost-roles-button = Funções Fantasmas ({$count})
-ghost-gui-toggle-ghost-visibility-name = Alternar Fantasmas
-ghost-gui-toggle-ghost-visibility-desc = Alternar a visibilidade de outros fantasmas.
 ghost-gui-toggle-ghost-visibility-popup = Alternou visibilidade de fantasmas.
-ghost-gui-toggle-lighting-manager-name = Alternar Toda a Iluminação
-ghost-gui-toggle-lighting-manager-desc = Alternar toda a renderização de iluminação para observar melhor as áreas escuras.
 ghost-gui-toggle-lighting-manager-popup = Alternou toda a iluminação.
-ghost-gui-toggle-fov-name = Alternar campo de visão
-ghost-gui-toggle-fov-desc = Alterna campo de visão de modo a ver o que os jogadores vêem.
 ghost-gui-toggle-fov-popup = Alternou o campo de visão.
 
 ghost-target-window-title = Teleportar
@@ -23,7 +17,3 @@ ghost-roles-window-rules-footer = A Opção estará disponível em {$time} segun
 
 ghost-return-to-body-title = Retorne ao corpo
 ghost-return-to-body-text = Você está sendo revivido! Retornar ao seu corpo?
-
-ghost-roles-window-redirect-label = Ou, você pode se conectar em outro server.
-ghost-roles-window-redirect-label-empty = Você pode se conectar em outro server.
-ghost-roles-window-redirect = Conecte

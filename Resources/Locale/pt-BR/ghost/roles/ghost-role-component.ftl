@@ -73,6 +73,12 @@ ghost-role-information-jonkbot-description = Um ser artificial de pura maldade.
 ghost-role-information-mimebot-name = Mimebot
 ghost-role-information-mimebot-description = Um Mimebot, age como um mímico, mas não como um greytider.
 
+ghost-role-information-taxibot-name = TaxiBot
+ghost-role-information-taxibot-description = Dirija a tripulação da estação até o seu destino.
+
+ghost-role-information-supplybot-name = SupplyBot
+ghost-role-information-supplybot-description = Entregue mercadorias pela estação.
+
 ghost-role-information-space-bear-name = Urso Espacial
 ghost-role-information-space-bear-description = Você é um urso! Faça coisas de urso.
 
@@ -149,8 +155,11 @@ ghost-role-information-cburn-agent-description = Um agente CentCom altamente tre
 ghost-role-information-centcom-official-name = CentCom official
 ghost-role-information-centcom-official-description = Inspecionar a estação, faça avaliações de desempenho para chefes de departamento, incomode o capitão.
 
+ghost-role-information-nukeop-rules = You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
+
+ghost-role-information-loneop-name = Lone Operative
+ghost-role-information-loneop-description = Você é um agente nuclear solitário. Destrua a estação!
+ghost-role-information-loneop-rules = Você é um agente do sindicato encarregado de destruir a estação. Como antagonista, faça o que for necessário para completar esta tarefa.
+
 ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = Você é um antagonista, traga a morte e buzinas para aqueles que não seguem a honkmother.
-
-ghost-role-information-taxibot-name = TaxiBot
-ghost-role-information-taxibot-description = Dirija a tripulação da estação até o seu destino.

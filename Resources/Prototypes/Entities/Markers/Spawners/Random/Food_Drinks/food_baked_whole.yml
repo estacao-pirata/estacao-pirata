@@ -44,6 +44,7 @@
       - FoodPieCherry
       - FoodPieMeat
       - FoodPieFrosty
+      - FoodBakedBrownieBatch
       - FoodPuddingNormal
       - FoodPuddingChocolate
     chance: 0.8
@@ -60,4 +61,5 @@
       - FoodPiePlump
       - FoodBreadMeatXeno
       - FoodPieXeno
+      - FoodBakedCannabisBrownieBatch
     rareChance: 0.05
