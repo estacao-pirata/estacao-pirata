@@ -80,20 +80,19 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Blunt: 1
-        Slash: 5
+        Blunt: 2
+        Slash: 3
   - type: Perishable
+  - type: Damageable
+    damageModifierSet: Vulpkanin
 #  - type: Carriable
   - type: TemperatureProtection
     coefficient: 0.1
-  - type: Temperature
-    heatDamageThreshold: 335
-    coldDamageThreshold: 200
-    currentTemperature: 310.15
-    specificHeat: 46
-    coldDamage:
-      types:
-        Cold : 0.05
+  - type: Vocal
+    sounds:
+      Male: MaleVulpakin
+      Female: FemaleVulpakin
+      Unsexed: MaleVulpakin
   - type: Flammable
     damage:
       types:

@@ -1,5 +1,6 @@
+# species
 - type: emoteSounds
-  id: MaleVulpkanin
+  id: MaleVulpakin
   params:
     variation: 0.125
   sounds:
@@ -7,15 +8,25 @@
       collection: MaleScreams
     Laugh:
       collection: MaleLaugh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    Crying:
+      collection: MaleCry
+    Whistle:
+      collection: Whistles
     Growl:
-      collection: VulpkaninGrowls
-    Howl:
-      collection: VulpkaninHowl
+      collection: VulpakinGrowls
+    Snarl:
+      collection: VulpakinSnarls
     Bark:
-      collection: VulpkaninBark
+      collection: VulpakinBarks
+    Whine:
+      collection: VulpakinWhines
 
 - type: emoteSounds
-  id: FemaleVulpkanin
+  id: FemaleVulpakin
   params:
     variation: 0.125
   sounds:
@@ -23,9 +34,19 @@
       collection: FemaleScreams
     Laugh:
       collection: FemaleLaugh
+    Sneeze:
+      collection: FemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    Crying:
+      collection: FemaleCry
+    Whistle:
+      collection: Whistles
     Growl:
-      collection: VulpkaninGrowls
-    Howl:
-      collection: VulpkaninHowl
+      collection: VulpakinGrowls
+    Snarl:
+      collection: VulpakinSnarls
     Bark:
-      collection: VulpkaninBark
+      collection: VulpakinBarks
+    Whine:
+      collection: VulpakinWhines

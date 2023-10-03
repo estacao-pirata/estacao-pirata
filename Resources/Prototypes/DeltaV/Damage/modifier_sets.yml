@@ -1,5 +1,4 @@
 - type: damageModifierSet
-  id: Vulps
+  id: Vulpkanin
   coefficients:
-    Cold: 0.5
-    Poison: 0.9
+    Heat: 1.15
