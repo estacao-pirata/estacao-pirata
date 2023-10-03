@@ -10,5 +10,5 @@ objectives-player-named = [color=White]{$name}[/color]
 objectives-no-objectives = {$title} era um {$agent}.
 objectives-with-objectives = {$title} era um {$agent} que tinha os seguintes objetivos:
 
-objectives-condition-success = {$condition} | [color={$markupColor}]Sucesso![/color]
-objectives-condition-fail = {$condition} | [color={$markupColor}]Falha![/color] ({$progress}%)
+objectives-objective-success = {$objective} | [color={$markupColor}]Sucesso![/color]
+objectives-objective-fail = {$objective} | [color={$markupColor}]Falha![/color] ({$progress}%)

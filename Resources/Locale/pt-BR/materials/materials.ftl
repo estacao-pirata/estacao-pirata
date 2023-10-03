@@ -22,6 +22,7 @@ materials-uranium = urânio
 materials-bananium = bananium
 materials-meat = carne
 materials-web = seda
+materials-bones = osso
 
 # Material Reclaimer
 material-reclaimer-upgrade-process-rate = taxa de processo

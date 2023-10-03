@@ -5,6 +5,9 @@ ghost-gui-toggle-ghost-visibility-popup = Alternou visibilidade de fantasmas.
 ghost-gui-toggle-lighting-manager-popup = Alternou toda a iluminação.
 ghost-gui-toggle-fov-popup = Alternou o campo de visão.
 
+ghost-gui-toggle-hearing-popup-on = Agora você pode ouvir todas as mensagens.
+ghost-gui-toggle-hearing-popup-off = Agora você só pode ouvir rádio e mensagens próximas.
+
 ghost-target-window-title = Teleportar
 ghost-target-window-current-button = Teleportar: {$name}
 

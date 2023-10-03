@@ -159,6 +159,7 @@ ui-options-function-editor-copy-object = Copiar
 ui-options-function-open-abilities-menu = Abrir menu de ação
 ui-options-function-show-debug-console = Abrir Console
 ui-options-function-show-debug-monitors = Mostrar monitores de Debug
+ui-options-function-inspect-entity = Inspecionar Entidade
 ui-options-function-hide-ui = Esconder UI
 
 ui-options-function-hotbar1 = Hotbar slot 1

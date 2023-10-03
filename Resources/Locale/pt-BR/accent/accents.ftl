@@ -4,6 +4,8 @@ accent-words-cat-2 = Miou.
 accent-words-cat-3 = Mrrrau!
 accent-words-cat-4 = Hhsss!
 accent-words-cat-5 = Brrou.
+accent-words-cat-6 = Miau?
+accent-words-cat-7 = Miau.
 
 # Dog accent
 accent-words-dog-1 = Au!
@@ -17,6 +19,9 @@ accent-words-mouse-1 = Squeak!
 accent-words-mouse-2 = Piep!
 accent-words-mouse-3 = Tchuu!
 accent-words-mouse-4 = Eeee!
+accent-words-mouse-5 = Pip!
+accent-words-mouse-6 = Fwiep!
+accent-words-mouse-7 = Heep!
 
 # Mumble
 accent-words-mumble-1 = Mmfph!
@@ -43,6 +48,9 @@ accent-words-zombie-4 = Grrrrr...
 accent-words-zombie-5 = Ouuaahhhhh...
 accent-words-zombie-6 = Graaaaaooohhlll...
 accent-words-zombie-7 = Cérebross... Céeeeerebrosssss..
+accent-words-zombie-8 = Braughhh...
+accent-words-zombie-9 = Breshhhh...
+accent-words-zombie-10 = Graaaaaa...
 
 # Generic Aggressive
 accent-words-generic-aggressive-1 = Grr!

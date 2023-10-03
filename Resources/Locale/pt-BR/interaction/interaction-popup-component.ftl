@@ -5,6 +5,7 @@
 petting-success-generic = Você acaricia {THE($target)} em sua cabeça.
 petting-success-soft-floofy = Você acaricia {THE($target)} levemente em sua cabeça macia.
 
+petting-success-bingus = Você acaricia {THE($target)} em sua cabecinha enrugada.
 petting-success-bird = Você acaricia {THE($target)} em sua cabeça emplumada.
 petting-success-cat = Você acaricia {THE($target)} em sua cabeça pequena e felpuda.
 petting-success-corrupted-corgi = Em um ato de arrogância, você acaricia {THE($target)} em sua amaldiçoada cabecinha.
@@ -24,9 +25,9 @@ petting-success-space-cat = Você acaricia {THE($target)} em sua cabeça envolta
 petting-success-tarantula = Você acaricia {THE($target)} em sua peluda cabecinha.
 petting-success-holo = Você acaricia {THE($target)} em sua espinhosa e metálica cabeça.
 petting-success-dragon = Esquivando de dentes, garras, e chamas, você acaricia {THE($target)} em sua massiva e escamosa cabeça.
-petting-success-hamster = Voce acaricia {THE($target)} em {POSS-ADJ($target)} fofa cabecinha.
-petting-success-bear = Você relutantemente acaricia {THE($target)} em {POSS-ADJ($target)} cabeça mística.
-petting-success-slimes = Voce acaricia {THE($target)} em {POSS-ADJ($target)} superfície mucosa.
+petting-success-hamster = Voce acaricia {THE($target)} em sua fofa cabecinha.
+petting-success-bear = Você relutantemente acaricia {THE($target)} em sua cabeça mística.
+petting-success-slimes = Voce acaricia {THE($target)} em sua superfície mucosa.
 
 petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
 
@@ -43,8 +44,8 @@ petting-failure-raccoon = Você tenta acariciar {THE($target)}, mas {THE($target
 petting-failure-sloth = Você tenta acariciar {THE($target)}, mas ele(a) de algum jeito desvia com uma velocidade ridícula!
 petting-failure-holo = Você tenta acariciar {THE($target)}, mas os espinhos dele(a) quase impalam sua mão!
 petting-failure-dragon = Você levanta sua mão, mas quando {THE($target)} solta um rugido, você decide que é melhor não arriscar virar franguinho assado.
-petting-failure-hamster = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} tenta morder o seu dedo e por pouco seus reflexos te salvam de um ferimento quase fatal.
-petting-failure-bear = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} rosna, fazendo você pensar duas vezes.
+petting-failure-hamster = Você tenta acariciar {THE($target)}, mas ele(a) tenta morder o seu dedo e por pouco seus reflexos te salvam de um ferimento quase fatal.
+petting-failure-bear = Você tenta acariciar {THE($target)}, mas ele(a) rosna, fazendo você pensar duas vezes.
 
 ## Petting silicons
 

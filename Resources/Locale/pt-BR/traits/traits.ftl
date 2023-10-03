@@ -34,3 +34,7 @@ trait-accentless-desc = Você não tem o sotaque que sua espécie normalmente te
 
 trait-wheelchair-bound-name = Presa à cadeira de rodas
 trait-wheelchair-bound-desc = Você não pode se mover sem sua cadeira de rodas. Cadeira de rodas incluída.
+
+trait-frontal-lisp-name = Lisp Frontal
+trait-frontal-lisp-desc = Você fala com um litp
+
