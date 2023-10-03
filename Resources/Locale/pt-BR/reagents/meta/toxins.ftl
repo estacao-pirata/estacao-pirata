@@ -64,6 +64,9 @@ reagent-desc-honk = Uma toxina encontrada no banânio. Provoca buzina grave e he
 reagent-name-lead = chumbo
 reagent-desc-lead = Uma toxina de ação lenta, mas incrivelmente letal, encontrada no aço mas apenas em quantidades vestigiais. Sem sabor.
 
+reagent-name-bungotoxin = bungotoxina
+reagent-desc-bungotoxin = Um veneno de ação moderadamente lenta encontrado no caroço da fruta bungo.
+
 reagent-name-human-muta-tox = toxina de mutação humana
 reagent-name-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
 

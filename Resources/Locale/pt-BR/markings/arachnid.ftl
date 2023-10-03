@@ -16,6 +16,10 @@ marking-ArachnidAppendagesZigZag = Apêndice (Zigue Zague)
 marking-ArachnidAppendagesZigZag-zigzag_primary = Apêndice
 marking-ArachnidAppendagesZigZag-zigzag_secondary = Malhas
 
+marking-ArachnidAppendagesCurled = Apêndices (Enrolado)
+marking-ArachnidAppendagesCurled-curled_primary = Apêndice
+marking-ArachnidAppendagesCurled-curled_secondary = Malhas
+
 marking-ArachnidAppendagesStingers = Apêndice (Ferrões)
 marking-ArachnidAppendagesStingers-stingers_primary = Apêndice
 marking-ArachnidAppendagesStingers-stingers_secondary = Malhas
@@ -31,6 +35,10 @@ marking-ArachnidAppendagesHarvest-chipped_secondary = Malhas
 marking-ArachnidAppendagesShort = Apêndices (curto)
 marking-ArachnidAppendagesShort-chipped_primary = Apêndice
 marking-ArachnidAppendagesShort-chipped_secondary = Malhas
+
+marking-ArachnidAppendagesFreaky = Apêndices (Muito longo)
+marking-ArachnidAppendagesFreaky-freaky_primary = Apêndice
+marking-ArachnidAppendagesFreaky-freaky_secondary = Malhas
 
 marking-ArachnidTorsoStripes = Listras
 marking-ArachnidTorsoStripes-stripes = Modelo

@@ -103,10 +103,11 @@ flavor-complex-orange = de laranja
 flavor-complex-watermelon = de melancia
 flavor-complex-garlic = de alho
 flavor-complex-grape = de uva
+flavor-complex-berry = de bagas
 flavor-complex-meatballs = de almôndegas
 flavor-complex-nettles = de urtigas
 flavor-complex-jungle = de selva
-flavor-complex-vegetables = como vegetais
+flavor-complex-vegetables = de vegetais
 # use it when there multiple types of veggies
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
@@ -147,6 +148,7 @@ flavor-complex-parents = de os pais de alguém
 flavor-complex-plastic = de plástico
 flavor-complex-glue = de cola
 flavor-complex-spaceshroom = como umami espacial
+flavor-complex-lost-friendship = como amizade perdida
 
 # Drink-specific flavors.
 
@@ -165,7 +167,6 @@ flavor-complex-vodka = de grãos fermentados
 flavor-complex-tequila = de bebida fermentada
 flavor-complex-sake = de doce e alcoólico arroz
 flavor-complex-rum = de açucar fermentado
-flavor-complex-champagne = de pão recém assado
 flavor-complex-coffee-liquor = de forte e amargo café
 flavor-complex-whiskey = de whisky
 flavor-complex-shitty-wine = de cascas de uva
@@ -174,7 +175,7 @@ flavor-complex-iced-tea = de chá gelado
 flavor-complex-coffee = de café
 flavor-complex-milk = de leite
 flavor-complex-tea = de chá
-flavor-complex-ice = de água congelada
+flavor-complex-ice = de gelo
 
 ## Cocktails
 flavor-complex-long-island = suspeitosamente de chá gelado
@@ -198,6 +199,9 @@ flavor-complex-themartinez = como violetas e limão vodka
 flavor-complex-cogchamp = como bronze
 flavor-complex-white-gilgamesh = como creme levemente adocicado
 flavor-complex-antifreeze = quente
+
+### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
+flavor-complex-pilk = de leite doce
 
 # Medicine/chemical-specific flavors.
 

@@ -1,3 +1,5 @@
+action-name-wake = Acordar
+
 sleep-onomatopoeia = Zzz...
 sleep-examined = [color=lightblue]{CAPITALIZE(SUBJECT($target))} está dormindo.[/color]
 

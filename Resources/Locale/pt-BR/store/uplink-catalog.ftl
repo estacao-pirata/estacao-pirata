@@ -55,13 +55,13 @@ uplink-grenadier-rig-name = grenadier chest rig
 uplink-grenadier-rig-desc = Tudo o que você precisa para uma festa barulhenta: 4 granadas explosivas, 2 granadas EMP e 2 minibombas em um rig de peito.
 
 uplink-emp-grenade-name = Granada EMP
-uplink-emp-grenade-desc = Uma granada projetada para interromper sistemas eletrônicos. É útil para interromper as comunicações, as armas de energia da segurança e os APCs quando você está em um ponto apertado.
+uplink-emp-grenade-desc = Uma granada projetada para interromper sistemas eletrônicos. Útil para interromper comunicações, armas de energia da segurança e APCs quando você está em uma situação difícil.
 
 uplink-exploding-pen-name = Caneta explosiva
 uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
 
 uplink-exploding-syndicate-bomb-name = Bomba do Sindicato
-uplink-exploding-syndicate-bomb-desc = Uma bomba confiável que pode abrir um grande buraco na estação. Útil como distração.
+uplink-exploding-syndicate-bomb-desc = Uma grande bomba ancorada que pode criar uma enorme explosão se não for desativada a tempo. Útil como distração. Possui temporizador ajustável com configuração mínima de 120 segundos.
 
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
@@ -117,6 +117,9 @@ uplink-headset-desc = Um fone de rádio que permite ouvir em canais departamenta
 
 uplink-encryption-key-name = Chaves Criptográficas do Sindicato
 uplink-encryption-key-desc = Duas chaves de criptografia para acesso à frequência secreta de nossos agentes especiais. Dê o sobressalente a um amigo, mas certifique-se de que não caia nas mãos do inimigo.
+
+uplink-binary-translator-key-name = Binary Translator Key
+uplink-binary-translator-key-desc = Permite acessar o canal binário dos silícios. Porém, não fale nele, pelo menos não sem uma máscara de voz.
 
 uplink-hypopen-name = Hypopen
 uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 10u de reagentes. Vem vazio.
