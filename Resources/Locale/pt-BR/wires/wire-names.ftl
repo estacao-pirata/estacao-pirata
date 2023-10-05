@@ -1,5 +1,5 @@
 # titles that get displayed in the wire hacking window
-wires-board-name-default = Wires
+wires-board-name-default = Fios
 wires-board-name-booze = BoozeDispenser
 wires-board-name-soda = SodaDispenser
 wires-board-name-thermomachine = Thermomachine
@@ -58,4 +58,4 @@ wire-name-bomb-live = LIVE
 wire-name-bomb-delay = DLAY
 wire-name-bomb-proceed = PRCD
 wire-name-bomb-boom = BOOM
-wire-name-bomb-bolt = BOLT
+wire-name-bomb-bolt = PINO
