@@ -6,6 +6,9 @@ ent-CrateMedicalSupplies = Caixa de suprimentos médicos
 ent-CrateChemistrySupplies = Caixa de suprimentos químicos
     .desc = Suprimentos básicos de química.
 
+ent-CrateMindShieldImplants = Caixa de implantes MindShield
+    .desc = Caixa com 3 implantes MindShield.
+
 ent-CrateMedicalSurgery = Caixa de suprimentos cirúrgicos
     .desc = Surgical instruments.
 
