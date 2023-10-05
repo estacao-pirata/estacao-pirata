@@ -78,7 +78,6 @@
     damageContainer: Biological
     damageModifierSet: Vulps
   - type: Perishable
-  #- type: Carriable
   - type: TemperatureProtection
     coefficient: 0.1
   - type: Temperature
