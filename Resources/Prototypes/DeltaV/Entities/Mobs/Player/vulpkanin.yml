@@ -26,7 +26,7 @@
     - type: CameraRecoil
     - type: Examiner
     - type: CanHostGuardian
-    - type: MailReceiver
+    #- type: MailReceiver
     - type: NpcFactionMember
       factions:
         - NanoTrasen

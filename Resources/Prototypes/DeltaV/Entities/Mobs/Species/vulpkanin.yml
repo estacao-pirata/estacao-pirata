@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McVulp
-  parent: BaseMobOrganic
+  parent: BaseMobSpeciesOrganic
   id: BaseMobVulpkanin
   abstract: true
   components:
@@ -78,7 +78,7 @@
     damageContainer: Biological
     damageModifierSet: Vulps
   - type: Perishable
-  - type: Carriable
+  #- type: Carriable
   - type: TemperatureProtection
     coefficient: 0.1
   - type: Temperature
