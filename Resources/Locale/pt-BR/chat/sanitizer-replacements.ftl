@@ -19,3 +19,5 @@ chatsan-waves = acena
 chatsan-salutes = sauda
 chatsan-tearfully-salutes = sauda em lágrimas
 chatsan-shrugs = dá de ombros
+chatsan-shake-head-yes = balança a cabeça verticalmente
+chatsan-shake-head-no = balança a cabeça horizontalmente
