@@ -44,7 +44,7 @@ rev-title = Revolucionários
 rev-description = Há Revolucionários entre nós.
 
 rev-not-enough-ready-players = Nem todos os jogadores deram "pronto" para iniciar a partida! Tinham {$readyPlayersCount} jogadores prontos de {$minimumPlayers} necessários. Não foi possível iniciar uma Revolução.
-rev-no-one-ready = Nenhum jogador deu pronto! Não é possivel iniciar uma Revolução.
+rev-no-one-ready = Nenhum jogador deu pronto! Não foi possivel iniciar uma Revolução.
 
 rev-all-heads-dead = Todo o Comando está morto. Agora, finalize o resto da tripulação!
 
