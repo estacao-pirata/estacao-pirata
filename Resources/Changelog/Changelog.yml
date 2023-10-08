@@ -984,3 +984,67 @@ Entries:
         floor. 
   id: 106
   time: '2023-10-02T02:59:08.0000000+00:00'
+- author: FoxxoTrystan
+  changes:
+    - type: Add
+      message: >-
+        The independent nation of CARGONIA has lost a ship nearby your sector...
+        if you find our friends... please tell us! -Cargonia.
+  id: 107
+  time: '2023-10-03T16:26:18.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Tweak
+      message: NT improved the SR and Sheriff gear.
+    - type: Tweak
+      message: NT added more goods for the Ptech vend for SR.
+  id: 108
+  time: '2023-10-05T00:45:51.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: All emotional support pets now have names!
+  id: 109
+  time: '2023-10-05T00:47:03.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: All fax machines are now also a copy machine.
+  id: 110
+  time: '2023-10-05T00:50:01.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: >-
+        All pens can be used to sign your name, by having the intended "sign"
+        settings on them.
+    - type: Tweak
+      message: Captain stamp is back to stamp "Captain"
+  id: 111
+  time: '2023-10-07T18:45:34.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Add
+      message: Felinids can spit hairballs? YUCK!
+  id: 112
+  time: '2023-10-07T18:46:36.0000000+00:00'
+- author: FoxxoTrystan
+  changes:
+    - type: Add
+      message: >-
+        The syndicate is selling an outated nuclear operative ship: The
+        Infiltrator!
+  id: 113
+  time: '2023-10-07T18:58:23.0000000+00:00'
+- author: dvir01
+  changes:
+    - type: Fix
+      message: Ore magnets are fully working as intended now.
+  id: 114
+  time: '2023-10-07T19:10:11.0000000+00:00'
+- author: Cheackraze
+  changes:
+    - type: Tweak
+      message: In-game references to Space Law now point to the correct page.
+  id: 115
+  time: '2023-10-07T20:39:04.0000000+00:00'
