@@ -269,6 +269,9 @@ uplink-decoy-disk-desc = Um pedaço de plástico com uma impressão lenticular, 
 uplink-cigarettes-name = Syndicate Smokes Packet
 uplink-cigarettes-desc = Cigarros de elite para agentes de elite. Infundido com medicamentos para quando você precisa fazer mais do que acalmar seus nervos.
 
+uplink-eshield-name = Energy Shield
+uplink-eshield-desc = Exotic energy shield that reflects almost all laser beams, as well as a little protection from bullets and other physical attacks.
+
 uplink-soap-name = Sabão
 uplink-soap-desc = Uma barra de sabão não confiável. - Tem cheiro de medo.
 
