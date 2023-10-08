@@ -140,8 +140,8 @@ namespace Content.Server.Paper
             // If a stamp, attempt to stamp paper
             if (TryComp<StampComponent>(args.Used, out var stampComp) && TryStamp(uid, GetStampInfo(stampComp), stampComp.StampState, paperComp))
             {
-                var actionOther = "stamps";
-                var actionSelf = "stamp";
+                var actionOther = "carimba";
+                var actionSelf = "carimba";
 
                 if (stampComp.StampedPersonal)
                 {
@@ -160,8 +160,8 @@ namespace Content.Server.Paper
                     string stampedName = userName;
                     stampComp.StampedName = stampedName;
 
-                    actionOther = "signs";
-                    actionSelf = "sign";
+                    actionOther = "assina";
+                    actionSelf = "assina";
                 }
 
                 // successfully stamped, play popup
