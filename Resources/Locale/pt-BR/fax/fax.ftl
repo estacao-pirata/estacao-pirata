@@ -9,6 +9,7 @@ fax-machine-dialog-field-name = Nome
 
 fax-machine-ui-window = Maquina de fax
 fax-machine-ui-send-button = Mandar
+fax-machine-ui-copy-button = Copiar
 fax-machine-ui-refresh-button = Atualizar
 fax-machine-ui-no-peers = Sem pares
 fax-machine-ui-to = Para:

@@ -16,7 +16,7 @@ guide-entry-shipyard = Estaleiro Frontier
 shipyard-rules-default1 =
     Obrigado pelo seu interesse nas Forças de Segurança Nanotrasen.
     Ao comprar uma embarcação de segurança, você concorda em fazer cumprir a Lei Espacial
-    as found at https://wiki.nyanotrasen.moe/view/Space_Law.
+    as found at https://frontierstation14.com/index.php/Space_Law
 shipyard-rules-default2 =
     Quaisquer ações realizadas por você ou pela sua tripulação que violem a Lei Espacial
     resultará em ação administrativa.
