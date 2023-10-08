@@ -1,31 +1,11 @@
-
 ## Traitor
 
-# Shown at the end of a round of Traitor
-traitor-round-end-result = {$traitorCount ->
-    [one] Havia um traidor.
-    *[other] Haviam {$traitorCount} traidores.
-}
-
 traitor-round-end-codewords = As palavras chave eram: [color=White]{$codewords}[/color].
+traitor-round-end-agent-name = Traidor
+
+objective-issuer-syndicate = [color=#87cefa]O Sindicato[/color]
 
 # Shown at the end of a round of Traitor
-traitor-user-was-a-traitor = [color=gray]{$user}[/color] era um traidor.
-traitor-user-was-a-traitor-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color]) era um traidor.
-traitor-was-a-traitor-named = [color=White]{$name}[/color] era um traidor.
-
-traitor-user-was-a-traitor-with-objectives = [color=gray]{$user}[/color] era um traidor com os seguintes objetivos:
-traitor-user-was-a-traitor-with-objectives-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color]) era um traidor que tinha como objetivos:
-traitor-was-a-traitor-with-objectives-named = [color=White]{$name}[/color] era um traidor que tinha os seguintes objetivos:
-
-preset-traitor-objective-issuer-syndicate = [color=#87cefa]O Sindicato[/color]
-preset-traitor-objective-issuer-spiderclan = [color=#33cc00]Aranha Clã[/color]
-
-# Shown at the end of a round of Traitor
-traitor-objective-condition-success = {$condition} | [color={$markupColor}]Sucesso![/color]
-
-# Shown at the end of a round of Traitor
-traitor-objective-condition-fail = {$condition} | [color={$markupColor}]Falhou![/color] ({$progress}%)
 
 traitor-title = Traitor
 traitor-description = Há traidores entre nós...

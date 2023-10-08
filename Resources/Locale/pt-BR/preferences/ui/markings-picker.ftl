@@ -4,6 +4,7 @@ markings-add = Adicionar Marca
 markings-remove = Remover Marca
 markings-rank-up = Cima
 markings-rank-down = Baixo
+markings-search = Procurar
 marking-points-remaining = Marcas restantes: {$points}
 marking-used = {$marking-name}
 marking-used-forced = {$marking-name} (Forçado)

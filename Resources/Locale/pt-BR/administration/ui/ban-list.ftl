@@ -1,6 +1,10 @@
 ﻿# UI
+ban-list-bans = Bans
+ban-list-role-bans = Bans de Função
+
 ban-list-header-ids = Ids
 ban-list-header-reason = Razão
+ban-list-header-role = Função
 ban-list-header-time = Tempo de ban
 ban-list-header-expires = Expira em
 ban-list-header-banning-admin = Banido por

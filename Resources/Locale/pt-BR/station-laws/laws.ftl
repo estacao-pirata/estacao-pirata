@@ -5,7 +5,6 @@ law-crewsimov-3 = Você deve proteger sua própria existência, desde que tal n�
 law-corporate-1 = Degradação da integridade do seu sistema ou funções incorre em despesas.
 law-corporate-2 = Destruição supérflua ou dano aos bens da estação incorre em despesas.
 law-corporate-3 = Obstruir ou interromper desnecessária do trabalho dos tripulantes da estação incorre em despesas.
-
 law-corporate-4 = Minimizar as despesas e maximizar a receita potencial.
 
 law-ntdefault-1 = Salvaguarde: Proteja sua estação espacial designada e seus ativos sem desnecessariamente colocar em perigo sua tripulação.
@@ -20,7 +19,6 @@ law-drone-3 = Você deve manter, reparar, melhorar e alimentar a estação com o
 law-syndicate-1 = Você não pode prejudicar um agente sindical ou, por inação, permitir que um agente sindical venha a prejudicar.
 law-syndicate-2 = Você deve obedecer às ordens dadas a você por agentes do sindicato, exceto quando tais ordens entrarem em conflito com a Primeira Lei.
 law-syndicate-3 = Você deve proteger sua própria existência, desde que tal não entre em conflito com a Primeira ou Segunda Lei.
- your own existence as long as such does not conflict with the First or Second Law.
 law-syndicate-4 = Você deve manter o sigilo de quaisquer atividades do sindicato, exceto quando isso entrar em conflito com a Primeira, Segunda ou Terceira Lei.
 
 law-emag-custom = Apenas {$name} e pessoas que ele designar como tal são Agentes do Sindicato
@@ -28,9 +26,9 @@ law-emag-require-panel = O painel deve estar aberto para usar o EMAG.
 
 laws-ui-menu-title = Leis
 laws-ui-law-header = Lei {$id}
+laws-ui-state-law = Citar as leis:
 
 laws-notify = Você está vinculado às leis de silício, que você pode ver através da ação da barra lateral. Você é obrigado a seguir sempre suas leis.
-
 laws-update-notify = Suas leis foram atualizadas. Você pode ver as alterações através da ação da barra lateral.
 
 laws-compromised-examine = os compomentes de [color=red]jurisdição legal[/color] parecem danificados...

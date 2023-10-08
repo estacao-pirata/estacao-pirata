@@ -52,28 +52,61 @@ chat-manager-admin-channel-name = ADMIN
 chat-speech-verb-suffix-exclamation = !
 chat-speech-verb-suffix-exclamation-strong = !!
 chat-speech-verb-suffix-question = ?
+chat-speech-verb-suffix-stutter = -
+chat-speech-verb-suffix-mumble = ..
 
 chat-speech-verb-default = diz
 chat-speech-verb-exclamation = exclama
 chat-speech-verb-exclamation-strong = grita
 chat-speech-verb-question = pergunta
+chat-speech-verb-stutter = gagueja
+chat-speech-verb-mumble = murmura
 
 chat-speech-verb-insect-1 = chia
-chat-speech-verb-insect-2 = vibra
+chat-speech-verb-insect-2 = gorjea
+chat-speech-verb-insect-3 = clica
 
-chat-speech-verb-slime = pia
+chat-speech-verb-winged-1 = vibra
+chat-speech-verb-winged-2 = agitar
+chat-speech-verb-winged-3 = zumbe
 
-chat-speech-verb-robotic = afirma
-chat-speech-verb-reptilian = sibila
+chat-speech-verb-slime-1 = borrifa
+chat-speech-verb-slime-2 = borbulha
+chat-speech-verb-slime-3 = escorre
 
-chat-speech-verb-skeleton = cocalha
+chat-speech-verb-plant-1 = farfalha
+chat-speech-verb-plant-2 = balança
+chat-speech-verb-plant-3 = range
 
-chat-speech-verb-small-mob = guincha
+chat-speech-verb-robotic-1 = afirma
+chat-speech-verb-robotic-2 = bipa
 
-chat-speech-verb-large-mob = ruge
+chat-speech-verb-reptilian-1 = chia
+chat-speech-verb-reptilian-2 = bufa
+chat-speech-verb-reptilian-3 = magoa
 
-chat-speech-verb-monkey = chimpers
+chat-speech-verb-skeleton-1 = chocalha
+chat-speech-verb-skeleton-2 = estala
+chat-speech-verb-skeleton-3 = range
+
+chat-speech-verb-canine-1 = late
+chat-speech-verb-canine-2 = ladre
+chat-speech-verb-canine-3 = uivos
+
+chat-speech-verb-small-mob-1 = guincha
+chat-speech-verb-small-mob-2 = pia
+
+chat-speech-verb-large-mob-1 = ruge
+chat-speech-verb-large-mob-2 = rosna
+
+chat-speech-verb-monkey-1 = macaquea
+chat-speech-verb-monkey-2 = guincha
 
 chat-speech-verb-cluwne-1 = ri
 chat-speech-verb-cluwne-2 = gargalha
 chat-speech-verb-cluwne-3 = dá risada
+
+chat-speech-verb-ghost-1 = reclama
+chat-speech-verb-ghost-2 = suspira
+chat-speech-verb-ghost-3 = zumbe
+chat-speech-verb-ghost-4 = murmura

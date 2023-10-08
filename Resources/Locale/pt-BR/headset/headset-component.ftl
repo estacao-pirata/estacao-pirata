@@ -6,11 +6,11 @@ examine-headset-default-channel = Use o prefixo {$prefix} para o canal default (
 
 chat-radio-common = Comum
 chat-radio-centcom = CentCom
-chat-radio-command = Tráfego
+chat-radio-command = Comando
 chat-radio-engineering = Engenharia
 chat-radio-medical = Médico
 chat-radio-science = Ciêntífico
-chat-radio-security = NFSD
+chat-radio-security = Segurança
 chat-radio-service = Serviço
 chat-radio-supply = Carga
 chat-radio-syndicate = Sindicato

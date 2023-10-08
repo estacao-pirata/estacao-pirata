@@ -4,7 +4,6 @@ reagent-desc-toxin = Um produto químico não surpreendentemente tóxico. Dispon
 reagent-name-carpotoxin = carpotoxin
 reagent-desc-carpotoxin = Um reagente altamente tóxico encontrado em carpas espaciais. Causa uma sensação dolorosa de queimação.
 
-
 reagent-name-mold = mold
 reagent-desc-mold = Um crescimento fúngico, muitas vezes encontrado em lugares escuros e úmidos ou em pão expirado. Você vai desenvolver uma doença se ingerir.
 
@@ -13,6 +12,9 @@ reagent-desc-polytrinic-acid = Substância química extremamente corrosiva. Grav
 
 reagent-name-chloral-hydrate = chloral hydrate
 reagent-desc-chloral-hydrate = Um fármaco sedativo e hipnótico. Comumente usado para colocar outras pessoas para dormir, quer elas queiram quer não.
+
+reagent-name-ferrochromic-acid = ferrochromic acid
+reagent-desc-ferrochromic-acid = Uma solução levemente corrosiva, incapaz de causar perigo grave a menos que seja ingerida.
 
 reagent-name-fluorosulfuric-acid = fluorosulfuric acid
 reagent-desc-fluorosulfuric-acid = Um produto químico altamente corrosivo, capaz de deixar uma marca na sua pele.
@@ -61,6 +63,9 @@ reagent-desc-honk = Uma toxina encontrada no banânio. Provoca buzina grave e he
 
 reagent-name-lead = chumbo
 reagent-desc-lead = Uma toxina de ação lenta, mas incrivelmente letal, encontrada no aço mas apenas em quantidades vestigiais. Sem sabor.
+
+reagent-name-bungotoxin = bungotoxina
+reagent-desc-bungotoxin = Um veneno de ação moderadamente lenta encontrado no caroço da fruta bungo.
 
 reagent-name-human-muta-tox = toxina de mutação humana
 reagent-name-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.

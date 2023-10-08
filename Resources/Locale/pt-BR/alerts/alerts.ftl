@@ -95,3 +95,6 @@ alerts-bleed-desc = Você está [color=red]Sangrando[/color].
 
 alerts-pacified-name = [color=green]Pacificou[/color]
 alerts-pacified-desc = Você está pacificado; você não será capaz de atacar ninguém diretamente.
+
+alerts-suit-power-name = Poder do traje
+alerts-suit-power-desc = Quanto poder seu traje ninja espacial tem.

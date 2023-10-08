@@ -55,10 +55,13 @@ uplink-grenadier-rig-name = grenadier chest rig
 uplink-grenadier-rig-desc = Tudo o que você precisa para uma festa barulhenta: 4 granadas explosivas, 2 granadas EMP e 2 minibombas em um rig de peito.
 
 uplink-emp-grenade-name = Granada EMP
-uplink-emp-grenade-desc = Uma granada projetada para interromper sistemas eletrônicos. É útil para interromper as comunicações, as armas de energia da segurança e os APCs quando você está em um ponto apertado.
+uplink-emp-grenade-desc = Uma granada projetada para interromper sistemas eletrônicos. Útil para interromper comunicações, armas de energia da segurança e APCs quando você está em uma situação difícil.
 
 uplink-exploding-pen-name = Caneta explosiva
 uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
+
+uplink-exploding-syndicate-bomb-name = Bomba do Sindicato
+uplink-exploding-syndicate-bomb-desc = Uma grande bomba ancorada que pode criar uma enorme explosão se não for desativada a tempo. Útil como distração. Possui temporizador ajustável com configuração mínima de 120 segundos.
 
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
@@ -73,7 +76,7 @@ uplink-pistol-magazine-caseless-desc = Pente de pistola com 10 cartuchos. Compat
 uplink-speedloader-magnum-name = Speedloader (.45 magnum AP)
 uplink-speedloader-magnu-desc = Carregador rápido de revolver com 6 cartuchos perfurantes de armadura, capazes de penetrar qualquer chapa. Compatível com a Python.
 
-uplink-mosin-ammo-name = Caixa de munição ().30 de rifle)
+uplink-mosin-ammo-name = Caixa de munição (.30 de rifle)
 uplink-mosin-ammo-desc = Uma caixa de 50 cartuchos para o rifle mosin.
 
 uplink-sniper-ammo-name = Caixa de munição (.60 antimaterial)
@@ -87,7 +90,6 @@ uplink-holopara-kit-desc = O orgulho e a alegria de Cybersun. Contém um injetor
 uplink-holoclown-kit-name = Kit Holoclown
 uplink-holoclown-kit-desc = Uma joint venture entre Cybersun e Honk.co. Contém um injetor que hospeda um palhaço metafísico senciente feito de luz dura que reside no corpo do usuário quando não está ativo.
     O holoclown tem bolsos para armazenar coisas, uma mão de luz rígida com a qual pode manipular o ambiente e é imune a ambientes perigosos, ao mesmo tempo em que é resistente a traumas diretos, mas compartilha qualquer dano que leva ao usuário.
-
 
 uplink-holster-name = Coldre de Ombro
 uplink-holster-desc = Um coldre de ombro profundo capaz de segurar muitos tipos de balística.
@@ -116,6 +118,9 @@ uplink-headset-desc = Um fone de rádio que permite ouvir em canais departamenta
 uplink-encryption-key-name = Chaves Criptográficas do Sindicato
 uplink-encryption-key-desc = Duas chaves de criptografia para acesso à frequência secreta de nossos agentes especiais. Dê o sobressalente a um amigo, mas certifique-se de que não caia nas mãos do inimigo.
 
+uplink-binary-translator-key-name = Binary Translator Key
+uplink-binary-translator-key-desc = Permite acessar o canal binário dos silícios. Porém, não fale nele, pelo menos não sem uma máscara de voz.
+
 uplink-hypopen-name = Hypopen
 uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 10u de reagentes. Vem vazio.
 
@@ -138,8 +143,6 @@ uplink-dna-scrambler-implanter-desc = Um único implante de uso que pode ser ati
 uplink-emp-implanter-name = EMP Implanter
 uplink-emp-implanter-desc = Detona um pequeno pulso EMP na ativação que drena a eletrônica próxima de sua potência, pode ser usado três vezes antes que a bateria interna se esgote.
 
-uplink-micro-bomb-implanter-name = Micro Bomb Implanter
-uplink-micro-bomb-implanter-desc = Este implante explode em caso de morte ou ativação manual. Destrui o corpo com todo o equipamento.
 
 uplink-macro-bomb-implanter-name = Implanter de Macro Bomba
 uplink-macro-bomb-implanter-desc = Injete isso e, na morte, você criará uma grande explosão. Enorme custo de mores da equipe, uso a seu própria conta e risco. Substitui a micro bomba interna.
@@ -317,6 +320,9 @@ uplink-costume-pyjama-desc = Contém 3 pares de pijamas do sindicato e 3 pelúci
 
 uplink-costume-clown-name = Clown Costume Duffel Bag
 uplink-costume-clown-desc = Contém um traje completo de palhaço. Inclui PDA e rádio de serviço.
+
+uplink-carp-suit-bundle-name = Carp Suit Duffel Bag
+uplink-carp-suit-bundle-desc = Contém um traje de carpa e alguns amigos para brincar.
 
 uplink-operative-suit-name = Operative Jumpsuit
 uplink-operative-suit-desc = Um terno dado aos nossos agentes nucleares com tecido fino para se certificar de que você se destaca, nenhum outro benefício além de parecer foda.
