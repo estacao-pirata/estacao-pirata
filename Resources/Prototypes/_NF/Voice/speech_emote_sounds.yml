@@ -1,52 +1,12 @@
 - type: emoteSounds
-  id: MaleFelinid
-  params:
-    variation: 0.125
-  sounds:
-    Scream:
-      collection: FelinidScreams
-    Laugh:
-      collection: MaleLaugh
-    Hiss:
-      collection: FelinidHisses
-    Meow:
-      collection: FelinidMeows
-    Mew:
-      collection: FelinidMews
-    Growl:
-      collection: FelinidGrowls
-    Purr:
-      collection: FelinidPurrs
-
-- type: emoteSounds
-  id: FemaleFelinid
-  params:
-    variation: 0.125
-  sounds:
-    Scream:
-      collection: FelinidScreams
-    Laugh:
-      collection: FemaleLaugh
-    Hiss:
-      collection: FelinidHisses
-    Meow:
-      collection: FelinidMeows
-    Mew:
-      collection: FelinidMews
-    Growl:
-      collection: FelinidGrowls
-    Purr:
-      collection: FelinidPurrs
-
-- type: emoteSounds
   id: MaleMoth
   params:
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Voice/Moth/scream_moth.ogg
+      path: /Audio/Voice/Moth/moth_scream.ogg
     Laugh:
-      path: /Audio/Voice/Moth/laugh_moth.ogg
+      path: /Audio/Voice/Moth/moth_laugh.ogg
 
 - type: emoteSounds
   id: FemaleMoth
@@ -54,9 +14,9 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Voice/Moth/scream_moth.ogg
+      path: /Audio/Voice/Moth/moth_scream.ogg
     Laugh:
-      path: /Audio/Voice/Moth/laugh_moth.ogg
+      path: /Audio/Voice/Moth/moth_laugh.ogg
 
 - type: emoteSounds
   id: Cat
