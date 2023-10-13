@@ -49,7 +49,8 @@ namespace Content.Server.RoundEnd
         /// </summary>
         public TimeSpan DefaultCountdownDuration { get; set; } = TimeSpan.FromMinutes(10);
 
-        private CancellationTokenSource? _countdownTokenSource = null;
+        private CancellationTokenSource? _countdownWarningTokenSource = null; // timer for shuttle warning
+        private CancellationTokenSource? _countdownTokenSource = null; // timer for shuttle arriving
         private CancellationTokenSource? _cooldownTokenSource = null;
         public TimeSpan? LastCountdownStart { get; set; } = null;
         public TimeSpan? ExpectedCountdownEnd { get; set; } = null;
@@ -73,6 +74,12 @@ namespace Content.Server.RoundEnd
 
         private void Reset()
         {
+            if (_countdownWarningTokenSource != null)
+            {
+                _countdownWarningTokenSource.Cancel();
+                _countdownWarningTokenSource = null;
+            }
+
             if (_countdownTokenSource != null)
             {
                 _countdownTokenSource.Cancel();
@@ -149,6 +156,7 @@ namespace Content.Server.RoundEnd
             if (checkCooldown && _cooldownTokenSource != null) return;
 
             if (_countdownTokenSource != null) return;
+            _countdownWarningTokenSource = new();
             _countdownTokenSource = new();
 
             if (requester != null)
@@ -189,6 +197,10 @@ namespace Content.Server.RoundEnd
             ExpectedCountdownEnd = _gameTiming.CurTime + countdownTime;
             Timer.Spawn(countdownTime, _shuttle.CallEmergencyShuttle, _countdownTokenSource.Token);
 
+            // Make warning timer
+            var warnTime = countdownTime.Subtract(new TimeSpan(0, 1, 0)); // 1 minute
+            Timer.Spawn(warnTime, ShuttleWarning, _countdownWarningTokenSource.Token);
+
             ActivateCooldown();
             RaiseLocalEvent(RoundEndSystemChangedEvent.Default);
 
@@ -206,6 +218,15 @@ namespace Content.Server.RoundEnd
                 };
                 _deviceNetworkSystem.QueuePacket(shuttle.Value, null, payload, net.TransmitFrequency);
             }
+        }
+
+        private void ShuttleWarning()
+        {
+            _chatSystem.DispatchGlobalAnnouncement(Loc.GetString("round-end-system-shuttle-reminder"),
+                Loc.GetString("Station"),
+                false,
+                null,
+                Color.Gold);
         }
 
         public void CancelRoundEndCountdown(EntityUid? requester = null, bool checkCooldown = true)
