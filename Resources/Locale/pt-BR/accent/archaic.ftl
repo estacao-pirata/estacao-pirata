@@ -135,7 +135,7 @@ accent-archaic-replaced-43 = onto
 accent-archaic-replacement-43 = unto
 
 accent-archaic-replaced-44 = can i
-accent-archaic-replacement-44 = am i allowed to
+accent-archaic-replacement-44 = am I allowed to
 
 accent-archaic-replaced-45 = upon
 accent-archaic-replacement-45 = unto

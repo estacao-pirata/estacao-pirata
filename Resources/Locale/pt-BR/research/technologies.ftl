@@ -36,6 +36,7 @@ research-technology-draconic-munitions = Munições Dracônicas
 research-technology-explosive-technology = Tecnologia Explosiva
 research-technology-weaponized-laser-manipulation = Manipulação de Laser Armada
 research-technology-nonlethal-ammunition = Munição Não Letal
+research-technology-practice-ammunition = Munição de Pratica
 research-technology-concentrated-laser-weaponry = Armamento de Laser Concentrado
 research-technology-wave-particle-harnessing = Aproveitamento de onda-partícula
 research-technology-handheld-electrical-propulsion = Propulsão elétrica de mão

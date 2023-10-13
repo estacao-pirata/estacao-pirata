@@ -17,9 +17,8 @@ pai-system-wiped-device = A IAp foi removida do dispositivo.
 pai-system-stop-searching-verb-text = Parar de procurar
 pai-system-stopped-searching = O dispositivo parou de procurar por IAp's.
 
-pai-system-pai-name = IAp d{ THE($owner) }
+pai-system-pai-name = IAp de { THE($owner) }
 pai-system-pai-name-raw = pAI de {$name}
 
 pai-system-brick-popup = Os circuitos do pAI estalam e desaparecem ruidosamente!
 pai-system-scramble-popup = Os circuitos do pAI estão sobrecarregados de eletricidade!
-
