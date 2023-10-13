@@ -48,8 +48,8 @@ guide-entry-defusal = Large Bomb Defusal
 
 guide-entry-antagonists = Antagonistas
 guide-entry-nuclear-operatives = Operativos Nucleares
-guide-entry-nuclear-traitors = Traidores
-guide-entry-nuclear-zombies = Zumbis
+guide-entry-traitors = Traidores
+guide-entry-zombies = Zumbis
 guide-entry-minor-antagonists = Antagonistas Menores
 guide-entry-space-ninja = Space Ninja
 

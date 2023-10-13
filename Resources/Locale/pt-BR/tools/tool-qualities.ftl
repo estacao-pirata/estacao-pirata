@@ -27,3 +27,6 @@ tool-quality-honking-tool-name = Bike Horn
 
 tool-quality-woodcutting-name = Cortador de Madeira
 tool-quality-woodcutting-tool-name = Machadinha
+
+tool-quality-rolling-name = Rolling
+tool-quality-rolling-tool-name = Rolling Pin
