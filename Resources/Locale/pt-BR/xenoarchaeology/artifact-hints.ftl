@@ -10,9 +10,7 @@ artifact-effect-hint-consumption = Consumo de energia
 artifact-effect-hint-release = Liberação de energia
 artifact-effect-hint-biochemical = Distúrbio bioquímico
 artifact-effect-hint-destruction = Destruição da estação inteira
-artifact-effect-hint-gun = Acelerador de entidade pequena
-artifact-effect-hint-psionic = Distúrbio noösférico disturbance
-artifact-effect-hint-gun = Acelerador de pequenas entidades
+artifact-effect-hint-gun = Acelerador de pequena entidade 
 artifact-effect-hint-multitool = Conglomerado de utilidades
 artifact-effect-hint-storage = Câmara interna
 artifact-effect-hint-drill = Rotor serrilhado
@@ -20,6 +18,7 @@ artifact-effect-hint-soap = Superfície lubrificada
 artifact-effect-hint-communication = Comunicação de longa distância
 artifact-effect-hint-phasing = Faseamento estrutural
 artifact-effect-hint-sentience = Atividade neurológica
+artifact-effect-hint-polymorph = Atividade transmogrificacional
 
 # the triggers should be more obvious than the effects
 # gives people an idea of what to do: don't be too specific (i.e. no "welders")
