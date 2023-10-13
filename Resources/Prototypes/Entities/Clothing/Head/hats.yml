@@ -368,6 +368,8 @@
     sprite: Clothing/Head/Hats/sombrero.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/sombrero.rsi
+  - type: AddAccentClothing
+    accent: SpanishAccent
 
 - type: entity
   parent: ClothingHeadBase
@@ -788,14 +790,3 @@
     sprite: Clothing/Head/Hats/gladiator.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/gladiator.rsi
-
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHatBeretBlueshield
-  name: head of security's beret
-  description: Uma Beret azul para indicar sua superioridade.
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Hats/beret_blueshield.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Hats/beret_blueshield.rsi
