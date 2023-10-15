@@ -27,8 +27,11 @@
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
 
-#- type: playTimeTracker
-#  id: JobComerciante
+- type: playTimeTracker
+  id: JobComerciante
+
+- type: playTimeTracker
+  id: JobSoldado
 
 # Soldado
 - type: job
@@ -45,7 +48,7 @@
   - Cidadao
   - Comerciante
   - Policia
-  
+
 - type: startingGear
   id: SoldadoCidadeGear
   equipment:
