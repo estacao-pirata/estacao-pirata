@@ -13,4 +13,11 @@ public sealed partial class GibOnTriggerComponent : Component
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField("deleteItems")]
     public bool DeleteItems = false;
+
+    /// <summary>
+    /// Should gibbing also delete the owners organs?
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField("gibOrgans")]
+    public bool GibOrgans = false;
 }
