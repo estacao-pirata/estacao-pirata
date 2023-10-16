@@ -10,7 +10,7 @@
   - type: Hunger
     baseDecayRate: 0.025
   - type: Thirst
-    baseDecayRate: 0.0125
+    baseDecayRate: 0.06
   - type: Icon
     sprite: DeltaV/Mobs/Species/Vulpkanin/parts.rsi
     state: full
