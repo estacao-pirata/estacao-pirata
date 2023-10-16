@@ -211,6 +211,7 @@
     successChance: 0.9
     interactSuccessString: petting-success-bingus
     interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/cat_meow.ogg
   - type: Grammar
@@ -273,6 +274,7 @@
     successChance: 0.5
     interactSuccessString: petting-success-dog
     interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/small_dog_bark_happy.ogg
   - type: Grammar
@@ -289,6 +291,7 @@
   parent: MobSloth
   id: MobPaperwork
   description: Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
+    interactSuccessSpawn: EffectHearts
 
 - type: entity
   name: Walter
@@ -341,6 +344,7 @@
     successChance: 0.7
     interactSuccessString: petting-success-dog
     interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/small_dog_bark_happy.ogg
   - type: Grammar
@@ -362,6 +366,7 @@
     successChance: 1.0 # Hey, c'mon, this is Morty we're talking about here.
     interactSuccessString: petting-success-possum
     interactFailureString: petting-failure-possum
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/snake_hiss.ogg
   - type: Grammar
@@ -383,6 +388,7 @@
     successChance: 0.7
     interactSuccessString: petting-success-raccoon
     interactFailureString: petting-failure-raccoon
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/raccoon_chatter.ogg
   - type: Grammar
@@ -404,6 +410,7 @@
     successChance: 1
     interactSuccessString: petting-success-pig
     interactFailureString: petting-failure-pig
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/pig_oink.ogg
   - type: Grammar
@@ -425,6 +432,7 @@
     successChance: 1
     interactSuccessString: petting-success-soft-floofy
     interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/fox_squeak.ogg
   - type: Butcherable
@@ -465,6 +473,7 @@
     successChance: 1
     interactSuccessString: petting-success-hamster
     interactFailureString: petting-failure-hamster
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/fox_squeak.ogg
   - type: Butcherable
@@ -491,6 +500,7 @@
     successChance: 0.5 # spider is mean
     interactSuccessString: petting-success-tarantula
     interactFailureString: petting-failure-hamster
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/snake_hiss.ogg
   - type: NpcFactionMember
@@ -565,7 +575,8 @@
   - type: InteractionPopup
     successChance: 0.8
     interactSuccessString: petting-success-kangaroo
-    interactFailureString: petting-failure-kangaroo
+    interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/kangaroo_grunt.ogg
   - type: Grammar
