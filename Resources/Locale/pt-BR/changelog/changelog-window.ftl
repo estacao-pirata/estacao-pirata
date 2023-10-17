@@ -9,3 +9,6 @@ changelog-version-tag = versão v{ $version }
 
 changelog-button = Mudanças
 changelog-button-new-entries = Mudanças (novas!)
+
+changelog-tab-title-Changelog = Changelog
+changelog-tab-title-Admin = Admin
