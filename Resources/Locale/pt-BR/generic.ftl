@@ -8,3 +8,7 @@ generic-unknown = desconhecido
 generic-unknown-title = desconhecido
 generic-error = erro
 generic-invalid = inválido
+
+generic-hours = horas
+
+generic-playtime-title = Tempo de Jogo

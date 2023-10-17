@@ -76,6 +76,7 @@ ban-panel-years = Anos
 ban-panel-permanent = Permanente
 ban-panel-ip-hwid-tooltip = Deixe o vazio e marque a caixa de seleção abaixo para usar os detalhes da última conexão
 ban-panel-severity = Gravidade:
+ban-panel-erase = Apagar mensagens de bate-papo e o jogador da rodada
 
 # Ban string
 server-ban-string = {$admin} criou um ban de servidor de gravidade {$severity} que expira em {$expires} para [{$name}, {$ip}, {$hwid}], com razão: {$reason}

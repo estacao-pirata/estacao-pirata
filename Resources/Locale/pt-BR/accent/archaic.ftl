@@ -185,9 +185,6 @@ accent-archaic-replacement-59 = bemadding
 accent-archaic-replaced-60 = suggest
 accent-archaic-replacement-60 = bespeak
 
-accent-archaic-replaced-53 = request
-accent-archaic-replacement-53 = bespeak
-
 accent-archaic-replaced-61 = indicate
 accent-archaic-replacement-61 = bespeak
 
@@ -510,7 +507,7 @@ accent-archaic-replaced-175 = will
 accent-archaic-replacement-175 = shall
 
 accent-archaic-replaced-176 = i am thirsty
-accent-archaic-replacement-176 = i require a drink
+accent-archaic-replacement-176 = I require a drink
 
 accent-archaic-replaced-177 = hate
 accent-archaic-replacement-177 = loathe
@@ -591,7 +588,7 @@ accent-archaic-replaced-204 = airlock
 accent-archaic-replacement-204 = door
 
 accent-archaic-replaced-205 = sorry
-accent-archaic-replacement-205 = i apologise
+accent-archaic-replacement-205 = I apologise
 
 accent-archaic-replaced-206 = hey
 accent-archaic-replacement-206 = pardon me
@@ -615,7 +612,7 @@ accent-archaic-replaced-212 = why
 accent-archaic-replacement-212 = for what reason
 
 accent-archaic-replaced-213 = im
-accent-archaic-replacement-213 = i am
+accent-archaic-replacement-213 = I am
 
 accent-archaic-replaced-214 = sink
 accent-archaic-replacement-214 = taps
@@ -645,13 +642,13 @@ accent-archaic-replaced-222 = myself
 accent-archaic-replacement-222 = mineself
 
 accent-archaic-replaced-223 = i am hungry
-accent-archaic-replacement-223 = i require grub
+accent-archaic-replacement-223 = I require grub
 
 accent-archaic-replaced-224 = you suck
 accent-archaic-replacement-224 = thou are foul
 
 accent-archaic-replaced-225 = please
-accent-archaic-replacement-225 = i request of thee
+accent-archaic-replacement-225 = I request of thee
 
 accent-archaic-replaced-226 = secway
 accent-archaic-replacement-226 = patrol cart
