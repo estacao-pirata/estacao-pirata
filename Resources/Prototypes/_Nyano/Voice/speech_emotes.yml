@@ -4,13 +4,12 @@
   category: Vocal
   chatMessages: [hisses.]
   chatTriggers:
-    - hiss
+    - hiss.
     - hiss.
     - hisses
     - hisses.
     - hiss!
     - hisses!
-    - hissing
     - hissing.
     - hissed
     - hissed.
@@ -22,12 +21,12 @@
   chatTriggers:
     - meow
     - meow.
+    - meow!
     - meows
     - meows.
-    - meow!
     - meows!
-    - meowing
     - meowing.
+    - meowed.
     - meowed
     - meowed.
     - miau
@@ -36,7 +35,7 @@
     - miaus.
     - miau!
     - miaus!
-    - nya
+    - nya.
     - nya.
     - nyas
     - nyas.
@@ -50,9 +49,9 @@
   chatTriggers:
     - mew
     - mew.
+    - mew!
     - mews
     - mews.
-    - mew!
     - mews!
     - mewing
     - mewing.
@@ -86,7 +85,7 @@
     - purrs.
     - purr!
     - purrs!
-    - purring
+    - purring.
     - purring.
     - purred
     - purred.
