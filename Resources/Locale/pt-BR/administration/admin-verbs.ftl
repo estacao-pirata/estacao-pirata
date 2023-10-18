@@ -1,9 +1,11 @@
 delete-verb-get-data-text = Deletar
-edit-solutions-verb-get-data-text = Editar respostas
+edit-solutions-verb-get-data-text = Editar soluções
 explode-verb-get-data-text = Explodir
 ahelp-verb-get-data-text = Mensagem
 admin-verbs-admin-logs-entity = Logs de Entidade
-admin-verbs-teleport-to = Teleportar para
-admin-verbs-teleport-here = Teleportar aqui
+admin-verbs-teleport-to = Teleportar-se para
+admin-verbs-teleport-here = Teleportá-la pra cá
 admin-verbs-freeze = Congelar
 admin-verbs-unfreeze = Descongelar
+toolshed-verb-mark = Marcar
+toolshed-verb-mark-description = Coloca essa entidade na variável $marked, uma lista de entidades, substituindo seu valor anterior.
