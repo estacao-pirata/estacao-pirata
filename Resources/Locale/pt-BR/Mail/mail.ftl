@@ -15,7 +15,6 @@ mail-penalty-expired = ENTREGA ATRASADA. CONTA DO BANCO DE CARGA PENALIZADA POR 
 mail-item-name-unaddressed = envelope
 mail-item-name-addressed = envelope ({$recipient})
 
-
 command-mailto-description = Enfileirar uma encomenda para ser entregue a uma entidade. Exemplo de uso: `mailto 1234 5678 false false`. O conteúdo do contêiner de destino será transferido para um pacote de correspondência real.
 command-mailto-help = Uso: {$command} <recipient entityUid> <container entityUid> [is-fragile: true or false] [is-priority: true or false]
 command-mailto-no-mailreceiver = A entidade destinatária de destino não tem um {$requiredComponent}.

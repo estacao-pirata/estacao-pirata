@@ -5,6 +5,3 @@ job-greet-supervisors-warning = Você como um {$jobName} responde diretamente {$
 job-greet-crew-shortages = Como esta estação foi inicialmente comandada com uma tripulação fantasma, acesso adicional foi dado ao seu ID.
 job-not-available-wait-in-lobby = The round has started, but you did not receive any of your preferred job roles (or have no preferred job roles selected) and chose to remain in the lobby. You can change this behavior on the customization screen.
 
-
-job-greet-join-notify-crew = { CAPITALIZE($jobName)} {$characterName} está a bordo!
-job-greet-join-notify-crew-announcer = Estação

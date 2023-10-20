@@ -17,7 +17,7 @@ guide-entry-rtg = RTG
 guide-entry-controls = Controles
 guide-entry-radio = Radio
 guide-entry-jobs = Trabalhos
-guide-entry-cargo = Carga
+guide-entry-cargo = Cargo
 guide-entry-cargo-bounties = Recompensas da Carga
 guide-entry-salvage = Salvamento
 guide-entry-survival = Sobrevivência
@@ -82,9 +82,11 @@ guide-entry-jurisdiction = Jurisdição
 guide-entry-trial-prodedure = Procedimento de julgamento
 guide-entry-charges-and-times = Acusações e Sentenças
 guide-entry-chemistry = Química
-guide-entry-shogi = Shogi
 guide-entry-chef = Chefe de cozinha
 guide-entry-cookbook = O livro de receitas
+
+Receitas
+guide-entry-shogi = Shogi
 guide-entry-burgers = Hambúrgueres
 guide-entry-cakes = Bolos
 guide-entry-pastries = Pastelaria
@@ -96,11 +98,5 @@ guide-entry-pasta = Macarrão e Arroz
 guide-entry-soups = Sopas
 guide-entry-salads = Saladas
 guide-entry-sauces = Condimentos
-guide-entry-cargo = Cargo
 
 
-guide-entry-singularity = Singularidade
-guide-entry-radio = Radio
-guide-entry-science = Ciência
-guide-entry-security = Segurança
-guide-entry-dna = DNA

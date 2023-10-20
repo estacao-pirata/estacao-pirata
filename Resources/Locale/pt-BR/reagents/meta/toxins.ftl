@@ -35,7 +35,7 @@ reagent-name-lexorin = lexorin
 reagent-desc-lexorin = Um produto químico de ação rápida usado para asfixiar pessoas rapidamente.
 
 reagent-name-mindbreaker-toxin = mindbreaker toxin
-reagent-desc-mindbreaker-toxin = Um potente composto danoso ao cérebro que pode remover habilidades psiônicas.
+reagent-desc-mindbreaker-toxin = Um potente composto alucinógeno que era conhecido como LSD.
 
 reagent-name-histamine = histamine
 reagent-desc-histamine = Um produto químico causado pela alergenia reagindo com anticorpos. Letal em grandes quantidades.
@@ -80,3 +80,17 @@ reagent-desc-prometheum = A complex superdrug our bodies could produce if we cou
 
 reagent-name-soulbreaker-toxin = soulbreaker toxin
 reagent-desc-soulbreaker-toxin = An anti-psionic about 4 times as powerful as mindbreaker toxin.
+reagent-name-human-muta-tox = toxina de mutação humana
+reagent-desc-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
+
+reagent-name-slime-person-muta-tox =  toxina de mutação slime
+reagent-desc-slime-person-muta-tox = Uma droga capaz de transformar qualquer humanóide em pessoa slime.
+
+reagent-name-skeleton-muta-tox = skin hurting juice
+reagent-desc-skeleton-muta-tox = Uma droga que dói em tudo, seguido de tudo menos os essenciais cairem. Transforma qualquer humanóide em um esqueleto.
+
+reagent-name-reptilian-muta-tox =  toxina de mutação reptiliana
+reagent-desc-reptilian-muta-tox = Uma droga capaz de transformar qualquer humanóide em reptiliano.
+
+reagent-name-monkey-muta-tox =  toxina de mutação de macaco
+reagent-desc-monkey-muta-tox = Uma droga capaz de transformar qualquer humanóide em macaco.

@@ -19,7 +19,6 @@ device-frequency-prototype-name-surveillance-camera-service = C창meras de Servi�
 device-frequency-prototype-name-surveillance-camera-medical = C창meras da Medbay
 device-frequency-prototype-name-surveillance-camera-general = C창meras gerais
 device-frequency-prototype-name-surveillance-camera-entertainment = C창meras do Entretenimento
-device-frequency-prototype-name-surveillance-camera-silicon = C창meras dos Silicon embutidas
 
 # prefixes for randomly generated device addresses
 device-address-prefix-vent = VNT-

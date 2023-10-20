@@ -48,5 +48,26 @@ glimmer-event-report-generic = descarga noösférica detectada. Nivel de vislumb
 glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O nível de vislumbre diminuiu em {$decrease} para {$level}Ψ.
 glimmer-event-awakened-prefix = acordado {$entity}
 
-noospheric-zap-seize = You seize up! (oi aqui é o rber. tire um screenshot disso por favor)
-noospheric-zap-seize-potential-regained = You seize up! Some mental block seems to have cleared, too. (oi aqui é o rber. tire um screenshot disso por favor)
+noospheric-zap-seize = Você se convulsiona!
+noospheric-zap-seize-potential-regained = Você se convulsion! Algum bloqueio mental também parece ter sido eliminado..
+
+mindswap-trapped = Parece que você está preso neste vaso.
+
+telegnostic-trapped-entity-name = projeção telegnóstica rompida
+telegnostic-trapped-entity-desc = Seus muitos olhos traem tristeza.
+
+psionic-burns-up = {CAPITALIZE(THE($item))} queima com um arco de estranha energia!
+psionic-burn-resist = Estranhos arcos dançam pel{THE($item)}!
+
+action-name-noospheric-zap = Zap Noosférico
+action-description-noospheric-zap = Eletrocuta a consciência do alvo e os deixa atordoados e gagejando.
+
+action-name-pyrokinesis = Pirokinese
+action-description-pyrokinesis = Abre chama em um alvo inflamável.
+pyrokinesis-power-used = Uma língua de chama engolfa {THE($target)}, incendiando {OBJECT($target)}!
+
+action-name-psychokinesis = Psicokinese
+action-description-psychokinesis = Dobre a trama do espaço para se mover instantanemanete através dele.
+
+action-name-rf-sensitivity = Toggle Sensibilidade RF
+action-desc-rf-sensitivity = Ativa ou desativa sua habilidade de interpretar ondas de rádio.
