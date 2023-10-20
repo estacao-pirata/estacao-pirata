@@ -50,7 +50,7 @@ guide-entry-cyborgs = ciborgues
 guide-entry-security = Segurança
 guide-entry-forensics = Forensics
 guide-entry-defusal = Desativação de Bomba Grande
-guide-entry-crimina-records = Registros Criminais
+guide-entry-criminal-records = Registros Criminais
 guide-entry-species = Espécies
 
 guide-entry-antagonists = Antagonistas
@@ -81,12 +81,22 @@ guide-entry-space-law = Lei Espacial
 guide-entry-jurisdiction = Jurisdição
 guide-entry-trial-prodedure = Procedimento de julgamento
 guide-entry-charges-and-times = Acusações e Sentenças
+guide-entry-machine-upgrading = Melhorando Máquinas
+guide-entry-robotics = Robótica
+
+guide-entry-security = Segurança
+guide-entry-dna = DNA
+
+guide-entry-antagonists = Antagonistas
+guide-entry-nuclear-operatives = Operativos Nucleares
+
+
 guide-entry-chemistry = Química
 guide-entry-chef = Chefe de cozinha
 guide-entry-cookbook = O livro de receitas
 
 Receitas
-guide-entry-shogi = Shogi
+
 guide-entry-burgers = Hambúrgueres
 guide-entry-cakes = Bolos
 guide-entry-pastries = Pastelaria
