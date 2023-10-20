@@ -1,6 +1,7 @@
 drink-component-on-use-is-empty = {$owner} está vazio!
 drink-component-on-examine-is-empty = [color=gray]Vazio[/color]
 drink-component-on-examine-is-opened = [color=yellow]Aberto[/color]
+drink-component-on-examine-details-text = [color={$colorName}]{$text}[/color]
 drink-component-on-examine-is-full = Cheio
 drink-component-on-examine-is-mostly-full = Quase cheio
 drink-component-on-examine-is-half-full = Meio cheio
