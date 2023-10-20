@@ -12,13 +12,15 @@ comp-pda-io-program-list-button = Programas
 
 comp-pda-io-settings-button = Configurações
 
-comp-pda-io-program-fallback-title = Programa
+comp-pda-io-program-fallback-title = Program
 
 comp-pda-io-no-programs-available = Nenhum programa disponível
 
-pda-bound-user-interface-uplink-tab-title = Uplink
+pda-bound-user-interface-show-uplink-title = Abrir Uplink
+pda-bound-user-interface-show-uplink-description = Acessa seu uplink
 
-pda-bound-user-interface-uplink-tab-description = Acesse seu uplink
+pda-bound-user-interface-lock-uplink-title = Bloquear Uplink
+pda-bound-user-interface-lock-uplink-description = Evite que alguém acesse seu uplink sem o código
 
 comp-pda-ui-menu-title = PDA
 

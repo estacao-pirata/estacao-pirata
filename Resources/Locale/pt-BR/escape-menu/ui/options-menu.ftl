@@ -14,8 +14,8 @@ ui-options-default = Padrão
 
 ui-options-master-volume = Volume Geral:
 ui-options-midi-volume = Volume MIDI (Instrumento):
-ui-options-ambient-music-volume = Volume da música ambiente:
-ui-options-ambience-volume = Volume de Ambiance:
+ui-options-ambient-music-volume = Ambient music volume:
+ui-options-ambience-volume = Volume Ambiente:
 ui-options-lobby-volume = Lobby & Round-end volume:
 ui-options-ambience-max-sounds = Ambience simultaneous sounds:
 ui-options-lobby-music = Musica no Lobby & Fim do Round
@@ -159,6 +159,7 @@ ui-options-function-editor-copy-object = Copiar
 ui-options-function-open-abilities-menu = Abrir menu de ação
 ui-options-function-show-debug-console = Abrir Console
 ui-options-function-show-debug-monitors = Mostrar monitores de Debug
+ui-options-function-inspect-entity = Inspecionar Entidade
 ui-options-function-hide-ui = Esconder UI
 
 ui-options-function-hotbar1 = Hotbar slot 1

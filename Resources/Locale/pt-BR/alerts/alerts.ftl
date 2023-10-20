@@ -45,6 +45,12 @@ alerts-dead-desc = Você está morto, note que você ainda pode ser revivido!
 alerts-health-name = Saúde
 alerts-health-desc = [color=green]Verde[/color] bom. [color=red]Vermelho[/color] ruim.
 
+alerts-battery-name = Bateria
+alerts-battery-desc = Se a sua bateria se esgotar, você não será capaz de usar suas habilidades.
+
+alerts-no-battery-name = Sem bateria
+alerts-no-battery-desc = Você não tem uma bateria, o que lhe torna incapaz de recarregar ou usar suas habilidades.
+
 alerts-internals-name = Alternar internos
 alerts-internals-desc = Ativa ou desativa os componentes internos do tanque de gasolina.
 
@@ -83,3 +89,12 @@ alerts-pulled-desc = Você está sendo puxado. Mova-se para se libertar.
 
 alerts-pulling-name = Puxar
 alerts-pulling-desc = Você está puxando alguma coisa. Clique no alerta para parar.
+
+alerts-bleed-name = [color=red]Sangra[/color]
+alerts-bleed-desc = Você está [color=red]Sangrando[/color].
+
+alerts-pacified-name = [color=green]Pacificou[/color]
+alerts-pacified-desc = Você está pacificado; você não será capaz de atacar ninguém diretamente.
+
+alerts-suit-power-name = Poder do traje
+alerts-suit-power-desc = Quanto poder seu traje ninja espacial tem.

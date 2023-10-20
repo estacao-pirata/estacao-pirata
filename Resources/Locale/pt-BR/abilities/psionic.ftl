@@ -25,9 +25,6 @@ accept-psionics-window-prompt-text-part = Você rolou um poder psiônico!
 action-name-psionic-invisibility = Invisibilidade Psiônica
 action-description-psionic-invisibility = Torne-se invisível para qualquer entidade que teria o potencial de se tornar psíquica. Borgs, bichos e assim por diante não são afetados.
 
-
-
-
 action-name-psionic-invisibility-off = Desligar Invisibilidade Psiônica
 action-description-psionic-invisibility-off = Volta à visibilidade e fica atordoado.
 
@@ -49,7 +46,7 @@ glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O n
 glimmer-event-awakened-prefix = acordado {$entity}
 
 noospheric-zap-seize = Você se convulsiona!
-noospheric-zap-seize-potential-regained = Você se convulsion! Some mental block seems to have cleared, too.
+noospheric-zap-seize-potential-regained = Você se convulsion! Algum bloqueio mental também parece ter sido eliminado..
 
 mindswap-trapped = Parece que você está preso neste vaso.
 

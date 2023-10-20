@@ -30,3 +30,6 @@ ent-CrateEngineeringMiniJetpack = Caixa de mini jetpack
 
 ent-CrateAirlockKit = Kit portas de câmaras de ar
     .desc = Um kit para contruir 6 portas de câmaras de ar, não inclui ferramentas.
+
+ent-CrateEvaKit = EVA kit
+    .desc = A set consisting of two prestigious EVA suits and helmets.

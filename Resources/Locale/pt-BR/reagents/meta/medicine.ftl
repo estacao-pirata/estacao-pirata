@@ -102,3 +102,6 @@ reagent-desc-diphenylmethylamine = Um medicamento mais estável do que a etiloxi
 
 reagent-name-sigynate = siginato
 reagent-desc-sigynate = Um xarope rosa grosso útil para neutralizar ácidos e cicatrizar regiões corroídas por ácidos. Tem sabor doce!
+
+reagent-name-saline = soro fisiológico
+reagent-desc-saline = Uma mistura de sal e água. Comumente usado para tratar a desidratação ou baixa presença de fluido no sangue.

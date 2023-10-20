@@ -20,14 +20,14 @@ random-sentience-event-strength-8 = IA
 
 station-event-random-sentience-announcement = Baseado em { $data }, nós acreditamos que alguns seres { $amount ->
     [1] { $kind1 }
-    [2] { $kind1 } and { $kind2 }
-    [3] { $kind1 }, { $kind2 }, and { $kind3 }
+    [2] { $kind1 } e { $kind2 }
+    [3] { $kind1 }, { $kind2 }, e { $kind3 }
     *[other] { $kind1 }, { $kind2 }, { $kind3 }, etc.
 } da estação desenvolveram um nível de inteligência { $strength }, e a habilidade de se comunicar.
 
 ## Ghost role description
 
-station-event-random-sentience-role-description = Você é um { $name } senciente, trazido à vida através da alta quantidade de vislumbre.
+station-event-random-sentience-role-description = Você é um { $name } senciente, trazido à vida através da magia espacial.
 
 # Flavors
 station-event-random-sentience-flavor-mechanical = mecânico

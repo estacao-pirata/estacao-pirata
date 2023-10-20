@@ -16,4 +16,4 @@ chat-radio-syndicate = Sindicato
 chat-radio-binary = Binário
 
 # not headset but whatever
-chat-radio-handheld = Rádio Portátil
+chat-radio-handheld = Portátil

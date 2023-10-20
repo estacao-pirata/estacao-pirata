@@ -10,3 +10,4 @@ species-name-arachne = Aracne
 species-name-diona = Diona
 species-name-moth = Mariposa
 species-name-arachnid = Arachnid
+species-name-vulpkanin = Vulpkanin

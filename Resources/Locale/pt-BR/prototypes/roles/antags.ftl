@@ -22,9 +22,6 @@ roles-antag-nuclear-operative-agent-objective = Como operacional padrão, o trat
 roles-antag-nuclear-operative-name = Operativo nuclear
 roles-antag-nuclear-operative-objective = Encontre o disco nuclear e exploda a estação.
 
-roles-antag-space-ninja-name = Ninja Espacial
-roles-antag-space-ninja-objective = Seja imperceptível como a sombra do gavião sob o lusco fusco mergulhando sobre a presa.
-
 roles-antag-fugitive-name = Fugitivo
 roles-antag-fugitive-description = Sobrevia. Escape.
 

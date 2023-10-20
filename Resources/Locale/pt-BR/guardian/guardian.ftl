@@ -6,6 +6,7 @@ guardian-already-present-invalid-creation = Você NÃO está revivendo aquela ex
 guardian-no-actions-invalid-creation = Você não tem a habilidade de hospedar um guardião!
 guardian-activator-empty-invalid-creation = O injetor está gasto.
 guardian-activator-empty-examine = [color=#ba1919]O injetor está gasto.[/color]
+# TODO: Change this once other species can inject it?
 guardian-activator-invalid-target = Apenas humanos podem ser injetados! # Change this once other species can inject it?
 guardian-no-soul = Seu guardião não tem alma.
 guardian-available = Seu guardião agora tem uma alma.

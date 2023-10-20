@@ -23,7 +23,7 @@ signal-port-name-close = Fechar
 signal-port-description-close = Fecha um dispositivo.
 
 signal-port-name-doorbolt = Travar porta
-signal-port-description-doorbolt = Alterna a trava da porta.
+signal-port-description-doorbolt = Trava a porta quando ALTO.
 
 signal-port-name-trigger = Acionar
 signal-port-description-trigger = Aciona algum mecânismo no dispositivo.

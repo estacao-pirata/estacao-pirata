@@ -6,6 +6,6 @@ examine-system-cant-see-entity = Você não consegue reconhecer o que quer que s
 
 examine-verb-name = Básico
 
-examinable-anchored = Isto está fixado ao chão
+examinable-anchored = Isto está [color=darkgreen]fixado[/color] ao chão
 
-examinable-unanchored = Isto foi desafixado do chão
+examinable-unanchored = Isto foi [color=darkred]desafixado[/color] do chão

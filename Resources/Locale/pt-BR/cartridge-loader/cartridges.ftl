@@ -7,3 +7,4 @@ net-probe-label-name = Nome
 net-probe-label-address = Endereço
 net-probe-label-frequency = Frequência
 net-probe-label-network = Rede
+

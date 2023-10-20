@@ -43,6 +43,7 @@ flavor-base-cheap = barato
 flavor-base-piquant = picante
 flavor-base-sharp = intenso
 flavor-base-syrupy = xaroposo
+flavor-base-spaceshroom = misterioso
 
 # lmao
 flavor-base-terrible = terrível
@@ -105,10 +106,11 @@ flavor-complex-watermelon = de melancia
 flavor-complex-nuggie = de "frango"
 flavor-complex-garlic = de alho
 flavor-complex-grape = de uva
+flavor-complex-berry = de bagas
 flavor-complex-meatballs = de almôndegas
 flavor-complex-nettles = de urtigas
 flavor-complex-jungle = de selva
-flavor-complex-vegetables = como vegetais
+flavor-complex-vegetables = de vegetais
 # use it when there multiple types of veggies
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
@@ -146,6 +148,10 @@ flavor-complex-chaos = de o caos
 flavor-complex-squirming = de se contorcer
 flavor-complex-electrons = de elétrons
 flavor-complex-parents = de os pais de alguém
+flavor-complex-plastic = de plástico
+flavor-complex-glue = de cola
+flavor-complex-spaceshroom = como umami espacial
+flavor-complex-lost-friendship = como amizade perdida
 
 # Drink-specific flavors.
 
@@ -167,11 +173,12 @@ flavor-complex-rum = de açucar fermentado
 flavor-complex-coffee-liquor = de forte e amargo café
 flavor-complex-whiskey = de whisky
 flavor-complex-shitty-wine = de cascas de uva
+flavor-complex-champagne = como pão bem fresco
 flavor-complex-iced-tea = de chá gelado
 flavor-complex-coffee = de café
 flavor-complex-milk = de leite
 flavor-complex-tea = de chá
-flavor-complex-ice = de água congelada
+flavor-complex-ice = de gelo
 
 ## Cocktails
 flavor-complex-long-island = suspeitosamente de chá gelado
@@ -195,6 +202,8 @@ flavor-complex-screwdriver = de suco de laranja drogado
 flavor-complex-themartinez = como violetas e limão vodka
 flavor-complex-antifreeze = quente
 flavor-complex-cogchamp = como bronze
+flavor-complex-white-gilgamesh = como creme levemente adocicado
+flavor-complex-antifreeze = quente
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 flavor-complex-pilk = de leite doce

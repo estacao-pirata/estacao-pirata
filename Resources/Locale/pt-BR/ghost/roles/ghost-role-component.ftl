@@ -114,6 +114,7 @@ ghost-role-information-ifrit-description = Ouça seu dono. Não danifique o tanq
 
 ghost-role-information-space-dragon-name = Space dragon
 ghost-role-information-space-dragon-description = Chame 3 rifts de carpas e domine esse quadrante! Você tem apenas 5 minutos entre cada fenda antes de desaparecer.
+ghost-role-information-space-dragon-dungeon-description = Defenda a masmorra da expedição com seus companheiros escamosos!
 
 ghost-role-information-cluwne-name = Cluwne
 ghost-role-information-cluwne-description = Torne-se um cluwne lamentável, seu único objetivo na vida é encontrar uma doce libertação de seu sofrimento (geralmente sendo espancado até a morte). Um cluwne não é um antagonista, mas pode se defender. Tripulantes podem matar cluwnes livremente.

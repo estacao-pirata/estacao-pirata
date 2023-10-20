@@ -19,3 +19,21 @@ trait-muted-desc = Você não pode falar
 
 trait-paracusia-name = Paracusia
 trait-paracusia-desc = Você ouve sons que não estão realmente ali
+
+trait-uncloneable-name = Não clonável
+trait-uncloneable-desc = Não pode ser clonado
+
+trait-pirate-accent-name = Sotaque Pirata (em inglês)
+trait-pirate-accent-desc = Não podes parar de falar como um pirata!
+
+trait-archaic-accent-name = Sotaque Arcaico (em inglês)
+trait-archaic-accent-desc = Você fala de uma maneira que os outros consideram antiquada
+
+trait-accentless-name = Sem sotaque
+trait-accentless-desc = Você não tem o sotaque que sua espécie normalmente teria
+
+trait-wheelchair-bound-name = Presa à cadeira de rodas
+trait-wheelchair-bound-desc = Você não pode se mover sem sua cadeira de rodas. Cadeira de rodas incluída.
+
+trait-frontal-lisp-name = Ceceio Frontal
+trait-frontal-lisp-desc = Você fala com um thetheio

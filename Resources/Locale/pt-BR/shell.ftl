@@ -42,3 +42,6 @@ shell-argument-number-must-be-between = Argumento {$index} precisa ser um numero
 shell-argument-station-id-invalid = Argumento {$index} precisa ser um id de estação válido!
 shell-argument-map-id-invalid = Argumento {$index} precisa ser um id de mapa válido!
 shell-argument-number-invalid = Argumento {$index} precisa ser um numero válido!
+
+# Hints
+shell-argument-username-hint = <nome de usuário>
