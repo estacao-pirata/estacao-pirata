@@ -13,7 +13,7 @@ ent-CrateArmoryLaser = Caixa de Lasers
 ent-CrateArmoryPistols = Caixa de Pistolas
     .desc = Contains duas duas pistolas padrão NT com quatro pentes. Requer acesso Armory para abrir.
 
-ent-CrateArmoryGrand = CAixa de Rifles
+ent-CrateArmoryGrand = Caixa de Rifles
     .desc = Contém dois Rifles Mark 1 e uma caixa de speed-loaders. Requer acesso Armory para abrir.
 
 ent-CrateArmoryUniversal = Caixa Universal

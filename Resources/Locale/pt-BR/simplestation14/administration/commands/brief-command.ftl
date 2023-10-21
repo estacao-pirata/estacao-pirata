@@ -1,4 +1,4 @@
-brief-command-arg-outfit = Outfit
-brief-command-arg-name = Name
+brief-command-arg-outfit = Roupa
+brief-command-arg-name = Nome
 brief-command-arg-species = Entity Prototype
-brief-command-arg-force = Force
+brief-command-arg-force = Força

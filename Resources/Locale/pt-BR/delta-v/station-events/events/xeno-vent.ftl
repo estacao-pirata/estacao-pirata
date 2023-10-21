@@ -1,1 +1,1 @@
-station-event-xeno-vent-start-announcement = Confirmed sightings of hostile alien wildlife on the station. Personnel are advised to arm themselves, barricade doors, and defend themselves if necessary. Security is advised to eradicate the threat as soon as possible.
+station-event-xeno-vent-start-announcement = Avistamentos confirmados de vida selvagem alienígena hostil na estação. O pessoal é aconselhado a se armar, fazer barricadas nas portas e se defender, se necessário. A segurança é aconselhada a erradicar a ameaça o mais rápido possível.

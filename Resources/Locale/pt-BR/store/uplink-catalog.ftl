@@ -3,7 +3,7 @@ uplink-pistol-viper-name = Viper
 uplink-pistol-viper-desc = Uma arma pequena, facilmente ocultável, mas um tanto fraca. Equipado com um receptor totalmente automático. Use carregadores de pistola (.35 auto).
 
 uplink-revolver-python-name = Python
-uplink-revolver-python-desc = Um revólver brutalmente simples, eficaz e alto do Syndicate. Vem carregado com balas perfurantes. Usa cartuchos .45 magnum.
+uplink-revolver-python-desc = Um revólver barulhento e mortal. Usa .45 magnum.
 
 uplink-pistol-cobra-name = Cobra
 uplink-pistol-cobra-desc = Uma pistola robusta com silenciador embutido. Use carregadores de pistola (.25 sem estojo).
@@ -136,8 +136,8 @@ uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para
 uplink-radio-jammer-name = Bloqueador de rádio
 uplink-radio-jammer-desc = Este dispositivo interromperá qualquer comunicação de rádio de saída próxima quando ativado.
 
-uplink-borg-beacon-name = Syndicate Assault Robot beacon
-uplink-borg-beacon-desc = A beacon that can be used to call in a syndicate assault borg. It is equipped with a grenade launcher, energy sword, emag, LMG and a pinpointer.
+uplink-borg-beacon-name = Sinal para um robô de Assalto dp Sindicato
+uplink-borg-beacon-desc = Um sinal que pode ser usado para chamar um borg de assalto do sindicato. É equipado com lançador de granadas, espada de energia, emag, LMG e pinpointer.
 
 # Implants
 uplink-storage-implanter-name = Implanter de Armazenamento
@@ -313,9 +313,6 @@ uplink-syndicate-sponge-box-desc = Uma caixa contendo 6 esponjas sindicais disfa
 
 uplink-nocturine-gland-injector-name = Nocturine Injector Gland
 uplink-nocturine-gland-injector-desc = Makes your fangs inject nocturine whenever you suck blood.
-
-uplink-syndicate-sponge-box-name = Syndicate Sponge Box
-uplink-syndicate-sponge-box-desc = A box containing 6 syndicate sponges disguised as monkey cubes, these cubes turn into a variety of angry wildlife after coming into contact with water.
 
 # Pointless
 uplink-revolver-cap-gun-name = Cap Gun
