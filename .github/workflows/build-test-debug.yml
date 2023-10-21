@@ -5,19 +5,12 @@ on:
     branches: [ master, staging, trying, merge_master, pirata, changeling, nyanopirata, parkpirata ]
   merge_group:
   pull_request:
+    types: [ opened, reopened, synchronize, ready_for_review ]
     branches: [ master ]
-    paths:
-      - '**.cs'
-      - '**.csproj'
-      - '**.sln'
-      - '**.git**'
-      - '**.yml'
-      - 'RobustToolbox'
-      - 'RobustToolbox/**'
 
 jobs:
   build:
-    if: github.actor != 'Nyanotrasen-Changelog'
+    if: github.actor != 'DeltaV-Bot' && github.event.pull_request.draft == false
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
