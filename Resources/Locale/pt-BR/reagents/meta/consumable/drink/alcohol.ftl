@@ -252,3 +252,24 @@ reagent-desc-white-russian = Isso é só, tipo, a sua opinião, cara...
 
 reagent-name-caipirinha = caipirinha
 reagent-desc-caipirinha = Pra assistir um jogo de futebol.
+
+
+## Velta o.o
+
+reagent-name-gunmetal = gunmetal
+reagent-desc-gunmetal = A controversial drink created by the infamous Solus Cream, the first bartender to serve welding fuel without losing their liquor license.
+
+reagent-name-lemondrop = lemon drop
+reagent-desc-lemondrop = A simple, tangy, and tasty drink consisting of lemon, vodka, and simple syrup. Refreshing!
+
+reagent-name-greengrass = green grass
+reagent-desc-greengrass = Green grass, or grüne wiese, is a peculiar green cocktail hailing from the now dissolved GDR. Popular amongst the disillusioned and ingenuous alike.
+
+reagent-name-daiquiri = classic daiquiri
+reagent-desc-daiquiri = A sweet rum and lime mix, a favourite of writers and politicians.
+
+reagent-name-arsonistsbrew = arsonist's brew
+reagent-desc-arsonistsbrew = Take a sip and laugh, while you watch your world burn.
+
+reagent-name-dulleavene = dulleavene
+reagent-desc-dulleavene = Allegedly it's a cocktail. The warning cone motif seems apt.

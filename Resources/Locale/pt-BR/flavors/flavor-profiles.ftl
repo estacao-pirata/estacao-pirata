@@ -237,3 +237,11 @@ flavor-complex-sapopicante = como tomates e especiarias
 flavor-complex-graveyard = como uma bebida gelada forte
 flavor-complex-bubbletea = como doçura cremosa
 flavor-complex-corncob = como uma piada doentia
+
+## Velta o.o
+flavor-complex-gunmetal = agridoce e cremoso
+flavor-complex-lemondrop = refrescantemente azedo
+flavor-complex-greengrass = como um feriado no sol
+flavor-complex-daiquiri = estiloso
+flavor-complex-arsonistsbrew = como cinza e chamas
+flavor-complex-dulleavene = sinistro

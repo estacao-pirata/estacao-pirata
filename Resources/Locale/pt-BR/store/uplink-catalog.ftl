@@ -136,6 +136,9 @@ uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para
 uplink-radio-jammer-name = Bloqueador de rádio
 uplink-radio-jammer-desc = Este dispositivo interromperá qualquer comunicação de rádio de saída próxima quando ativado.
 
+uplink-borg-beacon-name = Syndicate Assault Robot beacon
+uplink-borg-beacon-desc = A beacon that can be used to call in a syndicate assault borg. It is equipped with a grenade launcher, energy sword, emag, LMG and a pinpointer.
+
 # Implants
 uplink-storage-implanter-name = Implanter de Armazenamento
 uplink-storage-implanter-desc = Esconda as paradas dentro de si com a nova tecnologia bluespace!
@@ -307,6 +310,12 @@ uplink-syndicate-segway-crate-desc = Seja um inimigo da corporação, com estilo
 
 uplink-syndicate-sponge-box-name = Caixa de Esponjas do Sindicato
 uplink-syndicate-sponge-box-desc = Uma caixa contendo 6 esponjas sindicais disfarçadas de cubos de macaco, esses cubos se transformam em uma variedade de vida selvagem raivosa depois de entrar em contato com a água.
+
+uplink-nocturine-gland-injector-name = Nocturine Injector Gland
+uplink-nocturine-gland-injector-desc = Makes your fangs inject nocturine whenever you suck blood.
+
+uplink-syndicate-sponge-box-name = Syndicate Sponge Box
+uplink-syndicate-sponge-box-desc = A box containing 6 syndicate sponges disguised as monkey cubes, these cubes turn into a variety of angry wildlife after coming into contact with water.
 
 # Pointless
 uplink-revolver-cap-gun-name = Cap Gun
