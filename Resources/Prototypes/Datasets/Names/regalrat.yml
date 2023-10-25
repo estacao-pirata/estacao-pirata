@@ -1,39 +1,33 @@
 - type: dataset
   id: RegalRatNameKingdom
   values:
-  - Plague
-  - Miasma
-  - Maintenance
-  - Trash
-  - Garbage
-  - Rat
-  - Vermin
-  - Cheese
-  - Munching
-  - Big
-  - Filth
-  - Sewer
-  - Disposal
-  - Service
-  - The
+    - Rei
+    - Lord
+    - Príncipe
+    - Imperador
+    - Supremo
+    - Soberano
+    - Mestre
+    - Shogun
+    - Tsar
+    - Apreciador
+    - Presidente
+    - Prefeito
+    - Chefe
+    - Profeta
 
 - type: dataset
   id: RegalRatNameTitle
   values:
-  - King
-  - Lord
-  - Prince
-  - Emperor
-  - Supreme
-  - Overlord
-  - Master
-  - Shogun
-  - Bojar
-  - Tsar
-  - Fan #vs
-  - Enjoyer
-  - President
-  - Mayor
-  - Boss
-  - Prophet
-  - Cheese
+    - Praga
+    - Miasma
+    - Manutenção
+    - Lixo
+    - Rato
+    - Verme
+    - Queijo
+    - Mastigador
+    - Sujeira
+    - Esgoto
+    - Bueiro
+    - Queijo
