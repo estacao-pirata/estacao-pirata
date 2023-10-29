@@ -1,0 +1,54 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPomni
+  name: Pomni suit
+  description: Se alegre! Você está preso em um circo digital.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata\Clothing\Uniforms\Jumpsuit\pomni.rsi
+  - type: Clothing
+    sprite: EstacaoPirata\Clothing\Uniforms\Jumpsuit\pomni.rsi
+
+- type: entity
+  parent: ClothingShoesClown
+  id: ClothingShoesPomni
+  name: Pomni shoes
+  description: Pise em frente sem olhar para trás! Tente aceitar a situação atual.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata\Clothing\Shoes\pomni.rsi
+  - type: Clothing
+    sprite: EstacaoPirata\Clothing\Shoes\pomni.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepJester
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingHeadMaskPomni
+  name: Pomni mask
+  description: Olhe ao redor e não enlouqueça! Tudo está tão surreal.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata\Clothing\Mask\Pomni
+  - type: Clothing
+    sprite: EstacaoPirata\Clothing\Mask\Pomni
+  - type: Tag
+    tags:
+    - ClownMask
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
+  id: ClothingHandsGlovesPomni
+  name: Pomni gloves
+  description: Abra todas as portas que der! Encontre uma saida desse caos digital.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata\Clothing\GLoves\pomni.rsi
+  - type: Clothing
+    sprite: EstacaoPirata\Clothing\GLoves\pomni.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberColor: fibers-red-and-blue
