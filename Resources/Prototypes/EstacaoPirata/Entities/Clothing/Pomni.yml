@@ -46,9 +46,9 @@
   description: Abra todas as portas que der! Encontre uma saida desse caos digital.
   components:
   - type: Sprite
-    sprite: EstacaoPirata/Clothing/Gloves/pomni.rsi
+    sprite: EstacaoPirata/Clothing/Hands/Gloves/pomni.rsi
   - type: Clothing
-    sprite: EstacaoPirata/Clothing/Gloves/pomni.rsi
+    sprite: EstacaoPirata/Clothing/Hands/Gloves/pomni.rsi
   - type: Insulated
   - type: Fiber
     fiberColor: fibers-red-and-blue
