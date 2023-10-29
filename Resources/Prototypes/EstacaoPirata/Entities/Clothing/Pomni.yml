@@ -5,9 +5,9 @@
   description: Se alegre! Você está preso em um circo digital.
   components:
   - type: Sprite
-    sprite: EstacaoPirata\Clothing\Uniforms\Jumpsuit\pomni.rsi
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/pomni.rsi
   - type: Clothing
-    sprite: EstacaoPirata\Clothing\Uniforms\Jumpsuit\pomni.rsi
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/pomni.rsi
 
 - type: entity
   parent: ClothingShoesClown
@@ -16,9 +16,9 @@
   description: Pise em frente sem olhar para trás! Tente aceitar a situação atual.
   components:
   - type: Sprite
-    sprite: EstacaoPirata\Clothing\Shoes\pomni.rsi
+    sprite: EstacaoPirata/Clothing/Shoes/pomni.rsi
   - type: Clothing
-    sprite: EstacaoPirata\Clothing\Shoes\pomni.rsi
+    sprite: EstacaoPirata/Clothing/Shoes/pomni.rsi
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepJester
@@ -30,9 +30,9 @@
   description: Olhe ao redor e não enlouqueça! Tudo está tão surreal.
   components:
   - type: Sprite
-    sprite: EstacaoPirata\Clothing\Mask\Pomni
+    sprite: EstacaoPirata/Clothing/Mask/pomni.rsi
   - type: Clothing
-    sprite: EstacaoPirata\Clothing\Mask\Pomni
+    sprite: EstacaoPirata/Clothing/Mask/pomni.rsi
   - type: Tag
     tags:
     - ClownMask
@@ -46,9 +46,9 @@
   description: Abra todas as portas que der! Encontre uma saida desse caos digital.
   components:
   - type: Sprite
-    sprite: EstacaoPirata\Clothing\GLoves\pomni.rsi
+    sprite: EstacaoPirata/Clothing/Gloves/pomni.rsi
   - type: Clothing
-    sprite: EstacaoPirata\Clothing\GLoves\pomni.rsi
+    sprite: EstacaoPirata/Clothing/Gloves/pomni.rsi
   - type: Insulated
   - type: Fiber
     fiberColor: fibers-red-and-blue
