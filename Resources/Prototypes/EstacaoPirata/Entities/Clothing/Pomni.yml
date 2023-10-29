@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPomni
-  name: Pomni suit
+  name:  Digital Jester
   description: Se alegre! Você está preso em um circo digital.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   parent: ClothingShoesClown
   id: ClothingShoesPomni
-  name: Pomni shoes
+  name: Digital shoes
   description: Pise em frente sem olhar para trás! Tente aceitar a situação atual.
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingHeadMaskPomni
-  name: Pomni mask
+  name: Digital mask
   description: Olhe ao redor e não enlouqueça! Tudo está tão surreal.
   components:
   - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesPomni
-  name: Pomni gloves
+  name: Digital gloves
   description: Abra todas as portas que der! Encontre uma saida desse caos digital.
   components:
   - type: Sprite
