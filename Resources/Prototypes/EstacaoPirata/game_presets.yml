@@ -1,0 +1,11 @@
+- type: gamePreset
+  id: BloodFamily
+  alias:
+    - bloodfamily
+    - bloodbrothers
+  name: blood-family-title
+  description: blood-family-description
+  showInVote: false
+  rules:
+    - BloodFamily
+    - BasicStationEventScheduler

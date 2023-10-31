@@ -1,0 +1,6 @@
+- type: entity
+  id: BloodFamily
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+    - type: BloodFamilyRule
