@@ -14,7 +14,8 @@ public sealed partial class BloodFamilyRuleComponent : Component
 {
     public readonly List<EntityUid> BloodFamilyMinds = new();
 
-    public readonly Dictionary<int, EntityUid> BloodFamilyTeams = new();
+    // Mind + team
+    public readonly Dictionary<EntityUid, int> BloodFamilyTeams = new();
 
     [DataField("bloodFamilyPrototypeId", customTypeSerializer: typeof(PrototypeIdSerializer<AntagPrototype>))]
     public string BloodFamilyPrototypeId = "BloodFamily";
@@ -58,6 +59,7 @@ public sealed partial class BloodFamilyRuleComponent : Component
         WaitingForSpawn = 0,
         ReadyToSelect = 1,
         SelectionMade = 2,
+        Error = 3,
     }
 
     public SelectionState SelectionStatus = SelectionState.WaitingForSpawn;

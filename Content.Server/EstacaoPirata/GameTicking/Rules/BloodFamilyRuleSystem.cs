@@ -46,6 +46,7 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
     [Dependency] private readonly SharedObjectivesSystem _objectivesSystem = default!;
     //[Dependency] private readonly SubdermalImplantSystem _subdermalImplantSystem = default!;
     [Dependency] private readonly AntagSelectionSystem _antagSelection = default!;
+    [Dependency] private readonly GameTicker _gameTicker = default!;
 
 
     public override void Initialize()
@@ -71,33 +72,25 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
     /// <param name="component"></param>
     private void DoBloodFamilyStart(BloodFamilyRuleComponent component)
     {
-        Log.Debug("DoBloodFamilyStart chamado");
         if (component.StartCandidates.Count < component.MinBloodFamily) // Setar os start candidates no OnPlayerJobsAssigned vulgo OnPlayerSpawn
         {
+            component.SelectionStatus = BloodFamilyRuleComponent.SelectionState.Error;
             Log.Error("Tried to start Blood Family mode without enough candidates.");
             return;
         }
-        //var numFamily = MathHelper.Clamp(component.StartCandidates.Count / component.PlayersPerFamilyMember, 1, component.MaxBloodFamily);
+
         var familyPool = FindPotentialFamilyMembers(component.StartCandidates, component);
 
-        // Se a quantidade de pessoas que colocaram como preferencia Blood Family na criacao de personagem for menor que a quantidade esperada de membros da familia
-        // seta a quantidade de membro esperados para a mesma de jogadores que escolheram ser membros da familia.
-        // if (numFamily > familyPool.Count)
-        //     numFamily = familyPool.Count;
+        if (familyPool.Count < component.MinBloodFamily)
+        {
+            component.SelectionStatus = BloodFamilyRuleComponent.SelectionState.Error;
+            Log.Error("Tried to start Blood Family mode without enough candidates.");
+            return;
+        }
 
         var numTeams = (int)Math.Ceiling((double)familyPool.Count / (double)component.MaxBloodFamily);
 
         var selectedFamily = PickFamilyMembers(familyPool, numTeams, component);
-
-        //var sessionAndMind = new Dictionary<IPlayerSession, (EntityUid, MindComponent, int)>();
-
-        // foreach (var player in selectedFamily)
-        // {
-        //     if (_mindSystem.TryGetMind(player, out var mindId, out var mindComponent))
-        //     {
-        //         sessionAndMind.Add(player, (mindId,mindComponent));
-        //     }
-        // }
 
         foreach (var player in selectedFamily)
         {
@@ -107,7 +100,7 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
         component.SelectionStatus = BloodFamilyRuleComponent.SelectionState.SelectionMade;
 
         // Adiciona objetivos dos membros da familia, isto é feito aqui porque é garantido que todos os membros já foram selecionados e garante
-        // sincronismo com os objetivos de cada jogador
+        // sincronia com os objetivos de cada jogador
         var allFamily = GetAllBloodFamilyMembersAliveAndConnected(component);
 
         foreach (var member in allFamily)
@@ -220,7 +213,7 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
     public Dictionary<IPlayerSession, (EntityUid, MindComponent, int)> PickFamilyMembers(List<IPlayerSession> prefList, int numberOfFamilies, BloodFamilyRuleComponent component)
     {
         var results = new Dictionary<IPlayerSession, (EntityUid, MindComponent, int)>();
-        if (prefList.Count == 0)
+        if (prefList.Count <= 1)
         {
             Log.Info("Insufficient ready players to fill up with blood family members, stopping the selection.");
             return results;
@@ -234,29 +227,72 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
             }
         }
 
+
+
         var familyPool = prefList.Count;
 
-        for (var i = 0; i < numberOfFamilies; i++)
+        var division = FindDivisionOfTeams(familyPool);
+
+        int index = 0;
+        foreach (var team in division)
         {
-            for (var j = 0; j < component.MaxBloodFamily; j++)
+            for (int i = 0; i < team; i++)
             {
                 var randomPlayer = _random.PickAndTake(prefList);
                 if (_mindSystem.TryGetMind(randomPlayer, out var mindId, out var mindComponent))
                 {
-                    familyPool -= 1;
-                    var newNumberOfFamilies = (int) Math.Ceiling((double) familyPool / (double) component.MaxBloodFamily);
-                    results.Add(randomPlayer,(mindId, mindComponent, numberOfFamilies-newNumberOfFamilies));
-
-                    Log.Info($"Selected a preferred blood family member for team {numberOfFamilies-newNumberOfFamilies}.");
-                    if ((newNumberOfFamilies < numberOfFamilies) && results.Count > 1)
-                    {
-                        Log.Info($"Team {numberOfFamilies-newNumberOfFamilies} closed.");
-                        break;
-                    }
+                    results.Add(randomPlayer,(mindId, mindComponent, index));
+                    Log.Info($"Selected a {mindComponent.CharacterName} for team {index}.");
                 }
             }
+            Log.Info($"Team {index} closed.");
+            index++;
         }
+
+        // for (var i = 0; i < numberOfFamilies; i++)
+        // {
+        //     for (var j = 0; j < component.MaxBloodFamily; j++)
+        //     {
+        //         // Colocar IF se randomPlayer nao foi usado, colocar index J com valor 0 (ou valor antes do ultimo loop sei la)
+        //         var randomPlayer = _random.PickAndTake(prefList);
+        //         if (_mindSystem.TryGetMind(randomPlayer, out var mindId, out var mindComponent))
+        //         {
+        //             var newNumberOfFamilies = (int) Math.Ceiling((double) familyPool / (double) component.MaxBloodFamily);
+        //             familyPool -= 1;
+        //             results.Add(randomPlayer,(mindId, mindComponent, numberOfFamilies-newNumberOfFamilies));
+        //
+        //             Log.Info($"Selected a preferred blood family member for team {numberOfFamilies-newNumberOfFamilies}.");
+        //             if ((newNumberOfFamilies < numberOfFamilies) && results.Count > 1)
+        //             {
+        //                 Log.Info($"Team {numberOfFamilies-newNumberOfFamilies} closed.");
+        //                 break;
+        //             }
+        //         }
+        //     }
+        // }
         return results;
+    }
+
+    // TODO: fazer isso funcionar pra qualquer numero maximo de jogadores por time
+    private List<int> FindDivisionOfTeams(int numPlayers)
+    {
+        var times = new List<int>();
+
+        while (numPlayers > 0)
+        {
+            if (numPlayers >= 3 && numPlayers != 3 + 1)
+            {
+                times.Add(3);
+                numPlayers -= 3;
+            }
+            else
+            {
+                times.Add(2);
+                numPlayers -= 2;
+            }
+        }
+
+        return times;
     }
 
     public bool MakeBloodFamiliar(KeyValuePair<IPlayerSession, (EntityUid, MindComponent,int)> playerMindAndTeam)
@@ -279,7 +315,8 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
         });
 
         bloodFamilyRuleEntity.BloodFamilyMinds.Add(playerMindAndTeam.Value.Item1);
-        bloodFamilyRuleEntity.BloodFamilyTeams.Add(playerMindAndTeam.Value.Item3 ,playerMindAndTeam.Value.Item1);
+        bloodFamilyRuleEntity.BloodFamilyTeams.Add(playerMindAndTeam.Value.Item1, playerMindAndTeam.Value.Item3);
+        Log.Debug($"{playerMindAndTeam.Value.Item2.CharacterName}({playerMindAndTeam.Value.Item1}) adicionado a lista de familiares no time {playerMindAndTeam.Value.Item3}");
 
         if (_mindSystem.TryGetSession(playerMindAndTeam.Value.Item1, out var session))
         {
@@ -372,12 +409,12 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
         _antagSelection.GiveAntagBagGear(uid, "EncryptionKeySyndie");
     }
 
-    public List<(EntityUid Id, MindComponent Mind)> GetOtherBloodFamilyMindsAliveAndConnected(MindComponent ourMind)
+    public List<(EntityUid Id, MindComponent Mind)> GetOtherBloodFamilyMindsAliveAndConnectedSameTeam(MindComponent ourMind)
     {
         List<(EntityUid Id, MindComponent Mind)> allTraitors = new();
         foreach (var traitor in EntityQuery<BloodFamilyRuleComponent>())
         {
-            foreach (var role in GetOtherBloodFamilyMindsAliveAndConnected(ourMind, traitor))
+            foreach (var role in GetOtherBloodFamilyMindsAliveAndConnectedSameTeam(ourMind, traitor))
             {
                 if (!allTraitors.Contains(role))
                     allTraitors.Add(role);
@@ -386,6 +423,65 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
 
         return allTraitors;
     }
+
+    private List<(EntityUid Id, MindComponent Mind)> GetOtherBloodFamilyMindsAliveAndConnectedSameTeam(MindComponent ourMind, BloodFamilyRuleComponent component)
+    {
+        if (ourMind.CurrentEntity == null)
+            return new List<(EntityUid Id, MindComponent Mind)>();
+
+        var allPlayers = GetAllBloodFamilyMembersAliveAndConnected(component);
+
+        var find = allPlayers.Find(n=>n.Mind.UserId == ourMind.UserId);
+
+        // Log.Debug($"ourMind({ourMind.CharacterName}): currentEntity:{ourMind.CurrentEntity} ownedEntity:{ourMind.OwnedEntity}");
+        //
+        // foreach (var person in component.BloodFamilyTeams)
+        // {
+        //     Log.Debug($"{person.Key} do time {person.Value}");
+        // }
+
+        var ourMindAndTeam = component.BloodFamilyTeams.Where(n=>n.Key == find.Id);
+        var ourMindAndTeamReal = ourMindAndTeam.FirstOrDefault();
+
+        var ourTeam = ourMindAndTeamReal.Value;
+
+        var traitors = new List<(EntityUid Id, MindComponent Mind)>();
+        foreach (var traitor in component.BloodFamilyTeams)
+        {
+            if(traitor.Value != ourTeam)
+                continue;
+
+            if (TryComp(traitor.Key, out MindComponent? mind) &&
+                mind.OwnedEntity != null &&
+                mind.Session != null &&
+                mind != ourMind &&
+                _mobStateSystem.IsAlive(mind.OwnedEntity.Value) &&
+                mind.CurrentEntity == mind.OwnedEntity)
+            {
+                traitors.Add((traitor.Key, mind));
+            }
+        }
+
+        return traitors;
+    }
+
+    // private List<(EntityUid Id, MindComponent Mind)> GetAllBloodFamilyMindsAliveAndConnectedSameTeam(MindComponent ourMind, BloodFamilyRuleComponent component)
+    // {
+    //     var traitors = new List<(EntityUid Id, MindComponent Mind)>();
+    //     foreach (var traitor in component.BloodFamilyMinds)
+    //     {
+    //         if (TryComp(traitor, out MindComponent? mind) &&
+    //             mind.OwnedEntity != null &&
+    //             mind.Session != null &&
+    //             _mobStateSystem.IsAlive(mind.OwnedEntity.Value) &&
+    //             mind.CurrentEntity == mind.OwnedEntity)
+    //         {
+    //             traitors.Add((traitor, mind));
+    //         }
+    //     }
+    //
+    //     return traitors;
+    // }
 
     private List<(EntityUid Id, MindComponent Mind)> GetOtherBloodFamilyMindsAliveAndConnected(MindComponent ourMind, BloodFamilyRuleComponent component)
     {
@@ -426,6 +522,7 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
 
     private void OnObjectivesTextGetInfo(EntityUid uid, BloodFamilyRuleComponent component, ref ObjectivesTextGetInfoEvent args)
     {
+        // TODO: nomes de familias, deixar melhor este texto "Havia 4 membro da Familias"
         args.Minds = component.BloodFamilyMinds;
         args.AgentName = Loc.GetString("blood-family-round-end-agent-name");
     }
@@ -440,7 +537,7 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
         if (!_mindSystem.TryGetSession(mind, out var session))
             return;
 
-        var family = GetOtherBloodFamilyMindsAliveAndConnected(ourMind);
+        var family = GetOtherBloodFamilyMindsAliveAndConnectedSameTeam(ourMind);
 
         var targetsNames = new StringBuilder("");
         int index = 0;

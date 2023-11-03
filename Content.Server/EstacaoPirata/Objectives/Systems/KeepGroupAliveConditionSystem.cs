@@ -36,7 +36,7 @@ public sealed class KeepGroupAliveConditionSystem : EntitySystem
             return;
         }
 
-        var family = Enumerable.ToList<(EntityUid Id, MindComponent Mind)>(_bloodFamilyRule.GetOtherBloodFamilyMindsAliveAndConnected(args.Mind));
+        var family = Enumerable.ToList<(EntityUid Id, MindComponent Mind)>(_bloodFamilyRule.GetOtherBloodFamilyMindsAliveAndConnectedSameTeam(args.Mind));
 
         // You are the first/only family member.
         if (family.Count == 0)

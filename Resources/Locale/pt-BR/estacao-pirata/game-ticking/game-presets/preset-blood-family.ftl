@@ -6,10 +6,10 @@ blood-family-role-greeting =
     Morte a Nanotrasen!
 
 
-blood-family-round-end-agent-name = membro da Família
+blood-family-round-end-agent-name = membro de Família
 
 blood-family-not-enough-ready-players = Faltou mais jogadores prontos para a partida! Haviam {$readyPlayersCount} jogadores prontos de {$minimumPlayers} necessários. Impossível iniciar modo família de sangue.
 blood-family-no-one-ready = Nenhum jogador deu "pronto"! Impossível iniciar modo família de sangue.
 
 blood-family-title = Família de Sangue
-blood-family-description = Uma família de traidores que fará de tudo para cumprir seus objetivos.
+blood-family-description = Famílias de traidores que farão de tudo para cumprir seus objetivos.

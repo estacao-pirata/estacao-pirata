@@ -6,6 +6,7 @@
   name: blood-family-title
   description: blood-family-description
   showInVote: false
+  minPlayers: 2
   rules:
     - BloodFamily
     - Traitor

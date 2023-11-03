@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Server.EstacaoPirata.GameTicking.Rules;
 using Content.Server.EstacaoPirata.GameTicking.Rules.Components;
 using Content.Server.EstacaoPirata.Objectives.Components;
 using Content.Server.Objectives.Components;
@@ -23,6 +24,7 @@ public sealed class KillPersonConditionSystem : EntitySystem
     [Dependency] private readonly SharedJobSystem _job = default!;
     [Dependency] private readonly SharedMindSystem _mind = default!;
     [Dependency] private readonly TargetObjectiveSystem _target = default!;
+    [Dependency] private readonly BloodFamilyRuleSystem _bloodFamilyRule = default!;
 
     public override void Initialize()
     {
@@ -85,6 +87,7 @@ public sealed class KillPersonConditionSystem : EntitySystem
 
 
         var allHumans = _mind.GetAliveHumansExcept(args.MindId);
+        var thisHuman = args.MindId;
 
         // no other humans to kill
         if (allHumans.Count == 0)
@@ -101,11 +104,22 @@ public sealed class KillPersonConditionSystem : EntitySystem
             return;
         }
 
-        Log.Warning($"Quantidade de familiares: {family.BloodFamilyMinds.Count}");
-        foreach (var player in family.BloodFamilyMinds)
+        var otherTeamMembers = Enumerable.ToList<(EntityUid Id, MindComponent Mind)>(_bloodFamilyRule.GetOtherBloodFamilyMindsAliveAndConnectedSameTeam(args.Mind));
+
+        if (otherTeamMembers.Count == 0)
         {
-            Log.Warning($"Familiar: {player}");
-            allHumans.Remove(player);
+            args.Cancelled = true;
+            return;
+        }
+
+        // var thisHumanMind = family.BloodFamilyTeams.Where(n=>n.Key == thisHuman);
+        // var thisHumanMindReal = thisHumanMind.FirstOrDefault();
+
+        foreach (var player in otherTeamMembers)
+        {
+
+            Log.Warning($"Familiar: {player.Mind.CharacterName} removido do pool de objetivos kill seu time");
+            allHumans.Remove(player.Id);
         }
 
         if (allHumans.Count <= 0)
@@ -167,6 +181,7 @@ public sealed class KillPersonConditionSystem : EntitySystem
 
 
         var allHumans = _mind.GetAliveHumansExcept(args.MindId);
+        var thisHuman = args.MindId;
 
         // no other humans to kill
         if (allHumans.Count == 0)
@@ -183,11 +198,19 @@ public sealed class KillPersonConditionSystem : EntitySystem
             return;
         }
 
-        Log.Warning($"Quantidade de familiares: {family.BloodFamilyMinds.Count}");
-        foreach (var player in family.BloodFamilyMinds)
+        var otherTeamMembers = Enumerable.ToList<(EntityUid Id, MindComponent Mind)>(_bloodFamilyRule.GetOtherBloodFamilyMindsAliveAndConnectedSameTeam(args.Mind));
+
+        if (otherTeamMembers.Count == 0)
         {
-            Log.Warning($"Familiar: {player}");
-            allHumans.Remove(player);
+            args.Cancelled = true;
+            return;
+        }
+
+        foreach (var player in otherTeamMembers)
+        {
+
+            Log.Warning($"Familiar: {player.Mind.CharacterName} removido do pool de objetivos kill seu time");
+            allHumans.Remove(player.Id);
         }
 
         var allHeads = new List<EntityUid>();
