@@ -41,7 +41,6 @@ public sealed class KeepGroupAliveConditionSystem : EntitySystem
         // You are the first/only family member.
         if (family.Count == 0)
         {
-            Log.Warning("VOCE E O PRIMEIRO FAMILY MEMBER");
             args.Cancelled = true;
             return;
         }
