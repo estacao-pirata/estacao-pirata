@@ -2,7 +2,13 @@
   id: JobBlueshield
 
 - type: playTimeTracker
+  id: JobCidadao
+
+- type: playTimeTracker
   id: JobComerciante
+
+- type: playTimeTracker
+  id: JobPolicia
 
 - type: playTimeTracker
   id: JobSoldado
