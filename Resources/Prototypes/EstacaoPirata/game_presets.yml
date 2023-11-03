@@ -8,4 +8,5 @@
   showInVote: false
   rules:
     - BloodFamily
+    - Traitor
     - BasicStationEventScheduler

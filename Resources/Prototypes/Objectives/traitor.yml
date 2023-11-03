@@ -9,6 +9,7 @@
     roles:
       components:
       - TraitorRole
+      - BloodFamilyRole
 
 - type: entity
   abstract: true

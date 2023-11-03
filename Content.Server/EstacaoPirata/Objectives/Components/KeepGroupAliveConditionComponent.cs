@@ -6,7 +6,7 @@ namespace Content.Server.EstacaoPirata.Objectives.Components;
 /// This is used for...
 /// </summary>
 [RegisterComponent, Access(typeof(KeepGroupAliveConditionSystem))]
-public sealed partial class FamilyAliveComponent : Component
+public sealed partial class KeepGroupAliveConditionComponent : Component
 {
 
 }

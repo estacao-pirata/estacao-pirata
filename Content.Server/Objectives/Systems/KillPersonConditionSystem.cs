@@ -1,3 +1,6 @@
+using System.Linq;
+using Content.Server.EstacaoPirata.GameTicking.Rules.Components;
+using Content.Server.EstacaoPirata.Objectives.Components;
 using Content.Server.Objectives.Components;
 using Content.Server.Shuttles.Systems;
 using Content.Shared.CCVar;
@@ -30,8 +33,11 @@ public sealed class KillPersonConditionSystem : EntitySystem
         SubscribeLocalEvent<PickRandomPersonComponent, ObjectiveAssignedEvent>(OnPersonAssigned);
 
         SubscribeLocalEvent<PickRandomHeadComponent, ObjectiveAssignedEvent>(OnHeadAssigned);
-    }
 
+        SubscribeLocalEvent<PickRandomPersonFamilyComponent, ObjectiveAssignedEvent>(OnPersonFamilyAssigned);
+
+        SubscribeLocalEvent<PickRandomHeadFamilyComponent, ObjectiveAssignedEvent>(OnHeadFamilyAssigned);
+    }
     private void OnGetProgress(EntityUid uid, KillPersonConditionComponent comp, ref ObjectiveGetProgressEvent args)
     {
         if (!_target.GetTarget(uid, out var target))
@@ -56,6 +62,53 @@ public sealed class KillPersonConditionSystem : EntitySystem
         // no other humans to kill
         var allHumans = _mind.GetAliveHumansExcept(args.MindId);
         if (allHumans.Count == 0)
+        {
+            args.Cancelled = true;
+            return;
+        }
+
+        _target.SetTarget(uid, _random.Pick(allHumans), target);
+    }
+
+    private void OnPersonFamilyAssigned(EntityUid uid, PickRandomPersonFamilyComponent component, ref ObjectiveAssignedEvent args)
+    {
+        // invalid objective prototype
+        if (!TryComp<TargetObjectiveComponent>(uid, out var target))
+        {
+            args.Cancelled = true;
+            return;
+        }
+
+        // target already assigned
+        if (target.Target != null)
+            return;
+
+
+        var allHumans = _mind.GetAliveHumansExcept(args.MindId);
+
+        // no other humans to kill
+        if (allHumans.Count == 0)
+        {
+            args.Cancelled = true;
+            return;
+        }
+
+        var family = EntityQuery<BloodFamilyRuleComponent>().FirstOrDefault();
+
+        if (family == null)
+        {
+            args.Cancelled = true;
+            return;
+        }
+
+        Log.Warning($"Quantidade de familiares: {family.BloodFamilyMinds.Count}");
+        foreach (var player in family.BloodFamilyMinds)
+        {
+            Log.Warning($"Familiar: {player}");
+            allHumans.Remove(player);
+        }
+
+        if (allHumans.Count <= 0)
         {
             args.Cancelled = true;
             return;
@@ -95,6 +148,66 @@ public sealed class KillPersonConditionSystem : EntitySystem
 
         if (allHeads.Count == 0)
             allHeads = allHumans; // fallback to non-head target
+
+        _target.SetTarget(uid, _random.Pick(allHeads), target);
+    }
+
+    private void OnHeadFamilyAssigned(EntityUid uid, PickRandomHeadFamilyComponent component, ref ObjectiveAssignedEvent args)
+    {
+        // invalid prototype
+        if (!TryComp<TargetObjectiveComponent>(uid, out var target))
+        {
+            args.Cancelled = true;
+            return;
+        }
+
+        // target already assigned
+        if (target.Target != null)
+            return;
+
+
+        var allHumans = _mind.GetAliveHumansExcept(args.MindId);
+
+        // no other humans to kill
+        if (allHumans.Count == 0)
+        {
+            args.Cancelled = true;
+            return;
+        }
+
+        var family = EntityQuery<BloodFamilyRuleComponent>().FirstOrDefault();
+
+        if (family == null)
+        {
+            args.Cancelled = true;
+            return;
+        }
+
+        Log.Warning($"Quantidade de familiares: {family.BloodFamilyMinds.Count}");
+        foreach (var player in family.BloodFamilyMinds)
+        {
+            Log.Warning($"Familiar: {player}");
+            allHumans.Remove(player);
+        }
+
+        var allHeads = new List<EntityUid>();
+        foreach (var mind in allHumans)
+        {
+            // RequireAdminNotify used as a cheap way to check for command department
+            if (_job.MindTryGetJob(mind, out _, out var prototype) && prototype.RequireAdminNotify)
+                allHeads.Add(mind);
+        }
+
+        if (allHeads.Count == 0)
+        {
+            allHeads = allHumans; // fallback to non-head target
+            if (allHeads.Count == 0)
+            {
+                args.Cancelled = true;
+                return;
+            }
+        }
+
 
         _target.SetTarget(uid, _random.Pick(allHeads), target);
     }

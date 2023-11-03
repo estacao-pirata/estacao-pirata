@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Server.Chat.Managers;
+using Content.Server.EstacaoPirata.Roles;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Server.Mind;
 using Content.Server.NPC.Systems;
@@ -227,6 +228,12 @@ public sealed class TraitorRuleSystem : GameRuleSystem<TraitorRuleComponent>
         if (HasComp<TraitorRoleComponent>(mindId))
         {
             Log.Error($"Player {traitor.Name} is already a traitor.");
+            return false;
+        }
+
+        if (HasComp<BloodFamilyRoleComponent>(mindId))
+        {
+            Log.Error($"Player {traitor.Name} is already a blood family member.");
             return false;
         }
 

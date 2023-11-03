@@ -1,0 +1,19 @@
+# Base Objectives
+- type: entity
+  abstract: true
+  parent: BaseObjective
+  id: BaseBloodFamilyObjective
+  components:
+    - type: Objective
+      issuer: syndicate
+    - type: RoleRequirement
+      roles:
+        components:
+          - BloodFamilyRole
+
+- type: entity
+  abstract: true
+  parent: BaseObjective
+  id: BaseKeepFamilyAliveObjective
+  components:
+    - type: KeepGroupAliveCondition

@@ -18,7 +18,6 @@ public sealed partial class BloodFamilyRuleComponent : Component
     public string BloodFamilyPrototypeId = "BloodFamily";
 
     public int TotalBloodFamilyMembers => BloodFamilyMinds.Count; // Alterar isto
-    //public string[] Codewords = new string[3];
 
     /// <summary>
     /// Max Blood Family members allowed during selection.
@@ -27,10 +26,10 @@ public sealed partial class BloodFamilyRuleComponent : Component
     public int MaxBloodFamily = 3;
 
     /// <summary>
-    /// awawwa
+    /// For every X players, 1 will be a family member
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public int PlayersPerFamilyMember = 8;
+    public int PlayersPerFamilyMember = 1;
 
     /// <summary>
     /// Min Blood Family members needed during selection.
@@ -39,10 +38,16 @@ public sealed partial class BloodFamilyRuleComponent : Component
     public int MinBloodFamily = 2;
 
     /// <summary>
-    ///aa
+    /// Maximum amount of random objectives a blood family member will have
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public int MaxRandomObjectives = 2;
+
+    /// <summary>
+    /// Minimum players in game for the game rule to be selected
+    /// </summary>
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public int MinPlayers = 1;
 
     public enum SelectionState
     {

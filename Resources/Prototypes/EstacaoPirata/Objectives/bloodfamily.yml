@@ -1,19 +1,46 @@
-# requires that the target survives the round
-- type: entity
-  abstract: true
-  parent: BaseSocialObjective
-  id: BaseKeepFamilyAliveObjective
-  components:
-    - type: KeepFamilyAliveCondition
-
 - type: entity
   noSpawn: true
-  parent: [BaseTraitorSocialObjective, BaseKeepFamilyAliveObjective]
+  parent: [BaseBloodFamilyObjective, BaseKeepFamilyAliveObjective]
   id: FamilyAliveObjective
-  description: Identify yourself at your own risk. We just need them alive.
+  description: Mantenha sua família viva a qualquer custo.
   components:
     - type: Objective
       difficulty: 1.75
-    - type: TargetObjective
-      title: objective-condition-other-traitor-alive-title
+      icon:
+        sprite: Objects/Specific/Medical/firstaidkits.rsi
+        state: advkit
+    - type: GroupTargetObjective
+      title: objective-condition-family-alive-title
     - type: FamilyAlive
+
+- type: entity
+  noSpawn: true
+  parent: [BaseTraitorObjective, BaseKillObjective]
+  id: KillRandomPersonFamilyObjective
+  description: Do it however you like, just make sure they don't make it to centcom.
+  components:
+    - type: Objective
+      difficulty: 1.75
+      unique: false
+    - type: TargetObjective
+      title: objective-condition-kill-person-title
+    - type: PickRandomPersonFamily
+
+- type: entity
+  noSpawn: true
+  parent: [BaseTraitorObjective, BaseKillObjective]
+  id: KillRandomHeadFamilyObjective
+  description: We need this head gone and you probably know why. Good luck, agent.
+  components:
+    - type: Objective
+      # technically its still possible for KillRandomPersonObjective to roll a head but this is guaranteed, so higher difficulty
+      difficulty: 3.0
+      # killing 1 head is enough
+      unique: true
+    - type: TargetObjective
+      title: objective-condition-kill-head-title
+    - type: PickRandomHeadFamily
+    - type: KillPersonCondition
+      # don't count missing evac as killing as heads are higher profile, so you really need to do the dirty work
+      # if ce flies a shittle to centcom you better find a way onto it
+      requireDead: true

@@ -1,4 +1,7 @@
 ﻿using System.Linq;
+using System.Text;
+using Content.Server.Antag;
+using Content.Server.Chat.Managers;
 using Content.Server.EstacaoPirata.GameTicking.Rules.Components;
 using Content.Server.EstacaoPirata.Roles;
 using Content.Server.GameTicking;
@@ -7,10 +10,14 @@ using Content.Server.GameTicking.Rules.Components;
 using Content.Server.Mind;
 using Content.Server.NPC.Systems;
 using Content.Server.Objectives;
+using Content.Server.Radio.Components;
 using Content.Server.Roles;
 using Content.Server.Shuttles.Components;
 using Content.Shared.CCVar;
+using Content.Shared.Mind;
+using Content.Shared.Mobs.Systems;
 using Content.Shared.Objectives.Components;
+using Content.Shared.Objectives.Systems;
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
 using Content.Shared.Roles.Jobs;
@@ -28,12 +35,17 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
     [Dependency] private readonly IGameTiming _gameTiming = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
-    [Dependency] private readonly ObjectivesSystem _objectives = default!; // Usar em MakeBloodFamiliar() // TODO: criar um prototipo de objetivos pra familia
+    [Dependency] private readonly IChatManager _chatManager = default!;
+    [Dependency] private readonly ObjectivesSystem _objectives = default!;
     [Dependency] private readonly SharedJobSystem _jobs = default!;
     [Dependency] private readonly MindSystem _mindSystem = default!;
     [Dependency] private readonly SharedRoleSystem _roleSystem = default!;
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
     [Dependency] private readonly NpcFactionSystem _npcFaction = default!;
+    [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
+    [Dependency] private readonly SharedObjectivesSystem _objectivesSystem = default!;
+    //[Dependency] private readonly SubdermalImplantSystem _subdermalImplantSystem = default!;
+    [Dependency] private readonly AntagSelectionSystem _antagSelection = default!;
 
 
     public override void Initialize()
@@ -42,9 +54,9 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
 
         SubscribeLocalEvent<RoundStartAttemptEvent>(OnStartAttempt);
         SubscribeLocalEvent<RulePlayerJobsAssignedEvent>(OnPlayerJobAssigned);
+        SubscribeLocalEvent<BloodFamilyRuleComponent, ObjectivesTextGetInfoEvent>(OnObjectivesTextGetInfo);
         // Vai ter late join?
     }
-
     protected override void ActiveTick(EntityUid uid, BloodFamilyRuleComponent component, GameRuleComponent gameRule, float frameTime)
     {
         base.ActiveTick(uid, component, gameRule, frameTime);
@@ -68,6 +80,12 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
 
         var numFamily = MathHelper.Clamp(component.StartCandidates.Count / component.PlayersPerFamilyMember, 1, component.MaxBloodFamily);
         var familyPool = FindPotentialFamilyMembers(component.StartCandidates, component);
+
+        // Se a quantidade de pessoas que colocaram como preferencia Blood Family na criacao de personagem for menor que a quantidade esperada de membros da familia
+        // seta a quantidade de membro esperados para a mesma de jogadores que escolheram ser membros da familia.
+        if (numFamily > familyPool.Count)
+            numFamily = familyPool.Count;
+
         var selectedFamily = PickFamilyMembers(numFamily, familyPool);
 
         foreach (var player in selectedFamily)
@@ -75,7 +93,24 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
             MakeBloodFamiliar(player);
         }
 
-        // Adicionar game rule de traitor comum tbm
+        component.SelectionStatus = BloodFamilyRuleComponent.SelectionState.SelectionMade;
+
+        // Adiciona objetivos dos membros da familia, isto é feito aqui porque é garantido que todos os membros já foram selecionados e garante
+        // sincronismo com os objetivos de cada jogador
+        var allFamily = GetAllBloodFamilyMembersAliveAndConnected(component);
+
+        foreach (var member in allFamily)
+        {
+            GiveObjectives(member.Id, member.Mind, component);
+
+            // TODO: implementar implante de radio DE VERDADE
+            if (member.Mind.OwnedEntity != null)
+            {
+                GiveImplants(member.Mind.OwnedEntity.Value);
+            }
+
+            SendBloodFamilyBriefing(member.Id, member.Mind);
+        }
     }
 
     private void OnPlayerJobAssigned(RulePlayerJobsAssignedEvent ev)
@@ -97,7 +132,8 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
             }
 
             // Vai usar o delay do traitor por enquanto mesmo
-            var delay = TimeSpan.FromSeconds(0);
+            var delay = TimeSpan.FromSeconds(10);
+            // var delay = TimeSpan.FromSeconds( // TimeSpan.FromSeconds(20);
             //     _cfg.GetCVar(CCVars.TraitorStartDelay) +
             //     _random.NextFloat(0f, _cfg.GetCVar(CCVars.TraitorStartDelayVariance)));
 
@@ -109,8 +145,27 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
 
     private void OnStartAttempt(RoundStartAttemptEvent ev)
     {
-        Log.Debug("OnStartAttempt chamado");
-        //throw new NotImplementedException();
+        var query = EntityQueryEnumerator<BloodFamilyRuleComponent, GameRuleComponent>();
+        while (query.MoveNext(out var uid, out var famComp, out var gameRule))
+        {
+            if (!GameTicker.IsGameRuleAdded(uid, gameRule))
+                continue;
+
+            var minPlayers = famComp.MinPlayers;
+            if (!ev.Forced && ev.Players.Length < minPlayers)
+            {
+                _chatManager.SendAdminAnnouncement(Loc.GetString("blood-family-not-enough-ready-players",
+                    ("readyPlayersCount", ev.Players.Length), ("minimumPlayers", minPlayers)));
+                ev.Cancel();
+                continue;
+            }
+
+            if (ev.Players.Length == 0)
+            {
+                _chatManager.DispatchServerAnnouncement(Loc.GetString("blood-family-no-one-ready"));
+                ev.Cancel();
+            }
+        }
     }
 
     public List<IPlayerSession> FindPotentialFamilyMembers(in Dictionary<IPlayerSession, HumanoidCharacterProfile> candidates, BloodFamilyRuleComponent component)
@@ -205,12 +260,6 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
 
         // Ainda a decidir se vao vir com um uplink sem TC, mas aqui ficaria o codigo de dar o uplink e dar o codigo para abrir o uplink
 
-        // Prepare blood family role
-        // var bloodFamilyRole = new BloodFamilyRoleComponent
-        // {
-        //     PrototypeId = bloodFamilyRuleEntity.BloodFamilyPrototypeId,
-        // };
-
         // Assign blood family roles
         _roleSystem.MindAddRole(mindId, new BloodFamilyRoleComponent
         {
@@ -222,6 +271,7 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
         if (_mindSystem.TryGetSession(mindId, out var session))
         {
             // Notificate player about new role assignment
+            Log.Error("AUDIO TOCANDOOO");
             _audioSystem.PlayGlobal(bloodFamilyRuleEntity.GreetSoundNotification, session);
         }
 
@@ -229,13 +279,17 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
         _npcFaction.RemoveFaction(entity, "NanoTrasen", false);
         _npcFaction.AddFaction(entity, "Syndicate");
 
-        // Give random objectives
+        return true;
+    }
+
+    private void GiveObjectives(EntityUid mindId, MindComponent mind, BloodFamilyRuleComponent ruleComponent)
+    {
         var maxDifficulty = _cfg.GetCVar(CCVars.TraitorMaxDifficulty);
-        var maxPicks = bloodFamilyRuleEntity.MaxRandomObjectives;
+        var maxPicks = ruleComponent.MaxRandomObjectives;
         var difficulty = 0f;
         for (var pick = 0; pick < maxPicks && maxDifficulty > difficulty; pick++)
         {
-            var objective = _objectives.GetRandomObjective(mindId, mind, "TraitorObjectiveGroups");
+            var objective = _objectives.GetRandomObjective(mindId, mind, "BloodFamilyObjectiveGroups");
             if (objective == null)
                 continue;
 
@@ -243,18 +297,117 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
             difficulty += Comp<ObjectiveComponent>(objective.Value).Difficulty;
         }
 
-        // Give keep family alive objective
+        var familyObjective = _objectivesSystem.TryCreateObjective(mindId, mind, "FamilyAliveObjective");
 
+        if (familyObjective != null)
+        {
+            _mindSystem.AddObjective(mindId, mind, familyObjective.Value);
+        }
+    }
 
-        return true;
+    private void GiveImplants(EntityUid uid)
+    {
+        // Hack ferrado
+        // var intrinsicRadioTransmitter = AddComp<IntrinsicRadioTransmitterComponent>(uid);
+        // var activeRadio = AddComp<ActiveRadioComponent>(uid);
+        // var intrinsicRadioRec = AddComp<IntrinsicRadioReceiverComponent>(uid);
+        // activeRadio.Channels.Add("Syndicate");
+        // intrinsicRadioTransmitter.Channels.Add("Syndicate");
+
+        // var proto = Spawn("SyndieRadioImplant");
+        // if (!TryComp<SubdermalImplantComponent>(proto, out var comp))
+        // {
+        //     return;
+        // }
+        // _subdermalImplantSystem.ForceImplant(uid, proto, comp);
+
+        _antagSelection.GiveAntagBagGear(uid, "EncryptionKeySyndie");
+    }
+
+    public List<(EntityUid Id, MindComponent Mind)> GetOtherBloodFamilyMindsAliveAndConnected(MindComponent ourMind)
+    {
+        List<(EntityUid Id, MindComponent Mind)> allTraitors = new();
+        foreach (var traitor in EntityQuery<BloodFamilyRuleComponent>())
+        {
+            foreach (var role in GetOtherBloodFamilyMindsAliveAndConnected(ourMind, traitor))
+            {
+                if (!allTraitors.Contains(role))
+                    allTraitors.Add(role);
+            }
+        }
+
+        return allTraitors;
+    }
+
+    private List<(EntityUid Id, MindComponent Mind)> GetOtherBloodFamilyMindsAliveAndConnected(MindComponent ourMind, BloodFamilyRuleComponent component)
+    {
+        var traitors = new List<(EntityUid Id, MindComponent Mind)>();
+        foreach (var traitor in component.BloodFamilyMinds)
+        {
+            if (TryComp(traitor, out MindComponent? mind) &&
+                mind.OwnedEntity != null &&
+                mind.Session != null &&
+                mind != ourMind &&
+                _mobStateSystem.IsAlive(mind.OwnedEntity.Value) &&
+                mind.CurrentEntity == mind.OwnedEntity)
+            {
+                traitors.Add((traitor, mind));
+            }
+        }
+
+        return traitors;
+    }
+
+    private List<(EntityUid Id, MindComponent Mind)> GetAllBloodFamilyMembersAliveAndConnected(BloodFamilyRuleComponent component)
+    {
+        var traitors = new List<(EntityUid Id, MindComponent Mind)>();
+        foreach (var traitor in component.BloodFamilyMinds)
+        {
+            if (TryComp(traitor, out MindComponent? mind) &&
+                mind.OwnedEntity != null &&
+                mind.Session != null &&
+                _mobStateSystem.IsAlive(mind.OwnedEntity.Value) &&
+                mind.CurrentEntity == mind.OwnedEntity)
+            {
+                traitors.Add((traitor, mind));
+            }
+        }
+
+        return traitors;
+    }
+
+    private void OnObjectivesTextGetInfo(EntityUid uid, BloodFamilyRuleComponent component, ref ObjectivesTextGetInfoEvent args)
+    {
+        args.Minds = component.BloodFamilyMinds;
+        args.AgentName = Loc.GetString("blood-family-round-end-agent-name");
     }
 
     /// <summary>
-    /// Envia o texto de greeting e quem sao os outros blood family members
+    /// Envia o texto de greeting e quem são os outros blood family members
     /// </summary>
     /// <param name="mind"></param>
-    private void SendBloodFamilyBriefing(EntityUid mind)
+    /// <param name="ourMind"></param>
+    private void SendBloodFamilyBriefing(EntityUid mind, MindComponent ourMind)
     {
+        if (!_mindSystem.TryGetSession(mind, out var session))
+            return;
 
+        var family = GetOtherBloodFamilyMindsAliveAndConnected(ourMind);
+
+        var targetsNames = new StringBuilder("");
+        int index = 0;
+        foreach (var player in family)
+        {
+            var targetName = player.Mind.CharacterName;
+
+            if (index > 0 && index < family.Count)
+                targetsNames.Append("e ");
+            targetsNames.Append(targetName);
+            targetsNames.Append(' ');
+
+            index++;
+        }
+
+        _chatManager.DispatchServerMessage(session, Loc.GetString("blood-family-role-greeting",("familyNames",targetsNames)));
     }
 }
