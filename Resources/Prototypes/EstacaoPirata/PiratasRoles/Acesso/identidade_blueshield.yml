@@ -1,5 +1,17 @@
 
 - type: entity
+  parent: IDCardStandard
+  id: BlueshieldIDCard
+  name: ID de Blueshield
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idblueshield
+  - type: PresetIdCard
+    job: Blueshield
+
+- type: entity
   parent: BasePDA
   id: BlueshieldPDA
   name: PDA de Blushield

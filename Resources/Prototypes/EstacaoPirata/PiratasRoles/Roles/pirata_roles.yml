@@ -27,12 +27,6 @@
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
 
-- type: playTimeTracker
-  id: JobComerciante
-
-- type: playTimeTracker
-  id: JobSoldado
-
 # Soldado
 - type: job
   id: Soldado
