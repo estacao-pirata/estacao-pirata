@@ -77,16 +77,27 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
             Log.Error("Tried to start Blood Family mode without enough candidates.");
             return;
         }
-
-        var numFamily = MathHelper.Clamp(component.StartCandidates.Count / component.PlayersPerFamilyMember, 1, component.MaxBloodFamily);
+        //var numFamily = MathHelper.Clamp(component.StartCandidates.Count / component.PlayersPerFamilyMember, 1, component.MaxBloodFamily);
         var familyPool = FindPotentialFamilyMembers(component.StartCandidates, component);
 
         // Se a quantidade de pessoas que colocaram como preferencia Blood Family na criacao de personagem for menor que a quantidade esperada de membros da familia
         // seta a quantidade de membro esperados para a mesma de jogadores que escolheram ser membros da familia.
-        if (numFamily > familyPool.Count)
-            numFamily = familyPool.Count;
+        // if (numFamily > familyPool.Count)
+        //     numFamily = familyPool.Count;
 
-        var selectedFamily = PickFamilyMembers(numFamily, familyPool);
+        var numTeams = (int)Math.Ceiling((double)familyPool.Count / (double)component.MaxBloodFamily);
+
+        var selectedFamily = PickFamilyMembers(familyPool, numTeams, component);
+
+        //var sessionAndMind = new Dictionary<IPlayerSession, (EntityUid, MindComponent, int)>();
+
+        // foreach (var player in selectedFamily)
+        // {
+        //     if (_mindSystem.TryGetMind(player, out var mindId, out var mindComponent))
+        //     {
+        //         sessionAndMind.Add(player, (mindId,mindComponent));
+        //     }
+        // }
 
         foreach (var player in selectedFamily)
         {
@@ -206,24 +217,49 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
         return prefList;
     }
 
-    public List<IPlayerSession> PickFamilyMembers(int familyMembersCount, List<IPlayerSession> prefList)
+    public Dictionary<IPlayerSession, (EntityUid, MindComponent, int)> PickFamilyMembers(List<IPlayerSession> prefList, int numberOfFamilies, BloodFamilyRuleComponent component)
     {
-        var results = new List<IPlayerSession>(familyMembersCount);
+        var results = new Dictionary<IPlayerSession, (EntityUid, MindComponent, int)>();
         if (prefList.Count == 0)
         {
             Log.Info("Insufficient ready players to fill up with blood family members, stopping the selection.");
             return results;
         }
 
-        for (var i = 0; i < familyMembersCount; i++)
+        foreach (var player in prefList)
         {
-            results.Add(_random.PickAndTake(prefList));
-            Log.Info("Selected a preferred blood family member.");
+            if (!FilterPossiblePlayers(player))
+            {
+                prefList.Remove(player);
+            }
+        }
+
+        var familyPool = prefList.Count;
+
+        for (var i = 0; i < numberOfFamilies; i++)
+        {
+            for (var j = 0; j < component.MaxBloodFamily; j++)
+            {
+                var randomPlayer = _random.PickAndTake(prefList);
+                if (_mindSystem.TryGetMind(randomPlayer, out var mindId, out var mindComponent))
+                {
+                    familyPool -= 1;
+                    var newNumberOfFamilies = (int) Math.Ceiling((double) familyPool / (double) component.MaxBloodFamily);
+                    results.Add(randomPlayer,(mindId, mindComponent, numberOfFamilies-newNumberOfFamilies));
+
+                    Log.Info($"Selected a preferred blood family member for team {numberOfFamilies-newNumberOfFamilies}.");
+                    if ((newNumberOfFamilies < numberOfFamilies) && results.Count > 1)
+                    {
+                        Log.Info($"Team {numberOfFamilies-newNumberOfFamilies} closed.");
+                        break;
+                    }
+                }
+            }
         }
         return results;
     }
 
-    public bool MakeBloodFamiliar(ICommonSession player)
+    public bool MakeBloodFamiliar(KeyValuePair<IPlayerSession, (EntityUid, MindComponent,int)> playerMindAndTeam)
     {
         var bloodFamilyRuleEntity = EntityQuery<BloodFamilyRuleComponent>().FirstOrDefault();
         if (bloodFamilyRuleEntity == null)
@@ -234,6 +270,39 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
             bloodFamilyRuleEntity = Comp<BloodFamilyRuleComponent>(ruleEntity);
         }
 
+        // Ainda a decidir se vao vir com um uplink sem TC, mas aqui ficaria o codigo de dar o uplink e dar o codigo para abrir o uplink
+
+        // Assign blood family roles
+        _roleSystem.MindAddRole(playerMindAndTeam.Value.Item1, new BloodFamilyRoleComponent
+        {
+            PrototypeId = bloodFamilyRuleEntity.BloodFamilyPrototypeId
+        });
+
+        bloodFamilyRuleEntity.BloodFamilyMinds.Add(playerMindAndTeam.Value.Item1);
+        bloodFamilyRuleEntity.BloodFamilyTeams.Add(playerMindAndTeam.Value.Item3 ,playerMindAndTeam.Value.Item1);
+
+        if (_mindSystem.TryGetSession(playerMindAndTeam.Value.Item1, out var session))
+        {
+            // Notificate player about new role assignment
+            _audioSystem.PlayGlobal(bloodFamilyRuleEntity.GreetSoundNotification, session);
+        }
+
+        if (playerMindAndTeam.Value.Item2.OwnedEntity != null)
+        {
+            // Change the faction
+            _npcFaction.RemoveFaction(playerMindAndTeam.Value.Item2.OwnedEntity.Value, "NanoTrasen", false);
+            _npcFaction.AddFaction(playerMindAndTeam.Value.Item2.OwnedEntity.Value, "Syndicate");
+        }
+        else
+        {
+            Log.Error($"Couldn't change {playerMindAndTeam.Value.Item1}'s faction to Syndicate");
+        }
+
+        return true;
+    }
+
+    private bool FilterPossiblePlayers(ICommonSession player)
+    {
         if (!_mindSystem.TryGetMind(player, out var mindId, out var mind))
         {
             Log.Info("Failed getting mind for picked blood family member.");
@@ -257,27 +326,6 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
             Log.Error("Mind picked for blood family member did not have an attached entity.");
             return false;
         }
-
-        // Ainda a decidir se vao vir com um uplink sem TC, mas aqui ficaria o codigo de dar o uplink e dar o codigo para abrir o uplink
-
-        // Assign blood family roles
-        _roleSystem.MindAddRole(mindId, new BloodFamilyRoleComponent
-        {
-            PrototypeId = bloodFamilyRuleEntity.BloodFamilyPrototypeId
-        });
-
-        bloodFamilyRuleEntity.BloodFamilyMinds.Add(mindId);
-
-        if (_mindSystem.TryGetSession(mindId, out var session))
-        {
-            // Notificate player about new role assignment
-            Log.Error("AUDIO TOCANDOOO");
-            _audioSystem.PlayGlobal(bloodFamilyRuleEntity.GreetSoundNotification, session);
-        }
-
-        // Change the faction
-        _npcFaction.RemoveFaction(entity, "NanoTrasen", false);
-        _npcFaction.AddFaction(entity, "Syndicate");
 
         return true;
     }

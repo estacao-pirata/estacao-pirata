@@ -14,10 +14,14 @@ public sealed partial class BloodFamilyRuleComponent : Component
 {
     public readonly List<EntityUid> BloodFamilyMinds = new();
 
+    public readonly Dictionary<int, EntityUid> BloodFamilyTeams = new();
+
     [DataField("bloodFamilyPrototypeId", customTypeSerializer: typeof(PrototypeIdSerializer<AntagPrototype>))]
     public string BloodFamilyPrototypeId = "BloodFamily";
 
     public int TotalBloodFamilyMembers => BloodFamilyMinds.Count; // Alterar isto
+
+    // TODO: colocar os valores certos
 
     /// <summary>
     /// Max Blood Family members allowed during selection.
@@ -32,7 +36,7 @@ public sealed partial class BloodFamilyRuleComponent : Component
     public int PlayersPerFamilyMember = 1;
 
     /// <summary>
-    /// Min Blood Family members needed during selection.
+    /// Min number of players who selected Blood Family in character creation.
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public int MinBloodFamily = 2;
