@@ -4,7 +4,7 @@
   weights:
     TraitorObjectiveGroupSteal: 1
     BloodFamilyObjectiveGroupKill: 1
-    TraitorObjectiveGroupState: 1 #As in, something about your character. Alive, dead, arrested, gained an ability...
+    BloodFamilyObjectiveGroupState: 1 #As in, something about your character. Alive, dead, arrested, gained an ability...
     TraitorObjectiveGroupSocial: 1 #Involves helping/harming others without killing them or stealing their stuff
 
 - type: weightedRandom
@@ -12,3 +12,8 @@
   weights:
     KillRandomPersonFamilyObjective: 1
     KillRandomHeadFamilyObjective: 0.25
+
+- type: weightedRandom
+  id: BloodFamilyObjectiveGroupState
+  weights:
+    EscapeShuttleObjective: 1
