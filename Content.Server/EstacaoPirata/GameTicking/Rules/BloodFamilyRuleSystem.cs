@@ -136,10 +136,10 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
             }
 
             // Vai usar o delay do traitor por enquanto mesmo
-            var delay = TimeSpan.FromSeconds(10);
-            // var delay = TimeSpan.FromSeconds( // TimeSpan.FromSeconds(20);
-            //     _cfg.GetCVar(CCVars.TraitorStartDelay) +
-            //     _random.NextFloat(0f, _cfg.GetCVar(CCVars.TraitorStartDelayVariance)));
+            // var delay = TimeSpan.FromSeconds(10);
+            var delay = TimeSpan.FromSeconds(
+                _cfg.GetCVar(CCVars.TraitorStartDelay) +
+                _random.NextFloat(0f, _cfg.GetCVar(CCVars.TraitorStartDelayVariance)));
 
             familiar.AnnounceAt = _gameTiming.CurTime + delay;
 
@@ -175,7 +175,6 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
 
     private void HandleLatejoin(PlayerSpawnCompleteEvent ev)
     {
-        Log.Warning("HANDLE LATE JOIN");
         var query = EntityQueryEnumerator<BloodFamilyRuleComponent, GameRuleComponent>();
 
         while (query.MoveNext(out var uid, out var bloodFamily, out var gameRule))
@@ -225,8 +224,6 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
             // You get one shot.
             if (_random.Prob(chance))
             {
-
-
                 /*
                  * Chance de 50% para ou criar uma familia nova com 2 pessoas, ou com 3
                  */
@@ -285,7 +282,6 @@ public sealed class BloodFamilyRuleSystem : GameRuleSystem<BloodFamilyRuleCompon
                 }
                 else
                 {
-                    Log.Warning("APENAS ADICIONANDO AO QUEUE");
                     var divisionOfTeams = FindDivisionOfTeams(bloodFamily.BloodFamilyMinds.Count);
 
                     if (_mindSystem.TryGetMind(ev.Player, out var mindId, out var mindComponent))
