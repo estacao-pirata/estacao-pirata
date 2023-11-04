@@ -1,4 +1,5 @@
-﻿using Content.Shared.Preferences;
+﻿using Content.Shared.Mind;
+using Content.Shared.Preferences;
 using Content.Shared.Roles;
 using Robust.Server.Player;
 using Robust.Shared.Audio;
@@ -17,6 +18,8 @@ public sealed partial class BloodFamilyRuleComponent : Component
     // Mind + team
     public readonly Dictionary<EntityUid, int> BloodFamilyTeams = new();
 
+    public Dictionary<IPlayerSession, (EntityUid,MindComponent, int)> BloodFamilyQueue = new();
+
     [DataField("bloodFamilyPrototypeId", customTypeSerializer: typeof(PrototypeIdSerializer<AntagPrototype>))]
     public string BloodFamilyPrototypeId = "BloodFamily";
 
@@ -25,7 +28,7 @@ public sealed partial class BloodFamilyRuleComponent : Component
     // TODO: colocar os valores certos
 
     /// <summary>
-    /// Max Blood Family members allowed during selection.
+    /// Max amount members in a family
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public int MaxBloodFamily = 3;
@@ -34,10 +37,10 @@ public sealed partial class BloodFamilyRuleComponent : Component
     /// For every X players, 1 will be a family member
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public int PlayersPerFamilyMember = 1;
+    public int PlayersPerFamilyMember = 8;
 
     /// <summary>
-    /// Min number of players who selected Blood Family in character creation.
+    /// Min number of players who selected Blood Family in character creation. (MUDAR PARA Min amount of members in a family?)
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public int MinBloodFamily = 2;
@@ -52,7 +55,13 @@ public sealed partial class BloodFamilyRuleComponent : Component
     /// Minimum players in game for the game rule to be selected
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public int MinPlayers = 1;
+    public int MinPlayers = 5;
+
+    /// <summary>
+    /// Maximum players to be selected as a blood family member
+    /// </summary>
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public int MaxPlayers = 20;
 
     public enum SelectionState
     {
