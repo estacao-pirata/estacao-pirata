@@ -5,9 +5,8 @@
     - bloodbrothers
   name: blood-family-title
   description: blood-family-description
-  showInVote: false
+  showInVote: true
   minPlayers: 2
   rules:
     - BloodFamily
-    - Traitor
     - BasicStationEventScheduler
