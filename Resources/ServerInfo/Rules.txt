@@ -68,9 +68,9 @@ REGRAS DE ESCALA
 
 [color=#a4885c]3.[/color] Armas, espadas e outras armas mortais sinalizam intenção letal.
     - Não os use para resolver conflitos mesquinhos e não os use se não quiser deixar claro que está pronto para matar ou ser morto.
-    - Any prisoner may be borged with their consent. Borging may be offered as an alternative to execution, but cannot be forced if the prisoner is able to consent.
+    - Qualquer prisioneiro pode ser transformado em Borg caso ele consinta. Transformar em borg pode ser oferecido como alterantiva à execução, mas não pode ser à força caso o prisioneiro esteja em condições de consentir - leia-se vivo.
 
-[color=#ff0000]SILICON RULES[/color]
+[color=#ff0000]REGRAS PARA SILÍCIO[/color]
 Essas regras também se aplicam a qualquer indivíduo que seja um Silicons, incluindo ciborgues e IA. Tal como acontece com outras regras, mais detalhes estão disponíveis em nosso Discord
 
 [color=#a4885c]23.[/color] Você deve seguir suas leis
