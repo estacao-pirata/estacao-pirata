@@ -34,7 +34,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
     - Fazer armadilhas
     - Envenenar os outros
     Isso é chamado pelo jargão gringo "self antag", algo como auto-declarado antag.
-    Ative a checkbox dos antagonistas em customizar no lobby e espere sua vez e evite pegar papéis que não queira interpretar caso não ganhe status antag - isto é, coloque todos estes em Nunca.
+    Se quiser ative a checkbox dos antagonistas em customizar no lobby e espere sua vez. Evite pegar papéis que não queira interpretar caso não ganhe status antag - isto é, coloque todos estes em Nunca.
 
 [color=#a4885c]8.[/color] Isso não é um deathmatch, seja humano. Faça tudo o que é possível para clonar ou salvar pessoas da morte.
 
