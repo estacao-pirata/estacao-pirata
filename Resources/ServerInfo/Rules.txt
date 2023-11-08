@@ -138,7 +138,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 [color=#ff0000]REGRAS DE ANTAGS DE CONVERSÃO[/color]
 
 [color=#a4885c]34.[/color] A segurança deve:
-    - Seguir regras de escala, e tentar avaliar e medir as ameaças. Um tumulto brandindo caixas de ferramentas pode vir a ser uma ameaça letal.
+    - Seguir regras de escala e tentar avaliar e medir as ameaças. Um tumulto brandindo caixas de ferramentas pode vir a ser uma ameaça letal.
     - Use o bom senso e siga as instruções de admins caso eles intervenham.
     - Tente desconverter enquanto é possível.
     - Proteja os heads a todo custo caso necessário.
@@ -154,10 +154,11 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
     - Revs desconvertidos não se lembram quem eram os revolucionários ou qualquer informações que tenha ganho sobre a revolução antes de serem desconvertidos.
 
 [color=#a4885c]37.[/color] Regras sobre outros tripulantes
-    - Tripulante não deve se oferecer pra virar rev e deve resistir ativamente à conversão enquanto for possível.
-    - Silícios devem fazer o que melhor se aplica as suas leis, sempre observando as regras que estabelecem que Revs devem ser considerados tripulantes, detalhadas mais abaixo na regra 42.
+    - Os tripulantes não devem se oferecer pra virar rev e devem resistir ativamente à conversão enquanto for possível.
+    - Os Silícios devem fazer o que melhor se aplica as suas leis, sempre observando as regras que estabelecem que Revs devem ser considerados tripulantes, detalhadas mais abaixo na regra 42.
 
 [color=#a4885c]38.[/color] O que os jogadores podem fazer:
+    - Os tripulantes podem agir contra a revolução ou não, contanto que não atrapalhem o time em que estão no momento.
     - Revs podem planejar como agirem e agirem quando quiser, não precisa ter pressa.
     - Mindshields podem ser comprados a qualquer momento pois em lore eles possuem outros usos.
 
