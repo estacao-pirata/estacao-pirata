@@ -46,8 +46,11 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
     - A distinção entre o seu personagem e você fora do personagem é aplicada com rigor. Se você quiser conversar sobre assuntos OOC com as pessoas próximas a você, basta usar o canal de bate-papo "LOOC".
     - Não faça grief ou spawn camping em jogadores que estão chegando na estação, ou na nave de chegadas, ou no terminal. Isso se aplica indiferentemente de você ser ou nào antagonista.
 
-[color=#a4885c]10.[/color] Escolha um nome realista que possa aparecer em uma certidão de nascimento com pelo menos um nome e sobrenome. Palhaços, mímicos e músicos são isentos dessas regras exercendo o direito a um nome artístico, Raças não humanas podem ter suas próprias regras.
-    - São proibidos nomes que resultem em jogos de palavras fonéticos inadequados (ex: "Thomas Turbando", "Simas Turbo").
+[color=#a4885c]10.[/color]
+    - Se você optar por um "nome humano", evite nomes que não possam aparecer em uma certidão de nascimento, de preferência com pelo menos um nome e sobrenome. Nada de nomes comuns do português sem sobrenome.
+    - Se você optar por um "nome não humano", a regra do sobrenome pode não ser aplicada desde que seu nome seja inteligível e suficientemente distinto e respeite as outras regras. Essa regra existe para dar liberdade para vocês interpretarem os seus personagens espaciais e não é permissão para nomes deliberadamente cômicos.
+    - Palhaços, mímicos e músicos são isentos dessas regras exercendo o direito a um nome artístico.
+    - São proibidos nomes que resultem em jogos de palavras fonéticos inadequados (ex: "Thomas Turbando", "Simas Turbo") inclusive para nomes artísticos.
     - Nomes de pessoas notáveis, famosas ou fictícias são estritamente proibidos.
 
 [color=#a4885c]11.[/color] Regra de Nova Vida
