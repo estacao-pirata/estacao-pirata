@@ -52,9 +52,10 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 
 [color=#a4885c]11.[/color] Regra de Nova Vida
     - Em todos os casos, esqueça tudo o que você viu enquanto era um fantasma.
-    - Após ser clonado você [color=#ff0000]esquece a sua vida anterior.[/color]
-    - Se você era revolucionário ou cabeça da revolução (head rev), você esquece esse fato completamente, e você não deve ativamente buscar ser convertido.
-    Caso você seja desfibrliado, você se lebra de todos os eventos que testemunhou enquanto consciente nesta vida exceto aqueles que levaram à sua morte.
+    - Em todos os casos, esqueça tudo o que você viu incosciente ou em estado crítico.
+    - Caso você morra e seja desfibrliado, você [color=#ff0000]esquece os eventos que levaram à sua morte.[/color]
+    - Caso você morra e seja clonado você [color=#ff0000]esquece a sua vida anterior.[/color]
+        Se você era revolucionário ou cabeça da revolução (head rev), você esquece esse fato completamente, e você não deve ativamente buscar ser convertido.
 
 [color=#a4885c]12.[/color] Jogadores AFK (ou SSD), desconectados ou catatôncios têm os mesmos direitos que um tripulante consciente.
 
