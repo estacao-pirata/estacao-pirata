@@ -48,6 +48,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 
 [color=#a4885c]10.[/color] Escolha um nome realista que possa aparecer em uma certidão de nascimento com pelo menos um nome e sobrenome. Palhaços, mímicos e músicos são isentos dessas regras exercendo o direito a um nome artístico, Raças não humanas podem ter suas próprias regras.
     - São proibidos nomes que resultem em jogos de palavras fonéticos inadequados (ex: "Thomas Turbando", "Simas Turbo").
+    - Nomes de pessoas notáveis, famosas ou fictícias são estritamente proibidos.
 
 [color=#a4885c]11.[/color] Regra de Nova Vida
     - Em todos os casos, esqueça tudo o que você viu enquanto era um fantasma.
@@ -163,7 +164,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
     - Mindshields podem ser comprados a qualquer momento pois em lore eles possuem outros usos.
 
 [color=#ff0000]REGRAS DE ESCALA[/color]
-[color=#a4885c]39.[/color] A autodefesa é sempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio (borgs/cérebro positrônico/silício).
+[color=#a4885c]39.[/color] A autodefesa é osempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio (borgs/cérebro positrônico/silício).
     - Isso é apenas para salvar a sua própria vida. Na maioria das circunstâncias, as pessoas deixam de ser uma ameaça quando não apresentam mais perigo, quando desengajam ou quando entram em estado crítico.
 
 [color=#a4885c]40.[/color] Não escale as situações desnecessariamente. Poucas coisas merecem uma luta até a morte. Tente responder a palavras com palavras, punhos com punhos e assim por diante.
