@@ -135,19 +135,45 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 
 [color=#a4885c]33.[/color] É proibido prolongar as rodadas desnecessariamente.
 
+[color=#ff0000]REGRAS DE ANTAGS DE CONVERSÃO[/color]
+
+[color=#a4885c]35.[/color] A segurança deve:
+    - Seguir regras de escala, e tentar avaliar e medir as ameaças. Um tumulto brandindo caixas de ferramentas pode vir a ser uma ameaça letal.
+    - Use o bom senso e siga as instruções de admins caso eles intervenham.
+    - Tente desconverter enquanto é possível.
+    - Proteja os heads a todo custo caso necessário.
+    - Fique atento para aplicar mindshield em eventuais recrutas para a segurança.
+
+[color=#a4885c]36.[/color] Os revolucionários devem:
+    - Em geral seguir pedidos razoáveis dos cabeças da revolução, os "Head Rev".
+    - Procurar meios de ajudar a revolução de maneira significativa.
+
+[color=#a4885c]37.[/color] Os revolucionários não devem:
+    - Se oferecer para serem desconvertidos.
+    - Não é permitido afetar seu time negativamente.
+    - Revs desconvertidos não se lembram quem eram os revolucionários ou qualquer informações que tenha ganho sobre a revolução antes de serem desconvertidos.
+
+[color=#a4885c]38.[/color] Regras sobre outros tripulantes
+    - Tripulante não deve se oferecer pra virar rev e deve resistir ativamente à conversão enquanto for possível.
+    - Silícios devem fazer oo que melhor se aplica as suas leis, sempre observando as regras que estabelecem que Revs devem ser considerados tripulantes, detalhadas mais abaixo na regra 43.
+
+[color=#a4885c]39.[/color] O que os jogadores podem fazer:
+    - Revs podem planejar como agirem e agirem quando quiser, não precisa ter pressa.
+    - Mindshields podem ser comprados a qualquer momento pois em lore eles possuem outros usos.
+
 [color=#ff0000]REGRAS DE ESCALA[/color]
-[color=#a4885c]34.[/color] A autodefesa é sempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio (borgs/cérebro positrônico/silício).
+[color=#a4885c]40.[/color] A autodefesa é sempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio (borgs/cérebro positrônico/silício).
     - Isso é apenas para salvar a sua própria vida. Na maioria das circunstâncias, as pessoas deixam de ser uma ameaça quando não apresentam mais perigo, quando desengajam ou quando entram em estado crítico.
 
-[color=#a4885c]35.[/color] Não escale as situações desnecessariamente. Poucas coisas merecem uma luta até a morte. Tente responder a palavras com palavras, punhos com punhos e assim por diante.
+[color=#a4885c]41.[/color] Não escale as situações desnecessariamente. Poucas coisas merecem uma luta até a morte. Tente responder a palavras com palavras, punhos com punhos e assim por diante.
 
-[color=#a4885c]36.[/color] Armas, espadas, machados e outras armas mortais sinalizam intenção letal.
+[color=#a4885c]42.[/color] Armas, espadas, machados e outras armas mortais sinalizam intenção letal.
     - Não os use para resolver conflitos mesquinhos e não os use se não quiser deixar claro que está pronto para matar ou ser morto.
 
 [color=#ff0000]REGRAS PARA SILÍCIO[/color]
 Essas regras também se aplicam a qualquer indivíduo que seja Silício, incluindo ciborgues e IA. Tal como acontece com outras regras, mais detalhes estão disponíveis em nosso Discord
 
-[color=#a4885c]37.[/color] Você deve seguir suas leis.
+[color=#a4885c]43.[/color] Você deve seguir suas leis.
     - Silícios sem quaisquer leis estão livres de quaisquer restrições que normalmente seriam impostas por leis, mas regras self-antag ainda se aplicam, a menos que também sejam antagonistas.
     - A ordem de suas leis determina a prioridade da lei. A Lei 1 tem prioridade sobre as leis 2 e 3, e assim por diante.
     - Cada Silícios individual deve permanecer consistente em suas interpretações das leis durante a rodada.
