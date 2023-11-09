@@ -76,7 +76,7 @@
       solution: absorbed
       preserve:
       - Water
-      quantity: 10
+      quantity: 15
     - type: SolutionContainerManager
       solutions:
         absorbed:
