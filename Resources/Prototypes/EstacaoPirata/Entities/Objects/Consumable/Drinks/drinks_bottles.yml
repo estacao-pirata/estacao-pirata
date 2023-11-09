@@ -13,7 +13,7 @@
         maxVol: 100
   - type: Sprite
     state: icon
-  - type: TrashOnEmpty
+  - type: TrashOnSolutionEmpty
     solution: drink
 
 - type: entity

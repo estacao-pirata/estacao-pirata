@@ -291,7 +291,6 @@
   parent: MobSloth
   id: MobPaperwork
   description: Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
-    interactSuccessSpawn: EffectHearts
 
 - type: entity
   name: Walter
@@ -543,7 +542,6 @@
       0: Alive
       150: Dead
   - type: MeleeWeapon
-    hidden: true
     angle: 0
     animation: WeaponArcBite
     soundHit:
