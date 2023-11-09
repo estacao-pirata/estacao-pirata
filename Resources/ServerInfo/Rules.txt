@@ -46,7 +46,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
     - A distinção entre o seu personagem e você fora do personagem é aplicada com rigor. Se você quiser conversar sobre assuntos OOC com as pessoas próximas a você, basta usar o canal de bate-papo "LOOC".
     - Não faça grief ou spawn camping em jogadores que estão chegando na estação, ou na nave de chegadas, ou no terminal. Isso se aplica indiferentemente de você ser ou nào antagonista.
 
-[color=#a4885c]10.[/color]
+[color=#a4885c]10.[/color] Regras de nomes
     - Se você optar por um "nome humano", evite nomes que não possam aparecer em uma certidão de nascimento, de preferência com pelo menos um nome e sobrenome. Nada de nomes comuns do português sem sobrenome.
     - Se você optar por um "nome não humano", a regra do sobrenome pode não ser aplicada desde que seu nome seja inteligível e suficientemente distinto e respeite as outras regras. Essa regra existe para dar liberdade para vocês interpretarem os seus personagens espaciais e não é permissão para nomes deliberadamente cômicos.
     - Palhaços, mímicos e músicos são isentos dessas regras exercendo o direito a um nome artístico.
@@ -89,7 +89,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 
 [color=#a4885c]19.[/color] Não abandone imediatamente sua posição de Comando e vá fazer o que quiser em vez de gerenciar seu departamento/estação. Não abuse da sua posição nem a utilize para fazer escolhas arbitrárias em detrimento da estação.
 
-[color=#a4885c]20.[/color] Oficiais do comando também devem observar as REGRAS PARA SEGURANÇAS E OFICIAIS DO COAMNDO abaixo, quando as mesmas forem aplicáveis.
+[color=#a4885c]20.[/color] Oficiais do comando também devem observar as REGRAS PARA SEGURANÇAS E OFICIAIS DO COMANDO abaixo, quando as mesmas forem aplicáveis.
 
 [color=#ff0000]REGRAS PARA SEGURANÇAS E OFICIAIS DO COMANDO[/color]
 
@@ -140,7 +140,6 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 [color=#a4885c]33.[/color] É proibido prolongar as rodadas desnecessariamente.
 
 [color=#ff0000]REGRAS DE ANTAGS DE CONVERSÃO[/color]
-
 [color=#a4885c]34.[/color] A segurança deve:
     - Seguir regras de escala e tentar avaliar e medir as ameaças. Um tumulto brandindo caixas de ferramentas pode vir a ser uma ameaça letal.
     - Use o bom senso e siga as instruções de admins caso eles intervenham.
