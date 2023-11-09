@@ -333,7 +333,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 50
+        maxVol: 20
         reagents:
         - ReagentId: Dexalin
           Quantity: 10
@@ -346,7 +346,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 50
+        maxVol: 20
         reagents:
         - ReagentId: Dylovene
           Quantity: 10
@@ -359,7 +359,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 50
+        maxVol: 20
         reagents:
         - ReagentId: Hyronalin
           Quantity: 10
@@ -372,7 +372,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 50
+        maxVol: 20
         reagents:
         - ReagentId: Iron
           Quantity: 10
@@ -385,7 +385,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 50
+        maxVol: 20
         reagents:
         - ReagentId: Kelotane
           Quantity: 10
@@ -411,7 +411,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 50
+        maxVol: 20
         reagents:
         - ReagentId: SpaceDrugs
           Quantity: 15
@@ -424,7 +424,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 50
+        maxVol: 20
         reagents:
         - ReagentId: Tricordrazine
           Quantity: 10
@@ -466,7 +466,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 50
+        maxVol: 20
         reagents:
         - ReagentId: Romerol
           Quantity: 10

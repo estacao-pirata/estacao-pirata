@@ -1,0 +1,119 @@
+# Definição de roupa iniciais para habitantes de Cidade e Planetas
+
+# Cidadão
+- type: job
+  id: Cidadao
+  name: cidadão
+  description: Sobreviva na Federação
+  playTimeTracker: JobCidadao
+  startingGear: CidadaoCidadeGear
+  icon: "JobIconPassenger"
+  supervisors: Leis Espaciais
+  access:
+  - External
+  - Cidadao
+
+- type: startingGear
+  id: CidadaoCidadeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitFlannel
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBlack
+    id: CidadaoIDCard
+    ears: ClothingHeadsetGrey
+  innerclothingskirt: ClothingUniformJumpskirtCurator
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
+# Comerciante
+- type: job
+  id: Comerciante
+  name: comerciante
+  description: Faça comercio em nome da Federação do Comercio
+  playTimeTracker: JobComerciante
+  startingGear: ComercianteCidadeGear
+  icon: "JobIconPassenger"
+  supervisors: Federação do Comercio
+  access:
+  - External
+  - Cidadao
+  - Comerciante
+
+- type: startingGear
+  id: ComercianteCidadeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlue
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBrown
+    id: ComercianteIDCard
+    ears: ClothingHeadsetGrey
+  innerclothingskirt: ClothingUniformJumpskirtLawyerBlue
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
+# Policia
+- type: job
+  id: Policia
+  name: policia
+  description: Tente manter a lei e a ordem
+  playTimeTracker: JobPolicia
+  startingGear: PoliciaCidadeGear
+  icon: "JobIconPassenger"
+  supervisors: Federação Solar
+  access:
+  - External
+  - Maintenance
+  - Cidadao
+  - Policia
+
+- type: startingGear
+  id: PoliciaCidadeGear
+  equipment:
+    head: ClothingHeadHatBeretBlueshield
+    jumpsuit: ClothingUniformJumpsuitColorDarkBlue
+    back: ClothingBackpackPolicia
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSunglasses
+    outerClothing: ClothingOuterArmorBasic
+    id: PoliciaIDCard
+    ears: ClothingHeadsetGrey
+    belt: ClothingBeltSecurityFilled
+    pocket1: RadioHandheld
+    pocket2: WeaponTaser
+  innerclothingskirt: ClothingUniformJumpskirtColorDarkBlue
+  satchel: ClothingBackpackSatchelPolicia
+  duffelbag: ClothingBackpackDuffelPolicia
+
+# Soldado
+- type: job
+  id: Soldado
+  name: soldado
+  description: Dê sua vida em nome da federação solar
+  playTimeTracker: JobSoldado
+  startingGear: SoldadoCidadeGear
+  icon: "JobIconPassenger"
+  supervisors: Federação Solar
+  access:
+  - External
+  - Maintenance
+  - Cidadao
+  - Comerciante
+  - Policia
+
+- type: startingGear
+  id: SoldadoCidadeGear
+  equipment:
+    head: ClothingHeadHelmetSwat
+    jumpsuit: ClothingUniformJumpsuitColorDarkBlue
+    back: ClothingBackpackSoldado
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSunglasses
+    outerClothing: ClothingOuterArmorHeavy
+    id: SoldadoIDCard
+    ears: ClothingHeadsetGrey
+    belt: ClothingBeltMilitarySoldado
+    pocket1: RadioHandheld
+    pocket2: WeaponPistolMk58
+  innerclothingskirt: ClothingUniformJumpskirtColorDarkBlue
+  satchel: ClothingBackpackSatchelSoldado
+  duffelbag: ClothingBackpackDuffelSoldado

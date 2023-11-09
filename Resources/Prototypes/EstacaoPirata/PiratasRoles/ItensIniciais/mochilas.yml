@@ -1,0 +1,72 @@
+# Mochilas customizada para eventos
+
+# Policia
+- type: entity
+  parent: ClothingBackpackSecurity
+  id: ClothingBackpackPolicia
+  noSpawn: true
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSecurity
+      - id: Flash
+      - id: WeaponPistolMk58Nonlethal
+      - id: MagazinePistol
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackSatchelSecurity
+  id: ClothingBackpackSatchelPolicia
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSecurity
+      - id: Flash
+      - id: WeaponPistolMk58Nonlethal
+      - id: MagazinePistol
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelSecurity
+  id: ClothingBackpackDuffelPolicia
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSecurity
+      - id: Flash
+      - id: WeaponPistolMk58Nonlethal
+      - id: MagazinePistol
+
+# Soldado
+- type: entity
+  parent: ClothingBackpackSecurity
+  id: ClothingBackpackSoldado
+  noSpawn: true
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: WeaponRifleLecter
+      - id: Stunbaton
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackSatchelSecurity
+  id: ClothingBackpackSatchelSoldado
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: WeaponRifleLecter
+      - id: Stunbaton
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelSecurity
+  id: ClothingBackpackDuffelSoldado
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: WeaponRifleLecter
+      - id: Stunbaton
