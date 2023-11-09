@@ -23,7 +23,7 @@
     id: ComercianteIDCard
     ears: ClothingHeadsetGrey
     pocket1: RadioHandheld
-  innerclothingskirt: ClothingUniformJumpskirtLawyerBlue
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlue
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
 
