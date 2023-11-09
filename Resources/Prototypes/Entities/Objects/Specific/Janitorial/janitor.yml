@@ -71,6 +71,7 @@
         reagents:
         - ReagentId: Water
           Quantity: 5
+      maxVolume: 33
     - type: SolutionPurge
       solution: absorbed
       preserve:
