@@ -114,3 +114,43 @@ chatsan-replacement-41 = o que você tá fazendo
 
 chatsan-word-42 = ofc
 chatsan-replacement-42 = é claro
+
+chatsan-word-43 = pdc
+chatsan-replacement-43 = podes crer
+
+chatsan-word-44 = pdp
+chatsan-replacement-44 = pode pá
+
+chatsan-word-45 = tlg
+chatsan-replacement-45 = tô ligada
+
+chatsan-word-46 = tmj
+chatsan-replacement-46 = tamo junto
+
+chatsan-word-47 = fmz
+chatsan-replacement-47 = firmeza
+
+chatsan-word-48 = blz
+chatsan-replacement-48 = beleza
+
+chatsan-word-49 = pqp
+chatsan-replacement-49 = puta que pariu
+
+chatsan-word-50 = fdp
+chatsan-replacement-50 = filha da puta
+
+chatsan-word-51 = ctz
+chatsan-replacement-51 = certeza
+
+chatsan-word-52 = fml
+chatsan-replacement-52 = família
+
+chatsan-word-53 = maints
+chatsan-word-54 = maits
+chatsan-replacement-manutencao = manutenção
+
+chatsan-word-55 = cia
+chatsan-replacement-55 = companhia
+
+chatsan-word-56 = obg
+chatsan-replacement-56 = obrigada
