@@ -82,7 +82,7 @@ ui-options-header-dev = Desenvolvimento
 ui-options-header-general = Geral
 
 ui-options-hotkey-keymap = Usar teclas QWERTY
-ui-options-hotkey-toggle-walk = Alternar caminhada
+ui-options-hotkey-toggle-walk = Alternar caminhar
 
 ui-options-function-move-up = Mover pra Cima
 ui-options-function-move-left = Mover pra Esquerda
