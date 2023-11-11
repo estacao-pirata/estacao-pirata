@@ -32,6 +32,6 @@ power-switchable-voltage = { $voltage ->
     [MV] [color=yellow]MV[/color]
     *[LV] [color=green]LV[/color]
 }
-power-switchable-switch-voltage = Troque para {$voltage}
+power-switchable-switch-voltage = Trocar para {$voltage}
 
 fuel-generator-verb-disable-on = Desligue o gerador primeiro!

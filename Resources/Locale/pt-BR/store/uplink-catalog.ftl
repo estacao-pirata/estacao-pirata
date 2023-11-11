@@ -266,11 +266,14 @@ uplink-cyberpen-desc = Caneta do departamento jurídico da Cybersun. Cheira vaga
 uplink-decoy-disk-name = Nuclear Disk Falso
 uplink-decoy-disk-desc = Um pedaço de plástico com uma impressão lenticular, feita para parecer um disco de autenticação nuclear.
 
-uplink-cigarettes-name = Syndicate Smokes Packet
+uplink-cigarettes-name = Pacote de Fumo do Sindicato
 uplink-cigarettes-desc = Cigarros de elite para agentes de elite. Infundido com medicamentos para quando você precisa fazer mais do que acalmar seus nervos.
 
+uplink-snack-box-name = Caixa de Lanche do Sindicato
+uplink-snack-box-desc = Uma caixa de deliciosos lanches e bebidas para comer sozinho ou com sua equipe. Inclui um brinquedo que você não queria.
+
 uplink-eshield-name = Energy Shield
-uplink-eshield-desc = Exotic energy shield that reflects almost all laser beams, as well as a little protection from bullets and other physical attacks.
+uplink-eshield-desc = Escudo de energia exótica que reflete quase todos os feixes de laser, e que ainda conta com um pouco de proteção contra balas e outros ataques físicos.
 
 uplink-soap-name = Sabão
 uplink-soap-desc = Uma barra de sabão não confiável. - Tem cheiro de medo.

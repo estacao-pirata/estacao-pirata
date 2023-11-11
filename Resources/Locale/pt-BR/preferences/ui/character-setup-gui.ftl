@@ -1,5 +1,5 @@
 character-setup-gui-character-setup-label = Configurar Personagem
-character-setup-gui-character-setup-stats-button = Status
+character-setup-gui-character-setup-stats-button = Stats
 character-setup-gui-character-setup-rules-button = Regras
 character-setup-gui-character-setup-save-button = Salvar
 character-setup-gui-character-setup-close-button = Fechar
