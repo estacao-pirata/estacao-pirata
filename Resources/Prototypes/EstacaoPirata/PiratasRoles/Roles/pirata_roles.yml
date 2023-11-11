@@ -47,7 +47,7 @@
     shoes: ClothingShoesColorBrown
     id: ComercianteIDCard
     ears: ClothingHeadsetGrey
-  innerclothingskirt: ClothingUniformJumpskirtLawyerBlue
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlue
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
 
