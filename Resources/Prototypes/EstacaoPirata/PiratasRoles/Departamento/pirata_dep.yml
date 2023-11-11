@@ -17,3 +17,13 @@
   - Cidadao
   - Comerciante
   - Policia
+
+- type: department
+  id: Cidade
+  description: Cidadãos de um Planeta
+  color: "#9FED58"
+  roles:
+  - Cidadao
+  - Comerciante
+  - Policia
+  - Soldado

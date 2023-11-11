@@ -1,6 +1,10 @@
 - type: vendingMachineInventory
   id: AutoDrobeInventory
   startingInventory:
+    ClothingHeadMaskPomni: 1
+    ClothingUniformJumpsuitPomni: 1
+    ClothingHandsGlovesPomni: 1
+    ClothingShoesPomni: 1
     ClothingHeadHatJester: 1
     ClothingUniformJumpsuitJester: 1
     ClothingHeadHatJesterAlt: 1

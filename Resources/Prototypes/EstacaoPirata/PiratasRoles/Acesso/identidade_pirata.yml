@@ -1,5 +1,18 @@
 # Identidades para facções nao pertencente a estação
 
+# ID Cidadão
+- type: entity
+  parent: IDCardStandard
+  id: CidadaoIDCard
+  name: cidadao ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idpassenger
+  - type: PresetIdCard
+    job: Cidadao
+
 # ID Comerciante
 - type: entity
   parent: IDCardStandard
@@ -12,6 +25,19 @@
     - state: idpassenger
   - type: PresetIdCard
     job: Comerciante
+
+# ID Policia
+- type: entity
+  parent: IDCardStandard
+  id: PoliciaIDCard
+  name: policia ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idpassenger
+  - type: PresetIdCard
+    job: Policia
 
 # ID Soldado
 - type: entity

@@ -1,5 +1,30 @@
 # Definição de roupa iniciais para habitantes de Cidade e Planetas
 
+# Cidadão
+- type: job
+  id: Cidadao
+  name: cidadão
+  description: Sobreviva na Federação
+  playTimeTracker: JobCidadao
+  startingGear: CidadaoCidadeGear
+  icon: "JobIconPassenger"
+  supervisors: Leis Espaciais
+  access:
+  - External
+  - Cidadao
+
+- type: startingGear
+  id: CidadaoCidadeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitFlannel
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBlack
+    id: CidadaoIDCard
+    ears: ClothingHeadsetGrey
+  innerclothingskirt: ClothingUniformJumpskirtCurator
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
 # Comerciante
 - type: job
   id: Comerciante
@@ -22,16 +47,42 @@
     shoes: ClothingShoesColorBrown
     id: ComercianteIDCard
     ears: ClothingHeadsetGrey
-    pocket1: RadioHandheld
   innerclothingskirt: ClothingUniformJumpskirtLawyerBlue
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
 
-- type: playTimeTracker
-  id: JobComerciante
+# Policia
+- type: job
+  id: Policia
+  name: policia
+  description: Tente manter a lei e a ordem
+  playTimeTracker: JobPolicia
+  startingGear: PoliciaCidadeGear
+  icon: "JobIconPassenger"
+  supervisors: Federação Solar
+  access:
+  - External
+  - Maintenance
+  - Cidadao
+  - Policia
 
-- type: playTimeTracker
-  id: JobSoldado
+- type: startingGear
+  id: PoliciaCidadeGear
+  equipment:
+    head: ClothingHeadHatBeretBlueshield
+    jumpsuit: ClothingUniformJumpsuitColorDarkBlue
+    back: ClothingBackpackPolicia
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSunglasses
+    outerClothing: ClothingOuterArmorBasic
+    id: PoliciaIDCard
+    ears: ClothingHeadsetGrey
+    belt: ClothingBeltSecurityFilled
+    pocket1: RadioHandheld
+    pocket2: WeaponTaser
+  innerclothingskirt: ClothingUniformJumpskirtColorDarkBlue
+  satchel: ClothingBackpackSatchelPolicia
+  duffelbag: ClothingBackpackDuffelPolicia
 
 # Soldado
 - type: job
@@ -56,7 +107,7 @@
     jumpsuit: ClothingUniformJumpsuitColorDarkBlue
     back: ClothingBackpackSoldado
     shoes: ClothingShoesBootsCombatFilled
-    eyes: ClothingEyesGlassesSecurity
+    eyes: ClothingEyesGlassesSunglasses
     outerClothing: ClothingOuterArmorHeavy
     id: SoldadoIDCard
     ears: ClothingHeadsetGrey

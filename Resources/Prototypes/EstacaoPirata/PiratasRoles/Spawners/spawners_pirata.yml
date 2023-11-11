@@ -1,0 +1,65 @@
+
+# Spawn Blueshield
+- type: entity
+  id: SpawnPointBS
+  parent: SpawnPointJobBase
+  name: blueshield
+  components:
+  - type: SpawnPoint
+    job_id: Blueshield
+  - type: Sprite
+    layers:
+      - state: green
+      - state: blueshield
+
+# Spawn Cidadão
+- type: entity
+  id: SpawnPointCidadao
+  parent: SpawnPointJobBase
+  name: cidadao
+  components:
+  - type: SpawnPoint
+    job_id: Cidadao
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+# Spawn Comerciante
+- type: entity
+  id: SpawnPointComerciante
+  parent: SpawnPointJobBase
+  name: comerciante
+  components:
+  - type: SpawnPoint
+    job_id: Comerciante
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+# Spawn Policia
+- type: entity
+  id: SpawnPointPolicia
+  parent: SpawnPointJobBase
+  name: policia
+  components:
+  - type: SpawnPoint
+    job_id: Policia
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+# Spawn Soldado
+- type: entity
+  id: SpawnPointSoldado
+  parent: SpawnPointJobBase
+  name: soldado
+  components:
+  - type: SpawnPoint
+    job_id: Soldado
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
