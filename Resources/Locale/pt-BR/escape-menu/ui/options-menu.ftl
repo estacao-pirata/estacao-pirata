@@ -82,6 +82,7 @@ ui-options-header-dev = Desenvolvimento
 ui-options-header-general = Geral
 
 ui-options-hotkey-keymap = Usar teclas QWERTY
+ui-options-hotkey-toggle-walk = Alternar caminhar
 
 ui-options-function-move-up = Mover pra Cima
 ui-options-function-move-left = Mover pra Esquerda
@@ -147,6 +148,7 @@ ui-options-function-escape-context = Fechar a janela recente ou alterna menu do 
 
 ui-options-function-take-screenshot = Tirar screenshot
 ui-options-function-take-screenshot-no-ui = Tirar screenshot (Sem UI)
+ui-options-function-toggle-fullscreen = Alternar para o modo tela cheia
 
 ui-options-function-editor-place-object = Colocar Objeto
 ui-options-function-editor-cancel-place = Cancelar Posicionamento

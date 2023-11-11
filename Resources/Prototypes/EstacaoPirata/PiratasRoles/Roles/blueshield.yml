@@ -29,7 +29,7 @@
   - Medical
   - Brig
   - External
-  
+
 
 - type: startingGear
   id: BlueshieldGear
@@ -45,6 +45,6 @@
     pocket1: WeaponDisabler
     id: BlueshieldPDA
     ears: ClothingHeadsetAltSecurity
-  innerclothingskirt: ClothingUniformJumpskirtHoP
+  innerClothingSkirt: ClothingUniformJumpskirtHoP
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled

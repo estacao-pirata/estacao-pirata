@@ -34,6 +34,7 @@ guide-entry-botanicals = Botânica
 guide-entry-cloning = Clonagem
 guide-entry-cryogenics = Criogênica
 guide-entry-science = Ciência
+guide-entry-technologies = Tecnologias
 guide-entry-anomalous-research = Pesquisa Anômala
 guide-entry-scanners-and-vessels = Escaners e Vassalos
 guide-entry-ape = A.P.E.
@@ -50,6 +51,7 @@ guide-entry-antagonists = Antagonistas
 guide-entry-nuclear-operatives = Operativos Nucleares
 guide-entry-traitors = Traidores
 guide-entry-zombies = Zumbis
+guide-entry-revolutionaries = Revolucionários
 guide-entry-minor-antagonists = Antagonistas Menores
 guide-entry-space-ninja = Space Ninja
 

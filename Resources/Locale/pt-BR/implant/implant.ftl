@@ -1,6 +1,7 @@
 ﻿## Implanter Attempt Messages
 
 implanter-component-implanting-target = {$user} está tentando implantar algo em você!
+implanter-component-implant-failed = O {$implant} não pode ser dado a {$target}!
 implanter-draw-failed-permanent = O {$implant} em {$target} está engastado neles e não pode ser removido!
 implanter-draw-failed = Você tentou remover um implante mas não encontrou nada.
 

@@ -28,6 +28,7 @@ head-rev-break-mindshield = O Mindshield foi destruído!
 
 roles-antag-rev-name = Revolucionário
 roles-antag-rev-objective = Seu objetivo é garantir a segurança e obedecer às ordens dos Líderes Revolucionários, ao mesmo tempo que elimina todos os membros da equipe de Comando na estação.
+
 rev-break-control = {$name} se lembrou de sua verdadeira lealdade!
 
 rev-role-greeting =
@@ -45,6 +46,7 @@ rev-description = Há Revolucionários entre nós.
 
 rev-not-enough-ready-players = Nem todos os jogadores deram "pronto" para iniciar a partida! Tinham {$readyPlayersCount} jogadores prontos de {$minimumPlayers} necessários. Não foi possível iniciar uma Revolução.
 rev-no-one-ready = Nenhum jogador deu pronto! Não foi possivel iniciar uma Revolução.
+rev-no-heads = Não houve Líderes Revolucionários para serem selecionados. Não é possível iniciar uma revolução.
 
 rev-all-heads-dead = Todo o Comando está morto. Agora, finalize o resto da tripulação!
 
@@ -52,8 +54,8 @@ rev-won = Os Líderes da Revolução sobreviveram e eliminaram todo o Comando.
 
 rev-lost = O Comando sobreviveu e eliminou todos os Líderes da Revolução.
 
-rev-stalemate = Todos os Líderes da Revolução faleceram, assim como todo o Comando. Temos um empate.
+rev-stalemate = Todos os Líderes da Revolução e Comando morreram. É um empate.
 
-rev-reverse-stalemate = Acho que os Líderes da Revolução e o Comando esqueceram de lutar porque ambos estão vivos.
+rev-reverse-stalemate = Tanto o Comando quanto os Líderes da Revolução sobreviveram.
 
 
