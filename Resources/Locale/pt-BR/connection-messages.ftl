@@ -1,20 +1,30 @@
 whitelist-not-whitelisted = Você não está na whitelist.
+
+# proper handling for having a min/max or not
+whitelist-playercount-invalid = {$min ->
+    [0] A whitelist para este servidor só se aplica com menos de {$max} jogadores.
+    *[other] A whitelist para este servidor só se aplica com mais de {$min} {$max ->
+        [2147483647] -> jogadores, então talvez você possa entrar mais tarde.
+        *[other] -> jogadores e menos de {$max} jogadores, então talvez você possa entrar mais tarde.
+    }
+}
 whitelist-not-whitelisted-rp = Você não está na whitelist. Para entrar na whitelist, visite nosso Discord (que pode ser encontrado em https://estacaopirata.com/).
 
-command-whitelistadd-description = Adiciona o jogador na whitelist.
-command-whitelistadd-help = whitelistadd <username>
-command-whitelistadd-existing = {$username} já está na whitelist!
-command-whitelistadd-added = {$username} adicionado à whitelist
-command-whitelistadd-not-found = Usuário '{$username}' não encontrado
+cmd-whitelistadd-desc = Adiciona o jogador na whitelist.
+cmd-whitelistadd-help = whitelistadd <username>
+cmd-whitelistadd-existing = {$username} já está na whitelist!
+cmd-whitelistadd-added = {$username} adicionado à whitelist
+cmd-whitelistadd-not-found = Usuário '{$username}' não encontrado
+cmd-whitelistadd-arg-player = [player]
 
-command-whitelistremove-description = Remove o jogador da whitelist.
-command-whitelistremove-help = whitelistremove <username>
-command-whitelistremove-existing = {$username} não está na whitelist!
-command-whitelistremove-removed = {$username} removido da whitelist
-command-whitelistremove-not-found = Usuário '{$username}' não encontrado
+cmd-whitelistremove-desc = Remove o jogador da whitelist.
+cmd-whitelistremove-help = whitelistremove <username>
+cmd-whitelistremove-existing = {$username} não está na whitelist!
+cmd-whitelistremove-removed = {$username} removido da whitelist
+cmd-whitelistremove-arg-player = Usuário '{$username}' não encontrado
 
-command-kicknonwhitelisted-description = Expulsar todos os jogadores que não estão na whitelist.
-command-kicknonwhitelisted-help = kicknonwhitelisted
+cmd-kicknonwhitelisted-desc = Expulsar todos os jogadores que não estão na whitelist.
+cmd-kicknonwhitelisted-help = kicknonwhitelisted
 
 ban-banned-permanent = Este ban só será removido através de apelo.
 ban-banned-permanent-appeal = Este ban só será removido através de apelo através do link {$link}
@@ -29,11 +39,3 @@ panic-bunker-account-denied = Este servidor está em modo Pânico e você foi re
 panic-bunker-account-denied-reason = Este servidor está em modo Pânico e você foi rejeitado. Razão: "{$reason}"
 panic-bunker-account-reason-account = Tempo de vida da conta precisa ser maior que {$minutes} minutes
 panic-bunker-account-reason-overall = O tempo mínimo requerido total de jogo é {$hours} horas
-
-whitelist-playercount-invalid = {$min ->
-    [0] A whitelist para este servidor só se aplica com menos de {$max} jogadores.
-    *[other] A whitelist para este servidor só se aplica com mais de {$min} {$max ->
-        [2147483647] -> jogadores, então talvez você possa entrar mais tarde.
-        *[other] -> jogadores e menos de {$max} jogadores, então talvez você possa entrar mais tarde.
-    }
-}

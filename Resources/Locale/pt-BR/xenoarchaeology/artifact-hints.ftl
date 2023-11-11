@@ -36,3 +36,4 @@ artifact-trigger-hint-pressure = Pressão extrema
 artifact-trigger-hint-land = Desaceleração ativa
 artifact-trigger-hint-regular-gases = Gases atmosféricos padrão
 artifact-trigger-hint-plasma = Plasma Gasoso
+artifact-trigger-hint-examine = Examinar

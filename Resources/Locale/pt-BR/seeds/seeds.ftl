@@ -97,3 +97,5 @@ seeds-berries-name = bagas
 seeds-berries-display-name = arbusto de baga
 seeds-bungo-name = bungo
 seeds-bungo-display-name = planta de bungo
+seeds-pumpkin-name = abóbora
+seeds-pumpkin-display-name = abóboras
