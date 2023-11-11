@@ -18,7 +18,7 @@ uplink-edagger-name = Adaga de Energia
 uplink-edagger-desc = Uma pequena lâmina de energia convenientemente disfarçada em forma de caneta.
 
 uplink-esword-double-name = Double Bladed Energy Sword
-uplink-esword-double-desc = Uma alternativa muito mais cara à espada de energia normal: com uma chance de reflexão muito maior, ângulo de ataque maior, maior dano estrutural e balanço mais rápido, tudo ao custo de menos calor e danos em corte. Faz um monte de barulho quando usado ou ligado. Agora com alça de borracha rugosa!
+uplink-esword-double-desc = Uma alternativa muito mais cara à espada de energia normal: com uma chance de reflexão muito maior, ângulo de ataque maior, maior dano estrutural e balanço mais rápido. Faz um monte de barulho quando usado ou ligado. Agora com alça de borracha rugosa!
 
 uplink-fire-axe-flaming-name = Machado de Fogo
 uplink-fire-axe-flaming-desc = Uma arma de estilo clássico infundida com avançada tecnologia de atmos para permitir que ela incendeie alvos.

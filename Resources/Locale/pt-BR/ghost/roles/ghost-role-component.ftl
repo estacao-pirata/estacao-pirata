@@ -156,7 +156,7 @@ ghost-role-information-cburn-agent-name = CBURN Agent
 ghost-role-information-cburn-agent-description = Um agente CentCom altamente treinado, capaz de lidar com várias ameaças.
 
 ghost-role-information-centcom-official-name = CentCom official
-ghost-role-information-centcom-official-description = Inspecionar a estação, faça avaliações de desempenho para chefes de departamento, incomode o capitão.
+ghost-role-information-centcom-official-description = Desempenhar funções relacionadas ao CentComm, como inspecionar a estação, anotar avaliações de desempenho para chefes de equipe e gerenciar o aparelho de fax.
 
 ghost-role-information-nukeop-rules = You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
 
@@ -166,3 +166,6 @@ ghost-role-information-loneop-rules = Você é um agente do sindicato encarregad
 
 ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = Você é um antagonista, traga a morte e buzinas para aqueles que não seguem a honkmother.
+
+ghost-role-information-Death-Squad-name = Death Squad Operative
+ghost-role-information-Death-Squad-description = Prepare-se para uma ofensiva total na estação. Como um agente fortemente armado, sua missão é destruir toda a vida em seu caminho. Sem testemunhas.

@@ -92,6 +92,7 @@ flavor-complex-eggplant = de beringela
 flavor-complex-carrot = de cenoura
 flavor-complex-cabbage = de repolho
 flavor-complex-potatoes = de batata
+flavor-complex-pumpkin = de abóboras
 flavor-complex-mushroom = de cogumelo
 flavor-complex-tomato = de tomate
 flavor-complex-corn = de milho

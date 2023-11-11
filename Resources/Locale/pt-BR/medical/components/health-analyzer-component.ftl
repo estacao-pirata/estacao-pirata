@@ -1,4 +1,5 @@
 health-analyzer-window-no-patient-data-text = Sem dados do paciente.
+health-analyzer-window-entity-unknown-text = desconhecido
 health-analyzer-window-entity-health-text = Saúde de {$entityName}:
 health-analyzer-window-entity-temperature-text = Temperatura: {$temperature}
 health-analyzer-window-entity-blood-level-text = Nível de sangue: {$bloodLevel}
