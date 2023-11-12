@@ -154,3 +154,6 @@ chatsan-replacement-55 = companhia
 
 chatsan-word-56 = obg
 chatsan-replacement-56 = obrigada
+
+chatsan-word-57 = pq
+chatsan-replacement-57 = porque
