@@ -3,6 +3,7 @@ using Content.Shared.FixedPoint;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
+using Content.Shared.Stealth.Components;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Shared.Enums;
@@ -50,6 +51,11 @@ public sealed class EntityHealthBarOverlay : Overlay
         {
             if (_entManager.TryGetComponent<MetaDataComponent>(uid, out var metaDataComponent) &&
                 metaDataComponent.Flags.HasFlag(MetaDataFlags.InContainer))
+            {
+                continue;
+            }
+
+            if (_entManager.HasComponent<StealthComponent>(uid))
             {
                 continue;
             }
