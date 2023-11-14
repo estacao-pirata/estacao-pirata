@@ -21,7 +21,7 @@
     shoes: ClothingShoesColorBlack
     id: CidadaoIDCard
     ears: ClothingHeadsetGrey
-  innerclothingskirt: ClothingUniformJumpskirtCurator
+  innerClothingSkirt: ClothingUniformJumpskirtCurator
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
 
@@ -80,7 +80,7 @@
     belt: ClothingBeltSecurityFilled
     pocket1: RadioHandheld
     pocket2: WeaponTaser
-  innerclothingskirt: ClothingUniformJumpskirtColorDarkBlue
+  innerClothingSkirt: ClothingUniformJumpskirtColorDarkBlue
   satchel: ClothingBackpackSatchelPolicia
   duffelbag: ClothingBackpackDuffelPolicia
 
@@ -114,6 +114,6 @@
     belt: ClothingBeltMilitarySoldado
     pocket1: RadioHandheld
     pocket2: WeaponPistolMk58
-  innerclothingskirt: ClothingUniformJumpskirtColorDarkBlue
+  innerClothingSkirt: ClothingUniformJumpskirtColorDarkBlue
   satchel: ClothingBackpackSatchelSoldado
   duffelbag: ClothingBackpackDuffelSoldado
