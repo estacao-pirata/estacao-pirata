@@ -139,8 +139,8 @@
     sprite: Structures/Machines/cloning.rsi
     state: pod_0
   discipline: Biochemical
-  tier: 3
-  cost: 15000
+  tier: 2
+  cost: 10000
   recipeUnlocks:
   - CloningPodMachineCircuitboard
   - MedicalScannerMachineCircuitboard
