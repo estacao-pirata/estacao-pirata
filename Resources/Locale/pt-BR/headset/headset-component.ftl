@@ -14,6 +14,7 @@ chat-radio-security = Segurança
 chat-radio-service = Serviço
 chat-radio-supply = Carga
 chat-radio-syndicate = Sindicato
+chat-radio-freelance = Freelance
 
 # not headset but whatever
 chat-radio-handheld = Portátil
