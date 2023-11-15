@@ -13,3 +13,8 @@ stat-lathe-values = Preços de venda da Lathe
 stat-lathe-id = ID
 stat-lathe-cost = Custo
 stat-lathe-sell = Preço de venda
+
+# Item Sizes
+stat-item-values = Tamanhos dos itens
+stat-item-id = ID
+stat-item-price = Tamanho

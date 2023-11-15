@@ -8,6 +8,7 @@ anomaly-vessel-component-upgrade-output = apontar saída
 anomaly-particles-delta = Partículas Delta
 anomaly-particles-epsilon = Partículas Epsilon
 anomaly-particles-zeta = Partículas Zeta
+anomaly-particles-omega = Partículas Omega
 
 anomaly-scanner-component-scan-complete = Escan completao!
 
@@ -23,6 +24,9 @@ anomaly-scanner-particle-danger = - [color=crimson]Tipo perigoso:[/color] {$type
 anomaly-scanner-particle-unstable = - [color=plum]Tipo instável:[/color] {$type}
 anomaly-scanner-particle-containment = - [color=goldenrod]Tipo de contensão:[/color] {$type}
 anomaly-scanner-pulse-timer = Tempo até próximo pulso: [color=gray]{$time}[/color]
+
+anomaly-sync-connected = Anomalia anexada com sucesso
+anomaly-sync-disconnected = A conexão com a anomalia foi perdida!
 
 anomaly-generator-ui-title = gerador de anomalia
 anomaly-generator-fuel-display = Combustível:

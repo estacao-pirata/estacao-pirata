@@ -43,6 +43,7 @@ flavor-base-piquant = picante
 flavor-base-sharp = intenso
 flavor-base-syrupy = xaroposo
 flavor-base-spaceshroom = misterioso
+flavor-base-clean = limpo
 
 # lmao
 flavor-base-terrible = terrível
@@ -213,3 +214,4 @@ flavor-complex-carpet = de pelo
 flavor-complex-bee = inacreditável
 flavor-complex-sax = de jazz
 flavor-complex-bottledlightning = como um relâmpago engarrafado
+flavor-complex-punishment = de punição

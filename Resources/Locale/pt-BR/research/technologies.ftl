@@ -19,6 +19,7 @@ research-technology-advanced-atmospherics = Tecnologias Advançado de Ar
 research-technology-advanced-tools = Ferramentas Advançadas
 research-technology-super-powercells = Super Baterias
 research-technology-bluespace-storage = Armazenamento Bluespace
+research-technology-portable-fission = Fissão Portátil
 
 research-technology-chemistry = Química
 research-technology-surgical-tools = Ferramentas Cirúrgicas
@@ -52,7 +53,7 @@ research-technology-advanced-parts = Partes Advançadas
 research-technology-grappling = Agarrar
 research-technology-abnormal-artifact-manipulation = Manipulação de Artefatos Anômalos
 research-technology-gravity-manipulation = Manipulação de Gravidade
-research-technology-mobile-anomaly-tech = Tecnologia Móvel de Anomalia
+research-technology-advanced-anomaly-research = Tecnologia Móvel de Anomalia
 research-technology-rped = Troca Rápida de Peças
 research-technology-super-parts = Super Peças
 
@@ -69,3 +70,4 @@ research-technology-meat-manipulation = Manipulação de Carne
 research-technology-honk-mech = Meca H.O.N.K.
 research-technology-advanced-spray = Spray Avançado
 research-technology-bluespace-cargo-transport = Bluespace Transporte de Cargas
+research-technology-quantum-fiber-weaving = Tecelagem de fibra quântica

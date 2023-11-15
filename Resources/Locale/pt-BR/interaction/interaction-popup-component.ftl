@@ -7,6 +7,7 @@ petting-success-soft-floofy = Você acaricia {THE($target)} levemente em sua cab
 
 petting-success-bingus = Você acaricia {THE($target)} em sua cabecinha enrugada.
 petting-success-bird = Você acaricia {THE($target)} em sua cabeça emplumada.
+petting-success-carp = Você acaricia {THE($target)} em sua cabecinha de peixe.
 petting-success-cat = Você acaricia {THE($target)} em sua cabeça pequena e felpuda.
 petting-success-corrupted-corgi = Em um ato de arrogância, você acaricia {THE($target)} em sua amaldiçoada cabecinha.
 petting-success-crab = Você acaricia {THE($target)} em sua cabecinha suave.
@@ -32,6 +33,7 @@ petting-success-slimes = Voce acaricia {THE($target)} em sua superfície mucosa.
 petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
 
 petting-failure-bat = Você tenta acariciar {THE($target)}, mas ele(a) é muito difícil de pegar!
+petting-failure-carp = Você tenta acariciar {THE($target)}, mas ele(a) dentes afiados fazem você pensar duas vezes.
 petting-failure-corrupted-corgi = Você tenta acariciar {THE($target)}, mas pensa melhor sobre isso.
 petting-failure-crab = Você tenta acariciar {THE($target)}, mas ele(a) aponta suas pinças em sua direção!
 petting-failure-dehydrated-carp = Você acaricia {THE($target)} em sua seca cabecinha.
@@ -39,7 +41,7 @@ petting-failure-goat = Você tenta acariciar {THE($target)}, mas ele(a) recusa t
 petting-failure-goose = Você tenta acariciar {THE($target)}, mas ele(a) é horrível demais!
 petting-failure-kangaroo = Você tenta acariciar {THE($target)}, mas ele(a) é muito australiano!
 petting-failure-possum = Você tenta acariciar {THE($target)}, mas é recebido com chiados e rosnados!
-petting-success-pig = Você tenta acariciar {THE($target)}, mas é recebidos com guinchos e gritos irritados!
+petting-failure-pig = Você tenta acariciar {THE($target)}, mas é recebidos com guinchos e gritos irritados!
 petting-failure-raccoon = Você tenta acariciar {THE($target)}, mas {THE($target)} está ocupado guaxinando por aí.
 petting-failure-sloth = Você tenta acariciar {THE($target)}, mas ele(a) de algum jeito desvia com uma velocidade ridícula!
 petting-failure-holo = Você tenta acariciar {THE($target)}, mas os espinhos dele(a) quase impalam sua mão!

@@ -45,3 +45,18 @@ signal-port-description-air-warning = Essa porta é chamada com ALTO quando em m
 
 signal-port-name-air-normal = Normal
 signal-port-description-air-normal = Essa porta é chamada com ALTO quando em modo normal e em BAIXO quando não.
+
+signal-port-name-decaying = Decadência
+signal-port-description-decaying = Esta porta é invocada quando uma anomalia vinculada começa a decair.
+
+signal-port-name-stabilize = Estabilizada
+signal-port-description-stabilize = Esta porta é invocada quando uma anomalia associada é normalizada.
+
+signal-port-name-growing = Crescente
+signal-port-description-growing = Esta porta é invocada quando uma anomalia associada começa a crescer.
+
+signal-port-name-pulse = Pulso
+signal-port-description-pulse = Esta porta é invocada quando uma anomalia vinculada está pulsando.
+
+signal-port-name-supercrit = Supercrítico
+signal-port-description-supercrit = Esta porta é invocada quando uma anomalia vinculada explode após o estado supercrit.

@@ -22,3 +22,5 @@ ent-CrateMaterialPlasma = Caixa de plasma sólido
 ent-CrateMaterialCardboard = Caixa contendo papelão
     .desc = 60 folhas de papelão.
     
+ent-CrateMaterialPaper = Caixa de papel
+    .desc = 90 folhas de papel.
