@@ -163,7 +163,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: Item
-    size: Normal
+    size: Large
   - type: BallisticAmmoProvider
     capacity: 4
 
