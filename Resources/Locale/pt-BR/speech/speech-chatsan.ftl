@@ -157,3 +157,7 @@ chatsan-replacement-56 = obrigada
 
 chatsan-word-57 = pq
 chatsan-replacement-57 = porque
+
+chatsan-word-58 = pse
+chatsan-word-59 = psé
+chatsan-replacement-poise = pois é
