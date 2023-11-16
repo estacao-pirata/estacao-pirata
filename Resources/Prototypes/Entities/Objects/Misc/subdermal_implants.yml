@@ -213,7 +213,6 @@
     - type: ExplodeOnTrigger
     - type: GibOnTrigger
       deleteItems: true
-      gibOrgans: true
     - type: Explosive
       explosionType: MicroBomb
       totalIntensity: 120
