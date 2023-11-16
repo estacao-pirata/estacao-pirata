@@ -4,8 +4,8 @@ reagent-desc-blood = Espero que seja ketchup.
 reagent-name-slime = slime
 reagent-desc-slime = Você pensou que isso era sangue gradiente no início, mas você estava enganado.
 
-reagent-name-spider-blood = sangue azul
-reagent-desc-spider-blood = Não tem gosto de suco de mirtilo.
+reagent-name-hemocyanin-blood = sangue azul
+reagent-desc-hemocyanin-blood = Contém cobre em oposição ao ferro, o que lhe confere uma cor azul distinta.
 
 reagent-name-zombie-blood = sangue de zumbi
 reagent-desc-zombie-blood = Não aconselharia comer. Pode ser usado para criar uma inoculação contra a infecção.
@@ -15,3 +15,6 @@ reagent-desc-ichor = Um químico regenerativo extremamente potente, aperfeiçoad
 
 reagent-name-fat = gordura
 reagent-desc-fat = Não importa como foi obtido, sua aplicação é importante.
+
+reagent-name-vomit = vomito
+reagent-desc-vomit = Você pode ver alguns pedaços da última refeição de alguém nele.
