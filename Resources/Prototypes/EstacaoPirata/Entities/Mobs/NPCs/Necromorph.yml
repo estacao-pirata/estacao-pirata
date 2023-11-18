@@ -1,0 +1,72 @@
+- type: entity
+  parent:
+  - SimpleSpaceMobBase
+  - BaseMobFlesh
+  id: NecromorphSlasher
+  name: Slasher
+  description: Um antigo cadaver, um atual predador e necrofago. Alguns ainda são reconhecíveis, mesmo depois de sua transcendência.
+  components:
+  - type: Tool
+    speed: 1.5
+    qualities:
+      - Prying
+  - type: Prying
+    pryPowered: !type:Bool
+        true
+    force: !type:Bool
+      true
+    useSound:
+      path: /Audio/Items/crowbar.ogg
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Demons/abomination.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: abomination
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: abomination
+      Critical:
+        Base: crit
+      Dead:
+        Base: dead
+    allowedStates:
+    - Alive
+    - Crit
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      100: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1.5
+    baseSprintSpeed: 2.5
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+        path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
+    angle: 0
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 5
+        Piercing: 15
+  - type: Tag
+    tags:
+    - CannotSuicide
+
+- type: damageModifierSet
+  id: DeadNecromorph
+  coefficients:
+    Blunt: 0.6
+    Slash: 0.8
+    Piercing: 0.5
+    Cold: 0.0
+    Heat: 1.5
+    Poison: 0.5
+    Radiation: 0.0
+    Asphyxiation: 0.0
+    Bloodloss: 0.0
+    Cellular: 0.0
+    Structural: 0.5
