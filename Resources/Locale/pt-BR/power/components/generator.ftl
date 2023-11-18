@@ -22,19 +22,16 @@ portable-generator-ui-clogged = Contaminantes detectados no tanque de combustív
 portable-generator-ui-eject = Ejetar
 portable-generator-ui-eta = (~{ $minutes } min)
 portable-generator-ui-unanchored = Não ancorado
+portable-generator-ui-current-output = Saída atual: {$voltage}
 
-power-switchable-generator-examine = A saída de energia está definida para { $output ->
-[HV] [color=orange]HV[/color]
-*[MV] [color=yellow]MV[/color]
-    }.
+power-switchable-generator-examine = A saída de energia está definida para {$voltage}.
+power-switchable-generator-switched = Saída trocada para {$voltage}!
 
-portable-generator-ui-switch-hv = Saída atual: HV
-portable-generator-ui-switch-mv = Saída atual: MV
+power-switchable-voltage = { $voltage ->
+    [HV] [color=orange]HV[/color]
+    [MV] [color=yellow]MV[/color]
+    *[LV] [color=green]LV[/color]
+}
+power-switchable-switch-voltage = Trocar para {$voltage}
 
-portable-generator-ui-switch-to-hv = Mudar para HV
-portable-generator-ui-switch-to-mv = Mudar para MV
-
-power-switchable-generator-verb-hv = Mudar a saída para HV
-power-switchable-generator-verb-mv = Mudar a saída para MV
-power-switchable-generator-verb-disable-on = Desligue o gerador primeiro!
-power-switchable-generator-switched-output = Saída trocada!
+fuel-generator-verb-disable-on = Desligue o gerador primeiro!

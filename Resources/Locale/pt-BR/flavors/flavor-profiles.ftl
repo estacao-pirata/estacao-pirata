@@ -43,6 +43,7 @@ flavor-base-piquant = picante
 flavor-base-sharp = intenso
 flavor-base-syrupy = xaroposo
 flavor-base-spaceshroom = misterioso
+flavor-base-clean = limpo
 
 # lmao
 flavor-base-terrible = terrível
@@ -92,6 +93,7 @@ flavor-complex-eggplant = de beringela
 flavor-complex-carrot = de cenoura
 flavor-complex-cabbage = de repolho
 flavor-complex-potatoes = de batata
+flavor-complex-pumpkin = de abóboras
 flavor-complex-mushroom = de cogumelo
 flavor-complex-tomato = de tomate
 flavor-complex-corn = de milho
@@ -212,3 +214,4 @@ flavor-complex-carpet = de pelo
 flavor-complex-bee = inacreditável
 flavor-complex-sax = de jazz
 flavor-complex-bottledlightning = como um relâmpago engarrafado
+flavor-complex-punishment = de punição

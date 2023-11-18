@@ -1,6 +1,7 @@
 using Content.Server.Chemistry.Components;
-using Content.Server.Chemistry.Components.SolutionManager;
 using Content.Shared.Chemistry.Components;
+using Content.Shared.Chemistry.Components.SolutionManager;
+using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.FixedPoint;
 using Robust.Shared.Timing;
 
@@ -32,7 +33,16 @@ public sealed class SolutionRegenerationSystem : EntitySystem
             regen.NextRegenTime = _timing.CurTime + regen.Duration;
             if (_solutionContainer.TryGetSolution(uid, regen.Solution, out var solution, manager))
             {
-                var amount = FixedPoint2.Min(solution.AvailableVolume, regen.Generated.Volume);
+                var primaryReagentId = regen.Generated.GetPrimaryReagentId();
+                var available = solution.AvailableVolume;
+                // don't generate an amount greater than MaxVolume if there is one
+                if (regen.MaxVolume > 0.0 && primaryReagentId is not null)
+                {
+                    available = FixedPoint2.Min(available, regen.MaxVolume
+                                    - solution.GetReagentQuantity(primaryReagentId ?? default));
+                }
+
+                var amount = FixedPoint2.Min(available, regen.Generated.Volume);
                 if (amount <= FixedPoint2.Zero)
                     continue;
 

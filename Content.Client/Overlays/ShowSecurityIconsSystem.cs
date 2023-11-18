@@ -7,6 +7,7 @@ using Content.Shared.StatusIcon.Components;
 using Robust.Shared.Prototypes;
 
 namespace Content.Client.Overlays;
+
 public sealed class ShowSecurityIconsSystem : EquipmentHudSystem<ShowSecurityIconsComponent>
 {
     [Dependency] private readonly IPrototypeManager _prototypeMan = default!;
@@ -24,7 +25,7 @@ public sealed class ShowSecurityIconsSystem : EquipmentHudSystem<ShowSecurityIco
 
     private void OnGetStatusIconsEvent(EntityUid uid, StatusIconComponent _, ref GetStatusIconsEvent @event)
     {
-        if (!IsActive || @event.InContainer)
+        if (!IsActive || @event.InContainer || @event.HasStealthComponent)
         {
             return;
         }

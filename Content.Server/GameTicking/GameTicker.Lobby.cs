@@ -3,10 +3,8 @@ using Content.Shared.GameTicking;
 using Content.Server.Station.Components;
 using Content.Shared.CCVar;
 using Robust.Server.GameObjects;
-using Robust.Server.Player;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
-using Robust.Shared.Players;
 using System.Text;
 
 namespace Content.Server.GameTicking
@@ -87,7 +85,7 @@ namespace Content.Server.GameTicking
                 ("roundId", RoundId), ("playerCount", playerCount), ("readyCount", readyCount), ("mapName", stationNames.ToString()),("gmTitle", gmTitle),("desc", desc));
         }
 
-        private TickerLobbyStatusEvent GetStatusMsg(IPlayerSession session)
+        private TickerLobbyStatusEvent GetStatusMsg(ICommonSession session)
         {
             _playerGameStatuses.TryGetValue(session.UserId, out var status);
             return new TickerLobbyStatusEvent(RunLevel != GameRunLevel.PreRoundLobby, LobbySong, LobbyBackground,status == PlayerGameStatus.ReadyToPlay, _roundStartTime, RoundPreloadTime, _roundStartTimeSpan, Paused);
@@ -95,7 +93,7 @@ namespace Content.Server.GameTicking
 
         private void SendStatusToAll()
         {
-            foreach (var player in _playerManager.ServerSessions)
+            foreach (var player in _playerManager.Sessions)
             {
                 RaiseNetworkEvent(GetStatusMsg(player), player.ConnectedClient);
             }
@@ -153,7 +151,7 @@ namespace Content.Server.GameTicking
             }
         }
 
-        public void ToggleReady(IPlayerSession player, bool ready)
+        public void ToggleReady(ICommonSession player, bool ready)
         {
             if (!_playerGameStatuses.ContainsKey(player.UserId))
                 return;

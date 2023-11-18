@@ -11,7 +11,7 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Timing;
 using Robust.Shared.Network;
 using Robust.Shared.Random;
-using Robust.Shared.Players;
+using Robust.Shared.Player;
 using Robust.Shared;
 
 namespace Content.Server.Redial;

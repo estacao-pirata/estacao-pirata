@@ -38,3 +38,5 @@ trait-wheelchair-bound-desc = Você não pode se mover sem sua cadeira de rodas.
 trait-frontal-lisp-name = Ceceio Frontal
 trait-frontal-lisp-desc = Você fala com um thetheio
 
+trait-socialanxiety-name = Ansiedade social
+trait-socialanxiety-desc = Você fica ansioso quando fala e gagueja.
