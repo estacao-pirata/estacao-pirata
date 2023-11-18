@@ -195,9 +195,6 @@ accent-dwarf-words-replace-63 = be
 accent-dwarf-words-64 = am
 accent-dwarf-words-replace-64 = be
 
-accent-dwarf-words-65 = beer
-accent-dwarf-words-replace-65 = booze
-
 accent-dwarf-words-66 = food
 accent-dwarf-words-replace-66 = grub
 

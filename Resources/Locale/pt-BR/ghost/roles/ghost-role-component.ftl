@@ -58,6 +58,9 @@ ghost-role-information-salvage-carp-description = Defenda o saque dentro do nauf
 ghost-role-information-sentient-carp-name = Carpa Senciente
 ghost-role-information-sentient-carp-description = Ajude o dragão a encher a estação de carpas!
 
+ghost-role-information-salvage-shark-name = Sharkminnow espacial em naufrágio de salvamento
+ghost-role-information-salvage-shark-description = Ajude as carpas mais jovens a proteger suas presas. Cheire o sangue!
+
 ghost-role-information-willow-name = Willow o canguru
 ghost-role-information-willow-description = Você é um canguru chamado Willow! Willow gosta de caixa.
 
@@ -171,4 +174,8 @@ ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = Você é um antagonista, traga a morte e buzinas para aqueles que não seguem a honkmother.
 
 ghost-role-information-Death-Squad-name = Death Squad Operative
-ghost-role-information-Death-Squad-description = Prepare-se para uma ofensiva total na estação. Como um agente fortemente armado, sua missão é destruir toda a vida em seu caminho. Sem testemunhas.
+ghost-role-information-Death-Squad-description = Um dos principais agentes de assuntos internos da Nanotrasen. Aguarde ordens do CentComm ou de um oficial.
+
+ghost-role-information-Cak-name = Cak
+ghost-role-information-Cak-description = Você é o filho favorito do chef. Você é gato-bolo vivo.
+ghost-role-information-Cak-rules = Você é um doce gato vivo e comestível. Sua tarefa é encontrar o seu lugar neste mundo onde tudo quer te comer.

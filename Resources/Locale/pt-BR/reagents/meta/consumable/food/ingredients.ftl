@@ -11,7 +11,10 @@ reagent-name-enzyme = enzima universal
 reagent-desc-enzyme = Usado para cozinhar uma variedade de pratos.
 
 reagent-name-egg = ovo
-reagent-desc-egg = Usado para assar.
+reagent-desc-egg = Embrião de frango cozido, uma delícia.
+
+reagent-name-raw-egg = ovo cru
+reagent-desc-raw-egg = Usado para assar.
 
 reagent-name-sugar = sugar
 reagent-desc-sugar = Saboroso açucar do espaço!
