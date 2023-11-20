@@ -2,7 +2,7 @@
   id: Morgue
   sound:
     params:
-      volume: -12
+      volume: -10
     collection: AmbienceSpooky
   rules: NearMorgue
   priority: 4
@@ -11,7 +11,7 @@
   id: Holy
   sound:
     params:
-      volume: -12
+      volume: -10
     collection: AmbienceHoly
   rules: NearPrayable
   priority: 4
@@ -21,7 +21,7 @@
   id: Medical
   sound:
     params:
-      volume: -12
+      volume: -10
     collection: AmbienceMedical
   rules: NearMedical
   priority: 3
@@ -30,7 +30,7 @@
   id: Engineering
   sound:
     params:
-      volume: -12
+      volume: -10
     collection: AmbienceEngineering
   rules: NearEngineering
   priority: 3
@@ -40,7 +40,7 @@
   id: Maintenance
   sound:
     params:
-      volume: -12
+      volume: -10
     collection: AmbienceMaintenance
   rules: NearMaintenance
   priority: 2
@@ -60,7 +60,7 @@
   id: Mining
   sound:
     params:
-      volume: -12
+      volume: -10
     collection: AmbienceMining
   rules: OnMapGrid
   fadeIn: true
@@ -72,7 +72,7 @@
   id: General
   sound:
     params:
-      volume: -12
+      volume: -10
     collection: AmbienceGeneral
   rules: AlwaysTrue
 
