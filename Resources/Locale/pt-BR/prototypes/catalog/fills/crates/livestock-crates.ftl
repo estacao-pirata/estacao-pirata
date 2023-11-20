@@ -19,6 +19,9 @@ ent-CrateNPCDuck = Caixa de patos
 ent-CrateNPCCorgi = Caixa de Corgi
     .desc = Uma caixa contendo um único corgi.
 
+ent-CrateNPCPuppyCorgi = Caixa de filhote de Corgi
+    .desc = Uma caixa contendo um único filhotinho de corgi. Ahhhh.
+
 ent-CrateNPCCow = Caixa de vaca
     .desc = Uma vaca com um leite muuuuito gostoso e uma carne melhor ainda.
 

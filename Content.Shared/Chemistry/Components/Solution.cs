@@ -305,6 +305,18 @@ namespace Content.Shared.Chemistry.Components
             return GetTotalPrototypeQuantity(prototype);
         }
 
+        public FixedPoint2 GetTotalPrototypeQuantity(string id)
+        {
+            var total = FixedPoint2.Zero;
+            foreach (var (reagent, quantity) in Contents)
+            {
+                if (id == reagent.Prototype)
+                    total += quantity;
+            }
+
+            return total;
+        }
+
         public ReagentId? GetPrimaryReagentId()
         {
             if (Contents.Count == 0)
