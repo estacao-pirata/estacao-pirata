@@ -110,3 +110,4 @@ tiles-wood3 = chão quebrado de madeira
 tiles-hull = chapa exterior de casco
 tiles-hull-reinforced = chapa reforçada exterior de casco
 tiles-web = teia 
+tiles-chromite = cromita

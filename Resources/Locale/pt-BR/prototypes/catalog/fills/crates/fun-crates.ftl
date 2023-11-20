@@ -51,3 +51,6 @@ ent-CrateFunBikeHornImplants = Implante de Buzina de Bicicleta Implants
 
 ent-CrateFunMysteryFigurines = Caixa de Figurinhas Misteriosas
     .desc = Uma coleção de 10 pacotes de Figurinhas Misteriosas. Repetidas não reembolsáveis.
+
+ent-CrateFunDartsSet = Conjunto de caixa de alvo de dardos
+    .desc = Uma caixa com tudo o que você precisa para um divertido jogo de dardos.
