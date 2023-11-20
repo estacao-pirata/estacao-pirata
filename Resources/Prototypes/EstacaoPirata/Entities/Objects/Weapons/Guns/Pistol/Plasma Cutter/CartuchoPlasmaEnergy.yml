@@ -13,8 +13,6 @@
     whitelist:
       tags:
         - EnergyShell
-  - type: Item
-    size: 5
   - type: ContainerContainer
   - type: Sprite
     sprite: EstacaoPirata/Objects/Weapon/Guns/Pistol/Plasma_Cutter/cartucho_plasma_cutter.rsi

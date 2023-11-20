@@ -4,6 +4,8 @@
   id: WeaponPistolPlasmaCutter
   description: Esse cortador compacto dispara raios de plasma ionizados que cortam facilmente a maioria das superfícies, rochas... e membros. Usa plasma energy como munição.
   components:
+  - type: Item
+    size: Normal
   - type: Sprite
     sprite: EstacaoPirata/Objects/Weapon/Guns/Pistol/Plasma_Cutter/plasmacutter.rsi
     layers:
@@ -11,8 +13,6 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
-  - type: Item
-    size: 15
   - type: Clothing
     sprite: EstacaoPirata/Objects/Weapon/Guns/Pistol/Plasma_Cutter/plasmacutter.rsi
     quickEquip: false
@@ -21,7 +21,6 @@
     - Belt
   - type: AmmoCounter
   - type: Gun
-    projectilespeed: 30
     fireRate: 2
     selectedMode: SemiAuto
     availableModes:
