@@ -88,3 +88,4 @@ reagent-physical-desc-exotic-smelling = de odor exótico
 reagent-physical-desc-energizing = energizante
 reagent-physical-desc-exhilarating = hilariante
 reagent-physical-desc-vibrant = vibrante
+reagent-physical-desc-fluffy = fofinho
