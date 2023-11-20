@@ -3,3 +3,9 @@
 
 - type: Tag
   id: LabGrown
+
+- type: Tag
+  id: PetWearableCat
+
+- type: Tag
+  id: BookSpaceLaw

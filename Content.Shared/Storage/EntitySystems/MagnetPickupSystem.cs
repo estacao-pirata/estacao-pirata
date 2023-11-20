@@ -1,10 +1,7 @@
 using Content.Server.Storage.Components;
-using Content.Shared.Hands;
 using Content.Shared.Inventory;
-using Content.Shared.Stacks;
 using Robust.Shared.Map;
 using Robust.Shared.Physics.Components;
-using Robust.Shared.Player;
 using Robust.Shared.Timing;
 
 namespace Content.Shared.Storage.EntitySystems;
@@ -39,7 +36,7 @@ public sealed class MagnetPickupSystem : EntitySystem
 
     private void OnMagnetMapInit(EntityUid uid, MagnetPickupComponent component, MapInitEvent args)
     {
-        component.NextScan = _timing.CurTime + TimeSpan.FromSeconds(1f);
+        component.NextScan = _timing.CurTime;
     }
 
     public override void Update(float frameTime)
@@ -50,7 +47,7 @@ public sealed class MagnetPickupSystem : EntitySystem
 
         while (query.MoveNext(out var uid, out var comp, out var storage, out var xform))
         {
-            if (comp.NextScan < currentTime)
+            if (comp.NextScan > currentTime)
                 continue;
 
             comp.NextScan += ScanDelay;
@@ -72,7 +69,7 @@ public sealed class MagnetPickupSystem : EntitySystem
 
             foreach (var near in _lookup.GetEntitiesInRange(uid, comp.Range, LookupFlags.Dynamic | LookupFlags.Sundries))
             {
-                if (comp.Whitelist?.IsValid(near, EntityManager) == false)
+                if (storage.Whitelist?.IsValid(near, EntityManager) == false)
                     continue;
 
                 if (!_physicsQuery.TryGetComponent(near, out var physics) || physics.BodyStatus != BodyStatus.OnGround)
