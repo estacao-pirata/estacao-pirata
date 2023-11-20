@@ -5,7 +5,7 @@
   components:
   - type: Tag
     tags:
-      - EnergyShell
+      - BaseEnergyShell
   - type: CartridgeAmmo
     proto: EletricPlasma
     count: 3

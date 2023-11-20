@@ -5,14 +5,14 @@
   components:
   - type: Tag
     tags:
-      - CartuchoPlasmaCutter
+      - BaseCartuchoPlasmaCutter
   - type: BallisticAmmoProvider
     mayTransfer: true
     proto: BaseEnergyShell
     capacity: 16
     whitelist:
       tags:
-        - EnergyShell
+        - BaseEnergyShell
   - type: ContainerContainer
   - type: Sprite
     sprite: EstacaoPirata/Objects/Weapon/Guns/Pistol/Plasma_Cutter/cartucho_plasma_cutter.rsi

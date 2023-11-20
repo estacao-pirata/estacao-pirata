@@ -1,3 +1,9 @@
+- type: Tag
+  id: BaseCartuchoPlasmaCutter
+
+- type: Tag
+  id: BaseEnergyShell
+
 - type: entity
   name: Plasma Cutter
   parent: BaseWeaponPistol
@@ -45,14 +51,14 @@
         priority: 2
         whitelist:
           tags:
-            - CartuchoPlasmaCutter
+            - BaseCartuchoPlasmaCutter
       gun_chamber:
         name: Chamber
         startingItem: BaseEnergyShell
         priority: 1
         whitelist:
           tags:
-            - EnergyShell
+            - BaseEnergyShell
   - type: ContainerContainer
   - type: MagazineVisuals
     magState: mag
