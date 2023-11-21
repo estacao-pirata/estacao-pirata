@@ -21,5 +21,5 @@ scramble-implant-activated-popup = Você sente na pele sua aparência se alterar
 
 ## Implant Messages
 
-deathrattle-implant-dead-message = {$user} morreu em {$position}.
-deathrattle-implant-critical-message = Sinais de vida do {$user} estão críticos, assistência imediata necessária em {$position}.
+deathrattle-implant-dead-message = {$user}{$specie} morreu em {$position}.
+deathrattle-implant-critical-message = Sinais de vida do {$user}{$specie} estão críticos, assistência imediata necessária em {$position}.

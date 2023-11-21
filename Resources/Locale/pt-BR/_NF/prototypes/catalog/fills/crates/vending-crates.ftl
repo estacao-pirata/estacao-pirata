@@ -9,3 +9,9 @@ ent-CrateVendingMachineRestockCircuitVendFilled = Caixa de reabastecimento
 
 ent-CrateVendingMachineRestockCuddlyCritterVendFilled = Caixa de reabastecimento CuddlyCritterVend
     .desc = Contém duas caixas de reabastecimento para uma máquina de venda automática CuddlyCritterVend.
+
+ent-CrateVendingMachineRestockChefvendFilled = Caixa de reabastecimento ChefVend
+    .desc = Contém duas caixas de reabastecimento para uma máquina de venda automática ChefVend.
+
+ent-CrateVendingMachineRestockCondimentStationFilled = Caixa de reabastecimento de kit de condimentos
+    .desc = Contém duas caixas de reabastecimento para um kit de condimentos.
