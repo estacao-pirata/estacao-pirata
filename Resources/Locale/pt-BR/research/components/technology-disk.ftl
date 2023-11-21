@@ -6,4 +6,5 @@ tech-disk-examine-more = Há mais imagens impressas, mas são muito pequenas par
 tech-disk-ui-name = terminal de disco de tecnologia
 tech-disk-ui-total-label = Há {$amount} pontos no servidor selecionado
 tech-disk-ui-cost-label = Cada disco custa {$amount} pontos para imprimir
-tech-disk-ui-print-button = Imprimir disco
+tech-disk-ui-print-button = Imprimir disco ({$amount})
+tech-disk-ui-print-rare-button = Imprimir disco raro ({$amount})

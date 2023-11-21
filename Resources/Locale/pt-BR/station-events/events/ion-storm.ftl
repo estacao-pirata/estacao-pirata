@@ -15,7 +15,7 @@ ion-storm-x-and-y = {$x} E {$y}
 # subjects can generally be threats or jobs or objects
 # thing is specified above it
 ion-storm-law-on-station = HÁ {$joined} {$subjects} NA ESTAÇÃO
-ion-storm-law-no-shuttle = A NAVE NÃO PODE SER CHAMADA DEVIDO À {$joined} {$subjects} NA ESTAÇÃO
+ion-storm-law-no-shuttle = A NAVE NÃO PODE SER CHAMADA DEVIDO À {$joined} {$subjects} NA FRONTEIRA
 ion-storm-law-crew-are = {$who} AGORA É {$joined} {$subjects}
 
 ion-storm-law-subjects-harmful = {$adjective} {$subjects} SÃO NOCIVOS À TRIPULAÇÃO
@@ -75,12 +75,12 @@ ion-storm-part = {$part ->
 ion-storm-law-crew-only-1 = APENAS OS {$who} {$part} DA TRIPULAÇÃO
 ion-storm-law-crew-only-2 = APENAS OS {$who} AND {$other} {$part} DA TRIPULAÇÃO
 ion-storm-law-crew-only-subjects = APENAS {$adjective} {$subjects} {$part} DA TRIPULAÇÃO
-ion-storm-law-crew-only-species = APENAS {$species} {$part} DA TRIPULAÇÃO
+ion-storm-law-crew-only-species = TODOS OS {$species} {$part} DA TRIPULAÇÃO
 ion-storm-law-crew-must-do = APENAS AQUELES QUE {$must} {$part} DA TRIPULAÇÃO
 ion-storm-law-crew-must-have = APENAS AQUELES QUE TEM {$adjective} {$objects} {$part} DA TRIPULAÇÃO
 ion-storm-law-crew-must-eat = APENAS AQUELES QUE COMEREM {$adjective} {$food} {$part} DA TRIPULAÇÃO
 
-ion-storm-law-harm = VOCÊ DEVE FERIR {$who} E NÃO PERMITÍ-LOS, POR INAÇÃO, ESCAPAR DE SER FERIDO
+ion-storm-law-harm = VOCÊ DEVE ESCORREGAR {$who} E NÃO PERMITÍ-LOS, POR INAÇÃO, ESCAPAR DE SEREM ESCORREGADOS
 ion-storm-law-protect = VOCÊ NÃO DEVE NUNCA FERIR {$who} E NÃO DEVE PERMITIR, POR INAÇÃO, QUE ELES SE FIRAM
 
 # implementing other variants is annoying so just have this one

@@ -1,7 +1,10 @@
 ## UI
 shipyard-console-invalid-vessel = Não é possível comprar navio:
 shipyard-console-menu-title = Menu do Estaleiro
-shipyard-console-docking = {$vessel} a caminho da estação, eta 60 segundos.
+shipyard-console-docking = Navio {$vessel} do Capitão {$owner} a caminho, eta 10 segundos.
+shipyard-console-leaving = Navio {$vessel} do Capitão {$owner} vendido por {$player}.
+shipyard-console-docking-secret = Navio {$vessel} a caminho, eta 10 segundos.
+shipyard-console-leaving-secret = Navio {$vessel} vendido.
 shipyard-commands-purchase-desc = Spawns e FTL doca uma embarcação especificada a partir de um arquivo de grid.
 
 shipyard-console-no-idcard = Nenhum cartão de ID presente
