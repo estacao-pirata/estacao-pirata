@@ -1,12 +1,12 @@
 <Document>
-# Cryogenics
-Cryogenics can be a bit daunting to understand, but hopefully, quick run through of this diagram, you'll learn how to work it! So, let's go over what each part does:
+# Criogenia
+A criogenia pode ser um pouco assustadora de entender, mas esperamos que, com uma rápida leitura deste diagrama, você aprenda a trabalhar com ela! Então, vamos ver o que cada parte faz:
 
-- Air in: Air comes in here through the distro or an air tank, giving those inside something to breathe, and the freezer something to chill.
-- Gas pump: Limits the network pressure, so those in the tube aren't crushed.
-- Freezer: Chills the air, and by extension, patients in the tube, so Cryoxadone can activate.
-- Gas filters: Removes waste gas (Carbon Dioxide and Nitrous Oxide) from the loop.
-- Air out: Waste gasses go here, either into a storage tank, or into the waste network.
+- Entrada de ar: O ar entra aqui por meio da distribuição ou de um tanque de ar, dando aos que estão dentro algo para respirar e ao freezer algo para resfriar.
+- Gas pump: Limita a pressão da rede, para que as pessoas no tubo não sejam esmagadas.
+- Congelador: Resfria o ar e por extensão, os pacientes no tubo, para que o Cryoxadone possa ser ativado.
+- Filtros de gás: Remove o gás residual (dióxido de carbono e óxido nitroso) do circuito.
+- Saída de ar: Os gases residuais vão para aqui, para um tanque de armazenamento ou para a rede de resíduos.
 <Box>
 <GuideEntityEmbed Entity="GasPipeBend" Rotation="90"/>
 <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
@@ -32,16 +32,16 @@ Cryogenics can be a bit daunting to understand, but hopefully, quick run through
 <GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
 </Box>
 
-Not every network will look like this, but hopefully, it's enough to give you the basic gist of how it's functioning.
+Nem toda rede terá essa aparência, mas esperamos que seja o suficiente para lhe dar uma ideia básica de como ela está funcionando.
 
-An important thing to note, winter clothing (and hardsuits) will make cryogenic treatment less, or completely ineffective. Be sure to remove cold preventative clothing before placing people in the pod.
+Um aspecto importante a ser observado é que as roupas de inverno (e os hardsuits) tornarão o tratamento criogênico menos ou completamente ineficaz. Certifique-se de remover as roupas de prevenção contra o frio antes de colocar as pessoas na cápsula.
 
-## Using the Pod
-Once things have been set up, you're going to require a specific medication, Cryoxadone. Cryoxadone heals all damage types when a patient is chilled, and can either be pre-adminsitered (with a pill), or loaded into the cell directly with a beaker. Do note, patients won't begin to heal until they've chilled to the appropriate temperature, it may be worthwhile to wait a bit before placing a beaker inside.
+## usando os Pods
+Depois que tudo estiver pronto, você precisará de um medicamento específico, o Cryoxadone. A cryoxadona cura todos os tipos de danos quando o paciente é resfriado e pode ser pré-administrada (com um comprimido) ou carregada na célula diretamente com um béquer. Observe que os pacientes não começarão a se curar até que tenham se resfriado à temperatura adequada; talvez valha a pena esperar um pouco antes de colocar um béquer dentro da célula.
 
-## Additional Information:
+## Informações adicionais:
 
-The standard pressure for a gas pump is 1.325 kpa. Cryoxadone works at under 170K, but it is standard practice to set the freezer to 100K for faster freezing.
+A pressão padrão para uma bomba de gás é de 1,325 kpa. A crioxadona funciona a menos de 170 K, mas a prática padrão é ajustar o freezer para 100 K para um congelamento mais rápido.
 
 <GuideReagentEmbed Reagent="Cryoxadone"/>
 <GuideReagentEmbed Reagent="Doxarubixadone"/>
