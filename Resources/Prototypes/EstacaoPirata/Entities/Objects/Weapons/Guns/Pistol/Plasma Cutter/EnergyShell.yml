@@ -10,7 +10,7 @@
   - type: CartridgeAmmo
     proto: EletricPlasma
     count: 3
-    spread: 12
+    spread: 15
   - type: Sprite
     sprite: EstacaoPirata/Objects/Weapon/Guns/Pistol/Plasma_Cutter/energy_shell.rsi
     layers:

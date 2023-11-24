@@ -104,8 +104,8 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 15
-        Piercing: 5
+        Slash: 5
+        Piercing: 10
   - type: Destructible
     thresholds:
     - trigger:
