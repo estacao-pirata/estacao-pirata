@@ -27,6 +27,7 @@
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
+      - !type:DumpPipeBehavior
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/pipe.rsi
     drawdepth: ThinPipe
