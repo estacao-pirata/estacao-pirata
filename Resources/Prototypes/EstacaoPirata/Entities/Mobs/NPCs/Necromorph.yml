@@ -14,8 +14,8 @@
   description: É melhor se livrar dessa coisa o quanto antes.
   components:
   - type: MovementSpeedModifier
-    baseWalkSpeed : 0
-    baseSprintSpeed : 0
+    baseWalkSpeed : 2
+    baseSprintSpeed : 2
   - type: Sprite
     drawdepth: Mobs
     sprite: EstacaoPirata/Mobs/Necromorphs/Slasher.rsi
@@ -104,8 +104,8 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 5
-        Piercing: 10
+        Slash: 15
+        Piercing: 5
   - type: Destructible
     thresholds:
     - trigger:

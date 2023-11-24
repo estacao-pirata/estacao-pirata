@@ -1,37 +1,39 @@
 - type: entity
-  id: FloorWaterEntity
-  name: water
-  description: A real thirst quencher.
+  id: FloorWaterEsgotoEntity
+  name: Água de Esgoto
+  description: Beba para matar a sede e tudo que estiver dentro de tu... Inclusive você mesmo.
   placement:
     mode: SnapgridCenter
     snap:
     - Wall
   components:
   - type: FloorOccluder
+  - type: Drink
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 5500
+        reagents:
+        - ReagentId: FluorosulfuricAcid
+          Quantity: 4500
+        - ReagentId: Water
+          Quantity: 1000
+  - type: DrainableSolution
+    solution: drink
   - type: Transform
     anchored: true
   - type: SyncSprite
   - type: Clickable
   - type: Sprite
-    sprite: Tiles/Planet/water.rsi
+    sprite: EstacaoPirata/Tiles/agua_de_esgoto.rsi
     drawdepth: BelowFloor
     layers:
       - state: shoreline_water
   - type: SlowContacts
-    walkSpeedModifier: 0.5
-    sprintSpeedModifier: 0.5
+    walkSpeedModifier: 0.8
+    sprintSpeedModifier: 0.8
   - type: Physics
     bodyType: Static
-  - type: Drink
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 5000
-        reagents:
-        - ReagentId: Water
-          Quantity: 5000
-  - type: DrainableSolution
-    solution: drink
   - type: Fixtures
     fixtures:
       fix1:

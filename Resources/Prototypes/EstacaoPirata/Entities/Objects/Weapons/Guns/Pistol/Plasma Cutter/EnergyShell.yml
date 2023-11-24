@@ -2,6 +2,7 @@
   id: BaseEnergyShell
   name: Shell Energy
   parent: BaseCartridgePistol
+  description: Um pequeno invólucro para uma pequena quantidade de plasma que na arma certa faz estrago. É usado pra carregar o cartucho do Plasma Cutter.
   components:
   - type: Tag
     tags:
@@ -9,7 +10,7 @@
   - type: CartridgeAmmo
     proto: EletricPlasma
     count: 3
-    spread: 15
+    spread: 12
   - type: Sprite
     sprite: EstacaoPirata/Objects/Weapon/Guns/Pistol/Plasma_Cutter/energy_shell.rsi
     layers:

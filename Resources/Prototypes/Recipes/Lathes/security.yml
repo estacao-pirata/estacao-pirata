@@ -23,7 +23,7 @@
 - type: latheRecipe
   id: WeaponPistolPlasmaCutter
   result: WeaponPistolPlasmaCutter
-  completetime: 10
+  completetime: 8
   materials:
    Steel: 1200
    Plastic: 240
@@ -32,11 +32,19 @@
 - type: latheRecipe
   id: BaseCartuchoPlasmaCutter
   result: BaseCartuchoPlasmaCutter
-  completetime: 2
+  completetime: 4
   materials:
    Steel: 200
    Plastic: 40
    Plasma: 160
+
+- type: latheRecipe
+  id: BaseEnergyShell
+  result: BaseEnergyShell
+  completetime: 2
+  materials:
+   Plastic: 5
+   Plasma: 15
 
 - type: latheRecipe
   id: Truncheon

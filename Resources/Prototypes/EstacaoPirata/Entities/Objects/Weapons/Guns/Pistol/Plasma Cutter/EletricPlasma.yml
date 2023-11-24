@@ -4,10 +4,6 @@
   noSpawn: true
   parent: BaseBullet
   components:
-  - type: PointLight
-    color: "#33fcff"
-    radius: 1.0
-    energy: 2.0
   - type: Sprite
     sprite: EstacaoPirata/Objects/Weapon/Guns/Pistol/Plasma_Cutter/eletricplasma.rsi
     layers:
@@ -18,7 +14,7 @@
     impactEffect: ImpactEletric
     damage:
       types:
-        Slash: 8 # cortador de plasma, preciso dizer algo?
+        Slash: 9 # cortador de plasma, preciso dizer algo?
         Heat: 4 # ar ionizado não deve ser frio, então queima. 
         Structural: 20 # Logical disse que isso não parecia uma ferramenta.
-        # Vai dar 36 de dano por disparo de Plasma Cutter mais 48 de dano estrutural para destruir estruturas.
+        # Vai dar 39 de dano por disparo de Plasma Cutter mais 60 de dano estrutural para destruir estruturas.
