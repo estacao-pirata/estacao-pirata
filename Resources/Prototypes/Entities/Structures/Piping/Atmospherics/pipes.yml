@@ -23,10 +23,11 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 200
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
+      - !type:DumpPipeBehavior
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/pipe.rsi
     drawdepth: ThinPipe
