@@ -1,11 +1,11 @@
 admin-logs-title = Admin Logs
-admin-logs-count = Mostrando {$showing}/{$total}
+admin-logs-count = Mostrando {$showing}/{$total} of {$round}
 admin-logs-pop-out = Abrir fora
 
 # Round
-admin-logs-round = Rodada {$showing}/{$total} de {$round}
+admin-logs-round = Rodada{" "}
 admin-logs-reset = Resetar
-admin-logs-reset-with-id = Reiniciar Rodada (#{$id})
+admin-logs-reset-with-id = Resetar Rodada (#{$id})
 
 # Types
 admin-logs-search-types-placeholder = Procurar Tipos (OR)
