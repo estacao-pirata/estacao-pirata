@@ -2,7 +2,7 @@
 - type: emote
   id: Scream
   category: Vocal
-  chatMessages: [screams!]
+  chatMessages: [grita!]
   chatTriggers:
     - scream
     - screams
@@ -28,11 +28,18 @@
     - yells!
     - yelled
     - yelling
+    - aa
+    - aaa
+    - aaaa
+    - aaaaa
+    - grita
+    - berra
+    - urra
 
 - type: emote
   id: Laugh
   category: Vocal
-  chatMessages: [laughs]
+  chatMessages: [ri]
   chatTriggers:
     - laugh
     - laughs
@@ -52,6 +59,11 @@
     - giggles!
     - giggling
     - giggled
+    - ri
+    - dá risada
+    - da risada
+    - gargalha
+    - risos
 
 - type: emote
   id: Honk
@@ -99,6 +111,8 @@
     - cries
     - cries.
     - cries!
+    - chora
+    - chola
 
 - type: emote
   id: Squish
@@ -149,7 +163,7 @@
 - type: emote
   id: Clap
   category: Hands
-  chatMessages: [claps!]
+  chatMessages: [bate palma!]
   chatTriggers:
     - clap
     - claps
@@ -157,11 +171,15 @@
     - claps!
     - clapping
     - clapped
+    - palma
+    - palmas
+    - bate palma
+    - bate palmas
 
 - type: emote
   id: Snap
   category: Hands
-  chatMessages: [snaps fingers] # snaps <{THEIR($ent)}> fingers?
+  chatMessages: [estala os dedos] # snaps <{THEIR($ent)}> fingers?
   chatTriggers:
     - snap
     - snaps
@@ -176,6 +194,10 @@
     - snaps their fingers!
     - snapping fingers
     - snapped fingers
+    - estala
+    - estala os dedos
+    - estrala os dedos
+    - estrala
 
 - type: emote
   id: Salute
@@ -188,6 +210,12 @@
     - salutes
     - salutes.
     - salutes!
+    - saúda
+    - sauda
+    - bate continência
+    - bate continencia
+    - continência
+    - continencia
 
 - type: emote
   id: DefaultDeathgasp
