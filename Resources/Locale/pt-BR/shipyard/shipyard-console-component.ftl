@@ -6,7 +6,6 @@ shipyard-console-leaving = Navio {$vessel} do Capitão {$owner} vendido por {$pl
 shipyard-console-docking-secret = Navio {$vessel} a caminho, eta 10 segundos.
 shipyard-console-leaving-secret = Navio {$vessel} vendido.
 shipyard-commands-purchase-desc = Spawns e FTL doca uma embarcação especificada a partir de um arquivo de grid.
-
 shipyard-console-no-idcard = Nenhum cartão de ID presente
 shipyard-console-already-deeded = Cartão de ID já tem um bem
 shipyard-console-invalid-station = Não é uma estação válida
