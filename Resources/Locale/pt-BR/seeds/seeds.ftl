@@ -101,3 +101,5 @@ seeds-pea-name = ervilha
 seeds-pea-display-name = vinhas de ervilha
 seeds-pumpkin-name = abóbora
 seeds-pumpkin-display-name = abóboras
+seeds-cotton-name = algodão
+seeds-cotton-display-name = pé de algodão

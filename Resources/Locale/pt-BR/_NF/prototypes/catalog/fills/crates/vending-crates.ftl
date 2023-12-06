@@ -15,3 +15,6 @@ ent-CrateVendingMachineRestockChefvendFilled = Caixa de reabastecimento ChefVend
 
 ent-CrateVendingMachineRestockCondimentStationFilled = Caixa de reabastecimento de kit de condimentos
     .desc = Contém duas caixas de reabastecimento para um kit de condimentos.
+
+ent-CrateVendingMachineRestockLessLethalVendFilled = Caixa de reabastecimento MenosLetal
+    .desc = Contém duas caixas de reabastecimento para uma máquina de venda automática MenosLetal.

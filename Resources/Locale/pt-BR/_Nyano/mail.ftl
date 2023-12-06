@@ -1,4 +1,5 @@
 mail-recipient-mismatch = Nome ou cargo do destinatário não corresponde.
+mail-recipient-mismatch-name = Nome do destinatário não corresponde.
 mail-invalid-access = Nome ou cargo do destinatário corresponde, mas o acesso não funciona como esperado.
 mail-locked = A tranca anti-violação não foi removida. Toque com o ID do destinatário.
 mail-desc-far = Um pacote de correio. Você não consegue entender pra quem se dirige dessa distância.
@@ -8,7 +9,7 @@ mail-desc-priority = a tranca anti-violação [color=yellow]fita amarela de prio
 mail-desc-priority-inactive = A tranca anti-violação [color=#886600]fita amarela de prioridade[/color] está inativo.
 mail-unlocked = Sistema anti-violação destrancado.
 mail-unlocked-by-emag = Sistema anti-violação *BZZT*.
-mail-unlocked-reward = Sistema anti-violação desbloqueado. {$bounty} zorkmids foram adicionados à conta de cargo..
+mail-unlocked-reward = Sistema anti-violação desbloqueado.
 mail-penalty-lock = TRANCA ANTI-TAMPER QUEBRADO. CONTA DO BANCO DE CARGA PENALIZADA POR {$credits} CRÉDITOS.
 mail-penalty-fragile = INTEGRIDADE COMPROMETIDA. CONTA DO BANCO DE CARGA PENALIZADA POR {$credits} CRÉDITOS.
 mail-penalty-expired = ENTREGA ATRASADA. CONTA DO BANCO DE CARGA PENALIZADA POR {$credits} CRÉDITOS.

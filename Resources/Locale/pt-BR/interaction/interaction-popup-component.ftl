@@ -73,3 +73,7 @@ fence-rattle-success = *chocalha*
 hugging-success-generic = Você abraça {THE($target)}.
 hugging-success-generic-others = { CAPITALIZE(THE($user)) } abraçou {THE($target)}.
 hugging-success-generic-target = { CAPITALIZE(THE($user)) } te abraçou.
+
+pat-success-generic = Você acaricia a macia e peluda cabecinha de {THE($target)}.
+pat-success-generic-others = { CAPITALIZE(THE($user))} acaricia a macia e peluda cabecinha de {THE($target)}.
+pat-success-generic-others = { CAPITALIZE(THE($user))} acaricia a sua macia e peluda cabecinha.
