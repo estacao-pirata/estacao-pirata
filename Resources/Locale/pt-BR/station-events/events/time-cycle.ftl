@@ -1,2 +1,2 @@
-time-cycle-night = Atenção tripulação, nossas leituras apontam um alto nível de estresse mental e marcadores biológicos, como o relógio circardiano, desregulados. Os sistemas de iluminação da estação entraram em modo noturno e as fontes de luz prejudiciais foram ajustadas de acordo.
+time-cycle-night = Atenção tripulação, nossas leituras apontam um alto nível de estresse mental e marcadores biológicos, como o relógio circardiano, fora dos valores padrão. Os sistemas de iluminação da estação entraram em modo noturno e as fontes de luz prejudiciais foram ajustadas de acordo.
 time-cycle-day = Atenção tripulação, as leituras se normalizaram e os sistemas de iluminação da estação retornaram ao modo diurno. As fontes de luz foram devidamente corrigidas.

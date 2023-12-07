@@ -1833,7 +1833,7 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<int> NightChangeTime =
             CVarDef.Create("time.night_change_time", 19, desc: "Horário em que a estação entrará em modo noturno (se estiver ativo). (horário)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<int> DayChangeTime =
-            CVarDef.Create("time_day_change_time", 5, desc: "Horário em que a estação entrará em modo diurno (se estiver ativo). (segundos)", flag: CVar.SERVERONLY);
+            CVarDef.Create("time.day_change_time", 5, desc: "Horário em que a estação entrará em modo diurno (se estiver ativo). (segundos)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<int> RIncrease =
             CVarDef.Create("time.light_r_increase", 4, desc: "Altera o fator de incremento do componente vermelho das luzes da estação (no modo noturno). (fator)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<int> RDecrease =
