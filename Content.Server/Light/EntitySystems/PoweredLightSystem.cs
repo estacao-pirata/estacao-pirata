@@ -531,8 +531,7 @@ namespace Content.Server.Light.EntitySystems
             _lightBDecrease = _cfg.GetCVar(CCVars.BDecrease);
             _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
             var hours = _timeSystem.GetStationDate().Hour;
-            SoundSpecifier dayAlert = new SoundPathSpecifier("/Audio/Announcements/daytime.ogg");
-            SoundSpecifier nightAlert = new SoundPathSpecifier("/Audio/Announcements/nighttime.ogg");
+            SoundSpecifier alert = new SoundPathSpecifier("/Audio/Announcements/attention.ogg");
             if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && !_cfg.GetCVar(CCVars.NightTime))
             {
                 ForceUpdate();
@@ -540,7 +539,8 @@ namespace Content.Server.Light.EntitySystems
                 Console.WriteLine("Noite! Atualize as lampadas.");
                 if (_isStationDefined)
                 {
-                    _chatSystem.DispatchStationAnnouncement(_originStation.GetValueOrDefault(), Loc.GetString("time-cycle-night"), "Central de Comando", true, nightAlert, colorOverride: Color.SkyBlue);
+                    _chatSystem.DispatchStationAnnouncement(
+                        _originStation.GetValueOrDefault(), Loc.GetString("time-cycle-night"), "Central de Comando", true, alert, colorOverride: Color.SkyBlue);
                 }
             }
             else if (hours >= _dayChangeTime && hours < _nightChangeTime && _isTimeCycleEnabled && _cfg.GetCVar(CCVars.NightTime))
@@ -549,7 +549,8 @@ namespace Content.Server.Light.EntitySystems
                 _cfg.SetCVar(CCVars.NightTime, false);
                 if (_isStationDefined)
                 {
-                    _chatSystem.DispatchStationAnnouncement(_originStation.GetValueOrDefault(), Loc.GetString("time-cycle-day"), "Central de Comando", true, dayAlert, colorOverride: Color.Orange);
+                    _chatSystem.DispatchStationAnnouncement(
+                        _originStation.GetValueOrDefault(), Loc.GetString("time-cycle-day"), "Central de Comando", true, alert, colorOverride: Color.Orange);
                 }
             }
         }
