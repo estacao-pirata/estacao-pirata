@@ -8,6 +8,7 @@ using Content.Server.Emp;
 using Content.Server.Ghost;
 using Content.Server.Light.Components;
 using Content.Server.Power.Components;
+using Content.Server.Time;
 using Content.Shared.Audio;
 using Content.Shared.Damage;
 using Content.Shared.Database;
@@ -18,11 +19,23 @@ using Content.Shared.Inventory;
 using Content.Shared.Light;
 using Content.Shared.Light.Components;
 using Content.Shared.Popups;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
+using static Content.Server.Time.TimeSystem;
+using System;
+using Content.Shared.Coordinates;
+using Content.Server.Station.Systems;
+using Content.Shared.Alert;
+using SQLitePCL;
+using Content.Server.Station.Components;
+using Content.Server.Chat.Systems;
+using Robust.Shared.Configuration;
+using Content.Shared.CCVar;
+using Robust.Shared;
 
 namespace Content.Server.Light.EntitySystems
 {
@@ -45,8 +58,29 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly PointLightSystem _pointLight = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
         [Dependency] private readonly InventorySystem _inventory = default!;
-
+        [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
+        [Dependency] private readonly IEntityManager _entityManager = default!;
+        [Dependency] private readonly ChatSystem _chatSystem = default!;
+        [Dependency] private readonly IConfigurationManager _cfg = default!;
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
+        private TimeSystem _timeSystem = default!;
+        private List<EntityUid> _bulbList = new List<EntityUid>();
+        private List<PoweredLightComponent> _componentList = new List<PoweredLightComponent>();
+        private bool _isNightTime;
+        private bool _isStationDefined;
+        private bool _isTimeCycleEnabled;
+        private int _nightChangeTime;
+        private int _dayChangeTime;
+        private int _lightRIncrease;
+        private int _lightRDecrease;
+        private int _lightGIncrease;
+        private int _lightGDecrease;
+        private int _lightBIncrease;
+        private int _lightBDecrease;
+        private float _lightIntensityFall;
+
+
+        private EntityUid? _originStation;
         public const string LightBulbContainer = "light_bulb";
 
         public override void Initialize()
@@ -67,12 +101,25 @@ namespace Content.Server.Light.EntitySystems
 
             SubscribeLocalEvent<PoweredLightComponent, PoweredLightDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<PoweredLightComponent, EmpPulseEvent>(OnEmpPulse);
+            _timeSystem = _entitySystem.GetEntitySystem<TimeSystem>();
         }
 
         private void OnInit(EntityUid uid, PoweredLightComponent light, ComponentInit args)
         {
             light.LightBulbContainer = _containerSystem.EnsureContainer<ContainerSlot>(uid, LightBulbContainer);
             _signalSystem.EnsureSinkPorts(uid, light.OnPort, light.OffPort, light.TogglePort);
+            _isTimeCycleEnabled = _cfg.GetCVar(CCVars.DayNightCycle);
+            _dayChangeTime = _cfg.GetCVar(CCVars.DayChangeTime);
+            _nightChangeTime = _cfg.GetCVar(CCVars.NightChangeTime);
+            _lightRIncrease = _cfg.GetCVar(CCVars.RIncrease);
+            _lightRDecrease = _cfg.GetCVar(CCVars.RDecrease);
+            _lightGIncrease = _cfg.GetCVar(CCVars.GIncrease);
+            _lightGDecrease = _cfg.GetCVar(CCVars.GDecrease);
+            _lightBIncrease = _cfg.GetCVar(CCVars.BIncrease);
+            _lightBDecrease = _cfg.GetCVar(CCVars.BDecrease);
+            _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
+            _isNightTime = false;
+            _isStationDefined = false;
         }
 
         private void OnMapInit(EntityUid uid, PoweredLightComponent light, MapInitEvent args)
@@ -84,7 +131,10 @@ namespace Content.Server.Light.EntitySystems
                 light.LightBulbContainer.Insert(entity);
             }
             // need this to update visualizers
+
             UpdateLight(uid, light);
+            _bulbList.Add(uid);
+            _componentList.Add(light);
         }
 
         private void OnInteractUsing(EntityUid uid, PoweredLightComponent component, InteractUsingEvent args)
@@ -260,6 +310,12 @@ namespace Content.Server.Light.EntitySystems
             // Optional component.
             Resolve(uid, ref appearance, false);
 
+            if (_isTimeCycleEnabled && !_isStationDefined && _entityManager.TryGetComponent(uid.ToCoordinates().GetGridUid(_entityManager), out StationMemberComponent? c))
+            {
+                _originStation = uid.ToCoordinates().GetGridUid(_entityManager);
+                _isStationDefined = true;
+            }
+
             // check if light has bulb
             var bulbUid = GetBulb(uid, light);
             if (bulbUid == null || !EntityManager.TryGetComponent(bulbUid.Value, out LightBulbComponent? lightBulb))
@@ -275,7 +331,19 @@ namespace Content.Server.Light.EntitySystems
                 case LightBulbState.Normal:
                     if (powerReceiver.Powered && light.On)
                     {
-                        SetLight(uid, true, lightBulb.Color, light, lightBulb.LightRadius, lightBulb.LightEnergy, lightBulb.LightSoftness);
+                        var hours = _timeSystem.GetStationDate().Hour;
+                        var energy = lightBulb.LightEnergy;
+                        Color color = lightBulb.Color;
+                        if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && !_isNightTime &&
+                        _entityManager.TryGetComponent(uid.ToCoordinates().GetGridUid(_entityManager), out StationMemberComponent? component))
+                        {
+                            energy /= _lightIntensityFall;
+                            int rbyte = LimitToByteMaxValue(_lightRIncrease * color.RByte / _lightRDecrease);
+                            int gbyte = LimitToByteMaxValue(_lightGIncrease * color.GByte / _lightGDecrease);
+                            int bbyte = LimitToByteMaxValue(_lightBIncrease * color.BByte / _lightBDecrease);
+                            color = System.Drawing.Color.FromArgb(rbyte, gbyte, bbyte);
+                        }
+                        SetLight(uid, true, color, light, lightBulb.LightRadius, energy, lightBulb.LightSoftness);
                         _appearance.SetData(uid, PoweredLightVisuals.BulbState, PoweredLightState.On, appearance);
                         var time = _gameTiming.CurTime;
                         if (time > light.LastThunk + ThunkDelay)
@@ -424,6 +492,18 @@ namespace Content.Server.Light.EntitySystems
             light.On = state;
             UpdateLight(uid, light);
         }
+        
+        private int LimitToByteMaxValue(int x)
+        {
+            if (x < 0)
+            {
+                x = 0;
+            }
+            else if (x > 255){
+                x = 255;
+            }
+            return x;
+        }
 
         private void OnDoAfter(EntityUid uid, PoweredLightComponent component, DoAfterEvent args)
         {
@@ -439,6 +519,51 @@ namespace Content.Server.Light.EntitySystems
         {
             if (TryDestroyBulb(uid, component))
                 args.Affected = true;
+        }
+
+        public override void Update(float frameTime)
+        {
+            base.Update(frameTime);
+            _isTimeCycleEnabled = _cfg.GetCVar(CCVars.DayNightCycle);
+            _dayChangeTime = _cfg.GetCVar(CCVars.DayChangeTime);
+            _nightChangeTime = _cfg.GetCVar(CCVars.NightChangeTime);
+            _lightRIncrease = _cfg.GetCVar(CCVars.RIncrease);
+            _lightRDecrease = _cfg.GetCVar(CCVars.RDecrease);
+            _lightGIncrease = _cfg.GetCVar(CCVars.GIncrease);
+            _lightGDecrease = _cfg.GetCVar(CCVars.GDecrease);
+            _lightBIncrease = _cfg.GetCVar(CCVars.BIncrease);
+            _lightBDecrease = _cfg.GetCVar(CCVars.BDecrease);
+            _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
+            var hours = _timeSystem.GetStationDate().Hour;
+            SoundSpecifier dayAlert = new SoundPathSpecifier("/Audio/Announcements/daytime.ogg");
+            SoundSpecifier nightAlert = new SoundPathSpecifier("/Audio/Announcements/nighttime.ogg");
+            if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && !_isNightTime)
+            {
+                ForceUpdate();
+                _isNightTime = true;
+                Console.WriteLine("Noite! Atualize as lampadas.");
+                if (_isStationDefined)
+                {
+                    _chatSystem.DispatchStationAnnouncement(_originStation.GetValueOrDefault(), Loc.GetString("time-cycle-night"), "Central de Comando", true, nightAlert, colorOverride: Color.SkyBlue);
+                }
+            }
+            else if (hours >= _dayChangeTime && hours < _nightChangeTime && _isTimeCycleEnabled && _isNightTime)
+            {
+                ForceUpdate();
+                _isNightTime = false;
+                if (_isStationDefined)
+                {
+                    _chatSystem.DispatchStationAnnouncement(_originStation.GetValueOrDefault(), Loc.GetString("time-cycle-day"), "Central de Comando", true, dayAlert, colorOverride: Color.Orange);
+                }
+            }
+        }
+
+        public void ForceUpdate()
+        {
+            for (int i = 0; i < _bulbList.Count; i++)
+            {
+                UpdateLight(_bulbList[i], _componentList[i]);
+            }
         }
     }
 }
