@@ -1826,6 +1826,8 @@ namespace Content.Shared.CCVar
             CVarDef.Create("time.initial", 28800, desc: "Tempo relativo inicial da rodada (segundos)", flag: CVar.REPLICATED);
         public static readonly CVarDef<int> TimeAcceleration =
             CVarDef.Create("time.acceleration", 24, desc: "Multiplicador do tempo relativo em relação ao tempo real (fator)", flag: CVar.REPLICATED);
+        public static readonly CVarDef<bool> NightTime =
+            CVarDef.Create("time.night_time", false, desc: "Não altere.", flag: CVar.SERVERONLY);
         public static readonly CVarDef<bool> DayNightCycle =
             CVarDef.Create("time.day_night_cycle", true, desc: "Define se o sistema de iluminação noturna estará ativado na estação. (true/false)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<float> LightIntensityFall =

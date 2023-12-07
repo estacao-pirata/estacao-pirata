@@ -66,7 +66,6 @@ namespace Content.Server.Light.EntitySystems
         private TimeSystem _timeSystem = default!;
         private List<EntityUid> _bulbList = new List<EntityUid>();
         private List<PoweredLightComponent> _componentList = new List<PoweredLightComponent>();
-        private bool _isNightTime;
         private bool _isStationDefined;
         private bool _isTimeCycleEnabled;
         private int _nightChangeTime;
@@ -118,8 +117,6 @@ namespace Content.Server.Light.EntitySystems
             _lightBIncrease = _cfg.GetCVar(CCVars.BIncrease);
             _lightBDecrease = _cfg.GetCVar(CCVars.BDecrease);
             _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
-            _isNightTime = false;
-            _isStationDefined = false;
         }
 
         private void OnMapInit(EntityUid uid, PoweredLightComponent light, MapInitEvent args)
@@ -334,8 +331,7 @@ namespace Content.Server.Light.EntitySystems
                         var hours = _timeSystem.GetStationDate().Hour;
                         var energy = lightBulb.LightEnergy;
                         Color color = lightBulb.Color;
-                        if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && !_isNightTime &&
-                        _entityManager.TryGetComponent(uid.ToCoordinates().GetGridUid(_entityManager), out StationMemberComponent? component))
+                        if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && _entityManager.TryGetComponent(uid.ToCoordinates().GetGridUid(_entityManager), out StationMemberComponent? component))
                         {
                             energy /= _lightIntensityFall;
                             int rbyte = LimitToByteMaxValue(_lightRIncrease * color.RByte / _lightRDecrease);
@@ -537,20 +533,20 @@ namespace Content.Server.Light.EntitySystems
             var hours = _timeSystem.GetStationDate().Hour;
             SoundSpecifier dayAlert = new SoundPathSpecifier("/Audio/Announcements/daytime.ogg");
             SoundSpecifier nightAlert = new SoundPathSpecifier("/Audio/Announcements/nighttime.ogg");
-            if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && !_isNightTime)
+            if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && !_cfg.GetCVar(CCVars.NightTime))
             {
                 ForceUpdate();
-                _isNightTime = true;
+                _cfg.SetCVar(CCVars.NightTime, true);
                 Console.WriteLine("Noite! Atualize as lampadas.");
                 if (_isStationDefined)
                 {
                     _chatSystem.DispatchStationAnnouncement(_originStation.GetValueOrDefault(), Loc.GetString("time-cycle-night"), "Central de Comando", true, nightAlert, colorOverride: Color.SkyBlue);
                 }
             }
-            else if (hours >= _dayChangeTime && hours < _nightChangeTime && _isTimeCycleEnabled && _isNightTime)
+            else if (hours >= _dayChangeTime && hours < _nightChangeTime && _isTimeCycleEnabled && _cfg.GetCVar(CCVars.NightTime))
             {
                 ForceUpdate();
-                _isNightTime = false;
+                _cfg.SetCVar(CCVars.NightTime, false);
                 if (_isStationDefined)
                 {
                     _chatSystem.DispatchStationAnnouncement(_originStation.GetValueOrDefault(), Loc.GetString("time-cycle-day"), "Central de Comando", true, dayAlert, colorOverride: Color.Orange);
