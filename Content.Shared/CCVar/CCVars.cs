@@ -1835,7 +1835,7 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<float> LightIntensityFall =
             CVarDef.Create("time.light_intensity_fall", 1.75f, desc: "Define o multiplicador da queda de intensidade das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<float> LightRadiusFall =
-            CVarDef.Create("time.light_intensity_fall", 1.5f, desc: "Define o multiplicador da queda do radio das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
+            CVarDef.Create("time.light_radius_fall", 1.5f, desc: "Define o multiplicador da queda do radio das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<int> NightChangeTime =
             CVarDef.Create("time.night_change_time", 20, desc: "Horário em que a estação entrará em modo noturno (se estiver ativo). (horário)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<int> DayChangeTime =
