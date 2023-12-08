@@ -77,6 +77,7 @@ namespace Content.Server.Light.EntitySystems
         private int _lightBIncrease;
         private int _lightBDecrease;
         private float _lightIntensityFall;
+        private float _lightRadiusFall;
 
 
         private EntityUid? _originStation;
@@ -117,6 +118,7 @@ namespace Content.Server.Light.EntitySystems
             _lightBIncrease = _cfg.GetCVar(CCVars.BIncrease);
             _lightBDecrease = _cfg.GetCVar(CCVars.BDecrease);
             _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
+            _lightRadiusFall = _cfg.GetCVar(CCVars.LightRadiusFall);
         }
 
         private void OnMapInit(EntityUid uid, PoweredLightComponent light, MapInitEvent args)
@@ -330,16 +332,18 @@ namespace Content.Server.Light.EntitySystems
                     {
                         var hours = _timeSystem.GetStationDate().Hour;
                         var energy = lightBulb.LightEnergy;
+                        var radius = lightBulb.LightRadius;
                         Color color = lightBulb.Color;
                         if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && _entityManager.TryGetComponent(uid.ToCoordinates().GetGridUid(_entityManager), out StationMemberComponent? component))
                         {
                             energy /= _lightIntensityFall;
-                            int rbyte = LimitToByteMaxValue(_lightRIncrease * color.RByte / _lightRDecrease);
-                            int gbyte = LimitToByteMaxValue(_lightGIncrease * color.GByte / _lightGDecrease);
-                            int bbyte = LimitToByteMaxValue(_lightBIncrease * color.BByte / _lightBDecrease);
+                            radius /= _lightRadiusFall;
+                            var rbyte = LimitToByteMaxValue(_lightRIncrease * color.RByte / _lightRDecrease);
+                            var gbyte = LimitToByteMaxValue(_lightGIncrease * color.GByte / _lightGDecrease);
+                            var bbyte = LimitToByteMaxValue(_lightBIncrease * color.BByte / _lightBDecrease);
                             color = System.Drawing.Color.FromArgb(rbyte, gbyte, bbyte);
                         }
-                        SetLight(uid, true, color, light, lightBulb.LightRadius, energy, lightBulb.LightSoftness);
+                        SetLight(uid, true, color, light, radius, energy, lightBulb.LightSoftness);
                         _appearance.SetData(uid, PoweredLightVisuals.BulbState, PoweredLightState.On, appearance);
                         var time = _gameTiming.CurTime;
                         if (time > light.LastThunk + ThunkDelay)
@@ -400,7 +404,6 @@ namespace Content.Server.Light.EntitySystems
             {
                 ToggleBlinkingLight(uid, light, false);
             });
-
             args.Handled = true;
         }
 
@@ -488,7 +491,6 @@ namespace Content.Server.Light.EntitySystems
             light.On = state;
             UpdateLight(uid, light);
         }
-        
         private int LimitToByteMaxValue(int x)
         {
             if (x < 0)
@@ -530,34 +532,35 @@ namespace Content.Server.Light.EntitySystems
             _lightBIncrease = _cfg.GetCVar(CCVars.BIncrease);
             _lightBDecrease = _cfg.GetCVar(CCVars.BDecrease);
             _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
+            _lightRadiusFall = _cfg.GetCVar(CCVars.LightRadiusFall);
             var hours = _timeSystem.GetStationDate().Hour;
             SoundSpecifier nightShift = new SoundPathSpecifier("/Audio/Announcements/nightshift.ogg");
             SoundSpecifier dayShift = new SoundPathSpecifier("/Audio/Announcements/dayshift.ogg");
             if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && !_cfg.GetCVar(CCVars.NightTime))
             {
-                ForceUpdate();
-                _cfg.SetCVar(CCVars.NightTime, true);
                 if (_isStationDefined && _cfg.GetCVar(CCVars.ShiftAnnouncement))
                 {
                     _chatSystem.DispatchStationAnnouncement(
                         _originStation.GetValueOrDefault(), Loc.GetString("time-cycle-night"), "Central de Comando", true, nightShift, colorOverride: Color.SkyBlue);
                 }
+                ForceUpdate();
+                _cfg.SetCVar(CCVars.NightTime, true);
             }
             else if (hours >= _dayChangeTime && hours < _nightChangeTime && _isTimeCycleEnabled && _cfg.GetCVar(CCVars.NightTime))
             {
-                ForceUpdate();
-                _cfg.SetCVar(CCVars.NightTime, false);
                 if (_isStationDefined && _cfg.GetCVar(CCVars.ShiftAnnouncement))
                 {
                     _chatSystem.DispatchStationAnnouncement(
                         _originStation.GetValueOrDefault(), Loc.GetString("time-cycle-day"), "Central de Comando", true, dayShift, colorOverride: Color.Orange);
                 }
+                ForceUpdate();
+                _cfg.SetCVar(CCVars.NightTime, false);
             }
         }
 
         public void ForceUpdate()
         {
-            for (int i = 0; i < _bulbList.Count; i++)
+            for (var i = 0; i < _bulbList.Count; i++)
             {
                 UpdateLight(_bulbList[i], _componentList[i]);
             }
