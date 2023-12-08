@@ -537,8 +537,7 @@ namespace Content.Server.Light.EntitySystems
             {
                 ForceUpdate();
                 _cfg.SetCVar(CCVars.NightTime, true);
-                Console.WriteLine("Noite! Atualize as lampadas.");
-                if (_isStationDefined)
+                if (_isStationDefined && _cfg.GetCVar(CCVars.ShiftAnnouncement))
                 {
                     _chatSystem.DispatchStationAnnouncement(
                         _originStation.GetValueOrDefault(), Loc.GetString("time-cycle-night"), "Central de Comando", true, nightShift, colorOverride: Color.SkyBlue);
@@ -548,7 +547,7 @@ namespace Content.Server.Light.EntitySystems
             {
                 ForceUpdate();
                 _cfg.SetCVar(CCVars.NightTime, false);
-                if (_isStationDefined)
+                if (_isStationDefined && _cfg.GetCVar(CCVars.ShiftAnnouncement))
                 {
                     _chatSystem.DispatchStationAnnouncement(
                         _originStation.GetValueOrDefault(), Loc.GetString("time-cycle-day"), "Central de Comando", true, dayShift, colorOverride: Color.Orange);

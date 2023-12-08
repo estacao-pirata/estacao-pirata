@@ -1830,6 +1830,8 @@ namespace Content.Shared.CCVar
             CVarDef.Create("time.night_time", false, desc: "Não altere.", flag: CVar.SERVERONLY);
         public static readonly CVarDef<bool> DayNightCycle =
             CVarDef.Create("time.day_night_cycle", true, desc: "Define se o sistema de iluminação noturna estará ativado na estação. (true/false)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<bool> ShiftAnnouncement =
+            CVarDef.Create("time.shift_announcement", true, desc: "Define se serão emitidos anúncios após a mudança de turno. (true/false)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<float> LightIntensityFall =
             CVarDef.Create("time.light_intensity_fall", 1.75f, desc: "Define o multiplicador queda de intensidade das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<int> NightChangeTime =
