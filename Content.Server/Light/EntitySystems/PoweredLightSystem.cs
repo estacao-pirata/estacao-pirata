@@ -70,12 +70,6 @@ namespace Content.Server.Light.EntitySystems
         private bool _isTimeCycleEnabled;
         private int _nightChangeTime;
         private int _dayChangeTime;
-        private int _lightRIncrease;
-        private int _lightRDecrease;
-        private int _lightGIncrease;
-        private int _lightGDecrease;
-        private int _lightBIncrease;
-        private int _lightBDecrease;
         private float _lightIntensityFall;
         private float _lightRadiusFall;
 
@@ -111,12 +105,6 @@ namespace Content.Server.Light.EntitySystems
             _isTimeCycleEnabled = _cfg.GetCVar(CCVars.DayNightCycle);
             _dayChangeTime = _cfg.GetCVar(CCVars.DayChangeTime);
             _nightChangeTime = _cfg.GetCVar(CCVars.NightChangeTime);
-            _lightRIncrease = _cfg.GetCVar(CCVars.RIncrease);
-            _lightRDecrease = _cfg.GetCVar(CCVars.RDecrease);
-            _lightGIncrease = _cfg.GetCVar(CCVars.GIncrease);
-            _lightGDecrease = _cfg.GetCVar(CCVars.GDecrease);
-            _lightBIncrease = _cfg.GetCVar(CCVars.BIncrease);
-            _lightBDecrease = _cfg.GetCVar(CCVars.BDecrease);
             _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
             _lightRadiusFall = _cfg.GetCVar(CCVars.LightRadiusFall);
         }
@@ -338,10 +326,6 @@ namespace Content.Server.Light.EntitySystems
                         {
                             energy /= _lightIntensityFall;
                             radius /= _lightRadiusFall;
-                            var rbyte = LimitToByteMaxValue(_lightRIncrease * color.RByte / _lightRDecrease);
-                            var gbyte = LimitToByteMaxValue(_lightGIncrease * color.GByte / _lightGDecrease);
-                            var bbyte = LimitToByteMaxValue(_lightBIncrease * color.BByte / _lightBDecrease);
-                            color = System.Drawing.Color.FromArgb(rbyte, gbyte, bbyte);
                         }
                         SetLight(uid, true, color, light, radius, energy, lightBulb.LightSoftness);
                         _appearance.SetData(uid, PoweredLightVisuals.BulbState, PoweredLightState.On, appearance);
@@ -525,12 +509,6 @@ namespace Content.Server.Light.EntitySystems
             _isTimeCycleEnabled = _cfg.GetCVar(CCVars.DayNightCycle);
             _dayChangeTime = _cfg.GetCVar(CCVars.DayChangeTime);
             _nightChangeTime = _cfg.GetCVar(CCVars.NightChangeTime);
-            _lightRIncrease = _cfg.GetCVar(CCVars.RIncrease);
-            _lightRDecrease = _cfg.GetCVar(CCVars.RDecrease);
-            _lightGIncrease = _cfg.GetCVar(CCVars.GIncrease);
-            _lightGDecrease = _cfg.GetCVar(CCVars.GDecrease);
-            _lightBIncrease = _cfg.GetCVar(CCVars.BIncrease);
-            _lightBDecrease = _cfg.GetCVar(CCVars.BDecrease);
             _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
             _lightRadiusFall = _cfg.GetCVar(CCVars.LightRadiusFall);
             var hours = _timeSystem.GetStationDate().Hour;

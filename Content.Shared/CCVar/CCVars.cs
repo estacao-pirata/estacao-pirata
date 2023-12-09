@@ -1840,17 +1840,5 @@ namespace Content.Shared.CCVar
             CVarDef.Create("time.night_change_time", 20, desc: "Horário em que a estação entrará em modo noturno (se estiver ativo). (horário)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<int> DayChangeTime =
             CVarDef.Create("time.day_change_time", 5, desc: "Horário em que a estação entrará em modo diurno (se estiver ativo). (segundos)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<int> RIncrease =
-            CVarDef.Create("time.light_r_increase", 3, desc: "Altera o fator de incremento do componente vermelho das luzes da estação (no modo noturno). (fator)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<int> RDecrease =
-            CVarDef.Create("time.light_r_decrease", 5, desc: "Altera o fator de decremento do componente vermelho das luzes da estação (no modo noturno). (fator)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<int> GIncrease =
-            CVarDef.Create("time.light_g_increase", 4, desc: "Altera o fator de incremento do componente verdedas luzes da estação (no modo noturno). (fator)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<int> GDecrease =
-            CVarDef.Create("time.light_g_decrease", 5, desc: "Altera o fator de decremento do componente verde das luzes da estação (no modo noturno). (fator)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<int> BIncrease =
-            CVarDef.Create("time.light_b_increase", 1, desc: "Altera o fator de incremento do componente azul das luzes da estação (no modo noturno). (fator)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<int> BDecrease =
-            CVarDef.Create("time.light_b_decrease", 1, desc: "Altera o fator de decremento do componente azul das luzes da estação (no modo noturno). (fator)", flag: CVar.SERVERONLY);
     }
 }
