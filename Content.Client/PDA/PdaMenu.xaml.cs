@@ -116,8 +116,8 @@ namespace Content.Client.PDA
             StationNameLabel.SetMarkup(Loc.GetString("comp-pda-ui-station",
                 ("station", state.StationName ?? Loc.GetString("comp-pda-ui-unknown"))));
 
-            StationDateLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-date", ("date", GetStationDate().ToString("d 'de' MMMM, HH'h'"))));
-            StationTimeLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-time", ("time", GetStationSyncTime().ToString("hh\\:mm\\:ss"))));
+            StationTimeLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-time", ("time", _timeSystem!.GetRoundDuration().ToString("hh\\:mm\\:ss"))));
+            StationDateLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-date", ("date", _timeSystem!.GetStationDate().ToString("d 'de' MMMM, HH'h'"))));
 
             var alertLevel = state.PdaOwnerInfo.StationAlertLevel;
             var alertColor = state.PdaOwnerInfo.StationAlertColor;
@@ -281,22 +281,11 @@ namespace Content.Client.PDA
                 view.Visible = false;
             }
         }
-
-        private DateTime GetStationDate()
-        {
-            return _timeSystem!.GetStationDate();
-        }
-
-        private TimeSpan GetStationSyncTime()
-        {
-            return _timeSystem!.GetStationSyncTime();
-        }
-
         protected override void Draw(DrawingHandleScreen handle)
         {
             base.Draw(handle);
-            StationTimeLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-time", ("time", GetStationSyncTime().ToString("hh\\:mm\\:ss"))));
-            StationDateLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-date", ("date", GetStationDate().ToString("d 'de' MMMM, HH'h'"))));
+            StationTimeLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-time", ("time", _timeSystem!.GetRoundDuration().ToString("hh\\:mm\\:ss"))));
+            StationDateLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-date", ("date", _timeSystem!.GetStationDate().ToString("d 'de' MMMM, HH'h'"))));
         }
 
     }

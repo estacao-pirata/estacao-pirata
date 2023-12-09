@@ -12,42 +12,38 @@ namespace Content.Client.Time
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         private Random _random = default!;
         private ClientGameTicker _gameTicker = default!;
-        private TimeSpan _stationTime;
-
         private DateTime _baseDateTime;
-        private int _initialTime;
-        private int _timeAcceleration;
-
+        private double _curTime;
         public override void Initialize()
         {
             IoCManager.InjectDependencies(this);
+            _curTime = 0;
             _gameTicker = _entitySystem.GetEntitySystem<ClientGameTicker>();
-            _stationTime = _gameTiming.CurTime.Subtract(_gameTicker.RoundStartTimeSpan);
-            _initialTime = _cfg.GetCVar(CCVars.InitialTime);
-            _timeAcceleration = _cfg.GetCVar(CCVars.TimeAcceleration);
-            _random = new Random((int)_gameTicker.RoundStartTimeSpan.TotalSeconds);
-            _baseDateTime = new DateTime().AddMonths((int)_random.NextInt64(11));
+            _random = new Random((int) _gameTicker.RoundStartTimeSpan.TotalSeconds);
+            _baseDateTime = new DateTime().AddMonths((int) _random.NextInt64(11));
         }
-        public TimeSpan GetStationSyncTime()
+
+        public TimeSpan GetRoundDuration()
         {
-            return _stationTime;
+            return _gameTiming.CurTime.Subtract(_gameTicker.RoundStartTimeSpan);
         }
-        public TimeSpan GetStationRelativeTime()
+        public TimeSpan GetStationTime()
         {
-            return TimeSpan.FromSeconds(_initialTime + (GetStationSyncTime().TotalSeconds * _timeAcceleration));
+            return TimeSpan.FromSeconds(_curTime + _cfg.GetCVar(CCVars.InitialTime));
         }
         public DateTime GetStationDate()
         {
-            return _baseDateTime.Add(GetStationRelativeTime());
+            return _baseDateTime.Add(GetStationTime());
+        }
+
+        private void SetStationTime(double time)
+        {
+            _curTime = time;
         }
         public override void Update(float frameTime)
         {
             base.Update(frameTime);
-            _initialTime = _cfg.GetCVar(CCVars.InitialTime);
-            _timeAcceleration = _cfg.GetCVar(CCVars.TimeAcceleration);
-            _random = new Random((int)_gameTicker.RoundStartTimeSpan.TotalSeconds);
-            _baseDateTime = new DateTime().AddMonths((int)_random.NextInt64(11));
-            _stationTime = _gameTiming.CurTime.Subtract(_gameTicker.RoundStartTimeSpan);
+            SetStationTime(GetRoundDuration().TotalSeconds * _cfg.GetCVar(CCVars.TimeScale));
         }
     }
 }
