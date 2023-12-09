@@ -10,38 +10,29 @@ namespace Content.Server.Time
         [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         private GameTicker _gameTicker = default!;
-        private TimeSpan _stationTime;
-        private DateTime _baseDateTime;
-        private int _initialTime;
-        private int _timeAcceleration;
-
+        private double _curTime;
         public override void Initialize()
         {
             IoCManager.InjectDependencies(this);
+            _curTime = 0;
             _gameTicker = _entitySystem.GetEntitySystem<GameTicker>();
-            _stationTime = _gameTicker.RoundDuration();
-            _initialTime = _cfg.GetCVar(CCVars.InitialTime);
-            _timeAcceleration = _cfg.GetCVar(CCVars.TimeAcceleration);
-            _baseDateTime = new DateTime();
         }
-        public TimeSpan GetStationSyncTime()
+        public double GetRoundDuration()
         {
-            return _stationTime;
+            return _gameTicker.RoundDuration().TotalSeconds;
         }
-        public TimeSpan GetStationRelativeTime()
+        public TimeSpan GetStationTime()
         {
-            return TimeSpan.FromSeconds(_initialTime + (GetStationSyncTime().TotalSeconds * _timeAcceleration));
+            return TimeSpan.FromSeconds(_curTime + _cfg.GetCVar(CCVars.InitialTime));
         }
-        public DateTime GetStationDate()
+        private void SetStationTime(double time)
         {
-            return _baseDateTime.Add(GetStationRelativeTime());
+            _curTime = time;
         }
         public override void Update(float frameTime)
         {
             base.Update(frameTime);
-            _stationTime = _gameTicker.RoundDuration();
-            _initialTime = _cfg.GetCVar(CCVars.InitialTime);
-            _timeAcceleration = _cfg.GetCVar(CCVars.TimeAcceleration);
+            SetStationTime(GetRoundDuration() * _cfg.GetCVar(CCVars.TimeScale));
         }
     }
 }
