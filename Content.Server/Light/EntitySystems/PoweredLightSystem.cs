@@ -19,23 +19,16 @@ using Content.Shared.Inventory;
 using Content.Shared.Light;
 using Content.Shared.Light.Components;
 using Content.Shared.Popups;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
-using static Content.Server.Time.TimeSystem;
-using System;
 using Content.Shared.Coordinates;
-using Content.Server.Station.Systems;
-using Content.Shared.Alert;
-using SQLitePCL;
 using Content.Server.Station.Components;
 using Content.Server.Chat.Systems;
 using Robust.Shared.Configuration;
 using Content.Shared.CCVar;
-using Robust.Shared;
 
 namespace Content.Server.Light.EntitySystems
 {
@@ -58,21 +51,14 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly PointLightSystem _pointLight = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
         [Dependency] private readonly InventorySystem _inventory = default!;
-        [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
         [Dependency] private readonly ChatSystem _chatSystem = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
-        private TimeSystem _timeSystem = default!;
-        private List<EntityUid> _bulbList = new List<EntityUid>();
-        private List<PoweredLightComponent> _componentList = new List<PoweredLightComponent>();
         private bool _isStationDefined;
-        private bool _isTimeCycleEnabled;
-        private int _nightChangeTime;
-        private int _dayChangeTime;
-        private float _lightIntensityFall;
-        private float _lightRadiusFall;
-
+        private bool _isNight;
+        private float _lightNightIntensity;
+        private float _lightNightRadius;
 
         private EntityUid? _originStation;
         public const string LightBulbContainer = "light_bulb";
@@ -95,18 +81,18 @@ namespace Content.Server.Light.EntitySystems
 
             SubscribeLocalEvent<PoweredLightComponent, PoweredLightDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<PoweredLightComponent, EmpPulseEvent>(OnEmpPulse);
-            _timeSystem = _entitySystem.GetEntitySystem<TimeSystem>();
+
+            SubscribeLocalEvent<ShiftChangeEvent>(OnShiftChange);
+
+            _isNight = false;
         }
 
         private void OnInit(EntityUid uid, PoweredLightComponent light, ComponentInit args)
         {
             light.LightBulbContainer = _containerSystem.EnsureContainer<ContainerSlot>(uid, LightBulbContainer);
             _signalSystem.EnsureSinkPorts(uid, light.OnPort, light.OffPort, light.TogglePort);
-            _isTimeCycleEnabled = _cfg.GetCVar(CCVars.DayNightCycle);
-            _dayChangeTime = _cfg.GetCVar(CCVars.DayChangeTime);
-            _nightChangeTime = _cfg.GetCVar(CCVars.NightChangeTime);
-            _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
-            _lightRadiusFall = _cfg.GetCVar(CCVars.LightRadiusFall);
+            _lightNightIntensity = _cfg.GetCVar(CCVars.NightLightIntensity);
+            _lightNightRadius = _cfg.GetCVar(CCVars.NightLightRadius);
         }
 
         private void OnMapInit(EntityUid uid, PoweredLightComponent light, MapInitEvent args)
@@ -120,8 +106,6 @@ namespace Content.Server.Light.EntitySystems
             // need this to update visualizers
 
             UpdateLight(uid, light);
-            _bulbList.Add(uid);
-            _componentList.Add(light);
         }
 
         private void OnInteractUsing(EntityUid uid, PoweredLightComponent component, InteractUsingEvent args)
@@ -297,7 +281,7 @@ namespace Content.Server.Light.EntitySystems
             // Optional component.
             Resolve(uid, ref appearance, false);
 
-            if (_isTimeCycleEnabled && !_isStationDefined && _entityManager.TryGetComponent(uid.ToCoordinates().GetGridUid(_entityManager), out StationMemberComponent? c))
+            if (!_isStationDefined && _entityManager.TryGetComponent(uid.ToCoordinates().GetGridUid(_entityManager), out StationMemberComponent? c))
             {
                 _originStation = uid.ToCoordinates().GetGridUid(_entityManager);
                 _isStationDefined = true;
@@ -318,16 +302,16 @@ namespace Content.Server.Light.EntitySystems
                 case LightBulbState.Normal:
                     if (powerReceiver.Powered && light.On)
                     {
-                        var hours = _timeSystem.GetStationDate().Hour;
+                        _lightNightIntensity = _cfg.GetCVar(CCVars.NightLightIntensity);
+                        _lightNightRadius = _cfg.GetCVar(CCVars.NightLightRadius);
                         var energy = lightBulb.LightEnergy;
                         var radius = lightBulb.LightRadius;
-                        Color color = lightBulb.Color;
-                        if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && _entityManager.TryGetComponent(uid.ToCoordinates().GetGridUid(_entityManager), out StationMemberComponent? component))
+                        if (_isNight)
                         {
-                            energy /= _lightIntensityFall;
-                            radius /= _lightRadiusFall;
+                            energy *= _lightNightIntensity;
+                            radius *= _lightNightRadius;
                         }
-                        SetLight(uid, true, color, light, radius, energy, lightBulb.LightSoftness);
+                        SetLight(uid, true, lightBulb.Color, light, radius, energy, lightBulb.LightSoftness);
                         _appearance.SetData(uid, PoweredLightVisuals.BulbState, PoweredLightState.On, appearance);
                         var time = _gameTiming.CurTime;
                         if (time > light.LastThunk + ThunkDelay)
@@ -475,18 +459,6 @@ namespace Content.Server.Light.EntitySystems
             light.On = state;
             UpdateLight(uid, light);
         }
-        private int LimitToByteMaxValue(int x)
-        {
-            if (x < 0)
-            {
-                x = 0;
-            }
-            else if (x > 255){
-                x = 255;
-            }
-            return x;
-        }
-
         private void OnDoAfter(EntityUid uid, PoweredLightComponent component, DoAfterEvent args)
         {
             if (args.Handled || args.Cancelled || args.Args.Target == null)
@@ -503,44 +475,22 @@ namespace Content.Server.Light.EntitySystems
                 args.Affected = true;
         }
 
-        public override void Update(float frameTime)
+        private void OnShiftChange(ShiftChangeEvent args)
         {
-            base.Update(frameTime);
-            _isTimeCycleEnabled = _cfg.GetCVar(CCVars.DayNightCycle);
-            _dayChangeTime = _cfg.GetCVar(CCVars.DayChangeTime);
-            _nightChangeTime = _cfg.GetCVar(CCVars.NightChangeTime);
-            _lightIntensityFall = _cfg.GetCVar(CCVars.LightIntensityFall);
-            _lightRadiusFall = _cfg.GetCVar(CCVars.LightRadiusFall);
-            var hours = _timeSystem.GetStationDate().Hour;
-            SoundSpecifier nightShift = new SoundPathSpecifier("/Audio/Announcements/nightshift.ogg");
-            SoundSpecifier dayShift = new SoundPathSpecifier("/Audio/Announcements/dayshift.ogg");
-            if ((hours < _dayChangeTime || hours >= _nightChangeTime) && _isTimeCycleEnabled && !_cfg.GetCVar(CCVars.NightTime))
+            if (_isStationDefined && args.IsDispatchActivated)
             {
-                if (_isStationDefined && _cfg.GetCVar(CCVars.ShiftAnnouncement))
-                {
-                    _chatSystem.DispatchStationAnnouncement(
-                        _originStation.GetValueOrDefault(), Loc.GetString("time-cycle-night"), "Central de Comando", true, nightShift, colorOverride: Color.SkyBlue);
-                }
-                ForceUpdate();
-                _cfg.SetCVar(CCVars.NightTime, true);
+                _chatSystem.DispatchStationAnnouncement(
+                _originStation.GetValueOrDefault(), args.Message, Loc.GetString("comms-console-announcement-title-centcom"), true, args.Sound, colorOverride: args.Color);
             }
-            else if (hours >= _dayChangeTime && hours < _nightChangeTime && _isTimeCycleEnabled && _cfg.GetCVar(CCVars.NightTime))
-            {
-                if (_isStationDefined && _cfg.GetCVar(CCVars.ShiftAnnouncement))
-                {
-                    _chatSystem.DispatchStationAnnouncement(
-                        _originStation.GetValueOrDefault(), Loc.GetString("time-cycle-day"), "Central de Comando", true, dayShift, colorOverride: Color.Orange);
-                }
-                ForceUpdate();
-                _cfg.SetCVar(CCVars.NightTime, false);
-            }
+            _isNight = args.IsNight;
+            UpdateAll();
         }
-
-        public void ForceUpdate()
+        public void UpdateAll()
         {
-            for (var i = 0; i < _bulbList.Count; i++)
+            var query = EntityQuery<PoweredLightComponent>();
+            foreach (var bulb in query)
             {
-                UpdateLight(_bulbList[i], _componentList[i]);
+                UpdateLight(bulb.Owner, bulb);
             }
         }
     }
