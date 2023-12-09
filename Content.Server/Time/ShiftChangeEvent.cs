@@ -3,7 +3,7 @@ using Robust.Shared.Serialization;
 
 namespace Content.Server.Time
 {
-    [Serializable, NetSerializable]
+    [Serializable]
     public sealed partial class ShiftChangeEvent : EntityEventArgs
     {
         public bool IsNight { get; }
