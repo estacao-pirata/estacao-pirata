@@ -29,6 +29,8 @@ using Content.Server.Station.Components;
 using Content.Server.Chat.Systems;
 using Robust.Shared.Configuration;
 using Content.Shared.CCVar;
+using System.Linq;
+using FastAccessors;
 
 namespace Content.Server.Light.EntitySystems
 {
@@ -55,12 +57,10 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly ChatSystem _chatSystem = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
-        private bool _isStationDefined;
         private bool _isNight;
         private float _lightNightIntensity;
         private float _lightNightRadius;
-
-        private EntityUid? _originStation;
+        private List<EntityUid>? _stationList;
         public const string LightBulbContainer = "light_bulb";
 
         public override void Initialize()
@@ -85,6 +85,7 @@ namespace Content.Server.Light.EntitySystems
             SubscribeLocalEvent<ShiftChangeEvent>(OnShiftChange);
 
             _isNight = false;
+            _stationList = new List<EntityUid>();
         }
 
         private void OnInit(EntityUid uid, PoweredLightComponent light, ComponentInit args)
@@ -104,8 +105,8 @@ namespace Content.Server.Light.EntitySystems
                 light.LightBulbContainer.Insert(entity);
             }
             // need this to update visualizers
-
             UpdateLight(uid, light);
+            _stationList = new List<EntityUid>();
         }
 
         private void OnInteractUsing(EntityUid uid, PoweredLightComponent component, InteractUsingEvent args)
@@ -280,13 +281,6 @@ namespace Content.Server.Light.EntitySystems
 
             // Optional component.
             Resolve(uid, ref appearance, false);
-
-            if (!_isStationDefined && _entityManager.TryGetComponent(uid.ToCoordinates().GetGridUid(_entityManager), out StationMemberComponent? c))
-            {
-                _originStation = uid.ToCoordinates().GetGridUid(_entityManager);
-                _isStationDefined = true;
-            }
-
             // check if light has bulb
             var bulbUid = GetBulb(uid, light);
             if (bulbUid == null || !EntityManager.TryGetComponent(bulbUid.Value, out LightBulbComponent? lightBulb))
@@ -306,7 +300,7 @@ namespace Content.Server.Light.EntitySystems
                         _lightNightRadius = _cfg.GetCVar(CCVars.NightLightRadius);
                         var energy = lightBulb.LightEnergy;
                         var radius = lightBulb.LightRadius;
-                        if (_isNight)
+                        if (_isNight && _stationList!.Contains(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
                         {
                             energy *= _lightNightIntensity;
                             radius *= _lightNightRadius;
@@ -477,18 +471,21 @@ namespace Content.Server.Light.EntitySystems
 
         private void OnShiftChange(ShiftChangeEvent args)
         {
-            if (_isStationDefined && args.IsDispatchActivated)
-            {
-                _chatSystem.DispatchStationAnnouncement(
-                _originStation.GetValueOrDefault(), args.Message, Loc.GetString("comms-console-announcement-title-centcom"), true, args.Sound, colorOverride: args.Color);
-            }
             _isNight = args.IsNight;
             UpdateAll();
+            if (args.IsDispatchActivated)
+            {
+                _chatSystem.DispatchStationAnnouncement(
+                _stationList!.First(), args.Message, Loc.GetString("comms-console-announcement-title-centcom"), true, args.Sound, colorOverride: args.Color);
+            }
         }
         public void UpdateAll()
         {
-            var query = EntityQuery<PoweredLightComponent>();
-            foreach (var bulb in query)
+            foreach (var station in EntityQuery<StationMemberComponent>())
+            {
+                if (station != null && !_stationList!.Contains(station.Owner)) _stationList!.Add(station.Owner);
+            }
+            foreach (var bulb in EntityQuery<PoweredLightComponent>())
             {
                 UpdateLight(bulb.Owner, bulb);
             }
