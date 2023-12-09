@@ -30,7 +30,6 @@ using Content.Server.Chat.Systems;
 using Robust.Shared.Configuration;
 using Content.Shared.CCVar;
 using System.Linq;
-using FastAccessors;
 
 namespace Content.Server.Light.EntitySystems
 {
