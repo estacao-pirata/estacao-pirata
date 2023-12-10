@@ -91,8 +91,6 @@ namespace Content.Server.Light.EntitySystems
         {
             light.LightBulbContainer = _containerSystem.EnsureContainer<ContainerSlot>(uid, LightBulbContainer);
             _signalSystem.EnsureSinkPorts(uid, light.OnPort, light.OffPort, light.TogglePort);
-            _lightNightIntensity = _cfg.GetCVar(CCVars.NightLightIntensity);
-            _lightNightRadius = _cfg.GetCVar(CCVars.NightLightRadius);
         }
 
         private void OnMapInit(EntityUid uid, PoweredLightComponent light, MapInitEvent args)
@@ -491,6 +489,11 @@ namespace Content.Server.Light.EntitySystems
                 _chatSystem.DispatchStationAnnouncement(
                 _stationList!.First(), args.Message, Loc.GetString("comms-console-announcement-title-centcom"), true, args.Sound, colorOverride: args.Color);
             }
+        }
+
+        public override void Update(float frameTime)
+        {
+            base.Update(frameTime);
         }
         public void UpdateAll()
         {
