@@ -30,6 +30,8 @@ using Content.Server.Chat.Systems;
 using Robust.Shared.Configuration;
 using Content.Shared.CCVar;
 using System.Linq;
+using System.Text.RegularExpressions;
+using FastAccessors;
 
 namespace Content.Server.Light.EntitySystems
 {
@@ -57,8 +59,6 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
         private bool _isNight;
-        private float _lightNightIntensity;
-        private float _lightNightRadius;
         private List<EntityUid>? _stationList;
         public const string LightBulbContainer = "light_bulb";
 
@@ -295,16 +295,30 @@ namespace Content.Server.Light.EntitySystems
                 case LightBulbState.Normal:
                     if (powerReceiver.Powered && light.On)
                     {
-                        _lightNightIntensity = _cfg.GetCVar(CCVars.NightLightIntensity);
-                        _lightNightRadius = _cfg.GetCVar(CCVars.NightLightRadius);
+                        var regex = new Regex(@"^#(\d+.?\d*)-(\d+.?\d*)-(\d+.?\d*)$");
+                        var rgb_energy = _cfg.GetCVar(CCVars.NightLightRGBIntensity);
+                        var result = regex.Match(rgb_energy);
                         var energy = lightBulb.LightEnergy;
                         var radius = lightBulb.LightRadius;
+                        var rbyte = lightBulb.Color.RByte;
+                        var gbyte = lightBulb.Color.GByte;
+                        var bbyte = lightBulb.Color.BByte;
                         if (_isNight && _stationList!.Contains(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
                         {
-                            energy *= _lightNightIntensity;
-                            radius *= _lightNightRadius;
+                            energy *= _cfg.GetCVar(CCVars.NightLightIntensity);
+                            radius *= _cfg.GetCVar(CCVars.NightLightRadius);
+                            if (result.Success)
+                            {
+                                rbyte = (byte) Math.Min(255, rbyte * float.Parse(result.Groups[1].Value));
+                                gbyte = (byte) Math.Min(255, gbyte * float.Parse(result.Groups[2].Value));
+                                bbyte = (byte) Math.Min(255, bbyte * float.Parse(result.Groups[3].Value));
+                            }
+                            else
+                            {
+                                _cfg.SetCVar(CCVars.NightLightRGBIntensity, "#1.0-1.0-1.0");
+                            }
                         }
-                        SetLight(uid, true, lightBulb.Color, light, radius, energy, lightBulb.LightSoftness);
+                        SetLight(uid, true, System.Drawing.Color.FromArgb(rbyte, gbyte, bbyte), light, radius, energy, lightBulb.LightSoftness);
                         _appearance.SetData(uid, PoweredLightVisuals.BulbState, PoweredLightState.On, appearance);
                         var time = _gameTiming.CurTime;
                         if (time > light.LastThunk + ThunkDelay)

@@ -1835,10 +1835,13 @@ namespace Content.Shared.CCVar
             CVarDef.Create("time.shift_announcement", false, desc: "Define se serão emitidos anúncios após a mudança de turno. (true/false)", flag: CVar.SERVERONLY);
 
         public static readonly CVarDef<float> NightLightIntensity =
-            CVarDef.Create("time.night_light_intensity", 0.33f, desc: "Define o multiplicador da queda de intensidade das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
+            CVarDef.Create("time.night_light_intensity", 0.33f, desc: "Define o multiplicador da intensidade das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
+
+        public static readonly CVarDef<string> NightLightRGBIntensity =
+            CVarDef.Create("time.night_rgb_intensity", "#1.0-1.0-1.0", desc: "Altera o color shifting das luzes durante o modo noturno. (#R.R-G.G-B.B)", flag: CVar.SERVERONLY);
 
         public static readonly CVarDef<float> NightLightRadius =
-            CVarDef.Create("time.night_light_radius", 0.75f, desc: "Define o multiplicador da queda do radio das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
+            CVarDef.Create("time.night_light_radius", 0.66f, desc: "Define o multiplicador da queda do radio das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
 
         public static readonly CVarDef<int> NightStartTime =
             CVarDef.Create("time.night_start_time", 20, desc: "Horário em que a estação entrará em modo noturno (se estiver ativo). (horário)", flag: CVar.SERVERONLY);

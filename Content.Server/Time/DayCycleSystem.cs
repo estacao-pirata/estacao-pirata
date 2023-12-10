@@ -31,12 +31,12 @@ namespace Content.Server.Time
             _currentHour = _timeSystem!.GetStationTime().Hours;
             if (_cfg.GetCVar(CCVars.DayNightCycle))
             {
-                if ((_currentHour >= _nightStartTime || _currentHour <= _nightEndTime) && !_isNight)
+                if ((_currentHour >= _nightStartTime || _currentHour < _nightEndTime) && !_isNight)
                 {
                     _isNight = true;
                     ShiftChange(_isNight, NightAlert!, Loc.GetString("time-night-shift-announcement"), Color.SkyBlue);
                 }
-                else if (_currentHour < _nightStartTime && _currentHour > _nightEndTime && _isNight)
+                else if (_currentHour < _nightStartTime && _currentHour >= _nightEndTime && _isNight)
                 {
                     _isNight = false;
                     ShiftChange(_isNight, DayAlert!, Loc.GetString("time-day-shift-announcement"), Color.OrangeRed);
