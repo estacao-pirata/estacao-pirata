@@ -1823,29 +1823,34 @@ namespace Content.Shared.CCVar
             CVarDef.Create("replay.auto_record_temp_dir", "", CVar.SERVERONLY);
 
         public static readonly CVarDef<int> InitialTime =
-            CVarDef.Create("time.initial", 28800, desc: "Valor inicial do contador de tempo relativo. (segundos)", flag: CVar.REPLICATED);
-
+            CVarDef.Create("time.initial", 1200, desc: "{seconds} (int)", flag: CVar.REPLICATED);
         public static readonly CVarDef<int> TimeScale =
-            CVarDef.Create("time.scale", 24, desc: "Multiplicador do tempo relativo em relação ao tempo real (fator)", flag: CVar.REPLICATED);
-
+            CVarDef.Create("time.scale", 24, desc: "{factor} (int)", flag: CVar.REPLICATED);
         public static readonly CVarDef<bool> DayNightCycle =
-            CVarDef.Create("time.day_night_cycle", false, desc: "Define se o sistema de iluminação noturna estará ativado na estação. (true/false)", flag: CVar.SERVERONLY);
-
+            CVarDef.Create("time.day_night_cycle", false, desc: "{state} (true/false)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<bool> ShiftAnnouncement =
-            CVarDef.Create("time.shift_announcement", false, desc: "Define se serão emitidos anúncios após a mudança de turno. (true/false)", flag: CVar.SERVERONLY);
-
-        public static readonly CVarDef<float> NightLightIntensity =
-            CVarDef.Create("time.night_light_intensity", 0.33f, desc: "Define o multiplicador da intensidade das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
-
-        public static readonly CVarDef<string> NightLightRGBIntensity =
-            CVarDef.Create("time.night_rgb_intensity", "#1.0-1.0-1.0", desc: "Altera o color shifting das luzes durante o modo noturno. (#R.R-G.G-B.B)", flag: CVar.SERVERONLY);
-
-        public static readonly CVarDef<float> NightLightRadius =
-            CVarDef.Create("time.night_light_radius", 0.66f, desc: "Define o multiplicador da queda do radio das luzes durante o modo noturno. (fator)", flag: CVar.SERVERONLY);
-
+            CVarDef.Create("time.shift_announcement", false, desc: "{state} (true/false)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<float> LightCycleDuration =
+            CVarDef.Create("time.cycle_duration", 3600f, desc: "{seconds} (true/false)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<int> NightStartTime =
-            CVarDef.Create("time.night_start_time", 20, desc: "Horário em que a estação entrará em modo noturno (se estiver ativo). (horário)", flag: CVar.SERVERONLY);
+            CVarDef.Create("time.night_start_time", 20, desc: "{hour}. (int)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<int> NightDuration =
-            CVarDef.Create("time.night_duration", 8, desc: "Duração da noite. (horas)", flag: CVar.SERVERONLY);
+            CVarDef.Create("time.night_duration", 8, desc: "{hour}. (int)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<float> MaxLight =
+            CVarDef.Create("lights.max_light", 1.5f, desc: "{constant} (float)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<float> MinLight =
+            CVarDef.Create("lights.min_light", 0.3f, desc: "{constant} (float)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<int> ExponentialConstant =
+            CVarDef.Create("lights.exponential_c", 1, desc: "{constant} (int)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<float> LightAmplitude =
+            CVarDef.Create("lights.amplitude", 1f, desc: "{constant} (float)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<bool> ColorCycle =
+            CVarDef.Create("lights.color_cycle", false, desc: "{state} (true/false)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<float> DeltaAdjust =
+            CVarDef.Create("lights.delta_adjust", 0.0005f, desc: "{constant} (float)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<string> LightRGB =
+            CVarDef.Create("lights.color", "#FFFFFF", desc: "(#RRGGBB)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<bool> ColorOverride =
+            CVarDef.Create("lights.color_override", false, desc: "{state} (true/false)", flag: CVar.SERVERONLY);
     }
 }

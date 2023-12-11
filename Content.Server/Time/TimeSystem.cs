@@ -23,7 +23,7 @@ namespace Content.Server.Time
         }
         public TimeSpan GetStationTime()
         {
-            return TimeSpan.FromSeconds(_curTime + _cfg.GetCVar(CCVars.InitialTime));
+            return TimeSpan.FromSeconds(_curTime + _cfg.GetCVar(CCVars.InitialTime) * _cfg.GetCVar(CCVars.TimeScale));
         }
         private void SetStationTime(double time)
         {

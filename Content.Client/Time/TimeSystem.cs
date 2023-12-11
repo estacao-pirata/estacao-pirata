@@ -29,7 +29,7 @@ namespace Content.Client.Time
         }
         public TimeSpan GetStationTime()
         {
-            return TimeSpan.FromSeconds(_curTime + _cfg.GetCVar(CCVars.InitialTime));
+            return TimeSpan.FromSeconds(_curTime + _cfg.GetCVar(CCVars.InitialTime) * _cfg.GetCVar(CCVars.TimeScale));
         }
         public DateTime GetStationDate()
         {
