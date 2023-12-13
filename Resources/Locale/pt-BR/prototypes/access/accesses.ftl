@@ -1,8 +1,8 @@
 id-card-access-level-command = Comando
 id-card-access-level-captain = Capitão
-id-card-access-level-head-of-personnel = Chefe dos Funcionários
+id-card-access-level-head-of-personnel = Intendente da Estação
 
-id-card-access-level-head-of-security = Chefe de Segurança
+id-card-access-level-head-of-security = Xerife
 id-card-access-level-security = Segurança
 id-card-access-level-armory = Arsenal
 id-card-access-level-brig = Brig

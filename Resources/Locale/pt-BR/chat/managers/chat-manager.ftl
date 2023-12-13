@@ -47,6 +47,9 @@ chat-manager-send-hook-ooc-wrap-message = OOC: [bold](D){$senderName}:[/bold] {$
 chat-manager-dead-channel-name = MORTO
 chat-manager-admin-channel-name = ADMIN
 
+chat-manager-rate-limited = Você está enviando mensagens muito rapidamente!
+chat-manager-rate-limit-admin-announcement = Jogador { $player } violou a taxa limite do bate-papo. Observe-os se isso é uma ocorrência regular.
+
 ## Speech verbs for chat
 
 chat-speech-verb-suffix-exclamation = !
