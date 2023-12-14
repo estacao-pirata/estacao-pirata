@@ -25,14 +25,11 @@ using Robust.Shared.Containers;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Content.Shared.Coordinates;
-using Content.Server.Station.Components;
-using Content.Server.Chat.Systems;
 using Robust.Shared.Configuration;
 using Content.Shared.CCVar;
-using System.Linq;
 using System.Text.RegularExpressions;
-using FastAccessors;
 using System.Globalization;
+
 
 namespace Content.Server.Light.EntitySystems
 {
@@ -46,7 +43,7 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly SharedAmbientSoundSystem _ambientSystem = default!;
         [Dependency] private readonly LightBulbSystem _bulbSystem = default!;
         [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
-        [Dependency] private readonly IAdminLogManager _adminLogger= default!;
+        [Dependency] private readonly IAdminLogManager _adminLogger = default!;
         [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
         [Dependency] private readonly DeviceLinkSystem _signalSystem = default!;
         [Dependency] private readonly SharedContainerSystem _containerSystem = default!;
@@ -55,13 +52,9 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly PointLightSystem _pointLight = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
         [Dependency] private readonly InventorySystem _inventory = default!;
-        [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
-        [Dependency] private readonly ChatSystem _chatSystem = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
-        private DayCycleSystem? _dayCycleSystem;
-        private bool _isNight;
         private List<EntityUid>? _stationList;
         private double _lightLevel;
         private double _redLevel;
@@ -89,15 +82,13 @@ namespace Content.Server.Light.EntitySystems
             SubscribeLocalEvent<PoweredLightComponent, PoweredLightDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<PoweredLightComponent, EmpPulseEvent>(OnEmpPulse);
 
-            SubscribeLocalEvent<ShiftChangeEvent>(OnShiftChange);
+            SubscribeLocalEvent<LightLevelChangeEvent>(OnLightLevelChange);
 
-            _isNight = false;
-            _dayCycleSystem = _entitySystem.GetEntitySystem<DayCycleSystem>();
             _stationList = new List<EntityUid>();
-            _lightLevel = _dayCycleSystem.CalculateDayLightLevel();
-            _redLevel = _dayCycleSystem.CalculateColorLevel(1);
-            _greenLevel = _dayCycleSystem.CalculateColorLevel(2);
-            _blueLevel = _dayCycleSystem.CalculateColorLevel(3);
+            _lightLevel = 1;
+            _redLevel = 1;
+            _greenLevel = 1;
+            _blueLevel = 1;
         }
 
         private void OnInit(EntityUid uid, PoweredLightComponent light, ComponentInit args)
@@ -315,15 +306,22 @@ namespace Content.Server.Light.EntitySystems
                         var color = lightBulb.Color;
                         if (_cfg.GetCVar(CCVars.ColorOverride) && match.Success)
                             color = System.Drawing.Color.FromArgb(int.Parse(match.Value.Replace("#", ""), NumberStyles.HexNumber));
-                        if (_cfg.GetCVar(CCVars.DayNightCycle) && _stationList!.Contains(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
+                        foreach (var station in _stationList!)
                         {
-                            energy *= (float) _lightLevel;
-                            if (_cfg.GetCVar(CCVars.ColorCycle))
+                            if (station.Equals(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
                             {
-                                var red = (int) Math.Min(255, color.RByte * _redLevel + 1);
-                                var green = (int) Math.Min(255, color.BByte * _greenLevel + 1);
-                                var blue = (int) Math.Min(255, color.GByte * _blueLevel + 1);
-                                color = System.Drawing.Color.FromArgb(red, green, blue);
+                                var comp = _entityManager.GetComponent<DayCycleComponent>(station);
+                                if (comp.isEnabled)
+                                {
+                                    energy *= (float) _lightLevel;
+                                    if (comp.IsColorEnabled)
+                                    {
+                                        var red = (int) Math.Min(color.RByte, color.RByte * _redLevel);
+                                        var green = (int) Math.Min(color.BByte, color.BByte * _greenLevel);
+                                        var blue = (int) Math.Min(color.GByte, color.GByte * _blueLevel);
+                                        color = System.Drawing.Color.FromArgb(red, green, blue);
+                                    }
+                                }
                             }
                         }
                         SetLight(uid, true, color, light, radius, (float) energy, lightBulb.LightSoftness);
@@ -490,41 +488,17 @@ namespace Content.Server.Light.EntitySystems
                 args.Affected = true;
         }
 
-        private void OnShiftChange(ShiftChangeEvent args)
+        private void OnLightLevelChange(LightLevelChangeEvent args)
         {
-            _isNight = args.IsNight;
+            _lightLevel = args.LightLevel;
+            _redLevel = args.ColorLevel[0];
+            _greenLevel = args.ColorLevel[1];
+            _blueLevel = args.ColorLevel[2];
+            if (args.Entity != null && !_stationList!.Contains(args.Entity)) _stationList!.Add(args.Entity);
             UpdateAll();
-            if (args.IsDispatchActivated)
-            {
-                _chatSystem.DispatchStationAnnouncement(
-                _stationList!.First(), args.Message, Loc.GetString("comms-console-announcement-title-centcom"), true, args.Sound, colorOverride: args.Color);
-            }
-        }
-        public override void Update(float frameTime)
-        {
-            base.Update(frameTime);
-            if (_cfg.GetCVar(CCVars.DayNightCycle))
-            {
-                var curLightLevel = _dayCycleSystem!.CalculateDayLightLevel();
-                if (Math.Abs(curLightLevel - _lightLevel) > _cfg.GetCVar(CCVars.DeltaAdjust))
-                {
-                    if (_cfg.GetCVar(CCVars.ColorCycle))
-                    {
-                        _redLevel = _dayCycleSystem.CalculateColorLevel(1);
-                        _greenLevel = _dayCycleSystem.CalculateColorLevel(2);
-                        _blueLevel = _dayCycleSystem.CalculateColorLevel(3);
-                    }
-                    _lightLevel = curLightLevel;
-                    UpdateAll();
-                }
-            }
         }
         public void UpdateAll()
         {
-            foreach (var station in EntityQuery<StationMemberComponent>())
-            {
-                if (station != null && !_stationList!.Contains(station.Owner)) _stationList!.Add(station.Owner);
-            }
             foreach (var bulb in EntityQuery<PoweredLightComponent>())
             {
                 UpdateLight(bulb.Owner, bulb, isLightCycle: true);

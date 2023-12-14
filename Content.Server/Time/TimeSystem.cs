@@ -23,7 +23,7 @@ namespace Content.Server.Time
         }
         public TimeSpan GetStationTime()
         {
-            return TimeSpan.FromSeconds(_curTime + _cfg.GetCVar(CCVars.InitialTime) * _cfg.GetCVar(CCVars.TimeScale));
+            return TimeSpan.FromSeconds(_curTime);
         }
         private void SetStationTime(double time)
         {
@@ -32,7 +32,7 @@ namespace Content.Server.Time
         public override void Update(float frameTime)
         {
             base.Update(frameTime);
-            SetStationTime(GetRoundDuration() * _cfg.GetCVar(CCVars.TimeScale));
+            SetStationTime(GetRoundDuration() * _cfg.GetCVar(CCVars.TimeScale) + (_cfg.GetCVar(CCVars.InitialTime) * _cfg.GetCVar(CCVars.TimeScale)));
         }
     }
 }

@@ -1826,26 +1826,6 @@ namespace Content.Shared.CCVar
             CVarDef.Create("time.initial", 1200, desc: "{seconds} (int)", flag: CVar.REPLICATED);
         public static readonly CVarDef<int> TimeScale =
             CVarDef.Create("time.scale", 24, desc: "{factor} (int)", flag: CVar.REPLICATED);
-        public static readonly CVarDef<bool> DayNightCycle =
-            CVarDef.Create("time.day_night_cycle", false, desc: "{state} (true/false)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<bool> ShiftAnnouncement =
-            CVarDef.Create("time.shift_announcement", false, desc: "{state} (true/false)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<float> LightCycleDuration =
-            CVarDef.Create("time.cycle_duration", 3600f, desc: "{seconds} (true/false)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<int> NightStartTime =
-            CVarDef.Create("time.night_start_time", 20, desc: "{hour}. (int)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<int> NightDuration =
-            CVarDef.Create("time.night_duration", 8, desc: "{hour}. (int)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<float> MaxLight =
-            CVarDef.Create("lights.max_light", 1.5f, desc: "{constant} (float)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<float> MinLight =
-            CVarDef.Create("lights.min_light", 0.3f, desc: "{constant} (float)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<int> ExponentialConstant =
-            CVarDef.Create("lights.exponential_c", 1, desc: "{constant} (int)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<float> LightAmplitude =
-            CVarDef.Create("lights.amplitude", 1f, desc: "{constant} (float)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<bool> ColorCycle =
-            CVarDef.Create("lights.color_cycle", false, desc: "{state} (true/false)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<float> DeltaAdjust =
             CVarDef.Create("lights.delta_adjust", 0.0005f, desc: "{constant} (float)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<string> LightRGB =
