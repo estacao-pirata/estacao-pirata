@@ -134,7 +134,7 @@ namespace Content.Server.Time
         public double CalculateColorLevel(DayCycleComponent comp, int color)
         {
             double crest = 6;
-            double shift = 0.75;
+            double shift = 0.725;
             var exponent = 6;
             var time = _timeSystem!.GetStationTime().TotalSeconds;
             var wave_lenght = Math.Max(0, comp.CycleDuration) * 24;
@@ -150,7 +150,7 @@ namespace Content.Server.Time
                 case 3:
                     crest = 12;
                     wave_lenght /= 2;
-                    shift = 0.7;
+                    shift = 0.685;
                     exponent = 2;
                     phase = wave_lenght / 2;
                     break;
