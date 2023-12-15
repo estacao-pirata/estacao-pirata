@@ -91,7 +91,7 @@ namespace Content.Server.Time
                     if (!_mapColor!.ContainsKey(map.Owner.Id))
                     {
                         Color color = map.AmbientLightColor;
-                        _mapColor.Add(map.Owner.Id, new int[] { color.AByte, color.RByte, color.GByte, color.BByte });
+                        _mapColor.Add(map.Owner.Id, new int[] { color.RByte, color.GByte, color.BByte });
                     }
                     else
                     {
@@ -134,25 +134,24 @@ namespace Content.Server.Time
         }
         public double CalculateColorLevel(DayCycleComponent comp, int color)
         {
-            double crest = 2;
+            double crest = 6;
             double shift = 0.75;
-            var exponent = 8;
+            var exponent = 6;
             var time = _timeSystem!.GetStationTime().TotalSeconds;
             var wave_lenght = Math.Max(0, comp.CycleDuration) * 24;
             var phase = 0d;
             switch (color)
             {
-                case 1:
-                    crest = 4;
-                    exponent = 8;
-                    break;
+                /*case 1:
+                    break;*/
                 case 2:
                     crest = 4;
+                    exponent = 10;
                     break;
                 case 3:
-                    crest = 20;
+                    crest = 12;
                     wave_lenght /= 2;
-                    shift = 0.65;
+                    shift = 0.7;
                     exponent = 2;
                     phase = wave_lenght / 2;
                     break;
