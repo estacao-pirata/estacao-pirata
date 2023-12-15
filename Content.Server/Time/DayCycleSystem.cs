@@ -13,7 +13,6 @@ namespace Content.Server.Time
     public sealed partial class DayCycleSystem : EntitySystem
     {
         [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
-        [Dependency] private readonly IEntityManager _entityManager = default!;
         [Dependency] private readonly ChatSystem _chatSystem = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
 
@@ -98,9 +97,9 @@ namespace Content.Server.Time
                         var lightLevel = CalculateDayLightLevel(comp);
                         if (Math.Abs(lightLevel - _lightLevel) >= _cfg.GetCVar(CCVars.DeltaAdjust))
                         {
-                            int red = (int) Math.Min(_mapColor[map.Owner.Id][0], _mapColor[map.Owner.Id][0] * lightLevel);
-                            int green = (int) Math.Min(_mapColor[map.Owner.Id][1], _mapColor[map.Owner.Id][1] * lightLevel);
-                            int blue = (int) Math.Min(_mapColor[map.Owner.Id][2], _mapColor[map.Owner.Id][2] * lightLevel);
+                            var red = (int) Math.Min(_mapColor[map.Owner.Id][0], _mapColor[map.Owner.Id][0] * lightLevel);
+                            var green = (int) Math.Min(_mapColor[map.Owner.Id][1], _mapColor[map.Owner.Id][1] * lightLevel);
+                            var blue = (int) Math.Min(_mapColor[map.Owner.Id][2], _mapColor[map.Owner.Id][2] * lightLevel);
                             if (comp.IsColorEnabled)
                             {
                                 red = (int) Math.Min(_mapColor[map.Owner.Id][0], red * CalculateColorLevel(comp, 1));
