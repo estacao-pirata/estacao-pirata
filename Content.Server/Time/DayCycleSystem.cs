@@ -1,9 +1,6 @@
-using System.Collections;
 using Content.Server.Chat.Systems;
-using Content.Server.Light.EntitySystems;
 using Content.Server.Station.Components;
 using Content.Shared.CCVar;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Robust.Shared.Audio;
 using Robust.Shared.Configuration;
 using Robust.Shared.Map.Components;
@@ -124,45 +121,47 @@ namespace Content.Server.Time
         public double CalculateDayLightLevel(DayCycleComponent comp)
         {
             var time = _timeSystem!.GetStationTime().TotalSeconds;
-            var wave_lenght = Math.Max(0, comp.CycleDuration * 24);
+            var wave_lenght = Math.Max(0, comp.CycleDuration) * 24;
             var crest = Math.Max(1, comp.PeakLightLevel);
             var shift = Math.Max(0, comp.BaseLightLevel);
-            var amplitude = Math.Max(0, comp.LightAmplitude);
-            var exponential = Math.Max(1, comp.ExponentialConstant);
-            return Math.Min(comp.LightLevelLimit, CalculateCurve(time, wave_lenght, crest, shift, amplitude, 2 * exponential));
+            var exponential = 6;
+            return CalculateCurve(time, wave_lenght, crest, shift, 2 * exponential);
         }
         public double CalculateColorLevel(DayCycleComponent comp, int color)
         {
-            double crest = 6;
-            double shift = 0.725;
-            var exponent = 6;
+            var crest = 1.65;
+            var shift = 0.7;
+            var exponent = 4;
             var time = _timeSystem!.GetStationTime().TotalSeconds;
             var wave_lenght = Math.Max(0, comp.CycleDuration) * 24;
             var phase = 0d;
             switch (color)
             {
-                /*case 1:
-                    break;*/
+                case 1:
+                    crest = 1.65;
+                    shift = 0.7;
+                    exponent = 4;
+                    break;
                 case 2:
-                    crest = 4;
-                    exponent = 10;
+                    crest = 1.9;
+                    shift = 0.7;
+                    exponent = 8;
                     break;
                 case 3:
-                    crest = 12;
-                    wave_lenght /= 2;
+                    crest = 3.75;
                     shift = 0.685;
                     exponent = 2;
+                    wave_lenght /= 2;
                     phase = wave_lenght / 2;
                     break;
             }
-            return CalculateCurve(time, wave_lenght, crest, shift, 1, exponent, phase);
+            return CalculateCurve(time, wave_lenght, crest, shift, exponent, phase);
         }
 
-        public static double CalculateCurve(double x, double wave_lenght, double crest, double shift, double amplitude, double exponent, double phase = 0)
+        public static double CalculateCurve(double x, double wave_lenght, double crest, double shift, double exponent, double phase = 0)
         {
             var sen = Math.Pow(Math.Sin((Math.PI * (phase + x)) / wave_lenght), exponent);
-            var function = amplitude * (Math.Pow(crest - shift + 1, sen) - 1) + shift;
-            return function;
+            return ((crest - shift) * sen) + shift;
         }
     }
 }
