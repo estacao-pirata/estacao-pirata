@@ -55,7 +55,7 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly IEntityManager _entityManager = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
-        private List<EntityUid>? _stationList;
+        private List<DayCycleComponent>? _stationList;
         private bool _isClipped;
         private double _lightLevel;
         private double _redLevel;
@@ -85,7 +85,7 @@ namespace Content.Server.Light.EntitySystems
             SubscribeLocalEvent<PoweredLightComponent, PoweredLightDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<PoweredLightComponent, EmpPulseEvent>(OnEmpPulse);
 
-            _stationList = new List<EntityUid>();
+            _stationList = new List<DayCycleComponent>();
             _lightLevel = 1;
             _redLevel = 1;
             _greenLevel = 1;
@@ -110,7 +110,7 @@ namespace Content.Server.Light.EntitySystems
             }
             // need this to update visualizers
             UpdateLight(uid, light);
-            _stationList = new List<EntityUid>();
+            _stationList = new List<DayCycleComponent>();
         }
 
         private void OnInteractUsing(EntityUid uid, PoweredLightComponent component, InteractUsingEvent args)
@@ -312,11 +312,10 @@ namespace Content.Server.Light.EntitySystems
                             if (match!.Success)
                                 color = System.Drawing.Color.FromArgb(int.Parse(match.Value.Replace("#", ""), NumberStyles.HexNumber));
                         }
-                        foreach (var station in _stationList!)
+                        foreach (var comp in _stationList!)
                         {
-                            if (station.Equals(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
+                            if (comp.Owner.Equals(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
                             {
-                                var comp = _entityManager.GetComponent<DayCycleComponent>(station);
                                 if (comp.isEnabled)
                                 {
                                     energy *= (float) Math.Min(_lightClip, _lightLevel);
@@ -494,11 +493,13 @@ namespace Content.Server.Light.EntitySystems
                 args.Affected = true;
         }
 
-        public void ChangeLights(double lightLevel, double[] colorLevel, EntityUid station, double lightClip = 1)
+        public void ChangeLights(double lightLevel, double[] colorLevel, DayCycleComponent comp)
         {
-            _lightClip = lightClip;
-            if (!_stationList!.Contains(station))
-                _stationList!.Add(station);
+            _lightClip = comp.LightClip;
+            // Adiciona as estações que devem ter suas luzes alteradas
+            if (!_stationList!.Contains(comp))
+                _stationList!.Add(comp);
+            // Deixa de computar o nível de luz quando não for necessário para economizar processamento.
             if (lightLevel <= _lightClip || colorLevel[0] <= 1 || colorLevel[1] <= 1 || colorLevel[2] <= 1)
             {
                 _isClipped = false;
@@ -508,6 +509,7 @@ namespace Content.Server.Light.EntitySystems
                 _blueLevel = colorLevel[2];
                 UpdateAll();
             }
+            // Uma condição para evitar que a luz deixe de ser calculada no momento errado.
             else if (!_isClipped)
             {
                 _isClipped = true;
@@ -520,9 +522,16 @@ namespace Content.Server.Light.EntitySystems
         }
         public void UpdateAll()
         {
+            // Itera sobre as lâmpadas da estação e as atualiza.
             foreach (var bulb in EntityQuery<PoweredLightComponent>())
             {
-                UpdateLight(bulb.Owner, bulb, isLightCycle: true);
+                foreach (var comp in _stationList!)
+                {
+                    if(comp.Owner.Equals(bulb.Owner.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
+                    {
+                        UpdateLight(bulb.Owner, bulb, isLightCycle: true);
+                    }
+                }
             }
         }
     }
