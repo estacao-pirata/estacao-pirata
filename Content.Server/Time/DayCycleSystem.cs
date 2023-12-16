@@ -2,6 +2,7 @@ using Content.Server.Chat.Systems;
 using Content.Server.Light.EntitySystems;
 using Content.Server.Station.Components;
 using Content.Shared.CCVar;
+using Robust.Shared.Timing;
 using Robust.Shared.Audio;
 using Robust.Shared.Configuration;
 using Robust.Shared.Map.Components;
@@ -13,11 +14,12 @@ namespace Content.Server.Time
         [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
         [Dependency] private readonly ChatSystem _chatSystem = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
+        [Dependency] private readonly IGameTiming _timing = default!;
 
         private TimeSystem? _timeSystem;
         private PoweredLightSystem? _lightSystem;
         private int _currentHour;
-        private double _lightLevel;
+        private double _deltaTick;
         private bool _isNight;
         private Dictionary<int, int[]>? _mapColor;
         public static SoundSpecifier? NightAlert;
@@ -30,45 +32,44 @@ namespace Content.Server.Time
             _timeSystem = _entitySystem.GetEntitySystem<TimeSystem>();
             _lightSystem = _entitySystem.GetEntitySystem<PoweredLightSystem>();
             _currentHour = _timeSystem!.GetStationTime().Hours;
-            _lightLevel = 1;
+            _deltaTick = 0;
             _isNight = false;
             _mapColor = new Dictionary<int, int[]>();
         }
         public override void Update(float frameTime)
         {
-            _currentHour = _timeSystem!.GetStationTime().Hours;
-            foreach (var (comp, station) in EntityQuery<DayCycleComponent, StationMemberComponent>())
+            if (Math.Ceiling(_deltaTick * _timing.TickRate) + 0.001 >= _cfg.GetCVar(CCVars.TickSkip))
             {
-                if (station != null && comp.isEnabled)
+                _deltaTick = 0;
+                _currentHour = _timeSystem!.GetStationTime().Hours;
+                foreach (var (comp, station) in EntityQuery<DayCycleComponent, StationMemberComponent>())
                 {
-                    if ((_currentHour >= comp.NightStartTime || _currentHour < TimeSpan.FromHours(comp.NightStartTime + comp.NightDuration).Hours) && !_isNight)
+                    if (station != null && comp.isEnabled)
                     {
-                        if (comp.IsAnnouncementEnabled)
+                        if ((_currentHour >= comp.NightStartTime || _currentHour < TimeSpan.FromHours(comp.NightStartTime + comp.NightDuration).Hours) && !_isNight)
                         {
-                            _chatSystem.DispatchStationAnnouncement(station.Owner,
-                            Loc.GetString("time-night-shift-announcement"),
-                            Loc.GetString("comms-console-announcement-title-centcom"),
-                            true, NightAlert, colorOverride: Color.SkyBlue);
+                            if (comp.IsAnnouncementEnabled)
+                            {
+                                _chatSystem.DispatchStationAnnouncement(station.Owner,
+                                Loc.GetString("time-night-shift-announcement"),
+                                Loc.GetString("comms-console-announcement-title-centcom"),
+                                true, NightAlert, colorOverride: Color.SkyBlue);
+                            }
+                            _isNight = true;
+                            ShiftChange(_isNight);
                         }
-                        _isNight = true;
-                        ShiftChange(_isNight);
-                    }
-                    else if (_currentHour >= TimeSpan.FromHours(comp.NightStartTime + comp.NightDuration).Hours && _currentHour < comp.NightStartTime && _isNight)
-                    {
-                        if (comp.IsAnnouncementEnabled)
+                        else if (_currentHour >= TimeSpan.FromHours(comp.NightStartTime + comp.NightDuration).Hours && _currentHour < comp.NightStartTime && _isNight)
                         {
-                            _chatSystem.DispatchStationAnnouncement(station.Owner,
-                            Loc.GetString("time-day-shift-announcement"),
-                            Loc.GetString("comms-console-announcement-title-centcom"),
-                            true, DayAlert, colorOverride: Color.OrangeRed);
+                            if (comp.IsAnnouncementEnabled)
+                            {
+                                _chatSystem.DispatchStationAnnouncement(station.Owner,
+                                Loc.GetString("time-day-shift-announcement"),
+                                Loc.GetString("comms-console-announcement-title-centcom"),
+                                true, DayAlert, colorOverride: Color.OrangeRed);
+                            }
+                            _isNight = false;
+                            ShiftChange(_isNight);
                         }
-                        _isNight = false;
-                        ShiftChange(_isNight);
-                    }
-                    var lightLevel = CalculateDayLightLevel(comp);
-                    if (Math.Abs(lightLevel - _lightLevel) >= _cfg.GetCVar(CCVars.DeltaAdjust))
-                    {
-                        _lightLevel = lightLevel;
                         var red = 1.0;
                         var green = 1.0;
                         var blue = 1.0;
@@ -78,24 +79,21 @@ namespace Content.Server.Time
                             green = CalculateColorLevel(comp, 2);
                             blue = CalculateColorLevel(comp, 3);
                         }
-                        _lightSystem!.ChangeLights(lightLevel, new double[] { red, green, blue }, station.Owner, comp.LightClip);
+                        _lightSystem!.ChangeLights(Math.Min(comp.LightClip, CalculateDayLightLevel(comp)), new double[] { red, green, blue }, station.Owner, comp.LightClip);
                     }
                 }
-            }
-            foreach (var (comp, map) in EntityQuery<DayCycleComponent, MapLightComponent>())
-            {
-                if (comp.isEnabled)
+                foreach (var (comp, map) in EntityQuery<DayCycleComponent, MapLightComponent>())
                 {
-                    if (!_mapColor!.ContainsKey(map.Owner.Id))
+                    if (comp.isEnabled)
                     {
-                        Color color = map.AmbientLightColor;
-                        _mapColor.Add(map.Owner.Id, new int[] { color.RByte, color.GByte, color.BByte });
-                    }
-                    else
-                    {
-                        var lightLevel = Math.Min(comp.LightClip, CalculateDayLightLevel(comp));
-                        if (Math.Abs(lightLevel - _lightLevel) >= _cfg.GetCVar(CCVars.DeltaAdjust))
+                        if (!_mapColor!.ContainsKey(map.Owner.Id))
                         {
+                            Color color = map.AmbientLightColor;
+                            _mapColor.Add(map.Owner.Id, new int[] { color.RByte, color.GByte, color.BByte });
+                        }
+                        else
+                        {
+                            var lightLevel = Math.Min(comp.LightClip, CalculateDayLightLevel(comp));
                             var red = (int) Math.Min(_mapColor[map.Owner.Id][0], _mapColor[map.Owner.Id][0] * lightLevel);
                             var green = (int) Math.Min(_mapColor[map.Owner.Id][1], _mapColor[map.Owner.Id][1] * lightLevel);
                             var blue = (int) Math.Min(_mapColor[map.Owner.Id][2], _mapColor[map.Owner.Id][2] * lightLevel);
@@ -107,10 +105,14 @@ namespace Content.Server.Time
                             }
                             map.AmbientLightColor = System.Drawing.Color.FromArgb(red, green, blue);
                             Dirty(map.Owner, map);
+                        }
                     }
-                    }
-                }
 
+                }
+            }
+            else
+            {
+                _deltaTick += frameTime;
             }
         }
 

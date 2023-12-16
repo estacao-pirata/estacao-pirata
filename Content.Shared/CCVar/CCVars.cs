@@ -1822,12 +1822,12 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<string> ReplayAutoRecordTempDir =
             CVarDef.Create("replay.auto_record_temp_dir", "", CVar.SERVERONLY);
 
-        public static readonly CVarDef<int> InitialTime =
-            CVarDef.Create("time.initial", 1200, desc: "{seconds} (int)", flag: CVar.REPLICATED);
-        public static readonly CVarDef<int> TimeScale =
-            CVarDef.Create("time.scale", 24, desc: "{factor} (int)", flag: CVar.REPLICATED);
-        public static readonly CVarDef<float> DeltaAdjust =
-            CVarDef.Create("lights.delta_adjust", 0.0005f, desc: "{constant} (float)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<float> InitialTime =
+            CVarDef.Create("time.initial_time", 1200f, desc: "(integer)", flag: CVar.REPLICATED);
+        public static readonly CVarDef<float> TimeScale =
+            CVarDef.Create("time.scale", 24f, desc: "(integer)", flag: CVar.REPLICATED);
+        public static readonly CVarDef<int> TickSkip =
+            CVarDef.Create("time.tick_skip", 5, desc: "(integer)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<string> LightRGB =
             CVarDef.Create("lights.color", "#FFFFFF", desc: "(#RRGGBB)", flag: CVar.SERVERONLY);
         public static readonly CVarDef<bool> ColorOverride =

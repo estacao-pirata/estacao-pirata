@@ -32,7 +32,7 @@ namespace Content.Server.Time
         public override void Update(float frameTime)
         {
             base.Update(frameTime);
-            SetStationTime(GetRoundDuration() * _cfg.GetCVar(CCVars.TimeScale) + (_cfg.GetCVar(CCVars.InitialTime) * _cfg.GetCVar(CCVars.TimeScale)));
+            SetStationTime(GetRoundDuration() * _cfg.GetCVar(CCVars.TimeScale) + _cfg.GetCVar(CCVars.InitialTime) * _cfg.GetCVar(CCVars.TimeScale));
         }
     }
 }
