@@ -320,7 +320,7 @@ namespace Content.Server.Light.EntitySystems
                                     {
                                         var red = (int) Math.Min(color.RByte, color.RByte * _redLevel);
                                         var green = (int) Math.Min(color.GByte, color.GByte * _greenLevel);
-                                        var blue = (int) Math.Min(color.BByte, color.BByte * _blueLevel);
+                                        var blue = (int) Math.Min(Math.Min(255, color.BByte * 1.065), color.BByte * _blueLevel);
                                         color = System.Drawing.Color.FromArgb(color.AByte, red, green, blue);
                                     }
                                 }

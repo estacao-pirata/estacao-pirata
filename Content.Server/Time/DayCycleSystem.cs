@@ -143,17 +143,17 @@ namespace Content.Server.Time
             {
                 case 1:
                     crest = 1.65;
-                    shift = 0.75;
+                    shift = 0.775;
                     exponent = 4;
                     break;
                 case 2:
                     crest = 1.85;
-                    shift = 0.75;
+                    shift = 0.775;
                     exponent = 8;
                     break;
                 case 3:
                     crest = 3.75;
-                    shift = 0.725;
+                    shift = 0.685;
                     exponent = 2;
                     wave_lenght /= 2;
                     phase = wave_lenght / 2;
