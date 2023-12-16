@@ -38,7 +38,7 @@ namespace Content.Server.Time
         }
         public override void Update(float frameTime)
         {
-            if (Math.Ceiling(_deltaTick * _timing.TickRate) + 0.001 >= _cfg.GetCVar(CCVars.TickSkip))
+            if ((_deltaTick * _timing.TickRate) + 0.001 >= _cfg.GetCVar(CCVars.TickSkip))
             {
                 _deltaTick = 0;
                 _currentHour = _timeSystem!.GetStationTime().Hours;
