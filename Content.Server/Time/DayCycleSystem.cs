@@ -24,6 +24,7 @@ namespace Content.Server.Time
         private Dictionary<int, int[]>? _mapColor;
         public static SoundSpecifier? NightAlert;
         public static SoundSpecifier? DayAlert;
+
         public override void Initialize()
         {
             base.Initialize();
@@ -56,7 +57,6 @@ namespace Content.Server.Time
                                 true, NightAlert, colorOverride: Color.SkyBlue);
                             }
                             _isNight = true;
-                            ShiftChange(_isNight);
                         }
                         else if (_currentHour >= TimeSpan.FromHours(comp.NightStartTime + comp.NightDuration).Hours && _currentHour < comp.NightStartTime && _isNight)
                         {
@@ -68,7 +68,6 @@ namespace Content.Server.Time
                                 true, DayAlert, colorOverride: Color.OrangeRed);
                             }
                             _isNight = false;
-                            ShiftChange(_isNight);
                         }
                         var red = 1.0;
                         var green = 1.0;
@@ -115,13 +114,6 @@ namespace Content.Server.Time
                 _deltaTick += frameTime;
             }
         }
-
-        private void ShiftChange(bool isNight)
-        {
-            var ev = new ShiftChangeEvent(isNight);
-            RaiseLocalEvent(ev);
-        }
-
         public double CalculateDayLightLevel(DayCycleComponent comp)
         {
             var time = _timeSystem!.GetStationTime().TotalSeconds;

@@ -62,6 +62,7 @@ namespace Content.Server.Light.EntitySystems
         private double _greenLevel;
         private double _blueLevel;
         private double _lightClip;
+        private readonly Regex _regex = new Regex(@"^#([A-Fa-f0-9]){6}$");
 
         public const string LightBulbContainer = "light_bulb";
 
@@ -300,14 +301,17 @@ namespace Content.Server.Light.EntitySystems
                 case LightBulbState.Normal:
                     if (powerReceiver.Powered && light.On)
                     {
-                        var regex = new Regex(@"^#([A-Fa-f0-9]){6}$");
+                        Match match;
                         var color_hex = _cfg.GetCVar(CCVars.LightRGB);
-                        var match = regex.Match(color_hex);
                         var energy = lightBulb.LightEnergy;
                         var radius = lightBulb.LightRadius;
                         var color = lightBulb.Color;
-                        if (_cfg.GetCVar(CCVars.ColorOverride) && match.Success)
-                            color = System.Drawing.Color.FromArgb(int.Parse(match.Value.Replace("#", ""), NumberStyles.HexNumber));
+                        if (_cfg.GetCVar(CCVars.ColorOverride))
+                        {
+                            match = _regex.Match(color_hex);
+                            if (match!.Success)
+                                color = System.Drawing.Color.FromArgb(int.Parse(match.Value.Replace("#", ""), NumberStyles.HexNumber));
+                        }
                         foreach (var station in _stationList!)
                         {
                             if (station.Equals(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
