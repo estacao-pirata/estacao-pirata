@@ -1,4 +1,5 @@
 using Content.Server.Chat.Systems;
+using Content.Server.Light.EntitySystems;
 using Content.Server.Station.Components;
 using Content.Shared.CCVar;
 using Robust.Shared.Audio;
@@ -14,6 +15,7 @@ namespace Content.Server.Time
         [Dependency] private readonly IConfigurationManager _cfg = default!;
 
         private TimeSystem? _timeSystem;
+        private PoweredLightSystem? _lightSystem;
         private int _currentHour;
         private double _lightLevel;
         private bool _isNight;
@@ -26,6 +28,7 @@ namespace Content.Server.Time
             NightAlert = new SoundPathSpecifier("/Audio/Announcements/nightshift.ogg");
             DayAlert = new SoundPathSpecifier("/Audio/Announcements/dayshift.ogg");
             _timeSystem = _entitySystem.GetEntitySystem<TimeSystem>();
+            _lightSystem = _entitySystem.GetEntitySystem<PoweredLightSystem>();
             _currentHour = _timeSystem!.GetStationTime().Hours;
             _lightLevel = 1;
             _isNight = false;
@@ -75,8 +78,7 @@ namespace Content.Server.Time
                             green = CalculateColorLevel(comp, 2);
                             blue = CalculateColorLevel(comp, 3);
                         }
-                        var ev = new LightLevelChangeEvent(lightLevel, new double[] { red, green, blue }, station.Owner);
-                        RaiseLocalEvent(ev);
+                        _lightSystem!.ChangeLights(lightLevel, new double[] { red, green, blue }, station.Owner, comp.LightClip);
                     }
                 }
             }
@@ -91,7 +93,7 @@ namespace Content.Server.Time
                     }
                     else
                     {
-                        var lightLevel = CalculateDayLightLevel(comp);
+                        var lightLevel = Math.Min(comp.LightClip, CalculateDayLightLevel(comp));
                         if (Math.Abs(lightLevel - _lightLevel) >= _cfg.GetCVar(CCVars.DeltaAdjust))
                         {
                             var red = (int) Math.Min(_mapColor[map.Owner.Id][0], _mapColor[map.Owner.Id][0] * lightLevel);
@@ -139,17 +141,17 @@ namespace Content.Server.Time
             {
                 case 1:
                     crest = 1.65;
-                    shift = 0.7;
+                    shift = 0.75;
                     exponent = 4;
                     break;
                 case 2:
-                    crest = 1.9;
-                    shift = 0.7;
+                    crest = 1.85;
+                    shift = 0.75;
                     exponent = 8;
                     break;
                 case 3:
                     crest = 3.75;
-                    shift = 0.685;
+                    shift = 0.725;
                     exponent = 2;
                     wave_lenght /= 2;
                     phase = wave_lenght / 2;

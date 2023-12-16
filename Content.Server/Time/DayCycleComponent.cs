@@ -19,8 +19,10 @@ namespace Content.Server.Time
         [ViewVariables(VVAccess.ReadWrite), DataField("nightDuration")]
         public int NightDuration = 9;
         [ViewVariables(VVAccess.ReadWrite), DataField("peakLightLevel")]
-        public double PeakLightLevel = 1.25;
+        public double PeakLightLevel = 2;
         [ViewVariables(VVAccess.ReadWrite), DataField("baseLightLevel")]
-        public double BaseLightLevel = 0.4;
+        public double BaseLightLevel = 0.5;
+        [ViewVariables(VVAccess.ReadWrite), DataField("lightClip")]
+        public double LightClip = 1.5;
     }
 }

@@ -56,10 +56,12 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
         private List<EntityUid>? _stationList;
+        private bool _isClipped;
         private double _lightLevel;
         private double _redLevel;
         private double _greenLevel;
         private double _blueLevel;
+        private double _lightClip;
 
         public const string LightBulbContainer = "light_bulb";
 
@@ -82,13 +84,13 @@ namespace Content.Server.Light.EntitySystems
             SubscribeLocalEvent<PoweredLightComponent, PoweredLightDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<PoweredLightComponent, EmpPulseEvent>(OnEmpPulse);
 
-            SubscribeLocalEvent<LightLevelChangeEvent>(OnLightLevelChange);
-
             _stationList = new List<EntityUid>();
             _lightLevel = 1;
             _redLevel = 1;
             _greenLevel = 1;
             _blueLevel = 1;
+            _lightClip = 1;
+            _isClipped = false;
         }
 
         private void OnInit(EntityUid uid, PoweredLightComponent light, ComponentInit args)
@@ -313,7 +315,7 @@ namespace Content.Server.Light.EntitySystems
                                 var comp = _entityManager.GetComponent<DayCycleComponent>(station);
                                 if (comp.isEnabled)
                                 {
-                                    energy *= (float) _lightLevel;
+                                    energy *= (float) Math.Min(_lightClip, _lightLevel);
                                     if (comp.IsColorEnabled)
                                     {
                                         var red = (int) Math.Min(color.RByte, color.RByte * _redLevel);
@@ -488,14 +490,29 @@ namespace Content.Server.Light.EntitySystems
                 args.Affected = true;
         }
 
-        private void OnLightLevelChange(LightLevelChangeEvent args)
+        public void ChangeLights(double lightLevel, double[] colorLevel, EntityUid station, double lightClip = 1)
         {
-            _lightLevel = args.LightLevel;
-            _redLevel = args.ColorLevel[0];
-            _greenLevel = args.ColorLevel[1];
-            _blueLevel = args.ColorLevel[2];
-            if (args.Entity != null && !_stationList!.Contains(args.Entity)) _stationList!.Add(args.Entity);
-            UpdateAll();
+            _lightClip = lightClip;
+            if (!_stationList!.Contains(station))
+                _stationList!.Add(station);
+            if (lightLevel <= _lightClip || colorLevel[0] <= 1 || colorLevel[1] <= 1 || colorLevel[2] <= 1)
+            {
+                _isClipped = false;
+                _lightLevel = lightLevel;
+                _redLevel = colorLevel[0];
+                _greenLevel = colorLevel[1];
+                _blueLevel = colorLevel[2];
+                UpdateAll();
+            }
+            else if (!_isClipped)
+            {
+                _isClipped = true;
+                _lightLevel = lightLevel;
+                _redLevel = colorLevel[0];
+                _greenLevel = colorLevel[1];
+                _blueLevel = colorLevel[2];
+                UpdateAll();
+            }
         }
         public void UpdateAll()
         {
