@@ -19,7 +19,7 @@ namespace Content.Server.Time
         private TimeSystem? _timeSystem;
         private PoweredLightSystem? _lightSystem;
         private int _currentHour;
-        private double _deltaTick;
+        private double _deltaTime;
         private bool _isNight;
         private Dictionary<int, int[]>? _mapColor;
         public static SoundSpecifier? NightAlert;
@@ -33,16 +33,15 @@ namespace Content.Server.Time
             _timeSystem = _entitySystem.GetEntitySystem<TimeSystem>();
             _lightSystem = _entitySystem.GetEntitySystem<PoweredLightSystem>();
             _currentHour = _timeSystem!.GetStationTime().Hours;
-            _deltaTick = 0;
+            _deltaTime = 0;
             _isNight = false;
             _mapColor = new Dictionary<int, int[]>();
         }
         public override void Update(float frameTime)
         {
-            // A expressão (_deltaTick * _timing.TickRate) representa o número de ticks desde a última vez que a iluminação foi atualizada.
-            if ((_deltaTick * _timing.TickRate) + 0.001 >= _cfg.GetCVar(CCVars.TickSkip))
+            if (_deltaTime >= 1.0)
             {
-                _deltaTick = 0;
+                _deltaTime = 0;
                 _currentHour = _timeSystem!.GetStationTime().Hours;
                 // Itera sobre as estações com o componente de dia e noite. Esse componente deve ser adicionado na grid para funcionar nas lâmpadas.
                 foreach (var (comp, station) in EntityQuery<DayCycleComponent, StationMemberComponent>())
@@ -118,8 +117,7 @@ namespace Content.Server.Time
             }
             else
             {
-                // Soma até atingir o valor de tempo necessário para a atualização, e nesse instante, reseta.
-                _deltaTick += frameTime;
+                _deltaTime += frameTime;
             }
         }
 
