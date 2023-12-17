@@ -500,7 +500,7 @@ namespace Content.Server.Light.EntitySystems
             if (!_stationList!.Contains(comp))
                 _stationList!.Add(comp);
             // Deixa de computar o nível de luz quando não for necessário para economizar processamento.
-            if (lightLevel <= _lightClip || colorLevel[0] <= 1 || colorLevel[1] <= 1 || colorLevel[2] <= 1)
+            if (lightLevel <= _lightClip || colorLevel[0] <= 1 || colorLevel[1] <= 1 || colorLevel[2] <= 1 || _cfg.GetCVar(CCVars.ColorOverride))
             {
                 _isClipped = false;
                 _lightLevel = lightLevel;
