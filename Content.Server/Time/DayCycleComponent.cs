@@ -7,32 +7,44 @@ namespace Content.Server.Time
     public sealed partial class DayCycleComponent : Component
     {
         [ViewVariables(VVAccess.ReadWrite), DataField("isEnabled")]
-        public bool isEnabled = false;
+        public bool IsEnabled = false;
         [ViewVariables(VVAccess.ReadWrite), DataField("isColorEnabled")]
-        public bool IsColorEnabled = false;
+        public bool IsColorShiftEnabled = false;
         [ViewVariables(VVAccess.ReadWrite), DataField("isAnnouncementEnabled")]
         public bool IsAnnouncementEnabled = false;
-        [ViewVariables(VVAccess.ReadWrite), DataField("ColorOverride")]
-        public bool ColorOverride = false;
-        [ViewVariables(VVAccess.ReadWrite), DataField("Color")]
-        public string HexColor = "#FFFFFF";
+        [ViewVariables(VVAccess.ReadWrite), DataField("isColorOverrideEnabled")]
+        public bool IsOverrideEnabled = false;
+        [ViewVariables(VVAccess.ReadWrite), DataField("overrideColor")]
+        public string OverrideColor = "#FFFFFF";
         [ViewVariables(VVAccess.ReadWrite), DataField("cycleDuration")]
         public double CycleDuration = 3600;
-        [ViewVariables(VVAccess.ReadWrite), DataField("nightStartTime")]
-        public int NightStartTime = 19;
-        [ViewVariables(VVAccess.ReadWrite), DataField("nightDuration")]
-        public int NightDuration = 9;
-        [ViewVariables(VVAccess.ReadWrite), DataField("peakLightLevel")]
-        public double PeakLightLevel = 2;
-        [ViewVariables(VVAccess.ReadWrite), DataField("baseLightLevel")]
-        public double BaseLightLevel = 0.5;
-        [ViewVariables(VVAccess.ReadWrite), DataField("lightClip")]
-        public double LightClip = 1.5;
-        [ViewVariables(VVAccess.ReadWrite), DataField("redClip")]
-        public double RedClip = 1;
-        [ViewVariables(VVAccess.ReadWrite), DataField("greenClip")]
-        public double GreenClip = 1;
-        [ViewVariables(VVAccess.ReadWrite), DataField("blueClip")]
-        public double BlueClip = 1.05;
+        [ViewVariables(VVAccess.ReadWrite), DataField("nightShiftStart")]
+        public int NightShiftStart = 19;
+        [ViewVariables(VVAccess.ReadWrite), DataField("nightShiftDuration")]
+        public int NightShiftDuration = 9;
+        [ViewVariables(VVAccess.ReadWrite), DataField("minLightLevel")]
+        public double MinLightLevel = 0.333;
+        [ViewVariables(VVAccess.ReadWrite), DataField("maxLightLevel")]
+        public double MaxLightLevel = 1.25;
+        [ViewVariables(VVAccess.ReadWrite), DataField("clipLight")]
+        public double ClipLight = 1.25;
+        [ViewVariables(VVAccess.ReadWrite), DataField("clipRed")]
+        public double ClipRed = 1;
+        [ViewVariables(VVAccess.ReadWrite), DataField("clipGreen")]
+        public double ClipGreen = 1;
+        [ViewVariables(VVAccess.ReadWrite), DataField("clipBlue")]
+        public double ClipBlue = 1.05;
+        [ViewVariables(VVAccess.ReadWrite), DataField("minRedLevel")]
+        public double MinRedLevel = 0.65;
+        [ViewVariables(VVAccess.ReadWrite), DataField("minGreenLevel")]
+        public double MinGreenLevel = 0.8;
+        [ViewVariables(VVAccess.ReadWrite), DataField("minBlueLevel")]
+        public double MinBlueLevel = 0.55;
+        [ViewVariables(VVAccess.ReadWrite), DataField("maxRedLevel")]
+        public double MaxRedLevel = 2;
+        [ViewVariables(VVAccess.ReadWrite), DataField("maxGreenLevel")]
+        public double MaxGreenLevel = 2;
+        [ViewVariables(VVAccess.ReadWrite), DataField("maxBlueLevel")]
+        public double MaxBlueLevel = 5;
     }
 }
