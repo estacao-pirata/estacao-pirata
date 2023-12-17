@@ -16,7 +16,7 @@ namespace Content.Client.Time
         private double _curTime;
         public override void Initialize()
         {
-            IoCManager.InjectDependencies(this);
+            base.Initialize();
             _curTime = 0;
             _gameTicker = _entitySystem.GetEntitySystem<ClientGameTicker>();
             _random = new Random((int) _gameTicker.RoundStartTimeSpan.TotalSeconds);
@@ -29,7 +29,7 @@ namespace Content.Client.Time
         }
         public TimeSpan GetStationTime()
         {
-            return TimeSpan.FromSeconds(_curTime + _cfg.GetCVar(CCVars.InitialTime));
+            return TimeSpan.FromSeconds(_curTime);
         }
         public DateTime GetStationDate()
         {
@@ -43,7 +43,7 @@ namespace Content.Client.Time
         public override void Update(float frameTime)
         {
             base.Update(frameTime);
-            SetStationTime(GetRoundDuration().TotalSeconds * _cfg.GetCVar(CCVars.TimeScale));
+            SetStationTime(GetRoundDuration().TotalSeconds * _cfg.GetCVar(CCVars.TimeScale) + _cfg.GetCVar(CCVars.InitialTime) * _cfg.GetCVar(CCVars.TimeScale));
         }
     }
 }

@@ -24,14 +24,6 @@ using Robust.Shared.Audio;
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
-using Content.Shared.Coordinates;
-using Content.Server.Station.Components;
-using Content.Server.Chat.Systems;
-using Robust.Shared.Configuration;
-using Content.Shared.CCVar;
-using System.Linq;
-using System.Text.RegularExpressions;
-using FastAccessors;
 
 namespace Content.Server.Light.EntitySystems
 {
@@ -54,12 +46,12 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly PointLightSystem _pointLight = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
         [Dependency] private readonly InventorySystem _inventory = default!;
-        [Dependency] private readonly IEntityManager _entityManager = default!;
-        [Dependency] private readonly ChatSystem _chatSystem = default!;
-        [Dependency] private readonly IConfigurationManager _cfg = default!;
+        [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
+        private DayCycleSystem? _cycleSystem;
+
+
+
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
-        private bool _isNight;
-        private List<EntityUid>? _stationList;
         public const string LightBulbContainer = "light_bulb";
 
         public override void Initialize()
@@ -81,10 +73,7 @@ namespace Content.Server.Light.EntitySystems
             SubscribeLocalEvent<PoweredLightComponent, PoweredLightDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<PoweredLightComponent, EmpPulseEvent>(OnEmpPulse);
 
-            SubscribeLocalEvent<ShiftChangeEvent>(OnShiftChange);
-
-            _isNight = false;
-            _stationList = new List<EntityUid>();
+            _cycleSystem = _entitySystem.GetEntitySystem<DayCycleSystem>();
         }
 
         private void OnInit(EntityUid uid, PoweredLightComponent light, ComponentInit args)
@@ -103,7 +92,6 @@ namespace Content.Server.Light.EntitySystems
             }
             // need this to update visualizers
             UpdateLight(uid, light);
-            _stationList = new List<EntityUid>();
         }
 
         private void OnInteractUsing(EntityUid uid, PoweredLightComponent component, InteractUsingEvent args)
@@ -278,6 +266,7 @@ namespace Content.Server.Light.EntitySystems
 
             // Optional component.
             Resolve(uid, ref appearance, false);
+
             // check if light has bulb
             var bulbUid = GetBulb(uid, light);
             if (bulbUid == null || !EntityManager.TryGetComponent(bulbUid.Value, out LightBulbComponent? lightBulb))
@@ -293,30 +282,7 @@ namespace Content.Server.Light.EntitySystems
                 case LightBulbState.Normal:
                     if (powerReceiver.Powered && light.On)
                     {
-                        var regex = new Regex(@"^#(\d+.?\d*)-(\d+.?\d*)-(\d+.?\d*)$");
-                        var rgb_energy = _cfg.GetCVar(CCVars.NightLightRGBIntensity);
-                        var result = regex.Match(rgb_energy);
-                        var energy = lightBulb.LightEnergy;
-                        var radius = lightBulb.LightRadius;
-                        var rbyte = lightBulb.Color.RByte;
-                        var gbyte = lightBulb.Color.GByte;
-                        var bbyte = lightBulb.Color.BByte;
-                        if (_isNight && _stationList!.Contains(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
-                        {
-                            energy *= _cfg.GetCVar(CCVars.NightLightIntensity);
-                            radius *= _cfg.GetCVar(CCVars.NightLightRadius);
-                            if (result.Success)
-                            {
-                                rbyte = (byte) Math.Min(255, rbyte * float.Parse(result.Groups[1].Value));
-                                gbyte = (byte) Math.Min(255, gbyte * float.Parse(result.Groups[2].Value));
-                                bbyte = (byte) Math.Min(255, bbyte * float.Parse(result.Groups[3].Value));
-                            }
-                            else
-                            {
-                                _cfg.SetCVar(CCVars.NightLightRGBIntensity, "#1.0-1.0-1.0");
-                            }
-                        }
-                        SetLight(uid, true, System.Drawing.Color.FromArgb(rbyte, gbyte, bbyte), light, radius, energy, lightBulb.LightSoftness);
+                        SetLight(uid, true, _cycleSystem!.GetBulbColor(lightBulb), light, lightBulb.LightRadius, _cycleSystem.GetBulbEnergy(lightBulb), lightBulb.LightSoftness);
                         _appearance.SetData(uid, PoweredLightVisuals.BulbState, PoweredLightState.On, appearance);
                         var time = _gameTiming.CurTime;
                         if (time > light.LastThunk + ThunkDelay)
@@ -377,6 +343,7 @@ namespace Content.Server.Light.EntitySystems
             {
                 ToggleBlinkingLight(uid, light, false);
             });
+
             args.Handled = true;
         }
 
@@ -464,6 +431,7 @@ namespace Content.Server.Light.EntitySystems
             light.On = state;
             UpdateLight(uid, light);
         }
+
         private void OnDoAfter(EntityUid uid, PoweredLightComponent component, DoAfterEvent args)
         {
             if (args.Handled || args.Cancelled || args.Args.Target == null)
@@ -478,33 +446,6 @@ namespace Content.Server.Light.EntitySystems
         {
             if (TryDestroyBulb(uid, component))
                 args.Affected = true;
-        }
-
-        private void OnShiftChange(ShiftChangeEvent args)
-        {
-            _isNight = args.IsNight;
-            UpdateAll();
-            if (args.IsDispatchActivated)
-            {
-                _chatSystem.DispatchStationAnnouncement(
-                _stationList!.First(), args.Message, Loc.GetString("comms-console-announcement-title-centcom"), true, args.Sound, colorOverride: args.Color);
-            }
-        }
-
-        public override void Update(float frameTime)
-        {
-            base.Update(frameTime);
-        }
-        public void UpdateAll()
-        {
-            foreach (var station in EntityQuery<StationMemberComponent>())
-            {
-                if (station != null && !_stationList!.Contains(station.Owner)) _stationList!.Add(station.Owner);
-            }
-            foreach (var bulb in EntityQuery<PoweredLightComponent>())
-            {
-                UpdateLight(bulb.Owner, bulb);
-            }
         }
     }
 }
