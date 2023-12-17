@@ -132,7 +132,7 @@ namespace Content.Server.Time
 
         public Color GetCycleColor(DayCycleComponent comp, Color color)
         {
-            if (comp.IsColorShiftEnabled)
+            if (comp.IsEnabled && comp.IsColorShiftEnabled)
             {
                 var colorLevel = CalculateColorLevel(comp);
                 var red = Math.Min(255, color.RByte * colorLevel[0]);
@@ -144,6 +144,30 @@ namespace Content.Server.Time
             {
                 return color;
             }
+        }
+
+        public Color GetBulbColor(LightBulbComponent bulb)
+        {
+            if (EntityManager.TryGetComponent<DayCycleComponent>(bulb.Owner.ToCoordinates().GetGridUid(_entityManager), out var comp) && comp.IsEnabled && comp.IsColorShiftEnabled)
+            {
+                var colorLevel = CalculateColorLevel(comp);
+                var red = Math.Min(255, bulb.Color.RByte * colorLevel[0]);
+                var green = Math.Min(255, bulb.Color.GByte * colorLevel[1]);
+                var blue = Math.Min(255, bulb.Color.BByte * colorLevel[2]);
+                return System.Drawing.Color.FromArgb((int) red, (int) green, (int) blue);
+            }
+            else
+                return bulb.Color;
+        }
+
+        public float GetBulbEnergy(LightBulbComponent bulb)
+        {
+            if (EntityManager.TryGetComponent<DayCycleComponent>(bulb.Owner.ToCoordinates().GetGridUid(_entityManager), out var comp) && comp.IsEnabled)
+            {
+                return (float) CalculateLightLevel(comp);
+            }
+            else
+                return bulb.LightEnergy;
         }
 
         public double CalculateLightLevel(DayCycleComponent comp)
