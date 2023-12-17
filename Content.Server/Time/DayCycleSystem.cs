@@ -141,20 +141,15 @@ namespace Content.Server.Time
                 return System.Drawing.Color.FromArgb((int) red, (int) green, (int) blue);
             }
             else
-            {
                 return color;
-            }
+
         }
 
         public Color GetBulbColor(LightBulbComponent bulb)
         {
-            if (EntityManager.TryGetComponent<DayCycleComponent>(bulb.Owner.ToCoordinates().GetGridUid(_entityManager), out var comp) && comp.IsEnabled && comp.IsColorShiftEnabled)
+            if (EntityManager.TryGetComponent<DayCycleComponent>(bulb.Owner.ToCoordinates().GetGridUid(_entityManager), out var comp))
             {
-                var colorLevel = CalculateColorLevel(comp);
-                var red = Math.Min(255, bulb.Color.RByte * colorLevel[0]);
-                var green = Math.Min(255, bulb.Color.GByte * colorLevel[1]);
-                var blue = Math.Min(255, bulb.Color.BByte * colorLevel[2]);
-                return System.Drawing.Color.FromArgb((int) red, (int) green, (int) blue);
+                return GetCycleColor(comp, bulb.Color);
             }
             else
                 return bulb.Color;
