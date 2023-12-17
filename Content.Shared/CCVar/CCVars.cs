@@ -1826,9 +1826,5 @@ namespace Content.Shared.CCVar
             CVarDef.Create("time.initial_time", 1200f, desc: "(integer)", flag: CVar.REPLICATED);
         public static readonly CVarDef<float> TimeScale =
             CVarDef.Create("time.scale", 24f, desc: "(integer)", flag: CVar.REPLICATED);
-        public static readonly CVarDef<string> LightRGB =
-            CVarDef.Create("lights.color", "#FFFFFF", desc: "(#RRGGBB)", flag: CVar.SERVERONLY);
-        public static readonly CVarDef<bool> ColorOverride =
-            CVarDef.Create("lights.color_override", false, desc: "{state} (true/false)", flag: CVar.SERVERONLY);
     }
 }

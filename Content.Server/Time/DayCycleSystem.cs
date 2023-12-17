@@ -1,38 +1,43 @@
 using Content.Server.Chat.Systems;
-using Content.Server.Light.EntitySystems;
 using Content.Server.Station.Components;
-using Content.Shared.CCVar;
-using Robust.Shared.Timing;
 using Robust.Shared.Audio;
-using Robust.Shared.Configuration;
 using Robust.Shared.Map.Components;
+using Content.Server.Light.Components;
+using Content.Shared.Light.Components;
+using Content.Shared.Audio;
+using Robust.Server.GameObjects;
+using System.Text.RegularExpressions;
+using System.Globalization;
+using Content.Shared.Coordinates;
+using System.Diagnostics;
+using Content.Server.Light.EntitySystems;
 
 namespace Content.Server.Time
 {
     public sealed partial class DayCycleSystem : EntitySystem
     {
-        [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
         [Dependency] private readonly ChatSystem _chatSystem = default!;
-        [Dependency] private readonly IConfigurationManager _cfg = default!;
-        [Dependency] private readonly IGameTiming _timing = default!;
-
+        [Dependency] private readonly IEntityManager _entityManager = default!;
+        [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
+        [Dependency] private readonly PointLightSystem _pointLight = default!;
         private TimeSystem? _timeSystem;
         private PoweredLightSystem? _lightSystem;
         private int _currentHour;
         private double _deltaTime;
+        private string? _hexColor;
         private bool _isNight;
         private Dictionary<int, int[]>? _mapColor;
-        public static SoundSpecifier? NightAlert;
-        public static SoundSpecifier? DayAlert;
+        private static readonly Regex? HexPattern = new Regex(@"^#([A-Fa-f0-9]){6}$");
+        private static readonly SoundSpecifier? NightAlert = new SoundPathSpecifier("/Audio/Announcements/nightshift.ogg");
+        private static readonly SoundSpecifier? DayAlert = new SoundPathSpecifier("/Audio/Announcements/dayshift.ogg");
 
         public override void Initialize()
         {
             base.Initialize();
-            NightAlert = new SoundPathSpecifier("/Audio/Announcements/nightshift.ogg");
-            DayAlert = new SoundPathSpecifier("/Audio/Announcements/dayshift.ogg");
             _timeSystem = _entitySystem.GetEntitySystem<TimeSystem>();
             _lightSystem = _entitySystem.GetEntitySystem<PoweredLightSystem>();
             _currentHour = _timeSystem!.GetStationTime().Hours;
+            _hexColor = "#FFFFFF";
             _deltaTime = 0;
             _isNight = false;
             _mapColor = new Dictionary<int, int[]>();
@@ -43,76 +48,104 @@ namespace Content.Server.Time
             {
                 _deltaTime = 0;
                 _currentHour = _timeSystem!.GetStationTime().Hours;
-                // Itera sobre as estações com o componente de dia e noite. Esse componente deve ser adicionado na grid para funcionar nas lâmpadas.
-                foreach (var (comp, station) in EntityQuery<DayCycleComponent, StationMemberComponent>())
-                {
-                    if (station != null && comp.isEnabled)
-                    {
-                        // Trecho do código responsável pelos alertas de dia e noite
-                        if ((_currentHour >= comp.NightStartTime || _currentHour < TimeSpan.FromHours(comp.NightStartTime + comp.NightDuration).Hours) && !_isNight)
-                        {
-                            if (comp.IsAnnouncementEnabled)
-                            {
-                                _chatSystem.DispatchStationAnnouncement(station.Owner,
-                                Loc.GetString("time-night-shift-announcement"),
-                                Loc.GetString("comms-console-announcement-title-centcom"),
-                                true, NightAlert, colorOverride: Color.SkyBlue);
-                            }
-                            _isNight = true;
-                        }
-                        else if (_currentHour >= TimeSpan.FromHours(comp.NightStartTime + comp.NightDuration).Hours && _currentHour < comp.NightStartTime && _isNight)
-                        {
-                            if (comp.IsAnnouncementEnabled)
-                            {
-                                _chatSystem.DispatchStationAnnouncement(station.Owner,
-                                Loc.GetString("time-day-shift-announcement"),
-                                Loc.GetString("comms-console-announcement-title-centcom"),
-                                true, DayAlert, colorOverride: Color.OrangeRed);
-                            }
-                            _isNight = false;
-                        }
-                        // Aqui é calculado as curvas individuais de iluminação, que são repassadas pra uma instância da classe PoweredLightSystem.
-                        var red = 1.0;
-                        var green = 1.0;
-                        var blue = 1.0;
-                        if (comp.IsColorEnabled)
-                        {
-                            red = CalculateColorLevel(comp, 1);
-                            green = CalculateColorLevel(comp, 2);
-                            blue = CalculateColorLevel(comp, 3);
-                        }
-                        _lightSystem!.ChangeLights(Math.Min(comp.LightClip, CalculateLightLevel(comp)), new double[] { red, green, blue }, comp);
-                    }
-                }
-                // Itera sobre mapas com o componente de dia e noite. Deve ser adicionado no mapa para funcionar adequadamente com o MapLight.
-                foreach (var (comp, map) in EntityQuery<DayCycleComponent, MapLightComponent>())
+                foreach (var comp in EntityQuery<DayCycleComponent>())
                 {
                     if (comp.isEnabled)
                     {
-                        // Um dicionário para manter as cores originais do MapLight sem precisar acessar diretamente. É necessário separar esses valores.
-                        if (!_mapColor!.ContainsKey(map.Owner.Id))
+                        if (EntityManager.TryGetComponent<StationMemberComponent>(comp.Owner, out var station))
                         {
-                            Color color = map.AmbientLightColor;
-                            _mapColor.Add(map.Owner.Id, new int[] { color.RByte, color.GByte, color.BByte });
-                        }
-                        else
-                        {
-                            // Calcula as curvas individualmente.
-                            var lightLevel = Math.Min(comp.LightClip, CalculateLightLevel(comp));
-                            var red = (int) Math.Min(_mapColor[map.Owner.Id][0], _mapColor[map.Owner.Id][0] * lightLevel);
-                            var green = (int) Math.Min(_mapColor[map.Owner.Id][1], _mapColor[map.Owner.Id][1] * lightLevel);
-                            var blue = (int) Math.Min(_mapColor[map.Owner.Id][2], _mapColor[map.Owner.Id][2] * lightLevel);
+                            if ((_currentHour >= comp.NightStartTime || _currentHour < TimeSpan.FromHours(comp.NightStartTime + comp.NightDuration).Hours) && !_isNight)
+                            {
+                                if (comp.IsAnnouncementEnabled)
+                                {
+                                    _chatSystem.DispatchStationAnnouncement(station.Owner,
+                                    Loc.GetString("time-night-shift-announcement"),
+                                    Loc.GetString("comms-console-announcement-title-centcom"),
+                                    true, NightAlert, colorOverride: Color.SkyBlue);
+                                }
+                                _isNight = true;
+                            }
+                            else if (_currentHour >= TimeSpan.FromHours(comp.NightStartTime + comp.NightDuration).Hours && _currentHour < comp.NightStartTime && _isNight)
+                            {
+                                if (comp.IsAnnouncementEnabled)
+                                {
+                                    _chatSystem.DispatchStationAnnouncement(station.Owner,
+                                    Loc.GetString("time-day-shift-announcement"),
+                                    Loc.GetString("comms-console-announcement-title-centcom"),
+                                    true, DayAlert, colorOverride: Color.OrangeRed);
+                                }
+                                _isNight = false;
+                            }
+                            var lightLevel = CalculateLightLevel(comp);
+                            var colorLevel = new double[] { 1, 1, 1 };
                             if (comp.IsColorEnabled)
                             {
-                                red = (int) Math.Min(_mapColor[map.Owner.Id][0], red * CalculateColorLevel(comp, 1));
-                                green = (int) Math.Min(_mapColor[map.Owner.Id][1], green * CalculateColorLevel(comp, 2));
-                                blue = (int) Math.Min(_mapColor[map.Owner.Id][2], blue * CalculateColorLevel(comp, 3));
+                                colorLevel = CalculateColorLevel(comp);
                             }
-                            map.AmbientLightColor = System.Drawing.Color.FromArgb(red, green, blue);
-                            Dirty(map.Owner, map);
+                            if (lightLevel != comp.LightClip || colorLevel[0] != comp.RedClip || colorLevel[1] != comp.BlueClip || colorLevel[2] != comp.GreenClip)
+                            {
+                                foreach (var light in EntityQuery<PoweredLightComponent>())
+                                {
+                                    var uid = light.Owner;
+                                    var bulbUid = _lightSystem!.GetBulb(uid, light);
+                                    if (station.Owner.Equals(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()) && bulbUid != null)
+                                    {
+                                        if (EntityManager.TryGetComponent<LightBulbComponent>(bulbUid.Value, out var bulb) && bulb.State == LightBulbState.Normal)
+                                        {
+                                            var color = bulb.Color;
+                                            if (comp.ColorOverride)
+                                            {
+                                                if (_hexColor != comp.HexColor)
+                                                {
+                                                    var match = HexPattern!.Match(comp.HexColor);
+                                                    if (match.Success)
+                                                    {
+                                                        _hexColor = comp.HexColor;
+                                                    }
+                                                }
+                                                color = System.Drawing.Color.FromArgb(int.Parse(_hexColor!.Replace("#", ""), NumberStyles.HexNumber));
+                                            }
+                                            var red = Math.Min(255, color.RByte * colorLevel[0]);
+                                            var green = Math.Min(255, color.GByte * colorLevel[1]);
+                                            var blue = Math.Min(255, color.BByte * colorLevel[2]);
+                                            if (EntityManager.TryGetComponent(uid, out PointLightComponent? pointLight))
+                                            {
+                                                _pointLight.SetColor(uid, System.Drawing.Color.FromArgb((int) red, (int) green, (int) blue), pointLight);
+                                                _pointLight.SetEnergy(uid, (float) lightLevel, pointLight);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        if (EntityManager.TryGetComponent<MapLightComponent>(comp.Owner, out var map))
+                        {
+                            if (!_mapColor!.ContainsKey(map.Owner.Id))
+                            {
+                                Color color = map.AmbientLightColor;
+                                _mapColor.Add(map.Owner.Id, new int[] { color.RByte, color.GByte, color.BByte });
+                            }
+                            else
+                            {
+                                var lightLevel = CalculateLightLevel(comp);
+                                var colorLevel = CalculateColorLevel(comp);
+                                var red = Math.Min(255, _mapColor[map.Owner.Id][0] * lightLevel);
+                                var green = Math.Min(255, _mapColor[map.Owner.Id][1] * lightLevel);
+                                var blue = Math.Min(255, _mapColor[map.Owner.Id][2] * lightLevel);
+                                if (comp.IsColorEnabled)
+                                {
+                                    red = Math.Min(255, red * colorLevel[0]);
+                                    green = Math.Min(255, green * colorLevel[1]);
+                                    blue = Math.Min(255, blue * colorLevel[2]);
+                                }
+                                if (lightLevel != comp.LightClip || colorLevel[0] != comp.RedClip || colorLevel[1] != comp.GreenClip || colorLevel[2] != comp.BlueClip)
+                                {
+                                    map.AmbientLightColor = System.Drawing.Color.FromArgb((int) red, (int) green, (int) blue);
+                                    Dirty(map.Owner, map);
+                                }
+                            }
                         }
                     }
-
                 }
             }
             else
@@ -121,56 +154,38 @@ namespace Content.Server.Time
             }
         }
 
-        // Calcula a curva da intensidade da iluminação, é o "dimming" das luzes em função do tempo.
         public double CalculateLightLevel(DayCycleComponent comp)
         {
             var time = _timeSystem!.GetStationTime().TotalSeconds;
             var wave_lenght = Math.Max(0, comp.CycleDuration) * 24;
             var crest = Math.Max(1, comp.PeakLightLevel);
             var shift = Math.Max(0, comp.BaseLightLevel);
-            return CalculateCurve(time, wave_lenght, crest, shift, 6);
+            return Math.Min(comp.LightClip, CalculateCurve(time, wave_lenght, crest, shift, 6));
         }
 
-
-        // Calcula a curva de cada cor, é o que determina a cor das luzes em função do tempo. 1 = Vermelho, 2 = Verde, 3 = Azul.
-        public double CalculateColorLevel(DayCycleComponent comp, int color)
+        public double[] CalculateColorLevel(DayCycleComponent comp)
         {
-            var crest = 1.0;
-            var shift = 1.0;
-            var exponent = 2.0;
-            var time = _timeSystem!.GetStationTime().TotalSeconds;
             var wave_lenght = Math.Max(0, comp.CycleDuration) * 24;
-            var phase = 0d;
-            switch (color)
+            var time = _timeSystem!.GetStationTime().TotalSeconds;
+            var color_level = new double[3];
+            for (var i = 0; i < 3; i++)
             {
-                case 1:
-                    crest = 1.65;
-                    shift = 0.775;
-                    exponent = 4;
-                    break;
-                case 2:
-                    crest = 1.85;
-                    shift = 0.775;
-                    exponent = 8;
-                    break;
-                case 3:
-                    crest = 3.75;
-                    shift = 0.685;
-                    exponent = 2;
-                    wave_lenght /= 2;
-                    phase = wave_lenght / 2;
-                    break;
+                switch (i)
+                {
+                    case 0:
+                        color_level[i] = Math.Min(comp.RedClip, CalculateCurve(time, wave_lenght, 2, 0.75, 4));
+                        break;
+                    case 1:
+                        color_level[i] = Math.Min(comp.GreenClip, CalculateCurve(time, wave_lenght, 1.85, 0.835, 10));
+                        break;
+                    case 2:
+                        color_level[i] = Math.Min(comp.BlueClip, CalculateCurve(time, wave_lenght / 2, 2.85, 0.65, 2, wave_lenght / 4));
+                        break;
+                }
             }
-            return CalculateCurve(time, wave_lenght, crest, shift, exponent, phase);
+            return color_level;
         }
 
-        /* Função matemática para gerar uma onda períodica que simula a transição da iluminação de uma estrela em função do tempo.
-           x: é a varíavel independente, correspondente ao tempo, e o resultado em y é um valor oscilante que representa a iluminação.
-           wave_lenght: correspondente ao comprimento de onda, ou seja, a duração do dia (em segundos).
-           crest: corresponde a crista da onda, ou seja, seu valor máximo, o vértice da função em y. Ele é compensado em relação ao deslocamento vertical da função.
-           shift: corresponde ao deslocamento vertical da função, ou seja, seu valor mínimo.
-           exponent: é o grau do seno, quanto maior o valor mais "achatado" e "longo" é o vale da curva, enquanto a crista se torna mais "curta" e "íngreme".
-           phase: ajusta a fase da função, na prática, serve pra transformar o seno em cosseno quando necessário.*/
         public static double CalculateCurve(double x, double wave_lenght, double crest, double shift, double exponent, double phase = 0)
         {
             var sen = Math.Pow(Math.Sin((Math.PI * (phase + x)) / wave_lenght), exponent);

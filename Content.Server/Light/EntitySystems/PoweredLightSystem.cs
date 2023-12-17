@@ -8,7 +8,6 @@ using Content.Server.Emp;
 using Content.Server.Ghost;
 using Content.Server.Light.Components;
 using Content.Server.Power.Components;
-using Content.Server.Time;
 using Content.Shared.Audio;
 using Content.Shared.Damage;
 using Content.Shared.Database;
@@ -24,12 +23,6 @@ using Robust.Shared.Audio;
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
-using Content.Shared.Coordinates;
-using Robust.Shared.Configuration;
-using Content.Shared.CCVar;
-using System.Text.RegularExpressions;
-using System.Globalization;
-
 
 namespace Content.Server.Light.EntitySystems
 {
@@ -43,7 +36,7 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly SharedAmbientSoundSystem _ambientSystem = default!;
         [Dependency] private readonly LightBulbSystem _bulbSystem = default!;
         [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
-        [Dependency] private readonly IAdminLogManager _adminLogger = default!;
+        [Dependency] private readonly IAdminLogManager _adminLogger= default!;
         [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
         [Dependency] private readonly DeviceLinkSystem _signalSystem = default!;
         [Dependency] private readonly SharedContainerSystem _containerSystem = default!;
@@ -52,18 +45,8 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly PointLightSystem _pointLight = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
         [Dependency] private readonly InventorySystem _inventory = default!;
-        [Dependency] private readonly IEntityManager _entityManager = default!;
-        [Dependency] private readonly IConfigurationManager _cfg = default!;
-        private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
-        private List<DayCycleComponent>? _stationList;
-        private bool _isClipped;
-        private double _lightLevel;
-        private double _redLevel;
-        private double _greenLevel;
-        private double _blueLevel;
-        private double _lightClip;
-        private readonly Regex _regex = new Regex(@"^#([A-Fa-f0-9]){6}$");
 
+        private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
         public const string LightBulbContainer = "light_bulb";
 
         public override void Initialize()
@@ -84,14 +67,6 @@ namespace Content.Server.Light.EntitySystems
 
             SubscribeLocalEvent<PoweredLightComponent, PoweredLightDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<PoweredLightComponent, EmpPulseEvent>(OnEmpPulse);
-
-            _stationList = new List<DayCycleComponent>();
-            _lightLevel = 1;
-            _redLevel = 1;
-            _greenLevel = 1;
-            _blueLevel = 1;
-            _lightClip = 1;
-            _isClipped = false;
         }
 
         private void OnInit(EntityUid uid, PoweredLightComponent light, ComponentInit args)
@@ -110,7 +85,6 @@ namespace Content.Server.Light.EntitySystems
             }
             // need this to update visualizers
             UpdateLight(uid, light);
-            _stationList = new List<DayCycleComponent>();
         }
 
         private void OnInteractUsing(EntityUid uid, PoweredLightComponent component, InteractUsingEvent args)
@@ -277,7 +251,6 @@ namespace Content.Server.Light.EntitySystems
 
         private void UpdateLight(EntityUid uid,
             PoweredLightComponent? light = null,
-            bool isLightCycle = false,
             ApcPowerReceiverComponent? powerReceiver = null,
             AppearanceComponent? appearance = null)
         {
@@ -286,6 +259,7 @@ namespace Content.Server.Light.EntitySystems
 
             // Optional component.
             Resolve(uid, ref appearance, false);
+
             // check if light has bulb
             var bulbUid = GetBulb(uid, light);
             if (bulbUid == null || !EntityManager.TryGetComponent(bulbUid.Value, out LightBulbComponent? lightBulb))
@@ -301,38 +275,10 @@ namespace Content.Server.Light.EntitySystems
                 case LightBulbState.Normal:
                     if (powerReceiver.Powered && light.On)
                     {
-                        Match match;
-                        var color_hex = _cfg.GetCVar(CCVars.LightRGB);
-                        var energy = lightBulb.LightEnergy;
-                        var radius = lightBulb.LightRadius;
-                        var color = lightBulb.Color;
-                        if (_cfg.GetCVar(CCVars.ColorOverride))
-                        {
-                            match = _regex.Match(color_hex);
-                            if (match!.Success)
-                                color = System.Drawing.Color.FromArgb(int.Parse(match.Value.Replace("#", ""), NumberStyles.HexNumber));
-                        }
-                        foreach (var comp in _stationList!)
-                        {
-                            if (comp.Owner.Equals(uid.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
-                            {
-                                if (comp.isEnabled)
-                                {
-                                    energy *= (float) Math.Min(_lightClip, _lightLevel);
-                                    if (comp.IsColorEnabled)
-                                    {
-                                        var red = (int) Math.Min(color.RByte, color.RByte * _redLevel);
-                                        var green = (int) Math.Min(color.GByte, color.GByte * _greenLevel);
-                                        var blue = (int) Math.Min(Math.Min(255, color.BByte * 1.065), color.BByte * _blueLevel);
-                                        color = System.Drawing.Color.FromArgb(color.AByte, red, green, blue);
-                                    }
-                                }
-                            }
-                        }
-                        SetLight(uid, true, color, light, radius, (float) energy, lightBulb.LightSoftness);
+                        SetLight(uid, true, lightBulb.Color, light, lightBulb.LightRadius, lightBulb.LightEnergy, lightBulb.LightSoftness);
                         _appearance.SetData(uid, PoweredLightVisuals.BulbState, PoweredLightState.On, appearance);
                         var time = _gameTiming.CurTime;
-                        if (time > light.LastThunk + ThunkDelay && !isLightCycle)
+                        if (time > light.LastThunk + ThunkDelay)
                         {
                             light.LastThunk = time;
                             _audio.Play(light.TurnOnSound, Filter.Pvs(uid), uid, true, AudioParams.Default.WithVolume(-10f));
@@ -390,6 +336,7 @@ namespace Content.Server.Light.EntitySystems
             {
                 ToggleBlinkingLight(uid, light, false);
             });
+
             args.Handled = true;
         }
 
@@ -477,6 +424,7 @@ namespace Content.Server.Light.EntitySystems
             light.On = state;
             UpdateLight(uid, light);
         }
+
         private void OnDoAfter(EntityUid uid, PoweredLightComponent component, DoAfterEvent args)
         {
             if (args.Handled || args.Cancelled || args.Args.Target == null)
@@ -491,48 +439,6 @@ namespace Content.Server.Light.EntitySystems
         {
             if (TryDestroyBulb(uid, component))
                 args.Affected = true;
-        }
-
-        public void ChangeLights(double lightLevel, double[] colorLevel, DayCycleComponent comp)
-        {
-            _lightClip = comp.LightClip;
-            // Adiciona as estações que devem ter suas luzes alteradas
-            if (!_stationList!.Contains(comp))
-                _stationList!.Add(comp);
-            // Deixa de computar o nível de luz quando não for necessário para economizar processamento.
-            if (lightLevel <= _lightClip || colorLevel[0] <= 1 || colorLevel[1] <= 1 || colorLevel[2] <= 1 || _cfg.GetCVar(CCVars.ColorOverride))
-            {
-                _isClipped = false;
-                _lightLevel = lightLevel;
-                _redLevel = colorLevel[0];
-                _greenLevel = colorLevel[1];
-                _blueLevel = colorLevel[2];
-                UpdateAll();
-            }
-            // Uma condição para evitar que a luz deixe de ser calculada no momento errado.
-            else if (!_isClipped)
-            {
-                _isClipped = true;
-                _lightLevel = lightLevel;
-                _redLevel = colorLevel[0];
-                _greenLevel = colorLevel[1];
-                _blueLevel = colorLevel[2];
-                UpdateAll();
-            }
-        }
-        public void UpdateAll()
-        {
-            // Itera sobre as lâmpadas da estação e as atualiza.
-            foreach (var bulb in EntityQuery<PoweredLightComponent>())
-            {
-                foreach (var comp in _stationList!)
-                {
-                    if(comp.Owner.Equals(bulb.Owner.ToCoordinates().GetGridUid(_entityManager).GetValueOrDefault()))
-                    {
-                        UpdateLight(bulb.Owner, bulb, isLightCycle: true);
-                    }
-                }
-            }
         }
     }
 }
