@@ -8,7 +8,9 @@ using Content.Server.Emp;
 using Content.Server.Ghost;
 using Content.Server.Light.Components;
 using Content.Server.Power.Components;
+using Content.Server.Time;
 using Content.Shared.Audio;
+using Content.Shared.Coordinates;
 using Content.Shared.Damage;
 using Content.Shared.Database;
 using Content.Shared.DoAfter;
@@ -45,6 +47,11 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly PointLightSystem _pointLight = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
         [Dependency] private readonly InventorySystem _inventory = default!;
+        [Dependency] private readonly IEntityManager _entityManager = default!;
+        [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
+        private DayCycleSystem? _cycleSystem;
+
+
 
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
         public const string LightBulbContainer = "light_bulb";
@@ -67,6 +74,8 @@ namespace Content.Server.Light.EntitySystems
 
             SubscribeLocalEvent<PoweredLightComponent, PoweredLightDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<PoweredLightComponent, EmpPulseEvent>(OnEmpPulse);
+
+            _cycleSystem = _entitySystem.GetEntitySystem<DayCycleSystem>();
         }
 
         private void OnInit(EntityUid uid, PoweredLightComponent light, ComponentInit args)
@@ -275,7 +284,20 @@ namespace Content.Server.Light.EntitySystems
                 case LightBulbState.Normal:
                     if (powerReceiver.Powered && light.On)
                     {
-                        SetLight(uid, true, lightBulb.Color, light, lightBulb.LightRadius, lightBulb.LightEnergy, lightBulb.LightSoftness);
+                        var color = lightBulb.Color;
+                        var lightEnergy = lightBulb.LightEnergy;
+                        if (EntityManager.TryGetComponent<DayCycleComponent>(uid.ToCoordinates().GetGridUid(_entityManager), out var comp))
+                        {
+                            if (comp.IsEnabled)
+                            {
+                                lightEnergy = (float) _cycleSystem!.CalculateLightLevel(comp);
+                                if (comp.IsColorShiftEnabled)
+                                {
+                                    color = _cycleSystem!.GetCycleColor(comp, color);
+                                }
+                            }
+                        }
+                        SetLight(uid, true, color, light, lightBulb.LightRadius, lightEnergy, lightBulb.LightSoftness);
                         _appearance.SetData(uid, PoweredLightVisuals.BulbState, PoweredLightState.On, appearance);
                         var time = _gameTiming.CurTime;
                         if (time > light.LastThunk + ThunkDelay)

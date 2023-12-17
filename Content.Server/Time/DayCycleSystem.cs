@@ -50,7 +50,7 @@ namespace Content.Server.Time
                 {
                     if (comp.IsEnabled)
                     {
-                        if (EntityManager.TryGetComponent<StationMemberComponent>(comp.Owner, out var station))
+                        if (EntityManager.TryGetComponent<BecomesStationComponent>(comp.Owner, out var station))
                         {
                             if ((_currentHour >= comp.NightShiftStart || _currentHour < TimeSpan.FromHours(comp.NightShiftStart + comp.NightShiftDuration).Hours) && !_isNight)
                             {
