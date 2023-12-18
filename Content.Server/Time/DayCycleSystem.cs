@@ -9,12 +9,17 @@ using System.Text.RegularExpressions;
 using System.Globalization;
 using Content.Shared.Coordinates;
 using Content.Server.Light.EntitySystems;
+using Content.Server.Configurable;
+using Robust.Shared.Configuration;
+using Content.Shared.CCVar;
+using FastAccessors;
 
 namespace Content.Server.Time
 {
     public sealed partial class DayCycleSystem : EntitySystem
     {
         [Dependency] private readonly ChatSystem _chatSystem = default!;
+        [Dependency] private readonly IConfigurationManager _configuration = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
         [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
         [Dependency] private readonly PointLightSystem _pointLight = default!;
@@ -32,6 +37,8 @@ namespace Content.Server.Time
         public override void Initialize()
         {
             base.Initialize();
+            SubscribeLocalEvent<StationMemberComponent, MapInitEvent>(OnMapInit);
+
             _timeSystem = _entitySystem.GetEntitySystem<TimeSystem>();
             _lightSystem = _entitySystem.GetEntitySystem<PoweredLightSystem>();
             _currentHour = _timeSystem!.GetStationTime().Hours;
@@ -39,6 +46,13 @@ namespace Content.Server.Time
             _deltaTime = 0;
             _isNight = false;
             _mapColor = new Dictionary<int, Color>();
+        }
+        private void OnMapInit(EntityUid uid, StationMemberComponent station, MapInitEvent args)
+        {
+            AddComp<DayCycleComponent>(uid);
+            _entityManager.GetComponent<DayCycleComponent>(uid).IsEnabled = _configuration.GetCVar(CCVars.CycleEnabled);
+            _entityManager.GetComponent<DayCycleComponent>(uid).IsColorShiftEnabled = _configuration.GetCVar(CCVars.ColorEnabled);
+            _entityManager.GetComponent<DayCycleComponent>(uid).IsAnnouncementEnabled = _configuration.GetCVar(CCVars.AnnouncementEnabled);
         }
         public override void Update(float frameTime)
         {
