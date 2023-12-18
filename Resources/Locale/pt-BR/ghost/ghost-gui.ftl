@@ -23,3 +23,5 @@ ghost-return-to-body-text = Você está sendo revivido! Retornar ao seu corpo?
 
 ghost-roles-window-redirect-label = Redirecionar para outro servidor
 ghost-roles-window-redirect = Redirecionar
+ghost-gui-respawn = Respawnar
+ghost-gui-uncryo = Un-cryo
