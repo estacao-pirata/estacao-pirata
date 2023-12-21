@@ -2,7 +2,8 @@
   id: RadStation
   mapName: 'Rad'
   mapPath: /Maps/EstacaoPirata/radstation.yml
-  minPlayers: 30
+  minPlayers: 35
+  maxPlayers: 60
   stations:
     RadStation:
       stationProto: StandardNanotrasenStation
@@ -27,7 +28,7 @@
             Janitor: [ 2, 2 ]
             Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
-            ServiceWorker: [ 1, 1 ]
+            ServiceWorker: [ 2, 2 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
             SeniorEngineer: [ 1, 1 ]
