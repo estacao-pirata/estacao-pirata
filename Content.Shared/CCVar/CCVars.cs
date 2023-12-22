@@ -1821,5 +1821,16 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<string> ReplayAutoRecordTempDir =
             CVarDef.Create("replay.auto_record_temp_dir", "", CVar.SERVERONLY);
+
+        public static readonly CVarDef<float> InitialTime =
+            CVarDef.Create("time.initial_time", 1200f, desc: "(integer)", flag: CVar.REPLICATED);
+        public static readonly CVarDef<float> TimeScale =
+            CVarDef.Create("time.scale", 24f, desc: "(integer)", flag: CVar.REPLICATED);
+        public static readonly CVarDef<bool> CycleEnabled =
+            CVarDef.Create("daycycle.light_cycle", false, desc: "(bool)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<bool> ColorEnabled =
+            CVarDef.Create("daycycle.color_cycle", false, desc: "(bool)", flag: CVar.SERVERONLY);
+        public static readonly CVarDef<bool> AnnouncementEnabled =
+            CVarDef.Create("daycycle.announcement", false, desc: "(bool)", flag: CVar.SERVERONLY);
     }
 }

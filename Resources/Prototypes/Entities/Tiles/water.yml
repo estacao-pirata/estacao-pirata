@@ -22,6 +22,16 @@
     sprintSpeedModifier: 0.5
   - type: Physics
     bodyType: Static
+  - type: Drink
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 5000
+        reagents:
+        - ReagentId: Water
+          Quantity: 5000
+  - type: DrainableSolution
+    solution: drink
   - type: Fixtures
     fixtures:
       fix1:
