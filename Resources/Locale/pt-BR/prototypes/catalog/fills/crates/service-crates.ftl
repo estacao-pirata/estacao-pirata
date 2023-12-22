@@ -1,4 +1,4 @@
-ent-CrateServiceJanitorialSupplies = Caixa de suprimentos de zelador
+ent-CrateServiceJanitorialSupplies = Caixa de suprimentos de zeladoria
     .desc = Lute contra a sujeira e a sujeira com o Janitorial Essentials(tm) da Nanotrasen! Contém três baldes, sinais de alerta e granadas mais limpas. Também tem um único esfregão, vassoura, spray de limpeza, pano e saco de lixo.
 
 ent-CrateServiceReplacementLights = Caixa de reposição de luzes
