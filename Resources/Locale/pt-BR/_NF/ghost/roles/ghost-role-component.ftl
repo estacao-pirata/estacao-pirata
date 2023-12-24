@@ -10,3 +10,5 @@ ghost-role-information-clarpy-description = Avast suas cartas! Procurado pela Na
 
 ghost-role-information-mistake-name = ?????
 ghost-role-information-mistake-description = Cemg' ph'nglui d'elev.
+
+ghost-role-information-crispy-name = Crispy                                     +ghost-role-information-crispy-description = Erros foram cometidos.
