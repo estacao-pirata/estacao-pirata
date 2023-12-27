@@ -58,6 +58,7 @@
       - id: JetpackCaptainFilled
       - id: MedalCase
       - id: ClothingHeadHatCapcap
+      - id: WeaponEnergyGun
 
 - type: entity
   id: LockerCaptainFilled
@@ -91,6 +92,7 @@
       - id: JetpackCaptainFilled
       - id: MedalCase
       - id: ClothingHeadHatCapcap
+      - id: WeaponEnergyGun
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -121,6 +123,7 @@
       - id: ClothingBackpackIan
         prob: 0.5
       - id: AccessConfigurator
+      - id: WeaponEnergyGun
 
 - type: entity
   id: LockerChiefEngineerFilledHardsuit
@@ -307,6 +310,8 @@
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
+      - id: WeaponEnergyGunMultiphase
+      - id: WeaponEnergyGun
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -337,3 +342,5 @@
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
+      - id: WeaponEnergyGunMultiphase
+      - id: WeaponEnergyGun
