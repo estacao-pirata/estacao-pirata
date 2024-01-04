@@ -113,7 +113,7 @@ public sealed class TraitorRuleSystem : GameRuleSystem<TraitorRuleComponent>
             return;
         }
 
-        var numTraitors = MathHelper.Clamp(component.StartCandidates.Count / PlayersPerTraitor, 1, MaxTraitors);
+        var numTraitors = MathHelper.Clamp(component.StartCandidates.Count / PlayersPerTraitor + 1, 1, MaxTraitors);
         var traitorPool = FindPotentialTraitors(component.StartCandidates, component);
         var selectedTraitors = PickTraitors(numTraitors, traitorPool);
 
