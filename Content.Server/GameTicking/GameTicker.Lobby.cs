@@ -85,17 +85,23 @@ namespace Content.Server.GameTicking
                 ("roundId", RoundId), ("playerCount", playerCount), ("readyCount", readyCount), ("mapName", stationNames.ToString()),("gmTitle", gmTitle),("desc", desc));
         }
 
-        private TickerLobbyStatusEvent GetStatusMsg(ICommonSession session)
+        private TickerConnectionStatusEvent GetConnectionStatusMsg()
+        {
+            return new TickerConnectionStatusEvent(_roundStartTimeSpan);
+        }
+
+        private TickerLobbyStatusEvent GetLobbyStatusMsg(ICommonSession session)
         {
             _playerGameStatuses.TryGetValue(session.UserId, out var status);
-            return new TickerLobbyStatusEvent(RunLevel != GameRunLevel.PreRoundLobby, LobbySong, LobbyBackground,status == PlayerGameStatus.ReadyToPlay, _roundStartTime, RoundPreloadTime, _roundStartTimeSpan, Paused);
+            return new TickerLobbyStatusEvent(RunLevel != GameRunLevel.PreRoundLobby, LobbySong, LobbyBackground, status == PlayerGameStatus.ReadyToPlay, _roundStartTimeSpan, Paused);
         }
+
 
         private void SendStatusToAll()
         {
             foreach (var player in _playerManager.Sessions)
             {
-                RaiseNetworkEvent(GetStatusMsg(player), player.ConnectedClient);
+                RaiseNetworkEvent(GetLobbyStatusMsg(player), player.ConnectedClient);
             }
         }
 
@@ -147,7 +153,7 @@ namespace Content.Server.GameTicking
                 _playerGameStatuses[playerUserId] = status;
                 if (!_playerManager.TryGetSessionById(playerUserId, out var playerSession))
                     continue;
-                RaiseNetworkEvent(GetStatusMsg(playerSession), playerSession.ConnectedClient);
+                RaiseNetworkEvent(GetLobbyStatusMsg(playerSession), playerSession.ConnectedClient);
             }
         }
 
@@ -166,7 +172,7 @@ namespace Content.Server.GameTicking
 
             var status = ready ? PlayerGameStatus.ReadyToPlay : PlayerGameStatus.NotReadyToPlay;
             _playerGameStatuses[player.UserId] = ready ? PlayerGameStatus.ReadyToPlay : PlayerGameStatus.NotReadyToPlay;
-            RaiseNetworkEvent(GetStatusMsg(player), player.ConnectedClient);
+            RaiseNetworkEvent(GetLobbyStatusMsg(player), player.ConnectedClient);
             // update server info to reflect new ready count
             UpdateInfoText();
             CheckMinPlayers();
