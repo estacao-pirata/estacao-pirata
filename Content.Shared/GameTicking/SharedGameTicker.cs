@@ -64,10 +64,10 @@ namespace Content.Shared.GameTicking
     [Serializable, NetSerializable]
     public sealed class TickerConnectionStatusEvent : EntityEventArgs
     {
-        public TimeSpan RoundStartTimeSpan { get; }
-        public TickerConnectionStatusEvent(TimeSpan roundStartTimeSpan)
+        public TimeSpan RoundStartTime { get; }
+        public TickerConnectionStatusEvent(TimeSpan roundStartTime)
         {
-            RoundStartTimeSpan = roundStartTimeSpan;
+            RoundStartTime = roundStartTime;
         }
     }
 
@@ -80,15 +80,17 @@ namespace Content.Shared.GameTicking
         public bool YouAreReady { get; }
         // UTC.
         public TimeSpan StartTime { get; }
+        public TimeSpan RoundStartTime { get; }
         public bool Paused { get; }
 
-        public TickerLobbyStatusEvent(bool isRoundStarted, string? lobbySong, string? lobbyBackground, bool youAreReady, TimeSpan startTime, bool paused)
+        public TickerLobbyStatusEvent(bool isRoundStarted, string? lobbySong, string? lobbyBackground, bool youAreReady, TimeSpan startTime, TimeSpan roundPreloadTime, TimeSpan roundStartTime, bool paused)
         {
             IsRoundStarted = isRoundStarted;
             LobbySong = lobbySong;
             LobbyBackground = lobbyBackground;
             YouAreReady = youAreReady;
             StartTime = startTime;
+            RoundStartTime = roundStartTime;
             Paused = paused;
         }
     }
