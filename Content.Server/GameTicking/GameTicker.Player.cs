@@ -66,7 +66,6 @@ namespace Content.Server.GameTicking
                         ? Loc.GetString("player-first-join-message", ("name", args.Session.Name))
                         : Loc.GetString("player-join-message", ("name", args.Session.Name)));
 
-                    _roundStartTime = _gameTiming.CurTime;
                     RaiseNetworkEvent(GetConnectionStatusMsg(), session.Channel);
 
                     if (LobbyEnabled && _roundStartCountdownHasNotStartedYetDueToNoPlayers)
