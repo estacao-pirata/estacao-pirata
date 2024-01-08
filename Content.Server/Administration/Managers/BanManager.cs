@@ -18,6 +18,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using System.Text.Json;
+using System.Net.Http;
+using System.Text.Encodings;
 
 namespace Content.Server.Administration.Managers;
 
@@ -32,6 +35,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
     [Dependency] private readonly IChatManager _chat = default!;
     [Dependency] private readonly INetManager _netManager = default!;
     [Dependency] private readonly ILogManager _logManager = default!;
+    private readonly HttpClient _httpClient = new();
 
     private ISawmill _sawmill = default!;
 
@@ -166,6 +170,8 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         _sawmill.Info(logMessage);
         _chat.SendAdminAlert(logMessage);
 
+        await ReportBan(banDef);
+
         // If we're not banning a player we don't care about disconnecting people
         if (target == null)
             return;
@@ -294,6 +300,31 @@ public sealed class BanManager : IBanManager, IPostInjectInit
 
         _sawmill.Debug($"Sent rolebans to {pSession.Name}");
         _netManager.ServerSendMessage(bans, pSession.ConnectedClient);
+    }
+
+    private async Task ReportBan(ServerBanDef banDef)
+    {
+        String _webhookUrl = _cfg.GetCVar(CCVars.DiscordBanWebhook);
+
+        if(banDef.BanningAdmin != null) {
+             Logger.Debug("pirata", $"{banDef.BanningAdmin.Value.UserId.ToString()}");
+        }
+
+        if (_webhookUrl == null || _webhookUrl == String.Empty)
+        {
+            return;
+        }
+        var payload = JsonSerializer.Serialize(banDef);
+        //var payload = JsonSerializer.Serialize()
+        var content = new StringContent(payload, Encoding.UTF8, "application/json");
+        Logger.Debug("pirata", $"{_webhookUrl}?wait=true");
+        Logger.Debug(payload.ToString());
+        var request = await _httpClient.PostAsync($"{_webhookUrl}?wait=true", content);
+        var reply = await request.Content.ReadAsStringAsync();
+        if (!request.IsSuccessStatusCode)
+        {
+            Logger.ErrorS("pirata", $"Discord retornou um status de código RUIM enquanto postava a mensagem: {request.StatusCode}\n Resposta: {reply}");
+        }
     }
 
     public void PostInject()
