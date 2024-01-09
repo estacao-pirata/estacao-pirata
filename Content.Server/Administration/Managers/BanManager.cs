@@ -323,10 +323,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         var setPay = JsonSerializer.Serialize(payload);
         //var payload = JsonSerializer.Serialize()
         var content = new StringContent(setPay, Encoding.UTF8, "application/json");
-        Logger.Debug($"{_webhookUrl}?wait=true");
         Logger.Debug($"{setPay.ToString()}");
-        Logger.Debug($"{setPay}");
-        Logger.Debug($"oi");
 
         var request = await _httpClient.PostAsync($"{_webhookUrl}?wait=true", content);
         var reply = await request.Content.ReadAsStringAsync();
