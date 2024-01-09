@@ -173,7 +173,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         _sawmill.Info(logMessage);
         _chat.SendAdminAlert(logMessage);
 
-        await ReportBan(banDef, targetName, adminName);
+        ReportBan(logMessage);
 
         // If we're not banning a player we don't care about disconnecting people
         if (target == null)
@@ -224,14 +224,33 @@ public sealed class BanManager : IBanManager, IPostInjectInit
             null,
             role);
 
+
         if (!await AddRoleBan(banDef))
         {
             _chat.SendAdminAlert(Loc.GetString("cmd-roleban-existing", ("target", targetUsername ?? "null"), ("role", role)));
             return;
         }
 
+        var adminName = banningAdmin == null
+            ? Loc.GetString("system-user")
+            : (await _db.GetPlayerRecordByUserId(banningAdmin.Value))?.LastSeenUserName ?? Loc.GetString("system-user");
+        var addressRangeString = addressRange != null
+            ? $"{addressRange.Value.Item1}/{addressRange.Value.Item2}"
+            : "null";
+        var targetName = target is null ? "null" : $"{targetUsername} ({target})";
         var length = expires == null ? Loc.GetString("cmd-roleban-inf") : Loc.GetString("cmd-roleban-until", ("expires", expires));
         _chat.SendAdminAlert(Loc.GetString("cmd-roleban-success", ("target", targetUsername ?? "null"), ("role", role), ("reason", reason), ("length", length)));
+
+        var logMessage = Loc.GetString(
+            "ban-manager-role-ban",
+            ("admin", adminName),
+            ("role", role),
+            ("severity", severity),
+            ("expires", length),
+            ("name", targetName),
+            ("reason", reason));
+
+        ReportBan(logMessage);
 
         if (target != null)
         {
@@ -269,6 +288,18 @@ public sealed class BanManager : IBanManager, IPostInjectInit
             SendRoleBans(player);
         }
 
+        var adminName = unbanningAdmin == null
+            ? Loc.GetString("system-user")
+            : (await _db.GetPlayerRecordByUserId(unbanningAdmin.Value))?.LastSeenUserName ?? Loc.GetString("system-user");
+
+        var logMessage = Loc.GetString(
+            "ban-manager-pardon-ban",
+            ("admin", adminName),
+            ("id", banId.ToString())
+        );
+
+        ReportBan(logMessage);
+
         return $"Pardoned ban with id {banId}";
     }
 
@@ -305,21 +336,15 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         _netManager.ServerSendMessage(bans, pSession.ConnectedClient);
     }
 
-    private async Task ReportBan(ServerBanDef banDef, string targetName, string adminName)
+    private async Task ReportBan(string message)
     {
         String _webhookUrl = _cfg.GetCVar(CCVars.DiscordBanWebhook);
-
-        if(banDef.BanningAdmin != null) {
-             Logger.Debug("pirata", $"{banDef.BanningAdmin.Value.UserId.ToString()}");
-        }
 
         if (_webhookUrl == null || _webhookUrl == String.Empty)
         {
             return;
         }
-        var Output = $"{adminName} baniu {targetName} pelo motivo: {banDef.Reason}, no round {banDef.RoundId} "
-                     + $"em {banDef.BanTime.ToString()} até {banDef.ExpirationTime.ToString()}";
-        var payload = new WebhookPayload{ Content = Output};
+        var payload = new WebhookPayload{ Content = message};
         var setPay = JsonSerializer.Serialize(payload);
         //var payload = JsonSerializer.Serialize()
         var content = new StringContent(setPay, Encoding.UTF8, "application/json");
