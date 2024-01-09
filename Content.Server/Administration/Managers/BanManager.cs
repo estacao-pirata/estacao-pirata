@@ -21,6 +21,9 @@ using Robust.Shared.Utility;
 using System.Text.Json;
 using System.Net.Http;
 using System.Text.Encodings;
+using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
+
 
 namespace Content.Server.Administration.Managers;
 
@@ -170,7 +173,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         _sawmill.Info(logMessage);
         _chat.SendAdminAlert(logMessage);
 
-        await ReportBan(banDef);
+        await ReportBan(banDef, targetName, adminName);
 
         // If we're not banning a player we don't care about disconnecting people
         if (target == null)
@@ -302,7 +305,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         _netManager.ServerSendMessage(bans, pSession.ConnectedClient);
     }
 
-    private async Task ReportBan(ServerBanDef banDef)
+    private async Task ReportBan(ServerBanDef banDef, string targetName, string adminName)
     {
         String _webhookUrl = _cfg.GetCVar(CCVars.DiscordBanWebhook);
 
@@ -314,11 +317,17 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         {
             return;
         }
-        var payload = JsonSerializer.Serialize(banDef);
+        var Output = $"{adminName} baniu {targetName} pelo motivo: {banDef.Reason}, no round {banDef.RoundId} "
+                     + $"em {banDef.BanTime.ToString()} até {banDef.ExpirationTime.ToString()}";
+        var payload = new WebhookPayload{ Content = Output};
+        var setPay = JsonSerializer.Serialize(payload);
         //var payload = JsonSerializer.Serialize()
-        var content = new StringContent(payload, Encoding.UTF8, "application/json");
-        Logger.Debug("pirata", $"{_webhookUrl}?wait=true");
-        Logger.Debug(payload.ToString());
+        var content = new StringContent(setPay, Encoding.UTF8, "application/json");
+        Logger.Debug($"{_webhookUrl}?wait=true");
+        Logger.Debug($"{setPay.ToString()}");
+        Logger.Debug($"{setPay}");
+        Logger.Debug($"oi");
+
         var request = await _httpClient.PostAsync($"{_webhookUrl}?wait=true", content);
         var reply = await request.Content.ReadAsStringAsync();
         if (!request.IsSuccessStatusCode)
@@ -326,6 +335,13 @@ public sealed class BanManager : IBanManager, IPostInjectInit
             Logger.ErrorS("pirata", $"Discord retornou um status de código RUIM enquanto postava a mensagem: {request.StatusCode}\n Resposta: {reply}");
         }
     }
+
+    private struct WebhookPayload
+    {
+        [JsonPropertyName("content")]
+        public String Content { get; set; }
+    }
+
 
     public void PostInject()
     {
