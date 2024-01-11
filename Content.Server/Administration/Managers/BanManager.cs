@@ -18,6 +18,12 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using System.Text.Json;
+using System.Net.Http;
+using System.Text.Encodings;
+using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
+
 
 namespace Content.Server.Administration.Managers;
 
@@ -32,6 +38,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
     [Dependency] private readonly IChatManager _chat = default!;
     [Dependency] private readonly INetManager _netManager = default!;
     [Dependency] private readonly ILogManager _logManager = default!;
+    private readonly HttpClient _httpClient = new();
 
     private ISawmill _sawmill = default!;
 
@@ -166,6 +173,8 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         _sawmill.Info(logMessage);
         _chat.SendAdminAlert(logMessage);
 
+        ReportBan(logMessage);
+
         // If we're not banning a player we don't care about disconnecting people
         if (target == null)
             return;
@@ -215,14 +224,33 @@ public sealed class BanManager : IBanManager, IPostInjectInit
             null,
             role);
 
+
         if (!await AddRoleBan(banDef))
         {
             _chat.SendAdminAlert(Loc.GetString("cmd-roleban-existing", ("target", targetUsername ?? "null"), ("role", role)));
             return;
         }
 
+        var adminName = banningAdmin == null
+            ? Loc.GetString("system-user")
+            : (await _db.GetPlayerRecordByUserId(banningAdmin.Value))?.LastSeenUserName ?? Loc.GetString("system-user");
+        var addressRangeString = addressRange != null
+            ? $"{addressRange.Value.Item1}/{addressRange.Value.Item2}"
+            : "null";
+        var targetName = target is null ? "null" : $"{targetUsername} ({target})";
         var length = expires == null ? Loc.GetString("cmd-roleban-inf") : Loc.GetString("cmd-roleban-until", ("expires", expires));
         _chat.SendAdminAlert(Loc.GetString("cmd-roleban-success", ("target", targetUsername ?? "null"), ("role", role), ("reason", reason), ("length", length)));
+
+        var logMessage = Loc.GetString(
+            "ban-manager-role-ban",
+            ("admin", adminName),
+            ("role", role),
+            ("severity", severity),
+            ("expires", length),
+            ("name", targetName),
+            ("reason", reason));
+
+        ReportBan(logMessage);
 
         if (target != null)
         {
@@ -260,6 +288,18 @@ public sealed class BanManager : IBanManager, IPostInjectInit
             SendRoleBans(player);
         }
 
+        var adminName = unbanningAdmin == null
+            ? Loc.GetString("system-user")
+            : (await _db.GetPlayerRecordByUserId(unbanningAdmin.Value))?.LastSeenUserName ?? Loc.GetString("system-user");
+
+        var logMessage = Loc.GetString(
+            "ban-manager-pardon-ban",
+            ("admin", adminName),
+            ("id", banId.ToString())
+        );
+
+        ReportBan(logMessage);
+
         return $"Pardoned ban with id {banId}";
     }
 
@@ -295,6 +335,35 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         _sawmill.Debug($"Sent rolebans to {pSession.Name}");
         _netManager.ServerSendMessage(bans, pSession.ConnectedClient);
     }
+
+    private async Task ReportBan(string message)
+    {
+        String _webhookUrl = _cfg.GetCVar(CCVars.DiscordBanWebhook);
+
+        if (_webhookUrl == null || _webhookUrl == String.Empty)
+        {
+            return;
+        }
+        var payload = new WebhookPayload{ Content = message};
+        var setPay = JsonSerializer.Serialize(payload);
+        //var payload = JsonSerializer.Serialize()
+        var content = new StringContent(setPay, Encoding.UTF8, "application/json");
+        Logger.Debug($"{setPay.ToString()}");
+
+        var request = await _httpClient.PostAsync($"{_webhookUrl}?wait=true", content);
+        var reply = await request.Content.ReadAsStringAsync();
+        if (!request.IsSuccessStatusCode)
+        {
+            Logger.ErrorS("pirata", $"Discord retornou um status de código RUIM enquanto postava a mensagem: {request.StatusCode}\n Resposta: {reply}");
+        }
+    }
+
+    private struct WebhookPayload
+    {
+        [JsonPropertyName("content")]
+        public String Content { get; set; }
+    }
+
 
     public void PostInject()
     {
