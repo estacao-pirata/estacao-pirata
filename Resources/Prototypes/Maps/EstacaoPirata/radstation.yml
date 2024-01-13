@@ -2,7 +2,7 @@
   id: RadStation
   mapName: 'Rad'
   mapPath: /Maps/EstacaoPirata/radstation.yml
-  minPlayers: 35
+  minPlayers: 30
   stations:
     RadStation:
       stationProto: StandardNanotrasenStation

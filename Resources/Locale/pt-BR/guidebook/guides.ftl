@@ -56,3 +56,5 @@ guide-entry-minor-antagonists = Antagonistas Menores
 guide-entry-space-ninja = Space Ninja
 
 guide-entry-writing = Escrita
+guide-entry-lei-espacial = Lei Espacial
+guide-entry-codigo-penal = Código Penal
