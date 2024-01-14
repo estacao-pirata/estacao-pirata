@@ -61,7 +61,15 @@ namespace Content.Shared.GameTicking
             Disallowed = disallowed;
         }
     }
-
+    [Serializable, NetSerializable]
+    public sealed class TickerConnectionStatusEvent : EntityEventArgs
+    {
+        public TimeSpan RoundStartTime { get; }
+        public TickerConnectionStatusEvent(TimeSpan roundStartTime)
+        {
+            RoundStartTime = roundStartTime;
+        }
+    }
 
     [Serializable, NetSerializable]
     public sealed class TickerLobbyStatusEvent : EntityEventArgs
@@ -72,17 +80,17 @@ namespace Content.Shared.GameTicking
         public bool YouAreReady { get; }
         // UTC.
         public TimeSpan StartTime { get; }
-        public TimeSpan RoundStartTimeSpan { get; }
+        public TimeSpan RoundStartTime { get; }
         public bool Paused { get; }
 
-        public TickerLobbyStatusEvent(bool isRoundStarted, string? lobbySong, string? lobbyBackground, bool youAreReady, TimeSpan startTime, TimeSpan preloadTime, TimeSpan roundStartTimeSpan, bool paused)
+        public TickerLobbyStatusEvent(bool isRoundStarted, string? lobbySong, string? lobbyBackground, bool youAreReady, TimeSpan startTime, TimeSpan roundPreloadTime, TimeSpan roundStartTime, bool paused)
         {
             IsRoundStarted = isRoundStarted;
             LobbySong = lobbySong;
             LobbyBackground = lobbyBackground;
             YouAreReady = youAreReady;
             StartTime = startTime;
-            RoundStartTimeSpan = roundStartTimeSpan;
+            RoundStartTime = roundStartTime;
             Paused = paused;
         }
     }

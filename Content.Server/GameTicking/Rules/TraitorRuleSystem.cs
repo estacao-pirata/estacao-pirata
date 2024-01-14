@@ -113,7 +113,7 @@ public sealed class TraitorRuleSystem : GameRuleSystem<TraitorRuleComponent>
             return;
         }
 
-        var numTraitors = MathHelper.Clamp(component.StartCandidates.Count / PlayersPerTraitor, 1, MaxTraitors);
+        var numTraitors = MathHelper.Clamp(component.StartCandidates.Count / PlayersPerTraitor + 1, 1, MaxTraitors);
         var traitorPool = FindPotentialTraitors(component.StartCandidates, component);
         var selectedTraitors = PickTraitors(numTraitors, traitorPool);
 
@@ -355,7 +355,7 @@ public sealed class TraitorRuleSystem : GameRuleSystem<TraitorRuleComponent>
             // If we have too many traitors, divide by how many players below target for next traitor we are.
             if (ev.JoinOrder < target)
             {
-                chance /= (target - ev.JoinOrder);
+                continue; // Pirata - não adiciona antags se já tem o bastante
             }
             else // Tick up towards 100% chance.
             {

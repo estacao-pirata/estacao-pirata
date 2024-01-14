@@ -66,6 +66,8 @@ namespace Content.Server.GameTicking
                         ? Loc.GetString("player-first-join-message", ("name", args.Session.Name))
                         : Loc.GetString("player-join-message", ("name", args.Session.Name)));
 
+                    RaiseNetworkEvent(GetConnectionStatusMsg(), session.Channel);
+
                     if (LobbyEnabled && _roundStartCountdownHasNotStartedYetDueToNoPlayers)
                     {
                         _roundStartCountdownHasNotStartedYetDueToNoPlayers = false;
@@ -176,7 +178,7 @@ namespace Content.Server.GameTicking
 
             var client = session.ConnectedClient;
             RaiseNetworkEvent(new TickerJoinLobbyEvent(), client);
-            RaiseNetworkEvent(GetStatusMsg(session), client);
+            RaiseNetworkEvent(GetLobbyStatusMsg(session), client);
             RaiseNetworkEvent(GetInfoMsg(), client);
             RaiseLocalEvent(new PlayerJoinedLobbyEvent(session));
         }

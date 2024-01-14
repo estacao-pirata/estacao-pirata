@@ -319,14 +319,14 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<bool> DebugCoordinatesAdminOnly =
             CVarDef.Create("game.debug_coordinates_admin_only", true, CVar.SERVER | CVar.REPLICATED);
 
-#if EXCEPTION_TOLERANCE
+//#if EXCEPTION_TOLERANCE
         /// <summary>
         ///     Amount of times round start must fail before the server is shut down.
         ///     Set to 0 or a negative number to disable.
         /// </summary>
         public static readonly CVarDef<int> RoundStartFailShutdownCount =
             CVarDef.Create("game.round_start_fail_shutdown_count", 5, CVar.SERVERONLY | CVar.SERVER);
-#endif
+//#endif
 
         /// <summary>
         /// Delay between station alert level changes.
@@ -356,6 +356,13 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<string> DiscordAHelpWebhook =
             CVarDef.Create("discord.ahelp_webhook", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
+
+        /// <summary>
+        /// Link do webhook do bot do discord para receber bans
+        /// </summary>
+        public static readonly CVarDef<string> DiscordBanWebhook =
+            CVarDef.Create("discord.ban_webhook", string.Empty, CVar.SERVERONLY);
+
 
         /// <summary>
         /// The server icon to use in the Discord ahelp embed footer.
