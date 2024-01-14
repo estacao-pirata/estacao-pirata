@@ -58296,7 +58296,7 @@ entities:
     - pos: 40.791492,6.6524587
       parent: 2
       type: Transform
-- proto: DrinkСhampagneBottleFull
+- proto: DrinkChampagneBottleFull
   entities:
   - uid: 19925
     components:
