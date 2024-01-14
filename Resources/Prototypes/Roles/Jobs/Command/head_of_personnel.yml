@@ -4,18 +4,17 @@
   description: job-description-hop
   playTimeTracker: JobHeadOfPersonnel
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobHeadOfSecurity
-      time: 10800 #3 hrs
-    - !type:RoleTimeRequirement
-      role: JobChiefMedicalOfficer
-      time: 10800 #3 hrs
-    - !type:RoleTimeRequirement
-      role: JobChiefEngineer
-      time: 10800 #3 hrs
-    - !type:RoleTimeRequirement
-      role: JobResearchDirector
-      time: 10800 #3 hrs
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 18000 # Corvax-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 18000 # Corvax-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000 # 15 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 180000 # Corvax-RoleTime
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
