@@ -116800,28 +116800,6 @@ entities:
       pos: 135.40991,-30.048084
       parent: 2
       type: Transform
-- proto: SyringeSpaceacillin
-  entities:
-  - uid: 15705
-    components:
-    - pos: 62.57546,-56.42289
-      parent: 2
-      type: Transform
-  - uid: 15706
-    components:
-    - pos: 64.65216,-54.53225
-      parent: 2
-      type: Transform
-  - uid: 15707
-    components:
-    - pos: 64.12091,-54.422874
-      parent: 2
-      type: Transform
-  - uid: 15708
-    components:
-    - pos: 64.386536,-54.4385
-      parent: 2
-      type: Transform
 - proto: Table
   entities:
   - uid: 367
