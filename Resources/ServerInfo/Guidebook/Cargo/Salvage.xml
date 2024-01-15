@@ -31,11 +31,7 @@ O interior será importante, visto que todas as espécies precisam respirar e o 
 <GuideEntityEmbed Entity="WeaponCrusherDagger"/>
 <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
 </Box>
-<<<<<<< HEAD
-The crusher devices are your first and last line of defense against space fauna and other things that want to bring harm to logistics personnel. While the dagger is just a standard knife, the crusher is has a special property that if you shoot something with it, then follow up with a melee attack, it deals 2x more damage. The protokinetic accelerator is like a recharging weapon that can provide thrust in the scenerio that your jetpack runs dry, or mine for you.
-=======
 Os "Crushers" são sua primeira e última linha de defesa contra a fauna espacial e outras coisas que desejam causar danos à carga. Embora a adaga seja apenas uma faca padrão, a glaive tem uma propriedade especial que se você atirar em algo com ela e depois seguir com um ataque corpo a corpo, ela causa 2x mais dano. O acelerador protocinético é como uma arma de recarga que pode fornecer impulso no cenário em que seu jetpack seca ou o meu para você.
->>>>>>> 0764ee8165 (Adicional palavras no chat sanitizer. Traducoes de guidebook, opporozidone.)
 
 <Box>
 <GuideEntityEmbed Entity="Picareta"/>
