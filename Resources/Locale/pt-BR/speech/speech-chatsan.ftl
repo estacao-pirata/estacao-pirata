@@ -161,3 +161,134 @@ chatsan-replacement-57 = porque
 chatsan-word-58 = pse
 chatsan-word-59 = psé
 chatsan-replacement-poise = pois é
+
+chatsan-word-60 = vc
+chatsan-replacement-60 = você
+
+chatsan-word-61 = sqn
+chatsan-replacement-61 = só que não
+
+chatsan-word-62 = pdc
+chatsan-replacement-62 = pode crer
+
+chatsan-word-63 = dmr
+chatsan-replacement-63 = demorou
+
+chatsan-word-64 = tqr
+chatsan-replacement-64 = tem que respeitar
+
+chatsan-word-65 = smdd
+chatsan-replacement-65 = sem maldade
+
+chatsan-word-66 = vdb
+chatsan-replacement-66 = vai dar bom
+
+chatsan-word-67 = flw
+chatsan-replacement-67 = falou
+
+chatsan-word-68 = plmd
+chatsan-replacement-68 = pelo amor de Deus
+
+chatsan-word-69 = plmns
+chatsan-replacement-69 = pelo menos
+
+chatsan-word-70 = sfd
+chatsan-replacement-70 = safado
+
+chatsan-word-71 = sv
+chatsan-replacement-71 = suave
+
+chatsan-word-72 = mb
+chatsan-replacement-72 = foi mal
+
+chatsan-word-73 = oq
+chatsan-replacement-73 = o que
+
+chatsan-word-74 = vcs
+chatsan-replacement-74 = vocês
+
+chatsan-word-75 = mds
+chatsan-replacement-75 = meu Deus
+
+chatsan-word-76 = fds
+chatsan-replacement-76 = final de semana
+
+chatsan-word-77 = cap
+chatsan-replacement-77 = Capitão
+
+chatsan-word-78 = sla
+chatsan-replacement-78 = sei lá
+
+chatsan-word-79 = slk
+chatsan-word-80 = slc
+chatsan-replacement-sê é loko = sê é loko
+
+chatsan-word-81 = tbm
+chatsan-word-82 = tb
+chatsan-replacement-também = também
+
+chatsan-word-83 = agr
+chatsan-replacement-83 = agora
+
+chatsan-word-84 = n
+chatsan-replacement-84 = não
+
+chatsan-word-85 = tendi
+chatsan-replacement-85 = entendi
+
+chatsan-word-86 = ent
+chatsan-replacement-86 = então
+
+chatsan-word-87 = q
+chatsan-replacement-87 = que
+
+chatsan-word-88 = vtnc
+chatsan-replacement-88 = vai tomar no cu
+
+chatsan-word-89 = mt
+chatsan-replacement-89 = muito
+
+chatsan-word-90 = qq
+chatsan-word-91 = qlqr
+chatsan-replacement-qualquer = qualquer
+
+chatsan-word-92 = pprt
+chatsan-replacement-92 = papo reto
+
+chatsan-word-93 = pnc
+chatsan-replacement-93 = pau no cu
+
+chatsan-word-94 = sdd
+chatsan-replacement-94 = saudade
+
+chatsan-word-95 = sdds
+chatsan-replacement-95 = saudades
+
+chatsan-word-96 = krl
+chatsan-word-97 = crl
+chatsan-replacement-caralho = caralho
+
+chatsan-word-98 = ngm
+chatsan-replacement-98 = ninguém
+
+chatsan-word-99 = td
+chatsan-replacement-99 = tudo
+
+chatsan-word-100 = qnt
+chatsan-replacement-100 = quanto
+
+chatsan-word-101 = qnd
+chatsan-replacement-101 = quando
+
+chatsan-word-102 = nd
+chatsan-replacement-102 = nada
+
+chatsan-word-103 = tdb
+chatsan-replacement-103 = tudo bem
+
+chatsan-word-104 = cct
+chatsan-word-105 = kct
+chatsan-replacement-cacete = cacete
+
+chatsan-word-106 = s
+chatsan-replacement-106 = sim
