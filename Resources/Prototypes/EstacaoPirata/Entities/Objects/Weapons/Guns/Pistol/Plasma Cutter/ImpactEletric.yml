@@ -2,10 +2,6 @@
   id: ImpactEletric
   noSpawn: true
   components:
-  - type: PointLight
-    color: "#33fcff"
-    radius: 1.0
-    energy: 1.0
   - type: TimedDespawn
     lifetime: 0.25
   - type: Sprite

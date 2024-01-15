@@ -2,10 +2,11 @@
   id: BaseEnergyShell
   name: Shell Energy
   parent: BaseCartridgePistol
+  description: Um pequeno invólucro para uma pequena quantidade de plasma que na arma certa faz estrago. É usado pra carregar o cartucho do Plasma Cutter.
   components:
   - type: Tag
     tags:
-      - EnergyShell
+      - BaseEnergyShell
   - type: CartridgeAmmo
     proto: EletricPlasma
     count: 3

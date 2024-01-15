@@ -39,6 +39,7 @@
                 </BoxContainer>
             </PanelContainer>
             <RichTextLabel Name="StationAlertLevelLabel" Access="Public" />
+            <RichTextLabel Name="StationDateLabel" Access="Public" />
             <RichTextLabel Name="StationTimeLabel" Access="Public" />
             <RichTextLabel Name="StationAlertLevelInstructions" Access="Public" />
         </BoxContainer>

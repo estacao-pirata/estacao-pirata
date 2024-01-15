@@ -4,10 +4,6 @@
   noSpawn: true
   parent: BaseBullet
   components:
-  - type: PointLight
-    color: "#33fcff"
-    radius: 1.0
-    energy: 2.0
   - type: Sprite
     sprite: EstacaoPirata/Objects/Weapon/Guns/Pistol/Plasma_Cutter/eletricplasma.rsi
     layers:

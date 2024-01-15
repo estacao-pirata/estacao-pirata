@@ -56,6 +56,7 @@ namespace Content.Client.GameTicking.Managers
 
             SubscribeNetworkEvent<TickerJoinLobbyEvent>(JoinLobby);
             SubscribeNetworkEvent<TickerJoinGameEvent>(JoinGame);
+            SubscribeNetworkEvent<TickerConnectionStatusEvent>(ConnectionStatus);
             SubscribeNetworkEvent<TickerLobbyStatusEvent>(LobbyStatus);
             SubscribeNetworkEvent<TickerLobbyInfoEvent>(LobbyInfo);
             SubscribeNetworkEvent<TickerLobbyCountdownEvent>(LobbyCountdown);
@@ -110,13 +111,18 @@ namespace Content.Client.GameTicking.Managers
             _stateManager.RequestStateChange<LobbyState>();
         }
 
+        private void ConnectionStatus(TickerConnectionStatusEvent message)
+        {
+            RoundStartTimeSpan = message.RoundStartTime;
+        }
+
         private void LobbyStatus(TickerLobbyStatusEvent message)
         {
             StartTime = message.StartTime;
-            RoundStartTimeSpan = message.RoundStartTimeSpan;
             IsGameStarted = message.IsRoundStarted;
             AreWeReady = message.YouAreReady;
             SetLobbySong(message.LobbySong);
+            RoundStartTimeSpan = message.RoundStartTime;
             LobbyBackground = message.LobbyBackground;
             Paused = message.Paused;
 

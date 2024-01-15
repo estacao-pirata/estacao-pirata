@@ -2,17 +2,18 @@
   id: BaseCartuchoPlasmaCutter
   name: Plasma Energy (Cartucho)
   parent: BaseMagazinePistol
+  description: Armazenar cápsulas de plasma para que sejam ionizados e disparados pelo Plasma Cutter. Carrega-se com Shell Energy.
   components:
   - type: Tag
     tags:
-      - CartuchoPlasmaCutter
+      - BaseCartuchoPlasmaCutter
   - type: BallisticAmmoProvider
     mayTransfer: true
     proto: BaseEnergyShell
     capacity: 16
     whitelist:
       tags:
-        - EnergyShell
+        - BaseEnergyShell
   - type: ContainerContainer
   - type: Sprite
     sprite: EstacaoPirata/Objects/Weapon/Guns/Pistol/Plasma_Cutter/cartucho_plasma_cutter.rsi

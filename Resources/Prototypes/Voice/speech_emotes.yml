@@ -111,6 +111,8 @@
     - cries
     - cries.
     - cries!
+    - chora
+    - chola
 
 - type: emote
   id: Squish
@@ -208,6 +210,12 @@
     - salutes
     - salutes.
     - salutes!
+    - saúda
+    - sauda
+    - bate continência
+    - bate continencia
+    - continência
+    - continencia
 
 - type: emote
   id: DefaultDeathgasp

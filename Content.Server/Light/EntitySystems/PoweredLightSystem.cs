@@ -8,6 +8,7 @@ using Content.Server.Emp;
 using Content.Server.Ghost;
 using Content.Server.Light.Components;
 using Content.Server.Power.Components;
+using Content.Server.Time;
 using Content.Shared.Audio;
 using Content.Shared.Damage;
 using Content.Shared.Database;
@@ -45,6 +46,10 @@ namespace Content.Server.Light.EntitySystems
         [Dependency] private readonly PointLightSystem _pointLight = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
         [Dependency] private readonly InventorySystem _inventory = default!;
+        [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
+        private DayCycleSystem? _cycleSystem;
+
+
 
         private static readonly TimeSpan ThunkDelay = TimeSpan.FromSeconds(2);
         public const string LightBulbContainer = "light_bulb";
@@ -67,6 +72,8 @@ namespace Content.Server.Light.EntitySystems
 
             SubscribeLocalEvent<PoweredLightComponent, PoweredLightDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<PoweredLightComponent, EmpPulseEvent>(OnEmpPulse);
+
+            _cycleSystem = _entitySystem.GetEntitySystem<DayCycleSystem>();
         }
 
         private void OnInit(EntityUid uid, PoweredLightComponent light, ComponentInit args)
@@ -275,7 +282,7 @@ namespace Content.Server.Light.EntitySystems
                 case LightBulbState.Normal:
                     if (powerReceiver.Powered && light.On)
                     {
-                        SetLight(uid, true, lightBulb.Color, light, lightBulb.LightRadius, lightBulb.LightEnergy, lightBulb.LightSoftness);
+                        SetLight(uid, true, _cycleSystem!.GetBulbColor(lightBulb), light, lightBulb.LightRadius, _cycleSystem.GetBulbEnergy(lightBulb), lightBulb.LightSoftness);
                         _appearance.SetData(uid, PoweredLightVisuals.BulbState, PoweredLightState.On, appearance);
                         var time = _gameTiming.CurTime;
                         if (time > light.LastThunk + ThunkDelay)
