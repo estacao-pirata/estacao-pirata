@@ -45,7 +45,7 @@ guide-entry-machine-upgrading = Melhorando Máquinas
 guide-entry-robotics = Robótica
 guide-entry-security = Segurança
 guide-entry-dna = DNA
-guide-entry-defusal = Large Bomb Defusal
+guide-entry-defusal = Desativação de Bomba Grande
 
 guide-entry-antagonists = Antagonistas
 guide-entry-nuclear-operatives = Operativos Nucleares
