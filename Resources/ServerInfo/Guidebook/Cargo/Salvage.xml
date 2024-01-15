@@ -1,16 +1,17 @@
 <Document>
 # Salvamento
 
-O salvamento é uma das principais fontes de renda da Cargo... até que a Atmos chega com um bilhão de dólares em frete. Até então, porém, seu trabalho principal será ganhar dinheiro para eles, e não fazer transporte
+O salvamento é uma das principais fontes de renda da Cargo... até que a Atmos chega com um bilhão de dólares em frete. Até então, porém, seu trabalho principal será ganhar dinheiro para eles, e não fazer transporte.
 
 ## Como se preparar para um resgate
 
 Em primeiro lugar, você precisa de algumas coisas antes de começar a salvar.
 
 <Box>
-<GuideEntityEmbed Entity="ClothingOuterHardsuitSpatio"/>
+<GuideEntityEmbed Entity="ClothingOuterHardsuitSalvage"/>
 <GuideEntityEmbed Entity="ClothingShoesBootsMag"/>
 </Box>
+
 Seu Hardsuit é importante, pois oferece proteção em EVA. Ou seja, a falta de pressão e temperatura do espaço não vai te matar. Também fornecerá uma pequena defesa contra qualquer fauna espacial que você possa encontrar. As magboots garantirão que você possa se mover suavemente em um salvamento e puxar e retirar coisas. Eles também tornam você à prova de escorregões!
 
 <Box>
@@ -25,6 +26,7 @@ Serão necessários jetpacks para se mover pelo espaço, pois sem piso e gravida
 <GuideEntityEmbed Entity="YellowOxygenTankFilled"/>
 <GuideEntityEmbed Entity="NitrogenTankFilled"/>
 </Box>
+
 O interior será importante, visto que todas as espécies precisam respirar e o espaço não contém gases. Sua máscara é usada para conectar o tanque de gás à boca para respirar, enquanto os tanques de gás contêm gases consumíveis e podem ser recarregados em botijões de gás. Todas as espécies respiram oxigênio (tanques azuis + amarelos), exceto slimes, que precisam de nitrogênio (tanques vermelhos)
 
 <Box>
@@ -32,26 +34,31 @@ O interior será importante, visto que todas as espécies precisam respirar e o 
 <GuideEntityEmbed Entity="WeaponCrusherDagger"/>
 <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
 </Box>
+
 Os "Crushers" são sua primeira e última linha de defesa contra a fauna espacial e outras coisas que desejam causar danos à carga. Embora a adaga seja apenas uma faca padrão, a glaive tem uma propriedade especial que se você atirar em algo com ela e depois seguir com um ataque corpo a corpo, ela causa 2x mais dano. O acelerador protocinético é como uma arma de recarga que pode fornecer impulso no cenário em que seu jetpack seca ou o meu para você.
 
 <Box>
-<GuideEntityEmbed Entity="Picareta"/>
+<GuideEntityEmbed Entity="Pickaxe"/>
 <GuideEntityEmbed Entity="MiningDrill"/>
 <GuideEntityEmbed Entity="OreBag"/>
 <GuideEntityEmbed Entity="ClothingBeltUtilityFilled"/>
 </Box>
+
 A picareta e a broca de mineração são úteis para minerar rochas ou quebrar estruturas rapidamente.
 O saco de minério magnetiza o minério próximo e o coleta automaticamente se equipado em uma fenda de cinto.
 O cinto de utilidades pode ser útil para guardar itens diversos quando não estiver ocupado pela bolsa auricular.
 
 ## Como ganhar dinheiro como salvador
+
 <Box>
 <GuideEntityEmbed Entity="SalvageMagnet"/>
 </Box>
 <Box>
 <GuideEntityEmbed Entity="ComputerSalvageExpedition"/>
 </Box>
-Existem 2 formas principais de renda para salvamento. O ímã e as expedições.
+
+Existem duas formas principais de renda para salvamento. O ímã e as expedições.
 O ímã de salvamento, quando ativado, chama um dos muitos salvamentos aleatórios a serem gerados em algum lugar do espaço. Depois de encontrar o resgate, você precisará lutar contra qualquer fauna espacial presente e saqueá-lo o máximo possível. Um salvamento só estará presente por 4 minutos, antes de desaparecer, levando consigo tudo o que for descoberto. E, na pior das hipóteses, levarão os corpos de outros salvadores em estado crítico ou mortos. Depois disso, o ímã precisa de algum tempo para recarregar antes de poder ser usado novamente.
 As expedições são como aventuras que você pode fazer com seus companheiros de resgate. Primeiro você deve escolher uma missão no console de salvamento, cada uma com dificuldade e recompensa variadas. Depois disso, você deverá chegar ao local através de uma nave. Assim que você chegar, o chat lhe dirá em que direção está a masmorra da salvação, e você deve ir e vencer os perigos e ganhar o saque!
+
 </Document>
