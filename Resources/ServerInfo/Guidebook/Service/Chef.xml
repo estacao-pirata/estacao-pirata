@@ -11,6 +11,22 @@ O Chef é um dos prestadores de serviço que dispõe de cozinha com todos os equ
 
 ## Equipamento
 
+Em primeiro lugar, você precisará se familiarizar com a cozinha e com os utensílios disponíveis.
+
+<Box>
+<GuideEntityEmbed Entity="KitchenKnife"/>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="FoodContainerEgg"/>
+<GuideEntityEmbed Entity="MobCow"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="VendingMachineChefvend" Caption="Chef Vendor"/>
+<GuideEntityEmbed Entity="KitchenMicrowave"/>
+<GuideEntityEmbed Entity="KitchenSpike"/>
+<GuideEntityEmbed Entity="VendingMachineDinnerware" Caption="Dinnerware Vend"/>
+</Box>
+
 Microondas. Ao acelerar as moléculas dipolo nos alimentos e criar fricção molecular, cuja energia exotérmica se espalha por toda a casca estrutural do objeto que está sendo aquecido, um forno de micro-ondas aquece e cozinha os alimentos. Permite, por exemplo, obter bolsos de donk quentes, que são uma versão mais nutritiva dos seus homólogos frios, ou preparar um pão aquecendo um pedaço de massa cortado. As tecnologias NanoTrasen permitem utilizar um forno micro-ondas convencional não apenas como aquecedor de alimentos, mas também como processador estrutural de matéria, ampliando significativamente o leque de possibilidades e tornando um forno micro-ondas convencional um multi-fogão universal.
 
 - Se, após a utilização do forno micro-ondas, os ingredientes nele contidos caírem, isso significa apenas que a receita que utilizou foi reproduzida incorretamente. Certifique-se de verificar se você tem os ingredientes certos e ajuste o cronômetro de acordo com a receita.
@@ -27,6 +43,59 @@ Triturador. Lâminas afiadas e compressores de alta pressão permitem que o Trit
 - A maioria das refeições cozidas pode ser fatiada e dada aos funcionários em pedaços para manter uma distribuição justa dos alimentos entre os membros da tripulação.
 
 - Alimentos e muitos ingredientes podem ser liquefeitos e misturados no Triturador. Comida líquida... Hum!
+
+## Preparação da cozinha:
+
+- Verifique o que você tem em mãos quando se trata de ingredientes, a maioria das cozinhas tem farinha, arroz, ovos, cubos de macaco e algumas outras coisas para começar.
+- Experimente misturar um pouco de massa colocando água e farinha em um copo. (Use as pias!)
+- Verifique o guia Wiki (ou Receitas de Comida) para saber o que você pode fazer e coloque todos os ingredientes listados no micro-ondas para prepará-los em uma refeição.
+
+Quando você estiver um pouco mais experiente e familiarizado com o que pode fazer, talvez seja melhor montar alguns menus ou uma "folha de dicas" para fornecer uma lista de ingredientes para a botânica.
+
+## Misturando massa:
+
+Adicione a farinha e a água em um copo. (Use a pia para água!)<Box>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull" Caption="water"/>
+<GuideEntityEmbed Entity="FoodDough"/>
+</Box>
+## Fazendo Farinha:
+
+Coloque o trigo em um Triturador (com um copo colocado dentro) e triture!<Box>
+<GuideEntityEmbed Entity="KitchenReagentGrinder"/>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="WheatBushel"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+</Box>
+## Obtendo Plantas:
+
+Peça à Botânica o que você precisa; sem um botânico, você mesmo pode precisar cultivar mais plantas.<Box>
+<GuideEntityEmbed Entity="SignHydro1" Caption=" "/>
+<GuideEntityEmbed Entity="hydroponicsTray"/>
+<GuideEntityEmbed Entity="WheatBushel"/>
+<GuideEntityEmbed Entity="SignHydro2" Caption=" "/>
+</Box>
+## Coletando Leite:
+
+Alt-Click em uma vaca com um recipiente na mão. (Béqueres, baldes, jugs, etc.)
+<Box>
+<GuideEntityEmbed Entity="Bucket"/>
+<GuideEntityEmbed Entity="MobCow"/>
+<GuideEntityEmbed Entity="ReagentContainerMilk"/>
+</Box>
+## Como abater:
+
+Na maioria dos casos, você poderá usar uma faca diretamente em uma criatura que esteja morta. É melhor fazer isso no freezer, pois os resultados são... confusos.
+
+Os macacos, entretanto (e outros humanóides), precisam ser arrastados para uma "meatspike" para serem massacrados.
+<Box>
+<GuideEntityEmbed Entity="KitchenSpike"/>
+<GuideEntityEmbed Entity="KitchenKnife"/>
+<GuideEntityEmbed Entity="MobMonkey"/>
+<GuideEntityEmbed Entity="FoodMeat"/>
+</Box>
+
 
 # Dicas para jogar como Chef
 

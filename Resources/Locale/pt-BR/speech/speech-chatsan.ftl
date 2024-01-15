@@ -221,11 +221,11 @@ chatsan-replacement-78 = sei lá
 
 chatsan-word-79 = slk
 chatsan-word-80 = slc
-chatsan-replacement-sê é loko = sê é loko
+chatsan-replacement-sei-la-cara = sei la cara
 
 chatsan-word-81 = tbm
 chatsan-word-82 = tb
-chatsan-replacement-também = também
+chatsan-replacement-tambem = também
 
 chatsan-word-83 = agr
 chatsan-replacement-83 = agora
