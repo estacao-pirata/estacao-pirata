@@ -45,7 +45,7 @@ guide-entry-machine-upgrading = Melhorando Máquinas
 guide-entry-robotics = Robótica
 guide-entry-security = Segurança
 guide-entry-dna = DNA
-guide-entry-defusal = Large Bomb Defusal
+guide-entry-defusal = Desativação de Bomba Grande
 
 guide-entry-antagonists = Antagonistas
 guide-entry-nuclear-operatives = Operativos Nucleares
@@ -56,3 +56,5 @@ guide-entry-minor-antagonists = Antagonistas Menores
 guide-entry-space-ninja = Space Ninja
 
 guide-entry-writing = Escrita
+guide-entry-lei-espacial = Lei Espacial
+guide-entry-codigo-penal = Código Penal
