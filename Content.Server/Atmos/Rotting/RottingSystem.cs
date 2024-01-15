@@ -202,7 +202,7 @@ public sealed class RottingSystem : EntitySystem
         return 1f;
     }
 
-    public void ReduceAccumulator(EntityUid uid, TimeSpan time)
+    public void ReduceRotting(EntityUid uid, TimeSpan time)
     {
         if (!TryComp<PerishableComponent>(uid, out var perishable))
             return;

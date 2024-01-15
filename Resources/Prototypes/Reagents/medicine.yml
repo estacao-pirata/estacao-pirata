@@ -101,7 +101,7 @@
       effects:
       - !type:GenericStatusEffect
         key: Drunk
-        time: 6.0
+        time: 2.0
         type: Remove
       - !type:HealthChange
         damage:
@@ -181,7 +181,7 @@
           conditions:
           - !type:Temperature
             # this is a little arbitrary but they gotta be pretty cold
-            max: 213.0
+            max: 150.0
           damage:
           # todo scale with temp like SS13
             groups:
@@ -204,19 +204,20 @@
         - !type:HealthChange
           conditions:
           - !type:Temperature
-            max: 213.0
+            max: 150.0
           damage:
             types:
              Cellular: -2
 
 - type: reagent
-  id: Opporozidone #Name based of an altered version of the startreck chem "Opporozine"
-  name: reagent-name-opporozidone
+  id: Cordrazine
+  #Just a funny placeholder chem to test. I hear this chem in startreck all the time
+  name: reagent-name-cryoxadone
   group: Medicine
-  desc: reagent-desc-opporozidone
-  physicalDesc: reagent-physical-desc-sickly
-  flavor: acid
-  color: "#b5e36d"
+  desc: reagent-desc-cryoxadone
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: medicine
+  color: "#9991ff"
   metaboliseWhileDead: true
   metabolisms:
     Medicine:
@@ -229,6 +230,10 @@
           - !type:MobStateCondition
             mobstate: Dead
           
+
+
+
+
 - type: reagent
   id: Dermaline
   name: reagent-name-dermaline
@@ -305,9 +310,9 @@
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
-          reagent: HeartbreakerToxin
+          reagent: Lexorin
           min: 1
-        reagent: HeartbreakerToxin
+        reagent: Lexorin
         amount: -3
       - !type:HealthChange
         conditions:
@@ -354,12 +359,12 @@
             Asphyxiation: 1
             Poison: 1
       - !type:AdjustReagent
-        reagent: HeartbreakerToxin
+        reagent: Lexorin
         amount: -2
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
-          reagent: HeartbreakerToxin
+          reagent: Lexorin
           min: 1
         reagent: Epinephrine
         amount: -1
@@ -367,7 +372,7 @@
         probability: 0.1
         conditions:
         - !type:ReagentThreshold
-          reagent: HeartbreakerToxin
+          reagent: Lexorin
           min: 1
         reagent: Histamine
         amount: 4
@@ -584,7 +589,7 @@
             Radiation: 1
       - !type:ChemVomit
         probability: 0.05
-
+        
 - type: reagent
   id: Ambuzol
   name: reagent-name-ambuzol
