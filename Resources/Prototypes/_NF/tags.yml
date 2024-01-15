@@ -1,5 +1,8 @@
 - type: Tag
   id: CaveFactory
+  
+- type: Tag
+  id: DockTransit
 
 - type: Tag
   id: LabGrown
@@ -30,3 +33,15 @@
 
 - type: Tag
   id: Ash
+
+- type: Tag
+  id: LavaMercenary
+
+- type: Tag
+  id: MysteryFigureBox
+
+- type: Tag
+  id: WhoopieCushion
+
+- type: Tag
+  id: Mustard
