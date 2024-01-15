@@ -34,7 +34,7 @@
     soundGunshot:
       path: /Audio/EstacaoPirata/Weapons/PlasmaCutter/plasmapistol_shot.ogg
       params:
-       volume: -6
+       volume: -12
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/EstacaoPirata/Weapons/PlasmaCutter/plasmapistol_rack.ogg
