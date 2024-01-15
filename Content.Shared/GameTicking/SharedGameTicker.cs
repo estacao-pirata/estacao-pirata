@@ -22,6 +22,7 @@ namespace Content.Shared.GameTicking
         // Probably most useful for replays, round end info, and probably things like lobby menus.
         [ViewVariables]
         public int RoundId { get; protected set; }
+        [ViewVariables] public TimeSpan RoundStartTimeSpan { get; protected set; }
 
         public override void Initialize()
         {
@@ -61,13 +62,14 @@ namespace Content.Shared.GameTicking
             Disallowed = disallowed;
         }
     }
+
     [Serializable, NetSerializable]
     public sealed class TickerConnectionStatusEvent : EntityEventArgs
     {
-        public TimeSpan RoundStartTime { get; }
-        public TickerConnectionStatusEvent(TimeSpan roundStartTime)
+        public TimeSpan RoundStartTimeSpan { get; }
+        public TickerConnectionStatusEvent(TimeSpan roundStartTimeSpan)
         {
-            RoundStartTime = roundStartTime;
+            RoundStartTimeSpan = roundStartTimeSpan;
         }
     }
 
@@ -80,17 +82,17 @@ namespace Content.Shared.GameTicking
         public bool YouAreReady { get; }
         // UTC.
         public TimeSpan StartTime { get; }
-        public TimeSpan RoundStartTime { get; }
+        public TimeSpan RoundStartTimeSpan { get; }
         public bool Paused { get; }
 
-        public TickerLobbyStatusEvent(bool isRoundStarted, string? lobbySong, string? lobbyBackground, bool youAreReady, TimeSpan startTime, TimeSpan roundPreloadTime, TimeSpan roundStartTime, bool paused)
+        public TickerLobbyStatusEvent(bool isRoundStarted, string? lobbySong, string? lobbyBackground, bool youAreReady, TimeSpan startTime, TimeSpan preloadTime, TimeSpan roundStartTimeSpan, bool paused)
         {
             IsRoundStarted = isRoundStarted;
             LobbySong = lobbySong;
             LobbyBackground = lobbyBackground;
             YouAreReady = youAreReady;
             StartTime = startTime;
-            RoundStartTime = roundStartTime;
+            RoundStartTimeSpan = roundStartTimeSpan;
             Paused = paused;
         }
     }
@@ -173,8 +175,7 @@ namespace Content.Shared.GameTicking
             int roundId,
             int playerCount,
             RoundEndPlayerInfo[] allPlayersEndInfo,
-            string? lobbySong,
-            string? restartSound)
+            string? lobbySong)
         {
             GamemodeTitle = gamemodeTitle;
             RoundEndText = roundEndText;
@@ -183,10 +184,8 @@ namespace Content.Shared.GameTicking
             PlayerCount = playerCount;
             AllPlayersEndInfo = allPlayersEndInfo;
             LobbySong = lobbySong;
-            RestartSound = restartSound;
         }
     }
-
 
     [Serializable, NetSerializable]
     public enum PlayerGameStatus : sbyte
@@ -196,4 +195,3 @@ namespace Content.Shared.GameTicking
         JoinedGame,
     }
 }
-

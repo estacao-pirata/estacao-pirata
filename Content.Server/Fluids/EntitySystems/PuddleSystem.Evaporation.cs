@@ -20,9 +20,9 @@ public sealed partial class PuddleSystem
 
     public const int EvaporationReagentRatio = 3;
 
-    private void OnEvaporationMapInit(EntityUid uid, EvaporationComponent component, MapInitEvent args)
+    private void OnEvaporationMapInit(Entity<EvaporationComponent> entity, ref MapInitEvent args)
     {
-        component.NextTick = _timing.CurTime + EvaporationCooldown;
+        entity.Comp.NextTick = _timing.CurTime + EvaporationCooldown;
     }
 
     private void UpdateEvaporation(EntityUid uid, Solution solution)
@@ -54,7 +54,7 @@ public sealed partial class PuddleSystem
 
             evaporation.NextTick += EvaporationCooldown;
 
-            if (!_solutionContainerSystem.TryGetSolution(uid, puddle.SolutionName, out var puddleSolution))
+            if (!_solutionContainerSystem.ResolveSolution(uid, puddle.SolutionName, ref puddle.Solution, out var puddleSolution))
                 continue;
 
             var reagentTick = evaporation.EvaporationAmount * EvaporationCooldown.TotalSeconds;
