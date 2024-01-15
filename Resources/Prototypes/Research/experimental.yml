@@ -164,3 +164,16 @@
   cost: 10000
   recipeUnlocks:
   - DeviceQuantumSpinInverter
+
+- type: technology
+  id: MedipenFabrication
+  name: research-technology-medipen-fabrication
+  icon:
+    sprite: Structures/Machines/medipen_refiller.rsi
+    state: base
+  discipline: Experimental
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - MedipenRefillerMachineCircuitboard
+  - ChemicalMedipen
