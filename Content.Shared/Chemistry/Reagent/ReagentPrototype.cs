@@ -1,5 +1,5 @@
-using System.Collections.Frozen;
-using System.Linq; 
+﻿using System.Collections.Frozen;
+using System.Linq;
 using System.Text.Json.Serialization;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Body.Prototypes;
@@ -101,12 +101,6 @@ namespace Content.Shared.Chemistry.Reagent
         /// </summary>
         [DataField]
         public float Viscosity;
-
-        /// <summary>
-        /// If this reagent will still metabolise if the body is dead.
-        /// </summary>
-        [DataField("metaboliseWhileDead")]
-        public bool MetaboliseWhileDead = false;
 
          /// <summary>
         /// Should this reagent work on the dead?
