@@ -230,9 +230,6 @@ chatsan-replacement-tambem = também
 chatsan-word-83 = agr
 chatsan-replacement-83 = agora
 
-chatsan-word-84 = n
-chatsan-replacement-84 = não
-
 chatsan-word-85 = tendi
 chatsan-replacement-85 = entendi
 
@@ -289,6 +286,3 @@ chatsan-replacement-103 = tudo bem
 chatsan-word-104 = cct
 chatsan-word-105 = kct
 chatsan-replacement-cacete = cacete
-
-chatsan-word-106 = s
-chatsan-replacement-106 = sim
