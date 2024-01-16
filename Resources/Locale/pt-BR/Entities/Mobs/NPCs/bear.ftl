@@ -1,7 +1,6 @@
-ent-MobBearSpace = space bear
-    .desc = It looks friendly. Why don't you give it a hug?
+ent-MobBearSpace = urso espacial
+    .desc = Parece amigável. Por que você não dá um abraço?
 
-ent-MobBearSpaceSalvage = space bear
-    .desc = It looks friendly. Why don't you give it a hug?
+ent-MobBearSpaceSalvage = urso espacial
+    .desc = Parece amigável. Por que você não dá um abraço?
     .suffix = Salvage Ruleset
-

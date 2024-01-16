@@ -47,7 +47,7 @@ ent-ClothingBeltMilitaryWebbing = colete tático
     .desc = Um colete tático, utilizado pelo Sindicato.
 
 ent-ClothingBeltMilitaryWebbingMed = colete tático médico
-    .desc = coletes táticos usados por operativos médicos da Gorlax Marauder.
+    .desc = Um conjunto de correias táticas usadas pelos agentes médicos Gorlax Marauder.
 
 ent-ClothingBeltSuspenders = suspensórios
     .desc = Evita que suas calças caiam em público.

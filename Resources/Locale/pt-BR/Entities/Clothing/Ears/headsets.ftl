@@ -46,8 +46,16 @@ ent-ClothingHeadsetRD = fone de ouvido do diretor de pesquisas
 ent-ClothingHeadsetSecurity = fone de ouvido da segurança
     .desc = Utilizado pelos responsáveis em manter a ordem na estação (ou não).
 
+<<<<<<< HEAD
 ent-ClothingHeadsetService = fone de ouvido de serviço
     .desc = Um fone de ouvido utilizado pelo pessoal do Departamento de Serviços, aqueles que mantém a estação limpa e organizada.
 
 ent-ClothingHeadsetFreelance = fone de ouvido de nômade
     .desc = Utilizado por um grupo nomádico de nômades.
+=======
+ent-ClothingHeadsetService = headset de serviço
+    .desc = Um headset utilizado pelo pessoal do Departamento de Serviços, aqueles que mantém a estação limpa e organizada.
+
+ent-ClothingHeadsetGrey = headset de passageiro
+    .desc = Um headset utilizado pela população desempregada.
+>>>>>>> 316cebe8f2 (Uma series de traducoes de entidades.)
