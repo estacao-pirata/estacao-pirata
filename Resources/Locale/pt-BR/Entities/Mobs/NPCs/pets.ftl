@@ -1,60 +1,60 @@
 ent-MobCorgi = corgi
-    .desc = Finally, a space corgi!
+     .desc = Finalmente, um corgi espacial!
 
-ent-MobCorgiNarsi = corrupted corgi
-    .desc = Ian! No!
+ent-MobCorgiNarsi = corgi corrompido
+     .desc= Ian! Não!
 
 ent-MobCorgiIan = Ian
-    .desc = Favorite pet corgi.
+     .desc = O único corgi que realmente importa.
 
-ent-MobCorgiIanOld = Old Ian
-    .desc = Still the favorite pet corgi. Love his wheels.
+ent-MobCorgiIanOld = Velho Ian
+     .desc = Ainda é o único corgi que realmente importa. Ama suas rodas.
 
 ent-MobCorgiLisa = Lisa
-    .desc = Ian's favorite corgi.
+     .desc = o corgi favorito de Ian.
 
-ent-MobCorgiPuppy = corgi puppy
-    .desc = A little corgi! Aww...
+ent-MobCorgiPuppy = cachorrinho corgi
+     .desc = Um pequeno corgi! Ah...
 
-ent-MobCat = cat
-    .desc = Feline pet, very funny.
+ent-MobCat = gato
+     .desc = Animal de estimação felino, muito engraçado.
 
 ent-MobCatRuntime = Runtime
-    .desc = Professional mouse hunter. Escape artist.
+     .desc = Caçador profissional de ratos. Artista de escape.
 
-ent-MobCatCalico = calico cat
-    .desc = Feline pet, very funny.
+ent-MobCatCalico = gato malhado
+     .desc = Animal de estimação felino, muito engraçado.
 
 ent-MobCatException = Exception
-    .desc = Ask nicely, and maybe they'll give you one of their spare lives.
+     .desc = Peça com educação e talvez eles lhe dêem uma de suas vidas extras.
 
-ent-MobCatSpace = space cat
-    .desc = Feline pet, prepared for the worst.
+ent-MobCatSpace = gato espacial
+     .desc = Animal de estimação felino, preparado para o pior.
 
-ent-MobCatCaracal = caracal cat
-    .desc = Hilarious.
+ent-MobCatCaracal = gato caracal
+     .desc = Hilário.
 
 ent-MobCatFloppa = Floppa
-    .desc = He out here.
+     .desc = Ele está aqui.
 
 ent-MobSloth = sloth
-    .desc = Very slow animal. For people with low energy.
+     .desc = Animal muito lento. Isso lembra você de si mesmo.
 
-ent-MobFerret = ferret
-    .desc = Just a silly little guy!
+ent-MobFerret = furão
+     .desc = Apenas um garotinho bobo!
 
 ent-MobBandito = Bandito
-    .desc = Just a silly little guy!
+     .desc = Apenas um garotinho bobo! Definitivamente não é um ladrão.
 
-ent-MobBingus = bingus
-    .desc = Bingus my beloved...
+ent-MobBingus = Bingus
+     .desc = Bingus meu amado...
 
-ent-MobMcGriff = mcgriff
-    .desc = This dog can tell something smells around here, and that something is CRIME!
+ent-MobMcGriff = Mcgriff
+     .desc = Este cachorro percebe que algo cheira por aqui, e esse algo é CRIME!
 
 ent-MobPaperwork = Paperwork
-    .desc = Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
+     .desc = Começou um novo trabalho classificando livros na biblioteca depois que foi transferido da Estação Espacial 13. Ele parece ser igualmente lento nisso.
 
 ent-MobWalter = Walter
-    .desc = He likes chems and treats. Walter.
+     .desc = Ele gosta de chems e guloseimas. Walter.
 

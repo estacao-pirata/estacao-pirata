@@ -1,5 +1,5 @@
 ent-ClothingHeadset = headset
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+    .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
 
 ent-ClothingHeadsetCargo = headset da cargo
     .desc = Um headset usado pelos funcionários da Cargo.
@@ -45,4 +45,3 @@ ent-ClothingHeadsetService = headset de serviço
 
 ent-ClothingHeadsetGrey = headset de passageiro
     .desc = Um headset utilizado pela população desempregada.
-

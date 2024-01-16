@@ -1,7 +1,7 @@
-ent-MobTick = space tick
-    .desc = It's a space tick, watch out for its nasty bite. CentCom reports that 90 percent of cargo leg amputations are due to space tick bites.
+ent-MobTick = carrapato de espaço
+     .desc = É um carrapato espacial, cuidado com sua mordida desagradável. O CentCom relata que 90% das amputações de pernas de carga são causadas por picadas de carrapatos espaciais.
+     .suffix = Irritado
 
-ent-MobTickSalvage = space tick
-    .desc = It's a space tick, watch out for its nasty bite. CentCom reports that 90 percent of cargo leg amputations are due to space tick bites.
-    .suffix = Salvage Ruleset
-
+ent-MobTickSalvage = carrapato de espaço
+     .desc = É um carrapato espacial, cuidado com sua mordida desagradável. O CentCom relata que 90% das amputações de pernas de carga são causadas por picadas de carrapatos espaciais.
+     .suffix = Salvage Ruleset

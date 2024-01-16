@@ -1,9 +1,8 @@
-ent-MobGuardianBase = GuardianBase
-    .desc = guardian
+ent-MobGuardianBase = Base do Guardião
+     .desc = Guardião
 
-ent-MobHoloparasiteGuardian = Holoparasite
-    .desc = A mesmerising whirl of hard-light patterns weaves a marvelous, yet oddly familiar visage. It stands proud, tuning into its owner's life to sustain itself.
+ent-MobHoloparasiteGuardian = Holoparasita
+     .desc = Um redemoinho hipnotizante de padrões de luz forte tece um rosto maravilhoso, mas estranhamente familiar. Ele fica orgulhoso, sintonizando-se com a vida de seu dono para se sustentar.
 
 ent-MobIfritGuardian = Ifrit
-    .desc = A corrupted jinn, ripped from fitra to serve the wizard's petty needs. It stands wicked, tuning into it's owner's life to sustain itself.
-
+     .desc = Um gênio corrompido, arrancado de fitra para servir às necessidades mesquinhas do mago. Ele permanece perverso, sintonizando-se com a vida de seu dono para se sustentar.

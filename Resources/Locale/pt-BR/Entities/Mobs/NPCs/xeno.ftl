@@ -1,31 +1,29 @@
-ent-MobXeno = Burrower
-    .desc = They mostly come at night. Mostly.
+ent-MobXeno = Escavador
+     .desc = Os túneis nunca foram tão perigosos.
 
-ent-MobXenoPraetorian = Praetorian
-    .desc = They mostly come at night. Mostly.
+ent-MobXenoPraetorian = Pretoriano
+     .desc = Ninguém se opõe ao poder do Pretoriano.
 
 ent-MobXenoDrone = Drone
-    .desc = They mostly come at night. Mostly.
+     .desc = Um escravo estúpido da colmeia.
 
-ent-MobXenoQueen = Queen
-    .desc = They mostly come at night. Mostly.
+ent-MobXenoQueen = Rainha
+     .desc = Faça crescer a colmeia. Construa o ninho.
 
-ent-MobXenoRavager = Ravager
-    .desc = They mostly come at night. Mostly.
+ent-MobXenoRavager = Devastador
+     .desc= Hack and slash. Você é o predador.
 
-ent-MobXenoRunner = Runner
-    .desc = They mostly come at night. Mostly.
+ent-MobXenoRunner = Corredor
+     .desc = Surpreenda sua presa com uma velocidade incrível.
 
 ent-MobXenoRouny = Rouny
-    .desc = They mostly come at night. Mostly.
+     .desc = Rouny, o Rouny
 
-ent-MobXenoSpitter = Spitter
-    .desc = They mostly come at night. Mostly.
+ent-MobXenoSpitter = Cuspidor
+     .desc = Dissolva suas presas para torná-las muito mais fáceis de comer.
 
-ent-MobPurpleSnake = space adder
-    .desc = A menacing purple snake from Kepler-283c.
+ent-MobPurpleSnake = cobra espacial
+     .desc = Uma ameaçadora cobra roxa do Kepler-283c.
 
-ent-MobSmallPurpleSnake = space adder
-    .desc = A smaller version of the menacing purple snake from Kepler-283c.
-    .suffix = small
-
+ent-MobSmallPurpleSnake = cobra espacial
+     .desc = Uma versão menor da ameaçadora cobra roxa do Kepler-283c.

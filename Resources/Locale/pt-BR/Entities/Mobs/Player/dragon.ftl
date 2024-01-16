@@ -1,4 +1,2 @@
-ent-MobDragon = space dragon
-    .desc = A flying leviathan, loosely related to space carps.
-    .suffix = None
-
+ent-MobDragon = Dragão Espacial
+     .desc = Um leviatã voador, vagamente relacionado às carpas espaciais.

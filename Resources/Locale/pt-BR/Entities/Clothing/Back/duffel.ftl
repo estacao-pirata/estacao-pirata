@@ -49,6 +49,6 @@ ent-ClothingBackpackDuffelSyndicateMedical = mochila grande do sindicato
 ent-ClothingBackpackDuffelSyndicateMedicalBundle = mochila grande do sindicato
     .desc = AIsso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelHolding = duffelbag of holding
-    .desc = A duffelbag that opens into a localized pocket of bluespace.
+ent-ClothingBackpackDuffelHolding = mochila de Holding
+    .desc = Uma mochila que se abre em um bolso localizado de bluespace.
 
