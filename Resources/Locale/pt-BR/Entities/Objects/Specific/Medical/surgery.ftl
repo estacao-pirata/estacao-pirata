@@ -26,7 +26,7 @@ ent-Saw = serra de metal
     .desc = Para cortar madeira, ou em caso de emergência, até mesmo ossos.
 
 ent-SawImprov = choppa
-    .desc = A wicked serrated blade made of whatever nasty sharp things you could find.
+    .desc = Uma lâmina serrilhada feita de qualquer coisa afiada e desagradável que você pudesse encontrar.
 
 ent-SawElectric = serra circular
     .desc = Para cortes pesados.

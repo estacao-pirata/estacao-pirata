@@ -1,4 +1,3 @@
-ent-ClothingHandsChameleon = black gloves
-    .desc = Regular black gloves that do not keep you from frying.
-    .suffix = Chameleon
-
+ent-ClothingHandsChameleon = luvas pretas
+     .desc = Luvas pretas normais que não impedem de fritar.
+     .suffix = Camaleão

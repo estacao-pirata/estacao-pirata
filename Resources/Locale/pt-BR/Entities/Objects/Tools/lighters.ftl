@@ -1,6 +1,5 @@
-ent-Lighter = basic lighter
-    .desc = A simple plastic cigarette lighter.
+ent-Lighter = isqueiro básico
+     .desc = Um simples isqueiro de plástico.
 
-ent-CheapLighter = cheap lighter
-    .desc = A dangerously inexpensive plastic lighter, don't burn your thumb!
-
+ent-CheapLighter = isqueiro barato
+     .desc = Um isqueiro de plástico perigosamente barato, não queime o polegar!

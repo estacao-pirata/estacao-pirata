@@ -1,28 +1,28 @@
-ent-CableStack = cable stack
+ent-CableStack = pilha de cabos
     .desc = { "" }
-    .suffix = Full
+    .suffix = Completa
 
-ent-CableHVStack = HV cable coil
-    .desc = { "" }
-    .suffix = Full
+ent-CableHVStack = cabos de AT
+    .desc = Bobina de cabos de Alta Tensão para conexão de fontes de energia a SMES e Subestações.
+    .suffix = Completa
 
-ent-CableHVStack1 = HV cable coil
-    .desc = { "" }
+ent-CableHVStack1 = cabos de AT
+    .desc = Bobina de cabos de Alta Tensão para conexão de fontes de energia a SMES e Subestações.
     .suffix = 1
 
-ent-CableMVStack = MV cable coil
-    .desc = { "" }
-    .suffix = Full
+ent-CableMVStack = cabos de MT
+    .desc = Bobina de cabos de Média Tensão para conexão de Subestações a APCs
+    .suffix = Completa
 
-ent-CableMVStack1 = MV cable coil
-    .desc = { "" }
+ent-CableMVStack1 = cabos de MT
+    .desc = Bobina de cabos de Média Tensão para conexão de Subestações a APCs
     .suffix = 1
 
-ent-CableApcStack = LV cable coil
-    .desc = Low-Voltage stack of wires for connecting APCs to machines and other purposes.
-    .suffix = Full
+ent-CableApcStack = cabos de BT
+    .desc = Bobina de cabos de Baixa Tensão para conectar APCs a máquinas, luzes, portas, e outras finalidades.
+    .suffix = Completa
 
-ent-CableApcStack1 = LV cable coil
-    .desc = Low-Voltage stack of wires for connecting APCs to machines and other purposes.
+ent-CableApcStack1 = cabos de BT
+    .desc = Bobina de cabos de Baixa Tensão para conectar APCs a máquinas, luzes, portas, e outras finalidades.
     .suffix = 1
 

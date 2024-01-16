@@ -1,3 +1,3 @@
-ent-Bucket = bucket
-    .desc = It's a boring old bucket.
+ent-Bucket = balde
+    .desc = É um balde velho e chato.
 
