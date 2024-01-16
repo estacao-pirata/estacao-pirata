@@ -1,3 +1,3 @@
-ent-Flare = emergency flare
-    .desc = A flare that produces a very bright light for a short while. Point the flame away from yourself.
+ent-Flare = sinalizador
+     .desc = Um sinalizador que produz uma luz muito brilhante por um curto período. Aponte a chama para longe de você.
 

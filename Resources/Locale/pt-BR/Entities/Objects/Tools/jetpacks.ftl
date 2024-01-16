@@ -1,51 +1,50 @@
 ent-BaseJetpack = Jetpack
-    .desc = It's a jetpack.
+     .desc = É um jetpack.
 
 ent-JetpackBlue = jetpack
-    .desc = It's a jetpack.
-    .suffix = Empty
+     .desc = É um jetpack.
+     .suffix = Vazio
 
 ent-JetpackBlueFilled = jetpack
-    .desc = It's a jetpack.
-    .suffix = Filled
+     .desc = É um jetpack.
+     .suffix = Preenchido
 
 ent-JetpackBlack = jetpack
-    .desc = It's a jetpack.
-    .suffix = Empty
+     .desc = É um jetpack.
+     .suffix = Vazio
 
 ent-JetpackBlackFilled = jetpack
-    .desc = It's a jetpack.
-    .suffix = Filled
+     .desc = É um jetpack.
+     .suffix = Preenchido
 
-ent-JetpackCaptain = captain's jetpack
-    .desc = It's a jetpack.
-    .suffix = Empty
+ent-JetpackCaptain = jetpack do capitão
+     .desc = É um jetpack.
+     .suffix = Vazio
 
-ent-JetpackCaptainFilled = captain's jetpack
-    .desc = It's a jetpack.
-    .suffix = Filled
+ent-JetpackCaptainFilled = jetpack do capitão
+     .desc = É um jetpack.
+     .suffix = Preenchido
 
 ent-JetpackMini = mini jetpack
-    .desc = It's a jetpack.
-    .suffix = Empty
+     .desc = É um jetpack.
+     .suffix = Vazio
 
 ent-JetpackMiniFilled = mini jetpack
-    .desc = It's a jetpack.
-    .suffix = Filled
+     .desc = É um jetpack.
+     .suffix = Preenchido
 
-ent-JetpackSecurity = security jetpack
-    .desc = It's a jetpack.
-    .suffix = Empty
+ent-JetpackSecurity = jetpack de segurança
+     .desc = É um jetpack.
+     .suffix = Vazio
 
-ent-JetpackSecurityFilled = security jetpack
-    .desc = It's a jetpack.
-    .suffix = Filled
+ent-JetpackSecurityFilled = jetpack de segurança
+     .desc = É um jetpack.
+     .suffix = Preenchido
 
-ent-JetpackVoid = void jetpack
-    .desc = It's a jetpack.
-    .suffix = Empty
+ent-JetpackVoid = vazio jetpack
+     .desc = É um jetpack.
+     .suffix = Vazio
 
-ent-JetpackVoidFilled = void jetpack
-    .desc = It's a jetpack.
-    .suffix = Filled
-
+ent-JetpackVoidFilled = vazio jetpack
+     .desc = É um jetpack.
+     .suffix = Preenchido

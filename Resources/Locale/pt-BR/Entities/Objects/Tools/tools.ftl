@@ -1,33 +1,32 @@
-ent-Wirecutter = wirecutter
-    .desc = This kills the wire.
+ent-Wirecutter = cortador de fios
+     .desc = Isso mata o fio.
 
-ent-Screwdriver = screwdriver
-    .desc = Industrial grade torque in a small screwdriving package.
+ent-Screwdriver = chave de fenda
+     .desc = Torque de nível industrial em um pequeno pacote de aparafusamento.
 
-ent-Wrench = wrench
-    .desc = A common tool for assembly and disassembly. Remember: righty tighty, lefty loosey.
+ent-Wrench = chave inglesa
+     .desc = Uma ferramenta comum para montagem e desmontagem. Lembre-se: direito apertado, canhoto solto.
 
-ent-Crowbar = crowbar
-    .desc = A multipurpose tool to pry open doors and fight interdimensional invaders.
+ent-Crowbar = pé de cabra
+     .desc = Uma ferramenta multifuncional para arrombar portas e combater invasores interdimensionais.
 
-ent-CrowbarRed = emergency crowbar
-    .desc = A multipurpose tool to pry open doors and fight interdimensional invaders.
+ent-CrowbarRed = pé de cabra emergêncial
+     .desc = Uma ferramenta multifuncional para arrombar portas e combater invasores interdimensionais.
 
-ent-Multitool = multitool
-    .desc = An advanced tool to copy, store, and send electrical pulses and signals through wires and machines
+ent-Multitool = multiferramenta
+     .desc = Uma ferramenta avançada para copiar, armazenar e enviar pulsos e sinais elétricos através de fios e máquinas
 
-ent-PowerDrill = power drill
-    .desc = A simple powered hand drill.
+ent-PowerDrill = parafusadeira
+     .desc = Uma parafusadeira simples.
 
 ent-RCD = RCD
-    .desc = An advanced construction device which can place/remove walls, floors, and airlocks quickly.
+     .desc = Um dispositivo de construção avançado que pode colocar/remover paredes, pisos e eclusas de ar rapidamente.
 
-ent-RCDAmmo = RCD Ammo
-    .desc = Ammo cartridge for an RCD.
+ent-RCDAmmo = Munição RCD
+     .desc = Cartucho de munição para um RCD.
 
-ent-Shovel = shovel
-    .desc = A large tool for digging and moving dirt.
+ent-Shovel = pá
+     .desc = Uma grande ferramenta para cavar e mover terra.
 
 ent-Omnitool = omnitool
-    .desc = A drone's best friend.
-
+     .desc = O melhor amigo de um drone.

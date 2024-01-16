@@ -1,17 +1,17 @@
-ent-GlowstickBase = green glowstick
-    .desc = Useful for raves and emergencies.
+ent-GlowstickBase = bastão luminoso verde
+     .desc = Útil para raves e emergências.
 
-ent-GlowstickRed = red glowstick
-    .desc = Useful for raves and emergencies.
+ent-GlowstickRed = bastão luminoso vermelho
+     .desc = Útil para raves e emergências.
 
-ent-GlowstickPurple = purple glowstick
-    .desc = Useful for raves and emergencies.
+ent-GlowstickPurple = bastão luminoso roxo
+     .desc = Útil para raves e emergências.
 
-ent-GlowstickYellow = yellow glowstick
-    .desc = Useful for raves and emergencies.
+ent-GlowstickYellow = bastão luminoso amarelo
+     .desc = Útil para raves e emergências.
 
-ent-GlowstickBlue = blue glowstick
-    .desc = Useful for raves and emergencies.
+ent-GlowstickBlue = bastão luminoso azul
+     .desc = Útil para raves e emergências.
 
 ent-LightBehaviourTest1 = light pulse test
     .desc = Useful for raves and emergencies.
