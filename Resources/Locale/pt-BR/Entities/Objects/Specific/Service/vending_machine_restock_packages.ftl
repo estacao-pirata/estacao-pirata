@@ -1,5 +1,5 @@
-ent-VendingMachineRestockPackage = vending machine restock package
-    .desc = A restocking package of corporate goodies.
+ent-VendingMachineRestockPackage = pacote de reabastecimento
+    .desc = Um pacote de reabastecimento de brindes corporativos.
 
 ent-VendingMachineRestockDiscountDans = fardo de barra de proteína
     .desc = Uma caixa cheia de embalagens contendo barras de proteína. Esse fardo pode re-estocar uma máquina de vendas Discount Dan's!

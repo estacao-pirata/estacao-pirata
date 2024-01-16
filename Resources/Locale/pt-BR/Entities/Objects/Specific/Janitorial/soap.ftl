@@ -1,18 +1,17 @@
-ent-Soap = soap
-    .desc = A cheap bar of soap. Doesn't smell.
+ent-Soap = sabonete
+    .desc = Um sabonete barato. Não cheira.
 
-ent-SoapNT = soap
-    .desc = A Nanotrasen brand bar of soap. Smells of plasma.
+ent-SoapNT = sabão
+    .desc = Uma barra de sabonete da marca NanoTrasen. Cheira a plasma.
 
-ent-SoapDeluxe = soap
-    .desc = A deluxe Waffle Co. brand bar of soap. Smells of condoms.
+ent-SoapDeluxe = sabonete
+    .desc = Uma barra de sabonete de luxo da marca Waffle Co. Cheira a preservativos.
 
-ent-SoapSyndie = soap
-    .desc = An untrustworthy bar of soap. Smells of fear.
+ent-SoapSyndie = sabonete
+    .desc = Uma barra de sabão não confiável. Cheira a medo.
 
-ent-SoapHomemade = soap
-    .desc = A homemade bar of soap. Smells of... well....
+ent-SoapHomemade = sabonete
+    .desc = Um sabonete caseiro. Cheira a... bem...
 
-ent-SoapOmega = omega soap
-    .desc = The most advanced soap known to mankind. Smells of bluespace.
-
+ent-SoapOmega = sabonete ômega
+    .desc = O sabonete mais avançado conhecido pela humanidade. Cheira a espaço azul.

@@ -1,22 +1,22 @@
-ent-Hypospray = hypospray
-    .desc = A sterile injector for rapid administration of drugs to patients.
+ent-Hypospray = hipospray
+     .desc = Um injetor estéril para administração rápida de medicamentos aos pacientes.
 
-ent-SyndiHypo = gorlax hypospray
-    .desc = Using reverse engineered designs from NT, Cybersun produced these in limited quantities for gorlax marauder operatives.
+ent-SyndiHypo = hipospray gorlax
+     .desc = Usando designs de engenharia reversa do NT, a Cybersun os produziu em quantidades limitadas para Gorlax Marauderes.
 
-ent-ChemicalMedipen = chemical medipen
-    .desc = A sterile injector for rapid administration of drugs to patients. This one can't be refilled.
+ent-ChemicalMedipen = medipen química
+     .desc = Um injetor estéril para administração rápida de medicamentos aos pacientes. Este não pode ser recarregado.
 
-ent-EmergencyMedipen = emergency medipen
-    .desc = A rapid and safe way to stabilize patients in critical condition for personnel without advanced medical knowledge. Beware, as it's easy to overdose on epinephrine and tranexmic acid.
+ent-EmergencyMedipen = medipen emergêncial
+     .desc = Uma maneira rápida e segura de estabilizar pacientes em estado crítico para pessoal sem conhecimento médico avançado. Cuidado, pois é fácil ter uma overdose de epinefrina e ácido tranexâmico.
 
-ent-AntiPoisonMedipen = anti-poison medipen
-    .desc = A rapid dose of anti-poison. Contains ultravasculine and epinephrine.
+ent-AntiPoisonMedipen = medipen antiveneno
+     .desc = Uma dose rápida de antiveneno. Contém ultravasculina e epinefrina.
 
-ent-SpaceMedipen = space medipen
-    .desc = Contains a mix of chemicals that protect you from the deadly effects of space.
+ent-SpaceMedipen = medipen do espaço
+     .desc = Contém uma mistura de produtos químicos que protegem você dos efeitos mortais do espaço.
 
-ent-Hypopen = pen
-    .desc = A dark ink pen.
-    .suffix = Hypopen
+ent-Hypopen = caneta
+     .desc = Uma caneta de tinta escura.
+     .suffix = hipopeno
 

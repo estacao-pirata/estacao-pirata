@@ -1,3 +1,3 @@
-ent-GasAnalyzer = gas analyzer
-    .desc = A hand-held environmental scanner which reports current gas levels.
+ent-GasAnalyzer = analisador de gás
+     .desc = Um scanner ambiental portátil que relata os níveis atuais de gás.
 

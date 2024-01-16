@@ -1,3 +1,3 @@
-ent-ForensicPad = forensic pad
-    .desc = A forensic pad for collecting fingerprints or fibers.
+ent-ForensicPad = cartão forense
+    .desc = Um cartão forense para coletar impressões digitais ou fibras.
 

@@ -1,15 +1,15 @@
-ent-VehicleKeyPussyWagon = janicart keys
-    .desc = Interesting design.
+ent-VehicleKeyPussyWagon = chaves janicart
+     .desc = Design interessante.
 
-ent-VehicleKeySecway = secway keys
-    .desc = The keys to the future.
+ent-VehicleKeySecway = chaves secway
+     .desc = As chaves para o futuro.
 
-ent-VehicleKeyATV = ATV keys
-    .desc = Think this looks like just one key? ATV keys means "actually two vehicle keys."
+ent-VehicleKeyATV = chaves do ATV
+     .desc = Por que ter uma chave quando você poderia ter duas?
 
-ent-VehicleKeySkeleton = vehicle skeleton keys
-    .desc = Unlock any vehicle.
+ent-VehicleKeySkeleton = chaves mestras do veículo
+     .desc = Desbloqueie qualquer veículo.
 
-ent-VehicleKeySyndicateSegway = syndicate segway keys
-    .desc = Patterned after the iconic EMAG design.
+ent-VehicleKeySyndicateSegway = distribui chaves de segway
+     .desc = Modelado após o design icônico EMAG.
 

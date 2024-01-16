@@ -1,14 +1,13 @@
-ent-SprayBottle = spray bottle
-    .desc = A spray bottle with an unscrewable top.
-    .suffix = Empty
+ent-SprayBottle = borrifador
+    .desc = Um borrifador com tampa desenroscável.
+    .suffix = Vazio
 
-ent-SprayBottleWater = spray bottle
-    .desc = A spray bottle with an unscrewable top.
-    .suffix = Filled
+ent-SprayBottleWater = borrifador
+    .desc = Um borrifador com tampa desenroscável.
+    .suffix = Preenchido
 
-ent-SprayBottleSpaceCleaner = space cleaner
-    .desc = BLAM!-brand non-foaming space cleaner!
+ent-SprayBottleSpaceCleaner = limpador de espaço
+    .desc = limpador de espaço sem espuma da marca BLAM!
 
 ent-Vapor = vapor
-    .desc = BLAM!-brand non-foaming space cleaner!
-
+    .desc = limpador de espaço sem espuma da marca BLAM!

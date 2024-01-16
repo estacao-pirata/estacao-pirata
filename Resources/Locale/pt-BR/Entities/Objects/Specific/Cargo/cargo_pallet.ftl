@@ -1,3 +1,2 @@
-ent-CargoPallet = cargo pallet
-    .desc = Designates valid items to sell to CentCom when a shuttle is recalled.
-
+ent-CargoPallet = palete de carga
+     .desc = Designa itens válidos para vender ao CentCom quando uma nave for recolhido.

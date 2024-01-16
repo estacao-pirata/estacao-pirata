@@ -1,30 +1,30 @@
-ent-BaseChemistryEmptyBottle = bottle
-    .desc = A small bottle.
+ent-BaseChemistryEmptyBottle = garrafa
+     .desc = Uma pequena garrafa.
 
-ent-ChemistryEmptyBottle01 = bottle
-    .desc = A small bottle.
+ent-ChemistryEmptyBottle01 = garrafa
+     .desc = Uma pequena garrafa.
 
-ent-ChemistryEmptyBottle02 = bottle
-    .desc = A small bottle.
+ent-ChemistryEmptyBottle02 = garrafa
+     .desc = Uma pequena garrafa.
 
-ent-ChemistryEmptyBottle03 = bottle
-    .desc = A small bottle.
+ent-ChemistryEmptyBottle03 = garrafa
+     .desc = Uma pequena garrafa.
 
-ent-ChemistryEmptyBottle04 = bottle
-    .desc = A small bottle.
+ent-ChemistryEmptyBottle04 = garrafa
+     .desc = Uma pequena garrafa.
 
-ent-EpinephrineChemistryBottle = epinephrine bottle
-    .desc = A small bottle.
+ent-EpinephrineChemistryBottle = garrafa de epinefrina
+     .desc = Uma pequena garrafa.
 
-ent-RobustHarvestChemistryBottle = robust harvest bottle
-    .desc = This will increase the potency of your plants.
+ent-RobustHarvestChemistryBottle = garrafa de robust harvest
+     .desc = Isso aumentará a potência de suas plantas.
 
-ent-NocturineChemistryBottle = nocturine bottle
-    .desc = This will make someone fall down almost immediately. Hard to overdose on.
+ent-NocturineChemistryBottle = garrafa de nocturina
+     .desc = Isso fará com que alguém caia quase imediatamente. Difícil ter uma overdose.
 
-ent-EphedrineChemistryBottle = ephedrine bottle
-    .desc = This will make someone fall down almost immediately. Hard to overdose on.
+ent-EphedrineChemistryBottle = garrafa de efedrina
+     .desc = Não pare agora.
 
-ent-OmnizineChemistryBottle = omnizine bottle
-    .desc = This will make someone fall down almost immediately. Hard to overdose on.
+ent-OmnizineChemistryBottle = garrafa de omnizina
+     .desc = Poder imparável selado em uma garrafa.
 

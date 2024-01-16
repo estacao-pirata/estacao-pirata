@@ -10,8 +10,8 @@ ent-Gauze = rolo de gaze
 ent-Gauze1 = rolo de gaze
     .desc = Um rolo estéril de gaze, capaz de cobrir feridas.
 
-ent-AloeCream = aloe cream
-    .desc = A topical cream for burns.
+ent-AloeCream = creme de aloe vera
+    .desc = Um creme tópico para queimaduras.
 
 ent-PillDexalin = pílula de dexalin
     .desc = Um remédio utilizado no tratamento de sufocamento.
@@ -35,7 +35,7 @@ ent-PillTricordrazine = pílula de tricordrazine
     .desc = Um estimulante de emergência, é utilizado como reforço em outros tipos de tratamentos.
 
 ent-PillRomerol = pílula de romerol
-    .desc = A topical cream for burns.
+    .desc = Cérebros....
 
 ent-SyringeEphedrine = seringa de ephedrine
     .desc = Uma seringa contendo Ephedrine, um narcótico potente capaz de aumentar a resistência e a velocidade do usuário. Pode causar overdose.
@@ -44,13 +44,13 @@ ent-SyringeInaprovaline = seringa de inaprovaline
     .desc = Uma seringa contendo Inaprovaline, remédio utilizado no tratamento de sangramentos.
 
 ent-SyringeTranexamicAcid = tranexamic acid syringe
-    .desc = A topical cream for burns.
+    .desc = Cura principal para ferimentos leves
 
 ent-SyringeSpaceacillin = seringa de spaceallin
     .desc = Uma seringa contendo Spaceallin, remédio utilizado no tratamento de doenças e infecções.
 
 ent-SyringeIpecac = ipecac syringe
-    .desc = A topical cream for burns.
+    .desc = Pare o veneno rápido
 
 ent-SyringeCorpium = corpium syringe
     .desc = A topical cream for burns.

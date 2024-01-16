@@ -1,18 +1,17 @@
-ent-HydroponicsToolMiniHoe = mini hoe
-    .desc = It's used for removing weeds or scratching your back.
+ent-HydroponicsToolMiniHoe = mini enxada
+     .desc = É usado para remover ervas daninhas ou coçar as costas.
 
-ent-HydroponicsToolClippers = plant clippers
-    .desc = A tool used to take samples from plants.
+ent-HydroponicsToolClippers = cortadore de plantas
+     .desc = Uma ferramenta usada para coletar amostras de plantas.
 
-ent-HydroponicsToolScythe = scythe
-    .desc = A sharp and curved blade on a long fibremetal handle, this tool makes it easy to reap what you sow.
+ent-HydroponicsToolScythe = foice
+     .desc = Uma lâmina afiada e curva em um longo cabo de fibra metálica, esta ferramenta facilita a colheita do que você planta.
 
-ent-HydroponicsToolHatchet = hatchet
-    .desc = A very sharp axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.
+ent-HydroponicsToolHatchet = machadinha
+     .desc = Uma lâmina de machado muito afiada com um cabo curto de fibra metálica. Tem uma longa história de corte de coisas, mas agora é usado para cortar madeira.
 
-ent-HydroponicsToolSpade = spade
-    .desc = A small tool for digging and moving dirt.
+ent-HydroponicsToolSpade = pá
+     .desc = Uma pequena ferramenta para cavar e mover terra.
 
-ent-PlantBag = plant bag
-    .desc = A bag for botanists to easily move their huge harvests.
-
+ent-PlantBag = saco de plantas
+     .desc = Uma bolsa para os botânicos transportarem facilmente suas enormes colheitas.

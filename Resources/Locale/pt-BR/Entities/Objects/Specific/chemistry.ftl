@@ -1,27 +1,27 @@
 ent-Beaker = beaker
-    .desc = Used to contain a moderate amount of chemicals and solutions.
+     .desc = Usado para conter uma quantidade moderada de produtos químicos e soluções.
 
 ent-LargeBeaker = large beaker
-    .desc = Used to contain a large amount of chemicals or solutions.
+     .desc = Usado para conter uma grande quantidade de produtos químicos ou soluções.
 
-ent-CryostasisBeaker = cryostasis beaker
-    .desc = Used to contain chemicals or solutions without reactions.
+ent-CryostasisBeaker = beaker de criostase
+     .desc = Usado para conter produtos químicos ou soluções sem reações.
 
-ent-BluespaceBeaker = bluespace beaker
-    .desc = Powered by experimental bluespace technology.
+ent-BluespaceBeaker = beaker de bluespace
+     .desc = Desenvolvido pela tecnologia experimental bluespace.
 
-ent-Dropper = dropper
-    .desc = Used to transfer small amounts of chemical solution between containers.
+ent-Dropper = conta-gotas
+     .desc = Usado para transferir pequenas quantidades de solução química entre recipientes.
 
-ent-BaseSyringe = syringe
-    .desc = Used to draw blood samples from mobs, or to inject them with reagents.
+ent-BaseSeringa = seringa
+     .desc = Usado para coletar amostras de sangue de mobs ou para injetar reagentes neles.
 
-ent-Syringe = syringe
-    .desc = Used to draw blood samples from mobs, or to inject them with reagents.
+ent-Seringa = seringa
+     .desc = Usado para coletar amostras de sangue de mobs ou para injetar reagentes neles.
 
-ent-Pill = pill
-    .desc = It's not a suppository.
+ent-Pill = pílula
+     .desc = Não é um supositório.
 
 ent-PillCanister = pill canister
-    .desc = Holds up to 9 pills.
+     .desc = Comporta até 9 comprimidos.
 

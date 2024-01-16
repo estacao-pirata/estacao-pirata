@@ -1,18 +1,17 @@
-ent-BaseVehicle = Vehicle
-    .desc = { "" }
+ent-BaseVehicle = Veículo
+     .desc = { "" }
 
 ent-VehiclePussyWagon = janicart
-    .desc = The janitor's trusty steed.
+     .desc = O fiel corcel do zelador.
 
-ent-VehiclePussyWagonDestroyed = destroyed janicart
-    .desc = R.I.P. (Rest In Pussy)
+ent-VehiclePussyWagonDestroyed = janicart destruído
+     .desc = R.I.P.
 
 ent-VehicleSecway = secway
-    .desc = The future of transportation. Popularized by St. James, the patron saint of security officers and internet forum moderators.
+     .desc = O futuro do transporte. Popularizado por São Tiago, o santo padroeiro dos agentes de segurança e moderadores de fóruns da Internet.
 
 ent-VehicleATV = ATV
-    .desc = All-Tile Vehicle.
+     .desc = Veículo todo em bloco.
 
-ent-VehicleSyndicateSegway = syndicate segway
-    .desc = Be an enemy of the corporation, in style.
-
+ent-VehicleSyndicateSegway = sindicato segway
+     .desc = Seja um inimigo da corporação, com estilo.
