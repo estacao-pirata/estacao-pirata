@@ -1,3 +1,3 @@
-ent-HandheldGPSBasic = global positioning system
-    .desc = Helping lost spacemen find their way through the planets since 2016.
+ent-HandheldGPSBasic = sistema de posicionamento global
+    .desc = Ajudando astronautas perdidos a encontrar seu caminho pelos planetas desde 2016.
 

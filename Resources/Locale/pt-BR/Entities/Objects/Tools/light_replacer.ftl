@@ -1,3 +1,2 @@
-ent-LightReplacer = light replacer
-    .desc = An item which uses magnets to easily replace broken lights.
-
+ent-LightReplacer = trocador de luz
+     .desc = Um item que usa ímãs para substituir facilmente luzes quebradas.

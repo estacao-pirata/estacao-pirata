@@ -1,3 +1,3 @@
-ent-AppraisalTool = appraisal tool
-    .desc = A beancounter's best friend, with a quantum connection to the galactic market and the ability to appraise even the toughest items.
+ent-AppraisalTool = avaliador
+    .desc = O melhor amigo de um contador de grãos, com uma conexão quântica com o mercado galáctico e a capacidade de avaliar até os itens mais difíceis.
 

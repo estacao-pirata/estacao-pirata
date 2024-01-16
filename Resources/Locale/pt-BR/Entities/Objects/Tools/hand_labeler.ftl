@@ -1,3 +1,2 @@
-ent-HandLabeler = hand labeler
-    .desc = A hand labeler, used to label items and objects.
-
+ent-HandLabeler = rotulador manual
+     .desc = Um rotulador manual, usado para rotular itens e objetos.

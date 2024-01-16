@@ -1,18 +1,17 @@
-ent-ToolboxEmergency = emergency toolbox
-    .desc = A bright red toolbox, stocked with emergency tools.
+ent-ToolboxEmergency = toolbox emergêncial
+     .desc = Uma caixa de ferramentas vermelha brilhante, repleta de ferramentas de emergência.
 
-ent-ToolboxMechanical = mechanical toolbox
-    .desc = A blue box, stocked with mechanical tools.
+ent-ToolboxMechanical = toolbox mecânica
+     .desc = Uma caixa azul, abastecida com ferramentas mecânicas.
 
-ent-ToolboxElectrical = electrical toolbox
-    .desc = A toolbox typically stocked with electrical gear.
+ent-ToolboxElectrical = toolbox elétrica
+     .desc = Uma caixa de ferramentas normalmente abastecida com equipamentos elétricos.
 
-ent-ToolboxArtistic = artistic toolbox
-    .desc = A toolbox typically stocked with artistic supplies.
+ent-ToolboxArtistic = toolbox artística
+     .desc = Uma caixa de ferramentas normalmente repleta de materiais artísticos.
 
-ent-ToolboxSyndicate = suspicious toolbox
-    .desc = A sinister looking toolbox filled with elite syndicate tools.
+ent-ToolboxSyndicate = toolbox suspeita
+     .desc = Uma caixa de ferramentas de aparência sinistra repleta de ferramentas de sindicato de elite.
 
-ent-ToolboxGolden = golden toolbox
-    .desc = A solid gold toolbox. A rapper would kill for this.
-
+ent-ToolboxGolden = toolbox dourada
+     .desc = Uma caixa de ferramentas de ouro maciço. Um rapper mataria por isso.

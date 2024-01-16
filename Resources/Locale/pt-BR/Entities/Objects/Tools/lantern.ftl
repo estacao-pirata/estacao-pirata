@@ -1,6 +1,5 @@
-ent-lantern = lantern
-    .desc = The holy light guides the way.
+ent-lantern = lanterna
+     .desc = A luz sagrada guia o caminho.
 
-ent-lanternextrabright = extra-bright lantern
-    .desc = Blinding.
-
+ent-lanternextrabright = lanterna extra-brilhante
+     .desc = Cegamento.

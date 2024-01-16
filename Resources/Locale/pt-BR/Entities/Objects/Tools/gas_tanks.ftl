@@ -1,27 +1,27 @@
-ent-OxygenTank = oxygen tank
-    .desc = A tank of oxygen, this one is blue.
+ent-OxygenTank = tanque de oxigênio
+     .desc = Um tanque de oxigênio, este é azul.
 
-ent-YellowOxygenTank = oxygen tank
-    .desc = A tank of oxygen. This one is in yellow.
+ent-YellowOxygenTank = tanque de oxigênio
+     .desc = Um tanque de oxigênio, este é amarelo.
 
-ent-NitrogenTank = nitrogen tank
-    .desc = A tank of nitrogen.
+ent-NitrogenTank = tanque de nitrogênio
+     .desc = Um tanque de nitrogênio.
 
-ent-EmergencyOxygenTank = emergency oxygen tank
-    .desc = Used for emergencies. Contains very little oxygen, so try to conserve it until you actually need it.
+ent-EmergencyOxygenTank = tanque de oxigênio de emergência
+     .desc = Usado para emergências. Contém muito pouco oxigênio, então tente conservá-lo até realmente precisar dele.
 
-ent-ExtendedEmergencyOxygenTank = extended-capacity emergency oxygen tank
-    .desc = Used for emergencies. Contains little oxygen, so try to conserve it until you actually need it.
+ent-ExtendedEmergencyOxygenTank = tanque de oxigênio de emergência com capacidade estendida
+     .desc = Usado para emergências. Contém pouco oxigênio, então tente conservá-lo até realmente precisar dele.
 
-ent-DoubleEmergencyOxygenTank = double emergency oxygen tank
-    .desc = Used for emergencies. Contains little oxygen, so try to conserve it until you actually need it.
+ent-DoubleEmergencyOxygenTank = tanque duplo de oxigênio de emergência
+     .desc = Usado para emergências. Contém pouco oxigênio, então tente conservá-lo até realmente precisar dele.
 
-ent-AirTank = air tank
-    .desc = Mixed anyone?
+ent-AirTank = tanque de ar
+     .desc = Alguém misturou?
 
-ent-NitrousOxideTank = nitrous oxide tank
-    .desc = Contains a mixture of air and nitrous oxide. Make sure you don't refill it with pure N2O.
+ent-NitrousOxideTank = tanque de óxido nitroso
+     .desc = Contém uma mistura de ar e óxido nitroso. Certifique-se de não reabastecê-lo com N2O puro.
 
-ent-PlasmaTank = plasma tank
-    .desc = Contains dangerous plasma. Do not inhale. Extremely flammable.
+ent-PlasmaTank = tanque de plasma
+     .desc = Contém plasma perigoso. Não inspire. Extremamente inflamável.
 

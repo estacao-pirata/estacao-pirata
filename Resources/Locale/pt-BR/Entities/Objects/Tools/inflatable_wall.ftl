@@ -1,16 +1,16 @@
-ent-InflatableWallStack = inflatable barricade
-    .desc = A folded membrane which rapidly expands into a large cubical shape on activation.
-    .suffix = Full
+ent-InflatableWallStack = barricada inflável
+     .desc = Uma membrana dobrada que se expande rapidamente em uma grande forma cúbica na ativação.
+     .suffix = Completo
 
-ent-InflatableDoorStack = inflatable door
-    .desc = A folded membrane which rapidly expands into a large cubical shape on activation.
-    .suffix = Full
+ent-InflatableDoorStack = porta inflável
+     .desc = Uma membrana dobrada que se expande rapidamente em uma grande forma cúbica na ativação.
+     .suffix = Completo
 
-ent-InflatableWallStack1 = inflatable door
-    .desc = A folded membrane which rapidly expands into a large cubical shape on activation.
-    .suffix = 1
+ent-InflatableWallStack1 = porta inflável
+     .desc = Uma membrana dobrada que se expande rapidamente em uma grande forma cúbica na ativação.
+     .sufixo = 1
 
-ent-InflatableDoorStack1 = inflatable door
-    .desc = A folded membrane which rapidly expands into a large cubical shape on activation.
-    .suffix = 1
+ent-InflatableDoorStack1 = porta inflável
+     .desc = Uma membrana dobrada que se expande rapidamente em uma grande forma cúbica na ativação.
+     .sufixo = 1
 

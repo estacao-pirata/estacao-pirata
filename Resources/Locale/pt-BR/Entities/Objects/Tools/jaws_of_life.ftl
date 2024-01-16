@@ -1,6 +1,5 @@
-ent-JawsOfLife = jaws of life
-    .desc = A set of jaws of life, compressed through the magic of science.
+ent-JawsOfLife = desencarcerador
+     .desc = Uma ferramenta poderosa para forçar qualquer coisa, comprimida pela magia da ciência.
 
-ent-SyndicateJawsOfLife = syndicate jaws of life
-    .desc = Useful for entering the station or its departments.
-
+ent-SyndicateJawsOfLife = desencarcerador
+     .desc = Uma ferramenta poderosa para forçar qualquer coisa, comprimida pela magia da ciência.
