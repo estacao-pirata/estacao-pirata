@@ -25,6 +25,5 @@ ent-ClothingBackpackSatchelHydroponics = pochete hidropônica
 ent-ClothingBackpackSatchelSalvage = pochete de salvagem
     .desc = Uma pochete surrada. Pode conter tesouros de outro mundo!
 
-ent-ClothingBackpackSatchelHolding = satchel of holding
-    .desc = A satchel that opens into a localized pocket of bluespace.
-
+ent-ClothingBackpackSatchelHolding = bolsa de Holding
+    .desc = Uma bolsa que se abre em um bolsão localizado de bluespace.

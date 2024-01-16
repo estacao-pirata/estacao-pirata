@@ -1,6 +1,5 @@
 ent-MobBatRemilia = Remilia
-    .desc = The chaplain's familiar. Likes fruit.
+     .desc = Familiar do Padre. Gosta de frutas.
 
-ent-MobCorgiCerberus = Cerberus
-    .desc = This pupper is not wholesome.
-
+ent-MobCorgiCerberus = Cérbero
+     .desc = Este filhote não é saudável.

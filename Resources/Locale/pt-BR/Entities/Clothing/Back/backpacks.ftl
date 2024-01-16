@@ -52,6 +52,6 @@ ent-ClothingBackpackERTJanitor = mochila de zelador ert
 ent-ClothingBackpackERTClown = mochila de palhaço ert
     .desc = Uma mochila muito espaçosa e buzinástica, pertencente a um membro da elite de palhaços, um Palhaço da unidade ERT!
 
-ent-ClothingBackpackHolding = bag of holding
-    .desc = A backpack that opens into a localized pocket of bluespace.
+ent-ClothingBackpackHolding = saco de Holding
+    .desc = Uma mochila que se abre em um bolso localizado de bluespace.
 

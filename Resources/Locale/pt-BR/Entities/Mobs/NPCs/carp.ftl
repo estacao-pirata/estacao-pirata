@@ -1,20 +1,23 @@
-ent-BaseMobCarp = space carp
-    .desc = It's a space carp.
+ent-BaseMobCarp = carpa espacial
+    .desc = É uma carpa espacial.
+    .suffix = Irritado
 
-ent-MobCarp = space carp
-    .desc = It's a space carp.
+ent-MobCarp = carpa espacial
+    .desc = É uma carpa espacial.
+    .suffix = Irritado
 
 ent-MobCarpMagic = magicarp
-    .desc = Looks like some kind of fish. Might be magical.
+    .desc = Parece algum tipo de peixe. Pode ser mágico.
+    .suffix = Irritado
 
-ent-MobCarpHolo = holocarp
-    .desc = Carp made out of holographic energies. Sadly for you, it is very much real.
+ent-MobCarpHolo = holocarpa
+    .desc = Carpa feita de energias holográficas. Infelizmente para você, é muito real.
+    .suffix = Irritado
 
-ent-MobCarpSalvage = holocarp
-    .desc = Carp made out of holographic energies. Sadly for you, it is very much real.
+ent-MobCarpSalvage = holocarpa
+    .desc = Carpa feita de energias holográficas. Infelizmente para você, é muito real.
     .suffix = Salvage Ruleset
 
-ent-MobCarpDragon = space carp
-    .desc = Carp made out of holographic energies. Sadly for you, it is very much real.
+ent-MobCarpDragon = dragão carpa
+    .desc = Uma carpa de uma dimensão de terrores. Vida a serviço do Dragão.
     .suffix = DragonBrood
-

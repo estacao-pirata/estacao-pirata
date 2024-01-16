@@ -1,3 +1,3 @@
 ent-MobRevenant = revenant
-    .desc = A spooky ghostie.
+    .desc = Um fantasma assustador.
 

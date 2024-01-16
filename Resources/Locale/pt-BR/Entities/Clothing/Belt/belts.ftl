@@ -41,11 +41,11 @@ ent-ClothingBeltMilitaryWebbing = colete tático
     .desc = Um colete tático, utilizado pelo Sindicato.
 
 ent-ClothingBeltMilitaryWebbingMed = colete médico
-    .desc = A set of tactical webbing worn by Gorlax Marauder medic operatives.
+    .desc = Um conjunto de correias táticas usadas pelos agentes médicos Gorlax Marauder.
 
 ent-ClothingBeltSuspenders = suspensórios
     .desc = Evita que suas calças caiam em público.
 
 ent-ClothingBeltWand = cinto mágico
-    .desc = A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
+    .desc = Um cinto projetado para segurar várias barras de poder. Uma verdadeira pochete de magia exótica.
 

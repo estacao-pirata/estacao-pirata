@@ -1,18 +1,17 @@
 ent-ClothingHeadsetAlt = fones de ouvido
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
 
 ent-ClothingHeadsetAltCentCom = fones de ouvido da centcom
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
 
 ent-ClothingHeadsetAltCommand = fones de ouvido de comandante
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
 
 ent-ClothingHeadsetAltMedical = fones de ouvido de médico
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
 
 ent-ClothingHeadsetAltSecurity = fones de ouvido da segurança
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
 
 ent-ClothingHeadsetAltSyndicate = fones de ouvido do sindicato
-    .desc = An updated, modular syndicate intercom that fits over the head and takes encryption keys. Protects ears from flashbangs.
-
+     .desc = Um intercomunicador de sindicato modular e atualizado que cabe na cabeça e recebe chaves de criptografia. Protege os ouvidos de flashbangs.

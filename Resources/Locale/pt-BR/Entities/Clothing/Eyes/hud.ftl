@@ -1,9 +1,8 @@
-ent-ClothingEyesHudDiagnostic = diagnostic hud
-    .desc = A heads-up display capable of analyzing the integrity and status of robotics and exosuits.
+ent-ClothingEyesHudDiagnostic = hud de diagnóstico
+     .desc = Um heads-up display capaz de analisar a integridade e o status da robótica e dos exosuits.
 
-ent-ClothingEyesHudMedical = hud médico
-    .desc = Um visor capaz de analisar a saúde de seres humanoides.
+ent-ClothingEyesHudMedical = hud de médico
+     .desc = Um visor capaz de analisar a saúde de seres humanoides.
 
 ent-ClothingEyesHudSecurity = hud da segurança
-    .desc = A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
-
+     .desc = Um display heads-up que verifica os humanóides à vista e fornece dados precisos sobre seu status de identificação e registros de segurança.

@@ -1,9 +1,8 @@
 ent-MobHonkBot = honkbot
-    .desc = Horrifying.
+     .desc = Horrível.
 
 ent-MobCleanBot = cleanbot
-    .desc = The creep of automation now threatening space janitors.
+     .desc = O aumento da automação agora ameaça os zeladores do espaço.
 
 ent-MobMedibot = medibot
-    .desc = No substitute for a doctor, but better than nothing.
-
+     .desc = Não substitui um médico, mas é melhor que nada.
