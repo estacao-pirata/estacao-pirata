@@ -1,19 +1,17 @@
-ent-MopItem = mop
-    .desc = A mop that can't be stopped, viscera cleanup detail awaits.
+ent-MopItem = esfregão
+     .desc = Um esfregão que não pode ser parado, detalhes de limpeza de vísceras aguardam.
 
-ent-MopBucket = mop bucket
-    .desc = Holds water and the tears of the janitor.
-    .suffix = Full
+ent-MopBucket = balde de esfregão
+     .desc = Contém a água e as lágrimas do zelador.
+     .suffix = Cheio
 
-ent-WetFloorSign = wet floor sign
-    .desc = Caution! Wet Floor!
-    .suffix = Full
+ent-WetFloorSign = sinal de piso molhado
+     .desc = Cuidado! Piso molhado!
 
-ent-JanitorialTrolley = janitorial trolley
-    .desc = This is the alpha and omega of sanitation.
-    .suffix = Full
+ent-JanitorialTrolley = carrinho de zeladoria
+     .desc = Este é o alfa e o ômega do saneamento.
+     .suffix = Cheio
 
-ent-FloorDrain = drain
-    .desc = Drains puddles around it. Useful for dumping mop buckets or keeping certain rooms clean.
-    .suffix = Full
+ent-FloorDrain = dreno
+     .desc = Drena poças ao seu redor. Útil para despejar baldes de esfregão ou manter certas salas limpas.
 

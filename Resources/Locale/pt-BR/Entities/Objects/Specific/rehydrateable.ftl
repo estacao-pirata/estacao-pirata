@@ -1,6 +1,5 @@
-ent-MonkeyCube = monkey cube
-    .desc = Just add water!
+ent-MonkeyCube = cubo de macaco
+    .desc = Basta adicionar água!
 
-ent-DehydratedSpaceCarp = dehydrated space carp
-    .desc = Looks like a plush toy carp, but just add water and it becomes a real-life space carp!
-
+ent-DehydratedSpaceCarp = carpa espacial desidratada
+    .desc = Parece uma carpa de pelúcia, mas basta adicionar água e ela se torna uma carpa espacial da vida real!
