@@ -1,7 +1,6 @@
-ent-NukeDisk = nuclear authentication disk
-    .desc = A nuclear auth disk, capable of arming a nuke if used along with a code. Note from nanotrasen reads "THIS IS YOUR MOST IMPORTANT POSESSION, SECURE DAT FUKKEN DISK!"
+ent-NukeDisk = disco de autenticação nuclear
+     .desc = Um disco de autenticação nuclear, capaz de armar uma bomba nuclear se usado junto com um código. A nota do nanotrasen diz "ESTA É SUA POSSE MAIS IMPORTANTE."
 
-ent-NukeDiskFake = nuclear authentication disk
-    .desc = A nuclear auth disk, capable of.. WAIT THIS IS JUST PAINTED PLASTIC, FUCK-
-    .suffix = Fake
-
+ent-NukeDiskFake = disco de autenticação nuclear
+     .desc = Um disco de autenticação nuclear, capaz de .. ESPERE, ISSO É APENAS PLÁSTICO PINTADO, PORRA-
+     .suffix = falso

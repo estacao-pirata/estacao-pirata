@@ -1,3 +1,2 @@
-ent-Spear = spear
-    .desc = Definition of a Classic. Keeping murder affordable since 200,000 BCE.
-
+ent-Spear = lança
+     .desc = Definição de um Clássico. Mantendo o assassinato acessível desde 200.000 BC.

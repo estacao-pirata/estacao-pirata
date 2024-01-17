@@ -1,9 +1,8 @@
-ent-Stunbaton = stun baton
-    .desc = A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+ent-Stunbaton = cassetete de choque
+     .desc = Um bastão de choque para incapacitar pessoas. Prejudicar ativamente com isso é considerado mau tom.
 
 ent-Flash = flash
-    .desc = An ultrabright flashbulb with a trigger, which causes the victim to be dazed and lose their eyesight for a moment. Useless when burnt out.
+     .desc = Um flash ultrabrilhante com gatilho, que faz com que a vítima fique atordoada e perca a visão por um momento. Inútil quando queimado.
 
-ent-PortableFlasher = portable flasher
-    .desc = An ultrabright flashbulb with a proximity trigger, useful for making an area security-only.
-
+ent-PortableFlasher = flasher portátil
+     .desc = Uma lâmpada ultrabrilhante com gatilho de proximidade, útil para tornar uma área apenas de segurança.

@@ -1,48 +1,48 @@
-ent-BaseMagazineCaselessRifle = magazine (.25 caseless)
+ent-BaseMagazineCaselessRifle = magazine (.25 sem caixa)
     .desc = { "" }
 
-ent-BaseMagazineCaselessRifleShort = caseless rifle short magazine (.25 caseless)
+ent-BaseMagazineCaselessRifleShort = sem caixa rifle magazine curto (.25 sem caixa)
     .desc = { "" }
 
-ent-BaseMagazinePistolCaselessRifle = pistol magazine (.25 caseless)
+ent-BaseMagazinePistolCaselessRifle = magazine de pistola (.25 sem caixa)
     .desc = { "" }
 
-ent-MagazineCaselessRifle10x24 = box magazine (.25 caseless)
+ent-MagazineCaselessRifle10x24 = caixa magazine (.25 sem caixa)
     .desc = { "" }
 
-ent-MagazinePistolCaselessRifle = pistol magazine (.25 caseless)
+ent-MagazinePistolCaselessRifle = magazine de pistola (.25 sem caixa)
     .desc = { "" }
 
-ent-MagazinePistolCaselessRifleHighVelocity = pistol magazine (.25 caseless high-velocity)
+ent-MagazinePistolCaselessRifleHighVelocity = magazine de pistola (.25 sem caixa de alta velocidade)
     .desc = { "" }
 
-ent-MagazinePistolCaselessRiflePractice = pistol magazine (.25 caseless practice)
+ent-MagazinePistolCaselessRiflePractice = magazine de pistola (.25 sem caixa prática)
     .desc = { "" }
 
-ent-MagazinePistolCaselessRifleRubber = pistol magazine (.25 caseless rubber)
+ent-MagazinePistolCaselessRifleRubber = magazine de pistola (.25 sem caixa rubber)
     .desc = { "" }
 
-ent-MagazineCaselessRifle = magazine (.25 caseless)
+ent-MagazineCaselessRifle = magazine (.25 sem caixa)
     .desc = { "" }
 
-ent-MagazineCaselessRifleHighVelocity = magazine (.25 caseless high-velocity)
+ent-MagazineCaselessRifleHighVelocity = magazine (.25 sem caixa de alta velocidade)
     .desc = { "" }
 
-ent-MagazineCaselessRiflePractice = magazine (.25 caseless practice)
+ent-MagazineCaselessRiflePractice = magazine (.25 sem caixa prática)
     .desc = { "" }
 
-ent-MagazineCaselessRifleRubber = magazine (.25 caseless rubber)
+ent-MagazineCaselessRifleRubber = magazine (.25 sem caixa rubber)
     .desc = { "" }
 
-ent-MagazineCaselessRifleShort = short magazine (.25 caseless)
+ent-MagazineCaselessRifleShort = magazine curto (.25 sem caixa)
     .desc = { "" }
 
-ent-MagazineCaselessRifleShortHighVelocity = short magazine (.25 caseless high-velocity)
+ent-MagazineCaselessRifleShortHighVelocity = magazine curto (.25 sem caixa de alta velocidade)
     .desc = { "" }
 
-ent-MagazineCaselessRifleShortPractice = short magazine (.25 caseless practice)
+ent-MagazineCaselessRifleShortPractice = magazine curto (.25 sem caixa prática)
     .desc = { "" }
 
-ent-MagazineCaselessRifleShortRubber = short magazine (.25 caseless rubber)
+ent-MagazineCaselessRifleShortRubber = magazine curto (.25 sem caixa rubber)
     .desc = { "" }
 

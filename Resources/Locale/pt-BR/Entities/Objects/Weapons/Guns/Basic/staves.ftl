@@ -1,6 +1,5 @@
-ent-WeaponStaffHealing = staff of healing
-    .desc = You don't foresee having to use this in your quest for carnage too often.
+ent-WeaponStaffHealing = bastão de cura
+     .desc = A divindade flui através de suas mãos.
 
-ent-WeaponStaffPolymorphDoor = staff of entrance
-    .desc = For when you need a get-away route.
-
+ent-WeaponStaffPolymorphDoor = bastão de entrada
+     .desc=O mundo é uma série de portas trancadas, você tem a chave.

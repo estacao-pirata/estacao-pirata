@@ -1,12 +1,11 @@
-ent-BulletCaselessRifle = bullet (.25 caseless)
-    .desc = { "" }
+ent-BulletCaselessRifle = bala (.25 sem estojo)
+     .desc = { "" }
 
-ent-BulletCaselessRifleHighVelocity = bullet (.25 caseless high-velocity)
-    .desc = { "" }
+ent-BulletCaselessRifleHighVelocity = bala (.25 alta velocidade sem estojo)
+     .desc = { "" }
 
-ent-BulletCaselessRiflePractice = bullet (.25 caseless practice)
-    .desc = { "" }
+ent-BulletCaselessRiflePractice = bala (.25 prática sem estojo)
+     .desc = { "" }
 
-ent-BulletCaselessRifleRubber = bullet (.25 caseless rubber)
-    .desc = { "" }
-
+ent-BulletCaselessRifleRubber = bala (.25 borracha sem estojo)
+     .desc = { "" }

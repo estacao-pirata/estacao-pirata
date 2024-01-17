@@ -1,3 +1,3 @@
-ent-SolarAssemblyPart = solar assembly part
+ent-SolarAssemblyPart = peça de montagem solar
     .desc = { "" }
 

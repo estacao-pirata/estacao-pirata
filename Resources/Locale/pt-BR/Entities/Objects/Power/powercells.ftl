@@ -1,43 +1,42 @@
-ent-PowerCellPotato = potato battery
-    .desc = Someone's stuck two nails and some wire in a large potato. Somehow it provides a little charge.
+ent-PowerCellPotato = bateria de batata
+     .desc = Alguém enfiou dois pregos e um pouco de arame em uma batata grande. De alguma forma, isso fornece uma pequena carga.
 
-ent-PowerCellSmall = small-capacity power cell
-    .desc = A rechargeable power cell. This is the cheapest kind you can find.
-    .suffix = Full
+ent-PowerCellSmall = célula de energia de pequena capacidade
+     .desc = Uma célula de energia recarregável. Este é o tipo mais barato que você pode encontrar.
+     .suffix = Completo
 
-ent-PowerCellSmallPrinted = small-capacity power cell
-    .desc = A rechargeable power cell. This is the cheapest kind you can find.
-    .suffix = Empty
+ent-PowerCellSmallPrinted = célula de energia de pequena capacidade
+     .desc = Uma célula de energia recarregável. Este é o tipo mais barato que você pode encontrar.
+     .suffix = Vazio
 
-ent-PowerCellMedium = medium-capacity power cell
-    .desc = A rechargeable power cell. This is the popular and reliable version.
-    .suffix = Full
+ent-PowerCellMedium = célula de energia de média capacidade
+     .desc = Uma célula de energia recarregável. Esta é a versão popular e confiável.
+     .suffix = Completo
 
-ent-PowerCellMediumPrinted = medium-capacity power cell
-    .desc = A rechargeable power cell. This is the popular and reliable version.
-    .suffix = Empty
+ent-PowerCellMediumPrinted = célula de energia de capacidade média
+     .desc = Uma célula de energia recarregável. Esta é a versão popular e confiável.
+     .suffix = Vazio
 
-ent-PowerCellHigh = high-capacity power cell
-    .desc = A rechargeable standardized power cell. This premium brand stores up to 50% more energy than the competition.
-    .suffix = Full
+ent-PowerCellHigh = célula de energia de alta capacidade
+     .desc = Uma célula de energia padronizada recarregável. Esta marca premium armazena até 50% mais energia que a concorrência.
+     .suffix = Completo
 
-ent-PowerCellHighPrinted = high-capacity power cell
-    .desc = A rechargeable standardized power cell. This premium brand stores up to 50% more energy than the competition.
-    .suffix = Empty
+ent-PowerCellHighPrinted = célula de energia de alta capacidade
+     .desc = Uma célula de energia padronizada recarregável. Esta marca premium armazena até 50% mais energia que a concorrência.
+     .suffix = Vazio
 
-ent-PowerCellHyper = hyper-capacity power cell
-    .desc = A rechargeable standardized power cell. This one looks like a rare and powerful prototype.
-    .suffix = Full
+ent-PowerCellHyper = célula de energia de hipercapacidade
+     .desc = Uma célula de energia padronizada recarregável. Este parece um protótipo raro e poderoso.
+     .suffix = Completo
 
-ent-PowerCellHyperPrinted = hyper-capacity power cell
-    .desc = A rechargeable standardized power cell. This one looks like a rare and powerful prototype.
-    .suffix = Empty
+ent-PowerCellHyperPrinted = célula de energia de hipercapacidade
+     .desc = Uma célula de energia padronizada recarregável. Este parece um protótipo raro e poderoso.
+     .suffix = Vazio
 
-ent-PowerCellMicroreactor = small microreactor cell
-    .desc = A rechargeable standardized microreactor cell. Intended for low-power devices, it slowly recharges by itself.
-    .suffix = Full
+ent-PowerCellMicroreactor = pequena célula de microrreator
+     .desc = Uma célula de microrreator padronizada recarregável. Destinado a dispositivos de baixo consumo de energia, ele recarrega sozinho lentamente.
+     .suffix = Completo
 
-ent-PowerCellAntiqueProto = antique power cell prototype
-    .desc = A small cell that self recharges. Used in old laser arms research.
-    .suffix = Full
-
+ent-PowerCellAntiqueProto = protótipo de célula de energia antiga
+     .desc = Uma pequena célula que se recarrega automaticamente. Usado em pesquisas antigas sobre armas a laser.
+     .suffix = Completo

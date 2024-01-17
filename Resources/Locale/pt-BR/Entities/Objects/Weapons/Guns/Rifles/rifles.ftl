@@ -1,12 +1,11 @@
 ent-BaseWeaponRifle = BaseWeaponRifle
-    .desc = A rooty tooty point and shooty.
+     .desc = Um ponto enraizado e atirado.
 
 ent-WeaponRifleAk = AKMS
-    .desc = An iconic weapon of war. Uses .30 rifle ammo.
+     .desc = Uma arma de guerra icônica. Usa munição de rifle .30.
 
 ent-WeaponRifleM90GrenadeLauncher = M-90gl
-    .desc = An older bullpup carbine model, with an attached underbarrel grenade launcher. Uses .20 rifle ammo.
+     .desc = Um modelo de carabina bullpup mais antigo, com um lançador de granadas embaixo do cano acoplado. Usa munição de rifle .20.
 
 ent-WeaponRifleLecter = Lecter
-    .desc = A high end military grade assault rifle. Uses .20 rifle ammo.
-
+     .desc = Um rifle de assalto de nível militar de última geração. Usa munição de rifle .20.

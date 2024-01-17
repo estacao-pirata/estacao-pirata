@@ -1,15 +1,15 @@
-ent-WeaponWandPolymorphCarp = wand of carp polymorph
-    .desc = For when you need a carp filet quick and the clown is looking juicy.
+ent-WeaponWandPolymorphCarp = varinha de carpas
+     .desc = Para quando você precisar de um filé de carpa rápido e o palhaço estiver suculento.
 
-ent-WeaponWandPolymorphMonkey = wand of monkey polymorph
-    .desc = For when you need a monkey friend.
+ent-WeaponWandPolymorphMonkey = varinha de macacos
+     .desc = Para quando você precisar de um amigo macaco.
 
-ent-WeaponWandFireball = wand of fireball
-    .desc = Great big balls of fire!
+ent-WeaponWandFireball = varinha de bola de fogo
+     .desc = Grandes bolas de fogo!
 
-ent-WeaponWandDeath = magical wand of instant death
-    .desc = Only the best and brightest of the Space Wizards R&D team worked together to create this beauty.
+ent-WeaponWandDeath = varinha da morte
+     .desc = Apenas os melhores e mais brilhantes membros da equipe de P&D da Space Wizards trabalharam juntos para criar esta beleza.
 
-ent-WeaponWandPolymorphDoor = wand of entrance
-    .desc = For when you need a get-away route.
+ent-WeaponWandPolymorphDoor = varinha de entrada
+     .desc = Para quando você precisar de uma rota de fuga.
 

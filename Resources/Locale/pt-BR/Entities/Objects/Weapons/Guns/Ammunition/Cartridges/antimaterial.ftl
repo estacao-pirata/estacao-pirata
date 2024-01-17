@@ -1,3 +1,3 @@
-ent-CartridgeAntiMaterial = cartridge (.60 anti-material)
+ent-CartridgeAntiMaterial = cartucho (.60 antimaterial)
     .desc = { "" }
 

@@ -1,3 +1,3 @@
-ent-MagazineBoxAntiMaterial = ammunition box (.60 anti-material)
+ent-MagazineBoxAntiMaterial = caixa de munição (.60 antimaterial)
     .desc = { "" }
 

@@ -1,7 +1,6 @@
-ent-EnergySword = energy sword
-    .desc = A very dangerous energy sword. Can be stored in pockets when turned off. Makes a lot of noise when used or turned on.
+ent-EnergySword = espada de energia
+     .desc = Uma espada de energia muito perigosa. Pode ser guardado em bolsos quando desligado. Faz muito barulho quando usado ou ligado.
 
-ent-EnergyDagger = pen
-    .desc = A dark ink pen.
-    .suffix = E-Dagger
-
+ent-EnergyDagger = caneta
+     .desc = Uma caneta de tinta escura.
+     .suffix = E-Dagger

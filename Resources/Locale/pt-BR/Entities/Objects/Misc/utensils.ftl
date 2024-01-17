@@ -1,15 +1,14 @@
-ent-Fork = fork
-    .desc = An eating utensil, perfect for stabbing.
+ent-Fork = garfo
+     .desc = Um utensílio para comer, perfeito para esfaquear.
 
-ent-ForkPlastic = plastic fork
-    .desc = An eating utensil, perfect for stabbing.
+ent-ForkPlastic = garfo de plástico
+     .desc = Um utensílio para comer, perfeito para esfaquear.
 
-ent-Spoon = spoon
-    .desc = There is no spoon.
+ent-Colher = colher
+     .desc = Não há colher.
 
-ent-SpoonPlastic = plastic spoon
-    .desc = There is no spoon.
+ent-SpoonPlastic = colher de plástico
+     .desc = Não há colher.
 
-ent-KnifePlastic = plastic knife
-    .desc = That's not a knife. This is a knife.
-
+ent-KnifePlastic = faca de plástico
+     .desc = Isso não é uma faca. Isto é uma faca.

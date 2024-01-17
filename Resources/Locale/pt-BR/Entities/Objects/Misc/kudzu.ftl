@@ -1,3 +1,3 @@
 ent-Kudzu = kudzu
-    .desc = A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
+    .desc = Uma planta perigosa e de rápido crescimento. POR QUE VOCÊ ESTÁ PARADO PARA OLHAR?!
 

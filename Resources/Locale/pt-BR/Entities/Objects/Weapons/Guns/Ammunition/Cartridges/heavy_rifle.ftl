@@ -1,6 +1,6 @@
-ent-BaseCartridgeHeavyRifle = cartridge (.20 rifle)
+ent-BaseCartridgeHeavyRifle = cartucho (.20 rifle)
     .desc = { "" }
 
-ent-CartridgeMinigun = cartridge (.10 rifle)
+ent-CartridgeMinigun = cartucho (.10 rifle)
     .desc = { "" }
 

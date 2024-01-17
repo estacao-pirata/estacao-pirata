@@ -1,8 +1,8 @@
-ent-WeaponTurretSyndicateBroken = ballistic turret (broken)
-    .desc = A ballistic machine gun auto-turret.
-    .suffix = Syndicate
+ent-WeaponTurretSyndicateBroken = torre balística (quebrada)
+     .desc = Uma torre automática de metralhadora balística.
+     .suffix = Sindicato
 
-ent-WeaponTurretSyndicate = ballistic turret
-    .desc = A ballistic machine gun auto-turret.
-    .suffix = Syndicate
+ent-WeaponTurretSyndicate = torre balística
+     .desc = Uma torre automática de metralhadora balística.
+     .suffix = Sindicato
 
