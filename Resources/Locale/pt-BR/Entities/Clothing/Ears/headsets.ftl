@@ -1,48 +1,53 @@
-ent-ClothingHeadset = headset
+ent-ClothingHeadset = fone de ouvido
     .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
 
-ent-ClothingHeadsetCargo = headset da cargo
-    .desc = Um headset usado pelos funcionários da Cargo.
+ent-ClothingHeadsetGrey = fone de ouvido de passageiro
+    .desc = Um fone de ouvido utilizado pela população desempregada.
 
-ent-ClothingHeadsetQM = headset dos quartermasters
-    .desc = Um headset usado pelos Quartermasters.
+ent-ClothingHeadsetCargo = fone de ouvido da logística
+    .desc = Um fone de ouvido usado pelos funcionários da Logística.
 
-ent-ClothingHeadsetCentCom = headset da centcom
-    .desc = Um headset usado pelos escalão mais alto da Nanotrasen.
+ent-ClothingHeadsetMining = fone de ouvido de mineração
+    .desc = Um fone de ouvido utilizado pelos mineradores.
 
-ent-ClothingHeadsetCommand = headset de comandante
-    .desc = Um headset conectado ao canal dos Comandantes..
+ent-ClothingHeadsetQM = fone de ouvido do intendente de carga
+    .desc = Um fone de ouvido usado pelo intendente de carga.
 
-ent-ClothingHeadsetEngineering = headset de engenheiro
-    .desc = Um headset conectado ao canal dos Engenheiros. Perfeito para discussões de biscoito ou bolacha enquanto a estação pega fogo.
+ent-ClothingHeadsetCentCom = fone de ouvido da centcom
+    .desc = Um fone de ouvido usado pelos escalão mais alto da Nanotrasen.
 
-ent-ClothingHeadsetCE = headset do chefe engenheiro
-    .desc = Um headset exclusivo do Chefe Engenheiro, perfeito para ele ignorar os chamados de emergência.
+ent-ClothingHeadsetCommand = fone de ouvido de comando
+    .desc = Um fone de ouvido conectado ao canal dos Comandantes..
 
-ent-ClothingHeadsetMedical = headset de médico
-    .desc = Um headset feito para médicos altamente treinados e capazes! Ou não..
+ent-ClothingHeadsetEngineering = fone de ouvido da engenharia
+    .desc = Um fone de ouvido conectado ao canal dos Engenheiros. Perfeito para discussões de biscoito ou bolacha enquanto a estação pega fogo.
 
-ent-ClothingHeadsetMedicalScience = headset de pesquisa e medicina
-    .desc = Uma fusão entre Medicina e Ciência, tudo isso em um misero headset!
+ent-ClothingHeadsetCE = fone de ouvido do engenheiro chefe
+    .desc = Um fone de ouvido exclusivo do Engenheiro Chefe, perfeito para ele ignorar os chamados de emergência.
 
-ent-ClothingHeadsetMining = headset de minerador
-    .desc = Um headset utilizado pelos mineradores.
+ent-ClothingHeadsetMedical = fone de ouvido da medicina
+    .desc = Um fone de ouvido feito para médicos altamente treinados e capazes! Ou não..
 
-ent-ClothingHeadsetRobotics = headset robótico
+ent-ClothingHeadsetCMO = fone de ouvido do médico chefe
+    .desc = Um fone de ouvido usado pelo Médico Chefe.
+
+ent-ClothingHeadsetScience = fone de ouvido de pesquisas
+    .desc = Um fone de ouvido usado pelos cientistas. Alerta de Nerd!
+
+ent-ClothingHeadsetMedicalScience = fone de ouvido de pesquisa e medicina
+    .desc = Uma fusão entre Medicina e Ciência, tudo isso em um misero fone de ouvido!
+
+ent-ClothingHeadsetRobotics = fone de ouvido robótico
     .desc = Feito especialmente para os robotiscistas (se é que isso existe), que não se decidem de qual departamento serão.
 
-ent-ClothingHeadsetScience = headset de cientista
-    .desc = Um headset usado pelos cientistas. Alerta de Nerd!
-
-ent-ClothingHeadsetRD = headset do diretor de pesquisas
+ent-ClothingHeadsetRD = fone de ouvido do diretor de pesquisas
     .desc = O Lamarr adorava mastigar isso...
 
-ent-ClothingHeadsetSecurity = headset da segurança
+ent-ClothingHeadsetSecurity = fone de ouvido da segurança
     .desc = Utilizado pelos responsáveis em manter a ordem na estação (ou não).
 
-ent-ClothingHeadsetService = headset de serviço
-    .desc = Um headset utilizado pelo pessoal do Departamento de Serviços, aqueles que mantém a estação limpa e organizada.
+ent-ClothingHeadsetService = fone de ouvido de serviço
+    .desc = Um fone de ouvido utilizado pelo pessoal do Departamento de Serviços, aqueles que mantém a estação limpa e organizada.
 
-ent-ClothingHeadsetGrey = headset de passageiro
-    .desc = Um headset utilizado pela população desempregada.
-
+ent-ClothingHeadsetFreelance = fone de ouvido de nômade
+    .desc = Utilizado por um grupo nomádico de nômades.

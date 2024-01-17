@@ -1,4 +1,4 @@
-ent-ClothingBeltUtility = cinto de utilidades
+ent-ClothingBeltUtility = cinto de feramentas
     .desc = Pode armazenar diversas coisas.
 
 ent-ClothingBeltChiefEngineer = cinto do chefe engenheiro
@@ -13,17 +13,17 @@ ent-ClothingBeltJanitor = cinto de zelador
 ent-ClothingBeltMedical = cinto médico
     .desc = Pode segurar vários tipos de equipamentos médicos.
 
-ent-ClothingBeltPlant = cinto de botânico
-    .desc = Um cinto capaz de segurar vários equipamentos hidropônicos. Não é 100% vegano.
+ent-ClothingBeltPlant = cinto botânico
+    .desc = Um cinto capaz de segurar vários equipamentos hidropônicos. Surpreendentemente, não é verde.
 
 ent-ClothingBeltSecurity = cinto de segurança
-    .desc = Pode segurar equipamentos de segurança, como algemas e até mesmo um stunstick.
+    .desc = Pode segurar equipamentos de segurança, como algemas e até mesmo um bastão elétrico.
 
 ent-ClothingBeltSheath = bainha
     .desc = Uma Bainha elegante, capaz de armazenar um Sabre.
 
 ent-ClothingBeltBandolier = bandoleira
-    .desc = Uma Bandoleira para cartuchos de Escopeta.
+    .desc = Uma bandoleira para cartuchos de Escopeta.
 
 ent-ClothingBeltChampion = cinturão de ouro
     .desc = Prove para o mundo que você é o maior!
@@ -34,18 +34,24 @@ ent-ClothingBeltHolster = coldre
 ent-ClothingBeltSyndieHolster = coldre do sindicato
     .desc = Um coldre capaz de suportar armamentos e munição.
 
-ent-ClothingBeltSecurityWebbing = colete tático da seg
+ent-ClothingBeltSecurityWebbing = colete tático de segurança
     .desc = Equipamento de peito exclusivo e versátil, pode segurar equipamentos de segurança. Não oferece proteção.
+
+ent-ClothingBeltMercWebbing = colete tático mercenário
+    .desc = Segura para que precisar para combate.
+
+ent-ClothingBeltSalvageWebbing = colete de exploração
+    .desc = Sistema perfeito para guardar essenciais para trabalho no espaço.
 
 ent-ClothingBeltMilitaryWebbing = colete tático
     .desc = Um colete tático, utilizado pelo Sindicato.
 
-ent-ClothingBeltMilitaryWebbingMed = colete médico
-    .desc = A set of tactical webbing worn by Gorlax Marauder medic operatives.
+ent-ClothingBeltMilitaryWebbingMed = colete tático médico
+    .desc = coletes táticos usados por operativos médicos da Gorlax Marauder.
 
 ent-ClothingBeltSuspenders = suspensórios
     .desc = Evita que suas calças caiam em público.
 
-ent-ClothingBeltWand = cinto mágico
-    .desc = A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
+ent-ClothingBeltWand = cinto de varinhas mágicas
+    .desc = Um cinto feito para todas suas varinhas mágicas estupêndas, portadoras poder inimaginável.
 
