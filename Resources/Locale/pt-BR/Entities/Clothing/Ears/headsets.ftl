@@ -1,5 +1,5 @@
 ent-ClothingHeadset = fone de ouvido
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+    .desc = Um fone de ouvido. Tem uma entrada para chaves criptográficas.
 
 ent-ClothingHeadsetGrey = fone de ouvido de passageiro
     .desc = Um fone de ouvido utilizado pela população desempregada.
