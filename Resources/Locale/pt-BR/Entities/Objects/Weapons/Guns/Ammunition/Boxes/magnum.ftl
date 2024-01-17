@@ -1,12 +1,12 @@
-ent-MagazineBoxMagnum = ammunition box (.40 magnum)
+ent-MagazineBoxMagnum = caixa de munição (.40 magnum)
     .desc = { "" }
 
-ent-MagazineBoxMagnumHighVelocity = ammunition box (.40 magnum high-velocity)
+ent-MagazineBoxMagnumHighVelocity = caixa de munição (.40 magnum alta velocidade)
     .desc = { "" }
 
-ent-MagazineBoxMagnumPractice = ammunition box (.40 magnum practice)
+ent-MagazineBoxMagnumPractice = caixa de munição (.40 magnum prática)
     .desc = { "" }
 
-ent-MagazineBoxMagnumRubber = ammunition box (.40 magnum rubber)
+ent-MagazineBoxMagnumRubber = caixa de munição (.40 magnum borracha)
     .desc = { "" }
 

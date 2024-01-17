@@ -1,7 +1,6 @@
-ent-MonkeyCubeBox = monkey cube box
-    .desc = Drymate brand monkey cubes. Just add water!
+ent-MonkeyCubeBox = caixa de cubo de macaco
+     .desc = Cubos de macaco da marca Drymate. Apenas adicione água!
 
-ent-MonkeyCubeWrapped = monkey cube
-    .desc = Unwrap this to get a monkey cube.
-    .suffix = Wrapped
-
+ent-MonkeyCubeWrapped = cubo de macaco
+     .desc = Desembrulhe para obter um cubo de macaco.
+     .suffix = Embrulhado

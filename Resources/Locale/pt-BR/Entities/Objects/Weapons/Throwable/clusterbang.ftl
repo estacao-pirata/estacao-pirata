@@ -1,7 +1,7 @@
 ent-ClusterBang = clusterbang
-    .desc = Can be used only with flashbangs. Explodes several times.
+     .desc = Só pode ser usado com flashbangs. Explode várias vezes.
 
 ent-ClusterBangFull = clusterbang
-    .desc = Can be used only with flashbangs. Explodes several times.
-    .suffix = Full
+     .desc = Só pode ser usado com flashbangs. Explode várias vezes.
+     .suffix = Completo
 

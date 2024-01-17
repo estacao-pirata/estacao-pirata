@@ -1,15 +1,15 @@
-ent-BaseCartridgePistol = cartridge (.35 auto)
+ent-BaseCartridgePistol = cartucho (.35 auto)
     .desc = { "" }
 
-ent-CartridgePistol = cartridge (.35 auto)
+ent-CartridgePistol = cartucho (.35 auto)
     .desc = { "" }
 
-ent-CartridgePistolHighVelocity = cartridge (.35 auto high-velocity)
+ent-CartridgePistolHighVelocity = cartucho (.35 auto alta velocidade)
     .desc = { "" }
 
-ent-CartridgePistolPractice = cartridge (.35 auto practice)
+ent-CartridgePistolPractice = cartucho (.35 auto prática)
     .desc = { "" }
 
-ent-CartridgePistolRubber = cartridge (.35 auto rubber)
+ent-CartridgePistolRubber = cartucho (.35 auto borracha)
     .desc = { "" }
 

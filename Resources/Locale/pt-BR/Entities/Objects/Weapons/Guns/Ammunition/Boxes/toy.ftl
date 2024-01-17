@@ -1,9 +1,8 @@
-ent-BoxDonkSoftBase = foamdart box
-    .desc = { "" }
+ent-BoxDonkSoftBase = caixa de dardos de espuma
+     .desc = { "" }
 
-ent-BoxDonkSoftBox = foam dart box
-    .desc = { "" }
+ent-BoxDonkSoftBox = caixa de dardos de espuma
+     .desc = { "" }
 
-ent-BoxCartridgeCap = cap gun cartridge box
-    .desc = { "" }
-
+ent-BoxCartridgeCap = caixa de cartucho de pistola espoleta
+     .desc = { "" }

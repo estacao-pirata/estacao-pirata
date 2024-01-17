@@ -1,6 +1,6 @@
-ent-BaseCartridgeCap = cartridge (cap)
+ent-BaseCartridgeCap = cartucho (espoleta)
     .desc = { "" }
 
-ent-CartridgeCap = cap gun cartridge
+ent-CartridgeCap = cartucho de espoleta
     .desc = { "" }
 

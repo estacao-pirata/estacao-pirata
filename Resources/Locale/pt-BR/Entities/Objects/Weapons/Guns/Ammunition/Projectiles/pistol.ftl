@@ -1,12 +1,11 @@
-ent-BulletPistol = bullet (.35 auto)
-    .desc = { "" }
+ent-BulletPistol = bala (.35 auto)
+     .desc = { "" }
 
-ent-BulletPistolHighVelocity = bullet (.35 auto high-velocity)
-    .desc = { "" }
+ent-BulletPistolHighVelocity = bala (.35 auto alta velocidade)
+     .desc = { "" }
 
-ent-BulletPistolPractice = bullet (.35 auto practice)
-    .desc = { "" }
+ent-BulletPistolPractice = bala (.35 prática auto)
+     .desc = { "" }
 
-ent-BulletPistolRubber = bullet (.35 auto rubber)
-    .desc = { "" }
-
+ent-BulletPistolRubber = bala (.35 borracha auto)
+     .desc = { "" }

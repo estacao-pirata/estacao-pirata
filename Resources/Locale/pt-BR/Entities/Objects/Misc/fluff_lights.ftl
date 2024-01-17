@@ -1,18 +1,17 @@
-ent-BaseLamp = lantern
-    .desc = { "" }
+ent-BaseLamp = lanterna
+     .desc = { "" }
 
-ent-Lamp = lamp
-    .desc = A light emitting device.
+ent-Lamp = lâmpada
+     .desc = Um dispositivo emissor de luz.
 
-ent-LampBanana = banana lamp
-    .desc = A light emitting device, shaped like a banana.
+ent-LampBanana = lâmpada banana
+     .desc = Um dispositivo emissor de luz, em forma de banana.
 
-ent-LampGold = desk lamp
-    .desc = A light emitting device that would look great on a desk.
+ent-LampGold = luminária de mesa
+     .desc = Um dispositivo emissor de luz que ficaria ótimo em uma mesa.
 
-ent-Floodlight = floodlight
-    .desc = A pole with powerful mounted lights on it.
+ent-Floodlight = holofote
+     .desc = Um poste com luzes poderosas montadas nele.
 
-ent-FloodlightBroken = broken floodlight
-    .desc = A pole with powerful mounted lights on it. It's broken.
-
+ent-FloodlightBroken = holofote quebrado
+     .desc = Um poste com luzes poderosas montadas nele. Está quebrado.

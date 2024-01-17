@@ -1,3 +1,2 @@
-ent-WeaponFlareGun = flare gun
-    .desc = A compact, single-shot pistol that fires shotgun shells.
-
+ent-WeaponFlareGun = pistola sinalizadora
+     .desc = Uma pistola compacta de tiro único que dispara cartuchos de espingarda.

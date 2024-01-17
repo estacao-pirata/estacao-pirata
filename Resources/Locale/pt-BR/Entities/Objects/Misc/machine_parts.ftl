@@ -1,84 +1,83 @@
-ent-BaseStockPart = stock part
-    .desc = What?
+ent-BaseStockPart = peça de estoque
+     .desc = O quê?
 
 ent-CapacitorStockPart = capacitor
-    .desc = A basic capacitor used in the construction of a variety of devices.
+     .desc = Um capacitor básico usado na construção de uma variedade de dispositivos.
 
-ent-ScanningModuleStockPart = scanning module
-    .desc = A compact, high resolution scanning module used in the construction of certain devices.
+ent-ScanningModuleStockPart = módulo de escâner
+     .desc = Um módulo de escâner compacto e de alta resolução usado na construção de determinados dispositivos.
 
-ent-MicroManipulatorStockPart = micro-manipulator
-    .desc = A tiny little manipulator used in the construction of certain devices.
+ent-MicroManipulatorStockPart = micromanipulador
+     .desc = Um minúsculo manipulador usado na construção de certos dispositivos.
 
 ent-MicroLaserStockPart = micro-laser
-    .desc = A tiny laser used in certain devices.
+     .desc = Um minúsculo laser usado em certos dispositivos.
 
-ent-MatterBinStockPart = matter bin
-    .desc = A container designed to hold compressed matter awaiting reconstruction.
+ent-MatterBinStockPart = caixa de matéria
+     .desc = Um contêiner projetado para conter matéria comprimida aguardando reconstrução.
 
-ent-AdvancedCapacitorStockPart = advanced capacitor
-    .desc = An advanced capacitor used in the construction of a variety of devices.
+ent-AdvancedCapacitorStockPart = capacitor avançado
+     .desc = Um capacitor avançado usado na construção de uma variedade de dispositivos.
 
-ent-AdvancedScanningModuleStockPart = advanced scanning module
-    .desc = A compact, high resolution scanning module used in the construction of certain devices.
+ent-AdvancedScanningModuleStockPart = módulo de escâner avançada
+     .desc = Um módulo de escâner compacto e de alta resolução usado na construção de determinados dispositivos.
 
-ent-NanoManipulatorStockPart = nano-manipulator
-    .desc = A tiny little manipulator used in the construction of certain devices.
+ent-NanoManipulatorStockPart = nanomanipulador
+     .desc = Um minúsculo manipulador usado na construção de certos dispositivos.
 
-ent-HighPowerMicroLaserStockPart = high-power micro-laser
-    .desc = A tiny laser used in certain devices.
+ent-HighPowerMicroLaserStockPart = microlaser de alta potência
+     .desc = Um minúsculo laser usado em certos dispositivos.
 
-ent-AdvancedMatterBinStockPart = advanced matter bin
-    .desc = A container designed to hold compressed matter awaiting reconstruction.
+ent-AdvancedMatterBinStockPart = caixa de matéria avançada
+     .desc = Um contêiner projetado para conter matéria comprimida aguardando reconstrução.
 
-ent-SuperCapacitorStockPart = super capacitor
-    .desc = A super-high capacity capacitor used in the construction of a variety of devices.
+ent-SuperCapacitorStockPart = supercapacitor
+     .desc = Um capacitor de superalta capacidade usado na construção de uma variedade de dispositivos.
 
-ent-PhasicScanningModuleStockPart = phasic scanning module
-    .desc = A compact, high resolution phasic scanning module used in the construction of certain devices.
+ent-PhasicScanningModuleStockPart = módulo de escâner fásica
+     .desc = Um módulo de escâner fásica compacto e de alta resolução usado na construção de determinados dispositivos.
 
-ent-PicoManipulatorStockPart = pico-manipulator
-    .desc = A tiny little manipulator used in the construction of certain devices.
+ent-PicoManipulatorStockPart = pico-manipulador
+     .desc = Um minúsculo manipulador usado na construção de certos dispositivos.
 
-ent-UltraHighPowerMicroLaserStockPart = ultra-high-power micro-laser
-    .desc = A tiny laser used in certain devices.
+ent-UltraHighPowerMicroLaserStockPart = microlaser de ultra-alta potência
+     .desc = Um minúsculo laser usado em certos dispositivos.
 
-ent-SuperMatterBinStockPart = super matter bin
-    .desc = A container designed to hold compressed matter awaiting reconstruction.
+ent-SuperMatterBinStockPart = caixa de supermatéria
+     .desc = Um contêiner projetado para conter matéria comprimida aguardando reconstrução.
 
-ent-QuadraticCapacitorStockPart = quadratic capacitor
-    .desc = A quadratic capacity capacitor used in the construction of a variety of devices.
+ent-QuadraticCapacitorStockPart = capacitor quadrático
+     .desc = Um capacitor de capacidade quadrática usado na construção de uma variedade de dispositivos.
 
-ent-TriphasicScanningModuleStockPart = triphasic scanning module
-    .desc = A compact, ultra resolution triphasic scanning module used in the construction of certain devices.
+ent-TriphasicScanningModuleStockPart = módulo de escâner trifásica
+     .desc = Um módulo de escâner trifásico compacto e de ultra resolução usado na construção de determinados dispositivos.
 
-ent-FemtoManipulatorStockPart = femto-manipulator
-    .desc = A tiny little manipulator used in the construction of certain devices.
+ent-FemtoManipulatorStockPart = femto-manipulador
+     .desc = Um minúsculo manipulador usado na construção de certos dispositivos.
 
-ent-QuadUltraMicroLaserStockPart = quad-ultra micro-laser
-    .desc = A tiny laser used in certain devices.
+ent-QuadUltraMicroLaserStockPart = quad-ultra microlaser
+     .desc = Um minúsculo laser usado em certos dispositivos.
 
-ent-BluespaceMatterBinStockPart = bluespace matter bin
-    .desc = A container designed to hold compressed matter in bluespace awaiting reconstruction.
+ent-BluespaceMatterBinStockPart = caixa de matéria do bluespace
+     .desc = Um contêiner projetado para conter matéria comprimida no bluespace aguardando reconstrução.
 
-ent-AnsibleSubspaceStockPart = subspace ansible
-    .desc = A compact module capable of sensing extradimensional activity.
+ent-AnsibleSubspaceStockPart = subespaço ansible
+     .desc = Um módulo compacto capaz de detectar atividade extradimensional.
 
-ent-FilterSubspaceStockPart = hyperwave filter
-    .desc = A tiny device capable of filtering and converting super-intense radiowaves.
+ent-FilterSubspaceStockPart = filtro de hiperonda
+     .desc = Um minúsculo dispositivo capaz de filtrar e converter ondas de rádio superintensas.
 
-ent-AmplifierSubspaceStockPart = subspace amplifier
-    .desc = A compact micro-machine capable of amplifying weak subspace transmissions.
+ent-AmplifierSubspaceStockPart = amplificador subespacial
+     .desc = Uma micromáquina compacta capaz de amplificar transmissões subespaciais fracas.
 
-ent-TreatmentSubspaceStockPart = subspace treatment disk
-    .desc = A compact micro-machine capable of stretching out hyper-compressed radio waves.
+ent-TreatmentSubspaceStockPart = disco de tratamento de subespaço
+     .desc = Uma micromáquina compacta capaz de esticar ondas de rádio hipercomprimidas.
 
-ent-AnalyzerSubspaceStockPart = subspace wavelength analyzer
-    .desc = A sophisticated analyzer capable of analyzing cryptic subspace wavelengths.
+ent-AnalyzerSubspaceStockPart = analisador de onda subespacial
+     .desc = Um analisador sofisticado capaz de analisar comprimentos de onda crípticos do subespaço.
 
-ent-CrystalSubspaceStockPart = ansible crystal
-    .desc = A crystal made from pure glass used to transmit laser databursts to subspace.
+ent-CrystalSubspaceStockPart = cristal ansible
+     .desc = Um cristal feito de vidro puro usado para transmitir rajadas de dados de laser para o subespaço.
 
-ent-TransmitterSubspaceStockPart = subspace transmitter
-    .desc = A large piece of equipment used to open a window into the subspace dimension.
-
+ent-TransmitterSubspaceStockPart = transmissor subespacial
+     .desc = Um grande equipamento usado para abrir uma janela para a dimensão do subespaço.

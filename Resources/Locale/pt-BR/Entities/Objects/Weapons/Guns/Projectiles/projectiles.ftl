@@ -1,45 +1,44 @@
 ent-BaseBullet = BaseBullet
-    .desc = If you can see this you're probably dead!
+     .desc = Se você consegue ver isso, provavelmente está morto!
 
 ent-BaseBulletTrigger = BaseBullet
-    .desc = If you can see this you're probably dead!
+     .desc = Se você consegue ver isso, provavelmente está morto!
 
-ent-BaseBulletHighVelocity = base bullet high-velocity
-    .desc = If you can see this you're probably dead!
+ent-BaseBulletHighVelocity = bala de alta velocidade
+     .desc = Se você consegue ver isso, provavelmente está morto!
 
-ent-BaseBulletPractice = base bullet practice
-    .desc = If you can see this you're probably dead!
+ent-BaseBulletPractice = bala de prática básica
+     .desc = Se você consegue ver isso, provavelmente está morto!
 
-ent-BaseBulletRubber = base bullet rubber
-    .desc = If you can see this you're probably dead!
+ent-BaseBulletRubber = bala de borracha
+     .desc = Se você consegue ver isso, provavelmente está morto!
 
-ent-BulletDisabler = disabler bolt
-    .desc = If you can see this you're probably dead!
+ent-BulletDisabler = raio desabilitador
+     .desc = Se você consegue ver isso, provavelmente está morto!
 
-ent-EmitterBolt = emitter bolt
-    .desc = If you can see this you're probably dead!
+ent-EmitterBolt = raio emissor
+     .desc = Se você consegue ver isso, provavelmente está morto!
 
-ent-BulletKinetic = kinetic bolt
-    .desc = Not too bad, but you still don't want to get hit by it.
+ent-BulletKinetic = raio cinético
+     .desc = Nada mal, mas você ainda não quer ser atingido por isso.
 
-ent-BulletRocket = rocket
-    .desc = Not too bad, but you still don't want to get hit by it.
+ent-BulletRocket = foguete
+     .desc = Nada mal, mas você ainda não quer ser atingido por isso.
 
-ent-BulletWeakRocket = weak rocket
-    .desc = Not too bad, but you still don't want to get hit by it.
+ent-BulletWeakRocket = foguete fraco
+     .desc = Nada mal, mas você ainda não quer ser atingido por isso.
 
-ent-BulletGrenadeBaton = baton grenade
-    .desc = Not too bad, but you still don't want to get hit by it.
+ent-BulletGrenadeBaton = granada de cassetete
+     .desc = Nada mal, mas você ainda não quer ser atingido por isso.
 
-ent-BulletGrenadeBlast = blast grenade
-    .desc = Not too bad, but you still don't want to get hit by it.
+ent-BulletGrenadeBlast = granada de explosão
+     .desc = Nada mal, mas você ainda não quer ser atingido por isso.
 
-ent-BulletGrenadeFlash = flash grenade
-    .desc = Not too bad, but you still don't want to get hit by it.
+ent-BulletGrenadeFlash = granada de flash
+     .desc = Nada mal, mas você ainda não quer ser atingido por isso.
 
-ent-BulletGrenadeFrag = frag grenade
-    .desc = Not too bad, but you still don't want to get hit by it.
+ent-BulletGrenadeFrag = granada de fragmentação
+     .desc = Nada mal, mas você ainda não quer ser atingido por isso.
 
-ent-BulletCap = cap bullet
-    .desc = Not too bad, but you still don't want to get hit by it.
-
+ent-BulletCap = bala de espoleta
+     .desc = Nada mal, mas você ainda não quer ser atingido por isso.

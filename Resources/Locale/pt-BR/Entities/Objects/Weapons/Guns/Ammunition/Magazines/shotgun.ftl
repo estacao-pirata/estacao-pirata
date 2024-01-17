@@ -1,15 +1,14 @@
-ent-BaseMagazineShotgun = ammo drum (.50 shells)
-    .desc = { "" }
+ent-BaseMagazineShotgun = tambor de munição (.50 cartuchos)
+     .desc = { "" }
 
-ent-MagazineShotgun = ammo drum (.50 pellet)
-    .desc = { "" }
+ent-MagazineShotgun = tambor de munição (.50 chumbinho)
+     .desc = { "" }
 
-ent-MagazineShotgunBeanbag = ammo drum (.50 beanbags)
-    .desc = { "" }
+ent-MagazineShotgunBeanbag = tambor de munição (.50 beanbag)
+     .desc = { "" }
 
-ent-MagazineShotgunSlug = ammo drum (.50 slug)
-    .desc = { "" }
+ent-MagazineShotgunSlug = tambor de munição (.50 slug)
+     .desc = { "" }
 
-ent-MagazineShotgunIncendiary = ammo drum (.50 incendiary)
-    .desc = { "" }
-
+ent-MagazineShotgunIncendiary = tambor de munição (.50 incendiário)
+     .desc = { "" }

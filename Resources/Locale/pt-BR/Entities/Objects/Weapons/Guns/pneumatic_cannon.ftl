@@ -1,6 +1,5 @@
-ent-WeaponImprovisedPneumaticCannon = improvised pneumatic cannon
-    .desc = Improvised using nothing but a pipe, some zipties, and a pneumatic cannon.
+ent-WeaponImprovisedPneumaticCannon = canhão pneumático improvisado
+     .desc = Improvisado usando apenas um cano, alguns zipties e um canhão pneumático.
 
-ent-LauncherCreamPie = pie cannon
-    .desc = Load cream pie for optimal results.
-
+ent-LauncherCreamPie = canhão de torta
+     .desc = Carregue a torta de creme para obter melhores resultados.

@@ -1,3 +1,3 @@
 ent-Bola = bola
-    .desc = Linked together with some spare cuffs and metal.
+    .desc = Ligado com algumas algemas sobressalentes e metal.
 

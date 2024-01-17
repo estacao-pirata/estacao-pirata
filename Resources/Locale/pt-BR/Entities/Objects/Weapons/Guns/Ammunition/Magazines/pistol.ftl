@@ -1,51 +1,50 @@
-ent-BaseMagazinePistol = pistol magazine (.35 auto)
-    .desc = { "" }
+ent-BaseMagazinePistol = magazine de pistola (.35 auto)
+     .desc = { "" }
 
-ent-BaseMagazinePistolHighCapacity = machine pistol magazine (.35 auto)
-    .desc = { "" }
+ent-BaseMagazinePistolHighCapacity = magazine de metralhadora (.35 auto)
+     .desc = { "" }
 
-ent-BaseMagazinePistolSubMachineGun = SMG magazine (.35 auto)
-    .desc = { "" }
+ent-BaseMagazinePistolSubMachineGun = magazine de SMG (.35 auto)
+     .desc = { "" }
 
-ent-MagazinePistolSubMachineGunTopMounted = WT550 magazine (.35 auto top-mounted)
-    .desc = { "" }
+ent-MagazinePistolSubMachineGunTopMounted = magazine de WT550 (.35 auto)
+     .desc = { "" }
 
-ent-MagazinePistolCalicoTopMounted = Calico magazine (.35 auto top-mounted)
-    .desc = { "" }
+ent-MagazinePistolCalicoTopMounted = magazine de Calico (.35 auto)
+     .desc = { "" }
 
-ent-MagazinePistol = pistol magazine (.35 auto)
-    .desc = { "" }
+ent-MagazinePistol = magazine de pistola (.35 auto)
+     .desc = { "" }
 
-ent-MagazinePistolHighVelocity = pistol magazine (.35 auto high-velocity)
-    .desc = { "" }
+ent-MagazinePistolHighVelocity = magazine de pistola (.35 alta velocidade)
+     .desc = { "" }
 
-ent-MagazinePistolPractice = pistol magazine (.35 auto practice)
-    .desc = { "" }
+ent-MagazinePistolPractice = magazine de pistola (.35 prática)
+     .desc = { "" }
 
-ent-MagazinePistolRubber = pistol magazine (.35 auto rubber)
-    .desc = { "" }
+ent-MagazinePistolRubber = magazine de pistola (borracha automática .35)
+     .desc = { "" }
 
-ent-MagazinePistolHighCapacity = machine pistol magazine (.35 auto)
-    .desc = { "" }
+ent-MagazinePistolHighCapacity = magazine de pistola automática (.35 auto)
+     .desc = { "" }
 
-ent-MagazinePistolHighCapacityHighVelocity = machine pistol magazine (.35 auto high-velocity)
-    .desc = { "" }
+ent-MagazinePistolHighCapacityHighVelocity = magazine de pistola automática (.35 alta velocidade)
+     .desc = { "" }
 
-ent-MagazinePistolHighCapacityPractice = machine pistol magazine (.35 auto practice)
-    .desc = { "" }
+ent-MagazinePistolHighCapacityPractice = magazine de pistola automática (.35 prática)
+     .desc = { "" }
 
-ent-MagazinePistolHighCapacityRubber = machine pistol magazine (.35 auto rubber)
-    .desc = { "" }
+ent-MagazinePistolHighCapacityRubber = magazine de pistola automática (.35 borracha)
+     .desc = { "" }
 
-ent-MagazinePistolSubMachineGun = SMG magazine (.35 auto)
-    .desc = { "" }
+ent-MagazinePistolSubMachineGun = magazine de SMG (.35 auto)
+     .desc = { "" }
 
-ent-MagazinePistolSubMachineGunHighVelocity = SMG magazine (.35 auto high-velocity)
-    .desc = { "" }
+ent-MagazinePistolSubMachineGunHighVelocity = magazine de SMG (.35 auto alta velocidade)
+     .desc = { "" }
 
-ent-MagazinePistolSubMachineGunPractice = SMG magazine (.35 auto practice)
-    .desc = { "" }
+ent-MagazinePistolSubMachineGunPractice = magazine de SMG (.35 prática)
+     .desc = { "" }
 
-ent-MagazinePistolSubMachineGunRubber = SMG magazine (.35 auto rubber)
-    .desc = { "" }
-
+ent-MagazinePistolSubMachineGunRubber = magazine de SMG (.35 borracha)
+     .desc = { "" }

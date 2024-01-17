@@ -1,18 +1,18 @@
 ent-BaseWeaponRevolver = BaseWeaponRevolver
-    .desc = A rooty tooty point and shooty.
+     .desc = Um ponto enraizado e atirado.
 
 ent-WeaponRevolverDeckard = Deckard
-    .desc = A rare, custom-built revolver. Use when there is no time for Voight-Kampff test. Uses .40 magnum ammo.
+     .desc = Um revólver raro e personalizado. Use quando não houver tempo para o teste de Voight-Kampff. Usa munição .40 magnum.
 
-ent-WeaponRevolverInspector = Inspector
-    .desc = A detective's best friend. Uses .40 magnum ammo.
+ent-WeaponRevolverInspector = Inspetor
+     .desc = O melhor amigo de um detetive. Usa munição .40 magnum.
 
 ent-WeaponRevolverMateba = Mateba
-    .desc = The iconic sidearm of the dreaded death squads. Uses .40 magnum ammo.
+     .desc = A arma icônica dos temidos esquadrões da morte. Usa munição .40 magnum.
 
-ent-WeaponRevolverPython = Predator
-    .desc = A robust revolver favoured by Syndicate agents. Uses .40 magnum ammo.
+ent-WeaponRevolverPython = Predador
+     .desc = Um revólver robusto preferido pelos agentes do Syndicate. Usa munição .40 magnum.
 
-ent-WeaponRevolverPirate = pirate revolver
-    .desc = An odd, muzzle-loading revolver, favoured by pirate crews. Uses .40 magnum ammo.
+ent-WeaponRevolverPirate = revólver pirata
+     .desc = Um revólver estranho, carregado pela boca, preferido por tripulações piratas. Usa munição .40 magnum.
 

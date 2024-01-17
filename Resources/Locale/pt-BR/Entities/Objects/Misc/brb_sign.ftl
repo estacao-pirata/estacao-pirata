@@ -1,3 +1,2 @@
-ent-BrbSign = brb sign
-    .desc = Lets others know you are away.
-
+ent-BrbSign = sinal brb
+     .desc = Permite que outras pessoas saibam que você está ausente.

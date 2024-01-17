@@ -1,24 +1,23 @@
-ent-BaseShield = base shield
-    .desc = A shield!
+ent-BaseShield = escudo base
+     .desc = Um escudo!
 
-ent-RiotShield = riot shield
-    .desc = A large tower shield. Good for controlling crowds.
+ent-RiotShield = escudo anti-motim
+     .desc = Um grande escudo de torre. Bom para controlar multidões.
 
-ent-RiotLaserShield = riot laser shield
-    .desc = A riot shield built for withstanding lasers, but not much else.
+ent-RiotLaserShield = escudo laser anti-motim
+     .desc = Um escudo anti-motim construído para resistir a lasers, mas não muito mais.
 
-ent-RiotBulletShield = riot bullet shield
-    .desc = A ballistic riot shield built for withstanding bullets, but not much else.
+ent-RiotBulletShield = escudo de bala anti-motim
+     .desc = Um escudo balístico anti-motim construído para resistir a balas, mas não muito mais.
 
-ent-WoodenBuckler = wooden buckler
-    .desc = A small round wooden makeshift shield.
+ent-WoodenBuckler = broquel de madeira
+     .desc = Um pequeno escudo redondo improvisado de madeira.
 
-ent-MakeshiftShield = makeshift shield
-    .desc = A rundown looking shield, not good for much.
+ent-MakeshiftShield = escudo improvisado
+     .desc = Um escudo de aparência degradada, que não serve para muita coisa.
 
 ent-ClockworkShield = Clockwork Shield
-    .desc = Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
+     .desc = Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
 
-ent-MirrorShield = Mirror Shield
-    .desc = Eerily glows red... you hear the geometer whispering
-
+ent-MirrorShield = Escudo Espelhado
+     .desc = Brilha estranhamente em vermelho... você ouve o geômetra sussurrando

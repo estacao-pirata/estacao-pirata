@@ -1,7 +1,6 @@
-ent-BookBase = book
-    .desc = A hardcover book.
+ent-BookBase = livro
+     .desc = Um livro de capa dura.
 
-ent-BookRandom = book
-    .desc = A hardcover book.
-    .suffix = random
-
+ent-BookRandom = livro
+     .desc = Um livro de capa dura.
+     .suffix = aleatório

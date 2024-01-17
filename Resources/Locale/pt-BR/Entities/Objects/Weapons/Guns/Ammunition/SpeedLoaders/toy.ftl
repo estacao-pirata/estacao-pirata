@@ -1,6 +1,6 @@
-ent-BaseSpeedLoaderCap = cap gun loader
-    .desc = { "" }
+ent-BaseSpeedLoaderCap = carregador de velocidade de espoleta
+     .desc = { "" }
 
-ent-SpeedLoaderCap = cap gun loader
-    .desc = { "" }
+ent-SpeedLoaderCap = carregador de velocidade de espoleta
+     .desc = { "" }
 

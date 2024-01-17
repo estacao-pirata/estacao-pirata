@@ -1,112 +1,94 @@
-ent-Paper = paper
-    .desc = A piece of white paper.
+ent-Papel = papel
+     .desc = Um pedaço de papel branco.
 
-ent-PaperWritten = paper
-    .desc = A piece of white paper.
+ent-PaperWritten = papel
+     .desc = Um pedaço de papel branco.
 
-ent-NukeCodePaper = nuclear authentication codes
-    .desc = A piece of white paper.
+ent-NukeCodePaper = códigos de autenticação nuclear
+     .desc = Um pedaço de papel branco.
 
-ent-Pen = pen
-    .desc = A dark ink pen.
+ent-Pen = caneta
+     .desc = Uma caneta de tinta escura.
 
-ent-CyberPen = Cybersun pen
-    .desc = A high-tech pen straight from Cybersun's legal department, capable of refracting hard-light at impossible angles through its diamond tip in order to write.
+ent-CyberPen = caneta Cybersun
+     .desc = Uma caneta de alta tecnologia vinda diretamente do departamento jurídico da Cybersun, capaz de refratar luz forte em ângulos impossíveis através de sua ponta de diamante para escrever.
 
-ent-PenCap = captain's fountain pen
-    .desc = A luxurious fountain pen for the captain of the station.
+ent-PenCap = caneta-tinteiro do Capitão
+     .desc = Uma luxuosa caneta-tinteiro para o capitão da estação.
 
-ent-PenHop = hop's fountain pen
-    .desc = A luxurious fountain pen for the hop of the station.
+ent-PenHop = caneta-tinteiro de HOP
+     .desc = Uma luxuosa caneta-tinteiro para o salto da estação.
 
-ent-BoxFolderBase = folder
-    .desc = A folder filled with top secret paperwork.
+ent-BoxFolderBase = pasta
+     .desc = Uma pasta cheia de documentos ultrassecretos.
 
-ent-BoxFolderRed = folder
-    .desc = A folder filled with top secret paperwork.
-    .suffix = Red
+ent-BoxFolderRed = pasta
+     .desc = Uma pasta cheia de documentos ultrassecretos.
+     .suffix = Vermelho
 
-ent-BoxFolderBlue = folder
-    .desc = A folder filled with top secret paperwork.
-    .suffix = Blue
+ent-BoxFolderBlue = pasta
+     .desc = Uma pasta cheia de documentos ultrassecretos.
+     .suffix = Azul
 
-ent-BoxFolderYellow = folder
-    .desc = A folder filled with top secret paperwork.
-    .suffix = Yellow
+ent-BoxFolderYellow = pasta
+     .desc = Uma pasta cheia de documentos ultrassecretos.
+     .suffix = Amarelo
 
-ent-BoxFolderWhite = folder
-    .desc = A folder filled with top secret paperwork.
-    .suffix = White
+ent-BoxFolderWhite = pasta
+     .desc = Uma pasta cheia de documentos ultrassecretos.
+     .suffix = Branco
 
-ent-BoxFolderGrey = folder
-    .desc = A folder filled with top secret paperwork.
-    .suffix = Grey
+ent-BoxFolderGrey = pasta
+     .desc = Uma pasta cheia de documentos ultrassecretos.
+     .suffix = Cinza
 
-ent-BoxFolderBlack = folder
-    .desc = A folder filled with top secret paperwork.
-    .suffix = Black
+ent-BoxFolderBlack = pasta
+     .desc = Uma pasta cheia de documentos ultrassecretos.
 
-ent-RubberStampMime = mime's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampMime = carimbo do mímico
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampCaptain = captain's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampCaptain = carimbo do Capitão
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampCentcom = CentCom rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampCentcom = carimbo do CentCom
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampChaplain = cleric's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampChaplain = carimbo do clérigo
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampClown = clown's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampClown = carimbo do palhaço
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampCMO = chief medical officer's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampCMO = carimbo do CMO
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampDenied = DENIED rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampDenied = carimbo de NEGADO
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampApproved = APPROVED rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampApproved = carimbo de APROVADO
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampHop = head of personnel's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampHop = carimbo do HOP
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampHos = head of security's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampHos = carimbo do HOS
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampQm = quartermaster's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampQm = carimbo do QM
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampRd = mystagogue's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampRd = carimbo do RD
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampWarden = warden's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampWarden = carimbo do Carceiro
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampTrader = trader's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampTrader = carimbo do comerciante
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampSyndicate = syndicate rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
+ent-RubberStampSyndicate = carimbo do sindicato
+     .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampCE = chief engineers's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = Black
-
+ent-RubberStampCE = carimbo do CE
+     .desc = Um carimbo para carimbar documentos importantes.

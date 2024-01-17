@@ -1,15 +1,14 @@
-ent-LightBulb = incandescent light bulb
-    .desc = A light bulb.
+ent-LightBulb = lâmpada incandescente
+     .desc = Uma lâmpada.
 
-ent-LightTube = fluorescent light tube
-    .desc = A light fixture.
+ent-LightTube = tubo de luz fluorescente
+     .desc = Uma luminária.
 
-ent-LedLightTube = led light tube
-    .desc = A high power high energy bulb.
+ent-LedLightTube = tubo de luz LED
+     .desc = Uma lâmpada de alta potência e alta energia.
 
-ent-ExteriorLightTube = exterior light tube
-    .desc = A high power high energy bulb for the depths of space. May contain mercury.
+ent-ExteriorLightTube = tubo de luz exterior
+     .desc = Uma lâmpada de alta potência e alta energia para as profundezas do espaço. Pode conter mercúrio.
 
-ent-SodiumLightTube = sodium light tube
-    .desc = A high power high energy bulb for the depths of space. Salty.
-
+ent-SodiumLightTube = tubo de luz de sódio
+     .desc = Uma lâmpada de alta potência e alta energia para as profundezas do espaço. Salgado.

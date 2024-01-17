@@ -1,9 +1,8 @@
-ent-Handcuffs = handcuffs
-    .desc = Used to detain criminals and other assholes.
+ent-Algemas = algemas
+     .desc = Usado para deter criminosos e outros idiotas.
 
-ent-Cablecuffs = makeshift handcuffs
-    .desc = Homemade handcuffs crafted from spare cables.
+ent-Cablecuffs = algemas improvisadas
+     .desc = Algemas caseiras feitas com cabos sobressalentes.
 
 ent-Zipties = zipties
-    .desc = Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
-
+     .desc = Zipties de plástico resistentes e descartáveis, ideais para conter prisioneiros turbulentos.

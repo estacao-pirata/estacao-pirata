@@ -1,12 +1,12 @@
 ent-BaseWeaponLauncher = BaseWeaponLauncher
-    .desc = A rooty tooty point and shooty.
+     .desc = Um ponto enraizado e atirado.
 
-ent-WeaponLauncherChinaLake = china lake
-    .desc = PLOOP
+ent-WeaponLauncherChinaLake = Chinalake
+     .desc=PLOOP
 
 ent-WeaponLauncherRocket = RPG-7
-    .desc = A modified ancient rocket-propelled grenade launcher.
+     .desc = Um antigo lançador de granadas movido a foguete modificado.
 
-ent-WeaponLauncherMultipleRocket = multiple rocket launcher
-    .desc = A modified ancient rocket-propelled grenade launcher.
+ent-WeaponLauncherMultipleRocket = lançador de foguetes múltiplos
+     .desc = Um antigo lançador de granadas movido a foguete modificado.
 

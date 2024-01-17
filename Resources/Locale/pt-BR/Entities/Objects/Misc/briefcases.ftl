@@ -1,3 +1,2 @@
-ent-BriefcaseBrown = brown briefcase
-    .desc = A handy briefcase.
-
+ent-BriefcaseBrown = maleta marrom
+     .desc = Uma maleta útil.

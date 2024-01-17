@@ -1,18 +1,18 @@
-ent-BaseMagazineBoxLightRifle = ammunition box (.30 rifle)
+ent-BaseMagazineBoxLightRifle = caixa de munição (.30 rifle)
     .desc = { "" }
 
-ent-MagazineBoxLightRifleBig = ammunition box (.30 rifle)
+ent-MagazineBoxLightRifleBig = caixa de munição (.30 rifle)
     .desc = { "" }
 
-ent-MagazineBoxLightRifle = ammunition box (.30 rifle)
+ent-MagazineBoxLightRifle = caixa de munição (.30 rifle)
     .desc = { "" }
 
-ent-MagazineBoxLightRifleHighVelocity = ammunition box (.30 rifle high-velocity)
+ent-MagazineBoxLightRifleHighVelocity = caixa de munição (.30 rifle alta velocidade)
     .desc = { "" }
 
-ent-MagazineBoxLightRiflePractice = ammunition box (.30 rifle practice)
+ent-MagazineBoxLightRiflePractice = caixa de munição (.30 rifle prática)
     .desc = { "" }
 
-ent-MagazineBoxLightRifleRubber = ammunition box (.30 rifle rubber)
+ent-MagazineBoxLightRifleRubber = caixa de munição (.30 rifle borracha)
     .desc = { "" }
 

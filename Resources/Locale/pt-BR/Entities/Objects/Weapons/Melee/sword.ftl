@@ -1,12 +1,11 @@
-ent-CaptainSabre = captain's sabre
-    .desc = A ceremonial weapon belonging to the captain of the station.
+ent-CaptainSabre = sabre do capitão
+     .desc = Uma arma cerimonial pertencente ao capitão da estação.
 
 ent-Katana = katana
-    .desc = Ancient craftwork made with not so ancient plasteel.
+     .desc = Artesanato antigo feito com plasteel não tão antigo.
 
-ent-Machete = machete
-    .desc = A large, vicious looking blade.
+ent-Machete = facão
+     .desc = Uma lâmina grande e de aparência cruel.
 
 ent-Claymore = claymore
-    .desc = An ancient war blade.
-
+     .desc = Uma antiga lâmina de guerra.

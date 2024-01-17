@@ -1,30 +1,30 @@
-ent-BaseMagazineMagnum = Lamia magazine (.40 magnum)
+ent-BaseMagazineMagnum = magazine Lamia (.40 magnum)
     .desc = { "" }
 
-ent-BaseMagazineMagnumSubMachineGun = Vector magazine (.40 magnum)
+ent-BaseMagazineMagnumSubMachineGun = magazine de Vetor (.40 magnum)
     .desc = { "" }
 
-ent-MagazineMagnum = Lamia magazine (.40 magnum)
+ent-MagazineMagnum = magazine Lamia (.40 magnum)
     .desc = { "" }
 
-ent-MagazineMagnumHighVelocity = Lamia magazine (.40 magnum high-velocity)
+ent-MagazineMagnumHighVelocity = magazine Lamia (.40 magnum alta velocidade)
     .desc = { "" }
 
-ent-MagazineMagnumPractice = Lamia magazine (.40 magnum practice)
+ent-MagazineMagnumPractice = magazine Lamia (.40 magnum prática)
     .desc = { "" }
 
-ent-MagazineMagnumRubber = Lamia magazine (.40 magnum rubber)
+ent-MagazineMagnumRubber = magazine Lamia (.40 magnum borracha)
     .desc = { "" }
 
-ent-MagazineMagnumSubMachineGun = Vector magazine (.40 magnum)
+ent-MagazineMagnumSubMachineGun = magazine de Vetor (.40 magnum)
     .desc = { "" }
 
-ent-MagazineMagnumSubMachineGunHighVelocity = Vector magazine (.40 magnum High-Velocity)
+ent-MagazineMagnumSubMachineGunHighVelocity = magazine de Vetor (.40 magnum alta velocidade)
     .desc = { "" }
 
-ent-MagazineMagnumSubMachineGunPractice = Vector magazine (.40 magnum practice)
+ent-MagazineMagnumSubMachineGunPractice = magazine de Vetor (.40 magnum prática)
     .desc = { "" }
 
-ent-MagazineMagnumSubMachineGunRubber = Vector magazine (.40 magnum rubber)
+ent-MagazineMagnumSubMachineGunRubber = magazine de Vetor (.40 magnum borracha)
     .desc = { "" }
 

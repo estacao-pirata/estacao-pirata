@@ -1,90 +1,90 @@
 ent-BedsheetBase = BedsheetBase
-    .desc = A surprisingly soft linen bedsheet.
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetBlack = black bedsheet
-    .desc = A surprisingly soft linen bedsheet.
+ent-BedsheetBlack = lençol preto
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetBlue = blue bedsheet
-    .desc = A surprisingly soft linen bedsheet.
+ent-BedsheetBlue = lençol azul
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetBrown = brown bedsheet
-    .desc = A surprisingly soft linen bedsheet.
+ent-BedsheetBrown = lençol marrom
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetCaptain = captain's bedsheet
-    .desc = It has a Nanotrasen symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains.
+ent-BedsheetCaptain = lençol do capitão
+     .desc = Tem o símbolo Nanotrasen e foi tecido com um novo tipo revolucionário de fio com garantia de 0,01% de permeabilidade para a maioria das substâncias não químicas, popular entre a maioria dos capitães modernos.
 
-ent-BedsheetCE = CE's bedsheet
-    .desc = It's decorated with a wrench emblem. It's highly reflective and stain resistant, so you don't need to worry about ruining it with oil.
+ent-BedsheetCE = lençol do CE
+     .desc = Está decorado com um emblema de chave inglesa. É altamente reflexivo e resistente a manchas, então você não precisa se preocupar em estragá-lo com óleo.
 
-ent-BedsheetCentcom = CentCom bedsheet
-    .desc = Woven with advanced nanothread for warmth as well as being very decorated, essential for all officials.
+ent-BedsheetCentcom = lençol do CentCom
+     .desc = Tecido com nanofio avançado para aquecer além de ser muito decorado, essencial para todos os oficiais.
 
-ent-BedsheetClown = clown's bedsheet
-    .desc = A rainbow blanket with a clown mask woven in. It smells faintly of bananas.
+ent-BedsheetClown = lençol de palhaço
+     .desc = Um cobertor de arco-íris com uma máscara de palhaço tecida. Tem um leve cheiro de banana.
 
-ent-BedsheetCMO = CMO's bedsheet
-    .desc = It's a sterilized blanket that has a cross emblem. There's some cat fur on it, likely from Runtime.
+ent-BedsheetCMO = lençol do CMO
+     .desc = É uma manta esterilizada que possui o emblema de uma cruz. Há um pouco de pelo de gato nele, provavelmente do Runtime.
 
-ent-BedsheetCosmos = cosmos bedsheet
-    .desc = Made from the dreams of those who wonder at the stars.
+ent-BedsheetCosmos = lençol dos cosmos
+     .desc = Feito a partir dos sonhos de quem se maravilha com as estrelas.
 
-ent-BedsheetCult = cult bedsheet
-    .desc = You might dream of Nar'Sie if you sleep with this. It seems rather tattered and glows of an eldritch presence.
+ent-BedsheetCult = lençol de culto
+     .desc = Você pode sonhar com Nar'Sie se dormir com isso. Parece bastante esfarrapado e brilha com uma presença sobrenatural.
 
-ent-BedsheetGreen = green bedsheet
-    .desc = You might dream of Nar'Sie if you sleep with this. It seems rather tattered and glows of an eldritch presence.
+ent-BedsheetGreen = lençol verde
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetGrey = grey bedsheet
-    .desc = You might dream of Nar'Sie if you sleep with this. It seems rather tattered and glows of an eldritch presence.
+ent-BedsheetGrey = lençol cinza
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetHOP = HOP's bedsheet
-    .desc = It's decorated with a key emblem. For those rare moments when you can rest and cuddle with Ian without someone screaming for you over the radio.
+ent-BedsheetHOP = lençol de HOP
+     .desc = Está decorado com um emblema de chave. Para aqueles raros momentos em que você pode descansar e abraçar Ian sem que alguém grite por você no rádio.
 
-ent-BedsheetHOS = HOS's bedsheet
-    .desc = It's decorated with a shield emblem. While crime doesn't sleep, you do, but you are still THE LAW!
+ent-BedsheetHOS = lençol de HOS
+     .desc = Está decorado com um emblema de escudo. Enquanto o crime não dorme, você dorme, mas ainda é A LEI!
 
-ent-BedsheetIan = Ian bedsheet
-    .desc = It's decorated with a shield emblem. While crime doesn't sleep, you do, but you are still THE LAW!
+ent-BedsheetIan = lençol do Ian
+     .desc = Ian é tudo.
 
-ent-BedsheetMedical = medical bedsheet
-    .desc = It's a sterilized blanket commonly used in the Medbay. Sterilization is voided if a virologist is present onboard the station.
+ent-BedsheetMedical = lençol médico
+     .desc = É uma manta esterilizada comumente usada no Medbay. A esterilização é anulada se um virologista estiver presente a bordo da estação.
 
-ent-BedsheetMime = mime's bedsheet
-    .desc = A very soothing striped blanket.  All the noise just seems to fade out when you're under the covers in this.
+ent-BedsheetMime = lençol do mime
+     .desc = Uma manta listrada muito calmante. Todo o barulho parece desaparecer quando você está debaixo das cobertas.
 
-ent-BedsheetNT = NT bedsheet
-    .desc = It has the Nanotrasen logo on it and an aura of duty.
+ent-BedsheetNT = lençol do NT
+     .desc = Tem o logotipo da Nanotrasen e uma aura de dever.
 
-ent-BedsheetOrange = orange bedsheet
-    .desc = It has the Nanotrasen logo on it and an aura of duty.
+ent-BedsheetOrange = lençol laranja
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetPurple = purple bedsheet
-    .desc = It has the Nanotrasen logo on it and an aura of duty.
+ent-BedsheetPurple = lençol roxo
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetQM = QM's bedsheet
-    .desc = It has the Nanotrasen logo on it and an aura of duty.
+ent-BedsheetQM = lençol do QM
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetRainbow = rainbow bedsheet
-    .desc = It has the Nanotrasen logo on it and an aura of duty.
+ent-BedsheetRainbow = lençol arco-íris
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetRD = RD's bedsheet
-    .desc = It appears to have a beaker emblem, and is made out of fire-resistant material, although it probably won't protect you in the event of fires you're familiar with every day.
+ent-BedsheetRD = lençol de RD
+     .desc = Parece ter um emblema de copo e é feito de material resistente ao fogo, embora provavelmente não irá protegê-lo em caso de incêndios com os quais você está familiarizado todos os dias.
 
-ent-BedsheetRed = red bedsheet
-    .desc = It appears to have a beaker emblem, and is made out of fire-resistant material, although it probably won't protect you in the event of fires you're familiar with every day.
+ent-BedsheetRed = lençol vermelho
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetSyndie = Syndie bedsheet
-    .desc = It has a syndicate emblem and it has an aura of evil.
+ent-BedsheetSyndie = lençol Syndie
+     .desc = Possui um emblema de sindicato e uma aura de maldade.
 
-ent-BedsheetUSA = USA bedsheet
-    .desc = It has a syndicate emblem and it has an aura of evil.
+ent-BedsheetUSA = lençol dos EUA
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetWhite = white bedsheet
-    .desc = It has a syndicate emblem and it has an aura of evil.
+ent-BedsheetWhite = lençol branco
+     .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetWiz = wizard's bedsheet
-    .desc = A special fabric enchanted with magic so you can have an enchanted night. It even glows!
+ent-BedsheetWiz = lençol do assistente
+     .desc = Um tecido especial encantado com magia para você ter uma noite encantada. Até brilha!
 
-ent-BedsheetYellow = yellow bedsheet
-    .desc = A special fabric enchanted with magic so you can have an enchanted night. It even glows!
+ent-BedsheetYellow = lençol amarelo
+     .desc = Um lençol de linho surpreendentemente macio.
 

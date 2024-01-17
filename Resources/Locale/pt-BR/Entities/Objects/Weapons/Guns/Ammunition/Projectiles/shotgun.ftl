@@ -1,21 +1,21 @@
-ent-PelletShotgunSlug = pellet (.50 slug)
-    .desc = { "" }
+ent-PelletShotgunSlug = chumbinho (.50 slug)
+     .desc = { "" }
 
-ent-PelletShotgunBeanbag = beanbag (.50)
-    .desc = { "" }
+ent-PelletShotgunBeanbag = chumbinho beanbag (.50)
+     .desc = { "" }
 
-ent-PelletShotgun = pellet (.50)
-    .desc = { "" }
+ent-PelletShotgun = chumbinho (.50)
+     .desc = { "" }
 
-ent-PelletShotgunIncendiary = pellet (.50 incendiary)
-    .desc = { "" }
+ent-PelletShotgunIncendiary = chumbinho (.50 incendiário)
+     .desc = { "" }
 
-ent-PelletShotgunPractice = pellet (.50 practice)
-    .desc = { "" }
+ent-PelletShotgunPractice = chumbinho (.50 prática)
+     .desc = { "" }
 
-ent-PelletShotgunTranquilizer = pellet (.50 tranquilizer)
-    .desc = { "" }
+ent-PelletShotgunTranquilizer = chumbinho (.50 tranquilizante)
+     .desc = { "" }
 
-ent-PelletShotgunFlare = pellet (.50 flare)
-    .desc = { "" }
+ent-PelletShotgunFlare = chumbinho (.50 flare)
+     .desc = { "" }
 

@@ -1,15 +1,15 @@
-ent-BaseCartridgeRifle = cartridge (.20 rifle)
+ent-BaseCartridgeRifle = cartucho (.20 rifle)
     .desc = { "" }
 
-ent-CartridgeRifle = cartridge (.20 rifle)
+ent-CartridgeRifle = cartucho (.20 rifle)
     .desc = { "" }
 
-ent-CartridgeRifleHighVelocity = cartridge (.20 rifle high-velocity)
+ent-CartridgeRifleHighVelocity = cartucho (.20 rifle alta velocidade)
     .desc = { "" }
 
-ent-CartridgeRiflePractice = cartridge (.20 rifle practice)
+ent-CartridgeRiflePractice = cartucho (.20 rifle prática)
     .desc = { "" }
 
-ent-CartridgeRifleRubber = cartridge (.20 rifle rubber)
+ent-CartridgeRifleRubber = cartucho (.20 rifle borracha)
     .desc = { "" }
 

@@ -1,15 +1,14 @@
-ent-ExGrenade = explosive grenade
-    .desc = Grenade that creates a small but devastating explosion.
+ent-ExGrenade = granada explosiva
+     .desc = Granada que cria uma explosão pequena, mas devastadora.
 
 ent-GrenadeFlashBang = flashbang
-    .desc = Eeeeeeeeeeeeeeeeeeeeee
+     .desc = Eeeeeeeeeeeeeeeeee
 
-ent-SyndieMiniBomb = Syndicate minibomb
-    .desc = A precision sabotage explosive for quickly destroying a machine, dead body, or whatever else needs to go.
+ent-SyndieMiniBomb = Minibomba do Sindicato
+     .desc = Um explosivo de sabotagem de precisão para destruir rapidamente uma máquina, cadáver ou qualquer outra coisa que precise ser destruída.
 
-ent-NuclearGrenade = the nuclear option
-    .desc = Please don't throw it, think of the children.
+ent-NuclearGrenade = a opção nuclear
+     .desc = Por favor, não jogue, pense nas crianças.
 
-ent-ModularGrenade = modular grenade
-    .desc = A grenade casing. Requires a trigger and a payload.
-
+ent-ModularGrenade = granada modular
+     .desc = Um invólucro de granada. Requer um gatilho e uma carga útil.

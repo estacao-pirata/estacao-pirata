@@ -1,12 +1,11 @@
-ent-KitchenKnife = kitchen knife
-    .desc = A general purpose Chef's Knife made by Asters Merchant Guild. Guaranteed to stay sharp for years to come..
+ent-KitchenKnife = faca de cozinha
+     .desc = Uma faca de chef de uso geral feita pela Asters Merchant Guild. Garantido para permanecer afiado nos próximos anos.
 
-ent-ButchCleaver = butcher's cleaver
-    .desc = A huge blade used for chopping and chopping up meat. This includes clowns and clown-by-products.
+ent-ButchCleaver = cutelo de açougueiro
+     .desc = Uma lâmina enorme usada para picar e picar carne. Isso inclui palhaços e subprodutos de palhaços.
 
-ent-CombatKnife = combat knife
-    .desc = A deadly knife intended for melee confrontations.
+ent-CombatKnife = faca de combate
+     .desc = Uma faca mortal destinada a confrontos corpo a corpo.
 
-ent-SurvivalKnife = survival knife
-    .desc = Weapon of first and last resort for combatting space carp.
-
+ent-SurvivalKnife = faca de sobrevivência
+     .desc = Arma de primeiro e último recurso no combate à carpa espacial.

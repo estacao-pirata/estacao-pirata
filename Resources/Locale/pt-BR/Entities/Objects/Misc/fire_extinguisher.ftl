@@ -1,6 +1,5 @@
-ent-FireExtinguisher = fire extinguisher
-    .desc = It extinguishes fires.
+ent-FireExtinguisher = extintor de incêndio
+    .desc = Extingue incêndios.
 
-ent-ExtinguisherSpray = extinguisher spray
-    .desc = It extinguishes fires.
-
+ent-ExtinguisherSpray = spray extintor
+    .desc = Extingue incêndios.

@@ -1,36 +1,35 @@
-ent-WeaponLaserGun = retro laser gun
-    .desc = A weapon using light amplified by the stimulated emission of radiation.
+ent-WeaponLaserGun = arma laser retrô
+     .desc = Arma que utiliza luz amplificada pela emissão estimulada de radiação.
 
-ent-WeaponLaserCarbine = laser gun
-    .desc = Favoured by Nanotrasen Security for being cheap and easy to use.
+ent-WeaponLaserCarbine = arma laser
+     .desc = Preferido pela Nanotrasen Security por ser barato e fácil de usar.
 
-ent-WeaponPulsePistol = pulse pistol
-    .desc = A state of the art energy pistol favoured as a sidearm by the NT-ERT operatives.
+ent-WeaponPulsePistol = pistola de pulso
+     .desc = Uma pistola de energia de última geração, preferida como arma secundária pelos agentes do NT-ERT.
 
-ent-WeaponPulseCarbine = pulse carbine
-    .desc = A high tech energy carbine favoured by the NT-ERT operatives.
+ent-WeaponPulseCarbine = carabina de pulso
+     .desc = Uma carabina de energia de alta tecnologia preferida pelos operativos do NT-ERT.
 
-ent-WeaponPulseRifle = pulse rifle
-    .desc = A weapon that is almost as infamous as its users.
+ent-WeaponPulseRifle = rifle de pulso
+     .desc = Uma arma quase tão famosa quanto seus usuários.atordoador
 
-ent-WeaponLaserCannon = laser cannon
-    .desc = A heavy duty, high powered laser weapon.
+ent-WeaponLaserCannon = canhão laser
+     .desc = Uma arma laser resistente e de alta potência.
 
-ent-WeaponXrayCannon = x-ray cannon
-    .desc = An experimental weapon that uses concentrated x-ray energy against its target.
+ent-WeaponXrayCannon = canhão de raios X
+     .desc = Uma arma experimental que usa energia concentrada de raios X contra seu alvo.
 
-ent-WeaponDisabler = disabler
-    .desc = A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+ent-WeaponDisabler = atordoador
+     .desc = Uma arma de autodefesa que esgota os alvos orgânicos, enfraquecendo-os até entrarem em colapso.
 
 ent-WeaponTaser = taser
-    .desc = A low-capacity, energy-based stun gun used by security teams to subdue targets at range.
-    .suffix = Obsolete
+     .desc = Uma arma de choque de baixa capacidade baseada em energia usada por equipes de segurança para subjugar alvos ao alcance.
+     .suffix = Obsoleto
 
-ent-WeaponAntiqueLaser = antique laser gun
-    .desc = This is an antique laser gun. All craftsmanship is of the highest quality. It is decorated with assistant leather and chrome. The object menaces with spikes of energy.
-    .suffix = Obsolete
+ent-WeaponAntiqueLaser = arma laser antiga
+     .desc = Esta é uma arma laser antiga. Todo o artesanato é da mais alta qualidade. É decorado com couro auxiliar e cromo. O objeto ameaça com picos de energia.
+     .suffix = Obsoleto
 
-ent-WeaponAdvancedLaser = advanced laser gun
-    .desc = An experimental laser gun with a self charging nuclear powered battery.
-    .suffix = Obsolete
-
+ent-WeaponAdvancedLaser = arma laser avançada
+     .desc = Uma arma laser experimental com uma bateria nuclear autocarregável.
+     .suffix = Obsoleto

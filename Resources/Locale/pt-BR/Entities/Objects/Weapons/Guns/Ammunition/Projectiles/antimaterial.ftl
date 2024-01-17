@@ -1,3 +1,2 @@
-ent-BulletAntiMaterial = bullet (.60 anti-material)
-    .desc = { "" }
-
+ent-BulletAntiMaterial = bala (.60 antimaterial)
+     .desc = { "" }

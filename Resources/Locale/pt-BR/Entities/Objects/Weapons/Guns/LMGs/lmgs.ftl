@@ -1,6 +1,5 @@
 ent-BaseWeaponLightMachineGun = BaseWeaponLightMachineGun
-    .desc = A rooty tooty point and shooty.
+     .desc = Um ponto enraizado e atirado.
 
 ent-WeaponLightMachineGunL6 = L6 SAW
-    .desc = A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses .30 rifle ammo.
-
+     .desc = Um LMG de fabricação bastante tradicional com um cabo de pistola de madeira agradavelmente lacado. Usa munição de rifle .30.
