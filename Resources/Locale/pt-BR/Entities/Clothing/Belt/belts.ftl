@@ -17,7 +17,7 @@ ent-ClothingBeltPlant = cinto botânico
     .desc = Um cinto capaz de segurar vários equipamentos hidropônicos. Surpreendentemente, não é verde.
 
 ent-ClothingBeltSecurity = cinto de segurança
-    .desc = Pode segurar equipamentos de segurança, como algemas e até mesmo um bastão elétrico.
+    .desc = Pode segurar equipamentos de segurança, como algemas e até mesmo um cassetete.
 
 ent-ClothingBeltSheath = bainha
     .desc = Uma Bainha elegante, capaz de armazenar um Sabre.
