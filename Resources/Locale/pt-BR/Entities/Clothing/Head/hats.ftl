@@ -7,7 +7,7 @@ ent-ClothingHeadHatBeret = boina
 ent-ClothingHeadHatBeretEngineering = boina de engenheiro
     .desc = Uma boina com a insígnia de engenheiro estampada. Dane-se a segurança, o que importa é o estilo!
 
-ent-ClothingHeadHatBeretHoS = boina de hos
+ent-ClothingHeadHatBeretHoS = boina de chefe de segurança
     .desc = Uma boina preta com uma insígnia de patente nela, pertencente ao Chefe dos Seguranças.
 
 ent-ClothingHeadHatBeretWarden = boina de carcereiro
@@ -37,10 +37,10 @@ ent-ClothingHeadHatFedoraGrey = fedora cinza
 ent-ClothingHeadHatFez = fez
     .desc = Esse chapéu não faz nada, mas ele já fez.
 
-ent-ClothingHeadHatHopcap = boné do hop
+ent-ClothingHeadHatHopcap = boné do chefe de funcionários
     .desc = Moda casual de luxo, tô chique confortável...
 
-ent-ClothingHeadHatHoshat = chapéu do hos
+ent-ClothingHeadHatHoshat = chapéu do chefe de segurança
     .desc = Essa cidade é pequena de mais para dois xerifes..
 
 ent-ClothingHeadHatOutlawHat = chapéu de fora da lei

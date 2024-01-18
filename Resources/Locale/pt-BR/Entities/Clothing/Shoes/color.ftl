@@ -1,27 +1,27 @@
-ent-ClothingShoesColorBlack = black shoes
-    .desc = Stylish black shoes.
+ent-ClothingShoesColorBlack = sapatos pretos
+     .desc = Sapatos pretos estilosos.
 
-ent-ClothingShoesColorBlue = blue shoes
-    .desc = Stylish blue shoes.
+ent-ClothingShoesColorBlue = sapatos azuis
+     .desc = Sapatos azuis estilosos.
 
-ent-ClothingShoesColorBrown = brown shoes
-    .desc = A pair of brown shoes.
+ent-ClothingShoesColorBrown = sapatos marrons
+     .desc = Um par de sapatos marrons.
 
-ent-ClothingShoesColorGreen = green shoes
-    .desc = Stylish green shoes.
+ent-ClothingShoesColorGreen = sapatos verdes
+     .desc = Sapatos verdes estilosos.
 
-ent-ClothingShoesColorOrange = orange shoes
-    .desc = Stylish orange shoes.
+ent-ClothingShoesColorOrange = sapatos laranja
+     .desc = Sapatos laranja estilosos.
 
-ent-ClothingShoesColorPurple = purple shoes
-    .desc = Stylish purple shoes.
+ent-ClothingShoesColorPurple = sapatos roxos
+     .desc = Sapatos roxos estilosos.
 
-ent-ClothingShoesColorRed = red shoes
-    .desc = Stylish red shoes.
+ent-ClothingShoesColorRed = sapatos vermelhos
+     .desc = Sapatos vermelhos estilosos.
 
-ent-ClothingShoesColorWhite = white shoes
-    .desc = Don't take them off at your office Christmas party.
+ent-ClothingShoesColorWhite = sapatos brancos
+     .desc = Não os tire na festa de Natal do seu escritório.
 
-ent-ClothingShoesColorYellow = yellow shoes
-    .desc = Stylish yellow shoes.
+ent-ClothingShoesColorYellow = sapatos amarelos
+     .desc = Sapatos amarelos elegantes.
 

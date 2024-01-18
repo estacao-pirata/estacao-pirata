@@ -14,5 +14,4 @@ ent-ClothingOuterVestHazard = colete alta-viz
     .desc = Um colete de alta visibilidade, utilizado em obras e relacionados.
 
 ent-ClothingOuterVest = colete
-    .desc = A thick vest with a rubbery, water-resistant shell.
-
+     .desc = Um colete grosso com revestimento emborrachado e resistente à água.

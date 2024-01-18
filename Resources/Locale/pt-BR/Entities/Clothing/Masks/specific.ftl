@@ -1,4 +1,3 @@
-ent-ClothingMaskGasChameleon = gas mask
-    .desc = A face-covering mask that can be connected to an air supply.
-    .suffix = Chameleon
-
+ent-ClothingMaskGasChameleon = máscara de gás
+     .desc = Uma máscara facial que pode ser conectada a um suprimento de ar.
+     .suffix = Camaleão

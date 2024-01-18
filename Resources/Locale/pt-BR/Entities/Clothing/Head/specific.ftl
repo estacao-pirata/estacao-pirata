@@ -1,4 +1,3 @@
-ent-ClothingHeadHatChameleon = beret
-    .desc = A beret, an artists favorite headwear.
-    .suffix = Chameleon
-
+ent-ClothingHeadHatChameleon = boina
+     .desc = Uma boina, um chapéu favorito dos artistas.
+     .suffix = Camaleão

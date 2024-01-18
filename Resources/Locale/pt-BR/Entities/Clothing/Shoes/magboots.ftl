@@ -1,12 +1,11 @@
-ent-ClothingShoesBootsMag = magboots
-    .desc = Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+ent-ClothingShoesBootsMag = botas magnéticas
+     .desc = Botas magnéticas, frequentemente usadas durante atividades extraveiculares para garantir que o usuário permaneça preso com segurança ao veículo.
 
-ent-ClothingShoesBootsMagAdv = advanced magboots
-    .desc = State-of-the-art magnetic boots that do not slow down their wearer.
+ent-ClothingShoesBootsMagAdv = botas magnéticas avançadas
+     .desc = Botas magnéticas de última geração que não retardam o usuário.
 
-ent-ClothingShoesBootsMagBlinding = magboots of blinding speed
-    .desc = These would look fetching on a fetcher like you.
+ent-ClothingShoesBootsMagBlinding = botas magnéticas de velocidade ofuscante
+     .desc = Isso ficaria atraente para um buscador como você.
 
-ent-ClothingShoesBootsMagSyndie = blood-red magboots
-    .desc = Reverse-engineered magnetic boots that have a heavy magnetic pull. Property of Gorlex Marauders.
-
+ent-ClothingShoesBootsMagSyndie = magboots vermelho-sangue
+     .desc = Botas magnéticas de engenharia reversa que possuem forte atração magnética. Propriedade dos Saqueadores Gorlax.

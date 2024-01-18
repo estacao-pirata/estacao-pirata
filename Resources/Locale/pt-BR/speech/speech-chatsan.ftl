@@ -230,6 +230,9 @@ chatsan-replacement-tambem = também
 chatsan-word-83 = agr
 chatsan-replacement-83 = agora
 
+chatsan-word-84 = vlw
+chatsan-replacement-84 = valeu
+
 chatsan-word-85 = tendi
 chatsan-replacement-85 = entendi
 
