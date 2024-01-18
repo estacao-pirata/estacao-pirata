@@ -1,5 +1,3 @@
-
-
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Chemistry;
@@ -11,4 +9,20 @@ public sealed class SharedMedipenRefiller
     {
         Key
     }
+
+}
+
+[Serializable, NetSerializable]
+public sealed class MedipenRefillerUpdateState : BoundUserInterfaceState
+{
+    public List<MedipenRecipePrototype> Recipes;
+    public MedipenRefillerUpdateState(List<MedipenRecipePrototype> recipes)
+    {
+        Recipes = recipes;
+    }
+}
+
+[Serializable, NetSerializable]
+public sealed class MedipenRefillerSyncRequestMessage : BoundUserInterfaceMessage
+{
 }
