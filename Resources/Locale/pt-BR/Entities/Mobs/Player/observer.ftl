@@ -1,3 +1,2 @@
-ent-MobObserver = observer
-    .desc = Boo!
-
+ent-MobObserver = observador
+     .desc = Vaia!

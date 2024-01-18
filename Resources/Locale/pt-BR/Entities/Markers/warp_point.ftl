@@ -1,3 +1,3 @@
-ent-WarpPoint = warp point
+ent-WarpPoint = ponto de dobra
     .desc = { "" }
 
