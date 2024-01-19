@@ -1,12 +1,12 @@
-ent-LightPostSmall = post light
+ent-LightPostSmall = luminária de chão
     .desc = An always powered light.
-    .suffix = Always Powered
+    .suffix = Sempre ligada
 
-ent-PoweredLightPostSmallEmpty = post light
-    .desc = A small light post.
-    .suffix = Empty
+ent-PoweredLightPostSmallEmpty = luminária de chão pequena
+    .desc = Uma luminária de chão pequena, precisa de uma lampada para funcionar.
+    .suffix = Vazia
 
-ent-PoweredLightPostSmall = post light
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
-    .suffix = None
+ent-PoweredLightPostSmall = luminária de chão pequena
+    .desc = Uma luminária de chão pequena, precisa de uma lampada para funcionar.
+    .suffix = Nada
 
