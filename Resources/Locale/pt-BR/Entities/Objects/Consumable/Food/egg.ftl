@@ -1,9 +1,8 @@
-ent-PuddleEgg = egg
-    .desc = If the floor was a little hotter this would fry.
+ent-PuddleEgg = ovo
+     .desc = Se o chão estivesse um pouco mais quente isso iria fritar.
 
-ent-Eggshells = eggshells
-    .desc = You're walkin' on 'em bud.
+ent-Eggshells = cascas de ovo
+     .desc = Você está pisando neles, amigo.
 
-ent-FoodEgg = egg
-    .desc = You're walkin' on 'em bud.
-
+ent-FoodEgg = ovo
+     .desc = Você está pisando neles, amigo.

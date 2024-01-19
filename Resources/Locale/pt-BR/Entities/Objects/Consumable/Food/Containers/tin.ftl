@@ -1,42 +1,41 @@
-ent-FoodTinBase = tin
-    .desc = A tin of something, sealed tight.
+ent-FoodTinBase = lata
+     .desc = Uma lata de alguma coisa, bem lacrada.
 
-ent-FoodTinBaseTrash = empty tin
-    .desc = An empty tin. Could get a bit of metal from this.
+ent-FoodTinBaseTrash = lata vazia
+     .desc = Uma lata vazia. Poderia pegar um pouco de metal com isso.
 
-ent-FoodTinPeaches = tinned peaches
-    .desc = Just a nice can of ripe peaches swimming in their own juices.
+ent-FoodTinPeaches = pêssegos em lata
+     .desc = Apenas uma bela lata de pêssegos maduros nadando em seu próprio suco.
 
-ent-FoodTinPeachesOpen = tinned peaches
-    .desc = Just a nice can of ripe peaches swimming in their own juices.
+ent-FoodTinPeachesOpen = pêssegos em lata
+     .desc = Apenas uma bela lata de pêssegos maduros nadando em seu próprio suco.
 
-ent-FoodTinPeachesTrash = tinned peaches
-    .desc = Just a nice can of ripe peaches swimming in their own juices.
+ent-FoodTinPeachesTrash = pêssegos em lata
+     .desc = Apenas uma bela lata de pêssegos maduros nadando em seu próprio suco.
 
-ent-FoodTinPeachesMaint = Maintenance Peaches
-    .desc = Just a nice can of ripe peaches swimming in their own juices.
+ent-FoodTinPeachesMaint = Pêssegos de Manutenção
+     .desc = Apenas uma bela lata de pêssegos maduros nadando em seu próprio suco.
 
-ent-FoodTinPeachesMaintOpen = Maintenance Peaches
-    .desc = Just a nice can of ripe peaches swimming in their own juices.
+ent-FoodTinPeachesMaintOpen = Pêssegos de Manutenção
+     .desc = Apenas uma bela lata de pêssegos maduros nadando em seu próprio suco.
 
-ent-FoodTinPeachesMaintTrash = Maintenance Peaches
-    .desc = Just a nice can of ripe peaches swimming in their own juices.
+ent-FoodTinPeachesMaintTrash = Pêssegos de Manutenção
+     .desc = Apenas uma bela lata de pêssegos maduros nadando em seu próprio suco.
 
-ent-FoodTinBeans = tin of beans
-    .desc = Musical fruit in a slightly less musical container.
+ent-FoodTinBeans = lata de feijão
+     .desc = Fruta musical em um recipiente um pouco menos musical.
 
-ent-FoodTinBeansOpen = tin of beans
-    .desc = Musical fruit in a slightly less musical container.
+ent-FoodTinBeansOpen = lata de feijão
+     .desc = Fruta musical em um recipiente um pouco menos musical.
 
-ent-FoodTinBeansTrash = tin of beans
-    .desc = Musical fruit in a slightly less musical container.
+ent-FoodTinBeansTrash = lata de feijão
+     .desc = Fruta musical em um recipiente um pouco menos musical.
 
-ent-FoodTinMRE = tinned meat
-    .desc = A standard issue tin of meat with a convenient pull tab.
+ent-FoodTinMRE = carne enlatada
+     .desc = Uma lata de carne padrão com uma aba conveniente para puxar.
 
-ent-FoodTinMREOpen = tinned meat
-    .desc = A standard issue tin of meat.
+ent-FoodTinMREOpen = carne enlatada
+     .desc = Uma lata de carne padrão.
 
-ent-FoodTinMRETrash = tinned meat
-    .desc = A standard issue tin of meat.
-
+ent-FoodTinMRETrash = carne enlatada
+     .desc = Uma lata de carne padrão.

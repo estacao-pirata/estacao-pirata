@@ -1,48 +1,47 @@
-ent-FoodFrozenSandwich = ice-cream sandwich
-    .desc = Portable ice-cream in its own packaging.
+ent-FoodFrozenSandwich = sanduíche de sorvete
+     .desc = Sorvete portátil em embalagem própria.
 
-ent-FoodFrozenSandwichStrawberry = strawberry ice-cream sandwich
-    .desc = Portable ice-cream in its own packaging of the strawberry variety.
+ent-FoodFrozenSandwichStrawberry = sanduíche de sorvete de morango
+     .desc = Sorvete portátil em embalagem própria da variedade morango.
 
-ent-FoodFrozenFreezy = space freezy
-    .desc = The best ice-cream in space.
+ent-FoodFrozenFreezy = espaço congelado
+     .desc = O melhor sorvete do espaço.
 
-ent-FoodFrozenSundae = ice-cream sundae
-    .desc = A classic dessert.
+ent-FoodFrozenSundae = sundae de sorvete
+     .desc = Uma sobremesa clássica.
 
 ent-FoodFrozenCornuto = cornuto
-    .desc = A neapolitan vanilla and chocolate ice-cream cone. It menaces with a sprinkling of caramelized nuts.
+     .desc = Uma casquinha de sorvete napolitana de baunilha e chocolate. Ameaça com uma pitada de nozes caramelizadas.
 
-ent-FoodFrozenPopsicleOrange = orange creamsicle
-    .desc = A classic orange creamsicle. A sunny frozen treat.
+ent-FoodFrozenPopsicleOrange = creme de laranja
+     .desc = Um clássico creme de laranja. Um deleite ensolarado e congelado.
 
-ent-FoodFrozenPopsicleBerry = berry creamsicle
-    .desc = A vibrant berry creamsicle. A berry good frozen treat.
+ent-FoodFrozenPopsicleBerry = creme de frutas vermelhas
+     .desc = Um creme vibrante de frutas vermelhas. Uma boa guloseima congelada.
 
-ent-FoodFrozenPopsicleJumbo = jumbo ice-cream
-    .desc = A luxurious ice-cream covered in rich chocolate. It's smaller than you remember.
+ent-FoodFrozenPopsicleJumbo = sorvete gigante
+     .desc = Um luxuoso sorvete coberto com um rico chocolate. É menor do que você lembra.
 
-ent-FoodFrozenSnowcone = flavorless snowcone
-    .desc = It's just shaved ice. Still fun to chew on.
+ent-FoodFrozenSnowcone = cone de neve sem sabor
+     .desc = É apenas gelo picado. Ainda é divertido mastigar.
 
-ent-FoodFrozenSnowconeBerry = berry snowcone
-    .desc = Berry syrup drizzled over a snowball in a paper cup.
+ent-FoodFrozenSnowconeBerry = cone de neve de baga
+     .desc = Xarope de frutas vermelhas espalhado sobre uma bola de neve em um copo de papel.
 
-ent-FoodFrozenSnowconeFruit = fruit salad snowcone
-    .desc = A delightful mix of citrus syrups drizzled over a snowball in a paper cup.
+ent-FoodFrozenSnowconeFruit = cone de neve para salada de frutas
+     .desc = Uma deliciosa mistura de xaropes cítricos regados sobre uma bola de neve em um copo de papel.
 
-ent-FoodFrozenSnowconeClown = clowncone
-    .desc = Laughter drizzled over a snowball in a paper cup.
+ent-FoodFrozenSnowconeClown = cone de palhaço
+     .desc = Risadas espalhadas sobre uma bola de neve em um copo de papel.
 
-ent-FoodFrozenSnowconeMime = mime snowcone
-    .desc = ...
+ent-FoodFrozenSnowconeMime = mímica de cone de neve
+     .desc = ...
 
-ent-FoodFrozenSnowconeRainbow = rainbow snowcone
-    .desc = A very colorful snowball in a paper cup.
+ent-FoodFrozenSnowconeRainbow = cone de neve arco-íris
+     .desc = Uma bola de neve bem colorida em um copo de papel.
 
-ent-FoodFrozenSnowconeTrash = paper cone
-    .desc = A crumpled paper cone used for an icy treat. Worthless.
+ent-FoodFrozenSnowconeTrash = cone de papel
+     .desc = Um cone de papel amassado usado para uma guloseima gelada. Inútil.
 
-ent-FoodFrozenPopsicleTrash = popsicle stick
-    .desc = Once held a delicious treat. Now, 'tis barren.
-
+ent-FoodFrozenPopsicleTrash = palito de picolé
+     .desc = Uma vez realizada uma guloseima deliciosa. Agora, é estéril.
