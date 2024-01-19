@@ -1,36 +1,36 @@
-ent-BannerBase = base banner
-    .desc = It's the concept of a banner, you shouldn't be seeing this.
+ent-BannerBase = estandarte base
+    .desc = É o modelo de um banner, você não devia estar vendo isso.
 
-ent-BannerNanotrasen = nanotrasen banner
-    .desc = A banner displaying the Nanotrasen logo. It looks rather cheap.
+ent-BannerNanotrasen = estandarte da Nanotrasen
+    .desc = Um estandarte que mostra o logo da Nanotrasen. Parece bem barato.
 
-ent-BannerCargo = cargo banner
-    .desc = A banner displaying the colors of the cargo department. Not. Cargonia.
+ent-BannerCargo = estandarte da logística
+    .desc = Um estandarte mostrando as cores do departamento de logistica. Não. É. Da. Cargonia.
 
-ent-BannerEngineering = engineering banner
-    .desc = A banner displaying the colors of the engineering deparment. Scrungularty.
+ent-BannerEngineering = estandarte da engenheria
+    .desc = Um estrandarte mostrando as cores do departamento de engenharia. Escungrularidade.
 
-ent-BannerMedical = medical banner
-    .desc = A banner displaying the colors of the medical deparment. How sterile.
+ent-BannerMedical = estandarte da medicina
+    .desc = Um estandarte mostrando as cores do departamento de medicina. Bem estéril.
 
-ent-BannerRevolution = revolution banner
+ent-BannerRevolution = estandarte revolucionário
     .desc = A banner displaying revolution. Viva!
 
-ent-BannerScience = science banner
-    .desc = A banner displaying the colors of the science department. Where stupidity is proven greater than the universe.
+ent-BannerScience = estandarte das pesquisas
+    .desc = Um estandarte mostrando as cores do departamento de pesquisas. Onde estupidez é, de fato, maior que o universo.
 
-ent-BannerSecurity = security banner
-    .desc = A banner displaying the colors of the shitcurity department. Security, my bad.
+ent-BannerSecurity = estandarte da segurança
+    .desc = Um estandarte mostrando as cores da policia mili- perdão, quis dizer segurança.
 
-ent-BannerBlue = blue banner
-    .desc = A banner displaying the color blue. Dabudidabudai.
+ent-BannerBlue = estandarte azul
+    .desc = Um estandarte azul. Dabudidabudai.
 
-ent-BannerRed = red banner
-    .desc = A banner displaying the color red. The edgy one.
+ent-BannerRed = estandarte vermelho
+    .desc = Um estandarte vermelho. O que se acha muito.
 
-ent-BannerYellow = yellow banner
-    .desc = A banner displaying the color yellow. Reminds you of ducks and lemon stands.
+ent-BannerYellow = estandarte amarelo
+    .desc = Um estandarte amarelo. Te lembra de patos e limão.
 
-ent-BannerGreen = green banner
-    .desc = A banner displaying the color green. Grass, leaves, guacamole.
+ent-BannerGreen = estandarte verde
+    .desc = Um estandarte verde. Que nem grama, grana, guacamole.
 
