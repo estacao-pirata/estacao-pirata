@@ -1,9 +1,9 @@
-ent-Bed = bed
-    .desc = This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
+ent-Bed = cama
+    .desc = Da pra deitar, tirar uma soneca, falar no telefone com as pernas pra cima. Descançar te cura extremamente devagar.
 
-ent-MedicalBed = medical bed
-    .desc = A hospital bed for patients to recover in. Resting here provides fairly slow healing.
+ent-MedicalBed = leito
+    .desc = Uma cama estéril para pacientes se recuperarem. Descançar te cura bem devagar.
 
-ent-DogBed = dog bed
-    .desc = A comfy-looking dog bed. You can even strap your pet in, in case the gravity turns off.
+ent-DogBed = cama de cachorro
+    .desc = Uma cama de cachorro bem confortavel para seu amiquinho peludo, ou qualquer com menos vergonha que o normal.
 
