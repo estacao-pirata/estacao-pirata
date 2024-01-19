@@ -1,3 +1,3 @@
-ent-Bookshelf = bookshelf
-    .desc = Mostly filled with erotica.
+ent-Bookshelf = estante de livros
+    .desc = Contém todo conhecimento inutil do universo.
 

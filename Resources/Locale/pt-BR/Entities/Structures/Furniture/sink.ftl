@@ -1,20 +1,20 @@
-ent-SinkEmpty = sink
-    .desc = The faucets have been tightened to the maximum possible torque but are still known to drip.
-    .suffix = Empty
+ent-SinkEmpty = pia
+    .desc = O registro já foi apertado várias vezes mas ainda vaza.
+    .suffix = Vazio
 
-ent-Sink = sink
-    .desc = The faucets have been tightened to the maximum possible torque but are still known to drip.
-    .suffix = Water
+ent-Sink = pia
+    .desc = O registro já foi apertado várias vezes mas ainda vaza.
+    .suffix = Água
 
-ent-SinkWide = wide sink
-    .desc = The faucets have been tightened to the maximum possible torque but are still known to drip.
-    .suffix = Water
+ent-SinkWide = pia larga
+    .desc = O registro já foi apertado várias vezes mas ainda vaza.
+    .suffix = Água
 
-ent-SinkStemless = sink
-    .desc = The faucets have been tightened to the maximum possible torque but are still known to drip.
-    .suffix = Water
+ent-SinkStemless = pia
+    .desc = O registro já foi apertado várias vezes mas ainda vaza.
+    .suffix = Água
 
-ent-SinkStemlessWater = sink
-    .desc = The faucets have been tightened to the maximum possible torque but are still known to drip.
-    .suffix = Water
+ent-SinkStemlessWater = pia
+    .desc = O registro já foi apertado várias vezes mas ainda vaza.
+    .suffix = Água
 

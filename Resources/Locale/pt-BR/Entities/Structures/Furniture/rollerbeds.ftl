@@ -1,9 +1,9 @@
-ent-RollerBed = rollerbed
-    .desc = Used to carry patients around without damaging them.
+ent-RollerBed = maca
+    .desc = Usada para carregar pacientes sem machuca-los
 
-ent-CheapRollerBed = rollerbed
-    .desc = A run-down rollerbed. Used to carry patients around.
+ent-CheapRollerBed = maca
+    .desc = Uma maca barata e bem usada.
 
-ent-EmergencyRollerBed = rollerbed
-    .desc = A robust looking rollerbed used for emergencies.
+ent-EmergencyRollerBed = maca
+    .desc = Uma maca robusta para emergências
 

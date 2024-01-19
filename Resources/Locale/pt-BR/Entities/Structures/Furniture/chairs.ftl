@@ -1,29 +1,29 @@
 ent-SeatBase = cadeira
-    .desc = Você senta nisso. Seja voluntariamente ou à força.
+    .desc = Sente-se ou seja sentado.
 
 ent-Chair = cadeira
-    .desc = Você senta nisso. Seja voluntariamente ou à força.
+    .desc = Sente-se ou seja sentado.
 
 ent-Stool = banco
-    .desc = Aplicar bunda.
+    .desc = Não é o mais confortavel.
 
 ent-StoolBar = banco de bar
-    .desc = Aplicar bunda.
+    .desc = Cuidado para não cair enquanto gira.
 
 ent-ChairOfficeLight = cadeira de escritório branca
-    .desc = Aplicar bunda.
+    .desc = Cuidado para não cair enquanto gira.
 
 ent-ChairOfficeDark = cadeira de escritório escura
-    .desc = Aplicar bunda.
+    .desc = Cuidado para não cair enquanto gira.
 
-ent-ComfyChair = cadeira confortável
-    .desc = Parece confortável.
+ent-ComfyChair = poltrona
+    .desc = Confortável e luxuosa.
 
 ent-ChairPilotSeat = acento de piloto
     .desc = O acento de piloto de uma nave prestigiosa.
 
 ent-ChairWood = cadeira de madeira
-    .desc = O acento de piloto de uma nave prestigiosa.
+    .desc = Cadeira de casa de vó.
 
 ent-ChairRitual = cadeira ritual
     .desc = Parece desconfortável.
@@ -32,5 +32,5 @@ ent-ChairCursed = cadeira amaldiçoada
     .desc = Está encarando de volta.
 
 ent-ChairFolding = cadeira dobrável
-    .desc = Se você carregar seis dessas você se tornará a pessoa mais legal na igreja.
+    .desc = Perfeita para trapacear em lutas.
 

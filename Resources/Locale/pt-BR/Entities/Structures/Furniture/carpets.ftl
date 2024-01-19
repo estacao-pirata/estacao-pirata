@@ -1,27 +1,27 @@
-ent-Carpet = red carpet
+ent-Carpet = tapete vermelho
     .desc = Fancy walking surface.
 
-ent-CarpetBlack = black carpet
+ent-CarpetBlack = tapete preto
     .desc = Fancy walking surface.
 
-ent-CarpetPink = pink carpet
+ent-CarpetPink = tapete rosa
     .desc = Fancy walking surface.
 
-ent-CarpetBlue = blue carpet
+ent-CarpetBlue = tapete azul
     .desc = Fancy walking surface.
 
-ent-CarpetGreen = green carpet
+ent-CarpetGreen = tapete verde
     .desc = Fancy walking surface.
 
-ent-CarpetOrange = orange carpet
+ent-CarpetOrange = tapete laranja
     .desc = Fancy walking surface.
 
-ent-CarpetSBlue = skyblue carpet
+ent-CarpetSBlue = tapete azul claro
     .desc = Fancy walking surface.
 
-ent-CarpetPurple = purple carpet
+ent-CarpetPurple = tapete roxo
     .desc = Fancy walking surface.
 
-ent-CarpetChapel = chapel's carpet
+ent-CarpetChapel = tapete da capela
     .desc = Fancy walking surface.
 

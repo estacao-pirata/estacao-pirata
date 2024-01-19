@@ -1,8 +1,8 @@
-ent-ToiletEmpty = toilet
-    .desc = The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
-    .suffix = Empty
+ent-ToiletEmpty = vaso sanitário
+    .desc = Uma unidade sanitária alemã HT-451, o pico da tecnologia. Essa está surpreendentemente limpa. 
+    .suffix = Vazia
 
-ent-ToiletDirtyWater = toilet
-    .desc = The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
-    .suffix = Dirty Water
+ent-ToiletDirtyWater = vaso sanitário
+    .desc = Uma unidade sanitária alemã HT-451, o pico da tecnologia. Essa está não-surpreendentemente suja. 
+    .suffix = Água suja
 
