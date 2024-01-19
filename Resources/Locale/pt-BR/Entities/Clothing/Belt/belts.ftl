@@ -49,3 +49,8 @@ ent-ClothingBeltSuspenders = suspensórios
 ent-ClothingBeltWand = cinto de varinhas mágicas
     .desc = Um cinto feito para todas suas varinhas mágicas estupêndas, portadoras poder inimaginável.
 
+ent-ClothingBeltMercWebbing = colete tático mercenário
+    .desc = Segura para que precisar para combate.
+
+ent-ClothingBeltSalvageWebbing = colete de exploração
+    .desc = Sistema perfeito para guardar essenciais para trabalho no espaço.
