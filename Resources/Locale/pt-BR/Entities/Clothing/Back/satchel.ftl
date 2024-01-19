@@ -1,29 +1,29 @@
-ent-ClothingBackpackSatchel = pochete
-    .desc = Uma Pochete muito elegante.
+ent-ClothingBackpackSatchel = bolsa
+    .desc = Uma bolsa de moda.
 
-ent-ClothingBackpackSatchelEngineering = pochete de engenheiro
-    .desc = Uma pochete resistente com alguns bolsos a mais.
+ent-ClothingBackpackSatchelEngineering = bolsa da engenharia
+    .desc = Uma bolsa resistente com muitos bolsos.
 
-ent-ClothingBackpackSatchelMedical = pochete de médico
-    .desc = Uma pochete esterilizada, utilizada pelos departamentos médicos.
+ent-ClothingBackpackSatchelMedical = bolsa da medicina
+    .desc = Uma bolsa esterilizada, utilizada pelos departamentos médicos.
 
-ent-ClothingBackpackSatchelChemistry = pochete de químico
-    .desc = Uma pochete esterilizada, customizada em cores que representam os Químicos.
+ent-ClothingBackpackSatchelChemistry = bolsa da química
+    .desc = Uma bolsa esterilizada, customizada em cores que representam os químicos.
 
-ent-ClothingBackpackSatchelScience = pochete de cientista
-    .desc = Uma pochete útil no armazenamento de substancias nocivas.
+ent-ClothingBackpackSatchelScience = bolsa de pesquisas
+    .desc = Uma bolsa útil no armazenamento de substancias nocivas.
 
-ent-ClothingBackpackSatchelSecurity = pochete de segurança
-    .desc = Uma pochete robusta, tem cheiro de corrupção.
+ent-ClothingBackpackSatchelSecurity = bolsa da segurança
+    .desc = Uma bolsa robusta, tem cheiro de corrupção.
 
-ent-ClothingBackpackSatchelCaptain = pochete do capitão
-    .desc = Uma pochete feita exclusivamente para oficiais Nanotrasen.
+ent-ClothingBackpackSatchelCaptain = bolsa do capitão
+    .desc = Uma bolsa feita exclusivamente para oficiais Nanotrasen.
 
-ent-ClothingBackpackSatchelHydroponics = pochete hidropônica
-    .desc = Uma pochete 100% vegana! Se é que isso é possível...
+ent-ClothingBackpackSatchelHydroponics = bolsa da botânica
+    .desc = Uma bolsa 100% vegana!
 
-ent-ClothingBackpackSatchelSalvage = pochete de salvagem
-    .desc = Uma pochete surrada. Pode conter tesouros de outro mundo!
+ent-ClothingBackpackSatchelSalvage = bolsa de exploração
+    .desc = Uma bolsa surrada. Pode conter tesouros de outro mundo!
 
-ent-ClothingBackpackSatchelHolding = bolsa de Holding
-    .desc = Uma bolsa que se abre em um bolsão localizado de bluespace.
+ent-ClothingBackpackSatchelHolding = bolsa interdimensional
+    .desc = Uma bolsa que contém um buraco de minhoca ao bluespace.

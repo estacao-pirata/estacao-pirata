@@ -1,3 +1,3 @@
-ent-ClothingHeadsetChameleon = headset de passageiro
-     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
-     .suffix = Chameleon
+ent-ClothingHeadsetChameleon = passenger headset
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
+    .suffix = Camaleão
