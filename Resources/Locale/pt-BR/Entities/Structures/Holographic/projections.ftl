@@ -1,6 +1,6 @@
-ent-HolosignWetFloor = wet floor sign
-    .desc = The words flicker as if they mean nothing.
+ent-HolosignWetFloor = placa de chão molhado
+    .desc = O texto é dificil de ler quando não se tenta.
 
-ent-HoloFan = holofan
-    .desc = A barrier of hard light that blocks air, but nothing else.
+ent-HoloFan = vedação holográfica
+    .desc = Uma barreira de luz maciça que bloqueia o ar, mas deixa qualquer outra coisa passar.
 
