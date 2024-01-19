@@ -55,3 +55,21 @@ ent-ClothingBackpackERTClown = mochila de palhaço ert
 ent-ClothingBackpackHolding = mochila interdimensional
     .desc = Uma mochila que contém um buraco de minhoca ao bluespace.
 
+ent-ClothingBackpackIan = mochila do Ian
+    .desc = As vezes ele usa ela.
+
+ent-ClothingBackpackAtmospherics = mochila de atmosféricos
+    .desc = Uma mochila à prova de fogo. Tem cheiro de plasma.
+
+ent-ClothingBackpackGenetics = mochila da genética
+    .desc = Uma mochila quase idestrutível, caso um hulk caia na porrada contigo.
+
+ent-ClothingBackpackCargo = mochila de carga
+    .desc = Uma mochila forte para roubar os suprimentos da estação.
+
+ent-ClothingBackpackMerc = mochila de mercenário
+    .desc = Uma mochila que já passou por altos e baixos, ótima para combate.
+
+ent-ClothingBackpackCluwne = jisos jon juzinton
+    .desc = Juma jochila juzinástica! Jeita jor Jonk! Jo.
+    .suffix = irremovível
