@@ -52,3 +52,17 @@ ent-ClothingBackpackDuffelSyndicateMedicalBundle = mala do sindicato
 ent-ClothingBackpackDuffelHolding = mala interdimensional
     .desc = Uma mala que contém um buraco de minhoca ao bluespace.
 
+ent-ClothingBackpackDuffelAtmospherics = mala de atmosféricos
+    .desc = Uma mala espaçosa e à prova de fogo. Tem cheiro de plasma.
+
+ent-ClothingBackpackDuffelVirology = mala da virologia
+    .desc = Uma mala espaçosa hipoalergênica. Feita para previnir contaminações patogênicas. Cheira a macacos.
+
+ent-ClothingBackpackDuffelGenetics = mala da genética
+    .desc = Uma mala espaçosa onde cabem várias mutações genéticas.
+
+ent-ClothingBackpackDuffelCargo = mala de carga
+    .desc = Uma mala enorme para roubar os suprimentos da estação.
+
+ent-ClothingBackpackDuffelCBURN = mala da CBURN
+    .desc = Uma mala que contém uma variedade de equipamentos de "contenção" biológica.
