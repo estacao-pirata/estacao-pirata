@@ -1,3 +1,3 @@
-ent-BoozeDispenser = booze dispenser
-    .desc = A booze dispenser with a single slot for a container to be filled.
+ent-BoozeDispenser = máquina de bebidas alcoólicas
+    .desc = Uma máquina de refrigerante para adultos. Aguenta só um copo por vez.
 
