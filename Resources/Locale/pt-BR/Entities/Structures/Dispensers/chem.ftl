@@ -1,3 +1,3 @@
-ent-chem_dispenser = chemical dispenser
-    .desc = An industrial grade chemical dispenser with a sizeable chemical supply.
+ent-chem_dispenser = dispensador químico
+    .desc = Um dispensador industrial para produtos químicos, tem vários botões. Aguenta só um béquer por vez.
 
