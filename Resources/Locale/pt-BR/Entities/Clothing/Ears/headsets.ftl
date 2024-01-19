@@ -1,11 +1,11 @@
 ent-ClothingHeadset = fone de ouvido
     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
 
-ent-ClothingHeadsetCargo = fone de ouvido da logistica
+ent-ClothingHeadsetCargo = fone de ouvido da logística
     .desc = Um fone de ouvido usado pelos funcionários da Logística.
 
 ent-ClothingHeadsetQM = fone de ouvido do intendente de carga
-    .desc = Um fone de ouvido usado pelo intendente de carga
+    .desc = Um fone de ouvido usado pelo intendente de carga.
 
 ent-ClothingHeadsetCentCom = fone de ouvido da centcom
     .desc = Um fone de ouvido usado pelo escalão mais alto da Nanotrasen.
@@ -22,16 +22,16 @@ ent-ClothingHeadsetCE = fone de ouvido do engenheiro chefe
 ent-ClothingHeadsetMedical = fone de ouvido da medicina
     .desc = Um fone de ouvido feito para médicos altamente treinados e capazes! Ou não.
 
-ent-ClothingHeadsetScience = fone de ouvido de pesquisas
-    .desc = Um fone de ouvido usado pelos cientistas. Alerta de Nerd!
+ent-ClothingHeadsetMedicalScience = fone de ouvido de pesquisa e medicina
+    .desc = Uma fusão entre Medicina e Ciência, tudo isso em um misero fone de ouvido!
 
 ent-ClothingHeadsetMining = fone de ouvido de mineração
     .desc = Um fone de ouvido utilizado pelos mineradores.
 
-ent-ClothingHeadsetRobotics = fone de ouvido robótico
+ent-ClothingHeadsetRobotics = fone de ouvido de robótica
     .desc = Feito especialmente para os robotiscistas (se é que isso existe), que não se decidem de qual departamento serão.
 
-ent-ClothingHeadsetScience = fone de ouvido de cientista
+ent-ClothingHeadsetScience = fone de ouvido de pesquisas
     .desc = Um fone de ouvido usado pelos cientistas. Alerta de Nerd!
 
 ent-ClothingHeadsetRD = fone de ouvido do diretor de pesquisas
@@ -45,3 +45,9 @@ ent-ClothingHeadsetService = fone de ouvido de serviço
 
 ent-ClothingHeadsetGrey = fone de ouvido de passageiro
     .desc = Um fone de ouvido utilizado pela população desempregada.
+
+ent-ClothingHeadsetFreelance = fone de ouvido de nômade
+    .desc = Utilizado por um grupo nomádico de nômades.
+
+ent-ClothingHeadsetCMO = fone de ouvido do médico chefe
+    .desc = Um fone de ouvido usado pelo Médico Chefe.
