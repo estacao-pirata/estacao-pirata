@@ -1,16 +1,16 @@
 ent-ClothingBackpack = mochila
     .desc = Você coloca nas costas, usada para armazenar ítens.
 
-ent-ClothingBackpackClown = mochila buzina
-    .desc = Uma Mochila buzinástica! Feita por Honk! Corporation.
-
-ent-ClothingBackpackSecurity = mochila de segurança
+ent-ClothingBackpackClown = risos von buzinton
+    .desc = Uma mochila buzinástica! Feita por Honk! Co.
+    
+ent-ClothingBackpackSecurity = mochila da segurança
     .desc = Uma mochila robusta, tem cheiro de corrupção.
 
-ent-ClothingBackpackEngineering = mochila de engenheiro
+ent-ClothingBackpackEngineering = mochila da engenharia
     .desc = Uma mochila resistente, perfeita para os ocorridos diários da estação.
 
-ent-ClothingBackpackMedical = mochila de médico
+ent-ClothingBackpackMedical = mochila da medicina
     .desc = Uma mochila esterilizada, perfeita para armazenar medicamentos e outras coisas de médicos.
 
 ent-ClothingBackpackCaptain = mochila do capitão
@@ -19,19 +19,19 @@ ent-ClothingBackpackCaptain = mochila do capitão
 ent-ClothingBackpackMime = mochila do mímico
     .desc = Uma mochila furtiva feita para pessoas que "não abrem a boca". Perfeita para guardar.. uhh.. B-Baguette?
 
-ent-ClothingBackpackChemistry = mochila de químico
+ent-ClothingBackpackChemistry = mochila da química
     .desc = Uma mochila feita para armazenar venen-.. M-m-Medicamentos!
 
-ent-ClothingBackpackHydroponics = mochila de botânico
-    .desc = Uma mochila 100% vegana! Se é que isso existe.
+ent-ClothingBackpackHydroponics = mochila da botânica
+    .desc = Uma mochila 100% vegana!
 
-ent-ClothingBackpackScience = mochila de cientista
+ent-ClothingBackpackScience = mochila de pesquisas
     .desc = Uma mochila criada especialmente para armazenar substâncias nocivas! E outras coisas de nerd..
 
-ent-ClothingBackpackVirology = mochila de virologia
+ent-ClothingBackpackVirology = mochila da virologia
     .desc = Uma mochila feita com material desconhecido, capaz de armazenar bioarmas, doenças e coisas do tipo... Por algum motivo tem cheiro de macaco.
 
-ent-ClothingBackpackSalvage = mochila de salvagem
+ent-ClothingBackpackSalvage = mochila de exploração
     .desc = Uma mochila surrada. Pode conter tesouros de outro mundo!
 
 ent-ClothingBackpackERTLeader = mochila de comandante ert
@@ -52,6 +52,6 @@ ent-ClothingBackpackERTJanitor = mochila de zelador ert
 ent-ClothingBackpackERTClown = mochila de palhaço ert
     .desc = Uma mochila muito espaçosa e buzinástica, pertencente a um membro da elite de palhaços, um Palhaço da unidade ERT!
 
-ent-ClothingBackpackHolding = saco de Holding
-    .desc = Uma mochila que se abre em um bolso localizado de bluespace.
+ent-ClothingBackpackHolding = mochila interdimensional
+    .desc = Uma mochila que contém um buraco de minhoca ao bluespace.
 

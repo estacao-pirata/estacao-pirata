@@ -1,17 +1,17 @@
-ent-ClothingHeadsetAlt = fones de ouvido
-     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
+ent-ClothingHeadsetAlt = headset
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltCentCom = fones de ouvido da centcom
-     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
+ent-ClothingHeadsetAltCentCom = headset da centcom
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltCommand = fones de ouvido de comandante
-     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
+ent-ClothingHeadsetAltCommand = headset de comando
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltMedical = fones de ouvido de médico
-     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
+ent-ClothingHeadsetAltMedical = headset do médico chefe
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltSecurity = fones de ouvido da segurança
-     .desc = Um intercomunicador modular atualizado que cabe na cabeça. Leva chaves de criptografia.
+ent-ClothingHeadsetAltSecurity = headset do segurança chefe
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltSyndicate = fones de ouvido do sindicato
-     .desc = Um intercomunicador de sindicato modular e atualizado que cabe na cabeça e recebe chaves de criptografia. Protege os ouvidos de flashbangs.
+ent-ClothingHeadsetAltSyndicate = headset do sindicato
+    .desc = Um rádio modular do sindicato. Protege os ouvidos de granadas de atordoamento.
