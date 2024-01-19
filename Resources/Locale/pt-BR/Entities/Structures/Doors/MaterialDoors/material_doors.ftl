@@ -1,21 +1,21 @@
-ent-BaseMaterialDoor = door
-    .desc = A door, where will it lead?
+ent-BaseMaterialDoor = porta
+    .desc = Uma porta, o que terá atrás?
 
-ent-MetalDoor = metal door
-    .desc = A door, where will it lead?
+ent-MetalDoor = porta de metal
+    .desc = Uma porta, o que terá atrás?
 
-ent-WoodDoor = wooden door
-    .desc = A door, where will it lead?
+ent-WoodDoor = porta de madeira
+    .desc = Uma porta, o que terá atrás?
 
-ent-PaperDoor = paper door
-    .desc = A door, where will it lead?
+ent-PaperDoor = porta de papel
+    .desc = Uma porta, o que terá atrás?
 
-ent-PlasmaDoor = plasma door
-    .desc = A door, where will it lead?
+ent-PlasmaDoor = porta de plasma
+    .desc = Uma porta, o que terá atrás?
 
-ent-GoldDoor = gold door
-    .desc = A door, where will it lead?
+ent-GoldDoor = porta de ouro
+    .desc = Uma porta, o que terá atrás?
 
-ent-SilverDoor = silver door
-    .desc = A door, where will it lead?
+ent-SilverDoor = porta de prata
+    .desc = Uma porta, o que terá atrás?
 
