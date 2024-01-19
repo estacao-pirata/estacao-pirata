@@ -1,3 +1,3 @@
-ent-TableBase = table
-    .desc = A square piece of metal standing on four metal legs.
+ent-TableBase = mesa
+    .desc = Uma chapa de metal sobre quatro pernas.
 
