@@ -1,98 +1,98 @@
 ent-Windoor = porta de vidro
     .desc = É tipo uma janela e uma porta em um!
 
-ent-WindoorSecure = portão de vidro
+ent-WindoorSecure = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
 
-ent-WindoorBarLocked = portão de vidro
+ent-WindoorBarLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Bar, Trancada
 
-ent-WindoorBarKitchenLocked = portão de vidro
+ent-WindoorBarKitchenLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Bar&Kitchen, Trancada
 
-ent-WindoorCargoLocked = portão de vidro
+ent-WindoorCargoLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Cargo, Trancada
 
-ent-WindoorChapelLocked = portão de vidro
+ent-WindoorChapelLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Chapel, Trancada
 
-ent-WindoorHydroponicsLocked = portão de vidro
+ent-WindoorHydroponicsLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Hydroponics, Trancada
 
-ent-WindoorJanitorLocked = portão de vidro
+ent-WindoorJanitorLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Janitor, Trancada
 
-ent-WindoorKitchenLocked = portão de vidro
+ent-WindoorKitchenLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Kitchen, Trancada
 
-ent-WindoorKitchenHydroponicsLocked = portão de vidro
+ent-WindoorKitchenHydroponicsLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Kitchen&Hydroponics, Trancada
 
-ent-WindoorTheatreLocked = portão de vidro
+ent-WindoorTheatreLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Theatre, Trancada
 
-ent-WindoorArmoryLocked = portão de vidro
+ent-WindoorArmoryLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Armory, Trancada
 
-ent-WindoorBrigLocked = portão de vidro
+ent-WindoorBrigLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Brig, Trancada
 
-ent-WindoorSecureCargoLocked = portão de vidro
+ent-WindoorSecureCargoLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Cargo, Trancada
 
-ent-WindoorSecureChapelLocked = portão de vidro
+ent-WindoorSecureChapelLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Chapel, Trancada
 
-ent-WindoorChemistryLocked = portão de vidro
+ent-WindoorChemistryLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Chemistry, Trancada
 
-ent-WindoorCommandLocked = portão de vidro
+ent-WindoorCommandLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Command, Trancada
 
-ent-WindoorEngineeringLocked = portão de vidro
+ent-WindoorEngineeringLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Engineering, Trancada
 
-ent-WindoorExternalLocked = portão de vidro
+ent-WindoorExternalLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = External, Trancada
 
-ent-WindoorSecureJanitorLocked = portão de vidro
+ent-WindoorSecureJanitorLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Janitor, Trancada
 
-ent-WindoorSecureKitchenLocked = portão de vidro
+ent-WindoorSecureKitchenLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Kitchen, Trancada
 
-ent-WindoorMedicalLocked = portão de vidro
+ent-WindoorMedicalLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Medical, Trancada
 
-ent-WindoorSecureSalvageLocked = portão de vidro
+ent-WindoorSecureSalvageLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Salvage, Trancada
 
-ent-WindoorSecurityLocked = portão de vidro
+ent-WindoorSecurityLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Security, Trancada
 
-ent-WindoorScienceLocked = portão de vidro
+ent-WindoorScienceLocked = porta de vidro reforçado
     desc = É tipo uma janela e um portão em um!
     .suffix = Science, Trancada
 
