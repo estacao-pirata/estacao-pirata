@@ -1,3 +1,3 @@
-ent-FirelockFrame = Firelock Frame
-    .desc = That is a firelock frame.
+ent-FirelockFrame = porta corta fogo inacabada
+    .desc = Vai ser uma porta de fogo, quando acabar de ser montada.
 

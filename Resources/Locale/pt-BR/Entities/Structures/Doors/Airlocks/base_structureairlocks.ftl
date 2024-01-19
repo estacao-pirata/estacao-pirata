@@ -1,3 +1,3 @@
-ent-Airlock = airlock
-    .desc = It opens, it closes, and maybe crushes you.
+ent-Airlock = porta
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 

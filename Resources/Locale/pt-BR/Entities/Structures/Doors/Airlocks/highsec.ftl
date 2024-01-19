@@ -1,3 +1,2 @@
-ent-HighSecDoor = high security door
-    .desc = Keeps the bad out and keeps the good in.
-
+ent-HighSecDoor = porta de alta segurança
+    .desc = Provavelmente tem coisas importantes atrás.

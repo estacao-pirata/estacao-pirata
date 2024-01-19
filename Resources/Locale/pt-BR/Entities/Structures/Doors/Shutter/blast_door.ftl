@@ -1,7 +1,7 @@
-ent-BlastDoor = blast door
-    .desc = This one says 'BLAST DONGER'.
+ent-BlastDoor = portão blindado
+    .desc = Essa diz 'Anti-KABOOM'
 
-ent-BlastDoorOpen = blast door
-    .desc = This one says 'BLAST DONGER'.
-    .suffix = Open
+ent-BlastDoorOpen = portão blindado
+    .desc = Essa diz 'Anti-KABOOM'
+    .suffix = Aberto
 

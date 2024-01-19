@@ -1,164 +1,164 @@
-ent-AirlockMaint = maintenance hatch
+ent-AirlockMaint = escotilha de manuteção
     .desc = { "" }
     .suffix = Security
 
-ent-AirlockGlass = glass airlock
+ent-AirlockGlass = porta janela
     .desc = { "" }
     .suffix = Security
 
-ent-AirlockEngineeringGlass = glass airlock
+ent-AirlockEngineeringGlass = porta janela
     .desc = { "" }
     .suffix = Engineering
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockMaintGlass = glass airlock
+ent-AirlockMaintGlass = porta janela
     .desc = { "" }
     .suffix = Maintenance
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockMaintGlass = glass airlock
+ent-AirlockMaintGlass = porta janela
     .desc = { "" }
     .suffix = Maintenance
 
-ent-AirlockAtmosphericsGlass = glass airlock
+ent-AirlockAtmosphericsGlass = porta janela
     .desc = { "" }
     .suffix = Atmospherics
 
-ent-AirlockCargoGlass = glass airlock
+ent-AirlockCargoGlass = porta janela
     .desc = { "" }
     .suffix = Cargo
 
-ent-AirlockMedicalGlass = glass airlock
+ent-AirlockMedicalGlass = porta janela
     .desc = { "" }
     .suffix = Medical
 
-ent-AirlockVirologyGlass = glass airlock
+ent-AirlockVirologyGlass = porta janela
     .desc = { "" }
     .suffix = Virology
 
-ent-AirlockScienceGlass = glass airlock
+ent-AirlockScienceGlass = porta janela
     .desc = { "" }
     .suffix = Science
 
-ent-AirlockCommandGlass = glass airlock
+ent-AirlockCommandGlass = porta janela
     .desc = { "" }
     .suffix = Command
 
-ent-AirlockSecurityGlass = glass airlock
+ent-AirlockSecurityGlass = porta janela
     .desc = { "" }
     .suffix = Security
 

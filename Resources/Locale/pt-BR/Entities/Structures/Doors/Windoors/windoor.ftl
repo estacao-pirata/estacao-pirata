@@ -1,98 +1,98 @@
-ent-Windoor = windoor
-    .desc = It's a window and a sliding door. Wow!
+ent-Windoor = porta de vidro
+    .desc = É tipo uma janela e uma porta em um!
 
-ent-WindoorSecure = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
+ent-WindoorSecure = portão de vidro
+    desc = É tipo uma janela e um portão em um!
 
-ent-WindoorBarLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Bar, Locked
+ent-WindoorBarLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Bar, Trancada
 
-ent-WindoorBarKitchenLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Bar&Kitchen, Locked
+ent-WindoorBarKitchenLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Bar&Kitchen, Trancada
 
-ent-WindoorCargoLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Cargo, Locked
+ent-WindoorCargoLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Cargo, Trancada
 
-ent-WindoorChapelLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Chapel, Locked
+ent-WindoorChapelLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Chapel, Trancada
 
-ent-WindoorHydroponicsLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Hydroponics, Locked
+ent-WindoorHydroponicsLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Hydroponics, Trancada
 
-ent-WindoorJanitorLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Janitor, Locked
+ent-WindoorJanitorLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Janitor, Trancada
 
-ent-WindoorKitchenLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Kitchen, Locked
+ent-WindoorKitchenLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Kitchen, Trancada
 
-ent-WindoorKitchenHydroponicsLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Kitchen&Hydroponics, Locked
+ent-WindoorKitchenHydroponicsLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Kitchen&Hydroponics, Trancada
 
-ent-WindoorTheatreLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Theatre, Locked
+ent-WindoorTheatreLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Theatre, Trancada
 
-ent-WindoorArmoryLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Armory, Locked
+ent-WindoorArmoryLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Armory, Trancada
 
-ent-WindoorBrigLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Brig, Locked
+ent-WindoorBrigLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Brig, Trancada
 
-ent-WindoorSecureCargoLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Cargo, Locked
+ent-WindoorSecureCargoLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Cargo, Trancada
 
-ent-WindoorSecureChapelLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Chapel, Locked
+ent-WindoorSecureChapelLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Chapel, Trancada
 
-ent-WindoorChemistryLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Chemistry, Locked
+ent-WindoorChemistryLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Chemistry, Trancada
 
-ent-WindoorCommandLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Command, Locked
+ent-WindoorCommandLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Command, Trancada
 
-ent-WindoorEngineeringLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Engineering, Locked
+ent-WindoorEngineeringLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Engineering, Trancada
 
-ent-WindoorExternalLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = External, Locked
+ent-WindoorExternalLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = External, Trancada
 
-ent-WindoorSecureJanitorLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Janitor, Locked
+ent-WindoorSecureJanitorLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Janitor, Trancada
 
-ent-WindoorSecureKitchenLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Kitchen, Locked
+ent-WindoorSecureKitchenLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Kitchen, Trancada
 
-ent-WindoorMedicalLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Medical, Locked
+ent-WindoorMedicalLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Medical, Trancada
 
-ent-WindoorSecureSalvageLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Salvage, Locked
+ent-WindoorSecureSalvageLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Salvage, Trancada
 
-ent-WindoorSecurityLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Security, Locked
+ent-WindoorSecurityLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Security, Trancada
 
-ent-WindoorScienceLocked = secure windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
-    .suffix = Science, Locked
+ent-WindoorScienceLocked = portão de vidro
+    desc = É tipo uma janela e um portão em um!
+    .suffix = Science, Trancada
 

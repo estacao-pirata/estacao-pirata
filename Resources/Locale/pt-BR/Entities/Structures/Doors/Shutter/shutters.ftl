@@ -1,30 +1,28 @@
-ent-BaseShutter = shutter
-    .desc = One shudders to think about what might be behind this shutter.
+ent-BaseShutter = portão
+    .desc = Ótimo para abaixar quando algo está prestes a explodir.
 
-ent-ShuttersNormal = shutter
-    .desc = One shudders to think about what might be behind this shutter.
+ent-ShuttersNormal = portão
+    .desc = Ótimo para abaixar quando algo está prestes a explodir.
 
-ent-ShuttersNormalOpen = shutter
-    .desc = One shudders to think about what might be behind this shutter.
+ent-ShuttersNormalOpen = portão
+    .desc = Ótimo para abaixar quando algo está prestes a explodir.
     .suffix = Open
 
-ent-ShuttersRadiation = radiation shutters
-    .desc = Why did they make these shutters radioactive?
+ent-ShuttersRadiation = portão de radiação
+    .desc = Como fizeram esses portões com radiação?
+
+ent-ShuttersRadiationOpen = portão de radiação
+    .desc = Como fizeram esses portões com radiação?
     .suffix = Open
 
-ent-ShuttersRadiationOpen = radiation shutters
-    .desc = Why did they make these shutters radioactive?
+ent-ShuttersWindow = portão com janela
+    .desc = O melhor jeito de ver seus amigos explodirem!
+
+ent-ShuttersWindowOpen = portão com janela
+    .desc = O melhor jeito de ver seus amigos explodirem!
     .suffix = Open
 
-ent-ShuttersWindow = window shutters
-    .desc = The Best (TM) place to see your friends explode!
-    .suffix = Open
-
-ent-ShuttersWindowOpen = window shutters
-    .desc = The Best (TM) place to see your friends explode!
-    .suffix = Open
-
-ent-ShuttersFrame = shutter frame
-    .desc = A frame for constructing a shutter.
+ent-ShuttersFrame = portão incompleto
+    .desc = Um portão ainda sendo construido.
     .suffix = Open
 
