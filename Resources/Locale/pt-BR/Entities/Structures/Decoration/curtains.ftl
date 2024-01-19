@@ -1,7 +1,7 @@
-ent-HospitalCurtains = curtains
-    .desc = Contains less than 1% mercury.
+ent-HospitalCurtains = cortina
+    .desc = Puxe com força por causa que elas não deslizam bem.
 
-ent-HospitalCurtainsOpen = curtains
-    .desc = Contains less than 1% mercury.
+ent-HospitalCurtainsOpen = cortina
+    .desc = Puxe com força por causa que elas não deslizam bem.
     .suffix = Open
 

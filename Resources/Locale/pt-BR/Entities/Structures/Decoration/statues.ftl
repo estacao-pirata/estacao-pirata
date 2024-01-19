@@ -1,8 +1,8 @@
-ent-StatueVenusRed = statue of a pure maiden
-    .desc = An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a red toolbox.
-    .suffix = Red
+ent-StatueVenusRed = estátua de uma dama pura
+    .desc = Uma estátua de marmore antiguíssima. A figura possui tranças longas e segura uma caixa de ferramentas vermelha.
+    .suffix = Vermelha
 
-ent-StatueVenusBlue = statue of a pure maiden
-    .desc = An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a blue toolbox.
-    .suffix = Blue
+ent-StatueVenusBlue = estátua de uma dama pura
+    .desc = Uma estátua de marmore antiguíssima. A figura possui tranças longas e segura uma caixa de ferramentas azul.
+    .suffix = Azul
 
