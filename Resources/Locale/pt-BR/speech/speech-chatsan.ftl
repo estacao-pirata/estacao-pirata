@@ -248,7 +248,7 @@ chatsan-replacement-88 = vai tomar no cu
 chatsan-word-89 = mt
 chatsan-replacement-89 = muito
 
-chatsan-word-90 = qq
+chatsan-word-90 = qlq
 chatsan-word-91 = qlqr
 chatsan-replacement-qualquer = qualquer
 
@@ -289,3 +289,22 @@ chatsan-replacement-103 = tudo bem
 chatsan-word-104 = cct
 chatsan-word-105 = kct
 chatsan-replacement-cacete = cacete
+
+chatsan-word-106 = prr
+chatsan-replacement-106 = porra
+
+chatsan-word-107 = mlk
+chatsan-word-108 = mlc
+chatsan-replacement-moleque = moleque
+
+chatsan-word-109 = nmrl
+chatsan-replacement-109 = na moral
+
+chatsan-word-110 = tds
+chatsan-replacement-110 = todos
+
+chatsan-word-111 = qq
+chatsan-replacement-111 = que que
+
+chatsan-word-112 = SSD
+chatsan-replacement-112 = distúrbio do sono espacial

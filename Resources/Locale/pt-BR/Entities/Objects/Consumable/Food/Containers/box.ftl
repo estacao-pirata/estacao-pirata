@@ -1,54 +1,53 @@
-ent-FoodBoxDonut = donut box
-    .desc = Mmm, Donuts.
+ent-FoodBoxDonut = caixa de donut
+     .desc = Mmm, Rosquinhas.
 
-ent-FoodContainerEgg = egg carton
-    .desc = Don't drop 'em!
+ent-FoodContainerEgg = caixa de ovos
+     .desc = Não os deixe cair!
 
-ent-EggBoxBroken = egg carton
-    .desc = Don't drop 'em!
-    .suffix = Broken
+ent-EggBoxBroken = caixa de ovos
+     .desc = Não os deixe cair!
+     .suffix = Quebrado
 
-ent-FoodBoxPizza = pizza box
-    .desc = Don't drop 'em!
-    .suffix = Broken
+ent-FoodBoxPizza = caixa de pizza
+     .desc = Não os deixe cair!
+     .suffix = Quebrado
 
-ent-FoodBoxPizzaFilled = pizza box
-    .desc = Don't drop 'em!
-    .suffix = Filled
+ent-FoodBoxPizzaFilled = caixa de pizza
+     .desc = Não os deixe cair!
+     .suffix = Preenchido
 
-ent-FoodBoxNugget = chicken nuggets
-    .desc = You suddenly have an urge to trade on the intergalactic stock market.
-    .suffix = Filled
+ent-FoodBoxNugget = nuggets de frango
+     .desc = De repente você sente vontade de negociar no mercado de ações intergaláctico.
+     .suffix = Preenchido
 
-ent-FoodBoxDonkpocket = box of donk-pockets
-    .desc = Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.
-    .suffix = Filled
+ent-FoodBoxDonkpocket = caixa de donk-pockets
+     .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
+     .suffix = Preenchido
 
-ent-FoodBoxDonkpocketSpicy = box of spicy-flavoured donk-pockets
-    .desc = Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.
-    .suffix = Filled
+ent-FoodBoxDonkpocketSpicy = caixa de donk-pockets de picante
+     .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
+     .suffix = Preenchido
 
-ent-FoodBoxDonkpocketTeriyaki = box of teriyaki-flavoured donk-pockets
-    .desc = Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.
-    .suffix = Filled
+ent-FoodBoxDonkpocketTeriyaki = caixa de donk-pockets de teriyaki
+     .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
+     .suffix = Preenchido
 
-ent-FoodBoxDonkpocketPizza = box of pizza-flavoured donk-pockets
-    .desc = Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.
-    .suffix = Filled
+ent-FoodBoxDonkpocketPizza = caixa de donk-pockets de pizza
+     .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
+     .suffix = Preenchido
 
-ent-FoodBoxDonkpocketGondola = box of gondola-flavoured donk-pockets
-    .desc = Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.
-    .suffix = Filled
+ent-FoodBoxDonkpocketGondola = caixa de donk-pockets de gôndola
+     .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
+     .suffix = Preenchido
 
-ent-FoodBoxDonkpocketBerry = box of berry-flavoured donk-pockets
-    .desc = Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.
-    .suffix = Filled
+ent-FoodBoxDonkpocketBerry = caixa de donk-pockets de frutas vermelhas
+     .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
+     .suffix = Preenchido
 
-ent-FoodBoxDonkpocketHonk = box of banana-flavoured donk-pockets
-    .desc = Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.
-    .suffix = Filled
+ent-FoodBoxDonkpocketHonk = caixa de donk-pockets de banana
+     .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
+     .suffix = Preenchido
 
-ent-FoodBoxDonkpocketDink = box of dink-pockets
-    .desc = Net Zero carbohydrates! No need for heating!
-    .suffix = Filled
-
+ent-FoodBoxDonkpocketDink = caixa de dink-pockets
+     .desc = Carboidratos líquidos zero! Não há necessidade de aquecimento!
+     .suffix = Preenchido

@@ -1,18 +1,17 @@
-ent-CigPackBase = cigarette pack
-    .desc = { "" }
+ent-CigPackBase = maço de cigarros
+     .desc = { "" }
 
-ent-CigPackGreen = Spessman's Smokes packet
-    .desc = A label on the packaging reads, Wouldn't a slow death make a change?
+ent-CigPackGreen = pacote de fumaça de Spessman
+     .desc = Um rótulo na embalagem diz: Uma morte lenta não faria uma mudança?
 
-ent-CigPackRed = DromedaryCo packet
-    .desc = The most popular brand of Space Cigarettes, sponsors of the Space Olympics.
+ent-CigPackRed = pacote DromedaryCo
+     .desc = A marca mais popular de Cigarros Espaciais, patrocinadora das Olimpíadas Espaciais.
 
-ent-CigPackBlue = AcmeCo packet
-    .desc = For those who somehow want to obtain the record for the most amount of cancerous tumors.
+ent-CigPackBlue = pacote AcmeCo
+     .desc = Para quem deseja de alguma forma obter o recorde de maior quantidade de tumores cancerígenos.
 
-ent-CigPackBlack = Nomads packet
-    .desc = Nomads's extra strong, for when your life is more extra hard.
+ent-CigPackBlack = pacote Nômades
+     .desc = Extra forte do Nomads, para quando sua vida estiver mais difícil.
 
-ent-CigPackSyndicate = Syndicate Smokes packet
-    .desc = Elite cigarettes for elite agents. Infused with medicine for when you need to do more than calm your nerves.
-
+ent-CigPackSyndicate = pacote Syndicate Smokes
+     .desc = Cigarros de elite para agentes de elite. Infundido com remédio para quando você precisar fazer mais do que acalmar os nervos.

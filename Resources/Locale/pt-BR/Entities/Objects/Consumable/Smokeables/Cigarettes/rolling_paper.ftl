@@ -1,22 +1,21 @@
-ent-PackPaperRolling = pack of rolling paper
-    .desc = A pack of thin pieces of paper used to make fine smokeables.
+ent-PackPaperRolling = pacote de papel para enrolar
+     .desc = Um pacote de pedaços finos de papel usados para fazer finos fumos.
 
-ent-PackPaperRollingFilters = pack of rolling paper with filters
-    .desc = A pack of filters and thin pieces of paper used to make fine smokeables.
+ent-PackPaperRollingFilters = pacote de papel para enrolar com filtros
+     .desc = Um pacote de filtros e pedaços finos de papel usados para fazer finos fumáveis.
 
-ent-PaperRolling = rolling paper
-    .desc = A thin piece of paper used to make fine smokeables.
-    .suffix = Full
+ent-PaperRolling = papel para enrolar
+     .desc = Um pedaço fino de papel usado para fazer finos fumos.
+     .suffix = Completo
 
-ent-PaperRolling1 = rolling paper
-    .desc = A thin piece of paper used to make fine smokeables.
-    .suffix = Single
+ent-PaperRolling1 = papel para enrolar
+     .desc = Um pedaço fino de papel usado para fazer finos fumos.
+     .suffix = Único
 
-ent-CigaretteFilter = cigarette filter
-    .desc = A strip of firm paper used as a filter for handmade cigarettes.
-    .suffix = Full
+ent-CigaretteFilter = filtro de cigarro
+     .desc = Tira de papel firme usada como filtro para cigarros artesanais.
+     .suffix = Completo
 
-ent-CigaretteFilter1 = cigarette filter
-    .desc = A strip of firm paper used as a filter for handmade cigarettes.
-    .suffix = Single
-
+ent-CigaretteFilter1 = filtro de cigarro
+     .desc = Tira de papel firme usada como filtro para cigarros artesanais.
+     .suffix = Único

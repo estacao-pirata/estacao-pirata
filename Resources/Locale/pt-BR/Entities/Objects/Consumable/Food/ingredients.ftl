@@ -1,78 +1,78 @@
-ent-PuddleFlour = flour
-    .desc = Call the janitor.
+ent-PuddleFlour = farinha
+     .desc = Chame o zelador.
 
-ent-ReagentContainerBase = flour
-    .desc = Call the janitor.
+ent-ReagentContainerBase = farinha
+     .desc = Chame o zelador.
 
-ent-ReagentContainerFlour = flour bag
-    .desc = A big bag of flour. Good for baking!
+ent-ReagentContainerFlour = saco de farinha
+     .desc = Um grande saco de farinha. Bom para assar!
 
-ent-ReagentContainerFlourSmall = flour pack
-    .desc = A pack of flour. Good for baking!
+ent-ReagentContainerFlourSmall = pacote de farinha
+     .desc = Um pacote de farinha. Bom para assar!
 
-ent-ReagentContainerRice = rice bag
-    .desc = A big bag of rice. Good for cooking!
+ent-ReagentContainerRice = saco de arroz
+     .desc = Um grande saco de arroz. Bom para cozinhar!
 
-ent-ReagentContainerRiceSmall = rice pack
-    .desc = A pack of rice. Good for cooking!
+ent-ReagentContainerRiceSmall = pacote de arroz
+     .desc = Um pacote de arroz. Bom para cozinhar!
 
-ent-ReagentContainerSugar = sugar bag
-    .desc = A big bag of tasty spacey sugar.
+ent-ReagentContainerSugar = saco de açúcar
+     .desc = Um grande saco de açúcar saboroso e espacial.
 
-ent-ReagentContainerSugarSmall = sugar pack
-    .desc = A pack of tasty spacey sugar.
+ent-ReagentContainerSugarSmall = pacote de açúcar
+     .desc = Um pacote de açúcar espacial saboroso.
 
-ent-ReagentContainerMilk = milk
-    .desc = It's milk. White and nutritious goodness!
+ent-ReagentContainerMilk = leite
+     .desc = É leite. Bondade branca e nutritiva!
 
-ent-ReagentContainerMilkSoy = soy milk
-    .desc = It's soy milk. White and nutritious goodness!
+ent-ReagentContainerMilkSoy = leite de soja
+     .desc = É leite de soja. Bondade branca e nutritiva!
 
-ent-ReagentContainerMilkOat = oat milk
-    .desc = It's oat milk. Tan and nutritious goodness!
+ent-ReagentContainerMilkOat = leite de aveia
+     .desc = É leite de aveia. Bondade bronzeada e nutritiva!
 
-ent-ReagentContainerOliveoil = olive oil
-    .desc = Olive oil. From space olives presumably.
+ent-ReagentContainerOliveoil = azeite
+     .desc = Azeite. Presumivelmente de azeitonas espaciais.
 
-ent-FoodBakingBase = olive oil
-    .desc = Used in various recipes.
+ent-FoodBakingBase = azeite
+     .desc = Usado em diversas receitas.
 
-ent-FoodDough = dough
-    .desc = A piece of dough.
+ent-FoodDough = massa
+     .desc = Um pedaço de massa.
 
-ent-FoodDoughSlice = dough slice
-    .desc = A slice of dough. Can be cooked into a bun.
+ent-FoodDoughSlice = fatia de massa
+     .desc = Uma fatia de massa. Pode ser cozido em pão.
 
-ent-FoodDoughBun = bun
-    .desc = A base for any self-respecting burger.
+ent-FoodDoughBun = pão
+     .desc = Uma base para qualquer hambúrguer que se preze.
 
-ent-FoodDoughPastryBaseRaw = raw pastry base
-    .desc = Must be cooked before use.
+ent-FoodDoughPastryBaseRaw = base de pastelaria crua
+     .desc = Deve ser cozido antes de usar.
 
-ent-FoodDoughPastryBase = pastry base
-    .desc = A base for any self-respecting pastry.
+ent-FoodDoughPastryBase = base de pastelaria
+     .desc = Uma base para qualquer pastelaria que se preze.
 
-ent-FoodDoughPie = pie dough
-    .desc = Cook it to get a pie.
+ent-FoodDoughPie = massa de torta
+     .desc = Cozinhe para fazer uma torta.
 
-ent-FoodDoughFlat = flat dough
-    .desc = A flattened dough.
+ent-FoodDoughFlat = massa plana
+     .desc = Uma massa achatada.
 
-ent-FoodDoughPizzaBaked = pizza bread
-    .desc = Add ingredients to make a pizza.
+ent-FoodDoughPizzaBaked = pão de pizza
+     .desc = Adicione ingredientes para fazer uma pizza.
 
-ent-FoodCakeBatter = cake batter
-    .desc = Cook it to get a cake.
+ent-FoodCakeBatter = massa de bolo
+     .desc = Cozinhe para fazer um bolo.
 
-ent-FoodButter = stick of butter
-    .desc = A stick of delicious, golden, fatty goodness.
+ent-FoodButter = pedaço de manteiga
+     .desc = Um pedaço de delícia deliciosa, dourada e gordurosa.
 
-ent-FoodCheese = cheese wheel
-    .desc = A big wheel of delcious Cheddar.
+ent-FoodCheese = roda de queijo
+     .desc = Uma roda grande do delicioso Cheddar.
 
-ent-FoodCheeseSlice = cheese wedge
-    .desc = A wedge of delicious Cheddar. The cheese wheel it was cut from can't have gone far.
+ent-FoodCheeseSlice = fatia de queijo
+     .desc = Uma fatia de delicioso Cheddar. A roda de queijo de onde foi cortada não pode ter ido longe.
 
-ent-FoodBadRecipe = burned mess
-    .desc = Someone should be demoted from cook for this.
+ent-FoodBadRecipe = bagunça queimada
+     .desc = Alguém deveria ser rebaixado de cozinheiro por isso.
 

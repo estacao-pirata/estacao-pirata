@@ -1,81 +1,81 @@
-ent-BaseFoodCondimentPacket = condiment packet
-    .desc = A small plastic pack with condiments to put on your food.
+ent-BaseFoodCondimentPacket = pacote de condimentos
+     .desc = Uma pequena embalagem plástica com condimentos para colocar na comida.
 
-ent-FoodCondimentPacket = condiment packet
-    .desc = A small plastic pack with condiments to put on your food.
+ent-FoodCondimentPacket = pacote de condimentos
+     .desc = Uma pequena embalagem plástica com condimentos para colocar na comida.
 
 ent-FoodCondimentPacketAstrotame = Astrotame
-    .desc = The sweetness of a thousand sugars but none of the calories.
+     .desc = A doçura de mil açúcares, mas nenhuma das calorias.
 
-ent-FoodCondimentPacketBbq = BBQ sauce
-    .desc = Hand wipes not included.
+ent-FoodCondimentPacketBbq = molho de churrasco
+     .desc = Lenços umedecidos não incluídos.
 
-ent-FoodCondimentPacketCornoil = corn oil
-    .desc = Corn oil. A delicious oil used in cooking. Made from corn.
+ent-FoodCondimentPacketCornoil = óleo de milho
+     .desc = óleo de milho. Um delicioso óleo usado na culinária. Feito de milho.
 
-ent-FoodCondimentPacketFrostoil = coldsauce
-    .desc = Coldsauce. Leaves the tongue numb in its passage.
+ent-FoodCondimentPacketFrostoil = molho de frio
+     .desc = Molho Frio. Deixa a língua dormente em sua passagem.
 
-ent-FoodCondimentPacketHorseradish = horseradish sauce
-    .desc = A packet of smelly horseradish sauce.
+ent-FoodCondimentPacketHorseradish = molho de raiz-forte
+     .desc = Um pacote de molho fedorento de raiz-forte.
 
-ent-FoodCondimentPacketHotsauce = hotsauce
-    .desc = You can almost TASTE the stomach ulcers now!
+ent-FoodCondimentPacketHotsauce = molho picante
+     .desc = Você quase pode provar as úlceras estomacais agora!
 
 ent-FoodCondimentPacketKetchup = ketchup
-    .desc = You feel more American already.
+     .desc = Você já se sente mais americano.
 
-ent-FoodCondimentPacketPepper = black pepper
-    .desc = Often used to flavor food or make people sneeze.
+ent-FoodCondimentPacketPepper = pimenta preta
+     .desc = Freqüentemente usado para dar sabor a alimentos ou fazer as pessoas espirrar.
 
-ent-FoodCondimentPacketSalt = salt
-    .desc = Salt. From space oceans, presumably.
+ent-FoodCondimentPacketSalt = sal
+     .desc = Sal. Dos oceanos espaciais, presumivelmente.
 
-ent-FoodCondimentPacketSoy = soy sauce
-    .desc = A salty soy-based flavoring.
+ent-FoodCondimentPacketSoy = molho de soja
+     .desc = Um aroma salgado à base de soja.
 
-ent-FoodCondimentPacketSugar = sugar
-    .desc = Tasty spacey sugar!
+ent-FoodCondimentPacketSugar = açúcar
+     .desc = Saboroso açúcar espacial!
 
-ent-BaseFoodCondimentBottle = condiment bottle
-    .desc = A thin glass bottle used to store condiments.
+ent-BaseFoodCondimentBottle = garrafa de condimento
+     .desc = Uma garrafa de vidro fina usada para armazenar condimentos.
 
-ent-FoodCondimentBottle = condiment bottle
-    .desc = A thin glass bottle used to store condiments.
+ent-FoodCondimentBottle = garrafa de condimento
+     .desc = Uma garrafa de vidro fina usada para armazenar condimentos.
 
-ent-FoodCondimentBottleColdsauce = coldsauce bottle
-    .desc = Leaves the tongue numb in its passage.
+ent-FoodCondimentBottleColdsauce = garrafa de molho de frio
+     .desc=Deixa a língua dormente em sua passagem.
 
-ent-FoodCondimentBottleEnzyme = universal enzyme
-    .desc = Used in cooking various dishes.
+ent-FoodCondimentBottleEnzyme = enzima universal
+     .desc = Utilizado na culinária de diversos pratos.
 
-ent-FoodCondimentBottleHotsauce = hotsauce
-    .desc = You can almost TASTE the stomach ulcers now!
+ent-FoodCondimentBottleHotsauce = molho picante
+     .desc = Você quase pode provar as úlceras estomacais agora!
 
 ent-FoodCondimentBottleKetchup = ketchup
-    .desc = You feel more American already.
+     .desc = Você já se sente mais americano.
 
-ent-FoodCondimentBottleBBQ = BBQ sauce
-    .desc = Hand wipes not included.
+ent-FoodCondimentBottleBBQ = molho de churrasco
+     .desc = Lenços umedecidos não incluídos.
 
-ent-BaseFoodCondimentBottleSmall = condiment bottle
-    .desc = A smaller glass bottle used to store condiments.
+ent-BaseFoodCondimentBottleSmall = garrafa de condimento
+     .desc = Uma garrafa de vidro menor usada para armazenar condimentos.
 
-ent-FoodCondimentBottleSmall = condiment bottle
-    .desc = A smaller glass bottle used to store condiments.
+ent-FoodCondimentBottleSmall = garrafa de condimento
+     .desc = Uma garrafa de vidro menor usada para armazenar condimentos.
 
-ent-FoodCondimentBottleSmallColdsauce = coldsauce bottle
-    .desc = Leaves the tongue numb in its passage.
+ent-FoodCondimentBottleSmallColdsauce = garrafa de molho frio
+     .desc=Deixa a língua dormente em sua passagem.
 
-ent-FoodCondimentBottleSmallHotsauce = hotsauce
-    .desc = You can almost TASTE the stomach ulcers now!
+ent-FoodCondimentBottleSmallHotsauce = molho picante
+     .desc = Você quase pode provar as úlceras estomacais agora!
 
 ent-FoodCondimentBottleSmallKetchup = ketchup
-    .desc = You feel more American already.
+     .desc = Você já se sente mais americano.
 
-ent-FoodCondimentBottleSmallVinegar = vinegar
-    .desc = Used in cooking to enhance flavor.
+ent-FoodCondimentBottleSmallVinegar = vinagre
+     .desc = Usado na culinária para realçar o sabor.
 
-ent-FoodCondimentPacketTrash = empty condiment packet
-    .desc = A ripped condiment packet. Useless.
+ent-FoodCondimentPacketTrash = pacote de condimentos vazio
+     .desc = Um pacote de condimentos rasgado. Inútil.
 

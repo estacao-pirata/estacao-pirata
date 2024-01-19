@@ -1,24 +1,23 @@
-ent-FoodKebabSkewer = skewer
-    .desc = A thin rod of metal used to skewer just about anything and cook it.
+ent-FoodKebabSkewer = espeto
+     .desc = Uma haste fina de metal usada para espetar praticamente qualquer coisa e cozinhá-la.
 
-ent-FoodMeatHawaiianKebab = Hawaiian kebab
-    .desc = A delicious kebab made of pineapple, ham and green peppers.
+ent-FoodMeatHawaiianKebab = kebab havaiano
+     .desc = Um delicioso kebab feito de abacaxi, presunto e pimentão verde.
 
-ent-FoodMeatKebab = meat kebab
-    .desc = Delicious meat, on a stick.
+ent-FoodMeatKebab = espetinho de carne
+     .desc = Carne deliciosa, no palito.
 
-ent-FoodMeatHumanKebab = human kebab
-    .desc = Human meat. On a stick!
+ent-FoodMeatHumanKebab = espetinho de humano
+     .desc = Carne humana. Em uma vara!
 
-ent-FoodMeatLizardtailKebab = lizard-tail kebab
-    .desc = Severed lizard tail on a stick.
+ent-FoodMeatLizardtailKebab = espetinho de cauda de lagarto
+     .desc = Cauda de lagarto cortada em uma vara.
 
-ent-FoodMeatRatKebab = rat kebab
-    .desc = Not so delicious rat meat, on a stick.
+ent-FoodMeatRatKebab = espetinho de rato
+     .desc = Carne de rato não tão deliciosa, no palito.
 
-ent-FoodMeatRatdoubleKebab = double rat kebab
-    .desc = A double serving of not so delicious rat meat, on a stick.
+ent-FoodMeatRatdoubleKebab = espetinho de rato duplo
+     .desc = Uma porção dupla de carne de rato não tão deliciosa, no palito.
 
 ent-FoodMeatFiestaKebab = fiesta kebab
-    .desc = Always a cruise ship party somewhere in the world, right?
-
+     .desc = Sempre uma festa em um navio de cruzeiro em algum lugar do mundo, certo?

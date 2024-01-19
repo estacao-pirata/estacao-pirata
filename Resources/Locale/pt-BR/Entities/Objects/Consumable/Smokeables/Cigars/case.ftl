@@ -1,6 +1,5 @@
-ent-CigarCase = cigar case
-    .desc = A case for holding your cigars when you are not smoking them.
+ent-CigarCase = caixa de charuto
+     .desc = Um estojo para guardar seus charutos quando você não os estiver fumando.
 
-ent-CigarGoldCase = premium cigar case
-    .desc = A case of premium Havanian cigars. You'll only see heads with these.
-
+ent-CigarGoldCase = caixa de charuto premium
+     .desc = Uma caixa de charutos Havanianos premium. Você só verá cabeças com isso.

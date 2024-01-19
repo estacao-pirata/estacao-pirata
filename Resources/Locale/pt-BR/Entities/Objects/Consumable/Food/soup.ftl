@@ -1,120 +1,120 @@
-ent-FoodSoupPea = pea soup
-    .desc = A humble split pea soup.
+ent-FoodSoupPea = sopa de ervilha
+     .desc = Uma humilde sopa de ervilha.
 
-ent-FoodSaladAesir = aesir salad
-    .desc = Probably too incredible for mortals to fully enjoy.
+ent-FoodSaladAesir = salada aesir
+     .desc = Provavelmente incrível demais para os mortais desfrutarem plenamente.
 
-ent-FoodSaladHerb = herb salad
-    .desc = A tasty salad with apples on top.
+ent-FoodSaladHerb = salada de ervas
+     .desc = Uma saborosa salada com maçãs por cima.
 
-ent-FoodSaladValid = valid salad
-    .desc = It's just an herb salad with meatballs and fried potato slices. Nothing suspicious about it.
+ent-FoodSaladValid = salada válida
+     .desc = É apenas uma salada de ervas com almôndegas e batata frita. Nada de suspeito nisso.
 
-ent-FoodSaladFruit = fruit salad
-    .desc = Your standard fruit salad.
+ent-FoodSaladFruit = salada de frutas
+     .desc = Sua salada de frutas padrão.
 
-ent-FoodSaladJungle = jungle salad
-    .desc = Exotic fruits in a bowl.
+ent-FoodSaladJungle = salada da selva
+     .desc = Frutas exóticas em uma vasilha.
 
-ent-FoodSaladCitrus = citrus salad
-    .desc = Citrus overload!
+ent-FoodSaladCitrus = salada cítrica
+     .desc = Sobrecarga de cítricos!
 
-ent-FoodSaladEden = salad of eden
-    .desc = A salad brimming with untapped potential.
+ent-FoodSaladEden = salada do Éden
+     .desc = Uma salada repleta de potencial inexplorado.
 
-ent-FoodRiceBoiled = boiled rice
-    .desc = A warm bowl of rice.
+ent-FoodRiceBoiled = arroz cozido
+     .desc = Uma vasilha quente de arroz.
 
-ent-FoodRiceEgg = egg-fried rice
-    .desc = A bowl of rice with a fried egg.
+ent-FoodRiceEgg = arroz frito com ovo
+     .desc = Uma vasilha de arroz com ovo frito.
 
-ent-FoodRicePork = rice and pork
-    .desc = Well, it looks like pork...
+ent-FoodRicePork = arroz e carne de porco
+     .desc = Bem, parece carne de porco...
 
-ent-FoodRicePudding = rice pudding
-    .desc = Everybody loves rice pudding!
+ent-FoodRicePudding = arroz doce
+     .desc = Todo mundo adora arroz doce!
 
-ent-FoodRiceGumbo = black-eyed gumbo
-    .desc = A spicy and savory meat and rice dish.
+ent-FoodRiceGumbo = gumbo de feijão fradinho
+     .desc = Um prato de carne e arroz picante e saboroso.
 
-ent-FoodOatmeal = oatmeal
-    .desc = A nice bowl of oatmeal.
+ent-FoodOatmeal = aveia
+     .desc = Uma bela vasilha de aveia.
 
-ent-FoodJellyDuff = space liberty duff
-    .desc = Jello gelatin, from Alfred Hubbard's cookbook.
+ent-FoodJellyDuff = espaço liberdade duff
+     .desc = Gelatina gelatinosa, do livro de receitas de Alfred Hubbard.
 
-ent-FoodJellyAmanita = amanita jelly
-    .desc = It's evil, don't touch it!
+ent-FoodJellyAmanita = geléia de amanita
+     .desc = É mau, não toque nele!
 
-ent-FoodSoupMeatball = meatball soup
-    .desc = You've got balls kid, BALLS!
+ent-FoodSoupMeatball = sopa de almôndega
+     .desc = Você tem bolas garoto, BOLAS!
 
-ent-FoodSoupSlime = slime soup
-    .desc = If no water is available, you may substitute tears.
+ent-FoodSoupSlime = sopa de gosma
+     .desc = Se não houver água disponível, você pode substituí-la por lágrimas.
 
-ent-FoodSoupTomatoBlood = tomato soup
-    .desc = Smells like copper... is that a bone?
+ent-FoodSoupTomatoBlood = sopa de tomate
+     .desc = Cheira a cobre... isso é um osso?
 
 ent-FoodSoupWingFangChu = wing fang chu
-    .desc = A savory dish of alien wing wang in soy.
+     .desc = Um prato saboroso de asa alienígena com soja.
 
-ent-FoodSoupClown = clown's tears
-    .desc = Not very funny.
+ent-FoodSoupClown = lágrimas de palhaço
+     .desc = Não é muito engraçado.
 
-ent-FoodSoupVegetable = vegetable soup
-    .desc = A true vegan meal.
+ent-FoodSoupVegetable = sopa de legumes
+     .desc = Uma verdadeira refeição vegana.
 
-ent-FoodSoupNettle = nettle soup
-    .desc = To think, the botanist would've beat you to death with one of these.
+ent-FoodSoupNettle = sopa de urtiga
+     .desc = Pensar que o botânico teria te espancado até a morte com um desses.
 
-ent-FoodSoupMystery = mystery soup
-    .desc = The mystery is, why aren't you eating it?
+ent-FoodSoupMystery = sopa misteriosa
+     .desc = O mistério é: por que você não está comendo?
 
-ent-FoodSoupChiliHot = bowl of hot chili
-    .desc = A Texan five-alarm chili!
+ent-FoodSoupChiliHot = vasilha de pimenta malagueta
+     .desc = Um chili texano com cinco alarmes!
 
-ent-FoodSoupChiliCold = cold chili
-    .desc = This slush is barely a liquid!
+ent-FoodSoupChiliCold = pimenta gelada
+     .desc = Essa lama mal chega a ser líquida!
 
-ent-FoodSoupChiliClown = chili con carnival
-    .desc = A delicious stew of meat, chilies, and salty, salty clown tears.
+ent-FoodSoupChiliClown = chili com carnaval
+     .desc = Um delicioso ensopado de carne, pimenta e lágrimas de palhaço salgadas e salgadas.
 
-ent-FoodSoupMonkey = monkey's delight
-    .desc = A delicious soup with hunks of monkey meat simmered to perfection, in a broth that tastes faintly of bananas.
+ent-FoodSoupMonkey = delícia de macaco
+     .desc = Uma deliciosa sopa com pedaços de carne de macaco cozidos na perfeição, num caldo que tem um leve sabor de banana.
 
-ent-FoodSoupTomato = tomato soup
-    .desc = Drinking this feels like being a vampire! A tomato vampire...
+ent-FoodSoupTomato = sopa de tomate
+     .desc = Beber isso parece ser um vampiro! Um vampiro de tomate...
 
-ent-FoodSoupEyeball = eyeball soup
-    .desc = It's looking back at you...
+ent-FoodSoupEyeball = sopa de globo ocular
+     .desc = Está olhando para você...
 
-ent-FoodSoupMiso = miso soup
-    .desc = Salty, fishy soup, best had with ramen.
+ent-FoodSoupMiso = sopa de missô
+     .desc = Sopa salgada de peixe, melhor acompanhada com ramen.
 
-ent-FoodSoupMushroom = mushroom soup
-    .desc = A delicious and hearty mushroom soup.
+ent-FoodSoupMushroom = sopa de cogumelos
+     .desc = Uma deliciosa e farta sopa de cogumelos.
 
-ent-FoodSoupBeet = beet soup
-    .desc = Wait, how do you spell it again..?
+ent-FoodSoupBeet = sopa de beterraba
+     .desc = Espere, como se escreve de novo..?
 
-ent-FoodSoupBeetRed = red beet soup
-    .desc = Quite a delicacy.
+ent-FoodSoupBeetRed = sopa de beterraba vermelha
+     .desc = Uma delícia.
 
-ent-FoodSoupStew = stew
-    .desc = A nice and warm stew. Healthy and strong.
+ent-FoodSoupStew = ensopado
+     .desc = Um guisado gostoso e quentinho. Saudável e forte.
 
-ent-FoodSoupPotato = sweet potato soup
-    .desc = Delicious sweet potato in soup form.
+ent-FoodSoupPotato = sopa de batata doce
+     .desc = Deliciosa batata doce em forma de sopa.
 
-ent-FoodSoupOnion = french onion soup
-    .desc = Good enough to make a grown mime cry.
+ent-FoodSoupOnion = sopa de cebola francesa
+     .desc = Bom o suficiente para fazer um mímico adulto chorar.
 
-ent-FoodSoupBisque = bisque
-    .desc = A classic entrée from Space France.
+ent-FoodSoupBisque = biscoito
+     .desc = Uma entrada clássica da Space France.
 
-ent-FoodSoupElectron = electron soup
-    .desc = A gastronomic curiosity of ethereal origin.
+ent-FoodSoupElectron = sopa de elétrons
+     .desc = Uma curiosidade gastronómica de origem etérea.
 
-ent-FoodSoupBungo = bungo curry
-    .desc = A spicy vegetable curry made with the humble bungo fruit, Exotic!
+ent-FoodSoupBungo = curry bungo
+     .desc = Um curry picante de vegetais feito com a humilde fruta bungo, Exotic!
 

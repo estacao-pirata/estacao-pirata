@@ -1,21 +1,20 @@
-ent-FoodPlate = large plate
-    .desc = A large plate, excellent for bread.
+ent-FoodPlate = prato grande
+     .desc = Um prato grande, excelente para pão.
 
-ent-FoodPlateTrash = broken plate
-    .desc = A broken plate. Useless.
+ent-FoodPlateTrash = prato quebrado
+     .desc = Um prato quebrado. Inútil.
 
-ent-FoodPlateSmall = small plate
-    .desc = A small plate. Delicate.
+ent-FoodPlateSmall = prato pequeno
+     .desc = Um pequeno prato. Delicado.
 
-ent-FoodPlateSmallTrash = small plate
-    .desc = A small plate. Delicate.
+ent-FoodPlateSmallTrash = prato pequeno
+     .desc = Um pequeno prato. Delicado.
 
-ent-FoodPlatePlastic = plastic plate
-    .desc = A large blue plastic plate, excellent for a birthday cake.
+ent-FoodPlatePlastic = prato de plástico
+     .desc = Um grande prato de plástico azul, excelente para um bolo de aniversário.
 
-ent-FoodPlateSmallPlastic = plastic plate
-    .desc = A blue plastic plate, excellent for slices of birthday cake.
+ent-FoodPlateSmallPlastic = prato de plástico
+     .desc = Um prato de plástico azul, excelente para fatias de bolo de aniversário.
 
-ent-FoodPlateTin = pie tin
-    .desc = A cheap foil tin for pies.
-
+ent-FoodPlateTin = forma de torta
+     .desc = Uma lata barata para tortas.

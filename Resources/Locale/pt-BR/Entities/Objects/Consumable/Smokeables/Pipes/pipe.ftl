@@ -1,9 +1,8 @@
-ent-SmokingPipe = pipe
-    .desc = Just like grandpappy used to smoke.
+ent-SmokingPipe = cachimbo
+     .desc = Assim como o vovô costumava fumar.
 
-ent-SmokingPipeFilledTobacco = pipe
-    .desc = Just like grandpappy used to smoke.
+ent-SmokingPipeFilledTobacco = cachimbo
+     .desc = Assim como o vovô fumava.
 
-ent-SmokingPipeFilledCannabis = pipe
-    .desc = Just like grandpappy used to smoke.
-
+ent-SmokingPipeFilledCannabis = cachimbo
+     .desc = Assim como o vovô costumava fumar.

@@ -1,7 +1,6 @@
-ent-Cigarette = cigarette
-    .desc = A roll of tobacco and nicotine.
+ent-Cigarette = cigarro
+     .desc = Um rolo de tabaco e nicotina.
 
-ent-CigaretteSyndicate = cigarette
-    .desc = A roll of tobacco and nicotine.
-    .suffix = syndicate
-
+ent-CigaretteSyndicate = cigarro
+     .desc = Um rolo de tabaco e nicotina.
+     .suffix = sindicato

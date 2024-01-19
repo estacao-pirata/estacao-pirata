@@ -1,9 +1,8 @@
-ent-FoodBowlBig = bowl
-    .desc = A simple bowl, used for soups and salads.
+ent-FoodBowlBig = vasilha
+     .desc = Uma vasilha simples, usada para sopas e saladas.
 
-ent-FoodBowlBigTrash = broken bowl
-    .desc = A simple bowl, broken and useless.
+ent-FoodBowlBigTrash = vasilha quebrada
+     .desc=Uma vasilha simples, quebrada e inútil.
 
-ent-FoodBowlFancy = bowl
-    .desc = A fancy bowl, used for SPECIAL soups and salads.
-
+ent-FoodBowlFancy = vasilha
+     .desc = Uma vasilha sofisticada, usada para sopas e saladas ESPECIAIS.

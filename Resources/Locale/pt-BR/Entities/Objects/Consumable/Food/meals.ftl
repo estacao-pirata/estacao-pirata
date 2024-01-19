@@ -1,72 +1,72 @@
-ent-FoodMealPotatoLoaded = loaded baked potato
-    .desc = Totally baked.
+ent-FoodMealPotatoLoaded = batata assada carregada
+     .desc = Totalmente cozido.
 
-ent-FoodMealFries = space fries
-    .desc = AKA, French Fries, Freedom Fries, etc.
+ent-FoodMealFries = batatas fritas espaciais
+     .desc = Batatas Fritas Vulgo, Batatas Fritas Freedom, etc.
 
-ent-FoodMealFriesCheesy = cheesy fries
-    .desc = Fries. Covered in cheese. Duh.
+ent-FoodMealFriesCheesy = batatas fritas com queijo
+     .desc = Batatas fritas. Coberto de queijo. Dã.
 
-ent-FoodMealFriesCarrot = carrot fries
-    .desc = Tasty fries from fresh carrots.
+ent-FoodMealFriesCarrot = cenoura frita
+     .desc = Saborosas batatas fritas com cenouras frescas.
 
 ent-FoodMealNachos = nachos
-    .desc = Chips from Space Mexico.
+     .desc = Chips do Espaço México.
 
-ent-FoodMealNachosCheesy = cheesy nachos
-    .desc = The delicious combination of nachos and melting cheese.
+ent-FoodMealNachosCheesy = nachos com queijo
+     .desc = A deliciosa combinação de nachos e queijo derretido.
 
-ent-FoodMealNachosCuban = Cuban nachos
-    .desc = That's some dangerously spicy nachos.
+ent-FoodMealNachosCuban = nachos Cubanos
+     .desc = São alguns nachos perigosamente picantes.
 
-ent-FoodMealMint = mint
-    .desc = It's wafer thin.
+ent-FoodMealMint = hortelã
+     .desc = É muito fino.
 
-ent-FoodMealEggplantParm = eggplant parmigiana
-    .desc = The only good recipe for eggplant.
+ent-FoodMealEggplantParm = berinjela à parmegiana
+     .desc = A única receita boa de berinjela.
 
 ent-FoodMealPotatoYaki = yaki imo
-    .desc = Made with roasted sweet potatoes!
+     .desc = Feito com batata doce assada!
 
-ent-FoodMealCubancarp = Cuban carp
-    .desc = A grifftastic sandwich that burns your tongue and then leaves it numb!
+ent-FoodMealCubancarp = carpa Cubana
+     .desc = Um sanduíche grifftástico que queima sua língua e depois a deixa dormente!
 
-ent-FoodMealCornedbeef = corned beef and cabbage
-    .desc = Now you can feel like a real tourist vacationing in Ireland.
+ent-FoodMealCornedbeef = carne enlatada e repolho
+     .desc = Agora você pode se sentir como um verdadeiro turista em férias na Irlanda.
 
-ent-FoodMealBearsteak = filet migrawr
-    .desc = Because eating bear wasn't manly enough.
+ent-FoodMealBearsteak = filé de rugido
+     .desc = Porque comer urso não era viril o suficiente.
 
-ent-FoodMealPigblanket = pig in a blanket
-    .desc = A tiny sausage wrapped in a flakey, buttery roll. Free this pig from its blanket prison by eating it.
+ent-FoodMealPigblanket = porco em um cobertor
+     .desc = Uma pequena salsicha embrulhada em um pãozinho amanteigado. Liberte este porco da sua prisão comendo-o.
 
-ent-FoodMealRibs = bbq ribs
-    .desc = BBQ ribs, slathered in a healthy coating of BBQ sauce. The least vegan thing to ever exist.
+ent-FoodMealRibs = costela de churrasco
+     .desc = Costelas de churrasco, cobertas com uma camada saudável de molho de churrasco. A coisa menos vegana que já existiu.
 
-ent-FoodMealEggsbenedict = eggs benedict
-    .desc = There is only one egg on this, how rude.
+ent-FoodMealEggsbenedict = ovos Benedict
+     .desc = Só tem um ovo nisso, que grosseria.
 
-ent-FoodMealOmelette = cheese omelette
-    .desc = Cheesy.
+ent-FoodMealOmelette = omelete de queijo
+     .desc = extravagante.
 
-ent-FoodMealFriedegg = fried egg
-    .desc = A fried egg, with a touch of salt and pepper.
+ent-FoodMealFriedegg = ovo frito
+     .desc = Um ovo frito, com um toque de sal e pimenta.
 
 ent-FoodMealMilkape = milk ape
-    .desc = The king of Jungle Thick.
+     .desc = O rei da Selva Grossa.
 
-ent-FoodMealMemoryleek = memory leek
-    .desc = This should refresh your memory.
+ent-FoodMealMemoryleek = memória leek
+     .desc=Isso deve refrescar sua memória.
 
-ent-DisgustingSweptSoup = salty sweet miso cola soup
-    .desc = Jesus christ.
+ent-DisgustingSweptSoup = sopa doce e salgada de missô cola
+     .desc = Jesus Cristo.
 
 ent-FoodMealQueso = queso
-    .desc = A classic dipping sauce that you can't go wrong with.
+     .desc = Um molho clássico com o qual você não pode errar.
 
 ent-FoodMealSashimi = Sashimi
-    .desc = Its taste can only be described as "Exotic". The poisoning though? That's pretty common.
+     .desc = Seu sabor só pode ser descrito como "Exótico". O envenenamento? Isso é muito comum.
 
 ent-FoodMealEnchiladas = enchiladas
-    .desc = Viva La Mexico!
+     .desc = Viva La México!
 

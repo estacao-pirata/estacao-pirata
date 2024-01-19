@@ -1,6 +1,5 @@
 ent-Joint = joint
-    .desc = A roll of dried plant matter wrapped in thin paper.
+     .desc = Um rolo de matéria vegetal seca embrulhado em papel fino.
 
 ent-Blunt = blunt
-    .desc = A roll of dried plant matter wrapped in a dried tobacco leaf.
-
+     .desc = Um rolo de matéria vegetal seca embrulhado em uma folha seca de tabaco.
