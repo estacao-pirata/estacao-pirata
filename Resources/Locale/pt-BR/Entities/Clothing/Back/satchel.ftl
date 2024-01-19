@@ -27,3 +27,24 @@ ent-ClothingBackpackSatchelSalvage = bolsa de exploração
 
 ent-ClothingBackpackSatchelHolding = bolsa interdimensional
     .desc = Uma bolsa que contém um buraco de minhoca ao bluespace.
+
+ent-ClothingBackpackSatchelLeather = bolsa de couro
+    .desc = Uma bolsa tão elegante quanto antiga.
+
+ent-ClothingBackpackSatchelAtmospherics = bolsa de atmosféricos
+    .desc = Uma bolsa resistente e à prova de fogo. Tem cheiro de plasma.
+
+ent-ClothingBackpackSatchelClown = bolzina de palhaço
+    .desc = Uma bolsa estilosa e buzinástica.
+
+ent-ClothingBackpackSatchelMime = bolsa de mímico
+    .desc = Uma bolsa feita para a arte silenciosa e expressiva de um mímico.
+
+ent-ClothingBackpackSatchelVirology = bolsa da virologia
+    .desc = Uma bolsa esterilizada, customizada em cores que representam os virólogos.
+
+ent-ClothingBackpackSatchelGenetics = bolsa da genética
+    .desc = Uma bolsa esterilizada, customizada em cores que representam os geneticistas.
+
+ent-ClothingBackpackSatchelCargo = bolsa de carga
+    .desc = Uma bolsa forte para roubar os suprimentos da estação.
