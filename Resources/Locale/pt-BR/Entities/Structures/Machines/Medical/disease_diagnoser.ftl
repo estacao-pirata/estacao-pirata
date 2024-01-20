@@ -1,3 +1,3 @@
-ent-DiseaseDiagnoser = Disease Diagnoser Delta Extreme
-    .desc = A machine that analyzes disease samples.
+ent-DiseaseDiagnoser = diagnosticador patológico
+    .desc = Uma máquina que analiza amostrar de doenças.
 
