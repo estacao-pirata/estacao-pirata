@@ -109,7 +109,7 @@ namespace Content.Server.GameTicking
         {
             foreach (var player in _playerManager.Sessions)
             {
-                RaiseNetworkEvent(GetLobbyStatusMsg(player), player.ConnectedClient);
+                RaiseNetworkEvent(GetStatusMsg(player), player.ConnectedClient);
             }
         }
 

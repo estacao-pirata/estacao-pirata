@@ -178,7 +178,7 @@ namespace Content.Server.GameTicking
 
             var client = session.ConnectedClient;
             RaiseNetworkEvent(new TickerJoinLobbyEvent(), client);
-            RaiseNetworkEvent(GetLobbyStatusMsg(session), client);
+            RaiseNetworkEvent(GetStatusMsg(session), client);
             RaiseNetworkEvent(GetInfoMsg(), client);
             RaiseLocalEvent(new PlayerJoinedLobbyEvent(session));
         }
