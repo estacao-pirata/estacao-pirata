@@ -1,9 +1,9 @@
-ent-ArcadeBase = arcade
-    .desc = An arcade cabinet.
+ent-ArcadeBase = fliperama
+    .desc = Uma máquina de fliperama.
 
-ent-SpaceVillainArcade = arcade
-    .desc = An arcade cabinet.
+ent-SpaceVillainArcade = fliperama
+    .desc = Uma máquina de fliperama.
 
-ent-BlockGameArcade = NT block game
-    .desc = An arcade cabinet with a strangely familiar game.
+ent-BlockGameArcade = jogo de blocos NT
+    .desc = Uma máquina de fliperama com um jogo familiar.
 

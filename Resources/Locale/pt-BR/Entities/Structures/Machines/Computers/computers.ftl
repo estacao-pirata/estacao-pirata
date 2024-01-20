@@ -1,97 +1,80 @@
-ent-ComputerAlert = alerts computer
-    .desc = Used to access the station's automated alert system.
+ent-ComputerAlert = computador de alertas
+    .desc = Usado para acessar o sistema automatizado de alertas da estação.
 
-ent-ComputerEmergencyShuttle = emergency shuttle console
-    .desc = Handles authorization to early launch the shuttle.
+ent-ComputerEmergencyShuttle = console da nave de emergência
+    .desc = Utilizado para fazer a nave de evacuação partir mais cedo.
 
-ent-BaseComputerShuttle = shuttle console
-    .desc = Used to pilot a shuttle.
+ent-BaseComputerShuttle = console de nave
+    .desc = Usado para pilotar uma nave.
 
-ent-ComputerShuttle = shuttle console
-    .desc = Used to pilot a shuttle.
+ent-ComputerShuttle = console de nave
+    .desc = Usado para pilotar uma nave.
 
-ent-ComputerShuttleSyndie = syndicate shuttle console
-    .desc = Used to pilot a syndicate shuttle.
+ent-ComputerShuttleSyndie = console de nave do sindicato
+    .desc = Usado para pilotar uma nave do sindicato.
 
-ent-ComputerShuttleCargo = cargo shuttle console
-    .desc = Used to pilot the cargo shuttle.
+ent-ComputerShuttleCargo = console da nave de carga
+    .desc = Usado para pilotar a nave de carga.
 
-ent-ComputerIFF = IFF computer
-    .desc = Allows you to control the IFF characteristics of this vessel.
+ent-ComputerIFF = console IAI
+    .desc = Utilizado para controlar as caracteristicas furtivas e de identificação desta embarcação.
 
-ent-ComputerIFFSyndicate = IFF computer
-    .desc = Allows you to control the IFF and stealth characteristics of this vessel.
+ent-ComputerIFFSyndicate = console IAI
+    .desc = Utilizado para controlar as caracteristicas furtivas e de identificação desta embarcação.
     .suffix = Syndicate
 
-ent-ComputerPowerMonitoring = power monitoring computer
-    .desc = It monitors power levels across the station.
+ent-ComputerPowerMonitoring = computador de monitoramento de energia
+    .desc = Usado para monitorar a condição da rede de distribuição de energia da estação.
+
+ent-ComputerMedicalRecords = computador de registros médicos
+    .desc = Utilizado para consultar o registros médicos.
+
+ent-ComputerCriminalRecords = computador de registros criminais
+    .desc = Utilizado para consultar o registros criminais.
+
+ent-ComputerStationRecords = computador de registros da estação
+    .desc = Utilizado para consultar o registros da estação.
+
+ent-ComputerCrewMonitoring = computador de monitoramento de tripulação
+    .desc = Um computador usado para monitorar o sinal dos sensores vitais dos uniformes da tripulação.
+
+ent-ComputerResearchAndDevelopment = computador de P&D
+    .desc = O computador que faz toda a mágica científica acontecer.
+
+ent-ComputerId = computador de cartões ID
+    .desc = Um computador utilizado para editar as informações contidas em um cartão de idenfiticação, como trabalho, nome e acessos.
+
+ent-computerBodyScanner = computador de avaliação médica
+    .desc = O ápice da tecnologia de avaliação médica. Faz o trabalho de mil analizadores médicos.
+
+ent-ComputerComms = computador de comunicação
+    .desc = Usado para várias funções. Quando acabar de ser desenvolvido, é claro.
+
+ent-SyndicateComputerComms = computador de comunicação do sindicato
+    .desc = Usado para várias funções. Quando acabar de ser desenvolvido, é claro.
     .suffix = Syndicate
 
-ent-ComputerMedicalRecords = medical records computer
-    .desc = This can be used to check medical records.
-    .suffix = Syndicate
+ent-ComputerSolarControl = console de controle solar
+    .desc = Usado para controlar os painéis solares.
 
-ent-ComputerCriminalRecords = criminal records computer
-    .desc = This can be used to check criminal records.
-    .suffix = Syndicate
+ent-ComputerRadar = computador do radar
+    .desc = Um computador que mostra os elementos detectados na volta de uma embarcação.
 
-ent-ComputerStationRecords = station records computer
-    .desc = This can be used to check station records.
-    .suffix = Syndicate
+ent-ComputerCargoShuttle = computador da nave de carga
+    .desc = Usado para controlar a nave de carga de forma remota.
 
-ent-ComputerCrewMonitoring = crew monitoring console
-    .desc = Used to monitor active health sensors built into most of the crew's uniforms.
-    .suffix = Syndicate
+ent-ComputerCargoOrders = computador de requisições logisticas
+    .desc = Usado para comprar coisas pela internet, se você tiver dinheiro.
 
-ent-ComputerResearchAndDevelopment = R&D computer
-    .desc = A computer used to interface with R&D tools.
-    .suffix = Syndicate
+ent-ComputerCloningConsole = console de clonagem
+    .desc = O equipamento que controla o sistema de clonagem, a maior invenção médica desde a penicilina.
 
-ent-ComputerId = ID card computer
-    .desc = Terminal for programming Nanotrasen employee ID cards to access parts of the station.
-    .suffix = Syndicate
+ent-ComputerSurveillanceCameraMonitor = monitor de câmeras
+    .desc = Uma tela de monitoramento de câmeras. Para esquecer de usar.
 
-ent-computerBodyScanner = body scanner computer
-    .desc = A body scanner.
-    .suffix = Syndicate
+ent-ComputerSurveillanceWirelessCameraMonitor = monitor de câmeras sem fio
+    .desc = Uma tela de monitoramento de câmeras sem fio. Para esquecer de usar.
 
-ent-ComputerComms = communications computer
-    .desc = This can be used for various important functions. Still under development.
-    .suffix = Syndicate
-
-ent-SyndicateComputerComms = syndicate communications computer
-    .desc = This can be used for various important functions. Still under development.
-    .suffix = Syndicate
-
-ent-ComputerSolarControl = solar control computer
-    .desc = A controller for solar panel arrays.
-    .suffix = Syndicate
-
-ent-ComputerRadar = mass scanner computer
-    .desc = A computer for detecting nearby bodies, displaying them by position and mass.
-    .suffix = Syndicate
-
-ent-ComputerCargoShuttle = cargo shuttle computer
-    .desc = Used to order the shuttle.
-    .suffix = Syndicate
-
-ent-ComputerCargoOrders = cargo request computer
-    .desc = Used to order supplies and approve requests.
-    .suffix = Syndicate
-
-ent-ComputerCloningConsole = cloning console computer
-    .desc = The centerpiece of the cloning system, medicine's greatest accomplishment. It has lots of ports and wires.
-    .suffix = Syndicate
-
-ent-ComputerSurveillanceCameraMonitor = camera monitor
-    .desc = A surveillance camera monitor. You're watching them. Maybe.
-    .suffix = Syndicate
-
-ent-ComputerSurveillanceWirelessCameraMonitor = wireless camera monitor
-    .desc = A wireless surveillance camera monitor. You're watching them. Maybe.
-    .suffix = Syndicate
-
-ent-ComputerTelevision = wooden television
-    .desc = Finally, some decent reception around here...
-    .suffix = Syndicate
+ent-ComputerTelevision = televisão de tubo
+    .desc = Finalmente, o sinal ficou bom...
 
