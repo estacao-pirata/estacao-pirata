@@ -1,6 +1,6 @@
-ent-ComputerFrame = computer frame
-    .desc = A computer under construction.
+ent-ComputerFrame = computador incompleto
+    .desc = Um computador ainda sendo montado.
 
-ent-ComputerBroken = broken computer
-    .desc = This computer has seen better days.
+ent-ComputerBroken = computador quebrado
+    .desc = Já esteve inteiro um dia.
 
