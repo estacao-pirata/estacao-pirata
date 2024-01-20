@@ -1,3 +1,3 @@
-ent-KitchenMicrowave = microwave
-    .desc = It's magic.
+ent-KitchenMicrowave = microondas
+    .desc = É magico.
 
