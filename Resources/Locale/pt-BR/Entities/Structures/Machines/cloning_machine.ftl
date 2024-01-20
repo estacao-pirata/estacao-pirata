@@ -1,3 +1,2 @@
-ent-CloningPod = cloning pod
-    .desc = A Cloning Pod. 50% reliable.
-
+ent-CloningPod = câmara de clonagem
+    .desc = Uma câmara onde é realizada a clonagem de um ser vivo.

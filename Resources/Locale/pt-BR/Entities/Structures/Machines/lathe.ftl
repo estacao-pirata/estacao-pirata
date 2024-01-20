@@ -1,21 +1,21 @@
-ent-Autolathe = autolathe
+ent-Autolathe = torno
     .desc = It produces items using metal and glass.
 
-ent-Protolathe = protolathe
+ent-Protolathe = torno avançado
     .desc = Converts raw materials into useful objects.
 
-ent-CircuitImprinter = circuit imprinter
-    .desc = Prints circuit boards for machines.
+ent-CircuitImprinter = impressor de circuitos
+    .desc = Imprime os circuitos impressos.
 
-ent-SecurityTechFab = security techfab
+ent-SecurityTechFab = fabricador de segurança
     .desc = Prints equipment for use by security crew.
 
-ent-MedicalTechFab = medical techfab
+ent-MedicalTechFab = fabricador médico
     .desc = Prints equipment for use by the medbay.
 
-ent-UniformPrinter = uniform printer
-    .desc = Prints new or replacement uniforms.
+ent-UniformPrinter = impressor de uniformes
+    .desc = Um tear super avançado que imprime uniformes super rápido.
 
-ent-OreProcessor = ore processor
-    .desc = It produces sheets and ingots using ores.
+ent-OreProcessor = processador de minérios
+    .desc = Produz placas de materiais a partir de materiais brutos.
 

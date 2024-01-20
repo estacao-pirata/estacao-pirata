@@ -1,61 +1,61 @@
-ent-VendingMachine = vending machine
-    .desc = Just add capitalism!
+ent-VendingMachine = máquina de venda
+    .desc = Só adicionar capitalismo!
 
-ent-VendingMachineAmmo = Liberation Station
-    .desc = An overwhelming amount of ancient patriotism washes over you just by looking at the machine.
+ent-VendingMachineAmmo = Estação Liberdade
+    .desc = Te faz querer travar guerras desnecessárias contra o sul galáctico!
 
-ent-VendingMachineBooze = Booze-O-Mat
-    .desc = A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
+ent-VendingMachineBooze = Breja-O-Mat
+    .desc = Vende tudo que você precisa para suprir o vício da tripulação.
 
-ent-VendingMachineCart = PTech
-    .desc = PTech vending! Providing a ROBUST selection of PDAs, cartridges, and anything else a dull paper pusher needs!
+ent-VendingMachineCart = PTéc
+    .desc = Vendedora da PTéc, supre todas as necessidades de PDAs e cartões de ID que uma tripulação desastrada precisa. 
 
-ent-VendingMachineCigs = ShadyCigs Deluxe
-    .desc = If you want to get cancer, might as well do it in style.
+ent-VendingMachineCigs = Cigarros Paraguaienses Deluxe
+    .desc = Oba, cancer pulmonar! Melhor, nicotina!
 
-ent-VendingMachineClothing = ClothesMate
-    .desc = A vending machine for clothing.
+ent-VendingMachineClothing = VestiMiga    
+    .desc = Vende roupas e vestimentas.
 
-ent-VendingMachineCoffee = Solar's Best Hot Drinks
-    .desc = Served boiling so it stays hot all shift!
+ent-VendingMachineCoffee = Quente Como O Sol!
+    .desc = Servido fervendo para você queimar a língua.
 
-ent-VendingMachineCola = Robust Softdrinks
-    .desc = A softdrink vendor provided by Robust Industries, LLC.
+ent-VendingMachineCola = Refrescos Robustos
+    .desc = Uma máquina de refrigerante da Robust Industries, LLC.
 
-ent-VendingMachineDinnerware = Plasteel Chef's Dinnerware Vendor
-    .desc = A kitchen and restaurant equipment vendor.
+ent-VendingMachineDinnerware = Vendedor de Louça do SpaceMaster Chef
+    .desc = Vende tudo que o melhor chef da galaxia precisaria num restaurante.
 
-ent-VendingMachineMagivend = MagiVend
-    .desc = A magic vending machine.
+ent-VendingMachineMagivend = Vende Feitiços
+    .desc = Vende quaisquer apetrechos arcanos um mago precisa.
 
-ent-VendingMachineDiscount = Discount Dan's
-    .desc = A vending machine containing discount snacks from the infamous 'Discount Dan' franchise.
+ent-VendingMachineDiscount = Discontos do Danilo
+    .desc = Vendes salgadinhos da famosa série 'Danilo Disconto'.
 
-ent-VendingMachineEngivend = Engi-Vend
+ent-VendingMachineEngivend = Vende-Treco
     .desc = Spare tool vending. What? Did you expect some witty description?
 
-ent-VendingMachineMedical = NanoMed Plus
+ent-VendingMachineMedical = NanoFarma Mais
     .desc = It's a medical drug dispenser. Natural chemicals only!
 
-ent-VendingMachineNutri = NutriMax
+ent-VendingMachineNutri = NutriMaxi
     .desc = A vending machine containing nutritional substances for plants and botanical tools.
 
-ent-VendingMachineSec = SecTech
+ent-VendingMachineSec = SecTéc
     .desc = A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
 
-ent-VendingMachineSeedsUnlocked = MegaSeed Servitor
+ent-VendingMachineSeedsUnlocked = BrotaBrotos
     .desc = For when you need seeds fast. Hands down the best seed selection on the station!
     .suffix = Unlocked
 
-ent-VendingMachineSeeds = MegaSeed Servitor
+ent-VendingMachineSeeds = BrotaBrotos
     .desc = For when you need seeds fast. Hands down the best seed selection on the station!
     .suffix = Hyroponics
 
-ent-VendingMachineSmartFridge = SmartFridge
+ent-VendingMachineSmartFridge = Geladeira Smart
     .desc = A refrigerated storage unit for keeping items cold and fresh.
     .suffix = Hyroponics
 
-ent-VendingMachineSnack = Getmore Chocolate Corp
+ent-VendingMachineSnack = ComaComa Choco Co.
     .desc = A snack machine courtesy of the Getmore Chocolate Corporation, based out of Mars.
     .suffix = Hyroponics
 
@@ -63,115 +63,115 @@ ent-VendingMachineSovietSoda = BODA
     .desc = An old vending machine containing sweet water.
     .suffix = Hyroponics
 
-ent-VendingMachineTheater = AutoDrobe
+ent-VendingMachineTheater = RoupasLoucas
     .desc = A vending machine containing costumes.
     .suffix = Hyroponics
 
-ent-VendingMachineVendomat = Vendomat
+ent-VendingMachineVendomat = VendePeças
     .desc = Only the finest robust equipment in space!
     .suffix = Hyroponics
 
-ent-VendingMachineYouTool = YouTool
+ent-VendingMachineYouTool = Ferra-Venda
     .desc = A vending machine containing standard tools. A label reads: Tools for tools.
     .suffix = Hyroponics
 
-ent-VendingMachineGames = Good Clean Fun
+ent-VendingMachineGames = Di-Ver-São!
     .desc = Vends things that the Captain and Head of Personnel are probably not going to appreciate you fiddling with instead of your job...
     .suffix = Hyroponics
 
-ent-VendingMachineChang = Mr. Chang
+ent-VendingMachineChang = Sr. Chang
     .desc = A self-serving Chinese food machine, for all your Chinese food needs.
     .suffix = Hyroponics
 
-ent-VendingMachineSalvage = salvage vendor
+ent-VendingMachineSalvage = Explora-Vend
     .desc = A dwarves best friend!
     .suffix = Hyroponics
 
-ent-VendingMachineDonut = Monkin' Donuts
+ent-VendingMachineDonut = MicosQuinhas
     .desc = A donut vendor provided by Robust Industries, LLC.
     .suffix = Hyroponics
 
-ent-VendingMachineWallmount = vending machine
+ent-VendingMachineWallmount = máquina de venda
     .desc = A donut vendor provided by Robust Industries, LLC.
     .suffix = Hyroponics
 
-ent-VendingMachineWallMedical = NanoMed
+ent-VendingMachineWallMedical = NanoFarma
     .desc = It's a wall-mounted medical equipment dispenser. Natural chemicals only!
     .suffix = Hyroponics
 
-ent-VendingMachineHydrobe = HyDrobe
+ent-VendingMachineHydrobe = HydroRoupas
     .desc = A machine with a catchy name. It dispenses botany related clothing and gear.
     .suffix = Hyroponics
 
-ent-VendingMachineLawDrobe = LawDrobe
+ent-VendingMachineLawDrobe = LegisRoupas
     .desc = Objection! This wardrobe dispenses the rule of law... and lawyer clothing..
     .suffix = Hyroponics
 
-ent-VendingMachineSecDrobe = SecDrobe
+ent-VendingMachineSecDrobe = SecRoupas
     .desc = A vending machine for security and security-related clothing!
     .suffix = Hyroponics
 
-ent-VendingBarDrobe = BarDrobe
+ent-VendingBarDrobe = BebiRoupas
     .desc = A stylish vendor to dispense the most stylish bar clothing!
     .suffix = Hyroponics
 
-ent-VendingMachineChapel = PietyVend
+ent-VendingMachineChapel = Vossas Vestimentas
     .desc = A stylish vendor to dispense the most stylish bar clothing!
     .suffix = Hyroponics
 
-ent-VendingMachineCargoDrobe = CargoDrobe
+ent-VendingMachineCargoDrobe = CargoRoupas
     .desc = A highly advanced vending machine for buying cargo related clothing for free.
     .suffix = Hyroponics
 
-ent-VendingMachineMediDrobe = MediDrobe
+ent-VendingMachineMediDrobe = MediRoupas
     .desc = A vending machine rumoured to be capable of dispensing clothing for medical personnel.
     .suffix = Hyroponics
 
-ent-VendingMachineChemDrobe = ChemDrobe
+ent-VendingMachineChemDrobe = QuiRoupas
     .desc = A vending machine for dispensing chemistry related clothing.
     .suffix = Hyroponics
 
-ent-VendingMachineAtmosDrobe = AtmosDrobe
+ent-VendingMachineAtmosDrobe = AtmosRoupas
     .desc = This relatively unknown vending machine delivers clothing for Atmospherics Technicians, an equally unknown job.
     .suffix = Hyroponics
 
-ent-VendingMachineEngiDrobe = EngiDrobe
+ent-VendingMachineEngiDrobe = EngiRoupas
     .desc = A vending machine renowned for vending industrial grade clothing.
     .suffix = Hyroponics
 
-ent-VendingMachineChefDrobe = ChefDrobe
+ent-VendingMachineChefDrobe = ChefRoupas
     .desc = This vending machine might not dispense meat, but it certainly dispenses chef related clothing.
     .suffix = Hyroponics
 
-ent-VendingMachineDetDrobe = DetDrobe
+ent-VendingMachineDetDrobe = DetRoupas
     .desc = A machine for all your detective needs, as long as you need clothes.
     .suffix = Hyroponics
 
-ent-VendingMachineJaniDrobe = JaniDrobe
+ent-VendingMachineJaniDrobe = ZelaRoupas
     .desc = A self cleaning vending machine capable of dispensing clothing for janitors.
     .suffix = Hyroponics
 
-ent-VendingMachineSciDrobe = SciDrobe
+ent-VendingMachineSciDrobe = RoupasNerd
     .desc = A simple vending machine suitable to dispense well tailored science clothing. Endorsed by Space Cubans.
     .suffix = Hyroponics
 
-ent-VendingMachineRoboDrobe = RoboDrobe
+ent-VendingMachineRoboDrobe = RoboRoupas
     .desc = A vending machine designed to dispense clothing known only to roboticists.
     .suffix = Hyroponics
 
-ent-VendingMachineGeneDrobe = GeneDrobe
+ent-VendingMachineGeneDrobe = GeneRoupas
     .desc = A machine for dispensing clothing related to genetics.
     .suffix = Hyroponics
 
-ent-VendingMachineViroDrobe = ViroDrobe
+ent-VendingMachineViroDrobe = ViroRoupas
     .desc = An unsterilized machine for dispending virology related clothing.
     .suffix = Hyroponics
 
-ent-VendingMachineTankDispenserEVA = gas tank dispenser
+ent-VendingMachineTankDispenserEVA = dispensador de tanques
     .desc = A vendor for dispensing gas tanks.
     .suffix = EVA [O2, N2]
 
-ent-VendingMachineTankDispenserEngineering = gas tank dispenser
+ent-VendingMachineTankDispenserEngineering = dispensador de tanques
     .desc = A vendor for dispensing gas tanks. This one has an engineering livery.
     .suffix = ENG [O2, Plasma]
 
