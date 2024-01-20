@@ -1,15 +1,15 @@
-ent-BaseMagazineBoxPistol = ammunition box (.35 auto)
+ent-BaseMagazineBoxPistol = caixa de munição (.35 auto)
     .desc = { "" }
 
-ent-MagazineBoxPistol = ammunition box (.35 auto)
+ent-MagazineBoxPistol = caixa de munição (.35 auto)
     .desc = { "" }
 
-ent-MagazineBoxPistolHighVelocity = ammunition box (.35 auto high-velocity)
+ent-MagazineBoxPistolHighVelocity = caixa de munição (.35 auto alta velocidade)
     .desc = { "" }
 
-ent-MagazineBoxPistolPractice = ammunition box (.35 auto practice)
+ent-MagazineBoxPistolPractice = caixa de munição (.35 auto prática)
     .desc = { "" }
 
-ent-MagazineBoxPistolRubber = ammunition box (.35 auto rubber)
+ent-MagazineBoxPistolRubber = caixa de munição (.35 auto borracha)
     .desc = { "" }
 

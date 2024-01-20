@@ -1,18 +1,18 @@
-ent-LeavesCannabis = cannabis leaves
-    .desc = Recently legalized in most galaxies.
+ent-LeavesCannabis = folhas de cannabis
+     .desc = Pode ser legal, em algumas galáxias.
 
-ent-LeavesCannabisDried = dried cannabis leaves
-    .desc = Dried cannabis leaves, ready to be ground.
+ent-LeavesCannabisDried = folhas secas de cannabis
+     .desc = Folhas secas de cannabis, prontas para serem moídas.
 
-ent-GroundCannabis = ground cannabis
-    .desc = Ground cannabis, ready to take you on a trip.
+ent-GroundCannabis = cannabis moída
+     .desc = Cannabis moída, pronta para levar você em uma viagem.
 
-ent-LeavesTobacco = tobacco leaves
-    .desc = Dry them out to make some smokes.
+ent-LeavesTobacco = folhas de tabaco
+     .desc = Seque-os para fazer alguns cigarros.
 
-ent-LeavesTobaccoDried = dried tobacco leaves
-    .desc = Dried tobacco leaves, ready to be ground.
+ent-LeavesTobaccoDried = folhas secas de tabaco
+     .desc = Folhas secas de tabaco, prontas para serem moídas.
 
-ent-GroundTobacco = ground tobacco
-    .desc = Ground tobacco, perfect for hand-rolled cigarettes.
+ent-GroundTobacco = tabaco moído
+     .desc = Tabaco moído, perfeito para cigarros enrolados à mão.
 

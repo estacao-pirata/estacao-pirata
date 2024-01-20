@@ -1,21 +1,20 @@
-ent-FoodNoodlesBoiled = boiled spaghetti
-    .desc = A plain dish of noodles, this needs more ingredients.
+ent-FoodNoodlesBoiled = espaguete cozido
+     .desc = Um prato simples de macarrão, precisa de mais ingredientes.
 
-ent-FoodNoodles = spaghetti
-    .desc = Spaghetti and crushed tomatoes. Just like your abusive father used to make!
+ent-FoodNoodles = espaguete
+     .desc = Espaguete e tomate esmagado. Exatamente como seu pai abusivo costumava fazer!
 
 ent-FoodNoodlesCopy = copypasta
-    .desc = You probably shouldn't try this, you always hear people talking about how bad it is...
+     .desc = Você provavelmente não deveria tentar isso, você sempre ouve pessoas falando sobre como isso é ruim...
 
-ent-FoodNoodlesMeatball = spaghetti and meatballs
-    .desc = Now that's a nice-a meatball!
+ent-FoodNoodlesMeatball = espaguete e almôndegas
+     .desc = Isso é uma bela almôndega!
 
 ent-FoodNoodlesSpesslaw = spesslaw
-    .desc = A lawyer's favourite.
+     .desc = O favorito dos advogados.
 
 ent-FoodNoodlesChowmein = chow mein
-    .desc = A nice mix of noodles and fried vegetables.
+     .desc = Uma bela mistura de macarrão e vegetais fritos.
 
-ent-FoodNoodlesButter = butter noodles
-    .desc = Noodles covered in savory butter. Simple and slippery, but delicious.
-
+ent-FoodNoodlesButter = macarrão com manteiga
+     .desc = Macarrão coberto com manteiga saborosa. Simples e escorregadio, mas delicioso.

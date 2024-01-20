@@ -1,138 +1,108 @@
-ent-MobBat = bat
-    .desc = Some cultures find them terrifying, others crunchy on the teeth.
+ent-MobBat = morcego
+     .desc = Algumas culturas os consideram assustadores, outras são crocantes nos dentes.
 
-ent-MobBee = bee
-    .desc = Nice to have, but you can't build a civilization on a foundation of honey alone.
+ent-MobBee = abelha
+     .desc = É bom ter, mas você não pode construir uma civilização apenas com base no mel.
 
-ent-MobAngryBee = bee
-    .desc = How nice a bee. Oh no, it looks angry and wants my pizza.
-    .suffix = Angry
+ent-MobAngryBee = abelha
+     .desc = Que bela abelha. Ah, não, ele parece bravo e quer minha pizza.
+     .suffix = Irritado
 
-ent-MobChicken = chicken
-    .desc = Comes before an egg, and IS a dinosaur!
-    .suffix = Angry
+ent-MobChicken = galinha
+     .desc = Vem antes do ovo e É um dinossauro!
 
-ent-MobDuckMallard = mallard duck
-    .desc = An adorable mallard duck, it's fluffy and soft!
-    .suffix = Angry
+ent-MobDuckMallard = pato-real
+     .desc = Um adorável pato-real, é fofinho e macio!
 
-ent-MobDuckWhite = white duck
-    .desc = An adorable white duck, it's fluffy and soft!
-    .suffix = Angry
+ent-MobDuckWhite = pato branco
+     .desc = Um adorável pato branco, é fofinho e macio!
 
-ent-MobDuckBrown = brown duck
-    .desc = An adorable brown duck, it's fluffy and soft!
-    .suffix = Angry
+ent-MobDuckBrown = pato marrom
+     .desc = Um adorável pato marrom, é fofinho e macio!
 
-ent-MobButterfly = butterfly
-    .desc = Despite popular misconceptions, it's not actually made of butter.
-    .suffix = Angry
+ent-MobButterfly = borboleta
+     .desc = Apesar dos equívocos populares, na verdade não é feito de manteiga.
 
-ent-MobCow = cow
-    .desc = Moo.
-    .suffix = Angry
+ent-MobCow = vaca
+     .desc = Moo.
 
-ent-MobCrab = crab
-    .desc = A folk legend goes around that his claw snaps spacemen out of existance over distasteful remarks. Be polite and tolerant for your own safety.
-    .suffix = Angry
+ent-MobCrab = caranguejo
+     .desc = Existe uma lenda popular de que sua garra tira os astronautas da existência por causa de comentários desagradáveis. Seja educado e tolerante para sua própria segurança.
 
-ent-MobGoat = goat
-    .desc = Her spine consists of long sharp segments, no wonder she is so grumpy.
-    .suffix = Angry
+ent-MobGoat = cabra
+     .desc = Sua coluna consiste em longos segmentos pontiagudos, não admira que ela seja tão mal-humorada.
 
-ent-MobGoose = goose
-    .desc = Its stomach and mind are an enigma beyond human comprehension.
-    .suffix = Angry
+ent-MobGoose = ganso
+     .desc = Seu estômago e mente são um enigma além da compreensão humana.
 
-ent-MobGorilla = gorilla
-    .desc = Smashes, roars, looks cool. Don't stand near one.
-    .suffix = Angry
+ent-MobGorilla = gorila
+     .desc = Esmaga, ruge, parece legal. Não fique perto de um.
 
-ent-MobKangaroo = kangaroo
-    .desc = A large marsupial herbivore. It has powerful hind legs, with nails that resemble long claws.
-    .suffix = Angry
+ent-MobKangaroo = canguru
+     .desc = Um grande herbívoro marsupial. Possui patas traseiras poderosas, com unhas que lembram garras longas.
 
-ent-MobKangarooBoxer = boxing kangaroo
-    .desc = A large marsupial herbivore. It has powerful hind legs and... boxing gloves?
-    .suffix = Angry
+ent-MobKangarooBoxer = canguru boxeador
+     .desc = Um grande herbívoro marsupial. Tem patas traseiras poderosas e... luvas de boxe?
+     .suffix = Irritado
 
-ent-MobKangarooJudge = judge kangaroo
-    .desc = This case is in the bag... or, pouch...
-    .suffix = Angry
+ent-MobKangarooJudge = juiz canguru
+     .desc = Este case está na bolsa... ou bolsa...
 
-ent-MobMonkey = monkey
-    .desc = New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
-    .suffix = Angry
+ent-MobMonkey = macaco
+     .desc = A nova igreja dos neodarwinistas realmente acredita que TODOS os animais evoluíram de um macaco. Tem gosto de carne de porco e matá-los é divertido e relaxante.
 
 ent-MobMouse = mouse
-    .desc = Squeak!
-    .suffix = Angry
+     .desc = Squeak!
 
 ent-MobMouse1 = mouse
-    .desc = Squeak!
-    .suffix = Angry
+     .desc = Squeak!
 
 ent-MobMouse2 = mouse
-    .desc = Squeak!
-    .suffix = Angry
+     .desc = Squeak!
 
-ent-MobLizard = lizard
-    .desc = A harmless dragon.
-    .suffix = Angry
+ent-MobLizard = lagarto
+     .desc = Um dragão inofensivo.
 
-ent-MobSlug = slug
-    .desc = And they called this a lizard?
-    .suffix = Angry
+ent-MobSlug = lesma
+     .desc = E chamaram isso de lagarto?
 
-ent-MobFrog = frog
-    .desc = Hop hop hop. Lookin' moist.
-    .suffix = Angry
+ent-MobFrog = sapo
+     .desc = pulo, pulo, pulo. Parece úmido.
 
-ent-MobParrot = parrot
-    .desc = Infiltrates your domain, spies on you, and somehow still a cool pet.
-    .suffix = Angry
+ent-MobParrot = papagaio
+     .desc = Infiltra-se em seu domínio, espiona você e, de alguma forma, ainda é um animal de estimação legal.
 
-ent-MobPenguin = penguin
-    .desc = Their lives are constant pain due to their inner-body knees.
-    .suffix = Angry
+ent-MobPenguin = pinguim
+     .desc = Suas vidas são uma dor constante devido aos joelhos na parte interna do corpo.
 
-ent-MobGrenadePenguin = grenade penguin
-    .desc = A small penguin with a grenade strapped around its neck. Harvested by the Syndicate from icy shit-hole planets.
-    .suffix = Angry
+ent-MobGrenadePenguin = pinguim granada
+     .desc = Um pequeno pinguim com uma granada amarrada no pescoço. Colhido pelo Sindicato em planetas gelados e de merda.
+     .suffix = Irritado
 
-ent-MobSnake = snake
-    .desc = Hissss! Bites aren't poisonous.
-    .suffix = Angry
+ent-MobSnake = cobra
+     .desc = Hissss! As mordidas não são venenosas.
 
-ent-MobGiantSpider = tarantula
-    .desc = Widely recognized to be the literal worst thing in existence.
-    .suffix = Angry
+ent-MobGiantSpider = tarântula
+     .desc = Amplamente reconhecido como literalmente a pior coisa que existe.
 
-ent-MobGiantSpiderAngry = tarantula
-    .desc = Widely recognized to be the literal worst thing in existence.
-    .suffix = Angry
+ent-MobGiantSpiderAngry = tarântula
+     .desc = Amplamente reconhecido como literalmente a pior coisa que existe.
+     .suffix = Irritado
 
-ent-MobPossum = possum
-    .desc = "O Possum! My Possum!" -- Walt Whitman, 1865
-    .suffix = Angry
+ent-MobPossum = gambá
+     .desc = "Ó gambá! Meu gambá!" -Walt Whitman, 1865
 
 ent-MobPossumMorty = Morty
-    .desc = The station's resident Didelphis virginiana. A sensitive but resilient kind of guy.
-    .suffix = Angry
+     .desc = Didelphis virginiana residente da estação. Um tipo de cara sensível, mas resiliente.
 
-ent-MobRaccoon = raccoon
-    .desc = Trash panda!
-    .suffix = Angry
+ent-MobRaccoon = guaxinim
+     .desc = Panda lixo!
 
 ent-MobRaccoonMorticia = Morticia
-    .desc = A powerful creature of the night. Her eyeshadow is always on point.
-    .suffix = Angry
+     .desc = Uma poderosa criatura da noite. Sua sombra está sempre correta.
 
-ent-MobFox = fox
-    .desc = They're a fox.
-    .suffix = Angry
+ent-MobFox = raposa
+     .desc = Eles são uma raposa.
 
 ent-MobFoxRenault = Renault
-    .desc = The captain's trustworthy fox.
-    .suffix = Angry
-
+     .desc = A raposa de confiança do capitão.

@@ -1,6 +1,5 @@
-ent-WindoorAssembly = windoor assembly
-    .desc = It opens, it closes, and you can see through it!
+ent-WindoorAssembly = porta de vidro incompleta
+    .desc = Ela abre, fecha, e tu consegue ver por ela!
 
-ent-WindoorAssemblySecure = secure windoor assembly
-    .desc = It opens, it closes, and you can see through it! This one looks tough.
-
+ent-WindoorAssemblySecure = porta de vidro reforçado incompleta
+    .desc = Ela abre, fecha, e tu consegue ver por ela! Mas essa parece bem forte.

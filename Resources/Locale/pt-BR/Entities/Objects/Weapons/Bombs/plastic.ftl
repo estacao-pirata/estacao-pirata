@@ -1,3 +1,2 @@
-ent-C4 = composition C-4
-    .desc = Used to put holes in specific areas without too much extra hole. A saboteur's favorite.
-
+ent-C4 = composição C-4
+     .desc = Usado para fazer furos em áreas específicas sem muitos furos extras. O favorito de um sabotador.

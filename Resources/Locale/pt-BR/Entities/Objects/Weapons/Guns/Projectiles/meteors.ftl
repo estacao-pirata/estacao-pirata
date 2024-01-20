@@ -1,3 +1,3 @@
-ent-MeteorLarge = meteor
+ent-MeteorLarge = meteoro
     .desc = { "" }
 

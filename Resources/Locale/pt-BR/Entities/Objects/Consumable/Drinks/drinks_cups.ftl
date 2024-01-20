@@ -1,54 +1,53 @@
-ent-DrinkBaseCup = base cup
-    .desc = { "" }
+ent-DrinkBaseCup = copo base
+     .desc = { "" }
 
-ent-DrinkGoldenCup = golden cup
-    .desc = A golden cup.
+ent-DrinkGoldenCup = copo de ouro
+     .desc = Uma copo de ouro.
 
-ent-DrinkMug = mug
-    .desc = A plain white mug.
+ent-DrinkMug = caneca
+     .desc = Uma caneca branca lisa.
 
-ent-DrinkMugBlack = mug black
-    .desc = A sleek black mug.
+ent-DrinkMugBlack = caneca preta
+     .desc = Uma caneca preta elegante.
 
-ent-DrinkMugBlue = mug blue
-    .desc = A blue and black mug.
+ent-DrinkMugBlue = caneca azul
+     .desc = Uma caneca azul e preta.
 
-ent-DrinkMugGreen = mug green
-    .desc = A pale green and pink mug.
+ent-DrinkMugGreen = caneca verde
+     .desc = Uma caneca verde claro e rosa.
 
-ent-DrinkMugDog = funny dog mug
-    .desc = It looks like a cartoon beagle.
+ent-DrinkMugDog = caneca de cachorro
+     .desc = Parece um beagle de desenho animado.
 
-ent-DrinkMugHeart = mug heart
-    .desc = A white mug, it prominently features a red heart.
+ent-DrinkMugHeart = caneca de coração
+     .desc = Uma caneca branca com um coração vermelho em destaque.
 
-ent-DrinkMugMetal = metal mug
-    .desc = A metal mug. You're not sure which metal.
+ent-DrinkMugMetal = caneca de metal
+     .desc = Uma caneca de metal. Você não tem certeza de qual metal.
 
-ent-DrinkMugMoebius = mug moebius
-    .desc = A mug with a Moebius Laboratories logo on it. Not even your morning coffee is safe from corporate advertising.
+ent-DrinkMugMoebius = caneca de moebius
+     .desc = Uma caneca com o logotipo do Moebius Laboratories. Nem mesmo o seu café da manhã está a salvo da publicidade corporativa.
 
-ent-DrinkMugOne = #1 mug
-    .desc = A white mug, it prominently features a #1.
+ent-DrinkMugOne = #1 caneca
+     .desc = Uma caneca branca, com destaque para o número 1.
 
-ent-DrinkMugRainbow = mug rainbow
-    .desc = A rainbow mug. The colors are almost as blinding as a welder.
+ent-DrinkMugRainbow = caneca arco-íris
+     .desc = Uma caneca arco-íris. As cores são quase tão ofuscantes quanto um soldador.
 
-ent-DrinkMugRed = mug red
-    .desc = A red and black mug.
+ent-DrinkMugRed = caneca vermelha
+     .desc = Uma caneca vermelha e preta.
 
-ent-DrinkHotCoco = Hot chocolate
-    .desc = A heated drink consisting melted chocolate and heated milk.
+ent-DrinkHotCoco = chocolate quente
+     .desc = Uma bebida aquecida composta por chocolate derretido e leite aquecido.
 
-ent-DrinkHotCoffee = Coffee
-    .desc = Coffee is a brewed drink prepared from roasted seeds, commonly called coffee beans, of the coffee plant.
+ent-DrinkHotCoffee = xícara de café
+     .desc = Café é uma bebida preparada a partir de sementes torradas, comumente chamadas de grãos de café, da planta do café.
 
-ent-DrinkTeacup = Teacup
-    .desc = A plain white porcelain teacup.
+ent-DrinkTeacup = xícara de chá
+     .desc = Uma xícara de chá de porcelana branca lisa.
 
-ent-DrinkLean = Lean
-    .desc = Damn, fun only allowed on forks.
+ent-DrinkLean = magro
+     .desc = Droga, diversão só é permitida em forks.
 
-ent-DrinkWaterCup = water cup
-    .desc = A paper water cup.
-
+ent-DrinkWaterCup = copo de água
+     .desc = Um copo d'água de papel.

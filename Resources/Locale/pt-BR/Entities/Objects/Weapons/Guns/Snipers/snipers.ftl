@@ -1,15 +1,15 @@
 ent-BaseWeaponSniper = BaseWeaponSniper
-    .desc = A rooty tooty point and shooty.
+     .desc = Um ponto enraizado e atirado.
 
 ent-WeaponSniperMosin = Kardashev-Mosin
-    .desc = A weapon for hunting, or endless trench warfare. Uses .30 rifle ammo.
+     .desc = Uma arma para caça ou guerra de trincheiras sem fim. Usa munição de rifle .30.
 
 ent-WeaponSniperHristov = Hristov
-    .desc = A portable anti-armour rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-material ammo.
+     .desc = Um rifle anti-blindagem portátil. Dispara projéteis perfurantes de armadura de 14,5 mm. Usa munição anti-material .60.
 
-ent-Musket = musket
-    .desc = This should've been in a museum long before you were born. Uses .60 anti-material ammo.
+ent-Musket = mosquete
+     .desc=Isso deveria estar em um museu muito antes de você nascer. Usa munição anti-material .60.
 
-ent-WeaponPistolFlintlock = flintlock pistol
-    .desc = A pirate's companion. Yarrr! Uses .60 anti-material ammo.
+ent-WeaponPistolFlintlock = pistola de pederneira
+     .desc = Companheiro de um pirata. Yarr! Usa munição anti-material .60.
 

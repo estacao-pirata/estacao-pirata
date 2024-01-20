@@ -1,3 +1,3 @@
-ent-Vaccinator = Vaccinator
-    .desc = A machine that creates vaccines.
+ent-Vaccinator = Vacinador
+    .desc = Uma maquina que cria vacinas.
 

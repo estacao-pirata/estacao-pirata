@@ -1,15 +1,14 @@
-ent-BaseWeaponPistol = BasePistol
-    .desc = A rooty tooty point and shooty.
+ent-BaseWeaponPistol = BasePistola
+     .desc = Um ponto enraizado e atirado.
 
-ent-WeaponPistolViper = viper
-    .desc = A small, easily concealable, but somewhat underpowered gun. Uses .35 auto ammo.
+ent-WeaponPistolViper = víbora
+     .desc = Uma arma pequena, facilmente ocultável, mas com pouca potência. Usa munição automática .35.
 
-ent-WeaponPistolHandmade = handmade pistol
-    .desc = Looks unreliable. Uses .35 auto ammo.
+ent-WeaponPistolHandmade = pistola caseira
+     .desc = Parece não confiável. Usa munição automática .35.
 
 ent-WeaponPistolCobra = cobra
-    .desc = A rugged, robust operator handgun with inbuilt silencer. Uses .25 caseless ammo.
+     .desc = Uma pistola de operador robusta e robusta com silenciador embutido. Usa munição .25 sem caixa.
 
-ent-WeaponPistolMk58 = mk 58
-    .desc = A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
-
+ent-WeaponPistolMk58 = Mk 58
+     .desc = Uma arma barata e onipresente, produzida por uma subsidiária da NanoTrasen. Usa munição automática .35.

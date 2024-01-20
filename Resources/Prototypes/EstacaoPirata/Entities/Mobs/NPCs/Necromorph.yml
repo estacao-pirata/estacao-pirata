@@ -61,7 +61,7 @@
   - type: SpamEmitSound #gritam em constante agonia
     sound:
       params:
-        volume: -9
+        volume: -12
       collection: NecromorphScreams
   - type: Sprite
     drawdepth: Mobs

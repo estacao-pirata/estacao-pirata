@@ -1,6 +1,5 @@
-ent-InflatableWall = inflatable barricade
-    .desc = An inflated membrane. Activate to deflate. Do not puncture.
+ent-InflatableWall = barricada inflável
+     .desc = Uma membrana inflada. Ative para esvaziar. Não perfure.
 
-ent-InflatableDoor = inflatable door
-    .desc = An inflated membrane. Activate to deflate. Now with a door. Do not puncture.
-
+ent-InflatableDoor = porta inflável
+     .desc = Uma membrana inflada. Ative para esvaziar. Agora com uma porta. Não perfure.

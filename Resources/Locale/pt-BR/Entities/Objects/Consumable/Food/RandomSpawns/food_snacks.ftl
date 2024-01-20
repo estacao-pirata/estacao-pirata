@@ -1,3 +1,3 @@
-ent-RandomSnacks = random snack spawner
+ent-RandomSnacks = gerador de lanche
     .desc = { "" }
 

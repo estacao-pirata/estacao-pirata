@@ -1,18 +1,18 @@
 ent-BaseWeaponShotgun = BaseWeaponShotgun
-    .desc = A rooty tooty point and shooty.
+     .desc = Um ponto enraizado e atirado.
 
-ent-WeaponShotgunBulldog = Bulldog
-    .desc = It's a magazine-fed shotgun designed for close quarters combat. Uses .50 shotgun shells.
+ent-WeaponShotgunBulldog = Buldogue
+     .desc = É uma espingarda alimentada por carregador projetada para combate corpo a corpo. Usa cartuchos de espingarda .50.
 
-ent-WeaponShotgunDoubleBarreled = double-barreled shotgun
-    .desc = An immortal classic. Uses .50 shotgun shells.
+ent-WeaponShotgunDoubleBarreled = espingarda de cano duplo
+     .desc = Um clássico imortal. Usa cartuchos de espingarda .50.
 
-ent-WeaponShotgunEnforcer = Enforcer
-    .desc = A next-generation Frozen Star shotgun. Uses .50 shotgun shells.
+ent-WeaponShotgunEnforcer = Executor
+     .desc = Uma espingarda Frozen Star de próxima geração. Usa cartuchos de espingarda .50.
 
 ent-WeaponShotgunKammerer = Kammerer
-    .desc = When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
+     .desc = Quando um design antigo da Remington encontra materiais modernos, este é o resultado. Uma arma favorita das forças milícias em muitos mundos. Usa cartuchos de espingarda .50.
 
-ent-WeaponShotgunSawn = sawn-off shotgun
-    .desc = Groovy! Uses .50 shotgun shells.
+ent-WeaponShotgunSawn = espingarda serrada
+     .desc = Legal! Usa cartuchos de espingarda .50.
 

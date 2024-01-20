@@ -29,7 +29,7 @@
   objective: roles-antag-nuclear-operative-commander-objective
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 18000 # 5h
+    time: 36000 # 10h
   - !type:DepartmentTimeRequirement
     department: Security
     time: 18000 # 5h

@@ -1,15 +1,15 @@
-ent-BaseCartridgeCaselessRifle = cartridge (.25 rifle)
+ent-BaseCartridgeCaselessRifle = cartucho (.25 rifle)
     .desc = { "" }
 
-ent-CartridgeCaselessRifle = cartridge (.25 caseless)
+ent-CartridgeCaselessRifle = cartucho (.25 sem estojo)
     .desc = { "" }
 
-ent-CartridgeCaselessRifleHighVelocity = cartridge (.25 caseless high-velocity)
+ent-CartridgeCaselessRifleHighVelocity = cartucho (.25 sem estojo alta velocidade)
     .desc = { "" }
 
-ent-CartridgeCaselessRiflePractice = cartridge (.25 caseless practice)
+ent-CartridgeCaselessRiflePractice = cartucho (.25 sem estojo prática)
     .desc = { "" }
 
-ent-CartridgeCaselessRifleRubber = cartridge (.25 caseless rubber)
+ent-CartridgeCaselessRifleRubber = cartucho (.25 sem estojo borracha)
     .desc = { "" }
 

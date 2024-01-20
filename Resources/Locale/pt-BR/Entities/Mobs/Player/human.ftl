@@ -1,53 +1,46 @@
 ent-MobHuman = Urist McHands
-    .desc = { "" }
+     .desc = { "" }
 
-ent-MobHumanCentcomOfficial = CentCom official
-    .desc = { "" }
+ent-MobHumanCentcomOfficial = Oficial do CentCom
+     .desc = { "" }
 
-ent-MobHumanERTLeader = ERT leader
-    .desc = { "" }
+ent-MobHumanERTLeader = Líder ERT
+     .desc = { "" }
 
-ent-MobHumanERTLeaderEVA = ERT leader
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanERTLeaderEVA = Líder ERT
+     .desc = { "" }
+     .suffix = EVA
 
-ent-MobHumanERTEngineer = ERT engineer
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanERTEngineer = Engenheiro ERT
+     .desc = { "" }
 
-ent-MobHumanERTEngineerEVA = ERT engineer
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanERTEngineerEVA = Engenheiro ERT
+     .desc = { "" }
+     .suffix = EVA
 
-ent-MobHumanERTSecurity = ERT security
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanERTSecurity = Segurança ERT
+     .desc = { "" }
 
-ent-MobHumanERTSecurityEVA = ERT security
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanERTSecurityEVA = Segurança ERT
+     .desc = { "" }
+     .suffix = EVA
 
-ent-MobHumanERTMedical = ERT medic
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanERTMedical = Médico ERT
+     .desc = { "" }
 
-ent-MobHumanERTMedicalEVA = ERT medic
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanERTMedicalEVA = Médico ERT
+     .desc = { "" }
+     .suffix = EVA
 
-ent-MobHumanERTJanitor = ERT janitor
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanERTJanitor = Zelador ERT
+     .desc = { "" }
 
-ent-MobHumanERTJanitorEVA = ERT janitor
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanERTJanitorEVA = Zelador ERT
+     .desc = { "" }
+     .suffix = EVA
 
-ent-MobHumanSyndicateAgent = Syndicate Agent
-    .desc = { "" }
-    .suffix = EVA
+ent-MobHumanSyndicateAgent = Agente Sindicato
+     .desc = { "" }
 
-ent-MobHumanNukeOp = Nuclear Operative
-    .desc = { "" }
-    .suffix = EVA
-
+ent-MobHumanNukeOp = Operativo Nuclear
+     .desc = { "" }

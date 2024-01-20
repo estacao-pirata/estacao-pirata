@@ -1,3 +1,3 @@
-ent-Dresser = dresser
-    .desc = It's filled with underwear and shorts, finding an unused one is a gamble.
+ent-Dresser = cômoda
+    .desc = Cheia de roupas que tu não sabe o dono.
 

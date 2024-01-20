@@ -1,31 +1,30 @@
 <Document>
-  # Cargo
-  The supply department, more commonly known simply as Cargo, is in charge of keeping the station stocked up on necessary resources, such as fuel and raw materials. Though, they are not restricted to simple goods, and can order a wide variety of different items from off-station. The point is, it's Cargo's job to get the rest of the station what they need.
+  # Carga
+   O departamento de abastecimento, mais conhecido simplesmente como Carga, é responsável por manter o estação abastecido com os recursos necessários, como combustível e matéria-prima. Porém, eles não estão restritos a produtos simples e podem encomendar uma grande variedade de itens diferentes fora da estação. A questão é que é trabalho da "Cargo" levar ao resto da estação o que eles precisam.
 
-  ## Ordering
-  <Box>
-    <GuideEntityEmbed Entity="ComputerCargoOrders"/>
-  </Box>
-  Every transaction you make will begin at a [color=#a4885c]cargo request computer[/color], from which you can make orders for specific products. Making any order requires [color=#118C4F]spesos[/color], the currency of the station. To make an order, click the "request" button next to whatever you need, type an appropriate reason for why you're ordering it, and hit "approve" when it appears below the request list.
+   ## Encomenda
+   <Box>
+     <GuideEntityEmbed Entity="ComputerCargoOrders"/>
+   </Box>
+   Cada transação que você fizer começará em um [color=#a4885c]cargo request computer[/color], no qual você poderá fazer pedidos de produtos específicos. Fazer qualquer pedido requer [color=#118C4F]speos[/color], a moeda da estação. Para fazer um pedido, clique no botão “request” ao lado do que você precisa, digite um motivo apropriado para o pedido e clique em “approve” quando aparecer abaixo da lista de solicitações.
 
-  ## Piloting
-  Orders are shipped to the station via the [color=#a4885c]cargo shuttle[/color], the remotely piloted spacecraft that cargo uses to buy and sell goods. In order to move the shuttle, you must first find the [color=#a4885c]cargo shuttle computer[/color].
-  <Box>
-    <GuideEntityEmbed Entity="ComputerCargoShuttle"/>
-  </Box>
-  After clicking the computer, you should see a radar view of the shuttle. Here are the steps for piloting the shuttle back and forth:
+   ## Pilotagem
+   Os pedidos são enviados para a estação através do [color=#a4885c]cargo shuttle[/color], a espaçonave pilotada remotamente que a carga usa para comprar e vender mercadorias. Para mover a nave de carga, você deve primeiro encontrar o [color=#a4885c]cargo shuttle computer[/color].
+   <Box>
+     <GuideEntityEmbed Entity="ComputerCargoShuttle"/>
+   </Box>
+   Depois de clicar no computador, você deverá ver uma visão de radar da nave de carga. Aqui estão as etapas para pilotar a nave de carga para frente e para trás:
 
-  - First, disconnect any airlocks that are connected to the dock.
-  - Then, you actually get to pilot the shuttle. The controls are fairly simple, with W and S being forward and backward, A and D being turn left and right; and Spacebar being the brake.
-  - Find the button that designates the trading post. Hit this button, and the shuttle will start traveling to it.
-  - After a short delay, the option to FTL back to the station will reappear. After this, just pilot the shuttle back to the cargo dock and retrieve the items you ordered.
+   - Primeiro, desconecte todas as câmaras de ar conectadas à doca.
+   - Então, você realmente pilotará a nave de carga. Os controles são bastante simples, com W e S avançando e retrocedendo, A e D virando à esquerda e à direita; e a barra de espaço sendo o freio.
+   - Encontre o botão que designa o entreposto comercial ou "Trading Post". Aperte este botão e a nave começará a viajar até ele.
+   - Após um pequeno atraso, a opção de FTL de volta à estação reaparecerá. Depois disso, basta pilotar a nave de volta à doca de carga e recuperar os itens que você pediu.
 
-  ## Selling
-  So, you want to order something, but don't have the money for it? You just need to sell something! Almost everything on the station has economic value, which an [color=#a4885c]appraisal tool[/color] can read out to you.
-  <Box>
-    <GuideEntityEmbed Entity="AppraisalTool"/>
-    <GuideEntityEmbed Entity="CargoPallet"/>
-  </Box>
-  After finding something worth selling, place it on one of the shuttle's cargo pallets. The next time the shuttle is sent to a trading post, the item will be sold and the money will be directly transferred back to the station's bank account. You can also make even more money by completing [textlink="bounties" link="CargoBounties"] or selling valuable items from [textlink="salvage" link="Salvage"].
-
+   ## Vendendo
+   Então, você quer pedir algo, mas não tem dinheiro para isso? Você só precisa vender alguma coisa! Quase tudo na estação tem valor econômico, que uma [color=#a4885c]appraisal tool[/color] pode ler para você.
+   <Box>
+     <GuideEntityEmbed Entity="AppraisalTool"/>
+     <GuideEntityEmbed Entity="CargoPallet"/>
+   </Box>
+   Depois de encontrar algo que valha a pena vender, coloque-o em um dos paletes da nave de carga. Na próxima vez que a nave de carga for enviado para um entreposto comercial, o item será vendido e o dinheiro será transferido diretamente de volta para a conta bancária da estação. Você também pode ganhar ainda mais dinheiro completando [textlink="bounties" link="CargoBounties"] ou vendendo itens valiosos de [textlink="salvage" link="Salvage"].
 </Document>

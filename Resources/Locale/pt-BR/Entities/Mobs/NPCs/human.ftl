@@ -1,13 +1,13 @@
-ent-MobCivilian = Civilian
-    .desc = A miserable pile of secrets.
+ent-MobCivilian = Civil
+     .desc = A vida como civil nunca foi tão fácil.
 
 ent-MobSpirate = Spirate
-    .desc = Yarr!
+     .desc = Yarr!
+     .suffix = Irritado
 
-ent-MobCBURNUnit = CBURN Agent
-    .desc = A miserable pile of secrets
+ent-MobCBURNUnit = Agente CBURN
+     .desc = Esmague a infecção a todo custo.
 
-ent-SalvageHumanCorpse = unidentified human
-    .desc = We barely knew ye.
-    .suffix = Dead
-
+ent-SalvageHumanCorpse = humano desconhecido
+     .desc = Mal te conhecíamos.
+     .suffix = Morto

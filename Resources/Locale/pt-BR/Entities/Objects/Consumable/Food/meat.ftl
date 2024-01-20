@@ -1,162 +1,162 @@
-ent-FoodMeat = raw meat
-    .desc = A slab of raw meat.
+ent-FoodMeat = carne crua
+     .desc = Um pedaço de carne crua.
 
-ent-FoodMeatFish = raw carp fillet
-    .desc = Your last words being "Wow, exotic!" are not worth it. The taste itself though? Maybe.
+ent-FoodMeatFish = filé de carpa crua
+     .desc = Suas últimas palavras foram "Uau, exótico!" não valem a pena. O sabor em si? Talvez.
 
-ent-FoodMeatBacon = raw bacon
-    .desc = A raw piece of bacon.
+ent-FoodMeatBacon = bacon cru
+     .desc = Um pedaço de bacon cru.
 
-ent-FoodMeatBear = raw bear meat
-    .desc = A very manly slab of raw bear meat.
+ent-FoodMeatBear = carne crua de urso
+     .desc = Um pedaço de carne crua de urso muito viril.
 
-ent-FoodMeatPenguin = raw penguin meat
-    .desc = A slab of raw penguin meat. Can be used as a substitute for fish in recipes.
+ent-FoodMeatPenguin = carne crua de pinguim
+     .desc = Um pedaço de carne crua de pinguim. Pode ser usado como substituto do peixe em receitas.
 
-ent-FoodMeatChicken = raw chicken meat
-    .desc = A slab of raw chicken. Remember to wash your hands!
+ent-FoodMeatChicken = carne de frango crua
+     .desc = Um pedaço de frango cru. Lembre-se de lavar as mãos!
 
-ent-FoodMeatDuck = raw duck meat
-    .desc = A slab of raw duck. Remember to wash your hands!
+ent-FoodMeatDuck = carne de pato crua
+     .desc = Um pedaço de pato cru. Lembre-se de lavar as mãos!
 
-ent-FoodMeatCorgi = prime-cut corgi meat
-    .desc = The tainted gift of an evil crime. The meat may be delicious, but at what cost?
+ent-FoodMeatCorgi = carne corgi de corte nobre
+     .desc = O presente contaminado de um crime maligno. A carne pode ser deliciosa, mas a que custo?
 
-ent-FoodMeatCrab = raw crab meat
-    .desc = A pile of raw crab meat.
+ent-FoodMeatCrab = carne de caranguejo crua
+     .desc = Uma pilha de carne crua de caranguejo.
 
-ent-FoodMeatGoliath = raw goliath meat
-    .desc = A slab of goliath meat. It's not very edible now, but it cooks great in lava.
+ent-FoodMeatGoliath = carne crua de Golias
+     .desc = Um pedaço de carne de Golias. Não é muito comestível agora, mas cozinha muito bem na lava.
 
-ent-FoodMeatDragon = dragon flesh
-    .desc = The dense meat of the space-era apex predator is oozing with it's mythical ichor. Ironically, best eaten raw.
+ent-FoodMeatDragon = carne de dragão
+     .desc = A carne densa do predador da era espacial está transbordando com seu icor mítico. Ironicamente, é melhor comê-lo cru.
 
-ent-FoodMeatRat = raw rat meat
-    .desc = Prime meat from maintenance!
+ent-FoodMeatRat = carne crua de rato
+     .desc = Carne nobre da manutenção!
 
-ent-FoodMeatLizard = raw lizard meat
-    .desc = Delicious dino damage.
+ent-FoodMeatLizard = carne crua de lagarto
+     .desc = Delicioso dano de dinossauro.
 
-ent-FoodMeatPlant = raw plant meat
-    .desc = All the joys of healthy eating with all the fun of cannibalism.
+ent-FoodMeatPlant = carne vegetal crua
+     .desc = Todas as alegrias da alimentação saudável com toda a diversão do canibalismo.
 
-ent-FoodMeatRotten = rotten meat
-    .desc = Halfway to becoming fertilizer for your garden.
+ent-FoodMeatRotten = carne podre
+     .desc = A meio caminho de se tornar fertilizante para o seu jardim.
 
-ent-FoodMeatSpider = raw spider meat
-    .desc = A slab of spider meat. That's so Kafkaesque.
+ent-FoodMeatSpider = carne de aranha crua
+     .desc = Um pedaço de carne de aranha. Isso é tão kafkiano.
 
-ent-FoodMeatSpiderLeg = raw spider leg
-    .desc = A still twitching leg of a giant spider... you don't really want to eat this, do you?
+ent-FoodMeatSpiderLeg = perna de aranha crua
+     .desc = Uma perna ainda se contorcendo de uma aranha gigante... você realmente não quer comer isso, quer?
 
-ent-FoodMeatWheat = meatwheat clump
-    .desc = This doesn't look like meat, but your standards aren't that high to begin with.
+ent-FoodMeatWheat = torrão de trigo de carne
+     .desc = Isso não parece carne, mas seus padrões não são tão altos para começar.
 
-ent-FoodMeatXeno = raw xeno meat
-    .desc = A slab of xeno meat, dripping with acid.
+ent-FoodMeatXeno = carne xeno crua
+     .desc = Um pedaço de carne xeno pingando ácido.
 
-ent-FoodMeatTomato = killer tomato meat
-    .desc = A slice from a huge tomato.
+ent-FoodMeatTomato = carne de tomate matadora
+     .desc = Uma fatia de um tomate enorme.
 
-ent-FoodMeatSalami = salami
-    .desc = A large tube of salami. Best not to ask what went into it.
+ent-FoodMeatSalami = salame
+     .desc = Um grande tubo de salame. Melhor não perguntar o que aconteceu.
 
-ent-FoodMeatClown = meat clown
-    .desc = A delicious, round piece of meat clown. How horrifying.
+ent-FoodMeatClown = palhaço de carne
+     .desc = Um delicioso pedaço redondo de carne de palhaço. Que horrível.
 
-ent-FoodMeatMeatball = meatball
-    .desc = A raw ball of meat. Meat ball.
+ent-FoodMeatMeatball = almôndega
+     .desc = Uma bola de carne crua. Bola de carne.
 
-ent-FoodMeatSlime = slimeball
-    .desc = A gelatinous shaping of slime jelly.
+ent-FoodMeatSlime = bola de gosma
+     .desc = Uma forma gelatinosa de geleia de gosma.
 
-ent-FoodMeatCooked = steak
-    .desc = A cooked slab of meat. Smells primal.
+ent-FoodMeatCooked = bife
+     .desc = Um pedaço de carne cozida. Cheira primordial.
 
 ent-FoodMeatBaconCooked = bacon
-    .desc = A delicious piece of cooked bacon.
+     .desc = Um delicioso pedaço de bacon cozido.
 
-ent-FoodMeatBearCooked = cooked bear
-    .desc = A well-cooked slab of bear meat. Tough, but tasty with the right sides.
+ent-FoodMeatBearCooked = urso cozido
+     .desc = Um pedaço de carne de urso bem cozido. Duro, mas saboroso com os lados certos.
 
-ent-FoodMeatPenguinCooked = penguin filet
-    .desc = A cooked filet of penguin. Can be used as a substitute for fish in recipes.
+ent-FoodMeatPenguinCooked = filé de pinguim
+     .desc = Um filé de pinguim cozido. Pode ser usado como substituto do peixe em receitas.
 
-ent-FoodMeatChickenCooked = cooked chicken
-    .desc = A cooked piece of chicken. Best used in other recipes.
+ent-FoodMeatChickenCooked = frango cozido
+     .desc = Um pedaço de frango cozido. Melhor usado em outras receitas.
 
-ent-FoodMeatChickenFried = fried chicken
-    .desc = A juicy hunk of chicken meat, fried to perfection.
+ent-FoodMeatChickenFried = frango frito
+     .desc = Um suculento pedaço de carne de frango, frito na perfeição.
 
-ent-FoodMeatDuckCooked = cooked duck
-    .desc = A cooked piece of duck. Best used in other recipes.
+ent-FoodMeatDuckCooked = pato cozido
+     .desc = Um pedaço de pato cozido. Melhor usado em outras receitas.
 
-ent-FoodMeatCrabCooked = cooked crab
-    .desc = Some deliciously cooked crab meat.
+ent-FoodMeatCrabCooked = caranguejo cozido
+     .desc = Um pouco de carne de caranguejo deliciosamente cozida.
 
-ent-FoodMeatGoliathCooked = goliath steak
-    .desc = A delicious, lava cooked steak.
+ent-FoodMeatGoliathCooked = bife de Golias
+     .desc = Um delicioso bife cozido na lava.
 
-ent-FoodMeatLizardCooked = lizard steak
-    .desc = Cooked, tough lizard meat.
+ent-FoodMeatLizardCooked = bife de lagarto
+     .desc = Carne de lagarto cozida e dura.
 
-ent-FoodMeatSpiderlegCooked = boiled spider leg
-    .desc = A giant spider's leg that's still twitching after being cooked. Gross!
+ent-FoodMeatSpiderlegCooked = perna de aranha cozida
+     .desc = Uma perna de aranha gigante que ainda se contorce depois de ser cozida. Bruto!
 
-ent-FoodMeatMeatballCooked = meatball
-    .desc = A cooked meatball. Perfect to add to other dishes... except fruity ones.
+ent-FoodMeatMeatballCooked = almôndega
+     .desc = Uma almôndega cozida. Perfeito para acompanhar outros pratos... exceto os frutados.
 
-ent-FoodMeatCutlet = raw cutlet
-    .desc = A raw meat cutlet.
+ent-FoodMeatCutlet = costeleta crua
+     .desc = Uma costeleta de carne crua.
 
-ent-FoodMeatBearCutlet = raw bear cutlet
-    .desc = A very manly cutlet of raw bear meat.
+ent-FoodMeatBearCutlet = costeleta de urso crua
+     .desc = Uma costeleta muito viril de carne crua de urso.
 
-ent-FoodMeatPenguinCutlet = raw penguin cutlet
-    .desc = A cutlet of raw penguin meat. Can be used as a substitute for fish in recipes.
+ent-FoodMeatPenguinCutlet = costeleta de pinguim crua
+     .desc = Uma costeleta de carne crua de pinguim. Pode ser usado como substituto do peixe em receitas.
 
-ent-FoodMeatChickenCutlet = raw chicken cutlet
-    .desc = A cutlet of raw chicken. Remember to wash your hands!
+ent-FoodMeatChickenCutlet = costeleta de frango cru
+     .desc = Uma costeleta de frango cru. Lembre-se de lavar as mãos!
 
-ent-FoodMeatDuckCutlet = raw duck cutlet
-    .desc = A cutlet of raw duck. Remember to wash your hands!
+ent-FoodMeatDuckCutlet = costeleta de pato crua
+     .desc = Uma costeleta de pato cru. Lembre-se de lavar as mãos!
 
-ent-FoodMeatLizardCutlet = raw lizard cutlet
-    .desc = Delicious dino cutlet.
+ent-FoodMeatLizardCutlet = costeleta de lagarto crua
+     .desc = Deliciosa costeleta de dinossauro.
 
-ent-FoodMeatSpiderCutlet = raw spider cutlet
-    .desc = A cutlet of raw spider meat. So Kafkaesque.
+ent-FoodMeatSpiderCutlet = costeleta de aranha crua
+     .desc = Uma costeleta de carne crua de aranha. Tão kafkiano.
 
-ent-FoodMeatXenoCutlet = raw xeno cutlet
-    .desc = A slab of raw xeno meat, dripping with acid.
+ent-FoodMeatXenoCutlet = costeleta de xeno crua
+     .desc = Um pedaço de carne xeno crua, pingando ácido.
 
-ent-FoodMeatTomatoCutlet = raw killer tomato cutlet
-    .desc = A cutlet from a slab of tomato.
+ent-FoodMeatTomatoCutlet = costeleta de tomate cru
+     .desc = Uma costeleta de um pedaço de tomate.
 
-ent-FoodMeatSalamiSlice = salami slice
-    .desc = A slice of cured salami.
+ent-FoodMeatSalamiSlice = fatia de salame
+     .desc = Uma fatia de salame curado.
 
-ent-FoodMeatCutletCooked = cutlet
-    .desc = A cooked meat cutlet. Needs some seasoning.
+ent-FoodMeatCutletCooked = costeleta
+     .desc = Uma costeleta de carne cozida. Precisa de algum tempero.
 
-ent-FoodMeatBearCutletCooked = bear cutlet
-    .desc = A very manly cutlet of cooked bear meat.
+ent-FoodMeatBearCutletCooked = costeleta de urso
+     .desc = Uma costeleta muito viril de carne de urso cozida.
 
-ent-FoodMeatPenguinCutletCooked = penguin cutlet
-    .desc = A cutlet of cooked penguin meat.
+ent-FoodMeatPenguinCutletCooked = costeleta de pinguim
+     .desc = Uma costeleta de carne de pinguim cozida.
 
-ent-FoodMeatChickenCutletCooked = chicken cutlet
-    .desc = A cutlet of cooked chicken. Remember to wash your hands!
+ent-FoodMeatChickenCutletCooked = costeleta de frango
+     .desc = Uma costeleta de frango cozido. Lembre-se de lavar as mãos!
 
-ent-FoodMeatDuckCutletCooked = duck cutlet
-    .desc = A cutlet of cooked duck. Remember to wash your hands!
+ent-FoodMeatDuckCutletCooked = costeleta de pato
+     .desc = Uma costeleta de pato cozido. Lembre-se de lavar as mãos!
 
-ent-FoodMeatLizardCutletCooked = lizard cutlet
-    .desc = Delicious cooked dino cutlet.
+ent-FoodMeatLizardCutletCooked = costeleta de lagarto
+     .desc = Deliciosa costeleta de dinossauro cozida.
 
-ent-FoodMeatSpiderCutletCooked = spider cutlet
-    .desc = A cutlet of cooked spider meat. Finally edible.
+ent-FoodMeatSpiderCutletCooked = costeleta de aranha
+     .desc = Uma costeleta de carne de aranha cozida. Finalmente comestível.
 
-ent-FoodMeatXenoCutletCooked = xeno cutlet
-    .desc = A cutlet of cooked xeno, dripping with... tastiness?
+ent-FoodMeatXenoCutletCooked = xeno costeleta
+     .desc = Uma costeleta de xeno cozido, pingando... gosto?
 

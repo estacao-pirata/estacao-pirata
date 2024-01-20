@@ -1,57 +1,57 @@
 ent-AltarBase = altar
-    .desc = Altar of the Gods.
+    .desc = O Altar dos Deuses
 
-ent-AltarNanotrasen = nanotrasen altar
-    .desc = Altar of the Gods.
+ent-AltarNanotrasen = altar da nanotrasen
+    .desc = O Altar dos Deuses
 
-ent-AltarChaos = chaos altar
-    .desc = Altar of the Gods.
+ent-AltarChaos = altar do caos
+    .desc = O Altar dos Deuses
 
-ent-AltarDruid = druid altar
-    .desc = Altar of the Gods.
+ent-AltarDruid = altar dos druidas
+    .desc = O Altar dos Deuses
 
-ent-AltarToolbox = toolbox altar
-    .desc = Altar of the Gods.
+ent-AltarToolbox = altar da caixa de ferramenta
+    .desc = O Altar dos Deuses
 
-ent-AltarSpaceChristian = space-Christian altar
-    .desc = Altar of the Gods.
+ent-AltarSpaceChristian = altar do cristão espacial
+    .desc = O Altar dos Deuses
 
-ent-AltarSatana = satanic altar
-    .desc = Altar of the Gods.
+ent-AltarSatana = altar satãnico
+    .desc = O Altar dos Deuses
 
-ent-AltarTechnology = technology altar
-    .desc = Altar of the Gods.
+ent-AltarTechnology = altar da tecnologia
+    .desc = O Altar dos Deuses
 
-ent-AltarConvertFestival = festival altar
-    .desc = Altar of the Gods.
+ent-AltarConvertFestival = altar do festival
+    .desc = O Altar dos Deuses
 
-ent-AltarConvertMaint = maint altar
-    .desc = Altar of the Gods.
+ent-AltarConvertMaint = altar da manutenção
+    .desc = O Altar dos Deuses
 
-ent-AltarConvertBlue = blue altar
-    .desc = Altar of the Gods.
+ent-AltarConvertBlue = altar azul
+    .desc = O Altar dos Deuses
 
-ent-AltarConvertBurden = burden altar
-    .desc = Altar of the Gods.
+ent-AltarConvertBurden = altar dos fardos
+    .desc = O Altar dos Deuses
 
-ent-AltarConvert = convert altar
-    .desc = Altar of the Gods.
+ent-AltarConvert = altar convertido
+    .desc = O Altar dos Deuses
 
-ent-AltarConvertOrange = orange altar
-    .desc = Altar of the Gods.
+ent-AltarConvertOrange = altar laranja
+    .desc = O Altar dos Deuses
 
-ent-AltarConvertRed = red altar
-    .desc = Altar of the Gods.
+ent-AltarConvertRed = altar vermelho
+    .desc = O Altar dos Deuses
 
-ent-AltarConvertWhite = white altar
-    .desc = Altar of the Gods.
+ent-AltarConvertWhite = altar branco
+    .desc = O Altar dos Deuses
 
-ent-AltarConvertYellow = yellow altar
-    .desc = Altar of the Gods.
+ent-AltarConvertYellow = altar amarelo
+    .desc = O Altar dos Deuses
 
-ent-AltarHeaven = heaven altar
-    .desc = Altar of the Gods.
+ent-AltarHeaven = altar divino
+    .desc = O Altar dos Deuses
 
-ent-AltarFangs = fanged altar
-    .desc = Altar of the Gods.
+ent-AltarFangs = altar macabro
+    .desc = O Altar dos Deuses
 

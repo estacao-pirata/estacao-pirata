@@ -1,24 +1,23 @@
-ent-FloorCarpetItemRed = red carpet
-    .desc = { "" }
+ent-FloorCarpetItemRed = tapete vermelho
+     .desc = { "" }
 
-ent-FloorCarpetItemBlack = black carpet
-    .desc = { "" }
+ent-FloorCarpetItemBlack = tapete preto
+     .desc = { "" }
 
-ent-FloorCarpetItemBlue = blue carpet
-    .desc = { "" }
+ent-FloorCarpetItemBlue = tapete azul
+     .desc = { "" }
 
-ent-FloorCarpetItemGreen = green carpet
-    .desc = { "" }
+ent-FloorCarpetItemGreen = tapete verde
+     .desc = { "" }
 
-ent-FloorCarpetItemOrange = orange carpet
-    .desc = { "" }
+ent-FloorCarpetItemOrange = tapete laranja
+     .desc = { "" }
 
-ent-FloorCarpetItemSkyBlue = sky blue carpet
-    .desc = { "" }
+ent-FloorCarpetItemSkyBlue = tapete azul celeste
+     .desc = { "" }
 
-ent-FloorCarpetItemPurple = purple carpet
-    .desc = { "" }
+ent-FloorCarpetItemPurple = tapete roxo
+     .desc = { "" }
 
-ent-FloorCarpetItemPink = pink carpet
-    .desc = { "" }
-
+ent-FloorCarpetItemPink = tapete rosa
+     .desc = { "" }

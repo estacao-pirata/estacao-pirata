@@ -1,18 +1,33 @@
-ent-ClothingHeadsetAlt = fones de ouvido
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+ent-ClothingHeadsetAlt = headset
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltCentCom = fones de ouvido da centcom
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+ent-ClothingHeadsetAltCentCom = headset da centcom
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltCommand = fones de ouvido de comandante
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+ent-ClothingHeadsetAltCommand = headset de comando
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltMedical = fones de ouvido de médico
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+ent-ClothingHeadsetAltMedical = headset do médico chefe
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltSecurity = fones de ouvido da segurança
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
+ent-ClothingHeadsetAltSecurity = headset do segurança chefe
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
 
-ent-ClothingHeadsetAltSyndicate = fones de ouvido do sindicato
-    .desc = An updated, modular syndicate intercom that fits over the head and takes encryption keys. Protects ears from flashbangs.
+ent-ClothingHeadsetAltSyndicate = headset do sindicato
+    .desc = Um rádio modular do sindicato. Protege os ouvidos de granadas de atordoamento.
 
+ent-ClothingHeadsetAltCargo = headset do intendente de carga
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
+
+ent-ClothingHeadsetAltCentComFake = headset da centcom
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
+    .suffix = Falso
+
+ent-ClothingHeadsetAltEngineering = headset do engenheiro chefe
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
+
+ent-ClothingHeadsetAltScience = headset do diretor de pesquisas
+    .desc = Um rádio pessoal modular. Tem uma entrada para chaves criptográficas.
+
+ent-ClothingHeadsetAltFreelance = headset de nômade
+    .desc = Utilizado por um grupo nomádico de nômades.

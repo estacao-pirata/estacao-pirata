@@ -1,54 +1,68 @@
-ent-ClothingBackpackDuffel = mochila de viagem
-    .desc = Uma mochila maior, perfeita para armazenar umas coisas a mais.
+ent-ClothingBackpackDuffel = mala de viagem
+    .desc = Uma mala espaçosa, perfeita para armazenar umas coisas a mais.
 
-ent-ClothingBackpackDuffelEngineering = mochila grande de engenheiro
-    .desc = Uma mochila ainda maior e mais resistente! Perfeita para os ocorridos diários da estação.
+ent-ClothingBackpackDuffelEngineering = mala da engenharia
+    .desc = Uma mala grande e resistente! Perfeita para os ocorridos diários da estação.
 
-ent-ClothingBackpackDuffelMedical = mochila grande de médico
-    .desc = Uma mochila esterilizada ainda maior. Perfeita para armazenar medicamentos e outras coisas de médicos.
+ent-ClothingBackpackDuffelMedical = mala da medicina
+    .desc = Uma mala grande esterilizada. Perfeita para armazenar medicamentos e outras coisas de médicos.
 
-ent-ClothingBackpackDuffelCaptain = mochila grande do capitão
-    .desc = Uma mochila pertencente ao Capitão da Estação, bem grande para satisfazer o Cap.
+ent-ClothingBackpackDuffelCaptain = mala do capitão
+    .desc = Uma mala pertencente ao Capitão da Estação, bem grande para satisfazer o Cap.
 
-ent-ClothingBackpackDuffelClown = mochila mrande de buzina
-    .desc = Uma bolzina, uma mochina, uma bolsa grande e barulhenta.
+ent-ClothingBackpackDuffelClown = mala de palhaço
+    .desc = Uma grande mala que consegue carregar mais buzinas do que qualquer outra
 
-ent-ClothingBackpackDuffelSecurity = mochila grande de segurança
-    .desc = Uma mochila grande para seguranças, do tamanho da Space Law!
+ent-ClothingBackpackDuffelSecurity = mala da segurança
+    .desc = Uma mala para seguranças, do tamanho da Space Law!
 
-ent-ClothingBackpackDuffelChemistry = mochila grande de químico
-    .desc = Uma mochila ainda maior para armazenar substâncias e remédios.
+ent-ClothingBackpackDuffelChemistry = mala da química
+    .desc = Uma mala espaçosa para armazenar substâncias e remédios.
 
-ent-ClothingBackpackDuffelMime = mochila grande do mímico
-    .desc = Uma mochila enorme, infelizmente o espaço é insuficiente para caberem todas as emoções do mímico..
+ent-ClothingBackpackDuffelMime = mala do mímico
+    .desc = Uma mala enorme, infelizmente o espaço é insuficiente para caberem todas as emoções do mímico..
 
-ent-ClothingBackpackDuffelScience = mochila grande de cientista
-    .desc = Uma mochila bem grandona, perfeita para guardar granad...C-Coisas de cientista!
+ent-ClothingBackpackDuffelScience = mala de pesquisas
+    .desc = Uma mala bem grandona, perfeita para guardar granad...C-Coisas de cientista!
 
-ent-ClothingBackpackDuffelHydroponics = mochila hidropônica
-    .desc = Uma mochila grande. Não sei o que significa "hidropônica" mas provavelmente é algo bom, então perfeito!
+ent-ClothingBackpackDuffelHydroponics = mala hidropônica
+    .desc = Uma mala. Não sei o que significa "hidropônica" mas provavelmente é algo bom, então perfeito!
 
-ent-ClothingBackpackDuffelSalvage = mochila grande de salvagem
-    .desc = Uma mochila ainda maior para armazenar ainda mais tesouros de outros mundos!
+ent-ClothingBackpackDuffelSalvage = mala de exploração
+    .desc = Uma mala enorme para armazenar todos tesouros espaciais!
 
-ent-ClothingBackpackDuffelSyndicate = mochila grande do sindicato
-    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
+ent-ClothingBackpackDuffelSyndicate = mala do sindicato
+    .desc = Isso não parece bom, é uma mala de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateBundle = mochila grande do sindicato
-    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
+ent-ClothingBackpackDuffelSyndicateBundle = mala do sindicato
+    .desc = Isso não parece bom, é uma mala de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateAmmo = mochila grande do sindicatoo
-    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
+ent-ClothingBackpackDuffelSyndicateAmmo = mala do sindicatoo
+    .desc = Isso não parece bom, é uma mala de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateAmmoBundle = mochila grande do sindicato
-    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
+ent-ClothingBackpackDuffelSyndicateAmmoBundle = mala do sindicato
+    .desc = Isso não parece bom, é uma mala de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateMedical = mochila grande do sindicato
-    .desc = Isso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
+ent-ClothingBackpackDuffelSyndicateMedical = mala do sindicato
+    .desc = Isso não parece bom, é uma mala de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelSyndicateMedicalBundle = mochila grande do sindicato
-    .desc = AIsso não parece bom, é uma mochila de algum traídor... Talvez tenha algo dentro?
+ent-ClothingBackpackDuffelSyndicateMedicalBundle = mala do sindicato
+    .desc = Isso não parece bom, é uma mala de algum traídor... Talvez tenha algo dentro?
 
-ent-ClothingBackpackDuffelHolding = duffelbag of holding
-    .desc = A duffelbag that opens into a localized pocket of bluespace.
+ent-ClothingBackpackDuffelHolding = mala interdimensional
+    .desc = Uma mala que contém um buraco de minhoca ao bluespace.
 
+ent-ClothingBackpackDuffelAtmospherics = mala de atmosféricos
+    .desc = Uma mala espaçosa e à prova de fogo. Tem cheiro de plasma.
+
+ent-ClothingBackpackDuffelVirology = mala da virologia
+    .desc = Uma mala espaçosa hipoalergênica. Feita para previnir contaminações patogênicas. Cheira a macacos.
+
+ent-ClothingBackpackDuffelGenetics = mala da genética
+    .desc = Uma mala espaçosa onde cabem várias mutações genéticas.
+
+ent-ClothingBackpackDuffelCargo = mala de carga
+    .desc = Uma mala enorme para roubar os suprimentos da estação.
+
+ent-ClothingBackpackDuffelCBURN = mala da CBURN
+    .desc = Uma mala que contém uma variedade de equipamentos de "contenção" biológica.

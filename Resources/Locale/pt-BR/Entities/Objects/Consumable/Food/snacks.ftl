@@ -1,102 +1,101 @@
 ent-FoodSnackBoritos = boritos
-    .desc = Crunchy, salty tortilla chips. You could probably make nachos with these.
+     .desc = Tortilhas crocantes e salgadas. Você provavelmente poderia fazer nachos com eles.
 
-ent-FoodSnackCheesie = cheesie honkers
-    .desc = Bite sized cheesie snacks that will honk all over your mouth.
+ent-FoodSnackCheesie = buzinas de queijo
+     .desc = Salgadinhos de queijo do tamanho de uma mordida que vão buzinar na sua boca.
 
-ent-FoodSnackChips = chips
-    .desc = Commander Riker's What-The-Crisps.
+ent-FoodSnackChips = batatas fritas
+     .desc = What-The-Crisps do Comandante Riker.
 
-ent-FoodSnackChocolate = chocolate bar
-    .desc = Tastes like cardboard.
+ent-FoodSnackChocolate = barra de chocolate
+     .desc = Tem gosto de papelão.
 
-ent-FoodSnackChocolateBar = chocolate bar
-    .desc = Tastes like cardboard.
+ent-FoodSnackChocolateBar = barra de chocolate
+     .desc = Tem gosto de papelão.
 
-ent-FoodSnackEnergy = energy bar
-    .desc = An energy bar with a lot of punch.
+ent-FoodSnackEnergy = barra de energia
+     .desc = Uma barra energética com muito vigor.
 
-ent-FoodSnackEnergyBar = energy bar
-    .desc = An energy bar with a lot of punch.
+ent-FoodSnackEnergyBar = barra de energia
+     .desc = Uma barra energética com muito vigor.
 
-ent-FoodSnackPopcorn = popcorn
-    .desc = Grown on an unknown planet, by an unknown farmer, popped by some jerk on a space station.
+ent-FoodSnackPopcorn = pipoca
+     .desc = Cultivado em um planeta desconhecido, por um fazendeiro desconhecido, colocado por algum idiota em uma estação espacial.
 
-ent-FoodSnackRaisins = 4no raisins
-    .desc = Best raisins in the universe. Not sure why.
+ent-FoodSnackRaisins = passas de uva de 4no
+     .desc = As melhores passas do universo. Não sei por quê.
 
 ent-FoodSnackSus = Sus Jerky
-    .desc = Something about this packet makes you feel incredibly uneasy. Jerky's good though.
+     .desc = Algo neste pacote faz você se sentir extremamente desconfortável. Mas Jerky é bom.
 
-ent-FoodSnackSyndi = syndi-cakes
-    .desc = An extremely moist snack cake that tastes just as good after being nuked.
+ent-FoodSnackSyndi = bolos-syndi
+     .desc = Um lanche extremamente úmido que fica igualmente gostoso depois de ser detonado.
 
 ent-FoodSnackChowMein = chow mein
-    .desc = A salty fried noodle snack. Looks like they forgot the vegetables.
+     .desc = Um lanche de macarrão frito e salgado. Parece que esqueceram os vegetais.
 
-ent-FoodSnackDanDanNoodles = dan dan noodles
-    .desc = A spicy Sichuan noodle snack. The chili oil slick pools on top.
+ent-FoodSnackDanDanNoodles = macarrão dan dan
+     .desc = Um lanche picante de macarrão de Sichuan. A mancha de óleo de pimenta fica no topo.
 
-ent-FoodSnackCookieFortune = fortune cookie
-    .desc = A boring cardboard tasting snack with a fortune inside. Surprise! You're boring too.
+ent-FoodSnackCookieFortune = biscoito da sorte
+     .desc = Um lanche chato com sabor de papelão e uma fortuna dentro. Surpresa! Você também é chato.
 
-ent-FoodSnackNutribrick = nutribrick
-    .desc = A carefully synthesized brick designed to contain the highest ratio of nutriment to volume. Tastes like shit.
+ent-FoodSnackNutribrick = nutritijolo
+     .desc = Um tijolo cuidadosamente sintetizado projetado para conter a maior proporção de nutrientes em relação ao volume. Tem gosto de merda.
 
-ent-FoodSnackNutribrickOpen = nutribrick
-    .desc = A carefully synthesized brick designed to contain the highest ratio of nutriment to volume. Tastes like shit.
+ent-FoodSnackNutribrickOpen = nutritijolo
+     .desc = Um tijolo cuidadosamente sintetizado projetado para conter a maior proporção de nutrientes em relação ao volume. Tem gosto de merda.
 
 ent-FoodSnackMREBrownie = brownie
-    .desc = A precisely mixed brownie, made to withstand blunt trauma and harsh conditions. Tastes like shit.
+     .desc = Um brownie precisamente misturado, feito para resistir a traumas contundentes e condições adversas. Tem gosto de merda.
 
 ent-FoodSnackMREBrownieOpen = brownie
-    .desc = A precisely mixed brownie, made to withstand blunt trauma and harsh conditions. Tastes like shit.
+     .desc = Um brownie precisamente misturado, feito para resistir a traumas contundentes e condições adversas. Tem gosto de merda.
 
 ent-FoodPacketTrash = brownie
-    .desc = This is rubbish.
+     .desc = Isso é lixo.
 
-ent-FoodPacketBoritosTrash = boritos bag
-    .desc = This is rubbish.
+ent-FoodPacketBoritosTrash = saco de boritos
+     .desc = Isso é lixo.
 
-ent-FoodPacketCheesieTrash = cheesie honkers
-    .desc = This is rubbish.
+ent-FoodPacketCheesieTrash = embalagem de buzinas de queijo
+     .desc = Isso é lixo.
 
-ent-FoodPacketChipsTrash = chips
-    .desc = This is rubbish.
+ent-FoodPacketChipsTrash = saco de batatas fritas
+     .desc = Isso é lixo.
 
-ent-FoodPacketChocolateTrash = chocolate wrapper
-    .desc = This is rubbish.
+ent-FoodPacketChocolateTrash = embalagem de chocolate
+     .desc = Isso é lixo.
 
-ent-FoodPacketEnergyTrash = energybar wrapper
-    .desc = This is rubbish.
+ent-FoodPacketEnergyTrash = embalagem de barra de energia
+     .desc = Isso é lixo.
 
-ent-FoodPacketPistachioTrash = pistachios packet
-    .desc = This is rubbish.
+ent-FoodPacketPistachioTrash = pacote de pistache
+     .desc = Isso é lixo.
 
-ent-FoodPacketPopcornTrash = popcorn box
-    .desc = This is rubbish.
+ent-FoodPacketPopcornTrash = caixa de pipoca
+     .desc = Isso é lixo.
 
-ent-FoodPacketRaisinsTrash = 4no raisins
-    .desc = This is rubbish.
+ent-FoodPacketRaisinsTrash = caixa de passas de uva de 4no
+     .desc = Isso é lixo.
 
-ent-FoodPacketSemkiTrash = semki packet
-    .desc = This is rubbish.
+ent-FoodPacketSemkiTrash = pacote de semki
+     .desc = Isso é lixo.
 
-ent-FoodPacketSusTrash = sus jerky
-    .desc = This is rubbish.
+ent-FoodPacketSusTrash = saco de Sus Jerky
+     .desc = Isso é lixo.
 
-ent-FoodPacketSyndiTrash = syndi-cakes box
-    .desc = This is rubbish.
+ent-FoodPacketSyndiTrash = caixa de bolos-syndi
+     .desc = Isso é lixo.
 
-ent-FoodPacketChowMeinTrash = empty chow mein box
-    .desc = This is rubbish.
+ent-FoodPacketChowMeinTrash = caixa de chow mein vazia
+     .desc = Isso é lixo.
 
-ent-FoodPacketDanDanTrash = empty dan dan box
-    .desc = This is rubbish.
+ent-FoodPacketDanDanTrash = caixa vazia e dan
+     .desc = Isso é lixo.
 
-ent-FoodCookieFortune = cookie fortune
-    .desc = The fortune reads: The end is near...and it's all your fault.
+ent-FoodCookieFortune = biscoito da sorte
+     .desc = A fortuna diz: O fim está próximo... e é tudo culpa sua.
 
-ent-FoodPacketMRETrash = MRE wrapper
-    .desc = A general purpose wrapper for a variety of military food goods.
-
+ent-FoodPacketMRETrash = embalagem de MRE
+     .desc = Uma embalagem de uso geral para uma variedade de produtos alimentícios militares.

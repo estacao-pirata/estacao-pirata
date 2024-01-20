@@ -1,12 +1,11 @@
-ent-BulletLightRifle = bullet (.20 rifle)
-    .desc = { "" }
+ent-BulletLightRifle = bala (.20 rifle)
+     .desc = { "" }
 
-ent-BulletLightRifleHighVelocity = bullet (.20 rifle high-velocity)
-    .desc = { "" }
+ent-BulletLightRifleHighVelocity = bala (.20 rifle de alta velocidade)
+     .desc = { "" }
 
-ent-BulletLightRiflePractice = bullet (.20 rifle practice)
-    .desc = { "" }
+ent-BulletLightRiflePractice = bala (.20 prática de rifle)
+     .desc = { "" }
 
-ent-BulletLightRifleRubber = bullet (.20 rifle rubber)
-    .desc = { "" }
-
+ent-BulletLightRifleRubber = bala (.20 borracha de rifle)
+     .desc = { "" }

@@ -1,24 +1,24 @@
-ent-BaseMagazineBoxCaselessRifle = ammunition box (.25 caseless)
+ent-BaseMagazineBoxCaselessRifle = caixa de munição (.25 caseless)
     .desc = { "" }
 
-ent-MagazineBoxCaselessRifle10x24 = ammunition box (.25 caseless)
+ent-MagazineBoxCaselessRifle10x24 = caixa de munição (.25 caseless)
     .desc = { "" }
 
-ent-MagazineBoxCaselessRifleBig = ammunition box (.25 caseless)
+ent-MagazineBoxCaselessRifleBig = caixa de munição (.25 caseless)
     .desc = { "" }
 
-ent-MagazineBoxCaselessRifleBigRubber = ammunition box (.25 caseless rubber)
+ent-MagazineBoxCaselessRifleBigRubber = caixa de munição (.25 caseless borracha)
     .desc = { "" }
 
-ent-MagazineBoxCaselessRifle = ammunition box (.25 caseless)
+ent-MagazineBoxCaselessRifle = caixa de munição (.25 caseless)
     .desc = { "" }
 
-ent-MagazineBoxCaselessRifleHighVelocity = ammunition box (.25 caseless high-velocity)
+ent-MagazineBoxCaselessRifleHighVelocity = caixa de munição (.25 caseless alta velocidade)
     .desc = { "" }
 
-ent-MagazineBoxCaselessRiflePractice = ammunition box (.25 caseless practice)
+ent-MagazineBoxCaselessRiflePractice = caixa de munição (.25 caseless prática)
     .desc = { "" }
 
-ent-MagazineBoxCaselessRifleRubber = ammunition box (.25 caseless rubber)
+ent-MagazineBoxCaselessRifleRubber = caixa de munição (.25 caseless borracha)
     .desc = { "" }
 

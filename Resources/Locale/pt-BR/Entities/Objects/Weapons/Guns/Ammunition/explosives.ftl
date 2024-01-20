@@ -1,21 +1,21 @@
-ent-CartridgeRocket = PG-7VL grenade
-    .desc = A 1.5 warhead designed for the RPG-7 launcher. Has tubular shape.
+ent-CartridgeRocket = granada PG-7VL
+     .desc = Uma ogiva 1.5 projetada para o lançador RPG-7. Possui formato tubular.
 
-ent-CartridgeRocketSlow = PG-7VL grenade "Snail-Rocket"
-    .desc = A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
+ent-CartridgeRocketSlow = granada PG-7VL "Snail-Rocket"
+     .desc = Uma ogiva 1.5 projetada para o lançador RPG-7. É incomumente lento.
 
-ent-BaseGrenade = base grenade
-    .desc = A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
+ent-BaseGrenade = granada base
+     .desc = Uma ogiva 1.5 projetada para o lançador RPG-7. É incomumente lento.
 
-ent-GrenadeBaton = baton grenade
-    .desc = A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
+ent-GrenadeBaton = granada de cassetete
+     .desc = Uma ogiva 1.5 projetada para o lançador RPG-7. É incomumente lento.
 
-ent-GrenadeBlast = blast grenade
-    .desc = A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
+ent-GrenadeBlast = granada de explosão
+     .desc = Uma ogiva 1.5 projetada para o lançador RPG-7. É incomumente lento.
 
-ent-GrenadeFlash = flash grenade
-    .desc = A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
+ent-GrenadeFlash = granada de flash
+     .desc = Uma ogiva 1.5 projetada para o lançador RPG-7. É incomumente lento.
 
-ent-GrenadeFrag = frag grenade
-    .desc = A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
+ent-GrenadeFrag = granada de fragmentação
+     .desc = Uma ogiva 1.5 projetada para o lançador RPG-7. É incomumente lento.
 

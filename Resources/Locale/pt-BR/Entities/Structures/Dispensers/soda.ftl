@@ -1,3 +1,3 @@
-ent-soda_dispenser = soda dispenser
-    .desc = A beverage dispenser with a selection of soda and several other common beverages. Has a single fill slot for containers.
+ent-soda_dispenser = máquina de refrigerante
+    .desc = Uma máquina de refrigerantes que tu acharia em qualquer restaurante fast-food. Aguenta só um copo por vez.
 

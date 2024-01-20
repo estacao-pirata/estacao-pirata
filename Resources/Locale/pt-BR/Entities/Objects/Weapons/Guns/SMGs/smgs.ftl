@@ -1,19 +1,19 @@
 ent-BaseWeaponSubMachineGun = BaseSMG
-    .desc = A rooty tooty point and shooty.
+     .desc = Um ponto enraizado e atirado.
 
 ent-WeaponSubMachineGunAtreides = Atreides
-    .desc = Pla-ket-ket-ket-ket! Uses .35 auto ammo.
+     .desc = Pla-ket-ket-ket-ket! Usa munição automática .35.
 
-ent-WeaponSubMachineGunC20r = C-20r sub machine gun
-    .desc = A firearm that is often used by the infamous nuclear operatives. Uses .35 auto ammo.
+ent-WeaponSubMachineGunC20r = C-20r
+     .desc = Uma arma de fogo frequentemente usada pelos infames agentes nucleares. Usa munição automática .35.
 
-ent-WeaponSubMachineGunVector = Vector
-    .desc = An excellent fully automatic Heavy SMG. Uses .40 magnum ammo.
+ent-WeaponSubMachineGunVector = Vetor
+     .desc = Um excelente SMG pesado totalmente automático. Usa munição .40 magnum.
 
 ent-WeaponSubMachineGunWt550 = WT550
-    .desc = An excellent SMG, produced by NanoTrasen's Small Arms Division. Uses .35 auto ammo.
+     .desc = Um excelente SMG, produzido pela Divisão de Armas Leves da NanoTrasen. Usa munição automática .35.
 
-ent-WeaponSubMachineGunVectorRubber = Vector
-    .desc = An excellent fully automatic Heavy SMG. Uses .40 magnum ammo.
-    .suffix = Non-Lethal
+ent-WeaponSubMachineGunVectorRubber = Vetor
+     .desc = Um excelente SMG pesado totalmente automático. Usa munição .40 magnum.
+     .suffix = Não Letal
 

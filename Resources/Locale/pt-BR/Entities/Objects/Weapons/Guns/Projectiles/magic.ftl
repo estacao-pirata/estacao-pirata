@@ -1,21 +1,21 @@
-ent-ProjectileFireball = fireball
-    .desc = You better GITTAH WEIGH.
+ent-ProjectileFireball = bola de fogo
+     .desc = É melhor você GITTAH PESAR.
 
-ent-ProjectilePolyboltBase = fireball
-    .desc = You better GITTAH WEIGH.
+ent-ProjectilePolyboltBase = bola de fogo
+     .desc = É melhor você GITTAH PESAR.
 
-ent-ProjectilePolyboltCarp = carp polybolt
-    .desc = Nooo, I don't wanna be fish!
+ent-ProjectilePolyboltCarp = carpa polybolt
+     .desc = Não, eu não quero ser peixe!
 
-ent-ProjectilePolyboltMonkey = monkey polybolt
-    .desc = Nooo, I don't wanna be monkey!
+ent-ProjectilePolyboltMonkey = macaco polybolt
+     .desc = Não, não quero ser macaco!
 
-ent-ProjectilePolyboltDoor = door polybolt
-    .desc = Nooo, I don't wanna be door!
+ent-ProjectilePolyboltDoor = porta polybolt
+     .desc = Não, não quero ser porta!
 
-ent-ProjectileHealingBolt = healing bolt
-    .desc = I COMMAND YOU TO LIVE!
+ent-ProjectileHealingBolt = raio de cura
+     .desc=EU ORDENO QUE VIVAS!
 
-ent-BulletInstakillMagic = magical lead cylinder
-    .desc = This looks familiar.
+ent-BulletInstakillMagic = cilindro de chumbo mágico
+     .desc=Isso parece familiar.
 

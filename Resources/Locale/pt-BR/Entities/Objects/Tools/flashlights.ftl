@@ -1,6 +1,5 @@
-ent-FlashlightLantern = flashlight
-    .desc = It lights the way to freedom.
+ent-FlashlightLantern = lanterna
+     .desc = Ilumina o caminho para a liberdade.
 
 ent-FlashlightSeclite = seclite
-    .desc = A robust flashlight used by security.
-
+     .desc = Uma lanterna robusta usada pela segurança.

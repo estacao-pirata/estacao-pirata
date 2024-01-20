@@ -1,6 +1,6 @@
-ent-FireAxe = fireaxe
-    .desc = Truly, the weapon of a madman. Who would think to fight fire with an axe?
+ent-FireAxe = machado arrombador
+     .desc = Verdadeiramente, a arma de um louco. Quem pensaria em combater o fogo com um machado?
 
-ent-FireAxeFlaming = fire axe
-    .desc = Why fight fire with an axe when you can fight with fire and axe?
+ent-FireAxeFlaming = machado arrombador
+     .desc = Por que combater o fogo com machado quando você pode lutar com fogo e machado?
 

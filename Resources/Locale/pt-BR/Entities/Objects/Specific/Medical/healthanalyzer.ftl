@@ -1,15 +1,15 @@
-ent-HandheldHealthAnalyzer = health analyzer
-    .desc = A hand-held body scanner capable of distinguishing vital signs of the subject.
+ent-HandheldHealthAnalyzer = analisador de saúde
+     .desc = Um scanner corporal portátil capaz de distinguir os sinais vitais do sujeito.
 
-ent-HandheldHealthAnalyzerGigacancer = health analyzer
-    .desc = A hand-held body scanner capable of distinguishing vital signs of the subject.
-    .suffix = gigacancer
+ent-HandheldHealthAnalyzerGigacancer = analisador de saúde
+     .desc = Um scanner corporal portátil capaz de distinguir os sinais vitais do sujeito.
+     .suffix = gigacancer
 
-ent-HandheldHealthAnalyzerOwOnavirus = OwOnavirus analyzer
-    .desc = A hand-held body scanner capable of distinguishing vital signs of the subject.
-    .suffix = admin abuse
+ent-HandheldHealthAnalyzerOwOnavirus = analisador OwOnavirus
+     .desc = Um scanner corporal portátil capaz de distinguir os sinais vitais do sujeito.
+     .suffix = abuso administrativo
 
-ent-HandheldHealthAnalyzerZombie = Zombie Infector
-    .desc = A hand-held body scanner capable of distinguishing vital signs of the subject.
-    .suffix = Active
+ent-HandheldHealthAnalyzerZombie = Infectador Zumbi
+     .desc = Um scanner corporal portátil capaz de distinguir os sinais vitais do sujeito.
+     .suffix = Ativo
 

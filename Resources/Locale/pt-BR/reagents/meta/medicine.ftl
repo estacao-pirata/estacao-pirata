@@ -14,10 +14,13 @@ reagent-name-bicaridine = bicaridina
 reagent-desc-bicaridine = Um analgésico que é altamente eficaz no tratamento de danos brutos. É útil para estabilizar pessoas que foram severamente espancadas, bem como tratar lesões menos fatais.
 
 reagent-name-cryoxadone = cryoxadona
-reagent-desc-cryoxadone = Necessário para o funcionamento adequada da criogenia. Cura todos os tipos de dano padrão muito rapidamente, mas só funciona em temperaturas abaixo de 150K.
+reagent-desc-cryoxadone = Um produto químico criogênico. Cura todos os tipos de dano padrão muito rapidamente, mas só funciona em temperaturas abaixo de 150K.
 
 reagent-name-doxarubixadone = doxarubixadona
-reagent-desc-doxarubixadone = Um produto químico criogênico. Cura certos tipos de danos celulares causados por Slimes e uso inadequado de outros produtos químicos.
+reagent-desc-doxarubixadone = Um produto químico criogênico. Cura certos tipos de danos celulares causados por Slimes e uso inadequado de outros produtos químicos. Só funciona em temperaturas abaixo de 150K
+
+reagent-name-opporozidone = opporozidona
+reagent-desc-opporozidone = Um produto químico criogênico. Um produto químico avançado para reduzir a podridão e a decomposição de um cadáver. Só funciona em temperaturas abaixo de 150K
 
 reagent-name-clonexadone = clonexadona
 reagent-desc-clonexadone = Cura o dano padrão da mesma forma que Cryoxadone, com o mesmo requisito de temperatura. Significativamente mais eficaz que o primeiro no tratamento de danos celulares, embora ambos possam ser usados simultaneamente. Melhor usado em células crio.

@@ -34,10 +34,10 @@ ent-ClothingOuterWinterEngi = agasalho de engenheiro
 ent-ClothingOuterWinterGen = agasalho genético
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterHoP = agasalho do hop
+ent-ClothingOuterWinterHoP = agasalho do chefe dos funcionários
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
-ent-ClothingOuterWinterHoS = agasalho do hos
+ent-ClothingOuterWinterHoS = agasalho do chefe de segurança
     .desc = Uma roupa de frio pesada, feita com pelos sintéticos.
 
 ent-ClothingOuterWinterHydro = agasalho hidropônico

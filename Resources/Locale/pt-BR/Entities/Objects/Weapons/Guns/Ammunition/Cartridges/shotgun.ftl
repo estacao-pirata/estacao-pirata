@@ -1,24 +1,24 @@
-ent-BaseShellShotgun = shell (.50)
+ent-BaseShellShotgun = cartucho  (.50)
     .desc = { "" }
 
-ent-ShellShotgunBeanbag = shell (.50 beanbag)
+ent-ShellShotgunBeanbag = cartucho  (.50 beanbag)
     .desc = { "" }
 
-ent-ShellShotgunSlug = shell (.50 slug)
+ent-ShellShotgunSlug = cartucho  (.50 slug)
     .desc = { "" }
 
-ent-ShellShotgunFlare = shell (.50 flare)
+ent-ShellShotgunFlare = cartucho  (.50 flare)
     .desc = { "" }
 
-ent-ShellShotgun = shell (.50)
+ent-ShellShotgun = cartucho  (.50)
     .desc = { "" }
 
-ent-ShellShotgunIncendiary = shell (.50 incendiary)
+ent-ShellShotgunIncendiary = cartucho  (.50 incendiário)
     .desc = { "" }
 
-ent-ShellShotgunPractice = shell (.50 practice)
+ent-ShellShotgunPractice = cartucho  (.50 prática)
     .desc = { "" }
 
-ent-ShellTranquilizer = shell (.50 tranquilizer)
+ent-ShellTranquilizer = cartucho  (.50 tranquilizante)
     .desc = { "" }
 

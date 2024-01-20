@@ -1,6 +1,5 @@
-ent-Pickaxe = pickaxe
-    .desc = Notched to perfection, for jamming it into rocks
+ent-Pickaxe = picareta
+     .desc = Entalhado com perfeição, para enfiar em pedras
 
-ent-MiningDrill = mining drill
-    .desc = Powerful tool used to quickly drill through rocks
-
+ent-MiningDrill = broca de mineração
+     .desc = Ferramenta poderosa usada para perfurar rochas rapidamente

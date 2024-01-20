@@ -1,52 +1,52 @@
-ent-AlwaysPoweredWallLight = light
-    .desc = An always powered light.
-    .suffix = Always powered
+ent-AlwaysPoweredWallLight = lâmpada
+    .desc = Uma lâmpada que está sempre ligada.
+    .suffix = Sempre Ligada
 
-ent-PoweredlightEmpty = light
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
-    .suffix = Empty
+ent-PoweredlightEmpty = lâmpada
+    .desc = Um soquete para uma lâmpada tubular.
+    .suffix = Vazio
 
-ent-Poweredlight = light
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
-    .suffix = None
+ent-Poweredlight = lâmpada
+    .desc = Um soquete para uma lâmpada tubular.
+    .suffix = Nada
 
-ent-PoweredlightLED = light
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
+ent-PoweredlightLED = lâmpada
+    .desc = Um soquete para uma lâmpada tubular.
     .suffix = LED
 
-ent-AlwaysPoweredLightLED = light
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
-    .suffix = Always Powered, LED
+ent-AlwaysPoweredLightLED = lâmpada
+    .desc = Um soquete para uma lâmpada tubular.
+    .suffix = Sempre Ligada, LED
 
-ent-PoweredlightExterior = light
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
-    .suffix = Blue
+ent-PoweredlightExterior = lâmpada
+    .desc = Um soquete para uma lâmpada tubular.
+    .suffix = Azul
 
-ent-AlwaysPoweredLightExterior = light
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
-    .suffix = Always Powered, Blue
+ent-AlwaysPoweredLightExterior = lâmpada
+    .desc = Um soquete para uma lâmpada tubular.
+    .suffix = Sempre Ligada, Azul
 
-ent-PoweredlightSodium = light
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
-    .suffix = Sodium
+ent-PoweredlightSodium = lâmpada
+    .desc = Um soquete para uma lâmpada tubular.
+    .suffix = Sódio
 
-ent-AlwaysPoweredLightSodium = light
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
-    .suffix = Always Powered, Sodium
+ent-AlwaysPoweredLightSodium = lâmpada
+    .desc = Um soquete para uma lâmpada tubular.
+    .suffix = Sempre Ligada, Sódio
 
-ent-SmallLight = small light
-    .desc = An always powered light.
-    .suffix = Always Powered
+ent-SmallLight = lâmpada pequena
+    .desc = Uma lâmpada que está sempre ligada.
+    .suffix = Sempre Ligada
 
-ent-PoweredSmallLightEmpty = small light
-    .desc = A light fixture. Draws power and produces light when equipped with a light bulb.
-    .suffix = Empty
+ent-PoweredSmallLightEmpty = lâmpada pequena
+    .desc = Um soquete para uma lâmpada pequena.
+    .suffix = Vazio
 
-ent-PoweredSmallLight = small light
-    .desc = A light fixture. Draws power and produces light when equipped with a light bulb.
-    .suffix = None
+ent-PoweredSmallLight = lâmpada pequena
+    .desc = Um soquete para uma lâmpada pequena.
+    .suffix = Nada
 
-ent-EmergencyLight = emergency light
-    .desc = A small light with an internal battery that turns on as soon as it stops receiving any power. Nanotrasen technology allows it to adapt its color to alert crew to the conditions of the station.
-    .suffix = None
+ent-EmergencyLight = lâmpada de emergência
+    .desc = Uma pequena lâmpada com uma bateria interna que liga assim que falta energia. A cor dela muda dependendo da código de alerta da estação.
+    .suffix = Nada
 

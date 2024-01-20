@@ -1,45 +1,45 @@
-ent-TableFrame = table frame
-    .desc = Pieces of metal that make the frame of a table.
+ent-TableFrame = armação de uma mesa
+    .desc = As quatro pernas, só falta a parte mais importante.
 
-ent-CounterWoodFrame = wooden counter frame
-    .desc = Pieces of wood that make the frame of a table.
+ent-CounterWoodFrame = armação de um balcão de madeira
+    .desc = As quatro pernas, só falta a parte mais importante.
 
-ent-CounterMetalFrame = metal counter frame
-    .desc = Pieces of metal that make the frame of a table.
+ent-CounterMetalFrame = armação de um balcão
+    .desc = Um balcão, mas só a parte de baixo.
 
-ent-Table = table
-    .desc = A square piece of metal standing on four metal legs.
+ent-Table = mesa
+    .desc = Uma chapa de metal sobre quatro pernas.
 
-ent-TableReinforced = reinforced table
-    .desc = A square piece of metal standing on four metal legs. Extra robust.
+ent-TableReinforced = mesa reforçada
+    .desc = Uma chapa de metal extra robusta sobre quatro pernas.
 
-ent-TableGlass = glass table
-    .desc = A square piece of glass, standing on four metal legs.
+ent-TableGlass = mesa de vidro
+    .desc = Uma chapa de vidro sobre quatro pernas.
 
-ent-TableReinforcedGlass = reinforced glass table
-    .desc = A square piece of glass, standing on four metal legs. Extra robust.
+ent-TableReinforcedGlass = mesa de vidro reforçada
+    .desc = Uma chapa de vidro extra robusta sobre quatro pernas.
 
-ent-TablePlasmaGlass = plasma glass table
-    .desc = A square piece of plasma glass, standing on four metal legs. Pretty!
+ent-TablePlasmaGlass = mesa de vidro de plasma
+    .desc = Uma chapa de vidro de plasma sobre quatro pernas. Bonita a cor.
 
-ent-TableWood = wood table
-    .desc = Do not apply fire to this. Rumour says it burns easily.
+ent-TableWood = mesa de madeira
+    .desc = Não taque fogo, dizem que essa queima mesmo.
 
-ent-TableCarpet = gambling table
-    .desc = Play em' cowboy.
+ent-TableCarpet = mesa de jogos
+    .desc = Vaqueiros e cachorros costumam jogar cartas aqui.
 
-ent-TableStone = stone table
-    .desc = Literally the sturdiest thing you have ever seen.
+ent-TableStone = balcão de pedra
+    .desc = Cuidado pra não arranhar, saiu caro.
 
-ent-TableDebug = table
+ent-TableDebug = mesa
     .desc = PUT ON THEM CODERSOCKS!!
     .suffix = DEBUG
 
-ent-TableCounterWood = wood counter
+ent-TableCounterWood = balcão de madeira
     .desc = Do not apply fire to this. Rumour says it burns easily.
     .suffix = DEBUG
 
-ent-TableCounterMetal = metal counter
+ent-TableCounterMetal = balcão
     .desc = Looks like a good place to put a drink down.
     .suffix = DEBUG
 

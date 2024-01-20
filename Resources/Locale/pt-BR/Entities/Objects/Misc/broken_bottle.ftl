@@ -1,3 +1,2 @@
-ent-BrokenBottle = broken bottle
-    .desc = In Space Glasgow this is called a conversation starter.
-
+ent-BrokenBottle = garrafa quebrada
+    .desc = No Espaço Glasgow isso é chamado de início de conversa.

@@ -25,8 +25,8 @@ ent-ClothingHandsGlovesNitrile = luvas de nítrilo
 ent-ClothingHandsGlovesLeather = luvas de couro do botânico
     .desc = Essas luvas de couro previnem acidentes com espinhos, enxadas, foices, plantas assasinas, explosões nucleares, etc. São até que bem quentinhas..
 
-ent-ClothingHandsGlovesPowerglove = power gloves
-    .desc = Now I'm playin' with power! Wait, they are turned off.
+ent-ClothingHandsGlovesPowerglove = luvas poderosas
+     .desc = Agora estou brincando com poder! Espere, eles estão desligados.
 
 ent-ClothingHandsGlovesRobohands = luvas robóticas
     .desc = Bip bup!
