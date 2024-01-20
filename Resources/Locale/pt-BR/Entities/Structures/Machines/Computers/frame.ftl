@@ -1,4 +1,4 @@
-ent-ComputerFrame = computador incompleto
+ent-ComputerFrame = gabinete de um computador
     .desc = Um computador ainda sendo montado.
 
 ent-ComputerBroken = computador quebrado
