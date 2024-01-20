@@ -1,15 +1,14 @@
 ent-DrinkShaker = shaker
-    .desc = The trusty mixing buddy of the bartender.
+     .desc = O fiel companheiro de mixagem do barman.
 
-ent-DrinkShotGlass = shot glass
-    .desc = Perfect for slamming down onto the table angrily.
+ent-DrinkShotGlass = shot
+     .desc = Perfeito para bater na mesa com raiva.
 
-ent-DrinkCarafe = pitcher
-    .desc = A handled glass pitcher.
+ent-DrinkCarafe = jarra
+     .desc = Um jarro de vidro com alça.
 
-ent-DrinkJar = jar
-    .desc = The hipster's cup
+ent-DrinkJar = pote
+     .desc = O copo do hipster
 
-ent-DrinkJarWhat = jar of something
-    .desc = You can't really tell what this is.
-
+ent-DrinkJarWhat = pote de alguma coisa
+     .desc = Você realmente não pode dizer o que é isso.

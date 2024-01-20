@@ -1,87 +1,87 @@
-ent-DrinkAbsintheBottleFull = Jailbreaker Verte
-    .desc = One sip of this and you just know you're gonna have a good time.
+ent-DrinkAbsintheBottleFull = Absinto Jailbreaker Verte
+     .desc = Um gole disso e você sabe que vai se divertir.
 
-ent-DrinkBlueCuracaoBottleFull = Miss Blue Curacao
-    .desc = A fruity, exceptionally azure drink. Does not allow the imbiber to use the fifth magic.
+ent-DrinkBlueCuracaoBottleFull = Miss Blue Curaçao
+     .desc = Uma bebida frutada e excepcionalmente azul. Não permite que o bebedor use a quinta magia.
 
-ent-DrinkBottleOfNothingFull = bottle of nothing
-    .desc = A bottle filled with nothing.
+ent-DrinkBottleOfNothingFull = garrafa de nada
+     .desc = Para quem tem tudo. Este é o máximo em minimalismo. Menos é mais, mais é menos. Nada é precioso. Nada é simples. Nada é sagrado. Abra a garrafa e fique encantado quando nada acontecer. Permita que nada flua em sua mente e acalme sua alma. Saboreie o momento. Logo você descobrirá que nada é realmente melhor do que alguma coisa.
 
-ent-DrinkCognacBottleFull = cognac bottle
-    .desc = A sweet and strongly alchoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time.
+ent-DrinkCognacBottleFull = garrafa de conhaque
+     .desc = Uma bebida doce e fortemente alcoólica, feita após inúmeras destilações e anos de maturação. Você também pode não gritar 'SHITCURITY' desta vez.
 
-ent-DrinkColaBottleFull = space cola bottle
-    .desc = Cola. In space.
+ent-DrinkColaBottleFull = garrafa de espaço-cola
+     .desc=Cola. No espaço.
 
-ent-DrinkGrenadineBottleFull = briar rose grenadine syrup bottle
-    .desc = Sweet and tangy, a bar syrup used to add color or flavor to drinks.
+ent-DrinkGrenadineBottleFull = garrafa de granadina Rosa Briar
+     .desc = Doce e picante, um xarope em barra usado para adicionar cor ou sabor às bebidas.
 
-ent-DrinkGinBottleFull = Griffeater Gin
-    .desc = A bottle of high quality gin, produced in the New London Space Station.
+ent-DrinkGinBottleFull = Gin Griffeter
+     .desc = Uma garrafa de gin de alta qualidade, produzida na Estação Espacial New London.
 
-ent-DrinkGoldschlagerBottleFull = goldschlager bottle
-    .desc = 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
+ent-DrinkGoldschlagerBottleFull = garrafa de Goldschläger
+     .desc = 100 schnapps de canela à prova, feito para adolescentes alcoólatras nas férias de primavera.
 
-ent-DrinkKahluaBottleFull = kahlua bottle
-    .desc = A widely known, Mexican coffee-flavoured liqueur. In production since 1936, HONK.
+ent-DrinkKahluaBottleFull = garrafa de Kahlua
+     .desc = Um licor mexicano com sabor de café amplamente conhecido. Em produção desde 1936, HONK.
 
-ent-DrinkMelonLiquorBottleFull = emeraldine melon liquor
-    .desc = A bottle of 46 proof Emeraldine Melon Liquor. Sweet and light.
+ent-DrinkMelonLiquorBottleFull = licor de Esmeraldina Melão
+     .desc = Uma garrafa de Licor Emeraldine Melão 46 provas. Doce e leve.
 
-ent-DrinkPatronBottleFull = wrapp artiste patron bottle
-    .desc = Silver laced tequilla, served in space night clubs across the galaxy.
+ent-DrinkPatronBottleFull = garrafa de Patron
+     .desc = Tequilla prateada, servida em casas noturnas espaciais por toda a galáxia.
 
-ent-DrinkPoisonWinebottleFull = warlock's velvet bottle
-    .desc = What a delightful packaging for a surely high quality wine! The vintage must be amazing!
+ent-DrinkPoisonWinebottleFull = garrafa de veludo do bruxo
+     .desc = Que embalagem deliciosa para um vinho certamente de alta qualidade! A safra deve ser incrível!
 
-ent-DrinkRumBottleFull = captain pete's cuban spiced rum
-    .desc = This isn't just rum, oh no. It's practically GRIFF in a bottle.
+ent-DrinkRumBottleFull = rum cubano temperado do Capitão Pete
+     .desc = Isso não é apenas rum, ah, não. É praticamente GRIFF em garrafa.
 
-ent-DrinkSpaceMountainWindBottleFull = space mountain wind bottle
-    .desc = Blows right through you like a space wind.
+ent-DrinkSpaceMountainWindBottleFull = garrafa de vento da montanha espacial
+     .desc = Sopra através de você como um vento espacial.
 
-ent-DrinkSpaceUpBottleFull = space-up bottle
-    .desc = Tastes like a hull breach in your mouth.
+ent-DrinkSpaceUpBottleFull = garrafa de SpaceUp
+     .desc = Tem gosto de brecha no casco na boca.
 
-ent-DrinkTequilaBottleFull = caccavo guaranteed quality tequila bottle
-    .desc = Made from premium petroleum distillates, pure thalidomide and other fine quality ingredients!
+ent-DrinkTequilaBottleFull = garrafa de tequila de qualidade garantida caccavo
+     .desc = Feito de destilados de petróleo premium, talidomida pura e outros ingredientes de excelente qualidade!
 
-ent-DrinkVermouthBottleFull = goldeneye vermouth bottle
-    .desc = Sweet, sweet dryness!
+ent-DrinkVermouthBottleFull = garrafa de vermute Goldeneye
+     .desc = Doce, doce secura!
 
-ent-DrinkVodkaBottleFull = vodka bottle
-    .desc = Aah, vodka. Prime choice of drink AND fuel by Russians worldwide.
+ent-DrinkVodkaBottleFull = garrafa de vodka
+     .desc = Aah, vodca. Primeira escolha de bebida E combustível pelos russos em todo o mundo.
 
-ent-DrinkWhiskeyBottleFull = uncle git's special reserve
-    .desc = A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES.
+ent-DrinkWhiskeyBottleFull = reserva especial do Tio Git
+     .desc = Um whisky premium de single malte, amadurecido suavemente dentro dos túneis de um abrigo nuclear. REGRAS DO UÍSQUE DE TÚNEL.
 
-ent-DrinkWineBottleFull = doublebearded bearded special wine bottle
-    .desc = A faint aura of unease and asspainery surrounds the bottle.
+ent-DrinkWineBottleFull = garrafa de vinho especial com barba dupla
+     .desc = Uma leve aura de desconforto e inquietação envolve a garrafa.
 
-ent-DrinkBeer = beer
-    .desc = An alcoholic beverage made from malted grains, hops, yeast, and water.
+ent-DrinkBeer = cerveja
+     .desc = Uma bebida alcoólica feita de grãos maltados, lúpulo, fermento e água.
 
 ent-DrinkAleBottleFull = Magm-Ale
-    .desc = A true dorf's drink of choice.
+     .desc = Uma verdadeira bebida preferida do dorf.
 
-ent-DrinkWaterBottleFull = water bottle
-    .desc = Simple clean water of unknown origin. You think that maybe you dont want to know it.
+ent-DrinkWaterBottleFull = garrafa de água
+     .desc = Água limpa simples de origem desconhecida. Você acha que talvez não queira saber disso.
 
-ent-DrinkJuiceLimeCarton = lime juice
-    .desc = Sweet-sour goodness.
+ent-DrinkJuiceLimeCarton = suco de limão
+     .desc = bondade agridoce.
 
-ent-DrinkJuiceOrangeCarton = orange juice
-    .desc = Full of vitamins and deliciousness!
+ent-DrinkJuiceOrangeCarton = suco de laranja
+     .desc = Cheio de vitaminas e delícias!
 
-ent-DrinkJuiceTomatoCarton = tomato juice
-    .desc = Well, at least it LOOKS like tomato juice. You can't tell with all that redness.
+ent-DrinkJuiceTomatoCarton = suco de tomate
+     .desc = Bem, pelo menos PARECE suco de tomate. Você não pode dizer com toda aquela vermelhidão.
 
-ent-DrinkCreamCarton = Milk Cream
-    .desc = It's cream. Made from milk. What else did you think you'd find in there?
+ent-DrinkCreamCarton = Creme de Leite
+     .desc = É creme. Feito de leite. O que mais você achou que encontraria lá?
 
-ent-DrinkMilkCarton = milk
-    .desc = An opaque white liquid produced by the mammary glands of mammals.
+ent-DrinkMilkCarton = leite
+     .desc = Um líquido branco opaco produzido pelas glândulas mamárias de mamíferos.
 
-ent-DrinkSoyMilkCarton = soy milk
-    .desc = White and nutritious soy goodness!
+ent-DrinkSoyMilkCarton = leite de soja
+     .desc = Delícia de soja branca e nutritiva!
 

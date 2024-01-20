@@ -1,45 +1,44 @@
-ent-DrinkColaCan = space cola
-    .desc = A refreshing beverage.
+ent-DrinkColaCan = lata de espaço-cola
+     .desc = Uma bebida refrescante.
 
-ent-DrinkIcedTeaCan = iced tea can
-    .desc = A refreshing can of iced tea.
+ent-DrinkIcedTeaCan = lata de chá gelado
+     .desc = Uma refrescante lata de chá gelado.
 
-ent-DrinkLemonLimeCan = lemon-lime can
-    .desc = You wanted ORANGE. It gave you Lemon-Lime.
+ent-DrinkLemonLimeCan = lata de limão-lima
+     .desc = Você queria LARANJA. Deu-lhe limão-lima.
 
-ent-DrinkGrapeCan = grape soda can
-    .desc = Sweetened drink with a grape flavor and a deep purple color.
+ent-DrinkGrapeCan = lata de refrigerante de uva
+     .desc = Bebida adoçada com sabor de uva e cor roxa profunda.
 
-ent-DrinkRootBeerCan = root beer can
-    .desc = Some of that tasty root beer goodness, now in a portable can!
+ent-DrinkRootBeerCan = lata de root beer
+     .desc = Um pouco daquela saborosa cerveja de raiz, agora em lata portátil!
 
-ent-DrinkSodaWaterCan = soda water can
-    .desc = Soda water. Why not make a scotch and soda?
+ent-DrinkSodaWaterCan = lata de água com gás
+     .desc = Água com gás. Por que não fazer um uísque com refrigerante?
 
-ent-DrinkSpaceMountainWindCan = space mountain wind can
-    .desc = Blows right through you like a space wind.
+ent-DrinkSpaceMountainWindCan = lata de vento da montanha espacial
+     .desc = Sopra através de você como um vento espacial.
 
-ent-DrinkSpaceUpCan = space-up can
-    .desc = Tastes like a hull breach in your mouth.
+ent-DrinkSpaceUpCan = lata de spaceup
+     .desc = Tem gosto de brecha no casco na boca.
 
-ent-DrinkStarkistCan = starkist can
-    .desc = The taste of a star in liquid form. And, a bit of tuna...?
+ent-DrinkStarkistCan = lata de starkist
+     .desc = O sabor de uma estrela em forma líquida. E um pouco de atum...?
 
-ent-DrinkTonicWaterCan = tonic water can
-    .desc = Quinine tastes funny, but at least it'll keep that Space Malaria away.
+ent-DrinkTonicWaterCan = lata de água tônica
+     .desc = Quinino tem um gosto engraçado, mas pelo menos vai manter a Malária Espacial longe.
 
-ent-DrinkFourteenLokoCan = fourteen loko can
-    .desc = The MBO has advised crew members that consumption of Fourteen Loko may result in seizures, blindness, drunkeness, or even death. Please Drink Responsibly.
+ent-DrinkFourteenLokoCan = lata de quatorze-loko
+     .desc = O MBO avisou aos membros da tripulação que o consumo de Quatorze-Loko pode resultar em convulsões, cegueira, embriaguez ou até morte. Por favor, beba com responsabilidade.
 
-ent-DrinkChangelingStingCan = Changeling sting can
-    .desc = You take a tiny sip and feel a burning sensation...
+ent-DrinkChangelingStingCan = lata de changeling-picada
+     .desc = Você toma um pequeno gole e sente uma sensação de queimação...
 
-ent-DrinkDrGibbCan = Dr. Gibb can
-    .desc = A delicious blend of 42 different flavours.
+ent-DrinkDrGibbCan = lata de dr.gibb
+     .desc = Uma deliciosa mistura de 42 sabores diferentes.
 
-ent-DrinkEnergyDrinkCan = red bool energy drink
-    .desc = A can of Red Bool, with enough caffeine to kill a horse.
+ent-DrinkEnergyDrinkCan = lata de bool-vermelha energética
+     .desc = Uma lata de Red Bool, com cafeína suficiente para matar um cavalo.
 
-ent-DrinkCanPack = 6pack
-    .desc = A can of Red Bool, with enough caffeine to kill a horse.
-
+ent-DrinkCanPack = pacote de seis
+     .desc = Um pacote de seis espaço-cola, Uau!

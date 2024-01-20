@@ -1,54 +1,54 @@
-ent-DrinkBottleBaseEmpty = base empty bottle
-    .desc = An empty bottle.
+ent-DrinkBottleBaseEmpty = garrafa vazia base
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleAbsinthe = jailbreaker verte bottle
-    .desc = An empty bottle.
+ent-DrinkBottleAbsinthe = garrafa de absinto
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleAlcoClear = alcohol bottle
-    .desc = An empty bottle.
+ent-DrinkBottleAlcoClear = garrafa de álcool puro
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleAle = ale bottle
-    .desc = An empty bottle.
+ent-DrinkBottleAle = garrafa de ale
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleBeer = beer bottle
-    .desc = An empty bottle.
+ent-DrinkBottleBeer = garrafa de cerveja
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleCognac = cognac bottle
-    .desc = An empty bottle.
+ent-DrinkBottleCognac = garrafa de conhaque
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleGin = griffeater gin bottle
-    .desc = An empty bottle.
+ent-DrinkBottleGin = garrafa de gin
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleGoldschlager = goldschlager bottle
-    .desc = An empty bottle.
+ent-DrinkBottleGoldschlager = garrafa de Goldschläger
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleKahlua = kahlua bottle
-    .desc = An empty bottle.
+ent-DrinkBottleKahlua = garrafa Kahlua
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleNTCahors = nt cahors bottle
-    .desc = An empty bottle.
+ent-DrinkBottleNTCahors = garrafa de NT Cahors
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottlePatron = patron bottle
-    .desc = An empty bottle.
+ent-DrinkBottlePatron = garrafa de Patron
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottlePoisonWine = poison wine bottle
-    .desc = An empty bottle.
+ent-DrinkBottlePoisonWine = garrafa de vinho venenoso
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleRum = rum bottle
-    .desc = An empty bottle.
+ent-DrinkBottleRum = garrafa de rum
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleTequila = tequila bottle
-    .desc = An empty bottle.
+ent-DrinkBottleTequila = garrafa de tequila
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleVermouth = vermouth bottle
-    .desc = An empty bottle.
+ent-DrinkBottleVermouth = garrafa de vermute
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleVodka = vodka bottle
-    .desc = An empty bottle.
+ent-DrinkBottleVodka = garrafa de vodka
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleWhiskey = whiskey bottle
-    .desc = An empty bottle.
+ent-DrinkBottleWhiskey = garrafa de whiskey
+     .desc = Uma garrafa vazia.
 
-ent-DrinkBottleWine = wine bottle
-    .desc = An empty bottle.
+ent-DrinkBottleWine = garrafa de vinho
+     .desc = Uma garrafa vazia.
 
