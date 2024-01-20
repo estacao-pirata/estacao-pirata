@@ -66,6 +66,7 @@ namespace Content.IntegrationTests.Tests
 	    //
 	    // Pirata
 	    //
+	    ,
 	    // "EstacaoPirata",
 	    "RadStation",
         };
