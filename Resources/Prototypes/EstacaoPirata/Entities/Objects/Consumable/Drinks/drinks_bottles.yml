@@ -1,4 +1,4 @@
-/# Base para garrafa plastica (nao quebra no impacto, nem da dano)
+# Base para garrafa plastica (nao quebra no impacto, nem da dano)
 - type: entity
   parent: DrinkBase
   id: DrinkPlasticBottleBaseFull
