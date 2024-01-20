@@ -1,4 +1,3 @@
-using Content.Shared.FixedPoint;
 using Content.Server.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Components;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
@@ -41,10 +40,4 @@ public sealed partial class SolutionRegenerationComponent : Component
     /// </summary>
     [DataField("nextChargeTime", customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextRegenTime = TimeSpan.FromSeconds(0);
-
-    /// <summary>
-    /// The reagent(s) to be regenerated in the solution.
-    /// </summary>
-    [DataField("maxVolume"), ViewVariables(VVAccess.ReadWrite)]
-    public FixedPoint2 MaxVolume = 0.0;
 }

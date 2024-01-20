@@ -70,12 +70,11 @@
         reagents:
         - ReagentId: Water
           Quantity: 5
-      maxVolume: 33
     - type: SolutionPurge
       solution: absorbed
       preserve:
       - Water
-      quantity: 15
+      quantity: 10
     - type: SolutionContainerManager
       solutions:
         absorbed:

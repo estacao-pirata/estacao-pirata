@@ -18,8 +18,6 @@ public sealed partial class PuddleSystem
 
     public static string[] EvaporationReagents = new[] { Water, SoapyWater };
 
-    public const int EvaporationReagentRatio = 3;
-
     private void OnEvaporationMapInit(Entity<EvaporationComponent> entity, ref MapInitEvent args)
     {
         entity.Comp.NextTick = _timing.CurTime + EvaporationCooldown;

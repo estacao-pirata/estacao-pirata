@@ -293,22 +293,11 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
             return true;
         }
 
-        // hack to compensate loss due to fractions that would be periodical
-        // and make sure (available / Ratio) * Ratio is not less than available
-        // otherwise the absorber would very annoyingly never fill
-        // it's not necessary if the ratio is not periodical in a decimal base
-        if (PuddleSystem.EvaporationReagentRatio % 2 != 0 &&
-                PuddleSystem.EvaporationReagentRatio % 5 != 0){
-            available += FixedPoint2.Epsilon;
-        }
-        available *= PuddleSystem.EvaporationReagentRatio;
-
         var transferMax = absorber.PickupAmount;
         var transferAmount = available > transferMax ? transferMax : available;
 
         var puddleSplit = puddleSolution.SplitSolutionWithout(transferAmount, PuddleSystem.EvaporationReagents);
-
-        var absorberSplit = absorberSolution.SplitSolutionWithOnly(puddleSplit.Volume / PuddleSystem.EvaporationReagentRatio, PuddleSystem.EvaporationReagents);
+        var absorberSplit = absorberSolution.SplitSolutionWithOnly(puddleSplit.Volume, PuddleSystem.EvaporationReagents);
 
         // Do tile reactions first
         var transform = Transform(target);
@@ -320,12 +309,7 @@ public sealed class AbsorbentSystem : SharedAbsorbentSystem
         }
 
         _solutionContainerSystem.AddSolution(puddle.Solution.Value, absorberSplit);
-        _solutionContainerSystem.AddSolution(puddleSplit.SplitSolution(absorberSolution.AvailableVolume), puddleSplit);
-        // puts back the excess if any, a hack to circumvent it being a differential equation and prevent the
-        // overflow of the absorber due to residual water not being checked for
-        if (puddleSplit.Volume > 0){
-            puddleSoln.AddSolution(puddleSplit, _prototype);
-        }
+        _solutionContainerSystem.AddSolution(absorberSoln, puddleSplit);
 
         _audio.PlayPvs(absorber.PickupSound, target);
         if (useDelay != null)
