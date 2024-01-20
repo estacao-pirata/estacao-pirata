@@ -1,381 +1,380 @@
-ent-DrinkGlass = Drinking glass
-    .desc = A drinking glass.
+ent-DrinkGlass = copo para beber
+     .desc = Um copo.
 
-ent-DrinkAbsintheGlass = absinthe glass
-    .desc = Wormwood, anise, oh my.
+ent-DrinkAbsintheGlass = copo de absinto
+     .desc = Absinto, anis, meu Deus.
 
-ent-DrinkAcidSpitGlass = acid spit glass
-    .desc = A drink from the company archives. Made from live aliens.
+ent-DrinkAcidSpitGlass = copo de cuspe ácido
+     .desc = Uma bebida dos arquivos da empresa. Feito de alienígenas vivos.
 
-ent-DrinkAleGlass = ale glass
-    .desc = A freezing pint of delicious ale
+ent-DrinkAleGlass = copo de ale
+     .desc = Um litro gelado de ale deliciosa
 
-ent-DrinkAlliesCocktail = allies cocktail
-    .desc = A drink made from your allies.
+ent-DrinkAlliesCocktail = coquetel de aliados
+     .desc = Uma bebida feita por seus aliados.
 
-ent-DrinkAloe = aloe glass
-    .desc = Very, very, very good.
+ent-DrinkAloe = copo de aloe vera
+     .desc = Muito, muito, muito bom.
 
-ent-DrinkAmasecGlass = amasec glass
-    .desc = Always handy before COMBAT!!!
+ent-DrinkAmasecGlass = copo de amasec
+     .desc = Sempre à mão antes do COMBATE!!!
 
-ent-DrinkAndalusia = andalusia glass
-    .desc = A nice drink with a strange name.
+ent-DrinkAndalusia = copo de andaluz
+     .desc = Uma bela bebida com um nome estranho.
 
-ent-DrinkAntifreeze = anti-freeze glass
-    .desc = The ultimate refreshment.
+ent-DrinkAntifreeze = copo de anticongelante
+     .desc = O melhor refresco.
 
-ent-DrinkAtomicBombGlass = atomic bomb glass
-    .desc = We cannot take legal responsibility for your actions after imbibing.
+ent-DrinkAtomicBombGlass = copo da bomba atômica
+     .desc = Não podemos assumir responsabilidade legal por suas ações após a ingestão.
 
-ent-DrinkB52Glass = b-52 glass
-    .desc = Coffee, Irish Cream, and cognac. You will get bombed.
+ent-DrinkB52Glass = copo de b-52
+     .desc = Café, Irish Cream e conhaque. Você será bombardeado.
 
-ent-DrinkBahamaMama = bahama mama glass
-    .desc = Tropical cocktail.
+ent-DrinkBahamaMama = copo de bahama mama
+     .desc = Coquetel tropical.
 
-ent-DrinkBananaHonkGlass = banana honk glass
-    .desc = A drink from Banana Heaven.
+ent-DrinkBananaHonkGlass = copo de buzina de banana
+     .desc = Uma bebida do Banana Heaven.
 
-ent-DrinkBarefootGlass = barefoot glass
-    .desc = Barefoot and pregnant.
+ent-DrinkBarefootGlass = copo de descalço
+     .desc = Descalça e grávida.
 
-ent-DrinkBeepskySmashGlass = beepsky smash glass
-    .desc = Heavy, hot and strong. Just like the Iron fist of the LAW.
+ent-DrinkBeepskySmashGlass = copo de beepsky quebra
+     .desc = Pesado, quente e forte. Assim como o punho de ferro da LEI.
 
-ent-DrinkBeerglass = beer glass
-    .desc = A freezing pint of beer.
+ent-DrinkBeerglass = copo de cerveja
+     .desc = Um litro de cerveja gelada.
 
-ent-DrinkBerryJuice = berry juice
-    .desc = Berry juice. Or maybe it's jam. Who cares?
+ent-DrinkBerryJuice = suco de frutas vermelhas
+     .desc = Suco de frutas vermelhas. Ou talvez seja geléia. Quem se importa?
 
-ent-DrinkBilkGlass = bilk
-    .desc = A brew of milk and beer. For those alcoholics who fear osteoporosis.
+ent-DrinkBilkGlass = copo de cerveite
+     .desc = Uma mistura de leite e cerveja. Para aqueles alcoólatras que temem a osteoporose.
 
-ent-DrinkBlackRussianGlass = black russian glass
-    .desc = For the lactose-intolerant. Still as classy as a White Russian.
+ent-DrinkBlackRussianGlass = copo de black russian
+     .desc = Para intolerantes à lactose. Ainda tão elegante quanto um Russo Branco.
 
-ent-DrinkBlueCuracaoGlass = blue curacao
-    .desc = Exotically blue, fruity drink, distilled from oranges.
+ent-DrinkBlueCuracaoGlass = copo de curaçao azul
+     .desc = Bebida exóticamente azul, frutada, destilada de laranja.
 
-ent-DrinkBloodyMaryGlass = bloody mary glass
-    .desc = Tomato juice, mixed with Vodka and a lil' bit of lime. Tastes like liquid murder.
+ent-DrinkBloodyMaryGlass = copo de bloody mary
+     .desc = Suco de tomate misturado com Vodka e um pouquinho de limão. Tem gosto de assassinato líquido.
 
 ent-DrinkBooger = booger
-    .desc = Ewww...
+     .desc = Eca...
 
-ent-DrinkBraveBullGlass = brave bull glass
-    .desc = Tequilla and coffee liquor, brought together in a mouthwatering mixture. Drink up.
+ent-DrinkBraveBullGlass = copo de touro corajoso
+     .desc = Tequilla e licor de café, reunidos em uma mistura de dar água na boca. Beber.
 
-ent-DrinkCarrotJuice = carrot juice
-    .desc = It's just like a carrot but without crunching.
+ent-DrinkCarrotJuice = suco de cenoura
+     .desc = É igual a uma cenoura mas sem triturar.
 
-ent-DrinkChocolateGlass = hot chocolate
-    .desc = A heated drink consisting melted chocolate and heated milk.
+ent-DrinkChocolateGlass = chocolate quente
+     .desc = Uma bebida aquecida composta por chocolate derretido e leite aquecido.
 
-ent-DrinkCafeLatte = cafe latte
-    .desc = A nice, strong and tasty beverage while you are reading.
+ent-DrinkCafeLatte = latte
+     .desc = Uma bebida agradável, forte e saborosa enquanto você lê.
 
-ent-DrinkCoffee = coffee
-    .desc = Don't drop it, or you'll send scalding liquid and glass shards everywhere.
+ent-DrinkCoffee = café
+     .desc = Não deixe cair, ou você enviará líquido escaldante e cacos de vidro para todos os lados.
 
-ent-DrinkCognacGlass = cognac glass
-    .desc = Damn, you feel like some kind of French aristocrat just by holding this.
+ent-DrinkCognacGlass = copo de conhaque
+     .desc = Droga, você se sente como uma espécie de aristocrata francês só de segurar isso.
 
-ent-DrinkCream = cream
-    .desc = Ewwww...
+ent-DrinkCream = copo de creme
+     .desc = Ecaaaaa...
 
-ent-DrinkCubaLibreGlass = cuba libre glass
-    .desc = A classic mix of rum and cola.
+ent-DrinkCubaLibreGlass = copo de cuba libre
+     .desc = Uma mistura clássica de rum e cola.
 
-ent-DrinkDeadRumGlass = deadrum glass
-    .desc = Popular with the sailors. Not very popular with everyone else.
+ent-DrinkDeadRumGlass = copo de morto rum
+     .desc = Popular entre os marinheiros. Não é muito popular com todos os outros.
 
-ent-DrinkDemonsBlood = demons blood
-    .desc = Just looking at this thing makes the hair at the back of your neck stand up.
+ent-DrinkDemonsBlood = sangue de demônio
+     .desc = Só de olhar para essa coisa já faz os cabelos da sua nuca se arrepiarem.
 
-ent-DrinkDevilsKiss = devil's kiss
-    .desc = Creepy time!
+ent-DrinkDevilsKiss = beijo do diabo
+     .desc = Hora assustadora!
 
-ent-DrinkDoctorsDelightGlass = the doctor's delight
-    .desc = A healthy mixture of juices, guaranteed to keep you healthy until the next toolboxing takes place.
+ent-DrinkDoctorsDelightGlass = a delícia do médico
+     .desc = Uma mistura saudável de sucos, com garantia de mantê-lo saudável até a próxima caixa de ferramentas.
 
-ent-DrinkDriestMartiniGlass = driest martini glass
-    .desc = Only for the experienced. You think you see sand floating in the glass.
+ent-DrinkDriestMartiniGlass = taça de martini mais seca
+     .desc = Somente para experientes. Você acha que vê areia flutuando no vidro.
 
-ent-DrinkDrGibbGlass = Dr. Gibb glass
-    .desc = Dr. Gibb. Not as dangerous as the name might imply.
+ent-DrinkDrGibbGlass = copo Dr.Gibb
+     .desc = Dr. Não é tão perigoso quanto o nome pode sugerir.
 
-ent-DrinkErikaSurprise = erika surprise
-    .desc = The surprise is, it's green!
+ent-DrinkErikaSurprise = surpresa de Erika
+     .desc = A surpresa é que é verde!
 
-ent-DrinkFourteenLokoGlass = Fourteen loko glass
-    .desc = This is a container of Fourteen Loko, it appears to be of the highest quality. The drink, not the container.
+ent-DrinkFourteenLokoGlass = copo de quatorze-loko
+     .desc = Este é um contêiner de Quatorze-Loko, parece ser da mais alta qualidade. A bebida, não o recipiente.
 
-ent-DrinkGargleBlasterGlass = pan-galactic gargle blaster
-    .desc = Does... does this mean that Arthur and Ford are on the ship? Oh joy.
+ent-DrinkGargleBlasterGlass = blaster de gargarejo pan-galáctico
+     .desc = Será... isso significa que Arthur e Ford estão no navio? Ah, alegria.
 
-ent-DrinkGinGlass = Gin
-    .desc = Crystal clear Griffeater gin.
+ent-DrinkGinGlass = copo de gin
+     .desc = Gin Griffeater cristalino.
 
-ent-DrinkGinFizzGlass = gin fizz glass
-    .desc = Refreshingly lemony, deliciously dry.
+ent-DrinkGinFizzGlass = copo de gin efervescente
+     .desc = Refrescantemente cítrico, deliciosamente seco.
 
-ent-DrinkGinTonicglass = gin and tonic
-    .desc = A mild but still great cocktail. Drink up, like a true Englishman.
+ent-DrinkGinTonicglass = gin e tônica
+     .desc = Um coquetel suave, mas ainda assim ótimo. Beba, como um verdadeiro inglês.
 
-ent-DrinkGoldschlagerGlass = goldschlager glass
-    .desc = 100 proof that teen girls will drink anything with gold in it.
+ent-DrinkGoldschlagerGlass = copo de goldschlager
+     .desc = 100 prova de que meninas adolescentes beberão qualquer coisa que contenha ouro.
 
-ent-DrinkGrapeJuice = grape juice
-    .desc = It's grrrrrape!
+ent-DrinkGrapeJuice = suco de uva
+     .desc = É grrrrrape!
 
-ent-DrinkGrapeSodaGlass = grape soda glass
-    .desc = Looks like a delicious drink!
+ent-DrinkGrapeSodaGlass = copo de refrigerante de uva
+     .desc = Parece uma bebida deliciosa!
 
-ent-DrinkGreenTeaGlass = green tea glass
-    .desc = Tasty green tea. It has antioxidants; it's good for you!
+ent-DrinkGreenTeaGlass = copo de chá verde
+     .desc = Saboroso chá verde. Possui antioxidantes; é bom para você!
 
-ent-DrinkGrenadineGlass = grenadine syrup glass
-    .desc = Sweet and tangy, a bar syrup used to add color or flavor to drinks.
+ent-DrinkGrenadineGlass = copo de xarope de granadina
+     .desc = Doce e picante, um xarope em barra usado para adicionar cor ou sabor às bebidas.
 
-ent-DrinkGrogGlass = grog glass
-    .desc = A fine and cepa drink for Space.
+ent-DrinkGrogGlass = copo de grogue
+     .desc = Uma bebida fina e cepa para o Espaço.
 
-ent-DrinkHippiesDelightGlass = hippies' delight glass
-    .desc = A drink enjoyed by people during the 1960's.
+ent-DrinkHippiesDelightGlass = copo de delícia dos hippies
+     .desc = Uma bebida apreciada pelas pessoas na década de 1960.
 
-ent-DrinkHoochGlass = hooch
-    .desc = You've really hit rock bottom now... your liver packed its bags and left last night.
+ent-DrinkHoochGlass = copo de cachaca barato
+     .desc = Você realmente chegou ao fundo do poço agora... seu fígado fez as malas e foi embora ontem à noite.
 
-ent-DrinkIcedCoffeeGlass = iced coffee glass
-    .desc = A drink to perk you up and refresh you!
+ent-DrinkIcedCoffeeGlass = copo de café gelado
+     .desc = Uma bebida para animar e refrescar!
 
-ent-DrinkIcedGreenTeaGlass = iced green tea glass
-    .desc = It looks like green tea with ice. One might even call it iced green tea.
+ent-DrinkIcedGreenTeaGlass = copo de chá verde gelado
+     .desc = Parece chá verde com gelo. Pode-se até chamá-lo de chá verde gelado.
 
-ent-DrinkIcedTeaGlass = iced tea
-    .desc = A refreshing southern beverage.
+ent-DrinkIcedTeaGlass = chá gelado
+     .desc = Uma bebida refrescante do sul.
 
-ent-DrinkIcedBeerGlass = iced beer glass
-    .desc = A beer so frosty, the air around it freezes.
+ent-DrinkIcedBeerGlass = copo de cerveja gelada
+     .desc = Uma cerveja tão gelada que o ar ao seu redor congela.
 
-ent-DrinkIceGlass = ice glass
-    .desc = Generally, you're supposed to put something else in there too...
+ent-DrinkIceGlass = copo de gelo
+     .desc = Geralmente, você deveria colocar algo mais lá também...
 
-ent-DrinkIceCreamGlass = ice cream glass
-    .desc = A glass full of good old ice cream. Might want a spoon.
+ent-DrinkIceCreamGlass = copo de sorvete
+     .desc = Um copo cheio do bom e velho sorvete. Talvez queira uma colher.
 
 ent-DrinkIrishCarBomb = irish car bomb
-    .desc = An irish car bomb.
+     .desc = Um carro-bomba irlandês.
 
-ent-DrinkIrishCoffeeGlass = irish coffee glass
-    .desc = Coffee and alcohol. More fun than a Mimosa to drink in the morning.
+ent-DrinkIrishCoffeeGlass = copo de irish coffee
+     .desc = Café e álcool. Mais divertido que uma Mimosa para beber de manhã.
 
-ent-DrinkIrishCreamGlass = irish cream glass
-    .desc = It's cream, mixed with whiskey. What else would you expect from the Irish?
+ent-DrinkIrishCreamGlass = copo de creme irlandês
+     .desc = É creme misturado com whisky. O que mais você esperaria dos irlandeses?
 
-ent-DrinkKahluaGlass = kahlua glass
-    .desc = DAMN, THIS THING LOOKS ROBUST
+ent-DrinkKahluaGlass = copo de kahlua
+     .desc = Droga, essa coisa parece robusta
 
-ent-DrinkKiraSpecial = kira special
-    .desc = Long live the guy who everyone had mistaken for a girl. Baka!
+ent-DrinkKiraSpecial = especial de kira
+     .desc = Viva o cara que todos confundiram com uma garota. Baka!
 
-ent-DrinkLemonadeGlass = lemonade glass
-    .desc = Oh the nostalgia...
+ent-DrinkLemonadeGlass = copo de limonada
+     .desc = Ah, que nostalgia...
 
-ent-DrinkLemonJuice = lemon juice
-    .desc = Sour...
+ent-DrinkLemonJuice = suco de limão
+     .desc = Azedo...
 
-ent-DrinkLemonLime = lemon lime
-    .desc = A tangy substance made of 0.5% natural citrus!
+ent-DrinkLemonLime = suco de limão-lima
+     .desc = Uma substância picante feita de 0,5% de frutas cítricas naturais!
 
-ent-DrinkLimeJuice = lime juice
-    .desc = It's some sweet-sour lime juice.
+ent-DrinkLimeJuice = suco de lima
+     .desc = É um pouco de suco de lima agridoce.
 
-ent-DrinkLongIslandIcedTeaGlass = long island iced tea glass
-    .desc = The liquor cabinet, brought together in a delicious mix. Intended for middle-aged alcoholic women only.
+ent-DrinkLongIslandIcedTeaGlass = copo de chá gelado long island
+     .desc = O armário de bebidas, reunido em uma mistura deliciosa. Destinado apenas a mulheres alcoólatras de meia-idade.
 
-ent-DrinkManhattanGlass = manhattan glass
-    .desc = The Detective's undercover drink of choice. He never could stomach gin...
+ent-DrinkManhattanGlass = copo de manhattan
+     .desc = A bebida secreta preferida do detetive. Ele nunca teve estômago para gim...
 
-ent-DrinkManhattanProjectGlass = manhattan project glass
-    .desc = A scientist's drink of choice, for pondering ways to blow up the station.
+ent-DrinkManhattanProjectGlass = copo do projeto Manhattan
+     .desc = A bebida preferida de um cientista, para ponderar maneiras de explodir a estação.
 
-ent-DrinkManlyDorfGlass = the manly dorf glass
-    .desc = A manly concotion made from Ale and Beer. Intended for true men only.
+ent-DrinkManlyDorfGlass = copo de dorf viril
+     .desc = Uma mistura masculina feita de cerveja e cerveja. Destinado apenas a homens verdadeiros.
 
-ent-DrinkMargaritaGlass = margarita glass
-    .desc = On the rocks with salt on the rim. Arriba~!
+ent-DrinkMargaritaGlass = taça de margarita
+     .desc = Com gelo e sal na borda. Arriba!
 
-ent-DrinkMartiniGlass = classic martini glass
-    .desc = Damn, the bartender even stirred it, not shook it.
+ent-DrinkMartiniGlass = taça de martini clássica
+     .desc = Droga, o barman até mexeu, não sacudiu.
 
-ent-DrinkMeadGlass = mead glass
-    .desc = A Viking's beverage, though a cheap one.
+ent-DrinkMeadGlass = copo de hidromel
+     .desc = Uma bebida Viking, embora barata.
 
-ent-DrinkMilkshake = milkshake
-    .desc = Glorious brainfreezing mixture.
+ent-DrinkMilkshake = milk-shake
+     .desc = Mistura gloriosa para congelar o cérebro.
 
-ent-DrinkMojito = mojito
-    .desc = Fresh from Spesscuba.
+ent-DrinkMojito = copo de mojito
+     .desc = Fresco de Spesscuba.
 
-ent-DrinkNeurotoxinGlass = neurotoxin glass
-    .desc = A drink that is guaranteed to knock you silly.
+ent-DrinkNeurotoxinGlass = copo de neurotoxina
+     .desc = Uma bebida que com certeza vai te deixar bobo.
 
-ent-DrinkNothing = nothing
-    .desc = Absolutely nothing.
+ent-DrinkNothing = copo de nada
+     .desc = Para quem tem tudo. Este é o máximo em minimalismo. Menos é mais, mais é menos. Nada é precioso. Nada é simples. Nada é sagrado. Abra a garrafa e fique encantado quando nada acontecer. Permita que nada flua em sua mente e acalme sua alma. Saboreie o momento. Logo você descobrirá que nada é realmente melhor do que alguma coisa.
 
-ent-DrinkNTCahors = neotheology cahors whine
-    .desc = It looks like wine, but more dark.
+ent-DrinkNTCahors = copo de neoteologia cahors lamentar
+     .desc = Parece vinho, mas mais escuro.
 
-ent-DrinkNuclearColaGlass = nuclear cola glass
-    .desc = Don't cry, Don't raise your eye, It's only nuclear wasteland.
+ent-DrinkNuclearColaGlass = copo de cola nuclear
+     .desc = Não chore, Não levante os olhos, É apenas um deserto nuclear.
 
-ent-DrinkOrangeJuice = orange juice
-    .desc = Vitamins! Yay!
+ent-DrinkOrangeJuice = suco de laranja
+     .desc = Vitaminas! Yay!
 
-ent-DrinkPatronGlass = patron glass
-    .desc = Drinking patron in the bar, with all the subpar ladies.
+ent-DrinkPatronGlass = copo de patron
+     .desc = Cliente bebendo no bar, com todas as mulheres abaixo da média.
 
-ent-DrinkPoisonBerryJuice = poison berry juice
-    .desc = Looks like some deadly juice.
+ent-DrinkPoisonBerryJuice = suco de frutas venenosas
+     .desc = Parece um suco mortal.
 
-ent-DrinkPoisonWineGlass = poison wine glass
-    .desc = A black ichor with an oily purple sheer on top. Are you sure you should drink this?
+ent-DrinkPoisonWineGlass = taça de vinho venenoso
+     .desc = Um icor preto com uma camada roxa oleosa no topo. Tem certeza de que deveria beber isso?
 
-ent-DrinkRedMeadGlass = red mead glass
-    .desc = A true Viking's beverage, though its color is strange.
+ent-DrinkRedMeadGlass = copo de viking's blood
+     .desc = Uma verdadeira bebida viking, embora sua cor seja estranha.
 
-ent-DrinkRewriter = rewriter
-    .desc = The secret of the sanctuary of the Libarian...
+ent-DrinkRewriter = reescritor
+     .desc = O segredo do santuário do Libariano...
 
-ent-DrinkRootBeerGlass = root beer glass
-    .desc = Fizzy, foamy, and full of sweet, non-caffienated goodness.
+ent-DrinkRootBeerGlass = copo de root beer
+     .desc = efervescente, espumoso e cheio de delícias doces e sem cafeína.
 
-ent-DrinkRootBeerFloatGlass = root beer float glass
-    .desc = Fizzy, foamy, and now with ice cream on top! Amazing!
+ent-DrinkRootBeerFloatGlass = copo de root beer float
+     .desc = Efervescente, espumoso e agora com sorvete por cima! Incrível!
 
-ent-DrinkRumGlass = rum glass
-    .desc = Now you want to Pray for a pirate suit, don't you?
+ent-DrinkRumGlass = copo de rum
+     .desc = Agora você quer Orar por uma fantasia de pirata, não é?
 
-ent-DrinkSakeGlass = sake glass
-    .desc = Wine made from rice, it's sake!
+ent-DrinkSakeGlass = copo de saquê
+     .desc=Vinho feito de arroz, é saquê!
 
-ent-DrinkSbitenGlass = sbiten glass
-    .desc = A spicy mix of Vodka and Spice. Very hot.
+ent-DrinkSbitenGlass = copo de sbiten
+     .desc = Uma mistura picante de Vodka e especiarias. Muito quente.
 
-ent-DrinkScrewdriverCocktailGlass = screwdriver glass
-    .desc = A simple, yet superb mixture of Vodka and orange juice. Just the thing for the tired engineer.
+ent-DrinkScrewdriverCocktailGlass = copo de screwdriver
+     .desc = Uma mistura simples, mas excelente, de Vodka e suco de laranja. Ideal para o engenheiro cansado.
 
-ent-DrinkSuiDreamGlass = sui dream glass
-    .desc = A froofy, fruity, and sweet mixed drink. Understanding the name only brings shame.
+ent-DrinkSuiDreamGlass = copo do sonho sui
+     .desc = Uma bebida mista espumosa, frutada e doce. Entender o nome só traz vergonha.
 
-ent-DrinkEmeraldGlass = melon liquor
-    .desc = A relatively sweet and fruity 46 proof liquor.
+ent-DrinkEmeraldGlass = licor de melão
+     .desc = Um licor relativamente doce e frutado de 46 provas.
 
-ent-DrinkMoonshineGlass = moonshine
-    .desc = You've really hit rock bottom now... your liver packed its bags and left last night.
+ent-DrinkMoonshineGlass = copo de moonshine
+     .desc = Você realmente chegou ao fundo do poço agora... seu fígado fez as malas e foi embora ontem à noite.
 
-ent-DrinkGlassWhite = milk
-    .desc = White and nutritious goodness!
+ent-DrinkGlassWhite = leite
+     .desc = Bondade branca e nutritiva!
 
-ent-DrinkSilencerGlass = silencer glass
-    .desc = A drink from Mime Heaven.
+ent-DrinkSilencerGlass = copo de silenciador
+     .desc = Uma bebida do Mime Heaven.
 
 ent-DrinkSingulo = singulo
-    .desc = A blue-space beverage!
+     .desc = Uma bebida do espaço azul!
 
 ent-DrinkSnowWhite = snow white
-    .desc = A cold refreshment.
+     .desc = Um refresco gelado.
 
-ent-DrinkSoyLatte = soy latte
-    .desc = A nice and refrshing beverage while you are reading.
+ent-DrinkSoyLatte = latte de soja
+     .desc = Uma bebida agradável e refrescante enquanto você lê.
 
-ent-DrinkSpaceUpGlass = space-up glass
-    .desc = Space-up. It helps keep your cool.
+ent-DrinkSpaceUpGlass = copo de spaceup
+     .desc = Espaço para cima. Isso ajuda a manter a calma.
 
-ent-DrinkSpaceMountainWindGlass = space mountain wind glass
-    .desc = Space Mountain Wind. As you know, there are no mountains in space, only wind.
+ent-DrinkSpaceMountainWindGlass = copo de vento da montanha espacial
+     .desc = Vento da Montanha Espacial. Como você sabe, não existem montanhas no espaço, apenas vento.
 
-ent-DrinkSyndicatebomb = syndicate bomb
-    .desc = Tastes like terrorism!
+ent-DrinkSyndicatebomb = bomba do sindicato
+     .desc = Tem gosto de terrorismo!
 
-ent-DrinkTeaGlass = tea glass
-    .desc = Tasty black tea. It has antioxidants; it's good for you!
+ent-DrinkTeaGlass = copo de chá
+     .desc = Saboroso chá preto. Possui antioxidantes; é bom para você!
 
-ent-DrinkTeapot = teapot
-    .desc = An elegant teapot. It simply oozes class.
+ent-DrinkTeapot = bule de chá
+     .desc = Um bule elegante. Simplesmente exala classe.
 
-ent-DrinkTequilaGlass = tequila glass
-    .desc = Now all that's missing is the weird colored shades!
+ent-DrinkTequilaGlass = copo de tequila
+     .desc = Agora só faltam os tons de cores estranhas!
 
-ent-DrinkTequilaSunriseGlass = tequila sunrise glass
-    .desc = Oh great, now you feel nostalgic about sunrises back on Terra...
+ent-DrinkTequilaSunriseGlass = copo de tequila sunrise
+     .desc = Ah, ótimo, agora você sente nostalgia do nascer do sol na Terra...
 
-ent-DrinkThreeMileIslandGlass = three mile island glass
-    .desc = A glass of this is sure to prevent a meltdown.
+ent-DrinkThreeMileIslandGlass = copo de ilha de três milhas
+     .desc = Um copo disso certamente evitará um colapso.
 
-ent-DrinkTomatoJuice = tomato juice
-    .desc = Are you sure this is tomato juice?
+ent-DrinkTomatoJuice = suco de tomate
+     .desc=Tem certeza que isso é suco de tomate?
 
-ent-DrinkToxinsSpecialGlass = toxins special glass
-    .desc = Woah, this thing is on FIRE
+ent-DrinkToxinsSpecialGlass = copo especial de toxinas
+     .desc = Uau, essa coisa está pegando fogo
 
-ent-DrinkVermouthGlass = vermouth glass
-    .desc = You wonder why you're even drinking this straight.
+ent-DrinkVermouthGlass = copo de vermute
+     .desc = Você se pergunta por que está bebendo tão puro.
 
-ent-DrinkVodkaGlass = vodka glass
-    .desc = Number one drink and fueling choice for Russians worldwide.
+ent-DrinkVodkaGlass = copo de vodka
+     .desc = Bebida número um e escolha de combustível para russos em todo o mundo.
 
-ent-DrinkVodkaMartiniGlass = vodka martini glass
-    .desc = A bastardisation of the classic martini. Still great.
+ent-DrinkVodkaMartiniGlass = taça de vodka martini
+     .desc = Uma bastardização do martini clássico. Ainda ótimo.
 
-ent-DrinkVodkaTonicGlass = vodka tonic glass
-    .desc = For when a gin and tonic isn't russian enough.
+ent-DrinkVodkaTonicGlass = copo de vodka tônica
+     .desc = Para quando um gin tônico não é russo o suficiente.
 
-ent-DrinkWaterJug = water jug
-    .desc = Stay hydrated
+ent-DrinkWaterJug = jarro de água
+     .desc = Mantenha-se hidratado
 
-ent-DrinkWatermelonJuice = watermelon juice
-    .desc = Delicious juice made from watermelon.
+ent-DrinkWatermelonJuice = suco de melancia
+     .desc = Delicioso suco feito de melancia.
 
-ent-DrinkWhiskeyColaGlass = whiskey cola glass
-    .desc = An innocent-looking mixture of cola and Whiskey. Delicious.
+ent-DrinkWhiskeyColaGlass = copo de whiskey-cola
+     .desc = Uma mistura de cola e whiskey de aparência inocente. Delicioso.
 
-ent-DrinkWhiskeyGlass = whiskey glass
-    .desc = The silky, smoky whiskey goodness inside makes the drink look very classy.
+ent-DrinkWhiskeyGlass = copo de whiskey
+     .desc = A qualidade sedosa e esfumaçada do whisky por dentro faz com que a bebida pareça muito elegante.
 
-ent-DrinkWhiskeySodaGlass = whiskey soda glass
-    .desc = Ultimate refreshment.
+ent-DrinkWhiskeySodaGlass = copo de whisky soda
+     .desc = Refresco final.
 
-ent-DrinkWhiteRussianGlass = white russian glass
-    .desc = A very nice looking drink. But that's just, like, your opinion, man.
+ent-DrinkWhiteRussianGlass = copo white russian
+     .desc = Uma bebida muito bonita. Mas isso é apenas a sua opinião, cara.
 
-ent-DrinkWineGlass = wine glass
-    .desc = A very classy looking drink.
+ent-DrinkWineGlass = taça de vinho
+     .desc = Uma bebida com um visual muito elegante.
 
-ent-DrinkShakeBlue = blue milkshake
-    .desc = { "" }
+ent-DrinkShakeBlue = milk-shake azul
+     .desc = { "" }
 
 ent-DrinkShakeEmpty = shakeempty
-    .desc = { "" }
+     .desc = { "" }
 
-ent-DrinkShakeMeat = meat shake
-    .desc = { "" }
+ent-DrinkShakeMeat = shake de carne
+     .desc = { "" }
 
-ent-DrinkShakeRobo = robo shake
-    .desc = { "" }
+ent-DrinkShakeRobo = shake robótico
+     .desc = { "" }
 
-ent-DrinkShakeWhite = white shake
-    .desc = { "" }
+ent-DrinkShakeWhite = shake de branco
+     .desc = { "" }
 
-ent-DrinkRamen = cup ramen
-    .desc = Just add 10ml boiling water. A taste that reminds you of your school years.
+ent-DrinkRamen = copo de ramen
+     .desc = Basta adicionar 10ml de água fervente. Um sabor que lembra seus anos escolares.
 
-ent-DrinkHellRamen = hell ramen
-    .desc = Just add 10ml boiling water. Super spicy flavor.
+ent-DrinkHellRamen = ramen do inferno
+     .desc = Basta adicionar 10ml de água fervente. Sabor super picante.
 
-ent-DrinkKvassGlass = kvass glass
-    .desc = A cool refreshing drink with a taste of socialism.
-
+ent-DrinkKvassGlass = copo de kvass
+     .desc = Uma bebida refrescante com um toque de socialismo.
