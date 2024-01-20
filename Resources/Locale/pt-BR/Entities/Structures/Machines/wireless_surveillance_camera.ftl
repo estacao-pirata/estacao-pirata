@@ -1,27 +1,27 @@
-ent-SurveillanceWirelessCameraBase = wireless camera
-    .desc = A camera. It's watching you. Kinda.
+ent-SurveillanceWirelessCameraBase = câmera sem fio
+    .desc = Uma câmera. Sorria!
 
-ent-SurveillanceWirelessCameraAnchoredBase = wireless camera
-    .desc = A camera. It's watching you. Kinda.
+ent-SurveillanceWirelessCameraAnchoredBase = câmera sem fio
+    .desc = Uma câmera. Sorria!
     .suffix = Anchored
 
-ent-SurveillanceWirelessCameraMovableBase = wireless camera
-    .desc = A camera. It's watching you. Kinda.
+ent-SurveillanceWirelessCameraMovableBase = câmera sem fio
+    .desc = Uma câmera. Sorria!
     .suffix = Movable
 
-ent-SurveillanceWirelessCameraAnchoredConstructed = wireless camera
-    .desc = A camera. It's watching you. Kinda.
+ent-SurveillanceWirelessCameraAnchoredConstructed = câmera sem fio
+    .desc = Uma câmera. Sorria!
     .suffix = Constructed, Anchored
 
-ent-SurveillanceWirelessCameraMovableConstructed = wireless camera
-    .desc = A camera. It's watching you. Kinda.
+ent-SurveillanceWirelessCameraMovableConstructed = câmera sem fio
+    .desc = Uma câmera. Sorria!
     .suffix = Constructed, Movable
 
-ent-SurveillanceWirelessCameraAnchoredEntertainment = wireless camera
-    .desc = A camera. It's watching you. Kinda.
+ent-SurveillanceWirelessCameraAnchoredEntertainment = câmera sem fio
+    .desc = Uma câmera. Sorria!
     .suffix = Entertainment, Anchored
 
-ent-SurveillanceWirelessCameraMovableEntertainment = wireless camera
-    .desc = A camera. It's watching you. Kinda.
+ent-SurveillanceWirelessCameraMovableEntertainment = câmera sem fio
+    .desc = Uma câmera. Sorria!
     .suffix = Entertainment, Movable
 
