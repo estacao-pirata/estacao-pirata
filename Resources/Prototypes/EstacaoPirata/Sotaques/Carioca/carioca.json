@@ -1,0 +1,85 @@
+{
+    "words": [
+        {
+            "og": [
+                "sec",
+                "segurança",
+                "polícia"
+            ],
+            "mod": ["tira"]
+        },
+        {
+            "og": [
+                "secs",
+                "seguranças",
+                "políciais"
+            ],
+            "mod": ["tiras"]
+        },
+        {
+            "og": ["revolução"],
+            "mod": [
+                "cv",
+                "pcc"
+            ]
+        },
+        {
+            "og": ["é"],
+            "mod": ["eh"]
+        },
+        {
+            "og": ["queimado"],
+            "mod": ["torrado"]
+        },
+        {
+            "og": [
+                "sim"
+            ],
+            "mod": [
+                "jaé"
+            ]
+        },
+        {
+            "og": [
+                "puto",
+                "chateado",
+                "triste"
+            ],
+            "mod": [
+                "bolado"
+            ]
+        },
+        {
+            "og": [
+                "certo"
+            ],
+            "mod": [
+                "tranquilo"
+            ]
+        }
+    ],
+    "phrases": [
+        {
+            "og": [
+                "pão de banana"
+            ],
+            "mod": ["pão com banana"]
+        },
+        {
+            "og": [
+                "oq aconteceu",
+                "oque aconteceu",
+                "o que aconteceu"
+            ],
+            "mod": [
+                "qual foi"
+            ]
+        }
+    ],
+    "ending": [
+        "tá ligado?"
+    ],
+    "begin": [
+        "Mermão,"
+    ]
+}
