@@ -29,149 +29,119 @@ ent-VendingMachineMagivend = Vende Feitiços
     .desc = Vende quaisquer apetrechos arcanos um mago precisa.
 
 ent-VendingMachineDiscount = Discontos do Danilo
-    .desc = Vendes salgadinhos da famosa série 'Danilo Disconto'.
+    .desc = Vende salgadinhos da famosa série 'Danilo Disconto'.
 
 ent-VendingMachineEngivend = Vende-Treco
-    .desc = Spare tool vending. What? Did you expect some witty description?
+    .desc = Vende ferramentas, trecos, apetrechos, mecanismos, etc.
 
 ent-VendingMachineMedical = NanoFarma Mais
-    .desc = It's a medical drug dispenser. Natural chemicals only!
+    .desc = Um dispensador de medicamentos. 100% natural!
 
 ent-VendingMachineNutri = NutriMaxi
-    .desc = A vending machine containing nutritional substances for plants and botanical tools.
+    .desc = Vende ferramentas e produtos botanicos.
 
 ent-VendingMachineSec = SecTéc
-    .desc = A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
+    .desc = Uma máquina de venda com equipamentos de segurança. Tem um aviso que diz "USO RESTRITO A SEGURANÇAS".
 
 ent-VendingMachineSeedsUnlocked = BrotaBrotos
-    .desc = For when you need seeds fast. Hands down the best seed selection on the station!
+    .desc = Para quando você precisa imediatamente de sementes.
     .suffix = Unlocked
 
 ent-VendingMachineSeeds = BrotaBrotos
-    .desc = For when you need seeds fast. Hands down the best seed selection on the station!
+    .desc = Para quando você precisa de sementes imediatamente.
     .suffix = Hyroponics
 
 ent-VendingMachineSmartFridge = Geladeira Smart
-    .desc = A refrigerated storage unit for keeping items cold and fresh.
-    .suffix = Hyroponics
+    .desc = Uma geladeira smart, conecta na internet e passa propaganda do jogo do tigrinho.
 
 ent-VendingMachineSnack = ComaComa Choco Co.
-    .desc = A snack machine courtesy of the Getmore Chocolate Corporation, based out of Mars.
-    .suffix = Hyroponics
+    .desc = Uma máquina de salgadinhos. Cortesia da compania chocolateira ComaComa Choco, baseada em Marte.
 
 ent-VendingMachineSovietSoda = BODA
-    .desc = An old vending machine containing sweet water.
-    .suffix = Hyroponics
-
+    .desc = Uma máquina antiga que vende água saborizada.
+   
 ent-VendingMachineTheater = RoupasLoucas
-    .desc = A vending machine containing costumes.
-    .suffix = Hyroponics
+    .desc = Uma máquina de venda de roupas
 
 ent-VendingMachineVendomat = VendePeças
-    .desc = Only the finest robust equipment in space!
-    .suffix = Hyroponics
+    .desc = Vende peças. Tá no nome.
 
 ent-VendingMachineYouTool = Ferra-Venda
-    .desc = A vending machine containing standard tools. A label reads: Tools for tools.
-    .suffix = Hyroponics
+    .desc = Uma máquina de venda de ferramentas de qualidade duvidosa.
 
 ent-VendingMachineGames = Di-Ver-São!
-    .desc = Vends things that the Captain and Head of Personnel are probably not going to appreciate you fiddling with instead of your job...
-    .suffix = Hyroponics
+    .desc = Vende jogos de tabuleiros e outras coisas de que a bibliotecária e outros tripulantes entediados adorariam jogar.
 
 ent-VendingMachineChang = Sr. Chang
-    .desc = A self-serving Chinese food machine, for all your Chinese food needs.
-    .suffix = Hyroponics
+    .desc = Uma máquina de comida chinesa, para quando você tem fome de comida chinesa.
 
 ent-VendingMachineSalvage = Explora-Vend
-    .desc = A dwarves best friend!
-    .suffix = Hyroponics
+    .desc = O melhor amigo de um anão!
 
 ent-VendingMachineDonut = MicosQuinhas
-    .desc = A donut vendor provided by Robust Industries, LLC.
-    .suffix = Hyroponics
+    .desc = Uma vendedora de rosquinhas da Robust Industries, LLC.
 
 ent-VendingMachineWallmount = máquina de venda
-    .desc = A donut vendor provided by Robust Industries, LLC.
-    .suffix = Hyroponics
+    .desc = Uma vendedora de rosquinhas da Robust Industries, LLC.
 
 ent-VendingMachineWallMedical = NanoFarma
-    .desc = It's a wall-mounted medical equipment dispenser. Natural chemicals only!
-    .suffix = Hyroponics
+    .desc = Um dispensador de medicamentos montado na parede. 100% natural!
 
 ent-VendingMachineHydrobe = HydroRoupas
-    .desc = A machine with a catchy name. It dispenses botany related clothing and gear.
-    .suffix = Hyroponics
+    .desc = Uma máquina que vende uniformes para botânica. Todos são veganos.
 
 ent-VendingMachineLawDrobe = LegisRoupas
-    .desc = Objection! This wardrobe dispenses the rule of law... and lawyer clothing..
-    .suffix = Hyroponics
+    .desc = Uma máquina que vende uniformes caros para você estar bem vestido quando for ignorado.
 
 ent-VendingMachineSecDrobe = SecRoupas
-    .desc = A vending machine for security and security-related clothing!
-    .suffix = Hyroponics
+    .desc = Uma máquina que vende uniformes para segurança. Não mancham com sangue!
 
 ent-VendingBarDrobe = BebiRoupas
-    .desc = A stylish vendor to dispense the most stylish bar clothing!
-    .suffix = Hyroponics
+    .desc = Uma máquina de venda de uniformes estilosos para mestres de mixologia.
 
 ent-VendingMachineChapel = Vossas Vestimentas
-    .desc = A stylish vendor to dispense the most stylish bar clothing!
-    .suffix = Hyroponics
+    .desc = Uma máquina de venda para idolatrar.
 
 ent-VendingMachineCargoDrobe = CargoRoupas
-    .desc = A highly advanced vending machine for buying cargo related clothing for free.
-    .suffix = Hyroponics
+    .desc = Uma máquina onde tu compra roupas de carga de graça.
 
 ent-VendingMachineMediDrobe = MediRoupas
-    .desc = A vending machine rumoured to be capable of dispensing clothing for medical personnel.
-    .suffix = Hyroponics
+    .desc = Uma máquiona de venda de uniformes esterilizados para médicos.
 
 ent-VendingMachineChemDrobe = QuiRoupas
-    .desc = A vending machine for dispensing chemistry related clothing.
-    .suffix = Hyroponics
+    .desc = Uma máquina de venda de uniformes para químicos.
 
 ent-VendingMachineAtmosDrobe = AtmosRoupas
-    .desc = This relatively unknown vending machine delivers clothing for Atmospherics Technicians, an equally unknown job.
-    .suffix = Hyroponics
+    .desc = Uma máquina de venda de uniformes para técnicos atmosféricos. Tem um adesivo que diz "Roupas lavadas à plasma!"
 
 ent-VendingMachineEngiDrobe = EngiRoupas
-    .desc = A vending machine renowned for vending industrial grade clothing.
-    .suffix = Hyroponics
+    .desc = Uma máquina de venda de uniformes para engenheiros. Cumpre a NR-12!
 
 ent-VendingMachineChefDrobe = ChefRoupas
-    .desc = This vending machine might not dispense meat, but it certainly dispenses chef related clothing.
-    .suffix = Hyroponics
+    .desc = Uma máquina que vende roupas para chefes de cozinha, bons ou não.
 
 ent-VendingMachineDetDrobe = DetRoupas
-    .desc = A machine for all your detective needs, as long as you need clothes.
-    .suffix = Hyroponics
+    .desc = Uma máquina para tudo que um detetive precisa, desde que ele precise de roupas.
 
 ent-VendingMachineJaniDrobe = ZelaRoupas
-    .desc = A self cleaning vending machine capable of dispensing clothing for janitors.
-    .suffix = Hyroponics
+    .desc = Uma máquina auto-limpante que vende uniformes para zeladores.
 
 ent-VendingMachineSciDrobe = RoupasNerd
-    .desc = A simple vending machine suitable to dispense well tailored science clothing. Endorsed by Space Cubans.
-    .suffix = Hyroponics
+    .desc = Uma máquina simples que vende uniformes para cientistas.
 
 ent-VendingMachineRoboDrobe = RoboRoupas
-    .desc = A vending machine designed to dispense clothing known only to roboticists.
-    .suffix = Hyroponics
+    .desc = Uma máquina de venda de uniformes para pesquisadores de robótica.
 
 ent-VendingMachineGeneDrobe = GeneRoupas
-    .desc = A machine for dispensing clothing related to genetics.
-    .suffix = Hyroponics
+    .desc = Uma máquina de venda de uniformes para pesquisadores genéticos.
 
 ent-VendingMachineViroDrobe = ViroRoupas
-    .desc = An unsterilized machine for dispending virology related clothing.
-    .suffix = Hyroponics
+    .desc = Uma máquina inesperadamente não estéril que vende uniformes para pesquisadores virólogos.
 
 ent-VendingMachineTankDispenserEVA = dispensador de tanques
-    .desc = A vendor for dispensing gas tanks.
+    .desc = Um dispensador de tanques de gás.
     .suffix = EVA [O2, N2]
 
 ent-VendingMachineTankDispenserEngineering = dispensador de tanques
-    .desc = A vendor for dispensing gas tanks. This one has an engineering livery.
+    .desc = Um dispensador de tanques de gás. Esse é só para engenheiros
     .suffix = ENG [O2, Plasma]
-
