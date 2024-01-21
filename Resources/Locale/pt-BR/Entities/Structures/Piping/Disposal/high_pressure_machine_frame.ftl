@@ -1,3 +1,3 @@
-ent-DisposalMachineFrame = High Pressure Machine Frame
-    .desc = A machine frame made to withstand the amount of pressure used in the station's disposal system.
+ent-DisposalMachineFrame = chassis de máquina de alta pressão
+    .desc = O chassis de uma máquina capáz de conter pressões altas. Ainda está sendo construida.
 
