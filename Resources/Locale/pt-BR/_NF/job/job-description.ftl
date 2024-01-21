@@ -1,2 +1,3 @@
 job-description-mercenary = Execute as diligências de alguém- pelo preço certo. Desfrute de ser desamarrado dos limites da lei.
-job-description-stc = Descongestione com perícia o espaço ao redor da estação e ajude a NFSD a emitir multas para navios docados por tempo excessivo.
+job-description-stc = Descongestione com perícia o espaço ao redor da estação e ajude o DXNF a emitir multas para navios docados por tempo excessivo.
+job-description-pilot = Pilote espaçonaves do ponto A ao ponto B, drible piratas e desvie de asteróides. Você é uma folha no vento solar, deixe os outros embasbacados com como você plana.

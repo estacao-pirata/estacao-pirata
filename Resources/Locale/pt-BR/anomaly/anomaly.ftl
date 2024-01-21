@@ -25,7 +25,7 @@ anomaly-scanner-particle-containment = - [color=goldenrod]Tipo de contensão:[/c
 anomaly-scanner-pulse-timer = Tempo até próximo pulso: [color=gray]{$time}[/color]
 
 anomaly-generator-ui-title = gerador de anomalia
-anomaly-generator-fuel-display = Combustível:
+anomaly-generator-fuel-display = Bananium:
 anomaly-generator-cooldown = Cooldown: [color=gray]{$time}[/color]
 anomaly-generator-no-cooldown = Cooldown: [color=gray]Completo[/color]
 anomaly-generator-yes-fire = Estado: [color=forestgreen]Pronto[/color]

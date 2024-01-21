@@ -25,3 +25,6 @@ shipyard-rules-default2 =
 shuttle-ftl-proximity = Objetos próximos de muita massa para FTL!
 
 changelog-tab-title-Upstream = Changelog Upstream
+
+public-transit-departure = Próxima estação: {$destination}. Tempo estimado de viagem: {$flytime} segundos.
+public-transit-arrival = Obrigado por escolher a Linha Pública NT. Parada de {$waittime} segundos antes da partida para {$destination}.

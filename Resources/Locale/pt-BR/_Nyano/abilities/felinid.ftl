@@ -1,5 +1,6 @@
-hairball-action = Tussir bola de pêlo
-hairball-action-desc = Purgue um pouco do seu chemstream, e ganhe uma bola de cabelo legal para jogar nas pessoas.
+action-name-hairball = Tussir bola de pêlo
+action-description-hairball = Purgue um pouco do seu chemstream, e ganhe uma bola de cabelo legal para jogar nas pessoas.
+
 hairball-mask = Tire sua {$mask} antes.
 hairball-cough = {CAPITALIZE(THE($name))} começa a tossir uma bola de pelo!
 

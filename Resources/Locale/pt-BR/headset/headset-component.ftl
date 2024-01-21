@@ -10,9 +10,9 @@ chat-radio-command = Comando
 chat-radio-engineering = Engenharia
 chat-radio-medical = Médico
 chat-radio-science = Ciêntífico
-chat-radio-security = Segurança
+chat-radio-security = DXNF
 chat-radio-service = Serviço
-chat-radio-supply = Carga
+chat-radio-supply = Suprimentos
 chat-radio-syndicate = Sindicato
 
 # not headset but whatever
