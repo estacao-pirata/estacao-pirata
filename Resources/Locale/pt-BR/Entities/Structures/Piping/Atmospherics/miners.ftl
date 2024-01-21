@@ -1,27 +1,27 @@
-ent-GasMinerBase = gas miner
-    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
+ent-GasMinerBase = minerador de gás
+    .desc = gases extraidos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
-ent-GasMinerOxygen = O2 gas miner
-    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
+ent-GasMinerOxygen = minerador de O2
+    .desc = gases extraidos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
-ent-GasMinerNitrogen = N2 gas miner
-    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
+ent-GasMinerNitrogen = minerador de N2
+    .desc = gases extraidos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
-ent-GasMinerCarbonDioxide = CO2 gas miner
-    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
+ent-GasMinerCarbonDioxide = minerador de CO2
+    .desc = gases extraidos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
-ent-GasMinerPlasma = Plasma gas miner
-    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
+ent-GasMinerPlasma = minerador de plasma
+    .desc = gases extraidos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
-ent-GasMinerTritium = Tritium gas miner
-    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
+ent-GasMinerTritium = minerador de trítio
+    .desc = gases extraidos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
-ent-GasMinerWaterVapor = Water Vapor gas miner
-    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
+ent-GasMinerWaterVapor = minerador de vapor de água
+    .desc = gases extraidos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
-ent-GasMinerMiasma = Miasma gas miner
-    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
+ent-GasMinerMiasma = minerador de miasma
+    .desc = gases extraidos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
-ent-GasMinerNitrousOxide = Nitrous Oxide gas miner
-    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
+ent-GasMinerNitrousOxide = minerador de óxido nitroso
+    .desc = gases extraidos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 

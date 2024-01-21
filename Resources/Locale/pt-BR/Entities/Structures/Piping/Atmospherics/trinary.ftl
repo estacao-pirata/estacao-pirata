@@ -1,19 +1,17 @@
-ent-GasFilter = gas filter
-    .desc = Very useful for filtering gases.
+ent-GasFilter = filtro de gás
+    .desc = Muito útil para extrair gases especificos de uma mistura.
 
-ent-GasFilterFlipped = gas filter
-    .desc = Very useful for filtering gases.
+ent-GasFilterFlipped = filtro de gás
+    .desc = Muito útil para extrair gases especificos de uma mistura.
     .suffix = Flipped
 
-ent-GasMixer = gas mixer
-    .desc = Very useful for mixing gases.
+ent-GasMixer = misturador de gás
+    .desc = Útil para misturar gases.
+
+ent-GasMixerFlipped = misturador de gás
+    .desc = Útil para misturar gases.
     .suffix = Flipped
 
-ent-GasMixerFlipped = gas mixer
-    .desc = Very useful for mixing gases.
-    .suffix = Flipped
-
-ent-PressureControlledValve = pneumatic valve
-    .desc = Valve controlled by pressure.
-    .suffix = Flipped
+ent-PressureControlledValve = valvula pneumática
+    .desc = Válvula controlada por pressão.
 
