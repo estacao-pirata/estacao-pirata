@@ -1,38 +1,35 @@
 ent-DisposalHolder = disposal holder
     .desc = { "" }
 
-ent-DisposalPipeBroken = broken disposal pipe
-    .desc = A BBP (big broken pipe)
+ent-DisposalPipeBroken = tubo de rejeitos quebrado
+    .desc = Quebraram o ca- tubo.
 
-ent-DisposalPipe = disposal pipe segment
-    .desc = A huge pipe segment used for constructing disposal systems.
+ent-DisposalPipe = tubo de rejeitos
+    .desc = Um segmento de um grande tubo usado para levar itens de um lugar para o outro.
 
-ent-DisposalTagger = disposal pipe tagger
-    .desc = A pipe that tags entities for routing.
+ent-DisposalTagger = tubo etiquetador
+    .desc = Um tubo que marca os itens dentro dele para roteação.
 
-ent-DisposalTrunk = disposal trunk
-    .desc = A pipe trunk used as an entry point for disposal systems.
+ent-DisposalTrunk = extremidade de tubulação
+    .desc = O ponto de saída ou entrada de um sistema de tubos.
 
-ent-DisposalRouter = disposal router
-    .desc = A three-way router. Entities with matching tags get routed to the side via configurable filters.
+ent-DisposalRouter = tubo roteador
+    .desc = Um tubo com entrada e duas saídas. A saída utilizada por um item depende de sua marcação.
 
-ent-DisposalRouterFlipped = disposal router
-    .desc = A three-way router. Entities with matching tags get routed to the side.
+ent-DisposalRouterFlipped = tubo roteador
+    .desc = Um tubo com entrada e duas saídas. A saída utilizada por um item depende de sua marcação.
     .suffix = flipped
 
-ent-DisposalJunction = disposal junction
-    .desc = A three-way junction. The arrow indicates where items exit.
+ent-DisposalJunction = tubo convergente
+    .desc = Um tupo com duas entradas e uma saída. A seta indica a saída.
+
+ent-DisposalJunctionFlipped = tubo convergente
+    .desc = Um tupo com duas entradas e uma saída. A seta indica a saída.
     .suffix = flipped
 
-ent-DisposalJunctionFlipped = disposal junction
-    .desc = A three-way junction. The arrow indicates where items exit.
-    .suffix = flipped
+ent-DisposalYJunction = tubo convergente triplo
+    .desc = Um tubo com 3 entradas e uma saída.
 
-ent-DisposalYJunction = disposal y-junction
-    .desc = A three-way junction with another exit point.
-    .suffix = flipped
-
-ent-DisposalBend = disposal bend
-    .desc = A tube bent at a 90 degree angle.
-    .suffix = flipped
+ent-DisposalBend = tubo curvado
+    .desc = Um segmento de tubo que faz uma curva reta.
 
