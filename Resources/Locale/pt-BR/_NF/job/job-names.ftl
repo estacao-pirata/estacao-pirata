@@ -1,8 +1,8 @@
-job-name-mercenary = Mercenário
-job-name-stc = Contorlador de Tráfego da Estação
-job-name-pilot = Piloto
+job-name-mercenary = mercenário
+job-name-stc = controlador de Tráfego da Estação
+job-name-pilot = piloto
 
 # Role timers - Make these alphabetical or
-JobMercenary = Mercenário
-JobSTC = Contorlador de Tráfego da Estação
-JobPilot = Piloto
+JobMercenary = mercenário
+JobSTC = contorlador de tráfego da estação
+JobPilot = piloto
