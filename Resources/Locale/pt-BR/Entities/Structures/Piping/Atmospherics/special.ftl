@@ -1,3 +1,3 @@
-ent-AtmosDeviceFanTiny = tiny fan
-    .desc = A tiny fan, releasing a thin gust of air.
+ent-AtmosDeviceFanTiny = ventoinha
+    .desc = Uma pequeno ventilador que expele uma constante corrente de ar.
 
