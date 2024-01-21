@@ -1,0 +1,13 @@
+- type: trait
+  id: Carioca
+  name: Sotaque Carioca
+  description: Mermão, fale como um dox criax da Cidade de Deux, tá ligado?
+  components:
+  - type: SotaqueCarioca
+
+- type: trait
+  id: Portunhol
+  name: Sotaque Portunhol
+  description: Tu es uno space hermano
+  components:
+  - type: SotaquePortunhol
