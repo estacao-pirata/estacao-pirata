@@ -59,7 +59,8 @@
                 "você"
             ],
             "mod": [
-                "tu"
+                "tu",
+                "usted"
             ]
         },
         {
@@ -131,6 +132,14 @@
         },
         {
             "og": [
+                "tenho"
+            ],
+            "mod": [
+                "tengo"
+            ]
+        },
+        {
+            "og": [
                 "secs",
                 "seguranças",
                 "securitys",
@@ -156,6 +165,15 @@
             ],
             "mod": [
                 "doctors"
+            ]
+        },
+        {
+            "og": [
+                "está",
+                "esta"
+            ],
+            "mod": [
+                "estas"
             ]
         },
         {
@@ -199,6 +217,153 @@
             "mod": [
                 "herbalistas"
             ]
+        },
+        {
+            "og": [
+                "muito",
+                "muita"
+            ],
+            "mod": [
+                "muy"
+            ]
+        },
+        {
+            "og": [
+                "bem"
+            ],
+            "mod": [
+                "bien"
+            ]
+        },
+        {
+            "og": [
+                "ola",
+                "olá"
+            ],
+            "mod": [
+                "hola"
+            ]
+        },
+        {
+            "og": [
+                "eu"
+            ],
+            "mod": [
+                "yo"
+            ]
+        },
+        {
+            "og": [
+                "merda"
+            ],
+            "mod": [
+                "mierda"
+            ]
+        },
+        {
+            "og": [
+                "em"
+            ],
+            "mod": [
+                "en"
+            ]
+        },
+        {
+            "og": [
+                "um"
+            ],
+            "mod": [
+                "uno"
+            ]
+        },
+        {
+            "og": [
+                "dois"
+            ],
+            "mod": [
+                "dos"
+            ]
+        },
+        {
+            "og": [
+                "três",
+                "tres"
+            ],
+            "mod": [
+                "tres"
+            ]
+        },
+        {
+            "og": [
+                "quatro"
+            ],
+            "mod": [
+                "cuatro"
+            ]
+        },
+        {
+            "og": [
+                "sete"
+            ],
+            "mod": [
+                "siete"
+            ]
+        },
+        {
+            "og": [
+                "oito"
+            ],
+            "mod": [
+                "ocho"
+            ]
+        },
+        {
+            "og": [
+                "nove"
+            ],
+            "mod": [
+                "nueve"
+            ]
+        },
+        {
+            "og": [
+                "dez"
+            ],
+            "mod": [
+                "diez"
+            ]
+        },
+        {
+            "og": [
+                "uma"
+            ],
+            "mod": [
+                "una"
+            ]
+        },
+        {
+            "og": [
+                "uns"
+            ],
+            "mod": [
+                "unos"
+            ]
+        },
+        {
+            "og": [
+                "umas"
+            ],
+            "mod": [
+                "unas"
+            ]
+        },
+        {
+            "og": [
+                "caralho"
+            ],
+            "mod": [
+                "gararro"
+            ]
         }
     ],
     "phrases": [
@@ -216,6 +381,6 @@
         "Esse."
     ],
     "begin": [
-        "Orale, "
+        "Orale,"
     ]
 }

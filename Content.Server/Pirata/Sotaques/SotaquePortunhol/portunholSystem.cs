@@ -17,8 +17,9 @@ sealed class SotaqueCarioca : AccentEngine
     }
     override protected string Parse(string message) {
         //cranking xenophobia to 101% YEEEEAHHHH
-        Regex[] ogs = { new Regex(@"([cçCÇ])ão"), new Regex(@"([cçCÇ])ÃO"), new Regex(@"ão"), new Regex(@"ÃO") };
-        string[] mods = {"ción", "CIÓN", "on", "ON"};
+        Regex[] ogs = { new Regex(@"([cçCÇ])ão"), new Regex(@"([cçCÇ])ÃO"), new Regex(@"ão"), new Regex(@"ÃO"),
+        new Regex(@"([aeiouAEIOU])r($|[\s])"), new Regex(@"([aeiouAEIOU])R($|[\s])")};
+        string[] mods = {"ción", "CIÓN", "on", "ON", "$1ste$2", "$1STE$2" };
         List<string>moddedToken = new List<string>();
         string[] tokens = message.Split(' ');
         foreach(string token in tokens) {
