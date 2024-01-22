@@ -29,4 +29,6 @@ advertisement-syndiedrobe-28 = Our suits are moisture-resistant, which means you
 advertisement-syndiedrobe-29 = The best in the galaxy!
 advertisement-syndiedrobe-30 = What could be better than the smell of our uniform in the morning?
 advertisement-syndiedrobe-31 = You can leave feedback about the convenience of the form by sending a request to our Taipan hotline, the main thing is not to the wrong number!
-
+thankyou-syndiedrobe-1 = Faça bom uso!
+thankyou-syndiedrobe-2 = Morte ao NT!
+thankyou-syndiedrobe-3 = Mostre a eles o poder do estilo.

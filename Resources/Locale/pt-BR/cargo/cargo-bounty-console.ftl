@@ -2,7 +2,7 @@
 bounty-console-label-button-text = Print label
 bounty-console-time-label = Tempo: [color=orange]{$time}[/color]
 bounty-console-reward-label = Retorno: [color=limegreen]${$reward}[/color]
-bounty-console-manifest-label = Manifesto: [color=gray]{$item}[/color]
+bounty-console-manifest-label = Manifesto: [color=orange]{$item}[/color]
 bounty-console-manifest-entry =
     { $amount ->
         [1] {$item}
@@ -14,5 +14,5 @@ bounty-console-id-label = ID#{$id}
 bounty-console-flavor-left = Recompensas obtidas de negociantes locais inescrupulosos.
 bounty-console-flavor-right = v1.4
 
-bounty-manifest-header = Manifesto oficial de recompensas para os trabalhadores da Cargo (ID#{$id})
+bounty-manifest-header = [font size=14][bold]Manifesto oficial de recompensas para Cargo[/bold] (ID#{$id})
 bounty-manifest-list-start = Manifesto de itens:

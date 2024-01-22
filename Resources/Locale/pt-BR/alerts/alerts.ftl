@@ -96,5 +96,14 @@ alerts-bleed-desc = Você está [color=red]Sangrando[/color].
 alerts-pacified-name = [color=green]Pacificou[/color]
 alerts-pacified-desc = Você está pacificado; você não será capaz de atacar ninguém diretamente.
 
-alerts-suit-power-name = Poder do traje
-alerts-suit-power-desc = Quanto poder seu traje ninja espacial tem.
+alerts-suit-power-name = Energia do traje
+alerts-suit-power-desc = Quanto energia seu traje ninja espacial tem.
+
+alertas-magboots-name = Botas magnéticas
+alerts-magboots-desc= Você é imune ao fluxo de ar, mas um pouco mais lento.
+
+alerts-revenant-essence-name = Essência
+alerts-revenant-essence-desc = O poder das almas. Ele sustenta você e é usado para habilidades. Ele se regenera lentamente ao longo do tempo.
+
+alerts-revenant-corporeal-name = Corpóreo
+alerts-revenant-corporeal-desc = Você se manifestou fisicamente. As pessoas ao seu redor podem ver e machucar você.

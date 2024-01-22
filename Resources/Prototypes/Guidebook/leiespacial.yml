@@ -2,9 +2,9 @@
   id: LeiEspacial
   name: guide-entry-lei-espacial
   text: "/ServerInfo/Guidebook/LeiEspacial/LeiEspacial.xml"
-  children: 
+  children:
    - CódigoPenal
-
+   
 - type: guideEntry
   id: CódigoPenal
   name: guide-entry-codigo-penal

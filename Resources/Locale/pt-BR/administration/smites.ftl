@@ -13,6 +13,7 @@ admin-smite-stomach-removal-self = Seu estômago parece vazio...
 admin-smite-run-walk-swap-prompt = Você tem que pressionar shift para correr!
 admin-smite-super-speed-prompt = Você se move a mach 0.8!
 admin-smite-lung-removal-self = Você não pode respirar!
+admin-smite-terminate-prompt = Eu voltarei.
 
 
 ## Smite descriptions
@@ -55,7 +56,9 @@ admin-smite-lung-removal-description = Remove seus pulmões, afogando-os.
 admin-smite-remove-hand-description = Remove apenas uma de suas mãos em vez de todas elas.
 admin-smite-disarm-prone-description = Faz com que sejam desarmados 100% do tempo e algemados instantaneamente.
 admin-smite-garbage-can-description = Transforme-os em uma lixeira para enfatizar o que eles lembram.
-
+admin-smite-super-bonk-description = Bate-los em todas as mesas da Estação e além.
+admin-smite-super-bonk-lite-description= Bate-los em todas as mesas da Estação e além. Para quando o alvo está morto.
+admin-smite-terminate-description = Cria uma função fantasma do Exterminador com o único objetivo de matá-los.
 
 ## Tricks descriptions
 

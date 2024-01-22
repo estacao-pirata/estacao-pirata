@@ -52,6 +52,14 @@ accent-words-zombie-8 = Braughhh...
 accent-words-zombie-9 = Breshhhh...
 accent-words-zombie-10 = Graaaaaa...
 
+# Moth Zombie
+accent-words-zombie-moth-1 = Roupaaaaassss...
+accent-words-zombie-moth-2 = Sapatoooossss...
+accent-words-zombie-moth-3 = Luuuuuzzzz...
+accent-words-zombie-moth-4 = Lâmpaaaadaaaasss...
+accent-words-zombie-moth-5 = Chaaapéussss... Chaaapéussss...
+accent-words-zombie-moth-6 = Leeençoooossss...
+
 # Generic Aggressive
 accent-words-generic-aggressive-1 = Grr!
 accent-words-generic-aggressive-2 = Rrrr!
@@ -91,3 +99,22 @@ accent-words-slimes-5 = Blabl blump!
 
 # Mothroach
 accent-words-mothroach-1 = Iiiii!
+
+# Crab
+accent-words-crab-1 = Clique.
+accent-words-crab-2 = Clique-claque!
+accent-words-crab-3 = Claque?
+accent-words-crab-4 = Claque...
+accent-words-crab-5 = Claque-clique.
+accent-words-crab-6 = CliqueCLAQUE!
+
+# Kobold
+accent-words-kobold-1 = Yip!
+accent-words-kobold-2 = Grrar.
+accent-words-kobold-3 = Yap!
+accent-words-kobold-4 = Bip.
+accent-words-kobold-5 = Screet?
+accent-words-kobold-6 = Gronk!
+accent-words-kobold-7 = Hiss!
+accent-words-kobold-8 = Eeee!
+accent-words-kobold-9 = Yip.

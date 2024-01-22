@@ -10,3 +10,7 @@ advertisement-snack-9 = Pegue mais um pouquinho!
 advertisement-snack-10 = Os lanches mais gostosos de marte.
 advertisement-snack-11 = Chocolate!
 advertisement-snack-12 = Experimente nossas especiarias!
+thankyou-snack-1 = Coma!
+thankyou-snack-2 = Aproveite seu produto!
+thankyou-snack-3 = Tenha um bom lanche.
+thankyou-snack-4 = Delícia!

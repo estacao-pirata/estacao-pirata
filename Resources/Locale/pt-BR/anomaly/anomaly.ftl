@@ -25,8 +25,27 @@ anomaly-scanner-particle-unstable = - [color=plum]Tipo instável:[/color] {$type
 anomaly-scanner-particle-containment = - [color=goldenrod]Tipo de contensão:[/color] {$type}
 anomaly-scanner-pulse-timer = Tempo até próximo pulso: [color=gray]{$time}[/color]
 
+anomaly-gorilla-core-slot-name = Núcleo de anomalia
+anomaly-gorilla-charge-none = Não possui [bold]núcleo de anomalia[/bold] dentro dele.
+anomaly-gorilla-charge-limit = Tem [color={$count ->
+    [3]green
+    [2]yellow
+    [1]orange
+    [0]red
+    *[other]purple
+}]{$count} {$count ->
+    [one]carga
+    *[other]cargas
+}[/color] restante.
+anomaly-gorilla-charge-infinite = Possui [color=gold]cargas infinitas[/color]. [italic]Por enquanto...[/italic]
+
 anomaly-sync-connected = Anomalia anexada com sucesso
 anomaly-sync-disconnected = A conexão com a anomalia foi perdida!
+anomaly-sync-no-anomaly = Nenhuma anomalia no alcance.
+anomaly-sync-examine-connected = Está [color=darkgreen]anexado[/color] a uma anomalia.
+anomaly-sync-examine-not-connected = [color=darkred]não está anexado[/color] a uma anomalia.
+anomalia-sync-connect-verb-text = Anexar anomalia
+anomaly-sync-connect-verb-message = Anexe uma anomalia próxima a {THE($machine)}.
 
 anomaly-generator-ui-title = gerador de anomalia
 anomaly-generator-fuel-display = Combustível:

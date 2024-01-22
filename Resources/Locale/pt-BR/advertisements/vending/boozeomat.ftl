@@ -17,3 +17,4 @@ advertisement-boozeomat-16 = Vinho vencedor do oscar!
 advertisement-boozeomat-17 = Álcool máximo!
 advertisement-boozeomat-18 = Homens amam cerveja.
 advertisement-boozeomat-19 = Um brinde aos álcoolatras.
+thankyou-boozeomat-1 = Por favor, beba com responsabilidade!

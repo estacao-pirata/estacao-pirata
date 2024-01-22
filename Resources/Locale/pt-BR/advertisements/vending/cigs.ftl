@@ -9,3 +9,5 @@ advertisement-cigs-8 = Não pare, compre mais!
 advertisement-cigs-9 = Paraíso da nicotina.
 advertisement-cigs-10 = Os melhores cigarros desde 2150.
 advertisement-cigs-11 = Cigarros vencedores do oscar.
+thankyou-cigs-1 = Você os tem, agora fume-os!
+thankyou-cigs-2 = Você provavelmente não irá se arrepender!

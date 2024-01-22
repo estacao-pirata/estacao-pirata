@@ -6,4 +6,3 @@ advertisement-ammo-5 = Flutue como um astronauta, voe como uma bala!
 advertisement-ammo-6 = Pegue sua licença de armas hoje!
 advertisement-ammo-7 = Armas não matam pessoas, mas você pode!
 advertisement-ammo-8 = Quem precisa de responsabilidades quando se tem armas?
-

@@ -21,7 +21,8 @@ cmd-whitelistremove-desc = Remove o jogador da whitelist.
 cmd-whitelistremove-help = whitelistremove <username>
 cmd-whitelistremove-existing = {$username} não está na whitelist!
 cmd-whitelistremove-removed = {$username} removido da whitelist
-cmd-whitelistremove-arg-player = Usuário '{$username}' não encontrado
+cmd-whitelistremove-not-found = Incapaz de achar '{$username}'
+cmd-whitelistremove-arg-player = [player]
 
 cmd-kicknonwhitelisted-desc = Expulsar todos os jogadores que não estão na whitelist.
 cmd-kicknonwhitelisted-help = kicknonwhitelisted
@@ -33,9 +34,8 @@ ban-banned-1 = Você ou outro usuário desse computador ou conexão estão banid
 ban-banned-2 = O motivo do ban é: "{$reason}"
 ban-banned-3 = Tentativas de contornar o ban tal como criar uma conta nova serão registradas.
 
-
 soft-player-cap-full = O servidor está cheio!
-panic-bunker-account-denied = Este servidor está em modo Pânico e você foi rejeitado. Entre em contato com o administrador do servidor para obter ajuda.
-panic-bunker-account-denied-reason = Este servidor está em modo Pânico e você foi rejeitado. Razão: "{$reason}"
-panic-bunker-account-reason-account = Tempo de vida da conta precisa ser maior que {$minutes} minutes
-panic-bunker-account-reason-overall = O tempo mínimo requerido total de jogo é {$hours} horas
+panic-bunker-account-denied = Este servidor está no modo panic bunker, geralmente ativado como precaução contra ataques. Novas conexões por contas que não atendam a determinados requisitos não serão aceitas temporariamente. Tente mais tarde
+panic-bunker-account-denied-reason = Este servidor está no modo panic bunker, geralmente ativado como precaução contra ataques. Novas conexões por contas que não atendam a determinados requisitos não serão aceitas temporariamente. Tente mais tarde. Motivo: "{$reason}"
+panic-bunker-account-reason-account = Sua conta da Estação Espacial 14 é muito nova. Deve ter mais de {$minutes} minutos
+panic-bunker-account-reason-overall = Seu tempo total de jogo no servidor deve ser superior a {$hours} horas

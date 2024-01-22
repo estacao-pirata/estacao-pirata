@@ -1,4 +1,7 @@
 hud-chatbox-info = T para falar, Tab para trocar entre canais.
+hud-chatbox-info-talk = {$talk-key} para conversar.
+hud-chatbox-info-cycle = Clique aqui para falar, {$cycle-key} para alternar canais.
+hud-chatbox-info-unbound = Clique aqui para conversar.
 
 hud-chatbox-select-name-prefixed = {$prefix} {$name}
 hud-chatbox-select-channel-Admin = Admin

@@ -4,3 +4,4 @@ advertisement-nutrimax-3 = Os polegares mais verdes.
 advertisement-nutrimax-4 = Nós amamos plantas grandes.
 advertisement-nutrimax-5 = Óleo macio...
 advertisement-nutrimax-6 = Baldes agora incluídos!
+thankyou-nutrimax-1 = Comece a plantar!
