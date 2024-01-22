@@ -11,3 +11,10 @@
   description: Tu es uno space hermano
   components:
   - type: SotaquePortunhol
+
+- type: trait
+  id: Gaúcho
+  name: Sotaque Gaúcho
+  description: Bah tche bah bah tche bah
+  components:
+  - type: SotaqueGaúcho
