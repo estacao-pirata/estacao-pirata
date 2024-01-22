@@ -10,6 +10,37 @@
         },
         {
             "og": [
+                "departamento",
+                "dept"
+            ],
+            "mod": [
+                "boca"
+            ]
+        },
+        {
+            "og": [
+                "cara",
+                "mlk",
+                "muleque"
+            ],
+            "mod": [
+                "menó"
+            ]
+        },
+        {
+            "og": [
+                "eae",
+                "salve",
+                "olá"
+            ],
+            "mod": [
+                "salve salve",
+                "coé",
+                "firmeza"
+            ]
+        },
+        {
+            "og": [
                 "secs",
                 "seguranças",
                 "políciais"
@@ -72,6 +103,14 @@
                 "pão de banana"
             ],
             "mod": ["pão com banana"]
+        },
+        {
+            "og": [
+                "de boa"
+            ],
+            "mod": [
+                "firmeza"
+            ]
         },
         {
             "og": [

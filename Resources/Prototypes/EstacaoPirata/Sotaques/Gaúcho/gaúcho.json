@@ -1,0 +1,231 @@
+{
+    "words": [
+        {
+            "og": [
+                "pegar"
+            ],
+            "mod": [
+                "alcançar"
+            ]
+        },
+        {
+            "og": [
+                "pega"
+            ],
+            "mod": [
+                "me alcança"
+            ]
+        },
+        {
+            "og": [
+                "ah",
+                "eh",
+                "oh",
+                "eba",
+                "viva",
+                "olá",
+                "olhe",
+                "parabéns",
+                "certo",
+                "ótimo",
+                "otimo",
+                "opa",
+                "calado",
+                "queto"
+            ],
+            "mod": [
+                "bah",
+                "bah tchê"
+            ]
+        },
+        {
+            "og": [
+                "estou"
+            ],
+            "mod": [
+                "tô"
+            ]
+        },
+        {
+            "og": [
+                "estar"
+            ],
+            "mod": [
+                "tá"
+            ]
+        },
+        {
+            "og": [
+                "menino",
+                "rapaz",
+                "homem",
+                "garoto"
+            ],
+            "mod": [
+                "guri"
+            ]
+        },
+        {
+            "og": [
+                "menina",
+                "garota",
+                "mulher"
+            ],
+            "mod": [
+                "guria"
+            ]
+        },
+        {
+            "og": [
+                "revolução"
+            ],
+            "mod": [
+                "revolução farropilha"
+            ]
+        },
+        {
+            "og": [
+                "chá",
+                "cha"
+            ],
+            "mod": [
+                "mate"
+            ]
+        },
+        {
+            "og": [
+                "calça"
+            ],
+            "mod": [
+                "bombacha"
+            ]
+        },
+        {
+            "og": [
+                "calças"
+            ],
+            "mod": [
+                "bombachas"
+            ]
+        },
+        {
+            "og": [
+                "você",
+                "voce"
+            ],
+            "mod": [
+                "tu"
+            ]
+        },
+        {
+            "og": [
+                "sec",
+                "segurança"
+            ],
+            "mod": [
+                "brigadiano"
+            ]
+        },
+        {
+            "og": [
+                "secs",
+                "seguranças"
+            ],
+            "mod": [
+                "brigadianos"
+            ]
+        },
+        {
+            "og": [
+                "ajeita",
+                "conserta"
+            ],
+            "mod": [
+                "endireita"
+            ]
+        },
+        {
+            "og": [
+                "errou"
+            ],
+            "mod": [
+                "ratiou"
+            ]
+        },
+        {
+            "og": [
+                "conversa"
+            ],
+            "mod": [
+                "trova"
+            ]
+        },
+        {
+            "og": [
+                "conversar"
+            ],
+            "mod": [
+                "trovar"
+            ]
+        },
+        {
+            "og": [
+                "conversou"
+            ],
+            "mod": [
+                "trovou"
+            ]
+        },
+        {
+            "og": [
+                "passear",
+                "andar"
+            ],
+            "mod": [
+                "dar uma banda"
+            ]
+        },
+        {
+            "og": [
+                "passando",
+                "andando"
+            ],
+            "mod": [
+                "dando uma banda"
+            ]
+        },
+        {
+            "og": [
+                "andei",
+                "passei"
+            ],
+            "mod": [
+                "dei uma banda"
+            ]
+        },
+        {
+            "og": [
+                "merda"
+            ],
+            "mod": [
+                "shceisse"
+            ]
+        }
+    ],
+    "phrases": [
+        {
+            "og": [
+                "ah tá",
+                "que bom",
+                "oh deus!"
+            ],
+            "mod": ["bah tchê"]
+        },
+        {
+            "og": [
+                "que?"
+            ],
+            "mod": ["bah"]
+        }
+    ]
+}

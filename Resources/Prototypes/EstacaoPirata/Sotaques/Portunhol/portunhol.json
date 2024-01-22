@@ -16,7 +16,26 @@
         },
         {
             "og": [
-                "irmão"
+                "meus",
+                "minhas"
+            ],
+            "mod": [
+                "mis"
+            ]
+        },
+        {
+            "og": [
+                "meu",
+                "minha"
+            ],
+            "mod": [
+                "mi"
+            ]
+        },
+        {
+            "og": [
+                "irmão",
+                "cara"
             ],
             "mod": [
                 "hermano"
@@ -24,10 +43,19 @@
         },
         {
             "og": [
-                "irmãos"
+                "irmãos",
+                "caras"
             ],
             "mod": [
                 "hermanos"
+            ]
+        },
+        {
+            "og": [
+                "homem"
+            ],
+            "mod": [
+                "hombre"
             ]
         },
         {
@@ -363,6 +391,38 @@
             ],
             "mod": [
                 "gararro"
+            ]
+        },
+        {
+            "og": [
+                "bom"
+            ],
+            "mod": [
+                "bueno"
+            ]
+        },
+        {
+            "og": [
+                "bons"
+            ],
+            "mod": [
+                "buenos"
+            ]
+        },
+        {
+            "og": [
+                "boa"
+            ],
+            "mod": [
+                "buena"
+            ]
+        },
+        {
+            "og": [
+                "boas"
+            ],
+            "mod": [
+                "buenas"
             ]
         }
     ],

@@ -17,20 +17,35 @@ sealed class SotaqueCarioca : AccentEngine
     }
     override protected string Parse(string message) {
         //cranking xenophobia to 101% YEEEEAHHHH
-        var s = new Regex(@"([aeiouAEIOU])s($|[bcdfghjklmnpqrtvxzBCDEFGHJKLMNPQRTVXZ\s\W])");
-        var S = new Regex(@"([aeiouAEIOU])S($|[bcdfghjklmnpqrtvzxBCDEFGHJKLMNPQRTVXZ\s\W])");
+         Regex[] ogs = {
+            new Regex(@"([aoAO])s($|[bcdfghjklmnpqrtvxzBCDEFGHJKLMNPQRTVXZ\s\W])"),
+            new Regex(@"([aoAO])S($|[bcdfghjklmnpqrtvzxBCDEFGHJKLMNPQRTVXZ\s\W])"),
+            new Regex(@"([BCDFGHJKLMNPQRSTVXZbcdfghjklmnpqrstvxz])([Ee])s($|[bcdfghjklmnpqrtvxzBCDEFGHJKLMNPQRTVXZ\s\W])"),
+            new Regex(@"([BCDFGHJKLMNPQRSTVXZbcdfghjklmnpqrstvxz])([eE])S($|[bcdfghjklmnpqrtvzxBCDEFGHJKLMNPQRTVXZ\s\W])"),
+            new Regex(@"([iIuU])s($|[bcdfghjklmnpqrtvxzBCDEFGHJKLMNPQRTVXZ\s\W])"),
+            new Regex(@"([iIuU])S($|[bcdfghjklmnpqrtvzxBCDEFGHJKLMNPQRTVXZ\s\W])"),
+            new Regex(@"([Ee])s($|[bcdfghjklmnpqrtvxzBCDEFGHJKLMNPQRTVXZ\s\W])"),
+            new Regex(@"([Ee])S($|[bcdfghjklmnpqrtvzxBCDEFGHJKLMNPQRTVXZ\s\W])"),
+          };
+        string[] mods = { "$1ix$2", "$1IX$2", "$1$2ix$3", "$1$2IX$3", "$1x$2", "$1X$2", "ix$2", "IX$2" };
         List<string>moddedToken = new List<string>();
         string[] tokens = message.Split(' ');
         foreach(string token in tokens) {
-            if(S.IsMatch(token)) {
-                moddedToken.Add(S.Replace(token, "$1X$2"));
-                continue;
+            bool added = false;
+            string currentToken = token;
+            for(int i = 0; i < ogs.Length; i++) {
+                if(ogs[i].IsMatch(token)) {
+                    currentToken = ogs[i].Replace(currentToken, mods[i]);
+                    added = true;
+                }
             }
-            if(s.IsMatch(token)) {
-                moddedToken.Add(s.Replace(token, "$1x$2"));
-                continue;
+            if(!added) {
+                moddedToken.Add(token);
+            } else {
+                moddedToken.Add(currentToken);
             }
-            moddedToken.Add(token);
+
+                added = false;
         }
 
         string modded = string.Join(" ", moddedToken);

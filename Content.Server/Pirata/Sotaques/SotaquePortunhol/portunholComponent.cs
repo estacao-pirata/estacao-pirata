@@ -1,7 +1,7 @@
 namespace Pirata.Sotaque.Portunhol;
 
 /// <summary>
-///     Hiss!
+///     Enton ta bien
 /// </summary>
 [RegisterComponent]
 public sealed partial class SotaquePortunholComponent : Component
