@@ -23,3 +23,5 @@ two-way-lever-right = empurrar para a direita
 two-way-lever-cant = não se pode empurrar a alavanca nessa direção!
 
 recycler-count-items = Reciclou {$items} objetos.
+
+machine-already-in-use = {CAPITALIZE(THE($machine))} já está em uso.

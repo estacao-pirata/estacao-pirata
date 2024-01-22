@@ -44,6 +44,9 @@ flavor-base-sharp = intenso
 flavor-base-syrupy = xaroposo
 flavor-base-spaceshroom = misterioso
 flavor-base-clean = limpo
+flavor-base-alkaline = alcalino
+flavor-base-holy = sagrado
+flavor-base-horrible = horrível
 
 # lmao
 flavor-base-terrible = terrível
@@ -86,6 +89,7 @@ flavor-complex-dough = de massa de pão
 flavor-complex-sweet-dough = de massa doce
 flavor-complex-tofu = de tofu
 flavor-complex-miso = como missô
+flavor-complex-lemoon = como louro
 flavor-complex-muffin = de um muffin
 flavor-complex-peas = de ervilhas
 flavor-complex-pineapple = de abacaxi
@@ -180,6 +184,7 @@ flavor-complex-coffee = de café
 flavor-complex-milk = de leite
 flavor-complex-tea = de chá
 flavor-complex-ice = de gelo
+flavor-complex-mopwata = como água estagnada e suja
 
 ## Cocktails
 flavor-complex-long-island = suspeitosamente de chá gelado

@@ -3,7 +3,7 @@ nukeops-description = Agentes nucleares têm como alvo a estação. Tente evitar
 
 nukeops-welcome =
     Você é um agente nuclear. Seu objetivo é explodir {$station} e garantir que não seja nada além de uma pilha de escombros. Seus chefes, o Sindicato, forneceram as ferramentas necessárias para a tarefa.
-    Morte a Nanotrasen!
+    A Operação {$name} está em andamento! Morte à Nanotrasen!
 
 nukeops-opsmajor = Grande vitória do sindicato!
 nukeops-opsminor = Pequena vitória do sindicato!

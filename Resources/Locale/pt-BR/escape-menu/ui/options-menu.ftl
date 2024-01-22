@@ -5,10 +5,21 @@ ui-options-tab-graphics = Gráficos
 ui-options-tab-controls = Controles
 ui-options-tab-audio = Audio
 ui-options-tab-network = Rede
+ui-options-tab-misc = Geral
 
 ui-options-apply = Aplicar
 ui-options-reset-all = Redefinir
 ui-options-default = Padrão
+
+# Misc/General menu
+
+ui-options-discordrich = Enable Discord Rich Presence
+ui-options-general-ui-style = Estilo de ui
+ui-options-general-discord = Discord
+ui-options-general-cursor = Cursor
+ui-options-general-speech = Fala
+ui-options-general-storage = Armazenamento
+ui-options-general-accessibility = Acessibilidade
 
 ## Audio menu
 
@@ -17,6 +28,7 @@ ui-options-midi-volume = Volume MIDI (Instrumento):
 ui-options-ambient-music-volume = Ambient music volume:
 ui-options-ambience-volume = Volume Ambiente:
 ui-options-lobby-volume = Lobby & Round-end volume:
+ui-options-interface-volume = Volume de Interface:
 ui-options-ambience-max-sounds = Ambience simultaneous sounds:
 ui-options-lobby-music = Musica no Lobby & Fim do Round
 ui-options-restart-sounds = Round Restart Sounds
@@ -27,9 +39,13 @@ ui-options-volume-percent = { TOSTRING($volume, "P0") }
 
 ## Graphics menu
 
-ui-options-show-held-item = Mostrar item segurado próximo ao cursor?
-ui-options-show-combat-mode-indicators = Mostrar indicadores do modo de combate com cursor?
-ui-options-show-looc-on-head = Mostrar bate-papo LOOC acima da cabeça dos personagens?
+ui-options-show-held-item = Mostrar item segurado ao lado do cursor
+ui-options-show-combat-mode-indicators = Mostrar indicadores de combate com o cursor
+ui-options-opaque-storage-window = Janela de armazenamento opaca
+ui-options-show-looc-on-head = Mostrar bate-papo LOOC acima da cabeça dos personagens
+ui-options-fancy-speech = Mostrar nomes em balões de fala
+ui-options-fancy-name-background = Adicionar fundo aos nomes nos balões de fala
+ui-options-reduced-motion = Reduzir movimento dos efeitos visuais
 ui-options-vsync = VSync
 ui-options-fullscreen = Tela cheia
 ui-options-lighting-label = Qualidade de Iluminação:
@@ -47,8 +63,12 @@ ui-options-scale-175 = 175%
 ui-options-scale-200 = 200%
 ui-options-hud-theme = Tema da HUD:
 ui-options-hud-theme-default = Padrão
-ui-options-hud-theme-modernized = Modernizada
-ui-options-hud-theme-classic = Clássico
+ui-options-hud-theme-plasmafire = Plasmafire
+ui-options-hud-theme-slimecore = Slimecore
+ui-options-hud-theme-clockwork = Clockwork
+ui-options-hud-theme-retro = Retrô
+ui-options-hud-theme-minimalist = Minimalista
+ui-options-hud-theme-eris = Eris
 ui-options-vp-stretch = Esticar vista para caber na janela do jogo
 ui-options-vp-scale = Escala fixa do viewport: x{ $scale }
 ui-options-vp-integer-scaling = Dimensionamento inteiro (pode causar barras pretas/cortes)
@@ -109,9 +129,14 @@ ui-options-function-alt-activate-item-in-world = Ativar item no mundo alternativ
 ui-options-function-drop = Dropar Item
 ui-options-function-examine-entity = Examinar
 ui-options-function-swap-hands = Trocar de Mão
+ui-options-function-move-stored-item = Mover item armazenado
+ui-options-function-rotate-stored-item = Rotacionar item armazenado
+ui-options-static-storage-ui = Fixar janela de armazenamento à barra de atalhos
 
 ui-options-function-smart-equip-backpack = Smart-equip na mochila
 ui-options-function-smart-equip-belt = Smart-equip no cinto
+ui-options-function-open-backpack = Abrir mochila
+ui-options-function-open-belt = Abrir cinto
 ui-options-function-throw-item-in-hand = Jogar Item
 ui-options-function-try-pull-object = Puxar objeto
 ui-options-function-move-pulled-object = Mover objeto puxado

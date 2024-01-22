@@ -14,14 +14,6 @@ head-rev-briefing =
     Utilize flashes para converter as pessoas à sua causa.
     Mate toda equipe de Comando para assumir controle da estação.
 
-head-rev-initial-name = [color=#5e9cff]{$name}[/color] foi um dos Líderes Revolucionários.
-head-rev-initial-name-user = [color=#5e9cff]{$name}[/color] ([color=gray]{$username}[/color]) foi um dos Líderes Revolucionários.
-
-head-rev-initial-count = {$initialCount ->
-    [one] Havia um Líder Revolucionário:
-    *[other] Haviam {$initialCount} Líderes Revolucionários:
-}
-
 head-rev-break-mindshield = O Mindshield foi destruído!
 
 ## Rev
@@ -58,4 +50,26 @@ rev-stalemate = Todos os Líderes da Revolução e Comando morreram. É um empat
 
 rev-reverse-stalemate = Tanto o Comando quanto os Líderes da Revolução sobreviveram.
 
+rev-headrev-count = {$initialCount ->
+    [one] Havia um Líder Revolucionário:
+    *[other] Havia {$initialCount} Líderes Revolucionários:
+}
 
+rev-headrev-name-user = [color=#5e9cff]{$name}[/color] ([color=gray]{$username}[/color]) converteu {$count} {$count ->
+    [one] pessoa
+    *[other] pessoas
+}
+
+rev-headrev-name = [color=#5e9cff]{$name}[/color] converteu {$count} {$count ->
+    [one] pessoa
+    *[other] pessoas
+}
+
+## Deconverted window
+
+rev-deconverted-title = Desconvertido!
+rev-deconverted-text =
+    Como o último líder revolucionário morreu, a revolução acabou.
+
+    Você não é mais um revolucionário, então seja gentil.
+rev-deconverted-confirm = Confirmar

@@ -7,4 +7,4 @@ defusable-popup-cant-anchor = {CAPITALIZE(THE($name))} parece estar aparafusado 
 defusable-popup-wire-bolt-pulse = Os parafusos giram no lugar por um momento.
 defusable-popup-wire-proceed-pulse = {CAPITALIZE(THE($name))} vibra ameaçadoramente!
 defusable-popup-wire-proceed-cut = O display digital em {THE($name)} desativa.
-defusable-popup-wire-chirp = {CAPITALIZE(THE($name))} chilrear.
+defusable-popup-wire-chirp = {CAPITALIZE(THE($name))} dispara.

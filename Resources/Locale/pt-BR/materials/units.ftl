@@ -14,6 +14,8 @@ materials-unit-bunch = cacho
 materials-unit-slab = pedaços
 # webs of silk
 materials-unit-web = teias
+# chunks of ore
+materials-unit-chunk = pedaço
 
 # bills of spesos... not very good but they are not (yet?) used for crafting anything
 # also the lathe/atm would need bigger denominations to output...

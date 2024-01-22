@@ -59,4 +59,10 @@ signal-port-name-pulse = Pulso
 signal-port-description-pulse = Esta porta é invocada quando uma anomalia vinculada está pulsando.
 
 signal-port-name-supercrit = Supercrítico
-signal-port-description-supercrit = Esta porta é invocada quando uma anomalia vinculada explode após o estado supercrit.
+signal-port-description-supercrit = Esta porta é invocada quando uma anomalia vinculada explode após o estado supercrito.
+
+signal-port-name-power-charging = Carregando
+signal-port-description-power-charging = Esta porta é acionada como ALTA quando a bateria está ganhando carga e BAIXA quando não está.
+
+signal-port-name-power-discharging = Descarregando
+signal-port-description-power-discharging = Esta porta é acionada como ALTA quando a bateria está perdendo carga e BAIXA quando não está.
