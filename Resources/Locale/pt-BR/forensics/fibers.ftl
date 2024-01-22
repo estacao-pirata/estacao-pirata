@@ -9,6 +9,7 @@ fibers-latex = látex
 fibers-nitrile = nitrilo
 fibers-nanomachines = nano máquina isolante
 fibers-chameleon = camaleão holográfico
+fibers-rubber = borracha
 
 fibers-purple = roxo
 fibers-red = vermelho

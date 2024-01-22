@@ -29,6 +29,8 @@ petting-success-dragon = Esquivando de dentes, garras, e chamas, você acaricia 
 petting-success-hamster = Voce acaricia {THE($target)} em sua fofa cabecinha.
 petting-success-bear = Você relutantemente acaricia {THE($target)} em sua cabeça mística.
 petting-success-slimes = Voce acaricia {THE($target)} em sua superfície mucosa.
+petting-success-snake = Você acaricia {THE($target)} na cabeça escamosa e grande.
+petting-success-monkey = Você acaricia {THE($target)} na cabeça pequena e travessa.
 
 petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
 
@@ -48,6 +50,7 @@ petting-failure-holo = Você tenta acariciar {THE($target)}, mas os espinhos del
 petting-failure-dragon = Você levanta sua mão, mas quando {THE($target)} solta um rugido, você decide que é melhor não arriscar virar franguinho assado.
 petting-failure-hamster = Você tenta acariciar {THE($target)}, mas ele(a) tenta morder o seu dedo e por pouco seus reflexos te salvam de um ferimento quase fatal.
 petting-failure-bear = Você tenta acariciar {THE($target)}, mas ele(a) rosna, fazendo você pensar duas vezes.
+petting-failure-monkey = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} quase morde seus dedos!
 
 ## Petting silicons
 
@@ -55,6 +58,7 @@ petting-success-honkbot = Você acaricia {THE($target)} em {POSS-ADJ($target)} c
 petting-success-mimebot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal frio.
 petting-success-cleanbot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal úmido.
 petting-success-medibot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal estéril.
+petting-success-recycler = Você acaricia {THE($target)} em {POSS-ADJ($target)} exterior de aço levemente ameaçador.
 
 petting-failure-honkbot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} buzina em recusa!
 petting-failure-cleanbot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} {CONJUGATE-BE($target)} ocupado esfregando!
@@ -75,3 +79,9 @@ fence-rattle-success = *chocalha*
 hugging-success-generic = Você abraça {THE($target)}.
 hugging-success-generic-others = { CAPITALIZE(THE($user)) } abraçou {THE($target)}.
 hugging-success-generic-target = { CAPITALIZE(THE($user)) } te abraçou.
+
+## Other
+
+petting-success-tesla = Você acaricia {THE($target)}, violando as leis da natureza e da física.
+
+petting-failure-tesla = Você estende a mão em direção a {THE($target)}, mas ela zapeia sua mão para longe.

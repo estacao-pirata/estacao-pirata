@@ -24,6 +24,16 @@ materials-bananium = bananium
 materials-meat = carne
 materials-web = seda
 materials-bones = osso
+materials-coal = carvão
+
+# Ores
+materials-raw-iron = ferro bruto
+materials-raw-quartz = quartzo bruto
+materials-raw-gold = ouro bruto
+materials-raw-silver = prata bruto
+materials-raw-plasma = plasma bruto
+materials-raw-uranium = urânio bruto
+materials-raw-bananium = bananium bruto
 
 # Material Reclaimer
 material-reclaimer-upgrade-process-rate = taxa de processo

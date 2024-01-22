@@ -44,6 +44,9 @@ ghost-role-information-kangaroo-description = Você é um canguru! Faça tudo o 
 ghost-role-information-monkey-name = Macaco
 ghost-role-information-monkey-description = Ook ook!
 
+ghost-role-information-kobold-name = Kobold
+ghost-role-information-kobold-description = Seja o pequeno duende que você é, grite com as pessoas e implore por carne!
+
 ghost-role-information-rat-king-name = Rat King
 ghost-role-information-rat-king-description = Você é o Rei dos Ratos, colete comida para produzir lacaios de ratos para cumprir suas ordens.
 ghost-role-information-rat-king-rules = Você é um antagonista, vasculhe, ataque e aumente seu tesouro!
@@ -98,10 +101,22 @@ ghost-role-information-salvage-kangaroo-name = Canguru espacial em naufrágio de
 ghost-role-information-salvage-kangaroo-description = Defenda o saque dentro do naufrágio de salvamento!
 
 ghost-role-information-space-spider-name = Aranha Espacial
-ghost-role-information-space-spider-description =  As aranhas espaciais são tão agressivas quanto as aranhas comuns, consuma.
+ghost-role-information-space-spider-description = As aranhas espaciais são tão agressivas quanto as aranhas comuns, consuma.
 
 ghost-role-information-salvage-spider-name = Aranha espacial em naufrágio de salvamento
 ghost-role-information-salvage-spider-description = As aranhas espaciais são tão agressivas quanto as aranhas comuns, consuma.
+
+ghost-role-information-space-cobra-name = Cobra Espacial
+ghost-role-information-space-cobra-description = As cobras espaciais realmente não gostam de visitantes e sempre petiscarão um intruso.
+
+ghost-role-information-salvage-cobra-name = Cobra Espacial em Naufrágio de Salvamento
+ghost-role-information-salvage-cobra-description = As cobras espaciais realmente não gostam de visitantes e sempre petiscarão um intruso.
+
+ghost-role-information-salvage-flesh-name = Carne Anormal em Naufrágio de Salvamento
+ghost-role-information-salvage-flesh-description = Defenda o saque dentro do naufrágio de salvamento!
+
+ghost-role-information-tropico-name = Tropico
+ghost-role-information-tropico-description = The noble companion of Atmosia, and its most stalwart defender. Viva!
 
 ghost-role-information-guardian-name = Guardião
 ghost-role-information-guardian-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
@@ -173,9 +188,36 @@ ghost-role-information-loneop-rules = Você é um agente do sindicato encarregad
 ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = Você é um antagonista, traga a morte e buzinas para aqueles que não seguem a honkmother.
 
+ghost-role-information-hellspawn-name = Hellspawn
+ghost-role-information-hellspawn-description = Você é um antagonista, trazendo a morte àqueles que não seguem o grande deus Nar'Sie.
+
 ghost-role-information-Death-Squad-name = Death Squad Operative
 ghost-role-information-Death-Squad-description = Um dos principais agentes de assuntos internos da Nanotrasen. Aguarde ordens do CentComm ou de um oficial.
+
+ghost-role-information-SyndiCat-name = SyndiCat
+ghost-role-information-SyndiCat-description = Você é o fiel animal treinado dos operativos nucleares com uma microbomba. Sirva seu mestre até a morte!
+ghost-role-information-SyndiCat-rules = Você é o fiel animal treinado dos operativos nucleares com uma microbomba. Sirva seu mestre até a morte!
 
 ghost-role-information-Cak-name = Cak
 ghost-role-information-Cak-description = Você é o filho favorito do chef. Você é gato-bolo vivo.
 ghost-role-information-Cak-rules = Você é um doce gato vivo e comestível. Sua tarefa é encontrar o seu lugar neste mundo onde tudo quer te comer.
+
+ghost-role-information-BreadDog-name = BreadDog
+ghost-role-information-BreadDog-description = Você é o filho favorito do chef. Você é um cachorro de pão vivo.
+ghost-role-information-BreadDog-rules = Você é um cachorro de pão comestível. Sua tarefa é encontrar seu lugar neste mundo onde tudo quer te devorar.
+
+ghost-role-information-exterminator-name = Exterminador
+ghost-role-information-exterminator-description = Você foi enviado de volta no tempo para eliminar um alvo de grande importância para o futuro.
+ghost-role-information-exterminator-rules = Você é um antagonista e pode matar qualquer um que tente te impedir, mas matar o alvo é sempre sua principal prioridade.
+
+ghost-role-information-space-ninja-name = Ninja Espacial
+ghost-role-information-space-ninja-description = Use furtividade e percepção para sabotar a estação.
+ghost-role-information-space-ninja-rules = Você é um mercenário de elite do Clã da Aranha. Não é obrigado a seguir seus objetivos, mas seu HONRA DE NINJA exige que você tente.
+
+ghost-role-information-syndicate-reinforcement-name = Agente do Sindicato
+ghost-role-information-syndicate-reinforcement-description = Alguém precisa de reforços. Você, a primeira pessoa que o sindicato encontrou, irá ajudá-los.
+ghost-role-information-syndicate-reinforcement-rules = As regras normais para antagonistas do sindicato se aplicam. Trabalhe com quem o chamou e não o prejudique.
+
+ghost-role-information-syndicate-monkey-reinforcement-name = Agente Macaco do Sindicato
+ghost-role-information-syndicate-monkey-reinforcement-description = Alguém precisa de reforços. Você, um macaco treinado, irá ajudá-los.
+ghost-role-information-syndicate-monkey-reinforcement-rules = As regras normais para antagonistas do sindicato se aplicam. Trabalhe com quem o chamou e não o prejudique.

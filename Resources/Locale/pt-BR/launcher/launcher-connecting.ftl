@@ -9,6 +9,7 @@ connecting-redial-wait = Espere: { TOSTRING($time, "G3") }
 connecting-in-progress = Conectando ao servidor...
 connecting-disconnected = Desconectado do servidor:
 connecting-tip = Não morra!
+connecting-window-tip = dica { $numberTip }
 connecting-version = ver 0.1
 connecting-fail-reason = Falha ao conectar ao servidor:
                          { $reason }

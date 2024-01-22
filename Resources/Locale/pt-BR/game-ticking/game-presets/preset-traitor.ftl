@@ -3,7 +3,7 @@
 traitor-round-end-codewords = As palavras chave eram: [color=White]{$codewords}[/color].
 traitor-round-end-agent-name = Traidor
 
-objective-issuer-syndicate = [color=#87cefa]O Sindicato[/color]
+objective-issuer-syndicate = [color=crimson]O Sindicato[/color]
 
 # Shown at the end of a round of Traitor
 

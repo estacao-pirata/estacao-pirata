@@ -9,10 +9,10 @@ objectives-player-user-named = [color=White]{$name}[/color] ([color=gray]{$user}
 objectives-player-user = [color=gray]{$user}[/color]
 objectives-player-named = [color=White]{$name}[/color]
 
-objectives-no-objectives = [bold][color=red]{$custody}[/color]{$title} era um {$agent}.
-objectives-with-objectives = [bold][color=red]{$custody}[/color]{$title} era um {$agent} que tinha os seguintes objetivos:
+objectives-no-objectives = {$custody}{$title} era um {$agent}.
+objectives-with-objectives = {$custody}{$title} era um {$agent} que tinha os seguintes objetivos:
 
 objectives-objective-success = {$objective} | [color={$markupColor}]Sucesso![/color]
 objectives-objective-fail = {$objective} | [color={$markupColor}]Falha![/color] ({$progress}%)
 
-objectives-in-custody = | EM CUSTÓDIA |
+objectives-in-custody = [bold][color=red]| EM CUSTÓDIA | [/color][/bold]
