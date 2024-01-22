@@ -1,0 +1,402 @@
+{
+    "words": [
+        {
+            "og": [
+                "biscoito",
+                "cookie"
+            ],
+            "mod": ["bolacha"]
+        },
+        {
+            "og": [
+                "aparecer"
+            ],
+            "mod": [
+                "brotar"
+            ]
+        },
+        {
+            "og": [
+                "eae",
+                "olá",
+                "salve"
+            ],
+            "mod": [
+                "coé paizão"
+            ]
+        },
+        {
+            "og": [
+                "vai"
+            ],
+            "mod": [
+                "vá"
+            ]
+        },
+        {
+            "og": [
+                "ok"
+            ],
+            "mod": [
+                "jóia"
+            ]
+        },
+        {
+            "og": [
+                "roubei"
+            ],
+            "mod": [
+                "confisquei"
+            ]
+        },
+        {
+            "og": [
+                "muito"
+            ],
+            "mod": [
+                "mó"
+            ]
+        },
+        {
+            "og": [
+                "trabalho"
+            ],
+            "mod": [
+                "cota"
+            ]
+        },
+        {
+            "og": [
+                "apareceu"
+            ],
+            "mod": [
+                "brotou"
+            ]
+        },
+        {
+            "og": [
+                "menina",
+                "garota",
+                "mulher"
+            ],
+            "mod": [
+                "cunhada"
+            ]
+        },
+        {
+            "og": [
+                "sec",
+                "segurança"
+            ],
+            "mod": [
+                "sirene",
+                "pm"
+            ]
+        },
+        {
+            "og": ["sabe"],
+            "mod": ["manja"]
+        },
+        {
+            "og": ["sei"],
+            "mod": ["manjo"]
+        },
+        {
+            "og": [
+                "vagabundo",
+                "malandro",
+                "sindy",
+                "sind",
+                "ladrão"
+            ],
+            "mod": [
+                "mandrake",
+                "sujeito"
+            ]
+        },
+        {
+            "og": [
+                "sindicato"
+            ],
+            "mod": [
+                "cut"
+            ]
+        },
+        {
+            "og": [
+                "mano",
+                "cara",
+                "amigo"
+            ],
+            "mod": [
+                "parça",
+                "manou",
+                "irmão"
+            ]
+        },
+        {
+            "og": [
+                "você",
+                "vc",
+                "voce"
+            ],
+            "mod": [
+                "cê"
+            ]
+        },
+        {
+            "og": [
+                "vocês",
+                "vcs",
+                "voces"
+            ],
+            "mod": [
+                "cês"
+            ]
+        },
+        {
+            "og": [
+                "boa"
+            ],
+            "mod": [
+                "daora",
+                "dahora"
+            ]
+        },
+        {
+            "og": [
+                "pirata"
+            ],
+            "mod": [
+                "enjaulador"
+            ]
+        },
+        {
+            "og": [
+                "puto",
+                "chateado",
+                "triste"
+            ],
+            "mod": [
+                "bolado"
+            ]
+        },
+        {
+            "og": [
+                "estação"
+            ],
+            "mod": [
+                "quebrada"
+            ]
+        },
+        {
+            "og": [
+                "acho"
+            ],
+            "mod": [
+                "se pá"
+            ]
+        },
+        {
+            "og": [
+                "cerveja"
+            ],
+            "mod": [
+                "brêja"
+            ]
+        },
+        {
+            "og": [
+                "beber"
+            ],
+            "mod": [
+                "manguaçá"
+            ]
+        },
+        {
+            "og": [
+                "bebi"
+            ],
+            "mod": [
+                "manguacei"
+            ]
+        },
+        {
+            "og": [
+                "estações"
+            ],
+            "mod": [
+                "quebradas"
+            ]
+        },
+        {
+            "og": [
+                "confusão"
+            ],
+            "mod": [
+                "furdúnço"
+            ]
+        },
+        {
+            "og": [
+                "fui",
+                "fomos"
+            ],
+            "mod": [
+                "fumo"
+            ]
+        },
+        {
+            "og": [
+                "merda"
+            ],
+            "mod": [
+                "desgraça"
+            ]
+        },
+        {
+            "og": [
+                "saindo",
+                "vaza"
+            ],
+            "mod": [
+                "xispando"
+            ]
+        },
+        {
+            "og": [
+                "muita",
+                "mt"
+            ],
+            "mod": [
+                "muinta"
+            ]
+        },
+        {
+            "og": [
+                "muitos",
+                "mts"
+            ],
+            "mod": [
+                "muintos"
+            ]
+        },
+        {
+            "og": [
+                "departamento"
+            ],
+            "mod": [
+                "zona"
+            ]
+        },
+        {
+            "og": [
+                "departamentos"
+            ],
+            "mod": [
+                "zonas"
+            ]
+        },
+        {
+            "og": [
+                "certo"
+            ],
+            "mod": [
+                "tranquilo"
+            ]
+        },
+        {
+            "og": [
+                "porra",
+                "esperma"
+            ],
+            "mod": [
+                "orra"
+            ]
+        },
+        {
+            "og": [
+                "sair",
+                "vazar"
+            ],
+            "mod": [
+                "xispar"
+            ]
+        },
+        {
+            "og": [
+                "saia",
+                "vaza"
+            ],
+            "mod": [
+                "xispa"
+            ]
+        },
+        {
+            "og": [
+                "conversar"
+            ],
+            "mod": [
+                "prosear"
+            ]
+        },
+        {
+            "og": [
+                "conversei"
+            ],
+            "mod": [
+                "proseei"
+            ]
+        },
+        {
+            "og": [
+                "conversando"
+            ],
+            "mod": [
+                "proseando"
+            ]
+        },
+        {
+            "og": [
+                "saiu"
+            ],
+            "mod": [
+                "xispou"
+            ]
+        }
+    ],
+    "phrases": [
+        {
+            "og": [
+                "foi mal"
+            ],
+            "mod": ["tô chapando"]
+        },
+        {
+            "og": [
+                "de boa"
+            ],
+            "mod": [
+                "firmeza"
+            ]
+        },
+        {
+            "og": [
+                "oq aconteceu",
+                "oque aconteceu",
+                "o que aconteceu"
+            ],
+            "mod": [
+                "tá chapando"
+            ]
+        }
+    ],
+    "ending": [
+        "meo"
+    ],
+    "begin": [
+        "Cê é loko,",
+        "Meo,",
+        "Tio,"
+    ]
+}

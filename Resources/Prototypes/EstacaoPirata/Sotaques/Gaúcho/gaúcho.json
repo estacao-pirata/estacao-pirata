@@ -85,6 +85,14 @@
         },
         {
             "og": [
+                "dinheiro"
+            ],
+            "mod": [
+                "pila"
+            ]
+        },
+        {
+            "og": [
                 "chá",
                 "cha"
             ],
@@ -110,11 +118,64 @@
         },
         {
             "og": [
+                "bravo",
+                "puto"
+            ],
+            "mod": [
+                "reinento"
+            ]
+        },
+        {
+            "og": [
+                "brava",
+                "braba",
+                "puta"
+            ],
+            "mod": [
+                "reinenta"
+            ]
+        },
+        {
+            "og": [
+                "nós"
+            ],
+            "mod": [
+                "a gente"
+            ]
+        },
+        {
+            "og": [
+                "dormir"
+            ],
+            "mod": [
+                "pousar"
+            ]
+        },
+        {
+            "og": [
+                "dormindo"
+            ],
+            "mod": [
+                "pousando"
+            ]
+        },
+        {
+            "og": [
+                "dormiu"
+            ],
+            "mod": [
+                "pousou"
+            ]
+        },
+        {
+            "og": [
                 "você",
                 "voce"
             ],
             "mod": [
-                "tu"
+                "tu",
+                "te",
+                "teu"
             ]
         },
         {
@@ -158,6 +219,30 @@
             ],
             "mod": [
                 "trova"
+            ]
+        },
+        {
+            "og": [
+                "difícil"
+            ],
+            "mod": [
+                "buxa"
+            ]
+        },
+        {
+            "og": [
+                "cachorro"
+            ],
+            "mod": [
+                "cusco"
+            ]
+        },
+        {
+            "og": [
+                "cachorros"
+            ],
+            "mod": [
+                "cuscos"
             ]
         },
         {

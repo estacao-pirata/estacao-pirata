@@ -1,13 +1,13 @@
 - type: trait
   id: Carioca
-  name: Sotaque Carioca
+  name: Carioquês
   description: Mermão, fale como um dox criax da Cidade de Deux, tá ligado?
   components:
   - type: SotaqueCarioca
 
 - type: trait
   id: Portunhol
-  name: Sotaque Portunhol
+  name: Portunhol
   description: Tu es uno space hermano
   components:
   - type: SotaquePortunhol
@@ -18,3 +18,10 @@
   description: Bah tche bah bah tche bah
   components:
   - type: SotaqueGaúcho
+
+- type: trait
+  id: Paulista
+  name: Paulistano
+  description: Sotaque direto da quebrada paulista
+  components:
+  - type: SotaquePaulista

@@ -13,7 +13,7 @@ namespace Pirata.Sotaque;
 /// </summary>
 abstract class AccentEngine : EntitySystem
 {
-    [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] protected readonly IRobustRandom _random = default!;
     virtual protected string path { get; set; } = "";
     public string Take(string message)
     {
@@ -94,7 +94,7 @@ abstract class AccentEngine : EntitySystem
         modded = Parse(modded);
         return modded;
     }
-    string Pick(List<string> tokens)
+    protected string Pick(List<string> tokens)
     {
         int index = _random.Next(tokens.Count);
         return tokens[index];
