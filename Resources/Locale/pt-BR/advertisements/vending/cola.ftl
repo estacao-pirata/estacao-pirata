@@ -5,3 +5,6 @@ advertisement-cola-4 = Com sede? que tal um refri?
 advertisement-cola-5 = Vai um gole?
 advertisement-cola-6 = Beba!
 advertisement-cola-7 = A bebida das galáxias!
+thankyou-cola-1 = Abre que pode e aproveita!
+thankyou-cola-2 = Poxa! Tome isso, sede!
+thankyou-cola-3 = Espero que goste do sabor!

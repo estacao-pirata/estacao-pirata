@@ -1,3 +1,2 @@
 ent-PowerSink = power sink
-    .desc = Drains immense amounts of electricity from the grid.
-
+     .desc = Drena imensas quantidades de eletricidade da rede.

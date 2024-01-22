@@ -11,3 +11,6 @@ advertisement-coffee-10 = Café ajuda no trabalho!
 advertisement-coffee-11 = Que tal um cházinho?
 advertisement-coffee-12 = Esperamos que você tenha gostado!
 advertisement-coffee-13 = Experimente nosso chocolate quente!
+thankyou-coffee-1 = Aproveite sua bebida!
+thankyou-coffee-2 = Pegue enquanto está quente!
+thankyou-coffee-3 = Bebida concluída.

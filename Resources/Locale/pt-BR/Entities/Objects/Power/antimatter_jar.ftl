@@ -1,3 +1,2 @@
-ent-AMEJar = AME fuel jar
-    .desc = A hermetically sealed jar containing antimatter for use in an antimatter reactor.
-
+ent-AMEJar = tanque de combustível de RAM
+     .desc = Um tanque hermeticamente fechado contendo antimatéria para uso em um reator de antimatéria.
