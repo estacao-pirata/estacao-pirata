@@ -1,3 +1,3 @@
-ent-PortableScrubber = portable scrubber
-    .desc = It scrubs, portably!
+ent-PortableScrubber = filtrador portátil
+    .desc = Ele filtra, provavelmente!
 

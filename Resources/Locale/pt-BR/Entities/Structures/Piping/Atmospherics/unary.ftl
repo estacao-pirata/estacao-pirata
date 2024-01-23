@@ -1,21 +1,21 @@
-ent-GasVentPump = air vent
-    .desc = Has a valve and a pump attached to it.
+ent-GasVentPump = grade de ventilação
+    .desc = Libera ar para atmosféra.
 
-ent-GasPassiveVent = passive vent
-    .desc = It's an open vent.
+ent-GasPassiveVent = grade de ventilação passiva
+    .desc = Conecta a atmosféra à rede de canos.
 
-ent-GasVentScrubber = air scrubber
-    .desc = Has a valve and pump attached to it.
+ent-GasVentScrubber = filtrador de ar
+    .desc = Remove contaminantes do ar.
 
-ent-GasOutletInjector = air injector
-    .desc = Has a valve and pump attached to it.
+ent-GasOutletInjector = injetor de ar
+    .desc = Expele gases, não importa a pressão externa.
 
-ent-BaseGasThermoMachine = thermomachine
+ent-BaseGasThermoMachine = termomáquina
     .desc = Has a valve and pump attached to it.
 
 ent-GasThermoMachineFreezer = freezer
-    .desc = Cools gas in connected pipes.
+    .desc = Resfria o gás em canos conectados
 
-ent-GasThermoMachineHeater = heater
-    .desc = Heats gas in connected pipes.
+ent-GasThermoMachineHeater = estufa
+    .desc = Aquece o gás em canos conectados.
 
