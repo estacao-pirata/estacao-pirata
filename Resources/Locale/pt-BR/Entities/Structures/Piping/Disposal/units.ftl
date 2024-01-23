@@ -1,6 +1,6 @@
-ent-DisposalUnit = disposal unit
-    .desc = A pneumatic waste disposal unit.
+ent-DisposalUnit = lixeira
+    .desc = Uma lixeira pneumática.
 
-ent-MailingUnit = mailing unit
-    .desc = A pneumatic mail delivery unit.
+ent-MailingUnit = caixa de correios
+    .desc = Uma caixa de correios pneumática.
 

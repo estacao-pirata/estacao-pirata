@@ -1,23 +1,23 @@
-ent-GasPipeBase = pipe
-    .desc = Holds gas.
+ent-GasPipeBase = cano
+    .desc = Leva gás.
 
-ent-GasPipeHalf = pipe
-    .desc = Holds gas.
-    .suffix = Half
+ent-GasPipeHalf = cano
+    .desc = Leva gás.
+    .suffix = Meio
 
-ent-GasPipeStraight = pipe
-    .desc = Holds gas.
-    .suffix = Straight
+ent-GasPipeStraight = cano
+    .desc = Leva gás.
+    .suffix = Reto
 
-ent-GasPipeBend = pipe
-    .desc = Holds gas.
-    .suffix = Bend
+ent-GasPipeBend = cano
+    .desc = Leva gás.
+    .suffix = Curva
 
-ent-GasPipeTJunction = pipe
-    .desc = Holds gas.
-    .suffix = TJunction
+ent-GasPipeTJunction = cano
+    .desc = Leva gás.
+    .suffix = 3 Lados
 
-ent-GasPipeFourway = pipe
-    .desc = Holds gas.
-    .suffix = Fourway
+ent-GasPipeFourway = cano
+    .desc = Leva gás.
+    .suffix = 4 Lados
 
