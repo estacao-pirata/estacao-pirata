@@ -31,6 +31,7 @@ id-card-access-level-service = Serviço
 id-card-access-level-janitor = Zeladoria
 id-card-access-level-theatre = Teatro
 id-card-access-level-chapel = Capela
+id-card-access-level-lawyer = Advogado
 
 id-card-access-level-maintenance = Manutenção
 
@@ -38,3 +39,5 @@ id-card-access-level-external = Externo
 
 id-card-access-level-nuclear-operative = Operativo Nuclear
 id-card-access-level-syndicate-agent = Agente Sindicato
+
+id-card-access-level-central-command = Comando Central

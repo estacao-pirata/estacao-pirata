@@ -136,8 +136,8 @@ reagent-desc-gin-fizz = Refrescantemente cítrico, deliciosamente seco.
 reagent-name-gin-tonic = gin e tônica
 reagent-desc-gin-tonic = Um clássico atemporal, coquetel suave.
 
-reagent-name-goldschlager = Goldschlager
-reagent-desc-goldschlager = Licor de canela, feito para meninas alcólicas adolescentes em férias de primavera.
+reagent-name-gildlager = Goldschlager
+reagent-desc-gildlager = Licor de canela, feito para meninas alcólicas adolescentes em férias de primavera.
 
 reagent-name-grog = grog
 reagent-desc-grog = Rum aguado, piratas aprovam!

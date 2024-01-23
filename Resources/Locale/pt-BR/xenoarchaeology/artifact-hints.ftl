@@ -19,6 +19,8 @@ artifact-effect-hint-communication = Comunicação de longa distância
 artifact-effect-hint-phasing = Faseamento estrutural
 artifact-effect-hint-sentience = Atividade neurológica
 artifact-effect-hint-polymorph = Atividade transmogrificacional
+artifact-effect-hint-magnet = Ondas magnéticas
+artifact-effect-hint-visual = Distorções visuais
 
 # the triggers should be more obvious than the effects
 # gives people an idea of what to do: don't be too specific (i.e. no "welders")
@@ -29,6 +31,7 @@ artifact-trigger-hint-physical = Trauma físico
 artifact-trigger-hint-tool = Uso de ferramenta
 artifact-trigger-hint-music = Vibrações sônicas
 artifact-trigger-hint-water = Hydro-reativo
+artifact-trigger-hint-blood = Reação com hemoglobina
 artifact-trigger-hint-magnet = Ondas magnéticas
 artifact-trigger-hint-death = Essência vital
 artifact-trigger-hint-radiation = Radiação

@@ -16,7 +16,10 @@ reagent-desc-thc = O principal composto psicoativo da cannabis.
 reagent-name-thc-oil = THC oil
 reagent-desc-thc-oil = Óleo de THC puro, extraído das folhas da planta de cannabis. Muito mais forte do que em sua forma natural e pode ser usado para anestesiar a dor crônica em pacientes.
 
-reagent-name-nicotine = Nicotine
+reagent-name-bananadine = bananadina
+reagent-desc-bananadine = Um psicodélico suave encontrado em pequenos traços nas cascas de banana.
+
+reagent-name-nicotine = nicotine
 reagent-desc-nicotine = Perigoso e altamente viciante, mas é o que a propaganda diz.
 
 reagent-name-impedrezene = impedrezene
@@ -33,3 +36,6 @@ reagent-desc-mute-toxin = Um produto químico espesso que impreguina as cordas v
 
 reagent-name-norepinephric-acid = norepinephric acid
 reagent-desc-norepinephric-acid = Um produto químico liso que bloqueia os receptores ópticos, deixando o usuário cego durante a metabolização.
+
+reagent-name-tear-gas = gás lacrimogêneo
+reagent-desc-tear-gas = Um produto químico que causa irritação severa e choro, comumente usado no controle de distúrbios.

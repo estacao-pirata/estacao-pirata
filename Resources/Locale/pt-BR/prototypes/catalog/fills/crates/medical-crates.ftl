@@ -1,40 +1,43 @@
-ent-CrateMedicalDefib = Caixa de desfibrilador
+ent-CrateMedicalDefib = Caixa de Desfibrilador
 
-ent-CrateMedicalSupplies = Caixa de suprimentos médicos
+ent-CrateMedicalSupplies = Caixa de Suprimentos Médicos
     .desc = Suprimentos médicos básicos.
 
-ent-CrateChemistrySupplies = Caixa de suprimentos químicos
+ent-CrateChemistrySupplies = Caixa de Suprimentos Químicos
     .desc = Suprimentos básicos de química.
 
-ent-CrateMindShieldImplants = Caixa de implantes MindShield
+ent-CrateChemistryVials = Caixa de Frascos
+    .desc = Caixa cheia de frascos.
+
+ent-CrateMindShieldImplants = Caixa de Implantes MindShield
     .desc = Caixa com 3 implantes MindShield.
 
-ent-CrateMedicalSurgery = Caixa de suprimentos cirúrgicos
+ent-CrateMedicalSurgery = Caixa de Suprimentos Cirúrgicos
     .desc = Surgical instruments.
 
-ent-CrateMedicalScrubs = Caixa de roupões médicos
+ent-CrateMedicalScrubs = Caixa de Roupões Médicos
     .desc = Roupas médicas.
 
-ent-CrateEmergencyBurnKit = Kit de emergência para queimaduras
+ent-CrateEmergencyBurnKit = Caixa de Kit de Emergência Para Queimaduras
     .desc = Caixa com um kit para tratar queimaduras
 
-ent-CrateEmergencyToxinKit = Kit de emergência antitoxinas
+ent-CrateEmergencyToxinKit = Caixa de Kit de Emergência Antitoxinas
     .desc = Caixa com um kit de tratamento contra toxinas
 
-ent-CrateEmergencyO2Kit = Kit de emergência O²
+ent-CrateEmergencyO2Kit = Caixa de Kit de Emergência O²
     .desc = Caixa com um kit de tratamento para baixa saturação de O²
 
-ent-CrateEmergencyBruteKit = Kit de emergência bruto
+ent-CrateEmergencyBruteKit = Caixa de Kit de Emergência Bruto
     .desc = Caixa com um kit de tratamento contra ferimentos do tipo bruto
 
-ent-CrateEmergencyAdvancedKit = Kit de emergência avançado
+ent-CrateEmergencyAdvancedKit = Caixa de Kit de Emergência Avançado
     .desc = Caixa com um kit de tratamento avançados
 
-ent-CrateEmergencyRadiationKit = Kit de emergência para lesões por radiação
+ent-CrateEmergencyRadiationKit = Caixa de Kit de Emergência Radiação
     .desc = Caixa com um kit de tratamento contra lesões causadas por exposição à radiação
 
-ent-CrateBodyBags = Caixa de sacos de corpo
+ent-CrateBodyBags = Caixa de Sacos de Corpo
     .desc = Contém dez sacos para cadáveres.
 
-ent-CrateVirologyBiosuit = Caixa de trajes de bioproteção da virologia
+ent-CrateVirologyBiosuit = Caixa de Trajes de Bioproteção da Virologia
     .desc = Contém 2 trajes de bioproteção para garantir que nenhuma doença o distraia ao tratar a tripulação. Requer acesso médico para abrir.

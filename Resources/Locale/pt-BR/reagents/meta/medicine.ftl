@@ -1,5 +1,5 @@
 reagent-name-cryptobiolin = cryptobiolina
-reagent-desc-cryptobiolin = Causa confusão e tontura. Isso é essencial para fazer Spaceacillin.
+reagent-desc-cryptobiolin = Causa confusão e tontura.
 
 reagent-name-dylovene = dylovene
 reagent-desc-dylovene = Antitoxina de amplo espectro, que trata os danos causados pela toxina na corrente sanguínea. A sobredosagem causará vómitos, tonturas e dor.
@@ -32,10 +32,10 @@ reagent-name-dexalin = dexalina
 reagent-desc-dexalin = Usado para tratar leve privação de oxigênio. Um reagente necessário para o dexalin plus.
 
 reagent-name-dexalin-plus = dexalina plus
-reagent-desc-dexalin-plus = Usado no tratamento de casos extremos de privação de oxigênio e perda de sangue. Remove a lexorina da corrente sanguínea.
+reagent-desc-dexalin-plus = Usado no tratamento de casos extremos de privação de oxigênio e perda de sangue. Remove a heartbreaker da corrente sanguínea.
 
 reagent-name-epinephrine = epinephrina
-reagent-desc-epinephrine = Um produto químico estabilizador eficaz usado para impedir que uma pessoa em estado crítico morra por asfixia enquanto remendava pequenos danos, apenas enquanto em crit. Remove a lexorina da corrente sanguínea ao custo de mais epinefrina, mas pode adicionar histamina. Ajuda a reduzir o tempo de atordoamento. Comumente encontrado na forma de medipens de emergência.
+reagent-desc-epinephrine = Um produto químico estabilizador eficaz usado para impedir que uma pessoa em estado crítico morra por asfixia enquanto remendava pequenos danos, apenas enquanto em crit. Remove a heartbreaker da corrente sanguínea ao custo de mais epinefrina, mas pode adicionar histamina. Ajuda a reduzir o tempo de atordoamento. Comumente encontrado na forma de medipens de emergência.
 
 reagent-name-hyronalin = hyronalina
 reagent-desc-hyronalin = Um tratamento fraco para os danos causados pela radiação. Um precursor da arithrazina e da phalanximina. Pode causar vômito.
@@ -111,3 +111,24 @@ reagent-desc-sigynate = Um xarope rosa grosso útil para neutralizar ácidos e c
 
 reagent-name-saline = soro fisiológico
 reagent-desc-saline = Uma mistura de sal e água. Comumente usado para tratar a desidratação ou baixa presença de fluido no sangue.
+
+reagent-name-lacerinol = lacerinol
+reagent-desc-lacerinol = Um produto químico pouco reativo que aumenta a síntese de colágeno a níveis incríveis, curando traumas de cortes.
+
+reagent-name-puncturase = puncturase
+reagent-desc-puncturase = Um produto químico efervescente que ajuda a reconstruir o trauma causado por danos perfurantes, deixando para trás uma pequena quantidade de danos nos tecidos.
+
+reagent-name-bruizine = bruizina
+reagent-desc-bruizine = Originalmente desenvolvido como remédio para tosse, descobriu-se que este produto químico é extremamente eficaz no tratamento de traumatismos contundentes.
+
+reagent-name-holywater = água benta
+reagent-desc-holywater = A mais limpa e pura das águas vinda diretamente das mãos de Deus, é conhecida por curar feridas magicamente.
+
+reagent-name-pyrazine = pyrazina
+reagent-desc-pyrazine = Cura com eficiência queimaduras causadas pelos incêndios mais quentes. Causa hemorragia interna maciça em caso de sobredosagem.
+
+reagent-name-insuzine = insuzina
+reagent-desc-insuzine = Repara rapidamente o tecido morto causado por eletrocussão, mas esfria um pouco. Congela completamente o paciente em caso de overdose.
+
+reagent-name-necrosol = necrosol
+reagent-desc-necrosol = Uma substância necrótica que parece ser capaz de curar cadáveres congelados.

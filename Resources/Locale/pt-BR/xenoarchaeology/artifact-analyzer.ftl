@@ -21,6 +21,7 @@ analysis-console-info-edges = BORDAS: {$edges}
 analysis-console-info-value = VALOR_ATUAL: {$value}
 
 analysis-console-info-scanner = Digitalizando...
+analysis-console-info-scanner-paused = Pausado.
 analysis-console-progress-text = {$seconds ->
     [one] T-{$seconds} segundo
     *[other] T-{$seconds} segundos

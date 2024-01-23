@@ -1,5 +1,7 @@
 station-event-ion-storm-start-announcement = Temepstade de íons detectada próxima da estação. Verifique todos os equipamentos controlados por IA por falhas.
 
+ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={$length} chars="@@###$$&%!01"/][/font]
+
 ion-storm-you = VOCÊ
 ion-storm-the-station = A ESTAÇÃO
 ion-storm-the-crew = A TRIPULAÇÃO

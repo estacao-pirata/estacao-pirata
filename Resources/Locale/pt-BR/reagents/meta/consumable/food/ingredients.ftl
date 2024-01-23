@@ -10,7 +10,7 @@ reagent-desc-oats = Usado para uma variedade de propósitos saborosos.
 reagent-name-enzyme = enzima universal
 reagent-desc-enzyme = Usado para cozinhar uma variedade de pratos.
 
-reagent-name-egg = ovo
+reagent-name-egg = ovo cozido
 reagent-desc-egg = Embrião de frango cozido, uma delícia.
 
 reagent-name-raw-egg = ovo cru

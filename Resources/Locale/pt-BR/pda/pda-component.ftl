@@ -24,6 +24,8 @@ pda-bound-user-interface-lock-uplink-description = Evite que alguém acesse seu 
 
 comp-pda-ui-menu-title = PDA
 
+comp-pda-ui-footer = Assistente Digital Pessoal
+
 comp-pda-ui-station = Estação: [color=white]{$station}[/color]
 
 comp-pda-ui-station-alert-level = Nível de Alerta: [color={ $color }]{ $level }[/color]
