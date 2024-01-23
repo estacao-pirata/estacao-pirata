@@ -46,6 +46,9 @@ reagent-desc-nothing = Absolutamente completamente nada.
 reagent-name-nuclear-cola = refri de cola nuclear
 reagent-desc-nuclear-cola = Refri de cola, cola nunca muda.
 
+reagent-name-hot-cocoa = Cacau Quente
+reagent-desc-hot-cocoa = Cheira a férias!
+
 reagent-name-soda-water = água com gás
 reagent-desc-soda-water = Cuidado para não causar uma guerra cívil. É só água com gás.
 
@@ -84,3 +87,6 @@ reagent-desc-kvass = Uma resfrescante bebida com gosto de socialismo.
 
 reagent-name-white-gilgamesh = gilgamesh branco
 reagent-desc-white-gilgamesh = Uma mistura doentia de leite e cerveja. Faz-te sentir como se fosses feito de madeira.
+
+reagent-name-mopwata = Esfregágua
+reagent-desc-mopwata = Água suja e estagnada do esfregão.

@@ -1,50 +1,50 @@
-ent-GasCanister = Gas canister
-    .desc = A canister that can contain any type of gas. It can be attached to connector ports using a wrench.
+ent-GasCanister = Botijão de Gás
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-StorageCanister = Storage canister
+ent-StorageCanister = Botijão de Reserva
     .desc = { ent-GasCanister.desc }
 
-ent-AirCanister = Air canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain air mixture. It can be attached to connector ports using a wrench.
+ent-AirCanister = Botijão de Ar
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter mistura de ar. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-OxygenCanister = Oxygen canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain oxygen. It can be attached to connector ports using a wrench.
+ent-OxygenCanister = Botijão de Oxigênio
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deveria conter oxigênio. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-LiquidOxygenCanister = Liquid oxygen canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain liquid oxygen. It can be attached to connector ports using a wrench.
+ent-LiquidOxygenCanister = Botijão de Oxigênio Líquido
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter oxigênio líquido. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-NitrogenCanister = Nitrogen canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain nitrogen. It can be attached to connector ports using a wrench.
+ent-NitrogenCanister = Botijão de Nitrogênio
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter nitrogênio. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-LiquidNitrogenCanister = Liquid nitrogen canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain liquid nitrogen. It can be attached to connector ports using a wrench.
+ent-LiquidNitrogenCanister = Botijão de Nitrogênio Líquido
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter nitrogênio líquido. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-CarbonDioxideCanister = Carbon dioxide canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain carbon dioxide. It can be attached to connector ports using a wrench.
+ent-CarbonDioxideCanister = Botijão de dióxido de Carbono
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deveria conter dióxido de carbono. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-LiquidCarbonDioxideCanister = Liquid carbon dioxide canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain liquid carbon dioxide. It can be attached to connector ports using a wrench.
+ent-LiquidCarbonDioxideCanister = Botijão de Dióxido de Carbono Líquido
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Supõe-se que este contenha dióxido de carbono líquido. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-PlasmaCanister = Plasma canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain plasma. It can be attached to connector ports using a wrench.
+ent-PlasmaCanister = Botijão de Plasma
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deveria conter plasma. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-TritiumCanister = Tritium canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain tritium. It can be attached to connector ports using a wrench.
+ent-TritiumCanister = Botijão de Trítio
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deveria conter trítio. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-WaterVaporCanister = Water vapor canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain water vapor. It can be attached to connector ports using a wrench.
+ent-WaterVaporCanister = Botijão de Vapor d'água
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter vapor de água. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-MiasmaCanister = Miasma canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain miasma. It can be attached to connector ports using a wrench.
+ent-AmmoniaCanister = Botijão de Amônia
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter amônia. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-NitrousOxideCanister = Nitrous oxide canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain nitrous oxide. It can be attached to connector ports using a wrench.
+ent-NitrousOxideCanister = Botijão de óxido Nitroso
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deveria conter óxido nitroso. Ele pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-FrezonCanister = Frezon canister
-    .desc = A coolant with light hallucinogenic properties. Proceed.
+ent-FrezonCanister = Botijão Frezon
+    .desc = Um refrigerante com leves propriedades alucinógenas. Procedimento.
 
-ent-GasCanisterBrokenBase = Broken gas canister
-    .desc = A broken gas canister. Not useless yet, as it can be salvaged for high quality materials.
+ent-GasCanisterBrokenBase = Botijão de Gás Quebrado
+    .desc = Um botijão de gás quebrado. Ainda não é inútil, pois pode ser aproveitado para obter materiais de alta qualidade.
 
 ent-StorageCanisterBroken = { ent-GasCanisterBrokenBase }
     .desc = { ent-GasCanisterBrokenBase.desc }
@@ -70,7 +70,7 @@ ent-TritiumCanisterBroken = { ent-GasCanisterBrokenBase }
 ent-WaterVaporCanisterBroken = { ent-GasCanisterBrokenBase }
     .desc = { ent-GasCanisterBrokenBase.desc }
 
-ent-MiasmaCanisterBroken = { ent-GasCanisterBrokenBase }
+ent-AmmoniaCanisterBroken = { ent-GasCanisterBrokenBase }
     .desc = { ent-GasCanisterBrokenBase.desc }
 
 ent-NitrousOxideCanisterBroken = { ent-GasCanisterBrokenBase }

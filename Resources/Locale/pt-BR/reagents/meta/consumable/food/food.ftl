@@ -13,5 +13,8 @@ reagent-desc-protein = Encontrado em certas refeiçoes, bom para a saúde corpor
 reagent-name-cocoapowder = cacau em pó
 reagent-desc-cocoapowder = Das melhores variantes de grãos de cacau
 
+reagent-name-butter = manteiga
+reagent-desc-butter = Você pode acreditar!
+
 reagent-name-pumpkin-flesh = carne de abóbora
 reagent-desc-pumpkin-flesh = Os restos moles e doces de uma abóbora.

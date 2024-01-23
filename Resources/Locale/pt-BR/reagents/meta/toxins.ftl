@@ -67,17 +67,8 @@ reagent-desc-lead = Uma toxina de ação lenta, mas incrivelmente letal, encontr
 reagent-name-bungotoxin = bungotoxina
 reagent-desc-bungotoxin = Um veneno de ação moderadamente lenta encontrado no caroço da fruta bungo.
 
-reagent-name-human-muta-tox = toxina de mutação humana
-reagent-name-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
+reagent-name-vestine = vestine
+reagent-desc-vestine = Tem uma reação adversa no corpo, causando grande agitação. Embora não seja particularmente útil por si só, pode ser usado para produzir uma pequena variedade de produtos químicos.
 
-reagent-name-slime-person-muta-tox =  toxina de mutação slime
-reagent-desc-slime-person-muta-tox = Uma droga capaz de transformar qualquer humanóide em pessoa slime.
-
-reagent-name-skeleton-muta-tox = skin hurting juice
-reagent-desc-skeleton-muta-tox = Uma droga que dói em tudo, seguido de tudo menos os essenciais cairem. Transforma qualquer humanóide em um esqueleto.
-
-reagent-name-reptilian-muta-tox =  toxina de mutação reptiliana
-reagent-desc-reptilian-muta-tox = Uma droga capaz de transformar qualquer humanóide em reptiliano.
-
-reagent-name-monkey-muta-tox =  toxina de mutação de macaco
-reagent-desc-monkey-muta-tox = Uma droga capaz de transformar qualquer humanóide em macaco.
+reagent-name-tazinide = tazinide
+reagent-desc-tazinide = Uma mistura metálica altamente perigosa que pode interferir na maior parte dos movimentos através de uma corrente eletrizante.

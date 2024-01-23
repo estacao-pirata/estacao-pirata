@@ -1,6 +1,9 @@
 reagent-name-blood = sangue
 reagent-desc-blood = Espero que seja ketchup.
 
+reagent-name-insect-blood = sangue de inseto
+reagent-desc-insect-blood = Ok, isso é realmente nojento. Quase parece... vivo?
+
 reagent-name-slime = slime
 reagent-desc-slime = Você pensou que isso era sangue gradiente no início, mas você estava enganado.
 

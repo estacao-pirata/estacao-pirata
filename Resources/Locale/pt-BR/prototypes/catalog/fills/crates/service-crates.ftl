@@ -32,4 +32,7 @@ ent-CrateJanitorBiosuit = Caixa de traje de bioproteção do zelador
     .desc = Contém 2 trajes de bioproteção para garantir que nenhuma doença irá distraí-lo da limpeza.
 
 ent-CrateServiceTheatre = Caixa de apresentações teatrais
-    .desc = Contém uma capa de mariposa, uniforme de empregada, atributos de palhaço e mímica e outros amuletos de desempenho.
+    .desc = Contém uma capa de mariposa, tesoura de barbeiro, uniforme de empregada, atributos de palhaço e mímica e outros amuletos de desempenho.
+
+ent-CrateJanitorExplosive = Caixa de Traje Antibomba de Limpeza
+    .desc = Fornece um traje anti-bomba para limpar qualquer composto explosivo, compre um hoje mesmo!
