@@ -20,7 +20,7 @@ research-technology-super-powercells = Super Powercells
 research-technology-bluespace-storage = Bluespace Storage
 research-technology-portable-fission = Portable Fission
 
-research-technology-medipen-fabrication = Medipen Fabrication
+research-technology-medipen-refilling = Medipen Refilling
 research-technology-salvage-weapons = Salvage Weapons
 research-technology-draconic-munitions = Draconic Munitions
 research-technology-uranium-munitions = Uranium Munitions
