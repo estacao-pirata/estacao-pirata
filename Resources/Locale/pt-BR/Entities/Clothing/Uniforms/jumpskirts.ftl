@@ -1,162 +1,161 @@
-ent-ClothingUniformJumpskirtBartender = bartender's uniform
-    .desc = A nice and tidy uniform. Shame about the bar though.
+ent-ClothingUniformJumpskirtBartender = uniforme do bartender
+    .desc = Um uniforme bonito e arrumado. É uma pena o bar.
 
-ent-ClothingUniformJumpskirtCaptain = captain's jumpskirt
-    .desc = It's a blue jumpskirt with some gold markings denoting the rank of "Captain".
+ent-ClothingUniformJumpskirtCaptain = saia de capitão
+    .desc = É uma saia azul com algumas marcas douradas que indicam o posto de "Capitão".
 
-ent-ClothingUniformJumpskirtCargo = cargo tech jumpskirt
-    .desc = A sturdy jumpskirt, issued to members of the Cargo department.
+ent-ClothingUniformJumpskirtCargo = saia de cargo
+    .desc = Uma saia resistente, concedida aos membros do departamento de Carga.
 
-ent-ClothingUniformJumpskirtChiefEngineer = chief engineer's jumpskirt
-    .desc = It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of Chief Engineer. It has minor radiation shielding.
+ent-ClothingUniformJumpskirtChiefEngineer = saia do engenheiro-chefe
+    .desc = É um saia de alta visibilidade dado aos engenheiros loucos o suficiente para alcançar o posto de Engenheiro Chefe. Possui pequena proteção contra radiação.
 
-ent-ClothingUniformJumpskirtChaplain = chaplain's jumpskirt
-    .desc = It's a black jumpskirt, often worn by religious folk.
+ent-ClothingUniformJumpskirtChaplain = saia de capelão
+    .desc = É uma saia preta, muito usada por pessoas religiosas.
 
-ent-ClothingUniformJumpskirtChef = chef uniform
-    .desc = Can't cook without this.
+ent-ClothingUniformJumpskirtChef = uniforme de chef
+    .desc = Não consigo cozinhar sem isso.
 
-ent-ClothingUniformJumpskirtChemistry = chemistry jumpskirt
-    .desc = There's some odd stains on this jumpskirt. Hm.
+ent-ClothingUniformJumpskirtChemistry = saia de química
+    .desc = Há algumas manchas estranhas nesta saia. Hum.
 
-ent-ClothingUniformJumpskirtCMO = chief medical officer's jumpskirt
-    .desc = It's a jumpskirt worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+ent-ClothingUniformJumpskirtCMO = saia do CMO
+    .desc = É um saia usado por quem tem experiência para ser Diretor Médico. Fornece proteção biológica menor.
 
-ent-ClothingUniformJumpskirtDetective = hard-worn suit
-    .desc = Someone who wears this means business.
+ent-ClothingUniformJumpskirtDetective = terno muito usado
+    .desc = Alguém que usa isso significa negócios.
 
-ent-ClothingUniformJumpskirtDetectiveGrey = noir suit
-    .desc = A hard-boiled private investigator's grey suit, complete with tie clip.
+ent-ClothingUniformJumpskirtDetectiveGrey = terno noir
+    .desc = Um terno cinza de investigador particular, completo com prendedor de gravata.
 
-ent-ClothingUniformJumpskirtEngineering = engineering jumpskirt
-    .desc = If this suit was non-conductive, maybe engineers would actually do their damn job.
+ent-ClothingUniformJumpskirtEngineering = saia de engenharia
+    .desc = Se este traje não fosse condutor, talvez os engenheiros realmente fizessem seu maldito trabalho.
 
-ent-ClothingUniformJumpskirtHoP = head of personnel's jumpskirt
-    .desc = Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+ent-ClothingUniformJumpskirtHoP = saia do chefe de funcionários
+    .desc = Bastante brando e inofensivo. Perfeito para desaparecer da face do universo.
 
-ent-ClothingUniformJumpskirtHoS = head of security's jumpskirt
-    .desc = It's bright red and rather crisp, much like security's victims tend to be.
+ent-ClothingUniformJumpskirtHoS = saia do chefe de segurança
+    .desc = É vermelho brilhante e bastante nítido, assim como as vítimas de segurança tendem a ser.
 
-ent-ClothingUniformJumpskirtHoSAlt = head of security's turtleneck
-    .desc = It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security. Its sturdy fabric provides minor protection from mechanical damage.
+ent-ClothingUniformJumpskirtHoSAlt = gola alta do chefe de segurança
+    .desc = É uma gola alta usada por quem é forte e disciplinado o suficiente para alcançar o cargo de Chefe de Segurança. Seu tecido resistente oferece menor proteção contra danos mecânicos.
 
-ent-ClothingUniformJumpskirtHoSParadeMale = head of security's parade uniform
-    .desc = A head of security's luxury-wear, for special occasions.
+ent-ClothingUniformJumpskirtHoSParadeMale = uniforme de desfile do chefe da segurança
+    .desc = Um chefe de segurança de roupas de luxo, para ocasiões especiais.
 
-ent-ClothingUniformJumpskirtHydroponics = hydroponics jumpskirt
-    .desc = Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
+ent-ClothingUniformJumpskirtHydroponics = saia hidropônica
+    .desc = Tem um forte cheiro de terra. Esperançosamente, está apenas sujo, em vez de sujo.
 
-ent-ClothingUniformJumpskirtJanitor = janitor jumpskirt
-    .desc = The jumpskirt for the poor sop with a mop.
+ent-ClothingUniformJumpskirtJanitor = saia de zelador
+    .desc = A saia para o pobre coitado com esfregão.
 
-ent-ClothingUniformJumpskirtMedicalDoctor = medical doctor jumpskirt
-    .desc = It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
+ent-ClothingUniformJumpskirtMedicalDoctor = saia de médico
+    .desc = É feito de uma fibra especial que oferece menor proteção contra riscos biológicos. Possui uma cruz no peito indicando que o usuário é um pessoal médico treinado.
 
-ent-ClothingUniformJumpskirtMime = mime jumpskirt
+ent-ClothingUniformJumpskirtMime = saia de mímico
     .desc = ...
 
-ent-ClothingUniformJumpskirtParamedic = paramedic jumpskirt
-    .desc = It's got a plus on it, that's a good thing right?
+ent-ClothingUniformJumpskirtParamedic = saia paramédico
+    .desc = Tem uma vantagem, isso é uma coisa boa, certo?
 
-ent-ClothingUniformJumpskirtPrisoner = prisoner jumpskirt
-    .desc = Busted.
+ent-ClothingUniformJumpskirtPrisoner = saia de prisioneiro
+    .desc = Preso.
 
-ent-ClothingUniformJumpskirtQM = quartermaster's jumpskirt
-    .desc = What can brown do for you?
+ent-ClothingUniformJumpskirtQM = saia do intendente de cargo
+    .desc = O que o marrom pode fazer por você?
 
-ent-ClothingUniformJumpskirtResearchDirector = research director's turtleneck
-    .desc = It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+ent-ClothingUniformJumpskirtResearchDirector = gola alta do diretor de pesquisa
+    .desc = É uma gola alta usada por quem tem know-how para alcançar o cargo de Diretor de Pesquisa. Seu tecido oferece menor proteção contra contaminantes biológicos.
 
-ent-ClothingUniformJumpskirtScientist = scientist jumpskirt
-    .desc = It's made of a special fiber that provides minor protection against explosives. It has markings that denote the wearer as a scientist.
+ent-ClothingUniformJumpskirtScientist = saia de cientista
+    .desc = É feito de uma fibra especial que oferece menor proteção contra explosivos. Possui marcações que denotam o usuário como um cientista.
 
-ent-ClothingUniformJumpskirtSec = security jumpskirt
-    .desc = A jumpskirt made of strong material, providing robust protection.
+ent-ClothingUniformJumpskirtSec = saia de segurança
+    .desc = Saia confeccionado em material resistente, proporcionando proteção robusta.
 
-ent-ClothingUniformJumpskirtWarden = warden's uniform
-    .desc = A formal security suit for officers complete with Nanotrasen belt buckle.
+ent-ClothingUniformJumpskirtWarden = uniforme do carceiro
+    .desc = Um traje de segurança formal para oficiais completo com fivela de cinto Nanotrasen.
 
-ent-ClothingUniformJumpskirtColorGrey = grey jumpskirt
-    .desc = A tasteful grey jumpskirt that reminds you of the good old days.
+ent-ClothingUniformJumpskirtColorGrey = saia cinza
+    .desc = Uma saia cinza de bom gosto que lembra os bons velhos tempos.
 
-ent-ClothingUniformJumpskirtColorBlack = black jumpskirt
-    .desc = A generic black jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorBlack = saia preta
+    .desc = Uma saia preta genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorBlue = blue jumpskirt
-    .desc = A generic blue jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorBlue = saia azul
+    .desc = Uma saia azul genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorGreen = green jumpskirt
-    .desc = A generic green jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorGreen = saia verde
+    .desc = Uma saia verde genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorOrange = orange jumpskirt
-    .desc = Don't wear this near paranoid security officers.
+ent-ClothingUniformJumpskirtColorOrange = saia laranja
+    .desc = Não use isso perto de agentes de segurança paranóicos.
 
-ent-ClothingUniformJumpskirtColorPink = pink jumpskirt
-    .desc = Just looking at this makes you feel fabulous.
+ent-ClothingUniformJumpskirtColorPink = saia rosa
+    .desc = Só de olhar para isso você se sente fabuloso.
 
-ent-ClothingUniformJumpskirtColorRed = red jumpskirt
-    .desc = A generic red jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorRed = saia vermelha
+    .desc = Uma saia vermelha genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorWhite = white jumpskirt
-    .desc = A generic white jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorWhite = saia branco
+    .desc = Uma saia branca genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorYellow = yellow jumpskirt
-    .desc = A generic yellow jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorYellow = saia amarelo
+    .desc = Uma saia amarela genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorDarkBlue = dark blue jumpskirt
-    .desc = A generic dark blue jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorDarkBlue = saia azul escuro
+     .desc = Uma saia azul escura genérica sem marcas de classificação.
 
-ent-ClothingUniformJumpskirtColorTeal = teal jumpskirt
-    .desc = A generic teal jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorTeal = saia verde-azulada
+    .desc = Uma saia verde-azulada genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorPurple = purple jumpskirt
-    .desc = A generic purple jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorPurple = saia roxo
+    .desc = Uma saia roxa genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorDarkGreen = dark green jumpskirt
-    .desc = A generic dark green jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorDarkGreen = saia verde escuro
+     .desc = Uma saia verde escura genérica sem marcas de classificação.
 
-ent-ClothingUniformJumpskirtColorLightBrown = light brown jumpskirt
-    .desc = A generic light brown jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorLightBrown = saia marrom claro
+    .desc = Uma saia marrom clara genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorBrown = brown jumpskirt
-    .desc = A generic brown jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorBrown = saia marrom
+    .desc = Uma saia marrom genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtColorMaroon = maroon jumpskirt
-    .desc = A generic maroon jumpskirt with no rank markings.
+ent-ClothingUniformJumpskirtColorMaroon = saia marrom
+    .desc = Uma saia marrom genérica sem marcações de classificação.
 
-ent-ClothingUniformJumpskirtPerformer = performer's jumpskirt
-    .desc = Hi, I'm Scott, president of Donk Pizza. Have you heard of [FAMOUS VIRTUAL PERFORMER]?
+ent-ClothingUniformJumpskirtPerformer = saia do artista
+    .desc = Olá, sou Scott, presidente da Donk Pizza. Você já ouviu falar de [FAMOSO PERFORMER VIRTUAL]?
 
-ent-ClothingUniformJumpskirtCapFormalDress = captain's formal dress
-    .desc = A dress for special occasions.
+ent-ClothingUniformJumpskirtCapFormalDress = vestido formal do capitão
+    .desc = Um vestido para ocasiões especiais.
 
-ent-ClothingUniformJumpskirtCentcomFormalDress = central command formal dress
-    .desc = A dress for special occasions
+ent-ClothingUniformJumpskirtCentcomFormalDress = vestido formal de comando central
+    .desc = Um vestido para ocasiões especiais
 
-ent-ClothingUniformJumpskirtHosFormal = hos's formal dress
-    .desc = A dress for special occasions.
+ent-ClothingUniformJumpskirtHosFormal = vestido formal de hos
+    .desc = Um vestido para ocasiões especiais.
 
-ent-ClothingUniformJumpskirtOperative = operative jumpskirt
-    .desc = Uniform for elite syndicate operatives performing tactical operations in deep space.
+ent-ClothingUniformJumpskirtOperative = saia de operativa
+    .desc = Uniforme para agentes de sindicatos de elite realizando operações táticas no espaço profundo.
 
-ent-ClothingUniformJumpskirtAtmos = atmosheric technician jumpskirt
-    .desc = I am at work. I can't leave work. Work is breathing. I am testing air quality.
+ent-ClothingUniformJumpskirtAtmos = saia técnico atmosférico
+    .desc = estou no trabalho. Não posso sair do trabalho. O trabalho está respirando. Estou testando a qualidade do ar.
 
-ent-ClothingUniformJumpskirtJanimaid = janitorial maid uniform
-    .desc = For professionals, not the posers.
+ent-ClothingUniformJumpskirtJanimaid = uniforme de empregada de limpeza
+    .desc = Para profissionais, não para posers.
 
-ent-ClothingUniformJumpskirtLawyerRed = red lawyer suitskirt
-    .desc = A flashy red suitskirt worn by lawyers and show-offs.
+ent-ClothingUniformJumpskirtLawyerRed = saia vermelha de terno de advogado
+    .desc = Um terno vermelho chamativo usado por advogados e exibicionistas.
 
-ent-ClothingUniformJumpskirtLawyerBlue = blue lawyer suitskirt
-    .desc = A flashy blue suitskirt worn by lawyers and show-offs.
+ent-ClothingUniformJumpskirtLawyerBlue = terno de advogado azul
+    .desc = Um terno azul chamativo usado por advogados e exibicionistas.
 
-ent-ClothingUniformJumpskirtLawyerBlack = black lawyer suitskirt
-    .desc = A subtle black suitskirt worn by lawyers and gangsters.
+ent-ClothingUniformJumpskirtLawyerBlack = terno preto de advogado
+    .desc = Um terno preto sutil usado por advogados e gangsters.
 
-ent-ClothingUniformJumpskirtLawyerPurple = purple lawyer suitskirt
-    .desc = A stylish purple piece worn by lawyers and show people.
+ent-ClothingUniformJumpskirtLawyerPurple = saia roxa de terno de advogado
+    .desc = Uma elegante peça roxa usada por advogados e pessoas de espetáculos.
 
-ent-ClothingUniformJumpskirtLawyerGood = good lawyer's suitskirt
-    .desc = A tacky suitskirt perfect for a CRIMINAL lawyer!
-
+ent-ClothingUniformJumpskirtLawyerGood = terno de bom advogado
+    .desc = Um terno brega perfeito para um advogado CRIMINAL!
