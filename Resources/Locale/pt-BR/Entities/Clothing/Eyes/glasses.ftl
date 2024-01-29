@@ -1,4 +1,4 @@
-ent-ClothingEyesGlassesBeer = óculos de sol cerveja
+ent-ClothingEyesGlassesBeer = óculos de cerveja
     .desc = Um par de óculos, capaz de identificar reagentes e suas viscosidades.
 
 ent-ClothingEyesGlassesGar = óculos gar
@@ -19,7 +19,7 @@ ent-ClothingEyesGlasses = óculos
 ent-ClothingEyesGlassesSunglasses = óculos de sol
     .desc = Útil tanto para segurança quanto para Cargonia.
 
-ent-ClothingEyesGlassesSecurity = óculos de sol da segurança
+ent-ClothingEyesGlassesSecurity = óculos da segurança
     .desc = Uma tecnologia estranhamente antiga. Se ver um holofote em formato de morcego, não vá ao local.
 
 ent-ClothingEyesGlassesThermal = óculos de visão térmica
