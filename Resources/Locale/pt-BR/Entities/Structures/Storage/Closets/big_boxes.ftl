@@ -8,4 +8,4 @@ ent-GhostBox = caixa de fantasmas
     .desc = Cuidado!
 
 ent-Exclamation = exclamação
-
+    .desc =  Surpresa!

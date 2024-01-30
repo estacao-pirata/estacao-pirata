@@ -35,5 +35,7 @@ ent-ClosetWallMixed = armário de parede mista
     .desc = Um guarda-roupa repleto de um mix de roupas coloridas.
 
 ent-ClosetWallAtmospherics = armário de parede atmosférico
+    .desc = { "" }
 
 ent-LockerWallMedical = armário de parede do médico
+    .desc = { "" }
