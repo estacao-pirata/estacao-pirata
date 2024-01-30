@@ -1,6 +1,6 @@
-ent-PlasmaWindow = plasma window
+ent-PlasmaWindow = janela de plasma
     .desc = { "" }
 
-ent-PlasmaWindowDirectional = directional plasma window
-    .desc = Don't smudge up the glass down there.
+ent-PlasmaWindowDirectional = janela de plasma direcional
+    .desc = Não mancha o vidro lá embaixo.
 

@@ -1,6 +1,6 @@
-ent-CrateGeneric = crate
-    .desc = A large container for items.
+ent-CrateGeneric = caixa
+    .desc = Um grande recipiente para itens.
 
-ent-CrateBaseSecure = crate
-    .desc = A large container for items.
+ent-CrateBaseSecure = caixa
+    .desc = Um grande recipiente para itens.
 

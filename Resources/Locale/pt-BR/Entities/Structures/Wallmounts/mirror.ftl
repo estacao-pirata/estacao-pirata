@@ -1,3 +1,3 @@
-ent-Mirror = mirror
-    .desc = Mirror mirror on the wall , who's the most robust of them all?
+ent-Mirror = espelho
+    .desc = Espelho espelhado na parede, quem é o mais robusto de todos?
 

@@ -1,9 +1,9 @@
-ent-ClosetBase = closet
-    .desc = A standard-issue Nanotrasen storage unit.
+ent-ClosetBase = armário
+    .desc = Uma unidade de armazenamento de nanotrasen em edição padrão.
 
-ent-BaseWallCloset = wall closet
-    .desc = A standard-issue Nanotrasen storage unit, now on walls.
+ent-BaseWallCloset = armário de parede
+    .desc = Uma unidade de armazenamento de nanotrasen de emissão padrão, agora nas paredes.
 
-ent-BaseWallLocker = wall closet
-    .desc = A standard-issue Nanotrasen storage unit, now on walls.
+ent-BaseWallLocker = armário de parede
+    .desc = Uma unidade de armazenamento de nanotrasen de emissão padrão, agora nas paredes.
 

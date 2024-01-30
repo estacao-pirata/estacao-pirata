@@ -1,9 +1,9 @@
-ent-filingCabinet = filing cabinet
-    .desc = A cabinet for all your filing needs.
+ent-filingCabinet = Gabinete de arquivamento
+    .desc = Um gabinete para todas as suas necessidades de arquivamento.
 
-ent-filingCabinetTall = tall cabinet
-    .desc = A cabinet for all your filing needs.
+ent-filingCabinetTall = Gabinete alto
+    .desc = Um gabinete para todas as suas necessidades de arquivamento.
 
-ent-filingCabinetDrawer = chest drawer
-    .desc = A small drawer for all your filing needs, Now with wheels!
+ent-filingCabinetDrawer = Gaveta do peito
+    .desc = Uma pequena gaveta para todas as suas necessidades de arquivamento, agora com rodas!
 

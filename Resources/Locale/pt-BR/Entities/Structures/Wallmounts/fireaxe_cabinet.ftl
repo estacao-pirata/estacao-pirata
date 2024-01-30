@@ -1,15 +1,15 @@
-ent-FireAxeCabinet = fire axe cabinet
-    .desc = There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
+ent-FireAxeCabinet = gabinete de machado de arrombador
+    .desc = Existe uma pequena etiqueta que diz "apenas para uso de emergência", juntamente com detalhes para uso seguro do machado. Até parece.
 
-ent-FireAxeCabinetOpen = fire axe cabinet
-    .desc = There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
-    .suffix = Open
+ent-FireAxeCabinetOpen = gabinete de machado de arrombador
+    .desc = Existe uma pequena etiqueta que diz "apenas para uso de emergência", juntamente com detalhes para uso seguro do machado. Até parece.
+    .suffix = Abrir
 
-ent-FireAxeCabinetFilled = fire axe cabinet
-    .desc = There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
-    .suffix = Filled
+ent-FireAxeCabinetFilled = gabinete de machado de arrombador
+    .desc = Existe uma pequena etiqueta que diz "apenas para uso de emergência", juntamente com detalhes para uso seguro do machado. Até parece.
+    .suffix = Preenchida
 
-ent-FireAxeCabinetFilledOpen = fire axe cabinet
-    .desc = There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
-    .suffix = Filled, Open
+ent-FireAxeCabinetFilledOpen = gabinete de machado de arrombador
+    .desc = Existe uma pequena etiqueta que diz "apenas para uso de emergência", juntamente com detalhes para uso seguro do machado. Até parece.
+    .suffix = Cheio, aberto
 

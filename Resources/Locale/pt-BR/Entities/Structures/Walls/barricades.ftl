@@ -1,3 +1,3 @@
-ent-Barricade = barricade
+ent-Barricade = barricada
     .desc = { "" }
 

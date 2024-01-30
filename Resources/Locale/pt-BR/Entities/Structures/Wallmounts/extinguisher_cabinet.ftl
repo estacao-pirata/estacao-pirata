@@ -1,15 +1,14 @@
-ent-ExtinguisherCabinet = extinguisher cabinet
-    .desc = A small wall mounted cabinet designed to hold a fire extinguisher.
+ent-ExtinguisherCabinet = Gabinete extintor
+    .desc = Um pequeno gabinete montado na parede projetado para segurar um extintor de incêndio.
 
-ent-ExtinguisherCabinetOpen = extinguisher cabinet
-    .desc = A small wall mounted cabinet designed to hold a fire extinguisher.
-    .suffix = Open
+ent-ExtinguisherCabinetOpen = Gabinete extintor
+    .desc = Um pequeno gabinete montado na parede projetado para segurar um extintor de incêndio.
+    .suffix = Abrir
 
-ent-ExtinguisherCabinetFilled = extinguisher cabinet
-    .desc = A small wall mounted cabinet designed to hold a fire extinguisher.
-    .suffix = Filled
+ent-ExtinguisherCabinetFilled = Gabinete extintor
+    .desc = Um pequeno gabinete montado na parede projetado para segurar um extintor de incêndio.
+    .suffix = Preenchida
 
-ent-ExtinguisherCabinetFilledOpen = extinguisher cabinet
-    .desc = A small wall mounted cabinet designed to hold a fire extinguisher.
-    .suffix = Filled, Open
-
+ent-ExtinguisherCabinetFilledOpen = Gabinete extintor
+    .desc = Um pequeno gabinete montado na parede projetado para segurar um extintor de incêndio.
+    .suffix = Cheio, aberto

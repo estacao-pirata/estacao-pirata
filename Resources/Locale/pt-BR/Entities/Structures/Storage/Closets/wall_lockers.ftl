@@ -1,42 +1,41 @@
-ent-ClosetWall = maintenance wall closet
-    .desc = It's a storage unit.
+ent-ClosetWall = armário de parede de manutenção
+    .desc = É uma unidade de armazenamento.
 
-ent-ClosetWallEmergency = emergency wall closet
-    .desc = It's a storage unit for emergency breath masks and O2 tanks.
+ent-ClosetWallEmergency = armário de parede de emergência
+    .desc = É uma unidade de armazenamento para máscaras respiratórias de emergência e tanques de O2.
 
-ent-ClosetWallFire = fire-safety wall closet
-    .desc = It's a storage unit for fire-fighting supplies.
+ent-ClosetWallFire = armário de parede à prova de fogo
+    .desc = É uma unidade de armazenamento de suprimentos de combate a incêndio.
 
-ent-ClosetWallBlue = blue wall closet
-    .desc = A wardrobe packed with stylish blue clothing.
+ent-ClosetWallBlue = armário de parede azul
+    .desc = Um guarda-roupa repleto de roupas azuis elegantes.
 
-ent-ClosetWallPink = pink wall closet
-    .desc = A wardrobe packed with fabulous pink clothing.
+ent-ClosetWallPink = armário de parede rosa
+    .desc = Um guarda-roupa repleto de roupas rosa fabulosas.
 
-ent-ClosetWallBlack = black wall closet
-    .desc = A wardrobe packed with stylish black clothing.
+ent-ClosetWallBlack = armário de parede preto
+    .desc = Um guarda-roupa repleto de roupas pretas elegantes.
 
-ent-ClosetWallGreen = green wall closet
-    .desc = A wardrobe packed with stylish green clothing.
+ent-ClosetWallGreen = armário de parede verde
+    .desc = Um guarda-roupa repleto de roupas verdes elegantes.
 
-ent-ClosetWallOrange = prison wall closet
-    .desc = A wardrobe packed with stylish green clothing.
+ent-ClosetWallOrange = armário de parede da prisão
+    .desc = Um guarda-roupa repleto de roupas verdes elegantes.
 
-ent-ClosetWallYellow = yellow wall closet
-    .desc = A wardrobe packed with stylish yellow clothing.
+ent-ClosetWallYellow = armário de parede amarelo
+    .desc = Um guarda-roupa repleto de roupas amarelas elegantes.
 
-ent-ClosetWallWhite = white wall closet
-    .desc = A wardrobe packed with stylish white clothing.
+ent-ClosetWallWhite = armário de parede branco
+    .desc = Um guarda-roupa repleto de roupas brancas elegantes.
 
-ent-ClosetWallGrey = grey wall closet
-    .desc = A wardrobe packed with a tide of grey clothing.
+ent-ClosetWallGrey = armário de parede cinza
+    .desc = Um guarda-roupa repleto de roupas cinza.
 
-ent-ClosetWallMixed = mixed wall closet
-    .desc = A wardrobe packed with a mix of colorful clothing.
+ent-ClosetWallMixed = armário de parede mista
+    .desc = Um guarda-roupa repleto de um mix de roupas coloridas.
 
-ent-ClosetWallAtmospherics = atmospherics wall closet
-    .desc = A wardrobe packed with a mix of colorful clothing.
+ent-ClosetWallAtmospherics = armário de parede atmosférico
+    .desc =
 
-ent-LockerWallMedical = medical doctor's wall locker
-    .desc = A wardrobe packed with a mix of colorful clothing.
-
+ent-LockerWallMedical = armário de parede do médico
+    .desc =

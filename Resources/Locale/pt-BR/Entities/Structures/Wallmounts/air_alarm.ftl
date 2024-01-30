@@ -1,6 +1,6 @@
-ent-AirAlarm = air alarm
-    .desc = An air alarm. Alarms... air?
+ent-AirAlarm = Alarme do Ar
+    .desc = Um alarme de ar. Alarmes ... ar?
 
-ent-AirAlarmAssembly = air alarm assembly
-    .desc = An air alarm. Doesn't look like it'll be alarming air any time soon.
+ent-AirAlarmAssembly = conjunto de Alarme de Ar
+    .desc = Um alarme de ar.Não parece que será um ar alarmante em breve.
 

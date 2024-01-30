@@ -1,9 +1,9 @@
-ent-Railing = railing
-    .desc = Basic railing meant to protect idiots like you from falling.
+ent-Railing = trilhos
+    .desc = O trilho básico pretendia proteger os idiotas como você de cair.
 
-ent-RailingCorner = railing
-    .desc = Basic railing meant to protect idiots like you from falling.
+ent-RailingCorner = trilhos
+    .desc = O trilho básico pretendia proteger os idiotas como você de cair.
 
-ent-RailingCornerSmall = railing
-    .desc = Basic railing meant to protect idiots like you from falling.
+ent-RailingCornerSmall = trilhos
+    .desc = O trilho básico pretendia proteger os idiotas como você de cair.
 

@@ -1,6 +1,6 @@
-ent-Morgue = morgue
-    .desc = Used to store bodies until someone fetches them. Includes a high-tech alert system for false-positives!
+ent-Morgue = necrotério
+    .desc = Costumava armazenar corpos até que alguém os busque. Inclui um sistema de alerta de alta tecnologia para falsos positivos!
 
-ent-Crematorium = crematorium
-    .desc = A human incinerator. Works well on barbecue nights.
+ent-Crematorium = crematório
+    .desc = Um incinerador humano. Funciona bem nas noites de churrasco.
 
