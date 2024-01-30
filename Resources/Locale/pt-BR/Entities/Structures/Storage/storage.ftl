@@ -1,3 +1,3 @@
 ent-Rack = rack
-    .desc = A rack for storing things on.
+    .desc = Um rack para armazenar coisas.
 

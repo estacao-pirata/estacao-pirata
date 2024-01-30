@@ -1,12 +1,11 @@
-ent-Window = window
-    .desc = Don't smudge up the glass down there.
+ent-Window = janela
+    .desc = Não mancha o vidro lá embaixo.
 
-ent-WindowDirectional = directional window
-    .desc = Don't smudge up the glass down there.
+ent-WindowDirectional = janela direcional
+    .desc = Não mancha o vidro lá embaixo.
 
-ent-WindowTintedDirectional = directional tinted window
-    .desc = Don't smudge up the glass down there.
+ent-WindowTintedDirectional = janela direcionada
+    .desc = Não mancha o vidro lá embaixo.
 
-ent-WindowFrostedDirectional = directional frosted window
-    .desc = Don't smudge up the glass down there.
-
+ent-WindowFrostedDirectional = janela fosca direcional
+    .desc = Não mancha o vidro lá embaixo.

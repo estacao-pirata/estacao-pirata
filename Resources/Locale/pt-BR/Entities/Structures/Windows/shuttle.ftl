@@ -1,3 +1,3 @@
-ent-ShuttleWindow = shuttle window
+ent-ShuttleWindow = janela de transporte
     .desc = { "" }
 

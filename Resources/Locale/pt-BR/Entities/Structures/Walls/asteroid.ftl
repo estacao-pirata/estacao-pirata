@@ -1,8 +1,8 @@
-ent-AsteroidRock = asteroid rock
-    .desc = A rocky asteroid.
-    .suffix = Low Ore Yield
+ent-AsteroidRock = rocha asteróide
+    .desc = Um asteróide rochoso.
+    .suffix = baixo rendimento de minério
 
-ent-AsteroidRockMining = asteroid rock
-    .desc = An asteroid.
-    .suffix = higher ore yield
+ent-AsteroidRockMining = rocha asteróide
+    .desc = Um asteróide.
+    .suffix = maior rendimento de minério
 

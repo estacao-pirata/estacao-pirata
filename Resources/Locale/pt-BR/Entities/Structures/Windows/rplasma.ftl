@@ -1,6 +1,6 @@
-ent-ReinforcedPlasmaWindow = reinforced plasma window
+ent-ReinforcedPlasmaWindow = janela de plasma reforçada
     .desc = { "" }
 
-ent-PlasmaReinforcedWindowDirectional = directional reinforced plasma window
-    .desc = Don't smudge up the glass down there.
+ent-PlasmaReinforcedWindowDirectional = janela de plasma reforçada direcional
+    .desc = Não mancha o vidro lá embaixo.
 

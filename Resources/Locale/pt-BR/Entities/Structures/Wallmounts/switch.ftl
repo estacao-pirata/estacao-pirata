@@ -1,12 +1,12 @@
-ent-SignalSwitch = signal switch
-    .desc = It's a switch for toggling power to things.
+ent-SignalSwitch = interruptor de sinal
+    .desc = É uma mudança para alternar a energia das coisas.
 
-ent-SignalButton = signal button
-    .desc = It's a button for activating something.
+ent-SignalButton = botão de sinal
+    .desc = É um botão para ativar algo.
 
-ent-ApcNetSwitch = apc net switch
-    .desc = Its a switch for toggling lights that are connected to the same apc.
+ent-ApcNetSwitch = Switch Net APC
+    .desc = É um interruptor para alternar as luzes conectadas ao mesmo APC.
 
-ent-TwoWayLever = two way lever
-    .desc = A two way lever.
+ent-TwoWayLever = alavanca bidirecional
+    .desc = Uma alavanca de duas vias.
 

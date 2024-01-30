@@ -1,20 +1,20 @@
-ent-SignalButtonExt1 = exterior button 1
+ent-SignalButtonExt1 = Botão externo 1
     .desc = { "" }
     .suffix = Autolink, Ext1
 
-ent-SignalButtonExt2 = exterior button 2
+ent-SignalButtonExt2 = Botão externo 2
     .desc = { "" }
     .suffix = Autolink, Ext2
 
-ent-SignalButtonExt3 = exterior button 3
+ent-SignalButtonExt3 = Botão externo 3
     .desc = { "" }
     .suffix = Autolink, Ext3
 
-ent-SignalButtonBridge = bridge windows button
+ent-SignalButtonBridge = Botão das janelas da ponte
     .desc = { "" }
     .suffix = Autolink, Bridge
 
-ent-SignalButtonWindows = exterior windows button
+ent-SignalButtonWindows = Botão de janelas externas
     .desc = { "" }
     .suffix = Autolink, Windows
 

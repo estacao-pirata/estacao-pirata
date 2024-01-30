@@ -1,6 +1,6 @@
-ent-MountainRock = mountain rock
-    .desc = A craggy mountain wall.
+ent-MountainRock = rocha da montanha
+    .desc = Uma parede da montanha escarpada.
 
-ent-MountainRockMining = mountain rock
-    .desc = A craggy mountain wall.
+ent-MountainRockMining = rocha da montanha
+    .desc = Uma parede da montanha escarpada.
 

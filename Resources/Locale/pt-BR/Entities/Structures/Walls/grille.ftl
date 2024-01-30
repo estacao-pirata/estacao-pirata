@@ -1,6 +1,6 @@
-ent-Grille = grille
-    .desc = A flimsy framework of iron rods.
+ent-Grille = grade
+    .desc = Uma estrutura frágil de hastes de ferro.
 
-ent-GrilleBroken = grille
-    .desc = A flimsy framework of iron rods. It has seen better days.
+ent-GrilleBroken = grade quebrado
+    .desc = Uma estrutura frágil de hastes de ferro. Ele já viu dias melhores.
 
