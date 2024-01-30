@@ -208,7 +208,7 @@ ent-ClothingUniformJumpsuitOperative = macacão operativo
 ent-ClothingUniformJumpsuitAtmos = macacão técnico atmosférico
      .desc = estou no trabalho. Não posso sair do trabalho. O trabalho está respirando. Estou testando a qualidade do ar.
 
-ent-ClothingUniformJumpsuitPsicólogo = traje de psicólogo
+ent-ClothingUniformJumpsuitPsychologist = traje de psicólogo
      .desc=Eu não perco coisas. Coloco as coisas em locais que mais tarde me escapam.
 
 ent-ClothingUniformJumpsuitReporter = terno de repórter
@@ -217,10 +217,10 @@ ent-ClothingUniformJumpsuitReporter = terno de repórter
 ent-ClothingUniformJumpsuitJournalist = terno de jornalista
      .desc = Se o jornalismo é bom, é polêmico por natureza.
 
-ent-ClothingUniformMacacãoMonasticRobeDark = túnica monástica escura
+ent-ClothingUniformJumpsuitMonasticRobeDark = túnica monástica escura
      .desc = É um manto escuro, frequentemente usado por pessoas religiosas.
 
-ent-ClothingUniformMacacãoMonasticRobeLight = manto monástico leve
+ent-ClothingUniformJumpsuitMonasticRobeLight = manto monástico leve
      .desc = É um manto leve, frequentemente usado por pessoas religiosas.
 
 ent-ClothingUniformJumpsuitMusician = smoking do músico
