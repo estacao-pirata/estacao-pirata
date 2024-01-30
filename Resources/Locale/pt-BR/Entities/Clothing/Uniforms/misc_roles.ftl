@@ -1,6 +1,6 @@
-ent-UniformShortsRed = boxing shorts
-    .desc = These are shorts, not boxers.
+ent-UniformShortsRed = shorts de boxer
+    .desc = Estes são shorts, não boxers.
 
-ent-UniformShortsRedWithTop = boxing shorts with top
-    .desc = These are shorts, not boxers.
+ent-UniformShortsRedWithTop = shorts de boxer com topo
+    .desc = Estes são shorts, não boxers, com um topo.
 

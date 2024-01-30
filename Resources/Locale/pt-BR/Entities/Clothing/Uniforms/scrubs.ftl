@@ -1,9 +1,8 @@
-ent-UniformScrubsColorPurple = purple scrubs
-    .desc = A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+ent-UniformScrubsColorPurple = scrubs roxos
+    .desc = Uma combinação de conforto e utilidade destinada a tornar a remoção de todos os últimos órgãos que alguém tem e vendê -los para um robô espacial muito mais oficial.
 
-ent-UniformScrubsColorGreen = green scrubs
-    .desc = A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+ent-UniformScrubsColorGreen = scrubs verdes
+    .desc = Uma combinação de conforto e utilidade destinada a tornar a remoção de todos os últimos órgãos que alguém tem e vendê -los para um robô espacial muito mais oficial.
 
-ent-UniformScrubsColorBlue = blue scrubs
-    .desc = A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
-
+ent-UniformScrubsColorBlue = scrubs azuis
+    .desc = Uma combinação de conforto e utilidade destinada a tornar a remoção de todos os últimos órgãos que alguém tem e vendê -los para um robô espacial muito mais oficial.

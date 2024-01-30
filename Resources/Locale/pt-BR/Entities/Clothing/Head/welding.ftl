@@ -1,4 +1,4 @@
-ent-WeldingMaskBase = welding mask
+ent-WeldingMaskBase = máscara de solda
     .desc = { "" }
 
 ent-ClothingHeadHatWelding = máscara de solda

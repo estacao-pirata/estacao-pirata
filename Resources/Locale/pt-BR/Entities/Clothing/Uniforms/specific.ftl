@@ -1,4 +1,3 @@
-ent-ClothingUniformJumpsuitChameleon = black jumpsuit
-    .desc = A generic black jumpsuit with no rank markings.
-    .suffix = Chameleon
-
+ent-ClothingUniformJumpsuitChameleon = saia preto
+    .desc = Uma saia preto genérico sem marcas de classificação.
+    .suffix = Camaleão

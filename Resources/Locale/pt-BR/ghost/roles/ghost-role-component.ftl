@@ -47,7 +47,7 @@ ghost-role-information-monkey-description = Ook ook!
 ghost-role-information-kobold-name = Kobold
 ghost-role-information-kobold-description = Seja o pequeno duende que você é, grite com as pessoas e implore por carne!
 
-ghost-role-information-rat-king-name = Rat King
+ghost-role-information-rat-king-name = Rato Rei
 ghost-role-information-rat-king-description = Você é o Rei dos Ratos, colete comida para produzir lacaios de ratos para cumprir suas ordens.
 ghost-role-information-rat-king-rules = Você é um antagonista, vasculhe, ataque e aumente seu tesouro!
 
@@ -116,7 +116,7 @@ ghost-role-information-salvage-flesh-name = Carne Anormal em Naufrágio de Salva
 ghost-role-information-salvage-flesh-description = Defenda o saque dentro do naufrágio de salvamento!
 
 ghost-role-information-tropico-name = Tropico
-ghost-role-information-tropico-description = The noble companion of Atmosia, and its most stalwart defender. Viva!
+ghost-role-information-tropico-description = O nobre companheiro da Atmosia e seu mais defensor mais robusto. Viva!
 
 ghost-role-information-guardian-name = Guardião
 ghost-role-information-guardian-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
@@ -130,7 +130,7 @@ ghost-role-information-holoclown-description = Ouça o seu dono. Utilize seus bo
 ghost-role-information-ifrit-name = Ifrit
 ghost-role-information-ifrit-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
 
-ghost-role-information-space-dragon-name = Space dragon
+ghost-role-information-space-dragon-name = Dragão Espacial
 ghost-role-information-space-dragon-description = Chame 3 rifts de carpas e domine esse quadrante! Você tem apenas 5 minutos entre cada fenda antes de desaparecer.
 ghost-role-information-space-dragon-dungeon-description = Defenda a masmorra da expedição com seus companheiros escamosos!
 
@@ -173,15 +173,15 @@ ghost-role-information-ert-security-description = Auxiliar nos esforços de segu
 ghost-role-information-ert-medical-name = ERT Medical
 ghost-role-information-ert-medical-description = Auxiliar nos esforços médicos para resolver os problemas das estações.
 
-ghost-role-information-cburn-agent-name = CBURN Agent
+ghost-role-information-cburn-agent-name = Agente de CBURN
 ghost-role-information-cburn-agent-description = Um agente CentCom altamente treinado, capaz de lidar com várias ameaças.
 
-ghost-role-information-centcom-official-name = CentCom official
+ghost-role-information-centcom-official-name = oficial do CentCom
 ghost-role-information-centcom-official-description = Desempenhar funções relacionadas ao CentComm, como inspecionar a estação, anotar avaliações de desempenho para chefes de equipe e gerenciar o aparelho de fax.
 
-ghost-role-information-nukeop-rules = You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
+ghost-role-information-nukeop-rules = Você é um operador de sindicato encarregado da destruição da estação. Como antagonista, faça o que for necessário para concluir esta tarefa.
 
-ghost-role-information-loneop-name = Lone Operative
+ghost-role-information-loneop-name = Operativo solitário
 ghost-role-information-loneop-description = Você é um agente nuclear solitário. Destrua a estação!
 ghost-role-information-loneop-rules = Você é um agente do sindicato encarregado de destruir a estação. Como antagonista, faça o que for necessário para completar esta tarefa.
 
@@ -191,10 +191,10 @@ ghost-role-information-behonker-description = Você é um antagonista, traga a m
 ghost-role-information-hellspawn-name = Hellspawn
 ghost-role-information-hellspawn-description = Você é um antagonista, trazendo a morte àqueles que não seguem o grande deus Nar'Sie.
 
-ghost-role-information-Death-Squad-name = Death Squad Operative
+ghost-role-information-Death-Squad-name = Esquadrão da Morte
 ghost-role-information-Death-Squad-description = Um dos principais agentes de assuntos internos da Nanotrasen. Aguarde ordens do CentComm ou de um oficial.
 
-ghost-role-information-SyndiCat-name = SyndiCat
+ghost-role-information-SyndiCat-name = SindiGato
 ghost-role-information-SyndiCat-description = Você é o fiel animal treinado dos operativos nucleares com uma microbomba. Sirva seu mestre até a morte!
 ghost-role-information-SyndiCat-rules = Você é o fiel animal treinado dos operativos nucleares com uma microbomba. Sirva seu mestre até a morte!
 
@@ -202,7 +202,7 @@ ghost-role-information-Cak-name = Cak
 ghost-role-information-Cak-description = Você é o filho favorito do chef. Você é gato-bolo vivo.
 ghost-role-information-Cak-rules = Você é um doce gato vivo e comestível. Sua tarefa é encontrar o seu lugar neste mundo onde tudo quer te comer.
 
-ghost-role-information-BreadDog-name = BreadDog
+ghost-role-information-BreadDog-name = Cão-Pão
 ghost-role-information-BreadDog-description = Você é o filho favorito do chef. Você é um cachorro de pão vivo.
 ghost-role-information-BreadDog-rules = Você é um cachorro de pão comestível. Sua tarefa é encontrar seu lugar neste mundo onde tudo quer te devorar.
 

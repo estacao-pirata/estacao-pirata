@@ -1,228 +1,227 @@
-ent-ClothingUniformJumpsuitAncient = ancient jumpsuit
-    .desc = A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+ent-ClothingUniformJumpsuitAncient = macacão antigo
+    .desc = Um macacão cinza terrivelmente irregular e desgastado.Parece que não foi lavado há mais de uma década.
 
-ent-ClothingUniformJumpsuitBartender = bartender's uniform
-    .desc = A nice and tidy uniform. Shame about the bar though.
+ent-ClothingUniformJumpsuitBartender = uniforme do barman
+    .desc = Um uniforme agradável e arrumado. Que vergonha sobre o bar, embora.
 
-ent-ClothingUniformJumpsuitBartenderPurple = purple bartender's uniform
-    .desc = A special purple outfit to serve drinks.
+ent-ClothingUniformJumpsuitBartenderPurple = uniforme roxo do bartender
+     .desc = Uma roupa roxa especial para servir bebidas.
 
-ent-ClothingUniformJumpsuitCaptain = captain's jumpsuit
-    .desc = It's a blue jumpsuit with some gold markings denoting the rank of "Captain".
+ent-ClothingUniformJumpsuitCaptain = macacão de capitão
+     .desc = É um macacão azul com algumas marcas douradas denotando o posto de "Capitão".
 
-ent-ClothingUniformJumpsuitCargo = cargo tech jumpsuit
-    .desc = A sturdy jumpsuit, issued to members of the Cargo department.
+ent-ClothingUniformJumpsuitCargo = macacão cargo tech
+     .desc = Um macacão resistente, concedido aos membros do departamento de Carga.
 
-ent-ClothingUniformJumpsuitSalvageSpecialist = salvage specialist's jumpsuit
-    .desc = It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
+ent-ClothingUniformJumpsuitSalvageSpecialist = macacão de especialista em salvamento
+     .desc = É um macacão elegante com um macacão resistente. Está muito sujo.
 
-ent-ClothingUniformJumpsuitChiefEngineer = chief engineer's jumpsuit
-    .desc = It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of Chief Engineer. It has minor radiation shielding.
+ent-ClothingUniformJumpsuitChiefEngineer = macacão do engenheiro-chefe
+     .desc = É um macacão de alta visibilidade dado àqueles engenheiros loucos o suficiente para alcançar o posto de Engenheiro Chefe. Possui pequena proteção contra radiação.
 
-ent-ClothingUniformJumpsuitChaplain = chaplain's jumpsuit
-    .desc = It's a black jumpsuit, often worn by religious folk.
+ent-ClothingUniformJumpsuitChaplain = macacão de capelão
+     .desc = É um macacão preto, muito usado por pessoas religiosas.
 
-ent-ClothingUniformJumpsuitCentcomOfficial = CentCom official's jumpsuit
-    .desc = It's a jumpsuit worn by CentCom's officials.
+ent-ClothingUniformJumpsuitCentcomOfficial = macacão oficial do CentCom
+     .desc = É um macacão usado pelos dirigentes do CentCom.
 
-ent-ClothingUniformJumpsuitCentcomOfficer = CentCom officer's jumpsuit
-    .desc = It's a jumpsuit worn by CentCom Officers.
+ent-ClothingUniformJumpsuitCentcomOfficer = macacão de oficial do CentCom
+     .desc = É um macacão usado pelos Oficiais do CentCom.
 
-ent-ClothingUniformJumpsuitChef = chef uniform
-    .desc = Can't cook without this.
+ent-ClothingUniformJumpsuitChef = uniforme de chef
+     .desc = Não consigo cozinhar sem isso.
 
-ent-ClothingUniformJumpsuitChemistry = chemistry jumpsuit
-    .desc = There's some odd stains on this jumpsuit. Hm.
+ent-ClothingUniformJumpsuitChemistry = macacão de química
+     .desc = Há algumas manchas estranhas neste macacão. Hum.
 
-ent-ClothingUniformJumpsuitClown = clown suit
-    .desc = HONK!
+ent-ClothingUniformJumpsuitClown = traje de palhaço
+     .desc = HONK!
 
-ent-ClothingUniformJumpsuitCMO = chief medical officer's jumpsuit
-    .desc = It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+ent-ClothingUniformJumpsuitCMO = macacão do médico chefe
+     .desc = É um macacão usado por quem tem experiência para ser Diretor Médico. Fornece proteção biológica menor.
 
-ent-ClothingUniformJumpsuitDetective = hard-worn suit
-    .desc = Someone who wears this means business.
+ent-ClothingUniformJumpsuitDetective = terno muito usado
+     .desc = Alguém que usa isso significa negócios.
 
-ent-ClothingUniformJumpsuitDetectiveGrey = noir suit
-    .desc = A hard-boiled private investigator's grey suit, complete with tie clip.
+ent-ClothingUniformJumpsuitDetectiveGrey = terno noir
+     .desc = Um terno cinza de investigador particular, completo com prendedor de gravata.
 
-ent-ClothingUniformJumpsuitEngineering = engineering jumpsuit
-    .desc = If this suit was non-conductive, maybe engineers would actually do their damn job.
+ent-ClothingUniformJumpsuitEngineering = macacão de engenharia
+     .desc = Se este traje não fosse condutor, talvez os engenheiros realmente fizessem seu maldito trabalho.
 
-ent-ClothingUniformJumpsuitEngineeringHazard = hazard jumpsuit
-    .desc = Woven in a grungy, warm orange. Lets others around you know that you really mean business when it comes to work.
+ent-ClothingUniformJumpsuitEngineeringHazard = macacão de perigo
+     .desc = Tecido em um laranja quente e sujo. Permite que outras pessoas ao seu redor saibam que você realmente fala sério quando se trata de trabalho.
 
-ent-ClothingUniformJumpsuitHoP = head of personnel's jumpsuit
-    .desc = Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+ent-ClothingUniformJumpsuitHoP = macacão do chefe de funcionários
+     .desc = Bastante brando e inofensivo. Perfeito para desaparecer da face do universo.
 
-ent-ClothingUniformJumpsuitHoS = head of security's jumpsuit
-    .desc = It's bright red and rather crisp, much like security's victims tend to be.
+ent-ClothingUniformJumpsuitHoS = macacão do chefe de segurança
+     .desc = É vermelho brilhante e bastante nítido, assim como as vítimas de segurança tendem a ser.
 
-ent-ClothingUniformJumpsuitHoSAlt = head of security's turtleneck
-    .desc = It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security. Its sturdy fabric provides minor protection from mechanical damage.
+ent-ClothingUniformJumpsuitHoSAlt = gola alta do chefe de segurança
+     .desc = É uma gola alta usada por quem é forte e disciplinado o suficiente para alcançar o cargo de Chefe de Segurança. Seu tecido resistente oferece menor proteção contra danos mecânicos.
 
-ent-ClothingUniformJumpsuitHoSBlue = head of security's blue jumpsuit
-    .desc = A blue jumpsuit of Head of Security.
+ent-ClothingUniformJumpsuitHoSBlue = macacão azul do chefe de segurança
+     .desc = Um macacão azul do Chefe de Segurança.
 
-ent-ClothingUniformJumpsuitHoSGrey = head of security's grey jumpsuit
-    .desc = A grey jumpsuit of Head of Security, which make him look somewhat like a passenger.
+ent-ClothingUniformJumpsuitHoSGrey = macacão cinza do chefe de segurança
+     .desc = Macacão cinza do Chefe de Segurança, que o faz parecer um passageiro.
 
-ent-ClothingUniformJumpsuitHoSParadeMale = head of security's parade uniform
-    .desc = A male head of security's luxury-wear, for special occasions.
+ent-ClothingUniformJumpsuitHoSParadeMale = uniforme de desfile do chefe da segurança
+     .desc = Um chefe masculino de roupas de luxo da segurança, para ocasiões especiais.
 
-ent-ClothingUniformJumpsuitHydroponics = hydroponics jumpsuit
-    .desc = Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
+ent-ClothingUniformJumpsuitHydroponics = macacão hidropônico
+     .desc = Tem um forte cheiro de terra. Esperançosamente, está apenas sujo, em vez de sujo.
 
-ent-ClothingUniformJumpsuitJanitor = janitor jumpsuit
-    .desc = The jumpsuit for the poor sop with a mop.
+ent-ClothingUniformJumpsuitJanitor = macacão de zelador
+     .desc = O macacão para o pobre coitado com esfregão.
 
-ent-ClothingUniformJumpsuitMedicalDoctor = medical doctor jumpsuit
-    .desc = It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
+ent-ClothingUniformJumpsuitMedicalDoctor = macacão de médico
+     .desc = É feito de uma fibra especial que oferece menor proteção contra riscos biológicos. Possui uma cruz no peito indicando que o usuário é um pessoal médico treinado.
 
-ent-ClothingUniformJumpsuitMime = mime suit
-    .desc = ...
+ent-ClothingUniformJumpsuitMime = traje de mímica
+     .desc = ...
 
-ent-ClothingUniformJumpsuitParamedic = paramedic jumpsuit
-    .desc = It's got a plus on it, that's a good thing right?
+ent-ClothingUniformJumpsuitParamedic = macacão de paramédico
+     .desc = Tem uma vantagem, isso é uma coisa boa, certo?
 
-ent-ClothingUniformJumpsuitPrisoner = prisoner jumpsuit
-    .desc = Busted.
+ent-ClothingUniformJumpsuitPrisoner = macacão de prisioneiro
+     .desc = Preso.
 
-ent-ClothingUniformJumpsuitQM = quartermaster's jumpsuit
-    .desc = What can brown do for you?
+ent-ClothingUniformJumpsuitQM = macacão de intendente
+     .desc = O que o marrom pode fazer por você?
 
-ent-ClothingUniformJumpsuitResearchDirector = research director's turtleneck
-    .desc = It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+ent-ClothingUniformJumpsuitResearchDirector = gola alta do diretor de pesquisa
+     .desc = É uma gola alta usada por quem tem know-how para alcançar o cargo de Diretor de Pesquisa. Seu tecido oferece menor proteção contra contaminantes biológicos.
 
-ent-ClothingUniformJumpsuitScientist = scientist jumpsuit
-    .desc = It's made of a special fiber that provides minor protection against explosives. It has markings that denote the wearer as a scientist.
+ent-ClothingUniformJumpsuitScientist = macacão de cientista
+     .desc = É feito de uma fibra especial que oferece menor proteção contra explosivos. Possui marcações que denotam o usuário como um cientista.
 
-ent-ClothingUniformJumpsuitSec = security jumpsuit
-    .desc = A jumpsuit made of strong material, providing robust protection.
+ent-ClothingUniformJumpsuitSec = macacão de segurança
+     .desc = Um macacão feito de material resistente, proporcionando proteção robusta.
 
-ent-ClothingUniformJumpsuitSecBlue = blue shirt and tie
-    .desc = I'm a little busy right now, Calhoun.
+ent-ClothingUniformJumpsuitSecBlue = camisa e gravata azuis
+     .desc = Estou um pouco ocupado agora, Calhoun.
 
-ent-ClothingUniformJumpsuitSecGrey = grey security jumpsuit
-    .desc = A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+ent-ClothingUniformJumpsuitSecGrey = macacão de segurança cinza
+     .desc = Uma relíquia tática de anos anteriores, antes de Nanotrasen decidir que era mais barato tingir os trajes de vermelho em vez de lavar o sangue.
 
-ent-ClothingUniformJumpsuitWarden = warden's uniform
-    .desc = A formal security suit for officers complete with Nanotrasen belt buckle.
+ent-ClothingUniformJumpsuitWarden = uniforme do carceiro
+     .desc = Um traje de segurança formal para oficiais completo com fivela de cinto Nanotrasen.
 
-ent-ClothingUniformJumpsuitColorGrey = grey jumpsuit
-    .desc = A tasteful grey jumpsuit that reminds you of the good old days.
+ent-ClothingUniformJumpsuitColorGrey = macacão cinza
+     .desc = Um macacão cinza de bom gosto que lembra os bons velhos tempos.
 
-ent-ClothingUniformJumpsuitColorBlack = black jumpsuit
-    .desc = A generic black jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorBlack = macacão preto
+     .desc = Um macacão preto genérico sem marcações de classificação.
 
-ent-ClothingUniformJumpsuitColorBlue = blue jumpsuit
-    .desc = A generic blue jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorBlue = macacão azul
+     .desc = Um macacão azul genérico sem marcações de classificação.
 
-ent-ClothingUniformJumpsuitColorGreen = green jumpsuit
-    .desc = A generic green jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorGreen = macacão verde
+     .desc = Um macacão verde genérico sem marcações de classificação.
 
-ent-ClothingUniformJumpsuitColorOrange = orange jumpsuit
-    .desc = Don't wear this near paranoid security officers.
+ent-ClothingUniformJumpsuitColorOrange = macacão laranja
+     .desc = Não use isso perto de agentes de segurança paranóicos.
 
-ent-ClothingUniformJumpsuitColorPink = pink jumpsuit
-    .desc = Just looking at this makes you feel fabulous.
+ent-ClothingUniformJumpsuitColorPink = macacão rosa
+     .desc = Só de olhar para isso você se sente fabuloso.
 
-ent-ClothingUniformJumpsuitColorRed = red jumpsuit
-    .desc = A generic red jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorRed = macacão vermelho
+     .desc = Um macacão vermelho genérico sem marcações de classificação.
 
-ent-ClothingUniformJumpsuitColorWhite = white jumpsuit
-    .desc = A generic white jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorWhite = macacão branco
+     .desc = Um macacão branco genérico sem marcações de classificação.
 
-ent-ClothingUniformJumpsuitColorYellow = yellow jumpsuit
-    .desc = A generic yellow jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorYellow = macacão amarelo
+     .desc = Um macacão amarelo genérico sem marcações de classificação.
 
-ent-ClothingUniformJumpsuitColorDarkBlue = dark blue jumpsuit
-    .desc = A generic dark blue jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorDarkBlue = macacão azul escuro
+     .desc = Um macacão azul escuro genérico sem marcas de classificação.
 
-ent-ClothingUniformJumpsuitColorTeal = teal jumpsuit
-    .desc = A generic teal jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorTeal = macacão azul-petróleo
+     .desc = Um macacão azul-petróleo genérico sem marcações de classificação.
 
-ent-ClothingUniformJumpsuitColorPurple = purple jumpsuit
-    .desc = A generic purple jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorPurple = macacão roxo
+     .desc = Um macacão roxo genérico sem marcações de classificação.
 
-ent-ClothingUniformJumpsuitColorDarkGreen = dark green jumpsuit
-    .desc = A generic dark green jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorDarkGreen = macacão verde escuro
+     .desc = Um macacão verde escuro genérico sem marcas de classificação.
 
-ent-ClothingUniformJumpsuitColorLightBrown = light brown jumpsuit
-    .desc = A generic light brown jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorLightBrown = macacão marrom claro
+     .desc = Um macacão marrom claro genérico sem marcas de classificação.
 
-ent-ClothingUniformJumpsuitColorBrown = brown jumpsuit
-    .desc = A generic brown jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorBrown = macacão marrom
+     .desc = Um macacão marrom genérico sem marcas de classificação.
 
-ent-ClothingUniformJumpsuitColorMaroon = maroon jumpsuit
-    .desc = A generic maroon jumpsuit with no rank markings.
+ent-ClothingUniformJumpsuitColorMaroon = macacão marrom
+     .desc = Um macacão marrom genérico sem marcações de classificação.
 
-ent-ClothingUniformColorRainbow = rainbow jumpsuit
-    .desc = A multi-colored jumpsuit!
+ent-ClothingUniformColorRainbow = macacão arco-íris
+     .desc = Um macacão multicolorido!
 
-ent-ClothingUniformOveralls = overalls
-    .desc = Great for working outdoors.
+ent-ClothingUniformOveralls = macacão
+     .desc = Ótimo para trabalhar ao ar livre.
 
-ent-ClothingUniformJumpsuitLibrarian = librarian jumpsuit
-    .desc = A cosy green jumper fit for a curator of books.
+ent-ClothingUniformJumpsuitLibrarian = macacão de bibliotecário
+     .desc = Um suéter verde aconchegante, adequado para um curador de livros.
 
-ent-ClothingUniformJumpsuitLawyerRed = red lawyer suit
-    .desc = A flashy red suit worn by lawyers and show-offs.
+ent-ClothingUniformJumpsuitLawyerRed = terno de advogado vermelho
+     .desc = Um terno vermelho chamativo usado por advogados e exibicionistas.
 
-ent-ClothingUniformJumpsuitLawyerBlue = blue lawyer suit
-    .desc = A flashy blue suit worn by lawyers and show-offs.
+ent-ClothingUniformJumpsuitLawyerBlue = terno de advogado azul
+     .desc = Um terno azul chamativo usado por advogados e exibicionistas.
 
-ent-ClothingUniformJumpsuitLawyerBlack = black lawyer suit
-    .desc = A subtle black suit worn by lawyers and gangsters.
+ent-ClothingUniformJumpsuitLawyerBlack = terno preto de advogado
+     .desc = Um terno preto sutil usado por advogados e gangsters.
 
-ent-ClothingUniformJumpsuitLawyerPurple = purple lawyer suit
-    .desc = A stylish purple piece worn by lawyers and show people.
+ent-ClothingUniformJumpsuitLawyerPurple = terno de advogado roxo
+     .desc = Uma elegante peça roxa usada por advogados e pessoas de espetáculos.
 
-ent-ClothingUniformJumpsuitLawyerGood = good lawyer's suit
-    .desc = A tacky suit perfect for a CRIMINAL lawyer!
+ent-ClothingUniformJumpsuitLawyerGood = terno de bom advogado
+     .desc = Um terno cafona perfeito para um advogado CRIMINAL!
 
-ent-ClothingUniformJumpsuitPyjamaSyndicateBlack = black syndicate pyjamas
-    .desc = For those long nights in perma.
+ent-ClothingUniformJumpsuitPyjamaSyndicateBlack = pijama preto do sindicato
+     .desc = Para aquelas longas noites em permanente.
 
-ent-ClothingUniformJumpsuitPyjamaSyndicatePink = pink syndicate pyjamas
-    .desc = For those long nights in perma.
+ent-ClothingUniformJumpsuitPyjamaSyndicatePink = pijama sindicato rosa
+     .desc = Para aquelas longas noites em permanente.
 
-ent-ClothingUniformJumpsuitPyjamaSyndicateRed = red syndicate pyjamas
-    .desc = For those long nights in perma.
+ent-ClothingUniformJumpsuitPyjamaSyndicateRed = pijama vermelho do sindicato
+     .desc = Para aquelas longas noites em permanente.
 
-ent-ClothingUniformJumpsuitNanotrasen = nanotrasen jumpsuit
-    .desc = A stately blue jumpsuit to represent NanoTrasen.
+ent-ClothingUniformJumpsuitNanotrasen = macacão nanotrasen
+     .desc = Um imponente macacão azul para representar o NanoTrasen.
 
-ent-ClothingUniformJumpsuitCapFormal = captain's formal suit
-    .desc = A suit for special occasions.
+ent-ClothingUniformJumpsuitCapFormal = terno formal do capitão
+     .desc = Um terno para ocasiões especiais.
 
-ent-ClothingUniformJumpsuitCentcomFormal = central command formal suit
-    .desc = A suit for special occasions.
+ent-ClothingUniformJumpsuitCentcomFormal = traje formal de comando central
+     .desc = Um terno para ocasiões especiais.
 
-ent-ClothingUniformJumpsuitHosFormal = hos's formal suit
-    .desc = A suit for special occasions.
+ent-ClothingUniformJumpsuitHosFormal = terno formal de hos
+     .desc = Um terno para ocasiões especiais.
 
-ent-ClothingUniformJumpsuitOperative = operative jumpsuit
-    .desc = Uniform for elite syndicate operatives performing tactical operations in deep space.
+ent-ClothingUniformJumpsuitOperative = macacão operativo
+     .desc = Uniforme para agentes de sindicatos de elite realizando operações táticas no espaço profundo.
 
-ent-ClothingUniformJumpsuitAtmos = atmosheric technician jumpsuit
-    .desc = I am at work. I can't leave work. Work is breathing. I am testing air quality.
+ent-ClothingUniformJumpsuitAtmos = macacão técnico atmosférico
+     .desc = estou no trabalho. Não posso sair do trabalho. O trabalho está respirando. Estou testando a qualidade do ar.
 
-ent-ClothingUniformJumpsuitPsychologist = psychologist suit
-    .desc = I don't lose things. I place things in locations which later elude me.
+ent-ClothingUniformJumpsuitPsicólogo = traje de psicólogo
+     .desc=Eu não perco coisas. Coloco as coisas em locais que mais tarde me escapam.
 
-ent-ClothingUniformJumpsuitReporter = reporter suit
-    .desc = A good reporter remains a skeptic all their life.
+ent-ClothingUniformJumpsuitReporter = terno de repórter
+     .desc = Um bom repórter permanece cético por toda a vida.
 
-ent-ClothingUniformJumpsuitJournalist = journalist suit
-    .desc = If journalism is good, it is controversial, by nature.
+ent-ClothingUniformJumpsuitJournalist = terno de jornalista
+     .desc = Se o jornalismo é bom, é polêmico por natureza.
 
-ent-ClothingUniformJumpsuitMonasticRobeDark = dark monastic robe
-    .desc = It's a dark robe, often worn by religious folk.
+ent-ClothingUniformMacacãoMonasticRobeDark = túnica monástica escura
+     .desc = É um manto escuro, frequentemente usado por pessoas religiosas.
 
-ent-ClothingUniformJumpsuitMonasticRobeLight = light monastic robe
-    .desc = It's a light robe, often worn by religious folk.
+ent-ClothingUniformMacacãoMonasticRobeLight = manto monástico leve
+     .desc = É um manto leve, frequentemente usado por pessoas religiosas.
 
-ent-ClothingUniformJumpsuitMusician = musician's tuxedo
-    .desc = A fancy tuxedo for the musically inclined.  Perfect for any lounge act!
-
+ent-ClothingUniformJumpsuitMusician = smoking do músico
+     .desc = Um smoking chique para quem gosta de música. Perfeito para qualquer ato lounge!
