@@ -26,10 +26,8 @@ ent-WardrobeMixed = guarda-roupa misto
     .desc = Um guarda-roupa repleto de um mix de roupas coloridas.
 
 ent-WardrobeSecurity = guarda-roupa de segurança
-    .desc =
 
 ent-WardrobeAtmospherics = guarda-roupa atmosférico
-    .desc =
 
 ent-ClosetJanitor = armário de custódia
     .desc = É um depósito para roupas e equipamentos de limpeza.
@@ -47,32 +45,23 @@ ent-ClosetLegal = armário jurídico
     .desc = É uma unidade de armazenamento para roupas e itens do tribunal.
 
 ent-WardrobeCargo = guarda-roupa de carga
-    .desc =
 
 ent-WardrobeSalvage = guarda-roupa de salvamento
     .desc = Notavelmente não recuperado.
 
 ent-WardrobeEngineering = guarda-roupa de engenharia
-    .desc =
 
 ent-WardrobeMedicalDoctor = guarda-roupa do médico
-    .desc =
 
 ent-WardrobeRobotics = guarda-roupa robótico
-    .desc =
 
 ent-WardrobeChemistry = guarda-roupa de química
-    .desc =
 
 ent-WardrobeGenetics = guarda-roupa genético
-    .desc =
 
 ent-WardrobeVirology = guarda-roupa de virologia
-    .desc =
 
 ent-WardrobeScience = guarda-roupa científico
-    .desc =
 
 ent-WardrobeBotanist = guarda-roupa botânico
-    .desc =
 

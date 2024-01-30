@@ -4,7 +4,7 @@ station-map-user-interface-flavor-right = v1.42
 
 nav-beacon-window-title = Sinalizador de estação
 nav-beacon-toggle-visible = Visível
-nav-beacon-toggle-invisível = Invisível
+nav-beacon-toggle-invisible = Invisível
 nav-beacon-text-label = Rótulo:
 nav-beacon-button-apply = Aplicar
 nav-beacon-examine-text = É [color={$enabled ->
