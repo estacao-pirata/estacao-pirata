@@ -1,9 +1,9 @@
-ent-ReinforcedWindow = reinforced window
+ent-ReinforcedWindow = janela reforçada
     .desc = { "" }
 
-ent-TintedWindow = tinted window
+ent-TintedWindow = janela colorida
     .desc = { "" }
 
-ent-WindowReinforcedDirectional = directional reinforced window
-    .desc = Don't smudge up the glass down there.
+ent-WindowReinforcedDirectional = janela reforçada direcional
+    .desc = Não mancha o vidro lá embaixo.
 

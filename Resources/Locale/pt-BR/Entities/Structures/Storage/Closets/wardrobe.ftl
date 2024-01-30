@@ -1,78 +1,78 @@
-ent-WardrobeBlue = blue wardrobe
-    .desc = A wardrobe packed with stylish blue clothing.
+ent-WardrobeBlue = guarda-roupa azul
+    .desc = Um guarda-roupa repleto de roupas azuis elegantes.
 
-ent-WardrobePink = pink wardrobe
-    .desc = A wardrobe packed with fabulous pink clothing.
+ent-WardrobePink = guarda-roupa rosa
+    .desc = Um guarda-roupa repleto de roupas rosa fabulosas.
 
-ent-WardrobeBlack = black wardrobe
-    .desc = A wardrobe packed with stylish black clothing.
+ent-WardrobeBlack = guarda-roupa preto
+    .desc = Um guarda-roupa repleto de roupas pretas elegantes.
 
-ent-WardrobeGreen = green wardrobe
-    .desc = A wardrobe packed with stylish green clothing.
+ent-WardrobeGreen = guarda-roupa verde
+    .desc = Um guarda-roupa repleto de roupas verdes elegantes.
 
-ent-WardrobePrison = prison wardrobe
-    .desc = A wardrobe packed with stylish green clothing.
+ent-WardrobePrison = guarda-roupa da prisão
+    .desc = Um guarda-roupa repleto de roupas verdes elegantes.
 
-ent-WardrobeYellow = yellow wardrobe
-    .desc = A wardrobe packed with stylish yellow clothing.
+ent-WardrobeYellow = guarda-roupa amarelo
+    .desc = Um guarda-roupa repleto de roupas amarelas elegantes.
 
-ent-WardrobeWhite = white wardrobe
-    .desc = A wardrobe packed with stylish white clothing.
+ent-WardrobeWhite = guarda-roupa branco
+    .desc = Um guarda-roupa repleto de roupas brancas elegantes.
 
-ent-WardrobeGrey = grey wardrobe
-    .desc = A wardrobe packed with a tide of grey clothing.
+ent-WardrobeGrey = guarda-roupa cinza
+    .desc = Um guarda-roupa repleto de roupas cinza.
 
-ent-WardrobeMixed = mixed wardrobe
-    .desc = A wardrobe packed with a mix of colorful clothing.
+ent-WardrobeMixed = guarda-roupa misto
+    .desc = Um guarda-roupa repleto de um mix de roupas coloridas.
 
-ent-WardrobeSecurity = security wardrobe
-    .desc = A wardrobe packed with a mix of colorful clothing.
+ent-WardrobeSecurity = guarda-roupa de segurança
+    .desc =
 
-ent-WardrobeAtmospherics = atmospherics wardrobe
-    .desc = A wardrobe packed with a mix of colorful clothing.
+ent-WardrobeAtmospherics = guarda-roupa atmosférico
+    .desc =
 
-ent-ClosetJanitor = custodial closet
-    .desc = It's a storage unit for janitorial clothes and gear.
+ent-ClosetJanitor = armário de custódia
+    .desc = É um depósito para roupas e equipamentos de limpeza.
 
-ent-WardrobeFormal = formal closet
-    .desc = It's a storage unit for formal clothing.
+ent-WardrobeFormal = armário formal
+    .desc = É um depósito para roupas formais.
 
-ent-ClosetChef = chef's closet
-    .desc = It's a storage unit for foodservice garments and mouse traps.
+ent-ClosetChef = armário do chef
+    .desc = É uma unidade de armazenamento para roupas de alimentação e ratoeiras.
 
-ent-WardrobeChapel = chaplain's wardrobe
-    .desc = It's a storage unit for Nanotrasen-approved religious attire.
+ent-WardrobeChapel = guarda-roupa do capelão
+    .desc = É uma unidade de armazenamento para trajes religiosos aprovados pela Nanotrasen.
 
-ent-ClosetLegal = legal closet
-    .desc = It's a storage unit for courtroom apparel and items.
+ent-ClosetLegal = armário jurídico
+    .desc = É uma unidade de armazenamento para roupas e itens do tribunal.
 
-ent-WardrobeCargo = cargo wardrobe
-    .desc = It's a storage unit for courtroom apparel and items.
+ent-WardrobeCargo = guarda-roupa de carga
+    .desc =
 
-ent-WardrobeSalvage = salvage wardrobe
-    .desc = Notably not salvaged.
+ent-WardrobeSalvage = guarda-roupa de salvamento
+    .desc = Notavelmente não recuperado.
 
-ent-WardrobeEngineering = engineering wardrobe
-    .desc = Notably not salvaged.
+ent-WardrobeEngineering = guarda-roupa de engenharia
+    .desc =
 
-ent-WardrobeMedicalDoctor = medical doctor's wardrobe
-    .desc = Notably not salvaged.
+ent-WardrobeMedicalDoctor = guarda-roupa do médico
+    .desc =
 
-ent-WardrobeRobotics = robotics wardrobe
-    .desc = Notably not salvaged.
+ent-WardrobeRobotics = guarda-roupa robótico
+    .desc =
 
-ent-WardrobeChemistry = chemistry wardrobe
-    .desc = Notably not salvaged.
+ent-WardrobeChemistry = guarda-roupa de química
+    .desc =
 
-ent-WardrobeGenetics = genetics wardrobe
-    .desc = Notably not salvaged.
+ent-WardrobeGenetics = guarda-roupa genético
+    .desc =
 
-ent-WardrobeVirology = virology wardrobe
-    .desc = Notably not salvaged.
+ent-WardrobeVirology = guarda-roupa de virologia
+    .desc =
 
-ent-WardrobeScience = science wardrobe
-    .desc = Notably not salvaged.
+ent-WardrobeScience = guarda-roupa científico
+    .desc =
 
-ent-WardrobeBotanist = botanist wardrobe
-    .desc = Notably not salvaged.
+ent-WardrobeBotanist = guarda-roupa botânico
+    .desc =
 

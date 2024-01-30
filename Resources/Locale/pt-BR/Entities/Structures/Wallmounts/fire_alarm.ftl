@@ -1,6 +1,6 @@
-ent-FireAlarm = fire alarm
-    .desc = A fire alarm. Spicy!
+ent-FireAlarm = alarme de incêndio
+    .desc = Um alarme de incêndio. Apimentado!
 
-ent-FireAlarmAssembly = fire alarm assembly
-    .desc = A fire alarm assembly. Very mild.
+ent-FireAlarmAssembly = montagem de alarme de incêndio
+    .desc = Uma montagem de alarme de incêndio. Muito leve.
 

@@ -1,12 +1,11 @@
-ent-BaseBigBox = cardboard box
-    .desc = Huh? Just a box...
+ent-BaseBigBox = caixa de papelão
+    .desc = Huh? Apenas uma caixa ...
 
-ent-StealthBox = cardboard box
-    .desc = Kept ya waiting, huh?
+ent-StealthBox = caixa de papelão
+    .desc = Manteve você esperando, hein?
 
-ent-GhostBox = ghost box
-    .desc = Beware!
+ent-GhostBox = caixa de fantasmas
+    .desc = Cuidado!
 
-ent-Exclamation = exclamation
-    .desc = Beware!
+ent-Exclamation = exclamação
 

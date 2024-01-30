@@ -1,47 +1,46 @@
 ent-SurveillanceCameraBase = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
 
 ent-SurveillanceCameraConstructed = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = Constructed
 
 ent-SurveillanceCameraEngineering = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = Engineering
 
 ent-SurveillanceCameraSecurity = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = Security
 
 ent-SurveillanceCameraScience = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = Science
 
 ent-SurveillanceCameraSupply = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = Supply
 
 ent-SurveillanceCameraScience = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = Science
 
 ent-SurveillanceCameraCommand = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = Command
 
 ent-SurveillanceCameraService = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = Service
 
 ent-SurveillanceCameraMedical = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = Medical
 
 ent-SurveillanceCameraGeneral = camera
-    .desc = A surveillance camera. It's watching you. Kinda.
+    .desc = Uma câmera de vigilância. Está te observando. Tipo.
     .suffix = General
 
 ent-SurveillanceCameraAssembly = camera
-    .desc = A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.
-    .suffix = General
+    .desc = Uma câmera de vigilância. Parece não estar assistindo a ninguém tão cedo. Provavelmente.
 

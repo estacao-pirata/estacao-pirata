@@ -1,103 +1,84 @@
-ent-BaseWall = basewall
-    .desc = Keeps the air in and the greytide out.
+ent-BaseWall = parede base
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallBrick = brick wall
-    .desc = Keeps the air in and the greytide out.
+ent-WallBrick = parede de tijolos
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallClock = clock wall
-    .desc = Keeps the air in and the greytide out.
+ent-WallClock = parede de relógio
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallClown = clown wall
-    .desc = Keeps the air in and the greytide out.
+ent-WallClown = parede de palhaço
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallCult = cult wall
-    .desc = Keeps the air in and the greytide out.
+ent-WallCult = parede de culto
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallDebug = debug wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallDebug = parede de depuração
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
+    .suffix = DEBUGAR
 
-ent-WallDiamond = diamond wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallDiamond = parede de diamante
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallGold = gold wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallGold = parede dourada
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallIce = ice wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallIce = parede de gelo
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallPlasma = plasma wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallPlasma = parede de plasma
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallPlastic = plastic wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallPlastic = parede de plástico
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallPlastitanium = plastitanium wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallPlastitanium = parede de plastitânio
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallReinforced = reinforced wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallReinforced = parede reforçada
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallRiveted = riveted wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallRiveted = parede rebitada
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallSandstone = sandstone wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallSandstone = parede de arenito
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallSilver = silver wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = DEBUG
+ent-WallSilver = parede prateada
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallShuttleDiagonal = shuttle wall
-    .desc = Keeps the air in and the greytide out.
+ent-WallShuttleDiagonal = parede de transporte
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
     .suffix = diagonal
 
-ent-WallShuttle = shuttle wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = diagonal
+ent-WallShuttle = parede de transporte
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallSolid = solid wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = diagonal
+ent-WallSolid = parede sólida
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallSolidRust = solid wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = rusted
+ent-WallSolidRust = parede sólida
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
+    .suffix = enferrujado
 
-ent-WallUranium = uranium wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = rusted
+ent-WallUranium = parede de urânio
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallWood = wood wall
-    .desc = Keeps the air in and the greytide out.
-    .suffix = rusted
+ent-WallWood = parede de madeira
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallVaultAlien = alien vault wall
-    .desc = A mysterious ornate looking wall. There may be ancient dangers inside.
-    .suffix = rusted
+ent-WallVaultAlien = parede do cofre alienígena
+    .desc = Uma misteriosa parede ornamentada. Pode haver perigos antigos lá dentro.
 
-ent-WallVaultRock = rock vault wall
-    .desc = A mysterious ornate looking wall. There may be ancient dangers inside.
-    .suffix = rusted
+ent-WallVaultRock = parede do cofre de pedra
+    .desc = Uma misteriosa parede ornamentada. Pode haver perigos antigos lá dentro.
 
-ent-WallVaultSandstone = sandstone vault wall
-    .desc = A mysterious ornate looking wall. There may be ancient dangers inside.
-    .suffix = rusted
+ent-WallVaultSandstone = parede do cofre de arenito
+    .desc = Uma misteriosa parede ornamentada. Pode haver perigos antigos lá dentro.
 
-ent-WallInvisible = Invisible Wall
-    .desc = A mysterious ornate looking wall. There may be ancient dangers inside.
-    .suffix = rusted
+ent-WallInvisible = parede invisível
+    .desc = Uma misteriosa parede ornamentada. Pode haver perigos antigos lá dentro.
 
-ent-WallForce = Force Wall
-    .desc = A mysterious ornate looking wall. There may be ancient dangers inside.
-    .suffix = rusted
+ent-WallForce = parede de Força
+    .desc = Uma misteriosa parede ornamentada. Pode haver perigos antigos lá dentro.
 

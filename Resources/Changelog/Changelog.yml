@@ -1,1152 +1,1152 @@
 ﻿Entries:
 - author: deltanedas
   changes:
-  - message: When Revolution rounds end each headrev has their number of converted
-      people shown.
+  - message: Quando as rodadas de revolução terminam, cada headrev tem seu número de convertido
+      pessoas mostradas.
     type: Tweak
   id: 5212
   time: '2023-11-27T21:43:49.0000000+00:00'
 - author: Velcroboy
   changes:
-  - message: Fixed janitorial items (wet floor signs, spray bottles, light replacers,
-      and plungers) not fitting in the janitor's trolley.
+  - message: Itens de zeladoria fixos (sinais de piso úmido, garrafas de spray, substituições de luz,
+      e piscos) não se encaixam no carrinho do zelador.
     type: Fix
   id: 5213
   time: '2023-11-27T22:16:17.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix ambient audio not playing.
+  - message: Corrija o áudio ambiente não tocando.
     type: Fix
   id: 5214
   time: '2023-11-28T03:09:26.0000000+00:00'
 - author: M3739
   changes:
-  - message: An entry regarding cyborgs has been added to the guidebook.
+  - message: Uma entrada sobre cyborgs foi adicionada ao guia.
     type: Add
   id: 5215
   time: '2023-11-28T03:18:22.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Remove the Captain's spare gloves from his locker.
+  - message: Remova as luvas sobressalentes do capitão de seu armário.
     type: Remove
   id: 5216
   time: '2023-11-28T05:45:56.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: The HoP now starts with a pair of papercut-proof gloves.
+  - message: O chefe de funcionários agora começa com um par de luvas à prova de papel.
     type: Add
   id: 5217
   time: '2023-11-28T06:21:06.0000000+00:00'
 - author: themias
   changes:
-  - message: Fixed riot shield audio and popup spam
+  - message: Corrigido Riot Shield Audio e Spam pop -up
     type: Fix
   id: 5218
   time: '2023-11-28T07:06:38.0000000+00:00'
 - author: UbaserB
   changes:
-  - message: Blood now has a sprite when placed in metamorphic glasses.
+  - message: O sangue agora tem um sprite quando colocado em vidros metamórficos.
     type: Add
   id: 5219
   time: '2023-11-28T07:09:56.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix global audio not being global.
+  - message: Corrija o áudio global não sendo global.
     type: Fix
-  - message: Update MIDI audio every frame rather than every 1/10 seconds to fix positioning
-      and occlusion weirdness.
+  - message: Atualize o áudio MIDI em cada quadro, em vez de cada 1/10 segundos para corrigir o posicionamento
+      e estranheza oclusão.
     type: Tweak
   id: 5220
   time: '2023-11-28T09:48:18.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix audio not playing during weather.
+  - message: Corrija o áudio que não está jogando durante o clima.
     type: Fix
   id: 5221
   time: '2023-11-28T12:35:38.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix some sound sources not playing positionally (e.g. glass breaking).
+  - message: Corrija algumas fontes de som que não estão jogando posicionalmente (por exemplo, quebra de vidro).
     type: Fix
   id: 5222
   time: '2023-11-28T23:19:23.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Removed artifact spam on roundend due to the ensuing lag.
+  - message: Removido Spam de artefato no RoundEnd devido ao atraso que se seguiu.
     type: Remove
   id: 5223
   time: '2023-11-29T03:39:16.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix doppler effect on shuttles by also setting player's velocity in the
-      audio API.
+  - message: Corrija o efeito Doppler nas naves, definindo a velocidade do jogador no
+      API de áudio.
     type: Fix
-  - message: Fix left-right ear weirdness caused by floating-point imprecision on
-      audio positioning.
+  - message: Corrija a estranheza da orelha esquerda-direita causada pela imprecisão de ponto flutuante em
+      Posicionamento de áudio.
     type: Fix
   id: 5224
   time: '2023-11-29T05:44:45.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix getting stuck between tables.
+  - message: Corrija ficando preso entre as tabelas.
     type: Fix
   id: 5225
   time: '2023-11-29T13:23:21.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix remaining audio left-right transitioning too quickly.
+  - message: Corrija a transição restante do áudio esquerda-direita muito rapidamente.
     type: Fix
   id: 5226
   time: '2023-11-30T00:56:08.0000000+00:00'
 - author: lzk228
   changes:
-  - message: Skeletons are zombie immune now.
+  - message: Os esqueletos são imunes a zumbis agora.
     type: Tweak
   id: 5227
   time: '2023-11-30T02:40:39.0000000+00:00'
 - author: MACMAN2003
   changes:
-  - message: Added a green central command cap like the captain's blue one.
+  - message: Adicionado uma chapeu de comando central verde como a azul do capitão.
     type: Add
   id: 5228
   time: '2023-11-30T07:20:45.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Core has been reworked and added back into the map pool.
+  - message: O núcleo foi reformulado e adicionado de volta ao pool de mapas.
     type: Add
   id: 5229
   time: '2023-11-30T08:13:13.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Nuclear operative agents now spawn with a PDA that can scan for injuries.
+  - message: Os agentes operatórios nucleares agora spawn com um PDA que pode procurar ferimentos.
     type: Add
   id: 5230
   time: '2023-11-30T21:39:08.0000000+00:00'
 - author: Rainfey
   changes:
-  - message: Agent ID not longer resets name when changing its appearance
+  - message: ID do agente não é mais redefinido o nome ao alterar sua aparência
     type: Fix
   id: 5231
   time: '2023-11-30T21:42:44.0000000+00:00'
 - author: eddiedd
   changes:
-  - message: Lemon has been discovered a mutation species, lemoon, which could be
-      grind for milk
+  - message: Lemon foi descoberto uma espécie de mutação, Lemoon, que poderia ser
+      Moa para o leite
     type: Add
   id: 5232
   time: '2023-11-30T21:44:23.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: The senior physician beret now matches their outfit more.
+  - message: A boina médica sênior agora corresponde mais à sua roupa.
     type: Tweak
   id: 5233
   time: '2023-12-01T08:34:08.0000000+00:00'
 - author: enumerate0
   changes:
-  - message: Recognizable solutions now appear sorted by volume first, then by name
+  - message: As soluções reconhecíveis agora aparecem classificadas pelo volume primeiro, depois pelo nome
     type: Tweak
   id: 5234
   time: '2023-12-01T08:35:51.0000000+00:00'
 - author: Whisper
   changes:
-  - message: Added the Death Acidifier, an implant that destroys your body and equipment
-      without harming allies.
+  - message: Adicionado o acidificador da morte, um implante que destrói seu corpo e equipamento
+      sem prejudicar aliados.
     type: Add
-  - message: Added the microbomb implanter back to nukie uplinks.
+  - message: Adicionado o implantor de microbomb de volta aos uplinks Nukie.
     type: Add
-  - message: Nukies have exchanged microbomb implants for Death Acidifiers.
+  - message: Os nukies trocaram implantes de microbomb por acidificadores de morte.
     type: Tweak
   id: 5235
   time: '2023-12-01T20:14:45.0000000+00:00'
 - author: Vasilis
   changes:
-  - message: Tacos can be eaten by Lizards now. It's fricken Taco Tuesday!
+  - message: As tacos podem ser comidas por lagartos agora.É FRICKEN TACO TERMANHA!
     type: Fix
   id: 5236
   time: '2023-12-01T22:27:09.0000000+00:00'
 - author: Rainbeon
   changes:
-  - message: Cyborgs can now speak while in a Critical state.
+  - message: Cyborgs agora podem falar em um estado crítico.
     type: Tweak
   id: 5237
   time: '2023-12-02T00:25:20.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Potentially fix audio filters.
+  - message: Potencialmente corrigir filtros de áudio.
     type: Fix
   id: 5238
   time: '2023-12-02T08:47:41.0000000+00:00'
 - author: EEASAS
   changes:
-  - message: Mothroaches have been vaccinated to be weaker and slower. Also, they
-      are more valuable!
+  - message: Motróolas foram vacinadas para serem mais fracas e mais lentas. Além disso, eles
+      são mais valiosos!
     type: Tweak
-  - message: Mothroaches and rats cannot pull items anymore.
+  - message: Motroaches e ratos não podem mais puxar itens.
     type: Tweak
   id: 5239
   time: '2023-12-02T16:45:07.0000000+00:00'
 - author: Moomoobeef
   changes:
-  - message: Added sodium polyacrylate, an industrial desiccant. You probably should
-      not consume this.
+  - message: Adicionado poliacrilato de sódio, um dessecante industrial. Você provavelmente deveria
+      não consumir isso.
     type: Add
   id: 5240
   time: '2023-12-02T16:58:34.0000000+00:00'
 - author: Doru991
   changes:
-  - message: Ambrosia Deus and Koibeans's chemical amounts have been reduced.
+  - message: As quantidades químicas de Ambrosia Deus e Koibeanos foram reduzidas.
     type: Tweak
-  - message: Plant chemical mutations can no longer produce any reagent in the game.
+  - message: As mutações químicas vegetais não podem mais produzir reagente no jogo.
     type: Tweak
   id: 5241
   time: '2023-12-02T17:01:58.0000000+00:00'
 - author: Cohnway
   changes:
-  - message: Remilia's sprite made larger and more detailed
+  - message: O sprite de Remilia tornou -se maior e mais detalhado
     type: Tweak
   id: 5242
   time: '2023-12-02T17:12:32.0000000+00:00'
 - author: Minty642
   changes:
-  - message: Ash can now be created by burning oil.
+  - message: As cinzas agora podem ser criadas pela queima de óleo.
     type: Add
   id: 5243
   time: '2023-12-02T17:15:12.0000000+00:00'
 - author: enumerate0
   changes:
-  - message: Added sound effects for throwing/inserting into disposals, and when missing
-      a throw.
+  - message: Adicionados efeitos sonoros para jogar/inserir em disposições e quando falta
+      um arremesso.
     type: Add
   id: 5244
   time: '2023-12-02T17:19:32.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Fixed ninja calling in a dragon not actually spawning a dragon.
+  - message: Corrigido ninja chamando um dragão não realmente desova um dragão.
     type: Fix
   id: 5245
   time: '2023-12-02T20:41:36.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Improvised explosive devices now have unreliable timers that can take
-      anywhere from 0 to 60 seconds to explode.
+  - message: Os dispositivos explosivos improvisados agora têm temporizadores não confiáveis que podem tomar
+      De 0 a 60 segundos para explodir.
     type: Add
   id: 5246
   time: '2023-12-03T02:21:51.0000000+00:00'
 - author: liltenhead
   changes:
-  - message: Replaced the Engivend's individual inflatables with the boxed version.
+  - message: Substituiu os infláveis individuais do Engivend pela versão em caixa.
     type: Tweak
   id: 5247
   time: '2023-12-03T03:54:00.0000000+00:00'
 - author: Doru991
   changes:
-  - message: Skeletons now regain more health when coming in contact with milk.
+  - message: Os esqueletos agora recuperam mais saúde ao entrar em contato com o leite.
     type: Tweak
   id: 5248
   time: '2023-12-04T02:32:05.0000000+00:00'
 - author: joshepvodka
   changes:
-  - message: CentCom officers now finally have a jumpsuit that matches the ever stylish
-      green hue of CentCom equipment.
+  - message: Os policiais do CENTCOM agora finalmente têm um macacão que corresponde ao sempre elegante
+      HOU GREEN DE EQUIPAMENTO CENTCOM.
     type: Tweak
   id: 5249
   time: '2023-12-04T02:32:45.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Roller skates are slower and have less friction and acceleration.
+  - message: Os patins são mais lentos e têm menos atrito e aceleração.
     type: Tweak
-  - message: Speed boots give a much more pronounced speed boost. Research them today!
+  - message: As botas de velocidade dão um aumento de velocidade muito mais pronunciado.Pesquise -os hoje!
     type: Tweak
   id: 5250
   time: '2023-12-04T04:31:11.0000000+00:00'
 - author: Slava0135
   changes:
-  - message: Gas tanks now deal damage when thrown. Be sure to hold them when opening
-      valve... or not.
+  - message: Os tanques de gasolina agora causam danos quando jogados.Certifique -se de segurá -los ao abrir
+      válvula ... ou não.
     type: Tweak
   id: 5251
   time: '2023-12-04T06:32:18.0000000+00:00'
 - author: Chronophylos
   changes:
-  - message: Included missing damage type localization for armor examination.
+  - message: Incluiu a localização do tipo de dano ausente para exame de armadura.
     type: Fix
   id: 5252
   time: '2023-12-04T12:57:29.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Storage now uses a grid-based system. You can drag around items in your
-      bag, left click to remove them, and use right click to rotate them while dragging.
+  - message: O armazenamento agora usa um sistema baseado em grade.Você pode arrastar os itens em seu
+      Bolsa, clique esquerda para removê -los e use o botão direito do mouse para girar enquanto arrasta.
     type: Add
-  - message: The storage window is now a fixed singleton above the hands. You can
-      make it moveable by toggling "Static storage UI" in the controls menu.
+  - message: A janela de armazenamento agora é um singleton fixo acima das mãos.Você pode
+      Torne -o móvel alternando "UI de armazenamento estático" no menu Controls.
     type: Add
   id: 5253
   time: '2023-12-04T23:04:39.0000000+00:00'
 - author: qwerltaz
   changes:
-  - message: When ghosting from a critical state, the ghost command now kills with
-      damage relative to current health instead of flat 200.
+  - message: Quando fantasma de um estado crítico, o comando fantasma agora mata com
+      danos em relação à saúde atual em vez de 200.
     type: Fix
   id: 5254
   time: '2023-12-04T23:06:11.0000000+00:00'
 - author: MACMAN2003
   changes:
-  - message: Autolathes can now print the snazzy orange "sodium" and blue "exterior"
-      light tubes.
+  - message: Autolates agora pode imprimir o "sódio" laranja e o exterior azul "
+      tubos leves.
     type: Tweak
   id: 5255
   time: '2023-12-04T23:06:30.0000000+00:00'
 - author: MACMAN2003
   changes:
-  - message: The jaws of life can now fit inside of regular toolbelts.
+  - message: As garras da vida agora podem se encaixar dentro de cintos de ferramentas regulares.
     type: Fix
   id: 5256
   time: '2023-12-04T23:06:46.0000000+00:00'
 - author: Repo
   changes:
-  - message: Doors can close over conveyor belts.
+  - message: As portas podem fechar os cintos transportadores.
     type: Fix
   id: 5257
   time: '2023-12-04T23:07:48.0000000+00:00'
 - author: 27alaing
   changes:
-  - message: Pun Pun can become a revolutionary again
+  - message: Pun Pun pode se tornar um revolucionário novamente
     type: Tweak
   id: 5258
   time: '2023-12-04T23:09:36.0000000+00:00'
 - author: Bhijn and Myr
   changes:
-  - message: Speech bubbles now display the name of whatever or whoever spoke them!
-      The options menu has a setting to disable this outright, or add a background
-      to the name for the sake of accessibility, for anyone who would like those options.
+  - message: As bolhas de fala agora exibem o nome de qualquer coisa ou quem os falou!
+      O menu de opções tem uma configuração para desativar isso ou adicionar um fundo
+      Para o nome por uma questão de acessibilidade, para quem gostaria dessas opções.
     type: Add
-  - message: The bubbles associated with emotes and LOOC now display exactly what
-      the associated message prints in your chatbox.
+  - message: As bolhas associadas a emotes e looc agora exibem exatamente o que
+      A mensagem associada impressa em sua caixa de bate -papo.
     type: Tweak
   id: 5259
   time: '2023-12-04T23:10:49.0000000+00:00'
 - author: brainfood1183
   changes:
-  - message: Clowns can now craft the Banana Clown outfit.
+  - message: Os palhaços agora podem criar a roupa de palhaço de banana.
     type: Add
   id: 5260
   time: '2023-12-04T23:12:02.0000000+00:00'
 - author: enumerate0
   changes:
-  - message: Fixed Christmas tree bounding box
+  - message: Caixa de limpeza da árvore de Natal fixa
     type: Fix
   id: 5261
   time: '2023-12-05T06:20:54.0000000+00:00'
 - author: JoeHammad
   changes:
-  - message: Paramedics are now available on barratry
+  - message: Os paramédicos estão agora disponíveis em Barratry
     type: Add
   id: 5262
   time: '2023-12-05T07:35:36.0000000+00:00'
 - author: JoeHammad
   changes:
-  - message: Paramedics are now available on marathon
+  - message: Os paramédicos já estão disponíveis na maratona
     type: Add
   id: 5263
   time: '2023-12-05T07:36:58.0000000+00:00'
 - author: Whisper
   changes:
-  - message: Chloral Hydrate sleep effect will start at 11 units, down from 16.
+  - message: O efeito do sono de hidrato de cloral começará em 11 unidades, abaixo dos 16.
     type: Tweak
   id: 5264
   time: '2023-12-05T08:52:47.0000000+00:00'
 - author: DangerRevolution
   changes:
-  - message: Added Emergency Nitrogen Tanks
+  - message: Tanques de nitrogênio de emergência adicionados
     type: Add
-  - message: Added Nitrogen Tanks to Emergency Closets
+  - message: Adicionados tanques de nitrogênio a armários de emergência
     type: Add
   id: 5265
   time: '2023-12-05T09:41:39.0000000+00:00'
 - author: Lazzi0706
   changes:
-  - message: Added a new stomach for mice and "hunger thresholds" in mice's prototype
+  - message: Adicionado um novo estômago para ratos e "limiares de fome" no protótipo de ratos
     type: Add
-  - message: Fixed inadequate hunger in mice
+  - message: Fome fixo em ratos inadequados em camundongos
     type: Fix
   id: 5266
   time: '2023-12-05T10:39:09.0000000+00:00'
 - author: JoeHammad
   changes:
-  - message: Removed the spare paramedic clothes and EVA suit from the medidrobe
+  - message: Removeu as roupas paramédicas de reposição e o traje EVA do medidrobe
     type: Remove
-  - message: added medical doctor jumpsuits and skirts to the medidrobe
+  - message: Adicionado Medicista Jumpsuits e Saias ao Medidrobe
     type: Add
   id: 5267
   time: '2023-12-05T10:39:54.0000000+00:00'
 - author: ForestNoises
   changes:
-  - message: The rejuvenate command/verb resets all action cooldowns.
+  - message: O comando/verbo rejuvenescido redefine todas as ações de ação.
     type: Add
   id: 5268
   time: '2023-12-05T21:00:03.0000000+00:00'
 - author: themias
   changes:
-  - message: Empty hot cocoa can go in trash bags
+  - message: Cacau quente vazio pode ir em sacos de lixo
     type: Fix
   id: 5269
   time: '2023-12-05T21:39:26.0000000+00:00'
 - author: Bhijn and Myr
   changes:
-  - message: Ghosts now have speech bubbles again
+  - message: Fantasmas agora têm bolhas de fala novamente
     type: Fix
   id: 5270
   time: '2023-12-05T21:40:03.0000000+00:00'
 - author: tgrkzus
   changes:
-  - message: Paper cups are now available at water coolers.
+  - message: Os copos de papel estão agora disponíveis nos refrigeradores de água.
     type: Add
   id: 5271
   time: '2023-12-05T21:47:21.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: You can now make the storage window opaque with the "enable opaque storage
-      window" toggle in the graphics menu.
+  - message: Agora você pode tornar a janela de armazenamento opaca com o "Ativar armazenamento opaco
+      Janela "Alterne no menu gráfico.
     type: Add
   id: 5272
   time: '2023-12-05T23:38:10.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Reverted duffel bags to their original storage capacity.
+  - message: Sacos de mochila revertidos para sua capacidade de armazenamento original.
     type: Fix
   id: 5273
   time: '2023-12-06T03:11:01.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Predict helmet toggling.
+  - message: Preveja o capacete alternando.
     type: Fix
   id: 5274
   time: '2023-12-06T06:59:31.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Fixed emagged medibots not injecting healthy people with chloral hydrate.
+  - message: Medibots emagretos fixos não injetando pessoas saudáveis com hidrato de cloral.
     type: Fix
   id: 5275
   time: '2023-12-06T21:30:32.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix toggleable clothing still being interactable e.g. hardsuit helmets.
+  - message: Corrija as roupas alternáveis ainda sendo interativas, por exemploCapacetes Hardsuit.
     type: Fix
   id: 5276
   time: '2023-12-06T21:56:03.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Combat boots and friends use a slot for sidearms instead of a storage
-      window.
+  - message: Botas de combate e amigos usam um slot para laterais em vez de um armazenamento
+      janela.
     type: Tweak
   id: 5277
   time: '2023-12-06T21:58:25.0000000+00:00'
 - author: Bhijn and Myr
   changes:
-  - message: Speech bubbles for the living now again have names when fancy speech
-      bubbles are enabled
+  - message: Bubbles de fala para os vivos agora têm nomes quando fala sofisticada
+      bolhas estão ativadas
     type: Fix
   id: 5278
   time: '2023-12-06T21:58:53.0000000+00:00'
 - author: TemporalOroboros
   changes:
-  - message: Pickaxes have a more accurate shape in storage.
+  - message: As picaretas têm uma forma mais precisa no armazenamento.
     type: Tweak
   id: 5279
   time: '2023-12-07T00:52:57.0000000+00:00'
 - author: Nairodian
   changes:
-  - message: Added a new lizard chest marking, an underbelly.
+  - message: Adicionou uma nova marcação no peito de lagarto, um ventre.
     type: Add
   id: 5280
   time: '2023-12-07T01:05:43.0000000+00:00'
 - author: Nimfar11
   changes:
-  - message: Adds Space Cobras, invisible at rest and venom blind.
+  - message: Adiciona cobras espaciais, invisível em repouso e veneno cego.
     type: Add
-  - message: Adds snake meat and fancy snakeskin boots.
+  - message: Adiciona carne de cobra e botas de pele de cobra sofisticadas.
     type: Add
-  - message: The too weak space spider has been strengthened.
+  - message: A aranha espacial muito fraca foi fortalecida.
     type: Tweak
   id: 5281
   time: '2023-12-07T01:25:57.0000000+00:00'
 - author: CrigCrag
   changes:
-  - message: Added three new specialized brute healing chemicals and a guidebook entry
-      on how to safely use them.
+  - message: Adicionou três novos produtos químicos de cura bruta especializados e uma entrada de guia
+      sobre como usá -los com segurança.
     type: Add
-  - message: Added Razorium, which is basically liquid razor blades.
+  - message: Adicionado Razorium, que é basicamente lâminas de barbear líquido.
     type: Add
   id: 5282
   time: '2023-12-07T03:05:29.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Speed penalties for duffels and hardsuits now apply when held, not just
-      when worn.
+  - message: Penalidades de velocidade para mochilas e roupas rígidas agora se aplicam quando mantidas, não apenas
+      Quando usado.
     type: Add
   id: 5283
   time: '2023-12-07T03:41:29.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Fixed explosion resistance being ignored.
+  - message: Resistência a explosão fixa sendo ignorada.
     type: Fix
   id: 5284
   time: '2023-12-07T18:51:46.0000000+00:00'
 - author: Aexxie
   changes:
-  - message: Paramed no longer has external access.
+  - message: Paramed não tem mais acesso externo.
     type: Remove
   id: 5285
   time: '2023-12-07T23:27:18.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Hovering over an item in storage now shows a tooltip with the name.
+  - message: Passando sobre um item no armazenamento agora mostra uma dica de ferramenta com o nome.
     type: Add
   id: 5286
   time: '2023-12-08T02:38:07.0000000+00:00'
 - author: Nimfar11
   changes:
-  - message: Adds a bed for the psychologist's office.
+  - message: Adiciona uma cama para o escritório do psicólogo.
     type: Add
   id: 5287
   time: '2023-12-08T05:24:35.0000000+00:00'
 - author: Emisse
   changes:
-  - message: Chemical explosions are powerful again.
+  - message: Explosões químicas são poderosas novamente.
     type: Tweak
   id: 5288
   time: '2023-12-08T10:58:25.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: V and shift-V can now be used to open the bag and belt, respectively.
+  - message: V e Shift-V agora podem ser usados para abrir a bolsa e o cinto, respectivamente.
     type: Add
-  - message: Interacting with a storage item now has context-sensitive logic based
-      on whether or not the window is open or focused.
+  - message: Interagir com um item de armazenamento agora possui lógica sensível ao contexto baseada
+      Sobre se a janela está aberta ou focada.
     type: Fix
   id: 5289
   time: '2023-12-08T18:43:37.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: When viewing a storage container, the item that will be removed via smart-equip
-      is now marked with a small star icon.
+  - message: Ao visualizar um recipiente de armazenamento, o item que será removido via Equípido Smart
+      agora está marcado com um pequeno ícone de estrela.
     type: Add
   id: 5290
   time: '2023-12-08T18:43:58.0000000+00:00'
 - author: Whisper
   changes:
-  - message: Rat king and his servants properly heal from miasma.
+  - message: Rat King e seus servos se curam adequadamente do Miasma.
     type: Fix
-  - message: Rat king no longer rummages from an infinite distance.
+  - message: Rat King não vasculha mais a uma distância infinita.
     type: Fix
-  - message: Rat king generates more miasma to fill larger rooms.
+  - message: Rat King gera mais miasma para encher quartos maiores.
     type: Tweak
   id: 5291
   time: '2023-12-08T18:46:28.0000000+00:00'
 - author: Emisse
   changes:
-  - message: Command staff has brig access.
+  - message: A equipe de comando tem acesso a brig.
     type: Tweak
   id: 5292
   time: '2023-12-08T18:50:07.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Removed upgrades from the anomaly vessel.
+  - message: Removeu atualizações do vaso de anomalia.
     type: Remove
-  - message: Added the experimental anomaly vessel, which researches twice as fast
-      at the cost of being radioactive.
+  - message: Adicionado o vaso experimental de anomalia, que pesquisa duas vezes mais rápido
+      à custa de ser radioativo.
     type: Add
   id: 5293
   time: '2023-12-08T18:50:41.0000000+00:00'
 - author: PJB3005
   changes:
-  - message: Opening the chat channel selector works again.
+  - message: Abrir o seletor de canal de bate -papo funciona novamente.
     type: Fix
   id: 5294
   time: '2023-12-09T02:15:07.0000000+00:00'
 - author: JoeHammad
   changes:
-  - message: Some knives now deal some damage when thrown
+  - message: Algumas facas agora causam algum dano quando jogadas
     type: Add
   id: 5295
   time: '2023-12-09T02:16:31.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fixed a bug where the audio slider can get saved at 50% audio with no
-      sound. Unfortunately this means your audio sliders will reset.
+  - message: Corrigido um bug em que o controle deslizante de áudio pode ser salvo a 50% de áudio com não
+      som.Infelizmente, isso significa que seus controles deslizantes de áudio serão redefinidos.
     type: Fix
-  - message: Fix crash on options menu while game sim not running.
-    type: Fix
+  - message: Corrija o menu de opções de falha no jogo enquanto o jogo não está em execução.
+    Tipo: Fix
   id: 5296
   time: '2023-12-09T03:03:08.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Radiation now works again.
+  - message: A radiação agora funciona novamente.
     type: Fix
   id: 5297
   time: '2023-12-09T04:10:01.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Reduced MIDI audio range so it's easier to reduce the volume to a comfortable
-      level.
+  - message:Faixa de áudio MIDI reduzida para que seja mais fácil reduzir o volume para um confortável
+      nível.
     type: Tweak
   id: 5298
   time: '2023-12-09T04:18:15.0000000+00:00'
 - author: nok-ko
   changes:
-  - message: Entities without hands (like mice and mothroaches) are now forbidden
-      from operating Syndicate Bombs, C4, and other timed explosives.
+  - message: Entidades sem mãos (como ratos e marotroaches) agora são proibidos
+      de bombas de sindicato operacional, C4 e outros explosivos cronometrados.
     type: Fix
   id: 5299
   time: '2023-12-10T03:13:00.0000000+00:00'
 - author: chromiumboy
   changes:
-  - message: Updated the crew monitoring console user interface
+  - message:Atualizado a interface do usuário do console de monitoramento da tripulação
     type: Tweak
   id: 5300
   time: '2023-12-10T05:38:51.0000000+00:00'
 - author: ElectroJr
   changes:
-  - message: Add color picker to color selection, e.g. for character colors.
+  - message: Adicione o selecionador de cores à seleção de cores, por exemplopara cores de personagem.
     type: Add
-  - message: Fix drag-drop interaction outline not updating properly.
+  - message: Corrija o esboço da interação de arrasto não atualizando corretamente.
     type: Fix
   id: 5301
   time: '2023-12-10T10:43:06.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Removed gas tank throwing damage.
+  - message: Dano de lançamento do tanque de gás removido.
     type: Remove
   id: 5302
   time: '2023-12-10T14:11:26.0000000+00:00'
 - author: Nairodian
   changes:
-  - message: Adjusted welder blindness to be much less forgiving.
+  - message: A cegueira do soldador ajustado é muito menos perdoador.
     type: Tweak
   id: 5303
   time: '2023-12-10T23:10:07.0000000+00:00'
 - author: KittenColony
   changes:
-  - message: Added various gauze wraps to most species in the form of markings
+  - message: Adicionado vários envoltórios de gaze à maioria das espécies na forma de marcações
     type: Add
   id: 5304
   time: '2023-12-10T23:16:38.0000000+00:00'
 - author: Simyon
   changes:
-  - message: Moths that are turned into zombies will now prefer cloth instead of brains.
+  - message: As mariposas transformadas em zumbis agora preferem pano em vez de cérebros.
     type: Tweak
   id: 5305
   time: '2023-12-11T03:17:55.0000000+00:00'
 - author: TheKilk
   changes:
-  - message: Added 7 new winter boots textures!
+  - message: Adicionado 7 novas texturas de botas de inverno!
     type: Add
   id: 5306
   time: '2023-12-11T03:19:28.0000000+00:00'
 - author: Sirionaut
   changes:
-  - message: Animals now require a more reasonable amount of satiation before producing
-      eggs, milk, or wool (unless they are undead)
+  - message:Os animais agora exigem uma quantidade mais razoável de saciedade antes de produzir
+      Ovos, leite ou lã (a menos que sejam mortos -vivos)
     type: Fix
   id: 5307
   time: '2023-12-11T03:20:41.0000000+00:00'
 - author: notafet
   changes:
-  - message: Pipes now leak their contents when destroyed. Make sure to drain pipes
-      before removing them.
+  - message: Os tubos agora vazam seu conteúdo quando destruídos.Certifique -se de drenar os tubos
+      antes de removê -los.
     type: Tweak
   id: 5308
   time: '2023-12-11T07:51:45.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Janitors can now buy their own bomb suit for cleaning chemical spills.
+  - message: Os zeladores agora podem comprar seu próprio traje de bomba para limpar derramamentos químicos.
     type: Add
   id: 5309
   time: '2023-12-11T08:41:54.0000000+00:00'
 - author: nok-ko
   changes:
-  - message: "Fixed taking damage mid-sentence not activating \u201Cglorfcode\u201D"
+  - message: "Fixado danos causados no meio da frase não ativada \ u201cglorfcode \ u201d"
     type: Fix
   id: 5310
   time: '2023-12-11T08:53:10.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Added two eye scar markings for humans and dwarves.
+  - message: Adicionou duas marcas de cicatriz para seres humanos e anões.
     type: Add
   id: 5311
   time: '2023-12-11T09:18:20.0000000+00:00'
 - author: Whisper
   changes:
-  - message: Added black gloves to the clothesmate
+  - message: Adicionado luvas pretas ao companheiro de roupa
     type: Add
   id: 5312
   time: '2023-12-11T09:23:51.0000000+00:00'
 - author: mirrorcult
   changes:
-  - message: Emergency lights no longer make sound
+  - message: Luzes de emergência não fazem mais som
     type: Remove
-  - message: Emergency light radius and energy is now much lower
+  - message: O raio e a energia da luz de emergência agora estão muito mais baixos
     type: Tweak
   id: 5313
   time: '2023-12-11T09:24:10.0000000+00:00'
 - author: Ubaser and Pigeonpeas
   changes:
-  - message: The kobold ear marking has received a new sprite.
+  - message: A marcação da orelha de Kobold recebeu um novo sprite.
     type: Tweak
   id: 5314
   time: '2023-12-11T09:25:55.0000000+00:00'
 - author: Rainfey
   changes:
-  - message: Hardsuit helmets added to chameleon menu
+  - message: Capacetes Hardsuit adicionados ao menu Chameleon
     type: Add
   id: 5315
   time: '2023-12-11T09:27:36.0000000+00:00'
 - author: Flareguy
   changes:
-  - message: 'Added 4 new HUD themes: Plasmafire, Slimecore, Clockwork, and Retro.'
+  - message: 'Adicionado 4 novos temas do HUD: Plasmafire, Slimecore, Clockwork e Retro.'
     type: Add
   - message: The default HUD theme is now Classic. The old default HUD theme still
       exists under the name "Minimalist."
     type: Tweak
-  - message: The modernized HUD theme has been renamed to "Eris."
+  - message: O tema modernizado do HUD foi renomeado para "Eris".
     type: Tweak
   id: 5316
   time: '2023-12-11T09:28:17.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Arrivals is now stationed on a planet.
+  - message: As chegadas agora estão estacionadas em um planeta.
     type: Add
   id: 5317
   time: '2023-12-11T09:34:19.0000000+00:00'
 - author: Whisper
   changes:
-  - message: Added cosmetic sunglasses to the clothesmate.
+  - message: Adicionado óculos de sol cosméticos ao companheiro de roupa.
     type: Add
-  - message: Musician and Bartender now have cosmetic sunglasses.
+  - message: Músico e barman agora têm óculos de sol cosméticos.
     type: Tweak
   id: 5318
   time: '2023-12-11T09:35:51.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Syndicate duffel bags heavily protect their items from explosions, and
-      regular bags have minor protection.
+  - message: Os sacos da Duffel de sindicatos protegem fortemente seus itens de explosões e
+      As sacolas regulares têm menor proteção.
     type: Tweak
   id: 5319
   time: '2023-12-11T09:43:00.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix game audio persisting to lobby.
+  - message: Corrija o áudio do jogo persistente ao lobby.
     type: Fix
   id: 5320
   time: '2023-12-11T10:26:56.0000000+00:00'
 - author: Whisper
   changes:
-  - message: Beer goggles can now scan solutions.
+  - message: Os óculos de cerveja agora podem digitalizar soluções.
     type: Add
   id: 5321
   time: '2023-12-11T11:35:11.0000000+00:00'
 - author: MACMAN2003
   changes:
-  - message: Added yellow tinted jensen glasses that may show up in maints from time
-      to time
+  - message: Adicionado copos de Jensen Yellow coloridos que podem aparecer em mantimentos de tempos
+      para o tempo
     type: Add
   id: 5322
   time: '2023-12-11T11:36:19.0000000+00:00'
 - author: ninruB
   changes:
-  - message: Familiar Garbs may now appear as maintenance loot.
+  - message: Garbs familiares agora podem aparecer como pilhagem de manutenção.
     type: Add
   id: 5324
   time: '2023-12-11T13:04:56.0000000+00:00'
 - author: Errant
   changes:
-  - message: Incapacitated mobs can no longer be shoved for a speed boost.
+  - message: Mobs incapacitados não podem mais ser empurrados para um aumento de velocidade.
     type: Fix
   id: 5325
   time: '2023-12-11T13:05:14.0000000+00:00'
 - author: willicassi
   changes:
-  - message: Added info to botany guidebook entry
+  - message: Informações adicionadas à entrada de guia de botânica
     type: Add
   id: 5326
   time: '2023-12-11T17:42:22.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Removed the Handheld Electrical Propulsion technology and its associated
+  - message: Removeu a tecnologia de propulsão elétrica portátil e seu associado
       item, tasers, from research.
     type: Remove
   id: 5327
   time: '2023-12-11T22:33:29.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Added the artifact crusher to research! Crush things today!
+  - message: Adicionou o triturador de artefatos à pesquisa!Esmague as coisas hoje!
     type: Add
   id: 5328
   time: '2023-12-11T23:15:47.0000000+00:00'
 - author: notafet
   changes:
-  - message: Stations no longer produce limitless plasma. Plasma refills can now be
-      ordered at cargo.
+  - message: As estações não produzem mais plasma ilimitado.Recarias de plasma agora podem ser
+      ordenado em carga.
     type: Tweak
   id: 5329
   time: '2023-12-11T23:21:25.0000000+00:00'
 - author: nok-ko
   changes:
-  - message: Pacified players can no longer throw dangerous objects such as spears,
-      bolas, and bottles.
+  - message: Jogadores pacificados não podem mais jogar objetos perigosos, como Spears,
+      Bolas e garrafas.
     type: Tweak
   id: 5330
   time: '2023-12-11T23:40:23.0000000+00:00'
 - author: notafet
   changes:
-  - message: Pumps, vents, scrubbers, and heaters now work faster.
+  - message: Bombas, aberturas, lavadores e aquecedores agora funcionam mais rápido.
     type: Tweak
   id: 5331
   time: '2023-12-11T23:59:47.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Removed Senior Researcher, Senior Engineer, Senior Physician, and Senior
-      Officer.
+  - message: Pesquisador sênior removido, engenheiro sênior, médico sênior e sênior
+      Policial.
     type: Remove
   id: 5332
   time: '2023-12-12T02:37:06.0000000+00:00'
 - author: Avalon
   changes:
-  - message: CentCom has begun unceremoniously plucking Mothroaches out of Maintenance
-      and selling them to nearby Space Stations after the discovery that they make
-      decent pets.
+  - message: CentCom começou sem cerimônia a retirar Mothroaches da Manutenção
+       e vendê-los para estações espaciais próximas após a descoberta que eles fazem
+       animais de estimação decentes.
     type: Add
   id: 5333
   time: '2023-12-12T04:46:41.0000000+00:00'
 - author: notafet
   changes:
-  - message: Tritium and frezon can once again be sold for profit.
+  - message: Tritium e Frezon podem ser vendidos novamente com fins lucrativos.
     type: Tweak
   id: 5334
   time: '2023-12-12T07:48:34.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: Mayo Jar is bigger (50u)
+  - message: Mayo Jar é maior (50U)
     type: Tweak
   id: 5335
   time: '2023-12-12T07:48:52.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Fixed the quick-remove star in the inventory sometimes not appearing.
+  - message: Corrigido a estrela do Rastreador Quick no inventário às vezes não aparecendo.
     type: Fix
-  - message: You can drag items out of the inventory window to drop them on the ground.
+  - message: Você pode arrastar itens para fora da janela do inventário para soltá -los no chão.
     type: Add
   id: 5336
   time: '2023-12-12T07:49:37.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: Pill canisters are slightly better than cig packs, go talk to the chemists.
+  - message: As vasilhas de comprimidos são um pouco melhores que as embalagens de CIG, falem com os químicos.
     type: Tweak
   id: 5337
   time: '2023-12-12T07:51:38.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: Sec belt holds sidearms and sidearm ammo.
+  - message: O cinto da SEC segura uma munição de armas laterais.
     type: Tweak
   id: 5338
   time: '2023-12-12T07:52:26.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: The syndie holster now holds the guns you always wanted it to.
+  - message: O coldre de sindie agora segura as armas que você sempre quis.
     type: Tweak
   id: 5339
   time: '2023-12-12T07:53:00.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: Jar now fills.
+  - message: Jar agora enche.
     type: Tweak
   id: 5340
   time: '2023-12-12T07:54:15.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: Cig Cartons are slightly smaller.
+  - message: As caixas de cigarros são um pouco menores.
     type: Tweak
   id: 5341
   time: '2023-12-12T07:55:56.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: Cigar cases can now hold Small items.
+  - message: As caixas de charuto agora podem conter itens pequenos.
     type: Tweak
   id: 5342
   time: '2023-12-12T07:56:19.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: Pipes now have slightly bigger bowls! (30u)
+  - message: Os tubos agora têm tigelas um pouco maiores!(30U)
     type: Tweak
   id: 5343
   time: '2023-12-12T07:56:44.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: Long guns are now actually long.
+  - message: As armas longas agora são realmente longas.
     type: Tweak
   id: 5344
   time: '2023-12-12T07:59:43.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: syndicate pens now come in suitably sized discarding boxes.
+  - message: As canetas de sindicato agora vêm em caixas de descarte de tamanho adequado.
     type: Tweak
   id: 5345
   time: '2023-12-12T08:01:33.0000000+00:00'
 - author: IProduceWidgets
   changes:
-  - message: Mops are now larger!
+  - message: Os esfregões agora são maiores!
     type: Tweak
-  - message: Defibs are now larger!
+  - message: Defibs agora são maiores!
     type: Tweak
   id: 5346
   time: '2023-12-12T08:02:44.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix arrivals fog not actually blocking, no more free roaming.
+  - message: Corrija as chegadas de névoa não bloqueando, não há mais roaming gratuito.
     type: Fix
   id: 5347
   time: '2023-12-12T09:20:33.0000000+00:00'
 - author: themias
   changes:
-  - message: Added fill visuals to Hot Chocolate
+  - message: Adicionado visual de preenchimento ao chocolate quente
     type: Tweak
   id: 5348
   time: '2023-12-13T00:01:24.0000000+00:00'
 - author: themias
   changes:
-  - message: Fixed secret doors not requiring metal rods
+  - message: Portas secretas fixas que não exigem hastes de metal
     type: Fix
   id: 5349
   time: '2023-12-13T00:01:51.0000000+00:00'
 - author: Vasilis
   changes:
-  - message: Added a General settings tab, and moved a bunch of options into it.
+  - message: Adicionou uma guia Configurações gerais e moveu várias opções para ela.
     type: Add
-  - message: Added the ability to toggle on and off the Discord Rich Presence.
+  - message: Adicionado a capacidade de ativar e desativar a presença rica em discórdia.
     type: Add
   id: 5350
   time: '2023-12-13T01:58:20.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: RD now has a custom-made lab coat.
+  - message: RD agora tem um casaco de laboratório personalizado.
     type: Add
   id: 5351
   time: '2023-12-13T08:51:00.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Some jetpacks can be now worn in more slots.
+  - message: Alguns jetpacks agora podem ser usados em mais slots.
     type: Tweak
   id: 5352
   time: '2023-12-13T08:51:09.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Ninjas and Nukies now get new sprites for their pinpointers.
+  - message: Ninjas e Nukies agora recebem novos sprites para seus pingointeiros.
     type: Add
   id: 5353
   time: '2023-12-13T08:53:05.0000000+00:00'
 - author: Errant
   changes:
-  - message: A dying person's Last Words can no longer be sent to radio channels.
+  - message: As últimas palavras de uma pessoa moribunda não podem mais ser enviadas para canais de rádio.
     type: Fix
   id: 5354
   time: '2023-12-13T21:20:38.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Cybersun and centcom pens can now edit stamped paper.
+  - message: As canetas Cybersun e Centcom agora podem editar papel carimbado.
     type: Tweak
   id: 5355
   time: '2023-12-13T21:33:32.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Added a new "uneven" hair style.
+  - message: Adicionou um novo estilo de cabelo "irregular".
     type: Add
   id: 5356
   time: '2023-12-13T21:34:28.0000000+00:00'
 - author: notafet
   changes:
-  - message: Plasma and tritium fires spread more slowly and are now more survivable.
+  - message: Os incêndios de plasma e trítio se espalharam mais lentamente e agora são mais sobreviventes.
     type: Tweak
   id: 5357
   time: '2023-12-14T02:39:38.0000000+00:00'
 - author: Dygon
   changes:
-  - message: 'A new type of grenade has been developed, these grenades release a spray
-      of bullets instead of exploding: Shrapnel grenade, Stinger grenade and Incendiary
-      grenade.'
+  - message: 'Um novo tipo de granada foi desenvolvido, essas granadas liberam um spray
+      de balas em vez de explodir: granada de estilhaços, granada de Stinger e incendiária
+      granada.'
     type: Add
-  - message: Stinger grenades and ClusterBangs are now available in the sectech.
+  - message: Grenades e clusterbangs de Stinger agora estão disponíveis na Sectech.
     type: Add
-  - message: Incendiary grenades, Shrapnel grenades, Cluster grenades and the Slipocalypse
-      ClusterSoap are now available in the syndicate uplink, clowns also get a Clusterbanana
-      in their uplink.
+  - message: Granadas incendiárias, granadas de estilhaços, granadas de cluster e slipocalypse
+      O Clustersoap já está disponível no uplink do sindicato, os palhaços também recebem um clusterbanana
+      em seu uplink.
     type: Add
-  - message: Explosive banana peels are now more dangerous.
+  - message: As cascas de banana explosivas agora são mais perigosas.
     type: Tweak
   id: 5358
   time: '2023-12-14T03:30:43.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Added gas condensers. These machines are available at the circuit imprinter
-      and can convert gases into liquids. Tasty!
+  - message: Adicionados condensadores de gás.Essas máquinas estão disponíveis no impressão do circuito
+      e pode converter gases em líquidos.Saboroso!
     type: Add
   id: 5359
   time: '2023-12-14T03:35:44.0000000+00:00'
 - author: DangerRevolution
   changes:
-  - message: Extended emergency nitrogen tanks can now be found on the station.
+  - message: Os tanques de nitrogênio de emergência estendidos agora podem ser encontrados na estação.
     type: Add
   id: 5360
   time: '2023-12-14T04:35:39.0000000+00:00'
 - author: SlamBamActionman
   changes:
-  - message: Discord bot Changelog now includes hyperlinks to the PRs.
+  - message: O Discord Bot Changelog agora inclui hiperlinks para os PRs.
     type: Add
   id: 5361
   time: '2023-12-14T18:19:25.0000000+00:00'
 - author: themias
   changes:
-  - message: Fixed spray nozzle not getting ammo from the back pack tank
+  - message: Bico de spray fixo não recebendo munição do tanque de backback
     type: Fix
   id: 5362
   time: '2023-12-14T20:49:40.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Mothroach crates are now twice as expensive
+  - message: As caixas de Mothroach agora são duas vezes mais caras
     type: Tweak
   id: 5363
   time: '2023-12-14T20:58:38.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Crusher Glaives can be made with the Salvage Weapons technology.
+  - message: O Crusher Glaives pode ser feito com a tecnologia de armas de salvamento.
     type: Add
   id: 5364
   time: '2023-12-15T01:34:37.0000000+00:00'
 - author: brainfood1183
   changes:
-  - message: Acidifier now has a sprite effect.
+  - message: O acidificador agora tem um efeito sprite.
     type: Tweak
   id: 5365
   time: '2023-12-15T01:56:42.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Mercury poisoning now causes stuttering.
+  - message: O envenenamento por mercúrio agora causa gagueira.
     type: Tweak
   id: 5366
   time: '2023-12-15T09:28:13.0000000+00:00'
 - author: ninruB
   changes:
-  - message: Reptilians no longer innately take 30% less heat damage.
+  - message: Os reptilianos não recebem mais 30% menos danos causados pelo calor.
     type: Tweak
   id: 5367
   time: '2023-12-15T09:37:05.0000000+00:00'
 - author: keronshb
   changes:
-  - message: Added the Action Upgrade System - used to upgrade specific actions!
+  - message: Adicionado o sistema de atualização de ação - usado para atualizar ações específicas!
     type: Add
-  - message: Added commands to upgrade actions.
+  - message: Comandos adicionados para atualizar ações.
     type: Add
-  - message: Added Charges information to action tooltips for actions with charges
+  - message: Adicionado informações de cobranças às dicas de ferramentas de ação para ações com cobranças
     type: Add
   id: 5368
   time: '2023-12-15T09:41:44.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Chaplains can smack their bible on water to create holy water.
+  - message: Os capelães podem bater em sua Bíblia na água para criar água benta.
     type: Add
   id: 5369
   time: '2023-12-15T09:52:21.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: Added the electrolysis unit and the centrifuge. These will be used for
-      chemistry in the future.
+  - message: Adicionado a unidade de eletrólise e a centrífuga.Estes serão usados para
+      Química no futuro.
     type: Add
   id: 5370
   time: '2023-12-15T09:52:46.0000000+00:00'
 - author: themias
   changes:
-  - message: Gibbed body parts contain their victim's DNA
+  - message: As partes do corpo de gibos contêm o DNA de sua vítima
     type: Tweak
-  - message: Implanters, syringes, hyposprays, medipens, and cigarettes transfer DNA
+  - message: Implantadores, seringas, hipoossprays, MediPens e DNA de transferência de cigarros
     type: Tweak
-  - message: Melee weapons that deal blunt/slash/pierce damage transfer DNA
+  - message: Armas corpo a corpo que lidam com DNA de transferência de danos
     type: Tweak
-  - message: Soap and rags can be used to clean evidence off of items, but leave evidence
-      of their own
+  - message: Sabão e trapos podem ser usados para limpar evidências de itens, mas deixe evidências
+      seus próprios
     type: Tweak
   id: 5371
   time: '2023-12-15T09:52:56.0000000+00:00'
 - author: TheShuEd
   changes:
-  - message: Added hypodart into uplink. It is capable of piercing armor and injecting
+  - message: Adicionado Hypodart ao uplink.É capaz de penetrar na armadura e injetar
       up to 7u reagents.
     type: Add
   id: 5372
   time: '2023-12-15T09:55:57.0000000+00:00'
 - author: tgrkzus
   changes:
-  - message: Open tanks will no longer make noise at very low release pressure.
+  - message: Os tanques abertos não farão mais ruído a uma pressão de liberação muito baixa.
     type: Tweak
   id: 5373
   time: '2023-12-15T09:56:17.0000000+00:00'
 - author: MendaxxDev
   changes:
-  - message: The flare gun now explodes, damages and stuns the player when used with
-      wrong ammo
+  - message: A pistola de flare agora explode, danifica e atordoa o jogador quando usado com
+      munição errada
     type: Tweak
   id: 5374
   time: '2023-12-15T09:57:59.0000000+00:00'
 - author: TheShuEd
   changes:
-  - message: 'Added 2 new artifact effect: attraction and repulsion'
+  - message: 'Adicionado 2 novo efeito de artefato: atração e repulsão'
     type: Add
   id: 5375
   time: '2023-12-15T15:39:25.0000000+00:00'
 - author: mirrorcult
   changes:
-  - message: Explosion visuals now last slightly longer
+  - message: Explosão visuais agora duram um pouco mais
     type: Add
-  - message: You will now hear a reverbed explosion sound effect for explosions that
-      are far away from you
+  - message: Agora você ouvirá um efeito sonoro de explosão reverbada para explosões que
+      estão longe de você
     type: Add
-  - message: Smaller explosions now make a distinct sound compared to larger ones
+  - message: Explosões menores agora emitem um som distinto em comparação com as maiores
     type: Add
   id: 5376
   time: '2023-12-15T16:57:46.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Artistic toolboxes now have a filled variant that can be found in maintenance
-      occasionally.
+  - message: As caixas de ferramentas artísticas agora têm uma variante preenchida que pode ser encontrada na manutenção
+      ocasionalmente.
     type: Tweak
   id: 5377
   time: '2023-12-15T20:44:42.0000000+00:00'
 - author: Ilya246
   changes:
-  - message: Cyborg jobs now start with a positronic brain.
+  - message: Os trabalhos de Cyborg agora começam com um cérebro positrônico.
     type: Tweak
   id: 5378
   time: '2023-12-15T20:45:31.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Borgs can wear hats now. Time to get festive!
+  - message: Borgs pode usar chapéus agora.Hora de ficar festivo!
     type: Tweak
   id: 5379
   time: '2023-12-15T22:33:52.0000000+00:00'
 - author: mirrorcult
   changes:
-  - message: Chasms no longer spawn on lava expeditions
+  - message: Os abismos não aparecem mais nas expedições de lava
     type: Tweak
   id: 5380
   time: '2023-12-15T22:34:09.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: The guidebook now shows you if a chemical's recipe needs an alternative
-      mixing method, such as a chaplain's blessing or electrolysis.
+  - message: O guia agora mostra se a receita de um produto químico precisar de uma alternativa
+      Método de mistura, como a bênção ou a eletrólise de um capelão.
     type: Fix
   id: 5381
   time: '2023-12-15T23:59:54.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Added smoke grenades to the syndicate uplink for 1 TC, they create a
-      large smoke cloud to provide cover for your heinous activites.
+  - message: Adicionados granadas de fumaça ao uplink do sindicato por 1 TC, eles criam um
+      Grande nuvem de fumaça para fornecer cobertura para suas atividades hediondas.
     type: Add
   - message: Added tear gas grenades to the SecTech and security belts, use them to
       control riots.
@@ -1155,369 +1155,368 @@
   time: '2023-12-16T01:49:30.0000000+00:00'
 - author: metalgearsloth
   changes:
-  - message: Fix map boundaries not pushing you back.
+  - message: Corrija os limites do mapa não o empurrando de volta.
     type: Fix
   id: 5383
   time: '2023-12-16T02:19:54.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Crayons boxes now hold a white crayon.
+  - message: As caixas de giz de cera agora seguram um giz de cera branco.
     type: Tweak
   id: 5384
   time: '2023-12-16T03:20:40.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Chefs get black pepper packets in their lockers.
+  - message: Os chefs recebem pacotes de pimenta preta em seus armários.
     type: Tweak
   id: 5385
   time: '2023-12-16T03:20:51.0000000+00:00'
 - author: Flareguy
   changes:
-  - message: Resprited the Kammerer, Double-Barrel, and Enforcer shotguns using sprites
-      courtesy of /tg/station.
+  - message: Respirou as espingardas kammerer, barril duplo e executores usando sprites
+      Cortesia de /tg /estação.
     type: Tweak
   id: 5386
   time: '2023-12-16T04:23:57.0000000+00:00'
 - author: mirrorcult
   changes:
-  - message: Scientists can now fabricate faux grass planet and ice tiles with a tier
-      2 civilian services research! They're just as good as the real thing, while
-      being removable.
+  - message: Agora, os cientistas podem fabricar o Faux Grass Planet e telhas de gelo com um nível
+      2 Pesquisa de Serviços Civis!Eles são tão bons quanto a coisa real, enquanto
+      sendo removível.
     type: Add
   id: 5387
   time: '2023-12-16T08:20:57.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Lawyers, librarians and reporters now spawn with a luxury pen in their
+  - message: Advogados, bibliotecários e repórteres agora aparecem com uma caneta de luxo em seus
       PDA.
     type: Add
   id: 5388
   time: '2023-12-16T08:21:24.0000000+00:00'
 - author: TheShuEd
   changes:
-  - message: Added 9 new cargo bounties!
+  - message: Adicionado 9 novas recompensas de carga!
     type: Add
   id: 5389
   time: '2023-12-16T08:23:35.0000000+00:00'
 - author: mirrorcult
   changes:
-  - message: Everyone can toggle fire alarms now, not just atmos
+  - message: Todos podem alternar alarmes de incêndio agora, não apenas atmos
     type: Tweak
   id: 5390
   time: '2023-12-16T08:24:00.0000000+00:00'
 - author: EmoGarbage404
   changes:
-  - message: A variety of chemicals can now be decomposed via electrolysis or centrifugal
-      force.
+  - message: Uma variedade de produtos químicos agora pode ser decomposta por eletrólise ou centrífugo
+      força.
     type: Add
   id: 5391
   time: '2023-12-16T08:26:12.0000000+00:00'
 - author: mirrorcult
   changes:
-  - message: Ejecting a tank from a canister will now try to put it in your hand first
+  - message: Ejetar um tanque de um recipiente agora tentará colocá -lo em sua mão primeiro
     type: Fix
   id: 5392
   time: '2023-12-16T08:28:28.0000000+00:00'
 - author: TheShuEd
   changes:
-  - message: Added brother of cak - bread dog! 5 cognizine, sausage bread, animal
-      heart, cooked spaceshrooms and 15 second in microwave = bread dog.
+  - message: Irmão adicionado de Cak - Bread Dog!5 Cognizina, pão de salsicha, animal
+      coração, espaçolas cozidas e 15 segundos no microondas = cachorro pão.
     type: Add
   id: 5393
   time: '2023-12-16T08:30:20.0000000+00:00'
 - author: Ubaser
   changes:
-  - message: Chemistry now has vials, similar to bottles but are much more durable.
+  - message: A química agora tem frascos, semelhantes às garrafas, mas são muito mais duráveis.
     type: Add
   id: 5394
   time: '2023-12-16T14:29:54.0000000+00:00'
 - author: Vasilis
   changes:
-  - message: Added Poppy the Safety Opposum!
+  - message: Adicionado Poppy a gambá de Segurança!
     type: Add
-  - message: Opossums have received some new sprites. Old sprites are still available
-      to be spawned in by admins.
+  - message: Os gambás receberam alguns novos sprites.Sprites antigos ainda estão disponíveis
+      ser gerado por administradores.
     type: Tweak
   id: 5395
   time: '2023-12-16T14:34:54.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Fixed explosion resistance from bags being applied to the wearer.
+  - message: Resistência a explosão fixa de sacos aplicados ao usuário.
     type: Fix
   id: 5396
   time: '2023-12-16T17:17:09.0000000+00:00'
 - author: deltanedas
   changes:
-  - message: Added the power sensor for checking power stats in logic circuits.
+  - message: Adicionado o sensor de potência para verificar estatísticas de energia em circuitos lógicos.
     type: Add
   id: 5397
   time: '2023-12-16T18:32:42.0000000+00:00'
 - author: Flareguy
   changes:
-  - message: Standardized all material sheets to 10u of total reagents when grinded.
-      Alloys are still worth the sum of their parts.
+  - message: Padronizou todas as folhas de materiais para 10U de reagentes totais quando movidos.
+      As ligas ainda valem a soma de suas partes.
     type: Tweak
-  - message: You can now grind plastic into oil and phosphorous.
+  - message: Agora você pode moer plástico em óleo e fósforo.
     type: Tweak
-  - message: Steel sheets no longer contain trace amounts of lead in them.
+  - message: As folhas de aço não contêm mais quantidades de chumbo nelas.
     type: Tweak
   id: 5398
   time: '2023-12-16T20:52:11.0000000+00:00'
 - author: SlamBamActionman
   changes:
-  - message: Discord bot Changelog now includes hyperlinks to the PRs.
+  - message: O Discord Bot Changelog agora inclui hiperlinks para os PRs.
     type: Add
   id: 5399
   time: '2023-12-16T21:00:59.0000000+00:00'
   url: null
 - author: brainfood1183
   changes:
-  - message: Crystals now drop crystal shards, you can use them to craft colored light
-      tubes.
+  - message: Os cristais agora soltam fragmentos de cristal, você pode usá -los para criar luz colorida
+      tubos.
     type: Add
   id: 5400
   time: '2023-12-16T22:20:14.0000000+00:00'
   url: null
 - author: Ilya246
   changes:
-  - message: Pens now embed and deal damage on throw like spears.
+  - message: As canetas agora incorporam e causam danos no arremesso como lanças.
     type: Add
   id: 5401
   time: '2023-12-16T22:23:08.0000000+00:00'
   url: null
 - author: Emisse
   changes:
-  - message: Svalinn Laser Pistol and accompanying T3 tech.
+  - message: Pistola a laser svalinn e tecnologia T3 que acompanha.
     type: Add
   id: 5402
   time: '2023-12-17T03:43:50.0000000+00:00'
   url: null
 - author: mirrorcult
   changes:
-  - message: You can now pet the recycler
+  - message: Agora você pode acariciar o reciclador
     type: Add
   id: 5403
   time: '2023-12-17T07:44:37.0000000+00:00'
   url: null
 - author: Ubaser
   changes:
-  - message: Mindbreaker is now hallucinogenic.
+  - message: O Mindbreaker agora é alucinogênico.
     type: Tweak
   id: 5404
   time: '2023-12-17T07:44:54.0000000+00:00'
   url: null
 - author: JoeHammad
   changes:
-  - message: Paramedics now have a rollerbed in their bag by default
+  - message: Os paramédicos agora têm um rolo na bolsa por padrão
     type: Add
   id: 5405
   time: '2023-12-17T09:55:29.0000000+00:00'
   url: null
 - author: Ilya246
   changes:
-  - message: Large cardboard boxes and stealth boxes now inherit their mover's access.
+  - message: Caixas de papelão grandes e caixas furtivas agora herdam o acesso de seus motores.
     type: Fix
   id: 5406
   time: '2023-12-17T09:55:40.0000000+00:00'
   url: null
 - author: TheShuEd
   changes:
-  - message: Changed hypodart cost from 3 to 2 tc
+  - message: Custo do Hypodart alterado de 3 para 2 TC
     type: Tweak
   id: 5407
   time: '2023-12-17T16:08:11.0000000+00:00'
   url: null
 - author: yathxyz
   changes:
-  - message: Fixed nix devShell
+  - message: Nix devhell corrigido
     type: Fix
   id: 5408
   time: '2023-12-17T16:55:37.0000000+00:00'
   url: null
 - author: Ubaser
   changes:
-  - message: HoS parade uniforms are available at the uniform printer.
+  - message: Os uniformes de desfile de HOS estão disponíveis na impressora uniforme.
     type: Add
   id: 5409
   time: '2023-12-17T23:20:04.0000000+00:00'
   url: null
 - author: Alzore
   changes:
-  - message: Security zipties are now tiny and easier to store.
+  - message: As zípias de segurança agora são pequenas e fáceis de armazenar.
     type: Tweak
   id: 5410
   time: '2023-12-17T23:27:01.0000000+00:00'
   url: null
 - author: Aexxie
   changes:
-  - message: Added RCDs to all engineering lockers.
+  - message: Adicionado RCDs a todos os armários de engenharia.
     type: Add
   id: 5411
   time: '2023-12-18T02:38:37.0000000+00:00'
   url: null
 - author: Ubaser
   changes:
-  - message: Traitors and Nukies can now purchase a Chemical Synthesis Kit for 4TC
-      which contains Vestine.
+  - message: Traidores e Nukies agora podem comprar um kit de síntese química para 4TC
+      que contém vestina.
     type: Add
-  - message: Nocturine, Tazinide, Stimulants, Lexorin and Mute Toxin are now locked
-      behind Vestine.
+  - message: Nocturne, tazinida, estimulantes, lexorina e toxina mudo estão agora trancados atrás da vestina.
     type: Tweak
-  - message: Lexorin and Heartbreaker toxin are buffed, while Licoxide is nerfed.
+  - message: A lexorina e a toxina do desbaste são polidas, enquanto o licóxido é nerfado.
     type: Tweak
-  - message: You can no longer purchase Nocturine through the uplink.
+  - message: Você não pode mais comprar nocturina através do uplink.
     type: Remove
   id: 5412
   time: '2023-12-18T02:40:28.0000000+00:00'
   url: null
 - author: Ubaser
   changes:
-  - message: Janitors now get rubber gloves for cleaning.
+  - message: Os zeladores agora recebem luvas de borracha para limpeza.
     type: Add
   id: 5413
   time: '2023-12-18T03:11:19.0000000+00:00'
   url: null
 - author: Velcroboy
   changes:
-  - message: Added coal. Coal has been added to the steel recipe in the Ore Processor.
-      Coal can be ground up for Carbon and other elements. Coal can be mined or received
-      as a gift if you've been naughty.
+  - message: Coal adicionado.O carvão foi adicionado à receita de aço no processador de minério.
+      O carvão pode ser movido para carbono e outros elementos.O carvão pode ser extraído ou recebido
+      Como um presente, se você foi travesso.
     type: Add
   id: 5414
   time: '2023-12-18T19:38:12.0000000+00:00'
   url: null
 - author: Flareguy
   changes:
-  - message: You can now walk into external and shuttle airlocks to open them, like
-      all other airlocks.
+  - message: Agora você pode entrar em câmeras externas e transportadoras para abri -las, como
+      Todas as outras airlocks.
     type: Tweak
   id: 5415
   time: '2023-12-18T19:44:50.0000000+00:00'
   url: null
 - author: iacore
   changes:
-  - message: normal closets can now be constructed and deconstructed
+  - message: armários normais agora podem ser construídos e desconstruídos
     type: Add
   id: 5416
   time: '2023-12-18T19:46:16.0000000+00:00'
   url: null
 - author: Emisse
   changes:
-  - message: Walls are stronger and windows are weaker.
+  - message: As paredes são mais fortes e as janelas são mais fracas.
     type: Tweak
-  - message: Secure crates and lockers are a lot stronger.
+  - message: Crates e armários seguros são muito mais fortes.
     type: Tweak
-  - message: Melee weapons are now more balanced within a closer range of damage.
+  - message: As armas corpo a corpo agora estão mais equilibradas em uma gama mais próxima de danos.
     type: Tweak
-  - message: Double energy sword and fireaxe are now unavailable in uplink.
+  - message: Double Energy Sword e Fireaxe agora não estão disponíveis em uplink.
     type: Tweak
   id: 5417
   time: '2023-12-19T02:38:49.0000000+00:00'
   url: null
 - author: EmoGarbage404
   changes:
-  - message: Added the RCD and RCD ammo crates to cargo.
+  - message: Adicionado as caixas de munição RCD e RCD à carga.
     type: Add
   id: 5418
   time: '2023-12-19T02:40:55.0000000+00:00'
   url: null
 - author: ElectroJr
   changes:
-  - message: The fireaxe can now fight fires (melee hits reduce fire stacks).
+  - message: O fogo agora pode combater incêndios (os sucessos de corpo a corpo reduzem as pilhas de fogo).
     type: Tweak
   id: 5419
   time: '2023-12-19T02:41:33.0000000+00:00'
   url: null
 - author: SapphicOverload
   changes:
-  - message: EVA and hardsuit helmets now allow breathing from gas tanks without a
-      mask.
+  - message: Capacetes de Eva e Hardsuit agora permitem a respiração de tanques de gasolina sem um
+      mascarar.
     type: Tweak
   id: 5420
   time: '2023-12-19T02:50:06.0000000+00:00'
   url: null
 - author: RiceMar
   changes:
-  - message: Station department exteriors now feature janitorial service lights for
-      directing janitors to the big messes they cant see!
+  - message: Os exteriores do departamento da estação agora apresentam luzes de serviço de zelador para
+      Dirigindo os zeladores para as grandes bagunças que eles não podem ver!
     type: Add
   id: 5421
   time: '2023-12-19T04:21:12.0000000+00:00'
   url: null
 - author: SlamBamActionman
   changes:
-  - message: Fixed compatability with old changelog format.
+  - message: Compatabilidade fixa com formato de Changelog antigo.
     type: Fix
   id: 5422
   time: '2023-12-19T05:22:24.0000000+00:00'
   url: null
 - author: notafet
   changes:
-  - message: Security sunglasses, researchable from arsenal technology, now display
-      the security HUD.
+  - message: Óculos de sol de segurança, pesquisáveis da tecnologia do Arsenal, agora exibem
+      o hud de segurança.
     type: Tweak
   id: 5423
   time: '2023-12-19T08:29:07.0000000+00:00'
   url: null
 - author: Emisse
   changes:
-  - message: Captain clothing items have been resprited
+  - message: Os itens de roupas do capitão foram resfitados
     type: Tweak
   id: 5424
   time: '2023-12-19T20:36:36.0000000+00:00'
   url: null
 - author: Stanislav4ix
   changes:
-  - message: Added ore bag of holding!
+  - message: Adicionado saco de minério de retenção!
     type: Add
   id: 5425
   time: '2023-12-19T22:28:56.0000000+00:00'
   url: null
 - author: TGODiamond
   changes:
-  - message: Item size cannot be misinterpreted now.
+  - message: O tamanho do item não pode ser mal interpretado agora.
     type: Fix
   id: 5426
   time: '2023-12-20T00:31:39.0000000+00:00'
   url: null
 - author: Veritius
   changes:
-  - message: Ethylredoxrazine is more effective at treating drunkness.
+  - message: A etil redoxrozina é mais eficaz no tratamento da embriaguez.
     type: Tweak
   id: 5427
   time: '2023-12-20T02:20:04.0000000+00:00'
   url: null
 - author: Errant
   changes:
-  - message: HUD elements no longer violate the Geneva Conventions.
+  - message: Os elementos HUD não violam mais as convenções de Genebra.
     type: Fix
   id: 5428
   time: '2023-12-20T04:28:03.0000000+00:00'
   url: null
 - author: ERORR404V1
   changes:
-  - message: NanoTrasen botanists have bred a new blinking plant
+  - message: Botanistas de nanotrasen criaram uma nova planta piscando
     type: Add
   id: 5429
   time: '2023-12-20T04:57:02.0000000+00:00'
   url: null
 - author: qwerltaz
   changes:
-  - message: Improve the gas analyzer interface.
+  - message: Melhore a interface do analisador de gás.
     type: Tweak
   id: 5430
   time: '2023-12-20T17:56:57.0000000+00:00'
   url: null
 - author: JoeHammad
   changes:
-  - message: Fland now has its own shuttle, ported from ss13
+  - message: Fland agora tem seu próprio traslado, portado da SS13
     type: Add
   id: 5431
   time: '2023-12-20T23:26:07.0000000+00:00'
   url: null
 - author: joshepvodka
   changes:
-  - message: CentCom bureaucrats are now twice as powerful with their new custom-made
+  - message: Os burocratas do CENTCOM agora são duas vezes mais poderosos com seu novo
       clipboards and folders.
     type: Add
   id: 5432
@@ -1525,7 +1524,7 @@
   url: null
 - author: PJB3005
   changes:
-  - message: Fix starting to follow a moving player as a ghost causing your camera
+  - message: Corrija começando a seguir um jogador em movimento como um fantasma causando sua câmera
       to keep jumping around anymore.
     type: Fix
   id: 5433
@@ -1533,93 +1532,93 @@
   url: null
 - author: Velcroboy
   changes:
-  - message: Fixed coal not generating!
+  - message: Carvão fixo não gera!
     type: Fix
   id: 5434
   time: '2023-12-20T23:46:20.0000000+00:00'
   url: null
 - author: whateverusername0
   changes:
-  - message: "Miasma now reacts with oxygen at 50\xB0C to produce nitrous oxide and\
-      \ water vapor."
+  - message: "Miasma agora reage com oxigênio a 50 \ xb0c para produzir óxido nitroso e \
+      \ vapor de água."
     type: Add
   id: 5435
   time: '2023-12-21T00:14:59.0000000+00:00'
   url: null
 - author: whateverusername0
   changes:
-  - message: Nitrous oxide now decomposes at high temperatures.
+  - message: O óxido nitroso agora se decompõe a altas temperaturas.
     type: Add
   id: 5436
   time: '2023-12-21T01:33:08.0000000+00:00'
   url: null
 - author: Emisse
   changes:
-  - message: Crates and lockers are slightly easier to bust open but still harder
-      than before.
+  - message: Caixas e armários são um pouco mais fáceis de abrir, mas ainda mais difícil
+      do que antes.
     type: Tweak
-  - message: Solid walls are easier to break but reinforced are the same.
+  - message: Paredes sólidas são mais fáceis de quebrar, mas reforçadas são as mesmas.
     type: Tweak
   id: 5437
   time: '2023-12-21T03:03:06.0000000+00:00'
   url: null
 - author: mirrorcult
   changes:
-  - message: Miasma has been renamed to Ammonia
+  - message: Miasma foi renomeado para amônia
     type: Add
-  - message: Miasmic subsumation reaction has been removed
+  - message: A reação de subsumação miasmica foi removida
     type: Remove
   id: 5438
   time: '2023-12-21T04:19:50.0000000+00:00'
   url: null
 - author: joshepvodka
   changes:
-  - message: NanoTrasen updated the designs for their emergency medipens. Space medipens
-      are now magenta colored and epi pens have a green band on them.
+  - message: Nanotrasen atualizou os projetos para seus Medipens de emergência.Medipens espaciais
+      agora são coloridos magenta e as canetas EPI têm uma faixa verde.
     type: Tweak
   id: 5439
   time: '2023-12-21T05:30:58.0000000+00:00'
   url: null
 - author: Hqlle
   changes:
-  - message: Resprited carpet sprites.
+  - message: Sprites de tapete respitidos.
     type: Add
   id: 5440
   time: '2023-12-21T05:32:38.0000000+00:00'
   url: null
 - author: CrigCrag
   changes:
-  - message: Added Fresium, a military grade coolant that you SHOULD NOT INGEST OR
-      SPLASH ON YOUR FRIENDS!
+  - message: Adicionado Fresium, um líquido de arrefecimento de grau militar que você não deve ingerir ou
+      Jogue com seus amigos!
     type: Add
   id: 5441
   time: '2023-12-21T05:35:22.0000000+00:00'
   url: null
 - author: RiceMar
   changes:
-  - message: Energy swords and double energy swords now look as long as they seem
-      to be in your hand.
+  - message: Espadas energéticas e espadas de dupla energia agora parecem, desde que pareçam
+      estar na sua mão.
     type: Tweak
   id: 5442
   time: '2023-12-21T06:32:11.0000000+00:00'
   url: null
 - author: Emisse
   changes:
-  - message: Borgs now see who is crew
+  - message: Borgs agora veja quem é a equipe
     type: Tweak
   id: 5443
   time: '2023-12-21T07:09:53.0000000+00:00'
   url: null
 - author: KittenColony
   changes:
-  - message: Rotated fireaxe 'icon' 45 degrees
+  - message: Ícone de Fireaxe girado 45 graus
     type: Tweak
   id: 5444
   time: '2023-12-21T08:03:52.0000000+00:00'
   url: null
 - author: themias
   changes:
-  - message: Damp rags can mop puddles again
+  - message: Trapos úmidos podem esfregar as poças
     type: Fix
   - message: Syndie soap cleans evidence a little faster than other soap
     type: Tweak
@@ -1628,45 +1627,45 @@
   url: null
 - author: Emisse
   changes:
-  - message: Nukies don't start with agent ID anymore
+  - message: Nukies não começam mais com o ID do agente
     type: Tweak
   id: 5446
   time: '2023-12-21T09:59:06.0000000+00:00'
   url: null
 - author: Repo
   changes:
-  - message: Mice can no longer spill containers.
+  - message: Os ratos não podem mais derramar recipientes.
     type: Tweak
   id: 5447
   time: '2023-12-21T10:23:01.0000000+00:00'
   url: null
 - author: Lukasz825700516
   changes:
-  - message: Gas tanks no longer predict insertion of random items.
+  - message: Os tanques de gás não prevêem mais a inserção de itens aleatórios.
     type: Fix
   id: 5448
   time: '2023-12-21T10:37:35.0000000+00:00'
   url: null
 - author: mirrorcult
   changes:
-  - message: Smart equipping now works with item slots
+  - message: Equipamento inteligente agora funciona com slots de itens
     type: Add
-  - message: Smart equipping is now predicted
+  - message: Equipamento inteligente agora está previsto
     type: Tweak
   id: 5449
   time: '2023-12-21T14:17:09.0000000+00:00'
   url: null
 - author: DrMelon
   changes:
-  - message: Mice and other small creatures can no longer hurt Pun Pun or the Clown
-      by smashing them into tables.
+  - message: Ratos e outras pequenas criaturas não podem mais prejudicar Pun Pun ou o palhaço
+      esmagando -os em mesas.
     type: Fix
   id: 5450
   time: '2023-12-21T15:18:26.0000000+00:00'
   url: null
 - author: Boaz1111
   changes:
-  - message: Added uranium munitions, a new T1 arsenal research.
+  - message: Adicionado munições de urânio, uma nova pesquisa em arsenal em T1.
     type: Add
   - message: Made practice munitions and weapons roundstart
     type: Tweak
@@ -1675,906 +1674,906 @@
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22824
 - author: Admiral-Obvious-001
   changes:
-  - message: Reduced per pellet damage of shotguns slightly.
+  - message: Reduzido por dano de pellets de espingardas ligeiramente.
     type: Tweak
   id: 5452
   time: '2023-12-27T09:26:42.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23042
 - author: mirrorcult
   changes:
-  - message: Pacifists can now attack in general, but are still forbidden from hurting
-      living creatures or dangerous things.
+  - message: Pacifistas agora podem atacar em geral, mas ainda são proibidos de machucar
+      criaturas vivas ou coisas perigosas.
     type: Tweak
-  - message: Pacifists can now disarm people. They are pacifist, after all.
+  - message: Pacifistas agora podem desarmar as pessoas.Eles são pacifistas, afinal.
     type: Tweak
-  - message: Pacifists can now use flashes (and zero-damaging melee weapons, in general)
+  - message: Pacifistas agora podem usar flashes (e armas corpo a corpo com dano zero, em geral)
     type: Tweak
   id: 5453
   time: '2023-12-27T09:55:48.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23037
 - author: snebl
   changes:
-  - message: Fixed emergency and extended nitrogen tanks having the same volume.
+  - message: Tanques de nitrogênio emergenciais e estendidos fixos com o mesmo volume.
     type: Fix
   id: 5454
   time: '2023-12-27T09:56:00.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23040
 - author: Blazeror
   changes:
-  - message: You can now pry open windoors by hand when they are unpowered.
+  - message: Agora você pode arrastar os pinos abertos à mão quando não têm energia.
     type: Fix
   id: 5455
   time: '2023-12-27T12:28:29.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23047
 - author: Emisse
   changes:
-  - message: The Grand Lottery now has much more prizes in store!
+  - message: A Grand Lottery agora tem muito mais prêmios na loja!
     type: Tweak
   id: 5456
   time: '2023-12-27T12:31:03.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23048
 - author: TheShuEd
   changes:
-  - message: The thief will temporarily not steal structures for the time being, as
-      this task seems too difficult.
+  - message: O ladrão não vai roubar temporariamente estruturas por enquanto, como
+      Esta tarefa parece muito difícil.
     type: Tweak
-  - message: Added Emag into thief's syndie kit
+  - message: Adicionado emag no kit de sindie de ladrão
     type: Add
-  - message: Added 3 smoke grenades into thief's smuggler kit
+  - message: Adicionado 3 granadas de fumaça no kit de contrabandista do ladrão
     type: Add
-  - message: Replaced radio jammer to cyber pen into thief's communicator kit
+  - message: Radio Jammer substituiu o Cyber Pen no kit de comunicador de Thief
     type: Tweak
-  - message: Replaced omnizine bottle to omega soap into thief's chemistry kit
+  - message: Garrafa omnizina substituída para o Soap Omega no kit de química do ladrão
     type: Tweak
   id: 5457
   time: '2023-12-27T20:42:16.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22976
 - author: Alekshhh
   changes:
-  - message: Changed brown fedora and inspector's coat palette and minor adjustments
+  - message: Alterado Brown Fedora e paleta de casaco do inspetor e pequenos ajustes
     type: Tweak
   id: 5458
   time: '2023-12-27T22:53:10.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23065
 - author: Velcroboy
   changes:
-  - message: Added melee dmg to salami logs!
+  - message: Adicionado DMG corpo a corpo a toras de salame!
     type: Add
   id: 5459
   time: '2023-12-28T02:59:14.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23041
 - author: Emisse
   changes:
-  - message: Ion Storm is silent now
+  - message: A tempestade de íons está em silêncio agora
     type: Tweak
   id: 5460
   time: '2023-12-28T03:03:00.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23045
 - author: Alekshhh
   changes:
-  - message: Changed wall lockers visually to match regular lockers and sit on walls
-      better
+  - message: Alterados visualmente os armários da parede para combinar com armários regulares e sentar nas paredes
+      melhorar
     type: Tweak
   id: 5461
   time: '2023-12-28T03:05:05.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23060
 - author: EmoGarbage404
   changes:
-  - message: Added the clerical error station event, which causes a small amount of
-      station records to be destroyed.
+  - message: Adicionado o evento da estação de erro clerical, que causa uma pequena quantidade de
+      registros da estação a serem destruídos.
     type: Add
   id: 5462
   time: '2023-12-28T03:09:05.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23091
 - author: EmoGarbage404
   changes:
-  - message: Added the GORILLA gauntlet. When powered with an anomaly core, a single
-      blow from this is able to send anomalies flying through the air. Just try not
-      to let it out on the clown.
+  - message: Adicionado a luva de GORILLA. Quando alimentado com um núcleo de anomalia, um único
+      O golpe disso é capaz de enviar anomalias voando pelo ar.Apenas tente não
+      para deixar sair no palhaço.
     type: Add
-  - message: Added Anomaly Core Harnessing technology to the Experimental discipline,
-      which contains the GORILLA gauntlet.
+  - message: Adicionado a tecnologia de aproveitamento do núcleo de anomalia à disciplina experimental,
+      que contém a luva de GORILLA.
     type: Add
   id: 5463
   time: '2023-12-28T03:11:13.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23012
 - author: Ubaser
   changes:
-  - message: You can now purchase kobolds from cargo as an alternative to monkeys!
+  - message: Agora você pode comprar Kobolds da Cargo como uma alternativa aos macacos!
     type: Add
   id: 5464
   time: '2023-12-28T05:32:55.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22108
 - author: TheShuEd
   changes:
-  - message: Tesla has been added to the game! Engineers can build a tesla power generator
-      using a tesla generator, tesla coils, and grounding wands that can be purchased
-      from the cargo.
+  - message: Tesla foi adicionado ao jogo!Os engenheiros podem construir um gerador de energia Tesla
+      Usando um gerador Tesla, bobinas de Tesla e varinhas de aterramento que podem ser compradas
+      Da carga.
     type: Add
   id: 5465
   time: '2023-12-28T13:11:50.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/21124
 - author: TheShuEd
   changes:
-  - message: thieves can now appear in rounds with nuclear operatives
+  - message: Ladrões agora podem aparecer em rodadas com agentes nucleares
     type: Add
   id: 5466
   time: '2023-12-28T23:50:25.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23102
 - author: EmoGarbage404
   changes:
-  - message: Added station beacons. These devices create custom labels on the station
-      map. Order them from cargo today.
+  - message: Acrescentou beacons da estação.Esses dispositivos criam rótulos personalizados na estação
+      mapa.Encomende -os da Cargo hoje.
     type: Add
   id: 5467
   time: '2023-12-29T00:02:21.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23136
 - author: lzk228
   changes:
-  - message: Directional barricade is constructable now!
+  - message: A barricada direcional é construível agora!
     type: Tweak
   id: 5468
   time: '2023-12-29T00:45:10.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22988
 - author: themias
   changes:
-  - message: Toy swords can be turned on.
+  - message: As espadas de brinquedo podem ser ativadas.
     type: Fix
   id: 5469
   time: '2023-12-29T00:59:23.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23137
 - author: Ubaser
   changes:
-  - message: Magboots produced by science now have new sprites.
+  - message: Magboots produzidos pela ciência agora têm novos sprites.
     type: Add
   id: 5470
   time: '2023-12-29T03:08:08.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23107
 - author: metalgearsloth
   changes:
-  - message: Added sounds to UI clicking and hovering.
+  - message: Sons adicionados ao clique na interface do usuário e pairando.
     type: Add
   id: 5471
   time: '2023-12-29T04:43:37.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22410
 - author: FairlySadPanda
   changes:
-  - message: Talking, whispering and emoting will now strip out any markup tags in
-      the input text. This also means intercoms tuned to the science channel will
-      no longer squawk out "[bold]", and so on, when reporting on research unlocks.
+  - message: Conversar, sussurrar e emoção agora retirará qualquer marca de marcação em
+      o texto de entrada.Isso também significa que os interfones sintonizados no canal de ciências irão
+      Não mais grita "[ousado]" e assim por diante, ao reportar a pesquisa em desbloqueios.
     type: Fix
   id: 5472
   time: '2023-12-30T00:38:11.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23055
 - author: Admiral-Obvious-001
   changes:
-  - message: Normalized researched secfab shotgun ammo damages to align with the rest
-      of the ammo sizes.
+  - message: Danos de munição de espingarda de espingarda de Secfab normalizados para se alinhar com o resto
+      dos tamanhos de munição.
     type: Tweak
   id: 5473
   time: '2023-12-30T05:34:27.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23163
 - author: metalgearsloth
   changes:
-  - message: Fix decals such as grass drawing over shuttles on planet maps.
+  - message: Corrija decalques como a grama desenhando os ônibus espaciais nos mapas do planeta.
     type: Fix
   id: 5474
   time: '2023-12-30T16:12:39.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22953
 - author: metalgearsloth
   changes:
-  - message: Fix mobs not gibbing upon shuttle FTL.
+  - message: Corrija mobs não gibando no ônibus espacial FTL.
     type: Fix
   id: 5475
   time: '2023-12-30T16:12:52.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22952
 - author: metalgearsloth
   changes:
-  - message: Surveillance cameras now cycle their animation forwards and backwards.
+  - message: As câmeras de vigilância agora pedalam sua animação para frente e para trás.
     type: Add
   id: 5476
   time: '2023-12-30T16:14:14.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22950
 - author: EmoGarbage404
   changes:
-  - message: Added the Hyper convection protolathe and autolathe to Industrial Engineering
-      tech. These lathes have a discounted printing price at the cost of venting hot
-      air into the surroundings.
+  - message: Adicionado o protolathe de hiper convecção e o automóvel para a engenharia industrial
+      tecnologia.Esses tornos têm um preço de impressão com desconto ao custo de ventilação quente
+      ar no ambiente.
     type: Add
-  - message: Added the industrial ore processor, an improved version with discounted
-      printing prices, to salvage equipment technology.
+  - message: Adicionado o processador industrial de minério, uma versão aprimorada com desconto
+      Impressão dos preços, para recuperar a tecnologia de equipamentos.
     type: Add
-  - message: Moved autolathe, protolathe, circuit imprinter, ore processor, and material
-      reclaimer boards to be available by default in the circuit imprinter.
+  - message: Moveu -se automaticamente, protolathe, impressão de circuito, processador de minério e material
+      As placas de recuperação a serem disponíveis por padrão no impressão do circuito.
     type: Tweak
-  - message: Removed machine part upgrades from all lathes.
+  - message: Atualizações de peças da máquina removidas de todos os tornos.
     type: Remove
   id: 5477
   time: '2023-12-30T16:18:58.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23202
 - author: Ubaser
   changes:
-  - message: The uncloneable trait has been removed.
+  - message: A característica não conectada foi removida.
     type: Remove
   id: 5478
   time: '2023-12-30T16:45:43.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23229
 - author: Ubaser
   changes:
-  - message: Syndicate implanters have received a new sprite.
+  - message: Os implantes do sindicato receberam um novo sprite.
     type: Add
   id: 5479
   time: '2023-12-30T16:46:13.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23227
 - author: lzk228
   changes:
-  - message: Shivs crafting now based on construct. Click with cloth on shard to create
-      shiv.
+  - message: Shivs criando agora com base no construto.Clique com pano no shard para criar
+      Shiv.
     type: Tweak
   id: 5480
   time: '2023-12-30T17:08:52.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23134
 - author: Alekshhh
   changes:
-  - message: Changed disposal units visually
+  - message: Unidades de descarte alteradas visualmente
     type: Tweak
   id: 5481
   time: '2023-12-30T17:14:20.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23067
 - author: quatre
   changes:
-  - message: Artifact Analyzer now pauses on power-loss.
+  - message: O Analisador de Artefatos agora faz uma pausa na perda de energia.
     type: Tweak
   id: 5482
   time: '2023-12-30T17:49:25.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22974
 - author: Blazeror
   changes:
-  - message: Pinpointers now use the correct sprites.
+  - message: As pinpointers agora usam os sprites corretos.
     type: Fix
   id: 5483
   time: '2023-12-30T19:12:13.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23236
 - author: Emisse
   changes:
-  - message: The Grand Lottery has even more surprises in store!
+  - message: A Grande Loteria tem ainda mais surpresas na loja!
     type: Tweak
   id: 5484
   time: '2023-12-30T21:24:24.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23243
 - author: Blackern5000
   changes:
-  - message: Chang's instant ramen cups have been slightly enlarged to accommodate
-      10ml of boiling water, as per the instructions.
+  - message: Os copos instantâneos de ramen de Chang foram um pouco ampliados para acomodar
+      10 ml de água fervente, conforme as instruções.
     type: Tweak
   id: 5485
   time: '2023-12-30T22:27:10.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23189
 - author: Velcroboy
   changes:
-  - message: Moved head clothing items out of their lockers and into their dressers.
+  - message: Mudou os itens de roupas da cabeça para fora de seus armários e para os cômodos.
     type: Tweak
   id: 5486
   time: '2023-12-30T22:42:19.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23183
 - author: Carve
   changes:
-  - message: Voice change has a new icon.
+  - message: A mudança de voz tem um novo ícone.
     type: Tweak
   id: 5487
   time: '2023-12-30T23:13:27.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23239
 - author: lzk228
   changes:
-  - message: Mime's stamp is silent now!
+  - message: O carimbo de Mime está em silêncio agora!
     type: Tweak
   id: 5488
   time: '2023-12-30T23:15:02.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23221
 - author: EmoGarbage404
   changes:
-  - message: Damage from heat sources has been increased.
+  - message: Os danos causados por fontes de calor foram aumentados.
     type: Tweak
   id: 5489
   time: '2023-12-30T23:28:01.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23238
 - author: Alekshhh
   changes:
-  - message: Changed seed bag visuals
+  - message: Visuais de saco de sementes alterados
     type: Tweak
   id: 5490
   time: '2023-12-30T23:35:46.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23210
 - author: Alekshhh
   changes:
-  - message: Changed ammo boxes visually
+  - message: Caixas de munição alteradas visualmente
     type: Tweak
   id: 5491
   time: '2023-12-31T02:13:07.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23180
 - author: leonardo-dabepis
   changes:
-  - message: Soap no longer smells like condoms.
+  - message: Sabão não cheira mais a preservativos.
     type: Tweak
   id: 5492
   time: '2023-12-31T07:27:55.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23272
 - author: EmoGarbage404
   changes:
-  - message: The chemistry guidebook now includes sources for various chemicals! These
-      are alternative methods of collection, including grinding, juicing, condensation,
-      and various others.
+  - message: O guia de química agora inclui fontes para vários produtos químicos! Esses
+      são métodos alternativos de coleta, incluindo moagem, suco, condensação,
+      e vários outros.
     type: Add
   id: 5493
   time: '2023-12-31T07:35:00.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22627
 - author: noctyrnal
   changes:
-  - message: RD's suit got a new paint job.
+  - message: O traje da RD tem uma nova pintura.
     type: Tweak
   id: 5494
   time: '2023-12-31T07:36:47.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23131
 - author: DangerRevolution
   changes:
-  - message: Fixed Syndicate Fax Machine not receiving Faxes
+  - message: Máquina de fax do sindicato fixo que não recebe faxes
     type: Fix
   id: 5495
   time: '2023-12-31T17:36:21.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23291
 - author: IlyaElDunaev
   changes:
-  - message: The stun prod can now be thrown at enemies
+  - message: O prol atordoado agora pode ser jogado em inimigos
     type: Add
   id: 5496
   time: '2023-12-31T23:52:00.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23133
 - author: TheShuEd
   changes:
-  - message: Added 3 new artifact effect. Added 1 new artifact trigger.
-    type: Add
+  - message: Adicionado 3 novo efeito de artefato.Adicionado 1 novo gatilho de artefato.
+    Tipo: Adicionar
   id: 5497
   time: '2024-01-01T02:19:03.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22574
 - author: Ilya246
   changes:
-  - message: Science no longer needs to research medium batteries, and high batteries
-      are now T1.
+  - message: A ciência não precisa mais pesquisar baterias médias e baterias altas
+      agora são T1.
     type: Tweak
   id: 5498
   time: '2024-01-01T02:24:13.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23269
 - author: Rainfey
   changes:
-  - message: Ensure correct number of thieves
+  - message: Garanta o número correto de ladrões
     type: Fix
   id: 5499
   time: '2024-01-01T02:25:28.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23270
 - author: icekot8
   changes:
-  - message: 2 new effects for artifact
+  - message: 2 novos efeitos para artefato
     type: Add
   id: 5500
   time: '2024-01-01T06:40:49.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23295
 - author: TheShuEd
   changes:
-  - message: Tesla coils now have a 50% chance of not attracting lightning.  Installing
-      ground rods is now much more important!
+  - message: As bobinas de Tesla agora têm 50% de chance de não atrair raios.Instalação
+      As hastes de terra agora são muito mais importantes!
     type: Tweak
-  - message: Nerf tesla energy producing.
+  - message: Nerf Tesla Energy Producting.
     type: Tweak
-  - message: Now tesla coils are gradually wearing out, taking damage from lightning.
-      Keep an eye on them and repair them with a welder every 20-30 minutes. Grounding
-      rods are immune to lightning damage.
+  - message: Agora, as bobinas de Tesla estão gradualmente se desgastando, sofrendo danos causados pelo raio.
+      Fique de olho neles e repare-os com um soldador a cada 20 a 30 minutos.Aterramento
+      As hastes são imunes a danos causados pelo raio.
     type: Add
   id: 5501
   time: '2024-01-01T07:33:48.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23235
 - author: 778b
   changes:
-  - message: Fixed appearance of welded airlocks!
+  - message: Aparência fixa de câmara soldada!
     type: Fix
   id: 5502
   time: '2024-01-01T07:36:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23300
 - author: mirrorcult
   changes:
-  - message: Ambient sounds are now more audible by default (unless you have the audio
-      setting changed already)
+  - message: Os sons ambientais agora são mais audíveis por padrão (a menos que você tenha o áudio
+      A configuração já mudou)
     type: Tweak
-  - message: LV/MV wires & pipes no longer make ambient noises
+  - message: Os fios e tubos BT/MT não fazem mais ruídos ambiente
     type: Tweak
   id: 5503
   time: '2024-01-01T07:57:33.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22536
 - author: themias
   changes:
-  - message: Heat damage cauterizes bleeding again.
+  - message: Os danos causados pelo calor cauterizam o sangramento novamente.
     type: Fix
   id: 5504
   time: '2024-01-01T08:08:26.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23264
 - author: TheShuEd
   changes:
-  - message: the lightning from the electrical anomaly now works the same way as the
-      tesla. They can charge the tesla coils, and blow up machinery.
+  - message: O raio da anomalia elétrica agora funciona da mesma maneira que o
+      Tesla.Eles podem carregar as bobinas de Tesla e explodir máquinas.
     type: Tweak
   id: 5505
   time: '2024-01-01T10:24:38.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23173
 - author: Ubaser
   changes:
-  - message: Reptilians can now use up to two (top) head markings.
+  - message: Os répteis agora podem usar até duas marcas de cabeça (em cima).
     type: Tweak
   id: 5506
   time: '2024-01-01T23:27:14.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23219
 - author: Lukasz825700516
   changes:
-  - message: Zombiefied reptilians no longer can pull objects with their tail.
+  - message: Os reptilianos zumbiefados não podem mais puxar objetos com a cauda.
     type: Fix
   id: 5507
   time: '2024-01-01T23:31:36.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23066
 - author: SonicHDC
   changes:
-  - message: Changed shape of Pistols to L!
+  - message: Forma alterada de pistolas para L!
     type: Tweak
   id: 5508
   time: '2024-01-01T23:32:16.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23104
 - author: Alekshhh
   changes:
-  - message: Changed some hairs visually
+  - message: Mudou alguns cabelos visualmente
     type: Tweak
   id: 5509
   time: '2024-01-02T00:12:05.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23304
 - author: EmoGarbage404
   changes:
-  - message: Defibrillators no longer reset the rot timer when failing to revive a
-      body.
+  - message: Os desfibriladores não redefinir
+      corpo.
     type: Fix
-  - message: Slimes now rot.
+  - message: Slimes agora apodrece.
     type: Tweak
   id: 5510
   time: '2024-01-02T02:12:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23340
 - author: Ubaser
   changes:
-  - message: Salvage mobs can no longer be ghost roles.
+  - message: Mobs de salvamento não podem mais ser papéis fantasmas.
     type: Remove
   id: 5511
   time: '2024-01-02T08:15:29.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23355
 - author: Rainbeon
   changes:
-  - message: The ChemMaster buffer no longer shuffles list ordering when removing
-      a reagent.
+  - message: O buffer da Chemmaster não abre mais a lista da lista ao remover
+      um reagente.
     type: Fix
   id: 5512
   time: '2024-01-02T15:51:22.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23352
 - author: DrMelon
   changes:
-  - message: Fixed the Tesla Ball moving too fast by being pushed with explosions.
-      Now it moves as-designed.
+  - message: Corrigido a bola de Tesla se movendo muito rápido ao ser empurrada com explosões.
+      Agora ele se move como designado.
     type: Fix
   id: 5513
   time: '2024-01-02T18:09:06.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23377
 - author: tday
   changes:
-  - message: The admin log will now include attempts to draw from mobs with a syringe.
+  - message: O log do administrador agora incluirá tentativas de extrair de mobs com uma seringa.
     type: Add
   id: 5514
   time: '2024-01-02T18:47:31.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23333
 - author: 778b
   changes:
-  - message: Improved mice's eating everything behavior, now they can stop!
+  - message: Ratos aprimorados estão comendo tudo o comportamento, agora eles podem parar!
     type: Tweak
   id: 5515
   time: '2024-01-02T18:49:20.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23322
 - author: Ilya246
   changes:
-  - message: Science may now research the Biofabricator, which can make animal cubes
-      from biomass!
+  - message: A ciência agora pode pesquisar o biofabricador, que pode fazer cubos de animais
+      da biomassa!
     type: Add
   id: 5516
   time: '2024-01-02T18:53:35.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23319
 - author: themias
   changes:
-  - message: Welders can be refilled directly from wall fuel dispensers
+  - message: Os soldadores podem ser recarregados diretamente dos dispensadores de combustível de parede
     type: Tweak
   id: 5517
   time: '2024-01-02T21:11:10.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23376
 - author: Admiral-Obvious-001
   changes:
-  - message: Added a few words to body bag descriptor so you know they stop rot.
+  - message: Adicionou algumas palavras ao descritor de bolsas para o corpo para que você saiba que eles param de podridão.
     type: Add
   id: 5518
   time: '2024-01-03T01:36:18.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23407
 - author: CaasGit
   changes:
-  - message: Give slimes their custom speech bubble!
+  - message: Dê aos slimes sua bolha de fala personalizada!
     type: Tweak
   id: 5519
   time: '2024-01-03T05:12:56.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23415
 - author: zzylex
   changes:
-  - message: You can now make plungers stick to walls.
+  - message: Agora você pode fazer com que os êmbolos grudam nas paredes.
     type: Tweak
-  - message: A sound is made when a plunger gets stuck to something.
+  - message: Um som é emitido quando um êmbolo fica preso a alguma coisa.
     type: Add
-  - message: You can now shoot plungers with bows.
+  - message: Agora você pode atirar em êmbolo com arcos.
     type: Tweak
   id: 5520
   time: '2024-01-03T05:36:17.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23406
 - author: EmoGarbage404
   changes:
-  - message: Added flatpacks, boxes that unpack into a full-sized machine when activated
-      with a multitool.
+  - message: Adicionado packs, caixas que descompactarem em uma máquina de tamanho normal quando ativado
+      com um multitool.
     type: Add
-  - message: Added the Flatpacker 1001 to industrial research. A machine capable of
-      creating flatpacks from machine boards.
+  - message: Adicionado o Flatpacker 1001 à pesquisa industrial.Uma máquina capaz de
+      Criando pilhas planas a partir de placas de máquina.
     type: Add
   id: 5521
   time: '2024-01-03T06:16:03.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23338
 - author: themias
   changes:
-  - message: Cyborgs can interact with shuttle consoles, gas mixers and gas filters.
+  - message: Os cyborgs podem interagir com consoles de ônibus, misturadores de gás e filtros de gás.
     type: Fix
   id: 5522
   time: '2024-01-03T06:31:58.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23391
 - author: metalgearsloth
   changes:
-  - message: Fix solution injections considering the fly-by sound range and not the
-      collision range.
+  - message: Corrija as injeções de solução considerando a faixa de som voador e não a
+      faixa de colisão.
     type: Fix
   id: 5523
   time: '2024-01-03T07:57:36.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23429
 - author: Bhijn and Myr
   changes:
-  - message: Light fixtures now actually glow when they're powered on. Like. Their
-      sprite actually glows if the lighting is dim. Revolutionary technology, yes.
+  - message: As luminárias agora realmente brilham quando estão ligadas.Como.Deles
+      Sprite realmente brilha se a iluminação estiver escura.Tecnologia revolucionária, sim.
     type: Tweak
   id: 5524
   time: '2024-01-03T08:46:11.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23428
 - author: Bhijn and Myr
   changes:
-  - message: 'Blindness has been completely reworked, top to bottom. Eye damage is
-      no longer a mere dimming of the screen, but rather, a hyperstylized (read: not
-      at all realistic) simulation of the symptoms described by those living with
-      various types of real-world blindness.'
+  - message: 'A cegueira foi completamente retrabalhada, de cima para baixo.Dano ocular é
+      não é mais um mero escurecimento da tela, mas sim, um hiperesses (leia -se: não
+      em todo realista) simulação dos sintomas descritos por aqueles que vivem com
+      vários tipos de cegueira do mundo real.
     type: Add
-  - message: When your eyes have reached a critical state of damage, you are now capable
-      of simply closing them.
+  - message: Quando seus olhos atingiram um estado crítico de dano, agora você é capaz
+      de simplesmente fechá -los.
     type: Add
-  - message: The settings menu now has a "Reduce motion of visual effects" setting!
-      Currently, the only thing this does is swap the eye damage effect out for a
-      far more straight-forward one akin to the blindness overlays seen across various
-      SS13 servers.
+  - message: O menu Configurações agora possui uma configuração "Reduzir o movimento dos efeitos visuais"!
+      Atualmente, a única coisa que isso faz é trocar o efeito de dano ocular por um
+      muito mais direto, semelhante às sobreposições de cegueira vistas em vários
+      Servidores SS13.
     type: Add
-  - message: The amount of damage that eyes can take has been greatly increased. Total
-      blindness now takes 9 damage, up from 3. Additionally, eyes are considered to
-      be in a critical state once they hit 6 damage.
+  - message: A quantidade de dano que os olhos pode tomar aumentou bastante.Total
+      A cegueira agora leva 9 danos, acima de 3. Além disso, os olhos são considerados para
+      Estar em um estado crítico depois de atingir 6 danos.
     type: Tweak
-  - message: Glasses no longer actively increase the eye damage effect. They now actively
-      reduce the eye damage effect, with their effectiveness dropping off as you take
-      more eye damage, until they eventually do nothing once your eyes are in critical
-      condition.
+  - message: Os óculos não aumentam mais ativamente o efeito de dano ocular.Eles agora ativamente
+      Reduza o efeito de dano ocular, com a eficácia deles caindo enquanto você toma
+      mais danos oculares, até que eles não façam nada quando seus olhos estão críticos
+      doença.
     type: Tweak
-  - message: The blind trait is now legal blindness, rather than complete blindness.
-      The blind trait permanently prevents your eyes from being reduced below the
-      critical state threshold.
+  - message: A característica cega agora é cegueira legal, em vez de cegueira completa.
+      A característica cega impede permanentemente seus olhos de ser reduzida abaixo do
+      limiar de estado crítico.
     type: Tweak
   id: 5525
   time: '2024-01-03T09:07:02.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23212
 - author: BurninDreamer
   changes:
-  - message: Hand labelers can now be printed by autolathes.
+  - message: As etiquetas manuais agora podem ser impressas por automóveis.
     type: Tweak
   id: 5526
   time: '2024-01-03T18:24:02.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23457
 - author: themias
   changes:
-  - message: Fixed refueling a lit welder not detonating the fuel tank
+  - message: Reabastecimento fixo de um soldador iluminado não detone o tanque de combustível
     type: Fix
   id: 5527
   time: '2024-01-03T21:23:36.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23469
 - author: Alekshhh
   changes:
-  - message: Changed monkeys visually
+  - message: Macacos alterados visualmente
     type: Tweak
   id: 5528
   time: '2024-01-03T21:23:55.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23464
 - author: lapatison
   changes:
-  - message: Circuit imprinter now can produce circuit floor.
+  - message: O impressão do circuito agora pode produzir piso de circuito.
     type: Add
   id: 5529
   time: '2024-01-03T21:25:18.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23467
 - author: 21Melkuu
   changes:
-  - message: increased RPED capacity.
+  - message: aumento da capacidade RPED.
     type: Tweak
   id: 5530
   time: '2024-01-03T21:34:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23455
 - author: Bhijn and Myr
   changes:
-  - message: Service lights have had their overall brightness toned down.
+  - message: As luzes de serviço tiveram seu brilho geral atenuado.
     type: Tweak
   id: 5531
   time: '2024-01-03T21:39:04.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23437
 - author: Ilya246
   changes:
-  - message: Terminator endoskeletons have learned how to pry doors.
+  - message: Os endosqueletos do Terminator aprenderam como arremessar portas.
     type: Tweak
   id: 5532
   time: '2024-01-03T21:58:02.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23468
 - author: lzk228
   changes:
-  - message: Vendors will thank you now for using them.
+  - message: Os fornecedores agradecerão agora por usá -los.
     type: Tweak
   id: 5533
   time: '2024-01-03T22:21:53.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23023
 - author: Flareguy
   changes:
-  - message: Airlocks now have a new deny sound, courtesy of /tg/station.
+  - message: Os aviões agora têm um novo som de nega, cortesia de /tg /estação.
     type: Tweak
   id: 5534
   time: '2024-01-03T22:22:37.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22954
 - author: Blackern5000
   changes:
-  - message: After realizing their employees have been forced to make medical supplies
-      by hand, Centcomm has added a gauze option to their medical fabricators.
+  - message: Depois de perceber que seus funcionários foram forçados a fazer suprimentos médicos
+      Mão à mão, a CentComm adicionou uma opção de gaze aos seus fabricantes médicos.
     type: Add
   id: 5535
   time: '2024-01-03T22:42:35.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23417
 - author: Bhijn and Myr
   changes:
-  - message: The blindness and eye damage effects now properly take screen resolution
-      into account, and are no longer way wider than intended.
+  - message: Os efeitos de cegueira e dano ocular agora tomam resolução de tela adequadamente
+      em consideração, e não são mais muito mais amplos do que o pretendido.
     type: Fix
   id: 5536
   time: '2024-01-04T00:17:06.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23465
 - author: EmoGarbage404
   changes:
-  - message: Cargo Bounties no longer have time limits. There are also more available
-      at once.
+  - message: As recompensas de carga não têm mais limites de tempo.Há também mais disponível
+      de uma vez só.
     type: Tweak
-  - message: Adjusted reward amounts for bounties
+  - message: Valores de recompensa ajustados para recompensas
     type: Tweak
-  - message: Fixed bounties failing to register mobs and items inside containers.
+  - message: Reproduza corrigida não registrando mobs e itens dentro de contêineres.
     type: Fix
   id: 5537
   time: '2024-01-04T00:34:47.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23411
 - author: themias
   changes:
-  - message: Microwaves no longer eject their contents when they lose power.
+  - message: As microondas não ejetaram mais seu conteúdo quando perdem o poder.
     type: Tweak
   id: 5538
   time: '2024-01-04T00:36:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23460
 - author: Bhijn and Myr
   changes:
-  - message: Kobolds now come in a wide variety of colors, and now have random horns!
+  - message: Os Kobolds agora vêm em uma ampla variedade de cores e agora têm chifres aleatórios!
     type: Add
   id: 5539
   time: '2024-01-04T00:39:00.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23393
 - author: IlyaElDunaev
   changes:
-  - message: Tarantula can pry doors.
+  - message: Tarântula pode arrancar portas.
     type: Add
-  - message: Added regeneration for tarantula.
+  - message: Regeneração adicionada para tarântula.
     type: Add
   id: 5540
   time: '2024-01-04T00:39:23.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23449
 - author: Alekshhh
   changes:
-  - message: Changed green-red jester outfit visually
+  - message: Roupa verde-vermelha alterada visualmente
     type: Tweak
   id: 5541
   time: '2024-01-04T00:40:23.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23454
 - author: themias
   changes:
-  - message: Zombies now take longer to pry open bolted doors.
+  - message: Os zumbis agora demoram mais para que as portas aparafusadas abertas.
     type: Tweak
   id: 5542
   time: '2024-01-04T00:41:39.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23383
 - author: Blazeror
   changes:
-  - message: Vials now work in dispensers.
+  - message: Os frascos agora funcionam em dispensadores.
     type: Fix
   id: 5543
   time: '2024-01-04T02:18:37.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23473
 - author: FairlySadPanda
   changes:
-  - message: Switching songs when playing a MIDI instrument no longer inconsistently
-      requires stopping the old song first.
+  - message: Mudar de músicas ao tocar um instrumento MIDI não inconsistentemente
+      Requer parar a música antiga primeiro.
     type: Fix
-  - message: Clicking the [bold]Play MIDI[/bold] button repeatedly in the Instrument
-      menu no longer queues up more file windows to open.
+  - message: Clicando no botão [BOLD] reproduza midi [/BOLD] repetidamente no instrumento
+      O menu não faz mais filas mais o Windows de arquivo para abrir.
     type: Fix
   id: 5544
   time: '2024-01-04T02:19:22.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23339
 - author: metalgearsloth
   changes:
-  - message: Salvage magnet now has an interface to choose what you want to do.
+  - message: O Salvage Magnet agora tem uma interface para escolher o que você deseja fazer.
     type: Add
-  - message: Magnet asteroids now come in more varieties.
+  - message: Os asteróides do ímã agora vêm em mais variedades.
     type: Tweak
   id: 5545
   time: '2024-01-04T03:25:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23119
 - author: themias
   changes:
-  - message: Added a funny oxygen tank for the clown
-    type: Add
+  - message: Adicionado um tanque engraçado de oxigênio para o palhaço
+    Tipo: Adicionar
   id: 5546
   time: '2024-01-04T03:29:03.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23495
 - author: SpeltIncorrectyl
   changes:
-  - message: The flatpacker 1001 can now create flatpacks for computers.
+  - message: O Flatpacker 1001 agora pode criar packs planos para computadores.
     type: Tweak
   id: 5547
   time: '2024-01-04T04:23:47.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23471
 - author: Geekyhobo
   changes:
-  - message: Fixed AGhosts not being able to drop items past the default range.
+  - message: Corrigido Aghosts não conseguirem deixar itens além do intervalo padrão.
     type: Fix
   id: 5548
   time: '2024-01-04T05:31:58.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23502
 - author: Dutch-VanDerLinde
   changes:
-  - message: Kobold monkies now have a unique name identifier. (KB-####)
+  - message: Kobold Monkies agora tem um identificador de nome exclusivo.(KB-###)
     type: Tweak
   id: 5549
   time: '2024-01-04T05:51:09.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23505
 - author: Boaz1111
   changes:
-  - message: The shotgun cartridge dispensers now function like ammo boxes.
+  - message: Os dispensadores de cartucho de espingarda agora funcionam como caixas de munição.
     type: Tweak
   id: 5550
   time: '2024-01-04T05:53:45.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23388
 - author: KittenColony
   changes:
-  - message: Added backspikes marking to Lizards
+  - message: Adicionados backspikes marcando para lagartos
     type: Add
   id: 5551
   time: '2024-01-04T09:49:51.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23220
 - author: Ilya246
   changes:
-  - message: Plasma gas canisters are now much cheaper.
+  - message: Os botijaos de gases de plasma agora são muito mais baratos.
     type: Tweak
   id: 5552
   time: '2024-01-04T10:56:38.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23283
 - author: Emisse
   changes:
-  - message: Holoparasite can wideswing, do structural, and won't out you by randomly
-      attacking before it's possessed.
+  - message: Holoparasita pode ser difundida, fazer estrutural e não vai sair aleatoriamente
+      atacando antes que esteja possuído.
     type: Tweak
-  - message: Structural damage has been adjusted to allow more weapons to damage sturdier
-      structures.
+  - message: Danos estruturais foram ajustados para permitir que mais armas danificassem mais robustas
+      estruturas.
     type: Tweak
   id: 5553
   time: '2024-01-04T12:03:28.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23515
 - author: Emisse
   changes:
-  - message: Some syndicate implants have been made cheaper.
+  - message: Alguns implantes de sindicato foram tornados mais baratos.
     type: Tweak
   id: 5554
   time: '2024-01-04T12:24:39.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23513
 - author: Emisse
   changes:
-  - message: Flashes cannot be heard from more than a few meters away.
+  - message: Flashes não podem ser ouvidos a mais de alguns metros de distância.
     type: Tweak
   id: 5555
   time: '2024-01-04T12:27:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23521
 - author: TheShuEd
   changes:
-  - message: Added human plushie
+  - message: Adicionado pluio humano
     type: Add
   id: 5556
   time: '2024-01-04T12:27:40.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23518
 - author: ERORR404V1
   changes:
-  - message: Added observation kit what include syndicate crew monitor and security
-      hud disguised as sunglasses.
+  - message: Adicionado kit de observação O que inclui o monitor da tripulação e a segurança do sindicato
+      HUD disfarçado de óculos de sol.
     type: Add
   id: 5557
   time: '2024-01-04T12:36:44.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23384
 - author: Ilya246
   changes:
-  - message: Added the syndicate scram implanter, which allows you to instantly escape
-      any situation, at a risk.
+  - message: Adicionado o implantador Scram Scram, que permite que você escape instantaneamente
+      qualquer situação, em risco.
     type: Add
   id: 5558
   time: '2024-01-04T12:38:03.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23122
 - author: VMSolidus
   changes:
-  - message: PAI cartridges can now be slotted into PDAs.
+  - message: Os cartuchos IAP agora podem ser colocados em PDAs.
     type: Add
   id: 5559
   time: '2024-01-04T12:56:14.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/21086
 - author: Emisse
   changes:
-  - message: Emergency Eva is slightly faster to move around in.
+  - message: Traje de EVA é um pouco mais rápido para se movimentar.
     type: Tweak
   id: 5560
   time: '2024-01-04T13:08:17.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23522
 - author: Alekshhh
   changes:
-  - message: Changed plague doctor set visually
+  - message: Médico de peste alterado Conjunto visualmente
     type: Tweak
   id: 5561
   time: '2024-01-04T13:09:11.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23382
 - author: luringens
   changes:
-  - message: Diona now drop their items when robusted into a tree.
+  - message: Diona agora solta seus itens quando robusto em uma árvore.
     type: Tweak
-  - message: Diona can be cut free from their robust tree-form.
+  - message: Diona pode ser libertado de sua forma robusta de árvore.
     type: Fix
   id: 5562
   time: '2024-01-04T13:10:05.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/21636
 - author: PrPleGoo
   changes:
-  - message: added an overlay for the diagnostic hud that displays relative health
-      for inorganics
+  - message: Adicionado uma sobreposição para o HUD de diagnóstico que exibe a saúde relativa
+      para inorgânicos
     type: Add
-  - message: added an overlay for the medical hud that displays relative health for
-      biologicals
+  - message: Adicionado uma sobreposição para o HUD médico que exibe a saúde relativa para
+      biológicos
     type: Add
-  - message: added a `showhealthbars` command that takes damage contained ids as a
+  - message: Adicionado um comando `ShowHealthbars` que recebe danos contidos como IDs como um
       param
     type: Add
   id: 5563
@@ -2582,522 +2581,522 @@
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/21980
 - author: ada-please
   changes:
-  - message: Oil can now be broken down with a Centrifuge.
+  - message: O petróleo agora pode ser quebrado com uma centrífuga.
     type: Add
   id: 5564
   time: '2024-01-04T22:45:35.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23537
 - author: EmoGarbage404
   changes:
-  - message: Increased material discount of hyper convection protolathes and hyper
-      convection  autolathes to 50%
+  - message: Maior desconto de material de protolatas de hiper convecção e hiper
+      A convecção automatia para 50%
     type: Tweak
   id: 5565
   time: '2024-01-05T02:44:11.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23542
 - author: TheShuEd
   changes:
-  - message: Added new T2 "Deterrence technologies", it includes 2 new tools to fight
-      a runaway singularity or tesla. Force barrier holoprojector that sets up a 3-minute
-      force containment field, and portable particle decelerator, capable of damaging
-      a tesla or singularity. Chances are 1 gun will not be enough! You will need
-      a teamwork of several shooters and hunters to destroy a tesla or singularity.
+  - message: Adicionados novas "tecnologias de dissuasão", inclui 2 novas ferramentas para lutar
+      uma singularidade ou tesla fugitiva.HoloProjetor de barreira de força que configura um 3 minutos
+      campo de contenção de força e desacelerador de partículas portáteis, capaz de danificar
+      uma tesla ou singularidade.As chances são de uma arma não será suficiente!Você precisará
+      um trabalho em equipe de vários atiradores e caçadores para destruir uma Tesla ou Singularidade.
     type: Add
-  - message: Added in cargo "Particle Decelerators crate" with 3 PD, at cost 15000$
+  - message: Adicionado em carga "desaceleradores de partículas" com 3 PD, a custos 15000 $
     type: Add
   id: 5566
   time: '2024-01-05T02:48:10.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23444
 - author: Alekshhh
   changes:
-  - message: Changed uranium ore visually
+  - message: Mudou o minério de urânio visualmente
     type: Tweak
   id: 5567
   time: '2024-01-05T03:35:52.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23526
 - author: EmoGarbage404
   changes:
-  - message: The flatpacker now consumes boards when packing them.
+  - message: O Flatpacker agora consome tábuas ao embalá -las.
     type: Tweak
   id: 5568
   time: '2024-01-05T05:01:25.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23552
 - author: Ubaser
   changes:
-  - message: Moths have a new variety of wing and antennae, Underwing.
+  - message: As mariposas têm uma nova variedade de asas e antenas, com asas submetidas.
     type: Add
   id: 5569
   time: '2024-01-05T13:55:49.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23559
 - author: Nairodian
   changes:
-  - message: Added the ability to construct benches, dressers, and filing cabinets.
+  - message: Adicionado a capacidade de construir bancos, cômodas e armários de arquivamento.
     type: Add
   id: 5570
   time: '2024-01-05T16:53:34.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23188
 - author: Strol20
   changes:
-  - message: The hud diagnostic drivers have been updated and can now show the health
-      of Borgs
+  - message: Os motoristas de diagnóstico do HUD foram atualizados e agora podem mostrar a saúde
+      de Borgs
     type: Add
   id: 5571
   time: '2024-01-05T17:00:40.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23580
 - author: SpeltIncorrectyl
   changes:
-  - message: Due to budget constraints, microwaves can no longer contain an infinite
-      number of items. Now the limit is 10.
+  - message: Devido a restrições orçamentárias, as microondas não podem mais conter um infinito
+      número de ítens.Agora o limite é 10.
     type: Fix
   id: 5572
   time: '2024-01-05T20:03:49.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23577
 - author: GreyMario
   changes:
-  - message: Chemistry bottles have been properly washed so you can actually see the
-      chemicals clearly through the glass.
+  - message: Garrafas de química foram lavadas adequadamente para que você possa realmente ver o
+      produtos químicos claramente através do vidro.
     type: Tweak
   id: 5573
   time: '2024-01-05T22:01:04.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23581
 - author: Ubaser
   changes:
-  - message: Epinephrine no longer removes itself in the chemstream.
+  - message: A epinefrina não se remove mais no chemstream.
     type: Fix
   id: 5574
   time: '2024-01-05T23:26:54.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23579
 - author: BurninDreamer
   changes:
-  - message: Rigged boxing gloves had their weapon stats reduced from 30 stamina damage
-      to 24 and their attack speed from 1.5/s to 1.2/s
+  - message: Luvas de boxe equipadas tinham suas estatísticas de armas reduzidas de 30 danos de resistência
+      a 24 e sua velocidade de ataque de 1,5/s para 1,2/s
     type: Tweak
   id: 5575
   time: '2024-01-05T23:27:33.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23576
 - author: Dutch-VanDerLinde
   changes:
-  - message: Arachnids may now click and chitter.
+  - message: Os aracnídeos agora podem clicar e chitter.
     type: Tweak
   id: 5576
   time: '2024-01-06T01:32:11.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23548
 - author: EmoGarbage404
   changes:
-  - message: Fixed inconsistency in iron ore naming in various places.
+  - message: Inconsistência fixa na nomeação do minério de ferro em vários lugares.
     type: Tweak
-  - message: The ore processor can now eject raw ores.
+  - message: O processador de minério agora pode ejetar minérios crus.
     type: Tweak
   id: 5577
   time: '2024-01-06T02:52:40.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23590
 - author: FairlySadPanda
   changes:
-  - message: Fixed the round restarted announcements, so you may now hear the glory
-      of "Yeah, there we go, APC destroyed, mission accomplished!" and the rest as
-      you are kicked to the lobby screen.
+  - message: Corrigido o redondo reiniciado anúncios, então você pode ouvir a glória
+      de "Yeah, there we go, APC destroyed, mission accomplished!" e o resto como
+      Você é chutado para a tela do saguão.
     type: Fix
   id: 5578
   time: '2024-01-06T03:15:28.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23387
 - author: Dygon
   changes:
-  - message: The construction module for cyborgs now also gives access to steel tiles.
+  - message: O módulo de construção para cyborgs agora também fornece acesso a ladrilhos de aço.
     type: Tweak
   id: 5579
   time: '2024-01-06T05:02:31.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23598
 - author: VigersRay
   changes:
-  - message: Added loggin tips.
+  - message: Dicas de loggin adicionadas.
     type: Add
   id: 5580
   time: '2024-01-06T06:06:49.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22234
 - author: MrFippik
   changes:
-  - message: Input port of the network system in timer
+  - message: Porta de entrada do sistema de rede no temporizador
     type: Add
   id: 5581
   time: '2024-01-06T06:41:57.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/20026
 - author: mirrorcult
   changes:
-  - message: Examining entities is now predicted, meaning that you will be shown most
-      information immediately.
+  - message: Examinar entidades agora está previsto, o que significa que você será mostrado mais
+      informação imediatamente.
     type: Add
-  - message: Fixed a bug where power cells would list their charge twice.
+  - message: Corrigido um bug em que as células de energia listariam sua carga duas vezes.
     type: Fix
   id: 5582
   time: '2024-01-06T06:53:13.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23565
 - author: Ubaser
   changes:
-  - message: Reptilians now have a new large tail marking to choose from!
+  - message: Os répteis agora têm uma nova marcação de cauda grande para escolher!
     type: Add
   id: 5583
   time: '2024-01-06T07:07:09.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23551
 - author: DrMelon
   changes:
-  - message: Climbing onto tables is once again a dangerous prospect for a Clown.
+  - message: Subir nas mesas é mais uma vez uma perspectiva perigosa para um palhaço.
     type: Fix
   id: 5584
   time: '2024-01-06T07:07:26.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23583
 - author: TheShuEd
   changes:
-  - message: Removed Encryption key thief steal objective.
+  - message: Removido Chave de criptografia Ladrão roubado Objetivo.
     type: Remove
   id: 5585
   time: '2024-01-06T07:12:34.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23572
 - author: TheShuEd
   changes:
-  - message: a powerful tesla gun can be found on planets!
+  - message: Uma poderosa arma Tesla pode ser encontrada nos planetas!
     type: Add
   id: 5586
   time: '2024-01-06T07:18:35.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23175
 - author: ZeroNationality
   changes:
-  - message: Added a static station map for the pAI to use to guide their owner
+  - message: Adicionou um mapa da estação estática para o PAI usar para orientar seu proprietário
     type: Add
   id: 5587
   time: '2024-01-06T07:31:21.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23499
 - author: Nimfar11
   changes:
-  - message: Adds medhud to the lockers of medics and CMO.
+  - message: Adiciona Medhud aos armários dos médicos e CMO.
     type: Add
   id: 5588
   time: '2024-01-06T07:35:33.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23591
 - author: yathxyz
   changes:
-  - message: provide non-flake solution by pinning nixpkgs
+  - message: Forneça solução não-flake fixando nixpkgs
     type: Fix
   id: 5589
   time: '2024-01-06T08:07:08.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23368
 - author: Ilya246
   changes:
-  - message: The Syndicate now provides singularity-attracting beacons to syndicate
-      agents.
+  - message: O sindicato agora fornece beacons que atraem singularidade para sindicatos
+      agentes.
     type: Add
   id: 5590
   time: '2024-01-06T08:21:24.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/18486
 - author: iacore
   changes:
-  - message: Nanotrasen has added screw holes to some metal constructions. (computer
-      frame, machine frame, rack and meat spike are now deconstructed by screwing,
-      also while unanchored.)
+  - message: O Nanotrasen adicionou orifícios de parafusos a algumas construções de metal.(computador
+      quadro, moldura da máquina, rack e pico de carne agora são desconstruídos por ferrar,
+      também enquanto não ancorada.)
     type: Tweak
   id: 5591
   time: '2024-01-06T08:28:57.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/21051
 - author: Velcroboy
   changes:
-  - message: Added recipe for Diphenhydramine.
+  - message: Receita adicionada para difenidramina.
     type: Add
   id: 5592
   time: '2024-01-06T08:29:35.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23006
 - author: TheShuEd
   changes:
-  - message: Fixed barber scissor infinity range issue.
+  - message: Problema fixa de barbeiro da tesoura Infinity.
     type: Fix
   id: 5593
   time: '2024-01-06T09:19:45.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22895
 - author: tday
   changes:
-  - message: Tabletop Centrifuges will now only accept vials.
+  - message: As centrífugas de mesa agora aceitam apenas frascos.
     type: Tweak
   id: 5594
   time: '2024-01-06T09:22:35.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23538
 - author: MACMAN2003
   changes:
-  - message: The uniform printer can now print command hats and departmental berets!
+  - message: A impressora uniforme agora pode imprimir chapéus de comando e boinas departamentais!
     type: Add
   id: 5595
   time: '2024-01-06T14:54:58.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23556
 - author: Ubaser
   changes:
-  - message: You can obtain Flippo lighters in the cig vend.
+  - message: Você pode obter isqueiros flippos na vendedora CIG.
     type: Fix
   id: 5596
   time: '2024-01-06T14:56:41.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23620
 - author: Alekshhh
   changes:
-  - message: Changed ores visually.
+  - message: Minérios alterados visualmente.
     type: Tweak
   id: 5597
   time: '2024-01-06T19:34:11.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23618
 - author: Bhijn and Myr
   changes:
-  - message: NPCs are now capable of interacting with the world again. Or in laymen's
-      terms, monkeys and kobolds will now be able to pick up weapons they see.
+  - message: Os NPCs agora são capazes de interagir com o mundo novamente.Ou em leigos
+      Termos, macacos e kobolds agora poderão pegar armas que vêem.
     type: Fix
   id: 5598
   time: '2024-01-06T20:32:51.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23638
 - author: Ubaser
   changes:
-  - message: Trench coats can be located in the WinterDrobe.
+  - message: As camadas de trincheira podem ser localizadas no inverno.
     type: Add
   id: 5599
   time: '2024-01-07T01:06:15.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23563
 - author: Bhijn and Myr
   changes:
-  - message: You can now gently the kobolds (and monkeys, too!)
+  - message: Agora você pode gentilmente os kobolds (e macacos também!)
     type: Add
-  - message: Kobolds now have their own unique speech!
+  - message: Kobolds agora tem seu próprio discurso único!
     type: Tweak
-  - message: All monkeys and monkey-likes (kobolds, for instance) can now pilot VIM
+  - message: Todos os macacos e mancais (Kobolds, por exemplo) agora podem pilotar Vim
     type: Tweak
-  - message: Kobolds no longer instantly die at 40 damage, but rather, fall into crit
-      at that threshold. They now die at 80 damage.
+  - message: Kobolds não morre mais instantaneamente com 40 danos, mas, em vez, cai em crítica
+      naquele limiar.Eles agora morrem com 80 danos.
     type: Tweak
   id: 5600
   time: '2024-01-07T01:08:51.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23642
 - author: Bhijn and Myr
   changes:
-  - message: Mobs are no longer instantly gibbed when microwaved.
+  - message: As multidões não são mais instantaneamente gibos quando microondas.
     type: Tweak
-  - message: Microwaves now heat their contents in real-time.
+  - message: As microondas agora aquecem seu conteúdo em tempo real.
     type: Tweak
-  - message: Microwaves are now capable of properly heating their contents, such that
-      microwaveable mobs will still reliably die as expected when microwaved. (They
-      just won't be gibbed.)
+  - message: As microondas agora são capazes de aquecer adequadamente seu conteúdo, de modo que
+      Mobs microondas ainda morrerão com segurança conforme o esperado quando microondas.(Eles
+      Só não será girado.)
     type: Tweak
   id: 5601
   time: '2024-01-07T01:16:40.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/21887
 - author: TheShuEd
   changes:
-  - message: Added new ghost role to be bought at uplink for 10 TC. Syndie Cat, implanted
-      with microbomb.
+  - message: Adicionado novo papel fantasma a ser comprado no Uplink por 10 TC.Sindie gato, implantado
+      com microbomb.
     type: Add
   id: 5602
   time: '2024-01-07T01:52:41.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/22554
 - author: Malo
   changes:
-  - message: Bullet types (rubber, practice, normal) can now be visually distinguished
-      from each other!
+  - message: Tipos de bala (borracha, prática, normal) agora podem ser visualmente distinguidos
+      de um para o outro!
     type: Tweak
   id: 5603
   time: '2024-01-07T02:36:51.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/21068
 - author: metalgearsloth
   changes:
-  - message: Fix salvage magnet UI being different on different PCs.
+  - message: Corrija a interface do usuário do ímã de salvamento sendo diferente em diferentes PCs.
     type: Fix
   id: 5604
   time: '2024-01-07T03:23:45.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23655
 - author: metalgearsloth
   changes:
-  - message: Fix dungeons not spawning on expeditions.
+  - message: Corrigir masmorras que não estão desovando nas expedições.
     type: Fix
   id: 5605
   time: '2024-01-07T03:23:53.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23654
 - author: Ubaser
   changes:
-  - message: The syndicate observational kit sunglasses now looks and acts like normal
-      sunglasses on top of its special feature.
+  - message: Os óculos de sol do kit de observação do sindicato agora parecem e age como normal
+      Óculos de sol no topo de seu recurso especial.
     type: Fix
   id: 5606
   time: '2024-01-07T06:24:36.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23621
 - author: metalgearsloth
   changes:
-  - message: Disable magnet wrecks TEMPORARILY pending further re-balancing.
+  - message: Desative os destroços dos ímãs temporariamente pendentes ainda mais o equilíbrio.
     type: Tweak
   id: 5607
   time: '2024-01-07T06:36:18.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23664
 - author: Minty642
   changes:
-  - message: Add more food recipes related to cargo bounties on Guidebook
+  - message: Adicione mais receitas de alimentos relacionadas a recompensas de carga no guia
     type: Tweak
   id: 5608
   time: '2024-01-07T06:39:56.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23659
 - author: metalgearsloth
   changes:
-  - message: Fix salvage magnet deleting mobs.
+  - message: Corrija Mobs de exclusão de ímã de resgate.
     type: Fix
   id: 5609
   time: '2024-01-07T06:40:49.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23657
 - author: Ubaser
   changes:
-  - message: You can now craft flower wreaths.
+  - message: Agora você pode criar grinaldas de flores.
     type: Add
   id: 5610
   time: '2024-01-07T07:03:46.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23662
 - author: Aexxie
   changes:
-  - message: Added the Central Commander's cloak
+  - message: Adicionou a capa do comandante central
     type: Add
   id: 5611
   time: '2024-01-07T07:12:12.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23666
 - author: Froozigiusz
   changes:
-  - message: You can now dip onion rings.
+  - message: Agora você pode mergulhar os anéis de cebola.
     type: Fix
   id: 5612
   time: '2024-01-07T09:07:03.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23582
 - author: metalgearsloth
   changes:
-  - message: Fix audio fades and ambient music overlapping.
+  - message: Corrija o áudio desaparece e a música ambiente sobreposta.
     type: Fix
   id: 5613
   time: '2024-01-07T13:23:22.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23684
 - author: EmoGarbage404
   changes:
-  - message: Added hellfire freezers and hellfire heaters. These are significantly
-      more efficient, at the cost of leaking cold and heat into the surrounding atmosphere.
-      Research them in advanced atmospherics technology today.
+  - message: Acrescentou freezers e aquecedores de incêndios infernos.Estes são significativamente
+      Mais eficiente, ao custo de vazar frio e calor na atmosfera circundante.
+      Pesquise -os hoje em tecnologia de atmosfera avançada.
     type: Add
   id: 5614
   time: '2024-01-07T13:55:22.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23543
 - author: Ubaser
   changes:
-  - message: You can now butcher gloves.
+  - message: Você pode agora um açougueiro.
     type: Tweak
   id: 5615
   time: '2024-01-07T17:54:16.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23216
 - author: Adrian16199
   changes:
-  - message: Ties are now craftable in uniform printer.
+  - message: Os laços agora são criáveis em impressora uniforme.
     type: Add
   id: 5616
   time: '2024-01-07T19:55:41.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23686
 - author: GreyMario
   changes:
-  - message: Recipes added for the Baklava and Frosty Pies and the Chocolate Lava,
-      Golden Apple Streusel, and Mime Tarts.
+  - message: Receitas adicionadas para as tortas Baklava e Frosty e a lava de chocolate,
+      Golden Apple Streusel e tortas mímicas.
     type: Add
   id: 5617
   time: '2024-01-07T20:20:14.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23266
 - author: Dygon
   changes:
-  - message: The cyborg cleaning module's holofan battery now recharges and can't
-      be ejected anymore.
+  - message: A bateria holofan do módulo de limpeza de Cyborg agora recarrega e não pode
+      ser ejetado mais.
     type: Fix
   id: 5618
   time: '2024-01-07T21:26:15.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23696
 - author: Naive817
   changes:
-  - message: Syndicate has fielded cyborgs for testing. They are loaded with syndicate
-      laws and have no access.
+  - message: O sindicato colocou Cyborgs para teste.Eles são carregados com sindicato
+      leis e não têm acesso.
     type: Add
-  - message: Nuclear operatives can now call in an well-armed assault cyborg for a
-      hefty price (65 TC). Comes with an Operative module complete with Emag and pinpointer,
-      a L6C ROW module, an Esword module, a positronic brain & a hyper capacity powercell
+  - message: Os agentes nucleares agora podem chamar um ciborgue de assalto bem armado para um
+      Preço pesado (65 TC).Vem com um módulo operacional completo com emag e pinpointer,
+      Um módulo L6C Row, um módulo ESWORD, um cérebro positrônico e um hiperacabilidade PowerCell
     type: Add
   id: 5619
   time: '2024-01-07T22:12:08.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/19733
 - author: DoutorWhite
   changes:
-  - message: Now the round duration should be correct on all interfaces after reconnecting.
+  - message: Agora, a duração redonda deve estar correta em todas as interfaces após a reconexão.
     type: Fix
   id: 5620
   time: '2024-01-08T00:30:10.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23707
 - author: EmoGarbage404
   changes:
-  - message: Fixed grappling hooks being able to fire multiple hooks.
+  - message: Os ganchos fixos de agarrar sendo capazes de disparar vários ganchos.
     type: Fix
   id: 5621
   time: '2024-01-08T01:15:46.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23709
 - author: Dutch-VanDerLinde
   changes:
-  - message: Syndicate cyborgs can now see who syndicate agents are, and they now
-      have a lock on their chassis that needs syndicate access to open.
+  - message: Cyborgs de sindicato agora podem ver quem são os agentes sindicatos, e agora eles
+      Tenha uma trava no chassi que precisa de acesso ao Syndicate para abrir.
     type: Tweak
   id: 5622
   time: '2024-01-08T03:48:57.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23710
 - author: Dygon
   changes:
-  - message: Incendiary projectiles and lava are less flammable.
+  - message: Projéteis incendiários e lava são menos inflamáveis.
     type: Tweak
-  - message: Incendiary projectiles no longer ignite entities while flying past them.
+  - message: Projéteis incendiários não acendem mais entidades enquanto passam por eles.
     type: Fix
   id: 5623
   time: '2024-01-08T05:41:42.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23479
 - author: EmoGarbage404
   changes:
-  - message: Particles from the Particle Accelerator once again collide with players.
-      Be careful, engineers!
+  - message: Partículas do acelerador de partículas mais uma vez colidem com os jogadores.
+      Tenha cuidado, engenheiros!
     type: Fix
   id: 5624
   time: '2024-01-08T06:22:46.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23719
 - author: notquitehadouken
   changes:
-  - message: The reticle around your cursor will change depending on if the gun you're
-      holding is bolted or not.
+  - message: O retículo ao redor do seu cursor mudará dependendo se a arma você for
+      A retenção é aparafusada ou não.
     type: Tweak
-  - message: The "Gun not bolted" text that shows up whenever you try to fire a gun
-      with an open bolt now shows up on your cursor instead of your character.
+  - message: O texto "não aparafusado" que aparece sempre que você tenta disparar uma arma
+      Com um parafuso aberto, agora aparece no seu cursor em vez do seu personagem.
     type: Tweak
   id: 5625
   time: '2024-01-08T06:23:41.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23711
 - author: Ubaser
   changes:
-  - message: Variant cube boxes are given to the chef instead of monkey cube boxes,
-      and they contain both monkey cubes and kobold cubes.
+  - message: Caixas de cubos variantes são dadas ao chef em vez de caixas de cubos de macaco,
+      E eles contêm cubos de macacos e cubos de Kobold.
     type: Add
-  - message: Kobold cube boxes and wrappers have a new sprite.
+  - message: As caixas e invólucros de cubos de Kobold têm um novo sprite.
     type: Tweak
   id: 5626
   time: '2024-01-08T06:27:40.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23685
 - author: Scribbles0
   changes:
-  - message: Cryoxadone and doxarubixadone now work on dead patients.
+  - message: Cryoxadone e Doxarubixadone agora trabalham em pacientes mortos.
     type: Tweak
   id: 5627
   time: '2024-01-08T06:31:26.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23558
 - author: Dygon
   changes:
-  - message: Mothroaches are now a little bit more resilient, making them less prone
-      to being gibbed.
+  - message: Mothroaches agora são um pouco mais resistentes, tornando -as menos propensas
+      ser gibbed.
     type: Tweak
   id: 5628
   time: '2024-01-08T06:57:34.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23722
 - author: EmoGarbage404
   changes:
-  - message: Added the turbo recharger to research. It's compatible with both weapons
-      and cells and charges 5 times faster than ordinary station rechargers.
+  - message: Adicionou o Recarger Turbo à pesquisa.É compatível com ambas as armas
+      e células e carrega 5 vezes mais rápido que os recarregadores da estação comum.
     type: Add
   - message: Removed machine upgrades from all chargers.
     type: Remove
@@ -3106,124 +3105,124 @@
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23723
 - author: username
   changes:
-  - message: Ability to copy data from pda
+  - message: Capacidade de copiar dados do PDA
     type: Add
   id: 5630
   time: '2024-01-08T10:06:44.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23533
 - author: Jrpl
   changes:
-  - message: The Communications Computer now has a 30-second delay before an announcement
-      can be made, after the computer is built. This includes all Communications Computers
-      that are on the map by default.
+  - message: O computador de comunicação agora tem um atraso de 30 segundos antes de um anúncio
+      pode ser feito, depois que o computador for construído. Isso inclui todos os computadores de comunicação
+      que estão no mapa por padrão.
     type: Tweak
   id: 5631
   time: '2024-01-08T12:28:07.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/21681
 - author: Dutch-VanDerLinde
   changes:
-  - message: Robotech deluxe vending machines now contain 2 diagnostic HUDs, a flame
-      welding mask, and a welding tool.
+  - message: Máquinas de venda automática de Deluxe Robotech agora contêm 2 HUDs de diagnóstico, uma chama
+      Máscara de soldagem e uma ferramenta de soldagem.
     type: Tweak
   id: 5632
   time: '2024-01-08T20:34:40.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23747
 - author: Emisse
   changes:
-  - message: Salvage wrecks are back and rebalanced for shuttle building and gearing
-      for expeditions!
+  - message: Os destroços de salvamento estão de volta e reequilibrados para construção e engrenagem
+      Para expedições!
     type: Tweak
   id: 5633
   time: '2024-01-08T21:49:51.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23733
 - author: Emisse
   changes:
-  - message: Advanced machine parts removed.
+  - message: Peças avançadas da máquina removidas.
     type: Tweak
   id: 5634
   time: '2024-01-08T23:24:36.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23752
 - author: EmoGarbage404
   changes:
-  - message: Satchels have a larger carrying capacity that is divided into pockets.
+  - message: As sacolas têm uma capacidade de carga maior que é dividida em bolsos.
     type: Tweak
   id: 5635
   time: '2024-01-09T00:48:45.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23724
 - author: cooldolphin
   changes:
-  - message: You can now find delicious vintage hidden away in maintenance closets.
+  - message: Agora você pode encontrar deliciosos vintage escondidos em armários de manutenção.
     type: Add
   id: 5636
   time: '2024-01-09T02:24:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23740
 - author: ike709
   changes:
-  - message: The appraisal tool will now tell you if a crate contains a completed
-      cargo bounty.
+  - message: A ferramenta de avaliação agora lhe dirá se uma caixa contém um concluído
+      Recompensa de carga.
     type: Add
   id: 5637
   time: '2024-01-09T04:18:50.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23760
 - author: Emisse
   changes:
-  - message: Seismic charges to help salvage mine.
+  - message: Cobranças sísmicas para ajudar a salvar a mina.
     type: Add
-  - message: Ore rocks will now drop a random amount of multiple ores.
+  - message: As rochas de minério agora soltarão uma quantidade aleatória de vários minérios.
     type: Tweak
-  - message: Mining/mining tool rebalance.
+  - message: Rebalance da ferramenta de mineração/mineração.
     type: Tweak
   id: 5638
   time: '2024-01-09T05:27:01.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23757
 - author: EmoGarbage404
   changes:
-  - message: Cryoxadone and Doxarubixadone no longer work on the dead.
+  - message: Cryoxadone e Doxarubixadone não funcionam mais nos mortos.
     type: Remove
   id: 5639
   time: '2024-01-09T05:43:46.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23763
 - author: koteq
   changes:
-  - message: Stasis beds prevent dead body decay
+  - message: As camas de estase impedem a decaimento do corpo morto
     type: Add
   id: 5640
   time: '2024-01-09T06:40:53.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23520
 - author: EmoGarbage404
   changes:
-  - message: Mining drills, chainsaws, and gloves of the north star can now automatically
-      attack at the max rate when holding down the attack button.
+  - message: Exercícios de mineração, motosserras e luvas da estrela do norte agora podem automaticamente
+      ataque na taxa máxima ao manter o botão de ataque.
     type: Tweak
   id: 5641
   time: '2024-01-09T07:25:07.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23765
 - author: EmoGarbage404
   changes:
-  - message: Added the Quantum Spin Inverter. This object, when linked with another
-      inverter, can be used to swap places, allowing teleportation across great distances.
-      Research it in the new Experimental Quantum Leaping technology.
+  - message: Adicionado o inversor quântico. Este objeto, quando ligado a outro
+      O inversor, pode ser usado para trocar de lugar, permitindo o teletransporte em grandes distâncias.
+      Pesquise -o na nova tecnologia experimental de quântico.
     type: Add
   id: 5642
   time: '2024-01-09T07:37:56.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23756
 - author: mirrorcult
   changes:
-  - message: Catatonic/SSD state no longer mispredicts in examine
+  - message: O estado catatônico/SSD não pretende errado mais no Examine
     type: Fix
   id: 5643
   time: '2024-01-09T08:02:39.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23769
 - author: lunarcomets
   changes:
-  - message: ShadyCigs now properly display flippo lighter icons!
+  - message: Os Shadycigs agora exibem ícones mais leves Flippo!
     type: Fix
   id: 5644
   time: '2024-01-09T10:16:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23778
 - author: IProduceWidgets
   changes:
-  - message: Some Centcom officers now have an N1984 standard issue officer's pistol!
+  - message: Alguns oficiais do CENTCOM agora têm uma pistola de oficial de edição padrão do N1984!
     type: Add
   id: 5645
   time: '2024-01-09T10:17:40.0000000+00:00'
@@ -3237,34 +3236,34 @@
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23782
 - author: Ubaser
   changes:
-  - message: New powersink sprite.
+  - message: Novo sprite por o Dreno de Energia
     type: Tweak
   id: 5647
   time: '2024-01-09T11:21:08.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23281
 - author: metalgearsloth
   changes:
-  - message: Salvage magnet grids will spawn much closer to the station.
+  - message: asGradesDeÍmãsDeSalvamentoAparecerãoMuitoMaisPertoDaEstação
     type: Tweak
-  - message: Increased ore spawns on asteroids significantly and fixed a bug where
-      some ore wasn't getting spawned.
+  - message: O aumento de minério gera significativamente os asteróides e corrigiu um bug onde
+      Algum minério não estava sendo gerado.
     type: Tweak
   id: 5648
   time: '2024-01-09T11:44:38.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23663
 - author: Boaz1111
   changes:
-  - message: Added two new ammo types for the pirate cannon. Tally Ho!
+  - message: Adicionou dois novos tipos de munição para o canhão de piratas.Tally Ho!
     type: Add
-  - message: Changed the musket and flintlock sprites, as well as some functionality.
+  - message: Mudou o mosquete e os sprites de pederneira, bem como alguma funcionalidade.
     type: Tweak
   id: 5649
   time: '2024-01-09T12:23:11.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23408
 - author: BurninDreamer
   changes:
-  - message: Rigged boxing gloves have been slightly buffed, now 25 stamina damage
-      and 1.4 attack speed as well as 6 and 4 TC for passengers and boxers in the
+  - message: Luvas de boxe equipadas foram levemente polidas, agora 25 de dano de resistência
+      e 1,4 velocidade de ataque, bem como 6 e 4 tc para passageiros e cuecas no
       uplink.
     type: Tweak
   id: 5650
@@ -3272,188 +3271,188 @@
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23811
 - author: ItsMeThom
   changes:
-  - message: You can now draw chemical mixtures directly from puddles and spills!
+  - message: Agora você pode desenhar misturas químicas diretamente de poças e derramamentos!
     type: Tweak
   id: 5651
   time: '2024-01-09T18:10:34.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23804
 - author: themias
   changes:
-  - message: Mice can eat again
+  - message: Ratos podem comer de novo
     type: Fix
   id: 5652
   time: '2024-01-09T18:17:04.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23801
 - author: nikthechampiongr
   changes:
-  - message: You can no longer pry powered/bolted airlocks if you started prying before
-      they were powered/bolted.
+  - message: Você não pode mais arrastar câmeras de ar -leves se você começar
+      Eles foram alimentados/aparafusados.
     type: Fix
   id: 5653
   time: '2024-01-09T22:05:02.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23818
 - author: themias
   changes:
-  - message: Wheelchair users can bump open doors
+  - message: Os usuários de cadeira de rodas podem bater portas abertas
     type: Fix
   id: 5654
   time: '2024-01-09T22:06:28.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23806
 - author: metalgearsloth
   changes:
-  - message: Add artifact fragments to salvage magnet.
+  - message: Adicione fragmentos de artefatos ao ímã de salvamento.
     type: Add
   id: 5655
   time: '2024-01-09T22:14:05.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23791
 - author: Kadeo64
   changes:
-  - message: Aspid is no longer a high-pop map.
+  - message: O ASPID não é mais um mapa alto.
     type: Tweak
   id: 5656
   time: '2024-01-10T04:11:29.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23829
 - author: Dutch-VanDerLinde
   changes:
-  - message: Tarantulas and space spiders now have the arachnid speech bubble.
+  - message: Tarantulas e aranhas espaciais agora têm a bolha de fala aracnídeo.
     type: Tweak
   id: 5657
   time: '2024-01-10T08:30:39.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23816
 - author: Bhijn and Myr
   changes:
-  - message: Tables now have their own footstep sounds!
+  - message: As mesas agora têm seus próprios sons de passos!
     type: Tweak
   id: 5658
   time: '2024-01-10T08:48:39.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23851
 - author: Emisse
   changes:
-  - message: radsuits are toggleable now
+  - message: Radsuits são alternáveis agora
     type: Tweak
   id: 5659
   time: '2024-01-10T09:54:29.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23854
 - author: Ubaser
   changes:
-  - message: Moths now have insect blood.
+  - message: As mariposas agora têm sangue de insetos.
     type: Tweak
   id: 5660
   time: '2024-01-10T11:42:20.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23671
 - author: quatre
   changes:
-  - message: Examining bodies now shows how close they are to rotting.
+  - message: Examinar os corpos agora mostra o quão perto eles estão de apodrecer.
     type: Add
   id: 5661
   time: '2024-01-10T12:00:22.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23530
 - author: metalgearsloth
   changes:
-  - message: Fix planets sometimes not loading.
+  - message: Corrija os planetas às vezes não carregando.
     type: Fix
   id: 5662
   time: '2024-01-10T12:28:42.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23864
 - author: snebl
   changes:
-  - message: Fixed cargo airlock changing color while open.
+  - message: Airlock de carga fixo muda de cor enquanto estiver aberto.
     type: Fix
   id: 5663
   time: '2024-01-10T21:12:46.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23889
 - author: nikthechampiongr
   changes:
-  - message: Aghosts and other powerful beings can now change light bulbs.
+  - message: Aghosts E outros seres poderosos agora podem alterar lâmpadas.
     type: Fix
   id: 5664
   time: '2024-01-10T21:39:56.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23879
 - author: Dygon
   changes:
-  - message: Attempting to emag a borg with a closed panel won't permanently make
-      it unable to be emagged anymore.
+  - message: Tentar emag um Borg com um painel fechado não fará permanentemente
+      Não pode mais ser emagrecido.
     type: Fix
   id: 5665
   time: '2024-01-10T22:01:38.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23729
 - author: nikthechampiongr
   changes:
-  - message: Nanotrasen has fixed a recent design defect with tranquilizer shells.
-      They will incapacitate people once more.
+  - message: O Nanotrasen corrigiu um defeito de projeto recente com conchas tranquilizantes.
+      Eles irão incapacitar as pessoas mais uma vez.
     type: Fix
   id: 5666
   time: '2024-01-10T23:02:37.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23886
 - author: Flareguy
   changes:
-  - message: Light fixtures are now more visually consistent with small lights.
+  - message: As luminárias agora são mais visualmente consistentes com pequenas luzes.
     type: Tweak
   id: 5667
   time: '2024-01-11T00:07:15.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23898
 - author: Emisse
   changes:
-  - message: AME parts can no longer be bought from cargo
+  - message: As peças RAM não podem mais ser compradas da carga
     type: Tweak
   id: 5668
   time: '2024-01-11T00:07:41.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23903
 - author: IProduceWidgets
   changes:
-  - message: Uranium and AP rounds now also have identifiable projectiles
+  - message: As munições de urânio e AP agora também têm projéteis identificáveis
     type: Add
-  - message: Uranium and AP magazines and boxes now look unique.
+  - message: Urânio e AP magazines e as caixas agora parecem únicas.
     type: Add
   id: 5669
   time: '2024-01-11T08:01:41.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23914
 - author: EmoGarbage404
   changes:
-  - message: Doors are now visible on station maps.
+  - message: As portas agora estão visíveis nos mapas da estação.
     type: Tweak
   id: 5670
   time: '2024-01-11T13:14:20.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23639
 - author: ZeroNationality
   changes:
-  - message: Changed how puddles flow to finish flowing quicker
+  - message: Mudou como as poças fluem para acabar fluindo mais rápido
     type: Tweak
   id: 5671
   time: '2024-01-11T13:22:56.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23776
 - author: EmoGarbage404
   changes:
-  - message: Fixed rotting examine text appearing on revived players.
+  - message: Examine o texto apodrecedor fixo aparecendo em jogadores revividos.
     type: Fix
   id: 5672
   time: '2024-01-11T23:12:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23949
 - author: deltanedas
   changes:
-  - message: New specialized burn medicines Pyrazine and Insuzine can be made, for
-      heat and shock damage respectively.
+  - message: Novos medicamentos de queimaduras especializadas e pirazina e insuzina podem ser feitas, para
+      Dano de calor e choque, respectivamente.
     type: Add
   id: 5673
   time: '2024-01-11T23:17:23.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23941
 - author: icekot8
   changes:
-  - message: prescription for medsec hud
+  - message: Prescrição para Medsec HUD
     type: Add
   id: 5674
   time: '2024-01-11T23:22:43.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23934
 - author: themias
   changes:
-  - message: Headphones can be turned on
+  - message: Fones de ouvido podem ser ativados
     type: Tweak
   id: 5675
   time: '2024-01-11T23:25:27.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23882
 - author: icekot8
   changes:
-  - message: A new reagent, necrosol, has been added. It can heal frozen corpses
+  - message: Um novo reagente, necrosol, foi adicionado.Pode curar cadáveres congelados
     type: Add
   id: 5676
   time: '2024-01-12T07:59:22.0000000+00:00'
@@ -3467,279 +3466,278 @@
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23873
 - author: KittenColony
   changes:
-  - message: Tweaked reptilian unarmed attacks to deal the correct damage types
+  - message: Atacos desarmados reptilianos ajustados para causar os tipos de danos corretos
     type: Tweak
   id: 5678
   time: '2024-01-12T08:03:30.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23953
 - author: GreyMario
   changes:
-  - message: Slicing food inside of a container now tries to add the slices to the
-      container.
+  - message: Cortar a comida dentro de um recipiente agora tenta adicionar as fatias ao
+      recipiente.
     type: Tweak
-  - message: All pies now have a pie tin "trash", returned upon eating the pie or
-      slicing it up fully.
+  - message: Todas as tortas agora têm uma forma de torta "lixo", devolvida ao comer a torta ou
+       fatiando-o completamente.
     type: Tweak
-  - message: Pie tins, bowls, kebab skewers, and basic glasswares may now be printed
-      at the Autolathe.
+  - message: Pratos de torta, tigelas, espetos de kebab e artigos de vidro básicos agora podem ser impressos
+      no Autolathe.
     type: Add
   id: 5679
   time: '2024-01-12T08:42:15.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23217
 - author: Bhijn and Myr
   changes:
-  - message: Microwave recipes involving objects that have a temperature-based construction
-      graph recipe associated with them (for example, raw meat -> steak) will no longer
-      produce both the construction graph recipe and the microwave recipe. In laymen's
-      terms, burgers no longer come with a whole free steak.
+  - message: Receitas de microondas envolvendo objetos que têm uma construção baseada em temperatura
+      A receita gráfica associada a eles (por exemplo, carne crua -> bife) não vai mais
+      Produza a receita do gráfico de construção e a receita de microondas.Em leigos
+      Termos, hambúrgueres não vêm mais com um bife grátis inteiro.
     type: Fix
-  - message: The microwave UI now updates in realtime when items are inserted/removed.
+  - message: A interface do usuário do microondas agora é atualizada em tempo real quando os itens são inseridos/removidos.
     type: Fix
   id: 5680
   time: '2024-01-12T08:42:41.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23835
 - author: Crotalus
   changes:
-  - message: Added search bar to ghost warp UI
+  - message: Adicionada barra de pesquisa ao Ghost Warp Ui
     type: Add
   id: 5681
   time: '2024-01-12T20:34:12.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23978
 - author: takemysoult
   changes:
-  - message: the prescription of tranquilizers has been changed
+  - message: A prescrição de tranquilizantes foi alterada
     type: Tweak
   id: 5682
   time: '2024-01-12T20:45:09.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23979
 - author: FairlySadPanda
   changes:
-  - message: A new piece of lobby art.
+  - message: Uma nova peça de arte do lobby.
     type: Add
   id: 5683
   time: '2024-01-12T20:52:13.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23974
 - author: themias
   changes:
-  - message: The mass-media console can publish again
+  - message: O console da mídia em massa pode publicar novamente
     type: Fix
   id: 5684
   time: '2024-01-12T22:27:33.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23994
 - author: EmoGarbage404
   changes:
-  - message: Fixed being unable to eject coal for the ore processor.
+  - message: Fixo ser incapaz de ejetar carvão para o processador de minério.
     type: Fix
   id: 5685
   time: '2024-01-13T04:52:53.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23993
 - author: degradka
   changes:
-  - message: The electrical crates now drop plastic instead of steel.
+  - message: As caixas elétricas agora soltam plástico em vez de aço.
     type: Fix
   id: 5686
   time: '2024-01-13T04:55:47.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23992
 - author: Ubaser
   changes:
-  - message: Resprited substations.
+  - message: Subestações resfitadas.
     type: Tweak
   id: 5687
   time: '2024-01-13T05:51:28.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23977
 - author: EmoGarbage404
   changes:
-  - message: Reduced ore drop rates from anomaly ore crabs.
+  - message: Taxas reduzidas de queda de minério de caranguejos de anomalia.
     type: Tweak
   id: 5688
   time: '2024-01-13T06:27:43.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24012
 - author: EmoGarbage404
   changes:
-  - message: The chem guidebook once again displays sources for various reagents.
+  - message: O Chem Guidebook exibe mais uma vez fontes para vários reagentes.
     type: Fix
   id: 5689
   time: '2024-01-13T07:16:47.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23987
 - author: GreyMario
   changes:
-  - message: Pie cannons and pneumatic cannons no longer hit your own feet when aiming
-      at close range. Clowns rejoice!
+  - message: Canhões de torta e canhões pneumáticos não atingem mais seus próprios pés ao mirar
+      a curta distância.Palhaços se alegram!
     type: Fix
   id: 5690
   time: '2024-01-13T07:29:19.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23996
 - author: Crotalus
   changes:
-  - message: 'New ghost warp point: nuclear bomb'
+  - message: 'New Ghost Warp Point: Nuclear Bomb'
     type: Add
   id: 5691
   time: '2024-01-13T07:30:11.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23973
 - author: Errant
   changes:
-  - message: The empty space around Map UI window edges is no longer resizable.
+  - message: O espaço vazio ao redor das bordas da janela da interface do usuário não é mais redimensível.
     type: Tweak
-  - message: Station Map ui now has proper edges.
+  - message: A UI da mapa da estação agora tem bordas adequadas.
     type: Fix
   id: 5692
   time: '2024-01-13T15:04:46.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24024
 - author: Dygon
   changes:
-  - message: Expendable light sources turned on through the verb menu now ignite the
-      surrounding area.
+  - message: Fontes de luz descartáveis ligadas através do menu verbal agora acende o
+      área ao redor.
     type: Fix
   id: 5693
   time: '2024-01-13T16:24:40.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24027
 - author: VasilisThePikachu
   changes:
-  - message: Due to Nanotrashen's budget cuts, Space pens are no longer supplied on
-      the station.
+  - message: Devido aos cortes no orçamento de Nanotrashen, as Space Medipens não são mais fornecidas
+      a estação.
     type: Remove
   id: 5694
   time: '2024-01-13T20:20:11.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23970
 - author: SlamBamActionman
   changes:
-  - message: Ammo Techfab Circuitboard has been removed from Thief objectives.
+  - message: O circuito de munição Techfab foi removido dos objetivos do ladrão.
     type: Remove
   id: 5695
   time: '2024-01-13T20:55:03.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24037
 - author: Varen
   changes:
-  - message: Eggs can be drawn from with a syringe.
+  - message: Os ovos podem ser desenhados com uma seringa.
     type: Tweak
   id: 5696
   time: '2024-01-13T20:57:20.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24042
 - author: degradka
   changes:
-  - message: Prevent oversized items from being placed in the microwave.
+  - message: Evite que itens de grandes dimensões sejam colocados no microondas.
     type: Fix
   id: 5697
   time: '2024-01-13T21:11:10.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24026
 - author: Bhijn and Myr
   changes:
-  - message: The QM's uniform has received a redesign, making it more visually distinguishable
-      for those with colorblindness.
+  - message: O uniforme do QM recebeu um redesenho, tornando -o mais visualmente distinguível
+      Para aqueles com daltonismo.
     type: Tweak
   id: 5698
   time: '2024-01-14T02:45:06.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24055
 - author: lzk228
   changes:
-  - message: Removed archaic accent.
+  - message: Removido sotaque arcaico.
     type: Remove
   id: 5699
   time: '2024-01-14T02:45:54.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24052
 - author: 21Melkuu
   changes:
-  - message: Added Mayo to the Chefvend.
+  - message: Adicionado maionese ao chefvend.
     type: Add
   id: 5700
   time: '2024-01-14T02:47:19.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24017
 - author: Aexxie
   changes:
-  - message: Lizards' punch animation now matches their damage type
+  - message: A animação do Punch de Lizards agora corresponde ao seu tipo de dano
     type: Fix
-  - message: Spiders now deal piercing damage instead of slash damage when unarmed,
-      as intended. Their animation has been changed to the biting animation as well.
+  - message: As aranhas agora causam dano de piercing em vez de dano de corte quando desarmado,
+      como pretendido.A animação deles também foi alterada para a animação mordida.
     type: Fix
   id: 5701
   time: '2024-01-14T03:08:20.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24019
 - author: deltanedas
   changes:
-  - message: Revolutionaries that are deconverted by headrevs dying get a window shown
-      explaining that they are no longer revs, to help with tunnel vision.
+  - message: Revolucionários que são desconvertidos por HeadRevs morrendo, obtenha uma janela mostrada
+      Explicando que eles não são mais rotações, para ajudar na visão do túnel.
     type: Tweak
   id: 5702
   time: '2024-01-14T03:20:35.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23315
 - author: tday
   changes:
-  - message: Add admin logs for thermomachines.
+  - message: Adicione logs de administrador para termomachinas.
     type: Add
   id: 5703
   time: '2024-01-14T04:05:45.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24056
 - author: degradka
   changes:
-  - message: The HOS's dresser now contains a neck gaiter.
+  - message: A cômoda do HOS agora contém uma polara do pescoço.
     type: Add
   id: 5704
   time: '2024-01-14T04:12:37.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24003
 - author: Errant
   changes:
-  - message: Map labels now adjust to zoom level and UI scale, retaining a consistent
-      look.
+  - message: Os rótulos dos mapas agora se ajustam ao nível de zoom e à escala da interface do usuário, mantendo um consistente
+      olhar.
     type: Fix
-  - message: Map labels now have better contrast over walls.
+  - message: Os rótulos dos mapas agora têm melhor contraste sobre as paredes.
     type: Tweak
-  - message: Examining (shift-click) the map screen now toggles map labels on/off.
+  - message: Examinando (clique em turno) A tela do mapa agora alterna os rótulos do mapa.
     type: Tweak
   id: 5705
   time: '2024-01-14T05:08:43.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23777
 - author: Ilya246
   changes:
-  - message: Nuclear operatives may now buy syndicate bombs without waiting 30 minutes.
+  - message: Os agentes nucleares agora podem comprar bombas de sindicato sem esperar 30 minutos.
     type: Tweak
   id: 5706
   time: '2024-01-14T05:25:19.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24022
 - author: Tayrtahn
   changes:
-  - message: Nanotrasen has started installing intercoms with unscrewable panels for
-      wire maintenance.
+  - message: Nanotrasen começou a instalar interfones com painéis desagradáveis para
+      Manutenção do fio.
     type: Add
   id: 5707
   time: '2024-01-14T05:37:28.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23984
 - author: Whisper
   changes:
-  - message: Cerberus now has hostile AI
+  - message: Cerberus agora tem IA hostil
     type: Add
   id: 5708
   time: '2024-01-14T10:19:36.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24028
 - author: Psychpsyo
   changes:
-  - message: Plates and money now go into inventories sideways, as they should.
+  - message: Placas e dinheiro agora entram em inventários de lado, como deveriam.
     type: Tweak
   id: 5709
   time: '2024-01-14T16:44:17.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24075
 - author: themias
   changes:
-  - message: Graves require a shovel or spade (trowel) to dig
+  - message: Graves requerem uma pá ou pá (espátula) para cavar
     type: Tweak
-  - message: Graves decay bodies faster
+  - message: Graves Decay corpos mais rápido
     type: Tweak
   id: 5710
   time: '2024-01-14T16:47:32.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23646
 - author: Nairodian
   changes:
-  - message: Added four new reagent slimes, Mute Toxin, Norepinephric Acid, Ephedrine,
-      and Robust Harvest.
+  - message: Adicionou quatro novos slimes reagentes, toxina mudo, ácido noradrepinefrico, efedrina,
+      e colheita robusta.
     type: Add
   id: 5711
   time: '2024-01-14T22:14:19.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24087
 - author: Dygon
   changes:
-  - message: The particle decelerator's projectile now deals less damage, has a shorter
-      lifespan and can be reflected by objects that reflect energy projectiles.
+  - message: O projétil de aceleradores de partículas agora causa menos danos, tem uma vida útil mais curta e pode ser refletida por objetos que refletem projéteis energéticos.
     type: Tweak
-  - message: Bullet grenade projectiles no longer penetrate walls.
+  - message: Os projéteis de granada de bala não penetram mais nas paredes.
     type: Fix
   id: 5712
   time: '2024-01-14T23:39:09.0000000+00:00'

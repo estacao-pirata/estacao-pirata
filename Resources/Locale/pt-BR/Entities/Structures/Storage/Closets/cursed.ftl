@@ -1,4 +1,4 @@
-ent-ClosetCursed = closet
-    .desc = A standard-issue Nanotrasen storage unit.
-    .suffix = cursed
+ent-ClosetCursed = armário
+    .desc = Uma unidade de armazenamento de nanotrasen em edição padrão.
+    .suffix = amaldiçoada
 
