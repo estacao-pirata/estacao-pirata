@@ -313,7 +313,7 @@ uplink-cigarettes-desc = Cigarros de elite para agentes de elite. Infundido com 
 uplink-snack-box-name = Caixa de Lanche do Sindicato
 uplink-snack-box-desc = Uma caixa de deliciosos lanches e bebidas para comer sozinho ou com sua equipe. Inclui um brinquedo que você não queria.
 
-uplink-eshield-name = Energy Shield
+uplink-eshield-name = Escudo de Energia
 uplink-eshield-desc = Escudo de energia exótica que reflete quase todos os feixes de laser, e que ainda conta com um pouco de proteção contra balas e outros ataques físicos.
 
 uplink-soap-name = Sabão de Sindicato
@@ -353,7 +353,7 @@ uplink-mobcat-microbomb-name = SindiGato
 uplink-mobcat-microbomb-desc = Um gato equipado com um implante de microbomba. Explode quando gravemente ferido. Pode morder dolorosamente
 
 # Pointless
-uplink-revolver-cap-gun-name = Cap Gun
+uplink-revolver-cap-gun-name = Revólver de Espoleta
 uplink-revolver-cap-gun-desc = Parece até parada real! Recomendado para 8 anos e acima.
 
 uplink-syndicate-stamp-name = Carimbo do Sindicato
@@ -362,41 +362,41 @@ uplink-syndicate-stamp-desc = Um carimbo de borracha para carimbar documentos im
 uplink-cat-ears-name = Orelhas de Gato
 uplink-cat-ears-desc = UwU
 
-uplink-outlaw-hat-name = Outlaw Hat
+uplink-outlaw-hat-name = Chapéu fora da lei
 uplink-outlaw-hat-desc = Um chapéu que faz você parecer que carrega uma pistola entalhada, numerada de um e dezenove mais.
 
 uplink-outlaw-glasses-name = Óculos fora da lei
 uplink-outlaw-glasses-desc = Uma obrigação para cada agente secreto que se preze.
 
-uplink-costume-pyjama-name = Syndicate Pyjama Duffel Bag
+uplink-costume-pyjama-name = Mala de Pijama do Sindicato
 uplink-costume-pyjama-desc = Contém 3 pares de pijamas do sindicato e 3 pelúcias para a melhor festa do pijama.
 
-uplink-costume-clown-name = Clown Costume Duffel Bag
+uplink-costume-clown-name = Mala de Traje de Palhaço
 uplink-costume-clown-desc = Contém um traje completo de palhaço. Inclui PDA e rádio de serviço.
 
-uplink-carp-suit-bundle-name = Carp Suit Duffel Bag
+uplink-carp-suit-bundle-name = Mala de Traje de Carpa
 uplink-carp-suit-bundle-desc = Contém um traje de carpa e alguns amigos para brincar.
 
-uplink-operative-suit-name = Operative Jumpsuit
+uplink-operative-suit-name = Saia de Operativa
 uplink-operative-suit-desc = Um terno dado aos nossos agentes nucleares com tecido fino para se certificar de que você se destaca, nenhum outro benefício além de parecer foda.
 
-uplink-operative-skirt-name = Operative Jumpskirt
+uplink-operative-skirt-name = Saia de Operativa
 uplink-operative-skirt-desc = Uma saia dada aos nossos agentes nucleares com tecido fino para se certificar de que você se destaca, sem outros benefícios além de parecer foda.
 
-uplink-balloon-name = Syndie Balloon
+uplink-balloon-name = Balão do Sindicato
 uplink-balloon-desc = Dado às bravas almas dos que sobreviveram ao passeio "ciclone atômico" em Syndieland.
 
-uplink-scarf-syndie-red-name = Lenço vermelho sindicato listrado
+uplink-scarf-syndie-red-name = Lenço vermelho Sindicato listrado
 uplink-scarf-syndie-red-desc = Um cachecol listrado vermelho estiloso. O acessório de inverno perfeito para quem tem um senso de moda aguçado e quem está com vontade de roubar alguma coisa.
 
-uplink-scarf-syndie-green-name = Cachecol listrado verde sindicato
+uplink-scarf-syndie-green-name = Cachecol listrado verde Sindicato
 uplink-scarf-syndie-green-desc = Um elegante cachecol listrado verde sindicato. O acessório de inverno perfeito para quem tem um senso de moda aguçado e quem está com vontade de roubar alguma coisa.
 
-uplink-syndicate-pai-name = Dispositivo IA pessoal do sindicato
+uplink-syndicate-pai-name = IA pessoal do Sindicato
 uplink-syndicate-pai-desc = Uma variante do IAp feita pelo Sindicato com acesso ao canal de rádio Syndie. Não garantimos a sua utilidade.
 
 uplink-bribe-name = Pacote de Lobbying
-uplink-bribe-desc = Um presente sincero que pode ajudá-lo a influenciar a opinião de alguém. Legítimo ou falsi? Sim.
+uplink-bribe-desc = Um presente sincero que pode ajudá-lo a influenciar a opinião de alguém. Legítimo ou falso? Sim.
 
-uplink-hypodart-name = Hypodart
+uplink-hypodart-name = Hipodardo
 uplink-hypodart-desc = Um dardo aparentemente normal com um reservatório ampliado para produtos químicos. Ele pode armazenar até 7u reagentes e injetar instantaneamente quando atingir o alvo. Começa vazio.
