@@ -35,7 +35,7 @@ sealed class SotaqueCarioca : AccentEngine
         List<string>moddedToken = new List<string>();
         string[] tokens = message.Split(' ');
         foreach(string token in tokens) {
-            if(_random.Next(11) >= 10) {
+            if(_random.Next(21) >= 20) {
                 moddedToken.Add(Pick(subs));
             }
             bool added = false;
