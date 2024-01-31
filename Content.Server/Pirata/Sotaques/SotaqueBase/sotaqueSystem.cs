@@ -1,8 +1,10 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 using Pirata.Sotaque.Json;
+using Robust.Shared.ContentPack;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Random;
+using Robust.Shared.Utility;
 
 namespace Pirata.Sotaque;
 /// <summary>
@@ -14,14 +16,19 @@ namespace Pirata.Sotaque;
 abstract class AccentEngine : EntitySystem
 {
     [Dependency] protected readonly IRobustRandom _random = default!;
+    [Dependency] protected readonly IResourceManager _resource = default!;
     virtual protected string path { get; set; } = "";
+    virtual protected string file { get; set; } = "";
+    virtual protected IEnumerable<ResPath> final_path { get; set; } = default!;
     public string Take(string message)
     {
+        //Log.Debug(this.path);
+        //Log.Debug(this.file);
         //freakin modify the word
         string[] tokens = message.Split(' ');
         Regex regex = new Regex("\\W+\\Z");
         List<string> moddedTokens = new List<string>();
-        Root accent = jsonIO.readFile(this.path);
+        Root accent = jsonIO.readFile(this.file);
         foreach (var token in tokens)
         {
             var modifiedToken = "";              //token modificado
@@ -159,5 +166,14 @@ abstract class AccentEngine : EntitySystem
         }
         string modded = phrase.Replace(section, moddedSection);
         return modded;
+    }
+    protected void getPath() {
+        var directory = new ResPath(path);
+        var final_path = _resource.ContentFindFiles(directory);
+
+        var file = final_path.ElementAt(0);
+        this.file = _resource.ContentFileReadText(file).ReadToEnd();
+        //Log.Debug(final_path.ElementAt(0).CanonPath);
+        //Log.Debug(this.file);
     }
 }
