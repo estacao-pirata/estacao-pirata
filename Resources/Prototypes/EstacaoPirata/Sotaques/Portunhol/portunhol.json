@@ -206,6 +206,14 @@
         },
         {
             "og": [
+                "estou"
+            ],
+            "mod": [
+                "estoy"
+            ]
+        },
+        {
+            "og": [
                 "engi",
                 "eng",
                 "engenheiro"
@@ -266,7 +274,9 @@
         {
             "og": [
                 "ola",
-                "olá"
+                "olá",
+                "oi",
+                "eae"
             ],
             "mod": [
                 "hola"

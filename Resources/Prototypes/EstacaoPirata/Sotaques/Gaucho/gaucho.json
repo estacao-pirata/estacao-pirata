@@ -31,6 +31,7 @@
                 "otimo",
                 "opa",
                 "calado",
+                "quieto",
                 "queto"
             ],
             "mod": [
@@ -62,7 +63,8 @@
                 "garoto"
             ],
             "mod": [
-                "guri"
+                "guri",
+                "piá"
             ]
         },
         {
@@ -123,6 +125,14 @@
             ],
             "mod": [
                 "reinento"
+            ]
+        },
+        {
+            "og": [
+                "né"
+            ],
+            "mod": [
+                "neh"
             ]
         },
         {
@@ -312,5 +322,8 @@
             ],
             "mod": ["bah"]
         }
+    ],
+    "ending": [
+        "neh?"
     ]
 }
