@@ -93,7 +93,7 @@
   description: uplink-disposable-turret-desc
   productEntity: ToolboxElectricalTurretFilled
   cost:
-    Telecrystal: 8
+    Telecrystal: 6
   categories:
   - UplinkWeapons
   conditions:
@@ -231,7 +231,7 @@
   icon: { sprite: /Textures/Objects/Misc/bureaucracy.rsi, state: pen }
   productEntity: PenExplodingBox
   cost:
-    Telecrystal: 5
+    Telecrystal: 4
   categories:
   - UplinkExplosives
 
@@ -317,7 +317,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
   productEntity: MagazinePistolSubMachineGun
   cost:
-    Telecrystal: 3
+    Telecrystal: 2
   categories:
   - UplinkAmmo
   conditions:
@@ -346,7 +346,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
   productEntity: SpeedLoaderMagnumAP
   cost:
-    Telecrystal: 2
+    Telecrystal: 3
   categories:
   - UplinkAmmo
 
@@ -520,17 +520,6 @@
   categories:
   - UplinkUtility
 
-#TODO: Remove this from the uplink
-- type: listing
-  id: UplinkHeadset
-  name: uplink-headset-name
-  description: uplink-headset-desc
-  productEntity: ClothingHeadsetAltSyndicate
-  cost:
-    Telecrystal: 1
-  categories:
-  - UplinkUtility
-
 - type: listing
   id: UplinkHeadsetEncryptionKey
   name: uplink-encryption-key-name
@@ -548,8 +537,9 @@
   description: uplink-binary-translator-key-desc
   icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: rd_label }
   productEntity: EncryptionKeyBinary
-  cost:
-    Telecrystal: 4
+  cost: 
+    Telecrystal: 1
+
   categories:
   - UplinkUtility
 
@@ -1355,9 +1345,14 @@
   icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
   productEntity: EnergyShield
   cost:
-    Telecrystal: 6
+    Telecrystal: 8
   categories:
   - UplinkMisc
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkSoapSyndie
@@ -1435,7 +1430,7 @@
   description: uplink-stimpack-desc
   productEntity: Stimpack
   cost:
-    Telecrystal: 8
+    Telecrystal: 4
   categories:
   - UplinkMisc
 
@@ -1448,22 +1443,6 @@
     Telecrystal: 12
   categories:
   - UplinkMisc
-
-- type: listing
-  id: UplinkSyndicateSegwayCrate
-  name: uplink-syndicate-segway-crate-name
-  description: uplink-syndicate-segway-crate-desc
-  icon: { sprite: /Textures/Objects/Vehicles/syndicatesegway.rsi, state: icon }
-  productEntity: CrateFunSyndicateSegway
-  cost:
-    Telecrystal: 5
-  categories:
-  - UplinkMisc
-  conditions:
-  - !type:BuyerWhitelistCondition
-    blacklist:
-      components:
-      - SurplusBundle
 
 - type: listing
   id: UplinkBribe

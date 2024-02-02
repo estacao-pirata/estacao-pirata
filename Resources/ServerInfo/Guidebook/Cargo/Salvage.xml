@@ -23,7 +23,6 @@ Serão necessários jetpacks para se mover pelo espaço, pois sem piso e gravida
 <Box>
 <GuideEntityEmbed Entity="ClothingMaskGasExplorer"/>
 <GuideEntityEmbed Entity="OxygenTankFilled"/>
-<GuideEntityEmbed Entity="YellowOxygenTankFilled"/>
 <GuideEntityEmbed Entity="NitrogenTankFilled"/>
 </Box>
 

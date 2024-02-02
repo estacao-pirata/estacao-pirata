@@ -27,6 +27,10 @@
   background: /Textures/LobbyScreens/skellyvstherev.png
 
 - type: lobbyBackground
+  id: Doomed
+  background: /Textures/LobbyScreens/doomed.png
+
+- type: lobbyBackground
   id: Pirate
   background: /Textures/LobbyScreens/pirate.png
   

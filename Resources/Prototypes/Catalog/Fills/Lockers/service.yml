@@ -9,6 +9,8 @@
       - id: WeaponShotgunDoubleBarreled
       - id: DrinkShaker
       - id: ClothingEyesHudBeer
+      - id: HandLabeler
+        amount: 1
       - id: DrinkBottleBeer
         prob: 0.5
       - id: DrinkBottleBeer
