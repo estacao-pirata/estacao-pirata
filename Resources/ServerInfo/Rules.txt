@@ -187,3 +187,9 @@ Essas regras também se aplicam a qualquer indivíduo que seja Silício, incluin
     - "Agressão" é visto, no mínimo, como violência física ou dano contra alguém ou alguma coisa. Se o jogador desejar, ele também pode optar por interpretar dano psicológico ou aspectos semelhantes como agressão. Espera-se que os Silícios tentem e busquem a opção com menor potencial de dano quando tiver que escolher entre ação ou inação; no entanto, os Silícioss com lei para prevenir danos ainda são proibidos de causar danos diretamente. Você pode tomar uma ação ou inação em casos que possam resultar em danos eventuais se isso minimizar os danos, mas não pode fazê-lo se resultar em danos imediatos. Caso nem a ação e a nem a inação puderem prevenir danos os Silícios devem optar pela inação.
     - Ao receber ordens conflitantes de membros da tripulação e se estiver com uma lei que instrui você a obedecer, fica a cargo da escolha para o jogador de Silícios de qual diretiva você ira escolher obedecer seguindo as prioridades das leis.
     - Pedidos para Silícios que sejam claramente irracionais ou desagradáveis ​​são uma violação da regra "Não seja um idiota". Eles podem ser ignorados e podem ser avisada aos administradores.
+
+[color=#ff0000]REGRA DE FIM DE TURNO[/color]
+[color=#a4885c]43.[/color] Grief no fim do turno não é permitido sem permissão explícita de um admin.
+    - Não faça bombas de qualquer tipo sem ser antag pra explodir na centcom.
+    - Não cause mal nem algeme os outros sem motivo.
+    - Não lute com alguém sem o consentimento da pessoa. Isso não é desculpa pra causar mal às pessoas a sua volta.
