@@ -28,13 +28,13 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 
 [color=#ff0000]REGRAS DO JOGO & DO ROLEPLAY[/color]
 
-[color=#a4885c]7.[/color] Se você não for antagonista você [color=#a4885c]não pode matar outras pessoas[/color], sendo a única excessão auto-defesa: se for provável que a pessoa te mate E se ela estiver de fato colocando sua vida em risco.
+[color=#a4885c]7.[/color] Se você não for antagonista você [color=#a4885c]não pode matar outras pessoas[/color], sendo a única excessão auto-defesa: se for provável que a pessoa te mate e se ela estiver de fato colocando sua vida em risco.
     Sem ser antagonista você também não pode:
     - Sabotar a estação
     - Fazer armadilhas
     - Envenenar os outros
     Isso é chamado pelo jargão gringo "self antag", algo como auto-declarado antag.
-    Se quiser ative a checkbox dos antagonistas em customizar no lobby e espere sua vez. Evite pegar papéis que não queira interpretar caso não ganhe status antag - isto é, coloque todos estes em Nunca.
+    Se quiser ative a checkbox dos antagonistas em customizar no lobby e espere sua vez. Não se suicide ou “ghost” porque você não conseguiu um papel de antag. Evite pegar papéis que não queira interpretar caso não ganhe status antag - isto é, coloque todos estes em Nunca.
 
 [color=#a4885c]8.[/color] Isso não é um deathmatch, seja humano. Faça tudo o que é possível para clonar ou salvar pessoas da morte.
 
