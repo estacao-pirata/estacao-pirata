@@ -41,7 +41,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 [color=#a4885c]9.[/color] Aja como um ser humano real numa estação espacial em um ambiente de roleplay médio (MRP). Não use abreviações e emoticons ao falar em IC e não se refira a coisas OOC, como administradores no jogo. Não ameace os jogadores dizendo que você está chamando os administradores contra eles. Não use o chat de emotes para contornar filtros de fala ou mudez. Você não é obrigado a escrever uma história de fundo ou seguir procedimentos exatos; no entanto, espera-se que você pelo menos faça um esforço para agir de acordo com sua função.
     - Nesse servidor se espera Roleplay. Definimos isso como desempenhar as funções que lhe são atribuídas, “fazer o seu trabalho”. Isso significa que é importante fazer o que se espera do seu departamento e não o que seria esperado de outros departamentos.
     - Não faça trabalhos de outras pessoas para elas. Inscreva-se na função que pretende desempenhar ou mude de função visitando o Chefe dos Funcionarios. O não cumprimento de suas funções básicas pode resultar em role ban.
-    - [color=#ff0000]A RODADA NÃO TERMINA ATÉ A NAVE DE EMERGENCIA DOCAR NO COMANDO CENTRAL. REGRAS DE ESCALA E SELF-ANTAG SE APLICAM ATÉ LÁ.[/color]
+    - [color=#ff0000]A RODADA NÃO TERMINA ATÉ VOCÊ VOLTAR AO LOBBY. FIQUE NO PERSONAGEM ATÉ O JOGO ACABAR..[/color]
     - Se você for antagonista, você tem muita margem manobra quanto à essa regra, como explicado abaixo em REGRAS PARA ANTAGONISTAS.
     - A distinção entre o seu personagem e você fora do personagem é aplicada com rigor. Se você quiser conversar sobre assuntos OOC com as pessoas próximas a você, basta usar o canal de bate-papo "LOOC".
     - Não faça grief ou spawn camping em jogadores que estão chegando na estação, ou na nave de chegadas, ou no terminal. Isso se aplica indiferentemente de você ser ou nào antagonista.
@@ -81,7 +81,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
         - ou lembrando os outros tripulantes do seu parentesco/amizade/inimizade/pinimba ou o que for
         - ou fora do seu local de trabalho - em geral, mas no caso pra ficar junto do seu meta amigo
         - ou executando tarefas para ou em benefício do seu meta amigo ou cumprindo a função dele na estação - ensinar alguém um trabalho não infringe essa regra
-    - Não constitua grupos de meta amigos em "clãs" ou "famílias" de mais de 3 jogadores distintos pois isso foi demonstrado constituir uma desvantagem e um desmotivante para os jogadores que sejam obrigados a eventualmente jogar em departamentos em que eles sejam o único "estranho". Esse número pode mudar, caso isso aconteça faremos esforços para avisá-los. Essa regra foi criada como alternativa a proibir que vocês joguem no mesmo departamento.
+    - Não constitua grupos de meta amigos em "clãs" ou "famílias" de mais de 3 jogadores distintos.
 
 [color=#ff0000]REGRAS PARA OFICIAIS DO COMANDO[/color]
 
