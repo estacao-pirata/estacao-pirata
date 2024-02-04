@@ -738,7 +738,7 @@
   - type: PointLight
     radius: 3.5
     color: blue
-    energy: 0.5 
+    energy: 0.5
 
 - type: entity
   id: BulletCap
@@ -873,7 +873,7 @@
             - Impassable
             - HighImpassable
     - type: GrapplingProjectile
-    
+
     # DeltaV projectiles
 # For whatever magical reasons, I cannot put those in the DeltaV folders without having errors.
 
@@ -917,7 +917,7 @@
         Heat: 20 # Slightly more damage than the 17heat from the Captain's Hitscan lasgun
     soundHit:
       collection: MeatLaserImpact
-    soundForce: true
+    forceSound: true
 
 - type: entity
   name : disabler bolt smg
