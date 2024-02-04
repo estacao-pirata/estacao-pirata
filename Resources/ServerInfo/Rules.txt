@@ -41,7 +41,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 [color=#a4885c]9.[/color] Aja como um ser humano real numa estação espacial em um ambiente de roleplay médio (MRP). Não use abreviações e emoticons ao falar em IC e não se refira a coisas OOC, como administradores no jogo. Não ameace os jogadores dizendo que você está chamando os administradores contra eles. Não use o chat de emotes para contornar filtros de fala ou mudez. Você não é obrigado a escrever uma história de fundo ou seguir procedimentos exatos; no entanto, espera-se que você pelo menos faça um esforço para agir de acordo com sua função.
     - Nesse servidor se espera Roleplay. Definimos isso como desempenhar as funções que lhe são atribuídas, “fazer o seu trabalho”. Isso significa que é importante fazer o que se espera do seu departamento e não o que seria esperado de outros departamentos.
     - Não faça trabalhos de outras pessoas para elas. Inscreva-se na função que pretende desempenhar ou mude de função visitando o Chefe dos Funcionarios. O não cumprimento de suas funções básicas pode resultar em role ban.
-    - [color=#ff0000]A RODADA NÃO TERMINA ATÉ A NAVE DE EMERGENCIA DOCAR NO COMANDO CENTRAL. REGRAS DE ESCALA E SELF-ANTAG SE APLICAM ATÉ LÁ.[/color]
+    - [color=#ff0000]A RODADA NÃO TERMINA ATÉ VOCÊ VOLTAR AO LOBBY. FIQUE NO PERSONAGEM ATÉ O JOGO ACABAR..[/color]
     - Se você for antagonista, você tem muita margem manobra quanto à essa regra, como explicado abaixo em REGRAS PARA ANTAGONISTAS.
     - A distinção entre o seu personagem e você fora do personagem é aplicada com rigor. Se você quiser conversar sobre assuntos OOC com as pessoas próximas a você, basta usar o canal de bate-papo "LOOC".
     - Não faça grief ou spawn camping em jogadores que estão chegando na estação, ou na nave de chegadas, ou no terminal. Isso se aplica indiferentemente de você ser ou nào antagonista.
@@ -81,7 +81,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
         - ou lembrando os outros tripulantes do seu parentesco/amizade/inimizade/pinimba ou o que for
         - ou fora do seu local de trabalho - em geral, mas no caso pra ficar junto do seu meta amigo
         - ou executando tarefas para ou em benefício do seu meta amigo ou cumprindo a função dele na estação - ensinar alguém um trabalho não infringe essa regra
-    - Não constitua grupos de meta amigos em "clãs" ou "famílias" de mais de 3 jogadores distintos pois isso foi demonstrado constituir uma desvantagem e um desmotivante para os jogadores que sejam obrigados a eventualmente jogar em departamentos em que eles sejam o único "estranho". Esse número pode mudar, caso isso aconteça faremos esforços para avisá-los. Essa regra foi criada como alternativa a proibir que vocês joguem no mesmo departamento.
+    - Não constitua grupos de meta amigos em "clãs" ou "famílias" de mais de 3 jogadores distintos.
 
 [color=#ff0000]REGRAS PARA OFICIAIS DO COMANDO[/color]
 
@@ -187,3 +187,9 @@ Essas regras também se aplicam a qualquer indivíduo que seja Silício, incluin
     - "Agressão" é visto, no mínimo, como violência física ou dano contra alguém ou alguma coisa. Se o jogador desejar, ele também pode optar por interpretar dano psicológico ou aspectos semelhantes como agressão. Espera-se que os Silícios tentem e busquem a opção com menor potencial de dano quando tiver que escolher entre ação ou inação; no entanto, os Silícioss com lei para prevenir danos ainda são proibidos de causar danos diretamente. Você pode tomar uma ação ou inação em casos que possam resultar em danos eventuais se isso minimizar os danos, mas não pode fazê-lo se resultar em danos imediatos. Caso nem a ação e a nem a inação puderem prevenir danos os Silícios devem optar pela inação.
     - Ao receber ordens conflitantes de membros da tripulação e se estiver com uma lei que instrui você a obedecer, fica a cargo da escolha para o jogador de Silícios de qual diretiva você ira escolher obedecer seguindo as prioridades das leis.
     - Pedidos para Silícios que sejam claramente irracionais ou desagradáveis ​​são uma violação da regra "Não seja um idiota". Eles podem ser ignorados e podem ser avisada aos administradores.
+
+[color=#ff0000]REGRA DE FIM DE TURNO[/color]
+[color=#a4885c]43.[/color] Grief no fim do turno não é permitido sem permissão explícita de um admin.
+    - Não faça bombas de qualquer tipo sem ser antag pra explodir na centcom.
+    - Não cause mal nem algeme os outros sem motivo.
+    - Não lute com alguém sem o consentimento da pessoa. Isso não é desculpa pra causar mal às pessoas a sua volta.
