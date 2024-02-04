@@ -45,6 +45,8 @@ research-technology-wave-particle-harnessing = Aproveitamento de onda-partícula
 research-technology-advanced-riot-control = Controle de Multidão Avançado
 research-technology-portable-microfusion-weaponry = Armamento portátil de microfusão
 research-technology-experimental-battery-ammo = Munição de Bateria Experimental
+research-technology-basic-shuttle-armament = Armamento básico de naves
+research-technology-advanced-shuttle-weapon = Armas avançadas de naves
 
 research-technology-basic-robotics = Robótica Básica
 research-technology-basic-anomalous-research = Pesquisa de Anomalias Básica

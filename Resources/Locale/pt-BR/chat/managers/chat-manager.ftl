@@ -113,3 +113,7 @@ chat-speech-verb-ghost-1 = reclama
 chat-speech-verb-ghost-2 = suspira
 chat-speech-verb-ghost-3 = zumbe
 chat-speech-verb-ghost-4 = murmura
+
+chat-speech-verb-electricity-1 = estalando
+chat-speech-verb-electricity-2 = zumbidas
+chat-speech-verb-electricity-3 = gritos

@@ -21,6 +21,7 @@ humanoid-profile-editor-export-button = Exportar
 humanoid-profile-editor-save-button = Salvar
 humanoid-profile-editor-clothing-label = Roupas:
 humanoid-profile-editor-backpack-label = Mochila:
+humanoid-profile-editor-spawn-priority-label = Prioridade de Spawn:
 humanoid-profile-editor-eyes-label = Cor dos Olhos:
 humanoid-profile-editor-jobs-tab = Trabalhos
 humanoid-profile-editor-preference-unavailable-stay-in-lobby-button = Ficar no lobby se a preferência estiver indisponível.
@@ -30,6 +31,12 @@ humanoid-profile-editor-preference-jumpskirt = Saia
 humanoid-profile-editor-preference-backpack = Mochila Simples
 humanoid-profile-editor-preference-satchel = Bolsa
 humanoid-profile-editor-preference-duffelbag = Mochila de Viagem
+
+# Spawn priority
+humanoid-profile-editor-preference-spawn-priority-none = Nenhum
+humanoid-profile-editor-preference-spawn-priority-arrivals = Chegadas
+humanoid-profile-editor-preference-spawn-priority-cryosleep = Crio-hibernar
+
 humanoid-profile-editor-jobs-amount-in-department-tooltip = Trabalhos no departamento: {$departmentName}
 humanoid-profile-editor-department-jobs-label = Trabalhos {$departmentName}
 humanoid-profile-editor-antags-tab = Antags

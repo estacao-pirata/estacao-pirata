@@ -5,3 +5,5 @@ advertisement-nanomed-4 = Químicos naturais!
 advertisement-nanomed-5 = Isso salva vidas.
 advertisement-nanomed-6 = Não quer um pouco?
 advertisement-nanomed-7 = Ping!
+advertisement-nanomed-8 = Certifique-se de não overdose de pessoas!
+advertisement-nanomed-9 = Vá sobredose de pessoas!

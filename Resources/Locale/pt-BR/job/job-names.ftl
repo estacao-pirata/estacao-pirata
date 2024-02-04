@@ -45,6 +45,7 @@ job-name-ertmedic = médico da ERT
 job-name-ertjanitor = zelador da ERT
 job-name-boxer = boxeador
 job-name-zookeeper = funcionário do zoológico
+job-name-visitor = visitante
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
@@ -90,6 +91,7 @@ JobSecurityOfficer = segurança
 JobServiceWorker = faz-tudo
 JobStationEngineer = engenheiro
 JobTechnicalAssistant = assistente técnico
+JobVisitor = visitor
 JobWarden = carcereiro
 JobBoxer = boxeador
 JobZookeeper = funcionário do zoológico

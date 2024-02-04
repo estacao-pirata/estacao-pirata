@@ -3,7 +3,6 @@ anomaly-component-contact-damage = A anomalia torra fora sua pele!
 anomaly-vessel-component-anomaly-assigned = Anomalia atribuida a vassalo.
 anomaly-vessel-component-not-assigned = Este vassalo não está atrobuído a nenhuma anomalia. Tente usar um scanner nele.
 anomaly-vessel-component-assigned = Este vassalo está atualmente atribuído a uma anomalia.
-anomaly-vessel-component-upgrade-output = apontar saída
 
 anomaly-particles-delta = Partículas Delta
 anomaly-particles-epsilon = Partículas Epsilon
