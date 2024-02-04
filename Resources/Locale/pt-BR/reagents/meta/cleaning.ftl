@@ -5,10 +5,7 @@ reagent-name-space-cleaner = limpador espacial
 reagent-desc-space-cleaner = É capaz de limpar quase todas as superfícies de qualquer coisa que as suje. O zelador provavelmente gosta de refills disto.
 
 reagent-name-soap = sabão
-reagent-desc-soap = O sabão pode ser usado para fazer água com sabão.
-
-reagent-name-soapy-water = água ensaboada
-reagent-desc-soapy-water = É só água e sabão. Bom para limpar sujeira de superfícies e também mais escorregadio do que água normal.
+reagent-desc-soap = Eu não limparia a boca com isso se eu fosse você.
 
 reagent-name-space-lube = lubrificante espacial
 reagent-desc-space-lube = O lubrificante espacial é um lubrificante de alta qualidade feito para manutenção equipamentos mecânicos extremamente complexos (e obviamente não é usado para fazer pessoas escorregarem).

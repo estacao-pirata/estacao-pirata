@@ -12,3 +12,5 @@ verb-start-detonation = Iniciar detonação
 verb-toggle-start-on-stick = Alternar auto-ativação
 popup-start-on-stick-off = O dispositivo não será mais ativado automaticamente quando plantado
 popup-start-on-stick-on = O dispositivo será ativado automaticamente quando plantado
+
+trigger-activated = Você ativa {THE($device)}

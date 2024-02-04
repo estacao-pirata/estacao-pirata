@@ -157,6 +157,8 @@ flavor-complex-plastic = de plástico
 flavor-complex-glue = de cola
 flavor-complex-spaceshroom = como umami espacial
 flavor-complex-lost-friendship = como amizade perdida
+flavor-complex-profits = como lucro
+flavor-complex-fishops = como os temidos fishops
 
 # Drink-specific flavors.
 
