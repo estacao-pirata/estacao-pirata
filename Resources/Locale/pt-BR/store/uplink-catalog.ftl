@@ -159,7 +159,7 @@ uplink-freedom-implanter-name = Implanter de Liberdade
 uplink-freedom-implanter-desc = Livre-se desses oficiais da seg desagradávis com este implante de três usos!
 
 uplink-scram-implanter-name = Implantador de Fuga
-uplink-scram-implanter-desc = Um implante de 3 usos que teletransporta você para um grande raio. Tenta teletransportar você para um ladrilho desobstruído. Às vezes pode não conseguir fazer isso. Seguro de vida não incluído.
+uplink-scram-implanter-desc = Um implante de 2 usos que teletransporta você para um grande raio. Tenta teletransportar você para um ladrilho desobstruído. Às vezes pode não conseguir fazer isso. Seguro de vida não incluído.
 
 uplink-dna-scrambler-implanter-name = Implantador de DNA Misturador
 uplink-dna-scrambler-implanter-desc = Um implante de uso único que pode ser ativado para modificar seu DNA e lhe dar uma aparência completamente nova.
