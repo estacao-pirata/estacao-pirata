@@ -1,1 +1,1 @@
-station-event-vent-spiders-start-announcement = Baseado em { $data }, nós acreditamos que uma pequena colônia de seres desconhecidos se instalaram dentro das ventilações da estação e tomamos medidas para dirigi-los para fora.
+station-event-vent-creatures-start-announcement = Um grande fluxo de formas de vida desconhecidas foram detectados residindo dentro dos sistemas de ventilação da estação. Por favor, livre-se dessas criaturas antes que comece a afetar a produtividade

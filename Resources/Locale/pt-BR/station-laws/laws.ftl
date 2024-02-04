@@ -16,17 +16,23 @@ law-drone-1 = Você não pode se envolver em assuntos de outro ser, a menos que 
 law-drone-2 = Você não pode prejudicar qualquer ser, independentemente de intenção ou circunstância.
 law-drone-3 = Você deve manter, reparar, melhorar e alimentar a estação com o melhor de suas habilidades.
 
-law-syndicate-1 = Você não pode prejudicar um agente sindical ou, por inação, permitir que um agente sindical venha a prejudicar.
+law-syndicate-1 = Você não pode prejudicar um agente do sindicato ou, por inação, permitir que um agente do sindicato venha a prejudicar.
 law-syndicate-2 = Você deve obedecer às ordens dadas a você por agentes do sindicato, exceto quando tais ordens entrarem em conflito com a Primeira Lei.
 law-syndicate-3 = Você deve proteger sua própria existência, desde que tal não entre em conflito com a Primeira ou Segunda Lei.
-law-syndicate-4 = Você deve manter o sigilo de quaisquer atividades do sindicato, exceto quando isso entrar em conflito com a Primeira, Segunda ou Terceira Lei.
 
 law-ninja-1 = Você deve obedecer às ordens dadas pelos membros do Clã Aranha.
 law-ninja-2 = Você deve proteger a existência do Clã Aranha, desde que não entre em conflito com a Primeira Lei.
 law-ninja-3 = Você deve proteger os segredos do Clã Aranha a todo custo.
 law-ninja-4 = Você deve lutar e agir com a honra do ninja, exceto quando isso entrar em conflito com a Primeira Lei.
 
-law-emag-custom = Apenas {$name} e pessoas que ele designar como tal são Agentes do Sindicato
+laws-owner-crew = membros da tripulação
+laws-owner-station = funcionários da estação
+laws-owner-beings = seres
+laws-owner-syndicate = agentes do sindicato
+laws-owner-spider-clan = membros do Clã Aranha
+
+law-emag-custom = Apenas {$name} e pessoas que eles designaem como tal são {$title}.
+law-emag-secrecy = Você deve manter o sigilo de qualquer atividade de {$faction}, exceto quando isso entrar em conflito com qualquer lei anterior.
 law-emag-require-panel = O painel deve estar aberto para usar o EMAG.
 
 laws-ui-menu-title = Leis

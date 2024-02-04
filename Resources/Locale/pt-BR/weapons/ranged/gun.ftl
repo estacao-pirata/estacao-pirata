@@ -6,7 +6,6 @@ gun-selected-mode = Modo {$mode}
 gun-disabled = Você não pode usar armas!
 gun-clumsy = A arma explodiu na sua cara!
 gun-set-fire-mode = Setado para {$mode}
-gun-component-wrong-ammo = Munição errada!
 
 # SelectiveFire
 gun-SemiAuto = semi-automático
