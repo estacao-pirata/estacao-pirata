@@ -163,7 +163,7 @@ flavor-complex-plastic = de plástico
 flavor-complex-glue = de cola
 flavor-complex-spaceshroom = como umami espacial
 flavor-complex-lost-friendship = como amizade perdida
-flavor-complex-light = como uma luz saiu
+flavor-complex-light = como uma luz que apagou
 flavor-complex-profits = como lucro
 flavor-complex-fishops = como os temidos fishops
 
