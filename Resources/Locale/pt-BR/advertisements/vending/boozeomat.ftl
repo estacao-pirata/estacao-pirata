@@ -18,3 +18,5 @@ advertisement-boozeomat-17 = Álcool máximo!
 advertisement-boozeomat-18 = Homens amam cerveja.
 advertisement-boozeomat-19 = Um brinde aos álcoolatras.
 thankyou-boozeomat-1 = Por favor, beba com responsabilidade!
+thankyou-boozeomat-2 = Por favor, beba pouco responsável!
+thankyou-boozeomat-3 = Por favor, aproveite sua bebida!

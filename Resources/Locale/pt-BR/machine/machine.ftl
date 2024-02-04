@@ -13,11 +13,6 @@ machine-part-name-manipulator = Manipulator
 machine-part-name-matter-bin = Matter Bin
 machine-part-name-power-cell = Power Cell
 
-upgrade-power-draw = consumo de energia
-upgrade-max-charge = carga máxima
-upgrade-power-supply = fonte de energia
-upgrade-power-supply-ramping = taxa de rampa de potência
-
 two-way-lever-left = empurrar para esquerda
 two-way-lever-right = empurrar para a direita
 two-way-lever-cant = não se pode empurrar a alavanca nessa direção!

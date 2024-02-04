@@ -28,6 +28,8 @@ cargo-console-invalid-product = ID do produto inválido
 cargo-console-too-many = Encomendas demais aprovadas
 cargo-console-snip-snip = Limite de encomendas alcançado
 cargo-console-insufficient-funds = Créditos insuficientes (necessita {$cost})
+cargo-console-unfulfilled = Sem espaço para cumprir a ordem
+cargo-console-trade-station = Enviado para {$destination}
 
 cargo-console-paper-print-name = Encomenda #{$orderNumber}
 cargo-console-paper-print-text =
@@ -43,5 +45,3 @@ cargo-shuttle-console-station-unknown = Desconhecida
 cargo-shuttle-console-shuttle-not-found = Não encontrada
 cargo-shuttle-console-organics = Formas de vida orgânica encontradas na nave
 cargo-no-shuttle = Nenhuma nave de carga encontrada!
-
-cargo-telepad-delay-upgrade = Atraso de teletransporte

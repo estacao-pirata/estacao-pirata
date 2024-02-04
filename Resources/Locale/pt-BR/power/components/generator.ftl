@@ -23,6 +23,9 @@ portable-generator-ui-eject = Ejetar
 portable-generator-ui-eta = (~{ $minutes } min)
 portable-generator-ui-unanchored = Não ancorado
 portable-generator-ui-current-output = Saída atual: {$voltage}
+portable-generator-ui-network-stats = Rede:
+portable-generator-ui-network-stats-value = { POWERWATTS($supply) } / { POWERWATTS($load) }
+portable-generator-ui-network-stats-not-connected = Não conectado
 
 power-switchable-generator-examine = A saída de energia está definida para {$voltage}.
 power-switchable-generator-switched = Saída trocada para {$voltage}!
