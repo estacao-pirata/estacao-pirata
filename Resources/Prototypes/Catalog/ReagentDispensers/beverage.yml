@@ -19,7 +19,7 @@
   - DrinkTeaJug
   - DrinkTonicWaterBottleFull
   - DrinkWaterMelonJuiceJug
-  - Guarana
+  #- Guarana
 
 - type: reagentDispenserInventory
   id: BoozeDispenserInventory
@@ -36,4 +36,4 @@
   - DrinkVodkaBottleFull
   - DrinkWhiskeyBottleFull
   - DrinkWineBottleFull
-  - Cachaca
+  #- Cachaca
