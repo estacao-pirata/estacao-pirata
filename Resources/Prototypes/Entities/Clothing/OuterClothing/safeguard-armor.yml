@@ -1,30 +1,30 @@
-- type: entity
-  parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitSafeguard
-  name: NanoTrasen "Safeguard-Type" Hardsuit
-  description: To compete directly with Cybersun's Juggernaut Suit, NanoTrasen has gathered the most genius minds in the 14th Sector. The result? The Safeguard Suit.
-  components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/safeguard-armor.rsi
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/safeguard-armor.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.2
-    lowPressureMultiplier: 1000
-  - type: ExplosionResistance
-    damageCoefficient: 0.1
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.4
-        Slash: 0.5
-        Piercing: 0.3
-        Heat: 0.2
-        Radiation: 0.2
-        Caustic: 0.2
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.75
-  - type: HeldSpeedModifier
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSafeguard
+#- type: entity
+#  parent: ClothingOuterHardsuitBase
+#  id: ClothingOuterHardsuitSafeguard
+#  name: NanoTrasen "Safeguard-Type" Hardsuit
+#  description: To compete directly with Cybersun's Juggernaut Suit, NanoTrasen has gathered the most genius minds in the 14th Sector. The result? The Safeguard Suit.
+#  components:
+#  - type: Sprite
+#    sprite: Clothing/OuterClothing/Hardsuits/safeguard-armor.rsi
+#  - type: Clothing
+#    sprite: Clothing/OuterClothing/Hardsuits/safeguard-armor.rsi
+#  - type: PressureProtection
+#    highPressureMultiplier: 0.2
+#    lowPressureMultiplier: 1000
+#  - type: ExplosionResistance
+#    damageCoefficient: 0.1
+#  - type: Armor
+#    modifiers:
+#      coefficients:
+#        Blunt: 0.4
+#        Slash: 0.5
+#        Piercing: 0.3
+#        Heat: 0.2
+#        Radiation: 0.2
+#        Caustic: 0.2
+#  - type: ClothingSpeedModifier
+#    walkModifier: 0.9
+#    sprintModifier: 0.75
+#  - type: HeldSpeedModifier
+#  - type: ToggleableClothing
+#    clothingPrototype: ClothingHeadHelmetHardsuitSafeguard
