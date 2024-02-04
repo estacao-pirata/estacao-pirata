@@ -59,6 +59,7 @@ marking-HumanHairC = Cortadinho
 marking-HumanHairDandypompadour = Elvis Presley
 marking-HumanHairDevilock = Tapa Chakra
 marking-HumanHairDoublebun = Coque Duplo
+marking-HumanHairDoublebunLong = Coque Duplo Longo
 marking-HumanHairDreads = Dread
 marking-HumanHairDrillruru = Pranchado
 marking-HumanHairDrillhairextended = Pranchado (Grande)

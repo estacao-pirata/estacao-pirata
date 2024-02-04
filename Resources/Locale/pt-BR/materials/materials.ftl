@@ -34,6 +34,3 @@ materials-raw-silver = prata bruto
 materials-raw-plasma = plasma bruto
 materials-raw-uranium = urânio bruto
 materials-raw-bananium = bananium bruto
-
-# Material Reclaimer
-material-reclaimer-upgrade-process-rate = taxa de processo

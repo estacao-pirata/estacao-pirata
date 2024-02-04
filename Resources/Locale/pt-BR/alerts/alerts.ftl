@@ -1,6 +1,9 @@
 alerts-low-oxygen-name = [color=red]Baixo Oxigênio[/color]
 alerts-low-oxygen-desc = Não há [color=red]oxigênio suficiente[/color] no ar que você está respirando. Coloque [color=green]internos[/color].
 
+alerts-low-nitrogen-name = [color=red]Baixo Nitrogênio[/color]
+alerts-low-nitrogen-desc = Não há [color=red]nitrogênio suficiente[/color=red] no ar que você está respirando. Coloque [color=green]internos[/color].
+
 alerts-high-toxin-name = [color=red]Alto Nível de Toxina[/color]
 alerts-high-toxin-desc = Existem [color=red]muitas toxinas[/color] no ar que você está respirando. Coloque [color=green]interno[/color] ou vá embora.
 

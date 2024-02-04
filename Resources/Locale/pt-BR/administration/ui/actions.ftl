@@ -8,5 +8,5 @@ admin-player-actions-spawn = Gerar aqui
 admin-player-spawn-failed = Falha ao encontrar coordenadas válidas
 
 admin-player-actions-clone = Clone
-admin-player-actions-teleport = Teleportar para
+admin-player-actions-follow = Seguir
 admin-player-actions-confirm = Tem certeza?

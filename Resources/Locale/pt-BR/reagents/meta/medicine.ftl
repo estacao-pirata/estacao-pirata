@@ -2,10 +2,10 @@ reagent-name-cryptobiolin = cryptobiolina
 reagent-desc-cryptobiolin = Causa confusão e tontura.
 
 reagent-name-dylovene = dylovene
-reagent-desc-dylovene = Antitoxina de amplo espectro, que trata os danos causados pela toxina na corrente sanguínea. A sobredosagem causará vómitos, tonturas e dor.
+reagent-desc-dylovene = Um anti-toxina de amplo espectro, que trata os danos à toxina em organismos. A overdose causará vômito, tontura e dor.
 
 reagent-name-diphenhydramine = diphenhydramina
-reagent-desc-diphenhydramine = Purga rapidamente o corpo de histamina e reduz o nervosismo.
+reagent-desc-diphenhydramine = Limpar rapidamente o corpo da histamina, reduz o tremor e trata os danos por veneno.
 
 reagent-name-arithrazine = arithrazina
 reagent-desc-arithrazine = Um medicamento levemente instável usado para os casos mais extremos de envenenamento por radiação. Causa um pequeno estresse no corpo.
@@ -14,7 +14,7 @@ reagent-name-bicaridine = bicaridina
 reagent-desc-bicaridine = Um analgésico que é altamente eficaz no tratamento de danos brutos. É útil para estabilizar pessoas que foram severamente espancadas, bem como tratar lesões menos fatais.
 
 reagent-name-cryoxadone = cryoxadona
-reagent-desc-cryoxadone = Um produto químico criogênico. Cura todos os tipos de dano padrão muito rapidamente, mas só funciona em temperaturas abaixo de 150K.
+reagent-desc-cryoxadone = Um produto químico criogênico. Cura todos os tipos de danos padrão, mas funciona apenas em temperaturas abaixo de 213k. Pode tratar e rejuvenescer as plantas quando aplicado em pequenas doses.
 
 reagent-name-doxarubixadone = doxarubixadona
 reagent-desc-doxarubixadone = Um produto químico criogênico. Cura certos tipos de danos celulares causados por Slimes e uso inadequado de outros produtos químicos. Só funciona em temperaturas abaixo de 150K
@@ -29,7 +29,7 @@ reagent-name-dermaline = dermalina
 reagent-desc-dermaline = Um produto químico avançado que é mais eficaz no tratamento de queimaduras do que o kelotane.
 
 reagent-name-dexalin = dexalina
-reagent-desc-dexalin = Usado para tratar leve privação de oxigênio. Um reagente necessário para o dexalin plus.
+reagent-desc-dexalin = Usado para tratar pequenas privação de oxigênio e perda de sangue. Um reagente necessário para Dexalina Plus.
 
 reagent-name-dexalin-plus = dexalina plus
 reagent-desc-dexalin-plus = Usado no tratamento de casos extremos de privação de oxigênio e perda de sangue. Remove a heartbreaker da corrente sanguínea.
@@ -53,10 +53,10 @@ reagent-name-leporazine = leporazina
 reagent-desc-leporazine = Um fármaco usado para estabilizar a temperatura corporal e curar rapidamente os danos causados pelo frio. Excelente para viagens de EVA desprotegidas, mas impede o uso de tubos criogênicos.
 
 reagent-name-barozine = barozina
-reagent-desc-barozine = Um fármaco potente que evita danos por pressão. Causa estresse extremo no corpo. Comumente encontrado na forma de space medipens.
+reagent-desc-barozine = Um fármaco potente que evita danos por pressão. Causa estresse extremo no corpo.
 
 reagent-name-phalanximine = phalanximina
-reagent-desc-phalanximine = Um fármaco avançado usado no tratamento do câncer. Causa radiação moderada e queda de cabelo.
+reagent-desc-phalanximine = Um fármaco avançado usado no tratamento do câncer. Causa envenenamento moderado de radiação em orgânicos e vômitos. Pode potencialmente remover o gene da morte nas plantas.
 
 reagent-name-ambuzol = ambuzol
 reagent-desc-ambuzol = Uma substância produto de alta engenharia química capaz de interromper a progressão de uma infecção zumbi.
@@ -131,4 +131,7 @@ reagent-name-insuzine = insuzina
 reagent-desc-insuzine = Repara rapidamente o tecido morto causado por eletrocussão, mas esfria um pouco. Congela completamente o paciente em caso de overdose.
 
 reagent-name-necrosol = necrosol
-reagent-desc-necrosol = Uma substância necrótica que parece ser capaz de curar cadáveres congelados.
+reagent-desc-necrosol = Uma substância necrótica que parece ser capaz de curar cadáveres congelados. Pode tratar e rejuvenescer as plantas quando aplicado em pequenas doses.
+
+reagent-name-aloxadone = aloxadona
+reagent-desc-aloxadone = Um produto químico criogênico. Usado para tratar queimaduras graves de terceiro grau por regeneração do tecido queimado. Funciona independentemente do paciente estar vivo ou morto.

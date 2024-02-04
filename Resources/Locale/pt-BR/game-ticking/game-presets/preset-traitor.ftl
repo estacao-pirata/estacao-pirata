@@ -40,4 +40,4 @@ traitor-role-uplink-code =
 traitor-role-codewords-short =
     As palavras-código são:
     {$codewords}.
-traitor-role-uplink-code-short = Seu código de uplink é {$code}.
+traitor-role-uplink-code-short = Seu código de uplink é {$code}. Defina-o como seu toque de PDA para acessar uplink.

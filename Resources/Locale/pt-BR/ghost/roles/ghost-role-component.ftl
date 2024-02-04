@@ -1,5 +1,6 @@
 # also used in MakeGhostRuleWindow and MakeGhostRoleCommand
-ghost-role-component-default-rules = Você não se lembra de nada da sua vida passada a não ser que um administrador diga o contrário.
+ghost-role-component-default-rules = Todas as regras normais se aplicam, a menos que um administrador diga o contrário.
+                                     Você não se lembra de nada da sua vida passada, e você não se lembra de nada que aprendeu como um fantasma.
                                      Você pode saber sobre coisas do jogo em geral, como cozinhar, como usar objetos, etc.
                                      Você [color=red]NÃO[/color] é autorizado à lembrar/falar/citar sobre sobre seu personagem passado.
 
@@ -10,7 +11,7 @@ ghost-role-information-mothroach-name = Mothbarata
 ghost-role-information-mothroach-description = Uma fofa mas maliciosa mothbarata.
 
 ghost-role-information-giant-spider-name = Aranha gigante
-ghost-role-information-giant-spider-description = Cause estragos nos habitantes da estação!
+ghost-role-information-giant-spider-description = Os habitantes desta estação parecem muito saborosos, e sua teia pegajosa é perfeita para pegá-los!
 
 ghost-role-information-cognizine-description = Feito consciente com a mágica de cognizine.
 
@@ -21,7 +22,9 @@ ghost-role-information-hamlet-name = Hamlet o hamster.
 ghost-role-information-hamlet-description = Vive na ponte de comando da estação, é um tanto temperamentál e está sempre com fome.
 
 ghost-role-information-slimes-name = Slime
-ghost-role-information-slimes-description = Um simples Slime sem necessidades ou interesses especiais. Ele apenas vive.
+ghost-role-information-slimes-description = Um simples Slime sem necessidades ou interesses especiais. Você é amigável com os outros.
+
+ghost-role-information-angry-slimes-name = Slime
 ghost-role-information-angry-slimes-description = Tudo ao seu redor irrita seus instintos, destrua-os!
 
 ghost-role-information-smile-name = Smile a Slime
@@ -89,13 +92,13 @@ ghost-role-information-supplybot-name = SupplyBot
 ghost-role-information-supplybot-description = Entregue mercadorias pela estação.
 
 ghost-role-information-space-bear-name = Urso Espacial
-ghost-role-information-space-bear-description = Você é um urso! Faça coisas de urso.
+ghost-role-information-space-bear-description = Sua barriga ronca, e essas pessoas parecem realmente gostosas... que banquete!
 
 ghost-role-information-salvage-bear-name = Urso Espacial em naufrágio de salvamento
 ghost-role-information-salvage-bear-description = Defenda o saque dentro do naufrágio de salvamento!
 
 ghost-role-information-space-kangaroo-name = Canguru Espacial
-ghost-role-information-space-kangaroo-description = Você é um canguru! Faça coisas de canguru.
+ghost-role-information-space-kangaroo-description = Dê à tripulação um gostinho de suas garras afiadas!
 
 ghost-role-information-salvage-kangaroo-name = Canguru espacial em naufrágio de salvamento
 ghost-role-information-salvage-kangaroo-description = Defenda o saque dentro do naufrágio de salvamento!
