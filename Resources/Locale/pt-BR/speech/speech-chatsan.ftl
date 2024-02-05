@@ -308,3 +308,6 @@ chatsan-replacement-111 = que que
 
 chatsan-word-112 = SSD
 chatsan-replacement-112 = distúrbio do sono espacial
+
+chatsan-word-113 = dnv
+chatsan-replacement-113 = de novo
