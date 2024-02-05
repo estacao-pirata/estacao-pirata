@@ -263,7 +263,7 @@
     accent-pirate-replaced-30: accent-pirate-replacement-30
     accent-pirate-replaced-31: accent-pirate-replacement-31
     accent-pirate-replaced-32: accent-pirate-replacement-32
-    
+
 - type: accent
   id: cowboy
   wordReplacements:
@@ -366,7 +366,7 @@
     accent-cowboy-words-97: accent-cowboy-replacement-97
     accent-cowboy-words-98: accent-cowboy-replacement-98
     accent-cowboy-words-99: accent-cowboy-replacement-99
-  
+
 
 # For the chat sanitization system
 - type: accent
@@ -484,3 +484,4 @@
     chatsan-word-110: chatsan-replacement-110
     chatsan-word-111: chatsan-replacement-111
     chatsan-word-112: chatsan-replacement-112
+    chatsan-word-113: chatsan-replacement-113
