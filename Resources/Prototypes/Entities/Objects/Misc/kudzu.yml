@@ -1,7 +1,7 @@
 - type: entity
   id: Kudzu
   name: kudzu
-  description: A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: Uma planta perigosa e de rápido crescimento. Por que você está parando para olhar?!
   placement:
     mode: SnapgridCenter
     snap:
@@ -105,9 +105,9 @@
 
 - type: entity
   id: KudzuFlowerFriendly
-  name: floral carpet
+  name: tapete floral
   suffix: Friendly, Floral Anomaly
-  description: A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
+  description: Um tapete colorido de flores se espalhando em todas as direções. Você não tem certeza se deve derrubá-lo ou deixá-lo.
   parent: Kudzu
   components:
     - type: Sprite
@@ -158,8 +158,8 @@
 
 - type: entity
   id: FleshKudzu
-  name: tendons
-  description: A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  name: tendões
+  description: Um aglomerado de tendões carnudos que cresce rapidamente. Por que você está parando para olhar?!
   placement:
     mode: SnapgridCenter
     snap:
