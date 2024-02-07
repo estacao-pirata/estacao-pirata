@@ -18,4 +18,4 @@ log-probe-program-name = LogProbe
 log-probe-scan = Registros baixados de {$device}!
 log-probe-label-time = Hora
 log-probe-label-accessor = Acessado por
-log-probe-label-number = Número
+log-probe-label-number = #

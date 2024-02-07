@@ -8,6 +8,10 @@ health-analyzer-window-damage-group-text = {$damageGroup}: {$amount}
 health-analyzer-window-damage-type-text = {$damageType}: {$amount}
 health-analyzer-window-damage-type-duplicate-text = {$damageType}: {$amount} (duplicate)
 
+health-analyzer-window-scan-mode-text = Modo de Scan:
+health-analyzer-window-scan-mode = ATIVO
+health-analyzer-window-scan-mode = INATIVO
+
 health-analyzer-window-damage-group-Brute = Bruto
 health-analyzer-window-damage-type-Blunt = Contundente
 health-analyzer-window-damage-type-Slash = Corte
