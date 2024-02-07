@@ -46,7 +46,7 @@ anomaly-sync-examine-not-connected = [color=darkred]não está anexado[/color] a
 anomalia-sync-connect-verb-text = Anexar anomalia
 anomaly-sync-connect-verb-message = Anexe uma anomalia próxima a {THE($machine)}.
 
-anomaly-generator-ui-title = gerador de anomalia
+anomaly-generator-ui-title = Gerador de Anomalia
 anomaly-generator-fuel-display = Combustível:
 anomaly-generator-cooldown = Cooldown: [color=gray]{$time}[/color]
 anomaly-generator-no-cooldown = Cooldown: [color=gray]Completo[/color]
