@@ -48,6 +48,7 @@ guide-entry-cyborgs = ciborgues
 guide-entry-security = Segurança
 guide-entry-forensics = Forensics
 guide-entry-defusal = Desativação de Bomba Grande
+guide-entry-crimina-records = Registros Criminais
 
 guide-entry-antagonists = Antagonistas
 guide-entry-nuclear-operatives = Operativos Nucleares
