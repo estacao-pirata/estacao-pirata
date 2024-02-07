@@ -16,7 +16,7 @@ research-technology-atmospheric-tech = Tecnologias de Ar
 research-technology-shuttlecraft = Construção de naves
 research-technology-ripley-aplu = Ripley APLU
 research-technology-advanced-atmospherics = Tecnologias Advançado de Ar
-research-technology-advanced-tools = Ferramentas Advançadas
+research-technology-advanced-tools = Ferramentas Avançadas
 research-technology-super-powercells = Super Baterias
 research-technology-bluespace-storage = Armazenamento Bluespace
 research-technology-portable-fission = Fissão Portátil
@@ -62,6 +62,7 @@ research-technology-quantum-leaping = Salto Quântico
 research-technology-advanced-anomaly-research = Tecnologia Móvel de Anomalia
 research-technology-rped = Troca Rápida de Peças
 research-technology-super-parts = Super Peças
+research-technology-deterrence = Tecnologias de Dissuasão
 
 research-technology-janitorial-equipment = Equipamentos para Zeladoria
 research-technology-laundry-tech = Tecnologia de Lavanderia
