@@ -63,6 +63,12 @@ flavor-complex-ketchunaise = como tomates e maionese
 flavor-complex-mayonnaise = como maionese
 flavor-complex-mustard = como mostarda
 
+# Condiments
+
+flavor-complex-ketchunaise = como tomates e maionese
+flavor-complex-mayonnaise = como maionese
+flavor-complex-mustard = como mostarda
+
 # Food-specific flavors.
 
 ## Food chemicals. In case you get something that has this inside.
@@ -181,9 +187,23 @@ flavor-complex-beer = de cerveja
 flavor-complex-cognac = como álcool seco picante
 flavor-complex-mead = como mel fermentado
 flavor-complex-vermouth = como cascas de uva de ervas
+flavor-complex-cognac = como álcool seco picante
+flavor-complex-mead = como mel fermentado
+flavor-complex-vermouth = como cascas de uva de ervas
 flavor-complex-ale = de pão
 flavor-complex-tonic-water = como água com raiva
+flavor-complex-tonic-water = como água com raiva
 flavor-complex-cola = de cola
+flavor-complex-energy-drink = como ácido da bateria
+flavor-complex-dr-gibb = como negligência
+flavor-complex-grape-soda = como refrigerante de uva
+flavor-complex-lemon-lime-soda = como refrigerante de limão-lima
+flavor-complex-pwr-game-soda = como jogos
+flavor-complex-root-beer-soda = como refrigerante de raiz
+flavor-complex-citrus-soda = como refrigerante cítrico
+flavor-complex-space-up-soda = como espaço
+flavor-complex-starkist-soda = como refrigerante de laranja
+flavor-complex-fourteen-loko-soda = como um malte doce
 flavor-complex-energy-drink = como ácido da bateria
 flavor-complex-dr-gibb = como negligência
 flavor-complex-grape-soda = como refrigerante de uva
@@ -217,9 +237,14 @@ flavor-complex-root-beer-float = como sorvete em refrigerante de raiz
 flavor-complex-black-russian = como café alcoólico
 flavor-complex-white-russian = como café adoçado alcoólico
 flavor-complex-moonshine = como álcool puro
+flavor-complex-root-beer-float = como sorvete em refrigerante de raiz
+flavor-complex-black-russian = como café alcoólico
+flavor-complex-white-russian = como café adoçado alcoólico
+flavor-complex-moonshine = como álcool puro
 flavor-complex-singulo = de um poço sem fundo
 flavor-complex-syndie-bomb = de whisky amargo
 flavor-complex-tequila-sunrise = de uma manhã mexicana
+flavor-complex-irish-car-bomb = como creme de baunilha e whisky
 flavor-complex-irish-car-bomb = como creme de baunilha e whisky
 flavor-complex-irish-coffee = de um despertador alcoólico
 flavor-complex-iced-beer = de cerveja fria como gelo
