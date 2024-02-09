@@ -1,2 +1,2 @@
 ent-MobObserver = observador
-     .desc = Vaia!
+     .desc = Bu!

@@ -1,4 +1,4 @@
-ent-SalvageMagnet = imã dde destroços
+ent-SalvageMagnet = imã de destroços
     .desc = Puxa destroços.
 
 ent-SalvageLocator = localizador de destroços

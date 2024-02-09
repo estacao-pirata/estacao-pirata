@@ -1,7 +1,7 @@
-ent-ConveyorBelt = conveyor belt
-    .desc = A conveyor belt, commonly used to transport large numbers of items elsewhere quite quickly.
+ent-ConveyorBelt = correia transportadora
+    .desc = Uma correia transportadora, comumente usada para transportar um grande número de itens para outro lugar com bastante rapidez.
 
-ent-ConveyorBeltAssembly = conveyor belt
-    .desc = A conveyor belt assembly. Used to construct a conveyor belt.
-    .suffix = assembly
+ent-ConveyorBeltAssembly = correia transportadora
+    .desc = Uma correia transportadora, comumente usada para transportar um grande número de itens para outro lugar com bastante rapidez.
+    .suffix = conjunto
 

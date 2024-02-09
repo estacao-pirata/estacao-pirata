@@ -1,6 +1,6 @@
-ent-RadioBase = radio
+ent-RadioBase = rádio
     .desc = { "" }
 
-ent-RadioHandheld = handheld radio
-    .desc = A handy handheld radio.
+ent-RadioHandheld = rádio portátil
+    .desc = Um rádio portátil útil.
 

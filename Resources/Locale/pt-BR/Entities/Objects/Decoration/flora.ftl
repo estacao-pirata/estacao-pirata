@@ -64,14 +64,14 @@ ent-FloraTreeLarge05 = árvore grande
 ent-FloraTreeLarge06 = árvore grande
     .desc = Sim, é uma árvore.
 
-ent-FloraTreeConifer01 = snowy conifer
-    .desc = Yep, it's a tree.
+ent-FloraTreeConifer01 = conifer com neve
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeConifer02 = snowy conifer
-    .desc = Yep, it's a tree.
+ent-FloraTreeConifer02 = conifer com neve
+    .desc = Sim, é uma árvore.
 
-ent-FloraTreeConifer03 = snowy conifer
-    .desc = Yep, it's a tree.
+ent-FloraTreeConifer03 = conifer com neve
+    .desc = Sim, é uma árvore.
 
 ent-FloraTreeChristmas01 = árvore de natal
     .desc = Sim, é uma árvore.
@@ -79,6 +79,6 @@ ent-FloraTreeChristmas01 = árvore de natal
 ent-FloraTreeChristmas02 = árvore de natal
     .desc = Sim, é uma árvore.
 
-ent-FloraTreeStumpConifer = tree stump
+ent-FloraTreeStumpConifer = toco de árvore
     .desc = Sim, é uma árvore.
 

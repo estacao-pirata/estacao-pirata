@@ -1,3 +1,3 @@
-ent-CargoTelepad = cargo telepad
+ent-CargoTelepad = telepad de carga
     .desc = { "" }
 

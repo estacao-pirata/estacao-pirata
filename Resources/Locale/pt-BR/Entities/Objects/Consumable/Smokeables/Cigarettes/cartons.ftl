@@ -1,11 +1,11 @@
-ent-CigCartonGreen = caixa Spessman
-     .desc = Uma caixa contendo 6 pacotes de Spessman's Smokes.
+ent-CigCartonGreen = caixa de Spessman's Smokes
+     .desc = Uma caixa contendo 6 maços de Spessman's Smokes.
 
-ent-CigCartonRed = caixa Dromedaryco
-     .desc = Uma caixa contendo 6 pacotes de Dromedarycos.
+ent-CigCartonRed = caixa de Dromedaryco
+     .desc = Uma caixa contendo 6 maços de Dromedarycos.
 
-ent-CigCartonBlue = caixa AcmeCo
-     .desc = Uma caixa contendo 6 pacotes de AcmeCo.
+ent-CigCartonBlue = caixa de AcmeCo
+     .desc = Uma caixa contendo 6 maços de AcmeCo.
 
-ent-CigCartonBlack = caixa Nômades
-     .desc = Uma caixa contendo 6 pacotes de Nomads.
+ent-CigCartonBlack = caixa de Nômades
+     .desc = Uma caixa contendo 6 maços de Nomads.
