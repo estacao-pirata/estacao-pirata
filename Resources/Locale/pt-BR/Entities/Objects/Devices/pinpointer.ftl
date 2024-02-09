@@ -1,6 +1,6 @@
 ent-PinpointerBase = pinpointer
-    .desc = A handheld tracking device that locks onto certain signals.
+    .desc = Um dispositivo de rastreamento portátil que detecta determinados sinais.
 
 ent-PinpointerNuclear = pinpointer
-    .desc = A handheld tracking device that locks onto certain signals.
+    .desc = Um dispositivo de rastreamento portátil que detecta determinados sinais.
 

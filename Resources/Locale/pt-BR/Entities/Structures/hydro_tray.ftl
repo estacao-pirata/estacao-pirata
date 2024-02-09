@@ -1,3 +1,2 @@
-ent-hydroponicsTray = hydroponics tray
-    .desc = An interstellar-grade space farmplot allowing for rapid growth and selective breeding of crops. Just... keep in mind the space weeds.
-
+ent-hydroponicsTray = cama de cultivo
+    .desc =Um terreno agrícola espacial de nível interestelar que permite o crescimento rápido e a reprodução seletiva de culturas. Apenas... tenha em mente as ervas daninhas do espaço.

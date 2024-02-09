@@ -298,7 +298,7 @@ uplink-hardsuit-syndieelite-name = Hardsuit Elite do Sindicato
 uplink-hardsuit-syndieelite-desc = Uma versão elite do hardsuit vermelho-sangue, com maior mobilidade e resistência ao fogo. Propriedade dos Saqueadores Gorlex.
 
 uplink-clothing-outer-hardsuit-juggernaut-name = Traje Cybersun Demolidor
-uplink-clothing-outer-hardsuit-juggernaut-desc = Armadura hiper-resistente feita de materiais testados na instalação da cromosfera Tau. A única coisa que vai atrasar-te é este fato... e tasers.
+uplink-clothing-outer-hardsuit-juggernaut-desc = Armadura hiper-resistente feita de materiais testados na instalação da cromosfera Tau. A unica coisa que vai te atrasar é próprio traje...e tasers.
 
 # Misc/noct
 uplink-cyberpen-name = Caneta Cybersun

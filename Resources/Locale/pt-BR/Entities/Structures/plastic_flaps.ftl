@@ -1,16 +1,16 @@
-ent-PlasticFlapsClear = plastic flaps
-    .desc = Heavy duty, plastic flaps. Definitely can't get past those. No way.
+ent-PlasticFlapsClear = porta de entrega
+    .desc = Uma pequena porta de entrega para enviar e receber entregas, e definitivamente não palhaços.
     .suffix = Clear
 
-ent-PlasticFlapsOpaque = plastic flaps
-    .desc = Heavy duty, plastic flaps. Definitely can't get past those. No way.
+ent-PlasticFlapsOpaque = porta de entrega
+    .desc = Uma pequena porta de entrega para enviar e receber entregas, e definitivamente não palhaços.
     .suffix = Opaque
 
-ent-PlasticFlapsAirtightClear = airtight plastic flaps
-    .desc = Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
+ent-PlasticFlapsAirtightClear = porta de entrega hermética
+    .desc = Uma pequena porta de entrega hermética para enviar e receber entregas, e definitivamente não palhaços.
     .suffix = Airtight Clear
 
-ent-PlasticFlapsAirtightOpaque = airtight plastic flaps
-    .desc = Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
+ent-PlasticFlapsAirtightOpaque = porta de entrega hermética
+    .desc = Uma pequena porta de entrega hermética para enviar e receber entregas, e definitivamente não palhaços.
     .suffix = Airtight Opaque
 

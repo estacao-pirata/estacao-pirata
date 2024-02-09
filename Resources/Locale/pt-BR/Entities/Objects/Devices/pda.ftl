@@ -1,123 +1,122 @@
 ent-BasePDA = PDA
-    .desc = Personal Data Assistant.
+    .desc = Assistente de dados pessoais.
 
-ent-PassengerPDA = passenger PDA
-    .desc = Why isn't it gray?
+ent-PassengerPDA = PDA do passageiro
+    .desc = Por que não é cinza?
 
-ent-TechnicalAssistantPDA = technical assistant PDA
-    .desc = Why isn't it yellow?
+ent-TechnicalAssistantPDA = PDA de assistente técnico
+    .desc = Por que não é amarelo?
 
-ent-MedicalInternPDA = medical intern PDA
-    .desc = Why isn't it white? Has a built-in health analyzer.
+ent-MedicalInternPDA = PDA de estagiário médico
+    .desc = Por que não é branco? Possui um analisador de saúde integrado.
 
-ent-SecurityCadetPDA = security cadet PDA
-    .desc = Why isn't it red?
+ent-SecurityCadetPDA = PDA de cadete de segurança
+    .desc = Por que não é vermelho?
 
-ent-ServiceWorkerPDA = service worker PDA
-    .desc = Why isn't it gray?
+ent-ServiceWorkerPDA = PDA de faz-tudo
+    .desc = Por que não é cinza?
 
-ent-ChefPDA = chef PDA
-    .desc = Covered in grease and flour.
+ent-ChefPDA = PDA de chef
+    .desc = Coberto de gordura e farinha.
 
-ent-BotanistPDA = botanist PDA
-    .desc = Has an earthy scent.
+ent-BotanistPDA = PDA de botânico
+    .desc=Tem cheiro terroso.
 
-ent-ClownPDA = clown PDA
-    .desc = Looks can be deceiving.
+ent-ClownPDA = PDA de palhaço
+    .desc = As aparências enganam.
 
-ent-MimePDA = mime PDA
-    .desc = Suprisingly not on mute.
+ent-MimePDA = PDA de mime
+    .desc = Surpreendentemente, não está mudo.
 
-ent-ChaplainPDA = Chaplain PDA
-    .desc = God's chosen PDA.
+ent-ChaplainPDA = PDA de padre
+    .desc = PDA escolhido por Deus.
 
-ent-QuartermasterPDA = Quartermaster PDA
-    .desc = PDA for the guy that orders the guns.
+ent-QuartermasterPDA = PDA de intendente
+    .desc = PDA para o cara que encomenda as armas.
 
-ent-CargoPDA = cargo PDA
-    .desc = PDA for the guys that order the pizzas.
+ent-CargoPDA = PDA de carga
+    .desc = PDA para a galera que pede as pizzas.
 
-ent-SalvagePDA = salvage PDA
-    .desc = Smells like ash.
+ent-SalvagePDA = PDA de salvamento
+    .desc = Cheira a cinza.
 
-ent-BartenderPDA = bartender PDA
-    .desc = Smells like beer.
+ent-BartenderPDA = PDA do bartender
+    .desc = Cheira a cerveja.
 
-ent-LibrarianPDA = cataloguer PDA
-    .desc = Smells like books.
+ent-LibrarianPDA = PDA de bibliotecário
+    .desc = Cheira a livro.
 
-ent-LawyerPDA = lawyer PDA
-    .desc = For lawyers to poach dubious clients.
+ent-LawyerPDA = PDA de advogado
+    .desc = Para advogados roubarem clientes duvidosos.
 
-ent-JanitorPDA = janitor PDA
-    .desc = Smells like bleach.
+ent-JanitorPDA = PDA de zelador
+    .desc = Cheira a alvejante.
 
-ent-CaptainPDA = captain PDA
-    .desc = Surprisingly no different from your PDA.
+ent-CaptainPDA = PDA de capitão
+    .desc = Surpreendentemente não é diferente do seu PDA.
 
-ent-HoPPDA = head of personnel PDA
-    .desc = Looks like it's been chewed on.
+ent-HoPPDA = PDA de chefe de funcionários
+    .desc = Parece que foi mastigado.
 
-ent-CEPDA = chief engineer PDA
-    .desc = Looks like it's barely been used.
+ent-CEPDA = PDA de engenheiro-chefe
+    .desc = Parece que quase não foi usado.
 
-ent-EngineerPDA = engineer PDA
-    .desc = Rugged and well-worn.
+ent-EngineerPDA = PDA de engenheiro
+    .desc = Robusto e desgastado.
 
-ent-CMOPDA = chief medical officer PDA
-    .desc = Extraordinarily shiny and sterile. Has a built-in health analyzer.
+ent-CMOPDA = PDA de médico chefe
+    .desc = Extraordinariamente brilhante e estéril. Possui um analisador de saúde integrado.
 
-ent-MedicalPDA = medical PDA
-    .desc = Shiny and sterile. Has a built-in health analyzer.
+ent-MedicalPDA = PDA de médico
+    .desc = Brilhante e estéril. Possui um analisador de saúde integrado.
 
-ent-ChemistryPDA = chemistry PDA
-    .desc = It has a few discolored blotches here and there.
+ent-ChemistryPDA = PDA de química
+    .desc = Tem algumas manchas descoloridas aqui e ali.
 
-ent-RnDPDA = research director PDA
-    .desc = It appears surprisingly ordinary.
+ent-RnDPDA = PDA de diretor de pesquisa
+    .desc = Parece surpreendentemente comum.
 
-ent-SciencePDA = science PDA
-    .desc = It's covered with an unknown gooey substance.
+ent-SciencePDA = PDA de ciência
+    .desc = Está coberto por uma substância pegajosa desconhecida.
 
-ent-HoSPDA = head of security PDA
-    .desc = Whosoever bears this PDA is the law.
+ent-HoSPDA = PDA de chefe de segurança
+    .desc = Quem carrega este PDA é a lei.
 
-ent-WardenPDA = warden PDA
-    .desc = The OS appears to have been jailbroken.
+ent-WardenPDA = PDA de carceiro
+    .desc = O sistema operacional parece ter sido desbloqueado.
 
-ent-SecurityPDA = security PDA
-    .desc = Red to hide the stains of passenger blood.
+ent-SecurityPDA = PDA de segurança
+    .desc = Vermelho para esconder as manchas de sangue dos passageiros.
 
-ent-CentcomPDA = CentCom PDA
-    .desc = Colored the numbing grey of bureaucracy.
+ent-CentcomPDA = PDA de CentCom
+    .desc = Coloriu o cinza entorpecente da burocracia.
 
-ent-MusicianPDA = musician PDA
-    .desc = It fills you with inspiration.
+ent-MusicianPDA = PDA de músico
+    .desc = Isso te enche de inspiração.
 
-ent-AtmosPDA = atmos PDA
-    .desc = Still smells like plasma.
+ent-AtmosPDA = PDA de atmos
+    .desc = Ainda cheira a plasma.
 
-ent-ClearPDA = clear PDA
-    .desc = 99 and 44/100ths percent pure plastic.
+ent-ClearPDA = PDA de substituto
+    .desc = 99 e 44/100 por cento de plástico puro.
 
-ent-SyndiPDA = syndicate PDA
-    .desc = Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+ent-SyndiPDA = PDA de sindicato
+    .desc = Ok, hora de ser um membro produtivo de- ah, legal, sou um cara mau, hora de matar pessoas!
 
-ent-ERTLeaderPDA = ERT PDA
-    .desc = Red for firepower.
+ent-ERTLeaderPDA = PDA de ERT
+    .desc = Vermelho para poder de fogo.
 
-ent-CBURNPDA = CBURN PDA
-    .desc = Smells like rotten flesh.
+ent-CBURNPDA = PDA de CBURN
+    .desc = Cheira a carne podre.
 
-ent-PsychologistPDA = psychologist PDA
-    .desc = Looks immaculately cleaned.
+ent-PsychologistPDA = PDA de psicólogo
+    .desc = Parece imaculadamente limpo.
 
-ent-ReporterPDA = reporter PDA
-    .desc = Smells like freshly printed press.
+ent-ReporterPDA = PDA de repórter
+    .desc = Cheira a impressão recém-impressa.
 
-ent-BoxerPDA = boxer PDA
-    .desc = Float like a butterfly, ringtone like a bee.
+ent-BoxerPDA = PDA de boxer
+    .desc = Flutue como uma borboleta, toque como uma abelha.
 
-ent-DetectivePDA = detective PDA
-    .desc = Smells like rain... pouring down the rooftops...
-
+ent-DetectivePDA = PDA de detetive
+    .desc = Cheira a chuva... caindo nos telhados...
