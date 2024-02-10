@@ -55,13 +55,13 @@ Use o bom senso e a humanidade ao aplicar punições. Você não deve buscar sem
 
 - Crimes Acumuláveis: Os crimes devem ser considerados “cumulativos”, ou seja, se alguém for acusado de vários crimes diferentes, o tempo para cada crime separado deve ser somado. Os crimes são organizados por códigos – sendo que o início de cada código indica sua classe (1-Menor, 2-Moderado, 3-Grave, 4-Capital) e o final de cada código representa um tipo de crime. 105 (Pequeno Roubo) e 305 (Grande Roubo) são um exemplo de dois tipos da mesma categoria de crime, conforme indicado por ambos os códigos que terminam em 05. Para cada acto criminoso deve ser perseguida a categoria de crime mais correspondente. Por exemplo, alguém coloca uma bomba do sindicato que detona na estação e três pessoas morrem, uma das quais com o corpo destruído - deveriam ser acusados ​​de 403 (Sabotagem Extrema) mas NÃO de 303, 203 ou 103 pelo mesmo crime. Também deverão ser acusados ​​os 302 (Posse de Armamento Restrito), 415 (Assassinato em Massa) e 416 (Prevenção do Reavivamento). Como sempre, deve ser tomada uma consideração cuidadosa para confirmar quais os crimes e com que gravidade são aplicáveis.
 
-- Repetidores: Crimes repetidos são quando alguém é libertado por um crime e depois comete o mesmo crime no mesmo turno. Crimes reincidentes podem ser cobrados com acréscimo de tempo; primeira repetição: 3:00, segunda repetição: 6:00, terceira repetição: 9:00, quarta repetição: confinamento permanente. O tempo de reforço pode ultrapassar o tempo máximo de confinamento normal de 20 minutos sem que seja considerado confinamento prolongado. Deve-se notar também que cada tempo acrescentado está diretamente ligado a um tipo de crime, então, por exemplo, se alguém cometer a primeira repetição de invasão e pequeno furto, você pode cobrar 6 minutos extras.
+- Repetidores: Crimes repetidos são quando alguém é libertado por um crime e depois comete o mesmo crime no mesmo turno. Crimes reincidentes podem ser cobrados com acréscimo de tempo; primeira repetição: 3:00, segunda repetição: 6:00, terceira repetição: 9:00, quarta repetição: confinamento permanente. O tempo de reforço pode ultrapassar o tempo máximo de confinamento normal de 20 minutos sem que seja considerado Confinamento Prolongado. Deve-se notar também que cada tempo acrescentado está diretamente ligado a um tipo de crime, então, por exemplo, se alguém cometer a primeira repetição de Invasão e Pequeno Roubo, você pode cobrar 6 minutos extras.
 
 ## Circunstâncias Agravantes
 
 Indivíduos que ajudam na prática de um crime carregam culpa como se eles próprios tivessem cometido o crime. Por exemplo: um indivíduo que é cúmplice de assassinato será punido como se fosse acusado de assassinato. Em todos esses casos, fica tipificado o crime em questão e é aplicada pena 3/4 reduzida.
 
-Nota: Para sentenças grave como execução e permanente a senteça sera **Confinamento Prolongado** que podem durar mais de 20:00 minutos a 45:00 minutos, se você estiver em julgamento e receber 3 sentenças permanentes, mas reduzi-las em 1/4, ainda assim será condenado permanentemente ou execução
+Nota: Para sentenças grave como execução e permanente a senteça sera **Confinamento Prolongado** que podem durar mais de 20:00 minutos a 45:00 minutos, se você estiver em julgamento e receber 3 sentenças permanentes, mas reduzi-las em 1/4, ainda assim será condenado permanentemente ou execução.
 
 -   Solicitação: Incentivar, subornar, solicitar ou instruir alguém a cometer um crime.
 -   Assessoria: Auxiliar na prática de um crime, sem participar do crime em si, sabendo que um crime será, foi ou está sendo cometido.
@@ -71,12 +71,12 @@ Nota: Para sentenças grave como execução e permanente a senteça sera **Confi
 
 ## Circunstâncias Extenuantes
 
-A cooperação e o bom comportamento devem ser recompensados ​​com pena reduzida. Os critérios de Autodefesa e Emergência Grave, que têm a capacidade de retirar totalmente as acusações, devem ser observados com especial rigor. 
+A cooperação e o bom comportamento devem ser recompensados ​​com pena reduzida. Os critérios de Autodefesa e Emergência Grave, que têm a capacidade de retirar totalmente as acusações, devem ser observados com especial rigor.
 -   Cooperação: Compartilhar informações acionáveis ​​com as autoridades, entregar-se, confessar o crime.
 -   Autodefesa: A proteção de si mesmo ou de outra pessoa na medida necessária para evitar uma ameaça direta e iminente à saúde e à vida de um inocente.
 -   Bom Comportamento: Cumprimento pacífico da Segurança, sinais claros de remorso em relação ao crime cometido, conduta pacífica no brigadeiro.
--   Emergência Grave: Cometer um crime no processo de ações absolutamente necessárias e razoáveis ​​tomadas com a intenção de resolver ou mitigar uma emergência grave em sua embarcação ou habitat não é considerado crime.  
-      
+-   Emergência Grave: Cometer um crime no processo de ações absolutamente necessárias e razoáveis ​​tomadas com a intenção de resolver ou mitigar uma emergência grave em sua embarcação ou habitat não é considerado crime.
+
     Os critérios de Autodefesa e Emergência Grave, que têm a capacidade de retirar totalmente as acusações, devem ser observados com especial rigor. A cooperação e o bom comportamento devem ser recompensados ​​com pena reduzida.
 
 # Punições
@@ -107,7 +107,7 @@ Todas as punições graves exigem um julgamento, a menos que o acusado tenha ren
 
 No processo penal, todos os acusados de crimes graves e capitais têm direito a julgamento. Esse direito deve ser oferecido a eles durante o processamento.
 
-O formato do julgamento será uma audiência em tribunal arbitral, presidida por um juiz. 
+O formato do julgamento será uma audiência em tribunal arbitral, presidida por um juiz.
 
 Este juiz obrigatoriamente não pode estar relacionado ao crime como uma vitima ou testemunha direta, isso vale do **capitão ao passageiro**. Para a escolha de um juiz o indicado seria o chefe de segurança, capitão ou - na ausência de um deles ou serem testemunhas ou vitimas do réu - qualquer chefe de departamento pode virar juiz. Eles devem ser imparciais nas questões apresentadas ao tribunal. Não havendo Comando disponível, mas sendo necessária a realização de julgamento, é permitida a promoção temporária ao cargo de Juiz, que presidirá o julgamento e terá esse direito de comissão pelo momento e finalidade da realização do julgamento.
 
