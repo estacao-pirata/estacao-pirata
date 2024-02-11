@@ -198,8 +198,14 @@ namespace Content.Server.RoundEnd
             Timer.Spawn(countdownTime, _shuttle.CallEmergencyShuttle, _countdownTokenSource.Token);
 
             // Make warning timer
-            var warnTime = countdownTime.Subtract(new TimeSpan(0, 1, 0)); // 1 minute
-            Timer.Spawn(warnTime, ShuttleWarning, _countdownWarningTokenSource.Token);
+            if (ExpectedShuttleLength is not null)
+            {
+                var expected = (TimeSpan) ExpectedShuttleLength;
+                var warnTime = expected.Multiply(_cfg.GetCVar(CCVars.EmergencyRecallTurningPoint));
+                warnTime = warnTime.Add(new TimeSpan(0, 1, 0));
+                Console.WriteLine(warnTime.TotalSeconds);
+                Timer.Spawn(warnTime, ShuttleWarning, _countdownWarningTokenSource.Token);
+            }
 
             ActivateCooldown();
             RaiseLocalEvent(RoundEndSystemChangedEvent.Default);

@@ -9,4 +9,4 @@ round-end-system-round-restart-eta-announcement = Reiniciando o round em {$time}
 eta-units-minutes = minutos
 eta-units-seconds = segundos
 
-round-end-system-shuttle-reminder = A nave chegará em breve.
+round-end-system-shuttle-reminder = A nave de emergência será enviada em breve.

@@ -9,4 +9,4 @@ round-end-system-round-restart-eta-announcement = Restarting the round in {$time
 eta-units-minutes = minutes
 eta-units-seconds = seconds
 
-round-end-system-shuttle-reminder = The shuttle is arriving soon.
+round-end-system-shuttle-reminder = The emergency shuttle will be sent soon.
