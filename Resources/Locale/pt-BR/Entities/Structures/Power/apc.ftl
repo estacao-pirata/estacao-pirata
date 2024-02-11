@@ -1,26 +1,26 @@
 ent-BaseAPC = APC
-    .desc = A control terminal for the area's electrical systems.
+    .desc = Um terminal de controle para os sistemas elétricos da área.
 
-ent-APCFrame = APC frame
-    .desc = A control terminal for the area's electrical systems, lacking the electronics.
+ent-APCFrame = terminal de APC
+    .desc = Terminal de controle dos sistemas elétricos da área, sem eletrônica.
 
-ent-APCConstructed = APC frame
-    .desc = A control terminal for the area's electrical systems, lacking the electronics.
-    .suffix = Open
+ent-APCConstructed = terminal de APC
+    .desc = Terminal de controle dos sistemas elétricos da área, sem eletrônica.
+    .suffix = Abrir
 
-ent-APCBasic = APC frame
-    .desc = A control terminal for the area's electrical systems, lacking the electronics.
-    .suffix = Basic, 50kW
+ent-APCBasic = terminal de APC
+    .desc = Um terminal de controle para os sistemas elétricos da área.
+    .suffix = Básico, 50kW
 
-ent-APCHighCapacity = APC frame
-    .desc = A control terminal for the area's electrical systems, lacking the electronics.
-    .suffix = High Capacity, 100kW
+ent-APCHighCapacity = terminal de APC
+    .desc = Um terminal de controle para os sistemas elétricos da área.
+    .suffix = Alta capacidade, 100kW
 
-ent-APCSuperCapacity = APC frame
-    .desc = A control terminal for the area's electrical systems, lacking the electronics.
-    .suffix = Super Capacity, 150kW
+ent-APCSuperCapacity = terminal de APC
+    .desc = Um terminal de controle para os sistemas elétricos da área.
+    .suffix = Supercapacidade, 150kW
 
-ent-APCHyperCapacity = APC frame
-    .desc = A control terminal for the area's electrical systems, lacking the electronics.
-    .suffix = Hyper Capacity, 200kW
+ent-APCHyperCapacity = terminal de APC
+    .desc = Um terminal de controle para os sistemas elétricos da área.
+    .suffix = Hipercapacidade, 200kW
 

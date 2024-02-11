@@ -1,9 +1,8 @@
-ent-PowerCellRecharger = cell recharger
+ent-PowerCellRecharger = recarregador de célula
     .desc = { "" }
 
-ent-WeaponCapacitorRecharger = recharger
+ent-WeaponCapacitorRecharger = recarregador
     .desc = { "" }
 
-ent-WallWeaponCapacitorRecharger = wall recharger
+ent-WallWeaponCapacitorRecharger = recarregador de parede
     .desc = { "" }
-

@@ -1,3 +1,3 @@
-ent-CarpRift = carp rift
-    .desc = A rift akin to the ones space carp use to travel long distances.
+ent-CarpRift = fenda da carpa
+    .desc = Uma fenda semelhante àquelas que as carpas espaciais usam para viajar longas distâncias.
 

@@ -1,11 +1,11 @@
 ent-BaseSMES = SMES
-    .desc = A high-capacity superconducting magnetic energy storage (SMES) unit.
+    .desc = Uma unidade de armazenamento de energia magnética supercondutora (SMES) de alta capacidade.
 
 ent-SMESBasic = SMES
-    .desc = A high-capacity superconducting magnetic energy storage (SMES) unit.
-    .suffix = Basic, 8MW
+    .desc = Uma unidade de armazenamento de energia magnética supercondutora (SMES) de alta capacidade.
+    .suffix = Básico, 8MW
 
 ent-SMESBasicEmpty = SMES
-    .desc = A high-capacity superconducting magnetic energy storage (SMES) unit.
+    .desc = Uma unidade de armazenamento de energia magnética supercondutora (SMES) de alta capacidade.
     .suffix = Empty
 

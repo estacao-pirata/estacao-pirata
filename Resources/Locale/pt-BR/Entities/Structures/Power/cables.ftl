@@ -1,9 +1,8 @@
-ent-CableHV = HV power cable
-    .desc = An orange high voltage power cable.
+ent-CableHV = cabo de AT
+    .desc = Um cabo de alimentação laranja de alta tensão.
 
-ent-CableMV = MV power cable
-    .desc = A medium voltage power cable.
+ent-CableMV = cabo de MT
+    .desc = Um cabo de alimentação de média tensão.
 
-ent-CableApcExtension = LV power cable
-    .desc = A cable used to connect machines to an APC.
-
+ent-CableApcExtension = cabo de BT
+    .desc = Um cabo de alimentação de baixo tensão.
