@@ -1,22 +1,22 @@
-ent-BaseSubstation = substation
-    .desc = Reduces the voltage of electricity put into it.
+ent-BaseSubstation = subestação
+    .desc = Reduz a voltagem da eletricidade colocada nele.
 
-ent-BaseSubstationWall = wallmount substation
-    .desc = A substation designed for compact shuttles and spaces.
+ent-BaseSubstationWall = subestação de parede
+    .desc = Uma subestação projetada para transportes e espaços compactos.
 
-ent-SubstationBasic = wallmount substation
-    .desc = A substation designed for compact shuttles and spaces.
-    .suffix = Basic, 2.5MW
+ent-SubstationBasic = subestação
+    .desc = Reduz a voltagem da eletricidade colocada nele.
+    .suffix = Básico, 2,5 MW
 
-ent-SubstationBasicEmpty = wallmount substation
-    .desc = A substation designed for compact shuttles and spaces.
-    .suffix = Empty
+ent-SubstationBasicEmpty = subestação
+    .desc = Reduz a voltagem da eletricidade colocada nele.
+    .suffix = Vazio
 
-ent-SubstationWallBasic = wallmount substation
-    .desc = A substation designed for compact shuttles and spaces.
-    .suffix = Basic, 2MW
+ent-SubstationWallBasic = subestação de parede
+    .desc = Uma subestação projetada para transportes e espaços compactos.
+    .suffix = Básico, 2MW
 
-ent-BaseSubstationWallFrame = wallmount substation frame
-    .desc = A substation frame for construction
-    .suffix = Basic, 2MW
+ent-BaseSubstationWallFrame = conjunto de subestação de parede
+    .desc = Um conjunto de subestação para construção.
+    .suffix = Básico, 2MW
 

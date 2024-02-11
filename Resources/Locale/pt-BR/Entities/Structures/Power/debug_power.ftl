@@ -1,28 +1,28 @@
-ent-DebugConsumer = consumer
+ent-DebugConsumer = consumidor
     .desc = { "" }
-    .suffix = DEBUG
+    .suffix = DEBUGAR
 
-ent-DebugBatteryStorage = battery storage
+ent-DebugBatteryStorage = armazenamento da bateria
     .desc = { "" }
-    .suffix = DEBUG
+    .suffix = DEBUGAR
 
-ent-DebugBatteryDischarger = battery discharger
+ent-DebugBatteryDischarger = descarregador de bateria
     .desc = { "" }
-    .suffix = DEBUG
+    .suffix = DEBUGAR
 
-ent-DebugSMES = battery discharger
+ent-DebugSMES = descarregador de bateria
     .desc = { "" }
-    .suffix = DEBUG
+    .suffix = DEBUGAR
 
-ent-DebugSubstation = battery discharger
+ent-DebugSubstation = descarregador de bateria
     .desc = { "" }
-    .suffix = DEBUG
+    .suffix = DEBUGAR
 
-ent-DebugAPC = battery discharger
+ent-DebugAPC = descarregador de bateria
     .desc = { "" }
-    .suffix = DEBUG
+    .suffix = DEBUGAR
 
-ent-DebugPowerReceiver = power receiver
+ent-DebugPowerReceiver = receptor de energia
     .desc = { "" }
-    .suffix = DEBUG
+    .suffix = DEBUGAR
 
