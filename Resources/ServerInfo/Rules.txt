@@ -1,6 +1,6 @@
-[color=#ff0000]VOCÊ DEVE TER PELO MENOS 16 ANOS DE IDADE PARA JOGAR NOS SERVIDORES DO PIRATA. QUALQUER USUÁRIO SUSPEITO DE TER MENOS DE 16 ANOS SERÁ BANIDO ATÉ ATINGIR A IDADE.[/color]
+[color=#ff0000]VOCÊ DEVE TER PELO MENOS 16 ANOS DE IDADE PARA JOGAR NOS SERVIDORES DO PIRATA.[/color]
 
-[color=#ff0000]DESCONECTAR OU IGNORAR/EVITAR MENSAGEM DO ADMINISTRADOR PODERA RESULTAR EM UM BANIMENTO QUE SERÁ TIRADO APENAS COM APELO NO DISCORD[/color]
+[color=#ff0000]DESCONECTAR OU IGNORAR/EVITAR MENSAGEM DO ADMINISTRADOR PODERA RESULTAR EM UM BANIMENTO.[/color]
 
 A Estação Pirata é um servidor de Roleplay Médio \[MRP\]. Definimos isso como desempenhar a sua função. Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer o que se espera de seu departamento. Fizemos o possível para que as leis fossem corretas e curtas, por favor, leia todas elas e qualquer dúvida entre e pergunte no discord.
 
@@ -110,16 +110,15 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 [color=#a4885c]23.[/color] A Segurança/Comando responderá pelo uso de força letal. Espera-se que a Segurança/Comando detenha os criminosos e evite que morram enquanto estiverem sob custódia, mesmo que seja utilizada força letal. A Segurança/Comando é fortemente incentivada a clonar antagonistas e efetuar uma sentença conforme considerado apropriado pela Lei Espacial.
 
 [color=#a4885c]24.[/color] A Segurança/Comando deve proteger os detidos sob sua custódia da melhor maneira possível, desde que isso não represente um risco excessivo para eles próprios, para a tripulação ou para a estação em geral.
-    - Os tempos de prisão geralmente não devem exceder 15 minutos, salvo indicação em contrário na Lei Espacial. Agressores reincidentes ou antagonistas podem ser permanentemente brigados de acordo com a Lei Espacial.
+    - É necessário um tribunal para que os tempos de detenção excedam 20 minutos.
     - A segurança pode optar por confiscar artigos perigosos (armas brancas, armas de fogo), bem como artigos que tenham sido utilizados para cometer crimes ou artigos que se revelem problemáticos na posse do detido (ferramentas, luvas isoladas, etc.).
-    - Os detidos que morrem sob sua custódia devem ser clonados, a menos que tenham sido (legalmente) executados, tenham cometido suicídio ou haja fortes razões para acreditar que são antagonistas.
-    - As execuções devem ser por crime que prescreva execução, e aprovadas pelo Capitão/Capitão Interino, que responderá pela aprovação junto à cadeia de comando da Segurança. Aqueles que voluntariamente tentarem danificar/destruir ou escapar do permabrig podem ser executados.
-    - Qualquer prisioneiro pode ser transformado em Borg caso ele consinta. Transformar em borg pode ser oferecido como alterantiva à execução, mas não pode ser forçado caso o prisioneiro possa consentir. Observe a lei de que apenas um médico pode extrair o cérebro.
-    - Os detidos na prisão têm o direito de saber do que estão a ser acusados, bem como de assistência médica básica, pelo menos até ao ponto em que não corram mais o risco de morrer.
-    - Se você matar alguém como segurança, faça com que eles sejam clonados imediatamente e certifique-se de que suas coisas sejam devolvidas.
+    - Aqueles que você mata ou que morrem sob sua custódia devem ser ressuscitados, a menos que tenham sido (legalmente) executados ou tenham cometido suicídio.
+    - Aqueles que voluntariamente tentarem danificar/destruir ou escapar do permabrig podem ser executados.
+    - Qualquer prisioneiro pode ser transformado em Borg caso ele consinta. Transformar em borg pode ser oferecido como alterantiva à execução, mas não pode ser forçado caso o prisioneiro possa consentir. Observe a regra de que apenas um médico pode extrair o cérebro.
+    - Os detidos na prisão têm o direito de saber do que estão a ser acusados.
 
 [color=#a4885c]25.[/color] Os prisioneiros de crimes capitais têm direito a um julgamento. Temos advogados, coloque-os para trabalhar.
-    - Os julgamentos devem incluir um juiz, promotor, réu e júri.
+    - Os julgamentos devem incluir um juiz, promotor, e réu.
     - Não esperamos que você seja especialista em processos judiciais da vida real, a principal medida para determinar se um julgamento foi bom o suficiente foi que todos se esforcem para interpretar.
 
 [color=#a4885c]26.[/color] Todos os itens de uplink são da mesma classe de contrabando que as armas do arsenal e é assim que eles devem ser tratados. O jogador tem alguma liberdade para fazer vista grossa para bolsas, roupas e outros itens meramente cosméticos.
@@ -129,7 +128,7 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 [color=#ff0000]REGRAS PARA ANTAGONISTAS[/color]
 [color=#a4885c]28.[/color] Traidores não devem executar massacres, ou seja, se você matar metade da tripulação, ou departamentos inteiros estará sujeito à moderaçào.
 
-[color=#a4885c]29.[/color] Campers de arrival/chegadas, seja o terminal, a nave ou a região da estação são proibidos.
+[color=#a4885c]29.[/color] Matar jogadores lá dentro, sabotar, ou interferir de alguma forma nas chegadas, seja no terminal, na nave ou na região da estação são proibidos.
 
 [color=#a4885c]30.[/color] Outros antagonistas não são necessariamente seus amigos. Traidores, reis ratos, esqueletos de armários e possivelmente até dragões espaciais são agentes livres, mas ninguém deveria trabalhar junto com xenos, nukes ou zumbis.
 
