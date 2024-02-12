@@ -1,3 +1,2 @@
-ent-RadiationCollector = radiation collector
-    .desc = A machine that collects Radiation and turns it into power.
-
+ent-RadiationCollector = coletor de radiação
+    .desc = Uma máquina que coleta radiação e a transforma em energia.

@@ -1,3 +1,2 @@
-ent-Singularity = gravitational singularity
-    .desc = A mesmerizing swirl of darkness that sucks in everything. If it's moving towards you, run.
-
+ent-Singularity = singularidade gravitacional
+    .desc = Um hipnotizante redemoinho de escuridão que suga tudo. Se estiver se movendo em sua direção, corra.

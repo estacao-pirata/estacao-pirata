@@ -1,3 +1,3 @@
-ent-ParticlesProjectile = particles
-    .desc = Accelerated particles.
+ent-ParticlesProjectile = partículas
+    .desc = Partículas aceleradas.
 

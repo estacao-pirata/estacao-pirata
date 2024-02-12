@@ -1,6 +1,5 @@
-ent-ContainmentFieldGenerator = containment field generator
-    .desc = A machine that generates a containment field when powered by an emitter. Keeps the Singularity docile.
+ent-ContainmentFieldGenerator = gerador de campo de contenção
+    .desc = Uma máquina que gera um campo de contenção quando alimentada por um emissor. Mantém a Singularidade dócil.
 
-ent-ContainmentField = containment field
-    .desc = A containment field that repels gravitational singularities.
-
+ent-ContainmentField = campo de contenção
+    .desc = Um campo de contenção que repele singularidades gravitacionais.

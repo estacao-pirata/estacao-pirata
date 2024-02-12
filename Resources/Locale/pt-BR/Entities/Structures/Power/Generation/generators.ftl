@@ -1,37 +1,36 @@
-ent-BaseGenerator = generator
-    .desc = A high efficiency thermoelectric generator.
+ent-BaseGenerator = gerador
+    .desc = Um gerador termoelétrico de alta eficiência.
 
-ent-BaseGeneratorWallmount = wallmount generator
-    .desc = A high efficiency thermoelectric generator stuffed in a wall cabinet.
+ent-BaseGeneratorWallmount = gerador de parede
+    .desc = Um gerador termoelétrico de alta eficiência guardado em um armário de parede.
 
-ent-BaseGeneratorWallmountFrame = wallmount generator frame
-    .desc = A construction frame for a wallmount generator.
+ent-BaseGeneratorWallmountFrame = conjunto do gerador de parede
+    .desc = Uma conjunto de construção para um gerador montado na parede.
 
-ent-GeneratorBasic = wallmount generator frame
-    .desc = A construction frame for a wallmount generator.
-    .suffix = Basic, 3kW
+ent-GeneratorBasic = gerador
+    .desc = Um gerador termoelétrico de alta eficiência.
+    .suffix = Básico, 3kW
 
-ent-GeneratorPlasma = wallmount generator frame
-    .desc = A construction frame for a wallmount generator.
+ent-GeneratorPlasma = gerador de plasma
+    .desc = Um gerador de plasma de 5kw.
     .suffix = Plasma, 5kW
 
-ent-GeneratorUranium = wallmount generator frame
-    .desc = A construction frame for a wallmount generator.
-    .suffix = Uranium, 15kW
+ent-GeneratorUranium = gerador de urânio
+    .desc = Um gerador de urânio de 15kw.
+    .suffix = Urânio, 15kW
 
-ent-GeneratorWallmountBasic = wallmount generator frame
-    .desc = A construction frame for a wallmount generator.
-    .suffix = Basic, 3kW
+ent-GeneratorWallmountBasic = conjunto do gerador de parede
+    .desc = Um gerador termoelétrico de alta eficiência guardado em um armário de parede.
+    .suffix = Básico, 3kW
 
-ent-GeneratorWallmountAPU = shuttle APU
-    .desc = An auxiliary power unit for a shuttle - 6kW.
+ent-GeneratorWallmountAPU = UEAP de nave
+    .desc = Uma Unidade de Energia Auxiliar de Parede para uma nave espacial - 6kW.
     .suffix = APU, 6kW
 
-ent-GeneratorRTG = RTG
-    .desc = A Radioisotope Thermoelectric Generator for long term power.
+ent-GeneratorRTG = GTR
+    .desc = Um Gerador Termoelétrico de Radioisótopos para energia de longo prazo.
     .suffix = 10kW
 
-ent-GeneratorRTGDamaged = damaged RTG
-    .desc = A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
+ent-GeneratorRTGDamaged = GTR danificado
+    .desc = Um Gerador Termoelétrico de Radioisótopos para energia de longo prazo. Este danificou a blindagem.
     .suffix = 10kW
-
