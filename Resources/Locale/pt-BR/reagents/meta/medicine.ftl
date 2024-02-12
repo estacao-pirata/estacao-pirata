@@ -14,16 +14,16 @@ reagent-name-bicaridine = bicaridina
 reagent-desc-bicaridine = Um analgésico que é altamente eficaz no tratamento de danos brutos. É útil para estabilizar pessoas que foram severamente espancadas, bem como tratar lesões menos fatais.
 
 reagent-name-cryoxadone = cryoxadona
-reagent-desc-cryoxadone = Um produto químico criogênico. Cura todos os tipos de danos padrão, mas funciona apenas em temperaturas abaixo de 150k. Pode tratar e rejuvenescer as plantas quando aplicado em pequenas doses.
+reagent-desc-cryoxadone = Um produto químico criogênico. Cura todos os tipos de danos padrão. Só funciona em temperaturas abaixo de 150K. Pode tratar e rejuvenescer as plantas quando aplicado em pequenas doses.
 
 reagent-name-doxarubixadone = doxarubixadona
-reagent-desc-doxarubixadone = Um produto químico criogênico. Cura certos tipos de danos celulares causados por Slimes e uso inadequado de outros produtos químicos. Só funciona em temperaturas abaixo de 150K
+reagent-desc-doxarubixadone = Um produto químico criogênico. Cura certos tipos de danos celulares. Só funciona em temperaturas abaixo de 150K.
 
 reagent-name-opporozidone = opporozidona
 reagent-desc-opporozidone = Um produto químico criogênico. Um produto químico avançado para reduzir a podridão e a decomposição de um cadáver. Só funciona em temperaturas abaixo de 150K
 
 reagent-name-clonexadone = clonexadona
-reagent-desc-clonexadone = Cura o dano padrão da mesma forma que Cryoxadone, com o mesmo requisito de temperatura. Significativamente mais eficaz que o primeiro no tratamento de danos celulares, embora ambos possam ser usados simultaneamente. Melhor usado em células crio.
+reagent-desc-clonexadone = Um produto químico criogênico. Cura o dano padrão da mesma forma que Cryoxadona. Significativamente mais eficaz que o primeiro no tratamento de danos celulares, embora ambos possam ser usados simultaneamente. Só funciona em temperaturas abaixo de 150K
 
 reagent-name-dermaline = dermalina
 reagent-desc-dermaline = Um produto químico avançado que é mais eficaz no tratamento de queimaduras do que o kelotane.
@@ -131,7 +131,7 @@ reagent-name-insuzine = insuzina
 reagent-desc-insuzine = Repara rapidamente o tecido morto causado por eletrocussão, mas esfria um pouco. Congela completamente o paciente em caso de overdose.
 
 reagent-name-necrosol = necrosol
-reagent-desc-necrosol = Uma substância necrótica que parece ser capaz de curar cadáveres congelados. Pode tratar e rejuvenescer as plantas quando aplicado em pequenas doses.
+reagent-desc-necrosol = Um produto químico criogênico. Uma substância necrótica que parece ser capaz de curar cadáveres congelados. Só funciona em temperaturas abaixo de 150K. Pode tratar e rejuvenescer as plantas quando aplicado em pequenas doses.
 
 reagent-name-aloxadone = aloxadona
-reagent-desc-aloxadone = Um produto químico criogênico. Usado para tratar queimaduras graves de terceiro grau por regeneração do tecido queimado. Funciona independentemente do paciente estar vivo ou morto.
+reagent-desc-aloxadone = Um produto químico criogênico. Usado para tratar queimaduras graves de terceiro grau por regeneração do tecido queimado. Funciona independentemente do paciente estar vivo ou morto. Só funciona em temperaturas abaixo de 150K

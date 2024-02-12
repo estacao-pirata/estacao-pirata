@@ -1,7 +1,6 @@
-ent-ParticleAcceleratorPowerBox = PA power box
-    .desc = Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles.
+ent-ParticleAcceleratorPowerBox = Lente de Foco de AP
+    .desc = Isso usa ondas eletromagnéticas para focar as partículas alfa.
 
-ent-ParticleAcceleratorPowerBoxUnfinished = PA power box
-    .desc = Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles. It looks unfinished.
-    .suffix = Unfinished
-
+ent-ParticleAcceleratorPowerBoxUnfinished = Lente de Foco de AP
+    .desc = Isso usa ondas eletromagnéticas para focar as partículas alfa. Parece inacabado.
+    .suffix = Inacabado

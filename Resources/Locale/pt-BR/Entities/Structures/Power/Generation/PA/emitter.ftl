@@ -1,21 +1,23 @@
-ent-ParticleAcceleratorEmitterLeft = PA containment emitter L
-    .desc = This launchs the Alpha particles, might not want to stand near this end.
+ent-ParticleAcceleratorEmitterLeft = Emissor de contenção de AP E
+    .desc = O lançador esquerdo de partículas Alfa, talvez você não queira estar perto deste fim.
+    .suffix = Esquerda
 
-ent-ParticleAcceleratorEmitterCenter = PA containment emitter C
-    .desc = This launchs the Alpha particles, might not want to stand near this end.
+ent-ParticleAcceleratorEmitterCenter = Emissor de contenção de AP C
+    .desc = O lançador central de partículas Alfa, talvez você não queira estar perto deste fim.
+    .suffix = Centro
 
-ent-ParticleAcceleratorEmitterRight = PA containment emitter R
-    .desc = This launchs the Alpha particles, might not want to stand near this end.
+ent-ParticleAcceleratorEmitterRight = Emissor de contenção de AP D
+    .desc = O lançador direito de partículas Alfa, talvez você não queira estar perto deste fim.
+    .suffix = Direito
 
-ent-ParticleAcceleratorEmitterLeftUnfinished = PA containment emitter L
-    .desc = This launchs the Alpha particles, might not want to stand near this end. It looks unfinished.
-    .suffix = Unfinished, Left
+ent-ParticleAcceleratorEmitterLeftUnfinished = Emissor de contenção de AP E
+    .desc = O lançador esquerdo de partículas Alfa, talvez você não queira estar perto deste fim. Parece inacabado.
+    .suffix = Inacabado, Esquerda
 
-ent-ParticleAcceleratorEmitterCenterUnfinished = PA containment emitter C
-    .desc = This launchs the Alpha particles, might not want to stand near this end. It looks unfinished.
-    .suffix = Unfinished
+ent-ParticleAcceleratorEmitterCenterUnfinished = Emissor de contenção de AP C
+    .desc = O lançador central de partículas Alfa, talvez você não queira estar perto deste fim. Parece inacabado.
+    .suffix = Inacabado, Centro
 
-ent-ParticleAcceleratorEmitterRightUnfinished = PA containment emitter R
-    .desc = This launchs the Alpha particles, might not want to stand near this end. It looks unfinished.
-    .suffix = Unfinished
-
+ent-ParticleAcceleratorEmitterRightUnfinished = Emissor de contenção de AP D
+    .desc = O lançador direito de partículas Alfa, talvez você não queira estar perto deste fim. Parece inacabado.
+    .suffix = Inacabado, Direito
