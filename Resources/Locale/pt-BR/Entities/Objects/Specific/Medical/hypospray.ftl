@@ -4,8 +4,8 @@ ent-Hypospray = hipospray
 ent-SyndiHypo = hipospray gorlax
      .desc = Usando designs de engenharia reversa do NT, a Cybersun os produziu em quantidades limitadas para Gorlax Marauderes.
 
-ent-ChemicalMedipen = medipen química
-     .desc = Um injetor estéril para administração rápida de medicamentos aos pacientes. Este não pode ser recarregado.
+ent-ChemicalMedipen = medipen (vazia)
+     .desc = Um injetor estéril para administração rápida de medicamentos aos pacientes. Pode ser carregada e montada com um Medipen Refiller.
 
 ent-EmergencyMedipen = medipen emergêncial
      .desc = Uma maneira rápida e segura de estabilizar pacientes em estado crítico para pessoal sem conhecimento médico avançado. Cuidado, pois é fácil ter uma overdose de epinefrina e ácido tranexâmico.
@@ -13,7 +13,7 @@ ent-EmergencyMedipen = medipen emergêncial
 ent-AntiPoisonMedipen = medipen antiveneno
      .desc = Uma dose rápida de antiveneno. Contém ultravasculina e epinefrina.
 
-ent-SpaceMedipen = medipen do espaço
+ent-SpaceMedipen = medipen espacial
      .desc = Contém uma mistura de produtos químicos que protegem você dos efeitos mortais do espaço.
 
 ent-Hypopen = caneta
