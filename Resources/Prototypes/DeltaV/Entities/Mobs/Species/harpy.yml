@@ -98,12 +98,18 @@
         Blunt: 1
         Slash: 5
   - type: Speech
-    speechSounds: Alto
+    speechSounds: Harpy
+    speechVerb: Harpy
   - type: Vocal
     sounds:
       Male: SoundsHarpy
       Female: SoundsHarpy
       Unsexed: SoundsHarpy
+  - type: Inventory 
+    speciesId: harpy
+    templateId: digitigrade
+  - type: HarpyVisuals
+  - type: UltraVision
 
 - type: entity
   save: false
@@ -115,6 +121,8 @@
   components:
   - type: HumanoidAppearance
     species: Harpy
+  - type: Inventory 
+    speciesId: harpy
   - type: Sprite
     scale: 0.9, 0.9
     layers:
