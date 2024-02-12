@@ -71,19 +71,6 @@
   - ClothingShoesBootsMagSci
 
 - type: technology
-  id: MedipenRefilling
-  name: research-technology-medipen-refilling
-  icon:
-    sprite: Structures/Machines/medipen_refiller.rsi
-    state: base
-  discipline: Experimental
-  tier: 1
-  cost: 10000
-  recipeUnlocks:
-  - MedipenRefillerMachineCircuitboard
-  - ChemicalMedipen
-
-- type: technology
   id: AnomalyCoreHarnessing
   name: research-technology-anomaly-harnessing
   icon:
