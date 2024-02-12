@@ -50,6 +50,7 @@ research-technology-advanced-anomaly-research = Tecnologia Móvel de Anomalia
 research-technology-rped = Troca Rápida de Peças
 research-technology-super-parts = Super Peças
 research-technology-deterrence = Tecnologias de Dissuasão
+research-technology-medipen-refilling = Recarregamento de Medipens
 
 research-technology-janitorial-equipment = Equipamentos para Zeladoria
 research-technology-laundry-tech = Tecnologia de Lavanderia
