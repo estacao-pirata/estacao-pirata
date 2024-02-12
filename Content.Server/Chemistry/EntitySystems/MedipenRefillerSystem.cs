@@ -1,14 +1,13 @@
 
 using Content.Server.Chemistry.Components;
 using Content.Server.Chemistry.Containers.EntitySystems;
-using Content.Server.EntityList;
-using Content.Server.UserInterface;
 using Content.Shared.Chemistry;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Coordinates;
 using Content.Shared.FixedPoint;
+using Content.Shared.UserInterface;
 using Robust.Server.Audio;
 using Robust.Server.GameObjects;
 using Robust.Shared.Containers;
