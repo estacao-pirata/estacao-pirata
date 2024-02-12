@@ -17,7 +17,7 @@ public sealed class MedipenRefillerBoundUserInterface : BoundUserInterface
 
         _window = new MedipenRefillerWindow
         {
-            Title = EntMan.GetComponent<MetaDataComponent>(Owner).EntityName,
+            Title = Loc.GetString("medipen-refiller-bound-user-interface-title"),
         };
 
         var component = EntMan.GetComponent<MedipenRefillerComponent>(Owner);
