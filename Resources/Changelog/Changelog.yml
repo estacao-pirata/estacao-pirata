@@ -3891,3 +3891,10 @@
     message: Readiciona Opporozidona, remédio de crio que remove podridão de cadáveres.
   time: '2024-02-11T23:12:49-03:00'
 
+- author: DoutorWhite
+  changes:
+  - type: Tweak
+    message: Agora é possível fabricar medipens vazias, que podem ser recarregadas pelo Medipen Refiller.
+  - type: Add
+    message: Adiciona o Medipen Refiller, uma máquina capaz de recarregar medipens.
+  time: '2024-02-12T16:36:56-03:00'
