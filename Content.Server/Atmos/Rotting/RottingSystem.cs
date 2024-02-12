@@ -185,7 +185,11 @@ public sealed class RottingSystem : SharedRottingSystem
 
         if (!TryComp<RottingComponent>(uid, out var rotting))
         {
-            perishable.RotAccumulator -= time;
+            var result = perishable.RotAccumulator - time;
+            if (result.TotalSeconds < 0)
+                perishable.RotAccumulator = TimeSpan.Zero;
+            else
+                perishable.RotAccumulator = result;
             return;
         }
         var total = (rotting.TotalRotTime + perishable.RotAccumulator) - time;
@@ -193,11 +197,20 @@ public sealed class RottingSystem : SharedRottingSystem
         if (total < perishable.RotAfter)
         {
             RemCompDeferred(uid, rotting);
-            perishable.RotAccumulator = total;
+            if (total.TotalSeconds < 0)
+                perishable.RotAccumulator = TimeSpan.Zero;
+            else
+                perishable.RotAccumulator = total;
         }
 
         else
-            rotting.TotalRotTime = total - perishable.RotAfter;
+        {
+            total -= perishable.RotAfter;
+            if (total.TotalSeconds < 0)
+                rotting.TotalRotTime = TimeSpan.Zero;
+            else
+                rotting.TotalRotTime = total;
+        }
     }
 
 
