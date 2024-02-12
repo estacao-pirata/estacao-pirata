@@ -1,7 +1,6 @@
-ent-ParticleAcceleratorControlBox = PA control computer
-    .desc = This controls the density of the particles.
+ent-ParticleAcceleratorControlBox = Computador de Controle de AP
+    .desc = Isso controla a densidade das partículas.
 
-ent-ParticleAcceleratorControlBoxUnfinished = PA control computer
-    .desc = This controls the density of the particles. It looks unfinished.
-    .suffix = Unfinished
-
+ent-ParticleAcceleratorControlBoxUnfinished = Computador de Controle de AP
+    .desc = Isso controla a densidade das partículas. Parece inacabado.
+    .suffix = Inacabado

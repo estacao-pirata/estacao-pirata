@@ -1,7 +1,6 @@
-ent-ParticleAcceleratorEndCap = PA end-cap
-    .desc = Formally known as the Alpha Particle Generation Array. This is where Alpha particles are generated from [REDACTED].
+ent-ParticleAcceleratorEndCap = Gerador de Partículas Alfa de AP
+    .desc = Formalmente conhecido como Array de Geração de Partículas Alfa. É aqui que as partículas Alfa são geradas a partir de [REDIGIDO].
 
-ent-ParticleAcceleratorEndCapUnfinished = PA end-cap
-    .desc = Formally known as the Alpha Particle Generation Array. This is where Alpha particles are generated from [REDACTED]. It looks unfinished.
-    .suffix = Unfinished
-
+ent-ParticleAcceleratorEndCapUnfinished = Gerador de Partículas Alfa de AP
+    .desc = Formalmente conhecido como Array de Geração de Partículas Alfa. É aqui que as partículas Alfa são geradas a partir de [REDIGIDO]. Parece inacabado.
+    .suffix = Inacabado
