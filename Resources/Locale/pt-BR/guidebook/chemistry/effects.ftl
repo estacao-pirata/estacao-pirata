@@ -272,7 +272,7 @@ reagent-effect-guidebook-make-polymorph =
         [1] Polymorphs
         *[other] polymorph
     } the metabolizer into a { $entityname }
-    
+
 reagent-effect-guidebook-modify-bleed-amount =
     { $chance ->
         [1] { $deltasign ->
@@ -339,6 +339,11 @@ reagent-effect-guidebook-innoculate-zombie-infection =
         *[other] cure
     } an ongoing zombie infection, and provides immunity to future infections
 
+reagent-effect-guidebook-reduce-rotting =
+    { $chance ->
+        [1] Regenera
+        *[other] regenera
+    } {NATURALFIXED($time, 3)} {MANY("second", $time)} of rotting
 
 reagent-effect-guidebook-missing =
     { $chance ->
