@@ -1,11 +1,10 @@
-ent-AMEController = AME controller
-    .desc = It's a controller for the antimatter engine.
+ent-AMEController = controlador de RAM
+    .desc = É um controlador do mecanismo de antimatéria.
 
-ent-AMEControllerUnanchored = AME controller
-    .desc = It's a controller for the antimatter engine.
-    .suffix = Unanchored
+ent-AMEControllerUnanchored = controlador de RAM
+    .desc = É um controlador do mecanismo de antimatéria.
+    .suffix = não ancorado
 
-ent-AMEShielding = AME shielding
-    .desc = Keeps the antimatter in and the matter out.
-    .suffix = Unanchored
-
+ent-AMEShielding = blindagem de RAM
+    .desc = Mantém a antimatéria dentro e a matéria fora.
+    .suffix = não ancorado

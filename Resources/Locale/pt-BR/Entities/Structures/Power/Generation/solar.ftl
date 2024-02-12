@@ -1,18 +1,15 @@
-ent-SolarPanelBasePhysSprite = solar panel
+ent-SolarPanelBasePhysSprite = painel solar
     .desc = { "" }
 
-ent-SolarPanel = solar panel
-    .desc = A solar panel that generates power.
+ent-SolarPanel = painel solar
+    .desc = Um painel solar que gera energia.
 
-ent-SolarPanelBroken = solar panel
-    .desc = A broken solar panel.
-    .suffix = Broken
+ent-SolarPanelBroken = painel solar
+    .desc = Um painel solar quebrado.
+    .suffix = Quebrado
 
-ent-SolarAssembly = solar assembly
-    .desc = A solar assembly. Anchor to a wire to start building a solar panel.
-    .suffix = Broken
+ent-SolarAssembly = conjunto de solar
+    .desc = Uma montagem solar. Ancore em um fio para começar a construir um painel solar.
 
-ent-SolarTracker = solar tracker
-    .desc = A solar tracker. Tracks the nearest star.
-    .suffix = Broken
-
+ent-SolarTracker = rastreador solar
+    .desc = Um rastreador solar. Rastreia a estrela mais próxima.
