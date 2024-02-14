@@ -7,7 +7,7 @@
   flavor: bubbletea
   color: "#d2b18c"
   metamorphicSprite:
-    sprite: DeltaV/Objects/Consumable/Drinks/bubbletea.rsi
+    sprite: Nyanotrasen/Objects/Consumable/Drinks/bubbletea.rsi
     state: icon
   metabolisms:
     Drink:
@@ -22,12 +22,12 @@
         amount: 0.1
 
 - type: reagent
-  id: ChocolateLiquido
+  id: ChocolateDerretido
   name: reagent-name-chocolate
   parent: BaseDrink
   desc: reagent-desc-chocolate
   physicalDesc: reagent-physical-desc-bubbly
-  flavor: chocolateliquido
+  flavor: ChocolateDerretido
   color: "#403222"
   metabolisms:
     Drink:

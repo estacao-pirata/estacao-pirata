@@ -22,7 +22,7 @@
     Egg: 6
     Sugar: 5
     Water: 5
-    ChocolateLiquido: 10
+    ChocolateDerretido: 10
   solids:
     FoodPlate: 1
 
@@ -58,3 +58,41 @@
     Sugar: 5
   solids:
     FoodDough: 1
+
+- type: microwaveMealRecipe
+  id: RecipeMealNachos
+  name: nachos comum
+  result: FoodMealNachos
+  time: 10
+  reagents:
+    TableSalt: 5
+  solids:
+    FoodDoughTortillaSlice: 3
+
+- type: microwaveMealRecipe
+  id: RecipeMealNachosCheesy
+  name: nachos com queijo
+  result: FoodMealNachosCheesy
+  time: 5
+  solids:
+    FoodMealNachos: 1
+    FoodCheeseSlice: 2
+
+- type: microwaveMealRecipe
+  id: RecipeMealNachosCubanos
+  name: nachos cubanos
+  result: FoodMealNachosCuban
+  time: 5
+  solids:
+    FoodMealNachos: 1
+    FoodChili: 1
+
+#Salame seria uma boa colocar como craft. Atualmente não sei fazer isso.
+- type: microwaveMealRecipe
+  id: RecipeSalame
+  name: salame cru
+  result: FoodMeatSalami
+  time: 5
+  solids:
+    FoodMeatMeatball: 1 #Talvez adicionar mais uma meatball
+    FoodMeatCutlet: 4
