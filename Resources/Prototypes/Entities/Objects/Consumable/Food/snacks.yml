@@ -129,7 +129,7 @@
     grindableSolutionName: food
     juiceSolution:
       reagents:
-      - ReagentId: ChocolateLiquido
+      - ReagentId: ChocolateDerretido
         Quantity: 10 
   - type: SolutionContainerManager
     solutions:

@@ -7,11 +7,14 @@
   conserveEnergy: false
   reactants:
     Milk:
-      amount: 10
-    ChocolateLiquido:
+      amount: 5
+    ChocolateDerretido:
       amount: 5
     IceCream:
       amount: 10
+    Ice:
+      amount: 5
+      catalyst: true
   effects:
     - !type:CreateEntityReactionEffect
       entity: FoodFrozenCornuto
@@ -36,10 +39,13 @@
   quantized: true
   conserveEnergy: false
   reactants:
-    ChocolateLiquido:
+    ChocolateDerretido:
       amount: 10
     IceCream:
       amount: 10
+    Ice:
+      amount: 5
+      catalyst: true
   effects:
     - !type:CreateEntityReactionEffect
       entity: FoodFrozenPopsicleJumbo
@@ -49,13 +55,17 @@
   impact: Low
   quantized: true
   conserveEnergy: false
+  maxTemp: 100
   reactants:
-    ChocolateLiquido:
-      amount: 10
+    ChocolateDerretido:
+      amount: 5
     IceCream:
       amount: 10
     Cream:
       amount: 5
+    Ice:
+      amount: 5
+      catalyst: true
   effects:
     - !type:CreateEntityReactionEffect
       entity: FoodFrozenSandwich
@@ -70,6 +80,9 @@
       amount: 10
     JuiceBerry:
       amount: 10
+    Ice:
+      amount: 5
+      catalyst: true
   effects:
     - !type:CreateEntityReactionEffect
       entity: FoodFrozenSandwichStrawberry
