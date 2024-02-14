@@ -7,7 +7,7 @@
   flavor: bubbletea
   color: "#d2b18c"
   metamorphicSprite:
-    sprite: EstacaoPirata/Objects/Consumable/Drinks/bubbletea.rsi
+    sprite: DeltaV/Objects/Consumable/Drinks/bubbletea.rsi
     state: icon
   metabolisms:
     Drink:
