@@ -174,11 +174,11 @@
         amount: 3
       - id: BoxEncryptionKeyMedical
       - id: CloningPodMachineCircuitboard
-        prob: 0.67
+        prob: 0.3
       - id: CloningConsoleComputerCircuitboard
-        prob: 0.67
+        prob: 0.3
       - id: MedicalScannerMachineCircuitboard
-        prob: 0.67
+        prob: 0.3
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -201,8 +201,11 @@
         amount: 3
       - id: BoxEncryptionKeyMedical
       - id: CloningPodMachineCircuitboard
+        prob: 0.3
       - id: CloningConsoleComputerCircuitboard
+        prob: 0.3
       - id: MedicalScannerMachineCircuitboard
+        prob: 0.3
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
