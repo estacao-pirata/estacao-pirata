@@ -31,3 +31,19 @@
     - type: Drink
     - type: Sprite
       sprite: EstacaoPirata/Objects/Consumable/Drinks/coroteglass.rsi
+
+- type: entity
+  parent: DrinkGlassBase
+  id: DrinkBubbleTeaGlass
+  name: bubble tea glass
+  description: Big straw not included.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: BubbleTea
+          Quantity: 30
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/bubbletea.rsi

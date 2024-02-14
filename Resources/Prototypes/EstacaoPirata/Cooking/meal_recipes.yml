@@ -22,6 +22,39 @@
     Egg: 6
     Sugar: 5
     Water: 5
+    ChocolateLiquido: 10
   solids:
     FoodPlate: 1
-    FoodSnackChocolate: 1
+
+- type: microwaveMealRecipe
+  id: RecipeMuffinComum
+  name: muffin comum
+  result: FoodBakedMuffin
+  time: 10
+  reagents:
+    Flour: 5
+    Egg: 6
+  solids:
+    FoodPlateSmall: 1
+
+- type: microwaveMealRecipe
+  id: RecipeMuffinBerry
+  name: muffin berry
+  result: FoodBakedMuffinBerry
+  time: 10
+  reagents:
+    Flour: 5
+    Egg: 6
+  solids:
+    FoodPlateSmall: 1
+    FoodBerries: 2
+
+- type: microwaveMealRecipe
+  id: RecipeBakedPretzel
+  name: pretzel
+  result: FoodBakedPretzel
+  time: 10
+  reagents:
+    Sugar: 5
+  solids:
+    FoodDough: 1

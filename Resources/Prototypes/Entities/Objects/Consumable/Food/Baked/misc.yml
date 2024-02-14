@@ -12,10 +12,10 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 6
+        maxVol: 10
         reagents:
         - ReagentId: Nutriment
-          Quantity: 5
+          Quantity: 9
   - type: Item
     size: Tiny
 
@@ -406,9 +406,9 @@
         maxVol: 20
         reagents:
         - ReagentId: Nutriment
-          Quantity: 8
+          Quantity: 10
         - ReagentId: Vitamin
-          Quantity: 2
+          Quantity: 4
 
 # Misc
 

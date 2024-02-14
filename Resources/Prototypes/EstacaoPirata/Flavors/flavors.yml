@@ -37,3 +37,13 @@
   id: corote
   flavorType: Complex
   description: flavor-complex-corote
+
+- type: flavor
+  id: bubbletea
+  flavorType: Complex
+  description: flavor-complex-bubbletea
+
+- type: flavor
+  id: chocolateliquido
+  flavorType: Complex
+  description: flavor-complex-chocolateliquido

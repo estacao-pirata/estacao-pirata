@@ -21,3 +21,15 @@
       amount: 1
   products:
     DeadRum: 3
+
+- type: reaction
+  id: BubbleTea
+  reactants:
+    Flour:
+      amount: 1
+    IcedTea:
+      amount: 2
+    Cream:
+      amount: 2
+  products:
+    BubbleTea: 5

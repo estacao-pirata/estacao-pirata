@@ -1,0 +1,42 @@
+- type: reagent
+  id: BubbleTea
+  name: reagent-name-bubbletea
+  parent: BaseDrink
+  desc: reagent-desc-bubbletea
+  physicalDesc: reagent-physical-desc-bubbly
+  flavor: bubbletea
+  color: "#d2b18c"
+  metamorphicSprite:
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/bubbletea.rsi
+    state: icon
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+      - !type:AdjustReagent
+        reagent: Sugar
+        amount: 0.2
+      - !type:AdjustReagent
+        reagent: Nutriment
+        amount: 0.1
+
+- type: reagent
+  id: ChocolateLiquido
+  name: reagent-name-chocolate
+  parent: BaseDrink
+  desc: reagent-desc-chocolate
+  physicalDesc: reagent-physical-desc-bubbly
+  flavor: chocolateliquido
+  color: "#403222"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.2
+      - !type:AdjustReagent
+        reagent: Nutriment
+        amount: 0.1

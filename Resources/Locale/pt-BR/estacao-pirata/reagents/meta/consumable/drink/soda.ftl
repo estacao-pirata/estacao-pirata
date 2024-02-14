@@ -3,3 +3,9 @@ reagent-desc-guarana = Um doce e carbonatado refrigerante sabor guaraná. Conté
 
 reagent-name-fantastica = refri de laranja
 reagent-desc-fantastica = Um doce e carbonatado refrigerante sabor laranja. Livre de cafeína.
+
+reagent-name-bubbletea = bubble tea
+reagent-desc-bubbletea = Você tem que beber!
+
+reagent-name-chocolate = chocolate
+reagent-desc-chocolate = Tão amargo que parece natual.
