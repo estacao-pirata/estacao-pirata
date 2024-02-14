@@ -55,7 +55,6 @@
   impact: Low
   quantized: true
   conserveEnergy: false
-  maxTemp: 100
   reactants:
     ChocolateDerretido:
       amount: 5
