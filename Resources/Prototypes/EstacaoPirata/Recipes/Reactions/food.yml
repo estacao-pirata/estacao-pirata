@@ -1,0 +1,75 @@
+#receita de coisas que ja estão no jogo
+
+- type: reaction
+  id: CreateCornuto
+  impact: Low
+  quantized: true
+  conserveEnergy: false
+  reactants:
+    Milk:
+      amount: 10
+    ChocolateLiquido:
+      amount: 5
+    IceCream:
+      amount: 10
+  effects:
+    - !type:CreateEntityReactionEffect
+      entity: FoodFrozenCornuto
+
+- type: reaction
+  id: CreateSnowconeBase
+  impact: Low
+  quantized: true
+  conserveEnergy: false
+  reactants:
+    Ice:
+      amount: 10
+    IceCream:
+      amount: 10
+  effects:
+    - !type:CreateEntityReactionEffect
+      entity: FoodFrozenSnowconeBase
+
+- type: reaction
+  id: CreatePopsicleJumbo
+  impact: Low
+  quantized: true
+  conserveEnergy: false
+  reactants:
+    ChocolateLiquido:
+      amount: 10
+    IceCream:
+      amount: 10
+  effects:
+    - !type:CreateEntityReactionEffect
+      entity: FoodFrozenPopsicleJumbo
+
+- type: reaction
+  id: CreateFrozenSandwich
+  impact: Low
+  quantized: true
+  conserveEnergy: false
+  reactants:
+    ChocolateLiquido:
+      amount: 10
+    IceCream:
+      amount: 10
+    Cream:
+      amount: 5
+  effects:
+    - !type:CreateEntityReactionEffect
+      entity: FoodFrozenSandwich
+
+- type: reaction
+  id: CreateFrozenSandwichStrawberry
+  impact: Low
+  quantized: true
+  conserveEnergy: false
+  reactants:
+    IceCream:
+      amount: 10
+    JuiceBerry:
+      amount: 10
+  effects:
+    - !type:CreateEntityReactionEffect
+      entity: FoodFrozenSandwichStrawberry

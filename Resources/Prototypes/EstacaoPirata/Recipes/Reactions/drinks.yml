@@ -1,0 +1,35 @@
+- type: reaction
+  id: Caipirinha
+  reactants:
+    JuiceLime:
+      amount: 1
+    Cachaca:
+      amount: 1
+    Sugar:
+      amount: 1
+  products:
+    Caipirinha: 3
+
+- type: reaction
+  id: DeadRum
+  reactants:
+    JuiceLime:
+      amount: 1
+    Rum:
+      amount: 1
+    Grenadine:
+      amount: 1
+  products:
+    DeadRum: 3
+
+- type: reaction
+  id: BubbleTea
+  reactants:
+    Flour:
+      amount: 1
+    IcedTea:
+      amount: 2
+    Cream:
+      amount: 2
+  products:
+    BubbleTea: 5
