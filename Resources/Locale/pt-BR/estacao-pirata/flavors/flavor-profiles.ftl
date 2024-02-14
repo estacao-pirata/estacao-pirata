@@ -7,4 +7,4 @@ flavor-complex-fantastica = de laranja
 flavor-complex-sindkol = de cerveja Pilsen
 flavor-complex-corote = de cachaça barata e forte
 flavor-complex-bubbletea = de doçura cremosa
-flavor-complex-chocolateliquido = de algo muito amargo.
+flavor-complex-chocolatederretido = de algo muito amargo.

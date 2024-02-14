@@ -44,6 +44,6 @@
   description: flavor-complex-bubbletea
 
 - type: flavor
-  id: chocolateliquido
+  id: ChocolateDerretido
   flavorType: Complex
-  description: flavor-complex-chocolateliquido
+  description: flavor-complex-chocolatederretido
