@@ -46,4 +46,4 @@
         - ReagentId: BubbleTea
           Quantity: 30
   - type: Sprite
-    sprite: EstacaoPirata/Objects/Consumable/Drinks/bubbletea.rsi
+    sprite: DeltaV/Objects/Consumable/Drinks/bubbletea.rsi
