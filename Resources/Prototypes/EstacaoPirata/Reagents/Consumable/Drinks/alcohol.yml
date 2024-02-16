@@ -74,3 +74,23 @@
         - !type:AdjustReagent
           reagent: Ethanol
           amount: 0.2
+
+- type: reagent
+  id: ClownBlood
+  name: reagent-name-clownblood
+  parent: BaseAlcohol
+  desc: reagent-desc-clownblood
+  physicalDesc: reagent-physical-desc-cloudy
+  flavor: funny
+  color: "#94001c"
+  metamorphicSprite:
+    sprite: Nyanotrasen/Objects/Consumable/Drinks/clownblood.rsi
+    state: icon
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.025
