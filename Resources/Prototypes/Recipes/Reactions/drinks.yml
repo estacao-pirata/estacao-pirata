@@ -931,7 +931,7 @@
     Cola: 4
 
 - type: reaction
-  id: ChocolateQuenteReaction
+  id: ChocolateDerretidoReaction
   impact: Low
   minTemp: 344
   reactants:

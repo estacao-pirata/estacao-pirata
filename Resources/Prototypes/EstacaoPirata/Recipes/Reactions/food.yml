@@ -85,3 +85,41 @@
   effects:
     - !type:CreateEntityReactionEffect
       entity: FoodFrozenSandwichStrawberry
+
+- type: reaction
+  id: CreatePopsicleBerry
+  impact: Low
+  quantized: true
+  conserveEnergy: false
+  reactants:
+    IceCream:
+      amount: 10
+    JuiceBerry:
+      amount: 5
+    Cream:
+      amount: 5
+    Ice:
+      amount: 5
+      catalyst: true
+  effects:
+    - !type:CreateEntityReactionEffect
+      entity: FoodFrozenPopsicleBerry
+
+- type: reaction
+  id: CreatePopsicleOrange
+  impact: Low
+  quantized: true
+  conserveEnergy: false
+  reactants:
+    IceCream:
+      amount: 10
+    JuiceOrange:
+      amount: 5
+    Cream:
+      amount: 5
+    Ice:
+      amount: 5
+      catalyst: true
+  effects:
+    - !type:CreateEntityReactionEffect
+      entity: FoodFrozenPopsicleOrange
