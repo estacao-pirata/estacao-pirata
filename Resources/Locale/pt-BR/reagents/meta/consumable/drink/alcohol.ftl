@@ -252,3 +252,6 @@ reagent-desc-white-russian = Isso é só, tipo, a sua opinião, cara...
 
 reagent-name-caipirinha = caipirinha
 reagent-desc-caipirinha = Pra assistir um jogo de futebol.
+
+reagent-name-clownblood = clown blood
+reagent-desc-clownblood = Security Officers favorite drink after a long day.
