@@ -254,4 +254,4 @@ reagent-name-caipirinha = caipirinha
 reagent-desc-caipirinha = Pra assistir um jogo de futebol.
 
 reagent-name-clownblood = clown blood
-reagent-desc-clownblood = Security Officers favorite drink after a long day.
+reagent-desc-clownblood = A bebida favorita da Sec após um longo dia.
