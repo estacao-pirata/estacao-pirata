@@ -26,6 +26,7 @@ guide-entry-janitorial = Zeladoria
 guide-entry-bartender = Bartender
 guide-entry-chef = Chef
 guide-entry-foodrecipes = Receitas Culinárias
+guide-entry-foodpirata = Receitas do Servidor Pirata
 guide-entry-medical = Medicina
 guide-entry-medicaldoctor = Médico
 guide-entry-chemist = Químico
