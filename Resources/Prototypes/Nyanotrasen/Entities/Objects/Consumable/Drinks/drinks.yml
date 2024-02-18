@@ -1,0 +1,31 @@
+- type: entity
+  parent: DrinkGlassBase
+  id: DrinkClownBloodGlass
+  name: clown blood glass
+  description: A bebida favorita da Sec após um longo dia.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: ClownBlood
+          Quantity: 30
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Consumable/Drinks/clownblood.rsi
+
+- type: entity
+  parent: DrinkGlassBase
+  id: DrinkBubbleTeaGlass
+  name: bubble tea glass
+  description: Big straw not included.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: BubbleTea
+          Quantity: 30
+  - type: Sprite
+    sprite: Nyanotrasen/Objects/Consumable/Drinks/bubbletea.rsi
