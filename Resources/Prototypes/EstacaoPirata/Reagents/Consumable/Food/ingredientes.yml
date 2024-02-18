@@ -1,21 +1,18 @@
 - type: reagent
-  id: BubbleTea
-  name: reagent-name-bubbletea
+  id: ChocolateDerretido
+  name: reagent-name-chocolate
   parent: BaseDrink
-  desc: reagent-desc-bubbletea
+  desc: reagent-desc-chocolate
   physicalDesc: reagent-physical-desc-bubbly
-  flavor: bubbletea
-  color: "#d2b18c"
-  metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/bubbletea.rsi
-    state: icon
+  flavor: ChocolateDerretido
+  color: "#403222"
   metabolisms:
     Drink:
       effects:
       - !type:SatiateThirst
         factor: 3
       - !type:AdjustReagent
-        reagent: Sugar
+        reagent: Theobromine
         amount: 0.2
       - !type:AdjustReagent
         reagent: Nutriment
