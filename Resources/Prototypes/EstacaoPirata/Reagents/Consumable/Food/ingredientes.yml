@@ -1,19 +1,18 @@
 - type: reagent
   id: ChocolateDerretido
   name: reagent-name-chocolate
-  parent: BaseDrink
+  group: Foods
   desc: reagent-desc-chocolate
-  physicalDesc: reagent-physical-desc-bubbly
+  physicalDesc: reagent-physical-desc-dark--brown
   flavor: ChocolateDerretido
   color: "#403222"
+  recognizable: true
   metabolisms:
-    Drink:
+    Food:
       effects:
-      - !type:SatiateThirst
-        factor: 3
       - !type:AdjustReagent
         reagent: Theobromine
-        amount: 0.2
+        amount: 0.3
       - !type:AdjustReagent
         reagent: Nutriment
-        amount: 0.1
+        amount: 0.2
