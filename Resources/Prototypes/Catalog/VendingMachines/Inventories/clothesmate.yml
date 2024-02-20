@@ -50,6 +50,8 @@
     ClothingUniformJumpskirtCasualPurple: 2
     ClothingUniformJumpsuitCasualRed: 2
     ClothingUniformJumpskirtCasualRed: 2
+    ClothingUniformJumpsuitCasualWhite: 2
+    ClothingUniformJumpskirtCasualWhite: 2
     ClothingShoesColorBlack: 8
     ClothingShoesColorBrown: 4
     ClothingShoesColorWhite: 3
@@ -84,6 +86,8 @@
     ClothingHandsGlovesColorGreen: 2
     ClothingHandsGlovesColorOrange: 2
     ClothingHandsGlovesColorPurple: 2
+    ClothingUniformJumpskirtRedDress: 2
+    ClothingUniformJumpskirtWeddingDress: 2
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1
