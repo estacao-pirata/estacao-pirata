@@ -3898,3 +3898,15 @@
   - type: Add
     message: Adiciona o Medipen Refiller, uma máquina capaz de recarregar medipens.
   time: '2024-02-12T16:36:56-03:00'
+
+- author: LaryALagosta
+  changes:
+  - type: Add
+    message: Adicionado Chocolate derretido, feito com pó de cacau e açúcar.
+  - type: Add
+    message: Adicionado duas novas bebidas "Clown Blood" e "Bubble Tea"
+  - type: Add
+    message: Adicionado várias novas receitas para seu chefe local fazer.
+  - type: Add
+    message: Adicionado uma nova página no guidebook somente para receitas únicas do Pirata!
+  time: '2024-02-20T13:22:12-03:00'
