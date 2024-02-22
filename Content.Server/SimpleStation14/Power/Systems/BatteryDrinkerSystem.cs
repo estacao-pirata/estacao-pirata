@@ -9,10 +9,7 @@ using Robust.Shared.Utility;
 using Content.Server.SimpleStation14.Silicon.Charge;
 using Content.Server.Power.EntitySystems;
 using Content.Server.Popups;
-<<<<<<< Updated upstream
-=======
 using Robust.Shared.Audio.Systems;
->>>>>>> Stashed changes
 
 namespace Content.Server.SimpleStation14.Power;
 
@@ -91,11 +88,7 @@ public sealed class BatteryDrinkerSystem : EntitySystem
         else
             doAfterTime *= drinkerComp.DrinkAllMultiplier;
 
-<<<<<<< Updated upstream
-        var args = new DoAfterArgs(user, doAfterTime, new BatteryDrinkerDoAfterEvent(), user, target) // TODO: Make this doafter loop, once we merge Upstream.
-=======
         var args = new DoAfterArgs(EntityManager, user, doAfterTime, new BatteryDrinkerDoAfterEvent(), user, target) // TODO: Make this doafter loop, once we merge Upstream.
->>>>>>> Stashed changes
         {
             BreakOnDamage = true,
             BreakOnTargetMove = true,

@@ -1,10 +1,7 @@
 using Content.Shared.Power;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
-<<<<<<< Updated upstream
-=======
 using Robust.Shared.Audio.Systems;
->>>>>>> Stashed changes
 using Robust.Shared.Timing;
 
 namespace Content.Shared.SimpleStation14.Silicon.Charge;
@@ -57,11 +54,7 @@ public sealed class SharedSiliconChargerSystem : EntitySystem
 
             if (component.SoundLoop != null && component.SoundStream == null)
                 component.SoundStream =
-<<<<<<< Updated upstream
-                    _audio.PlayPvs(component.SoundLoop, uid, AudioParams.Default.WithLoop(true).WithMaxDistance(5));
-=======
                     _audio.PlayPvs(component.SoundLoop, uid, AudioParams.Default.WithLoop(true).WithMaxDistance(5)).Value.Entity;
->>>>>>> Stashed changes
         }
         else
         {
@@ -77,12 +70,7 @@ public sealed class SharedSiliconChargerSystem : EntitySystem
             if (_timing.InPrediction)
                 return;
 
-<<<<<<< Updated upstream
-            component.SoundStream?.Stop();
-            component.SoundStream = null;
-=======
             component.SoundStream = _audio.Stop(component.SoundStream);
->>>>>>> Stashed changes
         }
     }
 }
