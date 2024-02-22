@@ -14,9 +14,16 @@ using Content.Server.Power.EntitySystems;
 using Robust.Shared.Containers;
 using System.Diagnostics.CodeAnalysis;
 using Robust.Shared.Timing;
+<<<<<<< Updated upstream
 using Content.Shared.SimpleStation14.CCVar;
 using Robust.Shared.Configuration;
 using Robust.Shared.Utility;
+=======
+using Robust.Shared.Configuration;
+using Robust.Shared.Audio.Systems;
+using Robust.Shared.Utility;
+using Content.Shared.CCVar;
+>>>>>>> Stashed changes
 
 namespace Content.Server.SimpleStation14.Silicon.Charge;
 
@@ -87,7 +94,11 @@ public sealed class SiliconChargeSystem : EntitySystem
             // Check if the Silicon is an NPC, and if so, follow the delay as specified in the CVAR.
             if (siliconComp.EntityType.Equals(SiliconType.Npc))
             {
+<<<<<<< Updated upstream
                 var updateTime = _config.GetCVar(SimpleStationCCVars.SiliconNpcUpdateTime);
+=======
+                var updateTime = _config.GetCVar(CCVars.SiliconNpcUpdateTime);
+>>>>>>> Stashed changes
                 if (_timing.CurTime - siliconComp.LastDrainTime < TimeSpan.FromSeconds(updateTime))
                     continue;
 
@@ -187,7 +198,11 @@ public sealed class SiliconChargeSystem : EntitySystem
                     !flamComp.OnFire &&
                     _random.Prob(Math.Clamp(temperComp.CurrentTemperature / (upperThresh * 5), 0.001f, 0.9f)))
                 {
+<<<<<<< Updated upstream
                     _flammable.Ignite(silicon, flamComp);
+=======
+                    _flammable.Ignite(silicon, silicon, flamComp);
+>>>>>>> Stashed changes
                 }
                 else if ((flamComp == null || !flamComp.OnFire) &&
                         _random.Prob(Math.Clamp(temperComp.CurrentTemperature / upperThresh, 0.001f, 0.75f)))

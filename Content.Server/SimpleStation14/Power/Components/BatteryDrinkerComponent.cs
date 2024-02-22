@@ -1,7 +1,11 @@
 namespace Content.Server.SimpleStation14.Power;
 
 [RegisterComponent]
+<<<<<<< Updated upstream
 public sealed class BatteryDrinkerComponent : Component
+=======
+public sealed partial class BatteryDrinkerComponent : Component
+>>>>>>> Stashed changes
 {
     /// <summary>
     ///     Is this drinker allowed to drink batteries not tagged as <see cref="BatteryDrinkSource"/>?
