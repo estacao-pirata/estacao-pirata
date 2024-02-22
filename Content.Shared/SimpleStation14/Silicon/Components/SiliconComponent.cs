@@ -9,11 +9,7 @@ namespace Content.Shared.SimpleStation14.Silicon.Components;
 ///     Component for defining a mob as a robot.
 /// </summary>
 [RegisterComponent, NetworkedComponent]
-<<<<<<< Updated upstream
-public sealed class SiliconComponent : Component
-=======
 public sealed partial class SiliconComponent : Component
->>>>>>> Stashed changes
 {
     [ViewVariables(VVAccess.ReadOnly)]
     public ChargeState ChargeState = ChargeState.Full;
@@ -34,11 +30,7 @@ public sealed partial class SiliconComponent : Component
     /// <summary>
     ///     The Silicon's battery slot, if it has one.
     /// </summary>
-<<<<<<< Updated upstream
-    public IContainer? BatteryContainer = null;
-=======
     public BaseContainer? BatteryContainer = null;
->>>>>>> Stashed changes
 
     /// <summary>
     ///     Is the Silicon currently dead?
@@ -108,9 +100,5 @@ public sealed partial class SiliconComponent : Component
     ///     The amount the Silicon will be slowed at each charge state.
     /// </summary>
     [DataField("speedModifierThresholds", required: true)]
-<<<<<<< Updated upstream
-    public readonly Dictionary<ChargeState, float> SpeedModifierThresholds = default!;
-=======
     public Dictionary<ChargeState, float> SpeedModifierThresholds = default!;
->>>>>>> Stashed changes
 }

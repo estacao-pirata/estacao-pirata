@@ -5,11 +5,7 @@ using Robust.Shared.Audio;
 namespace Content.Shared.SimpleStation14.Silicon;
 
 [RegisterComponent]
-<<<<<<< Updated upstream
-public sealed class SiliconChargerComponent : Component
-=======
 public sealed partial class SiliconChargerComponent : Component
->>>>>>> Stashed changes
 {
     /// <summary>
     ///     Is the charger currently active?
@@ -19,11 +15,7 @@ public sealed partial class SiliconChargerComponent : Component
     /// <summary>
     ///     The currently playing audio stream.
     /// </summary>
-<<<<<<< Updated upstream
-    public IPlayingAudioStream? SoundStream { get; set; }
-=======
     public EntityUid? SoundStream { get; set; }
->>>>>>> Stashed changes
 
     /// <summary>
     ///     Counter for handing out warnings to burning entities.

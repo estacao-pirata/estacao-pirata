@@ -3,11 +3,7 @@ using Robust.Shared.Audio;
 namespace Content.Server.SimpleStation14.Silicon.Charge;
 
 [RegisterComponent]
-<<<<<<< Updated upstream
-public sealed class BatteryDrinkerSourceComponent : Component
-=======
 public sealed partial class BatteryDrinkerSourceComponent : Component
->>>>>>> Stashed changes
 {
     /// <summary>
     ///     The max amount of power this source can provide in one sip.
