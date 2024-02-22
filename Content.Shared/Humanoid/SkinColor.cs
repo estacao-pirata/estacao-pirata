@@ -122,11 +122,15 @@ public static class SkinColor
     /// <returns>Tinted hue color</returns>
     public static Color TintedHues(Color color)
     {
-        var newColor = Color.ToHsl(color);
-        newColor.Y *= MaxTintedHuesSaturation;
-        newColor.Z = MathHelper.Lerp(MinTintedHuesLightness, 1f, newColor.Z);
+        // Parkstation-IPC-Start
+        var hsv = Color.ToHsv(color);
 
-        return Color.FromHsv(newColor);
+        hsv.Y = Math.Min(hsv.Y, 0.6f);
+
+        hsv.Z = Math.Max(hsv.Z, 0.25f);
+
+        return Color.FromHsv(hsv);
+        // Parkstation-IPC-End
     }
 
     /// <summary>
