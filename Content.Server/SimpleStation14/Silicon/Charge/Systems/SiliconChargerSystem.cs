@@ -22,6 +22,10 @@ using Robust.Shared.Physics.Events;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
+<<<<<<< Updated upstream
+=======
+using Content.Shared.Storage;
+>>>>>>> Stashed changes
 
 namespace Content.Server.SimpleStation14.Silicon.Charge;
 
@@ -60,6 +64,10 @@ public sealed class SiliconChargerSystem : EntitySystem
         base.Update(frameTime);
 
         #region Entity Storage Chargers
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         // Check for any chargers with the EntityStorageComponent.
         var entityStorageQuery = EntityQueryEnumerator<SiliconChargerComponent, EntityStorageComponent>();
         while (entityStorageQuery.MoveNext(out var uid, out var chargerComp, out var entStorage))
@@ -88,16 +96,29 @@ public sealed class SiliconChargerSystem : EntitySystem
                 {
                     var curTemp = entStorage.Air.Temperature;
 
+<<<<<<< Updated upstream
                     entStorage.Air.Temperature += curTemp < chargerComp.TargetTemp ? frameTime * chargerComp.ChargeMulti / 100 : 0;
+=======
+                    entStorage.Air.Temperature +=
+                        curTemp < chargerComp.TargetTemp ? frameTime * chargerComp.ChargeMulti / 100 : 0;
+>>>>>>> Stashed changes
                 }
             }
 
             if (chargerComp.Active != wasActive)
                 _sharedCharger.UpdateState(uid, chargerComp);
         }
+<<<<<<< Updated upstream
         #endregion Entity Storage Chargers
 
         #region Step Trigger Chargers
+=======
+
+        #endregion Entity Storage Chargers
+
+        #region Step Trigger Chargers
+
+>>>>>>> Stashed changes
         // Check for any chargers with the StepTriggerComponent.
         var stepQuery = EntityQueryEnumerator<SiliconChargerComponent, StepTriggerComponent>();
         while (stepQuery.MoveNext(out var uid, out var chargerComp, out _))
@@ -110,6 +131,10 @@ public sealed class SiliconChargerSystem : EntitySystem
                     chargerComp.Active = false;
                     _sharedCharger.UpdateState(uid, chargerComp);
                 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
                 continue;
             }
 
@@ -126,13 +151,21 @@ public sealed class SiliconChargerSystem : EntitySystem
                 HandleChargingEntity(entity, chargeRate, chargerComp, uid, frameTime);
             }
         }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         #endregion Step Trigger Chargers
     }
 
     // Cleanup the sound stream when the charger is destroyed.
     private void OnChargerShutdown(EntityUid uid, SiliconChargerComponent component, ComponentShutdown args)
     {
+<<<<<<< Updated upstream
         component.SoundStream?.Stop();
+=======
+        component.SoundStream = null;
+>>>>>>> Stashed changes
     }
 
     /// <summary>
@@ -211,19 +244,32 @@ public sealed class SiliconChargerSystem : EntitySystem
         }
         if (TryComp<InventoryComponent>(entity, out var inventoryComp))
         {
+<<<<<<< Updated upstream
             foreach (var slot in _inventory.GetSlots(entity, inventoryComp))
+=======
+            foreach (var slot in inventoryComp.Slots)
+>>>>>>> Stashed changes
             {
                 if (_inventory.TryGetSlotEntity(entity, slot.Name, out var slotItem))
                     entitiesToCharge.AddRange(SearchThroughEntities(slotItem.Value));
             }
         }
+<<<<<<< Updated upstream
         if (TryComp<ServerStorageComponent>(entity, out var storageComp))
+=======
+        /* Have no idea how to fix this as it would work if ServerStorage did not get deleted for some reason...
+        if (TryComp<StorageComponent>(entity, out var storageComp))
+>>>>>>> Stashed changes
         {
             foreach (var containedEntity in storageComp.StoredEntities!)
             {
                 entitiesToCharge.AddRange(SearchThroughEntities(containedEntity));
             }
+<<<<<<< Updated upstream
         }
+=======
+        }*/
+>>>>>>> Stashed changes
         if (TryComp<EntityStorageComponent>(entity, out var entStorage))
         {
             foreach (var containedEntity in entStorage.Contents.ContainedEntities)
@@ -261,7 +307,11 @@ public sealed class SiliconChargerSystem : EntitySystem
         var damage = new DamageSpecifier(_prototypes.Index<DamageTypePrototype>(chargerComp.DamageType), frameTime * chargerComp.ChargeMulti / 100);
         var damageDealt = _damageable.TryChangeDamage(entity, damage, false, true, damageComp, chargerUid);
 
+<<<<<<< Updated upstream
         if (damageDealt != null && damageDealt.Total > 0 && chargerComp.WarningTime < _timing.CurTime)
+=======
+        if (damageDealt != null && damageDealt.GetTotal() > 0 && chargerComp.WarningTime < _timing.CurTime)
+>>>>>>> Stashed changes
         {
             var popupBurn = Loc.GetString(chargerComp.OverheatString);
             _popup.PopupEntity(popupBurn, entity, PopupType.MediumCaution);
