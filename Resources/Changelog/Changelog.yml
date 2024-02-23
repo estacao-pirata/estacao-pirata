@@ -3910,3 +3910,21 @@
   - type: Add
     message: Adicionado uma nova página no guidebook somente para receitas únicas do Pirata!
   time: '2024-02-20T13:22:12-03:00'
+
+- author: Day-OS 
+  changes:
+  - type: Add
+    message: Adiciona Conjunto de colegial (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Conjunto de colegial japonês (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Vestido vermelho (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Vestido de casamento (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Roupa formal modulável com versão Jumpskirt. Versão genérica adicionada por padrão (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Roupa Intima Simples (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Conjunto RoboCop (Loot da Maint)
+  time: '2024-02-21T14:22:00-03:00'
