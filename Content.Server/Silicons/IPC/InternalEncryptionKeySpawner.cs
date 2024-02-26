@@ -1,8 +1,8 @@
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
-using Content.Shared.Radio.Components; // Parkstation-IPC
-using Content.Shared.Containers; // Parkstation-IPC
-using Robust.Shared.Containers; // Parkstation-IPC
+using Content.Shared.Radio.Components;
+using Content.Shared.Containers;
+using Robust.Shared.Containers;
 
  // Pretty much copied from StationSpawningSystem.SpawnStartingGear
 namespace Content.Server.Silicons.IPC;
