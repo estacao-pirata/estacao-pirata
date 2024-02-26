@@ -4,11 +4,15 @@
   chatMessages: [howls.]
   chatTriggers:
     - howl
+    - howl.
     - howls
     - howls.
+    - howl!
     - howls!
     - howling
+    - howling.
     - howled
+    - howled.
 
 - type: emote
   id: Bark
@@ -16,8 +20,12 @@
   chatMessages: [barks.]
   chatTriggers:
     - bark
+    - bark.
     - barks
     - barks.
+    - bark!
     - barks!
     - barking
+    - barking.
     - barked
+    - barked.
