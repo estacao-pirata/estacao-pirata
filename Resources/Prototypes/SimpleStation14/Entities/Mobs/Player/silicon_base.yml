@@ -1,7 +1,7 @@
 - type: entity
   save: false
   abstract: true
-  id: PlayerSiliconBase # For player controlled silicons
+  id: PlayerSiliconBaseIndividual # For player controlled silicons
   components:
     - type: Reactive
       groups:
@@ -97,7 +97,7 @@
       thermalRegulationTemperatureThreshold: 125
 
 - type: entity
-  parent: PlayerSiliconBase
+  parent: PlayerSiliconBaseIndividual
   id: PlayerSiliconHumanoidBase
   abstract: true
   components:
@@ -169,14 +169,13 @@
         - map: ["pocket1"]
         - map: ["pocket2"]
         - map: ["enum.HumanoidVisualLayers.Tail"]
-        - map: ["enum.HumanoidVisualLayers.Wings"]
         - map: ["clownedon"] # Dynamically generated
           sprite: "Effects/creampie.rsi"
           state: "creampie_human"
           visible: false
     - type: Repairable
       fuelcost: 60
-      doAfterDelay: 32
+      doAfterDelay: 18
     - type: Bloodstream
       damageBleedModifiers: BloodlossIPC
       bloodReagent: Water

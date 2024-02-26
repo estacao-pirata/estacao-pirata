@@ -11,11 +11,6 @@
     containers:
       bodypart: !type:Container
         ents: []
-<<<<<<< Updated upstream
-  - type: DynamicPrice
-    price: 100
-=======
->>>>>>> Stashed changes
 
 - type: entity
   id: TorsoIPC
