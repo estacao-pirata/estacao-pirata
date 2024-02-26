@@ -65,6 +65,8 @@
   - type: ActiveRadio
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
+  - type: Wires
+    layoutId: IPC
 
 - type: entity
   save: false

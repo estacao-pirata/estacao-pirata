@@ -31,6 +31,7 @@ public abstract class SharedStationSpawningSystem : EntitySystem
                     InventorySystem.TryEquip(entity, equipmentEntity, slot.Name, true, force:true);
                 }
             }
+            
         }
 
         if (!TryComp(entity, out HandsComponent? handsComponent))

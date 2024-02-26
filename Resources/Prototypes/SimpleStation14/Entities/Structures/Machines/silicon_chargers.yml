@@ -44,11 +44,6 @@
             - MachineLayer
     - type: ApcPowerReceiver
       powerLoad: 500
-<<<<<<< Updated upstream
-    - type: DynamicPrice
-      price: 600
-=======
->>>>>>> Stashed changes
     - type: EntityStorage
       capacity: 1
       isCollidableWhenOpen: true
@@ -115,11 +110,6 @@
             False: { visible: false }
     - type: ApcPowerReceiver
       powerLoad: 150
-<<<<<<< Updated upstream
-    - type: DynamicPrice
-      price: 200
-=======
->>>>>>> Stashed changes
     - type: Physics
       canCollide: true
     - type: Appearance
