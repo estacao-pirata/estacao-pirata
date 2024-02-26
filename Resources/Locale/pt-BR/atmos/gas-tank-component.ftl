@@ -18,7 +18,7 @@ gas-tank-window-label = Tanque de Gás
 gas-tank-window-internals-toggle-button = Ativar
 gas-tank-window-output-pressure-label = Pressão de Saída
 gas-tank-window-tank-pressure-text = Pressão: {$tankPressure} kPA
-gas-tank-window-internal-text = Internos: [color={$colorName}]{$status}[/color]
+gas-tank-window-internal-text = Internos: {$status}
 gas-tank-window-internal-connected = [color=green]Conectado[/color]
 gas-tank-window-internal-disconnected = [color=red]Desconectado[/color]
 
