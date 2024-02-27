@@ -3,6 +3,9 @@
   abstract: true
   id: PlayerSiliconBaseIndividual # For player controlled silicons
   components:
+    - type: ContentEye
+    - type: CameraRecoil
+    - type: LagCompensation
     - type: Reactive
       groups:
         Acidic: [Touch]
