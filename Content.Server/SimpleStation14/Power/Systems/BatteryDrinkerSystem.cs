@@ -141,7 +141,9 @@ public sealed class BatteryDrinkerSystem : EntitySystem
             _battery.SetCharge(source, 0, sourceBattery);
         }
 
-        if (sourceComp != null && sourceComp.DrinkSound != null)
+        if (sourceComp != null && sourceComp.DrinkSound != null){
             _audio.PlayPvs(sourceComp.DrinkSound, source);
+            Spawn("EffectSparks", Transform(source).Coordinates);
+        }
     }
 }
