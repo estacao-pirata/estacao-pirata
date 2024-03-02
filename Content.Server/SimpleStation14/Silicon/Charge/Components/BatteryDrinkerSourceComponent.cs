@@ -23,5 +23,5 @@ public sealed partial class BatteryDrinkerSourceComponent : Component
     ///     Can be null.
     /// </summary>
     [DataField("drinkSound")]
-    public SoundSpecifier? DrinkSound = null;
+    public SoundSpecifier? DrinkSound = new SoundCollectionSpecifier("sparks");
 }
