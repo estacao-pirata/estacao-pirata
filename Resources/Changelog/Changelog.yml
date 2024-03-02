@@ -3944,3 +3944,15 @@
   - type: Fix
     message: Conserta crash do cliente relacionado a conversão ruim de cores na tradução PT-BR
   time: '2024-03-01T14:22:38-03:00'
+
+- author: Crono209
+  changes:
+  - type: Add
+    message: Adiciona espécie Oni
+  time: '2024-03-02T00:00:00-03:00'
+
+- author: Crono209
+  changes:
+  - type: Add
+    message: Volta o mapa Barratry
+  time: '2024-03-02T00:00:00-03:00'
