@@ -3928,3 +3928,19 @@
   - type: Add
     message: Adiciona Conjunto RoboCop (Loot da Maint)
   time: '2024-02-21T14:22:00-03:00'
+
+- author: Day-OS
+  changes:
+  - type: Add
+    message: Adiciona espécie I.P.C.
+  time: '2024-02-28T14:04:00-03:00'
+
+- author: Day-OS
+  changes:
+  - type: Fix
+    message: Conserta nomes gerados automaticamente da espécie IPC na tradução PT-BR
+  - type: Fix
+    message: Conserta os efeitos especiais de recarregamento do IPC
+  - type: Fix
+    message: Conserta crash do cliente relacionado a conversão ruim de cores na tradução PT-BR
+  time: '2024-03-01T14:22:38-03:00'
