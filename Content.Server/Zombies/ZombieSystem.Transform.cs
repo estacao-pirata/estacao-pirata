@@ -35,6 +35,7 @@ using Content.Shared.Zombies;
 using Content.Shared.Prying.Components;
 using Content.Shared.Traits.Assorted;
 using Robust.Shared.Audio.Systems;
+using Content.Shared.SimpleStation14.Silicon.Components;
 
 namespace Content.Server.Zombies
 {
@@ -89,6 +90,11 @@ namespace Content.Server.Zombies
             //Don't zombfiy zombies
             if (HasComp<ZombieComponent>(target) || HasComp<ZombieImmuneComponent>(target))
                 return;
+
+            // Parkstation-IPC-Start
+            if (HasComp<SiliconComponent>(target))
+                return;
+            // Parkstation-IPC-End
 
             if (!Resolve(target, ref mobState, logMissing: false))
                 return;

@@ -122,11 +122,7 @@ public static class SkinColor
     /// <returns>Tinted hue color</returns>
     public static Color TintedHues(Color color)
     {
-        var newColor = Color.ToHsl(color);
-        newColor.Y *= MaxTintedHuesSaturation;
-        newColor.Z = MathHelper.Lerp(MinTintedHuesLightness, 1f, newColor.Z);
-
-        return Color.FromHsv(newColor);
+        return color;
     }
 
     /// <summary>
@@ -144,7 +140,7 @@ public static class SkinColor
     ///     This takes in a color, and returns a color guaranteed to be above MinHuesLightness
     /// </summary>
     /// <param name="color"></param>
-    /// <returns>Either the color as-is if it's above MinHuesLightness, or the color with luminosity increased above MinHuesLightness</returns> 
+    /// <returns>Either the color as-is if it's above MinHuesLightness, or the color with luminosity increased above MinHuesLightness</returns>
     public static Color MakeHueValid(Color color)
     {
         var manipulatedColor = Color.ToHsv(color);
