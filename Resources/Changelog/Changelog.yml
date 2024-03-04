@@ -3956,3 +3956,21 @@
   - type: Add
     message: Volta o mapa Barratry
   time: '2024-03-02T00:00:00-03:00'
+
+- author: Criso
+  changes:
+  - type: Add
+    message: Adiciona o mapa Falcon do Corvax
+  time: '2024-03-04T00:00:00-03:00'
+
+- author: Day-OS
+  changes:
+  - type: Add
+    message: Adiciona impressoras do Corvax
+  time: '2024-03-04T00:00:00-03:00'
+
+- author: DoutorWhite
+  changes:
+  - type: Fix
+    message: Traduz os documentos da impressora
+  time: '2024-03-04T00:00:00-03:00'
