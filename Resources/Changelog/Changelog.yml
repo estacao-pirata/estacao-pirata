@@ -3951,10 +3951,10 @@
     message: Adiciona espécie Oni
   time: '2024-03-02T00:00:00-03:00'
 
-- author: Crono209
+- author: Dasprino007
   changes:
   - type: Add
-    message: Volta o mapa Barratry
+    message: Volta o mapa Barratry (essa mudança estava listada com o autor errado, corrigi agora)
   time: '2024-03-02T00:00:00-03:00'
 
 - author: Criso
