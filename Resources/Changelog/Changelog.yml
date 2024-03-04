@@ -3960,7 +3960,7 @@
 - author: Criso
   changes:
   - type: Add
-    message: Adiciona o mapa Falcon do Corvax
+    message: Adiciona o mapa original Falcon
   time: '2024-03-04T00:00:00-03:00'
 
 - author: Day-OS
@@ -3972,7 +3972,7 @@
 - author: DoutorWhite
   changes:
   - type: Fix
-    message: Correções para que o mapa Falcon funcionem corretamente no Pirata 
+    message: Correções para que o mapa Falcon funcione corretamente no Pirata 
   - type: Fix
     message: Traduz os documentos da impressora
   time: '2024-03-04T00:00:00-03:00'
