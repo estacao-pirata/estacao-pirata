@@ -100,11 +100,14 @@
       normalBodyTemperature: 400
       thermalRegulationTemperatureThreshold: 125
 
+
 - type: entity
   parent: PlayerSiliconBaseIndividual
   id: PlayerSiliconHumanoidBase
   abstract: true
   components:
+    - type: Deathgasp
+      prototype: SiliconDeathgasp
     - type: MobState
       allowedStates:
         - Alive
