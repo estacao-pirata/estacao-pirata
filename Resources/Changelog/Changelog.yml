@@ -3976,3 +3976,29 @@
   - type: Fix
     message: Traduz os documentos da impressora
   time: '2024-03-04T00:00:00-03:00'
+
+- author: Day-OS
+  changes:
+  - type: Add
+    message: Adiciona DeathGasp para seres de silício
+  - type: Add
+    message: Adiciona guia de funcionamento do IPC
+  - type: Add
+    message: Adiciona traduções das telas e das antenas do IPC
+  - type: Tweak
+    message: Unifica cerebro positrônico com o sistema wizden
+  - type: Tweak
+    message: Unifica recarregamento do IPC com o sistema wizden
+  - type: Tweak
+    message: Torna IPCs MUITO vulneráveis a calor e a choques elétricos
+  - type: Tweak
+    message: Move slots de tela para Cabeça (lados) em marcas do corpo
+  - type: Tweak
+    message: Torna IPCs abraçáveis
+  - type: Tweak
+    message: Remove capacidade de IPCs possuirem barbas
+  - type: Fix
+    message: Erro de digitação da mensagem silicon-overheating 
+  
+  
+  time: '2024-03-05T00:02:49-03:00'
