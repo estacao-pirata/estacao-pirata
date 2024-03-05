@@ -59,6 +59,9 @@
     templateId: ipc
   - type: EyeProtection
     protectionTime: 12
+  - type: GuideHelp
+    guides:
+      - IPCs
   
   - type: Silicon
     entityType: enum.SiliconType.Player
