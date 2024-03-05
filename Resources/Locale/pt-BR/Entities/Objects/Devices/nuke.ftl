@@ -1,11 +1,10 @@
-ent-NuclearBomb = nuclear fission explosive
-    .desc = You probably shouldn't stick around to see if this is armed.
+ent-NuclearBomb = explosivo de fissão nuclear
+    .desc = Você provavelmente não deveria ficar por aqui para ver se isso está armado.
 
-ent-NuclearBombUnanchored = nuclear fission explosive
-    .desc = You probably shouldn't stick around to see if this is armed.
-    .suffix = unanchored
+ent-NuclearBombUnanchored = explosivo de fissão nuclear
+    .desc = Você provavelmente não deveria ficar por aqui para ver se isso está armado.
+    .suffix = Não ancorado
 
-ent-NuclearBombKeg = nuclear fission explosive
-    .desc = You probably shouldn't stick around to see if this is armed. It has a tap on the side.
-    .suffix = keg
-
+ent-NuclearBombKeg = explosivo de fissão nuclear
+    .desc = Você provavelmente não deveria ficar por aqui para ver se isso está armado. Possui torneira lateral.
+    .suffix = Barril

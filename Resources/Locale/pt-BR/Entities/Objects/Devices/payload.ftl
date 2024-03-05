@@ -1,9 +1,8 @@
-ent-ExplosivePayload = explosive payload
+ent-ExplosivePayload = carga explosiva
     .desc = { "" }
 
-ent-ChemicalPayload = chemical payload
-    .desc = A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
+ent-ChemicalPayload = carga química
+    .desc = Uma carga química. Possui espaço para guardar dois copos. Em combinação com um gatilho e uma caixa, isso pode ser usado para iniciar reações químicas.
 
-ent-FlashPayload = flash payload
-    .desc = A single-use flash payload.
-
+ent-FlashPayload = carga flash
+    .desc = Uma carga flash de uso único.

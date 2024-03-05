@@ -1,3 +1,3 @@
-ent-Mousetrap = mousetrap
-    .desc = Useful for catching rodents sneaking into your kitchen.
+ent-Mousetrap = ratoeira
+    .desc = Útil para capturar roedores entrando furtivamente em sua cozinha.
 

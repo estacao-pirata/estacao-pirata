@@ -44,6 +44,6 @@ device-address-examine-message = O endereço do dispositivo é {$address}.
 device-net-id-private = Privado
 device-net-id-wired = Com fio
 device-net-id-wireless = Sem fio
-device-net-id-apc = Apc
+device-net-id-apc = APC
 device-net-id-atmos-devices = Dispositivos Atmos
 device-net-id-reserved = Reservado

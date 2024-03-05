@@ -1,3 +1,2 @@
-ent-ForensicScanner = forensic scanner
-    .desc = A handheld device that can scan objects for fingerprints and fibers.
-
+ent-ForensicScanner = scanner forense
+    .desc = Um dispositivo portátil que pode escanear objetos em busca de impressões digitais e fibras.
