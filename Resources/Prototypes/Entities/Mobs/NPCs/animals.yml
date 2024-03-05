@@ -1574,7 +1574,7 @@
   - type: PreventSpiller
   - type: Puller
     needsHands: true
-  - type: FelinidFood # Nyanotrasen - Felinid, ability to eat mice, see Content.Server/Nyanotrasen/Abilities/Felinid/FelinidSystem.cs
+  
 
 - type: entity
   parent: MobMouse
