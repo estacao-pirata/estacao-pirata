@@ -351,3 +351,33 @@
     path: /Audio/Animals/kangaroo_grunt.ogg
     params:
       variation: 0.125
+
+- type: emoteSounds
+  id: UnisexIPC
+  params:
+    variation: 0.125
+  sounds:
+    Buzz:
+      path: /Audio/Voice/Talk/pai.ogg
+    Scream:
+      collection: RobotBeeps
+    Laugh:
+      path: /Audio/Voice/Talk/pai.ogg
+    Chitter:
+      path: /Audio/Voice/Talk/pai.ogg
+    Squeak:
+      path: /Audio/Voice/Talk/pai.ogg
+    CatMeow:
+      collection: CatMeows
+    CatHisses:
+      collection: CatHisses
+    MonkeyScreeches:
+      collection: MonkeyScreeches
+    RobotBeep:
+      collection: RobotBeeps
+    Sigh:
+      collection: RobotBeeps
+    Crying:
+      collection: RobotBeeps
+    Whistle:
+      collection: RobotBeeps
