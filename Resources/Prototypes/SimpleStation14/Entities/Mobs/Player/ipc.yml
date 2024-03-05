@@ -57,8 +57,6 @@
   - type: SiliconDownOnDead
   - type: Inventory
     templateId: ipc
-  - type: EyeProtection
-    protectionTime: 12
   - type: GuideHelp
     guides:
       - IPCs

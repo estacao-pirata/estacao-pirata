@@ -12,11 +12,11 @@
    <Box>
     <GuideEntityEmbed Entity="APCBasic" Caption="Terminal APC"/>
     <GuideEntityEmbed Entity="BorgCharger" Caption="Recarregador para Borgs"/>
-    <GuideEntityEmbed Entity="PowerCell" Caption="Célula de energia"/>
+    <GuideEntityEmbed Entity="PowerCellMedium" Caption="Célula de energia"/>
   </Box>
   IPCs podem ser recarregados de três maneiras diferentes.
 
-  Terminal APC: IPCs podem utilizar de terminais APC para se carregarem. Pressione [color=yellow]Alt + click esquerdo/color] em um terminal quantas vezes forem necessárias para carregar até o final.
+  Terminal APC: IPCs podem utilizar de terminais APC para se carregarem. Pressione [color=yellow]Alt + click esquerdo[/color] em um terminal quantas vezes forem necessárias para carregar até o final.
 
   Recarregadores para Borgs: IPCs podem usar  recarregadores para borgs para se carregarem. Sempre priorize os que estão do lado de fora da Sci, pois evitará dores de cabeça.
 

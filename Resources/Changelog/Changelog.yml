@@ -4001,6 +4001,10 @@
     message: Torna IPCs capazes de receber dano por EMP e stunbattons 
   - type: Tweak
     message: Torna IPCs capazes de usar óculos
+  - type: Tweak
+    message: Reajusta as vozes dos emotes do IPC para serem o beep do PAI
+  - type: Tweak
+    message: Torna IPCs cegáveis no momento de usarem welding (câmeras são tão cegáveis quanto olhos)
   - type: Fix
     message: Erro de digitação da mensagem silicon-overheating 
   time: '2024-03-05T00:03:55-03:00'
