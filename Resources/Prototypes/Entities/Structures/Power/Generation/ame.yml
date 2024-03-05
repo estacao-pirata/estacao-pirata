@@ -1,7 +1,7 @@
 - type: entity
   id: AmeController
-  name: AME controller
-  description: It's a controller for the antimatter engine.
+  name: controlador RAM
+  description: É um controlador para o mecanismo de antimatéria.
   placement:
     mode: SnapgridCenter
   components:
@@ -112,8 +112,8 @@
 
 - type: entity
   id: AmeShielding
-  name: AME shielding
-  description: Keeps the antimatter in and the matter out.
+  name: blindagem RAM
+  description: Mantém a antimatéria dentro e a matéria fora.
   placement:
     mode: SnapgridCenter
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AmeJar
-  name: AME fuel jar
-  description: A hermetically sealed jar containing antimatter for use in an antimatter reactor.
+  name: jarra de combustível RAM
+  description: Um frasco hermeticamente fechado contendo antimatéria para uso em um reator de antimatéria.
   components:
   - type: Item
     size: Normal
