@@ -1,0 +1,40 @@
+<Document>
+  # I.P.C.
+  <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
+  Um I.P.C. (Sigla para Integrated Positronic Chassis) são uma uma espécie de robôs sentientes e são considerados [color=yellow]individuos independentes[/color], isto é, [color=red]não são guiados por qualquer leis da robótica[/color]. IPCs não podem ser hackeados por Emags por conta de não terem que seguir nenhuma diretriz pré definida em seu sistema. [color=red]IPCs são seres de silício, portanto eles não são responsabilidade da área médica, evite perturba-los!!![/color]
+  
+  <Box>
+    <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
+  </Box>
+  Assim como os cyborgs, os I.P.C. possuem um cérebro positrônico como sua fonte de processamento. Porém, diferentemente deles, I.P.Cs não são montáveis. "É mais barato criar uma carcaça que te obedece do que uma que não! *piscadinha*"
+
+  ## Recarregamento de um IPC
+   <Box>
+    <GuideEntityEmbed Entity="APCBasic" Caption="Terminal APC"/>
+    <GuideEntityEmbed Entity="BorgCharger" Caption="Recarregador para Borgs"/>
+    <GuideEntityEmbed Entity="PowerCell" Caption="Célula de energia"/>
+  </Box>
+  IPCs podem ser recarregados de três maneiras diferentes.
+
+  Terminal APC: IPCs podem utilizar de terminais APC para se carregarem. Pressione [color=yellow]Alt + click esquerdo/color] em um terminal quantas vezes forem necessárias para carregar até o final.
+
+  Recarregadores para Borgs: IPCs podem usar  recarregadores para borgs para se carregarem. Sempre priorize os que estão do lado de fora da Sci, pois evitará dores de cabeça.
+
+  Célula de energia: IPCs possuem como fonte de bateria uma Célula de energia interna em que ele pode simplesmente trocar abrindo a escotilha e a trocando manualmente. 
+
+  ## Rádio integrado
+  <Box>
+    <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Chave de encriptação"/>
+  </Box>
+
+  IPCs não utilizam rádios externos pois eles já possuem um embutido, sendo necessário apenas retirar a chave de encriptação de um rádio. Clicando com um cortador de cabo em um IPC, é possível retirar suas chaves.
+  É possível encontrar novas chaves pela estação ou retirar alguma de um rádio do setor utilizando uma chave de fenda.
+
+  ## Reparo
+  <Box>
+    <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Soldador"/>
+  </Box>
+
+  IPCs podem se reparar e serem reparados a partir de um soldador. Tenha certeza de que o soldador possui combustível suficiente para o trabalho!
+</Document>
+
