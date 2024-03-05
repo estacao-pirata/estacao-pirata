@@ -255,7 +255,7 @@
   id: SiliconDeathgasp
   chatMessages: ["silicon-emote-deathgasp"]
   chatTriggers:
-  - deathgasp
+  - sdeathgasp
 
 - type: emote
   id: Buzz
