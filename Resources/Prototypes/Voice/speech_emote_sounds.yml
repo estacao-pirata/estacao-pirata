@@ -360,7 +360,7 @@
     Buzz:
       path: /Audio/Voice/Talk/pai.ogg
     Scream:
-      collection: RobotBeeps
+      path: /Audio/Voice/Talk/pai.ogg
     Laugh:
       path: /Audio/Voice/Talk/pai.ogg
     Chitter:
@@ -374,10 +374,10 @@
     MonkeyScreeches:
       collection: MonkeyScreeches
     RobotBeep:
-      collection: RobotBeeps
+      path: /Audio/Voice/Talk/pai.ogg
     Sigh:
-      collection: RobotBeeps
+      path: /Audio/Voice/Talk/pai.ogg
     Crying:
-      collection: RobotBeeps
+      path: /Audio/Voice/Talk/pai.ogg
     Whistle:
-      collection: RobotBeeps
+      path: /Audio/Voice/Talk/pai.ogg
