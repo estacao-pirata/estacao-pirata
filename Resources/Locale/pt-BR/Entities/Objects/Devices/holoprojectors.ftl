@@ -1,6 +1,5 @@
-ent-Holoprojector = holographic sign projector
-    .desc = A handy-dandy holographic projector that displays a janitorial sign.
+ent-Holoprojector = projetor holográfico
+    .desc = Um projetor holográfico prático que exibe uma placa de zeladoria.
 
-ent-HolofanProjector = holofan projector
-    .desc = Stop suicidal passengers from killing everyone during atmos emergencies.
-
+ent-HolofanProjector = projetor holo-ventilador
+    .desc = Impedir que passageiros suicidas matem todos durante emergências atmosféricas.

@@ -17,9 +17,9 @@ power-monitoring-window-value = { POWERWATTS($value) }
 power-monitoring-window-show-inactive-consumers = Mostrar consumidores inativos
 
 power-monitoring-window-show-cable-networks = Alternar redes de cabos
-power-monitoring-window-show-hv-cable = Alta tensão
-power-monitoring-window-show-mv-cable = Média tensão
-power-monitoring-window-show-lv-cable = Baixa tensão
+power-monitoring-window-show-hv-cable = Alta Tensão
+power-monitoring-window-show-mv-cable = Média Tensão
+power-monitoring-window-show-lv-cable = Baixa Tensão
 
 power-monitoring-window-flavor-left = [user@nanotrasen] $run power_net_query
 power-monitoring-window-flavor-right = v1.3
