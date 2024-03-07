@@ -65,7 +65,7 @@ ent-ClothingUniformJumpsuitHoSBlue = macacão azul do chefe de segurança
     .desc = Um macacão azul do Chefe de Segurança.
 
 ent-ClothingUniformJumpsuitHoSGrey = macacão cinza do chefe de segurança
-    .desc = Macacão cinza do Chefe de Segurança, que o faz parecer um passageiro.
+    .desc = Macacão cinza do Chefe de Segurança, que o faz parecer um assistente.
 
 ent-ClothingUniformJumpsuitHoSParadeMale = uniforme de desfile do chefe da segurança
     .desc = Um chefe masculino de roupas de luxo da segurança, para ocasiões especiais.

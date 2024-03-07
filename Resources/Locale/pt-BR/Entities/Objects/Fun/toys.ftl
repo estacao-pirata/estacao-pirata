@@ -49,8 +49,8 @@ ent-ToyAi = AI toy
 ent-ToyNuke = nuke toy
     .desc = A plastic model of a Nuclear Fission Explosive. No uranium included... probably.
 
-ent-ToyAssistant = passenger toy
-    .desc = Grey tide world wide!
+ent-ToyAssistant = brinquedo de assistente
+    .desc = Tide cinza em todo o mundo!
 
 ent-ToyGriffin = griffin toy
     .desc = An action figure modeled after 'The Griffin', criminal mastermind.

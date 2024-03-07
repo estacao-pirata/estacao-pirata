@@ -23,7 +23,7 @@ ent-PosterContrabandSmoke = Smoke
     .desc = A poster advertising a rival corporate brand of cigarettes.
 
 ent-PosterContrabandGreyTide = Grey Tide
-    .desc = A rebellious poster symbolizing passenger solidarity.
+    .desc = Um pôster rebelde simbolizando solidariedade assistente.
 
 ent-PosterContrabandMissingGloves = Missing Gloves
     .desc = This poster references the uproar that followed Nanotrasen's financial cuts toward insulated-glove purchases.

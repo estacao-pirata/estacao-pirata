@@ -43,7 +43,7 @@ ent-ClothingHeadsetSecurity = fone de ouvido da segurança
 ent-ClothingHeadsetService = fone de ouvido de serviço
     .desc = Um fone de ouvido utilizado pelo pessoal do Departamento de Serviços, aqueles que mantém a estação limpa e organizada.
 
-ent-ClothingHeadsetGrey = fone de ouvido de passageiro
+ent-ClothingHeadsetGrey = fone de ouvido de assistente
     .desc = Um fone de ouvido utilizado pela população desempregada.
 
 ent-ClothingHeadsetFreelance = fone de ouvido de nômade
