@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: DefibrillatorCabinet
-  name: defibrillator cabinet
-  description: A small wall mounted cabinet designed to hold a defibrillator.
+  name: gabinete de desfibrilador
+  description: Um pequeno gabinete montado na parede projetado para acomodar um desfibrilador.
   components:
     - type: WallMount
       arc: 90

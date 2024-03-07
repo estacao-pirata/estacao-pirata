@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   id: ArcadeBase
-  description: An arcade cabinet.
+  description: Um gabinete de fliperama.
   name: arcade
   parent: BaseComputer
   components:
@@ -30,7 +30,7 @@
 
 - type: entity
   id: SpaceVillainArcade
-  name: space villain arcade
+  name: arcade de vilões espaciais
   parent: ArcadeBase
   components:
   - type: SpaceVillainArcade
@@ -116,8 +116,8 @@
 
 - type: entity
   id: BlockGameArcade
-  description: An arcade cabinet with a strangely familiar game.
-  name: NT block game
+  description: Um gabinete de fliperama com um jogo estranhamente familiar.
+  name: Arcade de Bloco NT
   parent: ArcadeBase
   components:
   - type: Sprite

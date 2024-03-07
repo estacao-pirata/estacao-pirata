@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ExtinguisherCabinet
-  name: extinguisher cabinet
-  description: A small wall mounted cabinet designed to hold a fire extinguisher.
+  name: gabinete de extintor
+  description: Um pequeno armário montado na parede projetado para conter um extintor de incêndio.
   components:
     - type: WallMount
       arc: 360
