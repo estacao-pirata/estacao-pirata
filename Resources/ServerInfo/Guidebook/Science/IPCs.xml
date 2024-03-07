@@ -1,7 +1,7 @@
 <Document>
   # I.P.C.
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
-  Um I.P.C. (Sigla para Integrated Positronic Chassis) são uma uma espécie de robôs sentientes e são considerados [color=yellow]individuos independentes[/color], isto é, [color=red]não são guiados por qualquer leis da robótica[/color]. IPCs não podem ser hackeados por Emags por conta de não terem que seguir nenhuma diretriz pré definida em seu sistema. [color=red]IPCs são seres de silício, portanto eles não são responsabilidade da área médica, evite perturba-los!!![/color]
+  Um I.P.C. (Sigla para Integrated Positronic Chassis) são uma uma espécie de robôs sentientes e são considerados [color=yellow]individuos independentes[/color], isto é, [color=red]não são guiados por qualquer leis da robótica[/color]. IPCs não podem ser hackeados por Emags por conta de não terem que seguir nenhuma diretriz pré definida em seu sistema. [color=red]IPCs são seres de silício, portanto médicos não tem as habilidades para repará-los.[/color]
   
   <Box>
     <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
