@@ -1,8 +1,8 @@
 #bureaucracy
 - type: construction
   id: FilingCabinet
-  name: armário de arquivo
-  description: Um armário para todas as suas necessidades de arquivamento.
+  name: filing cabinet
+  description: A cabinet for all your filing needs.
   graph: FilingCabinet
   startNode: start
   targetNode: filingCabinet
@@ -18,8 +18,8 @@
 
 - type: construction
   id: TallCabinet
-  name: armário de arquivo alto
-  description: Um armário para todas as suas necessidades de arquivamento.
+  name: tall cabinet
+  description: A cabinet for all your filing needs.
   graph: FilingCabinet
   startNode: start
   targetNode: tallCabinet
@@ -35,8 +35,8 @@
 
 - type: construction
   id: ChestDrawer
-  name: armário de arquivo da gaveta
-  description: Uma pequena gaveta para todas as suas necessidades de arquivo, agora com rodas!
+  name: chest drawer
+  description: A small drawer for all your filing needs, Now with wheels!
   graph: FilingCabinet
   startNode: start
   targetNode: chestDrawer

@@ -1,9 +1,9 @@
 - type: entity
-  name: armário de arquivo
+  name: filing cabinet
   parent: [ BaseStructureDynamic, BaseBagOpenClose ]
   id: filingCabinet
   suffix: Empty
-  description: Um armário para todas as suas necessidades de arquivamento.
+  description: A cabinet for all your filing needs.
   components:
   - type: Storage
     grid:
@@ -69,7 +69,7 @@
     price: 20
 
 - type: entity
-  name: armário de arquivo alto
+  name: tall cabinet
   parent: filingCabinet
   id: filingCabinetTall
   suffix: Empty
@@ -87,11 +87,11 @@
     node: tallCabinet
 
 - type: entity
-  name: armário de arquivo da gaveta
+  name: chest drawer
   parent: BaseStructureDynamic
   id: filingCabinetDrawer
   suffix: Empty
-  description: Uma pequena gaveta para todas as suas necessidades de arquivo, agora com rodas!
+  description: A small drawer for all your filing needs, Now with wheels!
   components:
   - type: Storage
     grid:
