@@ -1,7 +1,7 @@
 ent-BasePDA = PDA
     .desc = Assistente de dados pessoais.
 
-ent-PassengerPDA = PDA do passageiro
+ent-PassengerPDA = PDA do assistente
     .desc = Por que não é cinza?
 
 ent-TechnicalAssistantPDA = PDA de assistente técnico
@@ -86,7 +86,7 @@ ent-WardenPDA = PDA de carceiro
     .desc = O sistema operacional parece ter sido desbloqueado.
 
 ent-SecurityPDA = PDA de segurança
-    .desc = Vermelho para esconder as manchas de sangue dos passageiros.
+    .desc = Vermelho para esconder as manchas de sangue dos assistentes.
 
 ent-CentcomPDA = PDA de CentCom
     .desc = Coloriu o cinza entorpecente da burocracia.

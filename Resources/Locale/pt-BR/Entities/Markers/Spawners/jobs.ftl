@@ -18,7 +18,7 @@ ent-SpawnPointSalvageSpecialist = salvagespecialist
     .desc = { "" }
     .suffix = Job Spawn
 
-ent-SpawnPointAssistant = passenger
+ent-SpawnPointAssistant = assistente
     .desc = { "" }
     .suffix = Job Spawn
 
