@@ -3983,16 +3983,8 @@
     message: Adiciona DeathGasp para seres de silício
   - type: Add
     message: Adiciona guia de funcionamento do IPC
-  - type: Add
-    message: Adiciona traduções das telas e das antenas do IPC
-  - type: Tweak
-    message: Unifica cerebro positrônico com o sistema wizden
-  - type: Tweak
-    message: Unifica recarregamento do IPC com o sistema wizden
   - type: Tweak
     message: Torna IPCs MUITO vulneráveis a calor e a choques elétricos
-  - type: Tweak
-    message: Move slots de tela para Cabeça (lados) em marcas do corpo
   - type: Tweak
     message: Torna IPCs abraçáveis
   - type: Tweak
@@ -4005,6 +3997,16 @@
     message: Reajusta as vozes dos emotes do IPC para serem o beep do PAI
   - type: Tweak
     message: Torna IPCs cegáveis no momento de usarem welding (câmeras são tão cegáveis quanto olhos)
-  - type: Fix
-    message: Erro de digitação da mensagem silicon-overheating 
-  time: '2024-03-05T00:03:55-03:00'
+  time: '2024-03-07T03:30:00-03:00'
+
+- author: SimaZao
+  changes:
+  - type: Add
+    message: Tradução de varias entidades
+  time: '2024-03-07T03:30:00-03:00'
+
+- author: Crono209
+  changes:
+  - type: Add
+    message: Adiciona espécie Felinídeo
+  time: '2024-03-07T03:30:00-03:00'
