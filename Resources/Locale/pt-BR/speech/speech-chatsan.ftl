@@ -220,8 +220,10 @@ chatsan-word-78 = sla
 chatsan-replacement-78 = sei lá
 
 chatsan-word-79 = slk
+chatsan-replacement-79 = sê é loco
+
 chatsan-word-80 = slc
-chatsan-replacement-sei-la-cara = sei la cara
+chatsan-replacement-80 = sei la cara
 
 chatsan-word-81 = tbm
 chatsan-word-82 = tb
