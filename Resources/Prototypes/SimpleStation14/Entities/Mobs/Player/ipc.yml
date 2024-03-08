@@ -29,6 +29,7 @@
   - type: NpcFactionMember
     factions:
       - NanoTrasen
+  - type: StandingState
   - type: MobState
     allowedStates:
       - Alive
@@ -60,7 +61,6 @@
   - type: GuideHelp
     guides:
       - IPCs
-  
   - type: Silicon
     entityType: enum.SiliconType.Player
     batteryPowered: true

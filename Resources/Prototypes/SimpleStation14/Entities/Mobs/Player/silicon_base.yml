@@ -148,7 +148,6 @@
     #  bloodlossHealDamage:
     #    types:
     #      Burn: 0
-    - type: UnblockableSpeech
     - type: Flashable
     - type: Flammable
       fireSpread: true
