@@ -14,7 +14,7 @@
       time: 108000
   weight: 10
   startingGear: BlueshieldGear
-  icon: "Blueshield"
+  icon: "JobIconBlueshield"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
@@ -28,7 +28,9 @@
   - Brig
   - Engineering
   - External
-  
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: BlueshieldGear
