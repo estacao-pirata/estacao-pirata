@@ -5,6 +5,7 @@ job-description-botanist = Cultive alimentos para o chef, remédios para o medba
 job-description-borg = Meio-humano, meia-máquina. Siga suas leis, sirva a tripulação e aperte a equipe científica para atualizações.
 job-description-boxer = Lute para chegar ao topo! Desafie o chefe de pessoal e seja preso quando vencer. Atualmente disponível no Core e Origin Station.
 job-description-cadet = Aprenda o básico sobre como prender criminosos e gerenciar a prisão. Ouça seus supervisores e sinta-se à vontade para pedir ajuda.
+job-description-blueshield = Proteja os oficiais do comando de qualquer perigo que se manifeste na estação.
 job-description-captain = Mantenha a estação funcionando, delegue trabalho aos demais chefes de equipe e exerça sua vontade.
 job-description-cargotech = Lidar com requisições e entregas, pilotar o transporte de carga até a estação comercial e voltar, e trabalhar com outros para ganhar quantias ridículas de dinheiro e depois desperdiçar tudo no jogo.
 job-description-ce = Gerenciar o departamento de engenharia para garantir que a energia, a atmosfera e o casco estejam em perfeitas condições.
