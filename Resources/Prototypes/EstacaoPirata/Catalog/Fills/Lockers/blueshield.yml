@@ -1,8 +1,8 @@
 
 - type: entity
-  id: LockerBSFilled
+  id: LockerBlueshieldFilled
   suffix: Filled
-  parent: LockerBS
+  parent: LockerBlueshield
   components:
   - type: StorageFill
     contents:

@@ -4,7 +4,7 @@
     "x": 32,
     "y": 32
   },
-  "copyright": "Taken from tgstation, brigmedic locker is a resprited CMO locker by PuroSlavKing (Github)",
+  "copyright": "Taken from tgstation, brigmedic locker is a resprited CMO locker by PuroSlavKing (Github), the Blueshield locker was made by furones",
   "license": "CC-BY-SA-3.0",
   "states": [
     {
@@ -33,6 +33,15 @@
     },
     {
       "name": "brigmedic"
+    },
+    {
+        "name" : "bs"
+    },
+    {
+        "name" : "bs_door"
+    },
+    {
+        "name" : "bs_open"
     },
     {
       "name": "armory"
