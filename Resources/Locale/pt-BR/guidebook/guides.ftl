@@ -57,9 +57,10 @@ guide-entry-traitors = Traidores
 guide-entry-zombies = Zumbis
 guide-entry-revolutionaries = Revolucionários
 guide-entry-minor-antagonists = Antagonistas Menores
-guide-entry-space-ninja = Space Ninja
+guide-entry-space-ninja = Ninja Espacial
 
 guide-entry-writing = Escrita
 guide-entry-lei-espacial = Lei Espacial
 guide-entry-codigo-penal = Código Penal
+guide-entry-IPCs = IPCs
 guide-entry-glossary = glossário

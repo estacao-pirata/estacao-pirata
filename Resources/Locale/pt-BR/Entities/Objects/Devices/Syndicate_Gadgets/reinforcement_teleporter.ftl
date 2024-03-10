@@ -1,3 +1,2 @@
-ent-ReinforcementTeleporterSyndicate = syndicate reinforcement teleporter
-    .desc = Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
-
+ent-ReinforcementTeleporterSyndicate = teletransportador de reforço do Sindicato
+    .desc = Chame um agente do Sindicato de qualidade questionável, instantaneamente! Apenas equipamento básico fornecido.

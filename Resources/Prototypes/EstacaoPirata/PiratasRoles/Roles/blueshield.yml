@@ -1,7 +1,7 @@
 - type: job
   id: Blueshield
   name: job-name-blueshield
-  description: job-description-hop
+  description: job-description-blueshield
   playTimeTracker: JobBlueshield
   requirements:
     - !type:DepartmentTimeRequirement
@@ -17,7 +17,7 @@
       time: 108000
   weight: 10
   startingGear: BlueshieldGear
-  icon: "JobIconSecurityOfficer"
+  icon: "JobIconBlueshield"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
@@ -29,7 +29,9 @@
   - Medical
   - Brig
   - External
-
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: BlueshieldGear

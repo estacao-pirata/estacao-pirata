@@ -272,6 +272,7 @@
   - type: GuideHelp
     guides:
     - MinorAntagonists
+  
 
 - type: weightedRandomEntity
   id: RatKingLoot

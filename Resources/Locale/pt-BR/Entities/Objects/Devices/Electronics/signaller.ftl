@@ -1,3 +1,2 @@
-ent-RemoteSignaller = remote signaller
-    .desc = A handheld device used for remotely sending signals to objects.
-
+ent-RemoteSignaller = sinalizador remoto
+    .desc = Um dispositivo portátil usado para enviar sinais remotamente para objetos.

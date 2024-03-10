@@ -1,9 +1,8 @@
-ent-HoloparasiteInjector = holoparasite injector
-    .desc = A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
+ent-HoloparasiteInjector = injetor holoparasita
+    .desc = Uma obra de arte complexa de maquinário portátil que permite ao usuário hospedar um guardião holoparasita.
 
-ent-MagicalLamp = magical lamp
-    .desc = The wizard federation had to cut costs after the jinn merchandise scandal somehow.
+ent-MagicalLamp = lâmpada mágica
+    .desc = A federação de bruxos teve que cortar custos de alguma forma depois do escândalo das mercadorias dos gênios.
 
-ent-BoxHoloparasite = holoparasite box
-    .desc = A box containing a holoparasite injector
-
+ent-BoxHoloparasite = caixa holoparasita
+    .desc = Uma caixa contendo um injetor holoparasita

@@ -3911,7 +3911,7 @@
     message: Adicionado uma nova página no guidebook somente para receitas únicas do Pirata!
   time: '2024-02-20T13:22:12-03:00'
 
-- author: Day-OS 
+- author: Day-OS
   changes:
   - type: Add
     message: Adiciona Conjunto de colegial (Encontrado no Clothesmate)
@@ -3972,7 +3972,78 @@
 - author: DoutorWhite
   changes:
   - type: Fix
-    message: Correções para que o mapa Falcon funcione corretamente no Pirata 
+    message: Correções para que o mapa Falcon funcione corretamente no Pirata
   - type: Fix
     message: Traduz os documentos da impressora
   time: '2024-03-04T00:00:00-03:00'
+
+- author: Day-OS
+  changes:
+  - type: Add
+    message: Adiciona DeathGasp para seres de silício
+  - type: Add
+    message: Adiciona guia de funcionamento do IPC
+  - type: Tweak
+    message: Torna IPCs MUITO vulneráveis a calor e a choques elétricos
+  - type: Tweak
+    message: Torna IPCs abraçáveis
+  - type: Tweak
+    message: Remove capacidade de IPCs possuirem barbas
+  - type: Tweak
+    message: Torna IPCs capazes de receber dano por EMP e stunbattons
+  - type: Tweak
+    message: Torna IPCs capazes de usar óculos
+  - type: Tweak
+    message: Reajusta as vozes dos emotes do IPC para serem o beep do PAI
+  - type: Tweak
+    message: Torna IPCs cegáveis no momento de usarem welding (câmeras são tão cegáveis quanto olhos)
+  time: '2024-03-07T03:30:00-03:00'
+
+- author: SimaZao
+  changes:
+  - type: Add
+    message: Tradução de varias entidades
+  time: '2024-03-07T03:30:00-03:00'
+
+- author: Crono209
+  changes:
+  - type: Add
+    message: Adiciona espécie Felinídeo
+  time: '2024-03-07T03:30:00-03:00'
+
+- author: Day-OS
+  changes:
+  - type: Fix
+    message: >-
+      Consertos diversos de IPC: Não caía morto, falava em crit, ficava com lesão ocular pra sempre e não tomava slip
+  - type: Add
+    message: Adiciona efeitos sonoros pros emotes de IPC
+  - type: Add
+    message: Adiciona resprites de Vulp e máscaras e capacetes com focinho
+  time: '2024-03-10T11:00:00-03:00'
+
+- author: Dasprino007
+  changes:
+  - type: Add
+    message: Adiciona nos protótipos diversos sprites de blueshield do Furones que existiam mas não eram utilizados
+  time: '2024-03-10T11:00:00-03:00'
+
+- author: SimaZao
+  changes:
+  - type: Tweak
+    message: Renomeia Passageiro de volta pra Assistente
+  - type: Tweak
+    message: Mais correções em tradução
+  time: '2024-03-10T11:00:00-03:00'
+
+- author: DoutorWhite
+  changes:
+  - type: Fix
+    message: Conserta glitch e vôo de ninja stealth dentro dágua
+  time: '2024-03-10T11:00:00-03:00'
+
+- author: rber
+  changes:
+  - type: Fix
+    message: Corrige Opporozidona não reverter estados de podridão
+  time: '2024-03-10T11:00:00-03:00'
