@@ -211,6 +211,13 @@ public sealed class RottingSystem : SharedRottingSystem
             perishable.RotAccumulator = TimeSpan.Zero;
         else
             perishable.RotAccumulator = total;
+
+        var stage = PerishStage((uid, perishable), MaxStages);
+        if (stage != perishable.Stage)
+        {
+            perishable.Stage = stage;
+            Dirty(uid, perishable);
+        }
     }
 
 
