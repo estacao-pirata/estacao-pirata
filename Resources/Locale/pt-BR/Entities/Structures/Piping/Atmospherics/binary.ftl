@@ -1,21 +1,21 @@
 ent-GasPressurePump = bomba de gás
-    .desc = A pump that moves gas by pressure.
+    .desc = Uma bomba que movimenta gás por pressão.
 
 ent-GasVolumePump = bomba volumétrica de gás
-    .desc = A pump that moves gas by volume.
+    .desc = Uma bomba que movimenta gás por volume.
 
 ent-GasPassiveGate = válvula de retenção
-    .desc = A one-way air valve that does not require power.
+    .desc = Uma válvula de ar unidirecional que não requer energia.
 
 ent-GasValve = válvula manual
-    .desc = A pipe with a valve that can be used to disable the flow of gas through it.
+    .desc = Um tubo com uma válvula que pode ser usada para desativar o fluxo de gás através dele.
 
 ent-GasPort = porta conectora
-    .desc = For connecting portable devices related to atmospherics control.
+    .desc = Para conectar dispositivos portáteis relacionados ao controle atmosférico.
 
 ent-GasDualPortVentPump = grade de ventilação dupla
-    .desc = Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning.
+    .desc = Possui uma válvula e uma bomba acopladas a ele. Há duas portas, uma é uma entrada para liberar ar e a outra é uma saída para sifonar.
 
-ent-GasRecycler = reciclador de ar
-    .desc = Recycles carbon dioxide and nitrous oxide. Heater and compressor not included.
+ent-GasRecycler = reciclador de gás
+    .desc = Recicla o dióxido de carbono e o óxido nitroso. Aquecedor e compressor não incluídos.
 

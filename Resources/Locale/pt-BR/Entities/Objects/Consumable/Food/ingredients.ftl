@@ -76,3 +76,5 @@ ent-FoodCheeseSlice = fatia de queijo
 ent-FoodBadRecipe = bagunça queimada
      .desc = Alguém deveria ser rebaixado de cozinheiro por isso.
 
+ent-FoodCocoaBeans = grãos de cacau
+     .desc = Não existe exagero quando o assunto é chocolate!
