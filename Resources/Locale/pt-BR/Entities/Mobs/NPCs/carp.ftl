@@ -6,7 +6,7 @@ ent-MobCarp = carpa espacial
     .desc = É uma carpa espacial.
     .suffix = Irritado
 
-ent-MobCarpMagic = magicarp
+ent-MobCarpMagic = magicarpa
     .desc = Parece algum tipo de peixe. Pode ser mágico.
     .suffix = Irritado
 
@@ -19,5 +19,5 @@ ent-MobCarpSalvage = holocarpa
     .suffix = Salvage Ruleset
 
 ent-MobCarpDragon = carpa espacial
-    .desc = Uma carpa de uma dimensão de terrores. Vida a serviço do Dragão.
+    .desc = Uma carpa de uma dimensão de terrores. Vive a serviço do Dragão.
     .suffix = DragonBrood

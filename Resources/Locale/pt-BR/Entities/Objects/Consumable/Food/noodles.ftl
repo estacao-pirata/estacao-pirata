@@ -5,7 +5,7 @@ ent-FoodNoodles = espaguete
      .desc = Espaguete e tomate esmagado. Exatamente como seu pai abusivo costumava fazer!
 
 ent-FoodNoodlesCopy = copypasta
-     .desc = Você provavelmente não deveria tentar isso, você sempre ouve pessoas falando sobre como isso é ruim...
+     .desc = Você provavelmente não deveria comer um, você sempre ouve pessoas falando sobre como isso é ruim...
 
 ent-FoodNoodlesMeatball = espaguete e almôndegas
      .desc = Isso é uma bela almôndega!

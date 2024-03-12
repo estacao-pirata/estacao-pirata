@@ -6,3 +6,6 @@ ent-Eggshells = cascas de ovo
 
 ent-FoodEgg = ovo
      .desc = Você está pisando neles, amigo.
+
+ent-FoodEggBoiled = ovo cozido
+     .desc = Um delicioso ovo cozido.

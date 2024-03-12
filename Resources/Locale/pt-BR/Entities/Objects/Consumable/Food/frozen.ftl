@@ -13,11 +13,11 @@ ent-FoodFrozenSundae = sundae de sorvete
 ent-FoodFrozenCornuto = cornuto
      .desc = Uma casquinha de sorvete napolitana de baunilha e chocolate. Ameaça com uma pitada de nozes caramelizadas.
 
-ent-FoodFrozenPopsicleOrange = creme de laranja
-     .desc = Um clássico creme de laranja. Um deleite ensolarado e congelado.
+ent-FoodFrozenPopsicleOrange = picolé de laranja
+     .desc = Um clássico picolé de laranja. Um deleite ensolarado e congelado.
 
-ent-FoodFrozenPopsicleBerry = creme de frutas vermelhas
-     .desc = Um creme vibrante de frutas vermelhas. Uma boa guloseima congelada.
+ent-FoodFrozenPopsicleBerry = picolé de frutas vermelhas
+     .desc = Um picolé vibrante de frutas vermelhas. Uma boa guloseima congelada.
 
 ent-FoodFrozenPopsicleJumbo = sorvete gigante
      .desc = Um luxuoso sorvete coberto com um rico chocolate. É menor do que você lembra.

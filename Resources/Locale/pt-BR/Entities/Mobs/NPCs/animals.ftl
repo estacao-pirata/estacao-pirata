@@ -1,11 +1,11 @@
 ent-MobBat = morcego
-     .desc = Algumas culturas os consideram assustadores, outras são crocantes nos dentes.
+     .desc = Para algumas culturas, eles são assustadores. Para outras, crocantes nos dentes.
 
 ent-MobBee = abelha
      .desc = É bom ter, mas você não pode construir uma civilização apenas com base no mel.
 
 ent-MobAngryBee = abelha
-     .desc = Que bela abelha. Ah, não, ele parece bravo e quer minha pizza.
+     .desc = Que bela abelha. Ah, não, ela parece brava e quer minha pizza.
      .suffix = Irritado
 
 ent-MobChicken = galinha
@@ -21,7 +21,7 @@ ent-MobDuckBrown = pato marrom
      .desc = Um adorável pato marrom, é fofinho e macio!
 
 ent-MobButterfly = borboleta
-     .desc = Apesar dos equívocos populares, na verdade não é feito de manteiga.
+     .desc = Apesar da crença popular, na verdade ela não é feita de manteiga.
 
 ent-MobCow = vaca
      .desc = Moo.
@@ -36,7 +36,7 @@ ent-MobGoose = ganso
      .desc = Seu estômago e mente são um enigma além da compreensão humana.
 
 ent-MobGorilla = gorila
-     .desc = Esmaga, ruge, parece legal. Não fique perto de um.
+     .desc = Esmaga, ruge, um visual que impressiona. Não fique perto de um.
 
 ent-MobKangaroo = canguru
      .desc = Um grande herbívoro marsupial. Possui patas traseiras poderosas, com unhas que lembram garras longas.
@@ -67,10 +67,10 @@ ent-MobSlug = lesma
      .desc = E chamaram isso de lagarto?
 
 ent-MobFrog = sapo
-     .desc = pulo, pulo, pulo. Parece úmido.
+     .desc = Pula, pula, pula. Parece úmido.
 
 ent-MobParrot = papagaio
-     .desc = Infiltra-se em seu domínio, espiona você e, de alguma forma, ainda é um animal de estimação legal.
+     .desc = Se infiltra em seu domínio, te espiona e, de alguma forma, ainda é um animal de estimação legal.
 
 ent-MobPenguin = pinguim
      .desc = Suas vidas são uma dor constante devido aos joelhos na parte interna do corpo.
@@ -80,7 +80,7 @@ ent-MobGrenadePenguin = pinguim granada
      .suffix = Irritado
 
 ent-MobSnake = cobra
-     .desc = Hissss! As mordidas não são venenosas.
+     .desc = Sssssss! As mordidas não são venenosassss.
 
 ent-MobGiantSpider = tarântula
      .desc = Amplamente reconhecido como literalmente a pior coisa que existe.
@@ -93,16 +93,16 @@ ent-MobPossum = gambá
      .desc = "Ó gambá! Meu gambá!" -Walt Whitman, 1865
 
 ent-MobPossumMorty = Morty
-     .desc = Didelphis virginiana residente da estação. Um tipo de cara sensível, mas resiliente.
+     .desc = O Didelphis virginiana da estação. Um cara sensível, mas resiliente.
 
 ent-MobRaccoon = guaxinim
-     .desc = Panda lixo!
+     .desc = Panda do lixo!
 
 ent-MobRaccoonMorticia = Morticia
-     .desc = Uma poderosa criatura da noite. Sua sombra está sempre correta.
+     .desc = Uma criatura poderosa da noite. A sombra dos olhos dela está sempre impecável.
 
 ent-MobFox = raposa
-     .desc = Eles são uma raposa.
+     .desc = É uma raposa, em todos os sentidos.
 
 ent-MobFoxRenault = Renault
      .desc = A raposa de confiança do capitão.

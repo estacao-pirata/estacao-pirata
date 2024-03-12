@@ -1,8 +1,8 @@
 ent-Ointment = pomada
     .desc = Utilizada para tratar queimaduras.
 
-ent-Brutepack = pacote de bandaids
-    .desc = Um pacote contendo bandaids especiais, perfeitos para tratar feridas causadas por dano bruto.
+ent-Brutepack = pacote de curativos
+    .desc = Um pacote contendo curativos especiais, perfeitos para tratar feridas causadas por dano bruto.
 
 ent-Gauze = rolo de gaze
     .desc = Um rolo estéril de gaze, capaz de cobrir feridas.
@@ -49,9 +49,9 @@ ent-SyringeTranexamicAcid = tranexamic acid syringe
 ent-SyringeSpaceacillin = seringa de spaceallin
     .desc = Uma seringa contendo Spaceallin, remédio utilizado no tratamento de doenças e infecções.
 
-ent-SyringeIpecac = ipecac syringe
-    .desc = Pare o veneno rápido
+ent-SyringeIpecac = seringa de ipecac
+    .desc = Pare o veneno rápido.
 
-ent-SyringeCorpium = corpium syringe
-    .desc = A topical cream for burns.
+ent-SyringeCorpium = seringa de corpium
+    .desc = Um creme tópico para queimaduras.
 

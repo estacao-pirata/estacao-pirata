@@ -1,108 +1,113 @@
-ent-FoodCakeBlueberry = blueberry cake
-    .desc = Stains your teeth.
+ent-FoodCakeBlueberry = bolo de mirtilo
+    .desc = Mancha seus dentes.
 
-ent-FoodCakeBlueberrySlice = blueberry slice
-    .desc = Stains your teeth.
+ent-FoodCakeBlueberrySlice = fatia de bolo de mirtilo
+    .desc = Mancha seus dentes.
 
-ent-FoodCakePlain = cake
-    .desc = A plain cake, not a lie.
+ent-FoodCakePlain = bolo
+    .desc = Um bolo simples, não uma mentira.
 
-ent-FoodCakePlainSlice = slice of cake
-    .desc = A plain cake, not a lie.
+ent-FoodCakePlainSlice = fatia de bolo
+    .desc = Um bolo simples, não uma mentira.
 
-ent-FoodCakeCarrot = carrot cake
-    .desc = A favorite desert of a certain wascally wabbit.
+ent-FoodCakeCarrot = bolo de cenoura
+    .desc = A sobremesa favorita de um certo coelo.
 
-ent-FoodCakeCarrotSlice = slice of carrot cake
-    .desc = Carrotty slice of carrot cake. Carrots are good for your eyes!
+ent-FoodCakeCarrotSlice = fatia de bolo de cenoura
+    .desc = Uma fatia de bolo de cenoura. Cenouras são ótimas para os olhos!
 
-ent-FoodCakeBrain = brain cake
-    .desc = A squishy cake-thing.
+ent-FoodCakeBrain = bolo de cérebro
+    .desc = Um troço mole no formato de um bolo.
 
-ent-FoodCakeBrainSlice = slice of brain cake
-    .desc = Lemme tell you something about prions. THEY'RE DELICIOUS.
+ent-FoodCakeBrainSlice = fatia de bolo de cérebro
+    .desc = Vou te falar uma coisa, esses tais neurônios são UMA DELÍCIA!
 
 ent-FoodCakeCheese = cheese cake
-    .desc = DANGEROUSLY cheesy.
+    .desc = PERIGOSAMENTE cremoso.
 
-ent-FoodCakeCheeseSlice = slice of cheese cake
-    .desc = Slice of pure cheestisfaction.
+ent-FoodCakeCheeseSlice = fatia de cheese cake
+    .desc = Uma fatia de pura satisfação.
 
-ent-FoodCakeOrange = orange cake
-    .desc = A cake with added orange.
+ent-FoodCakeOrange = bolo de laranja
+    .desc = Um bolo com um adicional de laranja.
 
-ent-FoodCakeOrangeSlice = slice of orange cake
-    .desc = A cake with added orange.
+ent-FoodCakeOrangeSlice = fatia de bolo de laranja
+    .desc = Um bolo com um adicional de laranja.
 
-ent-FoodCakeLime = lime cake
-    .desc = A cake with added lime.
+ent-FoodCakeLime = bolo de limão
+    .desc = Um bolo com um adicional de limão.
 
-ent-FoodCakeLimeSlice = slice of lime cake
-    .desc = A cake with added lime.
+ent-FoodCakeLimeSlice = fatia de bolo de limão
+    .desc = Um bolo com um adicional de limão.
 
-ent-FoodCakeLemon = lemon cake
-    .desc = A cake with added lemon.
+ent-FoodCakeLemon = bolo de limão siciliano
+    .desc = Um bolo com um adicional de limão siciliano.
 
-ent-FoodCakeLemonSlice = slice of lemon cake
-    .desc = A cake with added lemon.
+ent-FoodCakeLemonSlice = fatia de bolo de limão siciliano
+    .desc = Um bolo com um adicional de limão siciliano.
 
-ent-FoodCakeChocolate = chocolate cake
-    .desc = A cake with added chocolate.
+ent-FoodCakeChocolate = bolo de chocolate
+    .desc = Um bolo com um adicional de chocolate.
 
-ent-FoodCakeChocolateSlice = slice of chocolate cake
-    .desc = A cake with added chocolate.
+ent-FoodCakeChocolateSlice = fatia de bolo de chocolate
+    .desc = Um bolo com um adicional de chocolate.
 
-ent-FoodCakeApple = apple cake
-    .desc = A cake centred with apple.
+ent-FoodCakeApple = bolo de maçã
+    .desc = Um bolo com fatias de maçã no centro.
 
-ent-FoodCakeAppleSlice = slice of apple cake
-    .desc = A slice of heavenly cake.
+ent-FoodCakeAppleSlice = fatia de bolo de maçã
+    .desc = Uma fatia divina de bolo.
 
-ent-FoodCakeSlime = slime cake
-    .desc = A cake made of slimes. Probably not electrified.
+ent-FoodCakeSlime = bolo de slime
+    .desc = Um bolo feito de slimes. Provavelmente não eletrificado.
 
-ent-FoodCakeSlimeSlice = slice of slime cake
-    .desc = A slice of slime cake.
+ent-FoodCakeSlimeSlice = fatia de bolo de slime
+    .desc = Uma fatia de bolo de slime.
 
-ent-FoodCakePumpkin = pumpkin-spice cake
-    .desc = A hollow cake with real pumpkin.
+ent-FoodCakePumpkin = bolo de abóbora
+    .desc = Um bolo com um buraco no meio, feito com abóboras de verdade.
 
-ent-FoodCakePumpkinSlice = slice of pumpkin-spice cake
-    .desc = A spicy slice of pumpkin goodness.
+ent-FoodCakePumpkinSlice = fata de bolo de abóbora
+    .desc = Uma fatia picante e nutritivo de bolo de abóbora.
 
-ent-FoodCakeChristmas = christmas cake
-    .desc = A cake made of christmas.
+ent-FoodCakeChristmas = bolo de natal
+    .desc = Um bolo feito de natal.
 
-ent-FoodCakeChristmasSlice = slice of christmas cake
-    .desc = A cake made of christmas.
+ent-FoodCakeChristmasSlice = fatia de bolo de natal
+    .desc = Um bolo feito de natal.
 
-ent-FoodCakeBirthday = birthday cake
-    .desc = Happy Birthday little clown...
+ent-FoodCakeBirthday = bolo de aniversário
+    .desc = Feliz Aniversário, palhacinho...
 
-ent-FoodCakeBirthdaySlice = slice of birthday cake
-    .desc = A slice of your birthday.
+ent-FoodCakeBirthdaySlice = fatia de bolo de aniversário
+    .desc = Um pedacinho do seu aniversário.
 
-ent-FoodCakeVanilla = vanilla cake
-    .desc = A vanilla frosted cake.
+ent-FoodCakeVanilla = bolo de baunilha
+    .desc = Um bolo com cobertura de baunilha.
 
-ent-FoodCakeVanillaSlice = slice of vanilla cake
-    .desc = A slice of vanilla frosted cake.
+ent-FoodCakeVanillaSlice = fatia de bolo de baunilha
+    .desc = Uma fatia de bolo com cobertura de baunilha.
 
-ent-FoodCakeClown = clown cake
-    .desc = A funny cake with a clown face on it.
+ent-FoodCakeClown = bolo de palhaço
+    .desc = Um bolo engraçado com cara de palhaço.
 
-ent-FoodCakeClownSlice = slice of clown cake
-    .desc = A slice of bad jokes, and silly props.
+ent-FoodCakeClownSlice = fatia de bolo de palhaço
+    .desc = Uma fatia de piadas ruins e enfeites bobos.
 
-ent-FoodCakeSpaceman = spaceman's cake
-    .desc = A spaceman's trumpet frosted cake.
+ent-FoodCakeSpaceman = bolo do astronauta
+    .desc = Um bolo de andar com cobertura, preferido entre os astronautas.
 
-ent-FoodCakeSpacemanSlice = slice of spaceman's cake
-    .desc = A spaceman's trumpet frosted cake.
+ent-FoodCakeSpacemanSlice = fatia de bolo do astronauta
+    .desc = Um bolo de andar com cobertura, preferido entre os astronautas.
 
-ent-FoodCakeSuppermatter = suppermatter
-    .desc = Extremely dense and powerful food.
+ent-FoodCakeSuppermatter = suprimatéria
+    .desc = Um alimento potente e extremamente denso.
 
-ent-FoodCakeSuppermatterSlice = suppermatter shard
-    .desc = A single portion of power.
+ent-FoodCakeSuppermatterSlice = fragmento de suprimatéria
+    .desc = Uma pequena porção de potência.
 
+ent-FoodCakeLemoon = bolo de limoon
+    .desc = O bolo que representa a lua da Terra.
+
+ent-FoodCakeLemoonSlice = fatia de bolo de limoon
+    .desc = Uma fragmento da lua, tem cheiro de leite.

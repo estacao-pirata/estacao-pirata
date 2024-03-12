@@ -1,78 +1,78 @@
-ent-FoodDonutPlain = plain donut
-    .desc = Goes great with robust coffee.
+ent-FoodDonutPlain = rosquinha simples
+    .desc = Combina bem com café robusto.
 
-ent-FoodDonutJellyPlain = plain jelly-donut
-    .desc = Goes great with robust coffee.
+ent-FoodDonutJellyPlain = rosquinha de geléia
+    .desc = Combina bem com café robusto.
 
-ent-FoodDonutHomer = donut
-    .desc = Goes great with robust coffee.
+ent-FoodDonutHomer = rosquinha rosa com confeito
+    .desc = O sabor predileto de um certo homem amarelo.
 
-ent-FoodDonutChaos = chaos donut
-    .desc = Like life, it never quite tastes the same.
+ent-FoodDonutChaos = rosquinha do caos
+    .desc = Assim como a vida, nunca tem o mesmo gosto.
 
-ent-FoodDonutMeat = meat donut
-    .desc = Tastes as gross as it looks.
+ent-FoodDonutMeat = rosquinha de carne
+    .desc = O sabor é tão nojento quanto a aparência.
 
-ent-FoodDonutPink = pink donut
-    .desc = Goes great with a soy latte.
+ent-FoodDonutPink = rosquinha rosa
+    .desc = Cai bem com latte de soja.
 
-ent-FoodDonutSpaceman = spaceman's donut
-    .desc = Goes great with a cold beaker of malk.
+ent-FoodDonutSpaceman = rosquinha do astronauta
+    .desc = Cai bem com um béquer gelado de malk.
 
-ent-FoodDonutApple = apple donut
-    .desc = Goes great with a shot of cinnamon schnapps.
+ent-FoodDonutApple = rosquinha de maçã
+    .desc = Cai bem com uma dose de licor de canela.
 
-ent-FoodDonutCaramel = caramel donut
-    .desc = Goes great with a mug of hot coco.
+ent-FoodDonutCaramel = rosquinha de caramelo
+    .desc = Cai bem com uma caneca de chocolate quente.
 
-ent-FoodDonutChocolate = chocolate donut
-    .desc = Goes great with a glass of warm milk.
+ent-FoodDonutChocolate = rosquinha de chocolate
+    .desc = Cai bem com um copo de leite quente.
 
-ent-FoodDonutBlumpkin = blumpkin donut
-    .desc = Goes great with a mug of soothing drunken blumpkin.
+ent-FoodDonutBlumpkin = rosquinha de blumpkin
+    .desc = Cai bem com um blumpkin no banheiro depois de chapar o melão.
 
-ent-FoodDonutBungo = bungo donut
-    .desc = Goes great with a mason jar of hippie's delight.
+ent-FoodDonutBungo = rosquinha de bungo
+    .desc = Cai bem com um canecão de delícia dos hippies.
 
-ent-FoodDonut = matcha donut
-    .desc = The L-theanine in this donut is relaxing, yet not euphoric. Goes great with a cup of tea.
+ent-FoodDonut = rosquinha de matcha
+    .desc = A L-teanina neste donut é relaxante, mas não eufórico. Cai bem com um copo de chá.
 
-ent-FoodDonutSweetpea = sweet pea donut
-    .desc = Goes great with a bottle of Bastion Burbon!
+ent-FoodDonutSweetpea = rosquinha de ervilha-doce
+    .desc = Cai bem com um uma garrafa de Bastion Bourbon!
 
-ent-FoodDonutJellyHomer = jelly-donut
-    .desc = You jelly?
+ent-FoodDonutJellyHomer = sonho rosa com confeito
+    .desc = O sabor predileto de um certo homem amarelo.
 
-ent-FoodDonutJellyPink = pink jelly-donut
-    .desc = Goes great with a soy latte.
+ent-FoodDonutJellyPink = sonho rosa
+    .desc = Cai bem com latte de soja.
 
-ent-FoodDonutJellySpaceman = spaceman's jelly-donut
-    .desc = Goes great with a cold beaker of malk.
+ent-FoodDonutJellySpaceman = sonho do astronauta
+    .desc = Cai bem com um béquer gelado de malk.
 
-ent-FoodDonutJellyApple = apple jelly-donut
-    .desc = Goes great with a shot of cinnamon schnapps.
+ent-FoodDonutJellyApple = sonho de maçã
+    .desc = Cai bem com uma dose de licor de canela.
 
-ent-FoodDonutJellyCaramel = caramel jelly-donut
-    .desc = Goes great with a mug of hot coco.
+ent-FoodDonutJellyCaramel = sonho de caramelo
+    .desc = Cai bem com uma caneca de chocolate quente.
 
-ent-FoodDonutJellyChocolate = chocolate jelly-donut
-    .desc = Goes great with a glass of warm milk.
+ent-FoodDonutJellyChocolate = sonho de chocolate
+    .desc = Cai bem com um copo de leite quente.
 
-ent-FoodDonutJellyBlumpkin = blumpkin jelly-donut
-    .desc = Goes great with a mug of soothing drunken blumpkin.
+ent-FoodDonutJellyBlumpkin = sonho de blumpkin
+    .desc = Cai bem com um blumpkin no banheiro depois de chapar o melão.
 
-ent-FoodDonutJellyBungo = bungo jelly-donut
-    .desc = Goes great with a mason jar of hippie's delight.
+ent-FoodDonutJellyBungo = sonho de bungo
+    .desc = Cai bem com um copão de delícia dos hippies.
 
-ent-FoodDonutJelly = matcha jelly-donut
-    .desc = The L-theanine in this jelly-donut is relaxing, yet not euphoric. Goes great with a cup of tea.
+ent-FoodDonutJelly = sonho de matcha
+    .desc = A L-teanina neste sonho é relaxante, mas não eufórico. Cai bem com um copo de chá.
 
-ent-FoodDonutJellySweetpea = sweet pea jelly-donut
-    .desc = Goes great with a bottle of Bastion Burbon!
+ent-FoodDonutJellySweetpea = sonho de ervilha-doce
+    .desc = Cai bem com um uma garrafa de Bastion Bourbon!
 
-ent-FoodDonutJellySlugcat = slugcat jelly-donut
-    .desc = No holes in this donut incase a suspicious looking pole shows up.
+ent-FoodDonutJellySlugcat = sonho do slugcat
+    .desc = Não há buracos neste doce, caso apareça um poste suspeito.
 
-ent-FoodDonutPoison = slugcat jelly-donut
-    .desc = No holes in this donut incase a suspicious looking pole shows up.
+ent-FoodDonutPoison = rosquinha
+    .desc = Cai bem com latte de soja.
 
