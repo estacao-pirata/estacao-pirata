@@ -24,7 +24,7 @@ ent-FoodBoxDonkpocket = caixa de donk-pockets
      .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
      .suffix = Preenchido
 
-ent-FoodBoxDonkpocketSpicy = caixa de donk-pockets de picante
+ent-FoodBoxDonkpocketSpicy = caixa de donk-pockets picante
      .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
      .suffix = Preenchido
 
@@ -51,3 +51,11 @@ ent-FoodBoxDonkpocketHonk = caixa de donk-pockets de banana
 ent-FoodBoxDonkpocketDink = caixa de dink-pockets
      .desc = Carboidratos líquidos zero! Não há necessidade de aquecimento!
      .suffix = Preenchido
+
+ent-FoodBoxDonkpocketStonk = caixa de donk-pockets de ações
+    .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
+    .suffix = Preenchido
+
+ent-FoodBoxDonkpocketCarp = caixa de donk-pockets de carpa
+    .desc = Instruções: Aquecer no microondas. O produto esfriará se não for consumido em sete minutos.
+    .suffix = Preenchido

@@ -1,63 +1,63 @@
-ent-FoodPieApple = apple pie
-    .desc = A pie containing sweet, sweet love... or apple.
+ent-FoodPieApple = torta de maçã
+    .desc = Uma torta contendo doce, doce amor... ou maçã.
 
-ent-FoodPieAppleSlice = slice of apple pie
-    .desc = A pie containing sweet, sweet love... or apple.
+ent-FoodPieAppleSlice = fatia de torta de maçã
+    .desc = Uma torta contendo doce, doce amor... ou maçã.
 
 ent-FoodPieBaklava = baklava
-    .desc = A delightful healthy snack made of nut layers with thin bread.
+    .desc = Um tipo de pastel elaborado feito de camadas de nozes e massa fina.
 
-ent-FoodPieBaklavaSlice = slice of baklava
-    .desc = A portion of a delightful healthy snack made of nut layers with thin bread.
+ent-FoodPieBaklavaSlice = fatia de baklava
+    .desc = Uma porção de um tipo de pastel elaborado feito de camadas de nozes e massa fina.
 
-ent-FoodPieBananaCream = banana cream pie
-    .desc = Just like back home, on clown planet! HONK!
+ent-FoodPieBananaCream = torta de creme com banana
+    .desc = Igualzinho como fazem em casa, no planeta dos palhaços! HONK!
 
-ent-FoodPieClafoutis = berry clafoutis
-    .desc = No black birds, this is a good sign.
+ent-FoodPieClafoutis = clafoutis de frutas vermelhas
+    .desc = Não há pássaros pretos, o que é um bom sinal.
 
-ent-FoodPieClafoutisSlice = slice of berry clafoutis
-    .desc = No black birds, this is a good sign.
+ent-FoodPieClafoutisSlice = fatia de clafoutis de frutas vermelhas
+    .desc = Não há pássaros pretos, o que é um bom sinal.
 
-ent-FoodPieCherry = cherry pie
-    .desc = Tastes good enough to make a grown man cry.
+ent-FoodPieCherry = torta de cereja
+    .desc = O sabor é tão bom, que faz um homem adulto chorar.
 
-ent-FoodPieCherrySlice = slice of cherry pie
-    .desc = Tastes good enough to make a grown man cry.
+ent-FoodPieCherrySlice = fatia de torta de cereja
+    .desc = O sabor é tão bom, que faz um homem adulto chorar.
 
-ent-FoodPieMeat = meat pie
-    .desc = An old barber recipe, very delicious!
+ent-FoodPieMeat = torta de carne
+    .desc = Uma antiga receita de barbeiros, uma delícia!
 
-ent-FoodPieMeatSlice = slice of meat pie
-    .desc = An old barber recipe, very delicious!
+ent-FoodPieMeatSlice = fatia de torta de carne
+    .desc = Uma antiga receita de barbeiros, uma delícia!
 
-ent-FoodPieXeno = xeno pie
-    .desc = An old barber recipe, very delicious!
+ent-FoodPieXeno = torta de xeno
+    .desc = Uma antiga receita de barbeiros, uma delícia!
 
-ent-FoodPieXenoSlice = slice of xeno pie
-    .desc = An old barber recipe, very delicious!
+ent-FoodPieXenoSlice = fatia de torta de xeno
+    .desc = Uma antiga receita de barbeiros, uma delícia!
 
-ent-FoodPieFrosty = frosty pie
-    .desc = Tastes like blue and cold.
+ent-FoodPieFrosty = torta glacial
+    .desc = Tem gosto de azul e frio.
 
-ent-FoodPieFrostySlice = slice of frosty pie
-    .desc = Tastes like blue and cold.
+ent-FoodPieFrostySlice = fatia de torta glacial
+    .desc = Tem gosto de azul e frio.
 
-ent-FoodPieAmanita = amanita pie
-    .desc = Sweet and tasty poison pie.
+ent-FoodPieAmanita = torta de amanita
+    .desc = Doce e saborosa torta venenosa. Será que você vai crescer se comer?
 
-ent-FoodPiePlump = plump pie
-    .desc = I bet you love stuff made out of plump helmets!
+ent-FoodPiePlump = torta balofa
+    .desc = Urist adora cogumelos plump helmet pelo seus chapéis arredondados!
 
-ent-FoodTartGrape = grape tart
-    .desc = A tasty dessert that reminds you of the wine you didn't make.
+ent-FoodTartGrape = tarte de uva
+    .desc = Uma sobremesa saborosa que lembra do vinho que você não fez.
 
-ent-FoodTartMime = mime tart
+ent-FoodTartMime = tarte do mímico
     .desc = "      "
 
-ent-FoodTartGapple = golden apple streusal tart
-    .desc = A tasty dessert that won't make it through a metal detector.
+ent-FoodTartGapple = tarte de maçã dourada
+    .desc = Uma sobremesa saborosa de strudel de maçã dourada. Provavelmente não vai passar despercebida por um detector de metais.
 
-ent-FoodTartCoco = chocolate lava tart
-    .desc = A tasty dessert made of chocolate, with a liquid core.
+ent-FoodTartCoco = tarte de chocolate derretido
+    .desc = Uma sobremesa saborosa feita de chocolate, com o núcleo derretido.
 

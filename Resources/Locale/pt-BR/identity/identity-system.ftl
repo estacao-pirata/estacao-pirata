@@ -2,7 +2,7 @@
 
 identity-age-young = jovem
 identity-age-middle-aged = maduro(a)
-identity-age-old = velho(a)
+identity-age-old = idoso(a)
 
 identity-gender-feminine = mulher
 identity-gender-masculine = homem

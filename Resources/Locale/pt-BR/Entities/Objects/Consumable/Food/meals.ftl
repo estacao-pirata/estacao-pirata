@@ -70,3 +70,5 @@ ent-FoodMealSashimi = Sashimi
 ent-FoodMealEnchiladas = enchiladas
      .desc = Viva La México!
 
+ent-FoodSaladWatermelonFruitBowl = vasilha de melancia
+     .desc = A única salada que você pode comer a vasilha.
