@@ -1,7 +1,7 @@
 ent-IDCardStandard = ID
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-PassengerIDCard = ID do passageiro
+ent-PassengerIDCard = ID do assistente
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-TechnicalAssistantIDCard = ID do assistente técnico

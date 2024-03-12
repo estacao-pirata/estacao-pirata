@@ -148,7 +148,6 @@
     #  bloodlossHealDamage:
     #    types:
     #      Burn: 0
-    - type: UnblockableSpeech
     - type: Flashable
     - type: Flammable
       fireSpread: true
@@ -162,8 +161,8 @@
     #       Blunt: 0.28 #per second, scales with pressure and other constants.
       atmosTemperatureTransferEfficiency: 0.4
     - type: Identity
-      soundHit:
-        path: /Audio/Effects/metalbreak.ogg
+    #  soundHit:
+    #    path: /Audio/Effects/metalbreak.ogg
     - type: RangedDamageSound
       soundGroups:
         Brute:
@@ -188,7 +187,6 @@
             True: { visible: true }
             False: { visible: false }
     - type: Cuffable
-      state: icon
     - type: AnimationPlayer
     - type: Buckle
     - type: CreamPied

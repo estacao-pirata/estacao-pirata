@@ -27,14 +27,16 @@
     <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Chave de encriptação"/>
   </Box>
 
-  IPCs não utilizam rádios externos pois eles já possuem um embutido, sendo necessário apenas retirar a chave de encriptação de um rádio. Clicando com um cortador de cabo em um IPC, é possível retirar suas chaves.
-  É possível encontrar novas chaves pela estação ou retirar alguma de um rádio do setor utilizando uma chave de fenda.
+  IPCs [bold]não[/bold]  utilizam rádios externos pois eles já possuem um embutido, sendo necessário apenas retirar a chave de encriptação de um rádio. Clicando com um [color=yellow]cortador de cabo[/color] em um IPC, é possível retirar suas chaves.
+  É possível encontrar novas chaves pela estação ou retirar alguma de um rádio do setor utilizando uma [color=yellow]chave de fenda[/color].
 
   ## Reparo
   <Box>
     <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Soldador"/>
+    <GuideEntityEmbed Entity="Defibrillator" Caption="Desfibrilador"/>
   </Box>
+  IPCs podem se reparar e serem reparados a partir de um soldador. Tenha certeza de que o [color=yellow]Soldador[/color]  possui combustível suficiente para o trabalho!
 
-  IPCs podem se reparar e serem reparados a partir de um soldador. Tenha certeza de que o soldador possui combustível suficiente para o trabalho!
+  No eventual caso de um IPC morrer, após ele ser totalmente consertado, ele deverá receber um choque para ser reiniciado. Basta usar um [color=yellow]Desfibrilador[/color] para fazer essa tarefa
 </Document>
 

@@ -138,10 +138,10 @@ accent-italian-words-replace-42 = for-a what reason
 accent-italian-words-43 = wine
 accent-italian-words-replace-43 = vino
 
-accent-italian-words-44 = passenger
+accent-italian-words-44 = assistente
 accent-italian-words-replace-44 = goombah
 
-accent-italian-words-45 = passengers
+accent-italian-words-45 = assistentes
 accent-italian-words-replace-45 = goombahs
 
 accent-italian-words-46 = i'm

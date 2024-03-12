@@ -1,2 +1,2 @@
-ent-hydroponicsTray = cama de cultivo hidropônico
-    .desc =Um terreno agrícola espacial de nível interestelar que permite o crescimento rápido e a reprodução seletiva de culturas. Apenas... tenha em mente as ervas daninhas do espaço.
+ent-hydroponicsTray = bandeja hidropônica
+    .desc = Uma bandeja hidropônica automatizada de nível interestelar que permite o crescimento rápido e a reprodução seletiva de culturas. Apenas... leve em conta as ervas daninhas do espaço.

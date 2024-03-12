@@ -4,7 +4,7 @@ barsign-component-name = letreiro de bar
 
 ## The Harmbaton
 barsign-prototype-name-harmbaton = O Bastão da Dor
-barsign-prototype-description-harmbaton = Uma ótima experiência de jantar para ambos membros da segurança e passageiros.
+barsign-prototype-description-harmbaton = Uma ótima experiência de jantar para ambos membros da segurança e assistentes.
 
 ## The Singulo
 barsign-prototype-name-singulo = O Singulo
@@ -76,7 +76,7 @@ barsign-prototype-description-wiggle-room = MoMMIs sabe dançar.
 
 ## The Lightbulb
 barsign-prototype-name-the-lightbulb = A Lâmpada
-barsign-prototype-description-the-lightbulb = Um bar popular entre mariposas. Uma vez foi desligado por uma semana depois que a barwoman usou naftalina pra proteger os uniformes extras dela. 
+barsign-prototype-description-the-lightbulb = Um bar popular entre mariposas. Uma vez foi desligado por uma semana depois que a barwoman usou naftalina pra proteger os uniformes extras dela.
 
 ## The Loose Goose
 barsign-prototype-name-goose = O Ganso Tanso

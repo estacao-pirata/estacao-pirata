@@ -42,6 +42,8 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
             _loc.AddFunction(culture, "MANY", FormatMany); // TODO: Temporary fix for MANY() fluent errors. Remove after resolve errors.
 
+            // Pirata
+            _loc.AddFunction(culture, "MAKEPLURAL", FormatMakePlural);
 
             /*
              * The following language functions are specific to the english localization. When working on your own
