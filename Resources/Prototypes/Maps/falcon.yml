@@ -3,7 +3,7 @@
   mapName: 'Falcon'
   mapPath: /Maps/falcon.yml
   minPlayers: 0
-  maxPlayers: 30
+  maxPlayers: 20
   stations:
     Falcon:
       stationProto: StandardNanotrasenStation
