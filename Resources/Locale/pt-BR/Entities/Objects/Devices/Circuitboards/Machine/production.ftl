@@ -46,7 +46,7 @@ ent-ChemDispenserMachineCircuitboard = placa de dispensador químico
 ent-BiomassReclaimerMachineCircuitboard = placa de processador de biomassa
     .desc = Uma placa de circuito impresso para uma máquina processadora de biomassa.
 
-ent-HydroponicsTrayMachineCircuitboard = placa de cama de cultivo hidropônico
+ent-HydroponicsTrayMachineCircuitboard = placa de bandeja hidropônica
     .desc = Uma placa de circuito impresso para uma cama de cultivo hidropônico.
 
 ent-SMESMachineCircuitboard = placa de SMES
