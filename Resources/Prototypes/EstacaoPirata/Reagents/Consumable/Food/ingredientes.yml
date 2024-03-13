@@ -3,7 +3,7 @@
   name: reagent-name-chocolate
   group: Foods
   desc: reagent-desc-chocolate
-  physicalDesc: reagent-physical-desc-dark--brown
+  physicalDesc: reagent-physical-desc-dark-brown
   flavor: ChocolateDerretido
   color: "#403222"
   recognizable: true
