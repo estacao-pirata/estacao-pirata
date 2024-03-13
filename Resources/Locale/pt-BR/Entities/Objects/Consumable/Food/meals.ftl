@@ -28,7 +28,7 @@ ent-FoodMealEggplantParm = berinjela à parmegiana
 ent-FoodMealPotatoYaki = yaki imo
      .desc = Feito com batata doce assada!
 
-ent-FoodMealCubancarp = carpa Cubana
+ent-FoodMealCubancarp = carpa cubana
      .desc = Um sanduíche grifftástico que queima sua língua e depois a deixa dormente!
 
 ent-FoodMealCornedbeef = carne enlatada e repolho
