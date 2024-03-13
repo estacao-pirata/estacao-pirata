@@ -90,3 +90,6 @@ ent-FoodBurgerMothRoach = hambúrguer de mariposa barata
 
 ent-FoodBurgerHuman = hambúrguer de humano
     .desc = Você não sabe dizer do que isso é feito.
+
+ent-FoodBurgerPlain = hambúrguer
+    .desc = Um hambúrguer simples, seco e sem graça..
