@@ -68,7 +68,7 @@ ent-FoodBreadButteredToast = torrada com manteiga
     .desc = Crocante.
 
 ent-FoodBreadFrenchToast = torrada francesa
-    .desc = Uma fatia de pão mergulhada em uma mistura de ovo batido.s
+    .desc = Uma fatia de pão mergulhada em uma mistura de ovo batido.
 
 ent-FoodBreadJellySlice = torrada com geléia
     .desc = Como se o departamento de ciência fosse abrir mão de seus slimes para colocar em torradas!
