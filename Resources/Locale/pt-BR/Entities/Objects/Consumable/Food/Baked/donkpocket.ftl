@@ -41,10 +41,10 @@ ent-FoodDonkpocketBerryWarm = berry-pocket quente
     .desc = Um donk-pocket exageradamente doce, agora quente e delicioso.
 
 ent-FoodDonkpocketGondola = gondola-pocket
-    .desc = The choice to use real gondola meat in the recipe is controversial, to say the least.
+    .desc = A escolha de usarem carne real de gôndola na receita é, no mínimo, controversa.
 
 ent-FoodDonkpocketGondolaWarm = gondola-pocket quente
-    .desc = The choice to use real gondola meat in the recipe is controversial, to say the least.
+    .desc = A escolha de usarem carne real de gôndola na receita é, no mínimo, controversa.
 
 ent-FoodDonkpocketDink = dink-pocket
     .desc = Um donk-pocket de uma marca alternativa de lagarto, recheado com cenoura em conserva e envolto em alga marinha. É melhor comê-lo frio ou, melhor ainda, não comê-lo.
