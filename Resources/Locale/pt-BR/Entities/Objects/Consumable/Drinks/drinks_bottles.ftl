@@ -85,3 +85,5 @@ ent-DrinkMilkCarton = leite
 ent-DrinkSoyMilkCarton = leite de soja
      .desc = Delícia de soja branca e nutritiva!
 
+ent-DrinkSodaWaterBottleFull = água com gás
+     .desc = É igual água, só que irritada!
