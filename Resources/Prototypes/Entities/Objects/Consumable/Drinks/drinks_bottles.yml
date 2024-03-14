@@ -276,7 +276,7 @@
   parent: [DrinkBottleVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkCoffeeLiqueurBottleFull
   name: coffee liqueur bottle
-  description: The great taste of coffee with none of the benifits.
+  description: The great taste of coffee with none of the benefits.
   components:
   - type: SolutionContainerManager
     solutions:

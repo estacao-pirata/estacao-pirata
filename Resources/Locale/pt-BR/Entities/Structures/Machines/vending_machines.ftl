@@ -8,12 +8,12 @@ ent-VendingMachineBooze = Breja-O-Mat
     .desc = Vende tudo que você precisa para suprir o vício da tripulação.
 
 ent-VendingMachineCart = PTéc
-    .desc = Vendedora da PTéc, supre todas as necessidades de PDAs e cartões de ID que uma tripulação desastrada precisa. 
+    .desc = Vendedora da PTéc, supre todas as necessidades de PDAs e cartões de ID que uma tripulação desastrada precisa.
 
 ent-VendingMachineCigs = Cigarros Paraguaienses Deluxe
     .desc = Oba, cancer pulmonar! Melhor, nicotina!
 
-ent-VendingMachineClothing = VestiMiga    
+ent-VendingMachineClothing = VestiMiga
     .desc = Vende roupas e vestimentas.
 
 ent-VendingMachineCoffee = Quente Como O Sol!
@@ -59,7 +59,7 @@ ent-VendingMachineSnack = ComaComa Choco Co.
 
 ent-VendingMachineSovietSoda = BODA
     .desc = Uma máquina antiga que vende água saborizada.
-   
+
 ent-VendingMachineTheater = RoupasLoucas
     .desc = Uma máquina de venda de roupas
 
@@ -145,3 +145,9 @@ ent-VendingMachineTankDispenserEVA = dispensador de tanques
 ent-VendingMachineTankDispenserEngineering = dispensador de tanques
     .desc = Um dispensador de tanques de gás. Esse é só para engenheiros
     .suffix = ENG [O2, Plasma]
+
+ent-VendingMachineChemicals = Vende-Químicos
+    .desc = Provavelmente não é máquina de café.
+
+ent-VendingMachineChemicalsSyndicate = SyndiSucos
+    .desc = Espero que não seja feito com syndies recém-espremidos.

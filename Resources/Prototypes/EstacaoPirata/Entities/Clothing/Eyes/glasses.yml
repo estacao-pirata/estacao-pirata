@@ -2,7 +2,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesBlueshield
-  name: Óculos de Blueshield
+  name: óculos de Blueshield
   description: Óculos de segurança aprimorados com nanofibras de plastitânio, usado pelo mais poderoso guarda costas glorificado.
   components:
   - type: Sprite

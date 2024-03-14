@@ -1,22 +1,22 @@
-ent-Beaker = beaker
+ent-Beaker = béquer
      .desc = Usado para conter uma quantidade moderada de produtos químicos e soluções.
 
-ent-LargeBeaker = large beaker
+ent-LargeBeaker = béquer grande
      .desc = Usado para conter uma grande quantidade de produtos químicos ou soluções.
 
-ent-CryostasisBeaker = beaker de criostase
+ent-CryostasisBeaker = béquer de criostase
      .desc = Usado para conter produtos químicos ou soluções sem reações.
 
-ent-BluespaceBeaker = beaker de bluespace
+ent-BluespaceBeaker = béquer de bluespace
      .desc = Desenvolvido pela tecnologia experimental bluespace.
 
 ent-Dropper = conta-gotas
      .desc = Usado para transferir pequenas quantidades de solução química entre recipientes.
 
-ent-BaseSeringa = seringa
+ent-BaseSyringe = seringa
      .desc = Usado para coletar amostras de sangue de mobs ou para injetar reagentes neles.
 
-ent-Seringa = seringa
+ent-Syringe = seringa
      .desc = Usado para coletar amostras de sangue de mobs ou para injetar reagentes neles.
 
 ent-Pill = pílula
