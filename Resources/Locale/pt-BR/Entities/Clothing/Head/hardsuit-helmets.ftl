@@ -19,7 +19,7 @@ ent-ClothingHeadHelmetIHSVoidHelm = capacete de médico
 ent-ClothingHeadHelmetHardsuitMedical = capacete do médico chefe
     .desc = Um capacete espacial leve, que não restringe os movimentos do seu pescoço. Exclusivo para o Médico Chefe.
 
-ent-ClothingHeadHelmetHardsuitRd = capacete  experimental
+ent-ClothingHeadHelmetHardsuitRd = capacete experimental
     .desc = Um capacete espacial leve, capaz de interceptar sinais psiônicos!! Professor Xavier que aguarde.
 
 ent-ClothingHeadHelmetHardsuitSalvage = capacete de salvagem
