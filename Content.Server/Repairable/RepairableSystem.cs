@@ -35,7 +35,7 @@ namespace Content.Server.Repairable
             if(!EntityManager.TryGetComponent(uid, out DamageableComponent? damageable))
                 return;
 
-            if (damageable.TotalDamage == 0 || blindcomp is { EyeDamage: 0 })
+            if (damageable.TotalDamage == 0 && blindcomp is { EyeDamage: 0 })
                 return;
 
 
@@ -70,7 +70,7 @@ namespace Content.Server.Repairable
             TryComp(uid, out BlindableComponent? blindcomp);
             if(!EntityManager.TryGetComponent(uid, out DamageableComponent? damageable))
                 return;
-            if (damageable.TotalDamage == 0 || blindcomp is { EyeDamage: 0 })
+            if (damageable.TotalDamage == 0 && blindcomp is { EyeDamage: 0 })
                 return;
 
 
