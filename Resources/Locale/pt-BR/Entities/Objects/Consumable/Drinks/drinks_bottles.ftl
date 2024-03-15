@@ -95,4 +95,4 @@ ent-DrinkSugarJug = açúcar
      .desc = Tem gente que coloca isso no café...
 
 ent-DrinkChampagneBottleFull = garrafa de champagne
-     .denc = Somente pessoas sem imaginação não conseguem encontrar uma desculpa para o champagne
+     .desc = Somente pessoas sem imaginação não conseguem encontrar uma desculpa para o champagne
