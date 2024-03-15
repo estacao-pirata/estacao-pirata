@@ -80,7 +80,7 @@ ent-OreProcessorMachineCircuitboard = placa de processador de minérios
 ent-OreProcessorIndustrialMachineCircuitboard = placa de processador de minérios industrial
     .desc = Uma placa de circuito impresso para uma máquina processadora de minérios industrial.
 
-ent-MicrowaveMachineCircuitboard = placa de microondas
+ent-MicrowaveMachineCircuitboard = placa de micro-ondas
     .desc = Uma placa de circuito impresso para um forno de micro-ondas.
 
 ent-EmitterCircuitboard = placa de emissor
