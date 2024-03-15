@@ -1,7 +1,7 @@
 ent-HydroponicsToolMiniHoe = mini enxada
      .desc = É usado para remover ervas daninhas ou coçar as costas.
 
-ent-HydroponicsToolClippers = cortadore de plantas
+ent-HydroponicsToolClippers = tesoura de amostra
      .desc = Uma ferramenta usada para coletar amostras de plantas.
 
 ent-HydroponicsToolScythe = foice

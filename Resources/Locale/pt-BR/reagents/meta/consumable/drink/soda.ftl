@@ -8,13 +8,13 @@ reagent-name-dr-gibb = Dr. Gibb
 reagent-desc-dr-gibb = Uma mistura deliciosa de 42 sabores difirentes.
 
 reagent-name-energy-drink = energético
-reagent-desc-energy-drink = Uma dose de energia! A Nanotransen não é responsável se você crescer apêndices de ave. 
+reagent-desc-energy-drink = Uma dose de energia! A Nanotransen não é responsável se você crescer apêndices de ave.
 
 reagent-name-grape-soda = refri de uva
 reagent-desc-grape-soda = Chupa que é de uva!
 
 reagent-name-ice-cream = sorvete
-reagent-desc-ice-cream = Era isso ou o microondas, e ninguém quer sopa de sorvete!
+reagent-desc-ice-cream = Era isso ou o micro-ondas, e ninguém quer sopa de sorvete!
 
 reagent-name-lemon-lime = refri lima-limão
 reagent-desc-lemon-lime = Refri picante de limão e limão siciliano.

@@ -78,3 +78,8 @@ ent-ComputerSurveillanceWirelessCameraMonitor = monitor de câmeras sem fio
 ent-ComputerTelevision = televisão de tubo
     .desc = Finalmente, o sinal ficou bom...
 
+ent-ComputerShuttleSalvage = console da nave de salvatagem
+    .desc = Usado para pilotar a nave de salvatagem.
+
+ent-ComputerPalletConsole = console de vendas da cargo
+    .desc = Usado para vender mercadorias carregadas em paletes de carga.

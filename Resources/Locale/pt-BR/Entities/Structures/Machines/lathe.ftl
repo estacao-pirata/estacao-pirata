@@ -1,21 +1,29 @@
 ent-Autolathe = torno
-    .desc = It produces items using metal and glass.
+    .desc = Produz itens usando metal e vidro.
 
 ent-Protolathe = torno avançado
-    .desc = Converts raw materials into useful objects.
+    .desc = Converte matérias-primas em objetos úteis.
 
-ent-CircuitImprinter = impressor de circuitos
-    .desc = Imprime os circuitos impressos.
+ent-CircuitImprinter = impressora de circuitos
+    .desc = Imprime placas de circuito para máquinas.
 
 ent-SecurityTechFab = fabricador de segurança
-    .desc = Prints equipment for use by security crew.
+    .desc = Imprime equipamentos para uso da equipe de segurança.
 
 ent-MedicalTechFab = fabricador médico
-    .desc = Prints equipment for use by the medbay.
+    .desc = mprime equipamentos para uso no centro médico.
 
-ent-UniformPrinter = impressor de uniformes
-    .desc = Um tear super avançado que imprime uniformes super rápido.
+ent-UniformPrinter = impressora de uniformes
+    .desc = Imprime uniformes novos ou de reposição.
 
 ent-OreProcessor = processador de minérios
     .desc = Produz placas de materiais a partir de materiais brutos.
 
+ent-AutolatheHyperConvection = torno de hiperconvecção
+    .desc = Um torno altamente experimental que aproveita o poder do calor extremo para criar lentamente objetos de forma mais econômica.
+
+ent-ProtolatheHyperConvection = torno avançado de hiperconvecção
+    .desc = Um torno avançado altamente experimental que aproveita o poder do calor extremo para criar lentamente objetos de forma mais econômica.
+
+ent-OreProcessorIndustrial = processador de minérios industrial
+    .desc = Um processador de minério projetado especificamente para a produção em massa de metais em aplicações industriais.

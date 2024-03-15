@@ -40,6 +40,7 @@
             Chemist: [ 2, 2 ]
             MedicalDoctor: [ 4, 4 ]
             MedicalIntern: [ 2, 4 ]
+            Psychologist: [ 1, 1 ]
             Paramedic: [ 1, 1 ]
             #science
             ResearchDirector: [ 1, 1 ]

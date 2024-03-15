@@ -17,7 +17,7 @@ ent-MobXenoRunner = Corredor
      .desc = Surpreenda sua presa com uma velocidade incrível.
 
 ent-MobXenoRouny = Rouny
-     .desc = Rouny, o Rouny
+     .desc = Rouny, o corredor.
 
 ent-MobXenoSpitter = Cuspidor
      .desc = Dissolva suas presas para torná-las muito mais fáceis de comer.

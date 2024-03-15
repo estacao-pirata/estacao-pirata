@@ -1,78 +1,77 @@
-ent-BaseComputerCircuitboard = computer board
+ent-BaseComputerCircuitboard = placa de computador
     .desc = { "" }
 
-ent-AlertsComputerCircuitboard = alerts computer board
-    .desc = A computer printed circuit board for an alerts computer.
+ent-AlertsComputerCircuitboard = placa de computador de alertas
+    .desc = Uma placa de circuito impresso de computador para um computador de alertas.
 
-ent-PowerComputerCircuitboard = power monitoring computer board
-    .desc = A computer printed circuit board for a power monitoring computer.
+ent-PowerComputerCircuitboard = placa de computador de monitoramento de energia
+    .desc = Uma placa de circuito impresso para um computador de monitoramento de energia.
 
-ent-MedicalRecordsComputerCircuitboard = medical records computer board
-    .desc = A computer printed circuit board for a medical records computer.
+ent-MedicalRecordsComputerCircuitboard = placa de computador de registros médicos
+    .desc = Uma placa de circuito impresso para um computador de registros médicos.
 
-ent-CriminalRecordsComputerCircuitboard = criminal records computer board
-    .desc = A computer printed circuit board for a criminal records computer.
+ent-CriminalRecordsComputerCircuitboard = placa de computador de registros criminais
+    .desc = Uma placa de circuito impresso para um computador de registros criminais.
 
-ent-CargoRequestComputerCircuitboard = cargo request computer board
-    .desc = A computer printed circuit board for a cargo request computer.
+ent-CargoRequestComputerCircuitboard = placa de computador de requisições logísticas
+    .desc = Uma placa de circuito impresso para um computador de requisições logísticas.
 
-ent-CargoShuttleComputerCircuitboard = cargo shuttle computer board
-    .desc = A computer printed circuit board for a cargo shuttle computer.
+ent-CargoShuttleComputerCircuitboard = placa de computador da nave de carga
+    .desc = Uma placa de circuito impresso para um computador da nave de carga.
 
-ent-CargoShuttleConsoleCircuitboard = supply shuttle console board
-    .desc = A computer printed circuit board for a cargo shuttle console.
+ent-SurveillanceCameraMonitorCircuitboard = placa de monitor de câmeras
+    .desc = Uma placa de circuito impresso para um monitor de câmeras.
 
-ent-SurveillanceCameraMonitorCircuitboard = surveillance camera monitor board
-    .desc = A computer printed circuit board for a surveillance camera monitor.
+ent-SurveillanceWirelessCameraMonitorCircuitboard = placa de monitor de câmeras sem fio
+    .desc = Uma placa de circuito impresso para um monitor de câmeras sem fio.
 
-ent-SurveillanceWirelessCameraMonitorCircuitboard = surveillance wireless camera monitor board
-    .desc = A computer printed circuit board for a surveillance wireless camera monitor.
+ent-ComputerTelevisionCircuitboard = placa de televisão
+    .desc = Uma placa de circuito impresso para uma televisão.
 
-ent-ComputerTelevisionCircuitboard = television board
-    .desc = A computer printed circuit board for a television.
+ent-PowerMonitoringComputerCircuitboard = placa de computador de monitoramento de energia
+    .desc = Uma placa de circuito impresso para um computador de monitoramento de energia.
 
-ent-PowerMonitoringComputerCircuitboard = power monitoring computer board
-    .desc = A computer printed circuit board for a television.
+ent-ResearchComputerCircuitboard = placa de computador de P&D
+    .desc = Uma placa de circuito impresso para um computador de pesquisa e desenvolvimento (P&D).
 
-ent-ResearchComputerCircuitboard = R&D computer board
-    .desc = A computer printed circuit board for a R&D console.
+ent-CrewMonitoringComputerCircuitboard = placa de computador de monitoramento de tripulação
+    .desc = Uma placa de circuito impresso para um computador de monitoramento de tripulação.
 
-ent-CrewMonitoringComputerCircuitboard = crew monitoring computer board
-    .desc = A computer printed circuit board for a crew monitoring console.
+ent-IDComputerCircuitboard = placa de computador de cartões ID
+    .desc = Uma placa de circuito impresso para um computador de cartões de identificação (ID).
 
-ent-IDComputerCircuitboard = ID card computer board
-    .desc = A computer printed circuit board for an ID card console.
+ent-BodyScannerComputerCircuitboard = placa de computador de avaliação médica
+    .desc = Uma placa de circuito impresso para um computador de avaliação médica.
 
-ent-BodyScannerComputerCircuitboard = body scanner computer board
-    .desc = A computer printed circuit board for a body scanner console.
+ent-CommsComputerCircuitboard = placa de computador de comunicação
+    .desc = Uma placa de circuito impresso para um computador de comunicação.
 
-ent-CommsComputerCircuitboard = communications computer board
-    .desc = A computer printed circuit board for a communications console.
+ent-SyndicateCommsComputerCircuitboard = placa de computador de comunicação do sindicato
+    .desc = Uma placa de circuito impresso para um computador de comunicação do sindicato.
 
-ent-SyndicateCommsComputerCircuitboard = syndicate communications computer board
-    .desc = A computer printed circuit board for a syndicate communications console.
+ent-RadarConsoleCircuitboard = placa de computador do radar
+    .desc = Uma placa de circuito impresso para um computador do radar.
 
-ent-RadarConsoleCircuitboard = radar console computer board
-    .desc = A computer printed circuit board for a syndicate communications console.
+ent-SolarControlComputerCircuitboard = placa de computador de controle solar
+    .desc = Uma placa de circuito impresso para um computador de controle de painéis solares.
 
-ent-SolarControlComputerCircuitboard = solar control computer board
-    .desc = A computer printed circuit board for a solar control console.
+ent-SpaceVillainArcadeComputerCircuitboard = placa de fliperama do jogo vilão espacial
+    .desc = Uma placa de circuito impresso para um fliperama do jogo Vilão Espacial™.
 
-ent-SpaceVillainArcadeComputerCircuitboard = space villain arcade board
-    .desc = A computer printed circuit board for a space villain arcade cabinet.
+ent-BlockGameArcadeComputerCircuitboard = placa de fliperama do jogo blocos coloridos
+    .desc = Uma placa de circuito impresso para um fliperama do jogo Blocos Coloridos™.
 
-ent-BlockGameArcadeComputerCircuitboard = block game arcade board
-    .desc = A computer printed circuit board for a block game arcade cabinet.
+ent-ParticleAcceleratorComputerCircuitboard = placa de computador de controle do AP
+    .desc = Uma placa de circuito impresso para um computador de controle do acelerador de partículas (AP).
 
-ent-ParticleAcceleratorComputerCircuitboard = PA control box computer board
-    .desc = A computer printed circuit board for a particle accelerator control box.
+ent-ShuttleConsoleCircuitboard = placa de console de nave
+    .desc = Uma placa de circuito impresso para um console de nave, para pilotar uma nave.
 
-ent-ShuttleConsoleCircuitboard = shuttle console board
-    .desc = A computer printed circuit board for a shuttle console.
+ent-SyndicateShuttleConsoleCircuitboard = placa de console de nave do sindicato
+    .desc = Uma placa de circuito impresso para um console de nave do sindicato, para pilotar uma nave do sindicato.
 
-ent-SyndicateShuttleConsoleCircuitboard = syndicate shuttle console board
-    .desc = A computer printed circuit board for a syndicate shuttle console.
+ent-CloningConsoleComputerCircuitboard = placa de console de clonagem
+    .desc = Uma placa de circuito impresso para um console de clonagem.
 
-ent-CloningConsoleComputerCircuitboard = cloning console computer board
-    .desc = A computer printed circuit board for a cloning console.
-
+ent-SalvageShuttleConsoleCircuitboard = placa de console da nave de salvatagem.
+    .desc = Uma placa de circuito impresso para um console da nave de salvatagem.

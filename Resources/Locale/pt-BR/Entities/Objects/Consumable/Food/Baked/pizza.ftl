@@ -1,57 +1,57 @@
-ent-FoodPizzaMargherita = margherita pizza
-    .desc = The flavor of Italy.
+ent-FoodPizzaMargherita = pizza margherita
+    .desc = O sabor da Itália.
 
-ent-FoodPizzaMargheritaSlice = slice of margherita pizza
-    .desc = A slice of Italy.
+ent-FoodPizzaMargheritaSlice = fatia de pizza margherita
+    .desc = Uma fatia da Itália.
 
-ent-FoodPizzaMeat = meat pizza
-    .desc = Greasy pizza with delicious meat.
+ent-FoodPizzaMeat = pizza de carne
+    .desc = Pizza gordurosa com carne deliciosa.
 
-ent-FoodPizzaMeatSlice = slice of meat pizza
-    .desc = A nutritious slice of meatpizza.
+ent-FoodPizzaMeatSlice = fatia de pizza de carne
+    .desc = Uma fatia nutritiva de pizza de carne.
 
-ent-FoodPizzaMushroom = mushroom pizza
-    .desc = Very special pizza.
+ent-FoodPizzaMushroom = pizza de cogumelos
+    .desc = Pizza muito especial.
 
-ent-FoodPizzaMushroomSlice = slice of mushroom pizza
-    .desc = Maybe it is the last slice of pizza in your life.
+ent-FoodPizzaMushroomSlice = fatia de pizza de cogumelos
+    .desc = Capaz de ser sua última fatia de pizza na vida.
 
-ent-FoodPizzaVegetable = vegetable pizza
-    .desc = The station's vegetarians will thank you for making this.
+ent-FoodPizzaVegetable = pizza vegetariana
+    .desc = Os vegetarianos da estação vão te agradecer por fazer esta pizza.
 
-ent-FoodPizzaVegetableSlice = slice of vegetable pizza
-    .desc = A slice of this is enough to satisfy even the pickiest station personnel.
+ent-FoodPizzaVegetableSlice = fatia de pizza vegetariana
+    .desc = Apenas uma fatia desta pizza já é capaz de satisfazer até o pessoal mais exigente da estação.
 
-ent-FoodPizzaDonkpocket = donk-pocket pizza
-    .desc = Who thought this would be a good idea?
+ent-FoodPizzaDonkpocket = pizza de donk-pocket
+    .desc = Quem achou que isso seria uma boa ideia?
 
-ent-FoodPizzaDonkpocketSlice = slice of donk-pocket pizza
-    .desc = Smells like donk-pocket.
+ent-FoodPizzaDonkpocketSlice = fatia de pizza de donk-pocket
+    .desc = Cheira a donk-pocket.
 
-ent-FoodPizzaDank = dank pizza
-    .desc = The hippie's pizza of choice.
+ent-FoodPizzaDank = pizza verdinha
+    .desc = A pizza predileta dos hippies.
 
-ent-FoodPizzaDankSlice = slice of dank pizza
-    .desc = So good, man...
+ent-FoodPizzaDankSlice = fatia de pizza verdinha
+    .desc = Bom demais, bicho...
 
-ent-FoodPizzaSassysage = sassysage pizza
-    .desc = You can really smell the sassiness.
+ent-FoodPizzaSassysage = pizza ousada
+    .desc = Dá pra sentir a ousadia desta pizza.
 
-ent-FoodPizzaSassysageSlice = slice of sassysage pizza
-    .desc = Deliciously sassy.
+ent-FoodPizzaSassysageSlice = fatia de pizza ousada
+    .desc = Deliciosamente ousada.
 
-ent-FoodPizzaPineapple = Hawaiian pizza
-    .desc = Makes people burst into tears. Tears of joy or sadness depends on the persons fondness for pineapple.
+ent-FoodPizzaPineapple = pizza havaiana
+    .desc = Faz as pessoas caírem aos prantos, ou simplesmente chorarem de alegria. Vai depender muito do quanto a pessoa gosta de abacaxi.
 
-ent-FoodPizzaPineappleSlice = slice of pineapple pizza
-    .desc = A slice of joy/sin.
+ent-FoodPizzaPineappleSlice = fatia de pizza havaiana
+    .desc = Uma fatia de alegria/pecado.
 
-ent-FoodPizzaArnold = Arnold's pizza
-    .desc = Hello, you've reached Arnold's pizza shop. I'm not here now, I'm out killing pepperoni.
+ent-FoodPizzaArnold = pizza do Arnold
+    .desc = "Hello, you've reached Arnold's pizza shop. I'm not here now, I'm out killing pepperoni."
 
-ent-FoodPizzaArnoldSlice = slice of Arnold's pizza
-    .desc = I come over, maybe I give you a pizza, maybe I break off your arm.
+ent-FoodPizzaArnoldSlice = fatia de pizza do Arnold
+    .desc = "I come over, maybe I give you a pizza, maybe I break off your arm."
 
-ent-FoodPizzaMoldySlice = slice of moldy pizza
-    .desc = Once a perfectly good slice of pizza pie, but now it lies here, rancid and bursting with spores.
+ent-FoodPizzaMoldySlice = fatia de pizza mofada
+    .desc = Algum dia isto já foi uma fatia perfeitamente boa de pizza. Agora ela tá aqui, rançosa e cheia de esporos.
 

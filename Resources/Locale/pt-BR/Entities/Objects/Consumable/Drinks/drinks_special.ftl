@@ -11,4 +11,4 @@ ent-DrinkJar = pote
      .desc = O copo do hipster
 
 ent-DrinkJarWhat = pote de alguma coisa
-     .desc = Você realmente não pode dizer o que é isso.
+     .desc = Você realmente não sabe dizer o que é isso.

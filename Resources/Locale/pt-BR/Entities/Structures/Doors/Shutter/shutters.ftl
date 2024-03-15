@@ -1,28 +1,28 @@
-ent-BaseShutter = portão
+ent-BaseShutter = cortina metálica
     .desc = Ótimo para abaixar quando algo está prestes a explodir.
 
-ent-ShuttersNormal = portão
+ent-ShuttersNormal = cortina metálica
     .desc = Ótimo para abaixar quando algo está prestes a explodir.
 
-ent-ShuttersNormalOpen = portão
+ent-ShuttersNormalOpen = cortina metálica
     .desc = Ótimo para abaixar quando algo está prestes a explodir.
     .suffix = Open
 
-ent-ShuttersRadiation = portão de radiação
-    .desc = Como fizeram esses portões com radiação?
+ent-ShuttersRadiation = cortina anti-radiação
+    .desc = Impede que a radiação ultrapasse... até certo ponto.
 
-ent-ShuttersRadiationOpen = portão de radiação
-    .desc = Como fizeram esses portões com radiação?
+ent-ShuttersRadiationOpen = cortina anti-radiação
+    .desc = Impede que a radiação ultrapasse... até certo ponto.
     .suffix = Open
 
-ent-ShuttersWindow = portão com janela
+ent-ShuttersWindow = cortina metálica com janela
     .desc = O melhor jeito de ver seus amigos explodirem!
 
-ent-ShuttersWindowOpen = portão com janela
+ent-ShuttersWindowOpen = cortina metálica com janela
     .desc = O melhor jeito de ver seus amigos explodirem!
     .suffix = Open
 
-ent-ShuttersFrame = portão incompleto
-    .desc = Um portão ainda sendo construido.
+ent-ShuttersFrame = cortina metálica incompleta
+    .desc = Uma estrutura para a construção de uma cortina.
     .suffix = Open
 

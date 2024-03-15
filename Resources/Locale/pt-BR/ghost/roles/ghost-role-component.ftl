@@ -7,8 +7,8 @@ ghost-role-component-default-rules = Todas as regras normais se aplicam, a menos
 ghost-role-information-mouse-name = Rato
 ghost-role-information-mouse-description = Um rato faminto e travesso.
 
-ghost-role-information-mothroach-name = Mothbarata
-ghost-role-information-mothroach-description = Uma fofa mas maliciosa mothbarata.
+ghost-role-information-mothroach-name = Baraposa
+ghost-role-information-mothroach-description = Uma fofa mas maliciosa baraposa.
 
 ghost-role-information-giant-spider-name = Aranha gigante
 ghost-role-information-giant-spider-description = Os habitantes desta estação parecem muito saborosos, e sua teia pegajosa é perfeita para pegá-los!

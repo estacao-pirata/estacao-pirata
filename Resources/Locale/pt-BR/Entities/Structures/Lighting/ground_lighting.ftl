@@ -1,5 +1,5 @@
 ent-LightPostSmall = luminária de chão
-    .desc = An always powered light.
+    .desc = Uma luz sempre ligada.
     .suffix = Sempre ligada
 
 ent-PoweredLightPostSmallEmpty = luminária de chão pequena
