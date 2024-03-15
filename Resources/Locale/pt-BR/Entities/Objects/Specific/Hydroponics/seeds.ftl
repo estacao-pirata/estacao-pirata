@@ -79,3 +79,8 @@ ent-GatfruitSeeds = pacote de sementes de gatfruit
 ent-OnionSeeds = pacote de sementes de cebola
      .desc = Não é uma chalota.
 
+ent-KoibeanSeeds = pacote de sementes de koibean
+     .desc = { "" }
+
+ent-LemoonSeeds = pacote de sementes de limoon
+    .desc = { "" }

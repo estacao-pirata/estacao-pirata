@@ -1,8 +1,8 @@
-ent-MobHonkBot = honkbot
+ent-MobHonkBot = buzinabot
      .desc = Horrível.
 
-ent-MobCleanBot = cleanbot
+ent-MobCleanBot = limpabot
      .desc = O aumento da automação agora ameaça os zeladores do espaço.
 
-ent-MobMedibot = medibot
+ent-MobMedibot = curabot
      .desc = Não substitui um médico, mas é melhor que nada.

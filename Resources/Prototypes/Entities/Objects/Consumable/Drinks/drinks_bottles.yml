@@ -199,7 +199,7 @@
         - ReagentId: Cognac
           Quantity: 100
   - type: Label
-    currentLabel: cognac
+    currentLabel: label-name-cognac
   - type: Sprite
     sprite: Objects/Consumable/Drinks/cognacbottle.rsi
 
@@ -216,7 +216,7 @@
         - ReagentId: Cola
           Quantity: 100
   - type: Label
-    currentLabel: cola
+    currentLabel: label-name-cola
   - type: Sprite
     sprite: Objects/Consumable/Drinks/colabottle.rsi
 
@@ -253,7 +253,7 @@
         - ReagentId: Gin
           Quantity: 100
   - type: Label
-    currentLabel: gin
+    currentLabel: label-name-gin
   - type: Sprite
     sprite: Objects/Consumable/Drinks/ginbottle.rsi
 
@@ -276,7 +276,7 @@
   parent: [DrinkBottleVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkCoffeeLiqueurBottleFull
   name: coffee liqueur bottle
-  description: The great taste of coffee with none of the benifits.
+  description: The great taste of coffee with none of the benefits.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -285,7 +285,7 @@
         - ReagentId: CoffeeLiqueur
           Quantity: 100
   - type: Label
-    currentLabel: coffee liqueur
+    currentLabel: label-name-coffee-liqueur
   - type: Sprite
     sprite: Objects/Consumable/Drinks/coffeeliqueurbottle.rsi
 
@@ -356,7 +356,7 @@
         - ReagentId: Rum
           Quantity: 100
   - type: Label
-    currentLabel: rum
+    currentLabel: label-name-rum
   - type: Sprite
     sprite: Objects/Consumable/Drinks/rumbottle.rsi
 
@@ -374,7 +374,7 @@
           Quantity: 100
   - type: Drink
   - type: Label
-    currentLabel: space mountain wind
+    currentLabel: label-name-space-mountain-wind
   - type: Sprite
     sprite: Objects/Consumable/Drinks/space_mountain_wind_bottle.rsi
 
@@ -392,7 +392,7 @@
           Quantity: 100
   - type: Drink
   - type: Label
-    currentLabel: space-up
+    currentLabel: label-name-space-up
   - type: Sprite
     sprite: Objects/Consumable/Drinks/space-up_bottle.rsi
 
@@ -409,7 +409,7 @@
         - ReagentId: Tequila
           Quantity: 100
   - type: Label
-    currentLabel: tequila
+    currentLabel: label-name-tequila
   - type: Sprite
     sprite: Objects/Consumable/Drinks/tequillabottle.rsi
 
@@ -426,7 +426,7 @@
         - ReagentId: Vermouth
           Quantity: 100
   - type: Label
-    currentLabel: vermouth
+    currentLabel: label-name-vermouth
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vermouthbottle.rsi
 
@@ -443,7 +443,7 @@
         - ReagentId: Vodka
           Quantity: 100
   - type: Label
-    currentLabel: vodka
+    currentLabel: label-name-vodka
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vodkabottle.rsi
 
@@ -460,7 +460,7 @@
         - ReagentId: Whiskey
           Quantity: 100
   - type: Label
-    currentLabel: whiskey
+    currentLabel: label-name-whiskey
   - type: Sprite
     sprite: Objects/Consumable/Drinks/whiskeybottle.rsi
 
@@ -477,7 +477,7 @@
         - ReagentId: Wine
           Quantity: 100
   - type: Label
-    currentLabel: wine
+    currentLabel: label-name-wine
   - type: Sprite
     sprite: Objects/Consumable/Drinks/winebottle.rsi
 
@@ -515,7 +515,7 @@
         - ReagentId: Beer
           Quantity: 150
   - type: Label
-    currentLabel: beer
+    currentLabel: label-name-beer
   - type: Sprite
     sprite: Objects/Consumable/Drinks/beer.rsi
 
@@ -553,7 +553,7 @@
         - ReagentId: Ale
           Quantity: 150
   - type: Label
-    currentLabel: ale
+    currentLabel: label-name-ale
   - type: Sprite
     sprite: Objects/Consumable/Drinks/alebottle.rsi
 
@@ -602,7 +602,7 @@
         - ReagentId: SodaWater
           Quantity: 150
   - type: Label
-    currentLabel: soda water
+    currentLabel: label-name-soda-water
 
 - type: entity
   parent: DrinkWaterBottleFull
@@ -618,7 +618,7 @@
         - ReagentId: TonicWater
           Quantity: 150
   - type: Label
-    currentLabel: tonic water
+    currentLabel: label-name-tonic-water
 
 # Cartons, TODO: this needs to be moved elsewhere eventually, since cartons shouldnt smash into glass shards
 
@@ -637,7 +637,7 @@
           Quantity: 150
   - type: Drink
   - type: Label
-    currentLabel: lime juice
+    currentLabel: label-name-lime-juice
   - type: Sprite
     sprite: Objects/Consumable/Drinks/limejuice.rsi
 
@@ -656,7 +656,7 @@
           Quantity: 150
   - type: Drink
   - type: Label
-    currentLabel: orange juice
+    currentLabel: label-name-orange-juice
   - type: Sprite
     sprite: Objects/Consumable/Drinks/orangejuice.rsi
 
@@ -675,7 +675,7 @@
           Quantity: 150
   - type: Drink
   - type: Label
-    currentLabel: cream
+    currentLabel: label-name-cream
   - type: Sprite
     sprite: Objects/Consumable/Drinks/cream.rsi
 
@@ -712,7 +712,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: lemon-lime
+    currentLabel: label-name-lemon-lime
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -729,7 +729,7 @@
           Quantity: 150
   - type: Drink
   - type: Label
-    currentLabel: mead
+    currentLabel: label-name-mead
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -746,7 +746,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: ice
+    currentLabel: label-name-ice
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -763,7 +763,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: coffee
+    currentLabel: label-name-coffee
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -780,7 +780,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: tea
+    currentLabel: label-name-tea
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -797,7 +797,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: green tea
+    currentLabel: label-name-green-tea
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -829,7 +829,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: dr gibb
+    currentLabel: label-name-dr-gibb
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -846,7 +846,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: root beer
+    currentLabel: label-name-root-beer
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -863,7 +863,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: watermelon juice
+    currentLabel: label-name-watermelon-juice
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -880,7 +880,7 @@
           Quantity: 100
   - type: Drink
   - type: Label
-    currentLabel: red bool
+    currentLabel: label-name-red-bool
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull

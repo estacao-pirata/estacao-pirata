@@ -118,3 +118,11 @@ ent-FoodSoupElectron = sopa de elétrons
 ent-FoodSoupBungo = curry bungo
      .desc = Um curry picante de vegetais feito com a humilde fruta bungo, Exotic!
 
+ent-FoodSaladCaesar = salada césar
+     .desc = Uma simples porém saborosa salada de cebola, alface, croûtons, e pedaços de queijo temperado com azeite. Vem acompanhado de um pão pita!
+
+ent-FoodSaladColeslaw = salada de repolho
+     .desc = Repolho desfiado e cebolas roxas temperadas com vinagrete.
+
+ent-FoodSaladKimchi = salada de kimchi
+     .desc = É só uma salada muito picante.

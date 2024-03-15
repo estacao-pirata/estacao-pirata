@@ -11,11 +11,11 @@ ent-GasOutletInjector = injetor de ar
     .desc = Expele gases, não importa a pressão externa.
 
 ent-BaseGasThermoMachine = termomáquina
-    .desc = Has a valve and pump attached to it.
+    .desc = Possui uma válvula e uma bomba acopladas a ela.
 
-ent-GasThermoMachineFreezer = freezer
-    .desc = Resfria o gás em canos conectados
+ent-GasThermoMachineFreezer = resfriador
+    .desc = Resfria o gás em canos conectados.
 
-ent-GasThermoMachineHeater = estufa
+ent-GasThermoMachineHeater = aquecedor
     .desc = Aquece o gás em canos conectados.
 
