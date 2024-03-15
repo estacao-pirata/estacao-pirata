@@ -128,10 +128,10 @@ public sealed class BatteryDrinkerSystem : EntitySystem
         }
 
         if (_battery.TryUseCharge(source, amountToDrink))
-            _battery.SetCharge(drinkerBattery, drinkerBatteryComponent.Charge + amountToDrink, drinkerBatteryComponent);
+            _battery.SetCharge(drinkerBattery, drinkerBatteryComponent.CurrentCharge + amountToDrink, drinkerBatteryComponent);
         else
         {
-            _battery.SetCharge(drinkerBattery, sourceBattery.Charge + drinkerBatteryComponent.Charge, drinkerBatteryComponent);
+            _battery.SetCharge(drinkerBattery, sourceBattery.CurrentCharge + drinkerBatteryComponent.CurrentCharge, drinkerBatteryComponent);
             _battery.SetCharge(source, 0);
         }
 
