@@ -85,8 +85,8 @@ ent-FoodBurgerCrazy = x-doido
 ent-FoodBurgerCat = hambúrguer de gato
     .desc = Finalmente, alguma utilidade pra esses gatos e felinídeos!
 
-ent-FoodBurgerMothRoach = hambúrguer de mariposa barata
-    .desc = A última lâmpada que ela viu foi a de dentro do microondas.
+ent-FoodBurgerMothRoach = hambúrguer de baraposa
+    .desc = A última lâmpada que ela viu foi a de dentro do micro-ondas.
 
 ent-FoodBurgerHuman = hambúrguer de humano
     .desc = Você não sabe dizer do que isso é feito.
