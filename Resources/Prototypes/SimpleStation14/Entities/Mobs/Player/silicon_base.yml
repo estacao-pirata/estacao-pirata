@@ -131,7 +131,7 @@
           visible: false
     - type: Repairable
       fuelcost: 10
-      doAfterDelay: 10
+      doAfterDelay: 40
     #- type: Bloodstream This is left commented out because it's not necessary for a robot, but you may want it.
     #  damageBleedModifiers: BloodlossIPC
     #  bloodReagent: Oil
