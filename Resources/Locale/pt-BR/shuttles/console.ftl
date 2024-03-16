@@ -30,6 +30,7 @@ shuttle-console-ftl-state-Starting = Iniciando
 shuttle-console-ftl-state-Travelling = Viajando
 shuttle-console-ftl-state-Arriving = Chegando
 shuttle-console-ftl-state-Cooldown = Resfriando
+shuttle-console-ftl-state-Invalid = Indisponível
 
 shuttle-console-map-settings = Configurações
 shuttle-console-ftl-button = FTL
