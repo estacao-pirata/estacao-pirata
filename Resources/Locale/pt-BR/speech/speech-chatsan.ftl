@@ -313,3 +313,21 @@ chatsan-replacement-112 = distúrbio do sono espacial
 
 chatsan-word-113 = dnv
 chatsan-replacement-113 = de novo
+
+chatsan-word-114 = qm
+chatsan-replacement-114 = Intendente de Carga
+
+chatsan-word-115 = ce
+chatsan-replacement-115 = Engenheiro Chefe
+
+chatsan-word-116 = cmo
+chatsan-replacement-116 = Medico Chefe
+
+chatsan-word-117 = rd
+chatsan-replacement-117 = Diretor de Pesquisas
+
+chatsan-word-118 = hos
+chatsan-replacement-118 = Chefe da Segurança
+
+chatsan-word-119 = hop
+chatsan-replacement-119 = Chefe dos Funcionarios
