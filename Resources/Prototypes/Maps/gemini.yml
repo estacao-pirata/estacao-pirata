@@ -39,6 +39,7 @@
             ChiefMedicalOfficer: [ 1, 1 ]
             Chemist: [ 2, 2 ]
             Paramedic: [ 2, 2 ]
+            Psychologist: [ 1, 1 ]
             MedicalDoctor: [ 4, 6 ]
             MedicalIntern: [ 8, 8 ]
             #science
@@ -61,5 +62,5 @@
             Clown: [ 1, 2 ]
             Mime: [ 1, 2 ]
             Musician: [ 1, 2 ]
-            Reporter: [ 1, 1 ]
+            Reporter: [ 2, 2 ]
             Blueshield: [ 1, 1 ]
