@@ -25,7 +25,7 @@ news-write-ui-article-name-label = Título:
 news-write-no-access-popup = Sem acesso
 news-writer-text-length-exceeded = O texto ultrapassa o tamanho máximo.
 news-write-ui-richtext-tooltip = Os artigos de notícias suportam texto formatado
-	As seguintes tags de texto formatado são suportadas:
+    The following rich text tags are supported:
     {"[color=Gray][bullet/]heading \\[size=1-3\\]"}
     {"[bullet/]bold"}
     {"[bullet/]italic"}
