@@ -1,31 +1,31 @@
 news-read-ui-next-text = ▶
 news-read-ui-prev-text = ◀
-news-read-ui-next-tooltip = Next
-news-read-ui-prev-tooltip = Prev
-news-read-ui-default-title = Station News
-news-read-ui-not-found-text = No articles found
-news-read-ui-time-prefix-text = Publication time:
-news-reader-ui-mute-tooltip = Mute notifications
-news-read-ui-notification-off =  ̶♫̶
+news-read-ui-next-tooltip = Próximo
+news-read-ui-prev-tooltip = Anterior
+news-read-ui-default-title = Notícias da Estação
+news-read-ui-not-found-text = Nenhum artigo encontrado
+news-read-ui-time-prefix-text = Horário de publicação:
+news-reader-ui-mute-tooltip = Desativar notificações
+news-read-ui-notification-off = ̶♫̶
 news-read-ui-notification-on = ♫
-news-read-ui-no-author = Anonymous
-news-read-ui-author-prefix = Author:
-news-write-ui-default-title = News Management
-news-write-ui-articles-label = Articles:
-news-write-ui-delete-text = Delete
-news-write-ui-publish-text = Publish
-news-write-ui-create-text = Create
-news-write-ui-cancel-text = Cancel
-news-write-ui-preview-text = Preview
-news-write-ui-article-count-0 = 0 Articles
-news-write-ui-article-count-text = {$count} Articles
-news-write-ui-footer-text = News#Manager™ Authoring System
-news-write-ui-new-article = New Article
-news-write-ui-article-name-label = Title:
-news-write-no-access-popup = No access
-news-writer-text-length-exceeded = Text exceeds maximum length
-news-write-ui-richtext-tooltip = News articles support rich text
-    The following rich text tags are supported:
+news-read-ui-no-author = Anônimo
+news-read-ui-author-prefix = Autor:
+news-write-ui-default-title = Gerenciamento de Notícias
+news-write-ui-articles-label = Artigos:
+news-write-ui-delete-text = Excluir
+news-write-ui-publish-text = Publicar
+news-write-ui-create-text = Criar
+news-write-ui-cancel-text = Cancelar
+news-write-ui-preview-text = Visualizar
+news-write-ui-article-count-0 = 0 Artigos
+news-write-ui-article-count-text = {$count} Artigos
+news-write-ui-footer-text = Sistema de Autoria de News#Manager™
+news-write-ui-new-article = Novo Artigo
+news-write-ui-article-name-label = Título:
+news-write-no-access-popup = Sem acesso
+news-writer-text-length-exceeded = O texto ultrapassa o tamanho máximo.
+news-write-ui-richtext-tooltip = Os artigos de notícias suportam texto formatado
+	As seguintes tags de texto formatado são suportadas:
     {"[color=Gray][bullet/]heading \\[size=1-3\\]"}
     {"[bullet/]bold"}
     {"[bullet/]italic"}
@@ -33,4 +33,4 @@ news-write-ui-richtext-tooltip = News articles support rich text
     {"[bullet/]color"}
     {"[bullet/]bullet[/color]"}
 
-news-pda-notification-header = New news article
+news-pda-notification-header = Novo artigo de notícias
