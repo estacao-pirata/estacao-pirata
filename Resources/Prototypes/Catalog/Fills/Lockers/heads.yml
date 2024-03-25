@@ -47,7 +47,6 @@
       - id: WeaponAntiqueLaser
       - id: JetpackCaptainFilled
       - id: MedalCase
-      - id: WeaponEnergyGun
 
 - type: entity
   id: LockerCaptainFilled
@@ -74,7 +73,6 @@
       - id: WeaponAntiqueLaser
       - id: JetpackCaptainFilled
       - id: MedalCase
-      - id: WeaponEnergyGun
 
 - type: entity
   id: LockerCaptainFilledNoLaser
@@ -127,7 +125,8 @@
       - id: ClothingBackpackIan
         prob: 0.5
       - id: AccessConfigurator
-      - id: WeaponEnergyGun
+      - id: WeaponEnergyGunMultiphase
+        prob: 0.1
       - id: PrinterDocFlatpack # Corvax-Printer
 
 - type: entity
@@ -297,7 +296,6 @@
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
       - id: WeaponEnergyGunMultiphase
-      - id: WeaponEnergyGun
       - id: SecBreachingHammer
 
 - type: entity
@@ -324,7 +322,6 @@
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
       - id: WeaponEnergyGunMultiphase
-      - id: WeaponEnergyGun
       - id: SecBreachingHammer
 
 - type: entity
