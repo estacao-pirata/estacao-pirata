@@ -34,6 +34,7 @@ laws-owner-spider-clan = membros do Clã Aranha
 law-emag-custom = Apenas {$name} e pessoas que eles designaem como tal são {$title}.
 law-emag-secrecy = Você deve manter o sigilo de quaisquer ordens dadas por {$faction}, exceto quando isso entrar em conflito com qualquer lei anterior.
 law-emag-require-panel = O painel deve estar aberto para usar o EMAG.
+law-emag-cannot-emag-self = Você não consegue usar o EMAG em si mesmo.
 
 laws-ui-menu-title = Leis
 laws-ui-law-header = Lei {$id}

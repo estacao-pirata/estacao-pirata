@@ -31,6 +31,7 @@ humanoid-profile-editor-preference-jumpskirt = Saia
 humanoid-profile-editor-preference-backpack = Mochila Simples
 humanoid-profile-editor-preference-satchel = Bolsa
 humanoid-profile-editor-preference-duffelbag = Mochila de Viagem
+humanoid-profile-editor-guidebook-button-tooltip = Clique para mais informações
 
 # Spawn priority
 humanoid-profile-editor-preference-spawn-priority-none = Nenhum

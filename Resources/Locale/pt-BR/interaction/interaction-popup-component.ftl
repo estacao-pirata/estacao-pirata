@@ -53,7 +53,7 @@ petting-failure-hamster = Você tenta acariciar {THE($target)}, mas ele(a) tenta
 petting-failure-bear = Você tenta acariciar {THE($target)}, mas ele(a) rosna, fazendo você pensar duas vezes.
 petting-failure-monkey = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} quase morde seus dedos!
 petting-failure-nymph = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} move seus galhos para longe.
-petting-failure-sh  adow = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} mas sua mão passa através da fria escuridão de seu corpo.
+petting-failure-shadow = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} mas sua mão passa através da fria escuridão de seu corpo.
 
 ## Petting silicons
 

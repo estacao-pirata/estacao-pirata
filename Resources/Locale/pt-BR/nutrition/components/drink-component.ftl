@@ -1,6 +1,8 @@
 drink-component-on-use-is-empty = {$owner} está vazio!
 drink-component-on-examine-is-empty = [color=gray]Vazio[/color]
 drink-component-on-examine-is-opened = [color=yellow]Aberto[/color]
+drink-component-on-examine-is-sealed = O selo está intacto.
+drink-component-on-examine-is-unsealed = O selo está violado.
 drink-component-on-examine-is-full = Cheio
 drink-component-on-examine-is-mostly-full = Quase cheio
 drink-component-on-examine-is-half-full = Meio cheio

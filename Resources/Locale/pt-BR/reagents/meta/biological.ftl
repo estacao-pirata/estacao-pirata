@@ -10,6 +10,9 @@ reagent-desc-slime = Você pensou que isso era sangue gradiente no início, mas 
 reagent-name-hemocyanin-blood = sangue azul
 reagent-desc-hemocyanin-blood = Contém cobre em oposição ao ferro, o que lhe confere uma cor azul distinta.
 
+reagent-name-ammonia-blood = sangue anaeróbico
+reagent-desc-ammonia-blood = Nada mais em toda a galáxia tem um cheiro tão terrível.
+
 reagent-name-zombie-blood = sangue de zumbi
 reagent-desc-zombie-blood = Não aconselharia comer. Pode ser usado para criar uma inoculação contra a infecção.
 
@@ -21,3 +24,6 @@ reagent-desc-fat = Não importa como foi obtido, sua aplicação é importante.
 
 reagent-name-vomit = vomito
 reagent-desc-vomit = Você pode ver alguns pedaços da última refeição de alguém nele.
+
+reagent-name-gray-matter = grey matter
+reagent-name-gray-matter = Suco de cérebro.
