@@ -96,7 +96,7 @@
   cost:
     Telecrystal: 18 #(Originally 16)
   categories:
-  - UplinkWeapons
+  - UplinkWeaponry
 
 - type: listing
   id: UplinkDisposableTurret
