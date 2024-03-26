@@ -19,6 +19,7 @@ research-technology-advanced-tools = Ferramentas Avançadas
 research-technology-super-powercells = Super Baterias
 research-technology-bluespace-storage = Armazenamento Bluespace
 research-technology-portable-fission = Fissão Portátil
+research-technology-space-scanning = Escaneamento Espacial
 
 research-technology-salvage-weapons = Armas de Salvatagem
 research-technology-draconic-munitions = Munições Dracônicas

@@ -11,6 +11,7 @@ salvage-magnet-resources = {$resource ->
     [OreIron] Ferro
     [OreCoal] Carvão
     [OreQuartz] Quartzo
+    [OreSalt] Sal
     [OreGold] Ouro
     [OreSilver] Prata
     [OrePlasma] Plasma
@@ -63,6 +64,7 @@ salvage-map-proto-MediumShuttleWreck = Nave de emergência arruinado
 salvage-map-proto-MediumPetHospital = Hospital de animais e ursos
 salvage-map-proto-MediumCrashedShuttle = Nave acidentado
 salvage-map-proto-Meatball = Almôndega
+salvage-map-proto-VeganMeatball = Almôndega Vegana
 
 salvage-map-proto-StationStation = Estação estação
 salvage-map-proto-AsteroidBase = Base de Asteroides
