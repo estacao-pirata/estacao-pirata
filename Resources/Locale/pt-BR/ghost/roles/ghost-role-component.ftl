@@ -68,7 +68,7 @@ ghost-role-information-salvage-shark-name = Sharkminnow espacial em naufrágio d
 ghost-role-information-salvage-shark-description = Ajude as carpas mais jovens a proteger suas presas. Cheire o sangue!
 
 ghost-role-information-willow-name = Willow o canguru
-ghost-role-information-willow-description = Você é um canguru chamado Willow! Willow gosta de caixa.
+ghost-role-information-willow-description = Você é um canguru chamado Willow! Willow gosta de box.
 
 ghost-role-information-space-tick-name = Carrapato espacial
 ghost-role-information-space-tick-description = Cause estragos na estação!

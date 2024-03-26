@@ -1,14 +1,14 @@
-marking-HumanNoseSchnozz = Nariz Narigão
-marking-HumanNoseSchnozz-schnozz = Narigão
+marking-HumanNoseSchnozz = Schnozz
+marking-HumanNoseSchnozz-schnozz = Nariz
 
-marking-HumanNoseNubby = Nariz Empinado
+marking-HumanNoseNubby = Nubby Nose
 marking-HumanNoseNubby-nubby = Nariz
 
 marking-HumanNoseDroop = Nariz Caído
 marking-HumanNoseDroop-droop = Nariz
 
-marking-HumanNoseBlob = Nariz Arredondado
+marking-HumanNoseBlob = Blobby Nose
 marking-HumanNoseBlob-blob = Nariz
 
-marking-HumanNoseUppie = Nariz Elevado
+marking-HumanNoseUppie = Nariz pra cima
 marking-HumanNoseUppie-uppie = Nariz

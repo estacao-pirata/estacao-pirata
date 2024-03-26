@@ -8,6 +8,9 @@ fax-machine-dialog-rename = Renomear
 fax-machine-dialog-field-name = Nome
 
 fax-machine-ui-window = Maquina de fax
+fax-machine-ui-file-button = Imprimir Arquivo
+fax-machine-ui-paper-button-normal = Papel Normal
+fax-machine-ui-paper-button-office = Papel de Ofício
 fax-machine-ui-copy-button = Copiar
 fax-machine-ui-send-button = Mandar
 fax-machine-ui-refresh-button = Atualizar
@@ -19,3 +22,5 @@ fax-machine-ui-paper-inserted = Papel na bandeja
 fax-machine-ui-paper-not-inserted = Não há papel
 
 fax-machine-chat-notify = Nova mensagem de fax recebida do fax "{$fax}"
+
+fax-machine-printed-paper-name = printed paper

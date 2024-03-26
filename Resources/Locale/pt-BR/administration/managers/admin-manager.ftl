@@ -7,3 +7,7 @@ admin-manager-admin-permissions-updated-message = Suas permissões como administ
 admin-manager-admin-logout-message = Admin Saiu: {$name}
 admin-manager-admin-login-message = Admin Logou: {$name}
 admin-manager-admin-data-host-title = Host
+admin-manager-stealthed-message = Você agora é um admin escondido.
+admin-manager-unstealthed-message = Você não é mais um admin escondido.
+admin-manager-self-enable-stealth = {$stealthAdminName} agora está escondido.
+admin-manager-self-disable-stealth = {$exStealthAdminName} não está mais escondido.

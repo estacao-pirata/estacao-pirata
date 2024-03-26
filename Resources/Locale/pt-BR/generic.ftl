@@ -12,3 +12,5 @@ generic-invalid = inválido
 generic-hours = horas
 
 generic-playtime-title = Tempo de Jogo
+
+generic-confirm = Confirmar

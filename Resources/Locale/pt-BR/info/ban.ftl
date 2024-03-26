@@ -2,8 +2,8 @@
 cmd-ban-desc = Bane alguém.
 cmd-ban-help = Uso: ban <nome ou ID do usuário> <razão> [duração em minutos, deixe vazio ou 0 para ban permanente]
 cmd-ban-player = Não foi possível encontrar um usuário com esse nome.
-cmd-ban-invalid-minutes = ${minutes} não é uma quantidade válida de minutos!
-cmd-ban-invalid-severity = ${severity} não é uma gravidade válida!
+cmd-ban-invalid-minutes = {$minutes} não é uma quantidade válida de minutos!
+cmd-ban-invalid-severity = {$severity} não é uma gravidade válida!
 cmd-ban-invalid-arguments = Número de argumentos inválido
 cmd-ban-hint = <nome/ID do usuário>
 cmd-ban-hint-reason = <razão>

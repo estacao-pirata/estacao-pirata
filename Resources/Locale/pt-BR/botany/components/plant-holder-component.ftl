@@ -32,3 +32,4 @@ plant-holder-component-light-improper-warning = O [color=yellow]alerta de nível
 plant-holder-component-heat-improper-warning = O [color=orange]alerta de nível impróprio de temperatura[/color] está piscando.
 plant-holder-component-pressure-improper-warning = O [color=lightblue]alerta de nível impróprio de pressão do ambiente[/color] está piscando.
 plant-holder-component-gas-missing-warning = O [color=cyan]alerta de nível impróprio de gás do ambiente[/color] está piscando.
+plant-holder-component-early-sample-message = A planta ainda não cresceu o suficiente para se tirar uma amostra.

@@ -11,6 +11,7 @@ comp-solution-transfer-is-full = {THE($target)} está cheio!
 ## Displayed in change transfer amount verb's name
 comp-solution-transfer-verb-custom-amount = Customizado
 comp-solution-transfer-verb-amount = {$amount}u
+comp-solution-transfer-verb-toggle = Alterado para {$amount}u
 
 ## Displayed after you successfully change a solution's amount using the BUI
 comp-solution-transfer-set-amount = Valor para transferência definido para {$amount}u.
