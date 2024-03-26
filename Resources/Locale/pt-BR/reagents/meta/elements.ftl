@@ -10,7 +10,7 @@ reagent-desc-carbon = Um sólido preto e cristalino.
 reagent-name-charcoal = carvão vegetal
 reagent-desc-charcoal = Um sólido negro poroso
 
-reagent-name-chlorine = cloro
+reagent-name-chlorine = clorina
 reagent-desc-chlorine = Um gás amarelo-esverdeado que é tóxico para os seres humanos.
 
 reagent-name-copper = cobre
