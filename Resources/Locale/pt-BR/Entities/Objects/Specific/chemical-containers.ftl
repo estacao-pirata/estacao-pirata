@@ -10,7 +10,7 @@ ent-JugIodine = jarro (iodo)
 ent-JugFluorine = jarro (flúor)
     .desc = Usado para conter uma quantidade muito grande de produtos químicos ou soluções. Ingerir é extremamente desaconselhável.
 
-ent-JugChlorine = jarro (cloro)
+ent-JugChlorine = jarro (clorina)
     .desc = Usado para conter uma quantidade muito grande de produtos químicos ou soluções. Ingerir é extremamente desaconselhável.
 
 ent-JugAluminium = jarro (alumínio)
