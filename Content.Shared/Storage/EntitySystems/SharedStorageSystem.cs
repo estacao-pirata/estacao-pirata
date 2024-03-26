@@ -3,7 +3,6 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Containers.ItemSlots;
-using Content.Shared.Coordinates;
 using Content.Shared.Destructible;
 using Content.Shared.DoAfter;
 using Content.Shared.Hands.Components;
@@ -12,7 +11,7 @@ using Content.Shared.Implants.Components;
 using Content.Shared.Interaction;
 using Content.Shared.Item;
 using Content.Shared.Lock;
-using Content.Shared.Materials;
+using Content.Shared.Nyanotrasen.Item.PseudoItem;
 using Content.Shared.Placeable;
 using Content.Shared.Popups;
 using Content.Shared.Stacks;
@@ -97,9 +96,6 @@ public abstract class SharedStorageSystem : EntitySystem
         SubscribeAllEvent<StorageSetItemLocationEvent>(OnSetItemLocation);
         SubscribeAllEvent<StorageInsertItemIntoLocationEvent>(OnInsertItemIntoLocation);
         SubscribeAllEvent<StorageRemoveItemEvent>(OnRemoveItem);
-
-        SubscribeLocalEvent<StorageComponent, GotReclaimedEvent>(OnReclaimed);
-
         UpdatePrototypeCache();
     }
 
@@ -393,11 +389,6 @@ public abstract class SharedStorageSystem : EntitySystem
         args.Handled = true;
     }
 
-    private void OnReclaimed(EntityUid uid, StorageComponent storageComp, GotReclaimedEvent args)
-    {
-        _containerSystem.EmptyContainer(storageComp.Container, destination: args.ReclaimerCoordinates);
-    }
-
     private void OnDestroy(EntityUid uid, StorageComponent storageComp, DestructionEventArgs args)
     {
         var coordinates = TransformSystem.GetMoverCoordinates(uid);
@@ -640,6 +631,9 @@ public abstract class SharedStorageSystem : EntitySystem
 
         foreach (var entity in entities.ToArray())
         {
+            if (HasComp<PseudoItemComponent>(entity)) // Nyanotrasen - They dont transfer properly
+                continue;
+
             Insert(target, entity, out _, user: user, targetComp, playSound: false);
         }
 
