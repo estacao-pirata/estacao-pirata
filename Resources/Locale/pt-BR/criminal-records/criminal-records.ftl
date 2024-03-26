@@ -10,9 +10,9 @@ criminal-records-console-status = Status
 criminal-records-status-none = Nenhum
 criminal-records-status-wanted = Procurado
 criminal-records-status-detained = Detido
-criminal-records-status-suspected = Suspeita
+criminal-records-status-suspected = Suspeito
 criminal-records-status-discharged = Liberado
-criminal-records-status-paroled = Condicional
+criminal-records-status-paroled = sob Condicional
 
 
 criminal-records-console-wanted-reason = [color=gray]Procurado por[/color]

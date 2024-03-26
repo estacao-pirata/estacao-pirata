@@ -50,6 +50,7 @@ flavor-base-horrible = horrível
 
 # lmao
 flavor-base-terrible = terrível
+flavor-base-mindful = atento
 
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.
@@ -172,6 +173,7 @@ flavor-complex-lost-friendship = como amizade perdida
 flavor-complex-light = como uma luz que apagou
 flavor-complex-profits = como lucro
 flavor-complex-fishops = como os temidos fishops
+flavor-complex-violets = como violetas
 
 # Drink-specific flavors.
 
@@ -275,3 +277,4 @@ flavor-complex-bee = inacreditável
 flavor-complex-sax = de jazz
 flavor-complex-bottledlightning = como um relâmpago engarrafado
 flavor-complex-punishment = de punição
+flavor-weh = like weh

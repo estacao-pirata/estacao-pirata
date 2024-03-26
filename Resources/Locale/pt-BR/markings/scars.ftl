@@ -9,3 +9,6 @@ marking-ScarTopSurgeryShort = Cicatriz de Cirurgia (Curta)
 
 marking-ScarTopSurgeryLong-scar_top_surgery_long = Cicatriz de Cirurgia
 marking-ScarTopSurgeryLong = Cicatriz de Cirurgia (Longa)
+
+marking-ScarChest-scar_chest = Cicatriz no Peito
+marking-ScarChest = Cicatriz no Peito

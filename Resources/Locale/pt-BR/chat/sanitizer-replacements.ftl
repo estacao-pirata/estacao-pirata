@@ -16,8 +16,11 @@ chatsan-wide-eyed = parece chocado
 chatsan-confused = parece confuso
 chatsan-unimpressed = não parece impressionado
 chatsan-waves = acena
-chatsan-salutes = sauda
-chatsan-tearfully-salutes = sauda em lágrimas
+chatsan-salutes = saúda
+chatsan-tearfully-salutes = saúda em lágrimas
 chatsan-shrugs = dá de ombros
+chatsan-tearfully-smiles = sorri lacrimejando
+chatsan-winks = pisca
+
 chatsan-shake-head-yes = faz que sim com a cabeça
 chatsan-shake-head-no = faz que não com a cabeça
