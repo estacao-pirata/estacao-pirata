@@ -167,6 +167,7 @@ marking-HumanHairSpiky = Espetado 2
 marking-HumanHairSpiky2 = Espetado 3
 marking-HumanHairSwept = Puxado pra Trás
 marking-HumanHairSwept2 = Puxado pra Trás 2
+marking-HumanHairTailed = Tailed
 marking-HumanHairThinning = Calvície
 marking-HumanHairThinningfront = Calvície (Frontal)
 marking-HumanHairThinningrear = Calvície (Traseira)
