@@ -41,7 +41,7 @@ ent-JugEthanol = jarro (etanol)
 
 ent-JugSugar = jarro (açúcar)
 
-ent-JugNitrogen = jarro (hidrogênio)
+ent-JugNitrogen = jarro (nitrogênio)
 
 ent-JugOxygen = jarro (oxigênio)
 
