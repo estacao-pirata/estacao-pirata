@@ -22,6 +22,9 @@ reagent-desc-ketchup = Feito de tomates amassado e temperado com especiarias.
 reagent-name-ketchunaise = ketchunese
 reagente-desc-ketchunaise = O assim chamado molho russo, popular entre os americanos do espaço.
 
+reagent-name-laughin-syrup = xarope rindo
+reagent-desc-laughin-syrup = O produto do suco de Ervilhas Rindo. Efervescente e parece mudar de sabor com base no que é usado!
+
 reagent-name-mayo = maionese
 reagent-desc-mayo = molho cremoso, feito de óleo, ovo e alguns (comestíveis) ácido.
 

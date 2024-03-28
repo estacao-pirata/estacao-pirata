@@ -21,3 +21,9 @@ reagent-desc-razorium = Um produto químico estranho e não newtoniano. É produ
 
 reagent-name-fresium = Fresium
 reagent-desc-fresium = Um composto misterioso que retarda a vibração de átomos e moléculas... de alguma forma. Em termos leigos, torna as coisas frias... MUITO frias. Pode causar problemas de movimento duradouros se ingerido.
+
+reagent-name-laughter = Risadas
+reagent-desc-laughter = Alguns dizem que é o melhor remédio, mas estudos recentes provaram que isso não é verdade.
+
+reagent-name-laughter = suco que faz você Weh
+reagent-desc-laughter = Essência pura de pelúcia de lagarto. Faz você Weh!

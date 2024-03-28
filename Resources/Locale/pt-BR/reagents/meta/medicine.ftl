@@ -58,6 +58,9 @@ reagent-desc-barozine = Um fármaco potente que evita danos por pressão. Causa 
 reagent-name-phalanximine = phalanximina
 reagent-desc-phalanximine = Um fármaco avançado usado no tratamento do câncer. Causa envenenamento moderado de radiação em orgânicos e vômitos. Pode potencialmente remover o gene da morte nas plantas.
 
+reagent-name-polypyrylium-oligomers = Oligômeros de Polipirílio
+reagent-desc-polypyrylium-oligomers = Uma mistura roxa de cadeias curtas de polieletrólitos que não são facilmente sintetizadas em laboratório. Cura asfixia e dano bruto. Para de sangrar com o tempo.
+
 reagent-name-ambuzol = ambuzol
 reagent-desc-ambuzol = Uma substância produto de alta engenharia química capaz de interromper a progressão de uma infecção zumbi.
 

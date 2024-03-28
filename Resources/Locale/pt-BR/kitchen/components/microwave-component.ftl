@@ -16,6 +16,8 @@ microwave-component-interact-item-too-big = { CAPITALIZE(THE($item)) } é muito 
 
 microwave-bound-user-interface-instant-button = INSTANTÂNEO
 microwave-bound-user-interface-cook-time-label = TEMPO PARA COZER: {$time}
+microwave-menu-footer-flavor-left = Não insira nenhum eletrônico, metais ou seres vivos.
+microwave-menu-footer-flavor-right = v1.5
 
 ## UI
 
