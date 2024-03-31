@@ -1,5 +1,5 @@
-﻿- type: advertisementsPack
-  id: BrazucaDrinksAds
+- type: messagePack
+  id: FutebolAds
   advertisements:
   - advertisement-futebol-1
   - advertisement-futebol-2
