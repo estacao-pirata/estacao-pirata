@@ -35,3 +35,6 @@ trait-frontal-lisp-desc = Você fala com um thetheio
 
 trait-socialanxiety-name = Ansiedade social
 trait-socialanxiety-desc = Você fica ansioso quando fala e gagueja.
+
+trait-snoring-name = Ronco
+trait-snoring-desc = Você roncará quando dormir.

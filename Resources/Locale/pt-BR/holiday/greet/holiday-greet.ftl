@@ -8,7 +8,6 @@ holiday-name-new-year = Ano Novo
 holiday-name-mister-lizard = Aniversário Mister Lizard
 holiday-name-chinese-new-year = Ano Novo Chinês
 holiday-name-groundhog-day = Dia da Marmota
-holiday-name-travis-scott-day = Dia do Travis Scott
 holiday-name-valentines-day = Dia de São Valentim
 holiday-name-birthday13 = Aniversário Space Station 13
 holiday-name-random-kindness = Dia de Atos Aleatórios de Bondade

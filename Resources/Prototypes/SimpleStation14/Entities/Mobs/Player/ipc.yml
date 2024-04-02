@@ -14,7 +14,8 @@
         startingItem: PowerCellMedium
   - type: SiliconEmitSoundOnDrained
     sound: "/Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg"
-    interval: 15
+    minInterval: 15
+    maxInterval: 30
     playChance: 1
     popUp: "silicon-power-low"
   - type: Lock
@@ -84,6 +85,7 @@
   - type: IntrinsicRadioTransmitter
   - type: Wires
     layoutId: IPC
+  - type: EmitBuzzOnCrit
 
 - type: entity
   save: false

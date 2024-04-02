@@ -22,7 +22,8 @@ marking-LizardHornsShort = Chifres de Lagarto (Curto)
 marking-LizardHornsSimple-horns_simple = Chifres de Lagarto
 marking-LizardHornsSimple = Chifres de Lagarto
 
-marking-LizardTailSmooth-tail_smooth = Rabo de Lagarto (Suave)
+marking-LizardTailSmooth-tail_smooth_primary = Rabo de Lagarto
+marking-LizardTailSmooth-tail_smooth_secondary = Segundo Tom
 marking-LizardTailSmooth = Rabo de Lagarto (Suave)
 
 marking-LizardTailLarge-tail_large = Cauda de Lagarto (Grande)

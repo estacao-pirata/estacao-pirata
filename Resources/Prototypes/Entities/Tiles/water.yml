@@ -17,21 +17,26 @@
     drawdepth: BelowFloor
     layers:
       - state: shoreline_water
-  - type: SlowContacts
+  - type: SolutionContainerManager
+    solutions:
+      pool:
+        maxVol: 9999999 #.inf seems to break the whole yaml file, but would definitely be preferable. 
+        reagents:
+        - ReagentId: Water
+          Quantity: 9999999
+  - type: SolutionRegeneration
+    solution: tank
+    generated:
+      reagents:
+      - ReagentId: Water
+        Quantity: 100
+  - type: DrainableSolution
+    solution: pool
+  - type: SpeedModifierContacts
     walkSpeedModifier: 0.5
     sprintSpeedModifier: 0.5
   - type: Physics
     bodyType: Static
-  - type: Drink
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 5000
-        reagents:
-        - ReagentId: Water
-          Quantity: 5000
-  - type: DrainableSolution
-    solution: drink
   - type: Fixtures
     fixtures:
       fix1:

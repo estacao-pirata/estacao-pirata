@@ -3,7 +3,7 @@
 
 # For the PDA Ringer screen
 
-comp-ringer-vibration-popup = O PDA vibra
+comp-ringer-vibration-popup = Seu PDA vibra
 
 comp-ringer-ui-menu-title = Toque
 
