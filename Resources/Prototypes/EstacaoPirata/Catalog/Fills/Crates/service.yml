@@ -1,0 +1,49 @@
+#Caixas de Kits de Cargos que não estão presente na maioria das estações.
+- type: entity
+  id: CrateBlueshieldKit
+  parent: CrateCommandSecure
+  name: Blueshield Kit
+  description: Contém o basico para o serviço de Blueshield.
+  components:
+  - type: StorageFill
+    contents:
+    - id: ClothingOuterVestBlueshield
+    - id: ClothingShoesBootsJack
+    - id: WeaponRevolverDeckard
+    - id: ClothingHeadHatBeretBlueshield
+    - id: ClothingHandsGlovesColorBlack
+    - id: ClothingUniformJumpsuitBlueshield
+    - id: ClothingEyesGlassesBlueshield
+    - id: FlashlightSeclite
+
+- type: entity
+  id: CrateReporterKit
+  parent: CrateGenericSteel
+  name: Reporter Kit
+  description: Contém o basico para o serviço de Repórter.
+  components:
+  - type: StorageFill
+    contents:
+    - id: ComputerMassMediaCircuitboard
+    - id: MicrophoneInstrument
+    - id: ClothingShoesColorWhite
+    - id: ClothingUniformJumpsuitJournalist
+    - id: ClothingUniformJumpsuitReporter
+    - id: SurveillanceWirelessCameraMovableEntertainment
+    - id: ClothingEyesGlasses
+
+- type: entity
+  id: CratePsychologistKit
+  parent: CrateGenericSteel
+  name: Psicólogo Kit
+  description: Contém o basico para o serviço de psicólogo.
+  components:
+  - type: StorageFill
+    contents:
+    - id: ClothingOuterStraightjacket
+    - id: BoxFolderClipboard
+    - id: PlushieLizard
+    - id: LuxuryPen
+    - id: ClothingShoesLeather
+    - id: ClothingUniformJumpsuitPsychologist
+

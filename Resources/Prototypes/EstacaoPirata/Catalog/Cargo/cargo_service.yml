@@ -1,0 +1,29 @@
+- type: cargoProduct
+  id: BlueshieldKit
+  icon:
+    sprite: Structures/Storage/Crates/command.rsi
+    state: icon
+  product: CrateBlueshieldKit
+  cost: 5000
+  category: Service
+  group: market
+
+- type: cargoProduct
+  id: ReporterKit
+  icon:
+    sprite: Structures/Storage/Crates/generic.rsi
+    state: icon
+  product: CrateReporterKit
+  cost: 2400
+  category: Service
+  group: market
+
+- type: cargoProduct
+  id: PsychologistKit
+  icon:
+    sprite: Structures/Storage/Crates/generic.rsi
+    state: icon
+  product: CratePsychologistKit
+  cost: 700
+  category: Service
+  group: market
