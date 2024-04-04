@@ -12,3 +12,58 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 10
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesGreenglasses
+  name: óculos verdes
+  description: Um par de óculos verdes.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculosverdes.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculosverdes.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesBlueglasses
+  name: óculos azuis
+  description: Um par de óculos azuis.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculosazuis.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculosazuis.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesPurpleglasses
+  name: óculos roxos
+  description: Um par de óculos roxos.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculosroxos.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculosroxos.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesOranjeglasses
+  name: óculos laranjas
+  description: Um par de óculos laranjas.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculoslaranjas.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculoslaranjas.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesYellowglasses
+  name: óculos amarelos
+  description: Um par de óculos amarelos.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculosamarelos.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Eyes/Glasses/oculosamarelos.rsi
