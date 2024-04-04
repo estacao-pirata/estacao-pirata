@@ -1021,6 +1021,9 @@
       - CarpetPurple
       - CarpetCyan
       - CarpetWhite
+      # Pirata
+      - ClothingUniformJumpsuitBlueshield
+      - ClothingHeadHatBeretBlueshield
   - type: EmagLatheRecipes
     emagStaticRecipes:
       - ClothingHeadHatCentcomcap
