@@ -318,19 +318,19 @@ chatsan-word-1113 = dnv
 chatsan-replacement-1113 = de novo
 
 chatsan-word-1114 = qm
-chatsan-replacement-1114 = Intendente de Carga
+chatsan-replacement-1114 = intendente de carga
 
 chatsan-word-1115 = ce
-chatsan-replacement-1115 = Engenheiro Chefe
+chatsan-replacement-1115 = engenheiro chefe
 
 chatsan-word-1116 = cmo
-chatsan-replacement-1116 = Médico Chefe
+chatsan-replacement-1116 = médico chefe
 
 chatsan-word-1117 = rd
-chatsan-replacement-1117 = Diretor de Pesquisas
+chatsan-replacement-1117 = diretor de pesquisas
 
 chatsan-word-1118 = hos
-chatsan-replacement-1118 = Chefe da Segurança
+chatsan-replacement-1118 = chefe da segurança
 
 chatsan-word-1119 = hop
-chatsan-replacement-1119 = Chefe dos Funcionários
+chatsan-replacement-1119 = chefe dos funcionários
