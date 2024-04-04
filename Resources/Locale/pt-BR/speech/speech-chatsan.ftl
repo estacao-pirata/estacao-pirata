@@ -91,7 +91,7 @@ chatsan-word-33 = gl
 chatsan-replacement-33 = boa sorte
 
 chatsan-word-34 = hbu
-chatsan-replacement-34 = e você
+chatsan-replacement-34 = e você?
 
 chatsan-word-35 = hmu
 chatsan-replacement-35 = vou querer um gole
@@ -223,10 +223,10 @@ chatsan-word-1078 = sla
 chatsan-replacement-1078 = sei lá
 
 chatsan-word-1079 = slk
-chatsan-replacement-1079 = sê é loco
+chatsan-replacement-1079 = cê é loco
 
 chatsan-word-1080 = slc
-chatsan-replacement-1080 = sei la cara
+chatsan-replacement-1080 = sei lá cara
 
 chatsan-word-1081 = tbm
 chatsan-word-1082 = tb
