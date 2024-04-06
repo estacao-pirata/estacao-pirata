@@ -5,7 +5,7 @@ using Robust.Shared.Enums;
 
 namespace Content.Server.Administration.Commands;
 
-[AdminCommand(AdminFlags.Admin)]
+[AdminCommand(AdminFlags.None)]
 public sealed class FollowCommand : IConsoleCommand
 {
     [Dependency] private readonly IEntityManager _entManager = default!;
