@@ -1,7 +1,7 @@
 ## UI
 
-hypospray-all-mode-text = Apenas Injeta
-hypospray-mobs-only-mode-text = Tira e Injeta
+hypospray-all-mode-text = Apenas Injeção
+hypospray-mobs-only-mode-text = Tirar e Injetar
 hypospray-invalid-text = Inválido
 hypospray-volume-label = Volume: [color=white]{$currentVolume}/{$totalVolume}u[/color]
     Modo: [color=white]{$modeString}[/color]
