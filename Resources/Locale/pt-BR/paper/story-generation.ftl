@@ -230,15 +230,3 @@ story-gen-book-element-trait10 = interessante
 story-gen-book-element-trait11 = inadequado
 story-gen-book-element-trait12 = triste
 story-gen-book-element-trait13 = bastante deprimente
-
-
-
-
-
-
-
-
-
-
-
-
