@@ -18,6 +18,7 @@ using Robust.Shared.GameStates;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Robust.Server.Audio;
+using Content.Shared.Tag;
 
 namespace Content.Server.Chemistry.EntitySystems;
 
@@ -26,6 +27,8 @@ public sealed class HypospraySystem : SharedHypospraySystem
     [Dependency] private readonly AudioSystem _audio = default!;
     [Dependency] private readonly InteractionSystem _interaction = default!;
     [Dependency] private readonly SolutionContainerSystem _solutionContainerSystem = default!;
+    [Dependency] private readonly TagSystem _tag = default!;
+
 
     public override void Initialize()
     {
@@ -124,6 +127,9 @@ public sealed class HypospraySystem : SharedHypospraySystem
         // BeginDelay function returns if item is already on delay
         if (delayComp != null)
             _useDelay.TryResetDelay((uid, delayComp));
+
+        if (_tag.HasTag(uid, "Medipen"))
+            _tag.TryAddTag(uid, "EmptyMedipen");
 
         // Get transfer amount. May be smaller than component.TransferAmount if not enough room
         var realTransferAmount = FixedPoint2.Min(component.TransferAmount, targetSolution.AvailableVolume);
