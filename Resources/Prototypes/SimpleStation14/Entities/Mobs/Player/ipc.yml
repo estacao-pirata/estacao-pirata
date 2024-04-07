@@ -10,6 +10,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
+        locked: true
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: BatterySlotRequiresLock
