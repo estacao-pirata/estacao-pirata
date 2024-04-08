@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHandsButcherable
+  parent: ClothingHandsAccessoriesBase
   id: ClothingHandsAccessoriesWatch
   name: relógio de pulso
   description: Um tipo de relógio com ponteiros, ele servia para medir o tempo no passado, mas agora não possui muita utilidade.
