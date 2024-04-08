@@ -1,0 +1,16 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingHandsAccessoriesBase
+  components:
+  - type: Sprite
+    state: icon
+  - type: Clothing
+    slots: [gloves]
+  - type: Item
+    size: Tiny
+    storedRotation: -90
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

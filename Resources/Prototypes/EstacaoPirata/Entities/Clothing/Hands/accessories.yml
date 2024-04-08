@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHandsButcherable
+  parent: ClothingHandsAccessoriesBase
   id: ClothingHandsAccessoriesWeddingring
   name: anel de casamento
   description: Um anel de casamento elegante e atemporal, simbolizando o compromisso e a união eterna entre dois amantes.
