@@ -89,8 +89,9 @@
   - type: ActiveRadio
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
-  - type: Wires
-    layoutId: IPC
+# Erro de linter
+#   - type: Wires
+#     layoutId: IPC
   - type: EmitBuzzOnCrit
 
 - type: entity
