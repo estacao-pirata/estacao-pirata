@@ -129,7 +129,7 @@
           sprite: "Effects/creampie.rsi"
           state: "creampie_human"
           visible: false
-    - type: Repairable
+    - type: SiliconRepairable
       fuelcost: 10
       doAfterDelay: 40
     #- type: Bloodstream This is left commented out because it's not necessary for a robot, but you may want it.
@@ -239,7 +239,7 @@
       deathPenalty: 0.01 # However they really ought to be living and intact, otherwise they're worth 100x less.
     - type: Pullable
     - type: Puller
-    
+
     - type: BodyEmotes
       soundsId: GeneralBodyEmotes
     - type: DamageVisuals
