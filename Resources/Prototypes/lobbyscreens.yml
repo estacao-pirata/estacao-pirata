@@ -45,3 +45,7 @@
 - type: lobbyBackground
   id: Caos
   background: /Textures/LobbyScreens/caos.png
+
+- type: lobbyBackground
+  id: TerminalStation
+  background: /Textures/LobbyScreens/terminalstation.webp

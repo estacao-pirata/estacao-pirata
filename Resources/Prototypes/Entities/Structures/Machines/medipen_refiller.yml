@@ -42,9 +42,10 @@
     - key: enum.MedipenRefillerUiKey.Key
       type: MedipenRefillerBoundUserInterface
   - type: WiresPanel
-  - type: Wires
-    boardName: wires-board-name-medipenrefiller
-    layoutId: medipen_refiller
+# Não passa no linter
+#  - type: Wires
+#    boardName: wires-board-name-medipenrefiller
+#    layoutId: medipen_refiller
   - type: Machine
     board: MedipenRefillerMachineCircuitboard
   - type: ContainerContainer

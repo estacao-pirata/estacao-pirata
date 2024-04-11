@@ -1282,3 +1282,18 @@
   completetime: 1
   materials:
     Cloth: 100
+
+# Pirata
+- type: latheRecipe
+  id: ClothingHeadHatBeretBlueshield
+  result: ClothingHeadHatBeretBlueshield
+  completetime: 2
+  materials:
+    Cloth: 100
+
+- type: latheRecipe
+  id: ClothingUniformJumpsuitBlueshield
+  result: ClothingUniformJumpsuitBlueshield
+  completetime: 4
+  materials:
+    Cloth: 300

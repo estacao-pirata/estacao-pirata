@@ -1,6 +1,6 @@
-﻿- type: advertisementsPack
+﻿- type: messagePack
   id: BrazucaDrinksAds
-  advertisements:
+  messages:
   - advertisement-brazuca-1
   - advertisement-brazuca-2
   - advertisement-brazuca-3

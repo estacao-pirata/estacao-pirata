@@ -91,7 +91,7 @@ chatsan-word-33 = gl
 chatsan-replacement-33 = boa sorte
 
 chatsan-word-34 = hbu
-chatsan-replacement-34 = e você
+chatsan-replacement-34 = e você?
 
 chatsan-word-35 = hmu
 chatsan-replacement-35 = vou querer um gole
@@ -223,10 +223,10 @@ chatsan-word-1078 = sla
 chatsan-replacement-1078 = sei lá
 
 chatsan-word-1079 = slk
-chatsan-replacement-1079 = sê é loco
+chatsan-replacement-1079 = cê é loco
 
 chatsan-word-1080 = slc
-chatsan-replacement-1080 = sei la cara
+chatsan-replacement-1080 = sei lá cara
 
 chatsan-word-1081 = tbm
 chatsan-word-1082 = tb
@@ -318,19 +318,19 @@ chatsan-word-1113 = dnv
 chatsan-replacement-1113 = de novo
 
 chatsan-word-1114 = qm
-chatsan-replacement-1114 = Intendente de Carga
+chatsan-replacement-1114 = intendente de carga
 
 chatsan-word-1115 = ce
-chatsan-replacement-1115 = Engenheiro Chefe
+chatsan-replacement-1115 = engenheiro chefe
 
 chatsan-word-1116 = cmo
-chatsan-replacement-1116 = Médico Chefe
+chatsan-replacement-1116 = médico chefe
 
 chatsan-word-1117 = rd
-chatsan-replacement-1117 = Diretor de Pesquisas
+chatsan-replacement-1117 = diretor de pesquisas
 
 chatsan-word-1118 = hos
-chatsan-replacement-1118 = Chefe da Segurança
+chatsan-replacement-1118 = chefe da segurança
 
 chatsan-word-1119 = hop
-chatsan-replacement-1119 = Chefe dos Funcionários
+chatsan-replacement-1119 = chefe dos funcionários
