@@ -14,14 +14,26 @@ namespace Content.Server._EstacaoPirata.SiliconRepairable
         ///     If this data-field is specified, it will change damage by this amount instead of setting all damage to 0.
         ///     in order to heal/repair the damage values have to be negative.
         /// </remarks>
+
         [ViewVariables(VVAccess.ReadWrite)] [DataField("damage")]
         public DamageSpecifier? Damage;
 
         [ViewVariables(VVAccess.ReadWrite)] [DataField("fuelCost")]
         public int FuelCost = 5;
 
-        [ViewVariables(VVAccess.ReadWrite)] [DataField("qualityNeeded", customTypeSerializer:typeof(PrototypeIdSerializer<ToolQualityPrototype>))]
-        public string QualityNeeded = "Welding";
+
+        //BRUTE, CAUSTIC ( and AIRLOSS, TOXIN, GENETIC, BLEEDING )
+        [ViewVariables(VVAccess.ReadWrite)] [DataField("physicalQualityNeeded", customTypeSerializer:typeof(PrototypeIdSerializer<ToolQualityPrototype>))]
+        public string PhysicalQualityNeeded = "Welding";
+
+
+        //BURN
+        [ViewVariables(VVAccess.ReadWrite)] [DataField("burnQualityNeeded", customTypeSerializer:typeof(PrototypeIdSerializer<ToolQualityPrototype>))]
+        public string BurnQualityNeeded = "CableMending";
+
+        //BLINDNESS
+        [ViewVariables(VVAccess.ReadWrite)] [DataField("blindnessQualityNeeded", customTypeSerializer:typeof(PrototypeIdSerializer<ToolQualityPrototype>))]
+        public string BlindQualityNeeded = "RepairLens";
 
         [ViewVariables(VVAccess.ReadWrite)] [DataField("doAfterDelay")]
         public int DoAfterDelay = 1;

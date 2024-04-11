@@ -26,6 +26,9 @@
     price: 0
   - type: StackPrice
     price: 1
+  - type: Tool
+    qualities:
+      - CableMending #could not find a better name for that :(
 
 - type: entity
   id: CableHVStack

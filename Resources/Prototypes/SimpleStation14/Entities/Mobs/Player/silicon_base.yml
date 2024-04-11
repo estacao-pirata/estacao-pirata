@@ -130,8 +130,16 @@
           state: "creampie_human"
           visible: false
     - type: SiliconRepairable
-      fuelcost: 10
-      doAfterDelay: 40
+      fuelcost: 5
+      doAfterDelay: 1
+      damage:
+        types:
+          Blunt: -10
+          Piercing: -10
+          Slash: -10
+          Heat: -10
+          Shock: -10
+
     #- type: Bloodstream This is left commented out because it's not necessary for a robot, but you may want it.
     #  damageBleedModifiers: BloodlossIPC
     #  bloodReagent: Oil
