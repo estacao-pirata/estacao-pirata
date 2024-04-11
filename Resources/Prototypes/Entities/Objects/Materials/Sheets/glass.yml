@@ -48,6 +48,9 @@
     solutions:
       glass:
         canReact: false
+  - type: Tool
+    qualities:
+      - RepairLens
 
 - type: entity
   parent: SheetGlassBase
