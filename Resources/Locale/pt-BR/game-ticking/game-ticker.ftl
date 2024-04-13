@@ -37,3 +37,6 @@ latejoin-arrival-announcement = {$character} ({$job}) chegou a estação!
 latejoin-arrival-sender = Estação
 latejoin-arrivals-direction = Uma nave pra te transferir pra a sua estação chegará em breve.
 latejoin-arrivals-direction-time = Uma nave pra te transferir para a sua estação chegará em {$time}.
+
+preset-not-enough-ready-players = Não é possível começar {$presetName}. Esse modo requer {$minimumPlayers} jogadores mas temos apenas {$readyPlayersCount}.
+preset-no-one-ready = Não é possível começar {$presetName}. Nenhum jogador pronto.

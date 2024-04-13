@@ -1,0 +1,40 @@
+<Document>
+  # Diona
+
+  <Box>
+    <GuideEntityEmbed Entity="MobDiona" Caption=""/>
+  </Box>
+
+  Eles nao podem usar sapatos, mas não ficam lentos por Kudzu.
+
+  Eles ficam com fome e sede mais devagar.
+
+  O "sangue" deles é agua comum e não pode ser recuperado com Ferro.
+
+  Sendo plantas, Herbicida envenena eles, enquanto Robust Harvest cura eles (mas não sem o risco de ser usado demais!).
+
+  Eles tomam [color=#1e90ff]30% menos dano de Contundente e 20% a mais de dano Cortante[/color];
+  mas eles tomam [color=#ffa500]50% a mais de dano de Calor, 20% a mais de dano de Choque,
+  e eles pegam fogo facilmente quando recebem dano de Calor de [bold]qualquer[/bold] fonte.[/color]
+
+  ## Faça Como Uma Arvore e Creça
+  <Box>
+    <GuideEntityEmbed Entity="FloraTree06" Caption=""/>
+  </Box>
+  Ficar esposto a muito Robust Harvest causará um Diona a crescer fora de controle, o transformando em uma árvore imóvel (deixando todos os seus itens no chão).
+  Cortar a árvore vai "restaurar" o Diona para sua forma móvel.
+
+  ## Ninfas de Diona
+  <Box>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+  </Box>
+  Depois de sua morte, o Diona pode voluntariamente destruir o seu próprio corpo, soltando três ninfas como "orgãos internos", com o jogador controlando a Ninfa que seria o cérebro.
+
+  Ela pode falar, mas não tem mãos e nem inventário, e não pode fazer muitas coisas.
+
+  Depois de 10 minutos, uma Ninfa pode reformar o seu próprio corpo em um Diona completo. Esse novo corpo será aleatório e com nome aleatório,
+  e terá quase nenhuma evidencia além de sua palavra sobre quem era antes.
+
+</Document>

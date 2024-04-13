@@ -1,0 +1,20 @@
+<Document>
+  # Pessoa Slime
+
+  <Box>
+    <GuideEntityEmbed Entity="MobSlimePerson" Caption=""/>
+  </Box>
+
+  Eles respiram nitrogênio invés de oxigênio, que é mais abundante no ar da estação, mas é mais difícil de achar comprimido em tanques de gás. Eles tomam muito dano se espirrados ou respingados com agua,
+  mas podem (e como outras espécies, precisam) beber agua para se manter hidratado
+
+  Eles exalam óxido nitroso, e não são afetados por ele.
+  Os seus corpos conseguem processar 6 reagentes na mesma velocidade que humanos, invés de somente 2.
+
+  O seu "sangue" slime nao pode ser regenerado por Ferro. Sangue Slime é tecnicamente uma fonte moderada de diversas comidas de outras espécies,
+  mas beber o sangue de seus colegas funcionários normalmente é visto como algo ruim.
+  Eles sufocam 80% mais devagar, mas tomam dano de pressão 9% mais rápido. Isso faz eles serem a espécie orgânica que mais sobrevie no vácuo. Por um tempo.
+
+  Eles tomam [color=#1e90ff]80% menos dano Celular, 40% menos dano Contundente e 20% menos dano de Veneno[/color], mas [color=#ffa500]50% mais dano Congelante, 20% mais dano Cortante and 20% mais dano Perfurante[/color].
+
+</Document>

@@ -30,7 +30,8 @@ petting-success-hamster = Voce acaricia {THE($target)} em sua fofa cabecinha.
 petting-success-bear = Você relutantemente acaricia {THE($target)} em sua cabeça mística.
 petting-success-slimes = Voce acaricia {THE($target)} em sua superfície mucosa.
 petting-success-snake = Você acaricia {THE($target)} na cabeça escamosa e grande.
-petting-success-monkey = Você acaricia {THE($target)} na cabeça pequena e travessa.
+petting-success-monkey = Você acaricia {THE($target)} em sua travessa cabecinha.
+petting-success-nymph = Você acaricia {THE($target)} em sua cabecinha emadeirada.
 
 petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
 
@@ -51,6 +52,8 @@ petting-failure-dragon = Você levanta sua mão, mas quando {THE($target)} solta
 petting-failure-hamster = Você tenta acariciar {THE($target)}, mas ele(a) tenta morder o seu dedo e por pouco seus reflexos te salvam de um ferimento quase fatal.
 petting-failure-bear = Você tenta acariciar {THE($target)}, mas ele(a) rosna, fazendo você pensar duas vezes.
 petting-failure-monkey = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} quase morde seus dedos!
+petting-failure-nymph = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} move seus galhos para longe.
+petting-failure-shadow = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} mas sua mão passa através da fria escuridão de seu corpo.
 
 ## Petting silicons
 

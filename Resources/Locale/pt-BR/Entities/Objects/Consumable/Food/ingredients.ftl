@@ -76,3 +76,23 @@ ent-FoodCheeseSlice = fatia de queijo
 ent-FoodBadRecipe = bagunça queimada
      .desc = Alguém deveria ser rebaixado de cozinheiro por isso.
 
+ent-FoodCocoaBeans = grãos de cacau
+     .desc = Não existe exagero quando o assunto é chocolate!
+
+ent-FoodDoughCornmeal = massa de farinha de milho
+    .desc = Um pedaço de massa de farinha de milho.
+
+ent-FoodDoughCornmealSlice = fatia de massa de farinha de milho
+    .desc = Uma fatia de massa de farinha de milho.
+
+ent-FoodDoughTortilla = massa de tortilha
+    .desc = Um pedaço de massa de tortilha.
+
+ent-FoodDoughTortillaFlat = massa de tortilha achatada
+    .desc = Uma fatia achatada de massa de tortilha, asse isto para obter uma casca de taco.
+
+ent-FoodDoughTortillaSlice = fatia de massa de tortilha
+    .desc = Uma fatia de massa de tortilha.
+
+ent-FoodChevre = tronco de chèvre
+    .desc = Um tronco macio e cremoso de queijo de cabra.

@@ -1,96 +1,103 @@
-ent-AutolatheMachineCircuitboard = autolathe machine board
-    .desc = A machine printed circuit board for an autolathe
+ent-AutolatheMachineCircuitboard = placa de torno
+    .desc = Uma placa de circuito impresso para um torno.
 
-ent-ProtolatheMachineCircuitboard = protolathe machine board
-    .desc = A machine printed circuit board for a protolathe
+ent-ProtolatheMachineCircuitboard = placa de torno avançado
+    .desc = Uma placa de circuito impresso para um torno avançado.
 
-ent-SecurityTechFabCircuitboard = security techfab machine board
-    .desc = A machine printed circuit board for a security techfab
+ent-SecurityTechFabCircuitboard = placa de fabricador de segurança
+    .desc = Uma placa de circuito impresso para uma máquina fabricadora de produtos de segurança.
 
-ent-MedicalTechFabCircuitboard = medical techfab machine board
-    .desc = A machine printed circuit board for a medical techfab
+ent-MedicalTechFabCircuitboard = placa de fabricador médico
+    .desc = Uma placa de circuito impresso para uma máquina fabricadora de produtos médicos.
 
-ent-CircuitImprinterMachineCircuitboard = circuit imprinter machine board
-    .desc = A machine printed circuit board for a medical techfab
+ent-CircuitImprinterMachineCircuitboard = placa de impressora de circuitos
+    .desc = Uma placa de circuito impresso para uma impressora de placas de circuito.
 
-ent-UniformPrinterMachineCircuitboard = uniform printer machine board
-    .desc = A machine printed circuit board for a medical techfab
+ent-UniformPrinterMachineCircuitboard = placa de impressora de uniformes
+    .desc = Uma placa de circuito impresso para uma impressora de uniformes.
 
-ent-VaccinatorMachineCircuitboard = vaccinator machine board
-    .desc = A machine printed circuit board for a medical techfab
+ent-VaccinatorMachineCircuitboard = placa de vacinador
+    .desc = Uma placa de circuito impresso para uma máquina vacinadora.
 
-ent-DiagnoserMachineCircuitboard = diagnoser machine board
-    .desc = A machine printed circuit board for a medical techfab
+ent-DiagnoserMachineCircuitboard = placa de diagnosticador patológico
+    .desc = Uma placa de circuito impresso para uma máquina de diagnósticos patológicos.
 
-ent-ThermomachineFreezerMachineCircuitBoard = freezer thermomachine machine board
-    .desc = Looks like you could use a screwdriver to change the board type.
+ent-ThermomachineFreezerMachineCircuitBoard = placa de resfriador
+    .desc = Uma placa de circuito impresso para uma máquina de resfriamento.
 
-ent-ThermomachineHeaterMachineCircuitBoard = heater thermomachine machine board
-    .desc = Looks like you could use a screwdriver to change the board type.
+ent-ThermomachineHeaterMachineCircuitBoard = placa de aquecedor
+    .desc = Uma placa de circuito impresso para uma máquina de aquecimento.
 
-ent-PortableScrubberMachineCircuitBoard = portable scrubber machine board
-    .desc = A PCB for a portable scrubber.
+ent-PortableScrubberMachineCircuitBoard = placa de filtrador portátil
+    .desc = Uma placa de circuito impresso para uma máquina de filtragem portátil.
 
-ent-CloningPodMachineCircuitboard = cloning pod machine board
-    .desc = A machine printed circuit board for a cloning pod
+ent-CloningPodMachineCircuitboard = placa de câmara de clonagem
+    .desc = Uma placa de circuito impresso para uma câmara de clonagem.
 
-ent-MedicalScannerMachineCircuitboard = medical scanner machine board
-    .desc = A machine printed circuit board for a medical scanner
+ent-MedicalScannerMachineCircuitboard = placa de analisador genético
+    .desc = Uma placa de circuito impresso para uma máquina de análise genética.
 
-ent-ChemMasterMachineCircuitboard = ChemMaster 4000 machine board
-    .desc = A machine printed circuit board for a ChemMaster 4000
+ent-ChemMasterMachineCircuitboard = placa de ChemMaster 4000
+    .desc = Uma placa de circuito impresso para uma máquina ChemMaster 4000.
 
-ent-ChemDispenserMachineCircuitboard = chem dispenser machine board
-    .desc = A machine printed circuit board for a chem dispenser
+ent-ChemDispenserMachineCircuitboard = placa de dispensador químico
+    .desc = Uma placa de circuito impresso para uma máquina dispensadora de agentes químicos.
 
-ent-BiomassReclaimerMachineCircuitboard = biomass reclaimer machine board
-    .desc = A machine printed circuit board for a biomass reclaimer
+ent-BiomassReclaimerMachineCircuitboard = placa de processador de biomassa
+    .desc = Uma placa de circuito impresso para uma máquina processadora de biomassa.
 
-ent-HydroponicsTrayMachineCircuitboard = hydroponics tray machine board
-    .desc = A machine printed circuit board for a hydroponics tray
+ent-HydroponicsTrayMachineCircuitboard = placa de bandeja hidropônica
+    .desc = Uma placa de circuito impresso para uma cama de cultivo hidropônico.
 
-ent-SMESMachineCircuitboard = SMES machine board
-    .desc = A machine printed circuit board for a SMES
+ent-SMESMachineCircuitboard = placa de SMES
+    .desc = Uma placa de circuito impresso para uma unidade SMES.
 
-ent-SubstationMachineCircuitboard = substation machine board
-    .desc = A machine printed circuit board for a substation
+ent-SubstationMachineCircuitboard = placa de subestação
+    .desc = Uma placa de circuito impresso para uma subestação elétrica.
 
-ent-DawInstrumentMachineCircuitboard = digital audio workstation machine board
-    .desc = A machine printed circuit board for a substation
+ent-DawInstrumentMachineCircuitboard = placa de estação de trabalho de áudio digital
+    .desc = Uma placa de circuito impresso para uma estação de trabalho de áudio digital.
 
-ent-GeneratorPlasmaMachineCircuitboard = generator (plasma) machine board
-    .desc = A machine printed circuit board for a substation
+ent-GeneratorPlasmaMachineCircuitboard = placa de gerador (plasma)
 
-ent-GeneratorUraniumMachineCircuitboard = generator (uranium) machine board
-    .desc = A machine printed circuit board for a substation
+ent-GeneratorUraniumMachineCircuitboard = placa de gerador (urânio)
 
-ent-ReagentGrinderMachineCircuitboard = reagent grinder machine board
-    .desc = A machine printed circuit board for a reagent grinder
+ent-PortableGeneratorSuperPacmanMachineCircuitboard = placa de gerador portátil S.U.P.E.R.P.A.C.M.A.N
 
-ent-StasisBedMachineCircuitboard = Stasis Bed (Machine Board)
-    .desc = A machine printed circuit board for a reagent grinder
+ent-PortableGeneratorPacmanMachineCircuitboard = placa de gerador portátil P.A.C.M.A.N.
 
-ent-OreProcessorMachineCircuitboard = ore processor machine board
-    .desc = A machine printed circuit board for a reagent grinder
+ent-PortableGeneratorJrPacmanMachineCircuitboard = placa de gerador portátil J.R.P.A.C.M.A.N.
 
-ent-MicrowaveMachineCircuitboard = microwave machine board
-    .desc = A machine printed circuit board for a reagent grinder
+ent-ReagentGrinderMachineCircuitboard = placa de moedor de reagentes
+    .desc = Uma placa de circuito impresso para uma máquina moedora de reagentes, um tipo mais potente de liquidificador.
 
-ent-EmitterCircuitboard = emitter machine board
-    .desc = A machine printed circuit board for a reagent grinder
+ent-StasisBedMachineCircuitboard = placa de cama de estase
+    .desc = Uma placa de circuito impresso para uma cama de estase.
 
-ent-SurveillanceCameraRouterCircuitboard = surveillance camera router board
-    .desc = A machine printed circuit board for a surveillance camera router
+ent-OreProcessorMachineCircuitboard = placa de processador de minérios
+    .desc = Uma placa de circuito impresso para uma máquina processadora de minérios.
 
-ent-SurveillanceCameraWirelessRouterCircuitboard = surveillance camera wireless router board
-    .desc = A machine printed circuit board for a surveillance camera wireless router
+ent-OreProcessorIndustrialMachineCircuitboard = placa de processador de minérios industrial
+    .desc = Uma placa de circuito impresso para uma máquina processadora de minérios industrial.
 
-ent-SurveillanceWirelessCameraMovableCircuitboard = movable wireless camera board
-    .desc = A machine printed circuit board for a movable wireless camera
+ent-MicrowaveMachineCircuitboard = placa de micro-ondas
+    .desc = Uma placa de circuito impresso para um forno de micro-ondas.
 
-ent-SurveillanceWirelessCameraAnchoredCircuitboard = wireless camera board
-    .desc = A machine printed circuit board for a wireless camera
+ent-EmitterCircuitboard = placa de emissor
+    .desc = Uma placa de circuito impresso para um emissor de laser industrial.
 
-ent-GasRecyclerMachineCircuitboard = gas recycler board
-    .desc = A printed circuit board for a gas recycler
+ent-SurveillanceCameraRouterCircuitboard = placa de roteador de câmeras
+    .desc = Uma placa de circuito impresso para um aparelho roteador de câmeras.
+
+ent-SurveillanceCameraWirelessRouterCircuitboard = placa de roteador de câmeras sem fio
+    .desc = Uma placa de circuito impresso para um aparelho roteador de câmeras sem fio.
+
+ent-SurveillanceWirelessCameraMovableCircuitboard = placa de câmera móvel sem fio
+    .desc = Uma placa de circuito impresso para uma câmera móvel sem fio.
+
+ent-SurveillanceWirelessCameraAnchoredCircuitboard = placa de câmera sem fio
+    .desc = Uma placa de circuito impresso para uma câmera sem fio.
+
+ent-GasRecyclerMachineCircuitboard = placa de reciclador de gás
+    .desc = Uma placa de circuito impresso para uma máquina recicladora de gás.
 

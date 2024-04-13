@@ -1,0 +1,25 @@
+<Document>
+  # Aracnídios
+
+  <Box>
+    <GuideEntityEmbed Entity="MobArachnid" Caption=""/>
+  </Box>
+
+  Eles tem dois espaços de bolso a mais no inventário. Eles conseguem comer carne cru sem os efeitos negativos, mas algumas comidas como chocolate e cebola envenenam eles.
+
+  Eles sufocam 50% mais rapido, e seu Sangue Azul não contém ferro, e sim cobre.
+
+  Seus ataques desarmados dão dano Perfurante invés de Contundente.
+
+  ## Sericultura
+
+  <Box>
+    <GuideEntityEmbed Entity="MaterialWebSilk" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingUniformJumpskirtWeb" Caption=""/>
+    <GuideEntityEmbed Entity="WebShield" Caption=""/>
+    <GuideEntityEmbed Entity="WallWeb" Caption=""/>
+  </Box>
+
+  Aracnídios podem criar teia de aranha ao custo de ficar com mais fome. Eles (e somente eles) podem transformar suas teias em varios itens, de roupas, escudos até paredes inteiras.
+
+</Document>

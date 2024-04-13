@@ -1,0 +1,18 @@
+<Document>
+  # Repitiliano
+
+  <Box>
+    <GuideEntityEmbed Entity="MobReptilian" Caption=""/>
+  </Box>
+
+  Eles SÓ podem comer frutas e carne, mas podem comer carne crua e beber sangue sem os efeitos negativos.
+
+  Eles preferem uma temperatura maior que os humanos.
+
+  Eles podem arrastar objetos com a sua calda, deixando as duas mãos livres.
+
+  O seu ataque desarmado são garras que dão dano Cortante invés de Contundente
+
+  Eles tomam [color=#ffa500]30% mais de dano Congelante.[/color]
+
+</Document>

@@ -10,3 +10,5 @@ paper-component-examine-detail-stamped-by = {CAPITALIZE(THE($paper))} {CONJUGATE
 
 paper-component-action-stamp-paper-other = {CAPITALIZE(THE($user))} carimbou o {THE($target)} com {THE($stamp)}.
 paper-component-action-stamp-paper-self = Você carimbou o {THE($target)} com {THE($stamp)}.
+
+paper-ui-save-button = Salvar ({$keybind})

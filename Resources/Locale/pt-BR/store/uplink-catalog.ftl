@@ -64,7 +64,10 @@ uplink-exploding-pen-name = Caneta Explosiva
 uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
 
 uplink-exploding-syndicate-bomb-name = Bomba do Sindicato
-uplink-exploding-syndicate-bomb-desc = Uma grande bomba ancorada que pode criar uma enorme explosão se não for desativada a tempo. Útil como distração. Possui temporizador ajustável com configuração mínima de 120 segundos.
+uplink-exploding-syndicate-bomb-desc = Uma bomba de treinamento cuidadosamente feita para se parecer com a real. Em todos os aspectos semelhante a uma bomba syndie, mas cria apenas uma pequena explosão.
+
+uplink-exploding-syndicate-bomb-fake-name = Bomba do Sindicato Falsa
+uplink-exploding-syndicate-bomb-fake-desc = Bomba do Sindicato Falsa
 
 uplink-cluster-grenade-name = Granada de Cluster
 uplink-cluster-grenade-desc = Três granadas explosivas agrupadas, as granadas são lançadas após o tempo de 3,5 segundos acabar.
@@ -142,8 +145,11 @@ uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz d
 uplink-voice-mask-name = Máscara de Voz
 uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para quem quer que possa pensar. Também utiliza tecnologia camaleão de ponta.
 
+uplink-clothing-eyes-hud-syndicate-name = Visor do Sindicato
+uplink-clothing-eyes-hud-syndicate-desc = O head-up display profissional do sindicato, projetado para melhor detecção de humanóides e sua posterior eliminação.
+
 uplink-radio-jammer-name = Bloqueador de rádio
-uplink-radio-jammer-desc = Este dispositivo interromperá qualquer comunicação de rádio de saída próxima quando ativado.
+uplink-radio-jammer-desc = Este dispositivo interromperá qualquer comunicação de rádio de saída próxima, bem como sensores de traje quando ativado.
 
 uplink-syndicate-weapon-module-name = Módulo Ciborgue de Arma
 uplink-syndicate-weapon-module-desc = Este módulo dará ao ciborgue um laser avançado e um facão
@@ -184,13 +190,19 @@ uplink-micro-bomb-implanter-desc = Explodir em caso de morte ou ativação manua
 
 # Bundles
 uplink-observation-kit-name = Kit de Observação
-uplink-observation-kit-desc = Inclui monitor da tripulação do sindicato, célula de alta potência e proteção de segurança disfarçada de óculos de sol.
+uplink-observation-kit-desc = Inclui placa de monitor de câmera de vigilância e proteção de segurança disfarçada de óculos de sol.
 
 uplink-emp-kit-name = Kit Disruptor Eletromagnético
 uplink-emp-kit-desc = A reversão final em armamento baseado em energia: Desativa os disablers, estuna stunbatons, descarrega armas a laser! Contém 3 granadas EMP e um EMPr. Nota: Não afeta armas de fogo reais.
 
+uplink-decoy-kit-name = Kit de Chamarizes
+uplink-decoy-kit-desc = Tecnologia de distração de última geração direto da Pesquisa. Vem com cinco balões realistas, quatro granadas iscas e alguns snap poppers!
+
 uplink-chemistry-kit-name = Kit de Síntese Química
 uplink-chemistry-kit-desc = Um kit inicial para aspirantes a químico, inclui toxina e vestiína para todas as suas necessidades criminais!
+
+uplink-knives-kit-name = Kit de Facas de Arremesso
+uplink-knives-kit-desc = Um conjunto de 4 facas de arremesso da marca Sindicato, perfeitas para serem embutidas no corpo de suas vítimas.
 
 uplink-meds-bundle-name = Pacote Médico
 uplink-meds-bundle-desc = Tudo o que você precisa para colocar seus companheiros de volta na luta: principalmente um medkit de combate, um desfibrilador e três medidores de combate.
@@ -310,6 +322,9 @@ uplink-decoy-disk-desc = Um pedaço de plástico com uma impressão lenticular, 
 uplink-cigarettes-name = Pacote de Fumo do Sindicato
 uplink-cigarettes-desc = Cigarros de elite para agentes de elite. Infundido com medicamentos para quando você precisa fazer mais do que acalmar seus nervos.
 
+uplink-clothing-conducting-gloves-name = Luvas Condutoras
+uplink-clothing-conducting-gloves-desc = Parece exatamente com luvas isoladas, mas dá um choque muito pior do que se você não tivesse nada! É melhor dar de presente a passageiros de quem você realmente não gosta.
+
 uplink-snack-box-name = Caixa de Lanche do Sindicato
 uplink-snack-box-desc = Uma caixa de deliciosos lanches e bebidas para comer sozinho ou com sua equipe. Inclui um brinquedo que você não queria.
 
@@ -400,3 +415,9 @@ uplink-bribe-desc = Um presente sincero que pode ajudá-lo a influenciar a opini
 
 uplink-hypodart-name = Hipodardo
 uplink-hypodart-desc = Um dardo aparentemente normal com um reservatório ampliado para produtos químicos. Ele pode armazenar até 7u reagentes e injetar instantaneamente quando atingir o alvo. Começa vazio.
+
+uplink-barber-scissors-name = Tesouras de Barbeiro
+uplink-barber-scissors-desc = Uma boa ferramenta para dar um belo corte de cabelo ao seu colega agente, a menos que você queira fazer isso sozinho.
+
+uplink-backpack-syndicate-name = Mochila do Sindicato
+uplink-backpack-syndicate-desc = Mochila leve à prova de explosão para guardar vários bens traidores

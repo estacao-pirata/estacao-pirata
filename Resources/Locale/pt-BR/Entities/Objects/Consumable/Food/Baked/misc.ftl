@@ -1,69 +1,71 @@
-ent-FoodBakedMuffin = muffin
-    .desc = A delicious and spongy little cake.
+ent-FoodBakedMuffin = bolinho
+    .desc = Um bolinho delicioso e esponjoso.
 
-ent-FoodBakedMuffinBerry = berry muffin
-    .desc = A delicious and spongy little cake, with berries.
+ent-FoodBakedMuffinBerry = bolinho de frutas vermelhas
+    .desc = Um bolinho delicioso e esponjoso com pedaços de frutas vermelhas.
 
-ent-FoodBakedMuffinCherry = cherry muffin
-    .desc = A sweet muffin with cherry bits.
+ent-FoodBakedMuffinCherry = bolinho de cereja
+    .desc = Um bolinho doce com pedaços de cereja.
 
-ent-FoodBakedMuffinBluecherry = bluecherry muffin
-    .desc = Blue cherries inside a delicious muffin.
+ent-FoodBakedMuffinBluecherry = bolinho de cereja azul
+    .desc = Cerejas azuis dentro de um bolinho delicioso.
 
-ent-FoodBakedBunHoney = honey bun
-    .desc = A sticky pastry bun glazed with honey.
+ent-FoodBakedBunHoney = pão de mel
+    .desc = Um pãozinho grudento revestido com mel.
 
-ent-FoodBakedBunHotX = hotcross bun
-    .desc = A sticky pastry bun glazed with a distinct white cross.
+ent-FoodBakedBunHotX = pão doce de páscoa
+    .desc = Um pãozinho grudento revestido com uma distinta cruz branca. Também conhecido como Hot Cross Bun.
 
-ent-FoodBakedBunMeat = meat bun
-    .desc = Has the potential to not be dog.
+ent-FoodBakedBunMeat = salgado de carne
+    .desc = Um clássico.
 
 ent-FoodBakedCookie = cookie
     .desc = COOKIE!!!
 
-ent-FoodBakedCookieFortune = fortune cookie
-    .desc = A true prophecy in each cookie!
+ent-FoodBakedCookieFortune = biscoito da sorte
+    .desc = Uma profecia em cada biscoito!
 
-ent-FoodBakedCookieOatmeal = oatmeal cookie
-    .desc = The best of both cookie and oat.
+ent-FoodBakedCookieOatmeal = biscoito de aveia
+    .desc = A mistura perfeita: biscoito e aveia.
 
-ent-FoodBakedCookieRaisin = raisin cookie
-    .desc = Why would you put raisins in a cookie?
+ent-FoodBakedCookieRaisin = biscoito de uva passa
+    .desc = Por que motivo alguém colocaria uva passa em um biscoito?
 
-ent-FoodBakedCookieSugar = sugar cookie
-    .desc = Just like your mom used to make.
+ent-FoodBakedCookieSugar = biscoito de açúcar
+    .desc = Como sua mãe costumava fazer.
 
-ent-Nugget = sugar cookie
-    .desc = Just like your mom used to make.
+ent-FoodBakedNugget = nugget de frango
+    .desc = Um nugget de "frango", quase no formato de um objeto.
 
-ent-FoodBakedNugget = chicken nugget
-    .desc = A "chicken" nugget vaguely shaped into an object.
+ent-FoodBakedPancake = panqueca
+    .desc = Uma panqueca fofinha. A prima mais macia, e superior do waffle.
 
-ent-FoodBakedPancake = pancake
-    .desc = A fluffy pancake. The softer, superior relative of the waffle.
+ent-FoodBakedPancakeBb = panqueca de mirtilo
+    .desc = Uma panqueca de mirtilo fofinha e gostosa.
 
-ent-FoodBakedPancakeBb = blueberry pancake
-    .desc = A fluffy and delicious blueberry pancake.
-
-ent-FoodBakedPancakeCc = chocolate chip pancake
-    .desc = A fluffy and delicious chocolate chip pancake.
+ent-FoodBakedPancakeCc = panqueca com gotas de chocolate
+    .desc = Uma panqueca com gotas de chocolate fofinha e gostosa.
 
 ent-FoodBakedWaffle = waffles
-    .desc = Mmm, waffles.
+    .desc = Humm, waffles.
 
-ent-FoodBakedWaffleSoy = soy waffles
-    .desc = You feel healthier and - more feminine?
+ent-FoodBakedWaffleSoy = waffles de soja
+    .desc = Você se sente mais saudável e - mais afeminado?
 
-ent-FoodBakedWaffleSoylent = soylent waffles
-    .desc = Not made of people. Honest.
+ent-FoodBakedWaffleSoylent = waffles de soylent
+    .desc = Não é feito de carne humana. Eu juro.
 
-ent-FoodBakedWaffleRoffle = roffle waffles
-    .desc = Waffles from Roffle. Co.
+ent-FoodBakedWaffleRoffle = waffles roffle
+    .desc = Waffles da Roffle. Co.
 
-ent-FoodBakedPretzel = poppy pretzel
-    .desc = It's all twisted up!
+ent-FoodBakedPretzel = pretzel
+    .desc = É todo contorcido!
 
 ent-FoodBakedCannoli = cannoli
-    .desc = A sicilian treat that makes you into a wise guy.
+    .desc = Um doce siciliano que transforma você em um sujeito esperto.
 
+ent-FoodBakedChevreChaud = crostini e chèvre
+    .desc = Um disco de queijo de cabra levemente derretido jogado em cima de um crostini, e tostado em todos os lados.
+
+ent-FoodChevreSlice = disco de chèvre
+    .desc = Um pequeno disco de queijo de cabra cremoso. Um adorno para acompanhamentos franceses.

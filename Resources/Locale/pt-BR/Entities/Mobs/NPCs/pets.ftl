@@ -11,7 +11,7 @@ ent-MobCorgiIanOld = Velho Ian
      .desc = Ainda é o único corgi que realmente importa. Ama suas rodas.
 
 ent-MobCorgiLisa = Lisa
-     .desc = o corgi favorito de Ian.
+     .desc = O corgi favorito de Ian.
 
 ent-MobCorgiPuppy = cachorrinho corgi
      .desc = Um pequeno corgi! Ah...
@@ -53,7 +53,7 @@ ent-MobMcGriff = Mcgriff
      .desc = Este cachorro percebe que algo cheira por aqui, e esse algo é CRIME!
 
 ent-MobPaperwork = Paperwork
-     .desc = Começou um novo trabalho classificando livros na biblioteca depois que foi transferido da Estação Espacial 13. Ele parece ser igualmente lento nisso.
+     .desc = Começou um novo trabalho classificando livros na biblioteca depois que foi transferido da Estação Espacial 13. Ele parece ser tão lento quanto antes.
 
 ent-MobWalter = Walter
      .desc = Ele gosta de chems e guloseimas. Walter.

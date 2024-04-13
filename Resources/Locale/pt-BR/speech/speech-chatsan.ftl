@@ -91,7 +91,7 @@ chatsan-word-33 = gl
 chatsan-replacement-33 = boa sorte
 
 chatsan-word-34 = hbu
-chatsan-replacement-34 = e você
+chatsan-replacement-34 = e você?
 
 chatsan-word-35 = hmu
 chatsan-replacement-35 = vou querer um gole
@@ -115,201 +115,222 @@ chatsan-replacement-41 = o que você tá fazendo
 chatsan-word-42 = ofc
 chatsan-replacement-42 = é claro
 
-chatsan-word-43 = pdc
-chatsan-replacement-43 = podes crer
+chatsan-word-43 = ig
+chatsan-replacement-42 = eu acho
 
-chatsan-word-44 = pdp
-chatsan-replacement-44 = pode pá
+chatsan-word-1043 = pdc
+chatsan-replacement-1043 = podes crer
 
-chatsan-word-45 = tlg
-chatsan-replacement-45 = tô ligada
+chatsan-word-1044 = pdp
+chatsan-replacement-1044 = pode pá
 
-chatsan-word-46 = tmj
-chatsan-replacement-46 = tamo junto
+chatsan-word-1045 = tlg
+chatsan-replacement-1045 = tô ligada
 
-chatsan-word-47 = fmz
-chatsan-replacement-47 = firmeza
+chatsan-word-1046 = tmj
+chatsan-replacement-1046 = tamo junto
 
-chatsan-word-48 = blz
-chatsan-replacement-48 = beleza
+chatsan-word-1047 = fmz
+chatsan-replacement-1047 = firmeza
 
-chatsan-word-49 = pqp
-chatsan-replacement-49 = puta que pariu
+chatsan-word-1048 = blz
+chatsan-replacement-1048 = beleza
 
-chatsan-word-50 = fdp
-chatsan-replacement-50 = filha da puta
+chatsan-word-1049 = pqp
+chatsan-replacement-1049 = puta que pariu
 
-chatsan-word-51 = ctz
-chatsan-replacement-51 = certeza
+chatsan-word-1050 = fdp
+chatsan-replacement-1050 = filha da puta
 
-chatsan-word-52 = fml
-chatsan-replacement-52 = família
+chatsan-word-1051 = ctz
+chatsan-replacement-1051 = certeza
 
-chatsan-word-53 = maints
-chatsan-word-54 = maits
+chatsan-word-1052 = fml
+chatsan-replacement-1052 = família
+
+chatsan-word-1053 = maints
+chatsan-word-1054 = maits
 chatsan-replacement-manutencao = manutenção
 
-chatsan-word-55 = cia
-chatsan-replacement-55 = companhia
+chatsan-word-1055 = cia
+chatsan-replacement-1055 = companhia
 
-chatsan-word-56 = obg
-chatsan-replacement-56 = obrigada
+chatsan-word-1056 = obg
+chatsan-replacement-1056 = obrigada
 
-chatsan-word-57 = pq
-chatsan-replacement-57 = porque
+chatsan-word-1057 = pq
+chatsan-replacement-1057 = porque
 
-chatsan-word-58 = pse
-chatsan-word-59 = psé
+chatsan-word-1058 = pse
+chatsan-word-1059 = psé
 chatsan-replacement-poise = pois é
 
-chatsan-word-60 = vc
-chatsan-replacement-60 = você
+chatsan-word-1060 = vc
+chatsan-replacement-1060 = você
 
-chatsan-word-61 = sqn
-chatsan-replacement-61 = só que não
+chatsan-word-1061 = sqn
+chatsan-replacement-1061 = só que não
 
-chatsan-word-62 = pdc
-chatsan-replacement-62 = pode crer
+chatsan-word-1062 = pdc
+chatsan-replacement-1062 = pode crer
 
-chatsan-word-63 = dmr
-chatsan-replacement-63 = demorou
+chatsan-word-1063 = dmr
+chatsan-replacement-1063 = demorou
 
-chatsan-word-64 = tqr
-chatsan-replacement-64 = tem que respeitar
+chatsan-word-1064 = tqr
+chatsan-replacement-1064 = tem que respeitar
 
-chatsan-word-65 = smdd
-chatsan-replacement-65 = sem maldade
+chatsan-word-1065 = smdd
+chatsan-replacement-1065 = sem maldade
 
-chatsan-word-66 = vdb
-chatsan-replacement-66 = vai dar bom
+chatsan-word-1066 = vdb
+chatsan-replacement-1066 = vai dar bom
 
-chatsan-word-67 = flw
-chatsan-replacement-67 = falou
+chatsan-word-1067 = flw
+chatsan-replacement-1067 = falou
 
-chatsan-word-68 = plmd
-chatsan-replacement-68 = pelo amor de Deus
+chatsan-word-1068 = plmd
+chatsan-replacement-1068 = pelo amor de Deus
 
-chatsan-word-69 = plmns
-chatsan-replacement-69 = pelo menos
+chatsan-word-1069 = plmns
+chatsan-replacement-1069 = pelo menos
 
-chatsan-word-70 = sfd
-chatsan-replacement-70 = safado
+chatsan-word-1070 = sfd
+chatsan-replacement-1070 = safado
 
-chatsan-word-71 = sv
-chatsan-replacement-71 = suave
+chatsan-word-1071 = sv
+chatsan-replacement-1071 = suave
 
-chatsan-word-72 = mb
-chatsan-replacement-72 = foi mal
+chatsan-word-1072 = mb
+chatsan-replacement-1072 = foi mal
 
-chatsan-word-73 = oq
-chatsan-replacement-73 = o que
+chatsan-word-1073 = oq
+chatsan-replacement-1073 = o que
 
-chatsan-word-74 = vcs
-chatsan-replacement-74 = vocês
+chatsan-word-1074 = vcs
+chatsan-replacement-1074 = vocês
 
-chatsan-word-75 = mds
-chatsan-replacement-75 = meu Deus
+chatsan-word-1075 = mds
+chatsan-replacement-1075 = meu Deus
 
-chatsan-word-76 = fds
-chatsan-replacement-76 = final de semana
+chatsan-word-1076 = fds
+chatsan-replacement-1076 = final de semana
 
-chatsan-word-77 = cap
-chatsan-replacement-77 = Capitão
+chatsan-word-1077 = cap
+chatsan-replacement-1077 = Capitão
 
-chatsan-word-78 = sla
-chatsan-replacement-78 = sei lá
+chatsan-word-1078 = sla
+chatsan-replacement-1078 = sei lá
 
-chatsan-word-79 = slk
-chatsan-replacement-79 = sê é loco
+chatsan-word-1079 = slk
+chatsan-replacement-1079 = cê é loco
 
-chatsan-word-80 = slc
-chatsan-replacement-80 = sei la cara
+chatsan-word-1080 = slc
+chatsan-replacement-1080 = sei lá cara
 
-chatsan-word-81 = tbm
-chatsan-word-82 = tb
+chatsan-word-1081 = tbm
+chatsan-word-1082 = tb
 chatsan-replacement-tambem = também
 
-chatsan-word-83 = agr
-chatsan-replacement-83 = agora
+chatsan-word-1083 = agr
+chatsan-replacement-1083 = agora
 
-chatsan-word-84 = vlw
-chatsan-replacement-84 = valeu
+chatsan-word-1084 = vlw
+chatsan-replacement-1084 = valeu
 
-chatsan-word-85 = tendi
-chatsan-replacement-85 = entendi
+chatsan-word-1085 = tendi
+chatsan-replacement-1085 = entendi
 
-chatsan-word-86 = ent
-chatsan-replacement-86 = então
+chatsan-word-1086 = ent
+chatsan-replacement-1086 = então
 
-chatsan-word-87 = q
-chatsan-replacement-87 = que
+chatsan-word-1087 = q
+chatsan-replacement-1087 = que
 
-chatsan-word-88 = vtnc
-chatsan-replacement-88 = vai tomar no cu
+chatsan-word-1088 = vtnc
+chatsan-replacement-1088 = vai tomar no cu
 
-chatsan-word-89 = mt
-chatsan-replacement-89 = muito
+chatsan-word-1089 = mt
+chatsan-replacement-1089 = muito
 
-chatsan-word-90 = qlq
-chatsan-word-91 = qlqr
+chatsan-word-1090 = qlq
+chatsan-word-1091 = qlqr
 chatsan-replacement-qualquer = qualquer
 
-chatsan-word-92 = pprt
-chatsan-replacement-92 = papo reto
+chatsan-word-1092 = pprt
+chatsan-replacement-1092 = papo reto
 
-chatsan-word-93 = pnc
-chatsan-replacement-93 = pau no cu
+chatsan-word-1093 = pnc
+chatsan-replacement-1093 = pau no cu
 
-chatsan-word-94 = sdd
-chatsan-replacement-94 = saudade
+chatsan-word-1094 = sdd
+chatsan-replacement-1094 = saudade
 
-chatsan-word-95 = sdds
-chatsan-replacement-95 = saudades
+chatsan-word-1095 = sdds
+chatsan-replacement-1095 = saudades
 
-chatsan-word-96 = krl
-chatsan-word-97 = crl
+chatsan-word-1096 = krl
+chatsan-word-1097 = crl
 chatsan-replacement-caralho = caralho
 
-chatsan-word-98 = ngm
-chatsan-replacement-98 = ninguém
+chatsan-word-1098 = ngm
+chatsan-replacement-1098 = ninguém
 
-chatsan-word-99 = td
-chatsan-replacement-99 = tudo
+chatsan-word-1099 = td
+chatsan-replacement-1099 = tudo
 
-chatsan-word-100 = qnt
-chatsan-replacement-100 = quanto
+chatsan-word-1100 = qnt
+chatsan-replacement-1100 = quanto
 
-chatsan-word-101 = qnd
-chatsan-replacement-101 = quando
+chatsan-word-1101 = qnd
+chatsan-replacement-1101 = quando
 
-chatsan-word-102 = nd
-chatsan-replacement-102 = nada
+chatsan-word-1102 = nd
+chatsan-replacement-1102 = nada
 
-chatsan-word-103 = tdb
-chatsan-replacement-103 = tudo bem
+chatsan-word-1103 = tdb
+chatsan-replacement-1103 = tudo bem
 
-chatsan-word-104 = cct
-chatsan-word-105 = kct
+chatsan-word-1104 = cct
+chatsan-word-1105 = kct
 chatsan-replacement-cacete = cacete
 
-chatsan-word-106 = prr
-chatsan-replacement-106 = porra
+chatsan-word-1106 = prr
+chatsan-replacement-1106 = porra
 
-chatsan-word-107 = mlk
-chatsan-word-108 = mlc
+chatsan-word-1107 = mlk
+chatsan-word-1108 = mlc
 chatsan-replacement-moleque = moleque
 
-chatsan-word-109 = nmrl
-chatsan-replacement-109 = na moral
+chatsan-word-1109 = nmrl
+chatsan-replacement-1109 = na moral
 
-chatsan-word-110 = tds
-chatsan-replacement-110 = todos
+chatsan-word-1110 = tds
+chatsan-replacement-1110 = todos
 
-chatsan-word-111 = qq
-chatsan-replacement-111 = que que
+chatsan-word-1111 = qq
+chatsan-replacement-1111 = que que
 
-chatsan-word-112 = SSD
-chatsan-replacement-112 = distúrbio do sono espacial
+chatsan-word-1112 = SSD
+chatsan-replacement-1112 = distúrbio do sono espacial
 
-chatsan-word-113 = dnv
-chatsan-replacement-113 = de novo
+chatsan-word-1113 = dnv
+chatsan-replacement-1113 = de novo
+
+chatsan-word-1114 = qm
+chatsan-replacement-1114 = intendente de carga
+
+chatsan-word-1115 = ce
+chatsan-replacement-1115 = engenheiro chefe
+
+chatsan-word-1116 = cmo
+chatsan-replacement-1116 = médico chefe
+
+chatsan-word-1117 = rd
+chatsan-replacement-1117 = diretor de pesquisas
+
+chatsan-word-1118 = hos
+chatsan-replacement-1118 = chefe da segurança
+
+chatsan-word-1119 = hop
+chatsan-replacement-1119 = chefe dos funcionários

@@ -79,7 +79,7 @@ public sealed class BatteryDrinkerSystem : EntitySystem
         var args = new DoAfterArgs(EntityManager, user, doAfterTime, new BatteryDrinkerDoAfterEvent(), user, target) // TODO: Make this doafter loop, once we merge Upstream.
         {
             BreakOnDamage = true,
-            BreakOnTargetMove = true,
+            BreakOnMove = true,
             Broadcast = false,
             DistanceThreshold = 1.35f,
             RequireCanInteract = true,
@@ -128,10 +128,10 @@ public sealed class BatteryDrinkerSystem : EntitySystem
         }
 
         if (_battery.TryUseCharge(source, amountToDrink))
-            _battery.SetCharge(drinkerBattery, drinkerBatteryComponent.Charge + amountToDrink, drinkerBatteryComponent);
+            _battery.SetCharge(drinkerBattery, drinkerBatteryComponent.CurrentCharge + amountToDrink, drinkerBatteryComponent);
         else
         {
-            _battery.SetCharge(drinkerBattery, sourceBattery.Charge + drinkerBatteryComponent.Charge, drinkerBatteryComponent);
+            _battery.SetCharge(drinkerBattery, sourceBattery.CurrentCharge + drinkerBatteryComponent.CurrentCharge, drinkerBatteryComponent);
             _battery.SetCharge(source, 0);
         }
 

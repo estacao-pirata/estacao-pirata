@@ -13,6 +13,7 @@ guide-entry-portable-generator = Geradores Portáteis
 guide-entry-ame = Motor de antimatéria (AME)
 guide-entry-singularity = Singularidade
 guide-entry-teg = Gerador Termoelétrico (TEG)
+guide-entry-rtg = RTG
 guide-entry-controls = Controles
 guide-entry-radio = Radio
 guide-entry-jobs = Trabalhos
@@ -50,6 +51,7 @@ guide-entry-security = Segurança
 guide-entry-forensics = Forensics
 guide-entry-defusal = Desativação de Bomba Grande
 guide-entry-crimina-records = Registros Criminais
+guide-entry-species = Espécies
 
 guide-entry-antagonists = Antagonistas
 guide-entry-nuclear-operatives = Operativos Nucleares

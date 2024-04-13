@@ -1,4 +1,4 @@
-ent-DrinkGlass = copo para beber
+ent-DrinkGlass = copo de vidro
      .desc = Um copo.
 
 ent-DrinkAbsintheGlass = copo de absinto
@@ -61,7 +61,7 @@ ent-DrinkBlueCuracaoGlass = copo de curaçao azul
 ent-DrinkBloodyMaryGlass = copo de bloody mary
      .desc = Suco de tomate misturado com Vodka e um pouquinho de limão. Tem gosto de assassinato líquido.
 
-ent-DrinkBooger = booger
+ent-DrinkBooger = meleca
      .desc = Eca...
 
 ent-DrinkBraveBullGlass = copo de touro corajoso
@@ -88,7 +88,7 @@ ent-DrinkCream = copo de creme
 ent-DrinkCubaLibreGlass = copo de cuba libre
      .desc = Uma mistura clássica de rum e cola.
 
-ent-DrinkDeadRumGlass = copo de morto rum
+ent-DrinkDeadRumGlass = copo de rum morto
      .desc = Popular entre os marinheiros. Não é muito popular com todos os outros.
 
 ent-DrinkDemonsBlood = sangue de demônio
@@ -128,7 +128,7 @@ ent-DrinkGoldschlagerGlass = copo de goldschlager
      .desc = 100 prova de que meninas adolescentes beberão qualquer coisa que contenha ouro.
 
 ent-DrinkGrapeJuice = suco de uva
-     .desc = É grrrrrape!
+     .desc = Cai como uma luva!
 
 ent-DrinkGrapeSodaGlass = copo de refrigerante de uva
      .desc = Parece uma bebida deliciosa!

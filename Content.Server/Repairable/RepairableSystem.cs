@@ -35,11 +35,8 @@ namespace Content.Server.Repairable
             if(!EntityManager.TryGetComponent(uid, out DamageableComponent? damageable))
                 return;
 
-            if (damageable.TotalDamage == 0)
-            {
-                if (blindcomp is { EyeDamage: 0 })
-                    return;
-            }
+            if (damageable.TotalDamage == 0 && blindcomp is { EyeDamage: 0 })
+                return;
 
 
 
@@ -51,7 +48,8 @@ namespace Content.Server.Repairable
 
             else
             {
-                _blindableSystem.AdjustEyeDamage((uid, blindcomp), -blindcomp!.EyeDamage);
+                if (blindcomp != null)
+                    _blindableSystem.AdjustEyeDamage((uid, blindcomp), -blindcomp!.EyeDamage);
                 // Repair all damage
                 _damageableSystem.SetAllDamage(uid, damageable, 0);
                 _adminLogger.Add(LogType.Healed, $"{ToPrettyString(args.User):user} repaired {ToPrettyString(uid):target} back to full health");
@@ -72,11 +70,9 @@ namespace Content.Server.Repairable
             TryComp(uid, out BlindableComponent? blindcomp);
             if(!EntityManager.TryGetComponent(uid, out DamageableComponent? damageable))
                 return;
-            if (damageable.TotalDamage == 0)
-            {
-                if (blindcomp is { EyeDamage: 0 })
-                    return;
-            }
+            if (damageable.TotalDamage == 0 && blindcomp is { EyeDamage: 0 })
+                return;
+
 
             float delay = component.DoAfterDelay;
 

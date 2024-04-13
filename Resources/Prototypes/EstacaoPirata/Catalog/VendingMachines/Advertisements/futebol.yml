@@ -1,6 +1,6 @@
-﻿- type: advertisementsPack
+﻿- type: messagePack
   id: FutebolAds
-  advertisements:
+  messages:
   - advertisement-futebol-1
   - advertisement-futebol-2
   - advertisement-futebol-3

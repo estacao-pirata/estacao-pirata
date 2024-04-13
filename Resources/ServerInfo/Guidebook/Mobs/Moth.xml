@@ -1,0 +1,15 @@
+<Document>
+  # Pessoa Mariposa
+
+  <Box>
+    <GuideEntityEmbed Entity="MobMoth" Caption=""/>
+  </Box>
+
+  Eles Conseguem comer algodão, tecidos e roupas, mas virtualmente quase nenhuma das comidas que outros consideram "comestíveis". Eles preferem uma temperatura mais baixa que os humanos.
+  O Sangue de Inseto deles não pode ser recuperado usando Ferro, como sangue normal.
+
+  As suas asas dão uma aceleração melhor se a estação não tiver gravidade, mas eles não conseguem se mover sem equipamento enquanto flutuam no espaço.
+
+  Eles tomam [color=#1e90ff]30% menos de dano Congelante[/color] mas [color=#ffa500]30% a mais de dano de Calor, e pegam fogo mais facilmente[/color].
+
+</Document>

@@ -10,7 +10,7 @@
   maleFirstNames: names_oni_male
   femaleFirstNames: names_oni_female
   lastNames: names_oni_location
-   
+#  naming: LastNoFirst
 
 - type: markingPoints
   id: MobOniMarkingLimits
@@ -24,8 +24,7 @@
     HeadTop:
       points: 1
       required: true
-      defaultMarkings: [ OniHornSingleCurved ] 
-       
+      defaultMarkings: [ OniHornSingleCurved ]
     Chest:
       points: 1
       required: false

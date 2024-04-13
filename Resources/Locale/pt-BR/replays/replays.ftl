@@ -8,6 +8,7 @@ replay-loading-initializing = Inicializando Entidades
 replay-loading-starting= Começando Entities
 replay-loading-failed = Falha ao carregar o replay:
                         {$reason}
+replay-loading-retry = Tente carregar com mais tolerância a exceções - _pode causar bugs_!
 
 # Main Menu
 replay-menu-subtext = Cliente de Replay

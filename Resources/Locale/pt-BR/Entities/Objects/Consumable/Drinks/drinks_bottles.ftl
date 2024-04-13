@@ -68,7 +68,7 @@ ent-DrinkWaterBottleFull = garrafa de água
      .desc = Água limpa simples de origem desconhecida. Você acha que talvez não queira saber disso.
 
 ent-DrinkJuiceLimeCarton = suco de limão
-     .desc = bondade agridoce.
+     .desc = Bondade agridoce.
 
 ent-DrinkJuiceOrangeCarton = suco de laranja
      .desc = Cheio de vitaminas e delícias!
@@ -76,7 +76,7 @@ ent-DrinkJuiceOrangeCarton = suco de laranja
 ent-DrinkJuiceTomatoCarton = suco de tomate
      .desc = Bem, pelo menos PARECE suco de tomate. Você não pode dizer com toda aquela vermelhidão.
 
-ent-DrinkCreamCarton = Creme de Leite
+ent-DrinkCreamCarton = creme de leite
      .desc = É creme. Feito de leite. O que mais você achou que encontraria lá?
 
 ent-DrinkMilkCarton = leite
@@ -85,3 +85,14 @@ ent-DrinkMilkCarton = leite
 ent-DrinkSoyMilkCarton = leite de soja
      .desc = Delícia de soja branca e nutritiva!
 
+ent-DrinkSodaWaterBottleFull = água com gás
+     .desc = É igual água, só que irritada!
+
+ent-DrinkCreamCartonXL = creme de leite XL
+     .desc = É creme. Feito de leite. O que mais você achou que encontraria lá?
+
+ent-DrinkSugarJug = açúcar
+     .desc = Tem gente que coloca isso no café...
+
+ent-DrinkChampagneBottleFull = garrafa de champagne
+     .desc = Somente pessoas sem imaginação não conseguem encontrar uma desculpa para o champagne

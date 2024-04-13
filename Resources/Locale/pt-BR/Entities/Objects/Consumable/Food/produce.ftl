@@ -22,7 +22,7 @@ ent-TrashBananaPeel = casca de banana
 ent-FoodCarrot = cenoura
      .desc = Faz bem aos olhos!
 
-ent-FoodLemon = limão
+ent-FoodLemon = limão siciliano
      .desc = Quando a vida lhe der limões, agradeça por eles não serem limões.
 
 ent-FoodPineapple = abacaxi
@@ -88,8 +88,44 @@ ent-FoodAmbrosiaVulgaris = ambrosia vulgaris
 ent-FoodGalaxythistle = cardo-galaxia
      .desc = Uma planta medicinal usada como antitoxina.
 
-ent-FoodFlyAmanita = fly amantia
+ent-FoodFlyAmanita = fly amanita
      .desc = Um cogumelo delicioso como você vê naqueles desenhos animados.
 
 ent-FoodGatfruit = gatfruit
      .desc = Uma deliciosa fruta em forma de arma com um grosso caule de madeira.
+
+ent-FoodBlueTomato = tomate azul
+     .desc = Esse é azul.
+
+ent-FoodBloodTomato = tomate de sangue
+     .desc = Pera, isso não é ketchup...
+
+ent-FoodCabbage = repolho
+     .desc = Eeeeecaaaaaaaa. Repolho.
+
+ent-FoodCocoaPod = cacau
+     .desc = Não existe exagero quando o assunto é chocolate!
+
+ent-FoodSpaceshroom = cogumeloespacial
+     .desc = Um cogumelo selvagem. Não dá para dizer que efeito ele poderia ter...
+
+ent-FoodSpaceshroomCooked = cogumeloespacial cozido
+     .desc = Um cogumelo selvagem que foi cozido. Parece que o calor removeu seus efeitos químicos.
+
+ent-FoodGarlic = alho
+     .desc = Delicioso, mas com cheiro forte para certas criaturas.
+
+ent-FoodLime = limão
+     .desc = Cura o Escorbuto Espacial, permite que você seja um Pirata Espacial.
+
+ent-FoodLemoon = limoon
+     .desc = Dizem que a Lua é feita de queijo, mas na verdade ela é feita de leite e louro!
+
+ent-FoodKoibean = koibean
+     .desc = Esses feijões se parecem com peixes.
+
+ent-FoodGrape = uvas
+     .desc = O alimento dos emperadores, dos habitantes da França Espacial (geralmente em forma de vinho) e mães do futebol. Um dia elas poderiam ser usadas para produzir vinho para o barista, caso fique sem estoque.
+
+ent-FoodBungo = bungo
+     .desc = Uma humilde fruta bungo.

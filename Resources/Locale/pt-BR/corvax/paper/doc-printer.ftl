@@ -1082,7 +1082,7 @@ doc-text-printer-ClosingIndictment =
     ⠀[color=#1b487e]░░░░██░░██░██░██░[/color] [bold]Estação XX-000 SB[/bold]
     ⠀[color=#1b487e]░░░░██░░░████░███[/color]
     =============================================
-                        INDICTMENT ENCERRADO
+                        ORDEM DE PRISÃO
     =============================================
     Tempo desde o início do turno e data:
     Redator do documento:

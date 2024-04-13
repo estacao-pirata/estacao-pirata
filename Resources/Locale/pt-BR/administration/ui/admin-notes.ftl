@@ -23,8 +23,11 @@ admin-notes-hide = Esconder
 admin-notes-delete-confirm = Confirmar deleção
 admin-notes-edited = Última edição por {$author} em {$date}
 admin-notes-unbanned = Desbanido por {$admin} em {$date}
-admin-notes-message-window-title = Alerta!
-admin-notes-message-admin = Nova mensagem de {$admin}, adicionada em {$date}
+admin-notes-message-desc = [color=white]Você recebeu { $count ->
+    [1] uma mensagem administrativa
+    *[other] mensagens administrativas
+} since the last time you played on this server.[/color]
+admin-notes-message-admin = De [bold]{ $admin }[/bold], escrita em { TOSTRING($date, "f") }:
 admin-notes-message-wait = O botão de aceitar ficará disponível depois de {$time} segundos.
 admin-notes-message-accept = aceitar
 admin-notes-message-dismiss = Dispensar for now
@@ -68,6 +71,7 @@ admin-notes-verb-text = Abrir notas de Admin
 # Watchlist and message login
 admin-notes-watchlist = Lista de observação para {$player}: {$message}
 admin-notes-new-message = Você recebeu uma mensagem do admin {$admin}: {$message}
+admin-notes-fallback-admin-name = [System]
 
 # Admin remarks
 admin-remarks-command-description = Abre a página de observações do administrador

@@ -1,4 +1,4 @@
-﻿# Accents that work off of word replacements.
+# Accents that work off of word replacements.
 
 # this is kind of dumb but localization demands it.
 # i guess you could just specify the prefix ('mobster') and count and let the system fill it
@@ -367,6 +367,15 @@
     accent-cowboy-words-98: accent-cowboy-replacement-98
     accent-cowboy-words-99: accent-cowboy-replacement-99
 
+- type: accent
+  id: southern
+  wordReplacements:
+    accent-southern-words-1: accent-southern-words-replace-1
+    accent-southern-words-2: accent-southern-words-replace-2
+    accent-southern-words-3: accent-southern-words-replace-3
+    accent-southern-words-4: accent-southern-words-replace-4
+    accent-southern-words-5: accent-southern-words-replace-5
+    accent-southern-words-6: accent-southern-words-replace-6
 
 # For the chat sanitization system
 - type: accent
@@ -415,73 +424,81 @@
     chatsan-word-41: chatsan-replacement-41
     chatsan-word-42: chatsan-replacement-42
     chatsan-word-43: chatsan-replacement-43
-    chatsan-word-44: chatsan-replacement-44
-    chatsan-word-45: chatsan-replacement-45
-    chatsan-word-46: chatsan-replacement-46
-    chatsan-word-47: chatsan-replacement-47
-    chatsan-word-48: chatsan-replacement-48
-    chatsan-word-49: chatsan-replacement-49
-    chatsan-word-50: chatsan-replacement-50
-    chatsan-word-51: chatsan-replacement-51
-    chatsan-word-52: chatsan-replacement-52
-    chatsan-word-53: chatsan-replacement-manutencao
-    chatsan-word-54: chatsan-replacement-manutencao
-    chatsan-word-55: chatsan-replacement-55
-    chatsan-word-56: chatsan-replacement-56
-    chatsan-word-57: chatsan-replacement-57
-    chatsan-word-58: chatsan-replacement-poise
-    chatsan-word-59: chatsan-replacement-poise
-    chatsan-word-60: chatsan-replacement-60
-    chatsan-word-61: chatsan-replacement-61
-    chatsan-word-62: chatsan-replacement-62
-    chatsan-word-63: chatsan-replacement-63
-    chatsan-word-64: chatsan-replacement-64
-    chatsan-word-65: chatsan-replacement-65
-    chatsan-word-66: chatsan-replacement-66
-    chatsan-word-67: chatsan-replacement-67
-    chatsan-word-68: chatsan-replacement-68
-    chatsan-word-69: chatsan-replacement-69
-    chatsan-word-70: chatsan-replacement-70
-    chatsan-word-71: chatsan-replacement-71
-    chatsan-word-72: chatsan-replacement-72
-    chatsan-word-73: chatsan-replacement-73
-    chatsan-word-74: chatsan-replacement-74
-    chatsan-word-75: chatsan-replacement-75
-    chatsan-word-76: chatsan-replacement-76
-    chatsan-word-77: chatsan-replacement-77
-    chatsan-word-78: chatsan-replacement-78
-    chatsan-word-79: chatsan-replacement-79
-    chatsan-word-80: chatsan-replacement-80
-    chatsan-word-81: chatsan-replacement-tambem
-    chatsan-word-82: chatsan-replacement-tambem
-    chatsan-word-83: chatsan-replacement-83
-    chatsan-word-84: chatsan-replacement-84
-    chatsan-word-85: chatsan-replacement-85
-    chatsan-word-86: chatsan-replacement-86
-    chatsan-word-87: chatsan-replacement-87
-    chatsan-word-88: chatsan-replacement-88
-    chatsan-word-89: chatsan-replacement-89
-    chatsan-word-90: chatsan-replacement-qualquer
-    chatsan-word-91: chatsan-replacement-qualquer
-    chatsan-word-92: chatsan-replacement-92
-    chatsan-word-93: chatsan-replacement-93
-    chatsan-word-94: chatsan-replacement-94
-    chatsan-word-95: chatsan-replacement-95
-    chatsan-word-96: chatsan-replacement-caralho
-    chatsan-word-97: chatsan-replacement-caralho
-    chatsan-word-98: chatsan-replacement-98
-    chatsan-word-99: chatsan-replacement-99
-    chatsan-word-100: chatsan-replacement-100
-    chatsan-word-101: chatsan-replacement-101
-    chatsan-word-102: chatsan-replacement-102
-    chatsan-word-103: chatsan-replacement-103
-    chatsan-word-104: chatsan-replacement-cacete
-    chatsan-word-105: chatsan-replacement-cacete
-    chatsan-word-106: chatsan-replacement-106
-    chatsan-word-107: chatsan-replacement-moleque
-    chatsan-word-108: chatsan-replacement-moleque
-    chatsan-word-109: chatsan-replacement-109
-    chatsan-word-110: chatsan-replacement-110
-    chatsan-word-111: chatsan-replacement-111
-    chatsan-word-112: chatsan-replacement-112
-    chatsan-word-113: chatsan-replacement-113
+
+    chatsan-word-1043: chatsan-replacement-1043
+    chatsan-word-1044: chatsan-replacement-1044
+    chatsan-word-1045: chatsan-replacement-1045
+    chatsan-word-1046: chatsan-replacement-1046
+    chatsan-word-1047: chatsan-replacement-1047
+    chatsan-word-1048: chatsan-replacement-1048
+    chatsan-word-1049: chatsan-replacement-1049
+    chatsan-word-1050: chatsan-replacement-1050
+    chatsan-word-1051: chatsan-replacement-1051
+    chatsan-word-1052: chatsan-replacement-1052
+    chatsan-word-1053: chatsan-replacement-manutencao
+    chatsan-word-1054: chatsan-replacement-manutencao
+    chatsan-word-1055: chatsan-replacement-1055
+    chatsan-word-1056: chatsan-replacement-1056
+    chatsan-word-1057: chatsan-replacement-1057
+    chatsan-word-1058: chatsan-replacement-poise
+    chatsan-word-1059: chatsan-replacement-poise
+    chatsan-word-1060: chatsan-replacement-1060
+    chatsan-word-1061: chatsan-replacement-1061
+    chatsan-word-1062: chatsan-replacement-1062
+    chatsan-word-1063: chatsan-replacement-1063
+    chatsan-word-1064: chatsan-replacement-1064
+    chatsan-word-1065: chatsan-replacement-1065
+    chatsan-word-1066: chatsan-replacement-1066
+    chatsan-word-1067: chatsan-replacement-1067
+    chatsan-word-1068: chatsan-replacement-1068
+    chatsan-word-1069: chatsan-replacement-1069
+    chatsan-word-1070: chatsan-replacement-1070
+    chatsan-word-1071: chatsan-replacement-1071
+    chatsan-word-1072: chatsan-replacement-1072
+    chatsan-word-1073: chatsan-replacement-1073
+    chatsan-word-1074: chatsan-replacement-1074
+    chatsan-word-1075: chatsan-replacement-1075
+    chatsan-word-1076: chatsan-replacement-1076
+    chatsan-word-1077: chatsan-replacement-1077
+    chatsan-word-1078: chatsan-replacement-1078
+    chatsan-word-1079: chatsan-replacement-1079
+    chatsan-word-1080: chatsan-replacement-1080
+    chatsan-word-1081: chatsan-replacement-tambem
+    chatsan-word-1082: chatsan-replacement-tambem
+    chatsan-word-1083: chatsan-replacement-1083
+    chatsan-word-1084: chatsan-replacement-1084
+    chatsan-word-1085: chatsan-replacement-1085
+    chatsan-word-1086: chatsan-replacement-1086
+    chatsan-word-1087: chatsan-replacement-1087
+    chatsan-word-1088: chatsan-replacement-1088
+    chatsan-word-1089: chatsan-replacement-1089
+    chatsan-word-1090: chatsan-replacement-qualquer
+    chatsan-word-1091: chatsan-replacement-qualquer
+    chatsan-word-1092: chatsan-replacement-1092
+    chatsan-word-1093: chatsan-replacement-1093
+    chatsan-word-1094: chatsan-replacement-1094
+    chatsan-word-1095: chatsan-replacement-1095
+    chatsan-word-1096: chatsan-replacement-caralho
+    chatsan-word-1097: chatsan-replacement-caralho
+    chatsan-word-1098: chatsan-replacement-1098
+    chatsan-word-1099: chatsan-replacement-1099
+    chatsan-word-1100: chatsan-replacement-1100
+    chatsan-word-1101: chatsan-replacement-1101
+    chatsan-word-1102: chatsan-replacement-1102
+    chatsan-word-1103: chatsan-replacement-1103
+    chatsan-word-1104: chatsan-replacement-cacete
+    chatsan-word-1105: chatsan-replacement-cacete
+    chatsan-word-1106: chatsan-replacement-1106
+    chatsan-word-1107: chatsan-replacement-moleque
+    chatsan-word-1108: chatsan-replacement-moleque
+    chatsan-word-1109: chatsan-replacement-1109
+    chatsan-word-1110: chatsan-replacement-1110
+    chatsan-word-1111: chatsan-replacement-1111
+    chatsan-word-1112: chatsan-replacement-1112
+    chatsan-word-1113: chatsan-replacement-1113
+    chatsan-word-1114: chatsan-replacement-1114
+    chatsan-word-1115: chatsan-replacement-1115
+    chatsan-word-1116: chatsan-replacement-1116
+    chatsan-word-1117: chatsan-replacement-1117
+    chatsan-word-1118: chatsan-replacement-1118
+    chatsan-word-1119: chatsan-replacement-1119

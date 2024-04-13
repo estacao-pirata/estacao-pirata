@@ -8,3 +8,4 @@ species-name-diona = Diona
 species-name-arachnid = Arachnid
 species-name-moth = Pessoa Mariposa
 species-name-skeleton = Esqueleto
+species-name-vox = Vox
