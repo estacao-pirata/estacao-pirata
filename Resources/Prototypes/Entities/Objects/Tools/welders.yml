@@ -102,6 +102,18 @@
     price: 40
   - type: IgnitionSource
     temperature: 700
+  - type: WeldingHealing
+    damageContainers:
+      - Silicon
+    fuelcost: 5
+    doAfterDelay: 1
+    damage:
+      types:
+        Blunt: -10
+        Piercing: -10
+        Slash: -10
+        Heat: -10
+        Shock: -10
 
 - type: entity
   name: industrial welding tool

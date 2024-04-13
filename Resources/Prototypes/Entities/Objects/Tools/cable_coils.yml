@@ -26,9 +26,16 @@
     price: 0
   - type: StackPrice
     price: 1
-  - type: Tool
-    qualities:
-      - CableMending #could not find a better name for that :(
+  - type: Healing
+    delay: 3
+    damageContainers:
+    - Silicon
+    damage:
+      groups:
+        Brute: -15 # 5 for each type in the group
+      types: # these are all split across multiple types
+        Heat: -10
+        Shock: -10
 
 - type: entity
   id: CableHVStack

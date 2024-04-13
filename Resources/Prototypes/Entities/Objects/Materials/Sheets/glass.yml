@@ -48,9 +48,12 @@
     solutions:
       glass:
         canReact: false
-  - type: Tool
-    qualities:
-      - RepairLens
+  # IPC Healing
+  - type: BlindHealing
+    damageContainers: 
+      - Silicon
+  - type: StackPrice
+    price: 2
 
 - type: entity
   parent: SheetGlassBase
