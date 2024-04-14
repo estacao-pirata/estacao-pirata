@@ -8,20 +8,30 @@ anomaly-particles-delta = Partículas Delta
 anomaly-particles-epsilon = Partículas Epsilon
 anomaly-particles-zeta = Partículas Zeta
 anomaly-particles-omega = Partículas Omega
+anomaly-particles-sigma = Partículas Sigma
+
 
 anomaly-scanner-component-scan-complete = Escan completao!
 
 anomaly-scanner-ui-title = escaner de anomalia
 anomaly-scanner-no-anomaly = Nenhuma anomalia escaneda atualmente.
 anomaly-scanner-severity-percentage = Severidade atual: [color=gray]{$percent}[/color]
+anomaly-scanner-severity-percentage-unknown = Severidade atual: [color=red]ERROR[/color]
 anomaly-scanner-stability-low = Estado atual da anomalia: [color=gold]Decaindo[/color]
 anomaly-scanner-stability-medium = Estado atual da anomalia: [color=forestgreen]Estável[/color]
 anomaly-scanner-stability-high = Estado atual da anomalia: [color=crimson]Crescendo[/color]
+anomaly-scanner-stability-unknown = Estado atual da anomalia: [color=red]ERROR[/color]																					
 anomaly-scanner-point-output = Ponto de saída: [color=gray]{$point}[/color]
-anomaly-scanner-particle-readout = Análise de Reação a Partículas:
+anomaly-scanner-point-output-unknown = Ponto de saída: [color=red]ERROR[/color]
+anomaly-scanner-particle-readout = Análise de Reação a Partículas:			
 anomaly-scanner-particle-danger = - [color=crimson]Tipo perigoso:[/color] {$type}
 anomaly-scanner-particle-unstable = - [color=plum]Tipo instável:[/color] {$type}
 anomaly-scanner-particle-containment = - [color=goldenrod]Tipo de contensão:[/color] {$type}
+anomaly-scanner-particle-transformation = - [color=#6b75fa]Tipo de Transformação:[/color] {$type}
+anomaly-scanner-particle-danger-unknown = - [color=crimson]Tipo de Perigo:[/color] [color=red]ERRO[/color]
+anomaly-scanner-particle-unstable-unknown = - [color=plum]Tipo de Instabilidade:[/color] [color=red]ERRO[/color]
+anomaly-scanner-particle-containment-unknown = - [color=goldenrod]Tipo de Contenção:[/color] [color=red]ERRO[/color]
+anomaly-scanner-particle-transformation-unknown = - [color=#6b75fa]Tipo de Transformação:[/color] [color=red]ERRO[/color]
 anomaly-scanner-pulse-timer = Tempo até próximo pulso: [color=gray]{$time}[/color]
 
 anomaly-gorilla-core-slot-name = Núcleo de anomalia
@@ -65,3 +75,23 @@ anomaly-command-supercritical = Faz com que um alvo de anomalia se torne supercr
 # Flavor text on the footer
 anomaly-generator-flavor-left = Anomalias podem surgir dentro do operador.
 anomaly-generator-flavor-right = v1.1
+
+anomaly-behavior-unknown = [color=red]ERRO. Não pode ser lido.[/color]
+
+anomaly-behavior-title = análise de desvio de comportamento:
+anomaly-behavior-point =[color=gold]A anomalia produz {$mod}% dos pontos[/color]
+
+anomaly-behavior-safe = [color=forestgreen]A anomalia é extremamente estável. Pulsações extremamente raras.[/color]
+anomaly-behavior-slow = [color=forestgreen]A frequência das pulsações é muito menos frequente.[/color]
+anomaly-behavior-light = [color=forestgreen]A potência das pulsações é significativamente reduzida.[/color]
+anomaly-behavior-balanced = Nenhum desvio de comportamento detectado.
+anomaly-behavior-delayed-force = A frequência das pulsações é muito reduzida, mas sua potência é aumentada.
+anomaly-behavior-rapid = A frequência da pulsação é muito maior, mas sua intensidade é atenuada.
+anomaly-behavior-reflect = Um revestimento protetor foi detectado.
+anomaly-behavior-nonsensivity = Uma reação fraca a partículas foi detectada.
+anomaly-behavior-sensivity = Uma reação amplificada a partículas foi detectada.
+anomaly-behavior-secret = Interferência detectada. Alguns dados não podem ser lidos.
+anomaly-behavior-inconstancy = [color=crimson]Foi detectada impermanência. Os tipos de partículas podem mudar ao longo do tempo.[/color]
+anomaly-behavior-fast = [color=crimson]A frequência da pulsação está fortemente aumentada.[/color]
+anomaly-behavior-strenght = [color=crimson]A potência da pulsação está significativamente aumentada.[/color]
+anomaly-behavior-moving = [color=crimson]Instabilidade de coordenadas foi detectada.[/color]

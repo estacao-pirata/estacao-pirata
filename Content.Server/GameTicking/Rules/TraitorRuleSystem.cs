@@ -112,6 +112,11 @@ public sealed class TraitorRuleSystem : GameRuleSystem<TraitorRuleComponent>
 
         var traitorsToSelect = _antagSelection.CalculateAntagCount(_playerManager.PlayerCount, PlayersPerTraitor, MaxTraitors);
 
+	// Tentativa de workaround hardcoded idiota, não achei o bug dos 19 traitor - Pirata
+	if (traitorsToSelect > 10){
+		traitorsToSelect = 10;
+	}
+
         var selectedTraitors = _antagSelection.ChooseAntags(traitorsToSelect, eligiblePlayers);
 
         MakeTraitor(selectedTraitors, component);
