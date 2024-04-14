@@ -1,6 +1,6 @@
 - type: gameMap
   id: Gaxstation
-  mapName: 'Gaxstation'
+  mapName: 'GaxStation'
   mapPath: /Maps/Gaxstation.yml
   minPlayers: 0
   maxPlayers: 35
@@ -10,10 +10,12 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Gaxstation {1}'
+          mapNameTemplate: '{0} GaxStation {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
+        - type: StationCargoShuttle
+          path: /Maps/Shuttles/cargo_gax.yml
         - type: StationJobs
           overflowJobs:
           - Passenger
