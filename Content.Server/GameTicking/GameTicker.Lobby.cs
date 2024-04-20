@@ -12,7 +12,7 @@ namespace Content.Server.GameTicking
     public sealed partial class GameTicker
     {
         [ViewVariables]
-        private readonly Dictionary<NetUserId, PlayerGameStatus> _playerGameStatuses = new();
+        public readonly Dictionary<NetUserId, PlayerGameStatus> _playerGameStatuses = new();
 
         [ViewVariables]
         private TimeSpan _roundStartTime;
