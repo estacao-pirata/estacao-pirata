@@ -15,6 +15,7 @@
         startingItem: PowerCellMedium
   - type: BatterySlotRequiresLock
     cellSlotId: cell_slot
+  - type: EncryptionHolderRequiresLock
   - type: SiliconEmitSoundOnDrained
     sound: "/Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg"
     minInterval: 15
@@ -86,6 +87,7 @@
     keySlots: 3
     examineWhileLocked: false
     keysExtractionMethod: Cutting
+    keysUnlocked: false
   - type: ActiveRadio
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
