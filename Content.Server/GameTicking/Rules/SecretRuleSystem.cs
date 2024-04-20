@@ -77,7 +77,6 @@ public sealed class SecretRuleSystem : GameRuleSystem<SecretRuleComponent>
             {
                 if (!_prototypeManager.TryIndex<EntityPrototype>(preset_, out var presetProto))
                 {
-                    _chatManager.SendAdminAnnouncement($"minPlayers of {preset_} is {minPlayers}");
                     continue;
                 }
                 if (preset_ == "Revolutionary")
@@ -92,7 +91,6 @@ public sealed class SecretRuleSystem : GameRuleSystem<SecretRuleComponent>
                 }
             }
 
-            _chatManager.SendAdminAnnouncement($"minPlayers of {preset_} is {minPlayers}");
             if (minPlayers != -1 && readyPlayers < minPlayers)
                 weights.Remove(preset_);
             if (minPlayers != -1 && minPlayers < smallerMinPlayers){
@@ -106,9 +104,6 @@ public sealed class SecretRuleSystem : GameRuleSystem<SecretRuleComponent>
         }
         else // If no mode matches, fallback to extended
         {
-            //weights = Dictionary<string, float>(){"Extended": 1};
-            // _chatManager.SendAdminAnnouncement("Number of ready players do not meet the minimum of " +
-            //                                    "any game mode. Falling back to extended");
             preset = "Extended";
             ChatManager.SendAdminAnnouncement(Loc.GetString("preset-not-enough-ready-players",
                 ("readyPlayersCount", readyPlayers), ("minimumPlayers", smallerMinPlayers),
