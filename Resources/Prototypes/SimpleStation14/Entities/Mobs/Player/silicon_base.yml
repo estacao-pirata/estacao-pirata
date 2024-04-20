@@ -288,6 +288,7 @@
       priority: 1
       lightningExplode: false
     - type: WeldingHealable
+    - type: Fingerprint
 
 
 - type: damageModifierSet
