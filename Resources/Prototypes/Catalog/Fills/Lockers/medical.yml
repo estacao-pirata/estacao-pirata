@@ -141,6 +141,7 @@
       - id: ClothingHandsGlovesLatex
       - id: ClothingHeadsetMedical
       - id: ClothingMaskSterile
+      - id: HandheldCrewMonitorGeneric
       - id: HandheldGPSBasic
       - id: MedkitFilled
         prob: 0.3

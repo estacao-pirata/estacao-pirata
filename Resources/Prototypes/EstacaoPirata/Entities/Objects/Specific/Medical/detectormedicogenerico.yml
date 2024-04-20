@@ -1,0 +1,43 @@
+- type: entity
+  name: detector médico genérico
+  parent:
+  - BaseItem
+  - PowerCellSlotSmallItem
+  id: HandheldCrewMonitorGeneric
+  description: Um dispositivo fabricado em larga escala, capaz de monitorar o estado de saúde dos membros da tripulação. só funciona se os sensores do indivíduo estiverem ligados.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Specific/Medical/detectormedicogenerico.rsi
+    state: scanner
+  - type: Item
+    size: Normal
+  - type: PowerCellDraw
+    drawRate: 0
+    useRate: 40
+  - type: ActivatableUIRequiresPowerCell
+  - type: ActivatableUI
+    key: enum.CrewMonitoringUIKey.Key
+    closeOnHandDeselect: false
+  - type: UserInterface
+    interfaces:
+      - key: enum.CrewMonitoringUIKey.Key
+        type: CrewMonitoringBoundUserInterface
+  - type: CrewMonitoringConsole
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: CrewMonitor
+  - type: WirelessNetworkConnection
+    range: 250
+  - type: StationLimitedNetwork
+  - type: StaticPrice
+    price: 250
+
+- type: entity
+  id: HandheldCrewMonitorGenericEmpty
+  parent: HandheldCrewMonitorGeneric
+  suffix: Empty
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
