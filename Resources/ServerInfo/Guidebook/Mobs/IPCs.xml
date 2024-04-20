@@ -1,7 +1,7 @@
 <Document>
   # I.P.C.
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
-  Um I.P.C. (Sigla para Integrated Positronic Chassis) são uma uma espécie de robôs sentientes e são considerados [color=yellow]individuos independentes[/color], isto é, [color=red]não são guiados por qualquer leis da robótica[/color]. IPCs não podem ser hackeados por Emags por conta de não terem que seguir nenhuma diretriz pré definida em seu sistema. [color=red]IPCs são seres de silício, portanto médicos não tem as habilidades para repará-los.[/color]
+  O I.P.C. (Sigla para Integrated Positronic Chassis) é uma espécie de robôs sentientes e são considerados [color=yellow]individuos independentes[/color], isto é, [color=red]não são guiados por qualquer leis da robótica[/color]. IPCs não podem ser hackeados por Emags por conta de não terem que seguir nenhuma diretriz pré definida em seu sistema. [color=red]IPCs são seres de silício, portanto médicos não tem as habilidades para repará-los.[/color]
   
   <Box>
     <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
@@ -31,12 +31,26 @@
   É possível encontrar novas chaves pela estação ou retirar alguma de um rádio do setor utilizando uma [color=yellow]chave de fenda[/color].
 
   ## Reparo
-  <Box>
-    <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Soldador"/>
-    <GuideEntityEmbed Entity="Defibrillator" Caption="Desfibrilador"/>
-  </Box>
-  IPCs podem se reparar e serem reparados a partir de um soldador. Tenha certeza de que o [color=yellow]Soldador[/color]  possui combustível suficiente para o trabalho!
 
-  No eventual caso de um IPC morrer, após ele ser totalmente consertado, ele deverá receber um choque para ser reiniciado. Basta usar um [color=yellow]Desfibrilador[/color] para fazer essa tarefa
+  <Box HorizontalAlignment="Stretch">
+    <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Soldador"/>
+    Soldadores podem ser usados para consertar danos de tipo [color=yellow]Bruto[/color] 
+  </Box>
+  <Box HorizontalAlignment="Stretch">
+    <GuideEntityEmbed Entity="CableApcStack" Caption="Cabos
+(qualquer tipo)"/>
+    Cabos podem ser usados para consertar danos relacionados a [color=yellow]Queimaduras[/color] 
+  </Box>
+  <Box HorizontalAlignment="Stretch">
+    <GuideEntityEmbed Entity="SheetGlass" Caption="Painel de vidro
+(qualquer tipo)"/>
+    Cabos podem ser usados para consertar [color=yellow]Cegueira[/color] 
+  </Box>
+  <Box HorizontalAlignment="Stretch">
+    <GuideEntityEmbed Entity="Defibrillator" Caption="Desfibrilador"/>
+    No eventual caso de um IPC morrer, após ele ser totalmente consertado, ele deverá receber um choque para ser reiniciado. Basta usar um [color=yellow]Desfibrilador[/color] para fazer essa tarefa
+    
+  </Box>
+
 </Document>
 
