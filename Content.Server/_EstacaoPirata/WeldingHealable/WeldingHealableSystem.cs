@@ -60,9 +60,12 @@ namespace Content.Server._EstacaoPirata.WeldingHealable
             if (!HasDamage(damageable, component))
                 return;
 
-            if (_solutionContainer.TryGetDrainableSolution((EntityUid) args.Used, out var solutioncomp, out var solution))
+            if (TryComp(args.Used, out WelderComponent? welder) &&
+                TryComp(args.Used, out SolutionContainerManagerComponent? solutionContainer))
             {
-                _solutionContainer.Drain((EntityUid) args.Used, (Entity<SolutionComponent>) solutioncomp, component.FuelCost);
+                if (!_solutionContainer.ResolveSolution(((EntityUid) args.Used, solutionContainer), welder.FuelSolutionName, ref welder.FuelSolution, out var solution))
+                    return;
+                _solutionContainer.RemoveReagent(welder.FuelSolution.Value, welder.FuelReagent, component.FuelCost);
             }
 
             var str = Loc.GetString("comp-repairable-repair",

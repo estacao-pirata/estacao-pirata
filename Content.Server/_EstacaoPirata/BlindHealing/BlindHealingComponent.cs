@@ -7,8 +7,8 @@ namespace Content.Server._EstacaoPirata.BlindHealing
     [RegisterComponent]
     public sealed partial class BlindHealingComponent : Component
     {
-        [ViewVariables(VVAccess.ReadWrite)] [DataField("doAfterDelay")]
-        public int DoAfterDelay = 1;
+        [ViewVariables(VVAccess.ReadWrite)] [DataField("delay")]
+        public int DoAfterDelay = 3;
 
         /// <summary>
         /// A multiplier that will be applied to the above if an entity is repairing themselves.
