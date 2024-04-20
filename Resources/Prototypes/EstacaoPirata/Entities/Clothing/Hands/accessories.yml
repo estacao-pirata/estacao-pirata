@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHandsAccessoriesBase
+  id: ClothingHandsAccessoriesWeddingring
+  name: anel de casamento
+  description: Um anel de casamento elegante e atemporal, simbolizando o compromisso e a união eterna entre dois amantes.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Hands/Accessories/aneldecasamento.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Hands/Accessories/aneldecasamento.rsi
