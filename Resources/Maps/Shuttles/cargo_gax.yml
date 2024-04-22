@@ -88,8 +88,7 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - type: StationCargoShuttle
-      path: /Maps/Shuttles/cargo.yml
+    - type: CargoShuttle
 - proto: AirCanister
   entities:
   - uid: 154
