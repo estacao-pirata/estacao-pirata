@@ -54,7 +54,6 @@ namespace Content.Server._EstacaoPirata.BlindHealing
                 if(EntityManager.TryGetComponent(uid, out StackPriceComponent? stackPrice))
                 {
                     price = stackPrice.Price;
-                    return;
                 }
                 _stackSystem.SetCount(uid, (int) (_stackSystem.GetCount(uid, stackComponent) - price), stackComponent);
 
