@@ -50,7 +50,7 @@
         canReact: false
   # IPC Healing
   - type: BlindHealing
-    damageContainers: 
+    damageContainers:
       - Silicon
   - type: StackPrice
     price: 2
