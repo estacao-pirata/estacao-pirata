@@ -151,3 +151,85 @@ Entries:
   changes:
   - type: Add # One of the following: Add, Remove, Tweak, Fix
     message: Adiciona o Changelog do Pirata!
+- author: Dasprino007
+  time: '2024-04-11T21:49:43-03:00'
+  changes: 
+  - type: Tweak
+    message: Consertos no mapa Barratry
+- author: rber
+  time: '2024-03-26T13:51:19-03:00'
+  changes:
+  - type: Tweak
+    message: Nerfa algemas em 1 segundo
+- author: ArcticHusky
+  time: '2024-03-31T17:39:48-03:00'
+  changes:
+  - type: Add
+    message: Adiciona logo do Pirata
+- author: rber
+  time: '2024-04-21T22:35:32-03:00'
+  changes:
+  - type: Tweak
+    message: Pequeno buff o colete da sec e na carapaça do cap
+  - type: Tweak
+    message: Torna alguns hardsuits da NT mais leves
+- author: LaryALagosta
+  time: '2024-04-02T23:00:59-03:00'
+  changes:
+  - type: Add
+    message: Adiciona kits básicos de blueshield, reporter e psicólogo
+- author: rber
+  time: '2024-04-04T01:12:16-03:00'
+  changes:
+  - type: Tweak
+    message: Nerfa um pouco o colete do blueshield, na época era igual ao da sec
+  - type: Add
+    message: Adiciona boina e uniforme do blueshield na impressora de uniformes
+- author: SimaZao
+  time: '2024-04-03T19:27:11-03:00'
+  changes:
+  - type: Add
+    message: Adição inícial dos feriados brasileiros
+- author: rber
+  time: '2024-04-07T22:51:54-03:00'
+  changes:
+  - type: Tweak
+    message: Thief agora é um antagonista exclusivo e não pode ser Traitor por exemplo pra não confundir e matar menos
+- author: DayOS
+  time: '2024-04-06T23:49:30-03:00'
+  changes:
+  - type: Fix
+    message: Conserta tranca do IPC
+  - type: Tweak
+    message: Adiciona tempo para as ações de trancar e destrancar a portinha do IPC
+- author: rber
+  time: '2024-04-21T22:35:32-03:00'
+  changes:
+  - type: Fix
+    message: Não sorteia mais modos de jogo que não tem jogadores o bastante
+- author: WillOliver
+  time: '2024-04-21T22:35:32-03:00'
+  changes:
+  - type: Add
+    message: Adiciona cinvo variações de cores para os óculos, verde, azul, roxo, laranja e amarelo.
+  - type: Add
+    message: Adiciona portafib, um desfibrilador portátil original da base de código Delta-V
+  - type: Add
+    message: Adiciona relógiode pulso, anel de casamento e cosmético de padre
+- author: DayOs
+  time: '2024-04-12T00:13:01-03:00'
+  changes:
+  - type: Tweak
+    message: Reestrutura sistema de cura do IPC
+  - type: Fix
+    message: Conserta bug em que as chaves criptográficas apareciam com o painel fechado
+- author: Crono209
+  time: '2024-04-13T10:29:48-03:00'
+  changes:
+  - type: Fix
+    message: Conserta bug que fazia o Oni não ser alto
+- author: WillOliver, rber, DoutorWhite, Rusted, Expox, ArcticHusky, SimaZao, DayOs
+  time: '2024-04-21T23:28:36-03:00'
+  changes:
+  - type: Add
+    message: Traduções desde março
