@@ -170,7 +170,7 @@ Entries:
   time: '2024-04-21T22:35:32-03:00'
   changes:
   - type: Tweak
-    message: Pequeno buff o colete da sec e na carapaça do cap
+    message: Pequeno buff no colete da sec e na carapaça do cap
   - type: Tweak
     message: Torna alguns hardsuits da NT mais leves
 - author: LaryALagosta
@@ -211,7 +211,7 @@ Entries:
   time: '2024-04-21T22:35:32-03:00'
   changes:
   - type: Add
-    message: Adiciona cinvo variações de cores para os óculos, verde, azul, roxo, laranja e amarelo.
+    message: Adiciona cinco variações de cores para os óculos, verde, azul, roxo, laranja e amarelo.
   - type: Add
     message: Adiciona portafib, um desfibrilador portátil original da base de código Delta-V
   - type: Add
@@ -233,3 +233,8 @@ Entries:
   changes:
   - type: Add
     message: Traduções desde março
+- author: DayOS
+  time: '2024-04-22T00:46:46-03:00'
+  changes:
+  - type: Fix
+    message: Conserta IPC não curando visão
