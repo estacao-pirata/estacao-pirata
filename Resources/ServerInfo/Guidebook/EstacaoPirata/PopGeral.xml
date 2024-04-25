@@ -1,0 +1,91 @@
+<Document>
+
+#Linha de sucessão
+[bold]Se o capitão morrer e for irrecuperável por qualquer motivo, um novo capitão deve ser selecionado. Isso segue uma decisão bastante simples que coloquei em um guia passo a passo:[/bold]
+
+[bullet/]Se o capitão ainda está vivo, ele continua sendo o capitão. Caso contrário, vá para a próxima etapa.
+
+[bullet/]O chefe dos funcionários (hop) ainda está vivo? Em caso afirmativo, essa pessoa agora é o Capitão, caso contrário, vá para a próxima etapa.
+
+[bullet/]Há algum oficial do comando vivo? Se for apenas um, essa pessoa agora é o Capitão. Se tiver mais de um, estes devem decidir entre si de comum acordo quem será o Capitão sem consultar o resto da tripulação.
+
+[bullet/]Se não houver nenhum oficial de comando vivo, defina o nível de alerta para o código vermelho e ligue para o ônibus espacial de evacuação.
+
+#Docagem e Visitantes
+##Visitantes
+A estação é encorajada para permitir que visitantes não hostis tenham permissão para atracar ou de outra forma vir a bordo durante as condições normais de operação.
+
+Se um indivíduo cometer um crime a bordo de uma estação de Nanotrasen e, em seguida, fugir para um navio, habitat ou estação não afiliado em uso ativo, cabe a essa organização oferecer ou rejeitar um pedido de asilo.
+
+O capitão do navio pode conceder ou negar asilo a seu critério.
+
+Os visitantes podem ter qualquer acesso a bordo da estação que o capitão da estação julgar apropriado.
+
+Os visitantes podem receber uma escolta ou revistados na entrada a critério do capitão da estação, no entanto, em nenhum momento, a tripulação deve entrar no navio de um visitante sem permissão, revistar o navio de um visitante ou infringir sua soberania.
+
+Os visitantes a bordo de um navio NT estão sujeitos à Lei Espacial. Da mesma forma, se um visitante infringir a lei e, em seguida, imediatamente fugir para o seu próprio navio, a doutrina da "perseguição quente" se aplica e a segurança pode embarcar para deter.
+
+##Embarcações
+
+Qualquer pessoal a bordo de um navio está sob a autoridade legal desse navio e pode ser legalmente multado, preso, detido e punido por infrações às leis do capitão do navio visitante.
+
+Os navios pertencentes a organizações em guerra com a Nanotrasen, ou embarcações que atacam uma instalação ou navio Nanotrasen não são protegidos por esses regulamentos, nem embarcações envolvidas em atividades criminosas flagrantes, como a escravidão humana.
+
+#Avaliação médica
+Dado um bom motivo médico e com a documentação, o Diretor Médico pode declarar qualquer pessoal de serviço inapto para o serviço e removê-lo de seu cargo, incluindo o Capitão. Este procedimento padrão não pode ser anulado pelo Capitão.
+
+Para que uma avaliação médica seja considerada correta, dois chefes, um dos quais deve ser o CMO, devem concordar que o tripulante especificado é inapto para o serviço e o chefe de pessoal deve concordar para seu rebaixamento.
+
+#Operações de Pesquisa
+Os funcionários da ciência têm permissão para usar seus espaços de laboratório como acharem adequado, com as seguintes exceções:
+
+Qualquer experimentação humana deve ser feita com o consentimento do sujeito do teste e não deve ter risco de vida indevido. O Capitão ou RD pode encerrar qualquer experimento por motivos de segurança ou éticos a seu critério.
+
+A auto-experimentação é proibida e é passível de ameaça.
+
+O teste de quaisquer explosivos com risco de penetrar no casco ou causar destruição em massa deve ser feito em um local fora da estação.
+
+Armas pequenas e armas maiores também devem ser testadas em um local fora da estação se houver risco para o casco.
+
+A distribuição de tecnologia experimental ao pessoal de pesquisa para testes é permitida.
+
+Os funcionários da Science não estão sujeitos a leis relacionadas a Substâncias ou Itens Controlados ao usar esses itens no decorrer da pesquisa.
+
+A tecnologia experimental pode ser fornecida aos departamentos de tripulação para teste e uso com a aprovação do chefe do departamento.
+
+#Substâncias/Itens Controlados
+##Substâncias controladas são quaisquer substâncias que foram restritas ou tornadas ilegais sob a lei espacial.
+A lista atual de substâncias controladas é a seguinte:
+
+Drogas espaciais (Space Drugs)
+
+[bullet/]Dietilamida do Ácido Lisérgico Puro, (LSD) às vezes referido como "Mindbreaker".
+
+[bullet/]Corpium
+
+[bullet/]Nocturino
+
+[bullet/]Qualquer composto explosivo ou pirotécnico fora do sci.
+
+[bullet/]Qualquer toxina letal ou substância/composto tóxico fora da ciência ou do laboratório de química médica.
+
+##Itens Controlados são itens que foram restritos ou tornados ilegais sob a lei espacial.
+A lista atual de itens controlados é a seguinte:
+
+[bullet/]Armas biológicas ou químicas, como granadas de neurotoxina. O gás de plasma é considerado uma arma química quando usado ofensivamente.
+
+[bullet/]Qualquer tecnologia de clonagem projetada para crescer rapidamente um clone adulto com faculdades mentais totalmente desenvolvidas.
+
+[bullet/]Explosivos militares quando não estiverem em uso pela Segurança ou entidades autorizadas. Observe que explosivos construtivos, como quaisquer cargas usadas para mineração, não estão sujeitos a essa restrição. Explosivos à base de plasma são considerados armas militares.
+
+[bullet/]Armas Automáticas quando não estiverem em uso pela Segurança, outro departamento autorizado do Comando Central ou outra entidade autorizada. Isso significa qualquer arma capaz de disparar vários tiros quando o gatilho é pressionado uma vez, energia ou não.
+
+[bullet/]As forças de segurança corporativas são consideradas uma "entidade autorizada" em relação às cláusulas acima.
+
+[bullet/]Armamento na posse de pessoal que não foi autorizado a possuí-lo.
+
+[bullet/]Software de hacking que permite a uma pessoa subverter o acesso a sistemas de navios, contornar restrições de acesso ou atacar uma rede de computadores de navios.
+
+[bullet/]Qualquer tecnologia de corporação hostil.
+
+</Document>
