@@ -102,6 +102,13 @@
     price: 40
   - type: IgnitionSource
     temperature: 700
+  - type: WeldingHealing # Same as Brutepack
+    damageContainers:
+      - Silicon
+    fuelcost: 5
+    damage:
+      groups:
+        Brute: -10
 
 - type: entity
   name: industrial welding tool

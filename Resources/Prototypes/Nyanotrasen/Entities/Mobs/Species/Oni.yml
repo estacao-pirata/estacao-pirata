@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseMobHuman
+  parent: BaseMobSpeciesOrganic
   name: Urist McOni
   id: MobOniBase
   abstract: true

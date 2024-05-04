@@ -20,7 +20,6 @@ namespace Content.Client.Overlays;
 /// </summary>
 public sealed class EntityHealthBarOverlay : Overlay
 {
-    [Dependency] private readonly IPrototypeManager _prototype = default!;
     private readonly IEntityManager _entManager;
     private readonly SharedTransformSystem _transform;
     private readonly MobStateSystem _mobStateSystem;
@@ -28,17 +27,14 @@ public sealed class EntityHealthBarOverlay : Overlay
     private readonly ProgressColorSystem _progressColor;
     public override OverlaySpace Space => OverlaySpace.WorldSpaceBelowFOV;
     public HashSet<string> DamageContainers = new();
-    private readonly ShaderInstance _shader;
 
     public EntityHealthBarOverlay(IEntityManager entManager)
     {
-        IoCManager.InjectDependencies(this);
         _entManager = entManager;
         _transform = _entManager.System<SharedTransformSystem>();
         _mobStateSystem = _entManager.System<MobStateSystem>();
         _mobThresholdSystem = _entManager.System<MobThresholdSystem>();
         _progressColor = _entManager.System<ProgressColorSystem>();
-        _shader = _prototype.Index<ShaderPrototype>("unshaded").Instance();
     }
 
     protected override void Draw(in OverlayDrawArgs args)
@@ -50,8 +46,6 @@ public sealed class EntityHealthBarOverlay : Overlay
         const float scale = 1f;
         var scaleMatrix = Matrix3.CreateScale(new Vector2(scale, scale));
         var rotationMatrix = Matrix3.CreateRotation(-rotation);
-
-        handle.UseShader(_shader);
 
         var query = _entManager.AllEntityQueryEnumerator<MobThresholdsComponent, MobStateComponent, DamageableComponent, SpriteComponent>();
         while (query.MoveNext(out var uid,
@@ -128,7 +122,6 @@ public sealed class EntityHealthBarOverlay : Overlay
             handle.DrawRect(pixelDarken, Black.WithAlpha(128));
         }
 
-        handle.UseShader(null);
         handle.SetTransform(Matrix3.Identity);
     }
 

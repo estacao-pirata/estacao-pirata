@@ -65,13 +65,14 @@
     maxIntensity: 30
     canCreateVacuum: false
   - type: ExplodeOnTrigger
-  - type: HolidayVisuals
-    holidays:
-      festive:
-      - FestiveSeason
-  - type: HolidayRsiSwap
-    sprite:
-      festive: Objects/Weapons/Bombs/c4gift.rsi
+# Desativado até criarmos um feriado equivalente
+#   - type: HolidayVisuals
+#     holidays:
+#       festive:
+#       - FestiveSeason
+#   - type: HolidayRsiSwap
+#     sprite:
+#       festive: Objects/Weapons/Bombs/c4gift.rsi
 
 - type: entity
   name: seismic charge

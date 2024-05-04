@@ -1,4 +1,4 @@
-ent-DrinkGlass = copo para beber
+ent-DrinkGlass = copo de vidro
      .desc = Um copo.
 
 ent-DrinkAbsintheGlass = copo de absinto

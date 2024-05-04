@@ -80,7 +80,7 @@
         - ClothingHeadHatCone
         - ClothingNeckBling
         - ClothingHeadHelmetCosmonaut
-        - ClothingHeadHelmetScaf
+        - ClothingHeadHelmetBasic
         - ClothingShoeSlippersDuck
         - ClothingUnderSocksBee
         - ClothingUnderSocksCoder
@@ -176,12 +176,7 @@
         - MaterialCloth10
         - MaterialWoodPlank10
         - ResearchDisk
-        - DeathPaint
         - Plunger
-        - SprayPaintBlue
-        - SprayPaintRed
-        - SprayPaintGreen
-        - SprayPaintOrange
         - TechnologyDisk
         - PowerCellMedium
         - PowerCellSmall

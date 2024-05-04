@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHandsAccessoriesBase
+  id: ClothingHandsAccessoriesWatch
+  name: relógio de pulso
+  description: Um tipo de relógio com ponteiros, ele servia para medir o tempo no passado, mas agora não possui muita utilidade.
+  components:
+  - type: Sprite
+    sprite: Corvax/Clothing/Hands/Accessories/watch.rsi
+  - type: Clothing
+    sprite: Corvax/Clothing/Hands/Accessories/watch.rsi
