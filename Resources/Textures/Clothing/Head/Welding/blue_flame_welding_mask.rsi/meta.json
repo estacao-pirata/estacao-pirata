@@ -18,8 +18,8 @@
       "directions": 4
     },
     {
-        "name": "equipped-HELMET-vulpkanin",
-        "directions": 4
+      "name": "equipped-HELMET-vulpkanin",
+      "directions": 4
     },
     {
       "name": "up-equipped-HELMET",
@@ -34,9 +34,9 @@
       "directions": 4
     },
     {
-        "name": "up-equipped-HELMET-vulpkanin",
-        "directions": 4
-      },
+      "name": "up-equipped-HELMET-vulpkanin",
+      "directions": 4
+    },
     {
       "name": "inhand-left",
       "directions": 4
