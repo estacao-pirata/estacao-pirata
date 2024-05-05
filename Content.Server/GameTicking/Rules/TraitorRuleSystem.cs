@@ -67,11 +67,6 @@ public sealed class TraitorRuleSystem : GameRuleSystem<TraitorRuleComponent>
         }
     }
 
-	// Tentativa de workaround hardcoded idiota, não achei o bug dos 19 traitor - Pirata
-	if (traitorsToSelect > 10){
-		traitorsToSelect = 10;
-	}
-
     public bool MakeTraitor(EntityUid traitor, TraitorRuleComponent component, bool giveUplink = true, bool giveObjectives = true)
     {
         //Grab the mind if it wasnt provided

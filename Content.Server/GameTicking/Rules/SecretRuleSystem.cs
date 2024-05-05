@@ -3,13 +3,11 @@ using System.Linq;
 using Content.Server.Administration.Logs;
 using Content.Server.GameTicking.Components;
 using Content.Server.Chat.Managers;
-using Content.Server.GameTicking;
 using Content.Server.GameTicking.Presets;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Shared.Random;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
-using Content.Shared.GameTicking;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Configuration;
@@ -80,67 +78,6 @@ public sealed class SecretRuleSystem : GameRuleSystem<SecretRuleComponent>
     {
         var options = _prototypeManager.Index(weights).Weights.ShallowClone();
         var players = GameTicker.ReadyPlayerCount();
-        var _playerGameStatuses = _gameTicker._playerGameStatuses;
-
-        // Counts ready players
-        var readyPlayers = 0;
-        foreach (var session in _playerManager.Sessions)
-        {
-            if (_playerGameStatuses[session.UserId] == PlayerGameStatus.ReadyToPlay)
-                readyPlayers++;
-        }
-
-        var weights = new Dictionary<string, float>(presets.Weights);
-
-        var smallerMinPlayers = int.MaxValue;
-
-        foreach (var preset_ in presets.Weights.Keys)
-        {
-            var minPlayers = -1;
-            if (preset_ == "Traitor")
-            {
-                minPlayers = _cfg.GetCVar(CCVars.TraitorMinPlayers);
-            }
-            else if (preset_ == "Zombie")
-            {
-                minPlayers = _cfg.GetCVar(CCVars.ZombieMinPlayers);
-            }
-            else
-            {
-                if (!_prototypeManager.TryIndex<EntityPrototype>(preset_, out var presetProto))
-                {
-                    continue;
-                }
-                if (preset_ == "Revolutionary")
-                {
-                    if (presetProto.TryGetComponent(out RevolutionaryRuleComponent? gameRuleData))
-                        minPlayers = gameRuleData.MinPlayers;
-                }
-                else
-                {
-                    if (presetProto.TryGetComponent(out GameRuleComponent? gameRuleData))
-                        minPlayers = gameRuleData.MinPlayers;
-                }
-            }
-
-            if (minPlayers != -1 && readyPlayers < minPlayers)
-                weights.Remove(preset_);
-            if (minPlayers != -1 && minPlayers < smallerMinPlayers){
-                smallerMinPlayers = minPlayers;
-            }
-        }
-        string preset;
-        if (weights.Count != 0)
-        {
-            preset = SharedRandomExtensions.Pick(RobustRandom, weights);
-        }
-        else // If no mode matches, fallback to extended
-        {
-            preset = "Extended";
-            ChatManager.SendAdminAnnouncement(Loc.GetString("preset-not-enough-ready-players",
-                ("readyPlayersCount", readyPlayers), ("minimumPlayers", smallerMinPlayers),
-                ("presetName", Loc.GetString("secret-title"))));
-        }
 
         GamePresetPrototype? selectedPreset = null;
         var sum = options.Values.Sum();

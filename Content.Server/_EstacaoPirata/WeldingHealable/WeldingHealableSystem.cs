@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Content.Server._EstacaoPirata.WeldingHealing;
 using Content.Server.Administration.Logs;
 using Content.Server.Stack;
-using Content.Server.Tools.Components;
+//using Content.Server.Tools.Components;
 using Content.Shared._EstacaoPirata.WeldingHealing;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;
@@ -60,6 +60,8 @@ namespace Content.Server._EstacaoPirata.WeldingHealable
             if (!HasDamage(damageable, component))
                 return;
 
+            //PRECISA SER CONSERTADO
+            /*
             if (TryComp(args.Used, out WelderComponent? welder) &&
                 TryComp(args.Used, out SolutionContainerManagerComponent? solutionContainer))
             {
@@ -67,6 +69,7 @@ namespace Content.Server._EstacaoPirata.WeldingHealable
                     return;
                 _solutionContainer.RemoveReagent(welder.FuelSolution.Value, welder.FuelReagent, component.FuelCost);
             }
+            */
 
             var str = Loc.GetString("comp-repairable-repair",
                 ("target", uid),
