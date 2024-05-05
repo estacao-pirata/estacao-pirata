@@ -4,7 +4,7 @@ using Content.Shared.Radio.Components;
 using Content.Shared.Containers;
 using Robust.Shared.Containers;
 
- // Pretty much copied from StationSpawningSystem.SpawnStartingGear
+// Pretty much copied from StationSpawningSystem.SpawnStartingGear
 namespace Content.Server.Silicons.IPC;
 public static class InternalEncryptionKeySpawner
 {
@@ -12,7 +12,7 @@ public static class InternalEncryptionKeySpawner
     {
         if (entityManager.TryGetComponent<EncryptionKeyHolderComponent>(target, out var keyHolderComp))
         {
-            var earEquipString = startingGear.GetGear("ears", profile);
+            var earEquipString = startingGear.GetGear("ears");
             var containerMan = entityManager.System<SharedContainerSystem>();
 
             if (!string.IsNullOrEmpty(earEquipString))

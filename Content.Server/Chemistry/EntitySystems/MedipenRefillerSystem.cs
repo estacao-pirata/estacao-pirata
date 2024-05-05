@@ -160,7 +160,7 @@ public sealed class MedipenRefillerSystem : SharedMedipenRefillerSystem
 
         var state = new MedipenRefillerUpdateState(BuildInputContainerData(entity), BuildBufferData(entity), entity.Comp.IsActivated, resultName, (int) time.TotalSeconds);
 
-        _ui.TrySetUiState(entity, MedipenRefillerUiKey.Key, state);
+        _ui.SetUiState(entity.Owner, MedipenRefillerUiKey.Key, state);
     }
     #endregion
 
