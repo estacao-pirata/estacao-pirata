@@ -2,27 +2,27 @@
 # Energia
 
 SS14 tem um sistema de energia bem elaborado onde todos os dispositivo na estação recebem eletricidade. O sistema é divido em três redes de energia: AT, MV e BT.
-<Box>
-<GuideEntityEmbed Entity="CableHVStack"/>
-<GuideEntityEmbed Entity="CableMVStack"/>
-<GuideEntityEmbed Entity="CableApcStack"/>
-</Box>
+  <Box>
+  <GuideEntityEmbed Entity="CableHVStack"/>
+  <GuideEntityEmbed Entity="CableMVStack"/>
+  <GuideEntityEmbed Entity="CableApcStack"/>
+  </Box>
 
 ## Cabeamento
 Os três tipos de cabos (AT, MV e BT) podem ser usados para formar redes de energia independentes. Examine eles para uma descrição melhor de seus usos.
-<Box>
-<GuideEntityEmbed Entity="CableHV"/>
-<GuideEntityEmbed Entity="CableMV"/>
-<GuideEntityEmbed Entity="CableApcExtension"/>
-</Box>
+  <Box>
+  <GuideEntityEmbed Entity="CableHV"/>
+  <GuideEntityEmbed Entity="CableMV"/>
+  <GuideEntityEmbed Entity="CableApcExtension"/>
+  </Box>
 
 ## Armazenamento de Energia
 Cada dispositivo de armazenamento apresentado funciona como um transformador para o seu respectivo nivel elétrico, (AT, MT, e BT)
-<Box>
-<GuideEntityEmbed Entity="SMESBasic"/>
-<GuideEntityEmbed Entity="SubstationBasic"/>
-<GuideEntityEmbed Entity="APCBasic"/>
-</Box>
+  <Box>
+  <GuideEntityEmbed Entity="SMESBasic"/>
+  <GuideEntityEmbed Entity="SubstationBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
 
 ## Aumento de Energia
 Ao contrario do que muitos esperam de simulações em video games, energia não é provida em instantes quando necessária. Geradores e baterias demoram tempo para aumentar sua potência para igualar a carga imposta nelees, o que leva a quedas de energia quando tem grandes difrenças na carga, por exemplo quando as baterias acabam.
@@ -36,18 +36,18 @@ Installar SMES requer que voce construa um terminal de cabos e use como entrada.
 
 ## Estouro de APC
 Atualmente a unica maquina de armazenamento de energia que tem um limite é o APC. No momento que todos os dispositivos conectados e maquinas precisarem mais de [color=#a4885c]24kW[/color] o seu disjuntor vai estourar e tudo vai desligar.
-<Box>
-<GuideEntityEmbed Entity="APCBasic"/>
-</Box>
+  <Box>
+  <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
 
 ## Verificando a rede elétrica
 1. Use o [color=#a4885c]scanner de raios-t[/color] para localizar os cabos que estão escondidos entre os ladrilhos. (Ignore essa etapa se os cabos não estiverem escondidos)
 2. Retire o ladrilho que está bloqueando o seu acesso ao cabo com um [color=#a4885c]pé de cabra[/color].
 3. Equipe sua [color=#a4885c]Multiferramenta[/color] e clique em qualquer cabo para ver o seu estado atual na rede elétrica.
-<Box>
-<GuideEntityEmbed Entity="Multitool"/>
-<GuideEntityEmbed Entity="Crowbar"/>
-<GuideEntityEmbed Entity="trayScanner"/>
-</Box>
+  <Box>
+  <GuideEntityEmbed Entity="Multitool"/>
+  <GuideEntityEmbed Entity="Crowbar"/>
+  <GuideEntityEmbed Entity="trayScanner"/>
+  </Box>
 
 </Document>

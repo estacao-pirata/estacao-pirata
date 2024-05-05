@@ -114,7 +114,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -124,7 +124,7 @@
   completetime: 4
   materials:
     Steel: 150
-    Glass: 900
+    Glass: 500
     Gold: 50
 
 - type: latheRecipe
@@ -134,7 +134,7 @@
   completetime: 4
   materials:
     Steel: 150
-    Glass: 900
+    Glass: 500
     Gold: 50
 
 - type: latheRecipe
@@ -144,7 +144,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: PortableScrubberMachineCircuitBoard
@@ -153,7 +153,7 @@
   completetime: 4
   materials:
     Steel: 150
-    Glass: 900
+    Glass: 500
     Gold: 50
 
 - type: latheRecipe
@@ -163,7 +163,7 @@
   completetime: 4
   materials:
     Steel: 150
-    Glass: 900
+    Glass: 500
     Gold: 50
 
 - type: latheRecipe
@@ -173,7 +173,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: CryoPodMachineCircuitboard
@@ -182,7 +182,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -192,7 +192,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: ChemDispenserMachineCircuitboard
@@ -201,7 +201,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -219,7 +219,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -229,7 +229,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -239,7 +239,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: AutolatheMachineCircuitboard
@@ -248,7 +248,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: ProtolatheMachineCircuitboard
@@ -257,7 +257,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: AutolatheHyperConvectionMachineCircuitboard
@@ -266,7 +266,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -276,7 +276,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -285,8 +285,19 @@
   category: Circuitry
   completetime: 4
   materials:
-     Steel: 100
-     Glass: 900
+    Steel: 100
+    Glass: 500
+
+- type: latheRecipe
+  id: CircuitImprinterHyperConvectionMachineCircuitboard
+  result: CircuitImprinterHyperConvectionMachineCircuitboard
+  category: Circuitry
+  completetime: 4
+  materials:
+    Steel: 100
+    Glass: 900
+    Gold: 100
+
 
 - type: latheRecipe
   id: ExosuitFabricatorMachineCircuitboard
@@ -295,7 +306,7 @@
   completetime: 5
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: UniformPrinterMachineCircuitboard
@@ -304,7 +315,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: VaccinatorMachineCircuitboard
@@ -313,7 +324,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -323,7 +334,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -333,17 +344,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
-     Gold: 100
-
-- type: latheRecipe
-  id: TraversalDistorterMachineCircuitboard
-  result: TraversalDistorterMachineCircuitboard
-  category: Circuitry
-  completetime: 4
-  materials:
-     Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -353,7 +354,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -363,7 +364,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: AnomalyVesselExperimentalCircuitboard
@@ -372,7 +373,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -392,7 +393,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: ReagentGrinderMachineCircuitboard
@@ -401,7 +402,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: HotplateMachineCircuitboard
@@ -410,7 +411,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: AnalysisComputerCircuitboard
@@ -419,7 +420,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -429,7 +430,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -439,7 +440,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -449,7 +450,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: DawInstrumentMachineCircuitboard
@@ -458,7 +459,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: StasisBedMachineCircuitboard
@@ -467,7 +468,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -477,7 +478,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: CentrifugeMachineCircuitboard
@@ -486,7 +487,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: MaterialReclaimerMachineCircuitboard
@@ -495,7 +496,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: OreProcessorMachineCircuitboard
@@ -504,7 +505,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: OreProcessorIndustrialMachineCircuitboard
@@ -513,7 +514,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -523,7 +524,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -533,7 +534,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -543,7 +544,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Bananium: 100
 
 - type: latheRecipe
@@ -553,7 +554,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Bananium: 100
 
 - type: latheRecipe
@@ -563,7 +564,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Bananium: 100
 
 - type: latheRecipe
@@ -573,7 +574,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -583,7 +584,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 # Power
@@ -612,7 +613,7 @@
   completetime: 4
   materials:
      Steel: 50
-     Glass: 350
+     Glass: 450
 
 - type: latheRecipe
   id: SMESMachineCircuitboard
@@ -621,7 +622,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: PortableGeneratorPacmanMachineCircuitboard
@@ -675,7 +676,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: SolarTrackerElectronics
@@ -693,7 +694,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: CloningConsoleComputerCircuitboard
@@ -702,7 +703,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: MicrowaveMachineCircuitboard
@@ -711,7 +712,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: ElectricGrillMachineCircuitboard
@@ -720,7 +721,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: FatExtractorMachineCircuitboard
@@ -729,7 +730,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: FlatpackerMachineCircuitboard
@@ -738,7 +739,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -748,7 +749,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: SurveillanceCameraRouterCircuitboard
@@ -757,7 +758,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: SurveillanceCameraWirelessRouterCircuitboard
@@ -766,7 +767,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: SurveillanceWirelessCameraAnchoredCircuitboard
@@ -775,7 +776,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: SurveillanceWirelessCameraMovableCircuitboard
@@ -784,7 +785,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: SurveillanceCameraMonitorCircuitboard
@@ -793,7 +794,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: SurveillanceWirelessCameraMonitorCircuitboard
@@ -802,7 +803,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: ComputerTelevisionCircuitboard
@@ -811,7 +812,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: EmitterCircuitboard
@@ -820,7 +821,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: ThrusterMachineCircuitboard
@@ -829,7 +830,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: GyroscopeMachineCircuitboard
@@ -838,7 +839,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: GasRecyclerMachineCircuitboard
@@ -847,7 +848,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: SeedExtractorMachineCircuitboard
@@ -856,7 +857,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
 
 - type: latheRecipe
   id: BoozeDispenserMachineCircuitboard
@@ -865,7 +866,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: CargoTelepadMachineCircuitboard
@@ -874,7 +875,7 @@
   completetime: 4
   materials:
     Steel: 100
-    Glass: 900
+    Glass: 500
     Gold: 100
 
 - type: latheRecipe
@@ -884,7 +885,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: TelecomServerCircuitboard
@@ -893,7 +894,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: MassMediaCircuitboard
@@ -902,7 +903,7 @@
   completetime: 4
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: MiniGravityGeneratorCircuitboard
@@ -911,7 +912,7 @@
   completetime: 6
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -920,7 +921,7 @@
   completetime: 6
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
 
 - type: latheRecipe
   id: ShuttleGunSvalinnMachineGunCircuitboard
@@ -928,41 +929,42 @@
   completetime: 6
   materials:
      Steel: 100
-     Glass: 900
-     
+
+     Glass: 500
+
 - type: latheRecipe
   id: ShuttleGunPerforatorCircuitboard
   result: ShuttleGunPerforatorCircuitboard
   completetime: 10
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
-     
+
 - type: latheRecipe
   id: ShuttleGunKineticCircuitboard
   result: ShuttleGunKineticCircuitboard
   completetime: 6
   materials:
      Steel: 100
-     Glass: 900
-     
+     Glass: 500
+
 - type: latheRecipe
   id: ShuttleGunFriendshipCircuitboard
   result: ShuttleGunFriendshipCircuitboard
   completetime: 8
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 50
-     
+
 - type: latheRecipe
   id: ShuttleGunDusterCircuitboard
   result: ShuttleGunDusterCircuitboard
   completetime: 12
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
 
 - type: latheRecipe
@@ -971,5 +973,13 @@
   completetime: 5
   materials:
      Steel: 100
-     Glass: 900
+     Glass: 500
      Gold: 100
+ 
+- type: latheRecipe
+  id: JukeboxCircuitBoard
+  result: JukeboxCircuitBoard
+  completetime: 4
+  materials:
+    Steel: 100
+    Glass: 500

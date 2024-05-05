@@ -5,31 +5,31 @@ Construção de naves é simples e fácil, mas bem cara e difícil de se fazer d
 
 ## Começando
 <Box>Partes Necessárias:</Box>
-<Box>
-<GuideEntityEmbed Entity="Thruster"/>
-<GuideEntityEmbed Entity="Gyroscope"/>
-<GuideEntityEmbed Entity="ComputerShuttle"/>
-<GuideEntityEmbed Entity="SubstationBasic"/>
-<GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
-</Box>
-<Box>
-<GuideEntityEmbed Entity="CableHVStack"/>
-<GuideEntityEmbed Entity="CableMVStack"/>
-<GuideEntityEmbed Entity="CableApcStack"/>
-<GuideEntityEmbed Entity="APCBasic"/>
-</Box>
+  <Box>
+  <GuideEntityEmbed Entity="Thruster"/>
+  <GuideEntityEmbed Entity="Gyroscope"/>
+  <GuideEntityEmbed Entity="ComputerShuttle"/>
+  <GuideEntityEmbed Entity="SubstationBasic"/>
+  <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="CableHVStack"/>
+  <GuideEntityEmbed Entity="CableMVStack"/>
+  <GuideEntityEmbed Entity="CableApcStack"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
 
 <Box>Partes Opicionais:</Box>
-<Box>
-<GuideEntityEmbed Entity="AirCanister"/>
-<GuideEntityEmbed Entity="LightTube"/>
-<GuideEntityEmbed Entity="AirlockGlassShuttle"/>
-<GuideEntityEmbed Entity="SMESBasic"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="MobCorgiIan"/>
-<GuideEntityEmbed Entity="NuclearBomb"/>
-</Box>
+  <Box>
+  <GuideEntityEmbed Entity="AirCanister"/>
+  <GuideEntityEmbed Entity="LightTube"/>
+  <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
+  <GuideEntityEmbed Entity="SMESBasic"/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobCorgiIan"/>
+  <GuideEntityEmbed Entity="NuclearBomb"/>
+  </Box>
 Vá até o espaço com folhas de aço e hastes de metal em mãos, e quando você estiver a três ou mais metros da estação, clique perto ou debaixo de si, com as hastes em mãos. Isso vai colocar uma grade, que pode ser transformada em chapas de metal usando as folhas de metal. Expanda sua plataforma em grade clicando um pouco para fora com as hastes na mão.
 
 A partir dai, depois que você tiver a forma que quiser, traga e instale os propulsores nas bordas. Eles precisam estar apontando para fora em direção ao espaço para funcionarem e não irão funcionar se tiver um tile no bocal. Instale o giroscópio onde é conveniente, e use a subestação e geradores para distrubuir energia. Construa uma parede em cima de um cabo MT e instale um APC para distribuir energia para os dispositivos.

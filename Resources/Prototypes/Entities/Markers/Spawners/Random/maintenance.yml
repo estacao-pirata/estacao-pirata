@@ -67,6 +67,8 @@
         - ClothingHeadHatCowboyBountyHunter
         - ClothingShoesRobocop
         - ClothingHeadHatRobocop
+        - ClothingNeckAutismPin
+        - ClothingNeckGoldAutismPin
         - ClothingOuterSuitRobocop
       rareChance: 0.01
       prototypes:

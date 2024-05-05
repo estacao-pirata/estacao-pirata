@@ -1,4 +1,4 @@
-ï»¿<Document>
+<Document>
   # Forensics
 
   There are a lot of tools to help you gather and examine the evidence at your disposal
@@ -17,33 +17,33 @@
   </Box>
 
 
-  # DNA e ImpressÃµes Digitais
+  # DNA e Impressões Digitais
 
-  ## Como obter o DNA de alguÃ©m?
+  ## Como obter o DNA de alguém?
 
-  VocÃª pode escanear poÃ§as de sangue, vÃ´mito, copos, garrafas, latas e outros recipientes de lÃ­quidos usando o [color=#a4885c]forensic scanner[/color] para obter o DNA de qualquer pessoa.
+  Você pode escanear poças de sangue, vômito, copos, garrafas, latas e outros recipientes de líquidos usando o [color=#a4885c]forensic scanner[/color] para obter o DNA de qualquer pessoa.
   <Box>
     <GuideEntityEmbed Entity="ForensicScanner"/>
   </Box>
-  Portanto, tome cuidado antes de brigar com alguÃ©m.
+  Portanto, tome cuidado antes de brigar com alguém.
 
-  O mesmo scanner tambÃ©m pode obter informaÃ§Ãµes de impressÃµes digitais sobre quem tocou praticamente qualquer objeto. Se o possÃ­vel perpetrador estava usando luvas, o seu scanner imprimirÃ¡ quais fibras foram deixadas na cena do crime.
+  O mesmo scanner também pode obter informações de impressões digitais sobre quem tocou praticamente qualquer objeto. Se o possível perpetrador estava usando luvas, o seu scanner imprimirá quais fibras foram deixadas na cena do crime.
 
-  ## Eu tenho DNA. Como posso reconhecer de quem Ã©?
+  ## Eu tenho DNA. Como posso reconhecer de quem é?
 
-  VocÃª pode imprimir as informaÃ§Ãµes forenses do objeto digitalizado para nunca perdÃª-lo. Agora, com o papel contendo DNA, vocÃª pode simplesmente encontrar um  [color=#a4885c]Station Records Computer[/color] e procurar uma pessoa cujo DNA corresponda. O mesmo se aplica a descobrir de quem Ã© a impressÃ£o digital.
+  Você pode imprimir as informações forenses do objeto digitalizado para nunca perdê-lo. Agora, com o papel contendo DNA, você pode simplesmente encontrar um  [color=#a4885c]Station Records Computer[/color] e procurar uma pessoa cujo DNA corresponda. O mesmo se aplica a descobrir de quem é a impressão digital.
 
-  ## Tirando impressÃµes digitais
+  ## Tirando impressões digitais
   
-  TambÃ©m Ã© possÃ­vel tirar impressÃµes digitais de alguÃ©m enquanto estiver no local, se vocÃª tirar as luvas e aplicar um absorvente forense nos dedos. NÃ£o hÃ¡ necessidade de voltar ao [color=#a4885c]Station Records Computer[/color] para verificar se o mordomo fez isso!
+  Também é possível tirar impressões digitais de alguém enquanto estiver no local, se você tirar as luvas e aplicar um absorvente forense nos dedos. Não há necessidade de voltar ao [color=#a4885c]Station Records Computer[/color] para verificar se o mordomo fez isso!
 
   <GuideEntityEmbed Entity="ForensicPad"/>
 
   ## Fibras
 
-  Sempre que pessoas usando luvas tocam em alguma coisa na estaÃ§Ã£o, elas deixam algumas fibras para trÃ¡s. Isso complica as coisas, mas nada Ã© insolÃºvel para um verdadeiro detetive.
+  Sempre que pessoas usando luvas tocam em alguma coisa na estação, elas deixam algumas fibras para trás. Isso complica as coisas, mas nada é insolúvel para um verdadeiro detetive.
   
-  Existem atÃ© [color=red]16[/color] diferentes tipos de fibras possÃ­veis. Isso pode impedi-lo de resolver o caso?
+  Existem até [color=red]16[/color] diferentes tipos de fibras possíveis. Isso pode impedi-lo de resolver o caso?
 
   <Box>
     <GuideEntityEmbed Entity="ComputerStationRecords"/>

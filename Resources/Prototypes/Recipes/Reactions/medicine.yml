@@ -400,7 +400,7 @@
   id: Opporozidone
   minTemp: 400 #Maybe if a method of reducing reagent temp exists one day, this could be -50
   reactants:
-    Siderlac: 
+    Siderlac:
       amount: 2
     Plasma:
       amount: 2
@@ -558,10 +558,23 @@
     Silicon:
       amount: 1
     Benzene:
-      amount: 1
+      mount: 1
   products:
     Insuzine: 3
     Ash: 1
+
+- type: reaction
+  id: Opporozidone
+  minTemp: 400 #Maybe if a method of reducing reagent temp exists one day, this could be -50
+  reactants:
+    Cognizine:
+      amount: 1
+    Plasma:
+      amount: 2
+    Doxarubixadone:
+      amount: 1
+  products:
+    Opporozidone: 3
 
 - type: reaction
   id: Necrosol
@@ -589,3 +602,42 @@
       amount: 2
   products:
       Aloxadone: 4
+- type: reaction
+  id: Psicodine
+  impact: Medium
+  reactants:
+    Mannitol:
+      amount: 2
+    Impedrezene:
+      amount: 1
+    Water:
+      amount: 2
+  products:
+      Psicodine: 4
+
+- type: reaction
+  id: Lipolicide
+  reactants:
+    Ephedrine:
+      amount: 1
+    Diethylamine:
+      amount: 1
+    Mercury:
+      amount: 1
+  products:
+    Lipolicide: 3
+
+- type: reaction
+  id: Happiness
+  reactants:
+    Laughter:
+      amount: 2
+    Epinephrine:
+      amount: 1
+    Ethanol:
+      amount: 1
+    Plasma:
+      amount: 5
+      catalyst: true
+  products:
+    Happiness: 4

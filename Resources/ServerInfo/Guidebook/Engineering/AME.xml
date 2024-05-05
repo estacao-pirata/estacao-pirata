@@ -6,11 +6,11 @@ O RAM(em inglês AME) é um dos reatores mais simples. Você coloca a sua estrut
 
 ## Construção
 <Box>Partes Necessárias:</Box>
-<Box>
-<GuideEntityEmbed Entity="AmeController"/>
-<GuideEntityEmbed Entity="AmePartFlatpack"/>
-<GuideEntityEmbed Entity="AmeJar"/>
-</Box>
+  <Box>
+  <GuideEntityEmbed Entity="AmeController"/>
+  <GuideEntityEmbed Entity="AmePartFlatpack"/>
+  <GuideEntityEmbed Entity="AmeJar"/>
+  </Box>
 
 Para montar o RAM(AME) comece fixando o controlador na parte mais distante do cabo AT. Na maioria das estações existem passarelas para auxiliar essa etapa. Depois, comece colocando partes do RAM(AME) em 3x3 ou um quadrado maior de partes RAM(AME), tenha certeza de colocar o maximo possivel de peças envolta do "centro" em todos os 8 lados.
 
