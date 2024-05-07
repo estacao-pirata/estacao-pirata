@@ -242,4 +242,4 @@ Entries:
   time: '2024-05-07T00:46:46-03:00'
   changes:
   - type: Fix
-    message: Conserta radstation para o merge atual
+    message: Consertar e readicionar radstation para o merge atual
