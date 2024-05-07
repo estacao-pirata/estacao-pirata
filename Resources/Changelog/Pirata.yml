@@ -238,3 +238,8 @@ Entries:
   changes:
   - type: Fix
     message: Conserta IPC não curando visão
+- author: Dasprino007
+  time: '2024-05-07T00:46:46-03:00'
+  changes:
+  - type: Fix
+    message: Conserta radstation para o merge atual
