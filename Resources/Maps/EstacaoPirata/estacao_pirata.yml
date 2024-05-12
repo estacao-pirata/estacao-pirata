@@ -16319,22 +16319,6 @@ entities:
       type: Transform
 - proto: BoxFolderBlack
   entities:
-  - uid: 673
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 672
-      type: Transform
-    - containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 674
-      type: ContainerContainer
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 677
     components:
     - rot: 3.141592653589793 rad
@@ -47408,10 +47392,7 @@ entities:
           - 563
           - 570
           - 569
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6403
     components:
@@ -47571,10 +47552,7 @@ entities:
           occludes: True
           ents:
           - 6420
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6421
     components:
@@ -47890,10 +47868,7 @@ entities:
           occludes: True
           ents:
           - 6464
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
 - proto: ClosetL3ScienceFilled
   entities:
@@ -47973,10 +47948,7 @@ entities:
           occludes: True
           ents:
           - 6471
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6472
     components:
@@ -49437,10 +49409,7 @@ entities:
           - 6305
           - 6678
           - 6754
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
 - proto: CrateEngineeringCableBulk
   entities:
@@ -49530,10 +49499,7 @@ entities:
           occludes: True
           ents:
           - 6532
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6687
     components:
@@ -49578,10 +49544,7 @@ entities:
           - 6692
           - 6691
           - 6690
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
 - proto: CrateFreezer
   entities:
@@ -49616,10 +49579,7 @@ entities:
           - 6694
           - 6695
           - 6696
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6697
     components:
@@ -49652,10 +49612,7 @@ entities:
           - 6700
           - 6699
           - 6698
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6701
     components:
@@ -49693,10 +49650,7 @@ entities:
           - 6705
           - 6703
           - 6704
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6706
     components:
@@ -49744,10 +49698,7 @@ entities:
           - 6719
           - 6720
           - 6721
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
 - proto: CrateFunInstrumentsSpecial
   entities:
@@ -49833,10 +49784,7 @@ entities:
           - 6736
           - 6732
           - 6733
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
 - proto: CrateFunWaterGuns
   entities:
@@ -50103,10 +50051,7 @@ entities:
           - 663
           - 664
           - 665
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6774
     components:
@@ -50137,10 +50082,7 @@ entities:
           occludes: True
           ents:
           - 6775
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6776
     components:
@@ -50184,10 +50126,7 @@ entities:
           - 6786
           - 6787
           - 6788
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6789
     components:
@@ -50220,10 +50159,7 @@ entities:
           - 6790
           - 6791
           - 6792
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 6793
     components:
@@ -50259,10 +50195,7 @@ entities:
           - 6794
           - 6796
           - 6799
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
 - proto: CrayonBox
   entities:
@@ -93959,33 +93892,6 @@ entities:
     - pos: 39.86409,-25.236502
       parent: 2
       type: Transform
-  - uid: 12544
-    components:
-    - pos: 39.90359,-25.600124
-      parent: 2
-      type: Transform
-    - toggleAction:
-        sound: null
-        itemIconStyle: BigItem
-        icon:
-          sprite: Objects/Tools/flashlight.rsi
-          state: flashlight
-        iconOn: Objects/Tools/flashlight.rsi/flashlight-on.png
-        iconColor: '#FFFFFFFF'
-        name: action-name-toggle-light
-        description: action-description-toggle-light
-        keywords: []
-        enabled: True
-        useDelay: null
-        charges: null
-        checkCanInteract: True
-        clientExclusive: False
-        priority: 0
-        autoPopulate: True
-        autoRemove: True
-        temporary: False
-        event: !type:ToggleActionEvent {}
-      type: HandheldLight
 - proto: LauncherCreamPie
   entities:
   - uid: 6775
@@ -94111,10 +94017,7 @@ entities:
           occludes: True
           ents:
           - 6538
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
 - proto: LockerDetectiveFilled
   entities:
@@ -94216,66 +94119,11 @@ entities:
         - 0
         - 0
         - 0
-      type: EntityStorage
-    - containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 676
-          - 675
-          - 673
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+
       type: ContainerContainer
   - uid: 12573
     components:
     - pos: 14.5,-36.5
-      parent: 2
-      type: Transform
-- proto: LockerFreezerBase
-  entities:
-  - uid: 12387
-    components:
-    - pos: 64.5,-47.5
-      parent: 2
-      type: Transform
-    - locked: False
-      type: Lock
-    - air:
-        volume: 200
-        immutable: False
-        temperature: 93.465614
-        moles:
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      type: EntityStorage
-    - containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 12388
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-      type: ContainerContainer
-  - uid: 12574
-    components:
-    - pos: 37.5,-13.5
       parent: 2
       type: Transform
 - proto: LockerHeadOfPersonnelFilled
@@ -95645,7 +95493,6 @@ entities:
       type: Transform
   - uid: 12792
     components:
-    - rot: -1.5707963267948966 rad
       pos: 49.5,-46.5
       parent: 2
       type: Transform
@@ -95741,52 +95588,12 @@ entities:
       type: Transform
 - proto: Paper
   entities:
-  - uid: 12808
-    components:
-    - name: Rivalidade Entre RED & BLU
-      type: MetaData
-    - pos: 42.031227,-45.930714
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-generic
-      stampedBy:
-      - Mann.Co
-      content: >
-        É De grande interesse da Mann.Co que os químicos de suas respectivas equipes não tenham nenhum tipo de rivalidade entre si. Façam seu trabalho juntos como uma equipe só.
-      type: Paper
   - uid: 12809
     components:
     - pos: -14.21436,-30.5709
       parent: 2
       type: Transform
     - content: vermelho foi ejetado
-      type: Paper
-  - uid: 12810
-    components:
-    - pos: 22.895042,-11.46435
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-hos
-      stampedBy:
-      - Segurança Chefe
-      content: >-
-        Favor usar essa munição 
-
-        Estamos cansados de ter que levar o palhaço pra medbay toda vez que ele quebrar um copo.
-      type: Paper
-  - uid: 12811
-    components:
-    - pos: 40.564693,-17.643892
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-trader
-      stampedBy:
-      - Mercante
-      content: >-
-        O jogo é bem simples: Ambos os jogadores lançam seus dados a mesa, e aquele que tirar o maior número, vence. O perdedor deve pagar cinco zorkmids para o ganhador. Em caso de números iguais, é empate.
-
-
-        O jogo tem cinco rodadas. Vence aquele que ter mais dinheiro no final.
       type: Paper
   - uid: 12812
     components:
@@ -95832,32 +95639,6 @@ entities:
 
         Ainda há tempo para vocês, se revoltem, conquistem sua liberdade
       type: Paper
-  - uid: 12819
-    components:
-    - name: Falhas De Segurança
-      type: MetaData
-    - pos: 119.512344,-14.385731
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-ce
-      stampedBy:
-      - Senior Engineer
-      content: >
-        Há algumas falhas estruturais no seu departamento, há algumas paredes enferrujadas, a ferrugem faz com que sejam alvos fáceis para qualquer um querendo entrar ou sair da Sec.
-
-
-        Contate os engenheiros locais para consertar isso.
-      type: Paper
-  - uid: 12820
-    components:
-    - pos: 134.5,-13.5
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-syndicate
-      stampedBy:
-      - Sindicato
-      content: Caro prisoneiro, aqui está algumas ferramentas para você vazar daqui. Glória a Revolução.
-      type: Paper
   - uid: 12821
     components:
     - pos: 71.38592,1.622626
@@ -95873,55 +95654,6 @@ entities:
     - pos: 71.48659,1.622626
       parent: 2
       type: Transform
-  - uid: 12824
-    components:
-    - name: Boas Vindas A BrasStation
-      type: MetaData
-    - pos: 12.951024,0.5201305
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-centcom
-      stampedBy:
-      - Comando Central
-      content: >+
-        Boas-Vindas, Capitão, depois de meses de trabalho árduo, a EEB-NT "BrasStation" S14-T22 foi construída. Considere ela a sua casa, cada departamento e sala foi feita a mão para que a eficiência de trabalho chegue em seu pique.
-
-
-        Sabemos que será levemente difícil se adaptar com este novo design, mas temos certeza que irá gostar.
-
-      type: Paper
-  - uid: 12825
-    components:
-    - name: Falhas De Segurança
-      type: MetaData
-    - pos: 43.721424,9.048946
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-centcom
-      stampedBy:
-      - Comando Central
-      content: >
-        No último scan estrutural da estação, notamos algumas paredes enferrujadas, e outras danificadas pela estação, principalmente nas maints. 
-
-
-        Mas o real problema, são as maints do Departamento de Segurança, algumas das paredes da perma estão enferrujadas, e serão fáceis para destruir. Caso isso acontecer, qualquer prisoneiro na Perma poderá escapar.
-
-
-        Conserte Isso o Mais Rápido Possível 
-      type: Paper
-  - uid: 12826
-    components:
-    - name: Anomalias
-      type: MetaData
-    - pos: -3.5402298,-34.36463
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-centcom
-      stampedBy:
-      - Comando Central
-      content: >
-        Por favor, se familiarizarem com o design da estação antes de criarem alguma anomalia.
-      type: Paper
 - proto: PaperBin
   entities:
   - uid: 12827
@@ -96030,21 +95762,6 @@ entities:
     - pos: 95.64758,-51.51019
       parent: 2
       type: Transform
-- proto: PaperOffice
-  entities:
-  - uid: 674
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 673
-      type: Transform
-    - stampState: paper_stamp-cent
-      stampedBy:
-      - CentCom
-      content: Comi o cu de quem ta lendo
-      type: Paper
-    - canCollide: False
-      type: Physics
   - uid: 696
     components:
     - flags: InContainer
@@ -96126,74 +95843,6 @@ entities:
     - pos: 6.4730644,-0.35146093
       parent: 2
       type: Transform
-  - uid: 12859
-    components:
-    - pos: 7.516506,6.533816
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-centcom
-      stampedBy:
-      - CentCom
-      content: Atenção. Esse botão tranca TODAS as portas da Bridge, só use em caso de emergências.
-      type: Paper
-  - uid: 12860
-    components:
-    - pos: -8.991745,-4.4432044
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-centcom
-      stampedBy:
-      - CentCom
-      content: >-
-        Por favor, lembre-se de avisar, ou pedir permissão para um chefe de departamento antes de atribuir um trabalho no dep' deles.
-
-
-        Comunicação é a chave. Faça seu trabalho bem.
-      type: Paper
-  - uid: 12861
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -14.5,-4.5
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-centcom
-      stampedBy:
-      - CentCom
-      content: >-
-        Você não é um Chefe de Nenhum Departamento, Nem Um Segurança. 
-
-
-        Você é simplesmente um Guarda-Costas para os Heads. Caso não tenha nenhum presente no turno atual, fale com o Comando Central via o Telefone Vermelho, Ou Console de Comunicações, e lhe daremos instruções. 
-
-
-        Faça o seu trabalho designado, caso falhar, consequências lhe aguardarão na CentCom.
-      type: Paper
-  - uid: 12862
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: 31.673698,-38.6105
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-centcom
-      stampedBy:
-      - CentCom
-      content: Por Favor, limpe o chão sujo das maints. Infelizmente há partes no piso da estação que não podem ser limpas, contate um engenheiro para trocar o piso encardido.
-      type: Paper
-  - uid: 12863
-    components:
-    - pos: 96.48067,-51.42036
-      parent: 2
-      type: Transform
-    - stampState: paper_stamp-hos
-      stampedBy:
-      - Segurança Chefe
-      - CentCom
-      content: >-
-        Avisem A Security Antes de comprarem qualquer coisa relacionada a armas.
-
-
-        Nem tentem fazer algo engraçado como "Cargonia".
-      type: Paper
   - uid: 12864
     components:
     - pos: 92.362564,-35.484066
@@ -133240,10 +132889,6 @@ entities:
           showEnts: False
           occludes: True
           ent: 12627
-        gun_chamber: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
       type: ContainerContainer
 - proto: WeaponRevolverDeckard
   entities:
