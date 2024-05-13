@@ -291,10 +291,10 @@
       state: vulp-tip
 
 - type: marking
-  id: VulpTailWag
+  id: VulpTailAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [HumanoidFoxes]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag
@@ -302,10 +302,10 @@
       state: vulp_wag-tip #fade
 
 - type: marking
-  id: VulpTailWagTip
+  id: VulpTailTipAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [HumanoidFoxes]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag
@@ -368,10 +368,10 @@
       state: fox-tip
 
 - type: marking
-  id: VulpTailFoxWag
+  id: VulpTailFoxAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [HumanoidFoxes]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag
@@ -379,10 +379,10 @@
       state: fox_wag-fade
 
 - type: marking
-  id: VulpTailFoxWagTip
+  id: VulpTailFoxTipAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [HumanoidFoxes]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag
@@ -399,10 +399,10 @@
       state: bushfluff
 
 - type: marking
-  id: VulpTailBushyWag
+  id: VulpTailBushyAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [HumanoidFoxes]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: bushfluff_wag
@@ -417,10 +417,10 @@
       state: coyote
 
 - type: marking
-  id: VulpTailCoyoteWag
+  id: VulpTailCoyoteAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [HumanoidFoxes]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: coyote_wag

@@ -99,6 +99,8 @@
     damage:
       types:
         Heat: 1.5 # Rip Fur
+  - type: Wagging
+    
 
 
 - type: entity
