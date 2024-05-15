@@ -9134,7 +9134,6 @@ entities:
       - 8728
       - 11671
       - 11848
-      - invalid
       type: DeviceNetwork
     - devices:
       - 8728
