@@ -14,6 +14,7 @@
   - type: Tag
     tags:
     - Recyclable
+    - DrinkCan
   - type: Sprite
     sprite: EstacaoPirata/Objects/Consumable/Drinks/guaranacan.rsi
   - type: Item
@@ -35,6 +36,7 @@
   - type: Tag
     tags:
     - Recyclable
+    - DrinkCan
   - type: Sprite
     sprite: EstacaoPirata/Objects/Consumable/Drinks/fantasticacan.rsi
   - type: Item
@@ -56,6 +58,7 @@
   - type: Tag
     tags:
     - Recyclable
+    - DrinkCan
   - type: Sprite
     sprite: EstacaoPirata/Objects/Consumable/Drinks/sindkol.rsi
   - type: Item
