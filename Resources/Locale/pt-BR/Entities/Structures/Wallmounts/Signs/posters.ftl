@@ -273,7 +273,7 @@ ent-PosterLegitDickGumshue = Rato Papaco
     .desc = Um pôster anunciando as trapalhadas do Rato Papaco, um rato detetive. Encorajando a tripulação a trazer justiça para os que sabotam os fios elétricos.
 
 ent-PosterLegitThereIsNoGasGiant = Não Há Gigante Gasoso
-    .desc = Nanotrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false. A Nanotrasen lançou pôsteres, como esse, para todas as estações para lembra-las que os rumores sobre um gigante gasoso são falsos.
+    .desc = A Nanotrasen lançou pôsteres, como esse, para todas as estações para lembra-las que os rumores sobre um gigante gasoso são falsos.
 
 ent-PosterLegitJustAWeekAway = Só Mais Uma Semaninha...
     .desc = Um pôster anunciando um projeto atrasado. Ele ainda fala que 'só falta mais uma semaninha...'
