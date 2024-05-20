@@ -84,7 +84,7 @@ ent-PosterContrabandDDayPromo = Propaganda do D-Day
     .desc = Pôster promocional de algum rapper.
 
 ent-PosterContrabandSyndicatePistol = Pistola do Sindicato
-    .desc = A poster advertising syndicate pistols as being 'classy as fuck'. It's covered in faded gang tags. Um pôster promovendo pistolas do sindicato como sendo 'elegantes pra caralho'. Está coberto em pichações de gangue.
+    .desc = Um pôster promovendo pistolas do sindicato como sendo 'elegantes pra caralho'. Está coberto em pichações de gangue.
 
 ent-PosterContrabandEnergySwords = Espadas de Energia
     .desc = Todas as cores de um massacre em arco-iris.
