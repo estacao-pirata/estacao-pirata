@@ -44,7 +44,7 @@ ent-PosterContrabandEAT = COMA.
     .desc = Esse pôster promove gula exacerbada.
 
 ent-PosterContrabandTools = Ferramentas
-    .desc = Esse pôster parece uma propaganda para ferramentas, but is in fact a subliminal jab at the tools at CentCom. mas na verdade é um golpe sublime nas ferramentas da CentCom.
+    .desc = Esse pôster parece uma propaganda para ferramentas, mas na verdade é um golpe sublime nas ferramentas da CentCom.
 
 ent-PosterContrabandPower = Poder
     .desc = Um pôster que posiciona o assento do poder fora da Nanotrasen.
