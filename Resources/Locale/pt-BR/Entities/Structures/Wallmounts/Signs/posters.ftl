@@ -32,7 +32,7 @@ ent-PosterContrabandHackingGuide = Guia de Hacking
     .desc = Esse pôster detalha o funcionamento interno das portas da Nanotrasen. Infelizmente, parece estar desatualizado.
 
 ent-PosterContrabandRIPBadger = DESCANSE EM PAZ, Texugos
-    .desc = This seditious poster references Nanotrasen's genocide of a space station full of badgers. Esse sedicioso pôster referencia o genocídio de uma estação espacial cheia de texugos que a Nanotrasen cometeu.
+    .desc = Esse sedicioso pôster referencia o genocídio de uma estação espacial cheia de texugos que a Nanotrasen cometeu.
 
 ent-PosterContrabandAmbrosiaVulgaris = Ambrosia Vulgaris
     .desc = Esse pôster tá bem chapadão, cara!
