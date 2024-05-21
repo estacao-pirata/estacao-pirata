@@ -32,7 +32,7 @@ ent-PosterContrabandHackingGuide = Guia de Hacking
     .desc = Esse pôster detalha o funcionamento interno das portas da Nanotrasen. Infelizmente, parece estar desatualizado.
 
 ent-PosterContrabandRIPBadger = DESCANSE EM PAZ, Texugos
-    .desc = This seditious poster references Nanotrasen's genocide of a space station full of badgers. Esse sedicioso pôster referencia o genocídio de uma estação espacial cheia de texugos que a Nanotrasen cometeu.
+    .desc = Esse sedicioso pôster referencia o genocídio de uma estação espacial cheia de texugos que a Nanotrasen cometeu.
 
 ent-PosterContrabandAmbrosiaVulgaris = Ambrosia Vulgaris
     .desc = Esse pôster tá bem chapadão, cara!
@@ -44,7 +44,7 @@ ent-PosterContrabandEAT = COMA.
     .desc = Esse pôster promove gula exacerbada.
 
 ent-PosterContrabandTools = Ferramentas
-    .desc = Esse pôster parece uma propaganda para ferramentas, but is in fact a subliminal jab at the tools at CentCom. mas na verdade é um golpe sublime nas ferramentas da CentCom.
+    .desc = Esse pôster parece uma propaganda para ferramentas, mas na verdade é um golpe sublime nas ferramentas da CentCom.
 
 ent-PosterContrabandPower = Poder
     .desc = Um pôster que posiciona o assento do poder fora da Nanotrasen.
@@ -84,7 +84,7 @@ ent-PosterContrabandDDayPromo = Propaganda do D-Day
     .desc = Pôster promocional de algum rapper.
 
 ent-PosterContrabandSyndicatePistol = Pistola do Sindicato
-    .desc = A poster advertising syndicate pistols as being 'classy as fuck'. It's covered in faded gang tags. Um pôster promovendo pistolas do sindicato como sendo 'elegantes pra caralho'. Está coberto em pichações de gangue.
+    .desc = Um pôster promovendo pistolas do sindicato como sendo 'elegantes pra caralho'. Está coberto em pichações de gangue.
 
 ent-PosterContrabandEnergySwords = Espadas de Energia
     .desc = Todas as cores de um massacre em arco-iris.
@@ -273,7 +273,7 @@ ent-PosterLegitDickGumshue = Rato Papaco
     .desc = Um pôster anunciando as trapalhadas do Rato Papaco, um rato detetive. Encorajando a tripulação a trazer justiça para os que sabotam os fios elétricos.
 
 ent-PosterLegitThereIsNoGasGiant = Não Há Gigante Gasoso
-    .desc = Nanotrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false. A Nanotrasen lançou pôsteres, como esse, para todas as estações para lembra-las que os rumores sobre um gigante gasoso são falsos.
+    .desc = A Nanotrasen lançou pôsteres, como esse, para todas as estações para lembra-las que os rumores sobre um gigante gasoso são falsos.
 
 ent-PosterLegitJustAWeekAway = Só Mais Uma Semaninha...
     .desc = Um pôster anunciando um projeto atrasado. Ele ainda fala que 'só falta mais uma semaninha...'
