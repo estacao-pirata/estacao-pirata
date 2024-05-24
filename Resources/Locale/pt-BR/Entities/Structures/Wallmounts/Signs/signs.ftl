@@ -56,8 +56,8 @@ ent-SignDirectionalMed = placa médica
 ent-SignDirectionalSalvage = placa de catadores
     .desc = Uma placa direcional, apontando o caminho para o departamento de catadores.
 
-ent-SignDirectionalSci = placa de epistêmica
-    .desc = Uma placa direcional, apontando o caminho para o departamento de epistêmica.
+ent-SignDirectionalSci = placa de ciência
+    .desc = Uma placa direcional, apontando o caminho para a ciência.
 
 ent-SignDirectionalSec = placa de segurança
     .desc = Uma placa direcional, apontando o caminho para a Segurança.
