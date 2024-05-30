@@ -1,0 +1,62 @@
+- type: gameMap
+  id: Esperanza
+  mapName: 'Esperanza'
+  mapPath: /Maps/esperanza.yml
+  minPlayers: 0
+  maxPlayers: 35
+  stations:
+    Esperanza:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Esperanza {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency_box.yml
+        - type: StationJobs
+          overflowJobs:
+            - Passenger
+          availableJobs:
+            #service
+            Captain: [ 1, 1 ]
+            HeadOfPersonnel: [ 1, 1 ]
+            Bartender: [ 1, 1 ]
+            Botanist: [ 1, 1 ]
+            Chef: [ 2, 2 ]
+            Janitor: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
+            ServiceWorker: [ 2, 2 ]
+            #engineering
+            ChiefEngineer: [ 1, 1 ]
+            AtmosphericTechnician: [ 2, 2 ]
+            StationEngineer: [ 3, 3 ]
+            TechnicalAssistant: [ 2, 3 ]
+            #medical
+            ChiefMedicalOfficer: [ 1, 1 ]
+            Chemist: [ 1, 1 ]
+            MedicalDoctor: [ 3, 3 ]
+            MedicalIntern: [ 2, 3 ]
+            Paramedic: [ 1, 1 ]
+            #science
+            ResearchDirector: [ 1, 1 ]
+            Scientist: [ 3, 3 ]
+            ResearchAssistant: [2, 3]
+            #security
+            HeadOfSecurity: [ 1, 1 ]
+            Warden: [ 1, 1 ]
+            Detective: [ 1, 1 ]
+            SecurityOfficer: [ 3, 3 ]
+            SecurityCadet: [ 2, 3 ]
+            #supply
+            Quartermaster: [ 1, 1 ]
+            SalvageSpecialist: [ 3, 3 ]
+            CargoTechnician: [ 5, 6 ]
+            #civillian
+            Passenger: [ -1, -1 ]
+            Clown: [ 1, 1 ]
+            Mime: [ 1, 1 ]
+            Musician: [ 1, 1 ]
+            Reporter: [ 1, 1 ]
+            Blueshield: [ 1, 1 ]
