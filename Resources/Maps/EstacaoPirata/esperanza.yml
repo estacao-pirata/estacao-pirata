@@ -18892,8 +18892,7 @@ entities:
       pos: 28.5,-5.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6169
       - 3873
@@ -18904,8 +18903,7 @@ entities:
       pos: 28.5,-6.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6169
       - 3873
@@ -18916,8 +18914,7 @@ entities:
       pos: 28.5,-7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6169
       - 3873
@@ -18928,8 +18925,7 @@ entities:
       pos: 28.5,-9.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6169
       - 3873
@@ -19085,8 +19081,7 @@ entities:
       pos: 21.5,2.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 55
       - 6169
@@ -19099,8 +19094,7 @@ entities:
       pos: 21.5,1.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 55
       - 6169
@@ -19113,8 +19107,7 @@ entities:
       pos: 21.5,0.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 55
       - 6169
@@ -19165,8 +19158,7 @@ entities:
       pos: 16.5,12.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19201,8 +19193,7 @@ entities:
       pos: 10.5,12.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19296,8 +19287,7 @@ entities:
       pos: 10.5,17.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19308,8 +19298,7 @@ entities:
       pos: 10.5,16.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19320,8 +19309,7 @@ entities:
       pos: 11.5,14.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19332,8 +19320,7 @@ entities:
       pos: 12.5,14.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19344,8 +19331,7 @@ entities:
       pos: 14.5,14.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19356,8 +19342,7 @@ entities:
       pos: 15.5,14.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19374,8 +19359,7 @@ entities:
       pos: 12.5,21.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19386,8 +19370,7 @@ entities:
       pos: 13.5,21.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -19398,8 +19381,7 @@ entities:
       pos: 14.5,21.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
+      
       deviceLists:
       - 6184
       - 3874
@@ -32380,44 +32362,6 @@ entities:
       rot: 6.283185307179586 rad
       pos: 18.649725,-30.204962
       parent: 2
-- proto: SheetPrinter1
-  entities:
-  - uid: 6615
-    components:
-    - type: MetaData
-      name: Papel importante
-    - type: Transform
-      pos: 17.43083,22.57299
-      parent: 2
-    - type: Paper
-      stampState: paper_stamp-centcom
-      stampedBy:
-      - stampedColor: '#006600FF'
-        stampedName: stamp-component-stamped-name-centcom
-      content: >-
-        [cor=#1b487e]███░███░░░░██░░░░[/cor]
-
-        [color=#1b487e]░██░████░░░██░░░░[/color] [head=3]Formulário de documento[/head]
-
-        [color=#1b487e]░░█░██░██░░██░█░░[/color] [head=3]NanoTrasen[/head]
-
-        [color=#1b487e]░░░░██░░██░██░██░[/color] [bold]De Centcom[/bold]
-
-        [cor=#1b487e]░░░░██░░░████░███[/cor]
-
-        ================================================
-                                     PARABÉNS PELA PROMOÇÃO
-        ================================================
-
-
-        Claro capitão, em reconhecimento aos seus muitos anos de serviço dedicado e exemplar prestado à Nanotrasen, temos o grande prazer de conceder-lhe o cargo de capitão desta estação, que foi recentemente adquirida através de uma importante parceria com a respeitada Família Mussia.
-
-
-        Ao longo dos anos, sua competência, liderança e compromisso têm sido inestimáveis para o crescimento e a prosperidade de nossas operações, esperamos que sob sua liderança, esta estação não apenas alcance, mas ultrapasse nossas expectativas, tornando-se um modelo de eficiência e inovação.
-
-
-        ================================================
-                                                   [italic]Local para carimbos[/italic]
 - proto: SheetSteel
   entities:
   - uid: 3459

@@ -1,7 +1,7 @@
 - type: gameMap
   id: Esperanza
   mapName: 'Esperanza'
-  mapPath: /Maps/esperanza.yml
+  mapPath: Maps/EstacaoPirata/esperanza.yml
   minPlayers: 0
   maxPlayers: 35
   stations:
