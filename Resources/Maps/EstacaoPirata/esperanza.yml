@@ -295,12 +295,12 @@ entities:
             color: '#0096FFAE'
             id: BrickLineOverlayN
           decals:
-            459: -2,-23
-            460: -3,-23
-            461: -4,-23
-            462: -5,-23
-            463: 0,-24
-            464: 4,-24
+            441: -2,-23
+            442: -3,-23
+            443: -4,-23
+            444: -5,-23
+            445: 0,-24
+            446: 4,-24
         - node:
             color: '#0096FFAF'
             id: BrickLineOverlayN
@@ -348,116 +348,116 @@ entities:
             color: '#A020F0B1'
             id: BrickTileSteelCornerNe
           decals:
-            406: 20,-21
+            389: 20,-21
         - node:
             color: '#FF0000AE'
             id: BrickTileSteelCornerNe
           decals:
-            335: 12,-9
-            353: 7,-12
-            362: 15,-13
-            388: 3,-9
+            332: 12,-9
+            348: 7,-12
+            357: 15,-13
+            376: 3,-9
         - node:
             color: '#A020F0B1'
             id: BrickTileSteelCornerNw
           decals:
-            405: 17,-21
+            388: 17,-21
         - node:
             color: '#FF0000AE'
             id: BrickTileSteelCornerNw
           decals:
-            352: 5,-12
-            389: 1,-9
+            347: 5,-12
+            377: 1,-9
         - node:
             color: '#A020F0B1'
             id: BrickTileSteelCornerSe
           decals:
-            407: 20,-24
+            390: 20,-24
         - node:
             color: '#FF0000AE'
             id: BrickTileSteelCornerSe
           decals:
-            357: 7,-15
-            393: 3,-16
+            352: 7,-15
+            379: 3,-16
         - node:
             color: '#A020F0B1'
             id: BrickTileSteelCornerSw
           decals:
-            403: 17,-24
+            387: 17,-24
         - node:
             color: '#FF0000AE'
             id: BrickTileSteelCornerSw
           decals:
-            351: 5,-15
-            359: 9,-15
-            390: 1,-15
-            394: 2,-16
+            346: 5,-15
+            354: 9,-15
+            378: 1,-15
+            380: 2,-16
         - node:
             color: '#FF0000AE'
             id: BrickTileSteelLineE
           decals:
-            336: 12,-10
-            337: 12,-11
-            338: 12,-12
-            355: 7,-13
-            356: 7,-14
-            376: 15,-14
-            377: 15,-15
-            379: 3,-10
-            380: 3,-11
-            381: 3,-12
-            382: 3,-13
-            383: 3,-14
-            395: 3,-15
+            333: 12,-10
+            334: 12,-11
+            335: 12,-12
+            350: 7,-13
+            351: 7,-14
+            368: 15,-14
+            369: 15,-15
+            370: 3,-10
+            371: 3,-11
+            372: 3,-12
+            373: 3,-13
+            374: 3,-14
+            381: 3,-15
         - node:
             color: '#FF0000AE'
             id: BrickTileSteelLineN
           decals:
             325: 5,-9
-            327: 6,-9
-            328: 7,-9
-            330: 9,-9
-            332: 8,-9
-            333: 10,-9
-            334: 11,-9
-            354: 6,-12
-            360: 13,-13
-            361: 14,-13
-            372: 4,-9
-            386: 2,-9
+            326: 6,-9
+            327: 7,-9
+            328: 9,-9
+            329: 8,-9
+            330: 10,-9
+            331: 11,-9
+            349: 6,-12
+            355: 13,-13
+            356: 14,-13
+            364: 4,-9
+            375: 2,-9
         - node:
             color: '#FF0000AE'
             id: BrickTileSteelLineS
           decals:
-            340: 5,-10
-            341: 6,-10
-            342: 7,-10
-            343: 8,-10
-            358: 6,-15
-            363: 10,-15
-            364: 11,-15
-            365: 12,-15
-            366: 13,-15
-            367: 14,-15
-            368: 15,-15
-            373: 4,-10
+            336: 5,-10
+            337: 6,-10
+            338: 7,-10
+            339: 8,-10
+            353: 6,-15
+            358: 10,-15
+            359: 11,-15
+            360: 12,-15
+            361: 13,-15
+            362: 14,-15
+            363: 15,-15
+            365: 4,-10
         - node:
             color: '#FF0000AE'
             id: BrickTileSteelLineW
           decals:
-            344: 9,-11
-            345: 9,-12
-            346: 9,-13
-            347: 9,-14
-            349: 5,-13
-            350: 5,-14
-            374: 4,-9
-            375: 4,-10
-            396: 1,-10
-            397: 1,-11
-            398: 1,-12
-            399: 1,-13
-            400: 1,-14
+            340: 9,-11
+            341: 9,-12
+            342: 9,-13
+            343: 9,-14
+            344: 5,-13
+            345: 5,-14
+            366: 4,-9
+            367: 4,-10
+            382: 1,-10
+            383: 1,-11
+            384: 1,-12
+            385: 1,-13
+            386: 1,-14
         - node:
             color: '#FFA500B1'
             id: CheckerNWSE
@@ -480,84 +480,84 @@ entities:
             color: '#A020F0B1'
             id: ConcreteTrimCornerNe
           decals:
-            412: 32,-16
-            451: 38,-19
+            395: 32,-16
+            433: 38,-19
         - node:
             color: '#A020F0B1'
             id: ConcreteTrimCornerNw
           decals:
-            408: 22,-21
-            411: 29,-16
-            449: 37,-19
+            391: 22,-21
+            394: 29,-16
+            431: 37,-19
         - node:
             color: '#A020F0B1'
             id: ConcreteTrimCornerSe
           decals:
-            410: 25,-24
-            413: 32,-21
-            450: 38,-21
+            393: 25,-24
+            396: 32,-21
+            432: 38,-21
         - node:
             color: '#A020F0B1'
             id: ConcreteTrimCornerSw
           decals:
-            409: 22,-24
-            452: 37,-21
+            392: 22,-24
+            434: 37,-21
         - node:
             color: '#A020F0B1'
             id: ConcreteTrimLineE
           decals:
-            420: 20,-22
-            436: 25,-23
-            437: 25,-22
-            445: 32,-19
-            446: 32,-18
-            447: 32,-17
-            457: 38,-20
+            403: 20,-22
+            419: 25,-23
+            420: 25,-22
+            428: 32,-19
+            429: 32,-18
+            430: 32,-17
+            439: 38,-20
         - node:
             color: '#A020F0B1'
             id: ConcreteTrimLineN
           decals:
-            414: 19,-21
-            415: 18,-21
-            421: 23,-21
-            422: 24,-21
-            423: 25,-21
-            424: 26,-21
-            425: 27,-21
-            426: 28,-21
-            430: 21,-23
-            443: 30,-16
-            444: 31,-16
-            453: 33,-20
-            456: 36,-20
+            397: 19,-21
+            398: 18,-21
+            404: 23,-21
+            405: 24,-21
+            406: 25,-21
+            407: 26,-21
+            408: 27,-21
+            409: 28,-21
+            413: 21,-23
+            426: 30,-16
+            427: 31,-16
+            435: 33,-20
+            438: 36,-20
         - node:
             color: '#A020F0B1'
             id: ConcreteTrimLineS
           decals:
-            418: 18,-24
-            419: 19,-24
-            427: 23,-24
-            428: 24,-24
-            429: 21,-23
-            438: 26,-21
-            439: 27,-21
-            440: 28,-21
-            441: 29,-21
-            442: 31,-21
-            454: 33,-20
-            455: 36,-20
-            458: 30,-21
+            401: 18,-24
+            402: 19,-24
+            410: 23,-24
+            411: 24,-24
+            412: 21,-23
+            421: 26,-21
+            422: 27,-21
+            423: 28,-21
+            424: 29,-21
+            425: 31,-21
+            436: 33,-20
+            437: 36,-20
+            440: 30,-21
         - node:
             color: '#A020F0B1'
             id: ConcreteTrimLineW
           decals:
-            416: 17,-22
-            417: 17,-23
-            431: 22,-22
-            432: 29,-20
-            433: 29,-19
-            434: 29,-18
-            435: 29,-17
+            399: 17,-22
+            400: 17,-23
+            414: 22,-22
+            415: 29,-20
+            416: 29,-19
+            417: 29,-18
+            418: 29,-17
         - node:
             color: '#FFFF00BA'
             id: Delivery
@@ -3666,12 +3666,24 @@ entities:
       rot: 3.141592653589793 rad
       pos: 19.5,-11.5
       parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        4455:
+        - Start: Close
+        - Timer: AutoClose
+        - Timer: Open
   - uid: 2782
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 21.5,-11.5
       parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        6616:
+        - Start: Close
+        - Timer: AutoClose
+        - Timer: Open
 - proto: Bucket
   entities:
   - uid: 3572
@@ -16972,6 +16984,153 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 32.5,-1.5
       parent: 2
+- proto: DefaultStationBeaconAI
+  entities:
+  - uid: 6987
+    components:
+    - type: Transform
+      pos: -23.5,-26.5
+      parent: 2
+- proto: DefaultStationBeaconAtmospherics
+  entities:
+  - uid: 6989
+    components:
+    - type: Transform
+      pos: 53.5,-7.5
+      parent: 2
+- proto: DefaultStationBeaconBar
+  entities:
+  - uid: 6971
+    components:
+    - type: Transform
+      pos: -5.5,30.5
+      parent: 2
+- proto: DefaultStationBeaconBotany
+  entities:
+  - uid: 6972
+    components:
+    - type: Transform
+      pos: 22.5,-2.5
+      parent: 2
+- proto: DefaultStationBeaconBridge
+  entities:
+  - uid: 6615
+    components:
+    - type: Transform
+      pos: 12.5,28.5
+      parent: 2
+- proto: DefaultStationBeaconBrig
+  entities:
+  - uid: 6973
+    components:
+    - type: Transform
+      pos: 6.5,-12.5
+      parent: 2
+- proto: DefaultStationBeaconCargoBay
+  entities:
+  - uid: 6974
+    components:
+    - type: Transform
+      pos: 21.5,-34.5
+      parent: 2
+- proto: DefaultStationBeaconDisposals
+  entities:
+  - uid: 6916
+    components:
+    - type: Transform
+      pos: -3.5,-29.5
+      parent: 2
+- proto: DefaultStationBeaconEngineering
+  entities:
+  - uid: 6988
+    components:
+    - type: Transform
+      pos: -5.5,4.5
+      parent: 2
+- proto: DefaultStationBeaconEvac
+  entities:
+  - uid: 6976
+    components:
+    - type: Transform
+      pos: -25.5,-7.5
+      parent: 2
+- proto: DefaultStationBeaconEVAStorage
+  entities:
+  - uid: 6986
+    components:
+    - type: Transform
+      pos: 18.5,6.5
+      parent: 2
+- proto: DefaultStationBeaconHOPOffice
+  entities:
+  - uid: 6975
+    components:
+    - type: Transform
+      pos: 27.5,6.5
+      parent: 2
+- proto: DefaultStationBeaconKitchen
+  entities:
+  - uid: 6977
+    components:
+    - type: Transform
+      pos: 8.5,-3.5
+      parent: 2
+- proto: DefaultStationBeaconLawOffice
+  entities:
+  - uid: 6984
+    components:
+    - type: Transform
+      pos: 41.5,-12.5
+      parent: 2
+- proto: DefaultStationBeaconMedbay
+  entities:
+  - uid: 6978
+    components:
+    - type: Transform
+      pos: -6.5,-17.5
+      parent: 2
+- proto: DefaultStationBeaconMorgue
+  entities:
+  - uid: 6979
+    components:
+    - type: Transform
+      pos: -15.5,-16.5
+      parent: 2
+- proto: DefaultStationBeaconPermaBrig
+  entities:
+  - uid: 6983
+    components:
+    - type: Transform
+      pos: 20.5,-9.5
+      parent: 2
+- proto: DefaultStationBeaconSalvage
+  entities:
+  - uid: 6980
+    components:
+    - type: Transform
+      pos: 2.5,-35.5
+      parent: 2
+- proto: DefaultStationBeaconScience
+  entities:
+  - uid: 6981
+    components:
+    - type: Transform
+      pos: 24.5,-21.5
+      parent: 2
+- proto: DefaultStationBeaconTelecoms
+  entities:
+  - uid: 6982
+    components:
+    - type: Transform
+      pos: 8.5,8.5
+      parent: 2
+- proto: DefaultStationBeaconVault
+  entities:
+  - uid: 6985
+    components:
+    - type: Transform
+      pos: 18.5,17.5
+      parent: 2
 - proto: DefibrillatorCabinetFilled
   entities:
   - uid: 2713
@@ -18892,7 +19051,6 @@ entities:
       pos: 28.5,-5.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6169
       - 3873
@@ -18903,7 +19061,6 @@ entities:
       pos: 28.5,-6.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6169
       - 3873
@@ -18914,7 +19071,6 @@ entities:
       pos: 28.5,-7.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6169
       - 3873
@@ -18925,7 +19081,6 @@ entities:
       pos: 28.5,-9.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6169
       - 3873
@@ -19081,7 +19236,6 @@ entities:
       pos: 21.5,2.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 55
       - 6169
@@ -19094,7 +19248,6 @@ entities:
       pos: 21.5,1.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 55
       - 6169
@@ -19107,7 +19260,6 @@ entities:
       pos: 21.5,0.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 55
       - 6169
@@ -19158,7 +19310,6 @@ entities:
       pos: 16.5,12.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19193,7 +19344,6 @@ entities:
       pos: 10.5,12.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19287,7 +19437,6 @@ entities:
       pos: 10.5,17.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19298,7 +19447,6 @@ entities:
       pos: 10.5,16.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19309,7 +19457,6 @@ entities:
       pos: 11.5,14.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19320,7 +19467,6 @@ entities:
       pos: 12.5,14.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19331,7 +19477,6 @@ entities:
       pos: 14.5,14.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19342,7 +19487,6 @@ entities:
       pos: 15.5,14.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19359,7 +19503,6 @@ entities:
       pos: 12.5,21.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19370,7 +19513,6 @@ entities:
       pos: 13.5,21.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -19381,7 +19523,6 @@ entities:
       pos: 14.5,21.5
       parent: 2
     - type: DeviceNetwork
-      
       deviceLists:
       - 6184
       - 3874
@@ -26282,13 +26423,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -16.5,-15.5
-      parent: 2
-- proto: Multitool
-  entities:
-  - uid: 6916
-    components:
-    - type: Transform
-      pos: 6.90253,27.15652
       parent: 2
 - proto: MusicBoxInstrument
   entities:
@@ -40780,12 +40914,18 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 19.5,-12.5
       parent: 2
+    - type: DeviceLinkSink
+      links:
+      - 2781
   - uid: 6616
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 21.5,-12.5
       parent: 2
+    - type: DeviceLinkSink
+      links:
+      - 2782
 - proto: WindoorServiceLocked
   entities:
   - uid: 6607
