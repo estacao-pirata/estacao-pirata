@@ -243,3 +243,8 @@ Entries:
   changes:
   - type: Fix
     message: Consertar e readicionar radstation para o merge atual
+- author: Ichai, Dasprino007 e Sidgus
+  time: '2024-04-25T00:46:46-03:00'
+  changes:
+  - type: Add
+    message: Mapa novo, GaxStation
