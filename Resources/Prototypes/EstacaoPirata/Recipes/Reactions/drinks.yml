@@ -21,27 +21,3 @@
       amount: 1
   products:
     DeadRum: 3
-
-- type: reaction
-  id: BubbleTea
-  reactants:
-    Flour:
-      amount: 1
-    IcedTea:
-      amount: 2
-    Cream:
-      amount: 2
-  products:
-    BubbleTea: 5
-
-- type: reaction
-  id: ClownBlood
-  reactants:
-    Wine:
-      amount: 2
-    Sugar:
-      amount: 1
-    Grenadine:
-      amount: 1
-  products:
-    ClownBlood: 4

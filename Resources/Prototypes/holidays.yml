@@ -43,7 +43,7 @@
   name: holiday-name-dia-mentira
   beginDay: 1
   beginMonth: April
-    greet:
+  greet:
     !type:Custom
     text: holiday-custom-dia-mentira
 
@@ -52,7 +52,7 @@
   name: holiday-name-data-magna-do-es
   beginDay: 8
   beginMonth: April
-    greet:
+  greet:
     !type:Custom
     text: holiday-custom-data-magna-do-es
 
@@ -81,7 +81,7 @@
   id: DiaMaes
   name: holiday-name-dia-maes
   beginMonth: May
-    greet:
+  greet:
     !type:Custom
     text: holiday-custom-dia-maes
   shouldCelebrate:
@@ -106,7 +106,7 @@
   name: holiday-name-revolucao-constitucionalista
   beginDay: 9
   beginMonth: July
-    greet:
+  greet:
     !type:Custom
     text: holiday-custom-revolucao-constitucionalista
 
@@ -114,7 +114,7 @@
   id: DiaPais
   name: holiday-name-dia-pais
   beginMonth: August
-    greet:
+  greet:
     !type:Custom
     text: holiday-custom-dia-pais
   shouldCelebrate:
@@ -154,7 +154,7 @@
   name: holiday-name-proclamacao-da-republica
   beginDay: 15
   beginMonth: November
-    greet:
+  greet:
     !type:Custom
     text: holiday-custom-proclamacao-da-republica
 

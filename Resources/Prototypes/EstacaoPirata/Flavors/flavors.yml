@@ -39,11 +39,6 @@
   description: flavor-complex-corote
 
 - type: flavor
-  id: bubbletea
-  flavorType: Complex
-  description: flavor-complex-bubbletea
-
-- type: flavor
   id: ChocolateDerretido
   flavorType: Complex
   description: flavor-complex-chocolatederretido

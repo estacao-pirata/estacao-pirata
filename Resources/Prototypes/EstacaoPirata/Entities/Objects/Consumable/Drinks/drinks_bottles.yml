@@ -13,11 +13,9 @@
         maxVol: 100
   - type: Sprite
     state: icon
-  - type: TrashOnEmpty
-    solution: drink
 
 - type: entity
-  parent: DrinkBottleBaseFull
+  parent: DrinkPlasticBottleBaseFull
   id: DrinkCachacaBottleFull
   name: cachaça bottle
   description: Aah, cachaça.
