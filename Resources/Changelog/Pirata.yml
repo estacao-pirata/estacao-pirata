@@ -153,7 +153,7 @@ Entries:
     message: Adiciona o Changelog do Pirata!
 - author: Dasprino007
   time: '2024-04-11T21:49:43-03:00'
-  changes:
+  changes: 
   - type: Tweak
     message: Consertos no mapa Barratry
 - author: rber
@@ -238,6 +238,11 @@ Entries:
   changes:
   - type: Fix
     message: Conserta IPC não curando visão
+- author: Dasprino007
+  time: '2024-05-07T00:46:46-03:00'
+  changes:
+  - type: Fix
+    message: Consertar e readicionar radstation para o merge atual
 - author: Ichai, Dasprino007 e Sidgus
   time: '2024-04-25T00:46:46-03:00'
   changes:
