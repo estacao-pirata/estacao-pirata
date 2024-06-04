@@ -1,3 +1,3 @@
-ent-PosterMapMetaRight = Meta Station Map
-    .desc = A map of Meta Station. This looks really old.
+ent-PosterMapMetaRight = Mapa da Estação Meta
+    .desc = Um mapa da Estação Meta. Isso parece ser bem velho.
 
