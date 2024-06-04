@@ -409,21 +409,6 @@
     Saline: 5
 
 - type: reaction
-  id: Opporozidone
-  minTemp: 400 #Maybe if a method of reducing reagent temp exists one day, this could be -50
-  reactants:
-    Siderlac: 
-      amount: 2
-    Plasma:
-      amount: 2
-    Doxarubixadone:
-      amount: 1
-    Ephedrine:
-      amount: 1
-  products:
-    Opporozidone: 3
-
-- type: reaction
   id: Lacerinol
   impact: Medium
   minTemp: 335
@@ -576,12 +561,24 @@
   id: Opporozidone
   minTemp: 400 #Maybe if a method of reducing reagent temp exists one day, this could be -50
   reactants:
-    Cognizine: 
-      amount: 1
+# Receita do wizden
+#     Cognizine:
+#       amount: 1
+#     Plasma:
+#       amount: 2
+#     Doxarubixadone:
+#       amount: 1
+#
+# Receita do pirata
+    Siderlac:
+      amount: 2
     Plasma:
       amount: 2
     Doxarubixadone:
       amount: 1
+    Ephedrine:
+      amount: 1
+
   products:
     Opporozidone: 3
 
