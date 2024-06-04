@@ -72,14 +72,14 @@
 
   Most normal burn chambers don't come with Heat-Exchangers; instead, they have air scrubbers (and optionally, an air alarm) to help filter for Tritium, which is a highly reactive, hot-burning gas that can also be used to heat the TEG efficiently.
   However, this is a slightly more advanced setup than just burning plasma, as it needs 2 burn chambers instead of 1 (one for tritium production, one for burning said tritium), so remove the scrubbers and retrofit the burn chamber with a parallel array of heat-exchangers instead.
-  
+
   The air injector (or Passive Vent) injects air (or allows air to flow) into the burn chamber. Either should be supplemented with a pump before it, to keep pressures high.
   There is a notable difference between the passive vent and the air injector; the air injector can only keep injecting air up to 9MPa, which can be reached very easily with a good burn. Ideally, switch out the air injector for a passive vent connected to a volume pump.
 
   The space vent (designated as a blast door to space on one side of the burn chamber) allows waste gases to be expelled and destroyed. Open this to keep the pressure under control.
 
   The radiator loop collects heat from the burnt gases and brings it to the TEG. To maximize efficiency, hook up the heat-exchangers [italics]in parallel to each other[/italics], with a pressure pump at max pressure after the array and a volumetric pump before the array.
-  The pressure of the volumetric pump should be set to ( 200 / number of heat-exchangers ) L/s. For example, having 2 heat-exchangers would mean you should set the pressure to 100 L/s. 
+  The pressure of the volumetric pump should be set to ( 200 / number of heat-exchangers ) L/s. For example, having 2 heat-exchangers would mean you should set the pressure to 100 L/s.
   Finally, fill the whole loop with (ideally) a high heat capacity gas, like Frezon or Plasma. (Yes, Frezon =/= Cold. Frezon has one of the highest heat capacities in the game; so long as it isn't reacting with Nitrogen, it can actually be heated and can store heat really well!)
 
   # The Cold Loop

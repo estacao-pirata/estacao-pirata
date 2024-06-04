@@ -334,3 +334,12 @@ chatsan-replacement-1118 = chefe da segurança
 
 chatsan-word-1119 = hop
 chatsan-replacement-1119 = chefe dos funcionários
+
+chatsan-word-1120 = nt
+chatsan-replacement-1120 = Nanotrasen
+
+chatsan-word-1121 = cc
+chatsan-replacement-1121 = Central de Comando
+
+chatsan-word-1122 = crit
+chatsan-replacement-1122 = estado crítico

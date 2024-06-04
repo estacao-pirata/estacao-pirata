@@ -1,0 +1,38 @@
+- type: guideEntry
+  id: EstacaoPirata
+  name: guide-entry-estacao-pirata
+  text: "/ServerInfo/Guidebook/EstacaoPirata/EstaçãoPirata.xml"
+  children:
+   - LeiEspacial
+   - PopGeral
+
+- type: guideEntry
+  id: PopGeral
+  name: guide-entry-pop
+  text: "/ServerInfo/Guidebook/EstacaoPirata/PopGeral.xml"
+  children:
+    - AlertasGerais
+    - PopSeguranca
+    - PopComando
+    - PopMedico
+
+- type: guideEntry
+  id: PopSeguranca
+  name: guide-entry-pop-sec
+  text: "/ServerInfo/Guidebook/EstacaoPirata/PopSeguranca.xml"
+
+- type: guideEntry
+  id: PopMedico
+  name: guide-entry-pop-med
+  text: "/ServerInfo/Guidebook/EstacaoPirata/PopMédico.xml"
+
+- type: guideEntry
+  id: PopComando
+  name: guide-entry-pop-comando
+  text: "/ServerInfo/Guidebook/EstacaoPirata/PopComando.xml"
+
+- type: guideEntry
+  id: AlertasGerais
+  name: guide-entry-alertas-gerais
+  text: "/ServerInfo/Guidebook/EstacaoPirata/AlertasGerais.xml"
+
