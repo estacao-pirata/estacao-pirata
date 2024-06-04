@@ -41,5 +41,5 @@ reagent-desc-starkist = Um refrigerante doce sabor laranja.
 reagent-name-fourteen-loko = Fourteen Loko
 reagent-desc-fourteen-loko = Uma substânica líquida altamente processada passando por pouco os parâmetros de saúde intergaláticos de um refrigerante.
 
-reagent-name-shamblers-juice = Baguncinha
-reagent-desc-shamblers-juice = ~Quebre os padrões com essa Baguncinha!~
+reagent-name-shamblers-juice = Suco Shambler
+reagent-desc-shamblers-juice = ~Quebre os padrões com Suco Shambler!~

@@ -112,8 +112,8 @@ ent-PosterContrabandBustyBackdoorExoBabes6 = Busty Backdoor Exo Babes 6
 ent-PosterContrabandRobustSoftdrinks = Robust Softdrinks
     .desc = Robust Softdrinks: Mais robusto que uma caixa de ferramentas na cabeça!
 
-ent-PosterContrabandShamblersJuice = Sucos Baguncinha
-    .desc = ~Quebre os padrões com essa Baguncinha!~
+ent-PosterContrabandShamblersJuice = Suco Shambler
+    .desc = ~Quebre os padrões com os Suco Shambler!~
 
 ent-PosterContrabandPwrGame = Pwr Game
     .desc = O PODER que os gamers precisam! Em parceria com as Saladas Vlad.
@@ -179,7 +179,7 @@ ent-PosterLegitHelpOthers = Ajude os Outros
 ent-PosterLegitBuild = Construa.
     .desc = Um pôster glorificando os engenheiros.
 
-ent-PosterLegitBlessThisSpess = Abençoe essa Bagunça
+ent-PosterLegitBlessThisSpess = Abençoe essa Espaço
     .desc = Um pôster abençoando essa área.
 
 ent-PosterLegitScience = Ciência
