@@ -1,0 +1,100 @@
+#Alertas
+[bold][color=#00FF00]Alerta Verde[/color][/bold]
+
+[bullet/][bold]Condição:[/bold]	Alerta padrão quando se começa um turno na estação. Declarada quando não há ou já foram neutralizadas ameaças a segurança da estação. Declarada quando não houver nenhuma atividade hostil depois de 10 minutos de alerta azul.
+
+[bullet/][bold]Segurança:[/bold]	Posse de armas como pistolas e revolveres carregadas com munição não-letal é permitido. Porte ostensivo de qualquer arma, de fogo, branca ou não-letal, é proibido, a não ser que seja completamente necessário. Revistas não são permitidas sem um mandado.
+
+[bullet/][bold]Linha de Comando:[/bold]	Capitão > Chefes departamentais > Tripulação
+
+[bullet/][bold]Áreas de Alta Segurança:[/bold]	Podem ser acessadas apenas por comandantes relevantes à função da área.
+
+[bullet/][bold]Tripulação:[/bold]	É recomendado ligar o sensor de coordenadas em seus uniformes.
+
+
+[bold][color=#4682B4]Alerta Azul[/color][/bold]
+
+[bullet/][bold]Condição:[/bold]	Quando é confirmada ou há forte suspeita de atividade hostil dentro da estação que ameaça a integridade estrutural da embarcação ou quando há uma séria ameaça à vida de um ou mais tripulantes. Declarada quando não houver nenhuma atividade hostil depois de 10 minutos de alerta vermelho, a não ser que tenha sido feita uma declaração de guerra contra a estação.
+
+[bullet/][bold]Segurança:[/bold]	São permitidas revistas sem mandatos ou autorizações de superiores. É permitida posse de pistolas e revolveres carregados com munição letais. Não é permitido o porte ostensivo de armas de fogo letais sem boa razão.
+
+[bullet/][bold]Linha de Comando:[/bold]	É recomendado que o capitão consulte o chefe de segurança antes de tomar decisões importantes. Capitão > Chefes departamentais > Tripulação.
+
+[bullet/][bold]Áreas de Alta Segurança:[/bold]	É recomendado que sejam trancadas a não ser que seu acesso seja necessário pela tripulação.
+
+[bullet/][bold]Tripulação:[/bold]	É altamente recomendado ligar o sensor de coordenadas em seus uniformes. Devem denunciar qualquer atividade suspeita ou ilegal à segurança. É recomendado não andar pelas passagem de manutenção.
+
+[bold][color=yellow] Alerta Amarelo [/color][/bold]
+
+[bullet/][bold]Condição:[/bold]	Quando há dano estrutural ao casco da estação, fazendo com que um ou mais compartimentos sejam despressurizados, ou dano a áreas importantes externas como painéis solares, contenção da singularidade/tesla e satélite solar. Só deve ser anunciado quando o dano estrutural afeta o funcionamento de um departamento inteiro, da embarcação como um todo, ou ameaça a segurança dos tripulantes. Deve ser convocado apenas quando não há atividade hostil confirmada. Pode ser convocada livremente pelo engenheiro chefe caso as outras condições sejam correspondidas.
+
+[bullet/][bold]Segurança:[/bold]	Se o dano é interno deve ser feita uma delimitação da área para não permitir que quaisquer tripulantes não engenheiros aproximem-se dela. Caso hajam tripulantes, vivos ou mortos, na área danificada deve ser feito a evacuação deles. É recomendado o uso de trajes AEV.
+
+[bullet/][bold]Engenharia:[/bold]	É altamente recomendado o uso de armaduras espaciais. O máximo de engenheiros possíveis devem efetuar reparos à estação, mas tendo cautela para não deixar os sistemas de geração de energia e distribuição de ar sem supervisão.
+
+[bullet/][bold]Medicina:[/bold]	É altamente recomendado a produção e disponibilização de remédios contra frio, mudanças de temperatura e asfixiação.
+
+[bullet/][bold]Linha de Comando:[/bold]	Capitão > Engenheiro Chefe > Chefes departamentais > Tripulação
+
+[bullet/][bold]Áreas de Alta Segurança:[/bold]	Caso o dano no tenha despressurizado grande parte da estação é recomendado permitir acesso ao armazenamento de trajes AEV.
+
+[bullet/][bold]Tripulação:[/bold]	Não devem abrir ou transitar pelas passagens de manutenção. Devem ficar longe das áreas danificadas.
+
+
+[bold][color=#FF06B5]Alerta Violeta[/color][/bold]
+
+[bullet/][bold]Condição:[/bold]	Quando for identificada uma crise sanitária na estação.
+
+[bullet/][bold]Segurança:[/bold]	É recomendado o porte de armas letais e equipamentos de proteção pessoal. É permitido o porte ostensivo de quaisquer armas. É permitido o uso de força letal contra vetores que são uma ameaça imediata à saúde alheia. Proteger o departamento médico é uma prioridade.
+
+[bullet/][bold]Medicina:[/bold]	A produção de uma cura em larga escala deve começar imediatamente. A cura deve ser administrada de forma sistemática para toda estação. Médicos que trabalham na imunização devem utilizar trajes de proteção biológica, os demais devem utilizar máscaras e luvas higiênicas.
+
+[bullet/][bold]Linha de Comando:[/bold]	Capitão > Médico Chefe > Chefes departamentais > Tripulação
+
+[bullet/][bold]Áreas de Alta Segurança:[/bold]	O depósito de armas pode ser disponibilizado à todos funcionários de segurança.
+
+[bullet/][bold]Tripulação:[/bold]	É altamente recomendado que evitar aglomerações. É recomendado deixar seus departamentos em quarentena. Devem se direcionar para secretaria da enfermagem quando a cura for disponibilizada.
+
+[bold][color=red]Alerta Vermelho[/color][/bold]
+
+[bullet/][bold]Condição:[/bold]	Quando foi confirmada uma iminente ou presente ameaça à rede comando, de grande sabotagem estrutural ou à vida de grande parte dos tripulantes.
+
+[bullet/][bold]Segurança:[/bold]	É altamente recomendado o porte de armas letais e equipamentos de proteção pessoal. É permitido o porte ostensivo de quaisquer armas.
+
+[bullet/][bold]Linha de Comando:[/bold]	É altamente recomendado que o capitão consulte o chefe de segurança antes de tomar decisões importantes. Capitão > Chefe de segurança > Chefes departamentais > Tripulação
+
+[bullet/][bold]Áreas de Alta Segurança:[/bold]	A sala de armazenamento de trajes AEV pode ser disponibilizada para toda tripulação. O depósito de armas pode ser disponibilizado à todos funcionários de segurança.
+
+[bullet/][bold]Tripulação:[/bold]	Devem ligar seus sensores vitais no máximo. Devem permanecer nos seus departamentos e evitar as passagens de manutenção.
+
+[bold][color=#DB7093]Alerta Gamma[/color][/bold]
+
+[bullet/][bold]Condição:[/bold]	Convocado pelo Comando Central. Deve ser comunicado um pedido formal para o Comando Central por meio de fax ou computador de comunicações. Existe uma enorme ameaça à segurança e a existência da estação, sedição dos comandantes, ou a morte de toda tripulação.
+
+[bullet/][bold]Segurança:[/bold]	Permitida a fazer a prisão de qualquer tripulante suspeito de atividade hostil. Permitida usar força letal qualquer tripulante que desobedeça as ordens.
+
+[bullet/][bold]Linha de Comando:[/bold]	Comando Central > Capitão > Chefe de Segurança > Chefes departamentais > Tripulação
+
+[bullet/][bold]Áreas de Alta Segurança: [/bold]Armazenamento de trajes AEV deve ser disponibilizado para toda tripulação.
+
+[bullet/][bold]Tripulação:[/bold]	Deve obedecer estritamente todas as ordens da segurança, comando e comando central. Deve procurar abrigo imediatamente com o comandante mais próximo. Não devem interagir com qualquer oficial emergencial que possa ter sido enviado pelo comando central. É altamente recomendado o uso de trajes pressurizados.
+
+[bold][color=#8B0000]Alerta Delta[/color][/bold]
+
+[bullet/][bold]Condição:[/bold]	Situação de alerta máximo. Autodestruição da estação ativada ou destruição iminente.
+
+[bullet/][bold]Comando:[/bold]	Deve chamar a nave de evacuação de emergência o mais rápido possível.
+
+[bullet/][bold]Logística:[/bold]	Deve manter a as naves de carga e exploração espacial ancoradas a estação pelo máximo de tempo possível para evacuação dos passageiros.
+
+[bullet/][bold]Linha de Comando:[/bold]	Capitão > Chefe de Segurança > Chefes departamentais > Tripulação
+
+[bullet/][bold]Áreas de Alta Segurança:[/bold]	Armazenamento de trajes AEV deve ser disponibilizado para toda tripulação.
+
+[bullet/][bold]Tripulação:[/bold]	Devem evacuar a estação o mais rápido possível pelas naves de evacuação de emergência, nave de carga ou a nave de exploração. Todos departamentos devem fazer o máximo possível para auxiliar na evacuação de todos tripulantes, vivos ou não.
+
+[bold][color=#9400D3]Alerta Épsilon[/color][/bold]
+
+[bullet/][bold]Condição:[/bold]	Convocado pelo Comando Central, que toma controle de todas as operações na estação.
+
+[bullet/][bold]Linha de Comando:[/bold]	Todos os contratos estão cancelados. A tripulação não é mais considerada sob a jurisdição ou tutela da CC.
