@@ -49,3 +49,6 @@
 - files: ["core.yml"]
   authors: Ubaser
 
+- files: ["Gaxstation.yml"]
+  authors: Ichai, dasprino007, SidGus
+
