@@ -66,11 +66,11 @@ namespace Content.IntegrationTests.Tests
             "Reach",
             "Train",
             "Oasis"
-            "RadStation",
 	    //
 	    // Pirata
 	    //
 	    ,
+            "RadStation",
 	    // "EstacaoPirata",
         };
 
