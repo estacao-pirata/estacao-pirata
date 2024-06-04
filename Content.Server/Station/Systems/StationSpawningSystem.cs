@@ -231,7 +231,10 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
         {
             if (prototype != null)
                 SetPdaAndIdCardData(entity.Value, profile.Name, prototype, station);
-                InternalEncryptionKeySpawner.TryInsertEncryptionKey(entity.Value, startingGear, EntityManager, profile); // Parkstation - IPC
+                if (prototype?.StartingGear != null){
+                    var startingGear = _prototypeManager.Index<StartingGearPrototype>(prototype.StartingGear);
+                    InternalEncryptionKeySpawner.TryInsertEncryptionKey(entity.Value, startingGear, EntityManager, profile); // Parkstation - IPC
+                }
 
             _humanoidSystem.LoadProfile(entity.Value, profile);
             _metaSystem.SetEntityName(entity.Value, profile.Name);
