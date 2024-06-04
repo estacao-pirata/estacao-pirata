@@ -8,7 +8,7 @@ ent-PaintingPersistenceOfMemory = A Persistência de Memória
     .desc = Essa pintura retrata uma paisagem desolada. Está cheia de vários objetos surreais.
 
 ent-PaintingTheSonOfMan = O Filho do Homem
-    .desc = Essa pintura retrata um homem de terno. Sua cara está oculta por uma maçã.
+    .desc = Essa pintura retrata um homem de terno. Seu rosto está oculto por uma maçã.
 
 ent-PaintingTheKiss = O Beijo
     .desc = Essa pintura retrata um casal em um apaixonante abraço. Está coberta por ornamentos dourados.
@@ -17,7 +17,7 @@ ent-PaintingTheScream = O Grito
     .desc = Esta pintura retrata um homem angustiado em pé em uma ponte.
 
 ent-PaintingTheGreatWave = A Grande Onda de Kanagawa
-    .desc = Esta pintura retrata uma majestosa onda. Ela está jogando vários pequenos barcos de pesca ao redor.
+    .desc = Esta pintura retrata uma majestosa onda. Ela está quebrando próximo a vários pequenos barcos de pesca.
 
 ent-PaintingCafeTerraceAtNight = Terraço do Café à Noite
     .desc = Esta pintura retrata uma cena noturna animada em um café.
