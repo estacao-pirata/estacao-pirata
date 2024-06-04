@@ -153,7 +153,7 @@ namespace Content.Server.Entry
 
             switch (level)
             {
-                 case ModUpdateLevel.PostEngine:
+                case ModUpdateLevel.PostEngine:
                 {
                     _euiManager.SendUpdates();
                     _voteManager.Update();
