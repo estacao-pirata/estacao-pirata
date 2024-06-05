@@ -54,7 +54,7 @@
             #supply
             Quartermaster: [ 1, 1 ]
             CargoTechnician: [ 2, 3 ]
-            SalvageTechnician: [ 3, 3 ]
+            SalvageSpecialist: [ 3, 3 ]
             #civilian
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
