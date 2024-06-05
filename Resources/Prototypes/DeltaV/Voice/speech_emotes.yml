@@ -5,22 +5,22 @@
   category: Vocal
   chatMessages: [honks.]
   chatTriggers:
-    - honk
-    - honk.
-    - honk!
-    - honk?
-    - honks
-    - honks.
-    - honks!
-    - honks?
-    - honking
-    - honking.
-    - honking!
-    - honking?
-    - honked
-    - honked.
-    - honked!
-    - honked?
+    - hoonk
+    - hoonk.
+    - hoonk!
+    - hoonk?
+    - hoonks
+    - hoonks.
+    - hoonks!
+    - hoonks?
+    - hoonking
+    - hoonking.
+    - hoonking!
+    - hoonking?
+    - hoonked
+    - hoonked.
+    - hoonked!
+    - hoonked?
 
 - type: emote
   id: HarpyRing
@@ -97,22 +97,22 @@
   category: Vocal
   chatMessages: [beeps.]
   chatTriggers:
-    - beep
-    - beep.
-    - beep!
-    - beep?
-    - beeps
-    - beeps.
-    - beeps!
-    - beeps?
-    - beeping
-    - beeping.
-    - beeping!
-    - beeping?
-    - beeped
-    - beeped.
-    - beeped!
-    - beeped?
+    - beeep
+    - beeep.
+    - beeep!
+    - beeep?
+    - beeeps
+    - beeeps.
+    - beeeps!
+    - beeeps?
+    - beeeping
+    - beeeping.
+    - beeeping!
+    - beeeping?
+    - beeeped
+    - beeeped.
+    - beeeped!
+    - beeeped?
 
 - type: emote
   id: HarpyRev
