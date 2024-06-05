@@ -248,3 +248,8 @@ Entries:
   changes:
   - type: Add
     message: Mapa novo, GaxStation
+- author: LaryALagosta
+  time: '2024-06-05T01:49:00-03:00'
+  changes:
+  - type: Add
+    message: Adiciona mapa Glacier do Nyanotrasen
