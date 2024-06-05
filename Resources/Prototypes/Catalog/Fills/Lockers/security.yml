@@ -197,6 +197,7 @@
       - id: BoxEvidenceMarkers
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+      - id: PortableSurveillanceCameraMonitor # Sunrise-edit
 
 - type: entity
   id: ClosetBombFilled
