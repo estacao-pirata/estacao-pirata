@@ -241,13 +241,13 @@ Entries:
 - author: Dasprino007
   time: '2024-05-07T00:46:46-03:00'
   changes:
-  - type: Fix
-    message: Consertar e readicionar radstation para o merge atual
+  - type: Add
+    message: Conserta e readiciona mapa Radstation
 - author: Ichai, Dasprino007 e Sidgus
   time: '2024-04-25T00:46:46-03:00'
   changes:
   - type: Add
-    message: Mapa novo, GaxStation
+    message: Adiciona mapa original GaxStation
 - author: LaryALagosta
   time: '2024-06-05T01:49:00-03:00'
   changes:
