@@ -1,7 +1,7 @@
 - type: gameMap
   id: Gaxstation
   mapName: 'GaxStation'
-  mapPath: /Maps/Gaxstation.yml
+  mapPath: /Maps/gaxstation.yml
   minPlayers: 0
   maxPlayers: 35
   fallback: true
