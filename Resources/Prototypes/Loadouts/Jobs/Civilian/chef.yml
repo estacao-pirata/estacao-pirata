@@ -9,14 +9,14 @@
     head: ClothingHeadHatChef
 
 # Mask
-- type: loadout
-  id: ChefMask
-  equipment: ChefMask
+#- type: loadout
+#  id: ChefMask
+#  equipment: ChefMask
 
-- type: startingGear
-  id: ChefMask
-  equipment:
-    mask: ClothingMaskItalianMoustache
+#- type: startingGear
+#  id: ChefMask
+#  equipment:
+#    mask: ClothingMaskItalianMoustache
 
 # Jumpsuit
 - type: loadout

@@ -54,7 +54,7 @@
       heatDamage:
         types:
           Heat: 3 #per second, scales with temperature & other constants
-      atmosTemperatureTransferEfficiency: 0.05
+      atmosTemperatureTransferEfficiency: 0.4
     - type: Deathgasp
       prototype: SiliconDeathgasp
     - type: MobState
@@ -157,7 +157,6 @@
     #   damage:
     #     types:
     #       Blunt: 0.28 #per second, scales with pressure and other constants.
-      atmosTemperatureTransferEfficiency: 0.4
     - type: Identity
     #  soundHit:
     #    path: /Audio/Effects/metalbreak.ogg

@@ -185,12 +185,12 @@
   loadouts:
   - ChefHead
 
-- type: loadoutGroup
-  id: ChefMask
-  name: loadout-group-chef-mask
-  minLimit: 0
-  loadouts:
-  - ChefMask
+#- type: loadoutGroup
+#  id: ChefMask
+#  name: loadout-group-chef-mask
+#  minLimit: 0
+#  loadouts:
+#  - ChefMask
 
 - type: loadoutGroup
   id: ChefJumpsuit

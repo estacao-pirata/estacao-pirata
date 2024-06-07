@@ -55,7 +55,7 @@
   id: JobChef
   groups:
   - ChefHead
-  - ChefMask
+#  - ChefMask
   - ChefJumpsuit
   - CommonBackpack
   - ChefOuterClothing

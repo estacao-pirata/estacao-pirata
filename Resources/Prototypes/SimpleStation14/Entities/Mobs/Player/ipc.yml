@@ -20,7 +20,6 @@
     sound: "/Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg"
     minInterval: 15
     maxInterval: 30
-    playChance: 1
     popUp: "silicon-power-low"
   - type: Lock
     locked: true

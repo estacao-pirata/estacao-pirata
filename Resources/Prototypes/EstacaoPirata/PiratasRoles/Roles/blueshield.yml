@@ -47,6 +47,6 @@
     pocket1: WeaponDisabler
     id: BlueshieldPDA
     ears: ClothingHeadsetAltSecurity
-  innerClothingSkirt: ClothingUniformJumpskirtHoP
-  satchel: ClothingBackpackSatchelHOPFilled
-  duffelbag: ClothingBackpackDuffelHOPFilled
+  #innerClothingSkirt: ClothingUniformJumpskirtHoP  -- https://github.com/space-wizards/space-station-14/commit/12766fe6e37bb600a53693cfa5392892bc100685
+  #satchel: ClothingBackpackSatchelHOPFilled
+  #duffelbag: ClothingBackpackDuffelHOPFilled

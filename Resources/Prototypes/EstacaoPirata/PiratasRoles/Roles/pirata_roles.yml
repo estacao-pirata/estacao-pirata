@@ -21,9 +21,9 @@
     shoes: ClothingShoesColorBlack
     id: CidadaoIDCard
     ears: ClothingHeadsetGrey
-  innerClothingSkirt: ClothingUniformJumpskirtCurator
-  satchel: ClothingBackpackSatchelFilled
-  duffelbag: ClothingBackpackDuffelFilled
+  #innerClothingSkirt: ClothingUniformJumpskirtCurator -- https://github.com/space-wizards/space-station-14/commit/12766fe6e37bb600a53693cfa5392892bc100685
+  #satchel: ClothingBackpackSatchelFilled
+  #duffelbag: ClothingBackpackDuffelFilled
 
 # Comerciante
 - type: job
@@ -47,9 +47,9 @@
     shoes: ClothingShoesColorBrown
     id: ComercianteIDCard
     ears: ClothingHeadsetGrey
-  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlue
-  satchel: ClothingBackpackSatchelFilled
-  duffelbag: ClothingBackpackDuffelFilled
+  #innerClothingSkirt: ClothingUniformJumpskirtLawyerBlue
+  #satchel: ClothingBackpackSatchelFilled
+  #duffelbag: ClothingBackpackDuffelFilled
 
 # Policia
 - type: job
@@ -80,9 +80,9 @@
     belt: ClothingBeltSecurityFilled
     pocket1: RadioHandheld
     pocket2: WeaponTaser
-  innerClothingSkirt: ClothingUniformJumpskirtColorDarkBlue
-  satchel: ClothingBackpackSatchelPolicia
-  duffelbag: ClothingBackpackDuffelPolicia
+  #innerClothingSkirt: ClothingUniformJumpskirtColorDarkBlue
+  #satchel: ClothingBackpackSatchelPolicia
+  #duffelbag: ClothingBackpackDuffelPolicia
 
 # Soldado
 - type: job
@@ -114,6 +114,6 @@
     belt: ClothingBeltMilitarySoldado
     pocket1: RadioHandheld
     pocket2: WeaponPistolMk58
-  innerClothingSkirt: ClothingUniformJumpskirtColorDarkBlue
-  satchel: ClothingBackpackSatchelSoldado
-  duffelbag: ClothingBackpackDuffelSoldado
+  #innerClothingSkirt: ClothingUniformJumpskirtColorDarkBlue
+  #satchel: ClothingBackpackSatchelSoldado
+  #duffelbag: ClothingBackpackDuffelSoldado

@@ -1,10 +1,10 @@
 - type: vendingMachineInventory
   id: AutoDrobeInventory
   startingInventory:
-    ClothingHeadMaskPomni: 1
-    ClothingUniformJumpsuitPomni: 1
-    ClothingHandsGlovesPomni: 1
-    ClothingShoesPomni: 1
+    #ClothingHeadMaskPomni: 1 -- removido em https://github.com/rbertoche/space-station-14/commit/f34644f15b724df9183906a5c3269e01794b9578
+    #ClothingUniformJumpsuitPomni: 1
+    #ClothingHandsGlovesPomni: 1
+    #ClothingShoesPomni: 1
     ClothingHeadHatJester: 1
     ClothingUniformJumpsuitJester: 1
     ClothingHeadHatJesterAlt: 1
