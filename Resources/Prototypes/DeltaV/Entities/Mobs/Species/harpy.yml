@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McHarpy
-  parent: BaseMobHuman
+  parent: BaseMobSpeciesOrganic
   id: MobHarpyBase
   abstract: true
   components:
