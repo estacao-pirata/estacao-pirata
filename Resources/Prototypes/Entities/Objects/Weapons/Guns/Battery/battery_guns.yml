@@ -468,7 +468,7 @@
         shader: unshaded
   - type: Gun
     selectedMode: FullAuto
-    fireRate: 2
+    fireRate: 2.5
     availableModes:
       - SemiAuto
       - FullAuto
@@ -476,7 +476,7 @@
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletDisablerSmg
-    fireCost: 75
+    fireCost: 62.5
   - type: MagazineVisuals
     magState: mag
     steps: 5
