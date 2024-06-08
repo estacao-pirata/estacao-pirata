@@ -18,36 +18,36 @@
     back:
     - ClothingNeckLGBTPin
 
-- type: loadout
-  id: ClothingNeckAromanticPin
-  equipment: ClothingNeckAromanticPin
-
-- type: startingGear
-  id: ClothingNeckAromanticPin
-  storage:
-    back:
-    - ClothingNeckAromanticPin
-
-- type: loadout
-  id: ClothingNeckAsexualPin
-  equipment: ClothingNeckAsexualPin
-
-- type: startingGear
-  id: ClothingNeckAsexualPin
-  storage:
-    back:
-    - ClothingNeckAsexualPin
-
-- type: loadout
-  id: ClothingNeckBisexualPin
-  equipment: ClothingNeckBisexualPin
-
-- type: startingGear
-  id: ClothingNeckBisexualPin
-  storage:
-    back:
-    - ClothingNeckBisexualPin
-
+# - type: loadout
+#   id: ClothingNeckAromanticPin
+#   equipment: ClothingNeckAromanticPin
+# 
+# - type: startingGear
+#   id: ClothingNeckAromanticPin
+#   storage:
+#     back:
+#     - ClothingNeckAromanticPin
+# 
+# - type: loadout
+#   id: ClothingNeckAsexualPin
+#   equipment: ClothingNeckAsexualPin
+# 
+# - type: startingGear
+#   id: ClothingNeckAsexualPin
+#   storage:
+#     back:
+#     - ClothingNeckAsexualPin
+# 
+# - type: loadout
+#   id: ClothingNeckBisexualPin
+#   equipment: ClothingNeckBisexualPin
+# 
+# - type: startingGear
+#   id: ClothingNeckBisexualPin
+#   storage:
+#     back:
+#     - ClothingNeckBisexualPin
+ 
 - type: loadout
   id: ClothingNeckIntersexPin
   equipment: ClothingNeckIntersexPin
@@ -68,25 +68,25 @@
     back:
     - ClothingNeckLesbianPin
 
-- type: loadout
-  id: ClothingNeckNonBinaryPin
-  equipment: ClothingNeckNonBinaryPin
-
-- type: startingGear
-  id: ClothingNeckNonBinaryPin
-  storage:
-    back:
-    - ClothingNeckNonBinaryPin
-
-- type: loadout
-  id: ClothingNeckPansexualPin
-  equipment: ClothingNeckPansexualPin
-
-- type: startingGear
-  id: ClothingNeckPansexualPin
-  storage:
-    back:
-    - ClothingNeckPansexualPin
+# - type: loadout
+#   id: ClothingNeckNonBinaryPin
+#   equipment: ClothingNeckNonBinaryPin
+# 
+# - type: startingGear
+#   id: ClothingNeckNonBinaryPin
+#   storage:
+#     back:
+#     - ClothingNeckNonBinaryPin
+# 
+# - type: loadout
+#   id: ClothingNeckPansexualPin
+#   equipment: ClothingNeckPansexualPin
+# 
+# - type: startingGear
+#   id: ClothingNeckPansexualPin
+#   storage:
+#     back:
+#     - ClothingNeckPansexualPin
 
 - type: loadout
   id: ClothingNeckTransPin
