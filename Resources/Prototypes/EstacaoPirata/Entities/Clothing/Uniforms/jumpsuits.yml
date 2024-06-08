@@ -8,3 +8,14 @@
     sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi    
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGrayBlueshield
+  name: Macacão cinza do Blueshield
+  description: A short-sleeved gray uniform, paired with grey armored cargo pants, all made out of a sturdy material. Blueshield standard issue.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/grayBlueshield.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/grayBlueshield.rsi
