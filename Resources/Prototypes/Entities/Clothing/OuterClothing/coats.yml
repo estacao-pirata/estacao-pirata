@@ -28,7 +28,7 @@
       coefficients:
         Blunt: 0.70
         Slash: 0.70
-        Piercing: 0.70
+        Piercing: 0.60
         Heat: 0.80
 
 - type: entity
@@ -60,7 +60,7 @@
       coefficients:
         Blunt: 0.7
         Slash: 0.7
-        Piercing: 0.7
+        Piercing: 0.6
         Heat: 0.7
         Caustic: 0.75 # not the full 90% from ss13 because of the head
   - type: ExplosionResistance
@@ -75,7 +75,7 @@
       coefficients:
         Blunt: 0.7
         Slash: 0.7
-        Piercing: 0.7
+        Piercing: 0.6
         Heat: 0.7
   - type: ExplosionResistance
     damageCoefficient: 0.9
