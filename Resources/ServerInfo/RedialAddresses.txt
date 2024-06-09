@@ -9,6 +9,7 @@ ss14://45.162.196.7:1212
 ss14://140.238.191.180:1212
 ss14://game.nuclear14.com:1212
 ss14://game.singularity14.co.uk:1403
+ss14://193.106.248.12:1212
 ss14://nyanotrasen.moe:1212
 ss14://nyanotrasen.moe:1213
 ss14://nfn.mooo.com:1213
