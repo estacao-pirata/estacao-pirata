@@ -35,8 +35,8 @@
     - Silicon
     damage:
       types: # these are all split across multiple types
-        Heat: -1.66
-        Shock: -1.66
+        Heat: -5
+        Shock: -5
 
 - type: entity
   id: CableHVStack
