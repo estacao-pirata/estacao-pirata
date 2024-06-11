@@ -37,6 +37,7 @@
       types: # these are all split across multiple types
         Heat: -5
         Shock: -5
+        Cold: -5
 
 - type: entity
   id: CableHVStack
