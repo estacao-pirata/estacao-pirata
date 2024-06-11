@@ -65,6 +65,15 @@
   - type: Felinid
   - type: NoShoesSilentFootsteps
   - type: CanEscapeInventory
+  - type: LanguageSpeaker
+    speaks:
+    - GalacticCommon
+    - SolCommon
+    - Nekomimetic
+    understands:
+    - GalacticCommon
+    - SolCommon
+    - Nekomimetic
 
 - type: entity
   save: false
