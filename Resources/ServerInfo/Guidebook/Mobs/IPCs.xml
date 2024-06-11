@@ -1,8 +1,8 @@
 <Document>
   # I.P.C.
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
-  O I.P.C. (Sigla para Integrated Positronic Chassis) é uma espécie de robôs sentientes e são considerados [color=yellow]individuos independentes[/color], isto é, [color=red]não são guiados por qualquer leis da robótica[/color]. IPCs não podem ser hackeados por Emags por conta de não terem que seguir nenhuma diretriz pré definida em seu sistema. [color=red]IPCs são seres de silício, portanto médicos não tem as habilidades para repará-los.[/color]
-  
+  O I.P.C. (Sigla para Integrated Positronic Chassis) é uma espécie de robôs sentientes e são considerados [color=yellow]individuos independentes[/color], isto é, [color=red]não são guiados por qualquer leis da robótica[/color]. IPCs não podem ser hackeados por Emags por conta de não terem que seguir nenhuma diretriz pré definida em seu sistema. [color=red]IPCs são seres de silício, portanto médicos não tem as habilidades para repará-los. [/color] O ideal seria buscar ajuda do setor de robótica do departamento de ciência ou até mesmo buscar ajuda do departamento de engenharia.
+
   <Box>
     <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
   </Box>
@@ -20,7 +20,7 @@
 
   Recarregadores para Borgs: IPCs podem usar  recarregadores para borgs para se carregarem. Sempre priorize os que estão do lado de fora da Sci, pois evitará dores de cabeça.
 
-  Célula de energia: IPCs possuem como fonte de bateria uma Célula de energia interna em que ele pode simplesmente trocar abrindo a escotilha e a trocando manualmente. 
+  Célula de energia: IPCs possuem como fonte de bateria uma Célula de energia interna em que ele pode simplesmente trocar abrindo a escotilha e a trocando manualmente.
 
   ## Rádio integrado
   <Box>
@@ -34,22 +34,22 @@
 
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Soldador"/>
-    Soldadores podem ser usados para consertar danos de tipo [color=yellow]Bruto[/color] 
+    Soldadores podem ser usados para consertar danos de tipo [color=yellow]Bruto[/color]
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="CableApcStack" Caption="Cabos
 (qualquer tipo)"/>
-    Cabos podem ser usados para consertar danos relacionados a [color=yellow]Queimaduras[/color] 
+    Cabos podem ser usados para consertar danos relacionados a [color=yellow]Queimaduras[/color]
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="SheetGlass" Caption="Painel de vidro
 (qualquer tipo)"/>
-    Cabos podem ser usados para consertar [color=yellow]Cegueira[/color] 
+    Cabos podem ser usados para consertar [color=yellow]Cegueira[/color]
   </Box>
   <Box HorizontalAlignment="Stretch">
-    <GuideEntityEmbed Entity="Defibrillator" Caption="Desfibrilador"/>
-    No eventual caso de um IPC morrer, após ele ser totalmente consertado, ele deverá receber um choque para ser reiniciado. Basta usar um [color=yellow]Desfibrilador[/color] para fazer essa tarefa
-    
+    No eventual caso de um IPC morrer, após ele ser totalmente consertado, ele deverá ser reiniciado utilizando o botão [color=yellow]"Reiniciar"[/color] (localizado ao apertar o botão direito).
+
+    [color=red]JAMAIS ELETROCUTE UM IPC com um desfibrilador ou de outra forma enquanto ele estiver morto, isso fará a bateria emitir raios de energia para fora![/red]
   </Box>
 
 </Document>

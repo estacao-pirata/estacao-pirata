@@ -45,8 +45,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      140: Critical
-      180: Dead
+      119.999: Critical # TO make it almost impossible
+      120: Dead
   - type: TypingIndicator
     proto: robot
   - type: Destructible
@@ -90,10 +90,14 @@
   - type: ActiveRadio
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
+  - type: DeadStartupButton
+    sound:
+      path: /Audio/EstacaoPirata/Effects/Silicon/startup.ogg
+      volume: 0.5
 # Erro de linter
 #   - type: Wires
 #     layoutId: IPC
-  - type: EmitBuzzOnCrit
+  - type: EmitBuzzWhileDamaged
 
 - type: entity
   save: false
