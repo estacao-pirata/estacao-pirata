@@ -95,7 +95,7 @@ guide-entry-chemistry = Química
 guide-entry-chef = Chefe de cozinha
 guide-entry-cookbook = O livro de receitas
 
-Receitas
+# Receitas
 
 guide-entry-burgers = Hambúrgueres
 guide-entry-cakes = Bolos

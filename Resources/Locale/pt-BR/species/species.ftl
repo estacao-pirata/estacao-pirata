@@ -1,4 +1,4 @@
-+## Species Names
+## Species Names
 
 species-name-human = Humano
 species-name-dwarf = Anão
