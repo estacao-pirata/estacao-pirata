@@ -503,10 +503,6 @@
     Fart:
       collection: Farts
 
-
-    Fart:
-      collection: Farts
-
 - type: emoteSounds
   id: Nymph
   sounds:
