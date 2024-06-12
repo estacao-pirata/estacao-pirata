@@ -93,7 +93,8 @@
   - type: DeadStartupButton
     sound:
       path: /Audio/EstacaoPirata/Effects/Silicon/startup.ogg
-      volume: 0.5
+      params:
+        volume: 0.5
 # Erro de linter
 #   - type: Wires
 #     layoutId: IPC
