@@ -265,4 +265,4 @@
   noSpawn: true
   components:
   - type: GameRule
-    minPlayers: 10
+    minPlayers: 15
