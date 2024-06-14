@@ -47,6 +47,7 @@ public sealed class JukeboxBoundUserInterface : BoundUserInterface
         _menu.OnSongSelected += SelectSong;
 
         _menu.SetTime += SetTime;
+        _menu.SetVolume += SetVolume;
         PopulateMusic();
         Reload();
     }
@@ -60,10 +61,12 @@ public sealed class JukeboxBoundUserInterface : BoundUserInterface
             return;
 
         _menu.SetAudioStream(jukebox.AudioStream);
+        _menu.SetVolumeSlider(jukebox.Volume);
 
         if (_protoManager.TryIndex(jukebox.SelectedSongId, out var songProto))
         {
             var length = EntMan.System<AudioSystem>().GetAudioLength(songProto.Path.Path.ToString());
+
             _menu.SetSelectedSong(songProto.Name, (float) length.TotalSeconds);
         }
         else
@@ -99,6 +102,25 @@ public sealed class JukeboxBoundUserInterface : BoundUserInterface
         }
 
         SendMessage(new JukeboxSetTimeMessage(sentTime));
+    }
+
+    public void SetVolume(float volume)
+    {
+        var sentVolume = volume;
+
+        // Prediction
+        if (EntMan.TryGetComponent(Owner, out JukeboxComponent? jukebox) &&
+            EntMan.TryGetComponent(jukebox.AudioStream, out AudioComponent? audioComp))
+        {
+            audioComp.Volume = MapToRange(volume, jukebox.MinSlider, jukebox.MaxSlider, jukebox.MinVolume, jukebox.MaxVolume);
+        }
+
+        SendMessage(new JukeboxSetVolumeMessage(sentVolume));
+    }
+
+    private float MapToRange( float value, float leftMin, float leftMax, float rightMin, float rightMax )
+    {
+        return rightMin + ( value - leftMin ) * ( rightMax - rightMin ) / ( leftMax - leftMin );
     }
 
     protected override void Dispose(bool disposing)
