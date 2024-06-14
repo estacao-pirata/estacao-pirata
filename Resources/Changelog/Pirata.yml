@@ -307,3 +307,8 @@ Entries:
   changes:
   - type: Add
     message: Adiciona novas músicas na Jukebox
+- author: DayOS
+  time: '2024-06-14T18:16:16-03:00'
+  changes:
+  - type: Add
+    message: Torna partes robóticas (markings) coloridas
