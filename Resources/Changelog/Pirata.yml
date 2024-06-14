@@ -153,7 +153,7 @@ Entries:
     message: Adiciona o Changelog do Pirata!
 - author: Dasprino007
   time: '2024-04-11T21:49:43-03:00'
-  changes: 
+  changes:
   - type: Tweak
     message: Consertos no mapa Barratry
 - author: rber
@@ -263,3 +263,13 @@ Entries:
   changes:
   - type: Add
     message: Adiciona mapa original Esperanza
+- author: Arctic-Husky
+  time: '2024-06-14T12:23:49-03:00'
+  changes:
+  - type: Add
+    message: Adiciona controle de volume na Jukebox
+- author: Arctic-Husky
+  time: '2024-06-14T12:23:49-03:00'
+  changes:
+  - type: Add
+    message: Adiciona novas músicas na Jukebox
