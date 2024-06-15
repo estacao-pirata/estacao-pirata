@@ -2,18 +2,18 @@ using Robust.Shared.Utility;
 using System.Text.RegularExpressions;
 using Content.Server.Speech;
 
-namespace Pirata.Sotaque.Gaúcho;
+namespace Pirata.Sotaque.Gaucho;
 
 sealed class SotaqueCarioca : AccentEngine
 {
     public override void Initialize()
     {
-        SubscribeLocalEvent<SotaqueGaúchoComponent, AccentGetEvent>(OnAccent);
+        SubscribeLocalEvent<SotaqueGauchoComponent, AccentGetEvent>(OnAccent);
         getPath();
         Log.Debug(file);
     }
     override protected string path { get; set; } = "/Prototypes/EstacaoPirata/Sotaques/Gaucho";
-    private void OnAccent(EntityUid uid, SotaqueGaúchoComponent component, AccentGetEvent args)
+    private void OnAccent(EntityUid uid, SotaqueGauchoComponent component, AccentGetEvent args)
     {
         args.Message = Take(args.Message);
     }
