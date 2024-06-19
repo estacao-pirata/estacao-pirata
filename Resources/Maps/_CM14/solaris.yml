@@ -22564,7 +22564,7 @@ entities:
     - type: Transform
       pos: 67.5,-118.5
       parent: 1
-- proto: CMSpawnMobMonkey
+- proto: CMMobHuman
   entities:
   - uid: 20192
     components:
