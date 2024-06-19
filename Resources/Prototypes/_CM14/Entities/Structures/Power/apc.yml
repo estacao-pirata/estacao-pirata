@@ -127,9 +127,9 @@
 - type: entity
   parent: CMApcBase
   id: CMApcHighCapacity
-  suffix: APC, High powercell, 150kW
+  suffix: APC, High powercell, 250kW
   components:
   - type: Battery
-    maxCharge: 150000
-    startingCharge: 150000
+    maxCharge: 250000
+    startingCharge: 250000
 
