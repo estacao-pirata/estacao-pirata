@@ -269,16 +269,16 @@ Entries:
   - type: Add
     message: Torna alguns rabos de vulpkanins balançáveis (nomeados como 'Wagging')
   - type: Tweak
-    message: Ajusta valores da quantidade de chaves encriptadas do IPC 
+    message: Ajusta valores da quantidade de chaves encriptadas do IPC
   - type: Fix
-    message: Conserta sistema de IPCs superaquecerem 
+    message: Conserta sistema de IPCs superaquecerem
   - type: Fix
     message: Conserta HUDs de espécies IPC, Felinid, Vulpkanin e Harpy
 - author: DayOS
   time: '2024-06-12T02:00:03-03:00'
   changes:
   - type: Add
-    message: Adiciona botão para reiniciar IPCs mortos 
+    message: Adiciona botão para reiniciar IPCs mortos
   - type: Add
     message: Adiciona sons a IPCs ao serem consertados
   - type: Tweak
@@ -312,3 +312,8 @@ Entries:
   changes:
   - type: Add
     message: Torna partes robóticas (markings) coloridas
+- author: DayOS
+  time: '2024-06-18T23:46:46-03:00'
+  changes:
+  - type: Add
+    message: Torna IPCs capazes de usar ALGUMAS máscaras

@@ -200,6 +200,7 @@
     tags:
     - ClownMask
     - WhitelistChameleon
+    - IPCMaskWearable
   - type: HideLayerClothing
     slots:
     - Snout
@@ -230,6 +231,7 @@
     graph: BananaClownMask
     node: mask
 
+
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskJoy
@@ -242,6 +244,9 @@
     sprite: Clothing/Mask/joy.rsi
   - type: BreathMask
   - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - IPCMaskWearable
   - type: HideLayerClothing
     slots:
     - Snout
@@ -262,6 +267,7 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
+    - IPCMaskWearable
   - type: HideLayerClothing
     slots:
     - Snout
@@ -418,6 +424,7 @@
   - type: BreathMask
   - type: Tag
     tags:
+    - IPCMaskWearable
     - HamsterWearable
     - WhitelistChameleon
   - type: HideLayerClothing
@@ -440,6 +447,9 @@
   - type: HideLayerClothing
     slots:
     - Snout
+  - type: Tag
+    tags:
+    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskBase
@@ -456,6 +466,9 @@
   - type: HideLayerClothing
     slots:
     - Snout
+  - type: Tag
+    tags:
+    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskBase
@@ -472,6 +485,9 @@
   - type: HideLayerClothing
     slots:
     - Snout
+  - type: Tag
+    tags:
+    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskBase
@@ -488,6 +504,9 @@
   - type: HideLayerClothing
     slots:
     - Snout
+  - type: Tag
+    tags:
+    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskBase
@@ -504,6 +523,9 @@
   - type: HideLayerClothing
     slots:
     - Snout
+  - type: Tag
+    tags:
+    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskBase
@@ -520,6 +542,9 @@
   - type: HideLayerClothing
     slots:
     - Snout
+  - type: Tag
+    tags:
+    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskBase
@@ -536,6 +561,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskNeckGaiter
@@ -623,3 +649,6 @@
   - type: EyeProtection
   - type: BreathMask
   - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - IPCMaskWearable

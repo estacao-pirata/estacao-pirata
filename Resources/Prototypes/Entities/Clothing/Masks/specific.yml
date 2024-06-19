@@ -30,6 +30,9 @@
   suffix: Voice Mask, Chameleon
   components:
     - type: VoiceMasker
+    - type: Tag
+      tags:
+      - IPCMaskWearable
     - type: HideLayerClothing
       slots:
       - Snout
@@ -59,6 +62,8 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+    - IPCMaskWearable
+
   - type: HideLayerClothing
     slots:
     - Snout
