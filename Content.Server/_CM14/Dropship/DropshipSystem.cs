@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Content.Server._CM14.Marines;
 using Content.Server.Shuttles.Components;
 using Content.Server.Shuttles.Events;
@@ -122,11 +122,11 @@ public sealed class DropshipSystem : SharedDropshipSystem
 
         if (user != null && hijack)
         {
-            var xenoText = "The Queen has commanded the metal bird to depart for the metal hive in the sky! Rejoice!";
+            var xenoText = "A Rainha ordenou que o pássaro de metal partisse para a colmeia de metal no céu! Venham!";
             _xenoAnnounce.AnnounceSameHive(user.Value, xenoText);
             _audio.PlayPvs(dropship.LocalHijackSound, shuttle.Value);
 
-            var marineText = "Unscheduled dropship departure detected from operational area. Hijack likely. Shutting down autopilot.";
+            var marineText = "Voo não programado do dropship detectado na área operacional. É provável que seja uma invasão. Desligando o piloto automático.";
             _marineAnnounce.Announce(shuttle.Value, marineText, dropship.AnnounceHijackIn);
 
             var marines = Filter.Empty().AddWhereAttachedEntity(e => !HasComp<XenoComponent>(e));
