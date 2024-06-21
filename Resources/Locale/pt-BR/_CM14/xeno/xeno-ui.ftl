@@ -1,0 +1,10 @@
+﻿cm-ui-cm-actions = Ações de CM
+cm-ui-transform-tab = Transformar
+cm-ui-xeno-tab = Xeno
+cm-ui-xeno-hive = Colmeia:
+cm-ui-open-cm-actions = Abrir ações do CM
+cm-ui-create-new-hive = Criar nova colmeia
+cm-ui-create-hive-title = Novo nome da colmeia
+cm-ui-humanoid = Humanóide
+cm-ui-tier = Camada {$camada}
+cm-xeno-words-of-the-queen-header = As palavras da Rainha reverberam em nossa cabeça...

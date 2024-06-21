@@ -1,0 +1,27 @@
+﻿cm-guide-entry-cm14 = Fuzileiros Navais Coloniais 14
+
+cm-guide-entry-rules = Regras
+cm-guide-entry-rules-ban-types = Tipos de banimento
+cm-guide-entry-rules-ban-durations = Durações de banimento
+cm-guide-entry-rules-zero-tolerance = Tolerância zero
+cm-guide-entry-rules-language = Linguagem
+cm-guide-entry-rules-multikey = Multichave
+cm-guide-entry-rules-escalation = Escalação
+cm-guide-entry-rules-metaknowledge = Metaconhecimento
+cm-guide-entry-rules-kindness = Gentileza
+cm-guide-entry-rules-metagrudging = Metarelutância
+cm-guide-entry-rules-mutinies = Motins
+cm-guide-entry-rules-role-rolling = Rolagem de papéis
+cm-guide-entry-rules-command-roles = Funções de comando
+cm-guide-entry-rules-marine-law = Direito Marítimo
+cm-guide-entry-rules-higher-standards = Padrões mais elevados
+cm-guide-entry-rules-lethal-force = Força letal
+cm-guide-entry-rules-lethal-force-consequences = Consequências da força letal
+cm-guide-entry-rules-protect-detainees = Proteger os detidos
+cm-guide-entry-rules-general-roleplay-standards = Padrões de RPG
+cm-guide-entry-rules-uscm-roleplay-standards = Padrões de RPG do USCM
+cm-guide-entry-rules-uscm-deployment = Implantação do USCM
+cm-guide-entry-rules-command-roleplay = RPG de comando
+cm-guide-entry-rules-xeno-roleplay = RPG de Xeno
+cm-guide-entry-rules-survivor-roleplay = RPG de sobrevivente
+cm-guide-entry-rules-hostile-faction-roleplay = RPG de Facção Hostil

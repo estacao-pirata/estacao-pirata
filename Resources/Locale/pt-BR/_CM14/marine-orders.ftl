@@ -1,0 +1,9 @@
+move-order-callout-1 = Mover!!
+move-order-callout-2 = Mova isso!!
+move-order-callout-3 = Tempo duplo!!
+hold-order-callout-1 = Segurar!!
+hold-order-callout-2 = Segure a linha!!
+hold-order-callout-3 = Bunker derrubado!!
+focus-order-callout-1 = Foco!!
+focus-order-callout-2 = Mire seus tiros!!
+focus-order-callout-3 = Foco fogo!!
