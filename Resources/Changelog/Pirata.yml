@@ -317,3 +317,8 @@ Entries:
   changes:
   - type: Add
     message: Torna IPCs capazes de usar ALGUMAS máscaras
+- author: DayOS
+  time: '2024-06-21T03:42:31-03:00'
+  changes:
+  - type: Add
+    message: Faz com que animais não tomem dano de frio na estação Glacier

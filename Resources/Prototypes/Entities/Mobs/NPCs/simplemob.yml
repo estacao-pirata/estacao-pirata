@@ -104,3 +104,8 @@
   - type: MobPrice
     price: 150
   - type: FloatingVisuals
+  - type: ConditionalTemperatureAdjuster
+    maps:
+    - mapName: Glacier
+      heatDamageThreshold: 360
+      coldDamageThreshold: 223.15
