@@ -55,7 +55,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 600
+        damage: 500
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -74,7 +74,7 @@
   - type: ApcPowerReceiver
     powerLoad: 0
   - type: XenoConstructionPlasmaCost
-    plasma: 120
+    plasma: 200
   - type: MeleeReceivedMultiplier
     xenoDamage:
       types:
@@ -112,7 +112,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 900
+        damage: 800
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
