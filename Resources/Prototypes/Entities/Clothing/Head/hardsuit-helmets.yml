@@ -74,7 +74,7 @@
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/engineering.rsi
   - type: PointLight
-    color: "#ffdbad"
+    color: "#82e1aa"
   - type: PressureProtection
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
