@@ -38,3 +38,6 @@ trait-socialanxiety-desc = Você fica ansioso quando fala e gagueja.
 
 trait-snoring-name = Ronco
 trait-snoring-desc = Você roncará quando dormir.
+
+trait-liar-name = Mentiroso patológico
+trait-liar-desc = Você dificilmente consegue se forçar a dizer a verdade.
