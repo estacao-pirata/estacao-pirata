@@ -120,16 +120,6 @@
   equipment:
     outerClothing: ClothingOuterCoatBlueshield
 
-# Shoes
-- type: loadout
-  id: CombatBoots
-  equipment: CombatBoots
-
-- type: startingGear
-  id: CombatBoots
-  equipment:
-    shoes: ClothingShoesBootsCombatFilled
-
 # PDA
 - type: loadout
   id: BlueshieldPDA
