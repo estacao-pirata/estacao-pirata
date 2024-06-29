@@ -1,0 +1,34 @@
+# blueshield loadout
+- type: loadoutGroup
+  id: BlueshieldHead
+  name: loadout-group-Blueshield-head
+  minLimit: 0
+  loadouts:
+  - BlueshieldGrayBeret
+  - BlueshieldBeret
+
+- type: loadoutGroup
+  id: BlueshieldJumpsuit
+  name: loadout-group-Blueshield-jumpsuit
+  loadouts:
+  - BlueshieldJumpsuit
+  - BlueshieldJumpskirt
+  - BlueshieldJumpsuitGrey
+  - BlueshieldJumpskirtGrey
+
+- type: loadoutGroup
+  id: BlueshieldOuterClothing
+  name: loadout-group-Blueshield-outerclothing
+  minLimit: 0
+  loadouts:
+  - BSArmorVest
+  - BlueshieldCoat
+
+
+- type: loadoutGroup
+  id: BlueshieldBackpack
+  name: loadout-group-Blueshield-backpack
+  loadouts:
+  - BlueshieldBackpack
+  - BlueshieldSatchel
+  - BlueshieldDuffel

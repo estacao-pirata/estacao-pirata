@@ -1,10 +1,19 @@
 - type: entity
   parent: [ClothingOuterArmorHoS, ClothingOuterStorageBase]
   id: ClothingOuterCoatBlueshield
-  name: Blueshield Coat
-  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
+  name: BsCoatName
+  description: BsCoatDesc
   components:
   - type: Sprite
     sprite: EstacaoPirata/Clothing/OuterClothing/Coats/coatBlueshield.rsi
   - type: Clothing
     sprite: EstacaoPirata/Clothing/OuterClothing/Coats/coatBlueshield.rsi
+  - type: Armor #same as BS armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.5
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9

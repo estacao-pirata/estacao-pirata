@@ -185,6 +185,11 @@ loadout-group-paramedic-outerclothing = Paramedic outer clothing
 loadout-group-paramedic-shoes = Paramedic shoes
 loadout-group-paramedic-backpack = Paramedic backpack
 
+loadout-group-Blueshield-head = Chapeus do Blueshield
+loadout-group-Blueshield-jumpsuit = Roupas do Blueshield
+loadout-group-Blueshield-outerclothing = Sobretudos do Blueshield
+loadout-group-Blueshield-backpack = mochila do Blueshield
+
 # Wildcards
 loadout-group-reporter-jumpsuit = Reporter jumpsuit
 

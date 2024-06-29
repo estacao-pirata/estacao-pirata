@@ -31,3 +31,6 @@ ent-ClothingOuterCoatPirate = casaco de pirata
 ent-ClothingOuterCoatWarden = jaqueta blindada do carcereiro
     .desc = Uma jaqueta utilitária e resistente, planejada para proteger o carcereiro de ameaças iminentes.
 
+ent-ClothingOuterCoatBlueshield = jaqueta do Blueshield
+    .desc = Uma jaqueta armadurada para aqueles que queiram uma presença imponente de um Blueshield.
+

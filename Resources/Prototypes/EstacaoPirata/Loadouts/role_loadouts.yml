@@ -1,0 +1,9 @@
+- type: roleLoadout
+  id: JobBlueshield
+  groups:
+  - BlueshieldHead
+  - BlueshieldNeck
+  - BlueshieldJumpsuit
+  - BlueshieldOuterClothing
+  - BlueshieldBackpack
+  - Trinkets

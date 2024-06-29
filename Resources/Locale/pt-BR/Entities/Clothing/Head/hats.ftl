@@ -127,3 +127,5 @@ ent-ClothingHeadNurseHat = chapéu de enfermeiro
 ent-ClothingHeadRastaHat = chapéu rasta
     .desc = As fumaças falarão por mim...
 
+ent-ClothingHeadHatGrayBeretBlueshield = Boina cinza do Blueshield
+    .desc = Uma Boina cinza para indicar sua superioridade como guarda costas.

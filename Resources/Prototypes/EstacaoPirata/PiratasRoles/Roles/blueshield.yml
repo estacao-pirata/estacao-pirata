@@ -36,17 +36,10 @@
 - type: startingGear
   id: BlueshieldGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBlueshield
-    back: ClothingBackpackHOPFilled
-    shoes: ClothingShoesBootsCombatFilled
-    head: ClothingHeadHatBeretBlueshield
     gloves: ClothingHandsGlovesCombat
     eyes: ClothingEyesGlassesBlueshield
-    outerClothing: ClothingOuterVestBlueshield
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponDisabler
     id: BlueshieldPDA
-    ears: ClothingHeadsetAltSecurity
-  #innerClothingSkirt: ClothingUniformJumpskirtHoP  -- https://github.com/space-wizards/space-station-14/commit/12766fe6e37bb600a53693cfa5392892bc100685
-  #satchel: ClothingBackpackSatchelHOPFilled
-  #duffelbag: ClothingBackpackDuffelHOPFilled
+    ears: ClothingHeadsetAltBlueshield
+    shoes: ClothingShoesBootsCombatFilled

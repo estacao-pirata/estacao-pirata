@@ -15,7 +15,7 @@
         prob: 0.5
       - id: ClothingUniformJumpsuitBlueshield
       - id: ClothingEyesGlassesBlueshield
-      - id: ClothingHeadsetCommand
+      - id: ClothingHeadsetAltBlueshield
       - id: ClothingHeadHatBeretBlueshield
       - id: ClothingOuterVestBlueshield
       - id: ClothingHandsGlovesColorBlack

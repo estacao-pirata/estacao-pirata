@@ -159,3 +159,9 @@ ent-ClothingUniformJumpskirtLawyerPurple = saia roxa de terno de advogado
 
 ent-ClothingUniformJumpskirtLawyerGood = terno de bom advogado
     .desc = Um terno brega perfeito para um advogado CRIMINAL!
+
+ent-ClothingUniformJumpskirtBlueshield = Saia do Blueshield
+    .desc = Uma saia simples azul com uma braçadeira Amarela escrita Blueshield.
+
+ent-ClothingUniformJumpskirtGrayBlueshield = Saia cinza do Blueshield
+    .desc = Um uniforme curto, cinza com manchas azuis. Para uma Blueshield feminina.

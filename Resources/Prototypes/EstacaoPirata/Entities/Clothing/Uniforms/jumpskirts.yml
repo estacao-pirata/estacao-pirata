@@ -1,21 +1,21 @@
 - type: entity
   parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtGrayBlueshield
-  name: Saia cinza do Blueshield
-  description: A short-sleeved gray uniform, paired with grey armored cargo pants, all made out of a sturdy material. Blueshield standard issue.
+  id: ClothingUniformJumpskirtBlueshield
+  name: bsJumpSkirtName
+  description: bsJumpSkirtDesc
   components:
   - type: Sprite
-    sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/grayBlueshield.rsi
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/blueshield.rsi
   - type: Clothing
-    sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/grayBlueshield.rsi
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/blueshield.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtBlueshield
-  name: Saia do Blueshield
-  description: A short-sleeved gray uniform, paired with grey armored cargo pants, all made out of a sturdy material. Blueshield standard issue.
+  id: ClothingUniformJumpskirtGrayBlueshield
+  name: bsGrayJumpSkirtName
+  description: bsGrayJumpSkirtDesc
   components:
   - type: Sprite
-    sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/blueshield.rsi
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/grayBlueshield.rsi
   - type: Clothing
-    sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/blueshield.rsi
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/grayBlueshield.rsi

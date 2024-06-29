@@ -1,0 +1,141 @@
+# Head
+- type: loadout
+  id: BlueshieldGrayBeret
+  equipment: BlueshieldGrayBeret
+
+- type: startingGear
+  id: BlueshieldGrayBeret
+  equipment:
+    head: ClothingHeadHatGrayBeretBlueshield
+
+- type: loadout
+  id: BlueshieldBeret
+  equipment: BlueshieldBeret
+
+- type: startingGear
+  id: BlueshieldBeret
+  equipment:
+    head: ClothingHeadHatBeretBlueshield
+
+# Jumpsuit
+- type: loadout
+  id: BlueshieldJumpsuit
+  equipment: BlueshieldJumpsuit
+
+- type: startingGear
+  id: BlueshieldJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueshield
+
+- type: loadout
+  id: BlueshieldJumpskirt
+  equipment: BlueshieldJumpskirt
+
+- type: startingGear
+  id: BlueshieldJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtBlueshield
+
+- type: loadout
+  id: BlueshieldJumpsuitGrey
+  equipment: BlueshieldJumpsuitGrey
+
+- type: startingGear
+  id: BlueshieldJumpsuitGrey
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitGrayBlueshield
+
+- type: loadout
+  id: BlueshieldJumpskirtGrey
+  equipment: BlueshieldJumpskirtGrey
+
+- type: startingGear
+  id: BlueshieldJumpskirtGrey
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtGrayBlueshield
+
+# Back
+- type: loadout
+  id: BlueshieldBackpack
+  equipment: BlueshieldBackpack
+
+- type: startingGear
+  id: BlueshieldBackpack
+  equipment:
+    back: ClothingBackpackBlueshieldFilled
+
+- type: loadout
+  id: BlueshieldSatchel
+  equipment: BlueshieldSatchel
+
+- type: startingGear
+  id: BlueshieldSatchel
+  equipment:
+    back: ClothingBackpackSatchelBlueshieldFilled
+
+- type: loadout
+  id: BlueshieldDuffel
+  equipment: BlueshieldDuffel
+
+- type: startingGear
+  id: BlueshieldDuffel
+  equipment:
+    back: ClothingBackpackDuffelBlueshieldFilled
+
+# Belt
+- type: loadout
+  id: BlueshieldBelt
+  equipment: BlueshieldBelt
+
+- type: startingGear
+  id: BlueshieldBelt
+  equipment:
+    belt: ClothingBeltSecurityFilled
+
+- type: loadout
+  id: BlueshieldWebbing
+  equipment: BlueshieldWebbing
+
+- type: startingGear
+  id: BlueshieldWebbing
+  equipment:
+    belt: ClothingBeltSecurityWebbingFilled
+
+# Outerclothing
+- type: loadout
+  id: BSArmorVest
+  equipment: BSArmorVest
+
+- type: startingGear
+  id: BSArmorVest
+  equipment:
+    outerClothing: ClothingOuterVestBlueshield
+
+- type: loadout
+  id: BlueshieldCoat
+  equipment: BlueshieldCoat
+
+- type: startingGear
+  id: BlueshieldCoat
+  equipment:
+    outerClothing: ClothingOuterCoatBlueshield
+
+# Shoes
+- type: loadout
+  id: CombatBoots
+  equipment: CombatBoots
+
+- type: startingGear
+  id: CombatBoots
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled
+
+# PDA
+- type: loadout
+  id: BlueshieldPDA
+  equipment: BlueshieldPDA
+
+- type: startingGear
+  id: BlueshieldPDA
+  equipment:
+    id: BlueshieldPDA

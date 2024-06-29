@@ -225,3 +225,6 @@ ent-ClothingUniformJumpsuitMonasticRobeLight = manto monástico leve
 
 ent-ClothingUniformJumpsuitMusician = smoking do músico
     .desc = Um smoking chique para quem gosta de música. Perfeito para qualquer ato lounge!
+
+ent-ClothingUniformJumpsuitGrayBlueshield = Uniforme cinza do Blueshield
+    .desc = Um uniforme cinza de mangas curtas combinado com calças blindadas, todas feitas de material resistente. uniforme padrão de um belo Blueshield.
