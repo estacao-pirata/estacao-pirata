@@ -203,7 +203,6 @@
   description: Flatpack do centro do gerador.
   components:
   - type: Flatpack
-    sprite: Objects/Devices/flatpack.rsi
     entity: TegCenter
   - type: Sprite
     layers:
@@ -218,7 +217,6 @@
   description: Flatpack do circulador do gerador.
   components:
   - type: Flatpack
-    sprite: Objects/Devices/flatpack.rsi
     entity: TegCirculator
   - type: Sprite
     layers:
@@ -227,5 +225,3 @@
     guides: [ Power ] 
 
 
-
-    
