@@ -1,4 +1,3 @@
-using Content.Client._RMC14.LinkAccount;
 using Content.Client._RMC14.Mapping;
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
@@ -50,10 +49,7 @@ namespace Content.Client.IoC
             collection.Register<DocumentParsingManager>();
             collection.Register<ContentReplayPlaybackManager, ContentReplayPlaybackManager>();
             collection.Register<ISharedPlaytimeManager, JobRequirementsManager>();
-
-            // RMC14
             collection.Register<MappingManager>();
-            collection.Register<LinkAccountManager>();
         }
     }
 }

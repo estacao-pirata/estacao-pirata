@@ -1,5 +1,4 @@
-﻿using Content.Client._RMC14.LinkAccount;
-using Content.Client._RMC14.Roadmap;
+﻿using Content.Client._RMC14.Roadmap;
 using Content.Client.Changelog;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Systems.EscapeMenu;
@@ -57,16 +56,6 @@ namespace Content.Client.Info
             };
             roadmapButton.OnPressed += _ => UserInterfaceManager.GetUIController<RoadmapUIController>().ToggleRoadmap();
             buttons.AddChild(roadmapButton);
-
-            var linkAccount = UserInterfaceManager.GetUIController<LinkAccountUIController>();
-            var linkAccountButton = new Button
-            {
-                Text = Loc.GetString("rmc-ui-link-discord-account"),
-            };
-            linkAccountButton.OnPressed += _ => linkAccount.ToggleWindow();
-            buttons.AddChild(linkAccountButton);
-
-            AddInfoButton("rmc-ui-patreon", CCVars.InfoLinksPatreon);
 
             void AddInfoButton(string loc, CVarDef<string> cVar)
             {

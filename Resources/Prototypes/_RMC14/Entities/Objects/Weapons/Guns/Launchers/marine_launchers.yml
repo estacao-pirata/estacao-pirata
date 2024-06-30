@@ -52,8 +52,6 @@
   - type: GunShowUseDelay
   - type: UseDelay
   - type: GunIFF
-  - type: RMCNameItemOnVend
-    item: PrimaryGun
 
 - type: entity
   name: M79 grenade launcher
@@ -97,5 +95,3 @@
   - type: AmmoFixedDistance
   - type: Wieldable
   - type: GunRequiresWield
-  - type: RMCNameItemOnVend
-    item: PrimaryGun

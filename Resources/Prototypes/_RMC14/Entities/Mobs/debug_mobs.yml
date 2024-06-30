@@ -9,9 +9,9 @@
     prototypes: [ CMGearStaffOfficer ]
 
 - type: entity
-  parent: MarkerBase
+  name: CM Test Dummy Spawner
   id: SpawnCMTestDummy
-  name: RMC Test Dummy Spawner
+  parent: MarkerBase
   suffix: DEBUG
   components:
   - type: Sprite
