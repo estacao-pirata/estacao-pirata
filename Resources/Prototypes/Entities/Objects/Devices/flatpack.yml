@@ -195,3 +195,33 @@
     - state: overlay
       color: "#cec8ac"
     - state: icon-default
+
+- type: entity
+  parent: BaseFlatpack
+  id: TegCenterFlatPack
+  name: tegcenter flatpack
+  description: Flatpack do centro do gerador.
+  components:
+  - type: Flatpack
+    entity: TegCenter
+  - type: Sprite
+    layers:
+    - state: solar-assembly-part
+  - type: GuideHelp
+    guides: [ Power ] 
+
+- type: entity
+  parent: BaseFlatpack
+  id: TegCirculatorFlatPack
+  name: tegcirculator flatpack
+  description: Flatpack do circulador do gerador.
+  components:
+  - type: Flatpack
+    entity: TegCirculator
+  - type: Sprite
+    layers:
+    - state: solar-assembly-part
+  - type: GuideHelp
+    guides: [ Power ] 
+
+

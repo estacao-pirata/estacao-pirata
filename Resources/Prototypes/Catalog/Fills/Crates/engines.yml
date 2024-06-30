@@ -169,3 +169,23 @@
   - type: StorageFill
     contents:
       - id: TeslaGroundingRodFlatpack
+
+- type: entity
+  id: CrateTEG
+  parent: CrateEngineeringSecure
+  name: caixa de gerador termoelétrico
+  description: Deixe técnicos da atmosfera felizes cuidando da energia.
+  components:
+  - type: StorageFill
+    contents:
+      - id: TegCenterFlatPack
+      - id: TegCirculatorFlatPack
+        amount: 2
+
+ 
+
+
+      
+
+
+
