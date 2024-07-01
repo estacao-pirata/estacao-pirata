@@ -1,0 +1,2 @@
+reagent-name-rmcphoron = Phoron
+reagent-desc-rmcphoron = Uma forma especial de plasma met?lico que n?o ? encontrado na Terra.Embora o Phoron seja altamente inflam?vel e extremamente t?xico, sua alta densidade de energia o torna uma das melhores alternativas de combust?vel s?lido.O l?quido Foron ? frequentemente usado para fins de pesquisa e, na ind?stria m?dica, um catalisador para muitos produtos qu?micos avan?ados.

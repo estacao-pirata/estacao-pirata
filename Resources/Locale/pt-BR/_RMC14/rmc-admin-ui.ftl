@@ -1,0 +1,13 @@
+﻿rmc-ui-cm-actions = Ações RMC
+rmc-ui-transform-tab = Transformar
+rmc-ui-xeno-tab = Xeno
+rmc-ui-squads-tab = Esquadrões
+rmc-ui-xeno-hive = Hive:
+rmc-ui-open-rmc-actions = Abra as ações RMC
+rmc-ui-create-new-hive = Crie uma nova colméia
+rmc-ui-create-hive-title = Novo nome da colméia
+rmc-ui-humanoid = Humanóide
+rmc-ui-tier = Nível {$Tier}
+rmc-ui-create-squad = Crie esquadrão
+rmc-ui-members = Membros: {$members}
+rmc-ui-add-to-squad = Adicione ao esquadrão
