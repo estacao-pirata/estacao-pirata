@@ -4,7 +4,7 @@ cm-xeno-not-enough-plasma = Você não tem plasma suficiente!
 # Construction
 cm-xeno-choose-resin-structure = Escolha a estrutura da resina
 cm-xeno-order-construction = Estrutura de construção
-cm-xeno-too-close-to-other-node = Isso é muito próximo de {o ($Target)}!
+cm-xeno-too-close-to-other-node = Isso é muito próximo de {THE($target)}!
 cm-xeno-requires-more-plasma = {The ($ Construction)} requer {$plasma} mais plasma.
 cm-xeno-construction-plasma-left = Uma construção {$Construction} é designada aqui.Requer [cor=cyan] {$plasma} [/color] Mais plasma.
 cm-xeno-cant-reach-there = Você não pode chegar lá!
@@ -34,13 +34,13 @@ cm-xeno-leap-cancelled = Você cancela seu salto!
 cm-xeno-weeds-source-already-here = Já existe um nó de resina aqui!
 
 # Corrosive acid
-cm-xeno-acid-not-corrodible = Você não pode corroer {o ($Target)}!
-cm-xeno-acid-already-corroding = {O ($Target)} já possui ácido corrosivo!
+cm-xeno-acid-not-corrodible = Você não pode corroer {THE($target)}!
+cm-xeno-acid-already-corroding = {THE($target)} já possui ácido corrosivo!
 
 # Paralyzing Slash
 cm-xeno-paralyzing-slash-activate = Nossa próxima barra aplicará neurotoxina!
 cm-xeno-paralyzing-slash-expire = Você esperou muito tempo, sua barra não aplicará mais neurotoxina!
-cm-xeno-paralyzing-slash-hit = Você adiciona neurotoxina ao seu ataque, {$Target} está prestes a cair paralisado!
+cm-xeno-paralyzing-slash-hit = Você adiciona neurotoxina ao seu ataque, {$target} está prestes a cair paralisado!
 
 # Crippling Strike
 cm-xeno-crippling-strike-activate = Nossa próxima barra aplicará neurotoxina!
@@ -78,10 +78,10 @@ cm-xeno-toggle-crest-cant-rest = Você não pode descansar enquanto sua crista e
 cm-xeno-toggle-crest-cant-tail-sweep = Você não pode varrer a cauda enquanto sua crista está abaixada!
 
 # Transfer Plasma
-cm-xeno-plasma-transferred-to-other = Você transferiu {$plasma} plasma para {$Target}.Agora você tem {$total}
-cm-xeno-plasma-transferred-to-self = {$Target} transferiu {$plasma} plasma para você.Agora você tem {$total}
+cm-xeno-plasma-transferred-to-other = Você transferiu {$plasma} plasma para {$target}.Agora você tem {$total}
+cm-xeno-plasma-transferred-to-self = {$target} transferiu {$plasma} plasma para você.Agora você tem {$total}
 cm-xeno-plasma-cannot-self = Você não pode transferir o plasma para si mesmo!
-cm-xeno-plasma-other-max-zero = {$Target} não tem uso para o plasma!
+cm-xeno-plasma-other-max-zero = {$target} não tem uso para o plasma!
 
 # Watch
 cm-xeno-watch = Assista Xeno

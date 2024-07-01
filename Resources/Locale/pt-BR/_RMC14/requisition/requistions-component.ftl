@@ -1,6 +1,6 @@
 # Requisition Computer
-requisition-paperwork-receiver-name = Ramo de log?stica
-requisition-paperwork-reward-message = Confirma??o recebida!Transferido $ {$amount} do super?vit or?ament?rio
+requisition-paperwork-receiver-name = Ramo de logística
+requisition-paperwork-reward-message = Confirmação recebida! Transferido ${$amount} do superávit orçamentário
 
 # Requisition Invoice
 requisition-paper-print-name = {$name} fatura

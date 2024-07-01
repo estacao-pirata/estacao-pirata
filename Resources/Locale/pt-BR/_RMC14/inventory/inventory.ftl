@@ -1,1 +1,1 @@
-cm-inventory-unable-equip = Voc? n?o pode equipar isso.
+cm-inventory-unable-equip = Você não pode equipar isso.

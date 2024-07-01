@@ -1,10 +1,10 @@
 # command
 department-CMCommand = Comando
-cm-department-Command-description = O departamento de comando ? o c?rebro do USS Almayer, liderando e coordenando os esquadr?es e a outra equipe de suporte do navio para lutar e vencer contra os alien?genas.
+cm-department-Command-description = O departamento de comando é o c?rebro do USS Almayer, liderando e coordenando os esquadr?es e a outra equipe de suporte do navio para lutar e vencer contra os alienígenas.
 
 # military police
 department-CMMilitaryPolice = Pol?cia Militar
-cm-department-MilitaryPolice-description = Aplicar direito marinho.Deter criminosos.Mantenha o pessoal do Shipside em seguran?a.
+cm-department-MilitaryPolice-description = Aplicar direito marinho.Deter criminosos.Mantenha o pessoal do Shipside em segurança.
 
 # requisitions
 department-CMRequisitions = Requisi??es
@@ -16,7 +16,7 @@ cm-department-Marine-description = Eles formam o principal corpo de combate do A
 
 # engineering
 department-CMEngineering = Engenharia
-cm-department-Engineering-description = Seu trabalho ? manter o motor do navio e manter tudo funcionando.
+cm-department-Engineering-description = Seu trabalho é manter o motor do navio e manter tudo funcionando.
 
 # medical
 department-CMMedbay = Medbay

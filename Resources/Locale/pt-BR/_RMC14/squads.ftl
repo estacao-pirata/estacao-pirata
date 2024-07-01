@@ -1,7 +1,7 @@
-squad-alpha = Esquadr?o Alpha
-squad-bravo = Esquadr?o Bravo
-squad-charlie = Esquadr?o Charlie
-squad-delta = Esquadr?o delta
+squad-alpha = esquadrão Alpha
+squad-bravo = esquadrão Bravo
+squad-charlie = esquadrão Charlie
+squad-delta = esquadrão delta
 
 squad-alpha-name = Alfa {$name}
 squad-bravo-name = Bravo {$name}

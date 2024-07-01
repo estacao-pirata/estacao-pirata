@@ -1,1 +1,1 @@
-cm-crp-take-off-mask = Tire a m?scara primeiro!
+cm-crp-take-off-mask = Tire a máscara primeiro!

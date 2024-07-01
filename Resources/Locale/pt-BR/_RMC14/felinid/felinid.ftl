@@ -1,6 +1,6 @@
-species-name-felinid = Felinid 
+species-name-felinid = Felinid
 
-marking-FelinidEarsBasic = Ouvidos b?sicos
+marking-FelinidEarsBasic = Ouvidos básicos
 marking-FelinidEarsBasic-basic_outer = Ouvido externo
 marking-FelinidEarsBasic-basic_inner = Ouvido interno
 
