@@ -1,6 +1,6 @@
 ﻿# medical
 cm-job-name-cmo = Diretor médico
-cm-job-description-cmo = Supervisionar Medbay, pesquisa e química.Gerencie sua tripulação médica.Aconselhe a equipe de comando sobre questões de saúde e bem -estar da força marinha.
+cm-job-description-cmo = Supervisionar Medbay, pesquisa e química.Gerencie sua tripulação médica.Aconselhe a equipe de comando sobre questões de saúde e bem-estar da força marinha.
 CMJobCMO = Diretor médico
 
 cm-job-name-doctor = Doutor
