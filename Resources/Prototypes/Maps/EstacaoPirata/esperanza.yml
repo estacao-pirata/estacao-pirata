@@ -3,7 +3,7 @@
   mapName: 'Esperanza'
   mapPath: /Maps/EstacaoPirata/esperanza.yml
   minPlayers: 0
-  maxPlayers: 20
+  maxPlayers: 30
   stations:
     Esperanza:
       stationProto: StandardNanotrasenStation
