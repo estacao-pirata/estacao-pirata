@@ -74,7 +74,7 @@
   - type: ApcPowerReceiver
     powerLoad: 0
   - type: XenoConstructionPlasmaCost
-    plasma: 200
+    plasma: 120
   - type: MeleeReceivedMultiplier
     xenoDamage:
       types:

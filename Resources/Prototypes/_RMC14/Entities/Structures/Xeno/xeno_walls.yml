@@ -16,13 +16,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1000
+        damage: 900
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: XenoNestSurface
   - type: XenoConstructionPlasmaCost
-    plasma: 110
+    plasma: 120
   - type: MeleeReceivedMultiplier
     xenoDamage:
       types:
@@ -46,7 +46,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1500
+        damage: 1350
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -65,7 +65,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 400
+        damage: 300
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -86,7 +86,7 @@
         density: 1000
   - type: XenoNestSurface
   - type: XenoConstructionPlasmaCost
-    plasma: 90
+    plasma: 95
   - type: MeleeReceivedMultiplier
     xenoDamage:
       types:
@@ -130,7 +130,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 750
+        damage: 600
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
