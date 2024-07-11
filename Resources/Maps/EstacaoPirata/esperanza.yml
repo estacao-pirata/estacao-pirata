@@ -1212,7 +1212,8 @@ entities:
           3,-4:
             0: 65520
           3,-3:
-            0: 56785
+            2: 1
+            0: 56784
           3,-2:
             0: 48897
           3,-1:
@@ -1332,7 +1333,8 @@ entities:
           4,-9:
             0: 65535
           3,-8:
-            0: 65311
+            0: 65307
+            2: 4
           4,-7:
             0: 4064
           3,-7:
@@ -1395,14 +1397,15 @@ entities:
             0: 61695
           1,-8:
             1: 28672
-            2: 2
+            3: 2
             0: 236
           1,-7:
             0: 3840
           1,-6:
             0: 65135
           1,-9:
-            0: 57599
+            0: 49407
+            2: 8192
           2,-7:
             0: 36744
           2,-6:
@@ -1804,7 +1807,7 @@ entities:
             1: 65280
           16,-6:
             0: 112
-            3: 28672
+            4: 28672
           16,-5:
             0: 28784
           12,3:
@@ -1861,6 +1864,21 @@ entities:
           moles:
           - 20.078888
           - 75.53487
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.1493
+          moles:
+          - 11.200938
+          - 42.13687
           - 0
           - 0
           - 0
@@ -3784,36 +3802,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 17.5,9.5
       parent: 2
-- proto: BaseCartuchoPlasmaCutter
-  entities:
-  - uid: 750
-    components:
-    - type: Transform
-      parent: 3235
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 751
-    components:
-    - type: Transform
-      parent: 3235
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 868
-    components:
-    - type: Transform
-      parent: 3235
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 888
-    components:
-    - type: Transform
-      parent: 3235
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: BeachBall
   entities:
   - uid: 1017
@@ -4166,6 +4154,11 @@ entities:
       parent: 2
 - proto: Bookshelf
   entities:
+  - uid: 868
+    components:
+    - type: Transform
+      pos: 40.5,-11.5
+      parent: 2
   - uid: 6126
     components:
     - type: Transform
@@ -18014,6 +18007,24 @@ entities:
     - type: Transform
       pos: 14.5,-31.5
       parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
   - uid: 3390
     components:
     - type: Transform
@@ -18632,7 +18643,7 @@ entities:
       parent: 2
 - proto: CrateCargoLuxuryHardsuit
   entities:
-  - uid: 3235
+  - uid: 750
     components:
     - type: Transform
       pos: 5.5,-31.5
@@ -18641,10 +18652,10 @@ entities:
       air:
         volume: 200
         immutable: False
-        temperature: 293.14673
+        temperature: 293.14392
         moles:
-        - 1.7459903
-        - 6.568249
+        - 0.97399455
+        - 3.6640756
         - 0
         - 0
         - 0
@@ -18655,21 +18666,6 @@ entities:
         - 0
         - 0
         - 0
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 888
-          - 883
-          - 750
-          - 751
-          - 868
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
 - proto: CrateEmptySpawner
   entities:
   - uid: 3210
@@ -30201,11 +30197,6 @@ entities:
           - 6710
 - proto: Jukebox
   entities:
-  - uid: 2080
-    components:
-    - type: Transform
-      pos: 40.5,-11.5
-      parent: 2
   - uid: 7671
     components:
     - type: Transform
@@ -30380,6 +30371,24 @@ entities:
     - type: Transform
       pos: 12.5,-11.5
       parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: LockerElectricalSuppliesFilled
   entities:
   - uid: 3484
@@ -30475,6 +30484,24 @@ entities:
     - type: Transform
       pos: 5.5,-32.5
       parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: LockerResearchDirectorFilledHardsuit
   entities:
   - uid: 3046
@@ -32774,6 +32801,21 @@ entities:
       parent: 2
 - proto: RadioHandheld
   entities:
+  - uid: 751
+    components:
+    - type: Transform
+      pos: 40.25425,-11.571628
+      parent: 2
+  - uid: 883
+    components:
+    - type: Transform
+      pos: 40.723,-11.618503
+      parent: 2
+  - uid: 888
+    components:
+    - type: Transform
+      pos: 40.473,-11.602878
+      parent: 2
   - uid: 3482
     components:
     - type: Transform
@@ -46065,15 +46107,6 @@ entities:
     - type: Transform
       pos: 14.498774,-7.128729
       parent: 2
-- proto: WeaponPistolPlasmaCutter
-  entities:
-  - uid: 883
-    components:
-    - type: Transform
-      parent: 3235
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: WeaponRevolverMateba
   entities:
   - uid: 2825
