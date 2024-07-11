@@ -23,8 +23,14 @@ namespace Content.Server.StationEvents
         [Dependency] private readonly IRobustRandom _random = default!;
         [Dependency] private readonly EventManagerSystem _event = default!;
 
+	// Pirata
+        public const float MinEventTime = 60 * 5;
+        public const float MaxEventTime = 60 * 30;
+	/*
         public const float MinEventTime = 60 * 3;
         public const float MaxEventTime = 60 * 10;
+
+	*/
 
         protected override void Ended(EntityUid uid, BasicStationEventSchedulerComponent component, GameRuleComponent gameRule,
             GameRuleEndedEvent args)
