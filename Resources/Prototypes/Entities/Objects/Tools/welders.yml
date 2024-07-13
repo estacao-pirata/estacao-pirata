@@ -105,7 +105,7 @@
   - type: WeldingHealing # Same as Brutepack
     damageContainers:
       - Silicon
-    fuelcost: 5
+    fuelCost: 5
     damage:
       groups:
         Brute: -10

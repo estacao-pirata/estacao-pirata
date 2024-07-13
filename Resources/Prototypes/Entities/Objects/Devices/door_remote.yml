@@ -159,6 +159,10 @@
     - type: Access
       groups:
         - FireFight
+      tags:
+      - Engineering
+      - Atmospherics
+      - Maintenance
 
 - type: entity
   parent: DoorRemoteDefault

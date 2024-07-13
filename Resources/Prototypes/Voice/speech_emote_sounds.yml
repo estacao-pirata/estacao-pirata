@@ -34,6 +34,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
 
 - type: emoteSounds
   id: FemaleHuman
@@ -70,9 +72,11 @@
       collection: Whistles
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
 
 - type: emoteSounds
-  id: UnisexReptilian
+  id: MaleReptilian
   params:
     variation: 0.125
   sounds:
@@ -88,6 +92,28 @@
       collection: MaleCry
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
+
+- type: emoteSounds
+  id: FemaleReptilian
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+    Laugh:
+      path: /Audio/Animals/lizard_happy.ogg
+    Honk:
+      collection: BikeHorn
+    Whistle:
+      collection: Whistles
+    Crying:
+      collection: FemaleCry
+    Weh:
+      collection: Weh
+    Fart:
+      collection: Farts
 
 - type: emoteSounds
   id: MaleSlime
@@ -124,6 +150,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
   params:
     variation: 0.125
 
@@ -162,6 +190,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
   params:
     variation: 0.125
 
@@ -172,6 +202,8 @@
       path: /Audio/Voice/Vox/shriek1.ogg
     Laugh:
       path: /Audio/Voice/Vox/vox_laugh.ogg
+    Fart:
+      collection: Farts
   params:
     variation: 0.125
     # We need vox sounds for the other emotes
@@ -187,6 +219,8 @@
       collection: BikeHorn
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
   params:
     variation: 0.125
 
@@ -205,6 +239,8 @@
       path: /Audio/Voice/Arachnid/arachnid_click.ogg
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
 
 - type: emoteSounds
   id: UnisexDwarf
@@ -239,6 +275,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
   params:
     variation: 0.125
     pitch: 0.75
@@ -276,6 +314,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
   params:
     variation: 0.125
     pitch: 0.75
@@ -297,6 +337,8 @@
       path: /Audio/Voice/Moth/moth_squeak.ogg
     Weh:
       collection: Weh
+    Fart:
+      collection: Farts
 
 - type: emoteSounds
   id: UnisexSilicon
@@ -315,6 +357,30 @@
       path: /Audio/Items/bikehorn.ogg
     Ping:
       path: /Audio/Effects/Cargo/ping.ogg
+    Fart:
+      collection: Farts
+
+- type: emoteSounds
+  id: UnisexSiliconSyndicate
+  params:
+    variation: 0.05
+  sounds:
+    Laugh:
+      path: /Audio/Voice/Silicon/syndieborg_laugh.ogg
+    Beep:
+      path: /Audio/Machines/twobeep.ogg
+    Chime:
+      path: /Audio/Machines/chime.ogg
+    Buzz:
+      path: /Audio/Machines/buzz-sigh.ogg
+    Buzz-Two:
+      path: /Audio/Machines/buzz-two.ogg
+    Honk:
+      path: /Audio/Items/bikehorn.ogg
+    Ping:
+      path: /Audio/Effects/Cargo/ping.ogg
+    Fart:
+      collection: Farts
 
 # body emotes
 - type: emoteSounds
@@ -328,6 +394,8 @@
         volume: -6
     Salute:
       collection: Salutes
+    Fart:
+      collection: Farts
 
 - type: emoteSounds
   id: DionaBodyEmotes
@@ -342,6 +410,8 @@
       path: /Audio/Voice/Diona/diona_salute.ogg
       params:
        volume: -5
+    Fart:
+      collection: Farts
 
 # mobs
 - type: emoteSounds
@@ -398,8 +468,6 @@
   params:
     variation: 0.125
   sounds:
-    Buzz:
-      path: /Audio/Effects/Cargo/buzz_sigh.ogg
     Scream:
       path: /Audio/EstacaoPirata/Voice/IPC/robot-scream.ogg
     Laugh:
@@ -414,14 +482,26 @@
       collection: CatHisses
     MonkeyScreeches:
       collection: MonkeyScreeches
-    RobotBeep:
-      path: /Audio/Effects/Cargo/buzz_two.ogg
     Sigh:
       path: /Audio/Voice/Talk/pai.ogg
     Crying:
       path: /Audio/EstacaoPirata/Voice/IPC/cry_robot_1.ogg
     Whistle:
       path: /Audio/Voice/Talk/pai.ogg
+    RobotBeep:
+      path: /Audio/Effects/Cargo/buzz_two.ogg
+    Beep:
+      path: /Audio/Machines/twobeep.ogg
+    Chime:
+      path: /Audio/Machines/chime.ogg
+    Buzz:
+      path: /Audio/Machines/buzz-sigh.ogg
+    Buzz-Two:
+      path: /Audio/Machines/buzz-two.ogg
+    Ping:
+      path: /Audio/Effects/Cargo/ping.ogg
+    Fart:
+      collection: Farts
 
 - type: emoteSounds
   id: Nymph

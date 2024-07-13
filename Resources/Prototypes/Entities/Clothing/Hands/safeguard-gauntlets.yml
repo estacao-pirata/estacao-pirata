@@ -25,12 +25,12 @@
   - type: MeleeSpeech
   - type: ActivatableUI
     key: enum.MeleeSpeechUiKey.Key
-    closeOnHandDeselect: false
-    rightClickOnly: true
+    requireActiveHand: false # Atualizados em: https://github.com/space-wizards/space-station-14/pull/27448/
+    verbOnly: true
   - type: Actions
   - type: UserInterface
     interfaces:
-      - key: enum.MeleeSpeechUiKey.Key
+      enum.MeleeSpeechUiKey.Key:
         type: MeleeSpeechBoundUserInterface
   - type: StaticPrice
     price: 0

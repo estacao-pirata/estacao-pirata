@@ -10,7 +10,7 @@
     contents:
       - id: BoxSurvivalSecurity
       - id: Flash
-      - id: WeaponPistolMk58Nonlethal
+      - id: WeaponPistolMk58 # Removeram Non Lethal em https://github.com/space-wizards/space-station-14/commit/735eeefa03c85924b01b3210ad462acbc1a71c87
       - id: MagazinePistol
 
 - type: entity
@@ -22,7 +22,7 @@
     contents:
       - id: BoxSurvivalSecurity
       - id: Flash
-      - id: WeaponPistolMk58Nonlethal
+      - id: WeaponPistolMk58 # Removeram Non Lethal em https://github.com/space-wizards/space-station-14/commit/735eeefa03c85924b01b3210ad462acbc1a71c87
       - id: MagazinePistol
 
 - type: entity
@@ -34,7 +34,7 @@
     contents:
       - id: BoxSurvivalSecurity
       - id: Flash
-      - id: WeaponPistolMk58Nonlethal
+      - id: WeaponPistolMk58 # Removeram Non Lethal em https://github.com/space-wizards/space-station-14/commit/735eeefa03c85924b01b3210ad462acbc1a71c87
       - id: MagazinePistol
 
 # Soldado

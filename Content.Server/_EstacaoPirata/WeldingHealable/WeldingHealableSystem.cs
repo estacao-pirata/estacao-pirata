@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Content.Server._EstacaoPirata.WeldingHealing;
 using Content.Server.Administration.Logs;
 using Content.Server.Stack;
-using Content.Server.Tools.Components;
+//using Content.Server.Tools.Components;
 using Content.Shared._EstacaoPirata.WeldingHealing;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;
@@ -60,13 +60,6 @@ namespace Content.Server._EstacaoPirata.WeldingHealable
             if (!HasDamage(damageable, component))
                 return;
 
-            if (TryComp(args.Used, out WelderComponent? welder) &&
-                TryComp(args.Used, out SolutionContainerManagerComponent? solutionContainer))
-            {
-                if (!_solutionContainer.ResolveSolution(((EntityUid) args.Used, solutionContainer), welder.FuelSolutionName, ref welder.FuelSolution, out var solution))
-                    return;
-                _solutionContainer.RemoveReagent(welder.FuelSolution.Value, welder.FuelReagent, component.FuelCost);
-            }
 
             var str = Loc.GetString("comp-repairable-repair",
                 ("target", uid),
@@ -79,7 +72,7 @@ namespace Content.Server._EstacaoPirata.WeldingHealable
                 args.Handled = _toolSystem.UseTool(args.Used.Value, args.User, uid, args.Delay, component.QualityNeeded, new SiliconRepairFinishedEvent
                 {
                     Delay = args.Delay
-                });
+                }, component.FuelCost);
             }
         }
 
@@ -122,7 +115,7 @@ namespace Content.Server._EstacaoPirata.WeldingHealable
             args.Handled = _toolSystem.UseTool(args.Used, args.User, args.Target, delay, component.QualityNeeded, new SiliconRepairFinishedEvent
             {
                 Delay = delay,
-            });
+            }, component.FuelCost);
 
         }
         private bool HasDamage(DamageableComponent component, WeldingHealingComponent healable)

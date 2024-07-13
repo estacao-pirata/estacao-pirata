@@ -85,7 +85,7 @@
   time: 5
   solids:
     FoodMealNachos: 1
-    FoodChili: 1
+    FoodChiliPepper: 1
 
 #Salame seria uma boa colocar como craft. Atualmente não sei fazer isso.
 - type: microwaveMealRecipe

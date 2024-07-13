@@ -13,11 +13,11 @@
   - type: SotaquePortunhol
 
 - type: trait
-  id: Gaúcho
+  id: Gaucho
   name: Sotaque Gaúcho
   description: Bah tche bah bah tche bah
   components:
-  - type: SotaqueGaúcho
+  - type: SotaqueGaucho
 
 - type: trait
   id: Paulista

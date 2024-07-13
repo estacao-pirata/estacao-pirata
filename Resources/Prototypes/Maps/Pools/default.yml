@@ -10,12 +10,18 @@
   - Fland
   - Marathon
   - Meta
+  - Oasis
   - Omega
   - Origin
   - Saltern
   - Packed
   - Reach
+  - Train
+
+  # Mapas do Pirata
   - Falcon
-  #- RadStation
+  - RadStation
+  - Gaxstation
+  - Glacier
+  - Esperanza
   #- EstacaoPirata
-  #- Train <- return after station anchoring PR is finished and merged

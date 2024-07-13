@@ -1,8 +1,7 @@
 using Content.Shared.Chemistry.Reagent;
-using Content.Server.Medical;
-using Content.Server.Atmos.Rotting;
 using JetBrains.Annotations;
 using Robust.Shared.Prototypes;
+using Content.Server.Atmos.Rotting;
 
 namespace Content.Server.Chemistry.ReagentEffects
 {
@@ -12,15 +11,13 @@ namespace Content.Server.Chemistry.ReagentEffects
     [UsedImplicitly]
     public sealed partial class ReduceRotting : ReagentEffect
     {
-        [DataField("rottingAmount")]
+        [DataField("seconds")]
         public double RottingAmount = 10;
 
         protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
-        {
-            return Loc.GetString("reagent-effect-guidebook-reduce-rotting",
-                                 ("chance", Probability),
-                                 ("time", RottingAmount));
-        }
+            => Loc.GetString("reagent-effect-guidebook-reduce-rotting",
+                ("chance", Probability),
+                ("time", RottingAmount));
         public override void Effect(ReagentEffectArgs args)
         {
             if (args.Scale != 1f)

@@ -1,0 +1,98 @@
+#Por algum motivo esse arquivo foi removido, ele ficava em /_Nyano/Voice/speech_emotes.yml
+# vocal emotes
+- type: emote
+  name: Hiss
+  id: Hiss
+  category: Vocal
+  chatMessages: [hisses.]
+  chatTriggers:
+    - hiss
+    - hiss.
+    - hisses
+    - hisses.
+    - hiss!
+    - hisses!
+    - hissing
+    - hissing.
+    - hissed
+    - hissed.
+
+- type: emote
+  name: Meow
+  id: Meow
+  category: Vocal
+  chatMessages: [meows.]
+  chatTriggers:
+    - meow
+    - meow.
+    - meows
+    - meows.
+    - meow!
+    - meows!
+    - meowing
+    - meowing.
+    - meowed
+    - meowed.
+    - miau
+    - miau.
+    - miaus
+    - miaus.
+    - miau!
+    - miaus!
+    - nya
+    - nya.
+    - nyas
+    - nyas.
+    - nya!
+    - nyas!
+
+- type: emote
+  name: Mew
+  id: Mew
+  category: Vocal
+  chatMessages: [mews.]
+  chatTriggers:
+    - mew
+    - mew.
+    - mews
+    - mews.
+    - mew!
+    - mews!
+    - mewing
+    - mewing.
+    - mewed
+    - mewed.
+
+- type: emote
+  name: Growl
+  id: Growl
+  category: Vocal
+  chatMessages: [growls.]
+  chatTriggers:
+    - growl
+    - growl.
+    - growls
+    - growls.
+    - growl!
+    - growls!
+    - growling
+    - growling.
+    - growled
+    - growled.
+
+- type: emote
+  name: Purr
+  id: Purr
+  category: Vocal
+  chatMessages: [purrs.]
+  chatTriggers:
+    - purr
+    - purr.
+    - purrs
+    - purrs.
+    - purr!
+    - purrs!
+    - purring
+    - purring.
+    - purred
+    - purred.

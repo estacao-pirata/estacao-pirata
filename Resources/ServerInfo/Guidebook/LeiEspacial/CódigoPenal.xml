@@ -7,90 +7,88 @@ Na maioria deles, um aviso pode ser suficiente em vez de uma prisão.
 Codigo > Ofensa > Punição Minima > Punição Máxima
 Descrição > Notas
 
-- 101 | Invasão | Aviso | 4:00 |
+- [color=#00FEF3]101[/color] | [bold]Invasão[/bold] | [color=#00FF13]Aviso[/color] | [color=#E8FF00]4:00[/color] |
 Entrar em uma área não segura sem permissão. É melhor apenas removê-los da área, a menos que seja um crime repetido.
-- 102 | Posse de Substâncias Ilegais | Aviso & Confisco | 4:00 & Confisco |
+- [color=#00FEF3]102[/color] | [bold]Posse de Substâncias Ilegais[/bold] | [color=#00FF13]Aviso & Confisco[/color] | [color=#E8FF00]4:00 & Confisco[/color] |
 Produzir, reter, ou abusar de drogas ou produtos químicos restritos. Isto deve ser seguido de acordo com o Procedimento Operacional Padrão. Se algo questionável não for mencionado no SOP, o capitão ou o estado-maior de comando mais alto poderá restringi-lo publicamente.
-- 103 | Vandalismo | Aviso  | 4:00 |
+- [color=#00FEF3]103[/color] | [bold]Vandalismo[/bold] | [color=#00FF13]Aviso[/color]  | [color=#E8FF00]4:00[/color] |
 Desfigurar intencionalmente ou danificar superficialmente a propriedade pública ou privada. Observa-se que isso requer apenas a intenção, não necessariamente a intenção de sabotar ou colocar em risco as pessoas; pintar graffiti no refeitório é vandalismo, enquanto quebrar uma janela no espaço não é.
-- 104 | Perturbação | Aviso | 4:00 |
+- [color=#00FEF3]104[/color] | [bold]Perturbação[/bold] | [color=#00FF13]Aviso[/color] | [color=#E8FF00]4:00[/color] |
 Para causar um distúrbio público. Às vezes referido como hooliganismo. O apanhado para companheiros de tripulação desagradáveis. Abrange coisas como nudez pública, insultos desnecessários, obstrução de autoridades, incitação ao crime ou à violência, ou de qualquer outra maneira persistentemente impedir a execução de funções na estação.
-- 105 | Pequeno Roubo | Aviso & Confisco | 4:00 & Confisco |
+- [color=#00FEF3]105[/color] | [bold]Pequeno Roubo[/bold] | [color=#00FF13]Aviso & Confisco[/color] | [color=#E8FF00]4:00 & Confisco[/color] |
 Tomar propriedade não vital ou barata de outro indivíduo, organização ou propriedade comum, sem consentimento. A diferença entre Pequeno Roubo e Grande Roubo é baseada na importância do item roubado; coisas como instrumentos, roupas e ferramentas se enquadram nos Pequeno Roubo. Na maioria dos casos, tudo o que você precisa fazer é deter o ladrão, devolver o item roubado e deixá-lo ir com um aviso.
-- 106 | Contrabando Menor | Aviso & Confisco | 4:00 & Confisco |
+- [color=#00FEF3]106[/color] | [bold]Contrabando Menor[/bold] | [color=#00FF13]Aviso & Confisco[/color] | [color=#E8FF00]4:00 & Confisco[/color] |
 Utilizar ou possuir equipamento não militar de entidades hostis. Aplica-se a itens cosméticos do Sindicato sem qualquer funcionalidade. Para qualquer item com função, use a lei 306.
-- 114 | Ameaça | Aviso | 4:00 |
+- [color=#00FEF3]114[/color] | [bold]Ameaça[/bold] | [color=#00FF13]Aviso[/color] | [color=#E8FF00]4:00[/color] |
 Ameaça usar a força contra outro membro da tripulação. Isso cobre a ameaça de ferir, atacar, ou ameaça de morte a outro membro da tripulação.
 
 ## Crimes Moderados 
 
 Um Julgamento pode ser oferecido, mas não é necessário, ou esperado, fornecê-lo.
 
-- 201 | Invasão de Alta Segurança | 4:00 | 8:00 |
+- [color=#E1AE00]201[/color] | [bold]Invasão de Alta Segurança[/bold] | [color=#E8FF00]4:00[/color] | [color=#E15500]8:00[/color] |
 Entrar em uma área de alta segurança sem permissão. Isso abrange locais como telecomunicações, sedes, zonas de segurança, áreas de comando, cofre e arsenal.
-- 202 | Distribuição de Substâncias iIlegais | 4:00 & Confisco | 8:00 & Confisco |
+- [color=#E1AE00]202[/color] | [bold]Distribuição de Substâncias iIlegais[/bold] |  [color=#E8FF00]4:00 & Confisco[/color] | [color=#E15500]8:00 & Confisco[/color] |
 Distribuir substâncias ilegais, como drogas, a um ou mais indivíduos. Isto deve ser seguido de acordo com o Procedimento Operacional Padrão (POP). Se algo questionável não for mencionado no POP, o capitão ou o estado-maior de comando mais alto poderá restringi-lo publicamente.
-- 203 | Sabotagem | 4:00 | 8:00 |
+- [color=#E1AE00]203[/color] | [bold]Sabotagem[/bold] |  [color=#E8FF00]4:00[/color] | [color=#E15500]8:00[/color] |
 Danificar ou desfigurar maliciosamente propriedade ou equipamento público ou privado. Cobre todos os tipos de sabotagem não suficientes para qualificar sabotagem de sistemas críticos: Sabotar a iluminação da estação, a fiação, quebrar vidros ou destruir portas.
-- 207 | Vigilantismo | 4:00 | 8:00 |
+- [color=#E1AE00]207[/color] | [bold]Vigilantismo[/bold] |  [color=#E8FF00]4:00[/color] | [color=#E15500]8:00[/color] |
 Executar as responsabilidades e deveres do departamento de segurança sem aprovação ou sem justificativa adequada para agir. Essa lei deve ser usada contra tripulantes que saem da sua função para realizar responsabilidades e deveres do departamento de segurança, em casos que um tripulante se defendeu de um criminoso isso seria legitima defesa e não vigilantismo. A segurança deve considerar se outros crimes, como sequestro, também são aplicáveis.
-- 208 | Posse de Equipamento Restrito | 4:00 | 8:00 |
+- [color=#E1AE00]208[/color] | [bold]Posse de Equipamento Restrito[/bold] |  [color=#E8FF00]4:00[/color] | [color=#E15500]8:00[/color] |
 Manter ou usar itens atordoadores não letais ou objetos restritos. Coisas em geral que o indivíduo não deveria possuir, como coletes de kevlar e equipamentos de segurança. Oficiais do comando são autorizados a portar esses itens, somente para auto-defesa.
-- 209 | Perigo à Tripulação | 4:00 | 8:00 |
+- [color=#E1AE00]209[/color] | [bold]Perigo à Tripulação[/bold] |  [color=#E8FF00]4:00[/color] | [color=#E15500]8:00[/color] |
 Colocar de forma imprudente a si mesmo ou a outros em perigo, seja por meio de ação direta ou por omissão de ação. Abrange acidentes industriais, negligência industrial, auto-experimentação ou mesmo negligência médica.
-- 210 | Crueldade Animal | 4:00 | 8:00 |
+- [color=#E1AE00]210[/color] | [bold]Crueldade Animal[/bold] |  [color=#E8FF00]4:00[/color] | [color=#E15500]8:00[/color] |
 Infligir sofrimento ou dano desnecessário a um ser não sapiente com intenções maliciosas. Isso não inclui testes em animais legítimos e autorizados e geralmente não se estende a vermes ou criaturas que possam representar uma ameaça à estação.
-- 211 | Perjúrio ou Falsa Denúncia | 4:00 | 8:00 |
+- [color=#E1AE00]211[/color] | [bold]Perjúrio ou Falsa Denúncia[/bold] |  [color=#E8FF00]4:00[/color] | [color=#E15500]8:00[/color] |
 Contar uma mentira de forma deliberada e maliciosa em um julgamento ou ao fazer uma denúncia acionável à segurança. Usado quando alguém que participa de um julgamento (incluindo segurança) mente propositalmente, ou quando alguém mente intencionalmente para a segurança para criar uma investigação falsa, ou para dificultar, distrair ou influenciar de outra forma uma investigação.
-- 212 | Violação de Prisão | 4:00 | 8:00 |
+- [color=#E1AE00]212[/color] | [bold]Violação de Prisão[/bold] |  [color=#E8FF00]4:00[/color] | [color=#E15500]8:00[/color] |
 Resistir, escapar ou evitar a prisão ou a execução de um mandado de Apreensão por um oficial de segurança ou membro autorizado da equipe de segurança é considerado um ato ilegal. Inclui pessoas que tiram as algemas ou ajudam outras pessoas a escapar de uma prisão.
-- 214 | Agressão | 4:00 | 8:00 |
+- [color=#E1AE00]214[/color] | [bold]Agressão[/bold] |  [color=#E8FF00]4:00[/color] | [color=#E15500]8:00[/color] |
 Usar força física contra alguém sem intenção de matar. Por atos de violência e brigas onde a intenção não era matar.
 
 ## Crimes Graves 
 
 Aos acusados deve ser oferecido um julgamento.
 
-- 303 | Sabotagem Crítica | 6:00 | 12:00 |
+- [color=#FF06B5]303[/color] | [bold]Sabotagem Crítica[/bold] | [color=#E15500]6:00[/color] | [color=#C80000]12:00[/color] |
 Para causar danos massivos a uma área ou sistema crítico da estação principal. Isso é usado principalmente para bombardeios mortais ou sabotagem de grandes sistemas de estações, como produção de energia, clonagem, subestações ou atmosfera ou espaçamento de amplas áreas da estação.
-- 305 | Grande Roubo | 6:00 & Confisco | 12:00 & Confisco |
+- [color=#FF06B5]305[/color] | [bold]Grande Roubo[/bold] | [color=#E15500]6:00 & Confisco[/color] | [color=#C80000]12:00 & Confisco[/color] |
 Tomar propriedade crítica ou insubstituível de outro indivíduo ou organização sem consentimento. A diferença entre pequenos furtos e grandes furtos é baseada na importância do item roubado. Isso é usado principalmente para o roubo de itens da equipe de comando, coisas como controles remotos de portas, macacões, jetpacks e peças de máquinas não substituíveis.
-- 306 | Contrabando | 6:00 & Confisco | 12:00 & Confisco |
+- [color=#FF06B5]306[/color] | [bold]Contrabando[/bold] | [color=#E15500]6:00 & Confisco[/color] | [color=#C80000]12:00 & Confisco[/color] |
 Utilizar ou possuir equipamento militar de entidades hostis. Aplica-se a itens do Sindicato que dão ao usuário uma vantagem ou habilidade. EMAG, PDA com Uplink, Cobra, Colete Web, etc. Para qualquer item sem função, como cosméticos, utilize a lei 106.
-- 308 | Posse de Armamento Restrito | 6:00 & Confisco | 12:00 & Confisco |
+- [color=#FF06B5]308[/color] | [bold]Posse de Armamento Restrito[/bold] | [color=#E15500]6:00[/color] & Confisco | [color=#C80000]12:00 & Confisco[/color] |
 Usar ou possuir arma sem autorização. Tudo, desde armas sem licença, bombas caseiras, lâminas mortais, explosivos e armas de fogo da Nanotrasen. Para equipamentos do Sindicato, utilize 306.
-- 309 | Falha em Obedecer Ordem ou Regulamento | 6:00 | 12:00 & Rebaixamento |
+- [color=#FF06B5]309[/color] | [bold]Falha em Obedecer Ordem ou Regulamento[/bold] | [color=#E15500]6:00[/color] | [color=#C80000]12:00 & Rebaixamento[/color] |
 Viola ou deixa de obedecer a qualquer ordem ou regulamento geral legal; é negligente no desempenho de suas funções. Um oficial fazendo uma pausa não é, por si só, Falha em Obedecer Ordem ou Regulamento. No entanto, um oficial fazendo uma pausa sabendo que agentes estão atirando no capitão configura como descumprimento. Engenheiros que não garantem uma fonte de energia no início do turno e chefes de equipe que abandonam a estação também podem ser acusados.
-- 313 | Sequestro | 6:00 | 12:00 |
+- [color=#FF06B5]313[/color] | [bold]Sequestro[/bold] | [color=#E15500]6:00[/color] | [color=#C80000]12:00[/color] |
 Restringir, transportar, controlar ou confinar ilegalmente um ser sapiente contra a vontade desse indivíduo. Uma grande variedade de coisas, usadas principalmente como um apanhado quando se trata do controle ilegal de outro ser.
-- 314 | Homicídio Culposo | 6:00 | 12:00 |
+- [color=#FF06B5]314[/color] | [bold]Homicídio Culposo[/bold] | [color=#E15500]6:00[/color] | [color=#C80000]12:00[/color] |
 Incidentalmente matar um ser sapiente sem intenção. Inclui homicídio culposo em legítima defesa e homicídio culposo por negligência.
-- 316 | Profanação dos Mortos | 6:00 | 12:00 |
+- [color=#FF06B5]316[/color] | [bold]Profanação dos Mortos[/bold] | [color=#E15500]6:00[/color] | [color=#C80000]12:00[/color] |
 Mutilar, desmembrar ou deixar apodrecer intencionalmente o cadáver de um membro da tripulação falecido e sem alma. Os mortos devem ser tratados no necrotério ou na igreja. A menos que a situação seja extrema, passar pelos mortos não deveria ser normal. Abusar dos mortos nunca deveria ser permitido.
-- 317 | Motim | 6:00 | 12:00 |
+- [color=#FF06B5]317[/color] | [bold]Motim[/bold] | [color=#E15500]6:00[/color] | [color=#C80000]12:00[/color] |
 Participar de uma violenta perturbação da paz em uma multidão. Protestar pacificamente não é um motim. Vandalizar ou sabotar a estação, usar meios violentos, ou impedir à força as operações normais da estação em um grupo é um motim.
-- 318 | Abuso de Poder | 6:00 | 12:00 & Rebaixamento |
+- [color=#FF06B5]318[/color] | [bold]Abuso de Poder[/bold] | [color=#E15500]6:00[/color] | [color=#C80000]12:00 & Rebaixamento[/color] |
 Fazer uso indevido intencionalmente ou exercer indevidamente a própria autoridade, influência ou controle, resultando em dano, tratamento injusto ou perda demonstrável para uma parte separada devido à violação de padrões éticos e profissionais. Isso será aplicado principalmente a chefes e seguranças que agem de forma antiética contra outros tripulantes ou em benefício próprio em detrimento de outros tripulantes.
 
 ## Crimes Capitais
 
 Todos os crimes capitais exigem um julgamento.
 
-- 403 | Sabotagem Extrema | Permanente | Execução |
+- [color=#FF0000]403[/color] | [bold]Sabotagem Extrema[/bold] | [color=#C80000]Permanente[/color] | [color=#9400D3]Execução[/color] |
 Envolver-se em ações maliciosamente destrutivas que ameaçam destruir ou destruir com sucesso uma embarcação ou habitat. Resumido; sabotagem extrema de sistemas de estações ou desencadeamento de sistemas de autodestruição.
-- 405 | Roubo Capital | 16:00 & Confisco, Rebaixamento | Permanente |
-O roubo de informações e tecnologias classificadas como Capitais pela Nanotrasen. Todo equipamento ou tecnologia buscada pelos concorrentes da Nanotrasen é considerada Capital.
-- 406 | Contrabando Maior | 16:00 & Confisco, Rebaixamento | Permanete |
+- [color=#FF0000]406[/color] | [bold]Contrabando Maior[/bold] | [color=#C80000]16:00 & Confisco, Rebaixamento[/color] | [color=#9400D3]Permanete[/color] |
 Se aplica quando o detentor possuir mais de 3 contrabandos do sindicato. Esta lei não inclui Contrabando Menor. A pena maxima so deve ser usada se os contrabandos forem considerados perigosos demais no julgamento.
-- 414 | Assassinato | 16:00 & Rebaixamento | Permanente |
+- [color=#FF0000]414[/color] | [bold]Assassinato[/bold] | [color=#C80000]16:00 & Rebaixamento[/color] | [color=#9400D3]Permanente[/color] |
 Matar um ser sapiente com intenção maliciosa. Isso só muda de tentativa para homicídio total se a vítima entrar no estado de falecida, tendo que ser ressuscitada.
-- 415 | Assassinato em Massa | Permanente | Execução |
+- [color=#FF0000]415[/color] | [bold]Assassinato em Massa[/bold] | [color=#C80000]Permanente[/color] | [color=#9400D3]Execução[/color] |
 Matar três ou mais seres sapientes com intenções maliciosas. Aplica-se apenas quando houve vários assassinatos intencionais.
-- 416 | Prevenção do Reavivamento | Permanente | Execução |
+- [color=#FF0000]416[/color] | [bold]Prevenção do Reavivamento[/bold] | [color=#C80000]Permanente[/color] | [color=#9400D3]Execução[/color] |
 Para tornar um corpo irrecuperável. Isso abrange desmembrar, espaçamento, ocultação intencional de um corpo, levando-o a apodrecer, ou outras formas de impedir que um corpo com alma seja ressuscitado.
-- 417 | Sedição | 16:00 & Rebaixamento | Permanente |
+- [color=#FF0000]417[/color] | [bold]Sedição[/bold] | [color=#C80000]16:00 & Rebaixamento[/color] | [color=#9400D3]Permanente[/color] |
 Conduta ostensiva para derrubar a hierarquia da estação. Organizar, ou tentar criar, um motim, tumulto, rebelião ou insurreição é sedição. Usado principalmente contra líderes de motins e aqueles que tentam criar um motim.
-- 419 | Implantes Subversivos | 16:00 & Rebaixamento | Execução |
+- [color=#FF0000]419[/color] | [bold]Implantes Subversivos[/bold] | [color=#C80000]16:00 & Rebaixamento[/color] | [color=#9400D3]Execução[/color] |
 Recusa ou incapacidade de aceitar um implante. Também aplicável quando é impossível remover um implante estranho. Aplicável quando o procedimento de Implantação foi seguido.
 
 </Document>

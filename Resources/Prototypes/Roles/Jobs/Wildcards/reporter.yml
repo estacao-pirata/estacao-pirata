@@ -18,6 +18,6 @@
     shoes: ClothingShoesColorWhite
     id: ReporterPDA
     ears: ClothingHeadsetService
-  innerClothingSkirt: ClothingUniformJumpsuitJournalist
-  satchel: ClothingBackpackSatchelReporterFilled
-  duffelbag: ClothingBackpackDuffelReporterFilled
+  #innerClothingSkirt: ClothingUniformJumpsuitJournalist  -- https://github.com/space-wizards/space-station-14/commit/12766fe6e37bb600a53693cfa5392892bc100685
+  #satchel: ClothingBackpackSatchelReporterFilled
+  #duffelbag: ClothingBackpackDuffelReporterFilled

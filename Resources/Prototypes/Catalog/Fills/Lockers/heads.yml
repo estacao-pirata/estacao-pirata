@@ -15,6 +15,8 @@
         prob: 0.50
       - id: DoorRemoteCargo
       - id: RubberStampQm
+      - id: RubberStampDenied
+      - id: RubberStampApproved
       - id: ClothingHeadsetAltCargo
       - id: BoxEncryptionKeyCargo
       - id: PrinterDocFlatpack # Corvax-Printer
@@ -120,6 +122,8 @@
       - id: DoorRemoteService
       - id: ClothingNeckGoldmedal
       - id: RubberStampHop
+      - id: RubberStampDenied
+      - id: RubberStampApproved
       - id: BoxEncryptionKeyPassenger
       - id: BoxEncryptionKeyService
       - id: ClothingBackpackIan
@@ -197,12 +201,6 @@
       - id: MaterialBiomass
         amount: 3
       - id: BoxEncryptionKeyMedical
-      - id: CloningPodMachineCircuitboard
-        prob: 0.3
-      - id: CloningConsoleComputerCircuitboard
-        prob: 0.3
-      - id: MedicalScannerMachineCircuitboard
-        prob: 0.3
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -225,12 +223,6 @@
       - id: MaterialBiomass
         amount: 3
       - id: BoxEncryptionKeyMedical
-      - id: CloningPodMachineCircuitboard
-        prob: 0.3
-      - id: CloningConsoleComputerCircuitboard
-        prob: 0.3
-      - id: MedicalScannerMachineCircuitboard
-        prob: 0.3
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit

@@ -12,7 +12,7 @@ A criogenia pode ser um pouco assustadora de entender, mas esperamos que, com um
 <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
 <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
 <GuideEntityEmbed Entity="GasPipeBend" Rotation="0"/>
-<GuideEntityEmbed Entity="CloningPod" Caption="cryo pod" Rotation="0"/>
+<GuideEntityEmbed Entity="CryoPod" Caption="cryo pod" Rotation="0"/>
 <GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Rotation="0"/>
 </Box>
 <Box>
@@ -43,8 +43,12 @@ Depois que tudo estiver pronto, você precisará de um medicamento específico, 
 
 A pressão padrão para uma bomba de gás é de 1,325 kpa. A crioxadona funciona a menos de 170 K, mas a prática padrão é ajustar o freezer para 100 K para um congelamento mais rápido.
 
+<GuideReagentEmbed Reagent="Aloxadone"/>
 <GuideReagentEmbed Reagent="Cryoxadone"/>
 <GuideReagentEmbed Reagent="Doxarubixadone"/>
 <GuideReagentEmbed Reagent="Dexalin"/>
+<GuideReagentEmbed Reagent="Leporazine"/>
+<GuideReagentEmbed Reagent="Necrosol"/>
+<GuideReagentEmbed Reagent="Opporozidone"/>
 
 </Document>

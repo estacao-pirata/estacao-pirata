@@ -1,41 +1,40 @@
 ﻿<Document>
-# Jobs
+# Trabalhos
 
-SS14 has a large number of jobs, divided into seven major departments:
+SS14 possui um grande número de trabalhos, divididos em sete grandes departamentos:
 
-## Service
-This department includes the janitor, passengers, clown, mime, musician, chef, bartender, the head of personnel, and other jobs who exist to serve the station.
+## Serviço
+Este departamento inclui o zelador, passageiros, palhaço, mímico, músico, chef, barman, o chefe dos funcionários e outros trabalhos que existem para servir a estação.
 
-It primarily functions as folks who entertain, clean, and serve the rest of the crew, with the exception of passengers who have no particular job beyond getting lost in maintenance.
+Sua função principal é entreter, limpar e servir o restante da tripulação, com exceção dos passageiros, que não têm um trabalho específico além de se perderem na manutenção.
 
-## Cargo
-Cargo consists of the cargo technicians, salvage specialists, and the quartermaster. As a department, it responsible resource distribution and trade, capable of buying and selling things on the galactic market.
+## Carga
+O departamento de Carga consiste nos técnicos de carga, especialistas em salvatagem e no Intendente de Carga. Como departamento, é responsável pela distribuição de recursos e comércio, capaz de comprar e vender coisas no mercado galáctico.
 
-For the most part, this means they scrounge around the station and assorted wrecks to find materials to sell and redistribute, and purchase materials other departments request.
+Isso significa, em grande parte, que eles procuram ao redor da estação e destroços diversos materiais para vender e redistribuir, e compram materiais que outros departamentos solicitam.
 
-## Security
-Security consists of the security cadets, lawyers, detective, security officers, warden, and the head of security. As a department it is responsible for dealing with troublemakers and non-humanoid threats like giant rats and carp.
+## Segurança
+O departamento da Segurança consiste nos cadetes de segurança, advogados, detetive, oficiais de segurança, carcereiro e chefe de segurança. Como departamento, é responsável por lidar com arruaceiros e ameaças não-humanoides, como ratos gigantes e carpas.
 
-As a result of this, and the need to walk a fine line, security sometimes is overwhelmed by angry crew (don't kill the clown), and it is important for its members to try and stay on their best behavior.
+Como resultado disso, e da necessidade de andar na linha tênue, a segurança às vezes fica sobrecarregada pelos tripulantes irritados (não mate o palhaço), sendo importante para seus membros tentar manter o melhor comportamento possível.
 
-## Medical
-Medical consists of the medical interns, chemists, medical doctors, and the chief medical officer. As a department it is responsible for taking care of the crew, treat and/or clone the wounded and dead, treat disease, and prevent everyone from dying a horrible, bloody death in a closet somewhere.
+## Médico
+O departamento Médico consiste em internos médicos, químicos, médicos e o chefe médico. Como departamento, é responsável por cuidar da tripulação, tratar e/ou clonar os feridos e mortos, tratar doenças e evitar que todos morram de uma maneira horrível e sangrenta em algum armário.
 
-Medical is one of the more well-equipped departments, with the ability to locate injured crew using the crew monitor, a nigh infinite supply of chems should chemistry be on-par, and the ability to rapidly diagnose and vaccinate contagious diseases.
+Médico é um dos departamentos mais bem equipados, com a capacidade de localizar tripulantes feridos usando o monitor da tripulação, um suprimento quase infinito de produtos químicos caso a química esteja em dia, e a capacidade de diagnosticar e vacinar rapidamente doenças contagiosas.
 
-## Science
-Science consists of research assistants, scientists, and the research director. As a department it is responsible for researching technologies and artifacts, upgrading machines, and printing new and useful devices.
+## Ciência
+O departamento de Ciência consiste em assistentes de pesquisa, cientistas e o diretor de pesquisa. Como departamento, é responsável por pesquisar tecnologias e artefatos, atualizar máquinas e imprimir dispositivos novos e úteis.
 
-Scientists should seek out new artifacts to study, as well as solicit departments to help upgrade their machines.
+Cientistas devem procurar novos artefatos para estudar, além de solicitar ajuda de outros departamentos para atualizar suas máquinas.
 
-## Engineering
-Engineering consists of technical assistants, station engineers, atmospheric technicians, and the chief engineer. As a department it is responsible for keeping the station powered, its structure intact and its air supply working.
+## Engenharia
+O departamento de Engenharia consiste em assistentes técnicos, engenheiros da estação, técnicos atmosféricos e o chefe de engenharia. Como departamento, é responsável por manter a estação alimentada, sua estrutura intacta e seu suprimento de ar funcionando.
 
-Engineering is readily equipped to go safely into space, and as such they should always attempt to repair uninhabitable parts of the station.
+Engenharia está prontamente equipada para ir com segurança para o espaço, e como tal, eles devem sempre tentar reparar partes inabitáveis da estação.
 
-## Command
-Command consists of the captain, the head of personnel, the head of security, the chief engineer, the chief medical officer, the research director, and the quartermaster. As a department it is responsible for keeping the station and its departments running efficiently.
+## Comando
+O Comando consiste no capitão, chefe de pessoal, chefe de segurança, chefe de engenharia, chefe médico, diretor de pesquisa e almoxarife. Como departamento, é responsável por manter a estação e seus departamentos funcionando de maneira eficiente.
 
-Command members should always be relatively competent in their respective departments and attempt to delegate responsibility and direct work.
-
+Os membros do comando devem sempre ser relativamente competentes em seus respectivos departamentos e tentar delegar responsabilidades e direcionar o trabalho.
 </Document>

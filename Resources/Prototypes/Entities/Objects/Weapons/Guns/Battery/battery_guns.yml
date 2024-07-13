@@ -65,7 +65,6 @@
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
-
 - type: entity
   id: BaseWeaponBatterySmall
   parent: BaseWeaponBattery
@@ -200,7 +199,7 @@
 
 - type: entity
   name: laser rifle
-  parent: BaseWeaponBattery
+  parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponLaserCarbine
   description: Favoured by Nanotrasen Security for being cheap and easy to use.
   components:
@@ -267,7 +266,7 @@
 
 - type: entity
   name: pulse carbine
-  parent: BaseWeaponBattery
+  parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponPulseCarbine
   description: A high tech energy carbine favoured by the NT-ERT operatives.
   components:
@@ -298,7 +297,7 @@
 
 - type: entity
   name: pulse rifle
-  parent: BaseWeaponBattery
+  parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponPulseRifle
   description: A weapon that is almost as infamous as its users.
   components:
@@ -325,7 +324,7 @@
 
 - type: entity
   name: laser cannon
-  parent: BaseWeaponBattery
+  parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponLaserCannon
   description: A heavy duty, high powered laser weapon.
   components:
@@ -380,7 +379,7 @@
 
 - type: entity
   name: x-ray cannon
-  parent: BaseWeaponBattery
+  parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponXrayCannon
   description: An experimental weapon that uses concentrated x-ray energy against its target.
   components:
@@ -447,7 +446,7 @@
       - Security
 
 - type: entity
-  name: disabler SMG
+  name: automatic disabler
   parent: BaseWeaponBattery
   id: WeaponDisablerSMG
   description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
@@ -468,7 +467,7 @@
         shader: unshaded
   - type: Gun
     selectedMode: FullAuto
-    fireRate: 4
+    fireRate: 2.5
     availableModes:
       - SemiAuto
       - FullAuto
@@ -476,7 +475,7 @@
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletDisablerSmg
-    fireCost: 33
+    fireCost: 50
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -569,7 +568,7 @@
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 40
+    autoRechargeRate: 50
   - type: MagazineVisuals
     magState: mag
     steps: 5

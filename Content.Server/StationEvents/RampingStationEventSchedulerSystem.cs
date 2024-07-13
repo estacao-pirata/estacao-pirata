@@ -1,4 +1,5 @@
 ﻿using Content.Server.GameTicking;
+using Content.Server.GameTicking.Components;
 using Content.Server.GameTicking.Rules;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Server.StationEvents.Components;
@@ -22,7 +23,16 @@ public sealed class RampingStationEventSchedulerSystem : GameRuleSystem<RampingS
         if (roundTime > component.EndTime)
             return component.MaxChaos;
 
+	/*
+	// Pirata
         return component.MaxChaos / component.EndTime * roundTime + component.StartingChaos;
+
+	// Reto de Starting até Max no tempo EndTime
+	*/
+	// Straight from Starting towards Max at EndTime
+        return component.StartingChaos +
+		(component.MaxChaos - component.StartingChaos) * roundTime
+                        / component.EndTime;
     }
 
     protected override void Started(EntityUid uid, RampingStationEventSchedulerComponent component, GameRuleComponent gameRule, GameRuleStartedEvent args)

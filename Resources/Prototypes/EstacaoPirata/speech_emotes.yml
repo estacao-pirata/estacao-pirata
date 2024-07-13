@@ -1,0 +1,23 @@
+- type: emote
+  id: Fart
+  name: chat-emote-name-farts
+  category: General
+  icon: Interface/Emotes/ping.png
+  whitelist:
+    requireAll: true
+    components:
+    - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-farts"]
+  chatTriggers:
+    - fart
+    - fart.
+    - farts
+    - farts.
+    - peida
+    - peida.
+    - solta um pum
+    - solta um pum.
+    - solta um peido
+    - solta um peido.
+

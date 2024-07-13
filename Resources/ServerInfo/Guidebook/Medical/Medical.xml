@@ -17,6 +17,6 @@ No momento, o medbay está dividido em dois conjuntos diferentes de cuidados:
 <GuideEntityEmbed Entity="ChemDispenser"/>
 <GuideEntityEmbed Entity="LargeBeaker"/>
 <GuideEntityEmbed Entity="PillCanister"/>
-<GuideEntityEmbed Entity="chem_master"/>
+<GuideEntityEmbed Entity="ChemMaster"/>
 </Box>
 </Document>

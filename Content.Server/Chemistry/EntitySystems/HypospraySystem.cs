@@ -26,7 +26,6 @@ public sealed class HypospraySystem : SharedHypospraySystem
 {
     [Dependency] private readonly AudioSystem _audio = default!;
     [Dependency] private readonly InteractionSystem _interaction = default!;
-    [Dependency] private readonly SolutionContainerSystem _solutionContainerSystem = default!;
     [Dependency] private readonly TagSystem _tag = default!;
 
 

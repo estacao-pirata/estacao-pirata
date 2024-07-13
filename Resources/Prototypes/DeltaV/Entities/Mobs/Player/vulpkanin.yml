@@ -29,6 +29,7 @@
     - type: NpcFactionMember
       factions:
         - NanoTrasen
+#    - type: PotentialPsionic
     - type: Respirator
       damage:
        types:
