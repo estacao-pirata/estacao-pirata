@@ -711,6 +711,9 @@
       - BoxShotgunSlug
       - ClothingEyesHudSecurity
       - Flash
+      - WeaponPistolPlasmaCutter
+      - BaseCartuchoPlasmaCutter
+      - BaseEnergyShell
       - ForensicPad
       - Handcuffs
       - MagazineBoxLightRifle
