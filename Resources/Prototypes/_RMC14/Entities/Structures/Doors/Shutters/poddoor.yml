@@ -2,6 +2,7 @@
   parent: RMCShutterBase
   id: RMCPodDoor
   name: podlock
+  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/poddoor.rsi
@@ -20,9 +21,6 @@
   - type: Appearance
   - type: RadiationBlocker
     resistance: 8
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: StrongMetallic
   - type: ContainerFill
     containers:
       board: [ DoorElectronics ]

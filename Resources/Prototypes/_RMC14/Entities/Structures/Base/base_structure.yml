@@ -32,6 +32,10 @@
       Brute:
         collection: XenoResinBreak
   - type: XenoConstruct
+  - type: RMCWallExplosionDeletable
+  - type: NpcFactionMember
+    factions:
+    - RMCXeno
 
 - type: entity
   id: CMCorrodible
@@ -89,6 +93,7 @@
   - type: Corrodible
     isCorrodible: true
   - type: Clickable
+  - type: RMCWallExplosionDeletable
 
 - type: entity
   parent:
@@ -108,3 +113,5 @@
     resistance: 5
   - type: PlacementReplacement
     key: walls
+  - type: ExplosionResistance
+    damageCoefficient: 12.5 # Walls take 15x explosive damage, resin walls reduce that by 15%

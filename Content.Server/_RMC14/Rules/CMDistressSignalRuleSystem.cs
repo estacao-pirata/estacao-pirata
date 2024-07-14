@@ -10,7 +10,6 @@ using Content.Server.Players.PlayTimeTracking;
 using Content.Server.Power.Components;
 using Content.Server.Preferences.Managers;
 using Content.Server.RoundEnd;
-using Content.Server.Shuttles.Components;
 using Content.Server.Shuttles.Systems;
 using Content.Server.Spawners.Components;
 using Content.Server.Spawners.EntitySystems;
@@ -39,6 +38,7 @@ using Content.Shared.Nutrition.Components;
 using Content.Shared.Nutrition.EntitySystems;
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
+using Content.Shared.Shuttles.Components;
 using Robust.Server.Audio;
 using Robust.Server.Containers;
 using Robust.Server.GameObjects;
@@ -97,11 +97,18 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
     private readonly HashSet<string> _operationSuffixes = new();
 
     private string _planetMaps = default!;
-    private float _marinesPerXeno;
+    private float _defaultMarinesPerXeno;
     private bool _autoBalance;
     private float _autoBalanceStep;
     private float _autoBalanceMin;
     private float _autoBalanceMax;
+
+    [ViewVariables]
+    private readonly Dictionary<string, float> _marinesPerXeno = new()
+    {
+        ["/Maps/_RMC14/lv624.yml"] = 4.25f,
+        ["/Maps/_RMC14/solaris.yml"] = 5.5f,
+    };
 
     private readonly List<MapId> _almayerMaps = [];
 
@@ -136,7 +143,7 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
         SubscribeLocalEvent<AlmayerComponent, MapInitEvent>(OnAlmayerMapInit);
 
         Subs.CVar(_config, CMCVars.RMCPlanetMaps, v => _planetMaps = v, true);
-        Subs.CVar(_config, CMCVars.CMMarinesPerXeno, v => _marinesPerXeno = v, true);
+        Subs.CVar(_config, CMCVars.CMMarinesPerXeno, v => _defaultMarinesPerXeno = v, true);
         Subs.CVar(_config, CMCVars.RMCAutoBalance, v => _autoBalance = v, true);
         Subs.CVar(_config, CMCVars.RMCAutoBalanceStep, v => _autoBalanceStep = v, true);
         Subs.CVar(_config, CMCVars.RMCAutoBalanceMax, v => _autoBalanceMax = v, true);
@@ -232,7 +239,15 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
                 return xenoEnt;
             }
 
-            var totalXenos = Math.Max(1, ev.PlayerPool.Count / _marinesPerXeno);
+            var marinesPerXeno = _defaultMarinesPerXeno;
+            if (SelectedPlanetMap != null &&
+                !_marinesPerXeno.TryGetValue(SelectedPlanetMap, out marinesPerXeno))
+            {
+                _marinesPerXeno[SelectedPlanetMap] = _defaultMarinesPerXeno;
+                marinesPerXeno = _defaultMarinesPerXeno;
+            }
+
+            var totalXenos = Math.Max(1, ev.PlayerPool.Count / marinesPerXeno);
             var xenoCandidates = new List<NetUserId>[Enum.GetValues<JobPriority>().Length];
             for (var i = 0; i < xenoCandidates.Length; i++)
             {
@@ -295,19 +310,8 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
                 var list = xenoCandidates[i];
                 while (list.Count > 0 && selected < totalXenos)
                 {
-                    if (queenSelected == null)
-                    {
-                        queenSelected = SpawnXeno(list, comp.QueenEnt);
-                        if (queenSelected != null)
-                        {
-                            totalXenos--;
-                            selected++;
-                        }
-                    }
-                    else if (SpawnXeno(list, comp.LarvaEnt) != null)
-                    {
+                    if (SpawnXeno(list, comp.LarvaEnt) != null)
                         selected++;
-                    }
                 }
             }
 
@@ -330,10 +334,10 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
             // don't open shitcode inside
             spawnedDropships = true;
             var dropshipMap = _mapManager.CreateMap();
-            var dropshipPoints = EntityQueryEnumerator<DropshipDestinationComponent, MetaDataComponent, TransformComponent>();
+            var dropshipPoints = EntityQueryEnumerator<DropshipDestinationComponent, TransformComponent>();
             var ships = new[] { "/Maps/_RMC14/alamo.yml", "/Maps/_RMC14/normandy.yml" };
             var shipIndex = 0;
-            while (dropshipPoints.MoveNext(out var destinationId, out _, out var metaData, out var destTransform))
+            while (dropshipPoints.MoveNext(out var destinationId, out _, out var destTransform))
             {
                 if (_mapSystem.TryGetMap(destTransform.MapID, out var destinationMapId) &&
                     comp.XenoMap == destinationMapId)
@@ -369,6 +373,12 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
                     if (launched)
                         break;
                 }
+            }
+
+            var marineFactions = EntityQueryEnumerator<MarineIFFComponent>();
+            while (marineFactions.MoveNext(out var iffId, out _))
+            {
+                _gunIFF.SetUserFaction(iffId, comp.MarineFaction);
             }
         }
     }
@@ -475,13 +485,24 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
             if (adjust == 0)
                 continue;
 
-            var value = _marinesPerXeno + adjust * _autoBalanceStep;
+            var value = _defaultMarinesPerXeno;
+            if (SelectedPlanetMap != null &&
+                _marinesPerXeno.TryGetValue(SelectedPlanetMap, out var mapValue))
+            {
+                value = mapValue;
+            }
+
+            value += adjust * _autoBalanceStep;
             if (value > _autoBalanceMax)
                 value = _autoBalanceMax;
             else if (value < _autoBalanceMin)
                 value = _autoBalanceMin;
 
-            _config.SetCVar(CMCVars.CMMarinesPerXeno, value);
+            if (SelectedPlanetMap == null)
+                _config.SetCVar(CMCVars.CMMarinesPerXeno, value);
+            else
+                _marinesPerXeno[SelectedPlanetMap] = value;
+
             break;
         }
     }
@@ -703,15 +724,26 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
 
     private bool SpawnXenoMap(Entity<CMDistressSignalRuleComponent> rule)
     {
-        // TODO RMC14 different planet-side maps
         var mapId = _mapManager.CreateMap();
+
         SelectedPlanetMap = _random.Pick(_planetMaps.Split(","));
         SelectedPlanetMapName = SelectedPlanetMap.Replace("/Maps/_RMC14/", "").Replace(".yml", "");
-        if (!_mapLoader.TryLoad(mapId, SelectedPlanetMap, out var grids) ||
-            grids.Count == 0)
+
+        // TODO RMC14 save these somewhere and avert the shitcode
+        SelectedPlanetMapName = SelectedPlanetMapName switch
         {
+            "lv624" => "LV624",
+            "solaris" => "Solaris Ridge",
+            _ => SelectedPlanetMapName,
+        };
+
+        if (!_mapLoader.TryLoad(mapId, SelectedPlanetMap, out var grids))
             return false;
-        }
+
+        EnsureComp<RMCPlanetComponent>(_mapManager.GetMapEntityId(mapId));
+
+        if (grids.Count == 0)
+            return false;
 
         if (grids.Count > 1)
             Log.Error("Multiple planet-side grids found");
