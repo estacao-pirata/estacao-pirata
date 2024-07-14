@@ -1196,9 +1196,9 @@
       materialRequirements:
         Glass: 2
         Cable: 2
-    - type: ReverseEngineering # Nyano
-      recipes:
-        - MicrowaveMachineCircuitboard
+    - type: Tag
+      tags:
+      - MicrowaveMachineBoard
 
 - type: entity
   id: FatExtractorMachineCircuitboard
@@ -1454,7 +1454,7 @@
     materialRequirements:
       Steel: 5
       CableHV: 5
-      
+
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
   parent: BaseMachineCircuitboard
@@ -1471,7 +1471,7 @@
     materialRequirements:
       Steel: 10
       CableHV: 5
-      
+
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
   parent: BaseMachineCircuitboard
@@ -1487,8 +1487,8 @@
       Manipulator: 2
     materialRequirements:
       Steel: 7
-      CableHV: 5  
-      
+      CableHV: 5
+
 - type: entity
   id: ShuttleGunDusterCircuitboard
   parent: BaseMachineCircuitboard
@@ -1506,7 +1506,7 @@
       Steel: 10
       CableHV: 5
       Uranium: 2
-      
+
 - type: entity
   id: ShuttleGunKineticCircuitboard
   parent: BaseMachineCircuitboard
@@ -1523,4 +1523,3 @@
     materialRequirements:
       Steel: 5
       CableHV: 2
-      
