@@ -182,7 +182,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-vent-creatures-start-announcement
+    startAnnouncement: station-event-mouse-migration-announcement
     startAudio:
       path: /Audio/Announcements/attention.ogg
     startDelay: 10
