@@ -84,7 +84,7 @@
   noSpawn: true
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: MassArrestObjective
-  name: Defina todos como desejados
+  name: Defina todos como procurado
   description: Use suas luvas para hackear um console de registros criminais, tornando toda a tripulação procurada!
   components:
   - type: Objective
