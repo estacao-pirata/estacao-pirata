@@ -233,7 +233,7 @@ ghost-role-information-clown-troupe-name = Palhaço Espacial
 ghost-role-information-clown-troupe-description = Você e sua trupe vieram animar esta estação com suas melhores piadas. Honk!
 ghost-role-information-clown-troupe-rules = Todas as regras padrões de tripulação se aplicam a você.
 
-ghost-role-information-traveling-chef-name = Traveling Chef
+ghost-role-information-traveling-chef-name = Chef Viajante
 ghost-role-information-traveling-chef-description = Você é um chef em uma nave espacial de culinária exótica. Delicie a estação com comida deliciosa!
 ghost-role-information-traveling-chef-rules = Todas as regras padrões de tripulação se aplicam a você.
 
