@@ -235,7 +235,7 @@
 - type: entity
   noSpawn: true
   parent: BaseTraitorStealObjective
-  id: HandheldPowerMonitor
+  id: HandheldPowerMonitorObjective
   components:
   - type: StealCondition
     stealGroup: HandheldPowerMonitor
