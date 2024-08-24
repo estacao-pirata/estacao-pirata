@@ -40,7 +40,7 @@ nuke-codes-list = {$name} code: {$code}
 nuke-codes-fax-paper-name = códigos de autenticação nuclear
 
 # Nuke disk slot
-nuke-slot-component-slot-name-disk = Dico
+nuke-slot-component-slot-name-disk = Disco
 
 ## Examine
 nuke-examine-armed = Aí, porquê aquela [color=red]luz vermelha[/color] tá piscando?
