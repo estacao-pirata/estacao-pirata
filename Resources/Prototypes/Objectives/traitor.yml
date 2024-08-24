@@ -231,8 +231,8 @@
   - type: StealCondition
     stealGroup: ClothingShoesBootsMagAdv
     owner: job-name-ce
-  
-  - type: entity
+
+- type: entity
   noSpawn: true
   parent: BaseTraitorStealObjective
   id: HandheldPowerMonitor
