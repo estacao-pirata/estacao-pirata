@@ -1,3 +1,12 @@
+<!-- ATENÇÃO!!
+Temporariamente não estaremos aceitando PRs para o branch principal, pendente a
+nossa mudança de upstream pro EE / Deep Station.
+Fale conosco no nosso discord para mais detalhes dsc.gg/pirata
+
+Existe um plano de ter um branch secundário sem ser estilo Nyano baseado em
+Goobstation, mas o que está certo é o EE / Deep Station.
+-->
+
 <!-- Caro contribuidor
 O uso de Pull Requests para contribuir com o Pirata é opcional. Caso você prefira,
 discuta diretamente a sua alteração consoco via mensagens em outro local e nos informe
