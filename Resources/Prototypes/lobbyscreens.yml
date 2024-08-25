@@ -35,9 +35,9 @@
   background: /Textures/LobbyScreens/blueprint.webp
 
 - type: lobbyBackground
-  id: Pirate
-  background: /Textures/LobbyScreens/pirate.png
-  
+  id: TerminalStation
+  background: /Textures/LobbyScreens/terminalstation.webp
+
 - type: lobbyBackground
   id: Caos
   background: /Textures/LobbyScreens/caos.png

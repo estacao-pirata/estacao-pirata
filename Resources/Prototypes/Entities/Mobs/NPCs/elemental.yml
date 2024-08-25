@@ -229,6 +229,7 @@
   description: Consiste em um líquido e deseja dissolvê-lo por si só.
   components:
   - type: GhostRole
+    prob: 0
     description: ghost-role-information-angry-slimes-description
   - type: NpcFactionMember
     factions:
