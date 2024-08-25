@@ -12,6 +12,37 @@ Obrigado pela intenção de contribuir!
 - rber
 -->
 
+<!--
+Para contribuir para o pirata, é necessário fazê-lo sob os termos da licença AGPL.
+
+Essa restrição se aplica a todos os contribuidores.
+
+A AGPL é uma licença do tipo GPL (General Public License) voltada para preservar
+os direitos de usuários de serviços da internet, isto é, programas executados
+em computadores de terceiros com os quais usuários interagem remotamente,
+cubrindo uma lacuna existente na licença GPL, voltada para
+uso em software utilizado localmente.
+
+É uma licença de software livre do tipo copyleft. Para mais detalhes leia aqui
+
+O Que é Copyleft? (em português)
+
+https://www.gnu.org/licenses/copyleft.pt-br.html
+
+Por que a Affero Affero GPL?
+
+https://www.gnu.org/licenses/why-affero-gpl.pt-br.html
+
+Essa parte se aplica apenas a contribuiçòes algorítimicas. Para os assets de
+áudio e sprites, aceitamos quaisquer licenças CC sem as cláusulas NC ou ND, assim
+como arte entregue ao domínio público, e sugerimos esse guia para escolher uma:
+
+https://chooser-beta.creativecommons.org/
+
+Recomendamos que vocês se informem sobre essas questões pois essas licençás geralmente 
+são irrevogáveis.
+-->
+
 ## Introdução sobre o PR
 <!-- Explique por alto do que se trata, especialmente pra facilitar a
      triagem do PR sem precisar ler o diff ou mesmo a descrição inteira -->
