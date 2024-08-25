@@ -42,6 +42,12 @@ Por que a Affero Affero GPL?
 
 https://www.gnu.org/licenses/why-affero-gpl.pt-br.html
 
+Tradução não oficial da Licença Pública Geral Affero GPL
+Inclusa no diretório principal do repositório no arquivo agpl-3.0.pt-br.md
+Também disponível aqui:
+
+http://licencas.gitlab.io/agpl-3.0.pt-br.html
+
 Essa parte se aplica apenas a contribuiçòes algorítimicas. Para os assets de
 áudio e sprites, aceitamos quaisquer licenças CC sem as cláusulas NC ou ND, assim
 como arte entregue ao domínio público, e sugerimos esse guia para escolher uma:
