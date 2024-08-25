@@ -14,5 +14,9 @@
   <GuideEntityEmbed Entity="MobReptilian" Caption="Repitiliano"/>
   <GuideEntityEmbed Entity="MobSlimePerson" Caption="Pessoa Slime"/>
   </Box>
-
+  
+  # Parkstation specific species
+  <Box>
+  <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
+  </Box>
 </Document>
