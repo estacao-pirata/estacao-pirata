@@ -1,43 +1,40 @@
-<!-- Please read these guidelines before opening your PR: https://docs.spacestation14.io/en/getting-started/pr-guideline -->
-<!-- The text between the arrows are comments - they will not be visible on your PR. -->
+<!-- Caro contribuidor
+O uso de Pull Requests para contribuir com o Pirata é opcional. Caso você prefira,
+discuta diretamente a sua alteração consoco via mensagens em outro local e nos informe
+um URL do seu repositório para que possamos analisar as mudanças.
 
-## About the PR
-<!-- What did you change in this PR? -->
+Caso você opte por fazer um pull request, por favor siga o template.
 
-## Why / Balance
-<!-- Why was it changed? Link any discussions or issues here. Please discuss how this would affect game balance. -->
+Sinta-se livre para entrar em contato conosco diretamente ou mandar "pings"
+para discutir essas mudanças.
 
-## Technical details
-<!-- If this is a code change, summarize at high level how your new code works. This makes it easier to review. -->
+Obrigado pela intenção de contribuir!
+- rber
+-->
+
+## Introdução sobre o PR
+<!-- Explique por alto do que se trata, especialmente pra facilitar a
+     triagem do PR sem precisar ler o diff ou mesmo a descrição inteira -->
+
+## Motivação para a mudança
+<!-- Explique brevemente o que te levou a fazer esse PR. -->
+
+## Descrição da mudança em si
+<!-- Duas perguntas aqui são relevantes, o que foi feito especificamente com
+algum detalhe, e como foi feito.
+
+Geralmente um PR mais complicado requer mais explicação do que um simples, mas
+por favor explique claramente mesmo que a mudança seja pequena e você já tenha
+passado vários PRs.
+-->
 
 ## Media
 <!-- 
-PRs which make ingame changes (adding clothing, items, new features, etc) are required to have media attached that showcase the changes.
-Small fixes/refactors are exempt.
-Any media may be used in SS14 progress reports, with clear credit given.
-
-If you're unsure whether your PR will require media, ask a maintainer.
-
-Check the box below to confirm that you have in fact seen this (put an X in the brackets, like [X]):
--->
-
-- [ ] I have added screenshots/videos to this PR showcasing its changes ingame, **or** this PR does not require an ingame showcase
-
-## Breaking changes
-<!--
-List any breaking changes, including namespace, public class/method/field changes, prototype renames; and provide instructions for fixing them. This will be pasted in #codebase-changes.
+Prints, vídeos e outros materiais relevantes para explicar ou demonstrar o funcionamento da sua alteração.
 -->
 
 **Changelog**
-<!--
-Make players aware of new features and changes that could affect how they play the game by adding a Changelog entry. Please read the Changelog guidelines located at: https://docs.spacestation14.io/en/getting-started/pr-guideline#changelog
--->
-
-<!--
-Make sure to take this Changelog template out of the comment block in order for it to show up.
-:cl:
-- add: Added fun!
-- remove: Removed fun!
-- tweak: Changed fun!
-- fix: Fixed fun!
+<!-- Como você deseja ser creditado no changelog do pirata, nickname, o seu nome, o que for. Ainda não decidimos que bot usar pra isso, portanto ainda estamos criando as entradas manualmente.
+Lembrando que nem toda alteração acaba aparecendo no changelog, mas a autoria de vocês será sempre respeitada.
+Em brve vamos criar uma lista completa de contribuidores para mostrar junto com a do upstream já existente.
 -->
