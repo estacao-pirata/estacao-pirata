@@ -370,7 +370,7 @@ namespace Content.Server.Communications
             var query = EntityQueryEnumerator<DoorComponent>();
             while (query.MoveNext(out var doorUid, out var component))
             {
-                if (!TryGetNetEntity(doorUid, out var netEntity) 
+                if (!TryGetNetEntity(doorUid, out var netEntity)
                     || !TryGetEntityData(netEntity.Value, out var entityUid, out var entityData)
                     || !_maintDoorPrototypeList.Contains(entityData.EntityPrototype!.ID)
                     || !TryComp<AirlockComponent>(doorUid, out var airlock))
