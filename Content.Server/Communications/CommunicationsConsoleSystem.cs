@@ -372,8 +372,8 @@ namespace Content.Server.Communications
             {
                 if (!TryGetNetEntity(doorUid, out var netEntity) 
                     || !TryGetEntityData(netEntity.Value, out var entityUid, out var entityData)
-                    || !_maintDoorPrototypeList.Contains(entityData.EntityPrototype!.ID))
-                    || !TryComp<AirlockComponent>(doorUid, out var airlock)
+                    || !_maintDoorPrototypeList.Contains(entityData.EntityPrototype!.ID)
+                    || !TryComp<AirlockComponent>(doorUid, out var airlock))
                     continue;
 
                 _airlock.ToggleEmergencyAccess(doorUid, airlock);
