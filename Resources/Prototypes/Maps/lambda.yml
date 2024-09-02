@@ -2,7 +2,7 @@
   id: Lambda
   mapName: 'Lambda'
   mapPath: /Maps/lambda.yml
-  minPlayers: 30
+  minPlayers: 45
   maxPlayers: 70
   fallback: true
   stations:
