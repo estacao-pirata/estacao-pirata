@@ -10,7 +10,7 @@
     - !type:CharacterPlaytimeRequirement
       tracker: JobWarden
       time: 18000
-    - !type:CharacterOverallPlaytimeRequirement
+    - !type:CharacterOverallTimeRequirement
       time: 108000
   weight: 10
   startingGear: BlueshieldGear
