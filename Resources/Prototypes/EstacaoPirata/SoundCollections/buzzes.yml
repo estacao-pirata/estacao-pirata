@@ -1,5 +1,5 @@
 - type: soundCollection
-  id: buzzes
+  id: pirataBuzzes
   files:
   - /Audio/EstacaoPirata/Effects/Buzzes/buzz1.ogg
   - /Audio/EstacaoPirata/Effects/Buzzes/buzz2.ogg
