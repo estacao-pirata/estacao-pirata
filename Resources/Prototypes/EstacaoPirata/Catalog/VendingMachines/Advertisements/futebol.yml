@@ -1,4 +1,4 @@
-- type: advertisementsPack
+- type: messagePack
   id: FutebolAds
   advertisements:
   - advertisement-futebol-1
