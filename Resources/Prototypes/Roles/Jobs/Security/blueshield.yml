@@ -4,13 +4,13 @@
   description: job-description-blueshield
   playTimeTracker: JobBlueshield
   requirements:
-    - !type:DepartmentTimeRequirement
+    - !type:CharacterDepartmentTimeRequirement
       department: Security
       time: 3600 
-    - !type:RoleTimeRequirement
+    - !type:CharacterPlaytimeRequirement
       role: JobWarden
       time: 18000
-    - !type:OverallPlaytimeRequirement
+    - !type:CharacterOverallPlaytimeRequirement
       time: 108000
   weight: 10
   startingGear: BlueshieldGear
