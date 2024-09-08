@@ -160,6 +160,9 @@
         {
             "name": "martialartist"
         },
+	{
+	    "name": "blueshield"
+	},
         {
             "name": "gold-inhand-left",
             "directions": 4

@@ -1113,7 +1113,7 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idblueshield
+    - state: blueshield
   - type: PresetIdCard
     job: Blueshield
   
