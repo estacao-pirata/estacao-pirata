@@ -8,7 +8,7 @@
       department: Security
       time: 3600 
     - !type:CharacterPlaytimeRequirement
-      role: JobWarden
+      tracker: JobWarden
       time: 18000
     - !type:CharacterOverallPlaytimeRequirement
       time: 108000
