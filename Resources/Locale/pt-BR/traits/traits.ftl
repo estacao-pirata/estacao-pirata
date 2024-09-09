@@ -13,6 +13,9 @@ trait-description-SelfAware =
     Você pode examinar com precisão a gravidade de seus ferimentos e queimaduras, como um analisador de saúde,
     e pode avaliar se há danos por toxinas ou perda de ar..
 
+trait-name-LightweightDrunk = Levemente Embriagado
+trait-description-LightweightDrunk = O álcool tem um efeito mais forte sobre você
+
 trait-sneezing-name = Sinusite
 trait-sneezing-desc = Você espirra e tosse incontrolavelmente
 

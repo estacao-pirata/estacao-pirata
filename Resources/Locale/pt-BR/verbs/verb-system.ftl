@@ -28,6 +28,7 @@ verb-categories-timer = Escolher Tempo
 verb-categories-lever = Alavancar
 verb-categories-select-type = Escolher Tipo
 verb-categories-fax = Definir destino
+verb-categories-interaction = Interact
 
 verb-common-toggle-light = Ligar luz
 verb-common-close = Fechar

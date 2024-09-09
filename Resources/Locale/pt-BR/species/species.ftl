@@ -7,6 +7,7 @@ species-name-reptilian = Reptiliano
 species-name-slime = Pessoa Slime
 species-name-diona = Diona
 species-name-arachnid = Arachnid
+species-name-arachne = Aracne
 species-name-moth = Pessoa Mariposa
 species-name-skeleton = Esqueleto
 species-name-vox = Vox

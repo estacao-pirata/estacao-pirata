@@ -110,3 +110,9 @@ alerts-revenant-essence-desc = O poder das almas. Ele sustenta você e é usado 
 
 alerts-revenant-corporeal-name = Corpóreo
 alerts-revenant-corporeal-desc = Você se manifestou fisicamente. As pessoas ao seu redor podem ver e machucar você.
+
+alerts-walking-name = Walking
+alerts-walking-desc = Indicates how fast you're moving.
+
+alerts-offer-name = Offer
+alerts-offer-desc = Someone offers you an item.

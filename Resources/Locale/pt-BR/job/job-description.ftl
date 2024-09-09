@@ -45,3 +45,5 @@ job-description-serviceworker = Aprenda o básico sobre bartender, cozinhar e cu
 job-description-visitor = Aproveite sua visita à estação.
 job-description-warden = Patrulhe o departamento de segurança, certifique-se de que ninguém esteja roubando do arsenal e certifique-se de que todos os prisioneiros sejam processados e soltos quando o tempo acabar.
 job-description-zookeeper = Faça uma exibição alegre de animais fofos e carpas espaciais para toda a tripulação ver. Atualmente disponível na Estação Gemini.
+job-description-roboticist = Construa um laboratório improvisado no armário de epistemologia e crie seu próprio exército de ciborgues.
+job-description-brigmedic = Lute na retaguarda do serviço de segurança, pela vida de seus camaradas! Você é a primeira e última esperança de sua equipe. Hipócrates abençoe você.
