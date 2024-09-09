@@ -51,3 +51,40 @@ humanoid-profile-editor-job-priority-never-button = Nunca
 humanoid-profile-editor-naming-rules-warning = Crie seu próprio nome único e realista. Consulte a regra nº 10 para todas as restrições e expectativas.
 humanoid-profile-editor-markings-tab = Marcas
 humanoid-profile-editor-flavortext-tab = Descrição
+humanoid-profile-editor-loadouts-show-unusable-button = Mostrar loadout invalidos
+humanoid-profile-editor-loadouts-show-unusable-button-tooltip =
+    Quando ativado, Os loadouts que seu personagem não pode usar serão destacados em vermelho.
+    Os Loadouts que seu personagem não pode vestir (se forem roupas) serão destacados em amarelo.
+    Você não poderá usar os Loadout inválidos a menos que ajuste a configuração do seu personagem.
+    Isso é útil se você troca de trabalho com frequência e não quer re-selecionar seu carregamento sempre.
+humanoid-profile-editor-loadouts-remove-unusable-button = Remover {$count ->
+    [1] {$count} Unusable Loadout
+    *[other] {$count} Unusable Loadouts
+}
+humanoid-profile-editor-loadouts-remove-unusable-button-tooltip =
+    Se você clicar neste botão, todos os Loadout que seu personagem não pode usar serão removidos.
+    Você precisará confirmar antes da remoção.
+humanoid-profile-editor-loadouts-no-loadouts = Nenhum loadout encontrado.
+humanoid-profile-editor-loadouts-points-label = Você tem {$points}/{$max} pontos
+humanoid-profile-editor-loadouts-tab = Loadout
+humanoid-profile-editor-traits-tab = Traits
+humanoid-profile-editor-traits-header = Você tem {$points ->
+    [1] 1 point
+    *[other] {$points} points
+} and {$maxTraits ->
+    [2147483648] {$traits ->
+        [1] {$traits} trait
+        *[other] {$traits} traits
+    }
+    *[other] {$traits}/{$maxTraits} traits
+}
+humanoid-profile-editor-traits-remove-unusable-button = Remover {$count} Unusable Traits
+humanoid-profile-editor-traits-remove-unusable-button-tooltip =
+    Se você clicar neste botão, todos os Loadout que seu personagem não pode usar serão removidos.
+    Você precisará confirmar antes da remoção.
+humanoid-profile-editor-traits-no-traits = Nenhum traço encontrado.
+humanoid-profile-editor-traits-show-unusable-button = Mostrar Traços Inutilizáveis
+humanoid-profile-editor-traits-show-unusable-button-tooltip =
+ Quando ativado, traços que sua configuração atual de personagem não pode usar serão mostrados destacados em vermelho ou laranja se selecionados.
+ Você ainda não poderá usar os traços inválidos, a menos que a configuração do seu personagem mude para atender aos requisitos.
+ Isso provavelmente é útil apenas se houver um bug ocultando traços que você realmente pode usar ou se você quiser ver traços de outras espécies ou algo assim.

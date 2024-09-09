@@ -25,6 +25,7 @@ game-ticker-get-info-preround-text = Olá e bem-vindo a [color=white]Estação P
                             >[color=yellow]{$desc}[/color]
 game-ticker-no-map-selected = [color=red]Nenhum mapa selecionado![/color]
 game-ticker-player-no-jobs-available-when-joining = Ao tentar entrar no jogo, nenhum trabalho está disponível.
+game-ticker-welcome-to-the-station = Bem-vindo à estação, Tripulação, aproveitem sua estadia!
 
 # Displayed in chat to admins when a player joins
 player-join-message = O jogador {$name} entrou.
