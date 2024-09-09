@@ -5,6 +5,7 @@ admin-player-actions-ahelp = AHelp
 admin-player-actions-respawn = Renascer
 admin-player-actions-spawn = Gerar aqui
 admin-player-spawn-failed = Falha ao encontrar coordenadas válidas
+admin-player-actions-bans = Ban List
 
 admin-player-actions-clone = Clone
 admin-player-actions-follow = Seguir
