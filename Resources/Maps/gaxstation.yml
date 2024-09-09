@@ -8858,7 +8858,7 @@ entities:
       pos: -0.5,57.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2171.8066
+      secondsUntilStateChange: -2290.5642
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -94938,6 +94938,17 @@ entities:
       - SurveillanceCameraEngineering
       nameSet: True
       id: Reator Super-Matéria leste
+  - uid: 17490
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -13.5,25.5
+      parent: 2
+    - type: SurveillanceCamera
+      setupAvailableNetworks:
+      - SurveillanceCameraEngineering
+      nameSet: True
+      id: Gerador AME
 - proto: SurveillanceCameraGeneral
   entities:
   - uid: 13826
@@ -111370,7 +111381,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -30282.127
+      secondsUntilStateChange: -30400.885
       state: Opening
   - uid: 16685
     components:
