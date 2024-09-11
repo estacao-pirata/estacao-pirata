@@ -16,8 +16,8 @@ namespace Content.Shared._EstacaoPirata.Cards.Hand;
 /// </summary>
 public sealed class CardHandSystem : EntitySystem
 {
-    const string CardHandBaseName = "CardHandBase";
-    const string CardDeckBaseName = "CardDeckBase";
+    public const string CardHandBaseName = "CardHandBase";
+    public const string CardDeckBaseName = "CardDeckBase";
 
     [Dependency] private readonly CardStackSystem _cardStack = default!;
     [Dependency] private readonly SharedHandsSystem _hands = default!;
@@ -64,7 +64,9 @@ public sealed class CardHandSystem : EntitySystem
         if (!_cardStack.TryRemoveCard(uid, GetEntity(args.Card), stack))
             return;
 
-        _hands.TryPickupAnyHand(args.Actor, GetEntity(args.Card));
+        if (args.Session.AttachedEntity == null)
+            return;
+        _hands.TryPickupAnyHand((EntityUid)args.Session.AttachedEntity, GetEntity(args.Card));
 
 
         if (stack.Cards.Count != 1)
@@ -72,7 +74,7 @@ public sealed class CardHandSystem : EntitySystem
         var lastCard = stack.Cards.Last();
         if (!_cardStack.TryRemoveCard(uid, lastCard, stack))
             return;
-        _hands.TryPickupAnyHand(args.Actor, lastCard);
+        _hands.TryPickupAnyHand((EntityUid)args.Session.AttachedEntity, lastCard);
 
     }
 
@@ -81,7 +83,10 @@ public sealed class CardHandSystem : EntitySystem
         if (!TryComp<ActorComponent>(user, out var actor))
             return;
 
-        _ui.OpenUi(hand, CardUiKey.Key, actor.PlayerSession);
+        if (!_ui.TryGetUi(hand, CardUiKey.Key, out var bui, null))
+            return;
+
+        _ui.OpenUi(bui, actor.PlayerSession);
 
     }
 
@@ -118,7 +123,7 @@ public sealed class CardHandSystem : EntitySystem
 
         var cardDeck = Spawn(CardDeckBaseName, Transform(hand).Coordinates);
 
-        bool isHoldingCards = _hands.IsHolding(user, hand);
+        bool isHoldingCards = _hands.IsHolding(user, hand, out var _, null);
 
         EnsureComp<CardStackComponent>(cardDeck, out var deckStack);
         if (!TryComp(hand, out CardStackComponent? handStack))

@@ -25,7 +25,6 @@ public sealed class CardSystem : EntitySystem
 
         for (var i = 0; i < spriteComponent.AllLayers.Count(); i++)
         {
-            Log.Debug($"Layer {i}");
             if (!spriteComponent.TryGetLayer(i, out var layer) || layer.State.Name == null)
                 continue;
 
@@ -33,7 +32,6 @@ public sealed class CardSystem : EntitySystem
             if (rsi == null)
                 continue;
 
-            Log.Debug("FOI");
             comp.FrontSprite.Add(new SpriteSpecifier.Rsi(rsi.Path, layer.State.Name));
         }
 

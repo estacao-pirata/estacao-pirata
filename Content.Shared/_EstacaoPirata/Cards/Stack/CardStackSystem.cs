@@ -61,8 +61,16 @@ public sealed class CardStackSystem : EntitySystem
         {
             _entityManager.DeleteEntity(uid);
         }
-        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card), StackQuantityChangeType.Removed));
-        RaiseNetworkEvent(new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card), StackQuantityChangeType.Removed));
+
+        // This needs a proper fix!
+
+        if (!TryGetNetEntity(uid, out var stackNet) || !TryGetNetEntity(card, out var cardNet))
+            return true;
+
+        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent((NetEntity)stackNet, cardNet, StackQuantityChangeType.Removed));
+        RaiseNetworkEvent(new CardStackQuantityChangeEvent((NetEntity)stackNet, cardNet, StackQuantityChangeType.Removed));
+
+
         return true;
     }
 
@@ -78,8 +86,17 @@ public sealed class CardStackSystem : EntitySystem
         comp.Cards.Add(card);
 
         Dirty(uid, comp);
-        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card), StackQuantityChangeType.Added));
-        RaiseNetworkEvent(new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card), StackQuantityChangeType.Added));
+        try
+        {
+            RaiseLocalEvent(uid,
+                new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card), StackQuantityChangeType.Added));
+            RaiseNetworkEvent(new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card),
+                StackQuantityChangeType.Added));
+        }
+        catch (Exception e)
+        {
+            return false;
+        }
         return true;
 
     }
