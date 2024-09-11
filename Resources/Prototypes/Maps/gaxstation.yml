@@ -28,7 +28,6 @@
             Chef: [ 2, 2 ]
             Janitor: [ 2, 2 ]
             Lawyer: [ 1, 1 ]
-            Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 2, 2 ]
             #Engineering
