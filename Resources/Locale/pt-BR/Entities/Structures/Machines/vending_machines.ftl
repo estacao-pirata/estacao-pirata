@@ -31,8 +31,8 @@ ent-VendingMachineMagivend = Vende Feitiços
 ent-VendingMachineDiscount = Discontos do Danilo
     .desc = Vende salgadinhos da famosa série 'Danilo Disconto'.
 
-ent-VendingMachineEngivend = Vende-Treco
-    .desc = Vende ferramentas, trecos, apetrechos, mecanismos, etc.
+ent-VendingMachineEngivend = Engi-Vende
+    .desc = Ferramentas sobressalentes e outros trecos, apetrechos, mecanismos, etc.
 
 ent-VendingMachineMedical = NanoFarma Mais
     .desc = Um dispensador de medicamentos. 100% natural!
