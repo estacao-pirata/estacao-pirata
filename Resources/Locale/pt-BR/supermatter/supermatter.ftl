@@ -6,13 +6,13 @@ supermatter-warning =
 supermatter-emergency =
     PERIGO! A integridade da hiperestutura do cristal atingiu níveis críticos! Integridade: {$integrity}%.
 supermatter-delam-explosion =
-    DELAMINAÇÀO DO CRISTAL EMINENTE! O cristal atingiu níveis de integridade de falha crítica! O campo de desestabilização de baixas de emergência foi acionado. 
+    DELAMINAÇÃO DO CRISTAL EMINENTE! O cristal atingiu níveis de integridade de falha crítica! O campo de desestabilização de baixas de emergência foi acionado. 
 supermatter-delam-overmass =
-    DELAMINAÇÀO DO CRISTAL EMINENTE! A integridade da hiperestrutura do cristal apresenta falha de massa crítica!
+    DELAMINAÇÃO DO CRISTAL EMINENTE! A integridade da hiperestrutura do cristal apresenta falha de massa crítica!
 supermatter-delam-tesla =
-    DELAMINAÇÀO DO CRISTAL EMINENTE! A integridade da hiperestrutura do cristal atingiu falha crítica de surto de energia! Formação de bola de energia iminente!
+    DELAMINAÇÃO DO CRISTAL EMINENTE! A integridade da hiperestrutura do cristal atingiu falha crítica de surto de energia! Formação de bola de energia iminente!
 supermatter-delam-cascade =
-    DELAMINAÇÀO DO CRISTAL EMINENTE! Limites de frequência harmônica excedidos, campo de desestabilização de baixas não pôde ser acionado!
+    DELAMINAÇÃO DO CRISTAL EMINENTE! Limites de frequência harmônica excedidos, campo de desestabilização de baixas não pôde ser acionado!
 supermatter-delam-cancel =
     Hiperestrutura cristalina retornando aos parâmetros operacionais seguros. O Failsafe foi desativado. Integridade: {$integrity}%.
 supermatter-seconds-before-delam =
