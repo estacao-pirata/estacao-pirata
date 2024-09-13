@@ -48,6 +48,7 @@
   id: Food Recipes
   name: guide-entry-foodrecipes
   text: "/ServerInfo/Guidebook/Service/FoodRecipes.xml"
+  filterEnabled: true
 
 - type: guideEntry
   id: Food Pirata

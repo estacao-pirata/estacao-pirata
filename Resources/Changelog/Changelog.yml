@@ -5985,3 +5985,289 @@ Entries:
   id: 6325
   time: '2024-09-07T03:59:44.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/861
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Your character size now affects your blood level. Smaller characters
+        will have less blood, and larger characters will have more.
+  id: 6326
+  time: '2024-09-08T14:39:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/858
+- author: Mnemotechnician
+  changes:
+    - type: Remove
+      message: >-
+        Quick swap has been disabled for most item slots. This primarily means
+        you will have to eject power cells/magazines from items/weapons/borgs
+        before replacing them with different ones.
+  id: 6327
+  time: '2024-09-08T14:42:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/856
+- author: router
+  changes:
+    - type: Tweak
+      message: Female slimes no longer have movie screams.
+  id: 6328
+  time: '2024-09-08T14:44:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/849
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: Chat bubbles now use the font & color of the language of the message.
+  id: 6329
+  time: '2024-09-08T14:51:20.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/812
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        A shrimp morphotype was added to the failure pool of the metempsychotic
+        machine.
+  id: 6330
+  time: '2024-09-08T14:56:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/882
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Multiple issues with translators were fixed. Additionally, you can now
+        hold multiple handheld translators at once without issues.
+  id: 6331
+  time: '2024-09-08T15:08:37.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/834
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Recyclers can now once again eat people when emagged.
+    - type: Add
+      message: >-
+        The ability for emagged Recyclers to eat people is now controlled by the
+        CVar "reclaimer.allow_gibbing".
+    - type: Add
+      message: >-
+        Recyclers require power to eat people. No more dragging emagged
+        recyclers into crowds.
+  id: 6332
+  time: '2024-09-08T15:15:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/822
+- author: BlueHNT
+  changes:
+    - type: Add
+      message: Added bwoink hammer with bwoink sound
+  id: 6333
+  time: '2024-09-08T15:16:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/759
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: 'A new console command, AddPsionicPower has been added. '
+  id: 6334
+  time: '2024-09-08T15:16:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/807
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Glacier, Core, and Saltern now have assistant job slots.
+    - type: Add
+      message: >-
+        Glacier, Core, and Saltern are now able to be voted on for map
+        selection.
+  id: 6335
+  time: '2024-09-09T04:13:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/838
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Wide Swing is no longer possible as a default on all weapons, the
+        default is now Power Attack (10 stamina spent, for 20% bonus damage to
+        single target only). Only a small number of weapons designed to
+        "Cleave", still have their wide swing functionality.
+  id: 6336
+  time: '2024-09-09T04:13:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/866
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Arrivals has been re-enabled. I feel sorry for all the people who
+        thought we had disabled it. This was a legacy toggle that was leftover
+        from when we forked DeltaV
+  id: 6337
+  time: '2024-09-09T04:13:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/871
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Felinids and Harpies will now correctly never set off floor traps, such
+        as landmines and mouse traps.
+    - type: Add
+      message: >-
+        Trap Avoider has been added as a new trait, allowing characters to buy
+        the innate ability to avoid floor traps. I would have named this "Light
+        Step", after the trait from Fallout that shares its name and effect, but
+        someone already gave that name to a different trait entirely.
+  id: 6338
+  time: '2024-09-09T04:14:44.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/884
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Arm and Leg markings are now split between individual arms, hands, legs,
+        and feet.
+  id: 6339
+  time: '2024-09-09T05:30:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/870
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        The Antag Refactor has been once again added back in. More antags will
+        be coming soon. 
+  id: 6340
+  time: '2024-09-09T14:21:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/794
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        The "food recipes" page in guidebook now contains an automatically
+        generated list of food recipes.
+  id: 6341
+  time: '2024-09-11T17:55:11.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/783
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Rat Kings have returned to the default event rotation.
+  id: 6342
+  time: '2024-09-11T19:59:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/903
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Jetpacks now work in zero gravity.
+    - type: Add
+      message: >-
+        New CCVar "jetpack.enable_anywhere" allows server hosts to optionally
+        make it so that jetpacks can be used anywhere, even in gravity and on
+        grids.
+    - type: Add
+      message: >-
+        New CCVar "jetpack.enable_in_no_gravity" allows server hosts to
+        optionally disable jetpacks being usable in zero gravity.
+  id: 6343
+  time: '2024-09-11T19:59:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/901
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Medical Job related items are now part of a Medical loadout group, and
+        have all been significantly discounted.
+  id: 6344
+  time: '2024-09-11T20:00:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/902
+- author: Tilkku
+  changes:
+    - type: Tweak
+      message: Penlight Exam Messages
+    - type: Fix
+      message: Penlights now need to be on in order to examine
+    - type: Fix
+      message: Penlights can no longer be used on self
+  id: 6345
+  time: '2024-09-11T20:02:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/900
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Fixed a couple issues with the language menu UI and translators.
+  id: 6346
+  time: '2024-09-11T20:03:25.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/893
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Cargo Job related items are now part of a Cargo loadout group, and have
+        all been significantly discounted.
+  id: 6347
+  time: '2024-09-11T20:27:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/909
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Security Job related items are now part of a Security loadout group, and
+        have all been significantly discounted.
+  id: 6348
+  time: '2024-09-11T20:39:55.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/908
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Service Job related items are now part of a Service loadout group, and
+        have all been significantly discounted.
+    - type: Tweak
+      message: >-
+        Musicians now have significant discounts on all instruments in loadouts,
+        but can only take a maximum of 3.
+  id: 6349
+  time: '2024-09-11T20:52:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/906
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Engineering Job related items are now part of a Engineering loadout
+        group, and have all been significantly discounted.
+  id: 6350
+  time: '2024-09-11T21:03:37.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/907
+- author: Squishy77
+  changes:
+    - type: Add
+      message: >-
+        added rcds to the list of possible re and ported over the re update from
+        delta 
+    - type: Tweak
+      message: >-
+        tweaked the costs of boards re-machine boards to be more consistent with
+        their post hyper lathe update counter parts
+  id: 6351
+  time: '2024-09-12T00:12:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/910
+- author: SleepyScarecrow
+  changes:
+    - type: Tweak
+      message: Ethanol Contents
+    - type: Fix
+      message: SnowWhite Recipe
+    - type: Tweak
+      message: Ethanol overdose changed from 15 to 45
+  id: 6352
+  time: '2024-09-12T00:14:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/911
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: Ported a number of jukebox songs from Delta-V.
+  id: 6353
+  time: '2024-09-12T00:14:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/912
+- author: Skubman
+  changes:
+    - type: Fix
+      message: >-
+        Blood Deficiency now makes you lose a consistent percentage of blood
+        regardless of your blood volume, which is dictated by size. This makes
+        the time to low blood and death consistent for every character of all
+        sizes with this trait.
+  id: 6354
+  time: '2024-09-12T00:15:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/895
