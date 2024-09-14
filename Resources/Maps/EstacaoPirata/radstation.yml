@@ -47,7 +47,7 @@ entities:
     - type: OccluderTree
     - type: LoadedMap
     - type: Parallax
-      parallax: OriginStation
+      parallax: KettleStation
   - uid: 2
     components:
     - type: MetaData
