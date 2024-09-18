@@ -1,6 +1,8 @@
 using System.Linq;
 using Content.Shared.Actions;
 using Content.Server.GameTicking;
+using Content.Shared.Hands.Components;
+using Content.Shared.Hands.EntitySystems;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Shared.Customization.Systems;
 using Content.Shared.Players;
@@ -21,6 +23,7 @@ public sealed class TraitSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly ISerializationManager _serialization = default!;
     [Dependency] private readonly CharacterRequirementsSystem _characterRequirements = default!;
+    [Dependency] private readonly SharedHandsSystem _sharedHandsSystem = default!;
     [Dependency] private readonly PlayTimeTrackingManager _playTimeTracking = default!;
     [Dependency] private readonly IConfigurationManager _configuration = default!;
     [Dependency] private readonly SharedActionsSystem _actions = default!;
@@ -67,6 +70,7 @@ public sealed class TraitSystem : EntitySystem
         AddTraitActions(uid, traitPrototype);
         AddTraitPsionics(uid, traitPrototype);
         AddTraitMoodlets(uid, traitPrototype);
+        AddTraitGear(uid, traitPrototype);
     }
 
     /// <summary>
@@ -107,6 +111,23 @@ public sealed class TraitSystem : EntitySystem
             var comp = (Component) _serialization.CreateCopy(entry.Component, notNullableOverride: true);
             comp.Owner = uid;
             EntityManager.AddComponent(uid, comp);
+        }    
+    }
+
+    /// <summary>
+    ///     Adds item required by the Trait.
+    /// </summary>
+    public void AddTraitGear(EntityUid uid, TraitPrototype traitPrototype)
+    {
+        if (traitPrototype.TraitGear != null)
+        {
+            if (!TryComp(uid, out HandsComponent? handsComponent))
+                return;
+
+            var coords = Transform(uid).Coordinates;
+            var inhandEntity = EntityManager.SpawnEntity(traitPrototype.TraitGear, coords);
+            _sharedHandsSystem.TryPickup(uid, inhandEntity, checkActionBlocker: false,
+                handsComp: handsComponent);
         }
     }
 

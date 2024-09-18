@@ -2,6 +2,7 @@
   id: Blindness
   category: Visual
   points: 6
+  traitGear: WhiteCane
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
