@@ -119,7 +119,7 @@ public sealed class TraitSystem : EntitySystem
     /// </summary>
     public void AddTraitGear(EntityUid uid, TraitPrototype traitPrototype)
     {
-        if (traitPrototype.TraitGear != null)
+        if ((object) traitPrototype.TraitGear != null)
         {
             if (!TryComp(uid, out HandsComponent? handsComponent))
                 return;
