@@ -1,7 +1,6 @@
 using Content.Shared.Customization.Systems;
 using Content.Shared.Mood;
 using Content.Shared.Psionics;
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
