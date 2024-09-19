@@ -6,9 +6,14 @@
   id: Research
   name: id-card-access-level-research
 
+- type: accessLevel
+  id: Library
+  name: id-card-access-level-library
+
 - type: accessGroup
   id: Research
   tags:
   - ResearchDirector
   - Research
   - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
+  - Library # DeltaV - Add Library access
