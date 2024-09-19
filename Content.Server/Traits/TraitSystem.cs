@@ -111,7 +111,7 @@ public sealed class TraitSystem : EntitySystem
             var comp = (Component) _serialization.CreateCopy(entry.Component, notNullableOverride: true);
             comp.Owner = uid;
             EntityManager.AddComponent(uid, comp);
-        }    
+        }
     }
 
     /// <summary>
