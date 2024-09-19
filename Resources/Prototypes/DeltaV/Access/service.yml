@@ -6,9 +6,9 @@
   id: Clown
   name: id-card-access-level-clown
 
-- type: accessLevel
-  id: Library
-  name: id-card-access-level-library
+# - type: accessLevel
+#   id: Library
+#   name: id-card-access-level-library
 
 - type: accessLevel
   id: Mime
