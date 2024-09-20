@@ -30,9 +30,12 @@ ui-options-ambience-volume = Volume Ambiente:
 ui-options-lobby-volume = Lobby & Round-end volume:
 ui-options-interface-volume = Volume de Interface:
 ui-options-ambience-max-sounds = Ambience simultaneous sounds:
+ui-options-announcer-volume = Volume do Anunciador:
 ui-options-lobby-music = Musica no Lobby & Fim do Round
 ui-options-restart-sounds = Round Restart Sounds
 ui-options-event-music = Música de Evento
+ui-options-announcer-disable-multiple-sounds = Disabilitar Sobreposição de Sons de Anuciador
+ui-options-announcer-disable-multiple-sounds-tooltip = Alguns anúncios não soarão corretamente, esta configuração não é recomendada
 ui-options-admin-sounds = Tocar Som de Admin
 ui-options-volume-label = Volume
 ui-options-volume-percent = { TOSTRING($volume, "P0") }
@@ -41,13 +44,18 @@ ui-options-volume-percent = { TOSTRING($volume, "P0") }
 
 ui-options-show-held-item = Mostrar item segurado ao lado do cursor
 ui-options-show-combat-mode-indicators = Mostrar indicadores de combate com o cursor
+ui-options-show-offer-mode-indicators = Mostrar indicadores de modo de oferta com o cursor
 ui-options-opaque-storage-window = Janela de armazenamento opaca
+ui-options-show-ooc-patron-color = Mostrar cor OOC dos Patronos
 ui-options-show-looc-on-head = Mostrar bate-papo LOOC acima da cabeça dos personagens
 ui-options-fancy-speech = Mostrar nomes em balões de fala
 ui-options-fancy-name-background = Adicionar fundo aos nomes nos balões de fala
 ui-options-enable-color-name = Adiciona cores aos nomes dos personagens
 ui-options-colorblind-friendly = Modo amigável a daltônicos
+ui-options-no-filters = Desabilitar filtros de visão de espécie
 ui-options-reduced-motion = Reduzir movimento dos efeitos visuais
+ui-options-chat-window-opacity = Opacidade da janela de chat
+ui-options-chat-window-opacity-percent = { TOSTRING($opacity, "P0") }
 ui-options-screen-shake-intensity = Intensidade de tremida de tela
 ui-options-screen-shake-percent = { TOSTRING($intensity, "P0") }
 ui-options-vsync = VSync
@@ -108,12 +116,13 @@ ui-options-header-general = Geral
 
 ui-options-hotkey-keymap = Usar teclas QWERTY
 ui-options-hotkey-toggle-walk = Alternar caminhar
+ui-options-hotkey-default-walk = Andar por default
 
 ui-options-function-move-up = Mover pra Cima
 ui-options-function-move-left = Mover pra Esquerda
 ui-options-function-move-down = Mover pra Baixo
 ui-options-function-move-right = Mover pra Direita
-ui-options-function-walk = Andar
+ui-options-function-walk = Mudar Velocidade
 
 ui-options-function-camera-rotate-left = Girar para esquerda
 ui-options-function-camera-rotate-right = Girar para direita
@@ -135,6 +144,9 @@ ui-options-function-examine-entity = Examinar
 ui-options-function-swap-hands = Trocar de Mão
 ui-options-function-move-stored-item = Mover item armazenado
 ui-options-function-rotate-stored-item = Rotacionar item armazenado
+ui-options-function-offer-item = Oferecer algo
+ui-options-function-save-item-location = Salvar local do item
+ui-options-function-toggle-standing = Toggle standing
 ui-options-static-storage-ui = Fixar janela de armazenamento à barra de atalhos
 
 ui-options-function-smart-equip-backpack = Smart-equip na mochila
@@ -229,30 +241,30 @@ ui-options-net-predict = Previsão client-side
 
 ui-options-net-interp-ratio = Tamanho do buffer de estado
 ui-options-net-interp-ratio-tooltip = Aumentar isso geralmente tornará o jogo mais resistente
-                                      para servidor->cliente perda de pacotes, no entanto, ao fazê-lo,
-                                      efetivamente adiciona um pouco mais de latência e requer o
-                                      cliente para prever mais ticks futuros.
+                                      à perda de pacote servidor->cliente, no entanto, ao fazê-lo,
+                                      efetivamente um pouco mais de latência é adicionada e o cliente
+                                      precisa prever mais ticks futuros.
 
-ui-options-net-predict-tick-bias = Previsão de ticks
+ui-options-net-predict-tick-bias = Viés de Previsão de Ticks
 ui-options-net-predict-tick-bias-tooltip = Aumentar isso geralmente tornará o jogo mais resistente
-                                           para cliente->servidor perda de pacotes, no entanto, ao fazê-lo
-                                           efetivamente adiciona um pouco mais de latência e requer o
-                                           cliente para prever mais ticks futuros.
+                                           à perda de pacote cliente->servidor, no entanto, ao fazê-lo
+                                           efetivamente um pouco mais de latência é adicionada e o cliente
+                                           precisa prever mais ticks futuros.
 
-ui-options-net-pvs-spawn = Orçamento de spawn de PVS
-ui-options-net-pvs-spawn-tooltip = Isso limita a taxa na qual o servidor enviará entidades recém
-                                       spawnadas para o cliente. Reduzir isso pode ajudar reduzir
-                                       gagueira devido à spawn de entidades, mas pode levar a pop-in.
+ui-options-net-pvs-spawn = Orçamento de spawn de entidades PVS
+ui-options-net-pvs-spawn-tooltip = Esse valor limita a taxa na qual o servidor envia entidades recém
+                                       spawnadas para o cliente. Reduzir isso pode ajudar a reduzir
+                                       stutter devido à spawn de entidades, mas pode levar a pop-in.
 
-ui-options-net-pvs-entry = Orçamento da entidade PVS
-ui-options-net-pvs-entry-tooltip = Isso limita a taxa na qual o servidor enviará entidades recentemente
-                                       visíveis ao cliente. Reduzir isso pode ajudar a reduzir
-                                       gagueira, mas pode levar a pop-in.
+ui-options-net-pvs-entry = Orçamento PVS de entidades PVS
+ui-options-net-pvs-entry-tooltip = Esse valor limita a taxa na qual o servidor envia entidades tornadas
+                                       visíveis recentemente visíveis ao cliente. Reduzir isso pode ajudar
+                                       a reduzir stutter, mas pode levar a pop-in.
 
-ui-options-net-pvs-leave = Taxa de desprendimento de PVS
-ui-options-net-pvs-leave-tooltip = Isso limita a taxa na qual o cliente removerá
-                                       entidades fora de vista. Reduzir isso pode ajudar a reduzir
-                                       gaguejando ao caminhar, mas pode ocasionalmente
+ui-options-net-pvs-leave = Taxa de baixa de PVS
+ui-options-net-pvs-leave-tooltip = Isso limita a taxa na qual o cliente remove entidades
+                                       fora de vista. Reduzir isso pode ajudar a reduzir
+                                       stutter ao caminhar, mas pode ocasionalmente
                                        levar a previsões erradas e outros problemas.
 
 ## Toggle window console command
