@@ -1,9 +1,10 @@
-using Content.Shared.ActionBlocker;
+using Content.Shared.Buckle;
 using Content.Shared.Rotation;
 using Content.Shared.Standing;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Shared.Timing;
+using DrawDepth = Content.Shared.DrawDepth.DrawDepth;
 
 namespace Content.Client.Standing;
 
@@ -11,14 +12,17 @@ public sealed class LayingDownSystem : SharedLayingDownSystem
 {
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IEyeManager _eyeManager = default!;
+    [Dependency] private readonly StandingStateSystem _standing = default!;
     [Dependency] private readonly AnimationPlayerSystem _animation = default!;
-    [Dependency] private readonly ActionBlockerSystem _actionBlocker = default!;
+    [Dependency] private readonly SharedBuckleSystem _buckle = default!;
 
     public override void Initialize()
     {
         base.Initialize();
 
         SubscribeLocalEvent<LayingDownComponent, MoveEvent>(OnMovementInput);
+        SubscribeNetworkEvent<DrawDownedEvent>(OnDowned);
+        SubscribeLocalEvent<LayingDownComponent, StoodEvent>(OnStood);
 
         SubscribeNetworkEvent<CheckAutoGetUpEvent>(OnCheckAutoGetUp);
     }
@@ -26,7 +30,8 @@ public sealed class LayingDownSystem : SharedLayingDownSystem
     private void OnMovementInput(EntityUid uid, LayingDownComponent component, MoveEvent args)
     {
         if (!_timing.IsFirstTimePredicted
-            || !_actionBlocker.CanMove(uid)
+            || !_standing.IsDown(uid)
+            || _buckle.IsBuckled(uid)
             || _animation.HasRunningAnimation(uid, "rotate")
             || !TryComp<TransformComponent>(uid, out var transform)
             || !TryComp<SpriteComponent>(uid, out var sprite)
@@ -44,6 +49,29 @@ public sealed class LayingDownSystem : SharedLayingDownSystem
 
         rotationVisuals.HorizontalRotation = Angle.FromDegrees(90);
         sprite.Rotation = Angle.FromDegrees(90);
+    }
+
+    private void OnDowned(DrawDownedEvent args)
+    {
+        var uid = GetEntity(args.Uid);
+
+        if (!TryComp<SpriteComponent>(uid, out var sprite) 
+            || !TryComp<LayingDownComponent>(uid, out var component))
+            return;
+
+        if (!component.OriginalDrawDepth.HasValue)
+            component.OriginalDrawDepth = sprite.DrawDepth;
+
+        sprite.DrawDepth = (int) DrawDepth.SmallMobs;
+    }
+
+    private void OnStood(EntityUid uid, LayingDownComponent component, StoodEvent args)
+    {
+        if (!TryComp<SpriteComponent>(uid, out var sprite) 
+            || !component.OriginalDrawDepth.HasValue)
+            return;
+
+        sprite.DrawDepth = component.OriginalDrawDepth.Value;
     }
 
     private void OnCheckAutoGetUp(CheckAutoGetUpEvent ev, EntitySessionEventArgs args)
