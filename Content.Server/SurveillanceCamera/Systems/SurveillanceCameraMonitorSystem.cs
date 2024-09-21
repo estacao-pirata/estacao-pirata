@@ -510,6 +510,6 @@ public sealed class SurveillanceCameraMonitorSystem : EntitySystem
         }
 
         var state = new SurveillanceCameraMonitorUiState(GetNetEntity(monitor.ActiveCamera), monitor.KnownSubnets.Keys.ToHashSet(), monitor.ActiveCameraAddress, monitor.KnownCameras); // Sunrise-edit
-        _userInterface.SetUiState(uid, SurveillanceCameraMonitorUiKey.Key, state);
+        _userInterface.TrySetUiState(uid, SurveillanceCameraMonitorUiKey.Key, state);
     }
 }
