@@ -20,7 +20,7 @@
   - type: TypingIndicator
     proto: oni
   - type: Temperature
-    heatDamageThreshold: 535
+    heatDamageThreshold: 353
     coldDamageThreshold: 270
     currentTemperature: 310.15
     specificHeat: 42
@@ -29,7 +29,7 @@
         Cold : 0.75 #o padrão é 0.1
     heatDamage:
       types:
-        Heat : 0.5 #O padrão é 1.5
+        Heat : 0.75 #O padrão é 1.5
   - type: Damageable
     damageModifierSet: Daengati
   - type: LanguageKnowledge
