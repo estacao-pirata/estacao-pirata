@@ -6656,3 +6656,34 @@ Entries:
   id: 6387
   time: '2024-09-24T00:56:45.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/945
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        IPC now weigh 71kg by default instead of 5kg. Seriously who the fuck
+        made the BeepBoops out of feathers!?!
+  id: 6388
+  time: '2024-09-25T05:09:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/959
+- author: fenndragon
+  changes:
+    - type: Add
+      message: Added new neutral xenos, events, and reagent slimes
+  id: 6389
+  time: '2024-09-26T15:06:54.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/956
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Backpacks, Duffelbags, and Satchels have been added to loadouts.
+    - type: Remove
+      message: >-
+        The button for "Backpack Preference" has been removed. Backpacks
+        selection is now done via Loadouts.
+    - type: Remove
+      message: >-
+        The button for "Suit/Skirt Preference" has also been removed. Suit
+        selection is done via Loadouts. 
+  id: 6390
+  time: '2024-09-28T00:46:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/957
