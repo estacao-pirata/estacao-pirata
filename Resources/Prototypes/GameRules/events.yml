@@ -252,7 +252,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 10
+    weight: 6
     startAnnouncement: true
     endAnnouncement: true
     startDelay: 24
@@ -279,7 +279,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 10
+    weight: 6
     startAnnouncement: true
     endAnnouncement: true
     duration: 120
@@ -509,7 +509,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 10
+    weight: 12
     duration: 150
     maxDuration: 300
   - type: MassHallucinationsRule

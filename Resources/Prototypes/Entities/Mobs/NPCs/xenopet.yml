@@ -346,7 +346,7 @@
   - type: StationEvent
     startAnnouncement: true
     earliestStart: 20
-    reoccurrenceDelay: 12
+    reoccurrenceDelay: 20
     minimumPlayers: 1
     weight: 6 # Really weak compared to other critters
     duration: 60
@@ -371,9 +371,9 @@
   - type: StationEvent
     startAnnouncement: true
     earliestStart: 20
-    reoccurrenceDelay: 12
+    reoccurrenceDelay: 20
     minimumPlayers: 12
-    weight: 6 # Really weak compared to other critters
+    weight: 4 # Really weak compared to other critters
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -412,9 +412,9 @@
   - type: StationEvent
     startAnnouncement: true
     earliestStart: 20
-    reoccurrenceDelay: 12
+    reoccurrenceDelay: 20
     minimumPlayers: 12
-    weight: 6 # Really weak compared to other critters
+    weight: 5 # Really weak compared to other critters
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -456,7 +456,7 @@
   - type: StationEvent
     startAnnouncement: true
     earliestStart: 20
-    reoccurrenceDelay: 12
+    reoccurrenceDelay: 20
     minimumPlayers: 12
     weight: 6 # Really weak compared to other critters
     duration: 60

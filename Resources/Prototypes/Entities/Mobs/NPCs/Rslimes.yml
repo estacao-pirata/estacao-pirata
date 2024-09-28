@@ -227,9 +227,9 @@
   - type: StationEvent
     startAnnouncement: true
     earliestStart: 20
-    reoccurrenceDelay: 12
+    reoccurrenceDelay: 25
     minimumPlayers: 1
-    weight: 6 # Really weak compared to other critters
+    weight: 3 # Really weak compared to other critters
     duration: 60
   - type: VentCrittersRule
     entries:
