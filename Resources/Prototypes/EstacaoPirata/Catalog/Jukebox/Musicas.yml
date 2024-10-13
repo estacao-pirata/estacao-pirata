@@ -594,3 +594,9 @@
   name: Marty Robbins - Big Iron
   path:
     path: /Media/Audio/Jukebox/big_iron.ogg
+
+- type: jukebox
+  id: Dancing
+  name: Dancing in the Moonlight - King Harvest
+  path:
+    path: /Media/Audio/Lobby/dancing.ogg
