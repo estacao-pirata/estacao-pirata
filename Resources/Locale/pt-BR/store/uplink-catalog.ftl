@@ -41,14 +41,14 @@ uplink-flash-grenade-desc = Um flashbang de edição padrão, capaz de cegar e r
 uplink-smoke-grenade-name = Granada de Fumaça
 uplink-smoke-grenade-desc = Uma granada que libera uma enorme nuvem de fumaça, perfeita para matar alguém nas sombras ou fazer uma fuga furtiva.
 
-uplink-mini-bomb-name = Minibomb
+uplink-mini-bomb-name = Minibomba
 uplink-mini-bomb-desc = Um explosivo de sabotagem de precisão de baixa potência mas alto impacto com um detonador de cinco segundos de comprimento. Perfeito para destruir rapidamente uma máquina, corpo morto, ou qualquer outra coisa que precisar sumir.
 
-uplink-supermatter-grenade-name = Supermatter Grenada
-uplink-supermatter-grenade-desc = Granada que simula a delaminação de um motor de suppermatter, gerando um forte poço gravitacional. Explosão comparável com uma Mini Bomb.
+uplink-supermatter-grenade-name = Granada de Supermatéria
+uplink-supermatter-grenade-desc = Uma granada que simula a delaminação de um motor de supermatéria, gerando um forte poço gravitacional. Explosão comparável com uma Minibomba.
 
-uplink-whitehole-grenade-name = Whitehole Grenada
-uplink-whitehole-grenade-desc = Granada que repele tudo por cerca de 10 segundos. Muito útil em salas pequenas e para perseguir alguém.
+uplink-whitehole-grenade-name = Granada de Buraco Branco
+uplink-whitehole-grenade-desc = Uma granada que repele tudo por cerca de 10 segundos. Muito útil em salas pequenas e para perseguir alguém.
 
 uplink-penguin-grenade-name = Pinguim Granada
 uplink-penguin-grenade-desc = Um pinguim pequeno e altamente agressivo com uma granada amarrada em volta do pescoço. Colhido pelo Sindicato de planetas gelados pra caralho.
