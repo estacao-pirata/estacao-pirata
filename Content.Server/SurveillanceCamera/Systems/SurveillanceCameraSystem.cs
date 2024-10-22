@@ -45,10 +45,8 @@ public sealed class SurveillanceCameraSystem : EntitySystem
     public const string CameraSubnetDisconnectMessage = "surveillance_camera_subnet_disconnect";
 
     public const string CameraAddressData = "surveillance_camera_data_origin";
-    public const string CameraUid = "surveillance_camera_data_uid"; // Sunrise-edit
     public const string CameraNameData = "surveillance_camera_data_name";
     public const string CameraSubnetData = "surveillance_camera_data_subnet";
-    public const string CameraSubnetColor = "surveillance_camera_color_subnet"; // Sunrise-edit
 
     public const int CameraNameLimit = 32;
 
@@ -81,9 +79,7 @@ public sealed class SurveillanceCameraSystem : EntitySystem
                 { DeviceNetworkConstants.Command, string.Empty },
                 { CameraAddressData, deviceNet.Address },
                 { CameraNameData, component.CameraId },
-                { CameraSubnetData, string.Empty },
-                { CameraSubnetColor, new Color() }, // Sunrise-edit
-                { CameraUid, uid.ToString() } // Sunrise-edit
+                { CameraSubnetData, string.Empty }
             };
 
             var dest = string.Empty;
@@ -114,17 +110,8 @@ public sealed class SurveillanceCameraSystem : EntitySystem
                         return;
                     }
 
-                    // Sunrise-start
-                    if (!args.Data.TryGetValue(CameraSubnetColor, out Color color))
-                    {
-                        return;
-                    }
-                    // Sunrise-end
-
                     dest = args.SenderAddress;
                     payload[CameraSubnetData] = subnet;
-                    payload[CameraSubnetColor] = color; // Sunrise-edit
-                    payload[CameraUid] = uid.ToString(); // Sunrise-edit
                     payload[DeviceNetworkConstants.Command] = CameraDataMessage;
                     break;
             }
