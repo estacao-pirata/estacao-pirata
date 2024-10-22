@@ -5,8 +5,6 @@ salvage-expedition-structure-remaining = {$count ->
 }
 
 salvage-expedition-type = Missão
-salvage-expedition-megafauna-remaining = {$count} megafauna restantes.
-
 salvage-expedition-window-title = Expedições de salvamento
 salvage-expedition-window-difficulty = Dificuldade:
 salvage-expedition-window-details = Detalhes:
@@ -15,23 +13,10 @@ salvage-expedition-window-duration = Duração:
 salvage-expedition-window-biome = Bioma:
 salvage-expedition-window-modifiers = Modificadores:
 
-salvage-expedition-window-claimed = Reivindicado
-salvage-expedition-window-claim = Reivindicar
+offering-window-claimed = Reivindicado
+offering-window-claim = Reivindicar
 
 salvage-expedition-window-next = Próxima oferta
-
-# Expedition descriptions
-salvage-expedition-desc-mining = Colete recursos dentro da área.
-#  You will be taxed {$tax}% of the resources collected.
-salvage-expedition-desc-structure = {$count ->
-    [one] Destruir {$count} {$structure} dentro da área.
-    *[other] Destruir {$count} {$structure}s dentro da área.
-}
-salvage-expedition-desc-elimination = Mate uma criatura grande e perigosa dentro desta área.
-
-salvage-expedition-type-Mining = Mineração
-salvage-expedition-type-Destruction = Destruição
-salvage-expedition-type-Elimination = Eliminação
 
 salvage-expedition-difficulty-Minimal = Mínima
 salvage-expedition-difficulty-Minor = Pequena
@@ -49,3 +34,23 @@ salvage-expedition-announcement-countdown-seconds = {$duration} segundos restant
 salvage-expedition-announcement-dungeon = A masmorra está localizada {$direction}.
 salvage-expedition-completed = A expedição está concluída.
 salvage-expedition-reward-description = Recompensa de conclusão da missão
+
+salvage-expedition-megafauna-remaining = {$count} megafauna restantes.
+
+# Expedition descriptions
+salvage-expedition-desc-mining = Colete recursos dentro da área.
+#  You will be taxed {$tax}% of the resources collected.
+salvage-expedition-desc-structure = {$count ->
+    [one] Destruir {$count} {$structure} dentro da área.
+    *[other] Destruir {$count} {$structure}s dentro da área.
+}
+salvage-expedition-desc-elimination = Mate uma criatura grande e perigosa dentro desta área.
+
+salvage-expedition-type-Mining = Mineração
+salvage-expedition-type-Destruction = Destruição
+salvage-expedition-type-Elimination = Eliminação
+
+
+
+
+

@@ -49,7 +49,7 @@ ent-CrateScienceSecure = caixa de ciência segura
 ent-CratePlasma = caixa de plasma
     .desc = { "" }
 
-ent-CrateSecure = caixa de segura
+ent-CrateSecure = caixa segura
     .desc = { "" }
 
 ent-CrateHydroSecure = caixa de hidroponia segura
