@@ -1,7 +1,7 @@
 - type: entity
   id: PortableSurveillanceCameraMonitor
-  name: Monitor de Câmeras Portátil
-  description: Permite que você observe a equipe de qualquer lugar.
+  name: портативный монитор камер
+  description: Позволяет вам в любом месте смотреть за экипажем.
   parent: BaseItem
   components:
   - type: Sprite
