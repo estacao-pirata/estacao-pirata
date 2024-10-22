@@ -64,9 +64,9 @@ public sealed class CardHandSystem : EntitySystem
         if (!_cardStack.TryRemoveCard(uid, GetEntity(args.Card), stack))
             return;
 
-        if (args.Session.AttachedEntity == null)
+        if (args.Actor == null)
             return;
-        _hands.TryPickupAnyHand((EntityUid)args.Session.AttachedEntity, GetEntity(args.Card));
+        _hands.TryPickupAnyHand((EntityUid)args.Actor, GetEntity(args.Card));
 
 
         if (stack.Cards.Count != 1)
@@ -74,7 +74,7 @@ public sealed class CardHandSystem : EntitySystem
         var lastCard = stack.Cards.Last();
         if (!_cardStack.TryRemoveCard(uid, lastCard, stack))
             return;
-        _hands.TryPickupAnyHand((EntityUid)args.Session.AttachedEntity, lastCard);
+        _hands.TryPickupAnyHand((EntityUid)args.Actor, lastCard);
 
     }
 
@@ -83,11 +83,7 @@ public sealed class CardHandSystem : EntitySystem
         if (!TryComp<ActorComponent>(user, out var actor))
             return;
 
-        if (!_ui.TryGetUi(hand, CardUiKey.Key, out var bui, null))
-            return;
-
-        _ui.OpenUi(bui, actor.PlayerSession);
-
+	_ui.TryOpenUi(hand, CardUiKey.Key, user);
     }
 
     private void OnAlternativeVerb(EntityUid uid, CardHandComponent comp, GetVerbsEvent<AlternativeVerb> args)
