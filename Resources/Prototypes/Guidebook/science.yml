@@ -8,8 +8,8 @@
   - Xenoarchaeology
   - Robotics
   - MachineUpgrading
-  # - AltarsGolemancy # When it's added # Nyanotrasen - Golemancy guidebook
-  - ReverseEngineering # Nyanotrasen - Reverse Engineering guidebook
+  - AltarsGolemancy
+  - ReverseEngineering
 
 - type: guideEntry
   id: Technologies
@@ -41,7 +41,6 @@
   text: "/ServerInfo/Guidebook/Science/Xenoarchaeology.xml"
   children:
   - ArtifactReports
-  - TraversalDistorter
 
 - type: guideEntry
   id: Robotics

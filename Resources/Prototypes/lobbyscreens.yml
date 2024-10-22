@@ -39,5 +39,9 @@
   background: /Textures/LobbyScreens/terminalstation.webp
 
 - type: lobbyBackground
+  id: JustAWeekAway
+  background: /Textures/LobbyScreens/justaweekaway.webp
+
+- type: lobbyBackground
   id: Caos
   background: /Textures/LobbyScreens/caos.png
