@@ -22,7 +22,7 @@ scramble-implant-activated-popup = Você sente na pele sua aparência se alterar
 ## Implant Messages
 
 deathrattle-implant-dead-message = {$user} morreu em {$position}.
-deathrattle-implant-critical-message = Sinais de vida do {$user} estão críticos, assistência imediata necessária {$position}.
+deathrattle-implant-critical-message = Sinais de vida do {$user} estão críticos, assistência imediata necessária em {$position}.
 open-uplink-implant-action-name = Abrir Uplink
 open-uplink-implant-action-description = Abre o uplink do sindicato embutido sob sua pele
 

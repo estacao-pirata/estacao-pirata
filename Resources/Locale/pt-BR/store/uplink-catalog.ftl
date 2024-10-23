@@ -35,8 +35,8 @@ uplink-kanabou-desc = Uma arma para aqueles que desejam abrir mão da sutileza. 
 uplink-rickenbacker4001-name = Rickenbacker 4001
 uplink-rickenbacker4001-desc = Quando se trata disso, há muito poucas pessoas que irão balançar o bastão.
 
-uplink-flash-grenade-name = Granada de Atordoamento
-uplink-flash-grenade-desc = Uma granada de edição padrão, capaz de cegar e retardar qualquer pessoa sem proteção adequada. Isso, é claro, inclui você; certifique-se de que você está devidamente equipado antes de usá-lo.
+uplink-flash-grenade-name = Flashbang
+uplink-flash-grenade-desc = Um flashbang de edição padrão, capaz de cegar e retardar qualquer pessoa sem proteção adequada. Isso, é claro, inclui você; certifique-se de que você está devidamente equipado antes de usá-lo.
 
 uplink-smoke-grenade-name = Granada de Fumaça
 uplink-smoke-grenade-desc = Uma granada que libera uma enorme nuvem de fumaça, perfeita para matar alguém nas sombras ou fazer uma fuga furtiva.
@@ -51,7 +51,7 @@ uplink-whitehole-grenade-name = Granada de Buraco Branco
 uplink-whitehole-grenade-desc = Uma granada que repele tudo por cerca de 10 segundos. Muito útil em salas pequenas e para perseguir alguém.
 
 uplink-penguin-grenade-name = Pinguim Granada
-uplink-penguin-grenade-desc = Um pinguim pequeno e altamente agressivo com uma granada amarrada em volta do pescoço. Colhido pelo Sindicato de planetas extremamente gelados.
+uplink-penguin-grenade-desc = Um pinguim pequeno e altamente agressivo com uma granada amarrada em volta do pescoço. Colhido pelo Sindicato de planetas gelados pra caralho.
 
 uplink-c4-name = C-4
 uplink-c4-desc = Use-o para quebrar paredes, portas ou equipamentos de sabotagem. Pode ser afixado a quase todos os objetos e tem um temporizador modificável com uma configuração mínima de 10 segundos.
@@ -74,7 +74,7 @@ uplink-exploding-syndicate-bomb-desc = Uma bomba de treinamento cuidadosamente f
 uplink-exploding-syndicate-bomb-fake-name = Bomba do Sindicato Falsa
 uplink-exploding-syndicate-bomb-fake-desc = Bomba do Sindicato Falsa
 
-uplink-cluster-grenade-name = Granada Múltipla
+uplink-cluster-grenade-name = Granada de Cluster
 uplink-cluster-grenade-desc = Três granadas explosivas agrupadas, as granadas são lançadas após o tempo de 3,5 segundos acabar.
 
 uplink-incendiary-grenade-name = Granada Incendiária
