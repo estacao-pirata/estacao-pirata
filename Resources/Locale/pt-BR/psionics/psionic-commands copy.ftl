@@ -1,10 +1,10 @@
-command-glimmershow-description = Mostra o nível de vislumbre atual.
+command-glimmershow-description = Show the current glimmer level.
 command-glimmershow-help = No arguments.
 
-command-glimmerset-description = Definir vislumbre para um número.
+command-glimmerset-description = Set glimmer to a number.
 command-glimmerset-help = glimmerset (integer)
 
-command-lspsionic-description = Lista os psiônicos.
+command-lspsionic-description = List psionics.
 command-lspsionic-help = No arguments.
 
 command-addpsionicpower-description = Initialize an entity as Psionic with a given PowerPrototype
