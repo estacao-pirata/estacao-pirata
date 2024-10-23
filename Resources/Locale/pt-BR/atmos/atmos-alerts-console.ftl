@@ -13,9 +13,9 @@ atmos-alerts-window-temperature-value = {$valueInC} °C ({$valueInK} K)
 atmos-alerts-window-pressure-label = Pressão
 atmos-alerts-window-pressure-value = {$value} kPa
 atmos-alerts-window-oxygenation-label = Oxigenação
-atmos-alerts-window-oxygenation-value = {$value}% 
+atmos-alerts-window-oxygenation-value = {$value}%
 atmos-alerts-window-other-gases-label = Outros gases presentes
-atmos-alerts-window-other-gases-value = {$shorthand} ({$value}%) 
+atmos-alerts-window-other-gases-value = {$shorthand} ({$value}%)
 atmos-alerts-window-other-gases-value-nil = Nenhum
 atmos-alerts-window-silence-alerts = Silenciar alertas desse alarme
 
