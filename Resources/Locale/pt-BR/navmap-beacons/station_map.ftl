@@ -12,7 +12,7 @@ nav-beacon-examine-text = Isso é [color={$enabled ->
     *[false] crimson]desligado
 }[/color] e a tela lê [color={$color}]"{$label}"[/color]
 
-nav-beacon-pos-no-beacons = no meio do nada
+nav-beacon-pos-no-beacons = em um local desconhecido
 nav-beacon-pos-format = [color={$color}]perto de {$marker}[/color]
-nav-beacon-pos-format-direction = [color={$color}]{$modifier}{$direction} de {$marker}[/color]
+nav-beacon-pos-format-direction = [color={$color}]{$modifier}{$direction} of {$marker}[/color]
 nav-beacon-pos-format-direction-mod-far = longe {""}
