@@ -15,4 +15,4 @@ nav-beacon-examine-text = Isso é [color={$enabled ->
 nav-beacon-pos-no-beacons = em um local desconhecido
 nav-beacon-pos-format = [color={$color}]perto de {$marker}[/color]
 nav-beacon-pos-format-direction = [color={$color}]{$modifier}{$direction} of {$marker}[/color]
-nav-beacon-pos-format-direction-mod-far = far {""}
+nav-beacon-pos-format-direction-mod-far = longe {""}

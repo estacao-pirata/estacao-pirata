@@ -1,13 +1,13 @@
-loadout-age-requirement = You must be within {$min} and {$max} years old
-loadout-species-requirement = You must be a {$species}
-loadout-trait-requirement = You must have the trait {$trait}
-loadout-backpack-type-requirement = You must use a {$type} as your bag
-loadout-clothing-preference-requirement = You must wear a {$type}
+loadout-age-requirement = Você deve ter entre {$min} e {$max} anos
+loadout-species-requirement = Você deve ser um(a) {$species}
+loadout-trait-requirement = Você deve ter o traço {$trait}
+loadout-backpack-type-requirement = Você deve usar um(a) {$type} como sua mochila
+loadout-clothing-preference-requirement = Você deve usar um(a) {$type}
 
-loadout-job-requirement = You must be one of these jobs: {$job}
-loadout-timer-department-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes of [color={$departmentColor}]{$department}[/color] department playtime
-loadout-timer-department-too-high = You require [color=yellow]{TOSTRING($time, "0")}[/color] fewer minutes in [color={$departmentColor}]{$department}[/color] department
-loadout-timer-overall-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes of playtime
-loadout-timer-overall-too-high = You require [color=yellow]{TOSTRING($time, "0")}[/color] fewer minutes of playtime
-loadout-timer-role-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes with [color={$departmentColor}]{$job}[/color]
-loadout-timer-role-too-high = You require[color=yellow] {TOSTRING($time, "0")}[/color] fewer minutes with [color={$departmentColor}]{$job}[/color]
+loadout-job-requirement = Você deve ser um desses trabalhos: {$job}
+loadout-timer-department-insufficient = Você precisa de [color=yellow]{TOSTRING($time, "0")}[/color] minutos a mais de jogo no departamento [color={$departmentColor}]{$department}[/color]
+loadout-timer-department-too-high = Você precisa de [color=yellow]{TOSTRING($time, "0")}[/color] minutos a menos no departamento [color={$departmentColor}]{$department}[/color]
+loadout-timer-overall-insufficient = Você precisa de [color=yellow]{TOSTRING($time, "0")}[/color] minutos a mais de tempo de jogo
+loadout-timer-overall-too-high = Você precisa de [color=yellow]{TOSTRING($time, "0")}[/color] minutos a menos de tempo de jogo
+loadout-timer-role-insufficient = Você precisa de [color=yellow]{TOSTRING($time, "0")}[/color] minutos a mais com [color={$departmentColor}]{$job}[/color]
+loadout-timer-role-too-high = Você precisa de [color=yellow]{TOSTRING($time, "0")}[/color] minutos a menos com [color={$departmentColor}]{$job}[/color]
