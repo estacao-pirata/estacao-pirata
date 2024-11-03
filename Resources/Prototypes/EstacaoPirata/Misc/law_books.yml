@@ -1,0 +1,99 @@
+- type: entity
+  parent: BookBase
+  id: BookLawRights
+  name: "lei espacial vol 1: direitos"
+  description: Teste.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/books.rsi
+      layers:
+      - state: paper
+      - state: cover_base
+        color: "#40101D"
+      - state: decor_middle
+        color: "#245819"
+      - state: icon_law
+      - state: detail_bookmark
+        color: "#245819"
+    - type: Paper
+      content: book-text-law-rights
+
+- type: entity
+  parent: BookBase
+  id: BookLawPunishments
+  name: "lei espacial vol 2: sentenças e punições"
+  description: Teste.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/books.rsi
+      layers:
+      - state: paper
+      - state: cover_base
+        color: "#40101D"
+      - state: decor_middle
+        color: "#851D15"
+      - state: icon_law
+      - state: detail_bookmark
+        color: "#851D15"
+    - type: Paper
+      content: book-text-law-punishments
+
+- type: entity
+  parent: BookBase
+  id: BookLawTrials
+  name: "lei espacial vol 3: julgamentos"
+  description: Teste.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/books.rsi
+      layers:
+      - state: paper
+      - state: cover_base
+        color: "#40101D"
+      - state: decor_middle
+        color: "#1B2C85"
+      - state: icon_law
+      - state: detail_bookmark
+        color: "#1B2C85"
+    - type: Paper
+      content: book-text-law-trials
+
+- type: entity
+  parent: BookBase
+  id: BookLawCrimes
+  name: "lei espacial vol 4: pertubações, crimes menores e moderados"
+  description: Teste.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/books.rsi
+      layers:
+      - state: paper
+      - state: cover_base
+        color: "#40101D"
+      - state: decor_middle
+        color: "#858585"
+      - state: icon_law
+      - state: detail_bookmark
+        color: "#858585"
+    - type: Paper
+      content: book-text-law-crimes
+
+- type: entity
+  parent: BookBase
+  id: BookLawMoreCrimes
+  name: "lei espacial vol 5: crimes graves e capitais"
+  description: Teste.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/books.rsi
+      layers:
+      - state: paper
+      - state: cover_base
+        color: "#40101D"
+      - state: decor_middle
+        color: "#0D0000"
+      - state: icon_law
+      - state: detail_bookmark
+        color: "#0D0000"
+    - type: Paper
+      content: book-text-law-more-crimes
