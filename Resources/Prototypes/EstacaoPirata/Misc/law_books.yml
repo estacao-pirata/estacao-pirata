@@ -2,19 +2,17 @@
   parent: BookBase
   id: BookLawRights
   name: "lei espacial vol 1: direitos"
-  description: Teste.
+  description: Um livro fundamental para qualquer juiz de respeito. O departamento de segurança pulou esse volume!
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_base
-        color: "#40101D"
-      - state: decor_middle
-        color: "#245819"
+        color: "#6b332e"
       - state: icon_law
       - state: detail_bookmark
-        color: "#245819"
+        color: "#851D15"
     - type: Paper
       content: book-text-law-rights
 
@@ -22,16 +20,14 @@
   parent: BookBase
   id: BookLawPunishments
   name: "lei espacial vol 2: sentenças e punições"
-  description: Teste.
+  description: Um livro fundamental para qualquer juiz de respeito. Você é culpado! Ou será que não?
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_base
-        color: "#40101D"
-      - state: decor_middle
-        color: "#851D15"
+        color: "#6b332e"
       - state: icon_law
       - state: detail_bookmark
         color: "#851D15"
@@ -42,19 +38,17 @@
   parent: BookBase
   id: BookLawTrials
   name: "lei espacial vol 3: julgamentos"
-  description: Teste.
+  description: Um livro fundamental para qualquer juiz de respeito. Desenvolvido por juízes que acham que "resolver" conflitos com lasers é uma péssima ideia.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_base
-        color: "#40101D"
-      - state: decor_middle
-        color: "#1B2C85"
+        color: "#6b332e"
       - state: icon_law
       - state: detail_bookmark
-        color: "#1B2C85"
+        color: "#851D15"
     - type: Paper
       content: book-text-law-trials
 
@@ -62,19 +56,17 @@
   parent: BookBase
   id: BookLawCrimes
   name: "lei espacial vol 4: pertubações, crimes menores e moderados"
-  description: Teste.
+  description: Um livro fundamental para qualquer juiz de respeito. Piadocas ou ironias não é desculpa!
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_base
-        color: "#40101D"
-      - state: decor_middle
-        color: "#858585"
+        color: "#6b332e"
       - state: icon_law
       - state: detail_bookmark
-        color: "#858585"
+        color: "#851D15"
     - type: Paper
       content: book-text-law-crimes
 
@@ -82,18 +74,39 @@
   parent: BookBase
   id: BookLawMoreCrimes
   name: "lei espacial vol 5: crimes graves e capitais"
-  description: Teste.
+  description: Um livro fundamental para qualquer juiz de respeito. Se pegarem esse livro, parabéns! Você é robusto.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_base
-        color: "#40101D"
-      - state: decor_middle
-        color: "#0D0000"
+        color: "#6b332e"
       - state: icon_law
       - state: detail_bookmark
-        color: "#0D0000"
+        color: "#851D15"
     - type: Paper
       content: book-text-law-more-crimes
+
+- type: entity
+  parent: BaseItem
+  id: BookLawBundle
+  name: "conjunto de leis espaciais"
+  description: Um conjunto de livros fundamentais para advogados de primeira.
+  components:
+  - type: Item
+    size: Large
+  - type: Sprite
+    sprite: EstacaoPirata\Objects\Misc\law_book.rsi
+    layers:
+      - state: base
+  - type: SpawnItemsOnUse
+    items:
+      - id: BookLawRights
+      - id: BookLawPunishments
+      - id: BookLawTrials
+      - id: BookLawCrimes
+      - id: BookLawMoreCrimes
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/unwrap.ogg
