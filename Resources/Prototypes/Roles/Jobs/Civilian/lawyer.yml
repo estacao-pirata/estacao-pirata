@@ -28,6 +28,7 @@
     id: LawyerPDA
     ears: ClothingHeadsetJustice
     pocket1: BookSecurity
+    pocket2: BookLeiColetanea
   inhand:
     - BriefcaseBrownFilled
   innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
