@@ -30,59 +30,39 @@
 
 - type: entity
   parent: BaseBookLaw
-  id: BookLawRights
-  name: "lei espacial vol 1: direitos"
-  description: Um livro fundamental para qualquer juiz de respeito. O departamento de segurança pulou esse volume!
+  id: BookLei1
   components:
   - type: GuideHelp
     guides:
-    - SS14 # Frontier: SS14<NF14
+    - Lei1
 
 - type: entity
   parent: BaseBookLaw
-  id: BookLawPunishments
-  name: "lei espacial vol 2: sentenças e punições"
-  description: Um livro fundamental para qualquer juiz de respeito. Você é culpado! Ou será que não?
+  id: BookLei2
   components:
   - type: GuideHelp
     guides:
-    - SS14 # Frontier: SS14<NF14
+    - Lei2
 
 - type: entity
   parent: BaseBookLaw
-  id: BookLawTrials
-  name: "lei espacial vol 3: julgamentos"
-  description: Um livro fundamental para qualquer juiz de respeito. Desenvolvido por juízes que acham que "resolver" conflitos com lasers é uma péssima ideia.
+  id: BookLei3
   components:
   - type: GuideHelp
     guides:
-    - SS14 # Frontier: SS14<NF14
+    - Lei3
 
 - type: entity
   parent: BaseBookLaw
-  id: BookLawCrimes
-  name: "lei espacial vol 4: pertubações, crimes menores e moderados"
-  description: Um livro fundamental para qualquer juiz de respeito. Piadocas ou ironias não é desculpa!
+  id: BookLei4
   components:
   - type: GuideHelp
     guides:
-    - SS14 # Frontier: SS14<NF14
-
-- type: entity
-  parent: BaseBookLaw
-  id: BookLawMoreCrimes
-  name: "lei espacial vol 5: crimes graves e capitais"
-  description: Um livro fundamental para qualquer juiz de respeito. Se pegarem esse livro, parabéns! Você é robusto.
-  components:
-  - type: GuideHelp
-    guides:
-    - SS14 # Frontier: SS14<NF14
+    - Lei4
 
 - type: entity
   parent: BaseItem
-  id: BookLawBundle
-  name: "conjunto de leis espaciais"
-  description: Um conjunto de livros fundamentais para advogados de primeira.
+  id: BookLeiColetanea
   components:
   - type: Item
     size: Large
@@ -92,11 +72,10 @@
       - state: base
   - type: SpawnItemsOnUse
     items:
-      - id: BookLawRights
-      - id: BookLawPunishments
-      - id: BookLawTrials
-      - id: BookLawCrimes
-      - id: BookLawMoreCrimes
+      - id: BookLei1
+      - id: BookLei2
+      - id: BookLei3
+      - id: BookLei4
   - type: EmitSoundOnUse
     sound:
       path: /Audio/Effects/unwrap.ogg
