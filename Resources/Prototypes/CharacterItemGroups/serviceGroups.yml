@@ -31,6 +31,8 @@
       id: LoadoutServiceReporterUniformDetectivesuit
     - type: loadout
       id: LoadoutServiceReporterUniformDetectiveskirt
+    - type: loadout
+      id: BookLeiColetanea
 
 - type: characterItemGroup
   id: LoadoutOuterService

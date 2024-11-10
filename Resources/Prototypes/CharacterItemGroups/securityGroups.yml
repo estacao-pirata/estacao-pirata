@@ -154,6 +154,8 @@
       id: LoadoutSpeedLoaderMagnumRubber
     - type: loadout
       id: LoadoutSpeedLoaderMagnumRubberSpare
+    - type: loadout
+      id: BookLeiColetanea
 
 - type: characterItemGroup
   maxItems: 1
