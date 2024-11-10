@@ -57,6 +57,9 @@ ent-WallShuttle = parede de transporte
 ent-WallSolid = parede sólida
     .desc = Mantém o ar dentro e a maré cinzenta fora.
 
+ent-SolidSecretWall = parede sólida
+    .desc = Mantém o ar dentro e a maré cinzenta fora.
+
 ent-WallSolidRust = parede sólida
     .desc = Mantém o ar dentro e a maré cinzenta fora.
     .suffix = enferrujado

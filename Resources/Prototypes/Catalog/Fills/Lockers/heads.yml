@@ -324,6 +324,7 @@
       - id: HoSIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: BookLeiColetanea
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -352,6 +353,7 @@
       - id: HoSIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: BookLeiColetanea
 
 - type: entity
   id: LockerFreezerVaultFilled

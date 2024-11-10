@@ -26,6 +26,7 @@
       - id: BoxEncryptionKeyPrisoner #Delta-V
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+      - id: BookLeiColetanea
 
 - type: entity
   id: LockerWardenFilled
@@ -54,6 +55,7 @@
       - id: BoxEncryptionKeyPrisoner #Delta-V
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+      - id: BookLeiColetanea
 
 - type: entity
   id: LockerSecurityFilled

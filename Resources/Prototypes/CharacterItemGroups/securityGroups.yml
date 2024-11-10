@@ -162,6 +162,8 @@
       id: LoadoutMagazineMagnumSpare
     - type: loadout
       id: LoadoutMagazineMagnumRubberSpare
+    - type: loadout
+      id: BookLeiColetanea
 
 - type: characterItemGroup
   maxItems: 1

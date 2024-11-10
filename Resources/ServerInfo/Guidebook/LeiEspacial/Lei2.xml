@@ -1,0 +1,77 @@
+﻿<Document>
+# Lei Espacial Vol. 2
+# Dosimetria das penas
+
+Todas as sentenças devem ser tratadas pelo Promotor ou Carcereiro, onde o promotor tem a palavra final; se nenhum Carcereiro ou Promotor estiver disponível, o HoS deverá assumir essa função; se não houver HoS, ela recairá sobre o membro do comando de mais alta patente.
+
+Use o bom senso e a humanidade ao aplicar punições. Você não deve buscar sempre a maior punição possível, não precisa dar sempre o máximo de tempo ou sempre procurar rebaixar alguém. Leve sempre em consideração a severidade e cobre apenas o que for necessário para que alguém aprenda a lição.
+
+Quando uma sentença dada ultrapassa os 25 minutos de pena a sentença automaticamente se torna um confinamento permanente na cela comunal até o fim do turno.
+
+Se uma pessoa comete crimes iguais contra vítimas diferentes ao mesmo tempo, cada crime deve ser tratado de forma separada. Por exemplo, se alguém agride o bartender e o palhaço ao mesmo tempo, ela deve ser acusada de dois crimes, o que pode resultar em uma pena de até 16 minutos. Já em crimes como sabotagem simples, se a pessoa quebrar dois vidros do mesmo local, é considerado um único crime. Mas, se quebrar os vidros de lugares diferentes, como o hospital e a engenharia, serão considerados dois crimes distintos de sabotagem simples.
+
+[color=#a4885c]Crimes Acumuláveis:[/color] Os crimes devem ser considerados “cumulativos”, ou seja, se alguém for acusado de vários crimes diferentes, o tempo para cada crime separado deve ser somado. Os crimes são organizados por códigos - sendo que o início de cada código indica sua classe (1-Perturbações, 2-Menor, 3-Moderado, 4-Grave, 5-Capital) e o final de cada código representa um tipo de crime. 103 (Pequeno Roubo) e 303 (Grande Roubo) são um exemplo de dois tipos da mesma categoria de crime, conforme indicado por ambos os códigos que terminam em 05. Para cada ato criminoso deve ser perseguida a categoria de crime mais correspondente. Por exemplo, alguém coloca uma bomba do sindicato que detona na estação e três pessoas morrem, uma das quais com o corpo destruído - deveriam ser acusados de 402 (Sabotagem Crítica) mas [color=#a4885c]NÃO[/color] de 202 ou 102 pelo mesmo crime. Também deverão ser acusados os 405 (Contrabando Maior), 507 (Homicídio Doloso em massa) e 413 (Prevenção do Reavivamento). Como sempre, deve ser tomada uma consideração cuidadosa para confirmar quais os crimes e com que gravidade são aplicáveis.
+
+[color=#a4885c]Repetidores:[/color] Crimes repetidos são quando alguém é libertado por um crime e depois comete o mesmo crime no mesmo turno. Crimes reincidentes podem ser cobrados com acréscimo de tempo; primeira repetição: 4:00, segunda repetição: 8:00, terceira repetição: 12:00, quarta repetição: confinamento permanente. O tempo de reforço pode ultrapassar o tempo máximo de confinamento normal de 25 minutos sem que seja considerado confinamento prolongado. Deve-se notar também que cada tempo acrescentado está diretamente ligado a um tipo de crime, então, por exemplo, se alguém cometer a primeira repetição de Invasão e Pequeno Roubo,e logo em seguida cometer os mesmos crimes você pode cobrar 6 minutos extras.
+
+## Circunstâncias Agravantes
+
+Indivíduos que ajudam na prática de um crime carregam culpa como se eles próprios tivessem cometido o crime. Por exemplo: um indivíduo que é cúmplice de assassinato será punido como se fosse acusado de assassinato. Em todos esses casos, fica tipificado o crime em questão e é aplicada pena mais branda, geralmente metade da pena máxima.
+
+
+Agravante | Descrição
+- Solicitação | Incentivar, subornar, solicitar ou instruir alguém a cometer um crime.
+- Assessoria | Auxiliar na prática de um crime, sem participar do crime em si, sabendo que um crime será, foi ou está sendo cometido.
+- Tentativas | Tentativa de cometer um crime, com a intenção de realizar esse crime.
+- Conspiração | Planejamento para cometer um crime, com a intenção de eventualmente realizar esse crime.
+
+
+## Circunstâncias Extenuantes
+
+A cooperação e o bom comportamento devem ser recompensados com pena reduzida. Os critérios de Autodefesa e Emergência Grave, que têm a capacidade de retirar totalmente as acusações, devem ser observados com especial rigor.
+
+Circunstância | Descrição | Modificador
+- Cooperação | Compartilhar informações acionáveis com as autoridades, entregar-se, confessar o crime. | Redução da pena de 2 a 5 minutos
+- Autodefesa | Agiu em defesa própria, utilizando meios necessários para repelir uma agressão iminente a integridade corporal e vida de si ou outros, de [color=#a4885c]maneira proporcional[/color] a ameaça | Liberação imediata
+- Bom Comportamento | Cumprimento pacífico da Segurança, sinais claros de remorso em relação ao crime cometido, conduta pacífica na brig. | Redução da pena de 2 a 5 minutos
+- Emergência Grave | Cometer um crime no processo de ações absolutamente necessárias e razoáveis tomadas com a intenção de resolver ou mitigar uma emergência grave em sua embarcação ou habitat não é considerado crime. | Liberação imediata
+- Reeducação | Ser desconvertido por ser um revolucionário ou qualquer outro tipo de lavagem cerebral ou condição mental por meio de implantes como mindshield. | Liberação imediata
+
+
+# Punições
+
+## Punições normais
+Válido para Perturbações e Crimes Menores
+
+
+- [color=#a4885c]Aviso:[/color] Resolva o problema e avise a pessoa para não tentar o crime novamente; se ela continuar a fazê-lo posteriormente, um tempo de prisão pode ser melhor.
+
+- [color=#a4885c]Confisco:[/color] Remoção de contrabando, bens roubados, equipamentos restritos ou itens que foram utilizados na prática de um crime - como luvas isolentes.
+
+- [color=#a4885c]Confinamento:[/color] A pena típica, sendo confinado em cela por um período temporário de acordo com os crimes, não superior a 25 minutos, a menos que se trate de crimes repetidos.
+
+- [color=#a4885c]Rebaixamento:[/color] envolve a remoção de todos os equipamentos departamentais que eles possuem e a revogação do acesso do departamento envolvido ao seu ID. Isto requer a aprovação do capitão ou do chefe do departamento envolvido. Os rebaixamentos só devem ser emitidos se a pessoa representar uma ameaça ao seu próprio departamento ou estiver em uma posição em que possa abusar dos equipamentos de seu trabalho para cometer novos crimes.
+
+## Punições Graves
+Válido para Crimes moderados e Crimes graves
+
+Todas as punições graves exigem um julgamento, a menos que o acusado tenha renunciado ao seu direito a um julgamento.
+
+- [color=#a4885c]Confisco:[/color] Remoção de contrabando, bens roubados, equipamentos restritos ou itens que foram utilizados na prática de um crime - como luvas isolentes.
+
+- [color=#a4885c]Confinamento:[/color] A pena típica, sendo confinado em cela por um período temporário de acordo com os crimes, não superior a 25 minutos, a menos que se trate de crimes repetidos.
+
+- [color=#a4885c]Confinamento Permanente:[/color] Ser mantido em prisão permanente durante toda a duração do turno. Qualquer pessoa sujeita a esta punição deverá ser transportada algemada para o CentCom no final do turno. Um preso permanente não pode ser privado de nada abrangido pela seção “Tratamento de Presos”.
+
+
+## Punições Capitais
+Válido para Crimes Capitais, ou uma pessoa acusada de 2 crimes graves, ou para alguém que recebeu uma pena total que excede os 30 minutos.
+
+Os Crimes Capitais não exigem um julgamento, mas caso seja da vontade do departamento de segurança e o acusado concorde um julgamento pode ser realizado. Vale ressaltar que Crimes capitais não exigem julgamento mas para outras ocasiões onde uma pessoa é acusada de uma punição capital, como a de 2 crimes graves o julgamento é obrigatório
+
+[color=#a4885c]Crimes capitais ≠ Punições capitais[/color]
+
+Um crime capital [color=#a4885c]não necessáriamente leva a execução[/color], mas sim tem como pena máxima a execução. Caso o departamento de segurança ache melhor poder ser dado uma sentença comum em uma cela individual ou confinamento permanente na cela comunal.
+
+[color=#a4885c]Execução:[/color] Uma maneira humana de lidar com tripulantes extremamente indisciplinados. Um prisioneiro que foi sentenciado a uma punição capital que não seja um crime capital pode escolher como deseja ser morto.
+</Document>
