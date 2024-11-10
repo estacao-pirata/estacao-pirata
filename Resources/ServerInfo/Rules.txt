@@ -110,73 +110,68 @@ Caso você precise, alguns documentos específicos de RP estão disponíveis na 
 [color=#a4885c]23.[/color] A Segurança/Comando responderá pelo uso de força letal. Espera-se que a Segurança/Comando detenha os criminosos e evite que morram enquanto estiverem sob custódia, mesmo que seja utilizada força letal. A Segurança/Comando é fortemente incentivada a clonar antagonistas e efetuar uma sentença conforme considerado apropriado pela Lei Espacial.
 
 [color=#a4885c]24.[/color] A Segurança/Comando deve proteger os detidos sob sua custódia da melhor maneira possível, desde que isso não represente um risco excessivo para eles próprios, para a tripulação ou para a estação em geral.
-    - É necessário um tribunal para que os tempos de detenção excedam 20 minutos.
     - A segurança pode optar por confiscar artigos perigosos (armas brancas, armas de fogo), bem como artigos que tenham sido utilizados para cometer crimes ou artigos que se revelem problemáticos na posse do detido (ferramentas, luvas isoladas, etc.).
     - Aqueles que você mata ou que morrem sob sua custódia devem ser ressuscitados, a menos que tenham sido (legalmente) executados ou tenham cometido suicídio.
     - Aqueles que voluntariamente tentarem danificar/destruir ou escapar do permabrig podem ser executados.
     - Qualquer prisioneiro pode ser transformado em Borg caso ele consinta. Transformar em borg pode ser oferecido como alterantiva à execução, mas não pode ser forçado caso o prisioneiro possa consentir. Observe a regra de que apenas um médico pode extrair o cérebro.
     - Os detidos na prisão têm o direito de saber do que estão a ser acusados.
 
-[color=#a4885c]25.[/color] Os prisioneiros de crimes capitais têm direito a um julgamento. Temos advogados, coloque-os para trabalhar.
-    - Os julgamentos devem incluir um juiz, promotor, e réu.
-    - Não esperamos que você seja especialista em processos judiciais da vida real, a principal medida para determinar se um julgamento foi bom o suficiente foi que todos se esforcem para interpretar.
+[color=#a4885c]25.[/color] O jogador tem alguma liberdade para fazer vista grossa para bolsas, roupas e outros itens meramente cosméticos.
 
-[color=#a4885c]26.[/color] Todos os itens de uplink são da mesma classe de contrabando que as armas do arsenal e é assim que eles devem ser tratados. O jogador tem alguma liberdade para fazer vista grossa para bolsas, roupas e outros itens meramente cosméticos.
-
-[color=#a4885c]27.[/color] Papéis da Segurança e do Comando são proibidos de usarem um uplink do sindicato para receber contrabando sem a permissão explítica do Comando Central.
+[color=#a4885c]26.[/color] Papéis da Segurança e do Comando são proibidos de usarem um uplink do sindicato para receber contrabando sem a permissão explítica do Comando Central.
 
 [color=#ff0000]REGRAS PARA ANTAGONISTAS[/color]
-[color=#a4885c]28.[/color] Traidores não devem executar massacres, ou seja, se você matar metade da tripulação, ou departamentos inteiros estará sujeito à moderaçào.
+[color=#a4885c]27.[/color] Traidores não devem executar massacres, ou seja, se você matar metade da tripulação, ou departamentos inteiros estará sujeito à moderaçào.
 
-[color=#a4885c]29.[/color] Matar jogadores lá dentro, sabotar, ou interferir de alguma forma nas chegadas, seja no terminal, na nave ou na região da estação são proibidos.
+[color=#a4885c]28.[/color] Matar jogadores lá dentro, sabotar, ou interferir de alguma forma nas chegadas, seja no terminal, na nave ou na região da estação são proibidos.
 
-[color=#a4885c]30.[/color] Outros antagonistas não são necessariamente seus amigos. Traidores, reis ratos, esqueletos de armários e possivelmente até dragões espaciais são agentes livres, mas ninguém deveria trabalhar junto com xenos, nukes ou zumbis.
+[color=#a4885c]29.[/color] Outros antagonistas não são necessariamente seus amigos. Traidores, reis ratos, esqueletos de armários e possivelmente até dragões espaciais são agentes livres, mas ninguém deveria trabalhar junto com xenos, nukes ou zumbis.
 
-[color=#a4885c]31.[/color] Se o seu comportamento degradar a experiência para a maior parte do servidor, você será instruído a parar.
+[color=#a4885c]30.[/color] Se o seu comportamento degradar a experiência para a maior parte do servidor, você será instruído a parar.
 
-[color=#a4885c]32.[/color] Os antagonistas são geralmente proibidos de causar danos massivos à estação no início da rodada (até pelo menos de 30 minutos) como sabotagem na distro, plasma flood/incêndio, maxcap ou destruir o AME.
+[color=#a4885c]31.[/color] Os antagonistas são geralmente proibidos de causar danos massivos à estação no início da rodada (até pelo menos de 30 minutos) como sabotagem na distro, plasma flood/incêndio, maxcap ou destruir o AME.
 
-[color=#a4885c]33.[/color] É proibido prolongar as rodadas desnecessariamente.
+[color=#a4885c]32.[/color] É proibido prolongar as rodadas desnecessariamente.
 
 [color=#ff0000]REGRAS DE ANTAGS DE CONVERSÃO[/color]
-[color=#a4885c]34.[/color] A segurança deve:
+[color=#a4885c]33.[/color] A segurança deve:
     - Seguir regras de escala e tentar avaliar e medir as ameaças. Um tumulto brandindo caixas de ferramentas pode vir a ser uma ameaça letal.
     - Use o bom senso e siga as instruções de admins caso eles intervenham.
     - Tente desconverter enquanto é possível.
     - Proteja os heads a todo custo caso necessário.
     - Fique atento para aplicar mindshield em eventuais recrutas para a segurança.
 
-[color=#a4885c]35.[/color] Os revolucionários devem:
+[color=#a4885c]34.[/color] Os revolucionários devem:
     - Em geral seguir pedidos razoáveis dos cabeças da revolução, os "Head Rev".
     - Procurar meios de ajudar a revolução de maneira significativa.
 
-[color=#a4885c]36.[/color] Os revolucionários não devem:
+[color=#a4885c]35.[/color] Os revolucionários não devem:
     - Se oferecer para serem desconvertidos.
     - Não é permitido afetar seu time negativamente.
     - Revs desconvertidos não se lembram quem eram os revolucionários ou qualquer informações que tenham ganhado sobre a revolução antes de serem desconvertidos.
 
-[color=#a4885c]37.[/color] Regras sobre outros tripulantes
+[color=#a4885c]36.[/color] Regras sobre outros tripulantes
     - Os tripulantes não devem se oferecer pra virar rev e devem resistir ativamente à conversão enquanto for possível.
     - Os Silícios devem fazer o que melhor se aplica as suas leis, sempre observando as regras que estabelecem que Revs devem ser considerados tripulantes, detalhadas mais abaixo na regra 42.
 
-[color=#a4885c]38.[/color] O que os jogadores podem fazer:
+[color=#a4885c]37.[/color] O que os jogadores podem fazer:
     - Os tripulantes podem agir contra a revolução ou não, contanto que não atrapalhem o time em que estão no momento.
     - Revs podem planejar como agirem e agirem quando quiser, não precisa ter pressa.
     - Mindshields podem ser comprados a qualquer momento pois em lore eles possuem outros usos.
 
 [color=#ff0000]REGRAS DE ESCALA[/color]
-[color=#a4885c]39.[/color] A autodefesa é sempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio (borgs/cérebro positrônico/silício).
+[color=#a4885c]38.[/color] A autodefesa é sempre permitida, a menos que você tenha restrições no personagem ao seu livre arbítrio (borgs/cérebro positrônico/silício).
     - Isso é apenas para salvar a sua própria vida. Na maioria das circunstâncias, as pessoas deixam de ser uma ameaça quando não apresentam mais perigo, quando desengajam ou quando entram em estado crítico.
 
-[color=#a4885c]40.[/color] Não escale as situações desnecessariamente. Poucas coisas merecem uma luta até a morte. Tente responder a palavras com palavras, punhos com punhos e assim por diante.
+[color=#a4885c]39.[/color] Não escale as situações desnecessariamente. Poucas coisas merecem uma luta até a morte. Tente responder a palavras com palavras, punhos com punhos e assim por diante.
 
-[color=#a4885c]41.[/color] Armas, espadas, machados e outras armas mortais sinalizam intenção letal.
+[color=#a4885c]40.[/color] Armas, espadas, machados e outras armas mortais sinalizam intenção letal.
     - Não os use para resolver conflitos mesquinhos e não os use se não quiser deixar claro que está pronto para matar ou ser morto.
 
 [color=#ff0000]REGRAS PARA SILÍCIO[/color]
 Essas regras também se aplicam a qualquer indivíduo que seja Silício, incluindo ciborgues e IA. Tal como acontece com outras regras, mais detalhes estão disponíveis em nosso Discord
 
-[color=#a4885c]42.[/color] Você deve seguir suas leis.
+[color=#a4885c]41.[/color] Você deve seguir suas leis.
     - Silícios sem quaisquer leis estão livres de quaisquer restrições que normalmente seriam impostas por leis, mas regras self-antag ainda se aplicam, a menos que também sejam antagonistas.
     - A ordem de suas leis determina a prioridade da lei. A Lei 1 tem prioridade sobre as leis 2 e 3, e assim por diante.
     - Cada Silícios individual deve permanecer consistente em suas interpretações das leis durante a rodada.
@@ -188,7 +183,7 @@ Essas regras também se aplicam a qualquer indivíduo que seja Silício, incluin
     - Pedidos para Silícios que sejam claramente irracionais ou desagradáveis ​​são uma violação da regra "Não seja um idiota". Eles podem ser ignorados e podem ser avisada aos administradores.
 
 [color=#ff0000]REGRA DE FIM DE TURNO[/color]
-[color=#a4885c]43.[/color] Grief no fim do turno não é permitido sem permissão explícita de um admin.
+[color=#a4885c]42.[/color] Grief no fim do turno não é permitido sem permissão explícita de um admin.
     - Não faça bombas de qualquer tipo sem ser antag pra explodir na centcom.
     - Não cause mal nem algeme os outros sem motivo.
     - Não lute com alguém sem o consentimento da pessoa. Isso não é desculpa pra causar mal às pessoas a sua volta.
