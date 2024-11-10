@@ -97,7 +97,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: EstacaoPirata\Objects\Misc\law_book.rsi
+    sprite: EstacaoPirata/Objects/Misc/law_book.rsi
     layers:
       - state: base
   - type: SpawnItemsOnUse
