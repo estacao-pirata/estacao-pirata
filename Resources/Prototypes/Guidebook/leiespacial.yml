@@ -3,9 +3,9 @@
   name: guide-entry-lei-espacial
   text: "/ServerInfo/Guidebook/LeiEspacial/LeiEspacial.xml"
   children:
-   - CódigoPenal
+   - CodigoPenal
    
 - type: guideEntry
-  id: CódigoPenal
+  id: CodigoPenal
   name: guide-entry-codigo-penal
-  text: "/ServerInfo/Guidebook/LeiEspacial/CódigoPenal.xml"
+  text: "/ServerInfo/Guidebook/LeiEspacial/CodigoPenal.xml"
