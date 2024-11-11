@@ -744,7 +744,16 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<bool> RestartSoundsEnabled =
             CVarDef.Create("ambience.restart_sounds_enabled", true, CVar.ARCHIVE | CVar.CLIENTONLY);
 
+        /*
+         * Radio sounds
+         */
 
+        public static readonly CVarDef<bool> RadioSoundsEnabled =
+            CVarDef.Create("audio.radio_sounds_enabled", true, CVar.ARCHIVE | CVar.CLIENTONLY);
+        public static readonly CVarDef<string> RadioSoundPath =
+            CVarDef.Create("audio.radio_sound_path", "/Audio/Effects/Radio/sound_items_radio_radio_receive.ogg", CVar.ARCHIVE | CVar.CLIENT | CVar.REPLICATED);
+        public static readonly CVarDef<float> RadioVolume =
+            CVarDef.Create("audio.radio_volume", -5f, CVar.ARCHIVE | CVar.CLIENTONLY);
         /*
          * Admin sounds
          */

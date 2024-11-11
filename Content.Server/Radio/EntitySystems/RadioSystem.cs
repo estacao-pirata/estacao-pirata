@@ -11,7 +11,6 @@ using Content.Shared.Language;
 using Content.Shared.Radio;
 using Content.Shared.Radio.Components;
 using Content.Shared.Speech;
-using Robust.Shared.Audio.Systems;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
@@ -34,7 +33,6 @@ public sealed class RadioSystem : EntitySystem
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ChatSystem _chat = default!;
     [Dependency] private readonly LanguageSystem _language = default!;
-    [Dependency] private readonly SharedAudioSystem _audio = default!;
 
     // set used to prevent radio feedback loops.
     private readonly HashSet<string> _messages = new();
@@ -64,9 +62,8 @@ public sealed class RadioSystem : EntitySystem
             var msg = args.OriginalChatMsg;
             if (listener != null && !_language.CanUnderstand(listener, args.Language.ID))
                 msg = args.LanguageObfuscatedChatMsg;
-            var sound = "/Audio/Effects/Radio/sound_items_radio_radio_receive.ogg";
-            _audio.PlayPvs(sound, uid);
-            _netMan.ServerSendMessage(new MsgChatMessage { Message = msg}, actor.PlayerSession.Channel);
+
+            _netMan.ServerSendMessage(new MsgChatMessage { Message = msg }, actor.PlayerSession.Channel);
         }
     }
 

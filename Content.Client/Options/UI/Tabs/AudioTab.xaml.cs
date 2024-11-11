@@ -27,6 +27,7 @@ namespace Content.Client.Options.UI.Tabs
             RestartSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.RestartSoundsEnabled);
             EventMusicCheckBox.Pressed = _cfg.GetCVar(CCVars.EventMusicEnabled);
             AdminSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.AdminSoundsEnabled);
+            radioChatterCheckbox.Pressed = _cfg.GetCVar(CCVars.RadioSoundsEnabled);
 
             ApplyButton.OnPressed += OnApplyButtonPressed;
             ResetButton.OnPressed += OnResetButtonPressed;
@@ -40,6 +41,7 @@ namespace Content.Client.Options.UI.Tabs
                 LobbyVolumeSlider,
                 InterfaceVolumeSlider,
                 AnnouncerVolumeSlider,
+                RadioVolumeSlider,
 
                 LobbyMusicCheckBox,
                 RestartSoundsCheckBox,
@@ -85,6 +87,7 @@ namespace Content.Client.Options.UI.Tabs
                 LobbyVolumeSlider,
                 InterfaceVolumeSlider,
                 AnnouncerVolumeSlider,
+                RadioVolumeSlider,
 
                 LobbyMusicCheckBox,
                 RestartSoundsCheckBox,
@@ -125,6 +128,7 @@ namespace Content.Client.Options.UI.Tabs
             _cfg.SetCVar(CCVars.LobbyMusicVolume, LobbyVolumeSlider.Value / 100f * ContentAudioSystem.LobbyMultiplier);
             _cfg.SetCVar(CCVars.InterfaceVolume, InterfaceVolumeSlider.Value / 100f * ContentAudioSystem.InterfaceMultiplier);
             _cfg.SetCVar(CCVars.AnnouncerVolume, AnnouncerVolumeSlider.Value / 100f * ContentAudioSystem.AnnouncerMultiplier);
+            _cfg.SetCVar(CCVars.RadioVolume, RadioVolumeSlider.Value / 100f * ContentAudioSystem.RadioMultiplier);
 
             _cfg.SetCVar(CCVars.MaxAmbientSources, (int)AmbienceSoundsSlider.Value);
 
@@ -151,6 +155,7 @@ namespace Content.Client.Options.UI.Tabs
             LobbyVolumeSlider.Value = _cfg.GetCVar(CCVars.LobbyMusicVolume) * 100f / ContentAudioSystem.LobbyMultiplier;
             InterfaceVolumeSlider.Value = _cfg.GetCVar(CCVars.InterfaceVolume) * 100f / ContentAudioSystem.InterfaceMultiplier;
             AnnouncerVolumeSlider.Value = _cfg.GetCVar(CCVars.AnnouncerVolume) * 100f / ContentAudioSystem.AnnouncerMultiplier;
+            RadioVolumeSlider.Value = _cfg.GetCVar(CCVars.RadioVolume) * 100f / ContentAudioSystem.RadioMultiplier;
 
             AmbienceSoundsSlider.Value = _cfg.GetCVar(CCVars.MaxAmbientSources);
 
@@ -179,6 +184,8 @@ namespace Content.Client.Options.UI.Tabs
                 Math.Abs(InterfaceVolumeSlider.Value - _cfg.GetCVar(CCVars.InterfaceVolume) * 100f / ContentAudioSystem.InterfaceMultiplier) < 0.01f;
             var isAnnouncerVolumeSame =
                 Math.Abs(AnnouncerVolumeSlider.Value - _cfg.GetCVar(CCVars.AnnouncerVolume) * 100f / ContentAudioSystem.AnnouncerMultiplier) < 0.01f;
+            var isRadioVolumeSame =
+               Math.Abs(RadioVolumeSlider.Value - _cfg.GetCVar(CCVars.RadioVolume) * 100f / ContentAudioSystem.RadioMultiplier) < 0.01f;
 
             var isAmbientSoundsSame = (int)AmbienceSoundsSlider.Value == _cfg.GetCVar(CCVars.MaxAmbientSources);
             var isLobbySame = LobbyMusicCheckBox.Pressed == _cfg.GetCVar(CCVars.LobbyMusicEnabled);
@@ -189,7 +196,7 @@ namespace Content.Client.Options.UI.Tabs
             var isEverythingSame = isMasterVolumeSame && isMidiVolumeSame && isAmbientVolumeSame
                 && isAmbientMusicVolumeSame && isAmbientSoundsSame && isLobbySame && isRestartSoundsSame && isEventSame
                 && isAnnouncerDisableMultipleSoundsSame && isAdminSoundsSame && isLobbyVolumeSame
-                && isInterfaceVolumeSame && isAnnouncerVolumeSame;
+                && isInterfaceVolumeSame && isAnnouncerVolumeSame && isRadioVolumeSame;
             ApplyButton.Disabled = isEverythingSame;
             ResetButton.Disabled = isEverythingSame;
             MasterVolumeLabel.Text =
@@ -206,6 +213,8 @@ namespace Content.Client.Options.UI.Tabs
                 Loc.GetString("ui-options-volume-percent", ("volume", InterfaceVolumeSlider.Value / 100));
             AnnouncerVolumeLabel.Text =
                 Loc.GetString("ui-options-volume-percent", ("volume", AnnouncerVolumeSlider.Value / 100));
+            RadioVolumeLabel.Text =
+                Loc.GetString("ui-options-volume-percent", ("volume", RadioVolumeSlider.Value / 100));
             AmbienceSoundsLabel.Text = ((int)AmbienceSoundsSlider.Value).ToString();
         }
     }

@@ -38,6 +38,9 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Robust.Shared.Player;
+using Robust.Client.Audio;
+
 
 namespace Content.Client.UserInterface.Systems.Chat;
 
@@ -61,6 +64,8 @@ public sealed class ChatUIController : UIController
     [UISystemDependency] private readonly TypingIndicatorSystem? _typingIndicator = default;
     [UISystemDependency] private readonly ChatSystem? _chatSys = default;
     [UISystemDependency] private readonly PsionicChatUpdateSystem? _psionic = default!; //Nyano - Summary: makes the psionic chat available.
+
+    
 
     [ValidatePrototypeId<ColorPalettePrototype>]
     private const string ChatNamePalette = "ChatNames";
@@ -849,7 +854,10 @@ public sealed class ChatUIController : UIController
                 UnreadMessageCountsUpdated?.Invoke(msg.Channel, count);
             }
         }
-
+        if(msg.Channel == ChatChannel.Radio && msg.SenderEntity == default)
+        {
+            PlayChatSound();
+        }
         // Local messages that have an entity attached get a speech bubble.
         if (!speechBubble || msg.SenderEntity == default)
             return;
@@ -929,6 +937,23 @@ public sealed class ChatUIController : UIController
     {
         var colorIdx = Math.Abs(name.GetHashCode() % _chatNameColors.Length);
         return _chatNameColors[colorIdx];
+    }
+
+    public void PlayChatSound()
+    {
+        var radioChatterEnabled = _config.GetCVar(CCVars.RadioSoundsEnabled);
+        if (radioChatterEnabled)
+        {
+            var sound = _config.GetCVar(CCVars.RadioSoundPath);
+
+            //var audioParams = new AudioParams
+            //{
+            //    Volume = _config.GetCVar(CCVars.RadioVolume),
+            //};
+
+            if (IoCManager.Resolve<IEntityManager>().TrySystem<AudioSystem>(out var audio))
+                audio.PlayGlobal(sound, Filter.Local(), false);
+        }
     }
 
     private readonly record struct SpeechBubbleData(ChatMessage Message, SpeechBubble.SpeechType Type);
