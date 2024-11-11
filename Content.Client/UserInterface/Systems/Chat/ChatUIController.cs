@@ -952,6 +952,7 @@ public sealed class ChatUIController : UIController
             {
                 //Volume não faz o impacto desejado
                 Volume = _config.GetCVar(CCVars.RadioVolume),
+                Variation = 0.125f
             };
             if (IoCManager.Resolve<IEntityManager>().TrySystem<AudioSystem>(out var audio))
                 audio.PlayGlobal(sound, Filter.Local(), false, audioParams);
