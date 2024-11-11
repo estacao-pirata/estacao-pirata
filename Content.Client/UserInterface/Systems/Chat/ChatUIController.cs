@@ -40,6 +40,7 @@ using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using Robust.Shared.Player;
 using Robust.Client.Audio;
+using Robust.Shared.Audio;
 
 
 namespace Content.Client.UserInterface.Systems.Chat;
@@ -938,21 +939,22 @@ public sealed class ChatUIController : UIController
         var colorIdx = Math.Abs(name.GetHashCode() % _chatNameColors.Length);
         return _chatNameColors[colorIdx];
     }
-
+    /// <summary>
+    /// Play a audio for radio receiver
+    /// </summary>
     public void PlayChatSound()
     {
         var radioChatterEnabled = _config.GetCVar(CCVars.RadioSoundsEnabled);
         if (radioChatterEnabled)
         {
             var sound = _config.GetCVar(CCVars.RadioSoundPath);
-
-            //var audioParams = new AudioParams
-            //{
-            //    Volume = _config.GetCVar(CCVars.RadioVolume),
-            //};
-
+            var audioParams = new AudioParams
+            {
+                //Volume não faz o impacto desejado
+                Volume = _config.GetCVar(CCVars.RadioVolume),
+            };
             if (IoCManager.Resolve<IEntityManager>().TrySystem<AudioSystem>(out var audio))
-                audio.PlayGlobal(sound, Filter.Local(), false);
+                audio.PlayGlobal(sound, Filter.Local(), false, audioParams);
         }
     }
 

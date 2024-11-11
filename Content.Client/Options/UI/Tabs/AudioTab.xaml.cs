@@ -47,7 +47,8 @@ namespace Content.Client.Options.UI.Tabs
                 RestartSoundsCheckBox,
                 EventMusicCheckBox,
                 AnnouncerDisableMultipleSoundsCheckBox,
-                AdminSoundsCheckBox
+                AdminSoundsCheckBox,
+                radioChatterCheckbox
             );
 
             AmbienceSoundsSlider.MinValue = _cfg.GetCVar(CCVars.MinMaxAmbientSourcesConfigured);
@@ -93,7 +94,8 @@ namespace Content.Client.Options.UI.Tabs
                 RestartSoundsCheckBox,
                 EventMusicCheckBox,
                 AnnouncerDisableMultipleSoundsCheckBox,
-                AdminSoundsCheckBox
+                AdminSoundsCheckBox,
+                radioChatterCheckbox
             );
 
             base.Dispose(disposing);
@@ -137,6 +139,7 @@ namespace Content.Client.Options.UI.Tabs
             _cfg.SetCVar(CCVars.EventMusicEnabled, EventMusicCheckBox.Pressed);
             _cfg.SetCVar(CCVars.AnnouncerDisableMultipleSounds, AnnouncerDisableMultipleSoundsCheckBox.Pressed);
             _cfg.SetCVar(CCVars.AdminSoundsEnabled, AdminSoundsCheckBox.Pressed);
+            _cfg.SetCVar(CCVars.RadioSoundsEnabled, radioChatterCheckbox.Pressed);
             _cfg.SaveToFile();
             UpdateChanges();
         }
@@ -164,6 +167,7 @@ namespace Content.Client.Options.UI.Tabs
             EventMusicCheckBox.Pressed = _cfg.GetCVar(CCVars.EventMusicEnabled);
             AnnouncerDisableMultipleSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.AnnouncerDisableMultipleSounds);
             AdminSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.AdminSoundsEnabled);
+            radioChatterCheckbox.Pressed = _cfg.GetCVar(CCVars.RadioSoundsEnabled);
             UpdateChanges();
         }
 
@@ -193,10 +197,11 @@ namespace Content.Client.Options.UI.Tabs
             var isEventSame = EventMusicCheckBox.Pressed == _cfg.GetCVar(CCVars.EventMusicEnabled);
             var isAnnouncerDisableMultipleSoundsSame = AnnouncerDisableMultipleSoundsCheckBox.Pressed == _cfg.GetCVar(CCVars.AnnouncerDisableMultipleSounds);
             var isAdminSoundsSame = AdminSoundsCheckBox.Pressed == _cfg.GetCVar(CCVars.AdminSoundsEnabled);
+            var isRadioSoundsSame = radioChatterCheckbox.Pressed == _cfg.GetCVar(CCVars.RadioSoundsEnabled);
             var isEverythingSame = isMasterVolumeSame && isMidiVolumeSame && isAmbientVolumeSame
                 && isAmbientMusicVolumeSame && isAmbientSoundsSame && isLobbySame && isRestartSoundsSame && isEventSame
                 && isAnnouncerDisableMultipleSoundsSame && isAdminSoundsSame && isLobbyVolumeSame
-                && isInterfaceVolumeSame && isAnnouncerVolumeSame && isRadioVolumeSame;
+                && isInterfaceVolumeSame && isAnnouncerVolumeSame && isRadioVolumeSame && isRadioSoundsSame;
             ApplyButton.Disabled = isEverythingSame;
             ResetButton.Disabled = isEverythingSame;
             MasterVolumeLabel.Text =
