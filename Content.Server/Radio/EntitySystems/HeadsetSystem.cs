@@ -10,6 +10,8 @@ using Content.Shared.Radio.Components;
 using Content.Shared.Radio.EntitySystems;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
+using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 
 namespace Content.Server.Radio.EntitySystems;
 
@@ -18,6 +20,7 @@ public sealed class HeadsetSystem : SharedHeadsetSystem
     [Dependency] private readonly INetManager _netMan = default!;
     [Dependency] private readonly RadioSystem _radio = default!;
     [Dependency] private readonly LanguageSystem _language = default!;
+    [Dependency] private readonly SharedAudioSystem _audio = default!;
 
     public override void Initialize()
     {
@@ -111,6 +114,8 @@ public sealed class HeadsetSystem : SharedHeadsetSystem
             {
                 Message = canUnderstand ? args.OriginalChatMsg : args.LanguageObfuscatedChatMsg
             };
+            var sound = "/Audio/Effects/Radio/sound_items_radio_radio_receive.ogg";
+            _audio.PlayPvs(sound, uid);
             _netMan.ServerSendMessage(msg, actor.PlayerSession.Channel);
         }
     }
