@@ -858,7 +858,7 @@ public sealed class ChatUIController : UIController
                 UnreadMessageCountsUpdated?.Invoke(msg.Channel, count);
             }
         }
-        if(msg.Channel == ChatChannel.Radio && msg.SenderEntity == default)
+        if(msg.Channel == ChatChannel.Radio && msg.SenderEntity == default && _ghost is not { IsGhost: true })
         {
             PlayChatSound();
         }
@@ -952,21 +952,20 @@ public sealed class ChatUIController : UIController
         {
             // Check if enough time has passed since the last sound played
             if (_timing.CurTime < _lastRadioPlayTime)
-            {
                 return;
-            }
+
             var sound = _config.GetCVar(CCVars.RadioSoundPath);
             var audioParams = new AudioParams
             {
                 //Volume não faz o impacto desejado
-                Volume = _config.GetCVar(CCVars.RadioVolume),
+                Volume = _config.GetCVar(CCVars.RadioVolume) - 5f,
                 Variation = 0.125f
             };
             if (IoCManager.Resolve<IEntityManager>().TrySystem<AudioSystem>(out var audio))
             {
                 audio.PlayGlobal(sound, Filter.Local(), false, audioParams);
                 var radioCooldown = _config.GetCVar(CCVars.RadioCooldown);
-                _lastRadioPlayTime = _timing.CurTime + TimeSpan.FromSeconds(radioCooldown);
+                _lastRadioPlayTime = _timing.CurTime + TimeSpan.FromSeconds(radioCooldown); 
             }
         }
     }
