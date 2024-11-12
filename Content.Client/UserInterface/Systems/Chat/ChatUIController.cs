@@ -66,7 +66,10 @@ public sealed class ChatUIController : UIController
     [UISystemDependency] private readonly ChatSystem? _chatSys = default;
     [UISystemDependency] private readonly PsionicChatUpdateSystem? _psionic = default!; //Nyano - Summary: makes the psionic chat available.
 
-    
+
+    private TimeSpan _lastRadioPlayTime = TimeSpan.Zero;
+
+
 
     [ValidatePrototypeId<ColorPalettePrototype>]
     private const string ChatNamePalette = "ChatNames";
@@ -947,6 +950,11 @@ public sealed class ChatUIController : UIController
         var radioChatterEnabled = _config.GetCVar(CCVars.RadioSoundsEnabled);
         if (radioChatterEnabled)
         {
+            // Check if enough time has passed since the last sound played
+            if (_timing.CurTime < _lastRadioPlayTime)
+            {
+                return;
+            }
             var sound = _config.GetCVar(CCVars.RadioSoundPath);
             var audioParams = new AudioParams
             {
@@ -955,7 +963,11 @@ public sealed class ChatUIController : UIController
                 Variation = 0.125f
             };
             if (IoCManager.Resolve<IEntityManager>().TrySystem<AudioSystem>(out var audio))
+            {
                 audio.PlayGlobal(sound, Filter.Local(), false, audioParams);
+                var radioCooldown = _config.GetCVar(CCVars.RadioCooldown);
+                _lastRadioPlayTime = _timing.CurTime + TimeSpan.FromSeconds(radioCooldown);
+            }
         }
     }
 

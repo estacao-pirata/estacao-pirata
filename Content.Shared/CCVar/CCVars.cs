@@ -754,6 +754,9 @@ namespace Content.Shared.CCVar
             CVarDef.Create("audio.radio_sound_path", "/Audio/Effects/Radio/sound_items_radio_radio_receive.ogg", CVar.ARCHIVE | CVar.CLIENT | CVar.REPLICATED);
         public static readonly CVarDef<float> RadioVolume =
             CVarDef.Create("audio.radio_volume", -5f, CVar.ARCHIVE | CVar.CLIENTONLY);
+        public static readonly CVarDef<float> RadioCooldown =
+            CVarDef.Create("audio.radio_cooldown", 2f, CVar.ARCHIVE | CVar.CLIENT | CVar.REPLICATED);
+
         /*
          * Admin sounds
          */
