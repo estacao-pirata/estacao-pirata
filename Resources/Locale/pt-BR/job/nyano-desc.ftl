@@ -10,5 +10,4 @@ job-description-assistant = Ajude a tripulação enquanto aprende como se locomo
 job-description-fugitive = Fuja da estação com vida.
 job-description-prisoner = Sente-se na prisão. Jogue com seus colegas de cela. Fale com o carcereiro. Escreva suas memórias.
 job-description-gladiator = Faça um espetáculo de combate para a tripulação. Lute por sua liberdade, glória e honra.
-job-description-paramedic = Vá para o campo para salvar vidas. Leve um tiro de agentes hostis. Comece a fumar um cigarro atrás do outro.
 job-description-martialartist = Seja honrado e disciplinado, treine no dojo, desafie a segurança para o CQC.

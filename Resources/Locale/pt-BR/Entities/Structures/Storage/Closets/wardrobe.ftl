@@ -47,7 +47,7 @@ ent-ClosetLegal = armário jurídico
     .desc = É uma unidade de armazenamento para roupas e itens do tribunal.
 
 ent-WardrobeCargo = guarda-roupa de carga
-    .desc = { "" }
+    .desc = Esse armário? Uns 500 spesos. Irmandade? Não tem preço.
 
 ent-WardrobeSalvage = guarda-roupa de salvamento
     .desc = Notavelmente não recuperado.

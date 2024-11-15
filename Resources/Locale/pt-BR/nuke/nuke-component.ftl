@@ -37,7 +37,7 @@ nuke-label-syndicate = SYN-{$serial}
 # Codes
 nuke-codes-message = [color=red]TOP SECRET![/color]
 nuke-codes-list = {$name} code: {$code}
-nuke-codes-fax-paper-name = nuclear authentication codes
+nuke-codes-fax-paper-name = códigos de autenticação nuclear
 
 # Nuke disk slot
 nuke-slot-component-slot-name-disk = Disk
@@ -45,4 +45,3 @@ nuke-slot-component-slot-name-disk = Disk
 ## Examine
 nuke-examine-armed = Aí, porquê aquela [color=red]luz vermelha[/color] tá piscando?
 nuke-examine-exploding = É... Acho que é tarde demais amigo.
-nuke-codes-fax-paper-name = códigos de autenticação nuclear

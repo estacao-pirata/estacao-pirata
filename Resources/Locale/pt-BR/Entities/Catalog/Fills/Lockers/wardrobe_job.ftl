@@ -28,14 +28,8 @@ ent-WardrobeChapelFilled = guarda-roupa do capelão
 ent-WardrobeSecurityFilled = guarda-roupa de segurança
     .desc = Ultrapasse a estreita linha vermelha.
 
-ent-WardrobeCargo = guarda-roupa de carga
-    .desc = Esse armário? Uns 500 spesos. Irmandade? Não tem preço.
-
 ent-WardrobeSalvageFilled = guarda-roupa de salvatagem
     .desc = Notavelmente não recuperado.
 
 ent-WardrobeAtmosphericsFilled = guarda-roupa atmosférico
     .desc = Esse armário contém um uniforme para técnicos atmosféricos.
-
-ent-WardrobeEngineering = guarda-roupa de engenharia
-    .desc = Esse armário contém um uniforme para engenharia ou engenharia social.

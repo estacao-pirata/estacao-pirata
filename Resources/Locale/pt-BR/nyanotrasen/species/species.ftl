@@ -1,3 +1,2 @@
 species-name-oni = Oni
-species-name-felinid = Felinid
- 
+species-name-felinid = Felinídeo
