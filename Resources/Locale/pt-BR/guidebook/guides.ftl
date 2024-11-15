@@ -75,33 +75,18 @@ guide-entry-lei-espacial = Lei Espacial
 guide-entry-codigo-penal = Código Penal
 guide-entry-IPCs = IPCs
 guide-entry-glossary = glossário
-guide-entry-machine-upgrading = Melhorando Máquinas
 guide-entry-reverse-engineering = Engenharia reversa
 guide-entry-epistemics = Epistêmia
 guide-entry-psionics = Psiônicos
 guide-entry-altars-golemancy = Altares e Golemância
-guide-entry-anomalous-research = Pesquisa Anômala
-guide-entry-scanners-and-vessels = Escaners e vassalos
-guide-entry-ape = A.P.E.
-guide-entry-xenoarchaeology = Xenoarqueologia
-guide-entry-artifact-reports = Relatórios de artefatos
-guide-entry-traversal-distorter = Distortor transversal
 guide-entry-space-law = Lei Espacial
 guide-entry-jurisdiction = Jurisdição
 guide-entry-trial-prodedure = Procedimento de julgamento
 guide-entry-charges-and-times = Acusações e Sentenças
-guide-entry-machine-upgrading = Melhorando Máquinas
-guide-entry-robotics = Robótica
 
-guide-entry-security = Segurança
 guide-entry-dna = DNA
 
-guide-entry-antagonists = Antagonistas
-guide-entry-nuclear-operatives = Operativos Nucleares
-
-
 guide-entry-chemistry = Química
-guide-entry-chef = Chefe de cozinha
 guide-entry-cookbook = O livro de receitas
 
 # Receitas
