@@ -26,7 +26,7 @@ job-name-centcomoff = oficial da CentCom
 job-name-reporter = reporter
 job-name-musician = músico
 job-name-librarian = bibliotecário
-job-name-lawyer = advogado
+# job-name-lawyer = advogado
 job-name-mime = mímico
 job-name-ce = engenheiro chefe
 job-name-janitor = zelador
@@ -62,7 +62,6 @@ job-name-gladiator = gladiador
 job-name-fugitive = fugitivo
 job-name-prisoner = prisioneiro
 job-name-valet = valete
-job-name-paramedic = paramédico
 job-name-guard = guarda prisional
 job-name-martialartist =  artista marcial
 

@@ -75,11 +75,10 @@ reagent-desc-vestine = Tem uma reação adversa no corpo, causando grande agita�
 
 reagent-name-tazinide = tazinide
 reagent-desc-tazinide = Uma mistura metálica altamente perigosa que pode interferir na maior parte dos movimentos através de uma corrente eletrizante.
-reagent-name-prometheum = prometheum
-reagent-desc-prometheum = A complex superdrug our bodies could produce if we could only unlock our potential.
 
 reagent-name-soulbreaker-toxin = soulbreaker toxin
-reagent-desc-soulbreaker-toxin = An anti-psionic about 4 times as powerful as mindbreaker toxin.
+reagent-desc-soulbreaker-toxin = Um antipsiônico cerca de 4 vezes mais poderoso do que mindbreaker toxin.
+
 reagent-name-human-muta-tox = toxina de mutação humana
 reagent-desc-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
 

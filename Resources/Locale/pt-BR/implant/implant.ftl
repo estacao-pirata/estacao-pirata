@@ -35,4 +35,3 @@ use-dna-scrambler-implant-action-description = LING NA MANUTENÇÃO!
 ## Implant Popups
 
 scramble-attempt-while-scrambled-popup = DNA embaralhado detectado, extraia o implante antes de desfazer a confusão atual.
-scramble-implant-activated-popup = Você se transformou em {$identity}

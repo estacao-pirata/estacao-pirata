@@ -21,7 +21,3 @@ chat-radio-prison = Prisão
 # not headset but whatever
 chat-radio-handheld = Portátil
 chat-radio-binary = Binário
-chat-radio-binary = Binário
-
-# not headset but whatever
-chat-radio-handheld = Portátil
