@@ -7,9 +7,6 @@ ent-CrateServiceReplacementLights = Caixa de reposição de luzes
 ent-CrateMousetrapBoxes = Caixa de ratoeiras
     .desc = Ratoeiras, para quando todo o serviço está sendo assombrado por uma horda inteira de ratos. Use com moderação... ou não.
 
-ent-CrateHolyWaterKit = DIY holy water crate
-    .desc = For when undeads or vampires becomes a real problem and you'd rather keep them at bay.
-
 ent-CrateServiceSmokeables = Caixa de fumáveis
     .desc = Cansado de uma morte rápida na estação? Encomende esta caixa e fume em cadeia para uma morte tosse!
 
@@ -24,6 +21,6 @@ ent-CrateServicePersonnel = Caixa de funcionário
 
 ent-CrateServiceBooks = Caixa de livros
     .desc = Contém 10 livros vazios de aparentemente aleatórios
-    
+
 ent-CrateJanitorBiosuit = Caixa de traje de bioproteção do zelador
     .desc = Contém 2 trajes de bioproteção para garantir que nenhuma doença irá distraí-lo da limpeza.

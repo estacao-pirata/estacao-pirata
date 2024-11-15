@@ -30,6 +30,4 @@ reverse-engineering-success = Avanço
 reverse-engineering-machine-bonus-upgrade = poder de análise
 reverse-engineering-machine-aversion-upgrade = Bônus de aversão à destruição
 
-reverse-engineering-failure = {CAPITALIZE(THE($machine))} sopra fumaça e detritos em todos os lugares!
-
 reverse-engineering-examine = [color=yellow]Este item pode sofrer engenharia reversa. Dificuldade: {$diff}[/color]

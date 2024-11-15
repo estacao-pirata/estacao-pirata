@@ -34,9 +34,6 @@ reagent-desc-oil-olive = Viscoso e cheiroso.
 reagent-name-oil = óleo
 reagent-desc-oil = Usado por chefs para cozinhar.
 
-reagent-name-butter = manteiga
-reagent-desc-butter = Densa e cremosa.
-
 reagent-name-motor-oil = óleo de motor
 reagent-desc-motor-oil = Evita que as máquinas chiem.
 
