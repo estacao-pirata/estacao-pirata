@@ -25,9 +25,6 @@ accept-psionics-window-prompt-text-part = Você rolou um poder psiônico!
 action-name-psionic-invisibility = Invisibilidade Psiônica
 action-description-psionic-invisibility = Torne-se invisível para qualquer entidade que teria o potencial de se tornar psíquica. Borgs, bichos e assim por diante não são afetados.
 
-action-name-psionic-invisibility = Invisibilidade Psiônica
-action-description-psionic-invisibility = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
-
 action-name-psionic-invisibility-off = Desligar Invisibilidade Psiônica
 action-description-psionic-invisibility-off = Volta à visibilidade e fica atordoado.
 

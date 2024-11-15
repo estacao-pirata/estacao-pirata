@@ -29,8 +29,4 @@ ghost-gui-return-to-round-button = Retornar à rodada
 
 ghost-roles-window-redirect-label = Redirecionar para outro servidor
 ghost-roles-window-redirect = Redirecionar
-ghost-roles-window-redirect-label = Ou você pode se conectar a outro servidor.
 ghost-roles-window-redirect-label-empty = Você pode se conectar a outro servidor.
-ghost-roles-window-redirect = Conectar
-
-ghost-gui-toggle-ghost-visibility-popup = Alternou visibilidade de fantasmas.

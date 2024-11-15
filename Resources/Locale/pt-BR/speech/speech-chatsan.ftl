@@ -116,7 +116,7 @@ chatsan-word-42 = ofc
 chatsan-replacement-42 = é claro
 
 chatsan-word-43 = ig
-chatsan-replacement-42 = eu acho
+chatsan-replacement-43 = eu acho
 
 chatsan-word-1043 = pdc
 chatsan-replacement-1043 = podes crer
