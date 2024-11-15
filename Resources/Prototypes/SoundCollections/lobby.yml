@@ -19,8 +19,8 @@
     - /Audio/Lobby/hackers.ogg
     - /Audio/Lobby/every_light_is_blinking_at_once.ogg
     - /Audio/Lobby/DOS=HIGH,_UMB.ogg
-    - /Media/Audio/Lobby/poeira.ogg
-    - /Media/Audio/Lobby/astronauta.ogg
+    - /Media/Audio/Lobby/poeira.ogg #! nenhuma dessas musicas existem no repositorio
+    - /Media/Audio/Lobby/astronauta.ogg #todo: arrumar isso, e criar um novo arquivo so pra estacao-pirata
     - /Media/Audio/Lobby/marciano.ogg
     - /Media/Audio/Lobby/marmore.ogg
     - /Media/Audio/Lobby/oddity.ogg
@@ -33,3 +33,4 @@
     - /Media/Audio/Lobby/devil.ogg
     - /Media/Audio/Lobby/dancing.ogg
     - /Media/Audio/Lobby/dancing.ogg
+    - /Audio/estacao-pirata/Lobby/gay.oog
