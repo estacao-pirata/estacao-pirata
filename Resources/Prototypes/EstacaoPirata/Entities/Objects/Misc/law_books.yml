@@ -1,0 +1,81 @@
+- type: entity
+  parent: BaseItem
+  id: BaseGuidebook
+  abstract: true
+  suffix: guidebook
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+  - type: Tag
+    tags:
+    - Book
+  - type: GuideHelp
+    openOnActivation: true
+    guides:
+    - SS14 # Frontier: SS14<NF14
+
+- type: entity
+  parent: BaseGuidebook
+  id: BaseBookLaw
+  abstract: true
+  components:
+    - type: Sprite
+      layers:
+      - state: paper
+      - state: cover_base
+        color: "#6b332e"
+      - state: icon_law
+      - state: detail_bookmark
+        color: "#851D15"
+
+- type: entity
+  parent: BaseBookLaw
+  id: BookLei1
+  components:
+  - type: GuideHelp
+    guides:
+    - Lei1
+
+- type: entity
+  parent: BaseBookLaw
+  id: BookLei2
+  components:
+  - type: GuideHelp
+    guides:
+    - Lei2
+
+- type: entity
+  parent: BaseBookLaw
+  id: BookLei3
+  components:
+  - type: GuideHelp
+    guides:
+    - Lei3
+
+- type: entity
+  parent: BaseBookLaw
+  id: BookLei4
+  components:
+  - type: GuideHelp
+    guides:
+    - Lei4
+
+- type: entity
+  parent: BaseItem
+  id: BookLeiColetanea
+  components:
+  - type: Item
+    size: Large
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Misc/law_book.rsi
+    layers:
+      - state: base
+  - type: SpawnItemsOnUse
+    items:
+      - id: BookLei1
+      - id: BookLei2
+      - id: BookLei3
+      - id: BookLei4
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/unwrap.ogg

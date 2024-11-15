@@ -3,9 +3,27 @@
   name: guide-entry-lei-espacial
   text: "/ServerInfo/Guidebook/LeiEspacial/LeiEspacial.xml"
   children:
-   - CódigoPenal
+   - Lei1
+   - Lei2
+   - Lei3
+   - Lei4
    
 - type: guideEntry
-  id: CódigoPenal
-  name: guide-entry-codigo-penal
-  text: "/ServerInfo/Guidebook/LeiEspacial/CódigoPenal.xml"
+  id: Lei1
+  name: guide-entry-lei-1
+  text: "/ServerInfo/Guidebook/LeiEspacial/Lei1.xml"
+   
+- type: guideEntry
+  id: Lei2
+  name: guide-entry-lei-2
+  text: "/ServerInfo/Guidebook/LeiEspacial/Lei2.xml"
+   
+- type: guideEntry
+  id: Lei3
+  name: guide-entry-lei-3
+  text: "/ServerInfo/Guidebook/LeiEspacial/Lei3.xml"
+   
+- type: guideEntry
+  id: Lei4
+  name: guide-entry-lei-4
+  text: "/ServerInfo/Guidebook/LeiEspacial/Lei4.xml"
