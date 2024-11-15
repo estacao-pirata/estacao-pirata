@@ -37,7 +37,7 @@ public sealed class CardHandSystem : EntitySystem
         SubscribeLocalEvent<CardHandComponent, GetVerbsEvent<AlternativeVerb>>(OnAlternativeVerb);
     }
 
-    private void OnStackQuantityChange(EntityUid uid, CardHandComponent comp,  CardStackQuantityChangeEvent args)
+    private void OnStackQuantityChange(EntityUid uid, CardHandComponent comp, CardStackQuantityChangeEvent args)
     {
         if (_net.IsClient)
             return;
@@ -64,9 +64,7 @@ public sealed class CardHandSystem : EntitySystem
         if (!_cardStack.TryRemoveCard(uid, GetEntity(args.Card), stack))
             return;
 
-        if (args.Session.AttachedEntity == null)
-            return;
-        _hands.TryPickupAnyHand((EntityUid)args.Session.AttachedEntity, GetEntity(args.Card));
+        _hands.TryPickupAnyHand(args.Actor, GetEntity(args.Card));
 
 
         if (stack.Cards.Count != 1)
@@ -74,19 +72,16 @@ public sealed class CardHandSystem : EntitySystem
         var lastCard = stack.Cards.Last();
         if (!_cardStack.TryRemoveCard(uid, lastCard, stack))
             return;
-        _hands.TryPickupAnyHand((EntityUid)args.Session.AttachedEntity, lastCard);
+        _ = _hands.TryPickupAnyHand(args.Actor, lastCard);
 
     }
 
     private void OpenHandMenu(EntityUid user, EntityUid hand)
     {
-        if (!TryComp<ActorComponent>(user, out var actor))
+        if (!_ui.HasUi(hand, CardUiKey.Key))
             return;
 
-        if (!_ui.TryGetUi(hand, CardUiKey.Key, out var bui, null))
-            return;
-
-        _ui.OpenUi(bui, actor.PlayerSession);
+        _ui.OpenUi(hand, CardUiKey.Key, user);
 
     }
 

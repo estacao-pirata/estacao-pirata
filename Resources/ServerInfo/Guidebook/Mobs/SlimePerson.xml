@@ -11,6 +11,24 @@
   Eles exalam óxido nitroso, e não são afetados por ele.
   Os seus corpos conseguem processar 6 reagentes na mesma velocidade que humanos, invés de somente 2.
 
+  Slimes podem se transformar em um [bold]"geras"[/bold] (um termo arcaico do povo slime), uma forma menor de slime que consegue [bold]passar por grades[/bold],
+  mas que os obriga a deixar seu inventário e itens no chão. É uma boa opção para uma fuga rápida. Um geras é pequeno o suficiente para ser carregado (com as duas mãos)
+  e cabe em uma duffelbag.
+
+  <Box>
+    <GuideEntityEmbed Entity="MobSlimesGeras" Caption="Um geras típico."/>
+  </Box>
+
+  Slimes possuem um [bold]inventário de armazenamento interno 2x2[/bold] dentro de sua membrana. Qualquer um pode ver o que está dentro e pegar os itens sem permissão,
+  então tenha cuidado. No entanto, eles [bold]não perdem o inventário interno quando se transformam em um geras![/bold]
+
+  Slimes têm uma regeneração levemente acelerada em comparação a outros humanoides. Eles também conseguem endurecer os punhos, tornando seus golpes mais fortes, embora um pouco mais lentos.
+
+  O "sangue" slime não pode ser regenerado com Ferro. Sangue de Slime é tecnicamente uma fonte de
+  alimento moderadamente nutritiva para outras espécies, embora beber o sangue dos colegas de trabalho geralmente seja desaprovado.
+
+  Eles sufocam 80% mais devagar, mas sofrem dano de pressão 9% mais rápido, o que os torna a espécie mais resistente a sobreviver em vácuo. Por um tempo.
+
   O seu "sangue" slime nao pode ser regenerado por Ferro. Sangue Slime é tecnicamente uma fonte moderada de diversas comidas de outras espécies,
   mas beber o sangue de seus colegas funcionários normalmente é visto como algo ruim.
   Eles sufocam 80% mais devagar, mas tomam dano de pressão 9% mais rápido. Isso faz eles serem a espécie orgânica que mais sobrevie no vácuo. Por um tempo.

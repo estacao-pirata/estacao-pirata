@@ -1,8 +1,8 @@
 using Content.Shared.Customization.Systems;
 using Content.Shared.Mood;
-using Content.Shared.Psionics;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Utility;
+using Robust.Shared.Serialization.Manager;
+using Robust.Shared.Serialization;
 
 namespace Content.Shared.Traits;
 
@@ -93,4 +93,17 @@ public sealed partial class TraitPrototype : IPrototype
     /// </summary>
     [DataField]
     public ProtoId<EntityPrototype> TraitGear = default!;
+    [DataField(serverOnly: true)]
+    public TraitFunction[] Functions { get; private set; } = Array.Empty<TraitFunction>();
+}
+
+/// This serves as a hook for trait functions to modify a player character upon spawning in.
+[ImplicitDataDefinitionForInheritors]
+public abstract partial class TraitFunction
+{
+    public abstract void OnPlayerSpawn(
+        EntityUid mob,
+        IComponentFactory factory,
+        IEntityManager entityManager,
+        ISerializationManager serializationManager);
 }

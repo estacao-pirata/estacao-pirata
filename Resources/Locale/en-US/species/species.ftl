@@ -12,3 +12,4 @@ species-name-skeleton = Skeleton
 species-name-vox = Vox
 species-name-ipc = IPC
 species-name-daengati = Daengati
+species-name-shadowkin = Shadowkin
