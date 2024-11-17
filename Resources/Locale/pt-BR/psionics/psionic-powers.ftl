@@ -69,7 +69,7 @@ revivify-power-initialization-feedback =
     O segredo da vida em sua plenitude. Sinto toda a minha existência queimando de dentro para fora, apenas por conhecê-lo.
     O poder flui através de mim como um poderoso rio, implorando para ser liberado com uma simples palavra falada.
 revivify-power-metapsionic-feedback = {CAPITALIZE($entity)} carrega o maior segredo da vida.
-revivify-word-begin = {CAPITALIZE($entity)} pronuncia uma palavra de tal poder divino que aqueles que a ouvem choram de alegria.
+revivify-begin = {CAPITALIZE($entity)} pronuncia uma palavra de tal poder divino que aqueles que a ouvem choram de alegria.
 
 # Telegnóstica
 telegnosis-power-description = Crie uma projeção telegnóstica para observar remotamente.
@@ -134,6 +134,32 @@ telekinetic-pulse-power-initialization-feedback =
     Quando alcanço o véu com meu poder, descubro uma fonte de pura energia cinética. Ela flui através de mim, mas pareço carecer de controle fino sobre ela.
 telekinetic-pulse-power-metapsionic-feedback = A essência da pura cinese flui através de {CAPITALIZE($entity)}.
 
+# Sinalizador Pyrocinetico
+action-name-pyrokinetic-flare = Sinalizador Pyrocinetico
+action-description-pyrokinetic-flare =
+    Cria um flash de luz solar de Gehenna para cegar seus inimigos.
+pyrokinetic-flare-power-description = { action-description-pyrokinetic-flare }
+pyrokinetic-flare-power-initialization-feedback =
+    Meu olhar é brevemente preenchido com um flash de imensa luz, e por um único momento eu posso ver um vislumbre de um reino
+    de fogo e dor, de fome e sofrimento. Assim que eu o vislumbro, a visão desaparece. Mas a memória daquele flash permanece em minha mente.
+    Eu ainda posso me lembrar disso, um vislumbre dos fogos de Gehenna.
+pyrokinetic-flare-power-metapsionic-feedback = Guh these don't even matter because nobody can read this line in-game and I don't know when I'm ever bringing back Narrow Pulse
+
+# Invocar Imp
+action-name-summon-imp = Invocar Imp
+action-description-summon-imp =
+    Invoca e vincula um Imp de Gehenna para servir como seu Familiar.
+summon-imp-power-description = { action-description-summon-imp }
+summon-imp-power-initialization-feedback =
+    Por um breve momento, me encontro vagando pelos campos enegrecidos de Gehenna. Vasculho entre as cinzas, encontrando um carvão fumegante no formato de um olho.
+    Sopro sobre ele, e ele explode em chamas. Antes de retornar, a criatura me agradece e me diz seu nome.
+
+# Summon Remilia
+action-name-summon-remilia = Invocar Remilia
+action-description-summon-remilia =
+    Invoque sua sempre leal familiar Remilia.
+summon-remilia-power-description = { action-description-summon-remilia }
+
 # Mensagens do sistema psiônico
 mindbreaking-feedback = A luz da vida desaparece dos olhos de {CAPITALIZE($entity)}, deixando para trás uma casca que finge ter sapiência.
 examine-mindbroken-message =
@@ -142,3 +168,14 @@ examine-mindbroken-message =
 psionic-roll-failed = Por um momento, minha consciência se expande, mas sinto que não é o suficiente.
 entity-anomaly-no-grid = Não há lugar onde eu possa conjurar seres.
 power-overwhelming-power-feedback = {CAPITALIZE($entity)} empunha uma vasta conexão com a noosfera.
+
+ethereal-pickup-fail = My hand sizzles as it passes through...
+
+# Psionic Familiar System
+psionic-familiar-cant-attack-master = Estou conectado ao meu mestre, não posso fazer-lo o mal.
+psionic-familiar-despawn-text = {CAPITALIZE($entity)} retorna de onde veio!
+
+ghost-role-information-familiar-name = Familiar psiônico
+ghost-role-information-familiar-description = Uma criatura interdimensional ligada à vontade de um Psiônico.
+ghost-role-information-familiar-rules =
+    Obedeça quem te convocou. Não aja contra os interesses do seu mestre. Você morrerá pelo seu mestre se for necessário.
