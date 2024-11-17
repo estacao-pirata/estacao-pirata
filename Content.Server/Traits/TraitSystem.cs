@@ -59,7 +59,7 @@ public sealed class TraitSystem : EntitySystem
     /// </summary>
     public void AddTrait(EntityUid uid, TraitPrototype traitPrototype)
     {
-        foreach (var function in traitPrototype.Functions)
+        foreach (var function in traitPrototype.Functions) {
             function.OnPlayerSpawn(uid, _componentFactory, EntityManager, _serialization);
         AddTraitGear(uid, traitPrototype);
         }
@@ -79,5 +79,6 @@ public sealed class TraitSystem : EntitySystem
             var inhandEntity = EntityManager.SpawnEntity(traitPrototype.TraitGear, coords);
             _sharedHandsSystem.TryPickup(uid, inhandEntity, checkActionBlocker: false,
                 handsComp: handsComponent);
+        }
     }
 }
