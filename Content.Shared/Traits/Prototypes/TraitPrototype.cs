@@ -33,13 +33,13 @@ public sealed partial class TraitPrototype : IPrototype
     public List<CharacterRequirement> Requirements = new();
 
     [DataField(serverOnly: true)]
-    public TraitFunction[] Functions { get; private set; } = Array.Empty<TraitFunction>();    
+    public TraitFunction[] Functions { get; private set; } = Array.Empty<TraitFunction>();
 
     /// <summary>
     ///     Gear that is given to the player, when they pick this trait.
     /// </summary>
     [DataField]
-    public ProtoId<EntityPrototype> TraitGear = default!;
+    public EntProtoId TraitGear = default!;
 }
 
 /// This serves as a hook for trait functions to modify a player character upon spawning in.
