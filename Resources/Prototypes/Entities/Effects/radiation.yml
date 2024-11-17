@@ -1,7 +1,7 @@
 - type: entity
   name: Anomalia cintilante
   id: RadiationPulse
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: Olhar para essa anomalia faz você se sentir estranho, como se algo estivesse empurrando seus olhos.
   components:
   - type: RadiationSource

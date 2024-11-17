@@ -73923,7 +73923,7 @@ entities:
     - type: Transform
       pos: 22.5,0.5
       parent: 2
-- proto: LockerChiefEngineerFilledHardsuit
+- proto: LockerChiefEngineerFilled
   entities:
   - uid: 10232
     components:
