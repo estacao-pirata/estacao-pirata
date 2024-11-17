@@ -37,6 +37,9 @@ language-TauCetiBasic-description =
     Seu alfabeto e estrutura únicos e totalmente personalizados permitem que seja falado até mesmo pela maioria das espécies alienígenas.
     É a língua oficial de Tau Ceti e tem tração crescente em círculos diplomáticos e universalistas em todo o espaço humano.
 
+language-Marish-name = Marish
+language-Marish-description =  Uma linguagem inerentemente empática, que transmite emoções com uma única palavra; falada sem esforço pelos Shadowkins, embora quase impossível de aprender ou replicar.
+
 language-Cat-name = Cat
 language-Cat-description = Meow
 

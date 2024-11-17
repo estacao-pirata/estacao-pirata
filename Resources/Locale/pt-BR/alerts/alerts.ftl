@@ -113,3 +113,7 @@ alerts-walking-desc = Indica o quão rápido você está se movendo.
 
 alerts-offer-name = Oferecer
 alerts-offer-desc = Alguém lhe oferece um item.
+
+alerts-deflecting-name = Desviando
+alerts-deflecting-desc = Você tem uma chance de desviar de projéteis. Ficar parado ou se mover lentamente aumentará essa chance.
+

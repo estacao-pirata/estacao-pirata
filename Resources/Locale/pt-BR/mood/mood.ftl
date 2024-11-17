@@ -52,3 +52,24 @@ mood-effect-RevolutionFocused = VIVA LA REVOLUTION!!!
 mood-effect-CultFocused = Dark Gods, grant me strength!
 
 mood-effect-TraitSanguine = I have nothing to worry about. I'm sure everything will turn out well in the end!
+
+# Addictions
+mood-effect-LotoTranscendence =
+    EU POSSO VER TUDO O QUE É, TUDO O QUE SEMPRE SERÁ, E TUDO O QUE SEMPRE FOI. TODA A CRIAÇÃO SE ABRIU PARA MINHA MENTE!
+    EU DEVO TER TUDO. EU DEVO SABER TUDO. TUDO ISSO. PARA SEMPRE!
+mood-effect-LotoEnthrallment =
+    Fugiu de mim... O coração de toda a criação se foi da minha alma, deixando para trás um vazio que não posso suportar.
+    Temo que vou murchar até não sobrar nada se não puder beber da taça do conhecimento mais uma vez.
+
+mood-effect-NicotineBenefit =
+    Sinto como se tivesse ficado de pé a vida inteira e simplesmente me sentei.
+mood-effect-NicotineWithdrawal =
+    Eu realmente gostaria de fumar um cigarro agora.
+
+# Surgery
+mood-effect-SurgeryPain = A cirguria doi.
+# Drugs
+mood-effect-EthanolBenefit =
+    Me sinto tão relaxado depois de beber.
+mood-effect-SpaceDrugsBenefit =
+    Woaaaah, que cores lindas, caraaaaaa. É como se eu pudesse ouvir a cor e o gosto do som, bro.

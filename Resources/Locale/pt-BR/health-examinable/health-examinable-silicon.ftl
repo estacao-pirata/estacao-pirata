@@ -1,4 +1,4 @@
-﻿health-examinable-silicon-none = Não há danos significativos.
+﻿health-examinable-silicon-none = [color=green]Não há danos significativos.[/color]
 
 health-examinable-silicon-Blunt-25 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } pequenos amassados no chassi do { POSS-ADJ($target) }.[/color]
 health-examinable-silicon-Blunt-50 = [color=crimson] O chassi do { CAPITALIZE(POSS-ADJ($target)) } está severamente amassado![/color]
