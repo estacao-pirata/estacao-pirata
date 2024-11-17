@@ -281,7 +281,7 @@ uplink-proximity-mine-desc = Uma mina disfarçada de sinal de chão molhado.
 uplink-disposable-turret-name = Torreta Balística
 uplink-disposable-turret-desc = Parece e funciona como uma caixa de ferramentas elétricas normal. Ao acertar a caixa de ferramentas, ele se transformará em uma torre balística, teoricamente atirando em qualquer pessoa, exceto membros do sindicato. Pode ser transformado de volta em uma caixa de ferramentas usando uma chave de fenda e reparado usando uma chave inglesa.
 
-uplink-cluster-banana-peel-name = Grenada de Banana Cluster
+uplink-cluster-banana-peel-name = Granada de Banana Cluster
 uplink-cluster-banana-peel-desc = Divide-se em 6 cascas de banana explosivas após serem lançadas, as cascas detonam automaticamente após 20 segundos se ninguém escorregar nelas.
 
 # Armor
@@ -361,7 +361,7 @@ uplink-syndicate-segway-crate-desc = Seja um inimigo da corporação, com estilo
 uplink-syndicate-sponge-box-name = Caixa de Esponjas do Sindicato
 uplink-syndicate-sponge-box-desc = Uma caixa contendo 6 esponjas sindicais disfarçadas de cubos de macaco, esses cubos se transformam em uma variedade de vida selvagem raivosa depois de entrar em contato com a água.
 
-uplink-slipocalypse-clustersoap-name = Grenada de Clustersabão
+uplink-slipocalypse-clustersoap-name = Granada de Clustersabão
 uplink-slipocalypse-clustersoap-desc = Espalha pequenos pedaços de sabonete da marca sindicalizada após serem jogados, esses pedaços de sabonete evaporam após 60 segundos.
 
 uplink-mobcat-microbomb-name = SindiGato
@@ -392,19 +392,19 @@ uplink-costume-clown-desc = Contém um traje completo de palhaço. Inclui PDA e 
 uplink-carp-suit-bundle-name = Mala de Traje de Carpa
 uplink-carp-suit-bundle-desc = Contém um traje de carpa e alguns amigos para brincar.
 
-uplink-operative-suit-name = Saia de Operativa
+uplink-operative-suit-name = Macacão de Operativo
 uplink-operative-suit-desc = Um terno dado aos nossos agentes nucleares com tecido fino para se certificar de que você se destaca, nenhum outro benefício além de parecer foda.
 
-uplink-operative-skirt-name = Saia de Operativa
+uplink-operative-skirt-name = Saia de Operativo
 uplink-operative-skirt-desc = Uma saia dada aos nossos agentes nucleares com tecido fino para se certificar de que você se destaca, sem outros benefícios além de parecer foda.
 
 uplink-balloon-name = Balão do Sindicato
 uplink-balloon-desc = Dado às bravas almas dos que sobreviveram ao passeio "ciclone atômico" em Syndieland.
 
-uplink-scarf-syndie-red-name = Lenço vermelho Sindicato listrado
+uplink-scarf-syndie-red-name = Cachecol Listrado Vermelho do Sindicato
 uplink-scarf-syndie-red-desc = Um cachecol listrado vermelho estiloso. O acessório de inverno perfeito para quem tem um senso de moda aguçado e quem está com vontade de roubar alguma coisa.
 
-uplink-scarf-syndie-green-name = Cachecol listrado verde Sindicato
+uplink-scarf-syndie-green-name = Cachecol Listrado Verde do Sindicato
 uplink-scarf-syndie-green-desc = Um elegante cachecol listrado verde sindicato. O acessório de inverno perfeito para quem tem um senso de moda aguçado e quem está com vontade de roubar alguma coisa.
 
 uplink-syndicate-pai-name = IA pessoal do Sindicato

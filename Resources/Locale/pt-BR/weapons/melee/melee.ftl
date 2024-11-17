@@ -1,6 +1,6 @@
-melee-inject-failed-hardsuit = {CAPITALIZE(POSS-ADJ($weapon))} {$weapon} não injeta através de trajes duros!
+melee-inject-failed-hardsuit = {CAPITALIZE(POSS-ADJ($weapon))} {$weapon} não injeta através de trajes!
 
-melee-balloon-pop = {CAPITALIZE(THE($balloon))} pocou!
+melee-balloon-pop = {CAPITALIZE(THE($balloon))} estourou!
 
 
 # BatteryComponent
