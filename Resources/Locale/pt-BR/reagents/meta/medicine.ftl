@@ -97,6 +97,9 @@ reagent-desc-omnizine = Um líquido leitoso calmante com um brilho iridescente. 
 reagent-name-ultravasculine = ultravasculina
 reagent-desc-ultravasculine = Uma solução antitoxina complicada que rapidamente elimina a toxina, causando um pequeno estresse no corpo. Reage com a histamina, duplicando-se enquanto a expulsa. A sobredosagem causa dor extrema.
 
+reagent-name-oculine = oculina
+reagent-desc-oculine = Um composto salino simples usado para tratar os olhos por ingestão.
+
 reagent-name-ethylredoxrazine = etilredoxirazina
 reagent-desc-ethylredoxrazine = Neutraliza os efeitos do álcool na corrente sanguínea. Embora seja comumente necessário, raramente é solicitado.
 

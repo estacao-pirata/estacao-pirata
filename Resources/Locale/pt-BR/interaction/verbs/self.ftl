@@ -1,18 +1,18 @@
 # Interactions here don't have target popups because the target is always the user itself.
 # Why would you do this?
-interaction-PinchSelf-name = Pinch yourself
-interaction-PinchSelf-description = They say it helps you make sure the hell that goes around you is not a dream.
-interaction-PinchSelf-success-self-popup = You pinch yourself... Ouch!
-interaction-PinchSelf-success-others-popup = {THE($user)} pinches {REFLEXIVE($user)}... Looks painful!
-interaction-PinchSelf-fail-self-popup = You somehow fail to pinch yourself. Better for you.
-interaction-PinchSelf-delayed-self-popup = You pinch yourself...
+interaction-PinchSelf-name = Belisque-se
+interaction-PinchSelf-description = Dizem que ajuda a garantir que o seu redor não é um sonho.
+interaction-PinchSelf-success-self-popup = Você se belisca... Ai!
+interaction-PinchSelf-success-others-popup = {THE($user)} belisca {REFLEXIVE($user)}... Parece doloroso!
+interaction-PinchSelf-fail-self-popup = Você de alguma forma não consegue se beliscar. Melhor assim.
+interaction-PinchSelf-delayed-self-popup = Você se belisca...
 interaction-PinchSelf-message-1 = Ouchh!!
 interaction-PinchSelf-message-2 = Aaaah!!
 interaction-PinchSelf-message-3 = Ow!!
 
-interaction-MakeSleepSelf-name = Sleep
-interaction-MakeSleepSelf-description = Put yourself to sleep.
-interaction-MakeSleepSelf-delayed-self-popup = You are trying to fall asleep...
-interaction-MakeSleepSelf-fail-self-popup = You cannot sleep right now.
-interaction-MakeSleepSelf-success-self-popup = You put yourself to sleep.
-interaction-MakeSleepSelf-success-others-popup = {THE($user)} falls asleep.
+interaction-MakeSleepSelf-name = Dormir
+interaction-MakeSleepSelf-description = Vá dormir.
+interaction-MakeSleepSelf-delayed-self-popup = Você está tentando dormir...
+interaction-MakeSleepSelf-fail-self-popup = Você não consegue dormir agora.
+interaction-MakeSleepSelf-success-self-popup = Você adormece.
+interaction-MakeSleepSelf-success-others-popup = {THE($user)} adormece.
