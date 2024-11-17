@@ -38,10 +38,10 @@ limit = 10.0
 
 [build]
 #! PLEASE set this for your fork
-fork_id = "EinsteinEngines"
+fork_id = "Pirata-EinsteinEngines"
 
 [server]
-rules_file   = "DefaultRuleset"
+rules_file   = "PirataRuleset"
 
 [ooc]
 enable_during_round = true
