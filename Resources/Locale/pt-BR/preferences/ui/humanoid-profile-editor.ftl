@@ -23,6 +23,7 @@ humanoid-profile-editor-weight-label = Peso: {$weight}kg
 humanoid-profile-editor-import-button = Importar
 humanoid-profile-editor-export-button = Exportar
 humanoid-profile-editor-save-button = Salvar
+humanoid-profile-editor-reset-button = Resetar
 humanoid-profile-editor-clothing-label = Roupas:
 humanoid-profile-editor-backpack-label = Mochila:
 humanoid-profile-editor-spawn-priority-label = Prioridade de Spawn:

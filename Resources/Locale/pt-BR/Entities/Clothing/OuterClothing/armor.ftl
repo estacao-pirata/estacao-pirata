@@ -2,7 +2,7 @@ ent-ClothingOuterArmorReflective = colete refletor
     .desc = Um colete de proteção contendo uma tecnologia avançada de blindagem. Para proteger o usuário contra armas de energia.
 
 ent-ClothingOuterArmorBulletproof = colete a prova de balas
-    .desc = Um colee de proteção feito com placas de kevlar. Para proteger o usuário de projéteis balísticos.
+    .desc = Um colete de proteção feito com placas de kevlar. Para proteger o usuário de projéteis balísticos.
 
 ent-ClothingOuterArmorCult = armadura acolyte
     .desc = Uma armadura cultista malígna, feita de ósssos.
@@ -26,7 +26,7 @@ ent-ClothingOuterArmorRiot = traje anti-motim
     .desc = Um traje resistente a ataques corpo a corpo, perfeito para combater delinquentes pela estação.
 
 ent-ClothingOuterArmorScaf = traje scaf
-    .desc = A green and brown tactical suit for combat situations.
+    .desc = Um traje tático verde e marrom usado para situações de combate.
 
 ent-ClothingOuterArmorCaptainCarapace = armadura do capitão
     .desc = An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
