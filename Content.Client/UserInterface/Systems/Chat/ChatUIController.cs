@@ -542,7 +542,7 @@ public sealed class ChatUIController : UIController
 
             // Can only send local / radio / emote when attached to a non-ghost entity.
             // TODO: this logic is iffy (checking if controlling something that's NOT a ghost), is there a better way to check this?
-            if (_ghost is not {IsGhost: true})
+            if (_ghost is not { IsGhost: true })
             {
                 CanSendChannels |= ChatSelectChannel.Local;
                 CanSendChannels |= ChatSelectChannel.Whisper;
@@ -552,7 +552,7 @@ public sealed class ChatUIController : UIController
         }
 
         // Only ghosts and admins can send / see deadchat.
-        if (_admin.HasFlag(AdminFlags.Admin) || _ghost is {IsGhost: true})
+        if (_admin.HasFlag(AdminFlags.Admin) || _ghost is { IsGhost: true })
         {
             FilterableChannels |= ChatChannel.Dead;
             CanSendChannels |= ChatSelectChannel.Dead;
@@ -691,7 +691,7 @@ public sealed class ChatUIController : UIController
 
     public ChatSelectChannel MapLocalIfGhost(ChatSelectChannel channel)
     {
-        if (channel == ChatSelectChannel.Local && _ghost is {IsGhost: true})
+        if (channel == ChatSelectChannel.Local && _ghost is { IsGhost: true })
             return ChatSelectChannel.Dead;
 
         return channel;
@@ -858,7 +858,7 @@ public sealed class ChatUIController : UIController
                 UnreadMessageCountsUpdated?.Invoke(msg.Channel, count);
             }
         }
-        if(msg.Channel == ChatChannel.Radio && msg.SenderEntity == default && _ghost is not { IsGhost: true })
+        if (msg.Channel == ChatChannel.Radio && msg.SenderEntity == default && _ghost is not { IsGhost: true })
         {
             PlayChatSound();
         }
@@ -877,7 +877,7 @@ public sealed class ChatUIController : UIController
                 break;
 
             case ChatChannel.Dead:
-                if (_ghost is not {IsGhost: true})
+                if (_ghost is not { IsGhost: true })
                     break;
 
                 AddSpeechBubble(msg, SpeechBubble.SpeechType.Say);
@@ -965,7 +965,7 @@ public sealed class ChatUIController : UIController
             {
                 audio.PlayGlobal(sound, Filter.Local(), false, audioParams);
                 var radioCooldown = _config.GetCVar(CCVars.RadioCooldown);
-                _lastRadioPlayTime = _timing.CurTime + TimeSpan.FromSeconds(radioCooldown); 
+                _lastRadioPlayTime = _timing.CurTime + TimeSpan.FromSeconds(radioCooldown);
             }
         }
     }

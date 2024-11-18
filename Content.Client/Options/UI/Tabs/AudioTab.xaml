@@ -134,7 +134,12 @@
                     Text="{Loc 'ui-options-announcer-disable-multiple-sounds'}"
                     ToolTip="{Loc 'ui-options-announcer-disable-multiple-sounds-tooltip'}" />
                 <CheckBox Name="AdminSoundsCheckBox" Text="{Loc 'ui-options-admin-sounds'}" />
-            <CheckBox Name="radioChatterCheckbox" Text="Radio Chatter" />
+                <CheckBox Name="radioChatterCheckbox" Text="Radio Chatter" />
+                <BoxContainer Orientation="Horizontal">
+                    <Label Text="Radio Spam" />
+                    <Control MinSize="4 0" />
+                    <OptionButton Name="RadioCooldown" MinSize="100 0" />
+                </BoxContainer>
             </BoxContainer>
         </BoxContainer>
         <controls:StripeBack HasBottomEdge="False" HasMargins="False">
