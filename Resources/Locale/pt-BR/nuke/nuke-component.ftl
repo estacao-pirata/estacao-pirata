@@ -8,7 +8,7 @@ nuke-component-doafter-warning = Você começa a mexer nos fios para desativar a
 # Nuke UI
 nuke-user-interface-title = Explosivo de fissão nuclear
 nuke-user-interface-arm-button = LIGAR
-nuke-user-interface-disarm-button = DISARMAR
+nuke-user-interface-disarm-button = DESARMAR
 nuke-user-interface-anchor-button = ANCORAR
 nuke-user-interface-eject-button = EJETAR
 
@@ -18,7 +18,7 @@ nuke-user-interface-first-status-input-code = INSIRA CÓDIGO
 nuke-user-interface-first-status-input-time = INSIRA TEMPO
 nuke-user-interface-first-status-device-ready = DISPOSITIVO PRONTO
 nuke-user-interface-first-status-device-armed = DISPOSTIIVO ATIVO
-nuke-user-interface-first-status-device-cooldown = DEACTIVATED
+nuke-user-interface-first-status-device-cooldown = DESATIVADO
 nuke-user-interface-status-error = ERRO
 
 ## Lower status
@@ -44,4 +44,4 @@ nuke-slot-component-slot-name-disk = Disk
 
 ## Examine
 nuke-examine-armed = Aí, porquê aquela [color=red]luz vermelha[/color] tá piscando?
-nuke-examine-exploding = É... Acho que é tarde demais amigo.
+nuke-examine-exploding = É... Acho que é tarde demais, amigo.

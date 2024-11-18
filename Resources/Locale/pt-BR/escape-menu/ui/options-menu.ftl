@@ -147,7 +147,8 @@ ui-options-function-move-stored-item = Mover item armazenado
 ui-options-function-rotate-stored-item = Rotacionar item armazenado
 ui-options-function-offer-item = Oferecer algo
 ui-options-function-save-item-location = Salvar local do item
-ui-options-function-toggle-standing = Toggle standing
+ui-options-function-toggle-standing = Alternar ficar em pé
+ui-options-function-toggle-crawling-under = Alternar rastejar
 ui-options-static-storage-ui = Fixar janela de armazenamento à barra de atalhos
 
 ui-options-function-smart-equip-backpack = Smart-equip na mochila
@@ -281,3 +282,8 @@ ui-options-net-pvs-leave-tooltip = Isso limita a taxa na qual o cliente remove e
 ## Toggle window console command
 cmd-options-desc = Abre o menu de opções, opcionalmente com uma certa aba selecionada.
 cmd-options-help = Uso: options [aba]
+
+## Combat Options
+ui-options-function-look-up = Mirar
+ui-options-function-auto-get-up = Se levantar automaticamente depois de cair.
+ui-options-function-hold-look-up = Segurar para mirar

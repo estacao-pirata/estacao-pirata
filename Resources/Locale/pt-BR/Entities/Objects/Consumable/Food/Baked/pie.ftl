@@ -49,15 +49,15 @@ ent-FoodPieAmanita = torta de amanita
 ent-FoodPiePlump = torta balofa
     .desc = Urist adora cogumelos plump helmet pelo seus chapéis arredondados!
 
-ent-FoodTartGrape = tarte de uva
+ent-FoodTartGrape = torta de uva
     .desc = Uma sobremesa saborosa que lembra do vinho que você não fez.
 
-ent-FoodTartMime = tarte do mímico
+ent-FoodTartMime = torta do mímico
     .desc = "      "
 
-ent-FoodTartGapple = tarte de maçã dourada
+ent-FoodTartGapple = torta de maçã dourada
     .desc = Uma sobremesa saborosa de strudel de maçã dourada. Provavelmente não vai passar despercebida por um detector de metais.
 
-ent-FoodTartCoco = tarte de chocolate derretido
+ent-FoodTartCoco = torta de chocolate derretido
     .desc = Uma sobremesa saborosa feita de chocolate, com o núcleo derretido.
 
