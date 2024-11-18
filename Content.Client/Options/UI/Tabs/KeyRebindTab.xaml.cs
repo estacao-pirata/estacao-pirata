@@ -205,6 +205,7 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(ContentKeyFunctions.OfferItem);
             AddButton(ContentKeyFunctions.SaveItemLocation);
             AddButton(ContentKeyFunctions.ToggleStanding);
+            AddButton(ContentKeyFunctions.ToggleCrawlingUnder);
             AddButton(ContentKeyFunctions.LookUp);
             AddCheckBox("ui-options-function-auto-get-up", _cfg.GetCVar(CCVars.AutoGetUp), HandleToggleAutoGetUp);
             AddCheckBox("ui-options-function-hold-look-up", _cfg.GetCVar(CCVars.HoldLookUp), HandleHoldLookUp);
@@ -253,6 +254,14 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(EngineKeyFunctions.WindowCloseRecent);
             AddButton(EngineKeyFunctions.EscapeMenu);
             AddButton(ContentKeyFunctions.EscapeContext);
+
+            AddHeader("ui-options-header-targeting");
+            AddButton(ContentKeyFunctions.TargetHead);
+            AddButton(ContentKeyFunctions.TargetTorso);
+            AddButton(ContentKeyFunctions.TargetLeftArm);
+            AddButton(ContentKeyFunctions.TargetRightArm);
+            AddButton(ContentKeyFunctions.TargetLeftLeg);
+            AddButton(ContentKeyFunctions.TargetRightLeg);
 
             AddHeader("ui-options-header-misc");
             AddButton(ContentKeyFunctions.TakeScreenshot);

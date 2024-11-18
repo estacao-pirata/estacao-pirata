@@ -1,5 +1,5 @@
-ent-AirlockMaint = acesso para manutenção
-    .desc = { "Ela abre, ela fecha, talvez ela te esmague." }
+ent-AirlockMaint = porta hermética
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockGlass = porta hermética com janela
     .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
@@ -7,14 +7,6 @@ ent-AirlockGlass = porta hermética com janela
 ent-AirlockEngineeringGlass = porta hermética com janela
     .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
     .suffix = Engineering
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockMaintGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Maintenance
 
 ent-AirlockAtmosphericsGlass = porta hermética com janela
     .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
@@ -69,14 +61,8 @@ ent-AirlockEngineering = porta hermética
 ent-AirlockAtmospherics = porta hermética
     .desc = Ela abre, ela fecha, talvez ela te esmague.
 
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
-
 ent-AirlockCargo = porta hermética
     .desc = Ela abre, ela fecha, talvez ela te esmague.
-
-ent-AirlockCargoGlass = porta hermética com janela
-    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
 ent-AirlockMedical = porta hermética
     .desc = Ela abre, ela fecha, talvez ela te esmague.
@@ -94,9 +80,6 @@ ent-AirlockCommand = porta hermética
     .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockSecurity = porta hermética
-    .desc = Ela abre, ela fecha, talvez ela te esmague.
-
-ent-AirlockMaint = porta hermética
     .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockSyndicate = porta hermética

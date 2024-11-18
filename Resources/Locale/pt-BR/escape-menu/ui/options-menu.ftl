@@ -204,7 +204,6 @@ ui-options-function-editor-rotate-object = Girar
 ui-options-function-editor-flip-object = Virar
 ui-options-function-editor-copy-object = Copiar
 
-ui-options-function-open-abilities-menu = Abrir menu de ação
 ui-options-function-show-debug-console = Abrir Console
 ui-options-function-show-debug-monitors = Mostrar monitores de Debug
 ui-options-function-inspect-entity = Inspecionar Entidade

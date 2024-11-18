@@ -1,10 +1,15 @@
+using Content.Shared.ActionBlocker;
+using Content.Shared.CCVar;
 using Content.Shared.DoAfter;
 using Content.Shared.Gravity;
 using Content.Shared.Input;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Systems;
+using Content.Shared.Body.Components;
 using Content.Shared.Standing;
+using Content.Shared.Popups;
 using Content.Shared.Stunnable;
+using Robust.Shared.Configuration;
 using Robust.Shared.Input.Binding;
 using Robust.Shared.Player;
 using Robust.Shared.Serialization;
@@ -17,11 +22,16 @@ public abstract class SharedLayingDownSystem : EntitySystem
     [Dependency] private readonly StandingStateSystem _standing = default!;
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly SharedGravitySystem _gravity = default!;
+    [Dependency] private readonly IConfigurationManager _config = default!;
+    [Dependency] private readonly SharedPopupSystem _popups = default!;
+    [Dependency] private readonly MovementSpeedModifierSystem _speed = default!;
+    [Dependency] private readonly ActionBlockerSystem _actionBlocker = default!;
 
     public override void Initialize()
     {
         CommandBinds.Builder
             .Bind(ContentKeyFunctions.ToggleStanding, InputCmdHandler.FromDelegate(ToggleStanding))
+            .Bind(ContentKeyFunctions.ToggleCrawlingUnder, InputCmdHandler.FromDelegate(HandleCrawlUnderRequest, handle: false))
             .Register<SharedLayingDownSystem>();
 
         SubscribeNetworkEvent<ChangeLayingDownEvent>(OnChangeState);
@@ -49,17 +59,37 @@ public abstract class SharedLayingDownSystem : EntitySystem
         RaiseNetworkEvent(new ChangeLayingDownEvent());
     }
 
+    private void HandleCrawlUnderRequest(ICommonSession? session)
+    {
+        if (session == null
+            || session.AttachedEntity is not {} uid
+            || !TryComp<StandingStateComponent>(uid, out var standingState)
+            || !TryComp<LayingDownComponent>(uid, out var layingDown)
+            || !_actionBlocker.CanInteract(uid, null))
+            return;
+
+        var newState = !layingDown.IsCrawlingUnder;
+        if (standingState.CurrentState is StandingState.Standing)
+            newState = false; // If the entity is already standing, this function only serves a fallback method to fix its draw depth
+
+        // Do not allow to begin crawling under if it's disabled in config. We still, however, allow to stop it, as a failsafe.
+        if (newState && !_config.GetCVar(CCVars.CrawlUnderTables))
+        {
+            _popups.PopupEntity(Loc.GetString("crawling-under-tables-disabled-popup"), uid, session);
+            return;
+        }
+
+        layingDown.IsCrawlingUnder = newState;
+        _speed.RefreshMovementSpeedModifiers(uid);
+        Dirty(uid, layingDown);
+    }
+
     private void OnChangeState(ChangeLayingDownEvent ev, EntitySessionEventArgs args)
     {
         if (!args.SenderSession.AttachedEntity.HasValue)
             return;
 
         var uid = args.SenderSession.AttachedEntity.Value;
-
-        // TODO: Wizard
-        //if (HasComp<FrozenComponent>(uid))
-        //   return;
-
         if (!TryComp(uid, out StandingStateComponent? standing)
             || !TryComp(uid, out LayingDownComponent? layingDown))
             return;
@@ -89,10 +119,11 @@ public abstract class SharedLayingDownSystem : EntitySystem
 
     private void OnRefreshMovementSpeed(EntityUid uid, LayingDownComponent component, RefreshMovementSpeedModifiersEvent args)
     {
-        if (_standing.IsDown(uid))
-            args.ModifySpeed(component.SpeedModify, component.SpeedModify);
-        else
-            args.ModifySpeed(1f, 1f);
+        if (!_standing.IsDown(uid))
+            return;
+
+        var modifier = component.LyingSpeedModifier * (component.IsCrawlingUnder ? component.CrawlingUnderSpeedModifier : 1);
+        args.ModifySpeed(modifier, modifier);
     }
 
     private void OnParentChanged(EntityUid uid, LayingDownComponent component, EntParentChangedMessage args)
@@ -112,7 +143,9 @@ public abstract class SharedLayingDownSystem : EntitySystem
             || !Resolve(uid, ref layingDown, false)
             || standingState.CurrentState is not StandingState.Lying
             || !_mobState.IsAlive(uid)
-            || TerminatingOrDeleted(uid))
+            || TerminatingOrDeleted(uid)
+            || !TryComp<BodyComponent>(uid, out var body)
+            || body.LegEntities.Count == 0)
             return false;
 
         var args = new DoAfterArgs(EntityManager, uid, layingDown.StandingUpTime, new StandingUpDoAfterEvent(), uid)
@@ -125,6 +158,7 @@ public abstract class SharedLayingDownSystem : EntitySystem
             return false;
 
         standingState.CurrentState = StandingState.GettingUp;
+        layingDown.IsCrawlingUnder = false;
         return true;
     }
 
@@ -140,7 +174,7 @@ public abstract class SharedLayingDownSystem : EntitySystem
             return false;
         }
 
-        _standing.Down(uid, true, behavior != DropHeldItemsBehavior.NoDrop, standingState, setDrawDepth: true);
+        _standing.Down(uid, true, behavior != DropHeldItemsBehavior.NoDrop, standingState);
         return true;
     }
 }
@@ -148,6 +182,7 @@ public abstract class SharedLayingDownSystem : EntitySystem
 [Serializable, NetSerializable]
 public sealed partial class StandingUpDoAfterEvent : SimpleDoAfterEvent;
 
+[Serializable, NetSerializable]
 public enum DropHeldItemsBehavior : byte
 {
     NoDrop,

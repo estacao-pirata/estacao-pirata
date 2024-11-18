@@ -37,11 +37,11 @@ tickrate = 30
 limit = 10.0
 
 [build]
-fork_id = "EinsteinEngines"
+#! PLEASE set this for your fork
+fork_id = "Pirata-EinsteinEngines"
 
 [server]
-rules_file   = "Rules.txt"
-rules_header = "ui-rules-header"
+rules_file   = "PirataRuleset"
 
 [ooc]
 enable_during_round = true

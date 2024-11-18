@@ -96,7 +96,7 @@ namespace Content.Shared.Containers.ItemSlots
         /// </summary>
         public void AddItemSlot(EntityUid uid, string id, ItemSlot slot, ItemSlotsComponent? itemSlots = null)
         {
-            itemSlots ??= EntityManager.EnsureComponent<ItemSlotsComponent>(uid);
+            itemSlots ??= EnsureComp<ItemSlotsComponent>(uid);
             DebugTools.AssertOwner(uid, itemSlots);
 
             if (itemSlots.Slots.TryGetValue(id, out var existing))
@@ -110,7 +110,7 @@ namespace Content.Shared.Containers.ItemSlots
 
             slot.ContainerSlot = _containers.EnsureContainer<ContainerSlot>(uid, id);
             itemSlots.Slots[id] = slot;
-            Dirty(itemSlots);
+            Dirty(uid, itemSlots);
         }
 
         /// <summary>
@@ -134,7 +134,7 @@ namespace Content.Shared.Containers.ItemSlots
             if (itemSlots.Slots.Count == 0)
                 EntityManager.RemoveComponent(uid, itemSlots);
             else
-                Dirty(itemSlots);
+                Dirty(uid, itemSlots);
         }
 
         public bool TryGetSlot(EntityUid uid, string slotId, [NotNullWhen(true)] out ItemSlot? itemSlot, ItemSlotsComponent? component = null)
@@ -633,9 +633,9 @@ namespace Content.Shared.Containers.ItemSlots
                 return;
 
             if (args.TryEject && slot.HasItem)
-                TryEjectToHands(uid, slot, args.Session.AttachedEntity, false);
-            else if (args.TryInsert && !slot.HasItem && args.Session.AttachedEntity is EntityUid user)
-                TryInsertFromHand(uid, slot, user);
+                TryEjectToHands(uid, slot, args.Actor, true);
+            else if (args.TryInsert && !slot.HasItem)
+                TryInsertFromHand(uid, slot, args.Actor);
         }
         #endregion
 

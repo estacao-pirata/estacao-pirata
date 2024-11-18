@@ -71,7 +71,6 @@ humanoid-profile-editor-loadouts-remove-unusable-button-tooltip =
 humanoid-profile-editor-loadouts-no-loadouts = Nenhum loadout encontrado.
 humanoid-profile-editor-loadouts-points-label = Você tem {$points}/{$max} pontos
 humanoid-profile-editor-loadouts-tab = Loadout
-humanoid-profile-editor-traits-tab = Traits
 humanoid-profile-editor-traits-header = Você tem {$points ->
     [1] 1 point
     *[other] {$points} points

@@ -229,8 +229,8 @@
   - type: Strippable
   - type: UserInterface
     interfaces:
-    - key: enum.StrippingUiKey.Key
-      type: StrippableBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
   - type: DamageStateVisuals
     states:
       Alive:
@@ -292,8 +292,8 @@
   - type: Strippable
   - type: UserInterface
     interfaces:
-    - key: enum.StrippingUiKey.Key
-      type: StrippableBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
   - type: DamageStateVisuals
     states:
       Alive:
@@ -398,8 +398,8 @@
   - type: Strippable
   - type: UserInterface
     interfaces:
-    - key: enum.StrippingUiKey.Key
-      type: StrippableBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
   - type: DamageStateVisuals
     states:
       Alive:
@@ -561,7 +561,7 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
-      path: /Audio/Animals/fox_squeak.ogg
+      collection: Fox
   - type: Butcherable
     spawned:
     - id: FoodMeat
@@ -797,6 +797,9 @@
       types:
         Blunt: 1
         Caustic: 1
+  - type: MultiHandedItem
+  - type: Item
+    size: Huge
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-slime
   - type: MobPrice
@@ -822,13 +825,6 @@
   id: MobMonkeyPunpun
   description: A prominent representative of monkeys with unlimited access to alcohol.
   components:
-  - type: GhostRole
-    prob: 1
-    makeSentient: true
-    allowSpeech: true
-    allowMovement: true
-    name: ghost-role-information-punpun-name
-    description: ghost-role-information-punpun-description
   - type: GhostTakeoverAvailable
   - type: Butcherable
     butcheringType: Spike
@@ -856,6 +852,7 @@
     - TauCetiBasic
     - Monkey
     - Kobold
+  - type: Punpun
 
 - type: entity
   name: Tropico

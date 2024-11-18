@@ -1,4 +1,3 @@
-
 using Content.Server.Chemistry.Components;
 using Content.Server.Chemistry.Containers.EntitySystems;
 using Content.Shared.Chemistry;
@@ -160,7 +159,9 @@ public sealed class MedipenRefillerSystem : SharedMedipenRefillerSystem
 
         var state = new MedipenRefillerUpdateState(BuildInputContainerData(entity), BuildBufferData(entity), entity.Comp.IsActivated, resultName, (int) time.TotalSeconds);
 
-        _ui.TrySetUiState(entity, MedipenRefillerUiKey.Key, state);
+        _ui.SetUiState(new Entity<UserInterfaceComponent?>(entity, null),
+                       MedipenRefillerUiKey.Key,
+		       state);
     }
     #endregion
 
