@@ -37,7 +37,6 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(culture, "LOC", FormatLoc);
             _loc.AddFunction(culture, "NATURALFIXED", FormatNaturalFixed);
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
-            _loc.AddFunction(culture, "MANY", FormatMany); // TODO: Temporary fix for MANY() fluent errors. Remove after resolve errors.
 
 
             /*
@@ -56,7 +55,6 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(cultureEn, "LOC", FormatLoc);
             _loc.AddFunction(cultureEn, "NATURALFIXED", FormatNaturalFixed);
             _loc.AddFunction(cultureEn, "NATURALPERCENT", FormatNaturalPercent);
-            _loc.AddFunction(cultureEn, "MANY", FormatMany); // TODO: Temporary fix for MANY() fluent errors. Remove after resolve errors.
         }
 
         private ILocValue FormatMany(LocArgs args)
