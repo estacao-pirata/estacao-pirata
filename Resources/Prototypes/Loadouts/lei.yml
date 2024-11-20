@@ -1,6 +1,6 @@
 - type: loadout
   id: BookLeiColetanea
-  category: JobsSecurity
+  category: JobsSecurityAUncategorized
   cost: 0
   exclusive: true
   requirements:
