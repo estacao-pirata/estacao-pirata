@@ -224,7 +224,7 @@ trait-description-LatentPsychic = Sua mente e alma estão abertas ao noosfera, p
 trait-name-PsionicInsulation = χ Desalinhamento de Onda
 trait-description-PsionicInsulation = Você é um autômato de carne animado por neurotransmissores. 
  Dentro do seu crânio há um saco de 1,5kg de carne fingindo ser senciente. Pela teoria epistemológica moderna, 
- você nem é um sofista. A boa notícia é que você é imune à maioria dos efeitos positivos e negativos dos poderes psíquicos. 
+ você não é nem sapiente. A boa notícia é que você é imune à maioria dos efeitos positivos e negativos dos poderes psíquicos. 
  Podem haver outras consequências dessa condição.
 
 trait-name-NaturalTelepath = Telepata Natural
