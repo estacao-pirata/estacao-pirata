@@ -228,8 +228,6 @@
     - TauCetiBasic
     - RobotTalk
   - type: PsionicInsulation
-  - type: TwistedConstructionTarget
-    replacementProto: ConstructShell
 
 - type: entity
   abstract: true

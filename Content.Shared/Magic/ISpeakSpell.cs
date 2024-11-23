@@ -1,6 +1,4 @@
-﻿using Content.Shared.Chat;
-
-namespace Content.Shared.Magic;
+﻿namespace Content.Shared.Magic;
 
 public interface ISpeakSpell // The speak n spell interface
 {
@@ -8,6 +6,4 @@ public interface ISpeakSpell // The speak n spell interface
     /// Localized string spoken by the caster when casting this spell.
     /// </summary>
     public string? Speech { get; }
-
-    public InGameICChatType ChatType { get; }
 }

@@ -191,7 +191,6 @@
   parent: BaseWall
   id: WallCult
   name: cult wall
-  description: Keeps the cult in and the crew out.
   components:
   - type: Tag
     tags:
@@ -216,9 +215,6 @@
   - type: IconSmooth
     key: walls
     base: cult
-  - type: Construction
-    graph: CultGirder
-    node: wall
 
 - type: entity
   parent: BaseWall

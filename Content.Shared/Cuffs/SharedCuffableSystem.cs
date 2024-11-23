@@ -666,11 +666,8 @@ namespace Content.Shared.Cuffs
                 if (cuff.BreakOnRemove)
                 {
                     QueueDel(cuffsToRemove);
-                    if (cuff.BrokenPrototype.HasValue)
-                    {
-                        var trash = Spawn(cuff.BrokenPrototype, Transform(cuffsToRemove).Coordinates);
-                        _hands.PickupOrDrop(user, trash);
-                    }
+                    var trash = Spawn(cuff.BrokenPrototype, Transform(cuffsToRemove).Coordinates);
+                    _hands.PickupOrDrop(user, trash);
                 }
                 else
                 {

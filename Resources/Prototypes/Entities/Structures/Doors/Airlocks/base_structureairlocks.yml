@@ -153,9 +153,6 @@
   - type: InteractionVerbs
     allowedVerbs:
     - KnockOn
-  - type: TwistedConstructionTarget
-    replacementProto: CultDoor
-    doAfterDelay: 10
   placement:
     mode: SnapgridCenter
 

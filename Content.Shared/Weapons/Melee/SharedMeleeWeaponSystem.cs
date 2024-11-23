@@ -389,12 +389,7 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
         Dirty(weaponUid, weapon);
 
         // Do this AFTER attack so it doesn't spam every tick
-        // White Dream: Added PlayerUid
-        var ev = new AttemptMeleeEvent
-        {
-            PlayerUid = user
-        };
-
+        var ev = new AttemptMeleeEvent();
         RaiseLocalEvent(weaponUid, ref ev);
 
         if (ev.Cancelled)

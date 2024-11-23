@@ -1,5 +1,4 @@
 ﻿using Content.Client.Construction;
-// using Content.Client.WhiteDream.BloodCult.UI;
 using Content.Shared.Construction.Prototypes;
 using Content.Shared.RadialSelector;
 using Content.Shared.ShortConstruction;
@@ -37,13 +36,11 @@ public sealed class ShortConstructionSystem : EntitySystem
             return;
         }
 
-        var hijack = new ConstructionPlacementHijack(_construction, prototype);
-
         _placement.BeginPlacing(new PlacementInformation
             {
                 IsTile = false,
                 PlacementOption = prototype.PlacementMode
             },
-            hijack);
+            new ConstructionPlacementHijack(_construction, prototype));
     }
 }

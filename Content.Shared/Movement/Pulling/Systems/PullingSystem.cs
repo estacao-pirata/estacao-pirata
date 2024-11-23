@@ -1,5 +1,3 @@
-using System.Diagnostics.CodeAnalysis;
-using System.Numerics;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Alert;
@@ -407,16 +405,6 @@ public sealed class PullingSystem : EntitySystem
         return false;
     }
 
-    public bool TryGetPulledEntity(EntityUid puller, [NotNullWhen(true)] out EntityUid? pulling, PullerComponent? component = null)
-    {
-        pulling = null;
-        if (!Resolve(puller, ref component, false) || !component.Pulling.HasValue)
-            return false;
-
-        pulling = component.Pulling;
-        return true;
-    }
-
     public bool IsPulling(EntityUid puller, PullerComponent? component = null)
     {
         return Resolve(puller, ref component, false) && component.Pulling != null;
@@ -596,11 +584,8 @@ public sealed class PullingSystem : EntitySystem
         return true;
     }
 
-    public bool TryStopPull(EntityUid pullableUid, PullableComponent? pullable = null, EntityUid? user = null)
+    public bool TryStopPull(EntityUid pullableUid, PullableComponent pullable, EntityUid? user = null)
     {
-        if (!Resolve(pullableUid, ref pullable, false))
-            return false;
-
         var pullerUidNull = pullable.Puller;
 
         if (pullerUidNull == null)
