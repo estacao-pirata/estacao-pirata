@@ -36,7 +36,10 @@ public sealed class FootPrintsSystem : EntitySystem
         _layingQuery = GetEntityQuery<LayingDownComponent>();
 
         SubscribeLocalEvent<FootPrintsComponent, ComponentStartup>(OnStartupComponent);
-        SubscribeLocalEvent<FootPrintsComponent, MoveEvent>(OnMove);
+	// Pirata
+	// Desativa geração de footprints de arrastar com intuito de limitar spam de entidades
+	//
+        // SubscribeLocalEvent<FootPrintsComponent, MoveEvent>(OnMove);
     }
 
     private void OnStartupComponent(EntityUid uid, FootPrintsComponent component, ComponentStartup args)

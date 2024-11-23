@@ -16,7 +16,10 @@ public sealed class PuddleFootPrintsSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<PuddleFootPrintsComponent, EndCollideEvent>(OnStepTrigger);
+	// Pirata
+	// Desativa geração de footprints com intuito de limitar spam de entidades
+	//
+        // SubscribeLocalEvent<PuddleFootPrintsComponent, EndCollideEvent>(OnStepTrigger);
     }
 
     private void OnStepTrigger(EntityUid uid, PuddleFootPrintsComponent component, ref EndCollideEvent args)
