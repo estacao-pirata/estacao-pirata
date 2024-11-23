@@ -418,6 +418,7 @@
     minimumPlayers: 15
     reoccurrenceDelay: 30
     startAnnouncement: false
+    maxOccurences: 2
   - type: AlertLevelInterceptionRule
   - type: TraitorRule
   - type: AntagSelection
