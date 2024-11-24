@@ -244,10 +244,6 @@ public sealed class BloodCultRuleSystem : GameRuleSystem<BloodCultRuleComponent>
                 return;
 
             cult.WinCondition = CultWinCondition.Failure;
-
-            // Check for all at once gamemode
-            if (!GameTicker.GetActiveGameRules().Where(HasComp<RampingStationEventSchedulerComponent>).Any())
-                _roundEndSystem.EndRound();
         }
     }
 
