@@ -62,7 +62,7 @@
 
 - type: entity
   parent: BaseItem
-  id: BookLeiColetanea
+  id: BaseBookLeiColetanea
   components:
   - type: Item
     size: Large
@@ -70,12 +70,25 @@
     sprite: EstacaoPirata/Objects/Misc/law_book.rsi
     layers:
       - state: base
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  parent: BaseBookLeiColetanea
+  id: BookLeiColetanea
   - type: SpawnItemsOnUse
     items:
       - id: BookLei1
       - id: BookLei2
       - id: BookLei3
       - id: BookLei4
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  parent: BaseBookLeiColetanea
+  id: BaseBookLeiColetaneaParaCadetes
+  - type: SpawnItemsOnUse
+    items:
+      - id: BookLei1
+      - id: BookLei3
+      - id: BookSecurity

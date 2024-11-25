@@ -11,3 +11,17 @@
         - Security
   items:
     - BookLeiColetanea
+
+- type: loadout
+  id: BookLeiColetaneaParaCadetes
+  category: JobsSecurityAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEquipment
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - BookLeiColetaneaParaCadetes
