@@ -87,7 +87,7 @@
 
 - type: entity
   parent: BaseBookLeiColetanea
-  id: BaseBookLeiColetaneaParaCadetes
+  id: BookLeiColetaneaParaCadetes
   components:
   - type: SpawnItemsOnUse
     items:
