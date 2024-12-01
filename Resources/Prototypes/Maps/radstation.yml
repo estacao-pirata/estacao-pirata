@@ -2,7 +2,7 @@
   id: Rad
   mapName: 'RadStation'
   mapPath: /Maps/radstation.yml
-  minPlayers: 35
+  minPlayers: 15
   stations:
     RadStation:
       stationProto: StandardNanotrasenStation
