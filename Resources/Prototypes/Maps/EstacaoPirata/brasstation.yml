@@ -2,8 +2,8 @@
   id: Bras
   mapName: 'BrasStation'
   mapPath: /Maps/EstacaoPirata/brasstation.yml
-  minPlayers: 0
-  maxPlayers: 45
+  minPlayers: 5
+  maxPlayers: 25
   stations:
     BrasStation:
       stationProto: StandardNanotrasenStation

@@ -3,7 +3,7 @@
   mapName: Lighthouse
   mapPath: /Maps/lighthouse.yml
   minPlayers: 15
-  maxPlayers: 55
+  maxPlayers: 35
   stations:
     Lighthouse:
       stationProto: StandardNanotrasenStation

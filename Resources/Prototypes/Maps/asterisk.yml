@@ -3,7 +3,7 @@
   mapName: 'Asterisk'
   mapPath: /Maps/asterisk.yml
   minPlayers: 0
-  maxPlayers: 60
+  maxPlayers: 30
   stations:
     Asterisk:
       stationProto: StandardNanotrasenStation

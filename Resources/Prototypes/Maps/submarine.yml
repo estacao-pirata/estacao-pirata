@@ -68,7 +68,7 @@
           #justice
             ChiefJustice: [ 1, 1 ]
             Clerk: [ 1, 1 ]
-            Lawyer: [ 2, 21 ]
+            Lawyer: [ 2, 2 ]
             Prosecutor: [ 1, 1]
           #supply
             CargoTechnician: [ 4, 6 ]
