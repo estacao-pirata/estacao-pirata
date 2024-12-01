@@ -69,7 +69,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: GameRule
-    minPlayers: 25
+    minPlayers: 20
   - type: RandomMetadata #this generates the random operation name cuz it's cool.
     nameSegments:
     - operationPrefix
@@ -239,6 +239,8 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: RampingStationEventScheduler
+  - type: GameRule
+    minPlayers: 8
 
 - type: entity
   id: HellshiftStationEventScheduler
