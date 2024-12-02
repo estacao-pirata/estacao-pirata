@@ -11,6 +11,18 @@
     - SubGamemodesRule
 
 - type: gamePreset
+  id: SurvivalEz
+  alias:
+    - ez
+  showInVote: true
+  name: Survival Ez (fácil)
+  description: Tal qual survival, menos caos
+  rules:
+    - EzStationEventScheduler
+    - BasicRoundstartVariation
+    - SubGamemodesRule
+
+- type: gamePreset
   id: SurvivalHellshift
   alias:
     - hellshift
