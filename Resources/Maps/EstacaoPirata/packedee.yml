@@ -39998,10 +39998,11 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 53.5,32.5
       parent: 2
-  - uid: 6934
+  - uid: 6936
     components:
     - type: Transform
-      pos: 22.5,17.5
+      rot: 3.141592653589793 rad
+      pos: 20.5,17.5
       parent: 2
   - uid: 13171
     components:
@@ -40009,20 +40010,17 @@ entities:
       rot: 3.141592653589793 rad
       pos: 21.5,42.5
       parent: 2
-- proto: CryogenicSleepUnitSpawner
+- proto: CryogenicSleepUnitSpawnerLateJoin
   entities:
+  - uid: 6934
+    components:
+    - type: Transform
+      pos: 22.5,17.5
+      parent: 2
   - uid: 6935
     components:
     - type: Transform
       pos: 22.5,18.5
-      parent: 2
-- proto: CryogenicSleepUnitSpawnerLateJoin
-  entities:
-  - uid: 6936
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 20.5,17.5
       parent: 2
 - proto: CryoPod
   entities:
