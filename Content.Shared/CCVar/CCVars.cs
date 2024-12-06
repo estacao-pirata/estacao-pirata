@@ -8,7 +8,7 @@ namespace Content.Shared.CCVar
 {
     // ReSharper disable once InconsistentNaming
     [CVarDefs]
-    public sealed class CCVars : CVars
+    public sealed partial class CCVars : CVars
     {
         /*
          * Server
@@ -764,7 +764,6 @@ namespace Content.Shared.CCVar
         // Round  end sound (APC Destroyed)
         public static readonly CVarDef<bool> RestartSoundsEnabled =
             CVarDef.Create("ambience.restart_sounds_enabled", true, CVar.ARCHIVE | CVar.CLIENTONLY);
-
 
         /*
          * Admin sounds
