@@ -23,6 +23,18 @@
     - SubGamemodesRule
 
 - type: gamePreset
+  id: SurvivalMedium
+  alias:
+    - medium
+  showInVote: true
+  name: Survival Médio
+  description: Tal qual survival, um pouco menos caos (antigo izi)
+  rules:
+    - MediumStationEventScheduler
+    - BasicRoundstartVariation
+    - SubGamemodesRule
+
+- type: gamePreset
   id: SurvivalHellshift
   alias:
     - hellshift
