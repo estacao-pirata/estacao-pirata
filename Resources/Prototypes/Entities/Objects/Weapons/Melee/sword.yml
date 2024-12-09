@@ -25,6 +25,12 @@
     heavyStaminaCost: 5
     maxTargets: 7
     angle: 80
+  - type: DamageOtherOnHit
+    staminaCost: 5
+  - type: EmbeddableProjectile
+  - type: EmbedPassiveDamage
+  - type: ThrowingAngle
+    angle: 225
   - type: Reflect
     enabled: true
     # Design intent: a robust captain or tot can sacrifice movement to make the most of this weapon, but they have to
@@ -69,6 +75,12 @@
     heavyStaminaCost: 15
     maxTargets: 1
     angle: 20
+  - type: DamageOtherOnHit
+    staminaCost: 10
+  - type: EmbeddableProjectile
+  - type: EmbedPassiveDamage
+  - type: ThrowingAngle
+    angle: 225
   - type: Item
     size: Normal
     sprite: DeltaV/Objects/Weapons/Melee/katana.rsi #DeltaV
@@ -88,6 +100,8 @@
     damage:
       types:
         Slash: 25
+  - type: ThrowingAngle
+    angle: 300
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -134,6 +148,12 @@
     angle: 80
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
+  - type: DamageOtherOnHit
+    staminaCost: 5
+  - type: EmbeddableProjectile
+  - type: EmbedPassiveDamage
+  - type: ThrowingAngle
+    angle: 225
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/machete.rsi
@@ -166,6 +186,12 @@
     angle: 200
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
+  - type: DamageOtherOnHit
+    staminaCost: 18
+  - type: EmbeddableProjectile
+  - type: EmbedPassiveDamage
+  - type: ThrowingAngle
+    angle: 225
   - type: Item
     size: Normal
   - type: Clothing
@@ -201,6 +227,12 @@
     angle: 40
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
+  - type: DamageOtherOnHit
+    staminaCost: 5
+  - type: EmbeddableProjectile
+  - type: EmbedPassiveDamage
+  - type: ThrowingAngle
+    angle: 225
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/cutlass.rsi
@@ -229,6 +261,7 @@
           Radiation: 10
       soundHit:
         path: /Audio/Effects/explosion_small1.ogg
+    - type: DamageOtherOnHit
     - type: Reflect
       enabled: true
       reflectProb: 0.5 # In robust hands, deflects as well as an e-sword
