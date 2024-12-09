@@ -258,8 +258,18 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: RampingStationEventScheduler
+    chaosModifier: 1.5 # By default, one event each 30-10 seconds after two hours. Changing CVars will cause this to deviate.
+    startingChaosRatio: 0.05 # Starts as slow as survival, but quickly ramps up
+    shiftLengthModifier: 2.5
+
+- type: entity
+  id: MediumStationEventScheduler
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: RampingStationEventScheduler
     chaosModifier: 2.5 # By default, one event each 30-10 seconds after two hours. Changing CVars will cause this to deviate.
-    startingChaosRatio: 0.025 # Starts as slow as survival, but quickly ramps up
+    startingChaosRatio: 0.05 # Starts as slow as survival, but quickly ramps up
     shiftLengthModifier: 2.5
 
 - type: entity
