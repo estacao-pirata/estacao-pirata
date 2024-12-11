@@ -8529,3 +8529,17 @@ Entries:
   id: 6567
   time: '2024-12-08T03:30:08.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1307
+- author: dge21
+  changes:
+    - type: Fix
+      message: 'Fixed melee weapons. '
+  id: 6568
+  time: '2024-12-10T00:43:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1330
+- author: stellar-novas
+  changes:
+    - type: Tweak
+      message: Flashes are bright again!
+  id: 6569
+  time: '2024-12-10T19:13:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1331
