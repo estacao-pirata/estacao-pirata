@@ -27,6 +27,7 @@ namespace Content.Client.Options.UI.Tabs
             RestartSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.RestartSoundsEnabled);
             EventMusicCheckBox.Pressed = _cfg.GetCVar(CCVars.EventMusicEnabled);
             AdminSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.AdminSoundsEnabled);
+            radioChatterCheckbox.Pressed = _cfg.GetCVar(CCVars.RadioSoundsEnabled);
 
             ApplyButton.OnPressed += OnApplyButtonPressed;
             ResetButton.OnPressed += OnResetButtonPressed;
@@ -40,16 +41,25 @@ namespace Content.Client.Options.UI.Tabs
                 LobbyVolumeSlider,
                 InterfaceVolumeSlider,
                 AnnouncerVolumeSlider,
+                RadioVolumeSlider,
 
                 LobbyMusicCheckBox,
                 RestartSoundsCheckBox,
                 EventMusicCheckBox,
                 AnnouncerDisableMultipleSoundsCheckBox,
-                AdminSoundsCheckBox
+                AdminSoundsCheckBox,
+                radioChatterCheckbox
             );
 
             AmbienceSoundsSlider.MinValue = _cfg.GetCVar(CCVars.MinMaxAmbientSourcesConfigured);
             AmbienceSoundsSlider.MaxValue = _cfg.GetCVar(CCVars.MaxMaxAmbientSourcesConfigured);
+
+            RadioCooldown.AddItem(Loc.GetString("ui-options-lighting-very-low"));
+            RadioCooldown.AddItem(Loc.GetString("ui-options-lighting-low"));
+            RadioCooldown.AddItem(Loc.GetString("ui-options-lighting-medium"));
+            RadioCooldown.AddItem(Loc.GetString("ui-options-lighting-high"));
+            RadioCooldown.OnItemSelected += OnRadioSpanChanged;
+            RadioCooldown.SelectId(GetConfigRadioSpam());
 
             Reset();
             return;
@@ -85,12 +95,14 @@ namespace Content.Client.Options.UI.Tabs
                 LobbyVolumeSlider,
                 InterfaceVolumeSlider,
                 AnnouncerVolumeSlider,
+                RadioVolumeSlider,
 
                 LobbyMusicCheckBox,
                 RestartSoundsCheckBox,
                 EventMusicCheckBox,
                 AnnouncerDisableMultipleSoundsCheckBox,
-                AdminSoundsCheckBox
+                AdminSoundsCheckBox,
+                radioChatterCheckbox
             );
 
             base.Dispose(disposing);
@@ -113,7 +125,51 @@ namespace Content.Client.Options.UI.Tabs
             }
         }
 
+        private void OnRadioSpanChanged(OptionButton.ItemSelectedEventArgs args)
+        {
+            RadioCooldown.SelectId(args.Id);
+            UpdateChanges();
+        }
 
+        private int GetConfigRadioSpam()
+        {
+            var val = _cfg.GetCVar(CCVars.RadioCooldown);
+            if (val == 10f)
+                return 0;
+
+            if (val >= 5f)
+                return 1;
+
+            if (val >= 2f)
+                return 2;
+
+            if (val >= 0f)
+                return 3;
+
+            return 2;
+        }
+
+        public void SetConfigRadioSpam(int value)
+        {
+            switch (value)
+            {
+                case 0:
+                    _cfg.SetCVar(CCVars.RadioCooldown, 10f);
+                    break;
+                case 1:
+                    _cfg.SetCVar(CCVars.RadioCooldown, 5f);
+                    break;
+                case 2:
+                    _cfg.SetCVar(CCVars.RadioCooldown, 2f);
+                    break;
+                case 3:
+                    _cfg.SetCVar(CCVars.RadioCooldown, 0f);
+                    break;
+                default: // = QualityMedium
+                    _cfg.SetCVar(CCVars.RadioCooldown, 2f);
+                    break;
+            }
+        }
         private void OnApplyButtonPressed(BaseButton.ButtonEventArgs args)
         {
             _cfg.SetCVar(CVars.AudioMasterVolume, MasterVolumeSlider.Value / 100f * ContentAudioSystem.MasterVolumeMultiplier);
@@ -125,14 +181,18 @@ namespace Content.Client.Options.UI.Tabs
             _cfg.SetCVar(CCVars.LobbyMusicVolume, LobbyVolumeSlider.Value / 100f * ContentAudioSystem.LobbyMultiplier);
             _cfg.SetCVar(CCVars.InterfaceVolume, InterfaceVolumeSlider.Value / 100f * ContentAudioSystem.InterfaceMultiplier);
             _cfg.SetCVar(CCVars.AnnouncerVolume, AnnouncerVolumeSlider.Value / 100f * ContentAudioSystem.AnnouncerMultiplier);
+            _cfg.SetCVar(CCVars.RadioVolume, RadioVolumeSlider.Value / 100f * ContentAudioSystem.RadioMultiplier);
 
-            _cfg.SetCVar(CCVars.MaxAmbientSources, (int)AmbienceSoundsSlider.Value);
+            _cfg.SetCVar(CCVars.MaxAmbientSources, (int) AmbienceSoundsSlider.Value);
 
             _cfg.SetCVar(CCVars.LobbyMusicEnabled, LobbyMusicCheckBox.Pressed);
             _cfg.SetCVar(CCVars.RestartSoundsEnabled, RestartSoundsCheckBox.Pressed);
             _cfg.SetCVar(CCVars.EventMusicEnabled, EventMusicCheckBox.Pressed);
             _cfg.SetCVar(CCVars.AnnouncerDisableMultipleSounds, AnnouncerDisableMultipleSoundsCheckBox.Pressed);
             _cfg.SetCVar(CCVars.AdminSoundsEnabled, AdminSoundsCheckBox.Pressed);
+            _cfg.SetCVar(CCVars.RadioSoundsEnabled, radioChatterCheckbox.Pressed);
+            var value = RadioCooldown.SelectedId;
+            SetConfigRadioSpam(value);
             _cfg.SaveToFile();
             UpdateChanges();
         }
@@ -151,6 +211,7 @@ namespace Content.Client.Options.UI.Tabs
             LobbyVolumeSlider.Value = _cfg.GetCVar(CCVars.LobbyMusicVolume) * 100f / ContentAudioSystem.LobbyMultiplier;
             InterfaceVolumeSlider.Value = _cfg.GetCVar(CCVars.InterfaceVolume) * 100f / ContentAudioSystem.InterfaceMultiplier;
             AnnouncerVolumeSlider.Value = _cfg.GetCVar(CCVars.AnnouncerVolume) * 100f / ContentAudioSystem.AnnouncerMultiplier;
+            RadioVolumeSlider.Value = _cfg.GetCVar(CCVars.RadioVolume) * 100f / ContentAudioSystem.RadioMultiplier;
 
             AmbienceSoundsSlider.Value = _cfg.GetCVar(CCVars.MaxAmbientSources);
 
@@ -159,6 +220,7 @@ namespace Content.Client.Options.UI.Tabs
             EventMusicCheckBox.Pressed = _cfg.GetCVar(CCVars.EventMusicEnabled);
             AnnouncerDisableMultipleSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.AnnouncerDisableMultipleSounds);
             AdminSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.AdminSoundsEnabled);
+            radioChatterCheckbox.Pressed = _cfg.GetCVar(CCVars.RadioSoundsEnabled);
             UpdateChanges();
         }
 
@@ -179,17 +241,22 @@ namespace Content.Client.Options.UI.Tabs
                 Math.Abs(InterfaceVolumeSlider.Value - _cfg.GetCVar(CCVars.InterfaceVolume) * 100f / ContentAudioSystem.InterfaceMultiplier) < 0.01f;
             var isAnnouncerVolumeSame =
                 Math.Abs(AnnouncerVolumeSlider.Value - _cfg.GetCVar(CCVars.AnnouncerVolume) * 100f / ContentAudioSystem.AnnouncerMultiplier) < 0.01f;
+            var isRadioVolumeSame =
+               Math.Abs(RadioVolumeSlider.Value - _cfg.GetCVar(CCVars.RadioVolume) * 100f / ContentAudioSystem.RadioMultiplier) < 0.01f;
 
-            var isAmbientSoundsSame = (int)AmbienceSoundsSlider.Value == _cfg.GetCVar(CCVars.MaxAmbientSources);
+            var isRadioSpamSame = RadioCooldown.SelectedId == GetConfigRadioSpam();
+
+            var isAmbientSoundsSame = (int) AmbienceSoundsSlider.Value == _cfg.GetCVar(CCVars.MaxAmbientSources);
             var isLobbySame = LobbyMusicCheckBox.Pressed == _cfg.GetCVar(CCVars.LobbyMusicEnabled);
             var isRestartSoundsSame = RestartSoundsCheckBox.Pressed == _cfg.GetCVar(CCVars.RestartSoundsEnabled);
             var isEventSame = EventMusicCheckBox.Pressed == _cfg.GetCVar(CCVars.EventMusicEnabled);
             var isAnnouncerDisableMultipleSoundsSame = AnnouncerDisableMultipleSoundsCheckBox.Pressed == _cfg.GetCVar(CCVars.AnnouncerDisableMultipleSounds);
             var isAdminSoundsSame = AdminSoundsCheckBox.Pressed == _cfg.GetCVar(CCVars.AdminSoundsEnabled);
+            var isRadioSoundsSame = radioChatterCheckbox.Pressed == _cfg.GetCVar(CCVars.RadioSoundsEnabled);
             var isEverythingSame = isMasterVolumeSame && isMidiVolumeSame && isAmbientVolumeSame
                 && isAmbientMusicVolumeSame && isAmbientSoundsSame && isLobbySame && isRestartSoundsSame && isEventSame
                 && isAnnouncerDisableMultipleSoundsSame && isAdminSoundsSame && isLobbyVolumeSame
-                && isInterfaceVolumeSame && isAnnouncerVolumeSame;
+                && isInterfaceVolumeSame && isAnnouncerVolumeSame && isRadioVolumeSame && isRadioSoundsSame && isRadioSpamSame;
             ApplyButton.Disabled = isEverythingSame;
             ResetButton.Disabled = isEverythingSame;
             MasterVolumeLabel.Text =
@@ -206,7 +273,9 @@ namespace Content.Client.Options.UI.Tabs
                 Loc.GetString("ui-options-volume-percent", ("volume", InterfaceVolumeSlider.Value / 100));
             AnnouncerVolumeLabel.Text =
                 Loc.GetString("ui-options-volume-percent", ("volume", AnnouncerVolumeSlider.Value / 100));
-            AmbienceSoundsLabel.Text = ((int)AmbienceSoundsSlider.Value).ToString();
+            RadioVolumeLabel.Text =
+                Loc.GetString("ui-options-volume-percent", ("volume", RadioVolumeSlider.Value / 100));
+            AmbienceSoundsLabel.Text = ((int) AmbienceSoundsSlider.Value).ToString();
         }
     }
 }
