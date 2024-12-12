@@ -81,13 +81,8 @@
   - type: Speech
   - type: TypingIndicator
     proto: guardian
-  - type: Pullable
   - type: Puller
     needsHands: false
-  - type: ActionsContainer
-  - type: ContainerContainer
-    containers:
-      actions: !type:Container
   - type: Visibility
   - type: ContentEye
   - type: Actions
@@ -191,6 +186,7 @@
         enum.ConstructVisualsState.Glow:
           True: { visible: false }
           False: { visible: true }
+  - type: Pullable
 
 - type: entity
   parent: ConstructBase
@@ -236,6 +232,7 @@
   - type: StatusEffects
     allowed:
     - PhaseShifted
+  - type: Pullable
 
 - type: entity
   id: ConstructHarvester
